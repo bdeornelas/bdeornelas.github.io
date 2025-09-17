@@ -1,14 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f172a; /* slate-900 */
-  background-image: radial-gradient(circle at 1px 1px, #1e293b 1px, transparent 0); /* slate-800 dots */
+  background-image: radial-gradient(circle at 1px 1px, #1e293b 1px, transparent 0); /* dots */
   background-size: 24px 24px;
 }
+
+/* Testo con gradiente */
 .gradient-text {
   background: linear-gradient(90deg, #38bdf8, #a78bfa);
   -webkit-background-clip: text;
@@ -16,17 +19,22 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* Cards effetto vetro */
 .glass-card {
-  background: rgba(30, 41, 59, 0.5); /* slate-800 con trasparenza */
+  background: rgba(30, 41, 59, 0.5); /* slate-800 trasparente */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(51, 65, 85, 0.5); /* slate-700 con trasparenza */
+  border: 1px solid rgba(51, 65, 85, 0.5); /* slate-700 trasparente */
+  transition: all 0.3s ease;
 }
+
+/* Glow al passaggio sui bottoni */
 .btn-glow:hover {
   box-shadow: 0 0 15px 2px rgba(56, 189, 248, 0.4);
 }
 
-/* Animazione per l'effetto di pulsazione della luce */
+/* Animazione pulsazione luce */
 @keyframes pulse-glow {
   0%, 100% {
     transform: scale(0.95);
@@ -37,7 +45,7 @@ body {
     opacity: 0.8;
   }
 }
+
 .pulse-glow-animation {
   animation: pulse-glow 6s infinite ease-in-out;
 }
-
