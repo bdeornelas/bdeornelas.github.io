@@ -1,155 +1,118 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chi sono | Dr. Benjamin De Ornelas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Sono | Dr. Benjamin De Ornelas</title>
 
   <!-- SEO -->
-  <meta name="description" content="Chi sono: Dr. Benjamin De Ornelas, cardiologo a Milano. Formazione, competenze e contatti." />
-  <link rel="canonical" href="https://bdeornelas.github.io/about.html" />
+  <meta name="description" content="Chi sono: Dr. Benjamin De Ornelas, cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare.">
+  <link rel="canonical" href="https://bdeornelas.github.io/about.html">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Chi sono | Dr. Benjamin De Ornelas" />
-  <meta property="og:description" content="Cardiologo a Milano: percorso, competenze e missione clinica." />
-  <meta property="og:type" content="profile" />
-  <meta property="og:url" content="https://bdeornelas.github.io/about.html" />
-  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Chi sono | Dr. Benjamin De Ornelas" />
-  <meta name="twitter:description" content="Cardiologo a Milano: percorso, competenze e missione clinica." />
-  <meta name="twitter:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg" />
+  <meta property="og:title" content="Chi Sono | Dr. Benjamin De Ornelas">
+  <meta property="og:description" content="Cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare. Scopri di più sulla mia formazione ed esperienza.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bdeornelas.github.io/about.html">
+  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg">
 
   <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.svg" />
+  <link rel="icon" href="/assets/img/favicon.svg">
 
-  <!-- Tailwind -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 
-  <!-- Icons -->
+  <!-- Lucide Icons -->
   <script defer src="https://unpkg.com/lucide@latest"></script>
 
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <!-- CSS personalizzato -->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="bg-slate-900 text-gray-200">
 
-  <!-- HEADER -->
-  <header class="sticky top-0 z-50 py-4">
-    <div class="glass-card rounded-xl px-4 py-2 max-w-6xl mx-auto">
-      <nav class="flex items-center justify-between">
-        <a href="/" class="text-white font-bold tracking-tight flex items-center gap-2">
-          <i data-lucide="heart-pulse" class="text-sky-400"></i>
-          Dr. B. De Ornelas
-        </a>
-        <a href="/" class="text-slate-300 hover:text-white text-sm flex items-center gap-2">
-          <i data-lucide="arrow-left"></i> Torna alla Home
-        </a>
-      </nav>
-    </div>
-  </header>
+  <!-- DECORAZIONE SFONDO -->
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+  </div>
 
-  <!-- HERO -->
-  <section class="py-16">
-    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
-      <div class="flex justify-center">
-  <img
-  src="/assets/img/benjamin-de-ornelas-portrait.jpg?v=2"
-  alt="Dr. Benjamin De Ornelas, cardiologo a Milano"
-  class="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover object-[center_30%] border-4 border-sky-500 shadow-xl mx-auto"
-/>
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
-
-
-
-
-
-
-   </div>
-      <div class="md:col-span-2">
-        <h1 class="text-3xl md:text-4xl font-extrabold tracking-tighter mb-3">Dr. Benjamin De Ornelas</h1>
-        <p class="text-slate-400 leading-relaxed">
-          Medico chirurgo, specialista in Malattie dell’Apparato Cardiovascolare.  
-          Mi occupo di prevenzione, diagnostica e gestione clinica con particolare attenzione a ecocardiografia, imaging vascolare e medicina dello sport.  
-          La mia missione è offrire cure basate sulle evidenze e personalizzate.
-        </p>
-        <div class="mt-5 flex flex-wrap gap-3">
-          <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm flex items-center gap-2">
-            <i data-lucide="activity" class="w-4 h-4 text-sky-400"></i> Ecocardiografia
-          </span>
-          <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm flex items-center gap-2">
-            <i data-lucide="stethoscope" class="w-4 h-4 text-violet-400"></i> Cardiologia clinica
-          </span>
-          <span class="bg-slate-700/50 px-3 py-1 rounded-full text-sm flex items-center gap-2">
-            <i data-lucide="shield-check" class="w-4 h-4 text-pink-400"></i> Prevenzione
-          </span>
-        </div>
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 py-4 transition-all duration-300">
+      <div class="glass-card rounded-xl px-4 py-2">
+        <nav class="flex items-center justify-between">
+          <a href="/index.html" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
+            <i data-lucide="heart-pulse" class="text-sky-400"></i>
+            Dr. Benjamin De Ornelas
+          </a>
+          <ul class="hidden md:flex items-center space-x-1">
+            <li><a href="/index.html#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
+            <li><a href="/index.html#articoli" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
+            <li><a href="/about.html" class="px-3 py-2 rounded-md bg-sky-600 text-white">Chi Sono</a></li>
+            <li><a href="/index.html#ricerca" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Ricerca</a></li>
+            <li><a href="/index.html#contatti" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- SEZIONI -->
-  <section class="py-12 max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-    <article class="glass-card rounded-xl p-6">
-      <h2 class="text-xl font-bold mb-2">Aree di competenza</h2>
-      <ul class="list-disc list-inside text-slate-400 space-y-1">
-        <li>Visita cardiologica e stratificazione del rischio</li>
-        <li>Ecocardiografia transtoracica e vascolare</li>
-        <li>Test da sforzo e valutazione idoneità sportiva</li>
-        <li>Gestione ipertensione, dislipidemie, prevenzione primaria</li>
-      </ul>
-    </article>
+    <main>
+      <!-- CHI SONO -->
+      <section class="my-20 py-16">
+        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-8 md:px-16">
+          <!-- Foto -->
+          <div class="relative w-40 h-40 md:w-64 md:h-64 flex-shrink-0">
+            <div class="absolute -inset-3 md:-inset-4 rounded-full bg-gradient-to-tr from-sky-500 to-violet-500 blur-lg opacity-70"></div>
+            <img
+              src="/assets/img/logo-bdo.png?v=2"
+              alt="Dr. Benjamin De Ornelas, cardiologo a Milano"
+              class="relative w-full h-full rounded-full object-cover object-[center_30%] border-4 border-sky-500 shadow-xl"
+            />
+          </div>
 
-    <article class="glass-card rounded-xl p-6">
-      <h2 class="text-xl font-bold mb-2">Formazione</h2>
-      <ul class="text-slate-400 space-y-1">
-        <li><strong>Specializzazione</strong> in Cardiologia – con Lode</li>
-        <li><strong>Laurea</strong> in Medicina e Chirurgia</li>
-        <li>Corsi in imaging cardiaco e medicina dello sport</li>
-      </ul>
-    </article>
-
-    <article class="glass-card rounded-xl p-6">
-      <h2 class="text-xl font-bold mb-2">Ricerca</h2>
-      <p class="text-slate-400 text-sm">
-        Attività scientifica su meccanobiologia dell’aterosclerosi, imaging cardiaco
-        e prevenzione cardiovascolare.  
-        Vedi la sezione “Ricerca” nella home per pubblicazioni e abstract.
-      </p>
-    </article>
-  </section>
-
-  <!-- CONTATTI -->
-  <section class="py-12">
-    <div class="max-w-4xl mx-auto px-4">
-      <div class="glass-card rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center gap-6">
-        <div class="bg-slate-700/50 p-3 rounded-lg">
-          <i data-lucide="phone-call" class="w-8 h-8 text-sky-400"></i>
-        </div>
-        <div class="flex-1">
-          <h3 class="text-xl font-bold mb-1">Prenotazioni e contatti</h3>
-          <p class="text-slate-400">Ricevo a Milano. Per visite ed esami:</p>
-          <div class="mt-3 flex flex-wrap gap-3">
-            <a href="mailto:info@deornelas.it" class="bg-white/10 hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg">Email</a>
-            <a href="tel:+39123456789" class="bg-white/10 hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg">Telefono</a>
-            <a href="/#contatti" class="bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Vai ai contatti</a>
+          <!-- Testo -->
+          <div class="text-center md:text-left max-w-2xl">
+            <h1 class="text-4xl font-extrabold mb-4">Chi Sono</h1>
+            <p class="text-slate-400 leading-relaxed mb-4">
+              Sono il <strong>Dr. Benjamin De Ornelas</strong>, medico chirurgo specializzato in Malattie dell'Apparato Cardiovascolare.
+              Mi occupo di prevenzione, diagnosi e trattamento delle patologie cardiache, con un approccio che unisce competenza clinica ed empatia.
+            </p>
+            <p class="text-slate-400 leading-relaxed mb-4">
+              Ho maturato esperienza in ambito di <em>cardiologia interventistica</em>, <em>ecocardiografia avanzata</em> e
+              <em>medicina preventiva</em>. Il mio obiettivo è accompagnare ogni paziente in un percorso di cura personalizzato,
+              con attenzione particolare alla prevenzione primaria e secondaria.
+            </p>
+            <p class="text-slate-400 leading-relaxed">
+              Oltre all’attività clinica, mi dedico alla <strong>ricerca</strong> e alla divulgazione scientifica, per contribuire
+              all’avanzamento della cardiologia e alla diffusione di informazioni affidabili per la salute del cuore.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
 
-  <!-- FOOTER -->
-  <footer class="text-center py-10 border-t border-slate-800">
-    <p class="text-sm text-slate-500">&copy; 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
-  </footer>
+    <!-- FOOTER -->
+    <footer class="text-center py-10 border-t border-slate-800">
+      <h3 class="text-2xl font-bold mb-4">Contattami</h3>
+      <p class="text-slate-400 mb-6 max-w-md mx-auto">Ricevo a Milano. Per visite o informazioni contattami.</p>
+      <div class="flex items-center justify-center space-x-6 mb-8">
+        <a href="mailto:info@deornelas.it" class="text-slate-500 hover:text-white"><i data-lucide="mail" class="w-6 h-6"></i></a>
+        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+        <a href="tel:+39123456789" class="text-slate-500 hover:text-white"><i data-lucide="phone" class="w-6 h-6"></i></a>
+      </div>
+      <p class="text-sm text-slate-500">&copy; 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
+    </footer>
+  </div>
 
   <!-- JS -->
   <script defer src="/assets/js/main.js"></script>
