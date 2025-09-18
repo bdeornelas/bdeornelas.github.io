@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quell’Onda Anomala nel LVOT: Fisiologia d’Atleta o Spia di Patologia? | Dr. Benjamin De Ornelas</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Analisi critica del jet proto-diastolico nel LVOT: fisiologia d’atleta o segnale patologico? Distinzione da LVOTO, stenosi aortica e pitfalls diagnostiche." />
+  <link rel="canonical" href="https://bdeornelas.github.io/research/onda-anomala-lvot.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Quell’Onda Anomala nel LVOT: Fisiologia d’Atleta o Spia di Patologia?" />
+  <meta property="og:description" content="Interpretazione clinica del flusso da rilasciamento isovolumetrico (IVRF) nel LVOT e differenze rispetto all’ostruzione." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bdeornelas.github.io/research/onda-anomala-lvot.html" />
+  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.svg" />
+
+  <!-- Stili & librerie -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="bg-slate-900 text-gray-200">
+
+  <!-- SFONDO DECORATIVO -->
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+  </div>
+
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 py-4">
+      <div class="glass-card rounded-xl px-4 py-2">
+        <nav class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
+            <i data-lucide="heart-pulse" class="text-sky-400"></i>
+            Dr. Benjamin De Ornelas
+          </a>
+          <ul class="hidden md:flex items-center space-x-1">
+            <li><a href="/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
+            <li><a href="/articles/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
+            <li><a href="/about.html" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
+            <li><a href="/research/" class="px-3 py-2 rounded-md bg-sky-600 text-white">Approfondimenti</a></li>
+            <li><a href="/contact/" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
+          </ul>
+          <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-slate-800">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </nav>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card rounded-xl p-2">
+        <ul class="flex flex-col space-y-2">
+          <li><a href="/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Home</a></li>
+          <li><a href="/articles/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Articoli</a></li>
+          <li><a href="/about.html" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Chi Sono</a></li>
+          <li><a href="/research/" class="block py-2 px-3 rounded-md bg-sky-500/50 hover:bg-sky-500/70">Approfondimenti</a></li>
+          <li><a href="/contact/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Contatti</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="py-10 md:py-16">
+      <!-- HERO ARTICOLO -->
+      <section class="text-center mb-10" data-aos="fade-up">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight gradient-text">
+          Quell’Onda Anomala nel LVOT: Fisiologia d’Atleta o Spia di Patologia?
+        </h1>
+        <p class="mt-3 text-slate-400">Analisi critica per la pratica clinica – Tempo di lettura stimato: 25 minuti</p>
+      </section>
+
+      <!-- CONTENUTO ARTICOLO -->
+      <article class="prose prose-lg max-w-none prose-invert mx-auto" data-aos="fade-up" data-aos-delay="100">
+        <h2>Introduzione: quando il cuore sorprende</h2>
+        <p>
+          È una scena familiare: giovane, spesso atleta, sul lettino per uno screening di routine. 
+          L’eco 2D mostra un ventricolo sinistro perfetto, contrattilità vigorosa, frazione d’eiezione 
+          quasi al 70%. In sistole avanzata la cavità si chiude quasi del tutto.
+        </p>
+        <p>
+          Poi il Doppler sul LVOT: profilo sistolico regolare, picco precoce, simmetrico. Tutto fila 
+          liscio… finché subito dopo il click di chiusura aortica compare <strong>un jet anterogrado 
+          inatteso</strong>. Non dovrebbe esserci niente in quel momento, e invece qualcosa scorre.
+        </p>
+        <p>
+          Artefatto? Rigurgito? Ostruzione misconosciuta? Questo articolo accompagna il lettore dentro 
+          questo enigma, mostrandone la fisiologia nascosta, i rischi di interpretazione e la sua 
+          rilevanza clinica.
+        </p>
+
+        <h2>1. IVRT: non è silenzio, ma un’orchestra nascosta</h2>
+        <p>
+          Quello che osserviamo è il <strong>flusso da rilasciamento isovolumetrico (IVRF)</strong>. 
+          La sua presenza smentisce il dogma tradizionale dell’IVRT come fase “a volume costante”.
+        </p>
+
+        <h3>I determinanti dell’IVRT</h3>
+        <ul>
+          <li><strong>Lusitropismo</strong>: rilasciamento attivo, ATP-dipendente.</li>
+          <li><strong>Pressione atriale sinistra</strong>: alta LAP = apertura mitralica precoce.</li>
+          <li><strong>Recoil elastico</strong>: energia accumulata in sistole restituita in diastole.</li>
+        </ul>
+
+        <div class="bg-gray-100 text-slate-800 p-4 rounded-xl shadow">
+          <h4>Focus sulla titina</h4>
+          <p>
+            La titina è la proteina elastica più lunga conosciuta. Funziona come una “molla molecolare” 
+            che immagazzina energia durante la contrazione e la restituisce al rilasciamento. Nei cuori 
+            giovani e negli atleti la titina è più “soffice”, e il recoil che genera è massimo.
+          </p>
+        </div>
+
+        <h3>Il meccanismo dell’IVRF</h3>
+        <ol>
+          <li>Contrazione vigorosa → cavità quasi obliterata.</li>
+          <li>Rilasciamento apicale precoce → caduta pressoria locale.</li>
+          <li>Effetto di suzione → il sangue è richiamato dall’apice.</li>
+          <li>Comparsa del jet proto-diastolico → il segnale Doppler che vediamo.</li>
+        </ol>
+
+        <blockquote>
+          <p>
+            In sintesi: l’IVRF è la manifestazione Doppler di un cuore elastico, iperdinamico e 
+            perfettamente accoppiato tra sistole e diastole.
+          </p>
+        </blockquote>
+
+        <h2>2. Una storia di rivalutazioni: dall’anomalia al marker di salute</h2>
+        <p>
+          Negli anni ’80 Sasson e Panayiotou descrivono il fenomeno in cuori iperdinamici, ma senza 
+          una chiara interpretazione. Per decenni resta un reperto ambiguo. 
+        </p>
+        <p>
+          Oggi sappiamo che è presente nel 100% degli atleti e nella quasi totalità dei soggetti sani 
+          (Cowie et al. 2022). Non solo: studi come quelli di Joshi e Pressman hanno mostrato che la 
+          <strong>mancanza di IVRF</strong> può correlare a disfunzione ventricolare e più eventi 
+          avversi.
+        </p>
+        <div class="bg-blue-50 text-slate-800 p-4 rounded-xl shadow">
+          <h4>Take-home message</h4>
+          <p>
+            L’IVRF non è un’anomalia: è la prova che il cuore utilizza in modo efficiente l’energia 
+            elastica per facilitare il riempimento diastolico.
+          </p>
+        </div>
+
+        <h2>3. L’inganno diagnostico: distinguerlo dall’ostruzione</h2>
+        <p>
+          La vera sfida clinica è non confonderlo con il gradiente da HOCM. L’errore può avere 
+          conseguenze enormi.
+        </p>
+
+        <table class="table-auto border-collapse border border-gray-300 text-sm">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border px-3 py-2">Caratteristica</th>
+              <th class="border px-3 py-2">✅ IVRF</th>
+              <th class="border px-3 py-2">❌ LVOTO</th>
+              <th class="border px-3 py-2">❌ Stenosi Ao</th>
+              <th class="border px-3 py-2">❌ Onda presistolica</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border px-3 py-2">Timing</td>
+              <td class="border px-3 py-2">Proto-diastolico (post-T)</td>
+              <td class="border px-3 py-2">Tele-sistolico</td>
+              <td class="border px-3 py-2">Mesosistolico</td>
+              <td class="border px-3 py-2">Tardo-diastolico</td>
+            </tr>
+            <tr>
+              <td class="border px-3 py-2">Morfologia</td>
+              <td class="border px-3 py-2">Breve, triangolare</td>
+              <td class="border px-3 py-2">“A pugnale”</td>
+              <td class="border px-3 py-2">A campana</td>
+              <td class="border px-3 py-2">Arrotondata, lenta</td>
+            </tr>
+            <tr>
+              <td class="border px-3 py-2">Contesto 2D</td>
+              <td class="border px-3 py-2">Cuore sano / atleta</td>
+              <td class="border px-3 py-2">ASH, SAM</td>
+              <td class="border px-3 py-2">Aorta calcifica</td>
+              <td class="border px-3 py-2">Ventricolo rigido</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="bg-yellow-50 text-slate-800 p-4 rounded-xl shadow">
+          <h4>Pitfalls</h4>
+          <ul>
+            <li>Confondere un jet di MR campionato obliquamente con IVRF.</li>
+            <li>Scambiare un’onda presistolica da atrio dilatato per IVRF.</li>
+            <li>Ignorare il click aortico come riferimento temporale.</li>
+          </ul>
+        </div>
+
+        <h2>4. L’algoritmo in sala eco</h2>
+        <ol>
+          <li>Ottimizza l’allineamento Doppler (apicale 5–3C).</li>
+          <li>Riconosci i click valvolari: il click aortico è lo spartiacque.</li>
+          <li>Chiediti: il jet inizia prima o dopo?</li>
+          <li>Valuta il contesto 2D: iperdinamico e armonico = terreno fertile per IVRF.</li>
+          <li>Cerca attivamente segni di ostruzione (SAM, ASH, turbolenza sistolica).</li>
+          <li>Referta con chiarezza: “IVRF fisiologico in cuore iperdinamico”.</li>
+        </ol>
+
+        <h2>5. Casi clinici</h2>
+        <h3>Caso 1 – L’atleta</h3>
+        <p>
+          24 anni, calciatore. Eco 2D: ipertrofia concentrica lieve, LVEF 70%, GLS -22%. Doppler: 
+          jet sistolico regolare + jet proto-diastolico 0.9 m/s. Nessun SAM.  
+          <strong>Diagnosi:</strong> IVRF fisiologico.
+        </p>
+
+        <h3>Caso 2 – L’HOCM</h3>
+        <p>
+          35 anni, dispnea. Eco: setto 19 mm, SAM mitralico. Doppler: gradiente sistolico a pugnale 
+          45 mmHg + piccolo jet diastolico.  
+          <strong>Diagnosi:</strong> HOCM. L’IVRF è epifenomeno, la diagnosi è data dal gradiente sistolico.
+        </p>
+
+        <h3>Caso 3 – L’anziano iperteso</h3>
+        <p>
+          72 anni, ipertensione cronica. Eco: IVRT prolungato, LVEF 55%, atrio sinistro dilatato. 
+          Nessun IVRF registrabile.  
+          <strong>Significato:</strong> assenza di IVRF come spia di lusitropismo compromesso.
+        </p>
+
+        <h3>Caso 4 – L’insufficienza mitralica</h3>
+        <p>
+          60 anni, rigurgito mitralico moderato. Doppler: jet olo-sistolico ad alta velocità, inizialmente 
+          scambiato per IVRF. Il Color Doppler rivela chiaramente l’origine mitralica.  
+          <strong>Lezione:</strong> mai interpretare senza integrare con il Color.
+        </p>
+
+        <h2>Conclusioni</h2>
+        <p>
+          L’onda proto-diastolica nel LVOT non è un errore né un artefatto. È l’impronta Doppler 
+          di un cuore che sfrutta al meglio il proprio potenziale elastico. 
+        </p>
+        <p>
+          Confonderla con LVOTO è un rischio reale, ma con un approccio strutturato si può distinguere 
+          con sicurezza. Per il cardiologo significa <strong>trasformare un dubbio in un’informazione 
+          rassicurante</strong>.
+        </p>
+        <p>
+          Il futuro porterà strumenti come il Vector Flow Mapping a rendere visibili i vortici 
+          intracavitari. Ma già oggi, con il Doppler convenzionale, possiamo leggere in quell’onda 
+          l’eleganza nascosta di un cuore efficiente.
+        </p>
+      </article>
+
+      <!-- CTA / Navigazione -->
+      <section class="mt-12 text-center" data-aos="fade-up" data-aos-delay="150">
+        <a href="/research/" class="inline-block bg-slate-800 hover:bg-slate-700 text-white font-medium py-2.5 px-5 rounded-lg">
+          ← Torna agli Approfondimenti
+        </a>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-10 border-t border-slate-800 mt-16">
+      <h3 class="text-xl font-bold mb-2">Contatti</h3>
+      <p class="text-slate-400 mb-4">Per commenti o collaborazioni su questo articolo.</p>
+      <a href="/contact/" class="bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-5 rounded-lg">Contattami</a>
+      <p class="text-sm text-slate-500 mt-6">&copy; 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
+    </footer>
+  </div>
+
+  <!-- Script base -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) lucide.createIcons();
+      if (window.AOS) AOS.init({ duration: 700, once: true, offset: 50 });
+      const btn = document.getElementById('mobile-menu-button');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+    });
+  </script>
+</body>
+</html>
