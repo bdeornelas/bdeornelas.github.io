@@ -45,8 +45,8 @@
 </head>
 <body class="bg-slate-900 text-gray-200">
 
-  <!-- DECORAZIONE SFONDO -->
-  <div class="absolute top-0 left-0 -z-10 h-screen w-full">
+  <!-- DECORAZIONE SFONDO (fix centratura con right-0) -->
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
     <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
     <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
   </div>
@@ -103,6 +103,7 @@
       <section id="articoli" class="py-20">
         <h2 class="text-4xl font-bold text-center mb-12 tracking-tighter" data-aos="fade-up">Approfondimenti Recenti</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Articolo 1 -->
           <div class="glass-card rounded-xl overflow-hidden group transition-all duration-300 hover:border-sky-400/50 hover:shadow-2xl hover:shadow-sky-500/10" data-aos="fade-up" data-aos-delay="100">
             <img src="https://placehold.co/600x400/0f172a/38bdf8?text=Prevenzione" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" alt="Prevenzione">
             <div class="p-6">
@@ -111,7 +112,7 @@
               <a href="#" class="font-semibold text-white group-hover:text-sky-400 transition-colors flex items-center gap-2">Leggi di più <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
             </div>
           </div>
-
+          <!-- Articolo 2 -->
           <div class="glass-card rounded-xl overflow-hidden group transition-all duration-300 hover:border-violet-400/50 hover:shadow-2xl hover:shadow-violet-500/10" data-aos="fade-up" data-aos-delay="200">
             <img src="https://placehold.co/600x400/0f172a/a78bfa?text=Diagnostica" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" alt="Diagnostica">
             <div class="p-6">
@@ -120,7 +121,7 @@
               <a href="#" class="font-semibold text-white group-hover:text-violet-400 transition-colors flex items-center gap-2">Leggi di più <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
             </div>
           </div>
-
+          <!-- Articolo 3 -->
           <div class="glass-card rounded-xl overflow-hidden group transition-all duration-300 hover:border-pink-400/50 hover:shadow-2xl hover:shadow-pink-500/10" data-aos="fade-up" data-aos-delay="300">
             <img src="https://placehold.co/600x400/0f172a/f472b6?text=Patologie" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" alt="Patologie">
             <div class="p-6">
@@ -132,10 +133,9 @@
         </div>
       </section>
 
-      <!-- CHI SONO (riassunto breve) -->
+      <!-- CHI SONO -->
       <section id="chi-sono" class="glass-card rounded-xl my-20 py-16" data-aos="zoom-in">
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-8 md:px-16">
-          <!-- Foto aggiornata -->
           <div class="relative w-40 h-40 md:w-64 md:h-64 flex-shrink-0">
             <div class="absolute -inset-3 md:-inset-4 rounded-full bg-gradient-to-tr from-sky-500 to-violet-500 blur-lg opacity-70"></div>
             <img
@@ -144,7 +144,6 @@
               class="relative w-full h-full rounded-full object-cover object-[center_30%] border-4 border-sky-500 shadow-xl"
             />
           </div>
-
           <div class="text-center md:text-left">
             <h2 class="text-3xl font-bold mb-2">Dr. Benjamin De Ornelas</h2>
             <p class="text-slate-400 leading-relaxed mb-4">Medico Chirurgo, specializzato in Malattie Cardiovascolari. La mia missione è offrire cure personalizzate e prevenzione mirata.</p>
