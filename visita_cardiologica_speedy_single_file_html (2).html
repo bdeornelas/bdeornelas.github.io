@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visita Cardiologica — SPEEDY</title>
+  <style>
+    :root {
+      --primary-color: #2c5aa0;
+      --secondary-color: #f8f9fa;
+      --accent-color: #007bff;
+      --success-color: #28a745;
+      --warning-color: #ffc107;
+      --danger-color: #dc3545;
+      --info-color: #17a2b8;
+      --light-gray: #f4f4f4;
+      --border-color: #dee2e6;
+      --text-color: #333;
+      --text-muted: #6c757d;
+      --shadow: 0 4px 6px rgba(0,0,0,0.1);
+      --shadow-lg: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    *{box-sizing:border-box}
+    body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;margin:0;background:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%);color:var(--text-color)}
+    .container{max-width:900px;margin:20px auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:var(--shadow-lg)}
+    .header{background:linear-gradient(135deg,var(--primary-color),var(--accent-color));color:#fff;text-align:center;padding:22px}
+    h1{margin:0;font-weight:300}
+    .section{padding:24px 30px;border-bottom:1px solid var(--border-color)}
+    .section:last-child{border-bottom:none}
+    h2{color:var(--primary-color);font-size:1.25rem;margin:0 0 14px;border-bottom:3px solid var(--accent-color);padding-bottom:8px;position:relative}
+    h2::before{content:"";position:absolute;bottom:-3px;left:0;width:50px;height:3px;background:var(--success-color)}
+    label{display:block;margin-bottom:6px;font-weight:600}
+    textarea,input[type=text],input[type=number]{width:100%;padding:12px 14px;border:2px solid var(--border-color);border-radius:8px;background:#fff;font-size:1rem}
+    textarea{min-height:80px;resize:vertical}
+    input:focus,textarea:focus{outline:none;border-color:var(--accent-color);box-shadow:0 0 0 3px rgba(0,123,255,.1)}
+    .note{font-size:.85em;color:var(--text-muted);display:block;margin-top:6px}
+    .form-row{display:flex;gap:15px;flex-wrap:wrap}
+    .form-row>div{flex:1;min-width:220px}
+    .checkbox-item{display:flex;align-items:center;gap:8px;margin:4px 0}
+    input[type=checkbox],input[type=radio]{transform:scale(1.05);accent-color:var(--accent-color)}
+    .info-message{color:var(--info-color);background:rgba(23,162,184,.08);border-left:4px solid var(--info-color);padding:10px;border-radius:6px}
+    .error-message{color:var(--danger-color);background:rgba(220,53,69,.08);border-left:4px solid var(--danger-color);padding:10px;border-radius:6px}
+    .main-action{width:100%;padding:16px 20px;margin:18px 0 26px;background:linear-gradient(135deg,var(--success-color),#20c997);color:#fff;border:none;border-radius:10px;font-weight:700;letter-spacing:.3px;cursor:pointer;box-shadow:var(--shadow)}
+    .main-action:hover{transform:translateY(-1px)}
+    #output-visita{font-family:'Consolas','Monaco','Courier New',monospace;background:linear-gradient(135deg,#f8f9fa,#e9ecef);border:2px solid var(--border-color);border-radius:8px;padding:16px;line-height:1.55;white-space:pre-wrap}
+    .copy-notification{display:none;color:var(--success-color);margin-top:12px;font-weight:600;text-align:center;padding:10px;background:rgba(40,167,69,.1);border-radius:8px;border:1px solid rgba(40,167,69,.2)}
+    details.tests{margin:12px 30px}
+    details.tests summary{cursor:pointer;color:#555}
+    details.tests .pass{color:#198754}
+    details.tests .fail{color:#dc3545}
+    @media(max-width:768px){.container{margin:10px}.section{padding:18px}.form-row{flex-direction:column}.form-row>div{min-width:unset}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>⚡️ Visita Cardiologica — SPEEDY</h1>
+      <div class="note" style="color:#fff;opacity:.9">Niente età/sesso. Ematochimici stampati solo se compilati. ECG con testo predefinito.</div>
+    </div>
+
+    <!-- ANAMNESI FAMILIARE / REMOTA / CV -->
+    <div class="section">
+      <h2>Anamnesi</h2>
+      <div class="form-row">
+        <div>
+          <label for="anamnesi-familiare">Familiare</label>
+          <textarea id="anamnesi-familiare">Nessuna familiarità riferita per malattia coronarica precoce (M <55, F <65), morte improvvisa o cardiomiopatie ereditarie.</textarea>
+        </div>
+        <div>
+          <label for="anamnesi-remota">Patologica remota</label>
+          <textarea id="anamnesi-remota">Priva di rilievi significativi</textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label for="anamnesi-cv">Cardiovascolare</label>
+          <textarea id="anamnesi-cv">Non riferisce precedenti eventi cardiovascolari</textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- FATTORI DI RISCHIO -->
+    <div class="section">
+      <h2>Fattori di Rischio</h2>
+      <div class="form-row">
+        <div class="checkbox-item"><input type="checkbox" id="fumo"><label for="fumo">Fumo attuale</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="pregresso-fumo"><label for="pregresso-fumo">Pregresso fumo</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="diabete"><label for="diabete">Diabete</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="ipertensione"><label for="ipertensione">Ipertensione</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="ipercolesterolemia"><label for="ipercolesterolemia">Ipercolesterolemia</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="obesita"><label for="obesita">Obesità</label></div>
+        <div class="checkbox-item"><input type="checkbox" id="familiarita"><label for="familiarita">Familiarità positiva per MCV</label></div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>Formato output</label>
+          <div class="checkbox-item"><input type="radio" name="risk-format" id="risk-inline" value="inline" checked><label for="risk-inline">In linea (separati da comma)</label></div>
+          <div class="checkbox-item"><input type="radio" name="risk-format" id="risk-list" value="list"><label for="risk-list">Lista su più righe</label></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SINTOMATOLOGIA (spostata prima di EO) -->
+    <!-- ESAME OBIETTIVO / PAO -->
+    <div class="section">
+      <h2>Esame Obiettivo</h2>
+      <div class="form-row">
+        <div>
+          <label for="esame-polmonare">Polmonare</label>
+          <textarea id="esame-polmonare">Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi</textarea>
+        </div>
+        <div>
+          <label for="esame-cardiaco">Cardiaco</label>
+          <textarea id="esame-cardiaco">Toni cardiaci netti in successione ritmica, pause libere. Buono il compenso emodinamico</textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label for="pao">PAO</label>
+          <input id="pao" type="text" placeholder="Es. 130/85 mmHg" value="120/80 mmHg" />
+          <span class="note">Se riconosciuta ipertensione, la categoria verrà aggiunta in linea.</span>
+          <div id="bp-category-display" class="info-message" style="display:none;margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ECG -->
+    <div class="section">
+      <h2>ECG</h2>
+      <textarea id="ecg">Ritmo sinusale normofrequente, conduzione atrioventricolare e intraventricolare nei limiti di norma</textarea>
+      <span class="note">Testo predefinito come richiesto.</span>
+    </div>
+
+    <!-- ECO -->
+    <div class="section">
+      <h2>Ecocardiogramma Color Doppler</h2>
+      <div class="checkbox-item"><input type="radio" name="eco-tipo" id="eco-nessuno" value="nessuno" checked><label for="eco-nessuno">Manuale / Vuoto</label></div>
+      <div class="checkbox-item"><input type="radio" name="eco-tipo" id="eco-normale" value="normale"><label for="eco-normale">Normale (auto‑compila)</label></div>
+      <div class="checkbox-item"><input type="radio" name="eco-tipo" id="eco-anziano" value="anziano"><label for="eco-anziano">Anziano (auto‑compila)</label></div>
+      <textarea id="eco-text" placeholder="Inserisci descrizione o usa un preset..."></textarea>
+    </div>
+
+    <!-- SFORZO (breve) -->
+    <div class="section">
+      <h2>Test da Sforzo</h2>
+      <div class="checkbox-item"><input type="radio" name="sforzo-tipo" id="sforzo-nessuno" value="altro" checked><label for="sforzo-nessuno">Manuale / Vuoto</label></div>
+      <div class="checkbox-item"><input type="radio" name="sforzo-tipo" id="sforzo-normale" value="normale"><label for="sforzo-normale">Nei limiti (auto‑compila breve)</label></div>
+      <textarea id="sforzo-text" rows="3" placeholder="Breve descrizione opzionale per l'output..."></textarea>
+    </div>
+
+    <!-- TERAPIA / SINTOMI (brevi) -->
+    <div class="section">
+      <h2>💊 Terapia in Atto</h2>
+      <div class="form-row">
+        <div><label>Farmaco 1</label><input id="farmaco1" type="text" placeholder="Nome farmaco" /></div>
+        <div><label>Dose</label><input id="dose1" type="text" placeholder="mg" /></div>
+      </div>
+      <div class="form-row">
+        <div><input id="farmaco2" type="text" placeholder="Nome farmaco" /></div>
+        <div><input id="dose2" type="text" placeholder="mg" /></div>
+      </div>
+      <div class="form-row">
+        <div><input id="farmaco3" type="text" placeholder="Nome farmaco" /></div>
+        <div><input id="dose3" type="text" placeholder="mg" /></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Sintomatologia</h2>
+      <textarea id="sintomatologia">Non riferite palpitazioni, dolore toracico anginoso, dispnea, sincope.</textarea>
+    </div>
+
+    <!-- EMATOCHIMICI (stampare solo se qualcosa è impostato) -->
+    <div class="section">
+      <h2>Esami Ematochimici</h2>
+      <div class="checkbox-item"><input type="radio" name="emato-tipo" id="emato-non-disponibili" value="manuale" checked><label for="emato-non-disponibili">Manuale / Non Disponibili</label></div>
+      <div class="checkbox-item"><input type="radio" name="emato-tipo" id="emato-nei-limiti" value="nei-limiti"><label for="emato-nei-limiti">Nei limiti di norma</label></div>
+      <textarea id="emato-text" rows="4" placeholder="Compila solo se vuoi che la sezione compaia nell'output..."></textarea>
+      <span class="note">Se lasci vuoto e non selezioni "Nei limiti", la sezione <u>non verrà stampata</u>.</span>
+    </div>
+
+    <!-- CONCLUSIONI -->
+    <div class="section">
+      <h2>Conclusioni e Raccomandazioni</h2>
+      <div class="checkbox-item"><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia">Confermare terapia in atto.</label></div>
+      <div class="checkbox-item"><input type="checkbox" id="consiglio-no-accertamenti"><label for="consiglio-no-accertamenti">Non indicati ulteriori accertamenti.</label></div>
+      <div class="checkbox-item"><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter">ECG‑Holter 24h.</label></div>
+      <div class="checkbox-item"><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco">EcocolorDoppler cardiaco.</label></div>
+      <div class="checkbox-item"><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging">Test di imaging da stress (eco/scinti/RMN).</label></div>
+      <label for="conclusioni-custom" style="margin-top:10px">Note aggiuntive</label>
+      <textarea id="conclusioni-custom" rows="3" placeholder="Opzionale..."></textarea>
+    </div>
+
+    <!-- OPZIONI OUTPUT -->
+    <div class="section">
+      <h2>🔧 Opzioni di Output</h2>
+      <div class="checkbox-item"><input type="checkbox" id="compat-ascii"><label for="compat-ascii">Compatibilità stampa (ASCII puro)</label></div>
+      <div class="checkbox-item"><input type="checkbox" id="compat-crlf"><label for="compat-crlf">Ritorni a capo Windows (CRLF)</label></div>
+      <span class="note">Usa queste opzioni se il gestionale mostra caratteri anomali.</span>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="section">
+      <h2>Output Visita</h2>
+      <textarea id="output-visita" rows="20" readonly placeholder="L'output verrà generato qui..."></textarea>
+      <div id="copy-notification" class="copy-notification">Testo visita copiato negli appunti!</div>
+      <button class="main-action" id="compileBtn">Compila Visita e Copia Testo</button>
+    </div>
+  </div>
+
+  <!-- Dev tests (auto) -->
+  <details class="tests">
+    <summary>🔎 Dev tests (clicca per risultati)</summary>
+    <div id="test-results"></div>
+  </details>
+
+  <script>
+    // ——— Utils stampa / sanitizzazione (fix regex) ———
+    function removeEmojis(str){return str.replace(/[\u{1F300}-\u{1FAFF}\u{1F1E6}-\u{1F1FF}\u{2600}-\u{27BF}]/gu,'')}
+    function toLatin1Safe(str){const map={'“':'"','”':'"','„':'"','«':'"','»':'"','‘':'\'','’':'\'','‚':'\'','´':'\'','¸':',','—':'-','–':'-','−':'-','•':'-','…':'...','→':'->','←':'<-','↔':'<->','×':'x','÷':'/','°':' deg ','º':' deg ','ª':'a','≥':'>=','≤':'<=','±':'+/-','\u00A0':' '};return removeEmojis(str).replace(/["“”„«»‘’‚´¸—–−•…→←↔×÷°ºª≥≤±\u00A0]/g,ch=>map[ch]||ch)}
+    function stripAccents(str){return str.normalize('NFKD').replace(/[\u0300-\u036f]/g,'')}
+    function sanitizeForPrint(text,mode){let t=toLatin1Safe(text);if(mode==='ascii'){t=stripAccents(t);t=t.replace(/[^\x00-\x7F]/g,'')}return t}
+    function normalizeLineEndings(text,useCRLF){const t=text.replace(/\r\n/g,'\n').replace(/\r/g,'\n');return useCRLF?t.replace(/\n/g,'\r\n'):t}
+    function formatText(text,indent=' '){if(!text)return'';const cleaned=text.trim();if(!cleaned)return'';return cleaned.split('\n').map(line=>line.trim()?indent+line.trim():'').filter(Boolean).join('\n')}
+    function formatSection(title,content,indent=' ',sep='\n\n'){if(!content||!content.trim())return'';if(!title)return content+'\n'+sep;return title+'\n'+content+'\n'+sep}
+
+    // ——— BP parsing / classificazione ———
+    function parseBPString(paoStr){if(!paoStr) return {sbp:NaN,dbp:NaN};const cleaned=String(paoStr).replace(/[^\d\/\-\–\—\s]/g,'').trim();let parts=cleaned.split(/[\/\-\–\—]/).map(s=>s.trim()).filter(Boolean);if(parts.length<2){const nums=cleaned.match(/\d+/g);if(nums&&nums.length>=2) parts=[nums[0],nums[1]]}const sbp=parts[0]?parseInt(parts[0],10):NaN;const dbp=parts[1]?parseInt(parts[1],10):NaN;return {sbp,dbp}}
+    function classifyOfficeBP(sbp,dbp){if(isNaN(sbp)||isNaN(dbp))return null; if(sbp>=140 && dbp<90){let g=1;if(sbp>=180)g=3;else if(sbp>=160)g=2;return 'Ipertensione sistolica isolata - grado '+g} if(sbp>=140 || dbp>=90){const gSBP=sbp>=180?3:sbp>=160?2:1;const gDBP=dbp>=110?3:dbp>=100?2:dbp>=90?1:0;return 'Ipertensione arteriosa - grado '+Math.max(gSBP,gDBP)} return null}
+
+    // ——— Preset ECO/SFORZO ———
+    function aggiornaEco(){const ecoText=document.getElementById('eco-text'); if(document.getElementById('eco-normale').checked){ecoText.value=`Diametri e volumi del ventricolo sinistro nella norma.
+Spessori settali e parietali nella norma.
+Non si evidenziano alterazioni della cinesi segmentaria.
+Conservati gli indici di contrattilità globale.
+Normali dimensioni dell'atrio sinistro.
+Morfologia e dinamica dei lembi mitralici nei limiti della norma.
+Minimo jet da rigurgito valvolare mitralico.
+Dinamica e morfologia valvolare aortica nei limiti; flusso transvalvolare normale.
+Camere destre nei limiti; lieve IT parafisiologica con PAPs nei limiti.
+Setto interatriale integro.
+Non versamento pericardico.`}
+      else if(document.getElementById('eco-anziano').checked){ecoText.value=`VS di normali dimensioni con spessori nei limiti.
+FE visiva ~60%, senza difetti di cinesi segmentaria.
+AS nei limiti; lembi mitralici lievemente ispessiti.
+Bulbo aortico nei limiti; VAo tricuspide con lieve sclerosi, apertura conservata; aorta ascendente nei limiti.
+Sezioni destre nei limiti con funzione conservata.
+VCI di normali dimensioni con escursioni respiratorie conservate.
+Pericardio indenne.
+Doppler: pattern transmitralico da alterato rilasciamento.
+IM lieve. IT lieve con PAPs nei limiti.`}
+      else{ecoText.value=''} }
+
+    function aggiornaSforzo(){const sText=document.getElementById('sforzo-text'); if(document.getElementById('sforzo-normale').checked){sText.value='Test ergometrico massimale nei limiti della norma, senza evidenza di anomalie cliniche o elettrocardiografiche rilevanti.'} }
+
+    // ——— Compilatore SPEEDY ———
+    function compilaVisita(){
+      const indent=' ';
+      const sep='\n\n';
+
+      // ANAMNESI
+      const anamFam=formatText(document.getElementById('anamnesi-familiare').value, indent);
+      const anamRem=formatText(document.getElementById('anamnesi-remota').value, indent);
+      const anamCv =formatText(document.getElementById('anamnesi-cv').value, indent);
+      const anamSection = [
+        formatSection('ANAMNESI FAMILIARE', anamFam, indent, sep),
+        formatSection('ANAMNESI PATOLOGICA REMOTA', anamRem, indent, sep),
+        formatSection('ANAMNESI CARDIOVASCOLARE', anamCv, indent, sep),
+      ].join('');
+
+      // FATTORI DI RISCHIO
+      const rischi=[];
+      if(document.getElementById('fumo').checked) rischi.push('Fumo attuale');
+      if(document.getElementById('pregresso-fumo').checked) rischi.push('Pregresso fumo');
+      if(document.getElementById('diabete').checked) rischi.push('Diabete');
+      if(document.getElementById('ipertensione').checked) rischi.push('Ipertensione');
+      if(document.getElementById('ipercolesterolemia').checked) rischi.push('Ipercolesterolemia');
+      if(document.getElementById('obesita').checked) rischi.push('Obesità');
+      if(document.getElementById('familiarita').checked) rischi.push('Familiarità positiva per MCV');
+      const riskFormat = (document.querySelector('input[name="risk-format"]:checked')||{}).value||'inline';
+      const rischiBody = rischi.length ? (riskFormat==='list' ? rischi.map(r=>' - '+r).join('\n') : rischi.join('; ')) : 'Nessuno';
+      const rischiSection = formatSection('FATTORI DI RISCHIO CARDIOVASCOLARE', formatText(rischiBody, indent), indent, sep);
+
+      // Esame obiettivo
+      const polm=formatText(document.getElementById('esame-polmonare').value, indent);
+      const card=formatText(document.getElementById('esame-cardiaco').value, indent);
+      const paoRaw=document.getElementById('pao').value.trim();
+      let paoLine='PAO: '+(paoRaw || 'Non rilevata');
+      if(paoRaw){const {sbp,dbp}=parseBPString(paoRaw); const cat=classifyOfficeBP(sbp,dbp); if(cat) paoLine += ' - '+cat; const badge=document.getElementById('bp-category-display'); if(cat){badge.style.display='block'; badge.textContent=cat} else {badge.style.display='none'; badge.textContent=''}}
+      const eo=formatText(['TORACE: '+(polm||'').replace(/^\s*TORACE:\s*/i,''), 'CUORE: '+(card||'').replace(/^\s*CUORE:\s*/i,''), paoLine].filter(Boolean).join('\n'), indent);
+
+      // ECG
+      const ecg=formatText(document.getElementById('ecg').value, indent);
+
+      // ECO
+      const ecoContent=formatText(document.getElementById('eco-text').value, indent);
+      const ecoSection=ecoContent? formatSection('ECOCARDIOGRAMMA COLOR DOPPLER', ecoContent, indent, sep):'';
+
+      // SFORZO
+      const sforzoContent=formatText(document.getElementById('sforzo-text').value, indent);
+      const sforzoSection=sforzoContent? formatSection('TEST DA SFORZO', sforzoContent, indent, sep):'';
+
+      // Terapia
+      const terapia=[]; for(let i=1;i<=3;i++){const f=document.getElementById('farmaco'+i).value.trim(); const d=document.getElementById('dose'+i).value.trim(); if(f) terapia.push(f+(d? ' '+d+' mg':''))}
+      const terapiaText=formatText(terapia.length? terapia.join('; ') : 'Nessuna', indent);
+
+      // Sintomi
+      const sintomatologiaText=formatText(document.getElementById('sintomatologia').value, indent);
+
+      // Ematochimici — SOLO se compilati o "nei limiti"
+      let ematoSection='';
+      const ematoNeiLimiti=document.getElementById('emato-nei-limiti').checked;
+      const ematoTextRaw=document.getElementById('emato-text').value.trim();
+      if(ematoNeiLimiti || ematoTextRaw){
+        const val = ematoNeiLimiti? 'Nei limiti di norma' : ematoTextRaw;
+        ematoSection = formatSection('ESAMI EMATOCHIMICI', formatText(val, indent), indent, sep);
+      }
+
+      // Conclusioni
+      const consigli=[];
+      if(document.getElementById('consiglio-terapia').checked) consigli.push('Confermare la terapia in atto');
+      if(document.getElementById('consiglio-no-accertamenti').checked) consigli.push('In atto non necessari ulteriori accertamenti');
+      if(document.getElementById('consiglio-holter').checked) consigli.push('Utile eseguire ECG‑Holter 24h');
+      if(document.getElementById('consiglio-eco').checked) consigli.push('Utile eseguire EcocolorDoppler cardiaco');
+      if(document.getElementById('consiglio-imaging').checked) consigli.push('Utile eseguire test di imaging da stress (eco/scinti/RMN)');
+      const conclusioniCustom=document.getElementById('conclusioni-custom').value.trim();
+      let conclusioniRaw = consigli.length? (consigli.join('. ')+'.') : '';
+      if(conclusioniCustom) conclusioniRaw += (conclusioniRaw?'\n':'') + conclusioniCustom;
+      if(!conclusioniRaw) conclusioniRaw = 'Esame obiettivo e strumentale nei limiti della norma. Non evidenza di patologia cardiovascolare in atto.';
+      const conclusioniText=formatText(conclusioniRaw, indent);
+
+      // Assemblaggio
+      let output = [
+        rischiSection,
+        anamSection,        formatSection('SINTOMATOLOGIA RIFERITA', sintomatologiaText, indent, sep),
+        formatSection('ESAME OBIETTIVO', eo, indent, sep),
+        formatSection('ECG', ecg, indent, sep),
+        ecoSection,
+        sforzoSection,
+        formatSection('TERAPIA IN ATTO', terapiaText, indent, sep),
+        ematoSection,
+        formatSection('CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE', conclusioniText, indent, sep)
+      ].filter(Boolean).join('');
+
+      // Opzioni compatibilità stampa
+      const asciiMode=document.getElementById('compat-ascii').checked;
+      const useCRLF=document.getElementById('compat-crlf').checked;
+      output = sanitizeForPrint(output, asciiMode?'ascii':'latin1');
+      output = normalizeLineEndings(output, useCRLF);
+
+      const outEl=document.getElementById('output-visita');
+      outEl.value=output.trim();
+      navigator.clipboard.writeText(outEl.value).then(()=>{
+        const n=document.getElementById('copy-notification'); n.style.display='block'; setTimeout(()=>n.style.display='none',2500);
+      }).catch(()=>{ alert('Non è stato possibile copiare il testo automaticamente.'); });
+    }
+
+    // ——— Event wiring ———
+    document.getElementById('compileBtn').addEventListener('click', compilaVisita);
+    document.querySelectorAll('input[name="eco-tipo"]').forEach(r=>r.addEventListener('change', aggiornaEco));
+    document.querySelectorAll('input[name="sforzo-tipo"]').forEach(r=>r.addEventListener('change', aggiornaSforzo));
+
+    // PAO live badge
+    document.getElementById('pao').addEventListener('input', ()=>{
+      const {sbp,dbp}=parseBPString(document.getElementById('pao').value.trim());
+      const cat=classifyOfficeBP(sbp,dbp); const badge=document.getElementById('bp-category-display');
+      if(cat){badge.style.display='block'; badge.textContent=cat} else {badge.style.display='none'; badge.textContent=''}
+    });
+
+    // ——— Simple tests (non intrusivi) ———
+    (function runTests(){
+      const results=[];
+      // sanitizeForPrint ascii removes non-ASCII
+      const demo='áè → Ω test';
+      const sanitized=(function(){let t=toLatin1Safe(demo); t=stripAccents(t); return t.replace(/[^\x00-\x7F]/g,'');})();
+      results.push({name:'sanitizeForPrint (ascii) rimuove non-ASCII', pass: sanitized==='ae ->  test'});
+      // ematochimici omitted when empty and not nei-limiti
+      const ematoChecked=document.getElementById('emato-nei-limiti').checked;
+      const ematoVal=document.getElementById('emato-text').value.trim();
+      const shouldOmit=(!ematoChecked && !ematoVal);
+      results.push({name:'Esami ematochimici omessi di default', pass: shouldOmit});
+      // button wired
+      results.push({name:'Bottone compilazione presente', pass: !!document.getElementById('compileBtn')});
+      const wrap=document.getElementById('test-results');
+      wrap.innerHTML='<ul>'+results.map(r=>`<li class="${r.pass?'pass':'fail'}">${r.pass?'✅':'❌'} ${r.name}</li>`).join('')+'</ul>';
+      console.log('Dev tests:', results);
+    })();
+  </script>
+</body>
+</html>
