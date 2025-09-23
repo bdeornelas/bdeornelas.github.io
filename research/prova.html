@@ -1,244 +1,198 @@
-<!DOCTYPE html>
+# Overwrite the article with the user's full text content verbatim inside the site layout.
+from pathlib import Path
+
+repo = Path("/mnt/data/site/bdeornelas.github.io-main")
+out_path = repo / "research" / "flusso-diastolico-lvot.html"
+
+article_title = "Flusso Diastolico nel LVOT: Fisiologia o Patologia?"
+subtitle = "Guida alla Diagnosi Differenziale del Flusso da Rilasciamento Isovolumetrico (IVRF)"
+published = "22 settembre 2025"
+reading_time = "~7 minuti"
+author = "Dr. Benjamin De Ornelas"
+
+full_body = """
+<h2>Introduzione</h2>
+<p>Il riscontro di un'onda di flusso anterogrado nel tratto di efflusso del ventricolo sinistro (LVOT) durante la diastole è un'evenienza non infrequente nella pratica ecocardiografica. Tale segnale, rilevato tipicamente in pazienti giovani, asintomatici e spesso atletici, può generare un legittimo dubbio diagnostico. Si tratta di un reperto fisiologico legato a un cuore iperdinamico o della spia di una condizione patologica misconosciuta, come un'ostruzione dinamica?</p>
+<p>Questo articolo si propone di analizzare in modo sistematico questo fenomeno, noto come Flusso da Rilasciamento Isovolumetrico (IVRF), fornendo un quadro basato sull'evidenza per la sua corretta interpretazione e la diagnosi differenziale con le condizioni patologiche rilevanti.</p>
+
+<h2>Il Fenomeno: Cos'è il Flusso da Rilasciamento Isovolumetrico (IVRF)?</h2>
+<p>L'IVRF è un breve jet di flusso sanguigno diretto dalla base verso l'apice del ventricolo sinistro, che si verifica durante il tempo di rilasciamento isovolumetrico (IVRT), l'intervallo compreso tra la chiusura della valvola aortica e l'apertura della valvola mitrale.</p>
+
+<p>La sua origine non è un artefatto, ma è radicata nella complessa meccanica del rilasciamento ventricolare:</p>
+<ul>
+<li><strong>Rilasciamento Asincrono:</strong> Il rilasciamento miocardico non è un evento sincrono. Le regioni apicali del ventricolo tendono a iniziare la fase di espansione e "svitamento" (untwisting) prima delle regioni basali.</li>
+<li><strong>Recoil Elastico e Suzione Ventricolare:</strong> In un cuore sano ed elastico, specialmente se sottoposto a una contrazione sistolica vigorosa che porta a una quasi obliterazione della cavità, viene immagazzinata una significativa quantità di energia potenziale. Al momento della diastole, questa energia viene rilasciata sotto forma di un potente recoil elastico, che genera un effetto di suzione attiva all'apice del ventricolo.</li>
+<li><strong>Gradiente di Pressione Intraventricolare:</strong> La combinazione di rilasciamento apicale precoce e suzione crea un gradiente di pressione transitorio tra la base (a pressione relativamente più alta) e l'apice (a pressione più bassa), che accelera il sangue residuo nella cavità, generando l'onda di flusso IVRF.</li>
+</ul>
+<p>In sintesi, l'IVRF è l'espressione emodinamica di un efficiente accoppiamento sisto-diastolico, tipico di un cuore compliante e con una riserva contrattile preservata.</p>
+
+<h2>Il Contesto Clinico e le Evidenze Scientifiche</h2>
+<p>La comprensione dell'IVRF come fenomeno fisiologico è supportata da una solida letteratura.</p>
+<ul>
+<li><strong>Studi pionieristici</strong> (Sasson et al., 1987; Panayiotou &amp; Byrd, 1990) hanno per primi descritto questo flusso, associandolo a stati iperdinamici e definendolo un reperto comune in soggetti sani.</li>
+<li><strong>Ricerche più recenti</strong> (Cowie et al., 2022) hanno confermato la sua elevatissima prevalenza in individui sani, raggiungendo il 100% in una coorte di atleti. L'ampiezza del segnale è risultata correlata a una funzione diastolica vigorosa e a un'elevata gittata sistolica.</li>
+<li><strong>Assenza come segnale negativo</strong>: altri studi (Joshi et al., 2014; Pressman et al., 2016) hanno suggerito che è l'assenza di questo flusso, in determinate popolazioni, a poter avere un significato prognostico negativo, essendo associata a una ridotta funzione sistolica e a un maggior numero di eventi avversi.</li>
+</ul>
+<p>L'evidenza cumulativa, quindi, posiziona l'IVRF non come un'anomalia, ma come un marcatore Doppler di una meccanica cardiaca efficiente.</p>
+
+<h2>La Diagnosi Differenziale: L'Analisi Critica del Tracciato Doppler</h2>
+<p>La principale sfida clinica è la sicura differenziazione dell'IVRF dall'ostruzione dinamica del LVOT, tipica della Cardiomiopatia Ipertrofica Ostruttiva (HOCM). La distinzione si basa su criteri oggettivi e riproducibili.</p>
+
+<div class="overflow-x-auto my-6">
+<table class="min-w-full text-sm">
+<thead class="text-slate-300">
+<tr>
+<th class="text-left py-2 pr-4">Criterio</th>
+<th class="text-left py-2 pr-4">IVRF (Fisiologico)</th>
+<th class="text-left py-2">LVOTO / HOCM (Patologico)</th>
+</tr>
+</thead>
+<tbody class="text-slate-200/90">
+<tr class="border-t border-slate-800">
+<td class="py-2 pr-4">Timing</td>
+<td class="py-2 pr-4">Diastolico. Inizia dopo il click di chiusura della valvola aortica.</td>
+<td class="py-2">Sistolico. Termina con il click di chiusura della valvola aortica.</td>
+</tr>
+<tr class="border-t border-slate-800">
+<td class="py-2 pr-4">Morfologia</td>
+<td class="py-2 pr-4">Breve, netto, con profilo tendenzialmente simmetrico (triangolare).</td>
+<td class="py-2">A picco tardivo (meso-tele-sistolico), con profilo concavo "a pugnale" (dagger-shaped).</td>
+</tr>
+<tr class="border-t border-slate-800">
+<td class="py-2 pr-4">Contesto 2D</td>
+<td class="py-2 pr-4">Cuore strutturalmente sano, funzione vigorosa, assenza di SAM.</td>
+<td class="py-2">Ipertrofia settale asimmetrica (ASH), movimento sistolico anteriore della mitrale (SAM).</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>Altri flussi da considerare nel differenziale includono:</strong></p>
+<ul>
+<li><strong>Stenosi Aortica Fissa:</strong> Flusso sistolico, con picco mesosistolico e morfologia "a campana".</li>
+<li><strong>Onda Presistolica (PSW):</strong> Flusso tardo-diastolico, successivo all'onda P dell'ECG, legato alla contrazione atriale.</li>
+</ul>
+
+<h2>Algoritmo Operativo per la Pratica Clinica</h2>
+<ol>
+<li><strong>Identificare i Riferimenti Temporali:</strong> Utilizzare il click di chiusura aortico come punto di riferimento assoluto. Determinare se l'inizio del segnale in esame è sistolico o diastolico. Questa è la prima e più importante distinzione.</li>
+<li><strong>Analizzare la Morfologia dello Spettro:</strong> Valutare la forma dell'inviluppo Doppler. Un profilo breve e triangolare in diastole precoce è suggestivo di IVRF. Un profilo sistolico tardivo "a pugnale" è patognomonico per ostruzione dinamica.</li>
+<li><strong>Correlare con l'Esame 2D e Color Doppler:</strong> Contestualizzare il dato Doppler con i reperti morfologici e funzionali. Ricercare attivamente i segni di HOCM (ASH, SAM). Utilizzare il Color Doppler per confermare l'assenza di turbolenza sistolica nel LVOT.</li>
+<li><strong>Sintesi Diagnostica:</strong> In presenza di un flusso con caratteristiche temporali e morfologiche tipiche di IVRF, in un contesto di cuore strutturalmente sano e iperdinamico, il reperto va classificato come fisiologico e non meritevole di ulteriori approfondimenti in assenza di altri sospetti clinici.</li>
+</ol>
+
+<h2>Conclusione</h2>
+<p>Il flusso da rilasciamento isovolumetrico (IVRF) è un fenomeno emodinamico che riflette una fisiologia cardiaca efficiente piuttosto che una patologia. La sua comprensione e il suo corretto inquadramento sono essenziali per evitare diagnosi errate e per fornire una valutazione accurata, in particolare nella popolazione giovane e atletica. Un approccio rigoroso, basato sull'analisi del timing, della morfologia Doppler e del contesto anatomico, permette di distinguere con sicurezza questo reperto benigno da condizioni patologiche significative, migliorando la qualità e l'appropriatezza della refertazione ecocardiografica.</p>
+
+<h3>Bibliografia Essenziale</h3>
+<ul>
+<li>Sasson Z, et al. J Am Coll Cardiol. 1987;10(3):539-46.</li>
+<li>Panayiotou H, Byrd BF. J Am Coll Cardiol. 1990;16(7):1625-31.</li>
+<li>Cowie B, et al. Australas J Ultrasound Med. 2022;25(3):137-141.</li>
+<li>Pressman GS, et al. Am J Cardiol. 2016;118(10):1593-97.</li>
+</ul>
+
+<div class="mt-8 flex flex-wrap gap-2 text-sm">
+  <a class="tag" href="/research/">Ecocardiografia</a>
+  <a class="tag" href="/research/">Doppler</a>
+  <a class="tag" href="/research/">IVRF</a>
+  <a class="tag" href="/research/">LVOT</a>
+  <a class="tag" href="/research/">HOCM</a>
+</div>
+
+<div class="mt-10">
+  <a href="/research/" class="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300">
+    <i data-lucide="arrow-left"></i> Torna a Ricerca
+  </a>
+  <p class="text-xs text-slate-500 mt-6">© 2025 Benjamin De Ornelas — Tutti i diritti riservati. Questo contenuto ha finalità informative e non sostituisce il parere del medico curante.</p>
+</div>
+"""
+
+content_html = f"""<!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flusso Diastolico nel LVOT: Fisiologia o Patologia? – Ricerca</title>
-  <meta name="description" content="Guida operativa, basata sull'evidenza, alla diagnosi differenziale del flusso da rilasciamento isovolumetrico (IVRF) nel LVOT: fisiologia vs patologia (LVOTO/HOCM)." />
-  <link rel="canonical" href="/research/flusso-diastolico-lvot.html" />
-  <meta name="author" content="Dr. Benjamin De Ornelas" />
-  <meta name="robots" content="index,follow" />
-
-  <!-- Open Graph -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{article_title} | {author}</title>
+  <meta name="description" content="Interpretazione clinica del flusso diastolico nel LVOT (IVRF): fisiologia vs patologia, criteri Doppler per il differenziale con LVOTO/HOCM, algoritmo pratico e letteratura essenziale." />
+  <link rel="canonical" href="https://bdeornelas.github.io/research/flusso-diastolico-lvot.html" />
+  <meta property="og:title" content="{article_title}" />
+  <meta property="og:description" content="IVRF nel LVOT: quando è fisiologico, quando sospettare patologia. Timing, morfologia, contesto 2D e algoritmo pratico." />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Flusso Diastolico nel LVOT: Fisiologia o Patologia?" />
-  <meta property="og:description" content="Guida operativa alla diagnosi differenziale del flusso da rilasciamento isovolumetrico (IVRF)." />
-  <meta property="og:url" content="/research/flusso-diastolico-lvot.html" />
-
-  <!-- Site base styles: inherit palette used in the site -->
-  <style>
-    :root {
-      --primary-color: #2c5aa0;
-      --secondary-color: #f8f9fa;
-      --accent-color: #007bff;
-      --success-color: #28a745;
-      --warning-color: #ffc107;
-      --danger-color: #dc3545;
-      --info-color: #17a2b8;
-      --light-gray: #f4f4f4;
-      --border-color: #dee2e6;
-      --text-color: #222;
-      --muted: #6c757d;
-      --maxw: 920px;
-    }
-
-    /* Layout */
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: var(--text-color); margin: 0; line-height: 1.65; background: #fff; }
-    .site-header { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 1px solid var(--border-color); }
-    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 1rem; }
-    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-    .brand { display:flex; align-items:center; gap:.6rem; text-decoration:none; color: var(--primary-color); font-weight: 700; letter-spacing:.2px; }
-    .brand .logo { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg,var(--primary-color), var(--accent-color)); display:inline-block; }
-    .nav a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
-    .nav .links { display:flex; gap:1rem; }
-
-    /* Article */
-    .hero { background: linear-gradient(180deg, var(--secondary-color), #fff); border-bottom:1px solid var(--border-color); padding: 2.25rem 0; }
-    .hero h1 { margin: 0 0 .25rem; font-size: clamp(1.6rem, 2.4vw + 1rem, 2.4rem); line-height: 1.15; color: #111; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; }
-    .meta { display:flex; flex-wrap:wrap; gap:.75rem 1.25rem; margin-top: .75rem; color: var(--muted); font-size:.95rem; }
-
-    main.article { padding: 1.5rem 0 3rem; }
-    .article .content { max-width: var(--maxw); margin: 0 auto; padding: 0 1rem; }
-
-    .breadcrumbs { font-size: .9rem; color: var(--muted); margin: 0 0 1rem; }
-    .breadcrumbs a { color: var(--primary-color); text-decoration: none; }
-
-    .prose h2 { margin-top: 2rem; font-size: 1.45rem; line-height:1.25; }
-    .prose h3 { margin-top: 1.5rem; font-size: 1.25rem; line-height:1.3; }
-    .prose p { margin: 1rem 0; }
-    .prose strong { color:#111; }
-    .prose ul, .prose ol { padding-left: 1.25rem; }
-
-    .callout { border-left: 4px solid var(--info-color); background: #f0f7fb; padding: .875rem 1rem; border-radius: .5rem; }
-
-    /* Table */
-    .table-wrap { overflow-x:auto; border:1px solid var(--border-color); border-radius:.75rem; background: white; }
-    table { width: 100%; border-collapse: collapse; font-size: .975rem; }
-    th, td { padding: .85rem .9rem; vertical-align: top; }
-    thead th { background: var(--secondary-color); text-align: left; border-bottom:1px solid var(--border-color); }
-    tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border-color); }
-
-    /* Aside tags */
-    .tags { margin-top: 1.25rem; display:flex; gap:.5rem; flex-wrap:wrap; }
-    .tag { font-size:.85rem; padding:.25rem .55rem; border-radius:999px; border:1px solid var(--border-color); color:#444; background:#fff; }
-
-    /* Footer */
-    footer { border-top:1px solid var(--border-color); background:#fff; }
-    .footer-inner { max-width: var(--maxw); margin: 0 auto; padding: 1.25rem 1rem 2.5rem; color: var(--muted); font-size:.9rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
-
-    /* Code/keys */
-    kbd { background: #f3f3f3; border:1px solid #e2e2e2; border-bottom-width:2px; padding:.1rem .35rem; border-radius:.35rem; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: .85em; }
-
-    /* Helpers */
-    .muted { color: var(--muted); }
-    .hr { height:1px; background: var(--border-color); margin: 2rem 0; }
-  </style>
-
-  <!-- JSON-LD Article -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "Flusso Diastolico nel LVOT: Fisiologia o Patologia?",
-    "about": ["IVRF", "LVOT", "Doppler", "HOCM", "Cardiologia"],
-    "author": [{"@type":"Person","name":"Dr. Benjamin De Ornelas"}],
-    "datePublished": "2025-09-22",
-    "inLanguage": "it-IT",
-    "publisher": {"@type":"Organization","name":"Studio Cardiologico"}
-  }
-  </script>
+  <meta property="og:url" content="https://bdeornelas.github.io/research/flusso-diastolico-lvot.html" />
+  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg" />
+  <link rel="icon" href="/assets/img/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="/">
-        <span class="logo" aria-hidden="true"></span>
-        <span>Benjamin De Ornelas</span>
-      </a>
-      <nav class="links" aria-label="Sezioni principali">
-        <a href="/about/">Chi sono</a>
-        <a href="/servizi/">Servizi</a>
-        <a href="/research/">Ricerca</a>
-        <a href="/contatti/">Contatti</a>
-      </nav>
-    </div>
-  </header>
+<body class="bg-slate-900 text-gray-200">
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 [background:radial-gradient(100%_50%_at_50%_0%,rgba(56,189,248,0.08)_0,rgba(0,0,0,0)_50%),radial-gradient(100%_50%_at_50%_100%,rgba(167,139,250,0.08)_0,rgba(0,0,0,0)_50%),repeating-linear-gradient(0deg,#1e293b_0_1px,transparent_1px_24px),repeating-linear-gradient(90deg,#1e293b_0_1px,transparent_1px_24px)]"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-80 w-[48rem] rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+  </div>
 
-  <section class="hero">
-    <div class="container">
-      <p class="breadcrumbs"><a href="/research/">Ricerca</a> / Articolo</p>
-      <h1>Flusso Diastolico nel LVOT: Fisiologia o Patologia?</h1>
-      <p class="subtitle">Guida alla Diagnosi Differenziale del Flusso da Rilasciamento Isovolumetrico (IVRF)</p>
-      <div class="meta">
-        <span>Pubblicato il <time datetime="2025-09-22">22 settembre 2025</time></span>
-        <span>Autore: Dr. Benjamin De Ornelas</span>
-        <span>Tempo di lettura: ~7 minuti</span>
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="sticky top-0 z-50 py-4">
+      <div class="glass-card rounded-xl px-4 py-2">
+        <nav class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
+            <i data-lucide="heart-pulse" class="text-sky-400"></i>
+            {author}
+          </a>
+          <ul class="hidden md:flex items-center space-x-1">
+            <li><a href="/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
+            <li><a href="/articles/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
+            <li><a href="/about.html" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
+            <li><a href="/research/" class="px-3 py-2 rounded-md bg-sky-600 text-white">Approfondimenti</a></li>
+            <li><a href="/contact/" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-md">Contatti</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <main class="article">
-    <article class="content prose">
-      <div class="container">
-
-        <h2>Introduzione</h2>
-        <p>Il riscontro di un'onda di flusso anterogrado nel tratto di efflusso del ventricolo sinistro (LVOT) durante la diastole è un'evenienza non infrequente nella pratica ecocardiografica. Tale segnale, rilevato tipicamente in pazienti giovani, asintomatici e spesso atletici, può generare un legittimo dubbio diagnostico. Si tratta di un reperto fisiologico legato a un cuore iperdinamico o della spia di una condizione patologica misconosciuta, come un'ostruzione dinamica?</p>
-        <p>Questo articolo si propone di analizzare in modo sistematico questo fenomeno, noto come <strong>Flusso da Rilasciamento Isovolumetrico (IVRF)</strong>, fornendo un quadro basato sull'evidenza per la sua corretta interpretazione e la diagnosi differenziale con le condizioni patologiche rilevanti.</p>
-
-        <h2>Il Fenomeno: Cos'è il Flusso da Rilasciamento Isovolumetrico (IVRF)?</h2>
-        <p>L'IVRF è un breve jet di flusso sanguigno diretto dalla base verso l'apice del ventricolo sinistro, che si verifica durante il tempo di rilasciamento isovolumetrico (IVRT), l'intervallo compreso tra la chiusura della valvola aortica e l'apertura della valvola mitrale.</p>
-        <p>La sua origine non è un artefatto, ma è radicata nella complessa meccanica del rilasciamento ventricolare:</p>
-        <ul>
-          <li><strong>Rilasciamento Asincrono:</strong> Il rilasciamento miocardico non è un evento sincrono. Le regioni apicali del ventricolo tendono a iniziare la fase di espansione e "svitamento" (untwisting) prima delle regioni basali.</li>
-          <li><strong>Recoil Elastico e Suzione Ventricolare:</strong> In un cuore sano ed elastico, specialmente se sottoposto a una contrazione sistolica vigorosa che porta a una quasi obliterazione della cavità, viene immagazzinata una significativa quantità di energia potenziale. Al momento della diastole, questa energia viene rilasciata sotto forma di un potente recoil elastico, che genera un effetto di suzione attiva all'apice del ventricolo.</li>
-          <li><strong>Gradiente di Pressione Intraventricolare:</strong> La combinazione di rilasciamento apicale precoce e suzione crea un gradiente di pressione transitorio tra la base (a pressione relativamente più alta) e l'apice (a pressione più bassa), che accelera il sangue residuo nella cavità, generando l'onda di flusso IVRF.</li>
-        </ul>
-        <p class="callout"><strong>In sintesi</strong>, l'IVRF è l'espressione emodinamica di un efficiente accoppiamento sisto-diastolico, tipico di un cuore compliante e con una riserva contrattile preservata.</p>
-
-        <h2>Il Contesto Clinico e le Evidenze Scientifiche</h2>
-        <p>La comprensione dell'IVRF come fenomeno fisiologico è supportata da una solida letteratura.</p>
-        <ul>
-          <li><strong>Studi pionieristici</strong> (Sasson et al., 1987; Panayiotou &amp; Byrd, 1990) hanno per primi descritto questo flusso, associandolo a stati iperdinamici e definendolo un reperto comune in soggetti sani.</li>
-          <li><strong>Ricerche più recenti</strong> (Cowie et al., 2022) hanno confermato la sua elevatissima prevalenza in individui sani, raggiungendo il 100% in una coorte di atleti. L'ampiezza del segnale è risultata correlata a una funzione diastolica vigorosa e a un'elevata gittata sistolica.</li>
-          <li>In un interessante cambio di prospettiva, <strong>altri studi</strong> (Joshi et al., 2014; Pressman et al., 2016) hanno suggerito che è <em>l'assenza</em> di questo flusso, in determinate popolazioni, a poter avere un significato prognostico negativo, essendo associata a una ridotta funzione sistolica e a un maggior numero di eventi avversi.</li>
-        </ul>
-        <p>L'evidenza cumulativa, quindi, posiziona l'IVRF non come un'anomalia, ma come un <strong>marcatore Doppler di una meccanica cardiaca efficiente</strong>.</p>
-
-        <h2>La Diagnosi Differenziale: L'Analisi Critica del Tracciato Doppler</h2>
-        <p>La principale sfida clinica è la sicura differenziazione dell'IVRF dall'ostruzione dinamica del LVOT, tipica della Cardiomiopatia Ipertrofica Ostruttiva (HOCM). La distinzione si basa su criteri oggettivi e riproducibili.</p>
-
-        <div class="table-wrap" role="region" aria-label="Tabella diagnosi differenziale">
-          <table>
-            <thead>
-              <tr>
-                <th>Criterio</th>
-                <th>IVRF (Fisiologico)</th>
-                <th>LVOTO / HOCM (Patologico)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Timing</strong></td>
-                <td>Diastolico. Inizia dopo il click di chiusura della valvola aortica.</td>
-                <td>Sistolico. Termina con il click di chiusura della valvola aortica.</td>
-              </tr>
-              <tr>
-                <td><strong>Morfologia</strong></td>
-                <td>Breve, netto, con profilo tendenzialmente simmetrico (triangolare).</td>
-                <td>A picco tardivo (meso-tele-sistolico), con profilo concavo "a pugnale" (dagger-shaped).</td>
-              </tr>
-              <tr>
-                <td><strong>Contesto 2D</strong></td>
-                <td>Cuore strutturalmente sano, funzione vigorosa, assenza di SAM.</td>
-                <td>Ipertrofia settale asimmetrica (ASH), movimento sistolico anteriore della mitrale (SAM).</td>
-              </tr>
-            </tbody>
-          </table>
+    <section class="mt-10 mb-6">
+      <div class="prose prose-invert max-w-none">
+        <nav class="text-sm text-slate-400 mb-2">
+          <a href="/research/" class="hover:text-sky-400">Ricerca</a> / <span>Articolo</span>
+        </nav>
+        <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight">{article_title}</h1>
+        <p class="text-xl text-slate-300 mt-2">{subtitle}</p>
+        <div class="mt-4 flex items-center gap-3 text-sm text-slate-400">
+          <span><i data-lucide="calendar"></i> Pubblicato il {published}</span>
+          <span>•</span>
+          <span><i data-lucide="user"></i> Autore: {author}</span>
+          <span>•</span>
+          <span><i data-lucide="timer"></i> Tempo di lettura: {reading_time}</span>
         </div>
+      </div>
+    </section>
 
-        <h3>Altri flussi da considerare nel differenziale includono:</h3>
-        <ul>
-          <li><strong>Stenosi Aortica Fissa:</strong> Flusso sistolico, con picco mesosistolico e morfologia "a campana".</li>
-          <li><strong>Onda Presistolica (PSW):</strong> Flusso tardo-diastolico, successivo all'onda P dell'ECG, legato alla contrazione atriale.</li>
-        </ul>
-
-        <h2>Algoritmo Operativo per la Pratica Clinica</h2>
-        <p>Di fronte a un segnale di flusso anterogrado atipico nel LVOT, si raccomanda il seguente approccio sistematico:</p>
-        <ol>
-          <li><strong>Identificare i Riferimenti Temporali:</strong> Utilizzare il click di chiusura aortico come punto di riferimento assoluto. Determinare se l'inizio del segnale in esame è sistolico o diastolico. Questa è la prima e più importante distinzione.</li>
-          <li><strong>Analizzare la Morfologia dello Spettro:</strong> Valutare la forma dell'inviluppo Doppler. Un profilo breve e triangolare in diastole precoce è suggestivo di IVRF. Un profilo sistolico tardivo "a pugnale" è patognomonico per ostruzione dinamica.</li>
-          <li><strong>Correlare con l'Esame 2D e Color Doppler:</strong> Contestualizzare il dato Doppler con i reperti morfologici e funzionali. Ricercare attivamente i segni di HOCM (ASH, SAM). Utilizzare il Color Doppler per confermare l'assenza di turbolenza sistolica nel LVOT.</li>
-          <li><strong>Sintesi Diagnostica:</strong> In presenza di un flusso con caratteristiche temporali e morfologiche tipiche di IVRF, in un contesto di cuore strutturalmente sano e iperdinamico, il reperto va classificato come fisiologico e non meritevole di ulteriori approfondimenti in assenza di altri sospetti clinici.</li>
-        </ol>
-
-        <h2>Conclusione</h2>
-        <p>Il flusso da rilasciamento isovolumetrico (IVRF) è un fenomeno emodinamico che riflette una fisiologia cardiaca efficiente piuttosto che una patologia. La sua comprensione e il suo corretto inquadramento sono essenziali per evitare diagnosi errate e per fornire una valutazione accurata, in particolare nella popolazione giovane e atletica. Un approccio rigoroso, basato sull'analisi del timing, della morfologia Doppler e del contesto anatomico, permette di distinguere con sicurezza questo reperto benigno da condizioni patologiche significative, migliorando la qualità e l'appropriatezza della refertazione ecocardiografica.</p>
-
-        <div class="hr" aria-hidden="true"></div>
-
-        <h2>Bibliografia Essenziale</h2>
-        <ol>
-          <li>Sasson Z, et al. <em>J Am Coll Cardiol.</em> 1987;10(3):539-46.</li>
-          <li>Panayiotou H, Byrd BF. <em>J Am Coll Cardiol.</em> 1990;16(7):1625-31.</li>
-          <li>Cowie B, et al. <em>Australas J Ultrasound Med.</em> 2022;25(3):137-141.</li>
-          <li>Pressman GS, et al. <em>Am J Cardiol.</em> 2016;118(10):1593-97.</li>
-        </ol>
-
-        <div class="tags" aria-label="Tag dell'articolo">
-          <span class="tag">Ecocardiografia</span>
-          <span class="tag">Doppler</span>
-          <span class="tag">IVRF</span>
-          <span class="tag">LVOT</span>
-          <span class="tag">HOCM</span>
-        </div>
-
-        <p class="breadcrumbs" style="margin-top:2rem"><a href="/research/">← Torna a Ricerca</a></p>
-
+    <article class="glass-card rounded-2xl p-6 md:p-10" data-aos="fade-up">
+      <div class="prose prose-invert max-w-none">
+        {full_body}
       </div>
     </article>
-  </main>
 
-  <footer>
-    <div class="footer-inner">
-      <div>© <span id="y"></span> Benjamin De Ornelas — Tutti i diritti riservati</div>
-      <div class="muted">Questo contenuto ha finalità informative e non sostituisce il parere del medico curante.</div>
-    </div>
-  </footer>
+    <footer class="text-center py-10 border-t border-slate-800 mt-16">
+      <h3 class="text-xl font-bold mb-2">Contatti</h3>
+      <p class="text-slate-400 mb-4">Per commenti o collaborazioni su questo articolo.</p>
+      <a href="/contact/" class="bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-5 rounded-lg">Contattami</a>
+      <p class="text-sm text-slate-500 mt-6">&copy; 2025 {author}. Tutti i diritti riservati.</p>
+    </footer>
+  </div>
 
   <script>
-    // Set current year
-    document.getElementById('y').textContent = new Date().getFullYear();
+    AOS.init();
+    if (window.lucide) lucide.createIcons();
   </script>
+  <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
+"""
+
+out_path.write_text(content_html, encoding="utf-8")
+str(out_path)
