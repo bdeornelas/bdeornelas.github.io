@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Meccanica della fatica vascolare e aterogenesi coronarica | Dr. Benjamin De Ornelas</title>
-  <meta name="description" content="Dalle cabine aeree alla biomeccanica coronarica: modello quantitativo di fatica ciclica, leggi costitutive, S–N mapping, waterhammer e topografia delle lesioni.">
+  <meta name="description" content="Dalle cabine aeree alla biomeccanica coronarica: un'analogia ingegneristica per comprendere la fatica ciclica, il danno strutturale e il cedimento della parete arteriosa.">
   <meta name="keywords" content="aterosclerosi, biomeccanica, meccanica della fatica, strain circonferenziale, pulse pressure, waterhammer, myocardial bridge, vein graft, wave intensity, remodeling vascolare">
   <link rel="canonical" href="https://www.bdeornelas.it/research/meccanica-fatica-aterogenesi.html">
   <meta property="og:title" content="Meccanica della fatica vascolare e aterogenesi coronarica">
-  <meta property="og:description" content="Dalle cabine aeree alla biomeccanica coronarica: modello quantitativo di fatica ciclica, leggi costitutive, S–N mapping, waterhammer e topografia delle lesioni.">
+  <meta property="og:description" content="Dalle cabine aeree alla biomeccanica coronarica: un'analogia ingegneristica per comprendere la fatica ciclica, il danno strutturale e il cedimento della parete arteriosa.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.bdeornelas.it/research/meccanica-fatica-aterogenesi.html">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
@@ -104,7 +104,7 @@
           <span class="text-white">e aterogenesi coronarica</span>
         </h1>
         <p class="text-xl text-slate-300 leading-relaxed mb-8">
-          Dalle cabine degli aerei ai vasi coronarici: un'analisi approfondita della fatica ciclica attraverso stress/strain, leggi costitutive iperelastiche, mappatura S–N per tessuti biologici, fenomeni transitori d'onda (waterhammer), vincoli anatomici (ponti miocardici, segmenti intraossei) e rimodellamento intimale. Include esempi numerici dettagliati, modelli computazionali FEA, casi clinici, protocolli sperimentali e implicazioni terapeutiche.
+          Un'analogia ingegneristica tra la fusoliera di un aereo e la parete arteriosa. Analizziamo l'aterosclerosi come un processo di fatica meccanica, esplorando stress ciclico, leggi costitutive, curve S-N, waterhammer e topografia delle lesioni per prevedere e prevenire il cedimento strutturale vascolare.
         </p>
         <div class="flex flex-wrap gap-4 text-sm text-slate-400">
           <div class="flex items-center gap-2">
@@ -139,7 +139,7 @@
           Ad ogni ciclo di volo, la pressurizzazione e depressurizzazione della cabina causano espansione e contrazione del guscio metallico. Se la pressione interna fosse mantenuta a 1 atmosfera mentre l'aereo vola a 12.000 metri (pressione esterna ~0.19 atm), la differenza di pressione sarebbe ~0.81 atmosfere. Con la strategia attuale (0.75 atm interno vs 0.19 atm esterno), la differenza si riduce a ~0.56 atmosfere, diminuendo del 30% lo stress sulla struttura.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Questa riduzione dell'ampiezza del ciclo di stress è cruciale perché la <strong class="text-white">vita a fatica</strong> di un materiale dipende esponenzialmente dall'ampiezza del carico alternato. Un Boeing 747 subisce circa 25.000-35.000 cicli di pressurizzazione durante la sua vita operativa: anche una riduzione del 30% nello stress può raddoppiare la vita utile della struttura.
+          Questa riduzione dell'ampieezza del ciclo di stress è cruciale perché la <strong class="text-white">vita a fatica</strong> di un materiale dipende esponenzialmente dall'ampiezza del carico alternato. Un Boeing 747 subisce circa 25.000-35.000 cicli di pressurizzazione durante la sua vita operativa: anche una riduzione del 30% nello stress può raddoppiare la vita utile della struttura.
         </p>
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
@@ -200,7 +200,7 @@
                 <th>Parametro</th>
                 <th>Arteria sana</th>
                 <th>Arteria aterosclerotica</th>
-                <th>Significato</th>
+                <th>Significato (Proprietà del materiale)</th>
               </tr>
             </thead>
             <tbody>
@@ -226,7 +226,7 @@
                 <td class="font-medium text-white">Strain a rottura (%)</td>
                 <td>80-120</td>
                 <td>30-60</td>
-                <td>Deformazione limite</td>
+                <td>Deformazione limite prima del cedimento</td>
               </tr>
             </tbody>
           </table>
@@ -347,110 +347,85 @@
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Implicazione clinica</strong>: un raddoppio del pulse pressure può accelerare l'aterogenesi di 3-4 volte, spiegando perché l'ipertensione sistolica isolata nell'anziano è un fattore di rischio cardiovascolare così potente.
+            <strong class="text-sky-400">Implicazione ingegneristica</strong>: un raddoppio dell'ampiezza del carico ciclico (pulse pressure) riduce la vita a fatica del componente di un fattore 3-4, accelerando l'insorgenza del "danno" strutturale (aterogenesi).
           </p>
         </div>
       </section>
 
-      <!-- 4. MECCANOBIOLOGIA -->
+      <!-- 4. MECCANOBIOLOGIA (MODIFICATA) -->
       <section class="mb-12" data-aos="fade-up" data-aos-delay="350">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="dna" class="w-6 h-6 text-orange-400"></i>
-          Meccanobiologia della parete arteriosa: dalla deformazione alla disfunzione
+          <i data-lucide="cpu" class="w-6 h-6 text-orange-400"></i>
+          La Risposta Strutturale al Danno Ciclico: Meccanobiologia della Parete
         </h2>
         
-        <h3 class="text-xl font-semibold mb-4 text-white">Risposta endoteliale al strain ciclico</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          L'endotelio è un <strong class="text-white">meccanosensore</strong> che integra sia lo shear stress del flusso sanguigno sia lo strain circonferenziale della parete. Mentre moderate deformazioni sono fisiologiche e mantengono l'omeostasi vascolare, strain eccessivi o prolungati nel tempo innescano cascate pro-aterogene.
+          La parete arteriosa non è un materiale passivo, ma un <strong class="text-white">composito "intelligente"</strong> in grado di percepire i carichi meccanici e adattare la propria struttura. Tuttavia, un carico ciclico eccessivo, analogo alla fatica nei metalli, innesca una risposta di "riparazione" maladattativa che compromette l'integrità strutturale a lungo termine.
         </p>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          Le cellule endoteliali percepiscono la deformazione meccanica attraverso diversi meccanismi:
-        </p>
-        <ul class="text-slate-300 mb-6 space-y-3 ml-6">
-          <li>• <strong class="text-white">Caveolae</strong>: invaginazioni della membrana plasmatica che si appiattiscono durante lo stretch, attivando canali meccanosensibili</li>
-          <li>• <strong class="text-white">Giunzioni cellula-cellula</strong>: complessi VE-caderina/β-catenina che trasmettono forze tra cellule adiacenti</li>
-          <li>• <strong class="text-white">Adesioni focali</strong>: connessioni integrina-citoscheletro che rilevano tensioni della matrice extracellulare</li>
-          <li>• <strong class="text-white">Glicocalice</strong>: strato di proteoglicani che amplifica le forze di shear e strain</li>
-        </ul>
         
+        <h3 class="text-xl font-semibold mb-4 text-white">L'Endotelio: una Rete di Sensori Integrata</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Strain eccessivi (>15-20%) inducono una risposta endoteliale pro-infiammatoria caratterizzata da:
+          Lo strato più interno, l'endotelio, agisce come una sofisticata <strong class="text-white">rete di sensori di deformazione (strain gauges)</strong>. Rileva lo strain circonferenziale attraverso componenti strutturali specializzate ancorate al citoscheletro e alla matrice extracellulare. Entro un range fisiologico, questi segnali promuovono la manutenzione e l'omeostasi del "componente".
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Quando lo strain ciclico supera una soglia critica (>15-20%), i sensori vengono sovraccaricati. Questo innesca una <strong class="text-white">cascata di segnali di "allarme"</strong> (attivazione di vie pro-infiammatorie come NF-κB). Le conseguenze funzionali sono immediate:
         </p>
         <ul class="text-slate-300 mb-6 space-y-2 ml-6">
-          <li>• Downregulation di eNOS e riduzione della produzione di NO</li>
-          <li>• Upregulation di endotelina-1 e angiotensina II</li>
-          <li>• Attivazione di NF-κB e espressione di molecole di adesione (VCAM-1, ICAM-1)</li>
-          <li>• Rilascio di citochine pro-infiammatorie (IL-1β, TNF-α, MCP-1)</li>
-          <li>• Aumento della permeabilità endoteliale</li>
+            <li>• <strong class="text-white">Perdita di proprietà protettive:</strong> la produzione di ossido nitrico (NO), un agente che mantiene il vaso "rilassato" e non reattivo, viene soppressa.</li>
+            <li>• <strong class="text-white">Aumento della permeabilità:</strong> l'integrità della barriera endoteliale diminuisce, simile a una guarnizione che inizia a perdere, permettendo a molecole come le lipoproteine a bassa densità (LDL) di infiltrarsi nella parete.</li>
+            <li>• <strong class="text-white">Attivazione della superficie:</strong> la superficie interna del vaso diventa "adesiva", reclutando cellule infiammatorie dal circolo sanguigno.</li>
         </ul>
 
-        <h3 class="text-xl font-semibold mb-4 text-white">Transizione fenotipica delle VSMC</h3>
+        <h3 class="text-xl font-semibold mb-4 text-white">Le Cellule Muscolari Lisce: da Elementi Strutturali a Fabbriche di Matrice</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Le <strong class="text-white">cellule muscolari lisce vascolari</strong> (VSMC) della tonaca media sono particolarmente sensibili al strain circonferenziale. In condizioni fisiologiche, mantengono un fenotipo <em>contrattile</em>, esprimendo marcatori come α-actina muscolare liscia, calponina e SM22α.
+          Nello strato intermedio (la tonaca media), le <strong class="text-white">cellule muscolari lisce vascolari (VSMC)</strong> agiscono come gli elementi strutturali e contrattili primari. In condizioni di carico normale, mantengono una configurazione stabile, orientata a sopportare l'hoop stress.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Strain ciclici elevati (>10-12%) promuovono la transizione verso un fenotipo <em>sintetico/proliferativo</em>, caratterizzato da:
+          Sotto l'influenza dello strain eccessivo e dei segnali di allarme dall'endotelio, queste cellule subiscono una <strong class="text-white">transizione funzionale critica</strong>: da elementi strutturali passivi a "fabbriche" attive. Iniziano a proliferare, a migrare verso la zona del "danno" (l'intima) e a produrre massicciamente nuova matrice extracellulare.
         </p>
         
         <div class="research-table mb-8">
           <table class="w-full glass-card rounded-lg">
             <thead>
               <tr>
-                <th>Aspetto</th>
-                <th>VSMC Contrattili</th>
-                <th>VSMC Sintetiche</th>
+                <th>Stato Funzionale</th>
+                <th>Analogia Ingegneristica</th>
+                <th>Funzione Primaria</th>
+                <th>Conseguenza Strutturale</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="font-medium text-white">Morfologia</td>
-                <td>Allungate, orientate circonferenzialmente</td>
-                <td>Tonde, disorganizzate</td>
+                <td class="font-medium text-white">Contrattile (Fisiologico)</td>
+                <td>Fibra strutturale stabile</td>
+                <td>Mantenere il tono e l'integrità</td>
+                <td>Parete elastica e resiliente</td>
               </tr>
               <tr>
-                <td class="font-medium text-white">Marcatori</td>
-                <td>α-SMA+++, SM22α+++, Calponina++</td>
-                <td>α-SMA+, SM22α-, Vimentina+++</td>
-              </tr>
-              <tr>
-                <td class="font-medium text-white">Funzione primaria</td>
-                <td>Contrazione, mantenimento tono</td>
-                <td>Proliferazione, sintesi MEC</td>
-              </tr>
-              <tr>
-                <td class="font-medium text-white">Localizzazione</td>
-                <td>Media</td>
-                <td>Media → Intima (migrazione)</td>
-              </tr>
-              <tr>
-                <td class="font-medium text-white">Prodotti secreti</td>
-                <td>Elastina, Collagene I/III (basale)</td>
-                <td>Proteoglicani, Collagene, MMP</td>
+                <td class="font-medium text-white">Sintetico (Patologico)</td>
+                <td>Unità di riparazione iperattiva</td>
+                <td>Proliferare e produrre matrice</td>
+                <td>Ispessimento, rigidità, perdita di elasticità</td>
               </tr>
             </tbody>
           </table>
         </div>
-        
-        <p class="text-slate-300 leading-relaxed mb-6">
-          La transizione è mediata da pathways meccanosensibili chiave come <strong class="text-white">YAP/TAZ</strong> (effettori della via Hippo), <strong class="text-white">MAPK</strong> (ERK1/2, JNK, p38) e <strong class="text-white">PI3K/Akt</strong>. L'attivazione di questi circuiti porta a modificazioni epigenetiche (metilazione del DNA, modifiche istoniche) che stabilizzano il fenotipo sintetico <span class="citation">(Lacolley et al., 2012; Humphrey et al., 2014)</span>.
-        </p>
 
-        <h3 class="text-xl font-semibold mb-4 text-white">Rimodellamento della matrice extracellulare</h3>
+        <h3 class="text-xl font-semibold mb-4 text-white">Rimodellamento della Matrice: da Materiale Elastico a Composito Fragile</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Il strain ciclico modifica profondamente la composizione e l'organizzazione della MEC. In condizioni fisiologiche, la matrice è dominata da <strong class="text-white">elastina</strong> (conferisce elasticità e resilienza) e <strong class="text-white">collagene I/III</strong> (fornisce resistenza tensile).
+          La conseguenza finale di questo processo è un profondo cambiamento delle <strong class="text-white">proprietà del materiale</strong> della parete vascolare. La matrice extracellulare (MEC), originariamente un composito bilanciato di <strong class="text-white">elastina</strong> (per l'elasticità) e <strong class="text-white">collagene</strong> (per la resistenza), viene degradata e sostituita.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Strain eccessivi inducono un <strong class="text-white">shift composizionale</strong> verso:
+          Il nuovo materiale prodotto dalle VSMC "sintetiche" è:
         </p>
         <ul class="text-slate-300 mb-6 space-y-2 ml-6">
-          <li>• <strong class="text-white">Proteoglicani</strong>: versican, biglican, decorin - aumentano la ritenzione di LDL</li>
-          <li>• <strong class="text-white">Collagene</strong>: aumento del rapporto collagene/elastina, crosslinking anomalo</li>
-          <li>• <strong class="text-white">Fibronectina</strong>: facilita l'adesione e migrazione cellulare</li>
-          <li>• <strong class="text-white">Metalloproteinasi</strong> (MMP-2, MMP-9): degradano elastina e collagene maturo</li>
+          <li>• <strong class="text-white">Più rigido e meno elastico:</strong> a causa di un aumento del rapporto collagene/elastina.</li>
+          <li>• <strong class="text-white">Più voluminoso:</strong> l'accumulo di questa nuova matrice causa l'ispessimento della parete (iperplasia intimale).</li>
+          <li>• <strong class="text-white">Biochimicamente "trappola":</strong> è ricco di proteoglicani, molecole che legano e intrappolano le LDL infiltrate, creando il nucleo lipidico della placca aterosclerotica.</li>
         </ul>
         
         <p class="text-slate-300 leading-relaxed mb-6">
-          Questo rimodellamento crea un <strong class="text-white">microambiente pro-aterogeno</strong>: i proteoglicani carichi negativamente legano le LDL attraverso interazioni elettrostatiche con l'apoB-100, favorendo l'accumulo lipidico intimale <span class="citation">(Nakashima et al., 2008; Katsuda et al., 1992)</span>.
+          In sintesi, il "danno da fatica" meccanica innesca un processo di autoriparazione che, se cronicamente attivato, porta alla fabbricazione di un <strong class="text-white">"cerotto" strutturalmente inferiore</strong> (la placca) che ispessisce la parete, ne compromette le proprietà meccaniche e alla fine può portare al cedimento catastrofico (rottura di placca).
         </p>
       </section>
 
@@ -463,54 +438,53 @@
         
         <h3 class="text-xl font-semibold mb-4 text-white">Ponti miocardici: un modello naturale di protezione</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          I <strong class="text-white">ponti miocardici</strong> (MB) rappresentano un esperimento naturale di modulazione dello strain vascolare. Si tratta di fascicoli di miocardio che "avvolgono" segmenti delle arterie coronarie epicardiche, più comunemente la discendente anteriore sinistra (LAD) nel 15-85% della popolazione a seconda dei criteri diagnostici utilizzati.
+          I <strong class="text-white">ponti miocardici</strong> (MB) rappresentano un esperimento naturale di modulazione dello strain vascolare. Si tratta di fascicoli di miocardio che "avvolgono" segmenti delle arterie coronarie epicardiche, più comunemente la discendente anteriore sinistra (LAD) nel 15-85% della popolazione a seconda dei criteri diagnostici utilizzati. Questi vincoli esterni agiscono come un <strong class="text-white">rinforzo strutturale</strong>.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Il nostro studio sistematico <span class="citation">(De Ornelas et al., 2024)</span> ha dimostrato un pattern istologico costante:
+          Il nostro studio sistematico <span class="citation">(De Ornelas et al., 2024)</span> ha dimostrato un pattern di danno strutturale costante:
         </p>
         
         <div class="algorithm-step rounded-lg p-6">
           <div class="flex items-center gap-3 mb-3">
             <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">1</div>
-            <h3 class="font-bold text-white">Segmento intramurale</h3>
+            <h3 class="font-bold text-white">Segmento vincolato (intramurale)</h3>
           </div>
-          <p class="text-slate-300 ml-11">Intima sottile (50-80 μm), media preservata, assenza di placche aterosclerotiche anche in presenza di fattori di rischio sistemici</p>
+          <p class="text-slate-300 ml-11">Danno minimo, assenza di placche. Il vincolo esterno limita la deformazione ciclica, proteggendo il materiale dalla fatica.</p>
         </div>
 
         <div class="algorithm-step rounded-lg p-6">
           <div class="flex items-center gap-3 mb-3">
             <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">2</div>
-            <h3 class="font-bold text-white">Segmento prossimale</h3>
+            <h3 class="font-bold text-white">Segmento prossimale (a monte del vincolo)</h3>
           </div>
-          <p class="text-slate-300 ml-11">Iperplasia intimale accentuata (150-400 μm), accumulo di VSMC sintetiche e MEC, presenza frequente di placche fibro-lipidiche</p>
+          <p class="text-slate-300 ml-11">Danno accentuato, ispessimento e placche frequenti. Lo stress meccanico viene ridistribuito e concentrato in questa zona non vincolata.</p>
         </div>
 
         <div class="algorithm-step rounded-lg p-6">
           <div class="flex items-center gap-3 mb-3">
             <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">3</div>
-            <h3 class="font-bold text-white">Segmento distale</h3>
+            <h3 class="font-bold text-white">Segmento distale (a valle del vincolo)</h3>
           </div>
-          <p class="text-slate-300 ml-11">Ispessimento intimale intermedio, pattern simile al controllo ma con variabilità individuale elevata</p>
+          <p class="text-slate-300 ml-11">Danno intermedio, indicando una transizione graduale del campo di stress.</p>
         </div>
         
-        <h3 class="text-xl font-semibold mb-4 text-white">Meccanismi di protezione del segmento intramurale</h3>
+        <h3 class="text-xl font-semibold mb-4 text-white">Meccanismi di protezione del segmento vincolato</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          La protezione del segmento intramurale deriva da diversi meccanismi meccanici:
+          La protezione del segmento intramurale deriva da meccanismi puramente ingegneristici:
         </p>
         <ul class="text-slate-300 mb-6 space-y-3 ml-6">
-          <li>• <strong class="text-white">Compressione radiale</strong>: il miocardio circostante riduce l'espansione sistolica del vaso</li>
-          <li>• <strong class="text-white">Prestress</strong>: il tessuto muscolare mantiene una tensione basale che "pre-carica" la parete</li>
-          <li>• <strong class="text-white">Smorzamento viscoso</strong>: il miocardio assorbe parte dell'energia di deformazione ciclica</li>
-          <li>• <strong class="text-white">Accoppiamento meccanico</strong>: la contrazione cardiaca sincronizza con il ciclo pressorio arterioso</li>
+          <li>• <strong class="text-white">Limitazione della deformazione:</strong> Il miocardio circostante agisce come un guscio di rinforzo, riducendo drasticamente l'espansione sistolica del vaso.</li>
+          <li>• <strong class="text-white">Pre-stress:</strong> Il tessuto muscolare mantiene una tensione basale che "pre-carica" la parete, riducendo l'ampiezza del ciclo di stress.</li>
+          <li>• <strong class="text-white">Smorzamento viscoso:</strong> Il miocardio assorbe e dissipa parte dell'energia di deformazione ciclica, proteggendo la parete arteriosa.</li>
         </ul>
         
         <div class="research-table mb-8">
           <table class="w-full glass-card rounded-lg">
             <thead>
               <tr>
-                <th>Parametro</th>
-                <th>Segmento prossimale</th>
-                <th>Segmento intramurale</th>
+                <th>Parametro Meccanico</th>
+                <th>Segmento prossimale (non vincolato)</th>
+                <th>Segmento intramurale (vincolato)</th>
                 <th>Riduzione (%)</th>
               </tr>
             </thead>
@@ -550,19 +524,19 @@
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Arterie vertebrali</strong>: i segmenti intraforaminali (C6-C2) mostrano minore ispessimento intimale rispetto ai tratti V1 e V4 liberi, nonostante siano esposti agli stessi fattori di rischio sistemici.
+            <strong class="text-sky-400">Arterie vertebrali</strong>: i segmenti che attraversano i forami ossei delle vertebre (C6-C2) sono protetti, mentre i tratti liberi a monte e a valle sono più vulnerabili al danno.
           </p>
         </div>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Arterie intercostali</strong>: i segmenti che decorrono nel solco costale (vincolati dall'osso) presentano aterogenesi tardiva rispetto ai tratti liberi intercostali.
+            <strong class="text-sky-400">Arterie intercostali</strong>: i segmenti vincolati dall'osso nel solco costale sono risparmiati rispetto ai tratti liberi.
           </p>
         </div>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Carotidi intrapetrose</strong>: il decorso intraosseo della carotide interna nel canale carotico è caratteristicamente risparmiato dall'aterosclerosi.
+            <strong class="text-sky-400">Carotidi intrapetrose</strong>: il decorso intraosseo nel canale carotico è caratteristicamente protetto dall'aterosclerosi.
           </p>
         </div>
       </section>
@@ -747,7 +721,7 @@
 
         <h3 class="text-xl font-semibold mb-4 text-white">Studi di wrap esterni e modulazione dello strain</h3>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Una serie di esperimenti pioneristici ha utilizzato <strong class="text-white">wrap esterni</strong> (tessuti non riassorbibili, mesh, casting rigido) per limitare artificialmente l'espansione di segmenti arteriosi e valutare l'effetto sulla proliferazione intimale.
+          Una serie di esperimenti pionieristici ha utilizzato <strong class="text-white">wrap esterni</strong> (tessuti non riassorbibili, mesh, casting rigido) per limitare artificialmente l'espansione di segmenti arteriosi e valutare l'effetto sulla proliferazione intimale.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
           Nello studio landmark di Zwolak et al. <span class="citation">(J Vasc Surg, 1987)</span>, segmenti di aorta addominale di coniglio sono stati avvolti con mesh di Dacron per limitare lo strain circonferenziale al 50% del controllo. Dopo 8 settimane:
@@ -1226,30 +1200,30 @@
         </p>
         
         <p class="text-slate-300 leading-relaxed mb-6">
-          I <strong class="text-white">principi chiave</strong> emergenti da questa analisi sono:
+          I <strong class="text-white">principi ingegneristici chiave</strong> emergenti da questa analisi sono:
         </p>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">1. Primato della pulse pressure</strong>: l'ampiezza dell'escursione pressoria, più della pressione assoluta, determina l'entità del danno da fatica vascolare.
+            <strong class="text-sky-400">1. Primato del carico ciclico</strong>: l'ampiezza dell'escursione pressoria (pulse pressure), più della pressione media, determina l'entità del danno da fatica vascolare.
           </p>
         </div>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">2. Rilevanza dei vincoli anatomici</strong>: strutture che limitano l'espansione vascolare (ponti miocardici, decorsi intraossei) proteggono localmente ma possono rilocare il danno in aree prossimali.
+            <strong class="text-sky-400">2. Rilevanza dei vincoli strutturali</strong>: strutture che limitano l'espansione (ponti miocardici, decorsi intraossei) proteggono localmente ma possono rilocare e concentrare il danno in aree adiacenti.
           </p>
         </div>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">3. Integrazione multifattoriale</strong>: lo strain meccanico non sostituisce ma amplifica l'effetto di fattori di rischio tradizionali (dislipidemia, infiammazione, diabete).
+            <strong class="text-sky-400">3. Integrazione multifattoriale</strong>: lo stress meccanico non sostituisce ma amplifica l'effetto dei fattori di rischio tradizionali, agendo come il catalizzatore che localizza il danno in un ambiente sistematicamente ostile.
           </p>
         </div>
         
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">4. Opportunità terapeutiche</strong>: strategie di modulazione dello strain (farmacologiche e device-based) rappresentano un approccio complementare alla prevenzione cardiovascolare.
+            <strong class="text-sky-400">4. Opportunità terapeutiche</strong>: strategie di modulazione dello strain (farmacologiche e device-based) rappresentano un approccio complementare per aumentare la "vita a fatica" del sistema cardiovascolare.
           </p>
         </div>
         
