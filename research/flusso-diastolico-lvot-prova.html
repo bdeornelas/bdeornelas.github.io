@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flusso Diastolico nel LVOT: Fisiologia o Patologia? | Dr. Benjamin De Ornelas</title>
+    
+    <meta name="description" content="Guida clinica aggiornata al flusso diastolico nel LVOT, un marker di fisiologia efficiente. Analisi differenziale con HOCM e altre condizioni.">
+    <meta name="keywords" content="LVOT, flusso diastolico, ecocardiografia, vortice diastolico, funzione diastolica, diagnosi differenziale, Cowie">
+    <link rel="canonical" href="https://bdeornelas.github.io/research/flusso-diastolico-lvot/">
+    
+    <meta property="og:title" content="Flusso Diastolico nel LVOT: Fisiologia o Patologia? | Dr. Benjamin De Ornelas">
+    <meta property="og:description" content="Analisi basata sull'evidenza del flusso diastolico nel LVOT e la sua diagnosi differenziale in ecocardiografia.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://bdeornelas.github.io/research/flusso-diastolico-lvot/">
+    
+    <link rel="icon" href="/assets/img/favicon.svg">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <script defer src="https://unpkg.com/lucide@latest/dist/lucide.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body {
+          font-family: 'Inter', sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        .gradient-text {
+          background: linear-gradient(90deg, #38bdf8, #a78bfa);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+        }
+        .glass-card {
+          background: rgba(30, 41, 59, 0.5);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid rgba(51, 65, 85, 0.5);
+          transition: all 0.3s ease;
+        }
+        .research-table { overflow-x: auto; }
+        .research-table table { min-width: 100%; border-collapse: collapse; }
+        .research-table th, .research-table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid rgba(51, 65, 85, 0.5); }
+        .research-table th { background: rgba(56, 189, 248, 0.1); font-weight: 600; color: #38bdf8; }
+        .algorithm-step { background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(167, 139, 250, 0.1)); border-left: 4px solid #38bdf8; margin-bottom: 1rem; }
+        .citation { color: #94a3b8; font-size: 0.9em; font-style: italic; }
+        .highlight-box { background: linear-gradient(135deg, rgba(56, 189, 248, 0.05), rgba(167, 139, 250, 0.05)); border: 1px solid rgba(56, 189, 248, 0.2); }
+    </style>
+</head>
+<body class="bg-slate-900 text-gray-200">
+
+    <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+        <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl"></div>
+    </div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <header class="sticky top-0 z-50 py-4 transition-all duration-300">
+            <div class="glass-card rounded-xl px-4 py-2">
+                <nav class="flex items-center justify-between">
+                    <a href="/" class="text-xl font-bold tracking-tighter text-white flex items-center gap-2">
+                        <i data-lucide="heart-pulse" class="text-sky-400"></i>
+                        Dr. Benjamin De Ornelas
+                    </a>
+                    <ul class="hidden md:flex items-center space-x-1">
+                        <li><a href="/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
+                        <li><a href="/about/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
+                        <li><a href="/research/" class="px-3 py-2 rounded-md bg-sky-500/20 text-sky-400">Ricerca</a></li>
+                        <li><a href="/contact/" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="py-8">
+            <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
+                <a href="/" class="hover:text-sky-400">Home</a> 
+                <span class="mx-2">/</span> 
+                <a href="/research/" class="hover:text-sky-400">Ricerca</a>
+                <span class="mx-2">/</span>
+                <span class="text-white">Flusso Diastolico nel LVOT: Un Fenomeno Sottovalutato</span>
+            </nav>
+
+            <header class="mb-12" data-aos="fade-up">
+                <div class="glass-card rounded-xl p-8 md:p-12">
+                    <div class="flex items-center gap-2 text-sky-400 text-sm font-medium mb-4">
+                        <i data-lucide="microscope" class="w-4 h-4"></i>
+                        Ricerca Clinica • Ecocardiografia Avanzata
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                        <span class="gradient-text">Flusso Diastolico nel LVOT:</span><br>
+                        <span class="text-white">Un Fenomeno Fisiologico Sottovalutato</span>
+                    </h1>
+                    <p class="text-xl text-slate-300 leading-relaxed mb-8">
+                        Guida alla comprensione e alla diagnosi differenziale di un reperto comune ma spesso frainteso, alla luce delle più recenti evidenze scientifiche.
+                    </p>
+                    <div class="flex flex-wrap gap-4 text-sm text-slate-400">
+                        <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-4 h-4"></i>Settembre 2025</div>
+                        <div class="flex items-center gap-2"><i data-lucide="clock" class="w-4 h-4"></i>10 min di lettura</div>
+                        <div class="flex items-center gap-2"><i data-lucide="tag" class="w-4 h-4"></i>LVOT, Flusso Diastolico, Vortice, Funzione Diastolica</div>
+                    </div>
+                </div>
+            </header>
+
+            <article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
+                
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3"><i data-lucide="help-circle" class="w-6 h-6 text-sky-400"></i>Il Dilemma Clinico</h2>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Il riscontro di un'onda di flusso anterogrado nel tratto di efflusso del ventricolo sinistro (LVOT) durante la diastole è un'evenienza comune nella pratica ecocardiografica. Per decenni, questo segnale ha generato un legittimo dubbio diagnostico: è un reperto fisiologico, tipico di cuori giovani e atletici, o la spia di una condizione patologica misconosciuta?
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        Grazie a recenti e rigorosi studi, la nebbia attorno a questo fenomeno si sta diradando. Questo articolo, aggiornato con le ultime evidenze, si propone di chiarire la natura di questo flusso, dimostrando come esso sia, nella quasi totalità dei casi, un <strong class="text-white">marker di una meccanica cardiaca efficiente e non un segno di patologia</strong>.
+                    </p>
+                </section>
+
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3"><i data-lucide="activity" class="w-6 h-6 text-violet-400"></i>Il Meccanismo: Il Vortice Diastolico</h2>
+                    <div class="highlight-box rounded-lg p-6 mb-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            L'onda di flusso diastolico nel LVOT è la <strong class="text-white">diretta conseguenza della formazione di un vortice all'interno del ventricolo sinistro</strong> durante il riempimento rapido (corrispondente all'onda E mitrale).
+                        </p>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        La sua origine è un capolavoro di fluidodinamica:
+                    </p>
+                    <div class="space-y-6">
+                        <div class="algorithm-step rounded-lg p-6">
+                            <h3 class="font-bold text-white mb-3">1. Riempimento Rapido (Onda E)</h3>
+                            <p class="text-slate-300">Il sangue entra vigorosamente dall'atrio sinistro, diretto verso l'apice del ventricolo. Questo è il flusso "di inflow".</p>
+                        </div>
+                        <div class="algorithm-step rounded-lg p-6">
+                            <h3 class="font-bold text-white mb-3">2. Formazione del Vortice</h3>
+                            <p class="text-slate-300">In un cuore sano ed elastico, questo getto di sangue non si dissipa, ma si organizza in un grande vortice. La componente principale di questo vortice risale lungo il setto interventricolare.</p>
+                        </div>
+                        <div class="algorithm-step rounded-lg p-6">
+                            <h3 class="font-bold text-white mb-3">3. Flusso nel LVOT (Onda "Specchio")</h3>
+                            <p class="text-slate-300">Questa componente del vortice, diretta dall'apice verso la base, attraversa il LVOT. È questo il flusso "di outflow" che registriamo al Doppler come un'onda positiva (verso la sonda) simultanea all'onda E (negativa, lontano dalla sonda).</p>
+                        </div>
+                    </div>
+                    <div class="bg-sky-500/10 border-l-4 border-sky-400 rounded-r-lg p-6 mt-8">
+                        <p class="text-slate-300 leading-relaxed">
+                            <strong class="text-sky-400">In sintesi</strong>: l'onda diastolica nel LVOT non è un flusso separato, ma è la "faccia visibile" di un vortice intraventricolare efficiente, che ottimizza il riempimento e pre-posiziona il sangue per la sistole successiva.
+                        </p>
+                    </div>
+                </section>
+                
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3"><i data-lucide="book-open" class="w-6 h-6 text-emerald-400"></i>Un Fenomeno Comune e Sottovalutato</h2>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        L'interpretazione di questo flusso come fenomeno fisiologico è oggi supportata da studi conclusivi.
+                    </p>
+                    <div class="border-l-4 border-emerald-400 pl-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            Uno studio di riferimento <span class="citation">(Cowie et al., Australas J Ultrasound Med, 2022)</span> ha dimostrato che questo
