@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Meccanica della fatica ciclica e aterogenesi: un modello quantitativo | Dr. Benjamin De Ornelas</title>
-  <meta name="description" content="Articolo tecnico sulla fatica ciclica vascolare: stress/strain, curva S–N, esempi numerici, colpo d’ariete e implicazioni per l’aterogenesi.">
-  <meta name="keywords" content="aterosclerosi, biomeccanica, meccanica della fatica, strain circonferenziale, pulse pressure, colpo d’ariete, graft venosi, coartazione aortica, VSMC, endotelio">
-  <link rel="canonical" href="https://www.bdeornelas.it/research/fatica-ciclica-aterogenesi.html">
-  <meta property="og:title" content="Meccanica della fatica ciclica e aterogenesi: un modello quantitativo">
-  <meta property="og:description" content="Articolo tecnico sulla fatica ciclica vascolare: stress/strain, curva S–N, esempi numerici, colpo d’ariete e implicazioni per l’aterogenesi.">
+  <title>Meccanica della fatica vascolare e aterogenesi coronarica | Dr. Benjamin De Ornelas</title>
+  <meta name="description" content="Dalla pressurizzazione delle cabine aeree alla biomeccanica coronarica: modello quantitativo di fatica ciclica, strain, waterhammer e distribuzione delle lesioni.">
+  <meta name="keywords" content="aterosclerosi, biomeccanica, meccanica della fatica, strain circonferenziale, pulse pressure, colpo d’ariete, myocardial bridge, vein graft, remodeling vascolare">
+  <link rel="canonical" href="https://www.bdeornelas.it/research/meccanica-fatica-aterogenesi.html">
+  <meta property="og:title" content="Meccanica della fatica vascolare e aterogenesi coronarica">
+  <meta property="og:description" content="Dalla pressurizzazione delle cabine aeree alla biomeccanica coronarica: modello quantitativo di fatica ciclica, strain, waterhammer e distribuzione delle lesioni.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://www.bdeornelas.it/research/fatica-ciclica-aterogenesi.html">
+  <meta property="og:url" content="https://www.bdeornelas.it/research/meccanica-fatica-aterogenesi.html">
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -69,6 +69,7 @@
       background: linear-gradient(135deg, rgba(56, 189, 248, 0.05), rgba(167, 139, 250, 0.05));
       border: 1px solid rgba(56, 189, 248, 0.2);
     }
+    code { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
   </style>
 </head>
 <body class="bg-slate-900 text-gray-200">
@@ -78,6 +79,7 @@
   </div>
 
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+    <!-- HEADER STICKY -->
     <header class="sticky top-0 z-50 py-4 transition-all duration-300">
       <div class="glass-card rounded-xl px-4 py-2">
         <nav class="flex items-center justify-between">
@@ -95,14 +97,16 @@
       </div>
     </header>
 
+    <!-- BREADCRUMB -->
     <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
       <a href="/" class="hover:text-sky-400">Home</a> 
       <span class="mx-2">/</span> 
       <a href="/research/" class="hover:text-sky-400">Ricerca</a>
       <span class="mx-2">/</span>
-      <span class="text-white">Fatica ciclica & aterogenesi</span>
+      <span class="text-white">Fatica vascolare & aterogenesi</span>
     </nav>
 
+    <!-- HEADER ARTICOLO -->
     <header class="mb-12" data-aos="fade-up">
       <div class="glass-card rounded-xl p-8 md:p-12">
         <div class="flex items-center gap-2 text-sky-400 text-sm font-medium mb-4">
@@ -110,11 +114,11 @@
           Ricerca • Biomeccanica cardiovascolare
         </div>
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-          <span class="gradient-text">Meccanica della fatica ciclica</span><br>
-          <span class="text-white">e aterogenesi: un modello quantitativo</span>
+          <span class="gradient-text">Meccanica della fatica vascolare</span><br>
+          <span class="text-white">e aterogenesi coronarica</span>
         </h1>
         <p class="text-xl text-slate-300 leading-relaxed mb-8">
-          Un’analisi tecnica della fatica vascolare: stress/strain, curva S–N, esempi numerici, fenomeni transitori (colpo d’ariete) e implicazioni per la distribuzione topografica delle lesioni.
+          Dalle cabine degli aerei ai vasi coronarici: un percorso rigoroso attraverso stress/strain, modelli S–N adattati ai tessuti, fenomeni transitori di pressione (waterhammer), vincoli anatomici (ponti miocardici, segmenti intraossei) e rimodellamento intimale. Confronto quantitativo, implicazioni cliniche e <em>framework</em> sperimentale.
         </p>
         <div class="flex flex-wrap gap-4 text-sm text-slate-400">
           <div class="flex items-center gap-2">
@@ -123,155 +127,196 @@
           </div>
           <div class="flex items-center gap-2">
             <i data-lucide="clock" class="w-4 h-4"></i>
-            12 min di lettura
+            24–28 min di lettura
           </div>
           <div class="flex items-center gap-2">
             <i data-lucide="tag" class="w-4 h-4"></i>
-            aterosclerosi, biomeccanica, fatica, pulse pressure, colpo d’ariete
+            aterosclerosi, fatica ciclica, pulse pressure, myocardial bridge, biomeccanica
           </div>
         </div>
       </div>
     </header>
 
+    <!-- ARTICOLO -->
     <article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
       
+      <!-- INTRO -->
       <section class="mb-12">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="book-open" class="w-6 h-6 text-sky-400"></i>
-          Introduzione
+          <i data-lucide="plane" class="w-6 h-6 text-sky-400"></i>
+          Osservazione iniziale e analogia aeronautica
         </h2>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Ogni battito cardiaco rappresenta un ciclo di carico applicato alla parete arteriosa. In 70 anni di vita, con una frequenza media di 70 bpm, il sistema cardiovascolare è esposto a circa <strong class="text-white">2.6×10<sup>9</sup> cicli</strong>. Questo ordine di grandezza è comparabile alle prove di fatica a lungo termine in aeronautica. L’aterosclerosi può essere interpretata come un fenomeno di <strong class="text-white">fatica a basso carico e ad alto numero di cicli</strong>, in cui la deformazione meccanica induce risposte cellulari e tissutali cumulative.
+          Sapevi che le cabine degli aerei non sono pressurizzate a livello del mare? La ragione è ingegneristica: mantenere una pressione interna troppo elevata rispetto alla pressione esterna in quota aumenterebbe le <strong class="text-white">sollecitazioni cicliche</strong> sulla fusoliera. Ogni decollo e atterraggio, con i relativi cicli di pressurizzazione e depressurizzazione, produrrebbe una continua <strong class="text-white">espansione e riduzione</strong> del guscio strutturale, accelerando il danno da <strong class="text-white">fatica</strong> e riducendo la vita utile del velivolo.
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Il parallelismo con la fisiopatologia vascolare è immediato: <em>aria interna della cabina</em> ≈ <strong class="text-white">pressione del sangue</strong>; <em>fusoliera</em> ≈ <strong class="text-white">parete del vaso</strong>; <em>aria esterna</em> ≈ <strong class="text-white">ambiente tissutale extravascolare</strong> che può consentire ampia espansione (tessuti molli) o limitarla (tessuti densi, strutture ossee, setti miocardici). In particolare, nei <strong class="text-white">vasi coronarici</strong>, vincoli anatomici locali come i <strong class="text-white">ponti miocardici</strong> o i segmenti intraossei delle vertebrali modulano l’<em>escursione ciclica</em> di raggio e spessore, influenzando il rimodellamento intimale <span class="citation">(Laurent &amp; Boutouyrie, 2015; Kleinstreuer et&nbsp;al., 2001, 2017)</span>.
         </p>
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Nota quantitativa</strong>: a 70 bpm → <code>70 × 60 × 24 × 365 × 70 ≈ 2.6 · 10^9</code> cicli di strain vascolare lungo la vita.
+            <strong class="text-sky-400">Idea guida</strong>: ridurre l’ampiezza dell’escursione pressoria limita lo <em>strain</em> ciclico e rallenta la fatica del materiale. Ciò vale per le fusoliere come per le arterie coronariche.
           </p>
         </div>
       </section>
 
+      <!-- MODELLI FISICI -->
       <section class="mb-12" data-aos="fade-up" data-aos-delay="250">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <i data-lucide="shapes" class="w-6 h-6 text-violet-400"></i>
-          Stress e strain nella parete arteriosa
+          Modelli meccanici: stress, strain e leggi costitutive
         </h2>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Per un cilindro sottile pressurizzato, lo <strong class="text-white">stress circonferenziale</strong> è <code>σ<sub>θ</sub> = (P · r)/h</code>, lo <strong class="text-white">stress longitudinale</strong> <code>σ<sub>L</sub> = (P · r)/(2h)</code>, mentre lo stress radiale è relativamente piccolo. La deformazione relativa (strain) è <code>ε = ΔL/L<sub>0</sub></code>. La <strong class="text-white">pressione pulsatile</strong> definisce l’ampiezza del ciclo di stress/strain che alimenta la fatica biologica.
+          Per un cilindro pressurizzato a parete sottile, lo <strong class="text-white">stress circonferenziale</strong> si approssima con <code>σ<sub>θ</sub>= (P·r)/h</code>, lo <strong class="text-white">stress longitudinale</strong> con <code>σ<sub>L</sub>= (P·r)/(2h)</code>; lo stress radiale è di ordine minore. La deformazione (<code>ε</code>) è la variazione relativa di lunghezza (<code>ε = ΔL/L<sub>0</sub></code>). La componente <em>alternata</em> di stress/strain è guidata dalla <strong class="text-white">pressione pulsatile</strong> (<code>ΔP = P<sub>sist</sub> − P<sub>diast</sub></code>), mentre la componente <em>statica</em> dipende dalla pressione media.
         </p>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Ordini di grandezza coronarici: <code>ΔP ≈ 40 mmHg ≈ 5.3 kPa</code>, <code>r ≈ 1.5 mm</code>, <code>h ≈ 0.3 mm</code> → <code>σ<sub>θ,sist</sub> ≈ 80 kPa</code>, <code>σ<sub>θ,diast</sub> ≈ 53 kPa</code>, <strong class="text-white">Δσ ≈ 27 kPa</strong> per ciclo.
-        </p>
-      </section>
-
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="300">
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="line-chart" class="w-6 h-6 text-emerald-400"></i>
-          Curva S–N e adattamento ai tessuti vascolari
-        </h2>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          Nella meccanica dei materiali, la relazione tra ampiezza del carico e vita a fatica è descritta dalla legge di Basquin: <code>σ<sub>a</sub> = σ’<sub>f</sub> · (2N)<sup>b</sup></code>. In ambito vascolare, si mappa <code>σ<sub>a</sub> → Δσ</code> (guidato da <strong class="text-white">pulse pressure</strong>) e <code>N</code> al numero di battiti. L’“evento” non è la frattura del materiale, ma l’<strong class="text-white">iperplasia intimale</strong> che precede e accompagna l’aterosclerosi.
+          I vasi sono <em>tessuti anisotropi, iperelastici e viscoelastici</em>: la risposta non è lineare e coinvolge fibre elastiche e collagene orientate prevalentemente in circonferenza, con distribuzione diversa per intima, media e avventizia <span class="citation">(Fung, 1990; Humphrey, 2002; Lu et&nbsp;al., 2017)</span>. In termini ingegneristici, la minimizzazione della variazione ciclica di <code>σ<sub>θ</sub></code> e <code>ε<sub>θ</sub></code> riduce gli stimoli di <em>mechanotransduction</em> pro-proliferativi nelle cellule della parete.
         </p>
         <div class="research-table mb-8">
           <table class="w-full glass-card rounded-lg">
             <thead>
               <tr>
-                <th>Condizione</th>
-                <th>Δσ (kPa) e Impatto su N</th>
+                <th>Parametro</th>
+                <th>Significato fisiopatologico</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="font-medium text-white">Normotensione (ΔP ≈ 40 mmHg)</td>
-                <td>Δσ ≈ 27 kPa → progressione lenta; soglia clinica dopo miliardi di cicli</td>
+                <td class="font-medium text-white">ΔP (pulse pressure)</td>
+                <td>Controlla l’ampiezza del ciclo di strain; driver primario della “fatica”</td>
               </tr>
               <tr>
-                <td class="font-medium text-white">Ipertensione sistolica isolata (ΔP ≈ 70 mmHg)</td>
-                <td>Δσ ≈ 47 kPa → <em>N</em> ridotto ~3–5× (m ~ 3–5), accelerazione della “vita a fatica”</td>
+                <td class="font-medium text-white">r/h</td>
+                <td>Rapporto geometrico che scala lo stress; varia con rimodellamento</td>
+              </tr>
+              <tr>
+                <td class="font-medium text-white">Materiale (antero-posteriore, circonferenziale)</td>
+                <td>Anisotropia e non linearità determinano traiettoria dello strain</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
 
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="350">
+      <!-- QUANTITATIVO -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="300">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="calculator" class="w-6 h-6 text-orange-400"></i>
-          Esempi numerici
+          <i data-lucide="calculator" class="w-6 h-6 text-emerald-400"></i>
+          Ordini di grandezza e modello S–N adattato
         </h2>
         <p class="text-slate-300 leading-relaxed mb-6">
-          Per ΔP di 40 mmHg: <code>Δσ ≈ 27 kPa</code>. Per ΔP di 70 mmHg: <code>Δσ ≈ 47 kPa</code> (≈ +74%). Con una <em>slope</em> di Basquin <code>N ∝ σ<sup>−m</sup></code> (m = 3–5), l’incremento dell’ampiezza riduce la vita a fatica di <code>(47/27)<sup>m</sup> ≈ 3–6×</code>, rendendo plausibile una soglia di danno raggiunta in età più precoce a parità di altri fattori.
+          Esempio coronarico: <code>ΔP ≈ 40 mmHg ≈ 5.3 kPa</code>, <code>r ≈ 1.5 mm</code>, <code>h ≈ 0.3 mm</code> ⇒ <code>σ<sub>θ,sist</sub> ≈ 80 kPa</code>, <code>σ<sub>θ,diast</sub> ≈ 53 kPa</code>, <strong class="text-white">Δσ ≈ 27 kPa</strong>. In <strong class="text-white">ipertensione sistolica isolata</strong> (<code>ΔP ≈ 70 mmHg</code>) si stima <code>Δσ ≈ 47 kPa</code> (+~74%). Applicando una legge di Basquin adattata (<code>N ∝ σ<sup>−m</sup></code>, <em>m</em> ≈ 3–5 per tessuti molli), un incremento di ampiezza di questa entità riduce la “vita a fatica” di ~3–6×.
         </p>
+        <div class="algorithm-step rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">1</div>
+            <h3 class="font-bold text-white">Stima dei cicli vitali</h3>
+          </div>
+          <p class="text-slate-300 ml-11">70 bpm × 60 × 24 × 365 × 70 anni ≈ <strong class="text-white">2.6×10<sup>9</sup> cicli</strong>. La frequenza cardiaca agisce direttamente su <em>N</em>.</p>
+        </div>
+        <div class="algorithm-step rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">2</div>
+            <h3 class="font-bold text-white">Stima dell’ampiezza</h3>
+          </div>
+          <p class="text-slate-300 ml-11">Δσ scala con ΔP e con il rapporto <em>r/h</em>; interventi che riducono ΔP o r/h mitigano la fatica.</p>
+        </div>
+        <div class="algorithm-step rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">3</div>
+            <h3 class="font-bold text-white">Criterio di “evento”</h3>
+          </div>
+          <p class="text-slate-300 ml-11">Nei tessuti, la “rottura” non è la frattura ma il <strong class="text-white">superamento di soglia</strong> per iperplasia intimale clinicamente rilevante.</p>
+        </div>
+      </section>
+
+      <!-- CELLULE E MEC -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="350">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="dna" class="w-6 h-6 text-orange-400"></i>
+          Meccano-biologia: endotelio, VSMC e matrice
+        </h2>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          L’endotelio integra <em>shear stress</em> e <em>strain</em> tangenziale modulando NO, endoteline e molecole di adesione; la deformazione ciclica prolungata favorisce fenotipi pro-infiammatori. Le <strong class="text-white">VSMC</strong> transiscono da <em>contrattili</em> a <em>sintetiche</em>, migrano nell’intima e producono matrice; integrine (p.es. <em>α<sub>v</sub>β<sub>3</sub></em>), MAPK e YAP/TAZ sono nodi centrali della mechanotransduction <span class="citation">(Zwolak et&nbsp;al., 1987; Wang et&nbsp;al., 2009)</span>. La matrice extracellulare si arricchisce di proteoglicani con alta affinità per LDL, predisponendo a deposito lipidico <span class="citation">(Nakashima et&nbsp;al., 2008)</span>.
+        </p>
+      </section>
+
+      <!-- VINCOLI -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="400">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="shield" class="w-6 h-6 text-purple-400"></i>
+          Vincoli anatomici e protezione/ri-localizzazione del danno
+        </h2>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Vincoli esterni che limitano l’espansione (tessuti densi, strutture ossee, <strong class="text-white">ponti miocardici</strong>) <em>riducendo</em> l’escursione ciclica attenuano lo stimolo pro-iperplastico in <strong class="text-white">sede vincolata</strong>, ma possono <em>rilocalizzare</em> lo stress in <strong class="text-white">sede prossimale</strong>. Istologicamente, i tratti intramurali mostrano intima sottile, mentre il segmento a monte presenta iperplasia accentuata in presenza di alti Δσ e picchi transitori <span class="citation">(Ishikawa et&nbsp;al., 2009; De Ornelas et&nbsp;al., 2024)</span>.
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Casi analoghi si osservano nei segmenti intraossei delle arterie vertebrali (strain limitato, protezione) rispetto ai tratti extraossei (strain asimmetrico, ispessimento eccentrico) <span class="citation">(osservazioni istopatologiche classiche)</span>.
+        </p>
+      </section>
+
+      <!-- BLOODHAMMER -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="450">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="waves" class="w-6 h-6 text-sky-400"></i>
+          Fenomeni transitori: waterhammer (bloodhammer) e onde riflesse
+        </h2>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          La brusca variazione di velocità genera un’onda di pressione <code>ΔP = ρ·c·Δv</code>. Con <code>ρ ≈ 1060 kg/m³</code>, <code>c ≈ 5–7 m/s</code> e <code>Δv ≈ 0.5 m/s</code>, si ottengono picchi addizionali di ~3–4 kPa. In coronarie, compressioni sistoliche locali (p.es. in presenza di ponte miocardico) producono onde retrograde che, sommandosi alla componente anterograda, <strong class="text-white">amplificano</strong> lo stress a monte, spostando la sede di massimo strain dove si osserva iperplasia intimale <span class="citation">(analisi di wave intensity; Ding et&nbsp;al., 2019)</span>.
+        </p>
+      </section>
+
+      <!-- EVIDENZE SPERIMENTALI -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="500">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="flask-conical" class="w-6 h-6 text-emerald-400"></i>
+          Evidenze sperimentali: coartazioni, wrap esterni, graft venosi
+        </h2>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          <strong class="text-white">Coartazione aortica</strong>: incremento di ΔP a monte → iperplasia intimale marcata; ΔP ridotta a valle → protezione. Nei modelli suini e primati, l’aumento pressorio locale accelera l’aterogenesi rispetto a distretti esposti alla stessa “biochimica” ma a pressioni normali <span class="citation">(studi controllati su grandi animali)</span>.
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          <strong class="text-white">Wrap esterni/cast</strong>: la limitazione dell’espansione (Δε↓) inibisce l’iperplasia intimale in prossimità di biforcazioni o segmenti prossimali, anche in presenza di ipertensione sistemica, dimostrando che la <em>cinematica parietale</em> è determinante indipendente <span class="citation">(modelli in coniglio e suino)</span>.
+        </p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          <strong class="text-white">Graft venosi</strong>: l’arterializzazione espone le vene a Δσ elevati → proliferazione VSMC, iperplasia intimale e fallimento tardivo. Stent esterni (<em>external scaffolds</em>) e tecniche di irrigidimento avventiziale migliorano la pervietà riducendo lo strain ciclico e l’adattamento maladattivo <span class="citation">(Zwolak et&nbsp;al., 1987; trial con stent esterni)</span>.
+        </p>
+      </section>
+
+      <!-- IMPLICAZIONI CLINICHE -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="550">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="stethoscope" class="w-6 h-6 text-orange-400"></i>
+          Implicazioni cliniche e traduzione ingegneristica
+        </h2>
         <div class="highlight-box rounded-lg p-6 mb-6">
           <p class="text-slate-300 leading-relaxed">
-            <strong class="text-sky-400">Implicazione</strong>: il controllo della <strong class="text-white">pulse pressure</strong> e della <strong class="text-white">frequenza cardiaca</strong> riduce rispettivamente ampiezza e numero dei cicli di strain, influenzando direttamente la “dose a fatica” della parete.
+            <strong class="text-sky-400">Target emodinamico</strong>: la <strong class="text-white">pulse pressure</strong> emerge come determinante meccanico primario della fatica; intervenire su ΔP (farmaci, stili di vita) riduce l’ampiezza del ciclo di strain.
+          </p>
+        </div>
+        <div class="highlight-box rounded-lg p-6 mb-6">
+          <p class="text-slate-300 leading-relaxed">
+            <strong class="text-sky-400">Cronotropismo</strong>: la <strong class="text-white">frequenza cardiaca</strong> determina <em>N</em> (numero di cicli). Il controllo cronotropo abbassa il carico cumulativo.
+          </p>
+        </div>
+        <div class="highlight-box rounded-lg p-6 mb-6">
+          <p class="text-slate-300 leading-relaxed">
+            <strong class="text-sky-400">Dispositivi</strong>: nei graft venosi e in segmenti a rischio, strategie di <strong class="text-white">modulazione dello strain</strong> (external stents, supporti avventiziali) riducono l’iperplasia intimale.
           </p>
         </div>
       </section>
 
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="400">
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="flask-conical" class="w-6 h-6 text-purple-400"></i>
-          Evidenze sperimentali e topografia delle lesioni
-        </h2>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          Modelli di <strong class="text-white">coartazione aortica</strong> mostrano incremento di iperplasia intimale a monte (Δσ↑) e protezione a valle (Δσ↓), anche in presenza di fattori umorali sfavorevoli <span class="citation">(studi su conigli, suini, primati)</span>. I <strong class="text-white">graft venosi arterializzati</strong> sviluppano iperplasia per l’esposizione acuta a strain ciclico elevato, mentre <strong class="text-white">stent esterni</strong> che limitano l’espansione riducono Δε e l’iperplasia, con migliore pervietà a lungo termine <span class="citation">(trial clinici e preclinici)</span>.
-        </p>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          La <strong class="text-white">distribuzione topografica</strong> delle lesioni riflette i vincoli meccanici: segmenti <em>intramurali/intraossei</em> (strain ridotto) sono relativamente protetti; biforcazioni e tratti liberi (strain asimmetrico) mostrano ispessimento eccentrico <span class="citation">(osservazioni istologiche e imaging)</span>.
-        </p>
-      </section>
-
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="450">
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="waves" class="w-6 h-6 text-sky-400"></i>
-          Fenomeni transitori: colpo d’ariete (bloodhammer)
-        </h2>
-        <p class="text-slate-300 leading-relaxed mb-6">
-          La brusca variazione di velocità nel flusso genera un picco pressorio <code>ΔP = ρ · c · Δv</code>. Con <code>ρ ≈ 1060 kg/m³</code> e <code>c ≈ 5–7 m/s</code>, una <code>Δv ≈ 0.5 m/s</code> produce <code>ΔP ≈ 3–4 kPa</code> addizionali. Questi picchi, focalizzati <strong class="text-white">a monte di vincoli dinamici</strong>, amplificano lo strain ciclico locale e contribuiscono all’iperplasia intimale focale <span class="citation">(analisi di onda e misure intracoronariche)</span>.
-        </p>
-      </section>
-
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="500">
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <i data-lucide="layers" class="w-6 h-6 text-violet-400"></i>
-          Sintesi del modello: variabili meccaniche chiave
-        </h2>
-
-        <div class="algorithm-step rounded-lg p-6">
-          <div class="flex items-center gap-3 mb-3">
-            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">1</div>
-            <h3 class="font-bold text-white">Ampiezza del carico (Δσ)</h3>
-          </div>
-          <p class="text-slate-300 ml-11">Determinata dalla <strong class="text-white">pulse pressure</strong>: maggiore ΔP → maggiore Δσ → vita a fatica ridotta.</p>
-        </div>
-
-        <div class="algorithm-step rounded-lg p-6">
-          <div class="flex items-center gap-3 mb-3">
-            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">2</div>
-            <h3 class="font-bold text-white">Numero di cicli (N)</h3>
-          </div>
-          <p class="text-slate-300 ml-11">Proporzionale a <strong class="text-white">età × frequenza cardiaca</strong>: controllo cronotropo riduce il carico cumulativo.</p>
-        </div>
-
-        <div class="algorithm-step rounded-lg p-6">
-          <div class="flex items-center gap-3 mb-3">
-            <div class="flex items-center justify-center w-8 h-8 bg-sky-500 text-white rounded-full text-sm font-bold">3</div>
-            <h3 class="font-bold text-white">Picchi transitori (ΔP<sub>trans</sub>)</h3>
-          </div>
-          <p class="text-slate-300 ml-11">Il <strong class="text-white">colpo d’ariete</strong> amplifica localmente lo stress, spiegando la focalità dell’iperplasia nei segmenti prossimali a vincoli dinamici.</p>
-        </div>
-      </section>
-
-      <section class="mb-12" data-aos="fade-up" data-aos-delay="550">
+      <!-- CONCLUSIONI -->
+      <section class="mb-12" data-aos="fade-up" data-aos-delay="600">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <i data-lucide="check-circle-2" class="w-6 h-6 text-emerald-400"></i>
           Conclusioni
         </h2>
         <p class="text-slate-300 leading-relaxed mb-6">
-          L’aterosclerosi emerge come risultato di <strong class="text-white">fatica meccanica ciclica</strong> modulata da Δσ, N e ΔP transitori, con risposte cellulari (endoteliali e VSMC) che conducono a iperplasia intimale e placca. Il paradigma ingegneristico spiega la distribuzione topografica delle lesioni e orienta strategie preventive basate sulla <strong class="text-white">modulazione dello strain parietale</strong>.
+          L’aterogenesi coronarica può essere interpretata come il risultato di <strong class="text-white">fatica meccanica ciclica</strong>: l’ampiezza dello stress (Δσ), il numero totale di cicli (N) e i picchi transitori (waterhammer) orchestrano la risposta meccano-biologica che porta a iperplasia intimale e placca. I vincoli anatomici (ponti miocardici, intraossei) proteggono in sede vincolata e ridistribuiscono lo stress a monte. L’analogia aeronautica non è una metafora, ma un <em>framework</em> quantitativo utile a progettare interventi che riducano la “dose di fatica” vascolare.
         </p>
       </section>
 
+      <!-- BIBLIOGRAFIA -->
       <section>
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <i data-lucide="library" class="w-6 h-6 text-slate-400"></i>
@@ -279,22 +324,47 @@
         </h2>
         <div class="space-y-3 text-sm">
           <div class="border-l-2 border-slate-600 pl-4">
-            <p class="text-slate-300">Testi di biomeccanica vascolare su stress/strain parietale e adattamento (Laplace, modelli costitutivi iperelastici). <span class="citation">(Autori vari)</span></p>
+            <p class="text-slate-300"><strong>De Ornelas B</strong>, Sucato V, Vadalà G, Buono A, Galassi AR. Myocardial Bridge and Atherosclerosis, an Intimal Relationship. <em>Curr Atheroscler Rep</em>. 2024;26(8):353–366. doi:10.1007/s11883-024-01219-1. PMID: 38822987. <span class="citation">[Review NIH/PubMed]</span></p>
           </div>
           <div class="border-l-2 border-slate-600 pl-4">
-            <p class="text-slate-300">Letteratura su coartazione aortica, wrap esterni e cast per modulare il movimento parietale e l’iperplasia intimale. <span class="citation">(Autori vari)</span></p>
+            <p class="text-slate-300">Ishikawa Y, Akasaka Y, Suzuki K, et&nbsp;al. Anatomic properties of myocardial bridge predisposing to myocardial infarction. <em>Circulation</em>. 2009;120(5):376–383. doi:10.1161/CIRCULATIONAHA.108.820720. <span class="citation">[Bridging &amp; MI risk]</span></p>
           </div>
           <div class="border-l-2 border-slate-600 pl-4">
-            <p class="text-slate-300">Studi su graft venosi arterializzati, stent esterni e pervietà a lungo termine. <span class="citation">(Autori vari)</span></p>
+            <p class="text-slate-300">Kleinstreuer C, Hyun S, Buchanan JR Jr, et&nbsp;al. Hemodynamic parameters and early intimal thickening in branching blood vessels. <em>Crit Rev Biomed Eng</em>. 2001;29(1):1–64; 2017;45(1-6):319–382. doi:10.1615/CritRevBiomedEng.v45.i1-6.140. <span class="citation">[Shear/strain &amp; early IT]</span></p>
           </div>
           <div class="border-l-2 border-slate-600 pl-4">
-            <p class="text-slate-300">Analisi di onda (wave intensity/separation) e fenomeni transitori di pressione in sistemi vascolari. <span class="citation">(Autori vari)</span></p>
+            <p class="text-slate-300">Laurent S, Boutouyrie P. The structural factor of hypertension. <em>Circulation Research</em>. 2015;116:1007–1021. <span class="citation">[Arterial remodeling &amp; pressure]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Wang C, Guo X, Kassab GS. A new observation on the stress distribution in the coronary artery wall. <em>J Biomech Eng</em>. 2009;131:111011. <span class="citation">[Stress mapping]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Zwolak RM, Adams MC, Clowes AW. Kinetics of vein graft hyperplasia: association with tangential stress. <em>J Vasc Surg</em>. 1987;5:126–136. <span class="citation">[Vein graft strain → IH]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Nakashima Y, Wight TN, Sueishi K. Early atherosclerosis in humans: role of diffuse intimal thickening and extracellular matrix proteoglycans. <em>Cardiovasc Res</em>. 2008;79:14–23. <span class="citation">[Proteoglycans &amp; lipid retention]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Lu Y, Wu H, Li J, et&nbsp;al. Passive and active triaxial wall mechanics in a two-layer model of porcine coronary artery. <em>Sci Rep</em>. 2017;7:13911. <span class="citation">[Hyperelastic/active wall]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Ding H, Zhang Y, Liu Y, et&nbsp;al. Simulated coronary arterial hemodynamics of myocardial bridging. <em>Rev Cardiovasc Med</em>. 2019;20(4):273–280. doi:10.31083/j.rcm.2019.04.554. <span class="citation">[MB &amp; flow spikes]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Humphrey JD. Cardiovascular Solid Mechanics: Cells, Tissues, and Organs. Springer; 2002. <span class="citation">[Foundations]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Fung YC. Biomechanics: Mechanical Properties of Living Tissues. 2nd ed. Springer; 1990. <span class="citation">[Canonical text]</span></p>
+          </div>
+          <div class="border-l-2 border-slate-600 pl-4">
+            <p class="text-slate-300">Bayrak F, Degertekin M, Eroglu E, et&nbsp;al. Evaluation of myocardial bridges with 64-slice CT coronary angiography. <em>Acta Cardiol</em>. 2009;64(3):341–346. <span class="citation">[MB imaging]</span></p>
           </div>
         </div>
       </section>
 
     </article>
 
+    <!-- FOOTER -->
     <footer class="py-8 border-t border-slate-700/50">
       <div class="text-center">
         <p class="text-slate-400 text-sm mb-4">
@@ -309,6 +379,7 @@
     </footer>
   </div>
 
+  <!-- JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', () => {
