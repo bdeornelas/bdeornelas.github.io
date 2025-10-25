@@ -1,0 +1,22 @@
+# Jekyll build and cache
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
+
+# Node / bundlers
+node_modules/
+dist/
+.parcel-cache/
+
+# Generated minified assets (keep specific vendor/min files we track)
+assets/js/*.min.js
+!assets/js/aos.min.js
+!assets/js/lucide.min.js
+!assets/js/main.min.js
+assets/css/*.min.css
+!assets/css/style.min.css
+
+# OS/editor junk
+.DS_Store
+*.log
