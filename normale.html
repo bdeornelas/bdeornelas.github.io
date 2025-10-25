@@ -396,7 +396,6 @@ Consigli Pratici Quotidiani:
                 const calibrated_risk = 1 - Math.exp(-Math.exp(cal.scale1 + cal.scale2 * log_inner_log));
                 calibrated_risk_percent = (calibrated_risk * 100).toFixed(1);
             } catch (e) {
-                console.error("Calibration math error:", e.message, "Uncalibrated risk:", uncalibrated_risk);
                 calibrated_risk_percent = uncalibrated_risk < 0.5 ? "0.0" : ">99.9";
                 if (!errorDisplay.textContent) errorDisplay.textContent = "Rischio estremo, calcolo al limite.";
                 resultDisplay.textContent = `${calibrated_risk_percent}%`;
@@ -591,7 +590,6 @@ Consigli Pratici Quotidiani:
                 document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
                 document.getElementById('include-contact-info-notification-cb').style.display = 'none';
             }).catch(err => {
-                console.error("Errore durante la copia: ", err);
                 alert("Non è stato possibile copiare il testo automaticamente.");
                 document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
                 document.getElementById('copia-template-sforzo-cb').checked = false;
@@ -614,7 +612,6 @@ Consigli Pratici Quotidiani:
                 showAndHideNotification(notificationId);
                 setTimeout(() => { document.getElementById('copia-test-secondaria-cb').checked = false; }, 100);
             }).catch(err => {
-                console.error("Errore durante la copia testo cause secondarie: ", err);
                 alert("Non è stato possibile copiare il testo negli appunti.");
             });
         }
@@ -638,7 +635,6 @@ Capacità funzionale normale.`;
                 showAndHideNotification(notificationId);
                 setTimeout(() => { document.getElementById('copia-template-sforzo-cb').checked = false; }, 100);
             }).catch(err => {
-                console.error("Errore durante la copia del template sforzo: ", err);
                 alert("Non è stato possibile copiare il template negli appunti.");
             });
         }
