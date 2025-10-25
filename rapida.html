@@ -383,7 +383,6 @@ IM lieve. IT lieve con PAPs nei limiti.`}
       results.push({name:'Bottone compilazione presente', pass: !!document.getElementById('compileBtn')});
       const wrap=document.getElementById('test-results');
       wrap.innerHTML='<ul>'+results.map(r=>`<li class="${r.pass?'pass':'fail'}">${r.pass?'✅':'❌'} ${r.name}</li>`).join('')+'</ul>';
-      console.log('Dev tests:', results);
     })();
   </script>
 </body>

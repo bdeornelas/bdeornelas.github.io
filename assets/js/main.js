@@ -1,15 +1,23 @@
 // Inizializza librerie quando il DOM è pronto
 document.addEventListener('DOMContentLoaded', () => {
   // Lucide Icons
-  if (window.lucide) lucide.createIcons();
+  try {
+    if (window.lucide) lucide.createIcons();
+  } catch (error) {
+    console.error('Errore nell\'inizializzazione di Lucide:', error);
+  }
 
   // AOS (Animate On Scroll)
-  if (window.AOS) {
-    AOS.init({
-      duration: 700, // durata animazioni
-      once: true,    // le animazioni avvengono una sola volta
-      offset: 50     // offset dal viewport
-    });
+  try {
+    if (window.AOS) {
+      AOS.init({
+        duration: 700, // durata animazioni
+        once: true,    // le animazioni avvengono una sola volta
+        offset: 50     // offset dal viewport
+      });
+    }
+  } catch (error) {
+    console.error('Errore nell\'inizializzazione di AOS:', error);
   }
 
   // Menu mobile

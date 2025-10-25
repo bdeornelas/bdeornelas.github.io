@@ -1,0 +1,42 @@
+# Site settings
+title: "Dr. Benjamin De Ornelas | Cardiologo"
+description: "Cardiologo a Milano: visite, ecocardiogramma, test da sforzo e prevenzione cardiovascolare."
+url: "https://bdeornelas.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - package.json
+  - node_modules/
+  - .parcel-cache/
+  - assets/
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+# Permalinks
+permalink: pretty
+
+# Timezone
+timezone: Europe/Rome

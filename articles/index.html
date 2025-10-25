@@ -1,68 +1,14 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Articoli | Dr. Benjamin De Ornelas</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Articoli e approfondimenti sulla salute cardiovascolare a cura del Dr. Benjamin De Ornelas.">
-  <link rel="canonical" href="https://bdeornelas.github.io/articles/">
-  <meta property="og:title" content="Articoli | Dr. Benjamin De Ornelas">
-  <meta property="og:description" content="Guide pratiche e contenuti divulgativi sulla salute del cuore.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bdeornelas.github.io/articles/">
-  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg">
-  <link rel="icon" href="/assets/img/favicon.svg">
-
-  <!-- Stili & librerie -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <script defer src="https://unpkg.com/lucide@latest"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-<body class="bg-slate-900 text-gray-200">
-
-  <!-- Sfondo decorativo -->
-  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
-    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
-  </div>
-
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-
-    <!-- HEADER -->
-    <header class="sticky top-0 z-50 py-4">
-      <div class="glass-card rounded-xl px-4 py-2">
-        <nav class="flex items-center justify-between">
-          <a href="/" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
-            <i data-lucide="heart-pulse" class="text-sky-400"></i>
-            Dr. Benjamin De Ornelas
-          </a>
-          <ul class="hidden md:flex items-center space-x-1">
-            <li><a href="/#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
-            <li><a href="/articles/" class="px-3 py-2 rounded-md bg-sky-600 text-white">Articoli</a></li>
-            <li><a href="/about/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
-            <li><a href="/research/" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Ricerca</a></li>
-            <li><a href="/contact/" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
-          </ul>
-          <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-slate-800">
-            <i data-lucide="menu" class="w-6 h-6"></i>
-          </button>
-        </nav>
-      </div>
-      <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card rounded-xl p-2">
-        <ul class="flex flex-col space-y-2">
-          <li><a href="/#home" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Home</a></li>
-          <li><a href="/articles/" class="block py-2 px-3 rounded-md bg-sky-500/50 hover:bg-sky-500/70">Articoli</a></li>
-          <li><a href="/about/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Chi Sono</a></li>
-          <li><a href="/research/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Ricerca</a></li>
-          <li><a href="/contact/" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Contatti</a></li>
-        </ul>
-      </div>
-    </header>
+---
+layout: default
+title: Articoli | Dr. Benjamin De Ornelas
+description: Articoli e approfondimenti sulla salute cardiovascolare a cura del Dr. Benjamin De Ornelas.
+og_title: Articoli | Dr. Benjamin De Ornelas
+og_description: Guide pratiche e contenuti divulgativi sulla salute del cuore.
+og_image: /assets/img/og-card.jpg
+twitter_title: Articoli | Dr. Benjamin De Ornelas
+twitter_description: Guide pratiche e contenuti divulgativi sulla salute del cuore.
+twitter_image: /assets/img/og-card.jpg
+---
 
     <main>
       <!-- Hero -->
@@ -131,44 +77,3 @@
         </div>
       </section>
     </main>
-
-    <footer class="text-center py-10 border-t border-slate-800 mt-16">
-      <p class="text-sm text-slate-500">&copy; 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
-    </footer>
-  </div>
-
-  <!-- Script: icone, AOS, mobile menu, incipit articoli -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (window.lucide) lucide.createIcons();
-      if (window.AOS) AOS.init({ duration: 700, once: true, offset: 50 });
-      const btn = document.getElementById('mobile-menu-button');
-      const menu = document.getElementById('mobile-menu');
-      if (btn && menu) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
-
-      // Anteprima articoli
-      const cards = document.querySelectorAll('#lista-articoli article');
-      cards.forEach(async (card) => {
-        const url = card.getAttribute('data-url');
-        const p = card.querySelector('p');
-        if (!url || !p) return;
-        try {
-          const res = await fetch(url);
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          const html = await res.text();
-          const doc = new DOMParser().parseFromString(html, 'text/html');
-          let firstP = doc.querySelector('main p, article p');
-          if (!firstP) firstP = doc.querySelector('p');
-          if (firstP && firstP.textContent.trim().length > 0) {
-            p.textContent = firstP.textContent.trim().slice(0, 220) + (firstP.textContent.length > 220 ? '…' : '');
-          } else {
-            p.textContent = 'Approfondisci nella pagina dedicata.';
-          }
-        } catch (e) {
-          p.textContent = 'Anteprima non disponibile al momento.';
-        }
-      });
-    });
-  </script>
-</body>
-</html>

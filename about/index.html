@@ -1,70 +1,14 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chi Sono | Dr. Benjamin De Ornelas</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Chi sono: Dr. Benjamin De Ornelas, cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare.">
-  <link rel="canonical" href="https://bdeornelas.github.io/about.html">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Chi Sono | Dr. Benjamin De Ornelas">
-  <meta property="og:description" content="Cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare. Scopri di più sulla mia formazione ed esperienza.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bdeornelas.github.io/about.html">
-  <meta property="og:image" content="https://bdeornelas.github.io/assets/img/og-card.jpg">
-
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.svg">
-
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-
-  <!-- Lucide Icons -->
-  <script defer src="https://unpkg.com/lucide@latest"></script>
-
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <!-- CSS personalizzato -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body class="bg-slate-900 text-gray-200">
-
-  <!-- DECORAZIONE SFONDO -->
-  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
-    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
-  </div>
-
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-
-    <!-- HEADER -->
-    <header class="sticky top-0 z-50 py-4 transition-all duration-300">
-      <div class="glass-card rounded-xl px-4 py-2">
-        <nav class="flex items-center justify-between">
-          <a href="/index.html" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
-            <i data-lucide="heart-pulse" class="text-sky-400"></i>
-            Dr. Benjamin De Ornelas
-          </a>
-          <ul class="hidden md:flex items-center space-x-1">
-            <li><a href="/index.html#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
-            <li><a href="/index.html#articoli" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
-            <li><a href="/about.html" class="px-3 py-2 rounded-md bg-sky-600 text-white">Chi Sono</a></li>
-            <li><a href="/index.html#ricerca" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Ricerca</a></li>
-            <li><a href="/index.html#contatti" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+---
+layout: default
+title: Chi Sono | Dr. Benjamin De Ornelas
+description: "Chi sono: Dr. Benjamin De Ornelas, cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare."
+og_title: Chi Sono | Dr. Benjamin De Ornelas
+og_description: Cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare. Scopri di più sulla mia formazione ed esperienza.
+og_image: /assets/img/benjamin-de-ornelas-portrait.jpg
+twitter_title: Chi Sono | Dr. Benjamin De Ornelas
+twitter_description: Cardiologo a Milano, specializzato in Malattie dell'Apparato Cardiovascolare. Scopri di più sulla mia formazione ed esperienza.
+twitter_image: /assets/img/benjamin-de-ornelas-portrait.jpg
+---
 
     <main>
       <!-- CHI SONO -->
@@ -100,21 +44,3 @@
         </div>
       </section>
     </main>
-
-    <!-- FOOTER -->
-    <footer class="text-center py-10 border-t border-slate-800">
-      <h3 class="text-2xl font-bold mb-4">Contattami</h3>
-      <p class="text-slate-400 mb-6 max-w-md mx-auto">Ricevo a Milano. Per visite o informazioni contattami.</p>
-      <div class="flex items-center justify-center space-x-6 mb-8">
-        <a href="mailto:info@deornelas.it" class="text-slate-500 hover:text-white"><i data-lucide="mail" class="w-6 h-6"></i></a>
-        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
-        <a href="tel:+39123456789" class="text-slate-500 hover:text-white"><i data-lucide="phone" class="w-6 h-6"></i></a>
-      </div>
-      <p class="text-sm text-slate-500">&copy; 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
-    </footer>
-  </div>
-
-  <!-- JS -->
-  <script defer src="/assets/js/main.js"></script>
-</body>
-</html>
