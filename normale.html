@@ -440,20 +440,20 @@ Consigli Pratici Quotidiani:
             const indent = " ";
             const sectionSeparator = "\n\n";
             const ageInput = document.getElementById("age");
-            const age = ageInput.value;
-            if (!age || parseInt(age, 10) <= 0) { alert("Inserisci un'età valida per il paziente."); ageInput.focus(); return; }
-            const ageNum = parseInt(age, 10);
+            const age = ageInput.value.trim();
+            const ageNum = age ? parseInt(age, 10) : NaN;
             const sexRadioChecked = document.querySelector('input[name="sex"]:checked');
-            if (!sexRadioChecked) { alert("Selezionare il sesso del paziente."); return; }
-            const ecgInput = document.getElementById("ecg");
-            const ecgRawValue = ecgInput.value.trim();
-            const defaultEcgBpmSubstring = "FC di 70 bpm";
-            if (ecgRawValue.includes(defaultEcgBpmSubstring)) {
-                alert("ATTENZIONE: La frequenza cardiaca (FC) nell'ECG sembra essere il valore di default (70 bpm). \n\nSi prega di aggiornare la FC con il valore corretto prima di compilare la visita.");
-                ecgInput.focus(); ecgInput.select(); return;
+            const sexValue = sexRadioChecked ? sexRadioChecked.value : null;
+
+            // Costruisci la riga introduttiva solo se età o sesso sono presenti
+            let patientIntroLine = "";
+            if (age && sexValue) {
+                patientIntroLine = (sexValue === "male") ? `Paziente uomo di ${age} anni` : `Paziente donna di ${age} anni`;
+            } else if (age) {
+                patientIntroLine = `Paziente di ${age} anni`;
+            } else if (sexValue) {
+                patientIntroLine = (sexValue === "male") ? `Paziente uomo` : `Paziente donna`;
             }
-            const sexValue = sexRadioChecked.value;
-            let patientIntroLine = (sexValue === "male") ? `Paziente uomo di ${age} anni` : `Paziente donna di ${age} anni`;
             let score2Result = null;
             const score2ErrorDiv = document.getElementById("score2-error");
             const score2ResultDisplay = document.getElementById("score2-result-display");
@@ -855,11 +855,11 @@ Trigliceridi: `;
             <h2>👤 Informazioni Paziente</h2>
             <div class="form-row">
                 <div>
-                    <label for="age">Età</label>
+                    <label for="age">Età (opzionale)</label>
                     <input type="number" id="age" name="age" min="1" placeholder="Anni (40-69 per SCORE2)">
                 </div>
                 <div>
-                    <label>Sesso</label>
+                    <label>Sesso (opzionale)</label>
                     <div class="radio-group">
                         <div class="radio-item">
                             <input type="radio" id="sex-male" name="sex" value="male">
@@ -872,6 +872,7 @@ Trigliceridi: `;
                     </div>
                 </div>
             </div>
+            <span class="note">Se non inseriti, età e sesso non verranno stampati nell'output della visita.</span>
         </div>
 
         <div class="section">
@@ -1028,7 +1029,6 @@ Trigliceridi: `;
         <div class="section">
             <h2>ECG</h2>
             <textarea id="ecg" name="ecg" rows="3" placeholder="Inserisci il risultato dell'ECG">Ritmo sinusale a FC di 70 bpm, alterazioni aspecifiche del tratto ST-T</textarea>
-            <span class="note" style="color: #dc3545; font-weight: bold;">ATTENZIONE: Modificare '70 bpm' con la frequenza cardiaca effettiva del paziente!</span>
         </div>
 
         <div class="section">
