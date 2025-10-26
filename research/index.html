@@ -19,7 +19,7 @@ twitter_image: /assets/img/og-card.jpg
 
       <!-- LISTA PUBBLICAZIONI -->
       <section class="max-w-4xl mx-auto">
-        <ul class="space-y-4">
+        <ul class="space-y-4" id="research-list">
           
           <!-- ARTICOLO FATICA VASCOLARE -->
           <li>
@@ -76,4 +76,85 @@ twitter_image: /assets/img/og-card.jpg
           </li>
         </ul>
       </section>
+
+      <!-- Pagination (auto-nascosta se articoli <= 10) -->
+      <nav id="pagination" class="flex items-center justify-center gap-2 mt-12" style="display: none;">
+        <button id="prev-page" class="px-3 py-2 rounded-lg glass-card hover:bg-slate-800/70 disabled:opacity-50 disabled:cursor-not-allowed">«</button>
+        <div id="page-numbers" class="flex gap-2"></div>
+        <button id="next-page" class="px-3 py-2 rounded-lg glass-card hover:bg-slate-800/70 disabled:opacity-50 disabled:cursor-not-allowed">»</button>
+      </nav>
     </main>
+
+    <script>
+      // Paginazione automatica per ricerca (10 per pagina)
+      document.addEventListener('DOMContentLoaded', function() {
+        const researchList = document.getElementById('research-list');
+        const pagination = document.getElementById('pagination');
+        const prevBtn = document.getElementById('prev-page');
+        const nextBtn = document.getElementById('next-page');
+        const pageNumbers = document.getElementById('page-numbers');
+
+        const itemsPerPage = 10;
+        const items = Array.from(researchList.querySelectorAll('li'));
+        const totalItems = items.length;
+        const totalPages = Math.ceil(totalItems / itemsPerPage);
+        let currentPage = 1;
+
+        // Mostra paginazione solo se ci sono più di 10 articoli
+        if (totalItems > itemsPerPage) {
+          pagination.style.display = 'flex';
+          initPagination();
+        }
+
+        function initPagination() {
+          renderPageNumbers();
+          showPage(1);
+
+          prevBtn.addEventListener('click', () => {
+            if (currentPage > 1) showPage(currentPage - 1);
+          });
+
+          nextBtn.addEventListener('click', () => {
+            if (currentPage < totalPages) showPage(currentPage + 1);
+          });
+        }
+
+        function renderPageNumbers() {
+          pageNumbers.innerHTML = '';
+          for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            btn.className = 'px-3 py-2 rounded-lg glass-card hover:bg-slate-800/70';
+            btn.addEventListener('click', () => showPage(i));
+            pageNumbers.appendChild(btn);
+          }
+        }
+
+        function showPage(page) {
+          currentPage = page;
+
+          // Nascondi tutti gli articoli
+          items.forEach((item, index) => {
+            const itemPage = Math.ceil((index + 1) / itemsPerPage);
+            item.style.display = itemPage === page ? 'block' : 'none';
+          });
+
+          // Aggiorna bottoni pagina
+          const pageButtons = pageNumbers.querySelectorAll('button');
+          pageButtons.forEach((btn, index) => {
+            if (index + 1 === page) {
+              btn.className = 'px-3 py-2 rounded-lg bg-sky-600 text-white';
+            } else {
+              btn.className = 'px-3 py-2 rounded-lg glass-card hover:bg-slate-800/70';
+            }
+          });
+
+          // Disabilita prev/next se necessario
+          prevBtn.disabled = page === 1;
+          nextBtn.disabled = page === totalPages;
+
+          // Scroll to top della lista
+          researchList.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    </script>
