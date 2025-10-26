@@ -61,37 +61,7 @@
 
   </div>
 
-  <!-- Script Lucide Icons -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof lucide !== 'undefined') {
-        lucide.createIcons();
-      }
-    });
-  </script>
-
-  <!-- Script AOS -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof AOS !== 'undefined') {
-        AOS.init({
-          duration: 800,
-          once: true
-        });
-      }
-    });
-  </script>
-
-  <!-- Script menu mobile -->
-  <script>
-    const menuBtn = document.getElementById('mobile-menu-button');
-    const menu = document.getElementById('mobile-menu');
-    if (menuBtn && menu) {
-      menuBtn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-      });
-    }
-  </script>
+  <!-- JS is loaded via footer include (dist/main.js) -->
 
 </body>
 </html>

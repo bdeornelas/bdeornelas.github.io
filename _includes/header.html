@@ -1,86 +1,31 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <!-- SEO base -->
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.og_title %}{{ page.og_title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.og_description %}{{ page.og_description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{% if page.og_image %}{{ page.og_image | absolute_url }}{% else %}{{ '/assets/img/og-card.jpg' | absolute_url }}{% endif %}">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.twitter_title %}{{ page.twitter_title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.twitter_description %}{{ page.twitter_description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.twitter_image %}{{ page.twitter_image | absolute_url }}{% else %}{{ '/assets/img/og-card.jpg' | absolute_url }}{% endif %}">
-
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.svg">
-
-  <!-- Tailwind CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/tailwind.min.css' | relative_url }}">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-
-  <!-- Lucide Icons -->
-  <script defer src="{{ '/assets/js/lucide.min.js' | relative_url }}"></script>
-
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script defer src="{{ '/assets/js/aos.min.js' | relative_url }}"></script>
-
-  <!-- CSS personalizzato -->
-  <link rel="stylesheet" href="{{ '/dist/style.css' | relative_url }}">
-</head>
-<body class="bg-slate-900 text-gray-200">
-
-  <!-- DECORAZIONE SFONDO -->
-  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
-    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+<!-- Site Header -->
+<header class="sticky top-0 z-50 py-4 transition-all duration-300">
+  <div class="glass-card rounded-xl px-4 py-2">
+    <nav class="flex items-center justify-between">
+      <a href="{{ '/' | relative_url }}" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
+        <i data-lucide="heart-pulse" class="text-sky-400"></i>
+        Dr. Benjamin De Ornelas
+      </a>
+      <ul class="hidden md:flex items-center space-x-1">
+        <li><a href="{{ '/' | relative_url }}#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
+        <li><a href="{{ '/articles/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
+        <li><a href="{{ '/research/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Ricerca</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
+      </ul>
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-slate-800" aria-expanded="false" aria-controls="mobile-menu">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </nav>
   </div>
-
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-
-    <!-- HEADER -->
-    <header class="sticky top-0 z-50 py-4 transition-all duration-300">
-      <div class="glass-card rounded-xl px-4 py-2">
-        <nav class="flex items-center justify-between">
-          <a href="{{ '/' | relative_url }}" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
-            <i data-lucide="heart-pulse" class="text-sky-400"></i>
-            Dr. Benjamin De Ornelas
-          </a>
-          <ul class="hidden md:flex items-center space-x-1">
-            <li><a href="{{ '/' | relative_url }}#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
-            <li><a href="{{ '/articles/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
-            <li><a href="{{ '/about/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
-            <li><a href="{{ '/research/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Ricerca</a></li>
-            <li><a href="{{ '/contact/' | relative_url }}" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
-          </ul>
-          <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-slate-800">
-            <i data-lucide="menu" class="w-6 h-6"></i>
-          </button>
-        </nav>
-      </div>
-      <!-- MENU MOBILE -->
-      <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card rounded-xl p-2">
-        <ul class="flex flex-col space-y-2">
-          <li><a href="{{ '/' | relative_url }}#home" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Home</a></li>
-          <li><a href="{{ '/articles/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Articoli</a></li>
-          <li><a href="{{ '/about/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Chi Sono</a></li>
-          <li><a href="{{ '/research/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Ricerca</a></li>
-          <li><a href="{{ '/contact/' | relative_url }}" class="block py-2 px-3 rounded-md bg-sky-500/50 hover:bg-sky-500/70">Contatti</a></li>
-        </ul>
-      </div>
-    </header>
+  <!-- MENU MOBILE -->
+  <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card rounded-xl p-2">
+    <ul class="flex flex-col space-y-2">
+      <li><a href="{{ '/' | relative_url }}#home" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Home</a></li>
+      <li><a href="{{ '/articles/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Articoli</a></li>
+      <li><a href="{{ '/about/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Chi Sono</a></li>
+      <li><a href="{{ '/research/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Ricerca</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="block py-2 px-3 rounded-md bg-sky-500/50 hover:bg-sky-500/70">Contatti</a></li>
+    </ul>
+  </div>
+</header>
