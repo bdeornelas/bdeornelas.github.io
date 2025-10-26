@@ -1,5 +1,97 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Dr. Benjamin De Ornelas | Cardiologo" }}</title>
 
-{{ content }}
+  <!-- SEO base -->
+  <meta name="description" content="{{ page.description | default: 'Cardiologo a Milano: visite, ecocardiogramma, test da sforzo e prevenzione cardiovascolare. Dr. Benjamin De Ornelas.' }}">
+  <link rel="canonical" href="https://bdeornelas.github.io{{ page.url }}">
 
-{% include footer.html %}
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.og_title | default: page.title | default: 'Dr. Benjamin De Ornelas | Cardiologo a Milano' }}">
+  <meta property="og:description" content="{{ page.og_description | default: page.description | default: 'Cardiologo a Milano: visite, ecocardiogramma, test da sforzo e prevenzione. Prenota una visita e prenditi cura del tuo cuore.' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bdeornelas.github.io{{ page.url }}">
+  <meta property="og:image" content="{{ page.og_image | default: 'https://bdeornelas.github.io/assets/img/og-card.jpg' }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.twitter_title | default: page.title | default: 'Dr. Benjamin De Ornelas | Cardiologo a Milano' }}">
+  <meta name="twitter:description" content="{{ page.twitter_description | default: page.description | default: 'Cardiologo a Milano: visite, ecocardiogramma, test da sforzo e prevenzione cardiovascolare.' }}">
+  <meta name="twitter:image" content="{{ page.twitter_image | default: 'https://bdeornelas.github.io/assets/img/og-card.jpg' }}">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.svg">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- CSS personalizzato -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="bg-slate-900 text-gray-200">
+
+  <!-- DECORAZIONE SFONDO -->
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+  </div>
+
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </div>
+
+  <!-- Script Lucide Icons -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
+
+  <!-- Script AOS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          once: true
+        });
+      }
+    });
+  </script>
+
+  <!-- Script menu mobile -->
+  <script>
+    const menuBtn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+    if (menuBtn && menu) {
+      menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    }
+  </script>
+
+</body>
+</html>
