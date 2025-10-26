@@ -23,7 +23,6 @@ exclude:
   - package.json
   - node_modules/
   - .parcel-cache/
-  - assets/
 
 # Include files
 include:
