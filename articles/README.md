@@ -53,7 +53,7 @@ Esempio snippet list item:
 
 ## Tono e contenuti
 - Linguaggio accessibile (B1–B2), empatico, non allarmistico.
-- Struttura coerente: definizione → cause → sintomi → diagnosi → terapie → prevenzione → quando chiamare 118 → messaggio finale → disclaimer.
+- Struttura coerente: definizione → cause → sintomi → diagnosi → terapie → prevenzione → quando rivolgersi al medico → messaggio finale.
 - Evita tecnicismi non necessari; quando servono, spiega in breve.
 
 ## QA rapido
