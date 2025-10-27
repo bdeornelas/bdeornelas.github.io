@@ -179,11 +179,7 @@
             padding: 20px;
         }
 
-        /* Sezione Revisione AI */
-        .ai-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 10px 0 15px 0; }
-        .ai-input { max-width: 420px; }
-        #ai-status { display: none; }
-        #ai-italiano, #ai-errori { min-height: 160px; }
+        /* (AI review non presente su /normale) */
 
         .note { font-size: 0.85em; color: var(--text-muted); display: block; margin-top: -10px; margin-bottom: 10px; font-style: italic; }
 
@@ -1034,7 +1030,7 @@ Trigliceridi: `;
 
         <div class="section">
             <h2>ECG</h2>
-            <textarea id="ecg" name="ecg" rows="3" placeholder="Inserisci il risultato dell'ECG">Ritmo sinusale a FC di 70 bpm, alterazioni aspecifiche del tratto ST-T</textarea>
+            <textarea id="ecg" name="ecg" rows="3" placeholder="Inserisci il risultato dell'ECG">Ritmo sinusale normofrequente, conduzione AV e IV nei limiti, alterazioni aspecifiche del tratto ST-T</textarea>
         </div>
 
         <div class="section">
@@ -1105,154 +1101,11 @@ Trigliceridi: `;
             <div id="copy-notification" class="copy-notification">Testo visita copiato negli appunti!</div>
         </div>
 
-        <div class="section" id="ai-review-section">
-            <h2>Revisione AI (Italiano e Coerenza Clinica)</h2>
-            <div class="ai-controls">
-                <div class="ai-input" style="flex:1; min-width:260px;">
-                    <label for="ai-api-key">OpenAI API Key</label>
-                    <input type="password" id="ai-api-key" placeholder="sk-..." />
-                    <span class="note">La chiave rimane nel browser (opzionale salvare in locale).</span>
-                </div>
-                <div>
-                    <label class="label-inline" for="ai-save-key"><input type="checkbox" id="ai-save-key" /> Ricorda chiave (localStorage)</label>
-                </div>
-                <div>
-                    <button type="button" id="ai-run-btn" class="main-action" style="min-width:240px;">Analizza con AI</button>
-                </div>
-            </div>
-            <div id="ai-status" class="info-message"></div>
-            <div class="card">
-                <h3>Italiano corretto</h3>
-                <textarea id="ai-italiano" readonly placeholder="Il testo corretto comparirà qui..."></textarea>
-                <div style="margin-top:8px; text-align:right;">
-                    <button type="button" id="ai-copy-italiano">Copia</button>
-                </div>
-            </div>
-            <div class="card">
-                <h3>Segnalazioni errori</h3>
-                <textarea id="ai-errori" readonly placeholder="Eventuali osservazioni cliniche compariranno qui..."></textarea>
-                <div style="margin-top:8px; text-align:right;">
-                    <button type="button" id="ai-copy-errori">Copia</button>
-                </div>
-            </div>
-        </div>
+        
 
         <button type="button" class="main-action" onclick="compilaVisita()">Compila Visita e Copia Testo</button>
 
-        <script>
-        // --- Integrazione Revisione AI su /normale ---
-        (function(){
-          const $ = (sel) => document.querySelector(sel);
-          const aiBtn = $('#ai-run-btn');
-          const keyInput = $('#ai-api-key');
-          const saveKeyCb = $('#ai-save-key');
-          const statusEl = $('#ai-status');
-          const outItEl = $('#ai-italiano');
-          const outErrEl = $('#ai-errori');
-
-          // Carica chiave da localStorage se presente
-          try {
-            const saved = localStorage.getItem('bdo_ai_api_key');
-            if (saved) { keyInput.value = saved; saveKeyCb.checked = true; }
-          } catch (e) {}
-
-          function setStatus(msg, type='info'){
-            statusEl.textContent = msg;
-            statusEl.className = type === 'error' ? 'error-message' : 'info-message';
-            statusEl.style.display = msg ? 'block' : 'none';
-          }
-
-          function buildPrompt(referto){
-            return `Sei un medico cardiologo esperto di linee guida ESC (European Society of Cardiology), abituato a redigere referti clinici sintetici e formalmente corretti.\n\n`+
-            `Riceverai di seguito il testo completo di un referto cardiologico generato automaticamente da una pagina HTML.\n\n`+
-            `Il tuo compito è duplice:\n\n`+
-            `1. **Controllo linguistico e stilistico:**\n`+
-            `   - Migliora l’italiano clinico mantenendo il tono medico professionale, senza cambiare il significato.\n`+
-            `   - Elimina ripetizioni, frasi colloquiali o inutili.\n`+
-            `   - Mantieni la struttura e i titoli delle sezioni (es. “ANAMNESI FAMILIARE”, “ESAME OBIETTIVO”, ecc.).\n\n`+
-            `2. **Controllo medico e aderenza alle linee guida ESC (2021–2024):**\n`+
-            `   - Verifica coerenza dei dati clinici (es. se la PAO e la classificazione di ipertensione sono coerenti).\n`+
-            `   - Controlla l’appropriatezza delle conclusioni e dei consigli terapeutici rispetto al rischio SCORE2, ai valori lipidici, e ai principi ESC.\n`+
-            `   - Evidenzia eventuali errori o raccomandazioni non aggiornate secondo ESC.\n`+
-            `   - Se rilevi discrepanze cliniche, falle notare in una sezione finale chiamata **“OSSERVAZIONI CLINICHE (AI)”** senza modificare direttamente i dati numerici.\n\n`+
-            `Output richiesto:\n`+
-            `- Testo completo del referto corretto e ottimizzato, pronto per essere copiato nel gestionale.\n`+
-            `- Se presenti osservazioni o correzioni cliniche, aggiungi alla fine una sezione “OSSERVAZIONI CLINICHE (AI)” con punti elenco concisi.\n\n`+
-            `Referto da analizzare:\n---\n${referto}\n---`;
-          }
-
-          async function runAI(){
-            const key = (keyInput.value || '').trim();
-            if (!key) { setStatus('Inserisci la tua OpenAI API key per procedere.', 'error'); return; }
-            if (saveKeyCb.checked) {
-              try { localStorage.setItem('bdo_ai_api_key', key); } catch(e){}
-            } else {
-              try { localStorage.removeItem('bdo_ai_api_key'); } catch(e){}
-            }
-
-            const referto = ($('#output-visita')?.value || '').trim();
-            if (!referto) { setStatus('Genera prima il referto in "Output Visita".', 'error'); return; }
-
-            setStatus('Analisi in corso…');
-            aiBtn.disabled = true; aiBtn.textContent = 'Analisi in corso…';
-            outItEl.value = ''; outErrEl.value = '';
-
-            const prompt = buildPrompt(referto);
-
-            try {
-              const resp = await fetch('https://api.openai.com/v1/chat/completions', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                  'Authorization': `Bearer ${key}`
-                },
-                body: JSON.stringify({
-                  model: 'gpt-4o-mini',
-                  temperature: 0.2,
-                  messages: [
-                    { role: 'user', content: prompt }
-                  ]
-                })
-              });
-              if (!resp.ok) {
-                const t = await resp.text();
-                throw new Error(`HTTP ${resp.status}: ${t}`);
-              }
-              const data = await resp.json();
-              const content = data?.choices?.[0]?.message?.content || '';
-              if (!content) throw new Error('Risposta vuota dall\'API.');
-
-              // Split in due box: testo corretto vs osservazioni
-              const re = /^\s*OSSERVAZIONI\s+CLINICHE\s*\(AI\)\s*:?/im;
-              const m = content.match(re);
-              if (m) {
-                const idx = m.index || 0;
-                const testo = content.slice(0, idx).trim();
-                const osserv = content.slice(idx).replace(re, '').trim();
-                outItEl.value = testo;
-                outErrEl.value = osserv || '(Nessuna osservazione)';
-              } else {
-                outItEl.value = content.trim();
-                outErrEl.value = '(Nessuna osservazione trovata)';
-              }
-              setStatus('Analisi completata.', 'info');
-            } catch (err) {
-              console.error(err);
-              setStatus('Errore durante la chiamata API: '+ err.message, 'error');
-            } finally {
-              aiBtn.disabled = false; aiBtn.textContent = 'Analizza con AI';
-            }
-          }
-
-          aiBtn?.addEventListener('click', runAI);
-          $('#ai-copy-italiano')?.addEventListener('click', ()=>{
-            if (outItEl.value) navigator.clipboard.writeText(outItEl.value);
-          });
-          $('#ai-copy-errori')?.addEventListener('click', ()=>{
-            if (outErrEl.value) navigator.clipboard.writeText(outErrEl.value);
-          });
-        })();
-        </script>
+        
     </div>
 </body>
 </html>
