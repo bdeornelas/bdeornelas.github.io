@@ -1178,23 +1178,82 @@ Trigliceridi: `;
             statusEl.style.display = msg ? 'block' : 'none';
           }
 
-          function buildPrompt(referto){
-            return `Sei un medico cardiologo esperto di linee guida ESC (European Society of Cardiology), abituato a redigere referti clinici sintetici e formalmente corretti.\n\n`+
-            `Riceverai di seguito il testo completo di un referto cardiologico generato automaticamente da una pagina HTML.\n\n`+
-            `Il tuo compito è duplice:\n\n`+
-            `1. **Controllo linguistico e stilistico:**\n`+
-            `   - Migliora l’italiano clinico mantenendo il tono medico professionale, senza cambiare il significato.\n`+
-            `   - Elimina ripetizioni, frasi colloquiali o inutili.\n`+
-            `   - Mantieni la struttura e i titoli delle sezioni (es. “ANAMNESI FAMILIARE”, “ESAME OBIETTIVO”, ecc.).\n\n`+
-            `2. **Controllo medico e aderenza alle linee guida ESC (2021–2024):**\n`+
-            `   - Verifica coerenza dei dati clinici (es. se la PAO e la classificazione di ipertensione sono coerenti).\n`+
-            `   - Controlla l’appropriatezza delle conclusioni e dei consigli terapeutici rispetto al rischio SCORE2, ai valori lipidici, e ai principi ESC.\n`+
-            `   - Evidenzia eventuali errori o raccomandazioni non aggiornate secondo ESC.\n`+
-            `   - Se rilevi discrepanze cliniche, falle notare in una sezione finale chiamata **“OSSERVAZIONI CLINICHE (AI)”** senza modificare direttamente i dati numerici.\n\n`+
-            `Output richiesto:\n`+
-            `- Testo completo del referto corretto e ottimizzato, pronto per essere copiato nel gestionale.\n`+
-            `- Se presenti osservazioni o correzioni cliniche, aggiungi alla fine una sezione “OSSERVAZIONI CLINICHE (AI)” con punti elenco concisi.\n\n`+
-            `Referto da analizzare:\n---\n${referto}\n---`;
+          // Prompt doppio passaggio
+          function buildPromptPassA(referto){
+            return (
+              'Sei un medico cardiologo esperto di linee guida ESC (2021–2024).\n'+
+              'Correggi esclusivamente lo stile e la forma del referto seguente, mantenendo titoli e struttura, senza cambiare i dati.\n'+
+              'Usa solo testo semplice (plain text), nessun markdown o simboli.\n\n'+
+              'OUTPUT OBBLIGATORIO:\n'+
+              'REFERT_CORRETTO:\n'+
+              referto
+            );
+          }
+
+          function buildPromptPassB(refertoCorretto){
+            return (
+              'Sei un revisore clinico ESC.\n'+
+              'Analizza il referto seguente e segnala contraddizioni interne o discrepanze rispetto alle linee guida ESC (SCORE2, PAO, lipidi, raccomandazioni).\n'+
+              'Usa solo testo semplice (plain text), nessun markdown.\n\n'+
+              'OUTPUT OBBLIGATORIO:\n'+
+              'OSSERVAZIONI_CLINICHE_AI:\n'+
+              '- [punto per ogni incongruenza].\n'+
+              '- Se non trovi alcuna discrepanza, scrivi: Nessuna discrepanza rilevata.\n\n'+
+              'REFERT_CORRETTO_DI_RIFERIMENTO:\n'+
+              refertoCorretto
+            );
+          }
+
+          function extractRefertoCorretto(text){
+            if (!text) return '';
+            const re = /REFERT[_\s]*CORRETTO\s*:\s*/i;
+            const m = text.match(re);
+            if (!m) return text.trim();
+            const body = text.slice(m.index + m[0].length);
+            const stop = body.search(/\n\s*(OSSERVAZIONI|NOTE|SEGNALAZIONI)[^\n]*\n/i);
+            return (stop >= 0 ? body.slice(0, stop) : body).trim();
+          }
+
+          function extractOsservazioni(text){
+            if (!text) return '';
+            const re = /OSSERVAZIONI[_\s]*CLINICHE[_\s]*\(?(AI|IA)\)?\s*:\s*/i;
+            const m = text.match(re);
+            if (!m) return text.trim();
+            const body = text.slice(m.index + m[0].length).trim();
+            return body;
+          }
+
+          function runLocalConsistencyChecks(referto){
+            const bullets = [];
+            const t = referto.toLowerCase();
+            const hasNoFurther = /(non\s+(necessari|indicati).{0,40}accertamenti)/i.test(referto) || /in\s+atto\s+non\s+necessari\s+ulteriori\s+accertamenti/i.test(referto);
+            const hasAdvice = /(utile|indicazione|si\s+consiglia|si\s+raccomanda).{0,100}(esami|holter|angio|tc|risonanza|ecg|eco|test)/i.test(referto);
+            if (hasNoFurther && hasAdvice) bullets.push('Contraddizione: dichiarati non necessari ulteriori accertamenti ma presenti raccomandazioni di esami.');
+
+            const terapiaSection = /TERAPIA\s+IN\s+ATTO[\s\S]*?(\n\n|$)/i.exec(referto);
+            if (terapiaSection) {
+              const content = terapiaSection[0];
+              const saysNone = /nessuna/i.test(content);
+              const hasDrugs = /(\bmg\b|atorvastatina|rosuvastatina|metoprololo|ramipril|amlodipina|aspirina|ticagrelor|clopidogrel|ezetimibe)/i.test(referto);
+              if (saysNone && hasDrugs) bullets.push('Contraddizione: “Nessuna terapia in atto” ma sono elencati farmaci altrove.');
+            }
+
+            const paoMatch = /PAO\s*:\s*(\d{2,3})\s*\/\s*(\d{2,3})/i.exec(referto);
+            if (paoMatch) {
+              const sbp = parseInt(paoMatch[1],10), dbp = parseInt(paoMatch[2],10);
+              const saysNorm = /(pao\s+nella\s+norma|pressione\s+nella\s+norma)/i.test(referto);
+              if ((sbp>=140 || dbp>=90) && saysNorm) bullets.push('PAO elevata ma definita “nella norma”. Verificare classificazione ipertensione.');
+            }
+
+            const saysNoSymptoms = /(assenza\s+di\s+sintomi|non\s+riferisce\s+sintomi)/i.test(t);
+            const mentionsSymptoms = /(dispnea|dolore\s+toracico|sincope|palpitazioni)/i.test(t);
+            if (saysNoSymptoms && mentionsSymptoms) bullets.push('Contraddizione tra “assenza di sintomi” e sintomi riportati altrove.');
+
+            const claimsNormalLipids = /(profilo\s+lipidico\s+normale|lipidi\s+nella\s+norma)/i.test(t);
+            const recommendsLipidTx = /(terapia\s+ipolipemizzante|statina|ezetimibe)/i.test(t);
+            if (claimsNormalLipids && recommendsLipidTx) bullets.push('Profilo lipidico dichiarato normale ma consigliata terapia ipolipemizzante.');
+
+            return bullets;
           }
 
           function sanitizeMarkdown(s){
@@ -1232,54 +1291,61 @@ Trigliceridi: `;
             aiBtn.disabled = true; aiBtn.textContent = 'Analisi in corso…';
             outItEl.value = ''; outErrEl.value = '';
 
-            const prompt = buildPrompt(referto);
-
             try {
-              const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+              // Passaggio A: correzione linguistica
+              const promptA = buildPromptPassA(referto);
+              let resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
                   'Authorization': `Bearer ${key}`
                 },
                 body: JSON.stringify({
-                  model: 'gpt-4o-mini',
-                  temperature: 0.2,
-                  messages: [
-                    { role: 'user', content: prompt }
-                  ]
+                  model: 'gpt-4o',
+                  temperature: 0.0,
+                  max_tokens: 3000,
+                  presence_penalty: 0,
+                  frequency_penalty: 0,
+                  messages: [{ role: 'user', content: promptA }]
                 })
               });
               if (!resp.ok) {
-                const t = await resp.text();
-                throw new Error(`HTTP ${resp.status}: ${t}`);
+                // Fallback a modello mini
+                resp = await fetch('https://api.openai.com/v1/chat/completions', {
+                  method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
+                  body: JSON.stringify({ model: 'gpt-4o-mini', temperature: 0.0, max_tokens: 3000, messages: [{ role:'user', content: promptA }] })
+                });
+                if (!resp.ok) { const t = await resp.text(); throw new Error(`HTTP ${resp.status}: ${t}`); }
               }
-              const data = await resp.json();
-              const content = data?.choices?.[0]?.message?.content || '';
-              if (!content) throw new Error('Risposta vuota dall\'API.');
+              let data = await resp.json();
+              const contentA = data?.choices?.[0]?.message?.content || '';
+              if (!contentA) throw new Error('Risposta vuota dal Passaggio A.');
+              const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
+              outItEl.value = refertoCorretto; autoResize(outItEl);
 
-              const headingRe = /^[\s>*#\-]*\**\s*(OSSERVAZIONI|SEGNALAZIONI|NOTE)(?:\s+CLINICHE)?(?:\s*[-:–—])?(?:\s*\(?\s*(AI|IA)\s*\)\s*)?\s*:?.*$/im;
-              let m = content.match(headingRe);
-              if (m) {
-                const idx = m.index || 0;
-                const testo = content.slice(0, idx).trim();
-                const osserv = content.slice(idx).replace(headingRe, '').trim();
-                outItEl.value = sanitizeMarkdown(testo);
-                outErrEl.value = sanitizeMarkdown(osserv) || '(Nessuna osservazione)';
-              } else {
-                // Fallback split if heading not matched but section present inline
-                const idx2 = content.search(/OSSERVAZIONI[^\n]{0,60}\(\s*(AI|IA)\s*\)/i);
-                if (idx2 >= 0) {
-                  const testo = content.slice(0, idx2).trim();
-                  const osserv = content.slice(idx2).replace(/OSSERVAZIONI[^\n]{0,60}\(\s*(AI|IA)\s*\)\s*:?/i, '').trim();
-                  outItEl.value = sanitizeMarkdown(testo);
-                  outErrEl.value = sanitizeMarkdown(osserv) || '(Nessuna osservazione)';
-                } else {
-                  outItEl.value = sanitizeMarkdown(content.trim());
-                  outErrEl.value = '(Nessuna osservazione trovata)';
-                }
+              // Passaggio B: osservazioni cliniche
+              const promptB = buildPromptPassB(refertoCorretto);
+              resp = await fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
+                body: JSON.stringify({ model:'gpt-4o', temperature:0.0, max_tokens:2000, presence_penalty:0, frequency_penalty:0, messages:[{ role:'user', content: promptB }] })
+              });
+              if (!resp.ok) {
+                resp = await fetch('https://api.openai.com/v1/chat/completions', {
+                  method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
+                  body: JSON.stringify({ model:'gpt-4o-mini', temperature:0.0, max_tokens:2000, messages:[{ role:'user', content: promptB }] })
+                });
+                if (!resp.ok) { const t2 = await resp.text(); throw new Error(`HTTP ${resp.status}: ${t2}`); }
               }
-              autoResize(outItEl);
-              autoResize(outErrEl);
+              data = await resp.json();
+              let osservazioni = sanitizeMarkdown(extractOsservazioni(data?.choices?.[0]?.message?.content || ''));
+              const extra = runLocalConsistencyChecks(refertoCorretto);
+              if (extra.length) {
+                const existing = osservazioni ? osservazioni.split(/\n+/).map(s=>s.trim()).filter(Boolean) : [];
+                const merged = new Set(existing.concat(extra.map(b=>`- ${b}`)));
+                osservazioni = Array.from(merged).join('\n');
+              }
+              if (!osservazioni) osservazioni = '- Nessuna discrepanza rilevata';
+              outErrEl.value = osservazioni; autoResize(outErrEl);
               setStatus('Analisi completata.', 'info');
             } catch (err) {
               console.error(err);
