@@ -41,4 +41,26 @@ document.addEventListener('DOMContentLoaded', () => {
       if (mobileMenu) mobileMenu.classList.add('hidden');
     });
   });
+
+  // Lazy loading per le immagini
+  const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          img.classList.remove('lazy');
+          observer.unobserve(img);
+        }
+      });
+    });
+
+    lazyImages.forEach(img => imageObserver.observe(img));
+  } else {
+    // Fallback per browser che non supportano IntersectionObserver
+    lazyImages.forEach(img => {
+      img.src = img.dataset.src;
+    });
+  }
 });

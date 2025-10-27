@@ -22,8 +22,144 @@
   <meta name="twitter:description" content="{{ page.twitter_description | default: page.description | default: 'Cardiologo a Milano: visite, ecocardiogramma color Doppler (TTE), test ergometrico e prevenzione cardiovascolare.' }}">
   <meta name="twitter:image" content="{{ page.twitter_image | default: 'https://bdeornelas.github.io/assets/img/og-card.jpg' }}">
 
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Dr. Benjamin De Ornelas",
+    "description": "Cardiologo Milano specializzato in visite cardiologiche Milano, ecocardiogramma Milano e prevenzione cardiovascolare.",
+    "url": "https://bdeornelas.github.io",
+    "logo": "https://bdeornelas.github.io/assets/img/logo-bdo.png",
+    "medicalSpecialty": "Cardiology",
+    "founder": {
+      "@type": "Person",
+      "name": "Dr. Benjamin De Ornelas",
+      "jobTitle": "Cardiologo",
+      "medicalSpecialty": "Cardiology"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IT",
+      "addressRegion": "Lombardia",
+      "addressLocality": "Milano"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-XXXXXXX",
+      "contactType": "customer service"
+    },
+    "availableService": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "Visite Cardiologiche Milano",
+        "description": "Visite cardiologiche complete presso Centro Medico Santagostino in 8 sedi a Milano e hinterland."
+      },
+      {
+        "@type": "MedicalTest",
+        "name": "Ecocardiogramma Milano",
+        "description": "Ecocardiogramma color Doppler (TTE) ed ecocolor Doppler TSA per valutazione della funzione cardiaca."
+      },
+      {
+        "@type": "MedicalTest",
+        "name": "Test da Sforzo Milano",
+        "description": "Test ergometrico con ECG a 12 derivazioni per valutazione dello sforzo cardiaco."
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Videoconsulti",
+        "description": "Consulti online per monitoraggio e prevenzione cardiovascolare."
+      }
+    ],
+    "sameAs": [
+      "https://it.linkedin.com/in/dr-benjamin-de-ornelas",
+      "https://instagram.com/dr.deornelas_benjamin",
+      "https://www.researchgate.net/profile/Benjamin-De-Ornelas"
+    ]
+  }
+  </script>
+
+  <!-- MedicalDoctor Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalDoctor",
+    "name": "Dr. Benjamin De Ornelas",
+    "jobTitle": "Cardiologo",
+    "medicalSpecialty": "Cardiology",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IT",
+      "addressRegion": "Lombardia",
+      "addressLocality": "Milano"
+    },
+    "telephone": "+39-02-XXXXXXX",
+    "url": "https://bdeornelas.github.io",
+    "image": "https://bdeornelas.github.io/assets/img/benjamin-de-ornelas-portrait.jpg",
+    "sameAs": [
+      "https://it.linkedin.com/in/dr-benjamin-de-ornelas",
+      "https://instagram.com/dr.deornelas_benjamin",
+      "https://www.researchgate.net/profile/Benjamin-De-Ornelas"
+    ],
+    "affiliation": {
+      "@type": "MedicalBusiness",
+      "name": "Centro Medico Santagostino",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IT",
+        "addressRegion": "Lombardia",
+        "addressLocality": "Milano"
+      }
+    }
+  }
+  </script>
+
+  {% if page.url contains '/articles/' %}
+  <!-- Article Schema for Medical Content -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | default: 'Articolo Medico' }}",
+    "description": "{{ page.description | default: 'Contenuto medico sulla salute cardiovascolare' }}",
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Benjamin De Ornelas",
+      "jobTitle": "Cardiologo",
+      "medicalSpecialty": "Cardiology"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Dr. Benjamin De Ornelas",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://bdeornelas.github.io/assets/img/logo-bdo.png"
+      }
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' | default: '2025-01-01' }}",
+    "dateModified": "{{ page.date | date: '%Y-%m-%d' | default: '2025-01-01' }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bdeornelas.github.io{{ page.url }}"
+    },
+    "about": [
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Cardiology"
+      },
+      {
+        "@type": "MedicalCondition",
+        "name": "Cardiovascular Diseases"
+      }
+    ],
+    "articleSection": "Medical Articles"
+  }
+  </script>
+  {% endif %}
+
   <!-- Favicon -->
-  <link rel="icon" href="/assets/img/favicon.svg">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/logo-bdo.png">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -41,7 +177,7 @@
   <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- CSS personalizzato -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.min.css">
 </head>
 <body class="bg-slate-900 text-gray-200">
 
@@ -61,38 +197,8 @@
 
   </div>
 
-  <!-- Initialize Lucide Icons -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof lucide !== 'undefined') {
-        lucide.createIcons();
-      }
-    });
-  </script>
-
-  <!-- Initialize AOS -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof AOS !== 'undefined') {
-        AOS.init({
-          duration: 800,
-          once: true
-        });
-      }
-    });
-  </script>
-
-  <!-- Mobile menu toggle -->
-  <script>
-    const menuBtn = document.getElementById('mobile-menu-button');
-    const menu = document.getElementById('mobile-menu');
-    if (menuBtn && menu) {
-      menuBtn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-        menuBtn.setAttribute('aria-expanded', menu.classList.contains('hidden') ? 'false' : 'true');
-      });
-    }
-  </script>
+  <!-- JavaScript personalizzato -->
+  <script src="/assets/js/main.min.js"></script>
 
 </body>
 </html>
