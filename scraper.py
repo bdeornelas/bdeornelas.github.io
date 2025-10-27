@@ -50,9 +50,9 @@ def scrape_page(url, site, page_num=1):
 
 for site in sites:
     page = 1
-    max_pages = 2  # Limit to 2 pages per site to avoid overloading
+    max_pages = 5  # Limit to 5 pages per site to avoid overloading
     articles_found = 0
-    max_articles = 10  # Increased limit per site
+    max_articles = 50  # Increased limit per site
     cardio_urls = [site['cardio_url']]
 
     for cardio_url in cardio_urls:
