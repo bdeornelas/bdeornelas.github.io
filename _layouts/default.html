@@ -61,28 +61,37 @@
 
   </div>
 
+  <!-- Initialize Lucide Icons -->
   <script>
-    // Fallback init in case dist/js/main.js fails to load
     document.addEventListener('DOMContentLoaded', () => {
-      setTimeout(() => {
-        if (!window.__bdoMainInited) {
-          try { if (window.lucide) { lucide.createIcons(); } } catch (e) {}
-          try { if (window.AOS) { AOS.init({ duration: 700, once: true, offset: 50 }); } } catch (e) {}
-          const btn = document.getElementById('mobile-menu-button');
-          const menu = document.getElementById('mobile-menu');
-          if (btn && menu && !btn.dataset.bound) {
-            btn.addEventListener('click', () => {
-              menu.classList.toggle('hidden');
-              btn.setAttribute('aria-expanded', menu.classList.contains('hidden') ? 'false' : 'true');
-            });
-            btn.dataset.bound = 'true';
-          }
-          document.querySelectorAll('#mobile-menu a').forEach((a) => {
-            a.addEventListener('click', () => { if (menu) menu.classList.add('hidden'); });
-          });
-        }
-      }, 250);
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
     });
+  </script>
+
+  <!-- Initialize AOS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          once: true
+        });
+      }
+    });
+  </script>
+
+  <!-- Mobile menu toggle -->
+  <script>
+    const menuBtn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+    if (menuBtn && menu) {
+      menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        menuBtn.setAttribute('aria-expanded', menu.classList.contains('hidden') ? 'false' : 'true');
+      });
+    }
   </script>
 
 </body>
