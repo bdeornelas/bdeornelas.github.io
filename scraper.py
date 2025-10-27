@@ -6,12 +6,11 @@ import re
 
 # Define websites with cardiology sections
 sites = [
-    {'name': 'Gruppo San Donato', 'base': 'https://www.grupposandonato.it', 'cardio_url': 'https://www.grupposandonato.it/pazienti/cuore-e-vasi/'},
-    {'name': 'Humanitas', 'base': 'https://www.humanitas.it', 'cardio_url': 'https://www.humanitas.it/categorie/cuore/'}
+    {'name': 'Humanitas', 'base': 'https://www.humanitas.it', 'cardio_url': 'https://www.humanitas.it/malattie'}
 ]
 
 # Keywords to filter relevant articles
-keywords = ['insufficienza mitralica', 'stenosi mitralica', 'insufficienza aortica', 'stenosi aortica', 'cardiomiopatia', 'insufficienza cardiaca', 'cuore', 'cardiaco', 'valvola']
+keywords = ['cuore', 'cardiaco', 'cardiologia', 'infarto', 'ipertensione', 'aritmia', 'insufficienza', 'valvola', 'cardiomiopatia', 'angina', 'fibrillazione', 'flutter', 'stenosi', 'aneurisma', 'colesterolo', 'scompenso', 'pericardite', 'miocardite', 'endocardite', 'extrasistoli', 'tachicardia', 'bradicardia', 'embolia', 'polmonare', 'tvp', 'tpsv']
 
 # Headers to mimic browser
 headers = {
@@ -25,9 +24,9 @@ def is_relevant(text, keywords):
     text_lower = text.lower()
     return any(keyword in text_lower for keyword in keywords)
 
-for site in sites:
+def scrape_page(url, site, page_num=1):
     try:
-        response = requests.get(site['cardio_url'], headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             # Find article links
@@ -35,14 +34,39 @@ for site in sites:
             article_urls = []
             for link in links:
                 href = link.get('href')
-                if href and ('/pazienti/' in href or '/articoli/' in href or '/notizie/' in href or '/categorie/cuore/' in href):
+                if href and ('/pazienti/' in href or '/articoli/' in href or '/notizie/' in href or '/categorie/cuore/' in href or '/categoria/cuore/' in href or 'cardio' in href.lower() or 'cuore' in href.lower() or '/servizi/' in href or '/malattie/' in href):
                     if not href.startswith('http'):
                         href = site['base'] + href
                     if href not in scraped_urls:
                         article_urls.append(href)
                         scraped_urls.add(href)
-            # Limit to 10 articles per site
-            for url in article_urls[:10]:
+            return article_urls
+        else:
+            print(f"Failed to access {url}: {response.status_code}")
+            return []
+    except Exception as e:
+        print(f"Error with {url}: {e}")
+        return []
+
+for site in sites:
+    page = 1
+    max_pages = 2  # Limit to 2 pages per site to avoid overloading
+    articles_found = 0
+    max_articles = 10  # Increased limit per site
+    cardio_urls = [site['cardio_url']]
+
+    for cardio_url in cardio_urls:
+        page = 1
+        while page <= max_pages and articles_found < max_articles:
+            if page == 1:
+                current_url = cardio_url
+            else:
+                # Attempt pagination: add /page/2, /page/3, etc. or ?page=2, etc.
+                current_url = cardio_url + f'?page={page}'
+            article_urls = scrape_page(current_url, site, page)
+            for url in article_urls:
+                if articles_found >= max_articles:
+                    break
                 try:
                     article = Article(url, language='it')
                     article.download()
@@ -56,16 +80,15 @@ for site in sites:
                             'source': site['name'],
                             'word_count': word_count
                         })
+                        articles_found += 1
                 except Exception as e:
                     print(f"Error scraping {url}: {e}")
                 time.sleep(2)  # Delay to be ethical
-        else:
-            print(f"Failed to access {site['cardio_url']}: {response.status_code}")
-    except Exception as e:
-        print(f"Error with {site['cardio_url']}: {e}")
-    time.sleep(1)
+            page += 1
+            time.sleep(1)
 
 # Print results
+print(f"Total articles found: {len(results)}")
 for result in results:
     print(f"Title: {result['title']}")
     print(f"Source: {result['source']}")
