@@ -184,6 +184,9 @@
         .ai-input { max-width: 480px; }
         #ai-status { display: none; }
         #ai-italiano, #ai-errori { width: 100%; min-height: 380px; resize: vertical; }
+        .btn { display:inline-block; padding:10px 14px; border:2px solid var(--border-color); border-radius:8px; background:#fff; color:var(--text-color); font-weight:600; cursor:pointer; transition:all 0.2s ease; }
+        .btn:hover { background-color:#fafbfc; transform:translateY(-1px); }
+        .btn:active { transform:translateY(0); }
 
         /* Sezione Revisione AI */
         .ai-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 10px 0 15px 0; }
@@ -1135,14 +1138,14 @@ Trigliceridi: `;
                 <h3 style="margin:0 0 6px 0; color: var(--accent-color);">Italiano corretto</h3>
                 <textarea id="ai-italiano" readonly placeholder="Il testo corretto comparirà qui..."></textarea>
                 <div style="margin-top:8px; text-align:right;">
-                    <button type="button" id="ai-copy-italiano">Copia</button>
+                    <button type="button" id="ai-copy-italiano" class="btn">Copia</button>
                 </div>
             </div>
             <div class="card" style="padding:0; border:none; box-shadow:none; margin-top:18px;">
-                <h3 style="margin:0 0 6px 0; color: var(--accent-color);">Segnalazioni errori</h3>
+                <h3 style="margin:0 0 6px 0; color: var(--accent-color);">Segnalazioni errori e osservazioni cliniche</h3>
                 <textarea id="ai-errori" readonly placeholder="Eventuali osservazioni cliniche compariranno qui..."></textarea>
                 <div style="margin-top:8px; text-align:right;">
-                    <button type="button" id="ai-copy-errori">Copia</button>
+                    <button type="button" id="ai-copy-errori" class="btn">Copia</button>
                 </div>
             </div>
         </div>
@@ -1194,6 +1197,25 @@ Trigliceridi: `;
             `Referto da analizzare:\n---\n${referto}\n---`;
           }
 
+          function sanitizeMarkdown(s){
+            if (!s) return '';
+            let t = s.replace(/\r\n/g,'\n');
+            // Remove common Markdown formatting markers
+            t = t.replace(/\*\*/g, '');        // bold **
+            t = t.replace(/__/g, '');            // bold __
+            t = t.replace(/`+/g, '');            // code backticks
+            t = t.replace(/^\s*>\s?/gm, '');    // blockquote >
+            t = t.replace(/^#{1,6}\s*/gm, '');   // headings #
+            t = t.replace(/\u2022\s+/g, '- ');  // bullet • to dash
+            // Normalize bullet markers starting with * to "- "
+            t = t.replace(/^\s*\*+\s+/gm, '- ');
+            // Replace en/em dashes with simple hyphen
+            t = t.replace(/[\u2013\u2014]/g, '-');
+            // Remove italics underscores around words _text_
+            t = t.replace(/_(.*?)_/g, '$1');
+            return t.trim();
+          }
+
           async function runAI(){
             const key = (keyInput.value || '').trim();
             if (!key) { setStatus('Inserisci la tua OpenAI API key per procedere.', 'error'); return; }
@@ -1235,17 +1257,26 @@ Trigliceridi: `;
               const content = data?.choices?.[0]?.message?.content || '';
               if (!content) throw new Error('Risposta vuota dall\'API.');
 
-              const re = /^\s*OSSERVAZIONI\s+CLINICHE\s*\(AI\)\s*:?/im;
-              const m = content.match(re);
+              const headingRe = /^[\s>*#\-]*\**\s*(OSSERVAZIONI|SEGNALAZIONI|NOTE)(?:\s+CLINICHE)?(?:\s*[-:–—])?(?:\s*\(?\s*(AI|IA)\s*\)\s*)?\s*:?.*$/im;
+              let m = content.match(headingRe);
               if (m) {
                 const idx = m.index || 0;
                 const testo = content.slice(0, idx).trim();
-                const osserv = content.slice(idx).replace(re, '').trim();
-                outItEl.value = testo;
-                outErrEl.value = osserv || '(Nessuna osservazione)';
+                const osserv = content.slice(idx).replace(headingRe, '').trim();
+                outItEl.value = sanitizeMarkdown(testo);
+                outErrEl.value = sanitizeMarkdown(osserv) || '(Nessuna osservazione)';
               } else {
-                outItEl.value = content.trim();
-                outErrEl.value = '(Nessuna osservazione trovata)';
+                // Fallback split if heading not matched but section present inline
+                const idx2 = content.search(/OSSERVAZIONI[^\n]{0,60}\(\s*(AI|IA)\s*\)/i);
+                if (idx2 >= 0) {
+                  const testo = content.slice(0, idx2).trim();
+                  const osserv = content.slice(idx2).replace(/OSSERVAZIONI[^\n]{0,60}\(\s*(AI|IA)\s*\)\s*:?/i, '').trim();
+                  outItEl.value = sanitizeMarkdown(testo);
+                  outErrEl.value = sanitizeMarkdown(osserv) || '(Nessuna osservazione)';
+                } else {
+                  outItEl.value = sanitizeMarkdown(content.trim());
+                  outErrEl.value = '(Nessuna osservazione trovata)';
+                }
               }
               autoResize(outItEl);
               autoResize(outErrEl);
