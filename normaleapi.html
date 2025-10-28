@@ -1181,9 +1181,11 @@ Trigliceridi: `;
           // Prompt doppio passaggio
           function buildPromptPassA(referto){
             return (
-              'Sei un medico cardiologo esperto di linee guida ESC (2021–2024).\n'+
-              'Correggi esclusivamente lo stile e la forma del referto seguente, mantenendo titoli e struttura, senza cambiare i dati.\n'+
-              'Usa solo testo semplice (plain text), nessun markdown o simboli.\n\n'+
+              'Sei un medico cardiologo esperto di refertazione clinica e linee guida ESC.\n\n'+
+              'Il testo seguente è un referto di visita cardiologica.\n'+
+              'Riscrivilo in linguaggio medico professionale ("medichese"), rendendo il testo più scorrevole, coerente e clinicamente appropriato, ma senza modificare né aggiungere dati clinici, misurazioni o conclusioni.\n'+
+              'Mantieni invariata la struttura e le intestazioni (es. ANAMNESI, ESAME OBIETTIVO, CONCLUSIONI, TERAPIA, ecc.).\n'+
+              'Non inserire simboli, markdown o formattazioni speciali.\n\n'+
               'OUTPUT OBBLIGATORIO:\n'+
               'REFERT_CORRETTO:\n'+
               referto
@@ -1192,13 +1194,20 @@ Trigliceridi: `;
 
           function buildPromptPassB(refertoCorretto){
             return (
-              'Sei un revisore clinico ESC.\n'+
-              'Analizza il referto seguente e segnala contraddizioni interne o discrepanze rispetto alle linee guida ESC (SCORE2, PAO, lipidi, raccomandazioni).\n'+
-              'Usa solo testo semplice (plain text), nessun markdown.\n\n'+
+              'Sei un revisore clinico esperto di linee guida ESC in ambito cardiologico\n'+
+              '(SCORE2, PAO, ipertensione, dislipidemie, prevenzione, terapia).\n\n'+
+              'Analizza il referto cardiologico seguente (già corretto linguisticamente nel Pass A).\n'+
+              'Non riscrivere o modificare il testo: valuta solo il contenuto clinico.\n\n'+
+              'Individua e segnala eventuali:\n\n'+
+              'contraddizioni interne (tra anamnesi, esame obiettivo, diagnosi o conclusioni)\n\n'+
+              'discostamenti o errori rispetto alle linee guida ESC nelle diagnosi formulate\n\n'+
+              'esami mancanti o non proposti ma indicati dal quadro clinico\n\n'+
+              'incongruenze o omissioni nella terapia in atto o suggerita (farmaci, dosaggi, indicazioni)\n\n'+
+              'Usa solo testo semplice (plain text), senza simboli o formattazioni.\n\n'+
               'OUTPUT OBBLIGATORIO:\n'+
-              'OSSERVAZIONI_CLINICHE_AI:\n'+
-              '- [punto per ogni incongruenza].\n'+
-              '- Se non trovi alcuna discrepanza, scrivi: Nessuna discrepanza rilevata.\n\n'+
+              'OSSERVAZIONI_CLINICHE_AI:\n\n'+
+              '[una riga per ogni discrepanza o incongruenza rilevata]\n\n'+
+              'Se non trovi alcuna discrepanza, scrivi: Nessuna discrepanza rilevata.\n\n'+
               'REFERT_CORRETTO_DI_RIFERIMENTO:\n'+
               refertoCorretto
             );
@@ -1292,7 +1301,7 @@ Trigliceridi: `;
             outItEl.value = ''; outErrEl.value = '';
 
             try {
-              // Passaggio A: correzione linguistica (gpt-4o-mini, temp 0.3)
+              // Passaggio A: correzione linguistica (gpt-5-mini, temp 0.3)
               const promptA = buildPromptPassA(referto);
               let resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
@@ -1301,7 +1310,7 @@ Trigliceridi: `;
                   'Authorization': `Bearer ${key}`
                 },
                 body: JSON.stringify({
-                  model: 'gpt-4o-mini',
+                  model: 'gpt-5-mini',
                   temperature: 0.3,
                   max_tokens: 3000,
                   presence_penalty: 0,
@@ -1314,7 +1323,7 @@ Trigliceridi: `;
                 // Fallback a modello maggiore
                 resp = await fetch('https://api.openai.com/v1/chat/completions', {
                   method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
-                  body: JSON.stringify({ model: 'gpt-4o', temperature: 0.3, max_tokens: 3000, presence_penalty: 0, frequency_penalty: 0, top_p: 1.0, messages: [{ role:'user', content: promptA }] })
+                  body: JSON.stringify({ model: 'gpt-5', temperature: 0.3, max_tokens: 3000, presence_penalty: 0, frequency_penalty: 0, top_p: 1.0, messages: [{ role:'user', content: promptA }] })
                 });
                 if (!resp.ok) { const t = await resp.text(); throw new Error(`HTTP ${resp.status}: ${t}`); }
               }
@@ -1324,16 +1333,16 @@ Trigliceridi: `;
               const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
               outItEl.value = refertoCorretto; autoResize(outItEl);
 
-              // Passaggio B: osservazioni cliniche (gpt-4o, temp 0.0 deterministica)
+              // Passaggio B: osservazioni cliniche (gpt-5, temp 0.0 deterministica)
               const promptB = buildPromptPassB(refertoCorretto);
               resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
-                body: JSON.stringify({ model:'gpt-4o', temperature:0.0, max_tokens:2000, presence_penalty:0, frequency_penalty:0, top_p: 1.0, messages:[{ role:'user', content: promptB }] })
+                body: JSON.stringify({ model:'gpt-5', temperature:0.0, max_tokens:2000, presence_penalty:0, frequency_penalty:0, top_p: 1.0, messages:[{ role:'user', content: promptB }] })
               });
               if (!resp.ok) {
                 resp = await fetch('https://api.openai.com/v1/chat/completions', {
                   method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
-                  body: JSON.stringify({ model:'gpt-4o-mini', temperature:0.0, max_tokens:2000, presence_penalty:0, frequency_penalty:0, top_p: 1.0, messages:[{ role:'user', content: promptB }] })
+                  body: JSON.stringify({ model:'gpt-5-mini', temperature:0.0, max_tokens:2000, presence_penalty:0, frequency_penalty:0, top_p: 1.0, messages:[{ role:'user', content: promptB }] })
                 });
                 if (!resp.ok) { const t2 = await resp.text(); throw new Error(`HTTP ${resp.status}: ${t2}`); }
               }
