@@ -1778,7 +1778,12 @@ Trigliceridi: `;
                 throw new Error(`HTTP ${resp.status}: ${t2}`);
               }
               data = await resp.json();
-              let osservazioni = sanitizeMarkdown(extractOsservazioni(data?.choices?.[0]?.message?.content || ''));
+              const contentB = data?.choices?.[0]?.message?.content || '';
+              console.log('=== DEBUG Pass B Response ===');
+              console.log('contentB RAW (first 1000 chars):', contentB.substring(0, 1000));
+              console.log('contentB RAW (last 500 chars):', contentB.substring(Math.max(0, contentB.length - 500)));
+              let osservazioni = sanitizeMarkdown(extractOsservazioni(contentB));
+              console.log('osservazioni extracted:', osservazioni);
               const extra = runLocalConsistencyChecks(refertoCorretto);
               if (extra.length) {
                 const existing = osservazioni ? osservazioni.split(/\n+/).map(s=>s.trim()).filter(Boolean) : [];
@@ -1789,7 +1794,8 @@ Trigliceridi: `;
               outErrEl.value = osservazioni; autoResize(outErrEl);
 
               // Estrai conclusioni proposte (se presenti)
-              const conclusioni = sanitizeMarkdown(extractConclusioni(data?.choices?.[0]?.message?.content || ''));
+              const conclusioni = sanitizeMarkdown(extractConclusioni(contentB));
+              console.log('conclusioni extracted:', conclusioni);
               if (conclusioni) {
                 conclusioniCard.style.display = 'block';
                 outConclEl.value = conclusioni;
