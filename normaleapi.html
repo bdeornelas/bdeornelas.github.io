@@ -1562,16 +1562,17 @@ Trigliceridi: `;
           function buildPromptPassA(referto){
             return (
               'Sei un medico cardiologo esperto di refertazione.\n'+
-              'Riscrivi il testo in linguaggio medico professionale e rendi uniformi le sezioni e i dati di laboratorio.\n'+
-              'Correggi ortografia, nomi degli esami, unità di misura e formattazione.\n'+
-              'Per i valori numerici di laboratorio:\n'+
-              '- se l\'unità è sbagliata (es. g invece di mg/dL) correggila mantenendo la coerenza della scala\n'+
-              '- se il valore è evidentemente impossibile (es. trigliceridi > 5000 mg/dL) mantienilo ma aggiungi tra parentesi "valore non plausibile"\n'+
-              'Mantieni la struttura delle intestazioni.\n'+
-              'Non aggiungere conclusioni nuove.\n\n'+
-              'OUTPUT OBBLIGATORIO\n'+
-              'REFERT_CORRETTO\n'+
-              '[referto riscritto professionalmente]\n\n'+
+              'Riscrivi SOLO il testo del referto in linguaggio medico professionale. Rendi uniformi le sezioni e i dati di laboratorio.\n'+
+              'Correggi ortografia, nomi degli esami, unità di misura e formattazione.\n\n'+
+              'VALORI DI LABORATORIO:\n'+
+              '- se l\'unità è sbagliata (es. "10 g" invece di mg/dL per lipidi) correggila convertendo nella scala corretta (10 g = 10000 mg/dL)\n'+
+              '- se il valore convertito è biologicamente impossibile (es. trigliceridi > 5000 mg/dL, HDL > 100 mg/dL, LDL > 300 mg/dL) aggiungi "(valore non plausibile)" subito dopo il numero\n\n'+
+              'IMPORTANTE:\n'+
+              '- Mantieni la struttura delle intestazioni del referto\n'+
+              '- Non aggiungere conclusioni nuove\n'+
+              '- NON scrivere intestazioni come "REFERT_CORRETTO" o simili\n'+
+              '- Rispondi SOLO con il testo del referto corretto, nient\'altro\n\n'+
+              'REFERTO DA CORREGGERE:\n'+
               referto
             );
           }
@@ -1579,39 +1580,50 @@ Trigliceridi: `;
           function buildPromptPassB(refertoCorretto){
             return (
               'Sei un assistente cardiologico AI esperto di linee guida ESC 2021-2024.\n'+
-              'Analizza il referto seguente (già corretto linguisticamente).\n'+
-              'Ragiona con il medico sul contenuto clinico: commenta le incongruenze e, se necessario, proponi una versione alternativa della sezione "CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE".\n\n'+
-              'Valuta:\n'+
-              '1. Plausibilità biologica dei valori di laboratorio e coerenza delle unità.\n'+
-              '2. Contraddizioni interne tra anamnesi, esame obiettivo e conclusioni.\n'+
-              '3. Allineamento con le linee guida ESC per rischio, prevenzione, terapia e follow up.\n'+
-              '4. Esami mancanti o terapie non indicate ma raccomandate dalle ESC.\n'+
-              '5. Appropriatezza del piano terapeutico proposto.\n\n'+
-              'Se dissenti dalle conclusioni, proponi una sezione sostitutiva completa di:\n'+
-              '- indicazioni operative specifiche con priorità temporale (oggi – entro 1 settimana – entro 1 mese)\n'+
-              '- esami consigliati con motivazione e timing\n'+
-              '- terapie con classe farmaco, principio attivo, dose iniziale e controlli di sicurezza\n'+
-              '- follow up e red flags cliniche\n\n'+
-              'OUTPUT OBBLIGATORIO\n'+
-              'OSSERVAZIONI_CLINICHE_AI\n'+
-              '1. [una riga per ogni anomalia numerata]\n'+
-              '2. Se non ci sono problemi scrivi Nessuna discrepanza rilevata\n\n'+
-              'CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE\n'+
-              '[solo se necessario: testo completo e pronto da copiare nel referto]\n\n'+
-              'REFERT_CORRETTO_DI_RIFERIMENTO\n'+
-              '[incolla qui il testo ricevuto dal Pass A]\n\n'+
+              'Analizza CRITICAMENTE il referto seguente (già corretto linguisticamente).\n\n'+
+              'ANALISI OBBLIGATORIA:\n'+
+              '1. VALORI LABORATORIO: Verifica OGNI valore di esami ematochimici. Range normali:\n'+
+              '   - Colesterolo totale: 120-200 mg/dL\n'+
+              '   - HDL: 40-60 mg/dL (M), 50-90 mg/dL (F)\n'+
+              '   - LDL: <100 mg/dL ottimale, >190 molto alto\n'+
+              '   - Trigliceridi: <150 mg/dL normale, >500 molto alto, >1000 rischio pancreatite\n'+
+              '   SEGNALA valori impossibili o assurdi (es. HDL 300, LDL 500, Trigliceridi 10000)\n\n'+
+              '2. CONTRADDIZIONI: Cerca incoerenze tra anamnesi, esame obiettivo e conclusioni\n\n'+
+              '3. LINEE GUIDA ESC: Verifica allineamento con raccomandazioni correnti per rischio CV, prevenzione, terapia\n\n'+
+              '4. ESAMI/TERAPIE MANCANTI: Identifica cosa andrebbe fatto secondo ESC ma non è presente\n\n'+
+              'SE TROVI PROBLEMI GRAVI (valori impossibili, contraddizioni importanti, piano inadeguato):\n'+
+              'Proponi una sezione completa "CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE" con:\n'+
+              '- Azioni immediate (oggi/entro 1 settimana/entro 1 mese)\n'+
+              '- Esami da richiedere con motivazione clinica\n'+
+              '- Terapie (classe farmaco, principio attivo, dose iniziale, controlli)\n'+
+              '- Follow-up e red flags\n\n'+
+              'FORMATO OUTPUT RICHIESTO:\n\n'+
+              'OSSERVAZIONI_CLINICHE_AI:\n'+
+              '1. [prima osservazione]\n'+
+              '2. [seconda osservazione]\n'+
+              '[continua numerando]\n'+
+              'Se non trovi problemi: "Nessuna discrepanza rilevata."\n\n'+
+              'CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE:\n'+
+              '[scrivi qui il testo completo SOLO se necessario proporre un piano alternativo]\n'+
+              '[se non necessario, lascia questa sezione vuota o scrivi "Non necessario"]\n\n'+
+              'REFERT_CORRETTO_DI_RIFERIMENTO:\n'+
               refertoCorretto
             );
           }
 
           function extractRefertoCorretto(text){
             if (!text) return '';
-            const re = /REFERT[_\s]*CORRETTO\s*:\s*/i;
+            // Rimuovi eventuali intestazioni tipo "REFERT_CORRETTO:" se presenti
+            const re = /REFERT[_\s]*CORRETTO\s*:?\s*/i;
             const m = text.match(re);
-            if (!m) return text.trim();
-            const body = text.slice(m.index + m[0].length);
-            const stop = body.search(/\n\s*(OSSERVAZIONI|NOTE|SEGNALAZIONI)[^\n]*\n/i);
-            return (stop >= 0 ? body.slice(0, stop) : body).trim();
+            if (m) {
+              // Se c'è l'intestazione, prendi il testo dopo
+              const body = text.slice(m.index + m[0].length);
+              const stop = body.search(/\n\s*(OSSERVAZIONI|NOTE|SEGNALAZIONI)[^\n]*\n/i);
+              return (stop >= 0 ? body.slice(0, stop) : body).trim();
+            }
+            // Altrimenti restituisci tutto il testo (l'AI ha risposto senza intestazione)
+            return text.trim();
           }
 
           function extractOsservazioni(text){
@@ -1635,7 +1647,10 @@ Trigliceridi: `;
             // Ferma alla prossima sezione se presente
             const stopRe = /REFERT[_\s]*CORRETTO/i;
             const stopMatch = body.search(stopRe);
-            return (stopMatch >= 0 ? body.slice(0, stopMatch) : body).trim();
+            const result = (stopMatch >= 0 ? body.slice(0, stopMatch) : body).trim();
+            // Se il risultato è "Non necessario" o simile, restituisci stringa vuota
+            if (/^(non\s+necessari[oa]|nessun[ao]|n\/a|\[.*\])$/i.test(result)) return '';
+            return result;
           }
 
           function runLocalConsistencyChecks(referto){
@@ -1730,11 +1745,20 @@ Trigliceridi: `;
               let data = await resp.json();
               const contentA = data?.choices?.[0]?.message?.content || '';
               if (!contentA) throw new Error('Risposta vuota dal Passaggio A.');
-              const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
+              console.log('=== DEBUG Pass A ===');
+              console.log('contentA RAW:', contentA.substring(0, 500));
+              const extracted = extractRefertoCorretto(contentA);
+              console.log('extracted:', extracted.substring(0, 500));
+              const refertoCorretto = sanitizeMarkdown(extracted);
+              console.log('refertoCorretto (final):', refertoCorretto.substring(0, 500));
               outItEl.value = refertoCorretto; autoResize(outItEl);
 
               // Passaggio B: revisione clinica ESC (gpt-5)
               const promptB = buildPromptPassB(refertoCorretto);
+              console.log('=== DEBUG Pass B ===');
+              console.log('Prompt lunghezza:', promptB.length);
+              console.log('Prompt inizio:', promptB.substring(0, 300));
+              console.log('Prompt fine (referto):', promptB.substring(promptB.length - 500));
               resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
                 headers: {
