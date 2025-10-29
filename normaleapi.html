@@ -1301,7 +1301,7 @@ Trigliceridi: `;
             outItEl.value = ''; outErrEl.value = '';
 
             try {
-              // Passaggio A: correzione linguistica (gpt-5-2025-08-07, temp 0.3)
+              // Passaggio A: correzione linguistica (gpt-5, temp 0.3)
               const promptA = buildPromptPassA(referto);
               let resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
@@ -1310,7 +1310,7 @@ Trigliceridi: `;
                   'Authorization': `Bearer ${key}`
                 },
                 body: JSON.stringify({
-                  model: 'gpt-5-2025-08-07',
+                  model: 'gpt-5',
                   temperature: 0.3,
                   max_completion_tokens: 3000,
                   presence_penalty: 0,
@@ -1329,7 +1329,7 @@ Trigliceridi: `;
               const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
               outItEl.value = refertoCorretto; autoResize(outItEl);
 
-              // Passaggio B: osservazioni cliniche (gpt-5-2025-08-07, temp 0.0 deterministica)
+              // Passaggio B: osservazioni cliniche (gpt-5, temp 0.0 deterministica)
               const promptB = buildPromptPassB(refertoCorretto);
               resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
@@ -1338,7 +1338,7 @@ Trigliceridi: `;
                   'Authorization': `Bearer ${key}`
                 },
                 body: JSON.stringify({
-                  model: 'gpt-5-2025-08-07',
+                  model: 'gpt-5',
                   temperature: 0.0,
                   max_completion_tokens: 2000,
                   presence_penalty: 0,
