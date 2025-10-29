@@ -1767,7 +1767,7 @@ Trigliceridi: `;
                 },
                 body: JSON.stringify({
                   model: 'gpt-5',
-                  max_completion_tokens: 2000,
+                  max_completion_tokens: 16000,  // GPT-5 needs high limit: uses tokens for internal reasoning + visible output
                   presence_penalty: 0,
                   frequency_penalty: 0,
                   messages: [{ role: 'user', content: promptB }]
