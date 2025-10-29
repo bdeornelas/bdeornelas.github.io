@@ -1561,51 +1561,45 @@ Trigliceridi: `;
           // Prompt doppio passaggio
           function buildPromptPassA(referto){
             return (
-              'Prompt Pass A\n'+
-              'Correzione linguistica e formattazione medica\n\n'+
-              'Sei un medico cardiologo esperto di refertazione clinica.\n'+
-              'Riceverai un referto di visita cardiologica da riscrivere in linguaggio medico professionale, mantenendo intatti dati, numeri e conclusioni.\n\n'+
-              'Esegui queste operazioni:\n\n'+
-              '- Correggi tutti gli errori ortografici e tipografici (per esempio LdDL diventa LDL e Triglicgferidi diventa Trigliceridi)\n'+
-              '- Standardizza le abbreviazioni e i nomi degli esami secondo nomenclatura medica corretta\n'+
-              '- Correggi unità di misura evidentemente errate (per esempio per i lipidi usa mg/dL)\n'+
-              '- Mantieni invariati tutti i valori numerici e il contenuto clinico\n'+
-              '- Migliora coerenza sintattica e stile professionale del referto\n'+
-              '- Non aggiungere dati non presenti\n'+
-              '- Non usare simboli o formattazioni speciali\n\n'+
-              'OUTPUT OBBLIGATORIO:\n'+
-              'REFERT_CORRETTO:\n'+
+              'Sei un medico cardiologo esperto di refertazione.\n'+
+              'Riscrivi il testo in linguaggio medico professionale e rendi uniformi le sezioni e i dati di laboratorio.\n'+
+              'Correggi ortografia, nomi degli esami, unità di misura e formattazione.\n'+
+              'Per i valori numerici di laboratorio:\n'+
+              '- se l\'unità è sbagliata (es. g invece di mg/dL) correggila mantenendo la coerenza della scala\n'+
+              '- se il valore è evidentemente impossibile (es. trigliceridi > 5000 mg/dL) mantienilo ma aggiungi tra parentesi "valore non plausibile"\n'+
+              'Mantieni la struttura delle intestazioni.\n'+
+              'Non aggiungere conclusioni nuove.\n\n'+
+              'OUTPUT OBBLIGATORIO\n'+
+              'REFERT_CORRETTO\n'+
+              '[referto riscritto professionalmente]\n\n'+
               referto
             );
           }
 
           function buildPromptPassB(refertoCorretto){
             return (
-              'Prompt Pass B\n'+
-              'Revisione clinica ESC con proposta conclusioni operative\n\n'+
-              'Sei un assistente clinico esperto di linee guida ESC aggiornate.\n'+
-              'Analizza il referto seguente che è già stato corretto linguisticamente.\n'+
-              'Collabora con il medico verificando coerenza clinica e traducendo le tue valutazioni in proposte operative chiare.\n\n'+
-              'Cosa valutare e come rispondere:\n\n'+
-              '- Plausibilità e unità di misura dei valori di laboratorio. Indica quando un valore è biologicamente inverosimile o fuori range e specifica un range di riferimento succinto\n'+
-              '- Contraddizioni interne tra anamnesi, esame obiettivo, diagnosi e conclusioni\n'+
-              '- Allineamento alle linee guida ESC per screening, terapia, prevenzione e follow-up (per esempio SCORE2, ipertensione, dislipidemie, prevenzione primaria e secondaria)\n'+
-              '- Esami mancanti indicati dal quadro clinico\n'+
-              '- Incongruenze terapeutiche su classi, farmaci, dosi, indicazioni o monitoraggi\n\n'+
-              'Se dissenti dalle conclusioni del referto oppure se i dati rendono necessario un piano diverso, devi proporre anche la tua versione di CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE pronta da copiare e incollare. La proposta deve essere:\n\n'+
-              '- Specifica e attuabile\n'+
-              '- Allineata alle linee guida ESC citando il razionale in forma breve\n'+
-              '- Strutturata per priorità temporale usando formule come "oggi in ambulatorio", "entro 1 settimana", "entro 1 mese" e con indicazione di follow-up e red flags\n'+
-              '- Con esami indicati con nome, motivo e timing\n'+
-              '- Con terapie suggerite indicando classe, principio attivo, dose iniziale, range di titolazione e controlli di sicurezza quando appropriato\n\n'+
-              'Non riscrivere l\'intero referto. Non introdurre formattazioni speciali.\n\n'+
-              'OUTPUT OBBLIGATORIO:\n'+
-              'OSSERVAZIONI_CLINICHE_AI:\n\n'+
-              '[una riga per ogni problema o discrepanza, numerata]\n\n'+
-              'Se non trovi problemi scrivi: Nessuna discrepanza rilevata.\n\n'+
-              'CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE:\n\n'+
-              '[solo se c\'è dissenso clinico o se servono integrazioni operative. Testo completo della sezione conclusioni e raccomandazioni terapeutiche da proporre. Includi esami con motivazione e timing. Includi terapie con classe, farmaco, dose iniziale e piano di monitoraggio. Includi follow-up]\n\n'+
-              'REFERT_CORRETTO_DI_RIFERIMENTO:\n'+
+              'Sei un assistente cardiologico AI esperto di linee guida ESC 2021-2024.\n'+
+              'Analizza il referto seguente (già corretto linguisticamente).\n'+
+              'Ragiona con il medico sul contenuto clinico: commenta le incongruenze e, se necessario, proponi una versione alternativa della sezione "CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE".\n\n'+
+              'Valuta:\n'+
+              '1. Plausibilità biologica dei valori di laboratorio e coerenza delle unità.\n'+
+              '2. Contraddizioni interne tra anamnesi, esame obiettivo e conclusioni.\n'+
+              '3. Allineamento con le linee guida ESC per rischio, prevenzione, terapia e follow up.\n'+
+              '4. Esami mancanti o terapie non indicate ma raccomandate dalle ESC.\n'+
+              '5. Appropriatezza del piano terapeutico proposto.\n\n'+
+              'Se dissenti dalle conclusioni, proponi una sezione sostitutiva completa di:\n'+
+              '- indicazioni operative specifiche con priorità temporale (oggi – entro 1 settimana – entro 1 mese)\n'+
+              '- esami consigliati con motivazione e timing\n'+
+              '- terapie con classe farmaco, principio attivo, dose iniziale e controlli di sicurezza\n'+
+              '- follow up e red flags cliniche\n\n'+
+              'OUTPUT OBBLIGATORIO\n'+
+              'OSSERVAZIONI_CLINICHE_AI\n'+
+              '1. [una riga per ogni anomalia numerata]\n'+
+              '2. Se non ci sono problemi scrivi Nessuna discrepanza rilevata\n\n'+
+              'CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE\n'+
+              '[solo se necessario: testo completo e pronto da copiare nel referto]\n\n'+
+              'REFERT_CORRETTO_DI_RIFERIMENTO\n'+
+              '[incolla qui il testo ricevuto dal Pass A]\n\n'+
               refertoCorretto
             );
           }
@@ -1723,8 +1717,9 @@ Trigliceridi: `;
                 },
                 body: JSON.stringify({
                   model: 'gpt-4o-mini',
-                  max_tokens: 3000,
-                  temperature: 0.3,
+                  max_completion_tokens: 3000,
+                  presence_penalty: 0,
+                  frequency_penalty: 0,
                   messages: [{ role: 'user', content: promptA }]
                 })
               });
@@ -1733,16 +1728,12 @@ Trigliceridi: `;
                 throw new Error(`HTTP ${resp.status}: ${t}`);
               }
               let data = await resp.json();
-              console.log('Passaggio A - Risposta completa:', data);
               const contentA = data?.choices?.[0]?.message?.content || '';
-              if (!contentA) {
-                console.error('Passaggio A - data.choices:', data?.choices);
-                throw new Error(`Risposta vuota dal Passaggio A. Dettagli: ${JSON.stringify(data)}`);
-              }
+              if (!contentA) throw new Error('Risposta vuota dal Passaggio A.');
               const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
               outItEl.value = refertoCorretto; autoResize(outItEl);
 
-              // Passaggio B: osservazioni cliniche (gpt-5, temp 0.0 deterministica)
+              // Passaggio B: revisione clinica ESC (gpt-5)
               const promptB = buildPromptPassB(refertoCorretto);
               resp = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
@@ -1755,7 +1746,6 @@ Trigliceridi: `;
                   max_completion_tokens: 2000,
                   presence_penalty: 0,
                   frequency_penalty: 0,
-                  top_p: 1.0,
                   messages: [{ role: 'user', content: promptB }]
                 })
               });
