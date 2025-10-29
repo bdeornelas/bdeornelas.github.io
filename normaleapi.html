@@ -423,7 +423,7 @@
 
         #ai-status { display: none; }
 
-        #ai-italiano, #ai-errori {
+        #ai-italiano, #ai-errori, #ai-conclusioni {
             width: 100%;
             min-height: 200px;
             resize: vertical;
@@ -1514,6 +1514,13 @@ Trigliceridi: `;
                     <button type="button" id="ai-copy-errori" class="btn">Copia</button>
                 </div>
             </div>
+            <div class="card" id="ai-conclusioni-card" style="padding:0; border:none; box-shadow:none; margin-top:18px; display:none;">
+                <h3 style="margin:0 0 6px 0; color: var(--accent-color);">✅ Proposta conclusioni e raccomandazioni terapeutiche</h3>
+                <textarea id="ai-conclusioni" readonly placeholder="Proposte operative compariranno qui quando necessario..."></textarea>
+                <div style="margin-top:8px; text-align:right;">
+                    <button type="button" id="ai-copy-conclusioni" class="btn">Copia</button>
+                </div>
+            </div>
         </div>
 
         
@@ -1526,6 +1533,8 @@ Trigliceridi: `;
           const statusEl = $('#ai-status');
           const outItEl = $('#ai-italiano');
           const outErrEl = $('#ai-errori');
+          const outConclEl = $('#ai-conclusioni');
+          const conclusioniCard = $('#ai-conclusioni-card');
 
           function autoResize(el){
             if (!el) return;
@@ -1552,11 +1561,18 @@ Trigliceridi: `;
           // Prompt doppio passaggio
           function buildPromptPassA(referto){
             return (
-              'Sei un medico cardiologo esperto di refertazione clinica e linee guida ESC.\n\n'+
-              'Il testo seguente è un referto di visita cardiologica.\n'+
-              'Riscrivilo in linguaggio medico professionale ("medichese"), rendendo il testo più scorrevole, coerente e clinicamente appropriato, ma senza modificare né aggiungere dati clinici, misurazioni o conclusioni.\n'+
-              'Mantieni invariata la struttura e le intestazioni (es. ANAMNESI, ESAME OBIETTIVO, CONCLUSIONI, TERAPIA, ecc.).\n'+
-              'Non inserire simboli, markdown o formattazioni speciali.\n\n'+
+              'Prompt Pass A\n'+
+              'Correzione linguistica e formattazione medica\n\n'+
+              'Sei un medico cardiologo esperto di refertazione clinica.\n'+
+              'Riceverai un referto di visita cardiologica da riscrivere in linguaggio medico professionale, mantenendo intatti dati, numeri e conclusioni.\n\n'+
+              'Esegui queste operazioni:\n\n'+
+              '- Correggi tutti gli errori ortografici e tipografici (per esempio LdDL diventa LDL e Triglicgferidi diventa Trigliceridi)\n'+
+              '- Standardizza le abbreviazioni e i nomi degli esami secondo nomenclatura medica corretta\n'+
+              '- Correggi unità di misura evidentemente errate (per esempio per i lipidi usa mg/dL)\n'+
+              '- Mantieni invariati tutti i valori numerici e il contenuto clinico\n'+
+              '- Migliora coerenza sintattica e stile professionale del referto\n'+
+              '- Non aggiungere dati non presenti\n'+
+              '- Non usare simboli o formattazioni speciali\n\n'+
               'OUTPUT OBBLIGATORIO:\n'+
               'REFERT_CORRETTO:\n'+
               referto
@@ -1565,20 +1581,30 @@ Trigliceridi: `;
 
           function buildPromptPassB(refertoCorretto){
             return (
-              'Sei un revisore clinico esperto di linee guida ESC in ambito cardiologico\n'+
-              '(SCORE2, PAO, ipertensione, dislipidemie, prevenzione, terapia).\n\n'+
-              'Analizza il referto cardiologico seguente (già corretto linguisticamente nel Pass A).\n'+
-              'Non riscrivere o modificare il testo: valuta solo il contenuto clinico.\n\n'+
-              'Individua e segnala eventuali:\n\n'+
-              'contraddizioni interne (tra anamnesi, esame obiettivo, diagnosi o conclusioni)\n\n'+
-              'discostamenti o errori rispetto alle linee guida ESC nelle diagnosi formulate\n\n'+
-              'esami mancanti o non proposti ma indicati dal quadro clinico\n\n'+
-              'incongruenze o omissioni nella terapia in atto o suggerita (farmaci, dosaggi, indicazioni)\n\n'+
-              'Usa solo testo semplice (plain text), senza simboli o formattazioni.\n\n'+
+              'Prompt Pass B\n'+
+              'Revisione clinica ESC con proposta conclusioni operative\n\n'+
+              'Sei un assistente clinico esperto di linee guida ESC aggiornate.\n'+
+              'Analizza il referto seguente che è già stato corretto linguisticamente.\n'+
+              'Collabora con il medico verificando coerenza clinica e traducendo le tue valutazioni in proposte operative chiare.\n\n'+
+              'Cosa valutare e come rispondere:\n\n'+
+              '- Plausibilità e unità di misura dei valori di laboratorio. Indica quando un valore è biologicamente inverosimile o fuori range e specifica un range di riferimento succinto\n'+
+              '- Contraddizioni interne tra anamnesi, esame obiettivo, diagnosi e conclusioni\n'+
+              '- Allineamento alle linee guida ESC per screening, terapia, prevenzione e follow-up (per esempio SCORE2, ipertensione, dislipidemie, prevenzione primaria e secondaria)\n'+
+              '- Esami mancanti indicati dal quadro clinico\n'+
+              '- Incongruenze terapeutiche su classi, farmaci, dosi, indicazioni o monitoraggi\n\n'+
+              'Se dissenti dalle conclusioni del referto oppure se i dati rendono necessario un piano diverso, devi proporre anche la tua versione di CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE pronta da copiare e incollare. La proposta deve essere:\n\n'+
+              '- Specifica e attuabile\n'+
+              '- Allineata alle linee guida ESC citando il razionale in forma breve\n'+
+              '- Strutturata per priorità temporale usando formule come "oggi in ambulatorio", "entro 1 settimana", "entro 1 mese" e con indicazione di follow-up e red flags\n'+
+              '- Con esami indicati con nome, motivo e timing\n'+
+              '- Con terapie suggerite indicando classe, principio attivo, dose iniziale, range di titolazione e controlli di sicurezza quando appropriato\n\n'+
+              'Non riscrivere l\'intero referto. Non introdurre formattazioni speciali.\n\n'+
               'OUTPUT OBBLIGATORIO:\n'+
               'OSSERVAZIONI_CLINICHE_AI:\n\n'+
-              '[una riga per ogni discrepanza o incongruenza rilevata]\n\n'+
-              'Se non trovi alcuna discrepanza, scrivi: Nessuna discrepanza rilevata.\n\n'+
+              '[una riga per ogni problema o discrepanza, numerata]\n\n'+
+              'Se non trovi problemi scrivi: Nessuna discrepanza rilevata.\n\n'+
+              'CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE:\n\n'+
+              '[solo se c\'è dissenso clinico o se servono integrazioni operative. Testo completo della sezione conclusioni e raccomandazioni terapeutiche da proporre. Includi esami con motivazione e timing. Includi terapie con classe, farmaco, dose iniziale e piano di monitoraggio. Includi follow-up]\n\n'+
               'REFERT_CORRETTO_DI_RIFERIMENTO:\n'+
               refertoCorretto
             );
@@ -1600,7 +1626,22 @@ Trigliceridi: `;
             const m = text.match(re);
             if (!m) return text.trim();
             const body = text.slice(m.index + m[0].length).trim();
-            return body;
+            // Ferma alla prossima sezione se presente
+            const stopRe = /(CONCLUSIONI_E_RACCOMANDAZIONI_PROPOSTE|REFERT[_\s]*CORRETTO)/i;
+            const stopMatch = body.search(stopRe);
+            return (stopMatch >= 0 ? body.slice(0, stopMatch) : body).trim();
+          }
+
+          function extractConclusioni(text){
+            if (!text) return '';
+            const re = /CONCLUSIONI[_\s]*E[_\s]*RACCOMANDAZIONI[_\s]*PROPOSTE\s*:\s*/i;
+            const m = text.match(re);
+            if (!m) return '';
+            const body = text.slice(m.index + m[0].length).trim();
+            // Ferma alla prossima sezione se presente
+            const stopRe = /REFERT[_\s]*CORRETTO/i;
+            const stopMatch = body.search(stopRe);
+            return (stopMatch >= 0 ? body.slice(0, stopMatch) : body).trim();
           }
 
           function runLocalConsistencyChecks(referto){
@@ -1730,6 +1771,18 @@ Trigliceridi: `;
               }
               if (!osservazioni) osservazioni = '- Nessuna discrepanza rilevata';
               outErrEl.value = osservazioni; autoResize(outErrEl);
+
+              // Estrai conclusioni proposte (se presenti)
+              const conclusioni = sanitizeMarkdown(extractConclusioni(data?.choices?.[0]?.message?.content || ''));
+              if (conclusioni) {
+                conclusioniCard.style.display = 'block';
+                outConclEl.value = conclusioni;
+                autoResize(outConclEl);
+              } else {
+                conclusioniCard.style.display = 'none';
+                outConclEl.value = '';
+              }
+
               setStatus('Analisi completata.', 'info');
             } catch (err) {
               console.error(err);
@@ -1756,6 +1809,9 @@ Trigliceridi: `;
           });
           $('#ai-copy-errori')?.addEventListener('click', ()=>{
             if (outErrEl.value) navigator.clipboard.writeText(outErrEl.value);
+          });
+          $('#ai-copy-conclusioni')?.addEventListener('click', ()=>{
+            if (outConclEl.value) navigator.clipboard.writeText(outConclEl.value);
           });
         })();
         </script>
