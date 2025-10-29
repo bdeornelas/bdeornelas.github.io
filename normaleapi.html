@@ -1735,8 +1735,12 @@ Trigliceridi: `;
                 throw new Error(`HTTP ${resp.status}: ${t}`);
               }
               let data = await resp.json();
+              console.log('Passaggio A - Risposta completa:', data);
               const contentA = data?.choices?.[0]?.message?.content || '';
-              if (!contentA) throw new Error('Risposta vuota dal Passaggio A.');
+              if (!contentA) {
+                console.error('Passaggio A - data.choices:', data?.choices);
+                throw new Error(`Risposta vuota dal Passaggio A. Dettagli: ${JSON.stringify(data)}`);
+              }
               const refertoCorretto = sanitizeMarkdown(extractRefertoCorretto(contentA));
               outItEl.value = refertoCorretto; autoResize(outItEl);
 
