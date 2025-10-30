@@ -4,7 +4,7 @@
 **Totale articoli:** 44  
 **Data inizio:** 30 ottobre 2025
 
-## 📊 **PROGRESSO ATTUALE: 5/44 ARTICOLI (11%)**
+## 📊 **PROGRESSO ATTUALE: 12/44 ARTICOLI (27%)**
 
 ---
 
@@ -13,20 +13,20 @@
 - [x] **Angina Pectoris** → 2 settembre 2025  
 - [x] **Anticoagulanti (DOAC vs Warfarin)** → 3 settembre 2025
 
-### 🔄 **FASE 2: ARTICOLI A-C (CONTINUAZIONE) - IN CORSO**
+### 🔄 **FASE 2: ARTICOLI A-C (CONTINUAZIONE) - COMPLETATA**
 - [x] **Apnee del Sonno e Cuore** → 4 settembre 2025
 - [x] **Arteriopatia Periferica** → 5 settembre 2025
-- [ ] **Attività Fisica e Cuore** → 6 settembre 2025
+- [x] **Attività Fisica e Cuore** → 6 settembre 2025
 
-### 📅 **FASE 3: ARTICOLI B-C (SETTEMBRE 6-12)**
-- [ ] **Bradicardie e Blocchi AV** → 7 settembre 2025
-- [ ] **Cardiomiopatia Dilatativa** → 8 settembre 2025
-- [ ] **Cardiomiopatia Ipertrofica** → 9 settembre 2025
-- [ ] **Colesterolo Alto** → 10 settembre 2025
-- [ ] **Dieta Mediterranea e Colesterolo** → 11 settembre 2025
-- [ ] **Ecocardiogramma - Importanza** → 12 settembre 2025
+### 📅 **FASE 3: ARTICOLI B-C (SETTEMBRE 7-12) - COMPLETATA**
+- [x] **Bradicardie e Blocchi AV** → 7 settembre 2025
+- [x] **Cardiomiopatia Dilatativa** → 8 settembre 2025
+- [x] **Cardiomiopatia Ipertrofica** → 9 settembre 2025
+- [x] **Colesterolo Alto** → 10 settembre 2025
+- [x] **Dieta Mediterranea e Colesterolo** → 11 settembre 2025
+- [x] **Ecocardiogramma - Importanza** → 12 settembre 2025
 
-### 📅 **FASE 4: ARTICOLI E-L (SETTEMBRE 12-24)**
+### 📅 **FASE 4: ARTICOLI E-L (SETTEMBRE 13-24) - IN CORSO**
 - [ ] **Embolia Polmonare/TVP** → 13 settembre 2025
 - [ ] **Endocardite Infettiva** → 14 settembre 2025
 - [ ] **Extrasistoli** → 15 settembre 2025
