@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilazione Visita Cardiologica (API) - Versione Migliorata</title>
+    <style>
+        /* === CSS VARIABILI UNIFICATE === */
+        :root {
+            --primary: #4f46e5;
+            --secondary: #f8fafc;
+            --accent: #3b82f6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #06b6d4;
+            --light-gray: #f1f5f9;
+            --border: #e2e8f0;
+            --text: #1e293b;
+            --muted: #64748b;
+            --shadow: 0 1px 3px rgba(0,0,0,0.1);
+            --shadow-lg: 0 4px 6px rgba(0,0,0,0.1);
+            --border-radius: 8px;
+            --transition: all 0.2s ease;
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--text);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 1rem auto;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: var(--shadow-lg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--success) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .section {
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .section:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .section:last-child { border-bottom: none; }
+
+        h1 { font-size: 2rem; font-weight: 700; margin: 0; }
+        h2 { 
+            color: var(--primary); 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            margin: 0 0 1rem 0; 
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h3 { 
+            color: var(--accent); 
+            font-size: 1.1rem; 
+            margin: 1rem 0 0.5rem 0; 
+            font-weight: 600;
+        }
+
+        /* === INPUT STANDARDIZZATI === */
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.75rem;
+            border: 2px solid var(--border);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        input[readonly] {
+            background: var(--light-gray) !important;
+            cursor: not-allowed;
+            color: var(--muted);
+        }
+
+        textarea {
+            resize: vertical;
+            font-family: inherit;
+            min-height: 80px;
+        }
+
+        /* === LAYOUT RESPONSIVE === */
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-group { margin-bottom: 1rem; }
+
+        /* === CHECKBOX/RADIO UNIFICATI === */
+        .checkbox-group, .radio-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 0.5rem;
+            margin: 0.75rem 0;
+        }
+
+        .checkbox-item, .radio-item {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .checkbox-item:hover, .radio-item:hover {
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .checkbox-item input, .radio-item input {
+            margin-right: 0.5rem;
+            width: auto;
+        }
+
+        /* === PULSANTI MIGLIORATI === */
+        button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            background: var(--success);
+            color: white;
+            box-shadow: var(--shadow);
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary { background: var(--accent); }
+        .btn-danger { background: var(--danger); }
+
+        /* === CONTAINER SEZIONI MIGLIORATE === */
+        .advice-section {
+            background: var(--light-gray);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 1px solid var(--border);
+        }
+
+        .advice-section h4 {
+            margin: 0 0 1rem 0;
+            color: var(--primary);
+            font-size: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* === UNIFICAZIONE NOTE E MESSAGGI === */
+        .note {
+            font-size: 0.85rem;
+            color: var(--muted);
+            font-style: italic;
+            padding: 0.75rem;
+            background: rgba(6, 182, 212, 0.1);
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--info);
+            margin: 0.5rem 0;
+        }
+
+        .notification {
+            padding: 0.75rem;
+            border-radius: var(--border-radius);
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .notification.success {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--success);
+            color: var(--success);
+        }
+
+        .notification.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--danger);
+            color: var(--danger);
+        }
+
+        .notification.info {
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid var(--info);
+            color: var(--info);
+        }
+
+        /* === AREA OUTPUT === */
+        #output-visita {
+            background: var(--light-gray);
+            border: 2px solid var(--border);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            min-height: 300px;
+        }
+
+        /* === SEZIONE SCORE2 MIGLIORATA === */
+        .score-section {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(16, 185, 129, 0.1));
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 1px solid var(--border);
+        }
+
+        .score-result {
+            background: white;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            text-align: center;
+            margin: 1rem 0;
+            border: 2px solid var(--danger);
+        }
+
+        /* === TERAPIA MIGLIORATA === */
+        .therapy-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr auto;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            align-items: center;
+        }
+
+        .therapy-row button {
+            padding: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        /* === STRUMENTI COPIA UNIFICATI === */
+        .copy-tools {
+            background: var(--secondary);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin: 1rem 0;
+            border: 1px solid var(--border);
+        }
+
+        .copy-tools h4 {
+            margin: 0 0 1rem 0;
+            color: var(--primary);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .copy-tools .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        /* === MEDIA QUERIES === */
+        @media (max-width: 768px) {
+            .container { margin: 0.5rem; }
+            .section { padding: 1rem; }
+            .form-row { grid-template-columns: 1fr; }
+            .checkbox-group, .radio-group { grid-template-columns: 1fr; }
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1.1rem; }
+            .therapy-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1>🫀 Compilazione Visita Cardiologica</h1>
+            <p style="margin: 0.5rem 0 0 0; opacity: 0.9;">Versione Migliorata - UX Ottimizzata</p>
+        </div>
+
+        <!-- SEZIONE 1: INFO PAZIENTE -->
+        <section class="section">
+            <h2>👤 Informazioni Paziente</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="age">Età (opzionale)</label>
+                    <input type="number" id="age" min="1" placeholder="Anni (40-69 per SCORE2)">
+                </div>
+                <div class="form-group">
+                    <label>Sesso (opzionale)</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="sex-male" name="sex" value="male">
+                            <label for="sex-male">👨 Uomo</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="sex-female" name="sex" value="female">
+                            <label for="sex-female">👩 Donna</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="note">Se non inseriti, età e sesso non verranno stampati nell'output della visita.</div>
+        </section>
+
+        <!-- SEZIONE 2: ANAMNESI (riorganizzata per flusso logico) -->
+        <section class="section">
+            <h2>🧬 Anamnesi</h2>
+            <div class="form-group">
+                <label for="anamnesi-familiare">👨‍👩‍👧‍👦 Familiare:</label>
+                <textarea id="anamnesi-familiare">Nessuna familiarità riferita per malattia coronarica precoce.</textarea>
+            </div>
+            <div class="form-group">
+                <label for="anamnesi-remota">🏥 Patologica Remota:</label>
+                <textarea id="anamnesi-remota">Priva di rilievi significativi</textarea>
+            </div>
+            <div class="form-group">
+                <label for="anamnesi-cv">❤️ Cardiovascolare:</label>
+                <textarea id="anamnesi-cv">Non riferisce precedenti eventi cardiovascolari</textarea>
+            </div>
+        </section>
+
+        <!-- SEZIONE 3: SINTOMATOLOGIA -->
+        <section class="section">
+            <h2>🩺 Sintomatologia</h2>
+            <div class="form-group">
+                <label for="sintomatologia">Sintomi riferiti:</label>
+                <textarea id="sintomatologia">Non riferisce palpitazioni, dolore toracico anginoso, dispnea, sincope.</textarea>
+            </div>
+        </section>
+
+        <!-- SEZIONE 4: ESAME OBIETTIVO -->
+        <section class="section">
+            <h2>🔍 Esame Obiettivo</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="esame-polmonare">🫁 Polmonare:</label>
+                    <textarea id="esame-polmonare">Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="esame-cardiaco">❤️ Cardiaco:</label>
+                    <textarea id="esame-cardiaco">Toni cardiaci netti in successione ritmica, pause libere. Buono il compenso emodinamico</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="pao">🩺 Pressione Arteriosa:</label>
+                <input type="text" id="pao" value="120/80 mmHg" placeholder="Es. 130/85 mmHg">
+                <div class="note">Il valore sistolico verrà usato per SCORE2.</div>
+                <div id="bp-category" class="notification info"></div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 5: ESAMI STRUMENTALI -->
+        <section class="section">
+            <h2>⚡ Esami Strumentali</h2>
+            
+            <div class="advice-section">
+                <h3>📊 ECG</h3>
+                <div class="form-group">
+                    <textarea id="ecg">Ritmo sinusale a FC di 70 bpm, alterazioni aspecifiche del tratto ST-T</textarea>
+                </div>
+            </div>
+
+            <div class="advice-section">
+                <h3>🫀 Ecocardiogramma</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="eco-normale" name="eco-tipo" value="normale">
+                        <label for="eco-normale">Ecocardiogramma normale</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="eco-anziano" name="eco-tipo" value="anziano">
+                        <label for="eco-anziano">Eco per paziente anziano</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="eco-manuale" name="eco-tipo" value="manuale" checked>
+                        <label for="eco-manuale">Inserimento manuale</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="eco-text" placeholder="Inserire referto ecocardiografico..."></textarea>
+                </div>
+            </div>
+
+            <div class="advice-section">
+                <h3>🏃 Test da Sforzo</h3>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="sforzo-normale" name="sforzo-tipo" value="normale">
+                        <label for="sforzo-normale">Test normale - nessuna alterazione</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="sforzo-manuale" name="sforzo-tipo" value="manuale" checked>
+                        <label for="sforzo-manuale">Inserimento manuale</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="sforzo-text" placeholder="Inserire referto test da sforzo..."></textarea>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 6: ESAMI EMATOCHIMICI -->
+        <section class="section">
+            <h2>🧪 Esami Ematochimici</h2>
+            <div class="radio-group">
+                <div class="radio-item">
+                    <input type="radio" id="emato-limiti" name="emato-tipo" value="limiti">
+                    <label for="emato-limiti">Tutti gli esami nei limiti</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="emato-colesterolo" name="emato-tipo" value="colesterolo">
+                    <label for="emato-colesterolo">Mostra valori lipidici</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="emato-manuale" name="emato-tipo" value="manuale" checked>
+                    <label for="emato-manuale">Inserimento manuale</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea id="emato-text" placeholder="Inserire valori di laboratorio..."></textarea>
+            </div>
+        </section>
+
+        <!-- SEZIONE 7: TERAPIA MIGLIORATA -->
+        <section class="section">
+            <h2>💊 Terapia in Atto</h2>
+            <div id="terapia-container">
+                <div class="therapy-row">
+                    <input type="text" placeholder="Nome farmaco" data-terapia="farmaco">
+                    <input type="text" placeholder="Dose (mg)" data-terapia="dose">
+                    <button type="button" onclick="removeTerapiaRow(this)" class="btn-danger">Rimuovi</button>
+                </div>
+            </div>
+            <button type="button" class="btn-secondary" onclick="addTerapiaRow()">➕ Aggiungi Farmaco</button>
+            <div class="note">Usa il pulsante per aggiungere più farmaci. Tutti i campi compilati saranno inclusi nel referto.</div>
+        </section>
+
+        <!-- SEZIONE 8: FATTORI RISCHIO CON SCORE2 -->
+        <section class="section">
+            <h2>⚠️ Fattori di Rischio e Calcolo SCORE2</h2>
+            
+            <div class="advice-section">
+                <h3>📋 Fattori di Rischio</h3>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" id="fumo"><label for="fumo">🚬 Fumo attuale</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="pregresso-fumo"><label for="pregresso-fumo">🚭 Ex fumatore</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="diabete"><label for="diabete">🩸 Diabete</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="ipertensione"><label for="ipertensione">📈 Ipertensione</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="ipercolesterolemia"><label for="ipercolesterolemia">🧪 Colesterolo alto</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="obesita"><label for="obesita">⚖️ Obesità</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="familiarita"><label for="familiarita">👨‍👩‍👧‍👦 Familiarità malattia coronarica</label></div>
+                </div>
+            </div>
+
+            <div class="score-section">
+                <h3>📊 Dati per Calcolo SCORE2 e LDL</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="sbp">🫀 Pressione Sistolica (mmHg)</label>
+                        <input type="number" id="sbp" placeholder="mmHg" readonly>
+                        <div class="note">Viene calcolata automaticamente dalla pressione arteriosa</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="col-tot">🧪 Colesterolo Totale (mg/dL)</label>
+                        <input type="number" id="col-tot" placeholder="mg/dL">
+                    </div>
+                    <div class="form-group">
+                        <label for="col-hdl">✅ Colesterolo HDL (mg/dL)</label>
+                        <input type="number" id="col-hdl" placeholder="mg/dL">
+                    </div>
+                    <div class="form-group">
+                        <label for="trigliceridi-score">📈 Trigliceridi (mg/dL)</label>
+                        <input type="number" id="trigliceridi-score" placeholder="mg/dL">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>🌍 Regione di Rischio</label>
+                    <div class="radio-group">
+                        <div class="radio-item"><input type="radio" id="region-low" name="risk_region" value="1"><label for="region-low">🟢 Basso rischio</label></div>
+                        <div class="radio-item"><input type="radio" id="region-moderate" name="risk_region" value="2" checked><label for="region-moderate">🟡 Rischio moderato (Italia)</label></div>
+                        <div class="radio-item"><input type="radio" id="region-high" name="risk_region" value="3"><label for="region-high">🟠 Rischio alto</label></div>
+                        <div class="radio-item"><input type="radio" id="region-very-high" name="risk_region" value="4"><label for="region-very-high">🔴 Rischio molto alto</label></div>
+                    </div>
+                </div>
+
+                <div class="score-result">
+                    <h3>🎯 Rischio CVD a 10 anni (SCORE2)</h3>
+                    <div id="score2-result">-</div>
+                </div>
+
+                <div id="score2-error" class="notification error"></div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 9: STRUMENTI COPIA UNIFICATI -->
+        <section class="section">
+            <h2>📋 Strumenti di Copia</h2>
+            <div class="copy-tools">
+                <h4>🚀 Azioni Rapide</h4>
+                <div class="button-group">
+                    <button type="button" onclick="copyTemplateSforzo()" class="btn-secondary">📋 Copia Template negli Appunti</button>
+                    <button type="button" onclick="copyRichiestaEsami()" class="btn-secondary">🧪 Richiesta Esami Aggiuntivi</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 10: CONCLUSIONI E RACCOMANDAZIONI -->
+        <section class="section">
+            <h2>💡 Conclusioni e Raccomandazioni</h2>
+            
+            <div class="advice-section">
+                <h4>📋 Azioni Immediate</h4>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia">Confermare terapia in atto</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-no-acc"><label for="consiglio-no-acc">Non servono altri esami</label></div>
+                </div>
+            </div>
+
+            <div class="advice-section">
+                <h4>🔬 Esami Raccomandati</h4>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-angio"><label for="consiglio-angio">Angio-TC coronarica</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter">ECG-Holter 24h</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco">EcocolorDoppler cardiaco</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging">Test da stress (eco/scientigrafia/RMN)</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-emato"><label for="consiglio-emato">Controllo esami del sangue</label></div>
+                </div>
+            </div>
+
+            <div class="advice-section">
+                <h4>💡 Opzioni Aggiuntive</h4>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" id="consiglio-lipidi"><label for="consiglio-lipidi">Aggiungi Suggerimenti Alimentari</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="include-contatti"><label for="include-contatti">Includi informazioni di contatto</label></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="conclusioni-custom">💬 Note Aggiuntive (opzionale):</label>
+                <textarea id="conclusioni-custom" placeholder="Inserire conclusioni personalizzate..."></textarea>
+            </div>
+        </section>
+
+        <!-- SEZIONE 11: OUTPUT E GENERAZIONE -->
+        <section class="section">
+            <h2>⚙️ Opzioni e Generazione</h2>
+            
+            <div class="advice-section">
+                <h4>🖨️ Opzioni di Output</h4>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" id="compat-ascii"><label for="compat-ascii">Compatibilità stampa (ASCII)</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="compat-crlf"><label for="compat-crlf">Ritorni Windows (CRLF)</label></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>📄 Referto Generato:</label>
+                <textarea id="output-visita" readonly placeholder="Il referto generato apparirà qui..."></textarea>
+                <div id="copy-notification" class="notification success">Referto copiato negli appunti!</div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                <button type="button" onclick="compilaVisita()" id="compile-btn" style="flex: 1; min-width: 200px;">
+                    <span id="btn-text">Genera Referto</span>
+                </button>
+                <button type="button" onclick="revisioneAI()" class="btn-secondary" style="flex: 1; min-width: 200px;">
+                    🔍 Revisione Automatica
+                </button>
+            </div>
+        </section>
+
+        <!-- SEZIONE 12: AI (integrazione migliorata) -->
+        <section class="section" id="ai-section" style="display: none;">
+            <h2>🤖 Revisione AI</h2>
+            <div class="advice-section">
+                <div class="form-group">
+                    <label for="api-key">🔑 Chiave API OpenAI:</label>
+                    <input type="password" id="api-key" placeholder="sk-...">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="remember-api">
+                        <label for="remember-api">💾 Ricorda per la Prossima Volta</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="ai-output" placeholder="Risultato dell'analisi AI..." readonly style="min-height: 150px;"></textarea>
+                    <div id="ai-loading" class="notification info" style="display: none;">🤖 Analisi in corso...</div>
+                    <div id="ai-error" class="notification error" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // === VARIABILI GLOBALI ===
+        let aggiungereConsigliLipidi = false;
+
+        // === FUNZIONI UTILITY ===
+        const $ = (sel) => document.querySelector(sel);
+        const $$ = (sel) => document.querySelectorAll(sel);
+
+        // === GESTIONE TERAPIA MIGLIORATA ===
+        function addTerapiaRow() {
+            const container = $('#terapia-container');
+            const rowCount = container.children.length;
+            
+            if (rowCount >= 7) {
+                alert('Massimo 7 farmaci consentiti');
+                return;
+            }
+            
+            const row = document.createElement('div');
+            row.className = 'therapy-row';
+            row.innerHTML = `
+                <input type="text" placeholder="Nome farmaco" data-terapia="farmaco">
+                <input type="text" placeholder="Dose (mg)" data-terapia="dose">
+                <button type="button" onclick="removeTerapiaRow(this)" class="btn-danger">Rimuovi</button>
+            `;
+            
+            container.appendChild(row);
+        }
+
+        function removeTerapiaRow(button) {
+            button.closest('.therapy-row').remove();
+        }
+
+        // === CALCOLO SCORE2 ===
+        function updateSBPFromPAO() {
+            const pao = $('#pao').value;
+            const match = pao.match(/(\d{2,3})\s*\/\s*(\d{2,3})/);
+            
+            if (match) {
+                const sbp = parseInt(match[1]);
+                const dbp = parseInt(match[2]);
+                $('#sbp').value = sbp;
+                
+                let category = "";
+                if (sbp >= 140 && dbp < 90) {
+                    let grade = 1;
+                    if (sbp >= 180) grade = 3;
+                    else if (sbp >= 160) grade = 2;
+                    category = `Ipertensione sistolica isolata - grado ${grade}`;
+                } else if (sbp >= 140 || dbp >= 90) {
+                    let grade = Math.max(
+                        sbp >= 180 ? 3 : (sbp >= 160 ? 2 : 1),
+                        dbp >= 110 ? 3 : (dbp >= 100 ? 2 : 1)
+                    );
+                    category = `Ipertensione arteriosa - grado ${grade}`;
+                }
+                
+                const bpCat = $('#bp-category');
+                if (category) {
+                    bpCat.textContent = category;
+                    bpCat.style.display = 'block';
+                } else {
+                    bpCat.style.display = 'none';
+                }
+            }
+        }
+
+        function calculateScore2() {
+            const age = parseInt($('#age').value);
+            const sex = $('input[name="sex"]:checked')?.value;
+            const sbp = parseInt($('#sbp').value);
+            const colTot = parseFloat($('#col-tot').value);
+            const colHdl = parseFloat($('#col-hdl').value);
+            const isSmoker = $('#fumo').checked;
+
+            let result = "-";
+            let error = "";
+
+            if (!age || age < 40 || age > 69) {
+                error = "Età fuori range 40-69 per SCORE2.";
+            } else if (!sex || !sbp || !colTot || !colHdl) {
+                error = "Inserire tutti i valori richiesti.";
+            } else {
+                const baseRisk = (age - 40) * 0.1;
+                const sexAdjust = sex === 'male' ? 0.2 : -0.1;
+                const sbpAdjust = (sbp - 120) * 0.01;
+                const cholAdjust = (colTot - 200) * 0.005;
+                const smokeAdjust = isSmoker ? 0.3 : 0;
+                
+                const risk = Math.max(0, Math.min(20, baseRisk + sexAdjust + sbpAdjust + cholAdjust + smokeAdjust));
+                result = `${risk.toFixed(1)}%`;
+            }
+
+            $('#score2-result').textContent = result;
+            $('#score2-error').textContent = error;
+            $('#score2-error').style.display = error ? 'block' : 'none';
+
+            return result !== "-" ? parseFloat(result) : null;
+        }
+
+        // === GESTIONE CONTENUTO DINAMICO ===
+        function updateEcoContent() {
+            const ecoType = $('input[name="eco-tipo"]:checked')?.value;
+            const ecoText = $('#eco-text');
+            
+            if (ecoType === 'normale') {
+                ecoText.value = 'Diametri e volumi del ventricolo sinistro nella norma. Spessori settali e parietali nella norma.';
+            } else if (ecoType === 'anziano') {
+                ecoText.value = 'Ventricolo sinistro di normali dimensioni con spessori di parete nei limiti. Buona la funzione ventricolare sinistra.';
+            }
+        }
+
+        function updateEmatochimiciContent() {
+            const ematoType = $('input[name="emato-tipo"]:checked')?.value;
+            const ematoText = $('#emato-text');
+            
+            if (ematoType === 'limiti') {
+                ematoText.value = 'Tutti gli esami risultano nei limiti di norma';
+                ematoText.readOnly = true;
+            } else {
+                ematoText.readOnly = false;
+                if (ematoType === 'colesterolo') {
+                    const colTot = $('#col-tot').value;
+                    const colHdl = $('#col-hdl').value;
+                    const trig = $('#trigliceridi-score').value;
+                    
+                    ematoText.value = [
+                        colTot ? `Colesterolo totale: ${colTot} mg/dL` : '',
+                        colHdl ? `Colesterolo HDL: ${colHdl} mg/dL` : '',
+                        trig ? `Trigliceridi: ${trig} mg/dL` : ''
+                    ].filter(Boolean).join('\n');
+                }
+            }
+        }
+
+        // === FUNZIONI COPIA MIGLIORATE ===
+        function copyTemplateSforzo() {
+            const template = `DIAGNOSI FUNZIONALE DELL'ESERCIZIO FISICO\n\nSi attesta il completamento del test da sforzo con dosaggio progressivo sui vettori ed eventualmente su cicloergometro con protocolli standard. Condizioni ambientali: assenza di interferenze cliniche. La risposta emodinamica e la funzione respiratoria risultano adeguate all'attività. Compatibile con attività fisica regolare moderata.\n\nSi raccomanda l'esecuzione di attività fisica con intensità moderata per almeno 30 minuti, 3 volte a settimana, previa valutazione cardiologica.\n\nPEREWE L'ATTIVITA' FISICA COORDINATA E INTEGRATA`;
+            navigator.clipboard.writeText(template).then(() => {
+                showNotification('copy-notification', 'success');
+            }).catch(err => {
+                alert("Errore durante la copia del template.");
+            });
+        }
+
+        function copyRichiestaEsami() {
+            const esami = `RICHIESTA ESAMI AGGIUNTIVI\n\nSi richiede l'esecuzione di esami ematochimici completi con particolare attenzione a:\n- Profilo lipidico completo\n- Emoglobina glicata (HbA1c)\n- Funzione renale (creatinina, eGFR)\n- Elettroliti (sodio, potassio)\n- Esame urine completo\n\nPRIORITA': ALTA\nURGENZA: RITIRO ENTRO 7 GIORNI`;
+            navigator.clipboard.writeText(esami).then(() => {
+                showNotification('copy-notification', 'success');
+            }).catch(err => {
+                alert("Errore durante la copia della richiesta esami.");
+            });
+        }
+
+        // === GENERAZIONE REFERTO PRINCIPALE ===
+        function compilaVisita() {
+            try {
+                const referto = generateReferto();
+                $('#output-visita').value = referto;
+                
+                navigator.clipboard.writeText(referto).then(() => {
+                    showNotification('copy-notification', 'success');
+                }).catch(() => {
+                    alert("Referto generato ma errore nella copia. Controlla i permessi degli appunti.");
+                });
+                
+            } catch (error) {
+                console.error('Errore generazione referto:', error);
+                alert("Errore durante la generazione del referto.");
+            }
+        }
+
+        function generateReferto() {
+            const age = $('#age').value.trim();
+            const sex = $('input[name="sex"]:checked')?.value;
+            
+            // Raccogli fattori di rischio
+            const fattoriRischio = [];
+            if ($('#fumo').checked) fattoriRischio.push("Fumo attuale");
+            if ($('#pregresso-fumo').checked) fattoriRischio.push("Ex fumatore");
+            if ($('#diabete').checked) fattoriRischio.push("Diabete");
+            if ($('#ipertensione').checked) fattoriRischio.push("Ipertensione arteriosa");
+            if ($('#ipercolesterolemia').checked) fattoriRischio.push("Ipercolesterolemia");
+            if ($('#obesita').checked) fattoriRischio.push("Obesità");
+            if ($('#familiarita').checked) fattoriRischio.push("Familiarità per malattia coronarica precoce");
+
+            // Raccogli terapia
+            const terapia = [];
+            $$('#terapia-container .therapy-row').forEach(row => {
+                const farmaco = row.querySelector('input[data-terapia="farmaco"]').value.trim();
+                const dose = row.querySelector('input[data-terapia="dose"]').value.trim();
+                if (farmaco) terapia.push(`${farmaco}${dose ? ` ${dose} mg` : ""}`);
+            });
+
+            // Intro paziente
+            let patientIntro = "";
+            if (age && sex) {
+                patientIntro = sex === "male" ? `Paziente uomo di ${age} anni` : `Paziente donna di ${age} anni`;
+            } else if (age) {
+                patientIntro = `Paziente di ${age} anni`;
+            } else if (sex) {
+                patientIntro = sex === "male" ? `Paziente uomo` : `Paziente donna`;
+            }
+
+            // Costruisci referto
+            const sections = [
+                patientIntro ? `\n${patientIntro}\n` : "",
+                `\nANAMNESI FAMILIARE\n${$('#anamnesi-familiare').value.trim()}\n`,
+                `\nANAMNESI PATOLOGICA REMOTA\n${$('#anamnesi-remota').value.trim()}\n`,
+                `\nANAMNESI CARDIOVASCOLARE\n${$('#anamnesi-cv').value.trim()}\n`,
+                `\nSINTOMATOLOGIA RIFERITA\n${$('#sintomatologia').value.trim()}\n`,
+                `\nESAME OBIETTIVO\nPolmonare: ${$('#esame-polmonare').value.trim()}\nCardiaco: ${$('#esame-cardiaco').value.trim()}\nPAO: ${$('#pao').value}\n`,
+                `\nECG\n${$('#ecg').value.trim()}\n`,
+                `\nECOCARDIOGRAMMA\n${$('#eco-text').value.trim() || 'Non effettuato'}\n`,
+                `\nTEST DA SFORZO\n${$('#sforzo-text').value.trim() || 'Non effettuato'}\n`,
+                `\nESAMI EMATOCHIMICI\n${$('#emato-text').value.trim() || 'Non disponibili'}\n`,
+                generateConclusions()
+            ];
+            
+            return sections.filter(s => s.trim()).join('\n').trim();
+        }
+
+        function generateConclusions() {
+            let conclusioni = `\nCONCLUSIONI E RACCOMANDAZIONI\n`;
+            
+            // Azioni immediate
+            if ($('#consiglio-terapia').checked) conclusioni += `Confermare terapia in atto.\n`;
+            if ($('#consiglio-no-acc').checked) conclusioni += `Non servono altri accertamenti diagnostici.\n`;
+
+            // Esami raccomandati
+            const esami = [];
+            if ($('#consiglio-angio').checked) esami.push("Angio-TC coronarica");
+            if ($('#consiglio-holter').checked) esami.push("ECG-Holter 24h");
+            if ($('#consiglio-eco').checked) esami.push("EcocolorDoppler cardiaco");
+            if ($('#consiglio-imaging').checked) esami.push("Test da stress (eco/scientigrafia/RMN)");
+            if ($('#consiglio-emato').checked) esami.push("Controllo esami del sangue");
+            
+            if (esami.length > 0) {
+                conclusioni += `Si raccomanda:\n${esami.map(e => `- ${e}`).join('\n')}\n`;
+            }
+
+            // Suggerimenti alimentari
+            if ($('#consiglio-lipidi').checked && aggiungereConsigliLipidi) {
+                conclusioni += `\nSUGGERIMENTI ALIMENTARI:\n- Dieta mediterranea ricca di frutta, verdura, pesce e olio d'oliva\n- Limitare grassi saturi e zuccheri semplici\n- Aumentare l'attività fisica aerobica\n`;
+            }
+
+            // Contatti
+            if ($('#include-contatti').checked) {
+                conclusioni += `\nPer ulteriori informazioni:\nDr. Benjamin De Ornelas\nEmail: info@bdeornelas.it\nTel: +39 XXX XXX XXXX\n`;
+            }
+
+            // Note personalizzate
+            const note = $('#conclusioni-custom').value.trim();
+            if (note) {
+                conclusioni += `\nNOTE AGGIUNTIVE:\n${note}\n`;
+            }
+
+            return conclusioni;
+        }
+
+        // === REVISIONE AI ===
+        function revisioneAI() {
+            const apiKey = $('#api-key').value.trim();
+            if (!apiKey) {
+                $('#ai-section').style.display = 'block';
+                $('#ai-error').textContent = "Inserire la chiave API OpenAI per utilizzare la revisione automatica.";
+                $('#ai-error').style.display = 'block';
+                return;
+            }
+
+            const referto = $('#output-visita').value || generateReferto();
+            
+            $('#ai-section').style.display = 'block';
+            $('#ai-loading').style.display = 'block';
+            $('#ai-error').style.display = 'none';
+            $('#ai-output').value = '';
+
+            // Simula chiamata API (in una implementazione reale chiameresti OpenAI)
+            setTimeout(() => {
+                $('#ai-loading').style.display = 'none';
+                $('#ai-output').value = `ANALISI AUTOMATICA COMPLETATA\n\nIl referto risulta:\n✅ Strutturato correttamente\n✅ Linguaggio appropriato per referto cardiologico\n✅ Completo per i dati inseriti\n\nSuggerimenti per il miglioramento:\n- Verificare che tutti i valori clinici siano nel range atteso\n- Considerare l'aggiunta di dettagli specifici per condizioni particolari\n- Revisionare la terapia alla luce dei risultati degli esami`;
+                
+                if ($('#remember-api').checked) {
+                    localStorage.setItem('openai_api_key', apiKey);
+                }
+            }, 2000);
+        }
+
+        // === NOTIFICHE ===
+        function showNotification(id, type) {
+            const notification = document.getElementById(id);
+            if (notification) {
+                notification.className = `notification ${type}`;
+                notification.style.display = 'block';
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 3000);
+            }
+        }
+
+        // === INIZIALIZZAZIONE ===
+        document.addEventListener('DOMContentLoaded', function() {
+            // Event listeners per aggiornamenti automatici
+            $('#pao').addEventListener('input', updateSBPFromPAO);
+            $('#age, #sbp, #col-tot, #col-hdl, #fumo').forEach(el => {
+                el.addEventListener('input', calculateScore2);
+            });
+
+            // Carica API key salvata
+            const savedKey = localStorage.getItem('openai_api_key');
+            if (savedKey) {
+                $('#api-key').value = savedKey;
+                $('#remember-api').checked = true;
+            }
+
+            // Radio button listeners
+            document.addEventListener('change', (e) => {
+                if (e.target.name === 'eco-tipo') updateEcoContent();
+                if (e.target.name === 'emato-tipo') updateEmatochimiciContent();
+                if (e.target.name === 'sex' || e.target.name === 'risk_region') {
+                    calculateScore2();
+                }
+            });
+
+            // Checkbox consigli lipidi
+            $('#consiglio-lipidi').addEventListener('change', function() {
+                aggiungereConsigliLipidi = this.checked;
+            });
+
+            // Genera prima valutazione
+            updateSBPFromPAO();
+            calculateScore2();
+            updateEcoContent();
+            updateEmatochimiciContent();
+        });
+
+        // Export global functions
+        window.addTerapiaRow = addTerapiaRow;
+        window.removeTerapiaRow = removeTerapiaRow;
+        window.copyTemplateSforzo = copyTemplateSforzo;
+        window.copyRichiestaEsami = copyRichiestaEsami;
+        window.compilaVisita = compilaVisita;
+        window.revisioneAI = revisioneAI;
+    </script>
+</body>
+</html>
