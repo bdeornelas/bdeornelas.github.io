@@ -1,0 +1,10 @@
+- [ ] Analizzare la configurazione del sito (_config.yml, Gemfile, package.json)
+- [ ] Verificare i file di build e deployment
+- [ ] Controllare la struttura HTML e SEO (robots.txt, sitemap.xml)
+- [ ] Analizzare il codice CSS/JS per errori
+- [ ] Verificare i link interni e la navigazione
+- [ ] Controllare la presenza di test automatizzati
+- [ ] Analizzare il contenuto per problemi di qualità
+- [ ] Verificare le dipendenze e vulnerabilità
+- [ ] Controllare la performance e ottimizzazioni
+- [ ] Valutare la configurazione di sicurezza
