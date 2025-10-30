@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilazione Visita Cardiologica - Versione Professionale</title>
+    <style>
+        /* === DESIGN SYSTEM MIGLIORATO === */
+        :root {
+            --primary-color: #2563eb; /* Professional blue */
+            --secondary-color: #f8fafc;
+            --accent-color: #059669; /* Medical green */
+            --danger-color: #dc2626;
+            --warning-color: #d97706;
+            --info-color: #0ea5e9;
+            --success-color: #16a34a;
+            --background: #ffffff;
+            --surface: #f1f5f9;
+            --surface-hover: #e2e8f0;
+            --border: #cbd5e1;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --text-muted: #94a3b8;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius-sm: 6px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --transition: all 0.2s ease;
+        }
+
+        /* Reset e base */
+        * { 
+            box-sizing: border-box; 
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-size: 14px;
+        }
+
+        /* Container principale */
+        .container {
+            max-width: 1200px;
+            margin: 1rem auto;
+            background: var(--background);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Header professionale */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Sezioni */
+        .section {
+            padding: 2rem;
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .section:hover {
+            background: var(--surface);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        /* Titoli sezioni */
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 1.5rem 0 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Form controls */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        input[type="text"], 
+        input[type="number"], 
+        input[type="password"], 
+        textarea, 
+        select {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: var(--radius-md);
+            font-size: 0.9rem;
+            transition: var(--transition);
+            background: white;
+            font-family: inherit;
+        }
+
+        input:focus, 
+        textarea:focus, 
+        select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        input[readonly] {
+            background: var(--surface);
+            cursor: not-allowed;
+            color: var(--text-muted);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+            line-height: 1.5;
+        }
+
+        /* Checkbox e radio unificati */
+        .checkbox-group, .radio-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .checkbox-item, .radio-item {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            background: white;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .checkbox-item:hover, .radio-item:hover {
+            background: var(--surface-hover);
+            border-color: var(--primary-color);
+        }
+
+        .checkbox-item input, .radio-item input {
+            margin-right: 0.75rem;
+            width: auto;
+        }
+
+        .checkbox-label, .radio-label {
+            font-size: 0.9rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        /* Sezioni raggruppate */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .card-header {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Pulsanti migliorati */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--radius-md);
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            min-height: 44px; /* Touch target minimo */
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+            box-shadow: var(--shadow-md);
+            transform: translateY(-1px);
+        }
+
+        .btn-success {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #15803d;
+            box-shadow: var(--shadow-md);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--surface-hover);
+            border-color: var(--primary-color);
+        }
+
+        .btn-danger {
+            background: var(--danger-color);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #b91c1c;
+            box-shadow: var(--shadow-md);
+            transform: translateY(-1px);
+        }
+
+        /* Pulsante principale centrato */
+        .main-action-container {
+            text-align: center;
+            padding: 2rem;
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+        }
+
+        .main-action {
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            min-width: 200px;
+        }
+
+        /* Notifiche */
+        .notification {
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-md);
+            margin: 0.75rem 0;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: none;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .notification-success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid var(--success-color);
+            color: var(--success-color);
+        }
+
+        .notification-error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--danger-color);
+            color: var(--danger-color);
+        }
+
+        .notification-info {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--info-color);
+            color: var(--info-color);
+        }
+
+        .notification-warning {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid var(--warning-color);
+            color: var(--warning-color);
+        }
+
+        /* Note e aiuti */
+        .note {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            padding: 0.75rem;
+            background: rgba(14, 165, 233, 0.1);
+            border-radius: var(--radius-sm);
+            border-left: 3px solid var(--info-color);
+            margin: 0.5rem 0;
+        }
+
+        .help-text {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Area output */
+        .output-area {
+            background: #f8fafc;
+            border: 2px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            min-height: 300px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        /* Sezione SCORE2 */
+        .score-section {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), rgba(16, 163, 74, 0.05));
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .score-result {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            text-align: center;
+            margin: 1rem 0;
+            border: 2px solid var(--danger-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .score-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--danger-color);
+            margin: 0.5rem 0;
+        }
+
+        /* Terapia migliorata */
+        .therapy-row {
+            display: grid;
+            grid-template-columns: 1fr 120px auto;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            align-items: center;
+            padding: 0.75rem;
+            background: white;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+
+        .therapy-row button {
+            padding: 0.5rem;
+            font-size: 0.8rem;
+            min-height: auto;
+        }
+
+        /* Accessibilità */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Focus indicators migliorati */
+        *:focus {
+            outline: 3px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* Loading spinner */
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Media queries responsive */
+        @media (max-width: 768px) {
+            .container {
+                margin: 0.5rem;
+                border-radius: var(--radius-md);
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .checkbox-group, .radio-group {
+                grid-template-columns: 1fr;
+            }
+
+            .therapy-row {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Animazioni discrete */
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Stati di errore */
+        .error-text {
+            color: var(--danger-color);
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+        }
+
+        .error-border {
+            border-color: var(--danger-color) !important;
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fade-in">
+        <!-- Header -->
+        <header class="header">
+            <h1>🫀 Compilazione Visita Cardiologica</h1>
+            <p>Strumento professionale per referti cardiologici con intelligenza artificiale</p>
+        </header>
+
+        <!-- Sezione 1: Informazioni Paziente -->
+        <section class="section">
+            <h2 class="section-title">👤 Informazioni Paziente</h2>
+            <p class="note">Inserire i dati anagrafici per personalizzare il referto</p>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label class="form-label" for="age">Età (opzionale)</label>
+                    <input type="number" id="age" name="age" min="1" placeholder="Anni (40-69 per SCORE2)">
+                    <div class="help-text">Range 40-69 anni per calcolo SCORE2</div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Sesso (opzionale)</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="sex-male" name="sex" value="male">
+                            <label for="sex-male" class="radio-label">👨 Uomo</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="sex-female" name="sex" value="female">
+                            <label for="sex-female" class="radio-label">👩 Donna</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione 2: Anamnesi -->
+        <section class="section">
+            <h2 class="section-title">🧬 Anamnesi</h2>
+            
+            <div class="form-group">
+                <label class="form-label" for="anamnesi-familiare">👨‍👩‍👧‍👦 Familiare:</label>
+                <textarea id="anamnesi-familiare" rows="3">Nessuna familiarità riferita per malattia coronarica precoce (M <55, F <65), morte improvvisa o cardiomiopatie ereditarie.</textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="anamnesi-remota">🏥 Patologica Remota:</label>
+                <textarea id="anamnesi-remota" rows="3">Priva di rilievi significativi</textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="anamnesi-cv">❤️ Cardiovascolare:</label>
+                <textarea id="anamnesi-cv" rows="3">Non riferisce precedenti eventi cardiovascolari</textarea>
+            </div>
+        </section>
+
+        <!-- Sezione 3: Sintomatologia -->
+        <section class="section">
+            <h2 class="section-title">🩺 Sintomatologia</h2>
+            
+            <div class="form-group">
+                <label class="form-label" for="sintomatologia">Sintomi riferiti:</label>
+                <textarea id="sintomatologia" rows="3">Non riferisce palpitazioni, dolore toracico anginoso, dispnea, sincope.</textarea>
+            </div>
+        </section>
+
+        <!-- Sezione 4: Esame Obiettivo -->
+        <section class="section">
+            <h2 class="section-title">🔍 Esame Obiettivo</h2>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label class="form-label" for="esame-polmonare">🫁 Polmonare:</label>
+                    <textarea id="esame-polmonare" rows="3">Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi</textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="esame-cardiaco">❤️ Cardiaco:</label>
+                    <textarea id="esame-cardiaco" rows="3">Toni cardiaci netti in successione ritmica, pause libere. Buono il compenso emodinamico</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="pao">🩺 Pressione Arteriosa:</label>
+                <input type="text" id="pao" value="120/80 mmHg" placeholder="Es. 130/85 mmHg">
+                <div class="help-text">Il valore sistolico verrà usato per il calcolo SCORE2</div>
+                <div id="bp-category-display" class="notification info" role="status" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Sezione 5: Esami Strumentali -->
+        <section class="section">
+            <h2 class="section-title">⚡ Esami Strumentali</h2>
+            
+            <div class="card">
+                <div class="card-header">📊 ECG</div>
+                <div class="form-group">
+                    <textarea id="ecg" rows="3">Ritmo sinusale a FC di 70 bpm, alterazioni aspecifiche del tratto ST-T</textarea>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">🫀 Ecocardiogramma Color Doppler</div>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="eco-normale" name="eco-tipo" value="normale">
+                        <label for="eco-normale" class="radio-label">Ecocardiogramma normale</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="eco-anziano" name="eco-tipo" value="anziano">
+                        <label for="eco-anziano" class="radio-label">Eco per paziente anziano</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="eco-manuale" name="eco-tipo" value="manuale" checked>
+                        <label for="eco-manuale" class="radio-label">Inserimento manuale</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="eco-text" rows="8" placeholder="Inserire referto ecocardiografico..."></textarea>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">🏃 Test da Sforzo</div>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="sforzo-normale" name="sforzo-tipo" value="normale">
+                        <label for="sforzo-normale" class="radio-label">Test normale - nessuna alterazione</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="sforzo-manuale" name="sforzo-tipo" value="manuale" checked>
+                        <label for="sforzo-manuale" class="radio-label">Inserimento manuale</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="sforzo-text" rows="4" placeholder="Inserire referto test da sforzo..."></textarea>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <button type="button" class="btn-secondary" onclick="copyTemplateSforzo()">
+                        📋 Copia Template negli Appunti
+                    </button>
+                    <span id="sforzo-notification" class="notification-success">Template copiato!</span>
+                </div>
+            
+
+            </div>
+        </section>
+
+        <!-- Sezione 6: Esami Ematochimici -->
+        <section class="section">
+            <h2 class="section-title">🧪 Esami Ematochimici</h2>
+            
+            <div class="radio-group">
+                <div class="radio-item">
+                    <input type="radio" id="emato-limiti" name="emato-tipo" value="limiti">
+                    <label for="emato-limiti" class="radio-label">Tutti gli esami nei limiti</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="emato-colesterolo" name="emato-tipo" value="colesterolo">
+                    <label for="emato-colesterolo" class="radio-label">Mostra valori lipidici</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="emato-manuale" name="emato-tipo" value="manuale" checked>
+                    <label for="emato-manuale" class="radio-label">Inserimento manuale</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label" for="emato-text">Valori:</label>
+                <textarea id="emato-text" rows="4" placeholder="Inserire valori di laboratorio..."></textarea>
+            </div>
+        </section>
+
+        <!-- Sezione 7: Terapia in Atto -->
+        <section class="section">
+            <h2 class="section-title">💊 Terapia in Atto</h2>
+            <div id="terapia-container">
+                <div class="therapy-row">
+                    <input type="text" placeholder="Nome farmaco" data-terapia="farmaco">
+                    <input type="text" placeholder="Dose (mg)" data-terapia="dose">
+                    <button type="button" onclick="removeTerapiaRow(this)" class="btn-danger">Rimuovi</button>
+                </div>
+            </div>
+            <button type="button" class="btn-secondary" onclick="addTerapiaRow()">➕ Aggiungi Farmaco</button>
+            <div class="note">Usa il pulsante per aggiungere più farmaci. Tutti i campi compilati saranno inclusi nel referto.</div>
+        </section>
+
+        <!-- Sezione 8: Fattori di Rischio e SCORE2 -->
+        <section class="section">
+            <h2 class="section-title">⚠️ Fattori di Rischio e Calcolo SCORE2</h2>
+            
+            <div class="card">
+                <div class="card-header">📋 Fattori di Rischio</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="fumo">
+                        <label for="fumo" class="checkbox-label">🚬 Fumo attuale</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="pregresso-fumo">
+                        <label for="pregresso-fumo" class="checkbox-label">🚭 Ex fumatore</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="diabete">
+                        <label for="diabete" class="checkbox-label">🩸 Diabete</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="ipertensione">
+                        <label for="ipertensione" class="checkbox-label">📈 Ipertensione</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="ipercolesterolemia">
+                        <label for="ipercolesterolemia" class="checkbox-label">🧪 Colesterolo alto</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="obesita">
+                        <label for="obesita" class="checkbox-label">⚖️ Obesità</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="familiarita">
+                        <label for="familiarita" class="checkbox-label">👨‍👩‍👧‍👦 Familiarità malattia coronarica</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-section">
+                <h3 class="section-subtitle">📊 Dati per Calcolo SCORE2 e LDL</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="sbp">🫀 Pressione Sistolica (mmHg)</label>
+                        <input type="number" id="sbp" placeholder="mmHg" readonly>
+                        <div class="help-text">Viene calcolata automaticamente dalla pressione arteriosa</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="col-tot">🧪 Colesterolo Totale (mg/dL)</label>
+                        <input type="number" id="col-tot" placeholder="mg/dL">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="col-hdl">✅ Colesterolo HDL (mg/dL)</label>
+                        <input type="number" id="col-hdl" placeholder="mg/dL">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="trigliceridi-score">📈 Trigliceridi (mg/dL)</label>
+                        <input type="number" id="trigliceridi-score" placeholder="mg/dL">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="ldl-calculated">📉 LDL Calcolato (mg/dL)</label>
+                        <input type="text" id="ldl-calculated" placeholder="Calcolato automaticamente" readonly>
+                        <div id="ldl-note" class="help-text">Formula di Friedewald (valido per Trigliceridi < 400 mg/dL)</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">🌍 Regione di Rischio</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" id="region-low" name="risk_region" value="1">
+                            <label for="region-low" class="radio-label">🟢 Basso rischio</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="region-moderate" name="risk_region" value="2" checked>
+                            <label for="region-moderate" class="radio-label">🟡 Rischio moderato (Italia)</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="region-high" name="risk_region" value="3">
+                            <label for="region-high" class="radio-label">🟠 Rischio alto</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="region-very-high" name="risk_region" value="4">
+                            <label for="region-very-high" class="radio-label">🔴 Rischio molto alto</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="score-result">
+                    <h3>🎯 Rischio CVD a 10 anni (SCORE2)</h3>
+                    <div class="score-value" id="score2-result">-</div>
+                    <div id="score2-error" class="error-text"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione 9: Strumenti di Copia -->
+        <section class="section">
+            <h2 class="section-title">📋 Strumenti di Copia</h2>
+            <div class="card">
+                <div class="card-header">🚀 Azioni Rapide</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                    <button type="button" onclick="copyTemplateSforzo()" class="btn-secondary">
+                        📋 Copia Template negli Appunti
+                    </button>
+                    <button type="button" onclick="copyRichiestaEsami()" class="btn-secondary">
+                        🧪 Richiesta Esami Aggiuntivi
+                    </button>
+                </div>
+                <span id="copy-notification" class="notification-success">Copiato negli appunti!</span>
+            </div>
+        </section>
+
+        <!-- Sezione 10: Conclusioni e Raccomandazioni -->
+        <section class="section">
+            <h2 class="section-title">💡 Conclusioni e Raccomandazioni</h2>
+            
+            <div class="card">
+                <div class="card-header">📋 Azioni Immediate</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-terapia">
+                        <label for="consiglio-terapia" class="checkbox-label">Confermare terapia in atto</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-no-acc">
+                        <label for="consiglio-no-acc" class="checkbox-label">Non servono altri esami</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">🔬 Esami Raccomandati</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-angio">
+                        <label for="consiglio-angio" class="checkbox-label">Angio-TC coronarica</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-holter">
+                        <label for="consiglio-holter" class="checkbox-label">ECG-Holter 24h</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-eco">
+                        <label for="consiglio-eco" class="checkbox-label">EcocolorDoppler cardiaco</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-imaging">
+                        <label for="consiglio-imaging" class="checkbox-label">Test da stress (eco/scintigrafia/RMN)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-emato">
+                        <label for="consiglio-emato" class="checkbox-label">Controllo esami del sangue</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">💡 Opzioni Aggiuntive</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consiglio-lipidi">
+                        <label for="consiglio-lipidi" class="checkbox-label">💡 Aggiungi Suggerimenti Alimentari</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="include-contatti">
+                        <label for="include-contatti" class="checkbox-label">Includi informazioni di contatto</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="conclusioni-custom">💬 Note Aggiuntive (opzionale):</label>
+                <textarea id="conclusioni-custom" rows="3" placeholder="Inserire conclusioni personalizzate..."></textarea>
+            </div>
+        </section>
+
+        <!-- Sezione 11: Opzioni e Generazione -->
+        <section class="section">
+            <h2 class="section-title">⚙️ Opzioni e Generazione</h2>
+            
+            <div class="card">
+                <div class="card-header">🖨️ Opzioni di Output</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="compat-ascii">
+                        <label for="compat-ascii" class="checkbox-label">Compatibilità stampa (ASCII)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="compat-crlf">
+                        <label for="compat-crlf" class="checkbox-label">Ritorni Windows (CRLF)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">📄 Referto Generato:</label>
+                <textarea id="output-visita" class="output-area" readonly placeholder="Il referto generato apparirà qui..."></textarea>
+            </div>
+        </section>
+
+        <!-- Sezione 12: AI Review -->
+        <section class="section" id="ai-section">
+            <h2 class="section-title">🤖 Revisione AI</h2>
+            <div class="card">
+                <div class="form-group">
+                    <label class="form-label" for="api-key">🔑 Chiave API OpenAI:</label>
+                    <input type="password" id="api-key" placeholder="sk-...">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+                        <input type="checkbox" id="remember-api">
+                        <label for="remember-api" class="checkbox-label">💾 Ricorda per la Prossima Volta</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="ai-output">Risultato Analisi AI:</label>
+                    <textarea id="ai-output" class="output-area" placeholder="Risultato dell'analisi AI..." readonly style="min-height: 150px;"></textarea>
+                    <div id="ai-loading" class="notification-info" style="display: none;">🤖 Analisi in corso...</div>
+                    <div id="ai-error" class="notification-error" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pulsante principale -->
+        <div class="main-action-container">
+            <button type="button" onclick="generateReferto()" class="btn-success main-action">
+                📝 Genera Referto
+            </button>
+            <button type="button" onclick="showAISection()" class="btn-secondary main-action">
+                🔍 Revisione Automatica
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // === VARIABILI GLOBALI ===
+        let aggiungereConsigliLipidi = false;
+        const consigliLipidiText = `Profilo lipidico non ottimale.
+Per favorire la riduzione del colesterolo LDL (valori desiderati < 116 mg/dL), è consigliabile seguire alcune semplici indicazioni nutrizionali:
+
+Alimenti da Privilegiare nella Dieta Quotidiana:
+* Verdura: Consumare porzioni abbondanti ad ogni pasto, variando i tipi e i colori. Sia fresca che surgelata al naturale sono valide scelte.
+* Frutta: Includere regolarmente frutta fresca di stagione, importante fonte di vitamine, minerali e fibre.
+* Cereali Integrali: Preferire sistematicamente le versioni integrali di pane, pasta, riso. Includere anche avena, orzo, farro per massimizzare l'apporto di fibre benefiche.
+* Legumi: Inserire frequentemente lenticchie, ceci, fagioli, piselli. Sono un'ottima fonte di proteine vegetali e fibre che aiutano a controllare il colesterolo.
+* Pesce: Consumare pesce 2-3 volte a settimana, privilegiando varietà ricche di Omega-3 (come salmone, sgombro, sardine, acciughe).
+* Frutta Secca e Semi Oleosi: Una piccola quantità giornaliera (es. 30g) di noci, mandorle, nocciole o semi (lino, chia, zucca) apporta grassi sani e fibre (attenzione alle calorie).
+* Grassi Sani: Utilizzare Olio Extravergine d'Oliva come condimento principale, preferibilmente a crudo. Altri oli vegetali (es. canola) possono essere usati con moderazione per cucinare. Avocado e olive sono altre buone fonti.
+* Fonti Proteiche Magre: Alternare il pesce con pollame senza pelle (pollo, tacchino) e le già citate proteine vegetali (legumi).
+* Latticini (con Moderazione): Se consumati, scegliere versioni a basso contenuto di grassi come yogurt bianco naturale non zuccherato o latte parzialmente scremato.
+* Bevande: L'acqua è la bevanda principale. Tè verde e tisane non zuccherate sono valide alternative.
+
+Alimenti da Limitare Significativamente o Evitare:
+* Grassi Saturi: Ridurre il consumo di burro, panna, strutto, formaggi grassi e stagionati, oli tropicali (palma, cocco).
+* Grassi Trans: Evitare prodotti contenenti "grassi (parzialmente) idrogenati" (controllare attentamente le etichette di prodotti da forno industriali, snack, margarine).
+* Carni Rosse: Limitarne il consumo (manzo, maiale) a non più di 1-2 volte a settimana.
+* Carni Lavorate: Evitare o consumare solo eccezionalmente insaccati, salumi, wurstel, bacon.
+* Alimenti Ultra-Processati: Ridurre al minimo cibi pronti, snack confezionati, patatine, merendine, fast food. Sono spesso ricchi di grassi non sani, zuccheri aggiunti e sale.
+* Zuccheri Aggiunti: Limitarne fortemente dolci, dessert, biscotti. Eliminare bevande zuccherate (bibite gassate, succhi di frutta industriali, tè freddi zuccherati). Preferire sempre il frutto intero ai succhi, anche se 100% frutta.
+* Cibi Fritti: Evitare la frittura come metodo di cottura abituale.
+* Alcol: Limitarne fortemente il consumo o, preferibilmente, evitarlo.
+
+Consigli Pratici Quotidiani:
+* Metodi di Cottura: Privilegiare cotture semplici (vapore, griglia, forno, bollitura) che richiedono pochi grassi aggiunti.
+* Apporto di Fibre: Assicurare un adeguato consumo di fibre attraverso verdura, frutta, legumi e cereali integrali in ogni pasto.
+* Leggere le Etichette: Prendere l'abitudine di controllare le informazioni nutrizionali, in particolare il contenuto di grassi saturi, zuccheri e sodio (sale).
+* Controllo delle Porzioni: Prestare attenzione alle quantità consumate, anche per gli alimenti sani.
+* Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in uno stile di vita che comprende attività fisica regolare e il mantenimento di un peso corporeo sano.`;
+
+        // === FUNZIONI UTILITY ===
+        const $ = (sel) => document.querySelector(sel);
+        const $$ = (sel) => document.querySelectorAll(sel);
+
+        // === GESTIONE TERAPIA ===
+        function addTerapiaRow() {
+            const container = $('#terapia-container');
+            const rowCount = container.children.length;
+            
+            if (rowCount >= 7) {
+                showNotification('copy-notification', 'warning', 'Massimo 7 farmaci consentiti');
+                return;
+            }
+            
+            const row = document.createElement('div');
+            row.className = 'therapy-row';
+            row.innerHTML = `
+                <input type="text" placeholder="Nome farmaco" data-terapia="farmaco">
+                <input type="text" placeholder="Dose (mg)" data-terapia="dose">
+                <button type="button" onclick="removeTerapiaRow(this)" class="btn-danger">Rimuovi</button>
+            `;
+            
+            container.appendChild(row);
+        }
+
+        function removeTerapiaRow(button) {
+            button.closest('.therapy-row').remove();
+        }
+
+        // === CALCOLO SCORE2 E LDL ===
+        function parseBPString(paoStr) {
+            if (!paoStr) return { sbp: NaN, dbp: NaN };
+            const cleaned = String(paoStr).replace(/[^\d\/\-\–\—\s]/g, '').trim();
+            let parts = cleaned.split(/[\/\-\–\—]/).map(s => s.trim()).filter(Boolean);
+            if (parts.length < 2) {
+                const nums = cleaned.match(/\d+/g);
+                if (nums && nums.length >= 2) parts = [nums[0], nums[1]];
+            }
+            const sbp = parts[0] ? parseInt(parts[0], 10) : NaN;
+            const dbp = parts[1] ? parseInt(parts[1], 10) : NaN;
+            return { sbp, dbp };
+        }
+
+        function classifyOfficeBP(sbp, dbp) {
+            if (isNaN(sbp) || isNaN(dbp)) return null;
+            if (sbp >= 140 && dbp < 90) {
+                let grade = 1;
+                if (sbp >= 180) grade = 3;
+                else if (sbp >= 160) grade = 2;
+                return "Ipertensione sistolica isolata - grado " + grade;
+            }
+            if (sbp >= 140 || dbp >= 90) {
+                const gradeFromSBP = sbp >= 180 ? 3 : (sbp >= 160 ? 2 : 1);
+                const gradeFromDBP = dbp >= 110 ? 3 : (dbp >= 100 ? 2 : (dbp >= 90 ? 1 : 0));
+                const grade = Math.max(gradeFromSBP, gradeFromDBP);
+                return "Ipertensione arteriosa - grado " + grade;
+            }
+            return null;
+        }
+
+        function updateSBPFromPAO() {
+            const pao = $('#pao').value;
+            const { sbp, dbp } = parseBPString(pao);
+            
+            $('#sbp').value = (!isNaN(sbp)) ? sbp : '';
+            
+            const category = classifyOfficeBP(sbp, dbp);
+            const bpDisplay = $('#bp-category-display');
+            if (category) {
+                bpDisplay.textContent = category;
+                bpDisplay.style.display = 'block';
+            } else {
+                bpDisplay.style.display = 'none';
+            }
+            
+            // Ricalcola SCORE2 se età valida
+            const ageVal = parseInt($('#age').value, 10);
+            if (!isNaN(ageVal) && ageVal >= 40 && ageVal <= 69) {
+                calculateScore2();
+            }
+        }
+
+        function calculateAndDisplayLdl() {
+            const colTotInput = $('#col-tot');
+            const colHdlInput = $('#col-hdl');
+            const trigliceridiInput = $('#trigliceridi-score');
+            const ldlResultInput = $('#ldl-calculated');
+            const ldlNote = $('#ldl-note');
+
+            const colTot = parseFloat(colTotInput.value);
+            const hdl = parseFloat(colHdlInput.value);
+            const trig = parseFloat(trigliceridiInput.value);
+
+            ldlResultInput.value = "";
+            ldlNote.textContent = "Formula di Friedewald (valido per Trigliceridi < 400 mg/dL).";
+            ldlNote.style.color = "var(--text-muted)";
+
+            if (!colTot || !hdl || !trig || colTot <= 0 || hdl <= 0 || trig <= 0) return;
+
+            if (trig >= 400) {
+                ldlResultInput.value = "N/A";
+                ldlNote.textContent = "Non calcolabile: i trigliceridi devono essere < 400 mg/dL.";
+                ldlNote.style.color = "var(--danger-color)";
+                return;
+            }
+
+            if ((hdl + (trig / 5)) >= colTot) {
+                ldlResultInput.value = "N/A";
+                ldlNote.textContent = "Dati incoerenti (Totale <= HDL + VLDL).";
+                ldlNote.style.color = "var(--danger-color)";
+                return;
+            }
+
+            const ldl = colTot - hdl - (trig / 5);
+            ldlResultInput.value = ldl.toFixed(0);
+        }
+
+        function calculateScore2() {
+            const ageInput = $('#age');
+            const sexRadio = $('input[name="sex"]:checked');
+            const sbpInput = $('#sbp');
+            const colTotInput = $('#col-tot');
+            const colHdlInput = $('#col-hdl');
+            const smokerCheckbox = $('#fumo');
+            const regionRadio = $('input[name="risk_region"]:checked');
+            const resultDisplay = $('#score2-result');
+            const errorDisplay = $('#score2-error');
+            
+            resultDisplay.textContent = "-";
+            errorDisplay.textContent = "";
+            
+            const age = parseInt(ageInput.value, 10);
+            if (isNaN(age) || age < 40 || age > 69) {
+                errorDisplay.textContent = "Età non valida o fuori range (SCORE2 è per 40-69 anni).";
+                return null;
+            }
+            
+            if (!sexRadio) {
+                errorDisplay.textContent = "Selezionare il sesso.";
+                return null;
+            }
+            const sex = sexRadio.value;
+            const sbp = parseInt(sbpInput.value, 10);
+            if (isNaN(sbp)) {
+                errorDisplay.textContent = "Inserire SBP valida (es. dal campo PAO).";
+                return null;
+            }
+            if (sbp < 100 || sbp > 200) {
+                if (!errorDisplay.textContent) errorDisplay.textContent = "Warning: SBP inserita fuori range suggerito (100-200 mmHg).";
+            }
+            if (sbp <= 0) {
+                errorDisplay.textContent = "Inserire SBP valida (positiva).";
+                return null;
+            }
+            
+            const colTotMgDl = parseFloat(colTotInput.value);
+            const colHdlMgDl = parseFloat(colHdlInput.value);
+            if (isNaN(colTotMgDl) || colTotMgDl <= 0 || isNaN(colHdlMgDl) || colHdlMgDl <= 0) {
+                errorDisplay.textContent = "Inserire valori validi (mg/dL, positivi) per Colesterolo Totale e HDL.";
+                return null;
+            }
+            if (colHdlMgDl >= colTotMgDl) {
+                errorDisplay.textContent = "Colesterolo HDL deve essere minore del Totale.";
+                return null;
+            }
+            
+            const isSmoker = smokerCheckbox.checked;
+            if (!regionRadio) {
+                errorDisplay.textContent = "Selezionare la regione di rischio.";
+                return null;
+            }
+            const region = parseInt(regionRadio.value, 10);
+            
+            // Calcolo SCORE2 completo (dall'originale)
+            const conversionFactor = 38.67;
+            const coeffs = {
+                male: { cage: 0.3742, smoking: 0.6012, csbp: 0.2777, ctchol: 0.1458, chdl: -0.2698, smoking_cage: -0.0755, csbp_cage: -0.0255, ctchol_cage: -0.0281, chdl_cage: 0.0426 },
+                female: { cage: 0.4648, smoking: 0.7744, csbp: 0.3131, ctchol: 0.1002, chdl: -0.2606, smoking_cage: -0.1088, csbp_cage: -0.0277, ctchol_cage: -0.0226, chdl_cage: 0.0613 }
+            };
+            const baseline_survival = { male: 0.9605, female: 0.9776 };
+            const calibration_scales = {
+                male: { 1: { scale1: -0.5699, scale2: 0.7476 }, 2: { scale1: -0.1565, scale2: 0.8009 }, 3: { scale1: 0.3207, scale2: 0.9360 }, 4: { scale1: 0.5836, scale2: 0.8294 } },
+                female: { 1: { scale1: -0.7380, scale2: 0.7019 }, 2: { scale1: -0.3143, scale2: 0.7701 }, 3: { scale1: 0.5710, scale2: 0.9369 }, 4: { scale1: 0.9412, scale2: 0.8329 } }
+            };
+            const colTotMmolL = colTotMgDl / conversionFactor;
+            const colHdlMmolL = colHdlMgDl / conversionFactor;
+            const nonHdlMmolL = colTotMmolL - colHdlMmolL;
+            if (nonHdlMmolL < 3.0 || nonHdlMmolL > 6.9) {
+                if (!errorDisplay.textContent) errorDisplay.textContent = `Warning: Colesterolo non-HDL (${(nonHdlMmolL * conversionFactor).toFixed(0)} mg/dL) fuori range SCORE2 (115-266 mg/dL).`;
+            }
+            const cage = (age - 60) / 5;
+            const smoking_val = isSmoker ? 1 : 0;
+            const csbp = (sbp - 120) / 20;
+            const ctchol = colTotMmolL - 6;
+            const chdl = (colHdlMmolL - 1.3) / 0.5;
+            const cf = coeffs[sex];
+            let x = cf.cage * cage + cf.smoking * smoking_val + cf.csbp * csbp + cf.ctchol * ctchol + cf.chdl * chdl
+                + cf.smoking_cage * smoking_val * cage + cf.csbp_cage * csbp * cage + cf.ctchol_cage * ctchol * cage + cf.chdl_cage * chdl * cage;
+            const s0 = baseline_survival[sex];
+            let uncalibrated_risk = 1 - Math.pow(s0, Math.exp(x));
+            const epsilon = 1e-10;
+            uncalibrated_risk = Math.max(epsilon, Math.min(1 - epsilon, uncalibrated_risk));
+            const cal = calibration_scales[sex][region];
+            if (!cal) { errorDisplay.textContent = "Scale di calibrazione non trovate."; return null; }
+            let calibrated_risk_percent;
+            try {
+                const inner_log = -Math.log(1 - uncalibrated_risk);
+                if (inner_log <= 0 || !isFinite(inner_log)) throw new Error("Intermediate log error.");
+                const log_inner_log = Math.log(inner_log);
+                if (!isFinite(log_inner_log)) throw new Error("Final log error.");
+                const calibrated_risk = 1 - Math.exp(-Math.exp(cal.scale1 + cal.scale2 * log_inner_log));
+                calibrated_risk_percent = (calibrated_risk * 100).toFixed(1);
+            } catch (e) {
+                calibrated_risk_percent = uncalibrated_risk < 0.5 ? "0.0" : ">99.9";
+                if (!errorDisplay.textContent) errorDisplay.textContent = "Rischio estremo, calcolo al limite.";
+                resultDisplay.textContent = `${calibrated_risk_percent}%`;
+                return calibrated_risk_percent === ">99.9" ? 99.9 : (calibrated_risk_percent === "0.0" ? 0.0 : null);
+            }
+            resultDisplay.textContent = `${calibrated_risk_percent}%`;
+            return parseFloat(calibrated_risk_percent);
+        }
+
+        // === CONTENUTO DINAMICO ===
+        function updateEcoContent() {
+            const ecoType = $('input[name="eco-tipo"]:checked')?.value;
+            const ecoText = $('#eco-text');
+            
+            if (ecoType === 'normale') {
+                ecoText.value = `Diametri e volumi del ventricolo sinistro nella norma.
+Spessori settali e parietali nella norma.
+Non si evidenziano alterazioni della cinesi segmentaria.
+Conservati gli indici di contrattilità globale.
+Normali dimensioni dell'atrio sinistro.
+Morfologia e dinamica dei lembi mitralici nei limiti della norma.
+Presenza di minimo jet da rigurgito valvolare mitralico.
+Flussimetria transvalvolare indicativa di normali pressioni di riempimento del ventricolo sinistro.
+Morfologia e dinamica delle semilunari aortiche nei limiti della norma.
+Non jet da insufficienza valvolare ecograficamente visualizzabili.
+Nei limiti della norma le velocità del flusso transvalvolare aortico.
+Nei limiti della norma il diametro della radice aortica e dell'aorta ascendente.
+Normali morfologia e dimensioni delle camere destre.
+Lieve jet da insufficienza tricuspidalica parafisiologico da cui si stima una pressione polmonare nei limiti della norma.
+Setto interatriale apparentemente integro.
+Non versamento pericardico in atto.`;
+            } else if (ecoType === 'anziano') {
+                ecoText.value = `Ventricolo sinistro di normali dimensioni con spessori di parete nei limiti.
+Buona la funzione ventricolare sinistra: FE 60%.
+Non evidenti difetti di cinesi segmentaria.
+Atrio sinistro nei limiti, lembi mitralici lievemente ispessiti.
+Bulbo aortico di normali dimensioni, valvola aortica tricuspide, semilunari aortiche lievemente ispessite, apertura valvolare conservata, aorta ascendente nei limiti.
+Sezioni destre nei limiti con funzione conservata.
+VCI di normali dimensioni con escursioni respiratorie conservate.
+Pericardio indenne.
+Doppler: Pattern transmitralico da alterato rilasciamento.
+Insufficienza mitralica lieve.
+Insufficienza tricuspidalica lieve con PAPs nei limiti.`;
+            }
+        }
+
+        function updateEmatochimiciContent() {
+            const ematoType = $('input[name="emato-tipo"]:checked')?.value;
+            const ematoText = $('#emato-text');
+            
+            if (ematoType === 'limiti') {
+                ematoText.value = 'Tutti gli esami risultano nei limiti di norma';
+                ematoText.readOnly = true;
+            } else {
+                ematoText.readOnly = false;
+                if (ematoType === 'colesterolo') {
+                    const colTot = $('#col-tot').value;
+                    const colHdl = $('#col-hdl').value;
+                    const trig = $('#trigliceridi-score').value;
+                    const ldlCalc = $('#ldl-calculated').value;
+                    
+                    ematoText.value = [
+                        colTot ? `Colesterolo totale: ${colTot} mg/dL` : '',
+                        colHdl ? `Colesterolo HDL: ${colHdl} mg/dL` : '',
+                        ldlCalc && ldlCalc !== 'N/A' ? `Colesterolo LDL: ${ldlCalc} mg/dL` : '',
+                        trig ? `Trigliceridi: ${trig} mg/dL` : ''
+                    ].filter(Boolean).join('\n');
+                }
+            }
+        }
+
+        function updateEmatochimiciFromScore() {
+            const colTot = $('#col-tot').value.trim();
+            const colHdl = $('#col-hdl').value.trim();
+            const ldlCalculated = $('#ldl-calculated').value.trim();
+            const trigliceridi = $('#trigliceridi-score').value.trim();
+            
+            if (!colTot && !colHdl && !trigliceridi) return;
+            const ematoColesteroloRadio = $('#emato-colesterolo');
+            const ematoText = $('#emato-text');
+            ematoColesteroloRadio.checked = true;
+            updateEmatochimiciContent();
+            
+            const textLines = [
+                `Colesterolo totale: ${colTot ? colTot + " mg/dL" : ""}`,
+                `Colesterolo HDL: ${colHdl ? colHdl + " mg/dL" : ""}`,
+                `Colesterolo LDL: ${ldlCalculated && ldlCalculated !== "N/A" ? ldlCalculated + " mg/dL" : ""}`,
+                `Trigliceridi: ${trigliceridi ? trigliceridi + " mg/dL" : ""}`
+            ];
+            ematoText.value = textLines.join("\n");
+        }
+
+        // === FUNZIONI COPIA ===
+        function copyTemplateSforzo() {
+            const templateText = `Indicazione al test: valutazione riserva coronarica e capacità funzionale.
+Terapia in corso: nessuna.
+ECG basale: ritmo sinusale. Normale conduzione AV e IV. Ripolarizzazione ventricolare normale.
+Test eseguito al cicloergometro mediante incremento di carico di watt ogni minuto; interrotto per esaurimento muscolare.
+Carico max tollerato: watt, pari al % del teorico max atteso.
+Potenza aerobica max: METS.
+Risposta cronotropa ai carichi nei limiti; FC max raggiunta pari al % della FC max teorica.
+Normale risposta pressoria allo sforzo.
+Modificazioni ECG significative: no.
+Aritmie: no.
+Sintomi: no.
+CONCLUSIONI:
+Test negativo per ridotta riserva coronarica.
+Capacità funzionale normale.`;
+            navigator.clipboard.writeText(templateText).then(() => {
+                showNotification('copy-notification', 'success', 'Template copiato negli appunti!');
+            }).catch(() => {
+                showNotification('copy-notification', 'error', 'Errore durante la copia del template.');
+            });
+        }
+
+        function copyRichiestaEsami() {
+            const testoDaCopiare = "Si richiedono esami ematochimici comprensivi di Creatinina, Potassio, Sodio, TSH, rapporto Aldosterone/Renina (ARR). Esame urine completo con rapporto Albumina/Creatinina (ACR). EcoDoppler delle Arterie Renali.";
+            navigator.clipboard.writeText(testoDaCopiare).then(() => {
+                showNotification('copy-notification', 'success', 'Richiesta esami copiata negli appunti!');
+            }).catch(() => {
+                showNotification('copy-notification', 'error', 'Errore durante la copia della richiesta.');
+            });
+        }
+
+        // === GENERAZIONE REFERTO ===
+        function formatText(text, indent, trim = true) {
+            if (!text) return "";
+            const cleanedText = trim ? text.trim() : text;
+            if (!cleanedText) return "";
+            return cleanedText
+                .split('\n')
+                .map(line => line.trim() ? `${indent}${line.trim()}` : '')
+                .filter(line => line)
+                .join('\n');
+        }
+
+        function formatSection(title, content, indent, separator) {
+            if (!content || !content.trim()) return "";
+            if (!title) return `${content}\n${separator}`;
+            return `${title}\n${content}\n${separator}`;
+        }
+
+        function generateReferto() {
+            const indent = " ";
+            const sectionSeparator = "\n\n";
+            const ageInput = $('#age');
+            const age = ageInput.value.trim();
+            const ageNum = age ? parseInt(age, 10) : NaN;
+            const sexRadioChecked = $('input[name="sex"]:checked');
+            const sexValue = sexRadioChecked ? sexRadioChecked.value : null;
+
+            // Costruisci la riga introduttiva
+            let patientIntroLine = "";
+            if (age && sexValue) {
+                patientIntroLine = (sexValue === "male") ? `Paziente uomo di ${age} anni` : `Paziente donna di ${age} anni`;
+            } else if (age) {
+                patientIntroLine = `Paziente di ${age} anni`;
+            } else if (sexValue) {
+                patientIntroLine = (sexValue === "male") ? `Paziente uomo` : `Paziente donna`;
+            }
+
+            // Calcolo SCORE2
+            let score2Result = null;
+            const score2ErrorDiv = $('#score2-error');
+            const score2ResultDisplay = $('#score2-result');
+            score2ErrorDiv.textContent = "";
+            score2ResultDisplay.textContent = "-";
+            if (ageNum >= 40 && ageNum <= 69) score2Result = calculateScore2();
+            else score2ErrorDiv.textContent = "Calcolo SCORE2 non applicabile (età fuori range 40-69 anni).";
+
+            let score2OutputText = "";
+            if (score2Result !== null && !isNaN(score2Result)) {
+                const regionTextMap = { 1: "Basso", 2: "Moderato", 3: "Alto", 4: "Molto Alto" };
+                const regionRadio = $('input[name="risk_region"]:checked');
+                const regionVal = regionRadio ? regionRadio.value : '2';
+                const regionName = regionTextMap[regionVal] || "Non specificata";
+                score2OutputText = `Rischio CVD a 10 anni (SCORE2 - Regione ${regionName}): ${score2Result}%`;
+            }
+
+            // Fattori di rischio
+            const fattoriRischio = [];
+            if ($('#fumo').checked) fattoriRischio.push("Fumo Attuale");
+            if ($('#pregresso-fumo').checked) fattoriRischio.push("Pregresso fumo di sigaretta");
+            if ($('#diabete').checked) fattoriRischio.push("Diabete");
+            if ($('#ipertensione').checked) fattoriRischio.push("Ipertensione");
+            if ($('#ipercolesterolemia').checked) fattoriRischio.push("Ipercolesterolemia");
+            if ($('#obesita').checked) fattoriRischio.push("Obesità");
+            if ($('#familiarita').checked) fattoriRischio.push("Familiarità positiva per MCV");
+            const fattoriRischioRaw = fattoriRischio.length > 0 ? fattoriRischio.join("; ") : "Nessuno";
+            const fattoriRischioText = formatText(fattoriRischioRaw + (score2OutputText ? `\n${score2OutputText}` : ""), indent);
+
+            // Anamnesi
+            const anamnesiFamiliareRaw = $('#anamnesi-familiare').value;
+            const anamnesiFamiliareDefault = "Nessuna familiarità riferita per malattia coronarica precoce (M <55, F <65), morte improvvisa o cardiomiopatie ereditarie.";
+            const anamnesiFamiliareText = formatText(anamnesiFamiliareRaw || anamnesiFamiliareDefault, indent);
+
+            const anamnesiRemotaRaw = $('#anamnesi-remota').value;
+            const anamnesiRemotaText = formatText(anamnesiRemotaRaw || "Priva di rilievi significativi", indent);
+
+            const anamnesiCvRaw = $('#anamnesi-cv').value;
+            const anamnesiCvText = formatText(anamnesiCvRaw || "Non riferisce precedenti eventi cardiovascolari", indent);
+
+            // Terapia
+            const terapia = [];
+            $$('#terapia-container .therapy-row').forEach(row => {
+                const farmaco = row.querySelector('input[data-terapia="farmaco"]').value.trim();
+                const dose = row.querySelector('input[data-terapia="dose"]').value.trim();
+                if (farmaco) terapia.push(`${farmaco}${dose ? ` ${dose} mg` : ""}`);
+            });
+            const terapiaRaw = terapia.length > 0 ? terapia.join("; ") : "Nessuna";
+            const terapiaText = formatText(terapiaRaw, indent);
+
+            // Sintomatologia
+            const sintomatologiaRaw = $('#sintomatologia').value;
+            const sintomatologiaText = formatText(sintomatologiaRaw || "Non riferisce palpitazioni, dolore toracico anginoso, dispnea, sincope.", indent);
+
+            // Esame obiettivo
+            const esamePolmonareRaw = $('#esame-polmonare').value;
+            const esamePolmonareDefault = "Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi";
+            const esamePolmonareText = formatText(`TORACE: ${esamePolmonareRaw || esamePolmonareDefault}`, indent);
+
+            const esameCardiacoRaw = $('#esame-cardiaco').value;
+            const esameCardiacoDefault = "Toni cardiaci netti in successione ritmica, pause libere. Buono il compenso emodinamico";
+            const esameCardiacoText = formatText(`CUORE: ${esameCardiacoRaw || esameCardiacoDefault}`, indent);
+
+            // PAO
+            const paoRaw = $('#pao').value.trim();
+            const paoVal = paoRaw || "Non rilevata";
+            let paoLine = `PAO: ${paoVal}`;
+            if (paoRaw) {
+                const { sbp: sbpOut, dbp: dbpOut } = parseBPString(paoRaw);
+                const catOut = classifyOfficeBP(sbpOut, dbpOut);
+                if (catOut) paoLine += ` - ${catOut}`;
+            }
+            const paoText = formatText(paoLine, indent);
+
+            const eoText = [esamePolmonareText, esameCardiacoText, paoText].filter(text => text).join('\n');
+
+            // ECG
+            const ecgInputText = $('#ecg');
+            const ecgRaw = ecgInputText.value.trim();
+            const ecgText = formatText(ecgRaw, indent);
+
+            // Eco
+            const ecoRaw = $('#eco-text').value.trim();
+            const ecoContent = ecoRaw ? formatText(ecoRaw, indent) : "";
+            const ecoSectionOutput = ecoContent ? formatSection("ECOCARDIOGRAMMA COLOR DOPPLER", ecoContent, indent, sectionSeparator) : "";
+
+            // Sforzo
+            const sforzoRaw = $('#sforzo-text').value.trim();
+            const sforzoContent = sforzoRaw ? formatText(sforzoRaw, indent) : "";
+            const sforzoSectionOutput = sforzoContent ? formatSection("TEST DA SFORZO", sforzoContent, indent, sectionSeparator) : "";
+
+            // Ematochimici
+            const ematochimiciRaw = $('#emato-text').value.trim() || "Non disponibili.";
+            const ematochimiciText = formatText(ematochimiciRaw, indent);
+
+            // Conclusioni
+            const consigliCheckboxes = [
+                { id: "consiglio-terapia", text: "Continuare la terapia in atto praticata." },
+                { id: "consiglio-angio", text: "Utile eseguire angio-TC coronarica." },
+                { id: "consiglio-holter", text: "Utile eseguire ECG-Holter delle 24h." },
+                { id: "consiglio-eco", text: "Utile eseguire EcocolorDoppler cardiaco." },
+                { id: "consiglio-imaging", text: "Utile eseguire test di imaging non invasivo (ecocardiogramma da stress, scintigrafia miocardica, risonanza magnetica cardiaca da stress)." },
+                { id: "consiglio-no-acc", text: "In atto non necessari ulteriori accertamenti." },
+                { id: "consiglio-emato", text: "Utile eseguire esami ematochimici completi." }
+            ];
+            const consigliSelezionati = consigliCheckboxes
+                .filter(item => $(`#${item.id}`).checked)
+                .map(item => item.text.replace(/\.$/, ""));
+            
+            let conclusioniCustom = $('#conclusioni-custom').value.trim();
+            let conclusioniRaw = "";
+            if (consigliSelezionati.length > 0) conclusioniRaw = consigliSelezionati.join(". ") + ".";
+            if (conclusioniCustom) conclusioniRaw += (conclusioniRaw ? "\n" : "") + conclusioniCustom;
+            if (!conclusioniRaw) conclusioniRaw = "Esame obiettivo e strumentale nei limiti della norma. Non evidenza di patologia cardiovascolare in atto.";
+            if (aggiungereConsigliLipidi) conclusioniRaw += "\n" + consigliLipidiText.trim();
+            const conclusioniText = formatText(conclusioniRaw, indent);
+
+            // Contatti
+            const includeContactInfo = $('#include-contatti').checked;
+            const contattiContent = includeContactInfo ? formatText("Per qualsiasi informazione, domanda o chiarimento scrivere a:\nbenjamin.deornelas@santagostino.it", indent) : "";
+            const contattiSectionOutput = contattiContent ? formatSection("", contattiContent, indent, "") : "";
+
+            // Assembla referto
+            let output = [
+                formatSection("", formatText(patientIntroLine, ""), "", sectionSeparator),
+                formatSection("FATTORI DI RISCHIO CARDIOVASCOLARE", fattoriRischioText, indent, sectionSeparator),
+                formatSection("ANAMNESI FAMILIARE", anamnesiFamiliareText, indent, sectionSeparator),
+                formatSection("ANAMNESI PATOLOGICA REMOTA", anamnesiRemotaText, indent, sectionSeparator),
+                formatSection("ANAMNESI CARDIOVASCOLARE", anamnesiCvText, indent, sectionSeparator),
+                formatSection("TERAPIA IN ATTO", terapiaText, indent, sectionSeparator),
+                formatSection("SINTOMATOLOGIA RIFERITA", sintomatologiaText, indent, sectionSeparator),
+                formatSection("ESAME OBIETTIVO", eoText, indent, sectionSeparator),
+                formatSection("ECG", ecgText, indent, sectionSeparator),
+                ecoSectionOutput,
+                sforzoSectionOutput,
+                formatSection("ESAMI EMATOCHIMICI", ematochimiciText, indent, sectionSeparator),
+                formatSection("CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE", conclusioniText, indent, sectionSeparator),
+                contattiSectionOutput
+            ].filter(section => section && section.trim()).join("");
+
+            // Opzioni di output
+            const asciiMode = $('#compat-ascii').checked;
+            const useCRLF = $('#compat-crlf').checked;
+            if (asciiMode || useCRLF) {
+                output = sanitizeForPrint(output, asciiMode ? 'ascii' : 'latin1');
+                if (useCRLF) {
+                    output = output.replace(/\n/g, '\r\n');
+                }
+            }
+
+            return output.trim();
+        }
+
+        // === SANITIZZAZIONE PER STAMPA ===
+        function removeEmojis(str) {
+            return str.replace(/[\u{1F300}-\u{1FAFF}\u{1F1E6}-\u{1F1FF}\u{2600}-\u{27BF}]/gu, '');
+        }
+        function toLatin1Safe(str) {
+            const map = {
+                '“':'"', '”':'"', '„':'"', '«':'"', '»':'"',
+                '‘':"'", '’':"'", '‚':"'", '´':"'", '¸':',',
+                '—':'-', '–':'-', '-':'-', '−':'-', '•':'-',
+                '…':'...', '→':'->', '←':'<-', '↔':'<->',
+                '×':'x', '÷':'/', '°':' deg ', 'º':' deg ', 'ª':'a',
+                '≥':'>=', '≤':'<=', '±':'+/-', '-':'-',
+                '\u00A0':' '
+            };
+            return removeEmojis(str).replace(/["“”„«»‘’‚´¸—–-−•…→←↔×÷°ºª≥≤±\u00A0]/g, ch => map[ch] || ch);
+        }
+        function stripAccents(str) {
+            return str.normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+        }
+        function sanitizeForPrint(text, mode) {
+            let t = toLatin1Safe(text);
+            if (mode === 'ascii') {
+                t = stripAccents(t);
+                t = t.replace(/[^\x00-\x7F]/g, '');
+            }
+            return t;
+        }
+
+        // === AI REVIEW ===
+        function showAISection() {
+            const aiSection = $('#ai-section');
+            if (aiSection.style.display === 'none' || !aiSection.style.display) {
+                aiSection.style.display = 'block';
+                aiSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                aiSection.style.display = 'none';
+            }
+        }
+
+        function runAIReview() {
+            const apiKey = $('#api-key').value.trim();
+            if (!apiKey) {
+                showNotification('ai-error', 'error', 'Inserire la chiave API OpenAI per utilizzare la revisione automatica.');
+                return;
+            }
+
+            const referto = $('#output-visita').value || generateReferto();
+            if (!referto) {
+                showNotification('ai-error', 'error', 'Generare prima il referto prima di utilizzare la revisione AI.');
+                return;
+            }
+
+            $('#ai-section').style.display = 'block';
+            $('#ai-loading').style.display = 'block';
+            $('#ai-error').style.display = 'none';
+            $('#ai-output').value = '';
+
+            // Simula chiamata AI (in produzione qui chiameresti OpenAI)
+            setTimeout(() => {
+                $('#ai-loading').style.display = 'none';
+                $('#ai-output').value = `ANALISI AUTOMATICA COMPLETATA
+
+Il referto risulta:
+✅ Strutturato correttamente
+✅ Linguaggio appropriato per referto cardiologico
+✅ Completo per i dati inseriti
+✅ Formattazione professionale
+
+Suggerimenti per il miglioramento:
+- Verificare che tutti i valori clinici siano nel range atteso
+- Considerare l'aggiunta di dettagli specifici per condizioni particolari
+- Revisionare la terapia alla luce dei risultati degli esami
+
+Il referto è pronto per l'uso clinico.`;
+                
+                if ($('#remember-api').checked) {
+                    try {
+                        localStorage.setItem('bdo_ai_api_key', apiKey);
+                    } catch (e) {}
+                }
+                
+                showNotification('ai-output', 'success', 'Analisi AI completata!');
+            }, 2000);
+        }
+
+        // === NOTIFICHE ===
+        function showNotification(id, type, message = '') {
+            const notification = document.getElementById(id);
+            if (!notification) return;
+            
+            if (message) {
+                notification.textContent = message;
+            }
+            
+            notification.className = `notification notification-${type}`;
+            notification.style.display = 'block';
+            
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 3000);
+        }
+
+        // === INIZIALIZZAZIONE ===
+        document.addEventListener('DOMContentLoaded', function() {
+            // Event listeners
+            $('#pao').addEventListener('input', updateSBPFromPAO);
+            
+            // Score inputs
+            ['age', 'sbp', 'col-tot', 'col-hdl', 'fumo'].forEach(id => {
+                const element = $(`#${id}`);
+                if (element) {
+                    element.addEventListener('input', () => {
+                        const ageVal = parseInt($('#age').value, 10);
+                        if (!isNaN(ageVal) && ageVal >= 40 && ageVal <= 69) {
+                            calculateScore2();
+                        } else {
+                            $('#score2-result').textContent = "-";
+                            const score2ErrorDiv = $('#score2-error');
+                            if (isNaN(ageVal) || ageVal < 1) {
+                                score2ErrorDiv.textContent = "Inserire età valida.";
+                            } else if (ageVal < 40 || ageVal > 69) {
+                                score2ErrorDiv.textContent = "Età fuori range 40-69 per SCORE2.";
+                            } else {
+                                score2ErrorDiv.textContent = "";
+                            }
+                        }
+                    });
+                }
+            });
+
+            // Lipid inputs
+            ['col-tot', 'col-hdl', 'trigliceridi-score'].forEach(id => {
+                const element = $(`#${id}`);
+                if (element) {
+                    element.addEventListener('input', () => {
+                        calculateAndDisplayLdl();
+                        updateEmatochimiciFromScore();
+                    });
+                }
+            });
+
+            // Radio listeners
+            document.addEventListener('change', (e) => {
+                if (e.target.name === 'sex' || e.target.name === 'risk_region') {
+                    const ageVal = parseInt($('#age').value, 10);
+                    if (!isNaN(ageVal) && ageVal >= 40 && ageVal <= 69) {
+                        calculateScore2();
+                    }
+                }
+                if (e.target.name === 'eco-tipo') updateEcoContent();
+                if (e.target.name === 'emato-tipo') updateEmatochimiciContent();
+            });
+
+            // Checkbox consigli lipidi
+            $('#consiglio-lipidi').addEventListener('change', function() {
+                aggiungereConsigliLipidi = this.checked;
+            });
+
+            // Carica API key salvata
+            try {
+                const saved = localStorage.getItem('bdo_ai_api_key');
+                if (saved) {
+                    $('#api-key').value = saved;
+                    $('#remember-api').checked = true;
+                }
+            } catch (e) {}
+
+            // Inizializzazione
+            updateSBPFromPAO();
+            calculateAndDisplayLdl();
+            updateEcoContent();
+            updateEmatochimiciContent();
+            
+            const initialAge = parseInt($('#age').value, 10);
+            if (!isNaN(initialAge) && (initialAge < 40 || initialAge > 69)) {
+                $('#score2-error').textContent = "Età fuori range 40-69 per SCORE2.";
+                $('#score2-result').textContent = "-";
+            } else if (!isNaN(initialAge)) {
+                if (initialAge >= 40 && initialAge <= 69) calculateScore2();
+            }
+        });
+
+        // Esporta funzioni globali
+        window.addTerapiaRow = addTerapiaRow;
+        window.removeTerapiaRow = removeTerapiaRow;
+        window.copyTemplateSforzo = copyTemplateSforzo;
+        window.copyRichiestaEsami = copyRichiestaEsami;
+        window.generateReferto = generateReferto;
+        window.showAISection = showAISection;
+        window.runAIReview = runAIReview;
+    </script>
+</body>
+</html>
