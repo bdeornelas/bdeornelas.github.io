@@ -1,0 +1,10 @@
+- [ ] Analizzare lo stile divulgativo Humanitas per prendere spunto
+- [ ] Creare calendario date per gli articoli (dal 1 settembre 2025)
+- [ ] Correggere errori HTML critici (fibrillazione atriale)
+- [ ] Migliorare la lista articoli con date distribuite
+- [ ] Riscrivere testi per renderli più umani e divulgativi
+- [ ] Ridurre lunghezza delle frasi per maggiore leggibilità
+- [ ] Uniformare il tono mantenendo l'empatia
+- [ ] Eliminare ripetizioni e consolidare informazioni
+- [ ] Aggiungere riferimenti bibliografici
+- [ ] Controllo qualità finale e spell-check
