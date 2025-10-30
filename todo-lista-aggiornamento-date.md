@@ -4,7 +4,7 @@
 **Totale articoli:** 44  
 **Data inizio:** 30 ottobre 2025
 
-## 📊 **PROGRESSO ATTUALE: 4/44 ARTICOLI (9%)**
+## 📊 **PROGRESSO ATTUALE: 5/44 ARTICOLI (11%)**
 
 ---
 
@@ -15,7 +15,7 @@
 
 ### 🔄 **FASE 2: ARTICOLI A-C (CONTINUAZIONE) - IN CORSO**
 - [x] **Apnee del Sonno e Cuore** → 4 settembre 2025
-- [ ] **Arteriopatia Periferica** → 5 settembre 2025
+- [x] **Arteriopatia Periferica** → 5 settembre 2025
 - [ ] **Attività Fisica e Cuore** → 6 settembre 2025
 
 ### 📅 **FASE 3: ARTICOLI B-C (SETTEMBRE 6-12)**
