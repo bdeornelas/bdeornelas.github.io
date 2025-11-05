@@ -1,7 +1,7 @@
 {
   "buildCommand": "bundle install && bundle exec jekyll build && npm run build",
   "outputDirectory": "_site",
-  "installCommand": "gem install bundler:2.4.22 && bundle install && npm install",
+  "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
   "build": {
     "env": {
