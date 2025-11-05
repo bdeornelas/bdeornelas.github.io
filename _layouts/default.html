@@ -181,10 +181,81 @@
 </head>
 <body class="bg-slate-900 text-gray-200">
 
-  <!-- DECORAZIONE SFONDO -->
+  <!-- ECG ULTRA-REALISTIC BACKGROUND -->
+  <div class="ecg-background">
+    <svg class="ecg-background-svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <!-- Premium gradient: Sky Blue → Purple -->
+        <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+          <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.8" />
+          <stop offset="45%" stop-color="#38bdf8" stop-opacity="1" />
+          <stop offset="55%" stop-color="#a78bfa" stop-opacity="1" />
+          <stop offset="85%" stop-color="#a78bfa" stop-opacity="0.8" />
+          <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.3" />
+        </linearGradient>
+
+        <!-- Medical-grade ECG grid (90% opacity) -->
+        <pattern id="ecgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+          <!-- Major grid lines -->
+          <rect width="20" height="20" fill="none" stroke="rgba(56, 189, 248, 0.09)" stroke-width="1"/>
+          <!-- Minor grid lines -->
+          <line x1="4" y1="0" x2="4" y2="20" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="8" y1="0" x2="8" y2="20" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="12" y1="0" x2="12" y2="20" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="16" y1="0" x2="16" y2="20" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="0" y1="4" x2="20" y2="4" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="0" y1="8" x2="20" y2="8" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="0" y1="12" x2="20" y2="12" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+          <line x1="0" y1="16" x2="20" y2="16" stroke="rgba(56, 189, 248, 0.036)" stroke-width="0.5"/>
+        </pattern>
+
+        <!-- Premium glow filter (80% intensity) -->
+        <filter id="premiumGlow">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur1"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="blur2"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="4.8" result="blur3"/>
+          <feMerge>
+            <feMergeNode in="blur3"/>
+            <feMergeNode in="blur2"/>
+            <feMergeNode in="blur1"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+
+      <!-- Medical grid background -->
+      <rect width="100%" height="100%" fill="url(#ecgGrid)"/>
+
+      <!-- Single ultra-realistic ECG trace (amplitude: 70%) -->
+      <g class="ecg-primary">
+        <path d="M 0,50 L 80,50 Q 95,50 100,44.4 Q 105,44.4 110,50 L 145,50 L 150,53.5 L 155,44.4 L 160,4.5 L 165,58.4 L 170,50 L 205,50 Q 220,39.5 240,37.4 Q 260,39.5 275,50 L 800,50"
+              fill="none"
+              stroke="url(#ecgGradient)"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              filter="url(#premiumGlow)"
+              class="ecg-glow"/>
+      </g>
+
+      <!-- Secondary wave for seamless loop -->
+      <g class="ecg-secondary">
+        <path d="M 0,50 L 80,50 Q 95,50 100,44.4 Q 105,44.4 110,50 L 145,50 L 150,53.5 L 155,44.4 L 160,4.5 L 165,58.4 L 170,50 L 205,50 Q 220,39.5 240,37.4 Q 260,39.5 275,50 L 800,50"
+              fill="none"
+              stroke="url(#ecgGradient)"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              filter="url(#premiumGlow)"
+              class="ecg-glow"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- SUBTLE GLOW OVERLAY -->
   <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
-    <div class="absolute inset-0 -z-10 h-full w-full bg-slate-900 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/20 blur-3xl pulse-glow-animation"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/10 blur-3xl pulse-glow-animation"></div>
   </div>
 
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
