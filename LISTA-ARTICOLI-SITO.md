@@ -100,7 +100,7 @@ Iniziare con articoli più comuni/richiesti:
 12. ✅ **insufficienza-mitralica** ← COMPLETATO (commit 067793f)
 13. ✅ **soffio-al-cuore** ← COMPLETATO (commit d9c4671)
 14. ✅ **stenosi-mitralica** ← COMPLETATO (commit 84b45aa)
-15. ⏳ insufficienza-aortica
+15. ✅ **insufficienza-aortica** ← COMPLETATO (commit e80eeae)
 16. ⏳ insufficienza-tricuspidale
 
 ### FASE 5 - Altri (priorità media-bassa)
