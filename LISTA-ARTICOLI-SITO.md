@@ -88,12 +88,12 @@ Iniziare con articoli più comuni/richiesti:
 ### FASE 2 - Cardiopatia ischemica (priorità alta)
 5. ✅ **angina-pectoris** ← COMPLETATO
 6. ✅ **infarto-miocardico** ← COMPLETATO
-7. ⏳ **malattia-coronarica** ← PROSSIMO
+7. ✅ **malattia-coronarica** ← COMPLETATO (commit 76fcf54)
 
 ### FASE 3 - Prevenzione (priorità media-alta)
-8. ⏳ ipertensione-arteriosa
-9. ⏳ colesterolo-alto
-10. ⏳ prevenzione-cardiovascolare
+8. ✅ **ipertensione-arteriosa** ← COMPLETATO (commit fc7577f)
+9. ✅ **colesterolo-alto** ← COMPLETATO (commit 7800826)
+10. ⏳ prevenzione-cardiovascolare ← IN PROGRESS
 
 ### FASE 4 - Valvulopatie (priorità media)
 11. ⏳ stenosi-aortica
