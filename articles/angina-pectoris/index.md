@@ -49,7 +49,7 @@ date: 2025-09-02
       </div>
       <div class="flex items-center gap-2">
         <i data-lucide="tag" class="w-4 h-4"></i>
-        Angina, Coronaropatia, Ischemia Miocardica
+        Angina, Coronaropatia, Dolore al Petto
       </div>
     </div>
   </div>
@@ -58,18 +58,47 @@ date: 2025-09-02
 <article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
 
   <section class="mb-12">
+    <div class="highlight-box rounded-lg p-6 mb-8">
+      <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2">
+        <i data-lucide="book-open" class="w-5 h-5 text-sky-400"></i>
+        LE BASI
+      </h2>
+      <div class="space-y-4 text-slate-300">
+        <p class="leading-relaxed">
+          L'angina è un dolore o fastidio al petto che compare quando il cuore non riceve abbastanza sangue. Di solito si manifesta durante uno sforzo fisico o un momento di stress, e migliora quando vi riposate.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Cause:</strong> Il problema più comune è il restringimento delle arterie che portano il sangue al cuore, causato da depositi di grasso sulle pareti dei vasi.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Sintomi:</strong> Dolore o pressione al centro del petto, che può estendersi al braccio sinistro, mandibola o collo. Alcune persone sentono affanno o stanchezza invece del dolore classico.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Diagnosi:</strong> Il medico fa domande sui vostri sintomi, vi visita, e può prescrivere esami come l'elettrocardiogramma o il test da sforzo.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Trattamento:</strong> Include farmaci per controllare i sintomi e prevenire l'infarto, cambiamenti nello stile di vita, e a volte interventi come l'angioplastica o il bypass.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Prognosi:</strong> Con le cure appropriate, la maggior parte delle persone può controllare bene i sintomi e vivere una vita normale.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-12">
     <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
       <i data-lucide="info" class="w-6 h-6 text-rose-400"></i>
       <span class="text-white">Cos'è l'angina pectoris?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      L'angina pectoris, o semplicemente "angina", è una sindrome clinica caratterizzata da dolore o disagio toracico causato da ischemia miocardica transitoria (apporto insufficiente di ossigeno al muscolo cardiaco). Si verifica quando il flusso di sangue attraverso le arterie coronarie non è sufficiente a soddisfare le richieste metaboliche del miocardio.
+      L'angina pectoris, chiamata più semplicemente "angina", è un dolore o fastidio al petto che compare quando il cuore non riceve abbastanza sangue e ossigeno per il suo lavoro. Immaginate il cuore come un motore: quando deve lavorare di più (per esempio durante una camminata veloce o salendo le scale), ha bisogno di più "carburante" (sangue e ossigeno). Se le arterie che portano il sangue al cuore sono ristrette, non arriva abbastanza carburante, e il cuore "protesta" causando dolore.
     </p>
     <p class="text-slate-300 leading-relaxed mb-6">
-      L'ischemia miocardica si sviluppa tipicamente quando c'è un restringimento (stenosi) delle arterie coronarie causato da placche aterosclerotiche. Durante lo sforzo fisico o stress emotivo, il cuore richiede più ossigeno, ma le arterie stenotiche non riescono ad aumentare adeguatamente il flusso, causando ischemia. A differenza dell'infarto miocardico, l'ischemia anginosa è reversibile e non causa necrosi permanente del tessuto cardiaco.
+      Questo restringimento delle arterie del cuore è solitamente causato da depositi di grasso e altre sostanze che si accumulano sulle pareti interne dei vasi sanguigni, un po' come quando si forma del calcare nei tubi dell'acqua. Quando fate uno sforzo fisico o vivete un momento di forte emozione, il cuore batte più velocemente e ha bisogno di più sangue, ma le arterie ristrette non riescono a portare abbastanza sangue. A differenza dell'infarto, nell'angina il cuore non subisce danni permanenti: quando vi riposate, il dolore passa e il cuore torna normale.
     </p>
     <p class="text-slate-300 leading-relaxed">
-      Le cause principali comprendono: aterosclerosi coronarica (causa più frequente), spasmo coronarico (angina di Prinzmetal), malattia microvascolare coronarica, ponti miocardici, dissecazione coronarica spontanea. Fattori scatenanti includono esercizio fisico, stress emotivo, esposizione al freddo, pasti abbondanti, condizioni che aumentano il consumo di ossigeno (febbre, anemia, tachiaritmie).
+      L'angina può essere provocata da diverse situazioni: attività fisica, stress emotivo intenso, esposizione al freddo (che fa stringere i vasi sanguigni), pasti abbondanti (che richiedono più lavoro al cuore per la digestione), febbre, o condizioni che fanno battere il cuore molto velocemente. A volte, anche senza questi depositi di grasso, le arterie del cuore possono stringersi temporaneamente a causa di uno "spasmo" del muscolo della parete del vaso.
     </p>
   </section>
 
@@ -79,56 +108,56 @@ date: 2025-09-02
       <span class="text-white">Quali sono i tipi di angina?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      L'angina si classifica in base alle caratteristiche cliniche e al rischio:
+      I medici distinguono diversi tipi di angina in base a come si presenta e al livello di preoccupazione:
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Angina stabile cronica</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Angina stabile</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Angina con pattern prevedibile e sintomi invariati da almeno 2 mesi. Caratteristiche:
+        È il tipo più comune e "prevedibile" di angina. Si chiama stabile perché si comporta sempre allo stesso modo da almeno due mesi. Caratteristiche tipiche:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Scatenata da livelli riproducibili di attività fisica o stress</li>
-        <li>Durata tipica 2-10 minuti</li>
-        <li>Risponde a riposo o nitroglicerina sublinguale entro 3-5 minuti</li>
-        <li>Frequenza e gravità costanti nel tempo</li>
+        <li>Compare sempre con lo stesso tipo di attività (per esempio, salendo due rampe di scale o camminando veloce per 10 minuti)</li>
+        <li>Dura solitamente pochi minuti (da 2 a 10 minuti)</li>
+        <li>Passa se vi fermate a riposare o se prendete la medicina che vi ha dato il medico (una pasticca che si mette sotto la lingua)</li>
+        <li>La frequenza e l'intensità rimangono costanti nel tempo</li>
       </ul>
       <p class="text-slate-300 mt-4">
-        La classificazione della Canadian Cardiovascular Society (CCS) stratifica la gravità in base alla limitazione funzionale:
+        I medici classificano la gravità dell'angina stabile in quattro livelli, in base a quanto limita la vostra vita quotidiana:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mt-3">
-        <li><strong class="text-white">Classe I:</strong> Attività fisica abituale non provoca angina. Sintomi solo durante sforzi intensi, rapidi o prolungati</li>
-        <li><strong class="text-white">Classe II:</strong> Lieve limitazione dell'attività ordinaria. Angina camminando rapidamente, salendo più di un piano di scale, dopo pasti o con freddo</li>
-        <li><strong class="text-white">Classe III:</strong> Limitazione marcata. Angina camminando 100-200 metri in piano o salendo un piano di scale a velocità normale</li>
-        <li><strong class="text-white">Classe IV:</strong> Impossibilità di svolgere qualsiasi attività fisica senza disagio. Angina può verificarsi a riposo</li>
+        <li><strong class="text-white">Livello 1 (molto lieve):</strong> Le normali attività quotidiane non provocano dolore. Il dolore compare solo durante sforzi intensi o prolungati, come correre o fare lavori pesanti</li>
+        <li><strong class="text-white">Livello 2 (lieve):</strong> Leggera limitazione nelle attività normali. Il dolore compare camminando velocemente, salendo più di una rampa di scale, soprattutto dopo mangiato o quando fa freddo</li>
+        <li><strong class="text-white">Livello 3 (moderato):</strong> Limitazione importante. Il dolore compare camminando in piano per 100-200 metri o salendo una sola rampa di scale a velocità normale</li>
+        <li><strong class="text-white">Livello 4 (severo):</strong> Impossibilità di fare qualsiasi attività senza dolore. Il dolore può comparire anche stando fermi a riposo</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Angina instabile (sindrome coronarica acuta)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Angina instabile (situazione urgente)</h3>
     <div class="warning-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Condizione ad alto rischio che rappresenta una progressione della malattia coronarica. Caratteristiche che definiscono l'instabilità:
+        Questo tipo di angina è molto più preoccupante e richiede attenzione medica immediata. Si verifica quando la situazione delle arterie del cuore peggiora improvvisamente. I segnali d'allarme sono:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Angina a riposo:</strong> Dolore prolungato (>10-20 minuti) che si verifica senza fattori scatenanti evidenti</li>
-        <li><strong class="text-white">Angina di nuova insorgenza:</strong> Comparsa recente (entro 2 mesi) di angina severa (CCS III o IV)</li>
-        <li><strong class="text-white">Angina in crescendo:</strong> Peggioramento di angina precedentemente stabile con aumento di frequenza, gravità, durata o ridotta risposta ai farmaci</li>
+        <li><strong class="text-white">Dolore a riposo:</strong> Il dolore compare anche quando siete fermi, senza aver fatto alcuno sforzo, e dura più di 10-20 minuti</li>
+        <li><strong class="text-white">Dolore nuovo:</strong> Non avevate mai avuto angina prima, e improvvisamente iniziate ad avere dolori frequenti e intensi che limitano molto le vostre attività</li>
+        <li><strong class="text-white">Dolore in peggioramento:</strong> Se avevate già l'angina, ma negli ultimi tempi è peggiorata: viene più spesso, dura di più, è più forte, o non passa più come prima con il riposo o con la medicina</li>
       </ul>
       <p class="text-slate-300 mt-4">
-        L'angina instabile è causata da rottura o erosione di placca aterosclerotica con formazione di trombo parzialmente occlusivo. Rappresenta una fase intermedia tra angina stabile e infarto miocardico. Richiede ospedalizzazione urgente e trattamento intensivo per prevenire l'infarto.
+        L'angina instabile si verifica quando i depositi di grasso nelle arterie diventano instabili e si rompono, formando un coagulo di sangue che blocca parzialmente il flusso. Questa è una situazione a metà strada tra l'angina stabile e l'infarto vero e proprio. Se avete questi sintomi, dovete andare subito al pronto soccorso: è necessario un ricovero urgente per prevenire che si sviluppi un infarto.
       </p>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Angina vasospastica (Prinzmetal)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Angina da spasmo (o variante di Prinzmetal)</h3>
     <div class="info-step rounded-lg p-6">
       <p class="text-slate-300 mb-3">
-        Forma rara causata da spasmo coronarico transitorio, tipicamente senza stenosi aterosclerotiche significative:
+        Questo è un tipo raro di angina causato da uno "spasmo" (una contrazione improvvisa) delle arterie del cuore, anche senza i depositi di grasso che causano gli altri tipi di angina. Caratteristiche tipiche:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Si verifica tipicamente a riposo, spesso nelle ore notturne o al mattino presto</li>
-        <li>Pattern ciclico con episodi che si ripetono alla stessa ora</li>
-        <li>Risponde rapidamente a nitrati o calcio-antagonisti</li>
-        <li>ECG durante l'episodio mostra sopraslivellamento ST transitorio</li>
+        <li>Compare di solito quando siete a riposo, spesso di notte o al mattino presto</li>
+        <li>Tende a ripetersi in modo ciclico, spesso alla stessa ora del giorno o della notte</li>
+        <li>Passa rapidamente con le medicine che rilassano le arterie</li>
+        <li>Durante l'episodio, l'elettrocardiogramma mostra dei cambiamenti particolari che poi tornano normali</li>
       </ul>
     </div>
   </section>
@@ -139,44 +168,44 @@ date: 2025-09-02
       <span class="text-white">Quali sono i sintomi dell'angina?</span>
     </h2>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Presentazione tipica</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Come si presenta tipicamente</h3>
     <div class="highlight-box rounded-lg p-6 mb-6">
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Qualità del dolore:</strong> Oppressione, costrizione, peso o pressione retrosternale. Non è tipicamente dolore trafittivo, lancinante o localizzato in un punto preciso</li>
-        <li><strong class="text-white">Sede:</strong> Retrosternale centrale o precordiale sinistra. Area di 10-15 cm di diametro (non puntiforme)</li>
-        <li><strong class="text-white">Irradiazione:</strong> Può estendersi a braccio sinistro (soprattutto superficie ulnare), mandibola, collo, dorso interscapolare, braccio destro. Occasionalmente epigastrio</li>
-        <li><strong class="text-white">Durata:</strong> Tipicamente 2-10 minuti. Dolore che dura meno di 30 secondi raramente è anginoso. Dolore persistente oltre 15-20 minuti suggerisce infarto miocardico</li>
-        <li><strong class="text-white">Fattori scatenanti:</strong> Esercizio fisico, stress emotivo, esposizione al freddo, pasti abbondanti</li>
-        <li><strong class="text-white">Risposta al trattamento:</strong> Sollievo con riposo entro 5-10 minuti o con nitroglicerina sublinguale entro 3-5 minuti</li>
+        <li><strong class="text-white">Tipo di dolore:</strong> La maggior parte delle persone descrive una sensazione di oppressione, peso o pressione al centro del petto, come se qualcuno stesse schiacciando o stringendo. Non è un dolore acuto come una puntura o una coltellata, e non si può indicare un punto preciso con un dito</li>
+        <li><strong class="text-white">Dove si sente:</strong> Al centro del petto o nella parte sinistra, dietro lo sterno (l'osso centrale del petto). L'area interessata è abbastanza grande, di circa 10-15 centimetri, non un singolo punto</li>
+        <li><strong class="text-white">Dove può diffondersi:</strong> Il dolore può estendersi verso il braccio sinistro (soprattutto dalla parte del mignolo), la mandibola, il collo, la schiena tra le scapole, o anche il braccio destro. Talvolta può essere sentito alla bocca dello stomaco</li>
+        <li><strong class="text-white">Quanto dura:</strong> Di solito da 2 a 10 minuti. Se dura meno di 30 secondi, probabilmente non è angina. Se dura più di 15-20 minuti senza passare, potrebbe essere un infarto e dovete chiamare subito il 112/118</li>
+        <li><strong class="text-white">Cosa lo scatena:</strong> Attività fisica (camminare, salire le scale, portare borse pesanti), forti emozioni o stress, esposizione al freddo, pasti abbondanti</li>
+        <li><strong class="text-white">Cosa fa passare il dolore:</strong> Fermarsi e riposare (il dolore passa entro 5-10 minuti) oppure prendere la medicina che avete sotto la lingua (che fa effetto in 3-5 minuti)</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Equivalenti anginosi</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Sintomi diversi dal dolore al petto</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Alcune persone, specialmente donne, anziani e diabetici, presentano ischemia miocardica senza dolore toracico tipico:
+        Alcune persone, soprattutto donne, anziani e persone con diabete, possono avere sintomi diversi dal classico dolore al petto:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Dispnea da sforzo:</strong> Affanno durante attività fisica, specialmente frequente negli anziani</li>
-        <li><strong class="text-white">Astenia:</strong> Fatica eccessiva durante sforzi che prima erano ben tollerati</li>
-        <li><strong class="text-white">Sintomi digestivi:</strong> Dolore epigastrico, nausea, sensazione di pienezza gastrica</li>
-        <li><strong class="text-white">Vertigini o sincope:</strong> Da ridotta gittata cardiaca</li>
-        <li><strong class="text-white">Ischemia silente:</strong> Assenza completa di sintomi nonostante ischemia documentabile, comune nei diabetici</li>
+        <li><strong class="text-white">Affanno improvviso:</strong> Vi manca il respiro durante attività che prima facevate senza problemi. Questo è particolarmente comune nelle persone anziane</li>
+        <li><strong class="text-white">Stanchezza intensa:</strong> Vi sentite improvvisamente molto stanchi e deboli facendo cose che prima tolleravate bene</li>
+        <li><strong class="text-white">Disturbi digestivi:</strong> Dolore o fastidio alla bocca dello stomaco, nausea, sensazione di pienezza o pesantezza allo stomaco</li>
+        <li><strong class="text-white">Capogiri o svenimenti:</strong> Causati dal fatto che il cuore non riesce a pompare abbastanza sangue</li>
+        <li><strong class="text-white">Nessun sintomo:</strong> Alcune persone, specialmente chi ha il diabete, possono non sentire alcun dolore anche quando il cuore non riceve abbastanza sangue (si chiama "angina silente")</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Quando richiedere valutazione urgente</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Quando andare immediatamente al pronto soccorso</h3>
     <div class="warning-box rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        Le seguenti situazioni richiedono valutazione immediata in pronto soccorso:
+        Chiamate subito il 112/118 se avete una di queste situazioni:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Dolore toracico a riposo che dura oltre 15-20 minuti</li>
-        <li>Angina di nuova insorgenza con sintomi severi</li>
-        <li>Angina in crescendo (aumento della frequenza, gravità o durata)</li>
-        <li>Angina che non risponde a nitroglicerina sublinguale dopo 2-3 somministrazioni</li>
-        <li>Sintomi associati: dispnea grave, sudorazione profusa, nausea/vomito, sincope</li>
-        <li>Angina con nuovo soffio cardiaco, rantoli polmonari o ipotensione</li>
+        <li>Dolore al petto che dura più di 15-20 minuti, anche stando fermi a riposo</li>
+        <li>Dolore al petto che non avete mai avuto prima e che è forte e limitante</li>
+        <li>Il vostro solito dolore da angina che sta diventando sempre più frequente, più forte o dura di più</li>
+        <li>Il dolore non passa dopo aver preso la medicina sotto la lingua 2-3 volte</li>
+        <li>Insieme al dolore avete: forte mancanza di respiro, sudorazione abbondante, nausea o vomito, svenimento</li>
+        <li>Insieme al dolore il medico sente un soffio nuovo al cuore, sentite rumori al petto, o avete la pressione molto bassa</li>
       </ul>
     </div>
   </section>
@@ -187,81 +216,78 @@ date: 2025-09-02
       <span class="text-white">Come viene diagnosticata l'angina?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La diagnosi di angina si basa su valutazione clinica, stratificazione del rischio ed esami strumentali per documentare l'ischemia e definire l'anatomia coronarica.
+      Per capire se avete l'angina e quanto è grave, il medico usa diversi strumenti: raccoglie informazioni su di voi e sui vostri sintomi, vi visita, e può richiedere vari esami.
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Valutazione iniziale</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Prima valutazione</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        La valutazione clinica include:
+        Il medico inizia con:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Anamnesi dettagliata delle caratteristiche del dolore toracico</li>
-        <li>Identificazione dei fattori di rischio cardiovascolare (età, sesso, ipertensione, diabete, dislipidemia, fumo, familiarità)</li>
-        <li>Esame obiettivo cardiovascolare</li>
-        <li>ECG a 12 derivazioni a riposo (può essere normale nell'angina stabile; durante ischemia mostra sottoslivellamento ST, inversione onda T o sopraslivellamento ST nell'angina vasospastica)</li>
-        <li>Esami ematochimici: emocromo, funzione renale, lipidi, glicemia, troponina (esclude infarto acuto)</li>
+        <li>Una conversazione approfondita sui vostri sintomi: come si presenta il dolore, quando compare, quanto dura, cosa lo fa passare</li>
+        <li>Verifica se avete fattori di rischio per problemi al cuore: età, pressione alta, diabete, colesterolo alto, fumo, familiari che hanno avuto problemi cardiaci</li>
+        <li>Una visita al cuore e alla circolazione</li>
+        <li>Un elettrocardiogramma (ECG): un esame rapido e indolore che registra l'attività elettrica del cuore. Spesso è normale quando non avete dolore, ma può mostrare cambiamenti quando il cuore non riceve abbastanza sangue</li>
+        <li>Esami del sangue: per controllare il funzionamento generale dell'organismo, colesterolo, glicemia, e per escludere che ci sia stato un infarto</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Test provocativi per ischemia</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Test da sforzo</h3>
     <div class="highlight-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Test da sforzo (ECG sotto sforzo):</strong>
+        <strong class="text-white">Elettrocardiogramma sotto sforzo:</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Il paziente cammina su tapis roulant o pedala su cicloergometro con registrazione continua dell'ECG. Il carico di lavoro aumenta progressivamente secondo protocolli standardizzati (Bruce, Naughton).
-      </p>
-      <p class="text-slate-300 mb-4">
-        Criteri di positività: sottoslivellamento ST ≥1 mm orizzontale o descendente a 60-80 msec dal punto J, dolore anginoso tipico, riduzione della pressione arteriosa, aritmie ventricolari complesse.
+        Questo è uno degli esami più comuni. Vi fanno camminare su un tapis roulant o pedalare su una cyclette speciale mentre registrano continuamente l'elettrocardiogramma. La velocità o la resistenza aumentano gradualmente per far lavorare sempre di più il vostro cuore, fino a quando raggiungete un certo battito cardiaco o compaiono sintomi.
       </p>
       <p class="text-slate-300">
-        Sensibilità 65-70%, specificità 70-75%. Meno accurato in donne, pazienti con ECG basale alterato (blocco di branca, ipertrofia ventricolare sinistra, anomalie ST-T), pazienti che non raggiungono frequenza cardiaca target.
+        Il medico cerca cambiamenti nel tracciato dell'ECG che indicano che il cuore non sta ricevendo abbastanza sangue, oppure osserva se compare il vostro dolore tipico, se la pressione si abbassa in modo anomalo, o se il battito diventa irregolare. Questo test è abbastanza accurato, anche se può dare risultati meno chiari in alcune persone (per esempio nelle donne o in chi ha già problemi nel tracciato ECG di base).
       </p>
     </div>
 
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Imaging cardiaco da stress:</strong>
+        <strong class="text-white">Esami con immagini durante sforzo:</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Più accurati del semplice ECG da sforzo. Indicati quando l'ECG basale è alterato, capacità di esercizio limitata, o quando serve localizzare l'ischemia:
+        Questi esami sono più precisi del semplice ECG da sforzo. Il medico li prescrive quando l'ECG normale non è sufficiente, quando non potete fare esercizio fisico, o quando serve capire esattamente quale parte del cuore non riceve abbastanza sangue:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Ecocardiogramma da stress:</strong> Valuta la cinesi di parete durante/dopo sforzo o dopo stimolazione farmacologica (dobutamina). Sensibilità e specificità ~85%</li>
-        <li><strong class="text-white">Scintigrafia miocardica perfusionale (SPECT):</strong> Utilizza radioisotopi (Tc-99m sestamibi, Tc-99m tetrofosmin) per valutare la perfusione miocardica a riposo e sotto stress. Sensibilità ~85%, specificità ~70%</li>
-        <li><strong class="text-white">PET miocardica:</strong> Maggiore accuratezza (sensibilità ~90%, specificità ~90%), permette quantificazione assoluta del flusso coronarico. Costi elevati e disponibilità limitata</li>
-        <li><strong class="text-white">Risonanza magnetica cardiaca da stress:</strong> Valuta perfusione, funzione e viabilità miocardica. Elevata accuratezza, senza radiazioni ionizzanti</li>
+        <li><strong class="text-white">Ecocardiogramma da sforzo:</strong> È un'ecografia del cuore fatta mentre fate sforzo (o dopo aver ricevuto un farmaco che simula lo sforzo). Il medico vede in diretta se alcune parti del cuore non si muovono bene quando deve lavorare di più. È abbastanza preciso</li>
+        <li><strong class="text-white">Scintigrafia del cuore:</strong> Vi iniettano una sostanza leggermente radioattiva (sicura) che si distribuisce nel muscolo del cuore seguendo il flusso di sangue. Delle telecamere speciali fanno immagini del cuore a riposo e dopo lo sforzo, mostrando se alcune zone ricevono meno sangue durante lo sforzo</li>
+        <li><strong class="text-white">PET del cuore:</strong> Simile alla scintigrafia ma più preciso e con immagini di qualità migliore. Permette anche di misurare esattamente quanto sangue arriva al cuore. Costa di più ed è disponibile in pochi centri</li>
+        <li><strong class="text-white">Risonanza magnetica del cuore da sforzo:</strong> Fornisce immagini molto dettagliate del cuore e mostra il flusso di sangue, senza usare radiazioni</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Imaging anatomico coronarico</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Esami che vedono direttamente le arterie</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">TC coronarica (angioTC):</strong>
+        <strong class="text-white">TAC delle coronarie:</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Visualizza direttamente le arterie coronarie in modo non invasivo. Particolarmente utile in pazienti con probabilità pre-test bassa-intermedia:
+        Una TAC speciale che permette di vedere direttamente le arterie del cuore senza bisogno di cateteri. È particolarmente utile in persone con rischio basso-moderato di malattia coronarica:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Calcium score: quantifica la calcificazione coronarica. Score di 0 ha elevato valore predittivo negativo</li>
-        <li>Angiografia TC: visualizza stenosi coronariche. Elevata sensibilità (>95%) ma specificità moderata (~80%). Ottimo valore predittivo negativo (>95%): TC normale esclude coronaropatia significativa</li>
-        <li>Limitazioni: richiede frequenza cardiaca bassa (<65 bpm), calcificazioni estese riducono l'accuratezza, esposizione a radiazioni e mezzo di contrasto</li>
+        <li>Può misurare il "calcio" nelle arterie: se non c'è calcio, è molto improbabile che ci siano restringimenti importanti</li>
+        <li>Mostra se e dove ci sono restringimenti nelle arterie del cuore. È molto buona nell'escludere problemi: se la TAC è normale, si può essere molto tranquilli che non ci sono problemi coronarici importanti</li>
+        <li>Ha alcuni limiti: richiede un battito cardiaco lento (a volte serve prendere una medicina prima dell'esame), le immagini possono essere meno chiare se c'è molto calcio, e usa radiazioni e mezzo di contrasto</li>
       </ul>
     </div>
 
     <div class="warning-box rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Coronarografia invasiva:</strong>
+        <strong class="text-white">Coronarografia (cateterismo cardiaco):</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Gold standard per definire l'anatomia coronarica. Cateterismo arterioso (generalmente via radiale o femorale) con iniezione di mezzo di contrasto nelle coronarie e acquisizione di immagini radiologiche.
+        Questo è l'esame più accurato per vedere le arterie del cuore, considerato il "gold standard". Il medico inserisce un tubicino sottile (catetere) in un'arteria del polso o dell'inguine, lo fa arrivare fino alle arterie del cuore, inietta un liquido di contrasto, e fa delle radiografie che mostrano esattamente dove e quanto sono ristrette le arterie.
       </p>
       <p class="text-slate-300 mb-4">
-        Permette valutazione diretta della stenosi e, se necessario, misura della riserva frazionale di flusso (FFR - pressione distale/prossimale alla stenosi durante iperemia massimale; FFR ≤0.80 indica stenosi emodinamicamente significativa).
+        Durante questo esame, se necessario, il medico può anche misurare direttamente quanto sangue riesce a passare attraverso un restringimento per capire se è veramente importante e se va trattato.
       </p>
       <p class="text-slate-300">
-        Indicazioni: angina instabile, test non invasivi positivi ad alto rischio, angina refrattaria a terapia medica ottimale, necessità di definizione anatomica per pianificazione terapeutica.
+        Questo esame viene fatto quando: avete un'angina instabile (situazione urgente), altri esami hanno mostrato segni preoccupanti, i farmaci non riescono a controllare i sintomi, o serve pianificare un intervento (angioplastica o bypass).
       </p>
     </div>
   </section>
@@ -272,19 +298,19 @@ date: 2025-09-02
       <span class="text-white">Come si tratta l'angina con i farmaci?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La terapia farmacologica dell'angina ha due obiettivi: controllare i sintomi (ridurre ischemia e migliorare qualità di vita) e prevenire eventi cardiovascolari (infarto, morte).
+      I farmaci per l'angina hanno due scopi principali: controllare i sintomi (ridurre il dolore e permettervi di fare più attività) e prevenire eventi gravi come l'infarto.
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Farmaci antianginosi (controllo sintomi)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Farmaci per controllare i sintomi</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
         <strong class="text-white">Betabloccanti:</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Prima linea per angina stabile. Riducono il consumo di ossigeno miocardico diminuendo frequenza cardiaca, contrattilità e pressione arteriosa. Esempi: metoprololo, atenololo, bisoprololo, carvedilolo.
+        Sono spesso la prima scelta per l'angina stabile. Questi farmaci fanno lavorare il cuore più "tranquillamente": rallentano il battito e riducono la forza di contrazione, così il cuore consuma meno ossigeno e non va in sofferenza. I più usati sono: metoprololo, atenololo, bisoprololo, carvedilolo.
       </p>
       <p class="text-slate-300">
-        Target: frequenza cardiaca a riposo 50-60 bpm. Controindicazioni: asma grave, blocchi AV avanzati, bradicardia sintomatica, ipotensione severa.
+        Il medico di solito cerca di portare il vostro battito a riposo intorno a 50-60 battiti al minuto. Non possono essere usati in persone con asma grave, problemi importanti di conduzione elettrica nel cuore, battito già molto lento, o pressione molto bassa.
       </p>
     </div>
 
@@ -293,48 +319,48 @@ date: 2025-09-02
         <strong class="text-white">Calcio-antagonisti:</strong>
       </p>
       <p class="text-slate-300 mb-3">
-        Riducono il consumo di ossigeno (diidropiridinici) e/o aumentano l'apporto (vasodilatazione coronarica). Due classi:
+        Questi farmaci aiutano il cuore in due modi: alcuni rallentano il battito (come i betabloccanti), altri allargano le arterie facilitando il passaggio del sangue. Ce ne sono di due tipi principali:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Non-diidropiridinici (verapamil, diltiazem): riducono frequenza cardiaca e contrattilità. Efficaci quanto betabloccanti. Non associare a betabloccanti per rischio di bradicardia/blocchi AV</li>
-        <li>Diidropiridinici (amlodipina, nifedipina long-acting): vasodilatazione arteriosa senza effetti significativi su frequenza. Usati in associazione a betabloccanti quando questi non bastano, o come alternativa se betabloccanti controindicati</li>
+        <li>Verapamil e diltiazem: rallentano il battito cardiaco e riducono la forza di contrazione. Funzionano bene come i betabloccanti. Non vanno combinati con i betabloccanti perché insieme potrebbero rallentare troppo il cuore</li>
+        <li>Amlodipina e nifedipina a rilascio prolungato: allargano le arterie senza influenzare molto il battito. Possono essere aggiunti ai betabloccanti se questi da soli non bastano, oppure usati al posto dei betabloccanti se questi non possono essere presi</li>
       </ul>
     </div>
 
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Nitrati:</strong>
+        <strong class="text-white">Nitrati (nitroglicerina):</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-3">
-        <li><strong class="text-white">Nitrati a breve durata (nitroglicerina sublinguale):</strong> Sollievo rapido dell'angina acuta. Inizio d'azione 1-3 minuti, durata 15-30 minuti. Dose: 0.3-0.6 mg sotto la lingua ogni 5 minuti fino a 3 dosi. Se il dolore persiste dopo 15 minuti, richiedere assistenza medica urgente. Può essere usata profilatticamente prima di attività che tipicamente scatenano angina</li>
-        <li><strong class="text-white">Nitrati a lunga durata (isosorbide mononitrato, isosorbide dinitrato):</strong> Prevenzione dell'angina. Richiedono intervallo libero da nitrati di 10-14 ore/die per evitare tolleranza (tipicamente assunzione mattina e primo pomeriggio, sospensione notturna)</li>
+        <li><strong class="text-white">Nitroglicerina sotto la lingua (azione rapida):</strong> È la medicina "di emergenza" per quando compare il dolore. Si mette una piccola compressa sotto la lingua, si scioglie rapidamente e fa effetto in 1-3 minuti, facendo passare il dolore in 15-30 minuti. Se il dolore non passa, potete ripetere ogni 5 minuti fino a 3 volte. Se dopo 15 minuti il dolore persiste ancora, chiamate il 112/118. Potete anche prenderla prima di fare un'attività che di solito vi provoca dolore (per prevenirlo)</li>
+        <li><strong class="text-white">Nitrati a lunga durata:</strong> Sono compresse che prevengono il dolore durante la giornata. Per evitare che perdano efficacia, dovete avere un periodo di almeno 10-14 ore al giorno senza il farmaco (di solito si prendono la mattina e il primo pomeriggio, non la sera)</li>
       </ul>
       <p class="text-slate-300">
-        Effetti collaterali: cefalea, ipotensione ortostatica, flush. Controindicazione assoluta: uso recente (<24-48h) di inibitori della fosfodiesterasi-5 (sildenafil, tadalafil) per rischio di ipotensione severa.
+        Effetti collaterali comuni: mal di testa, calo di pressione quando vi alzate in piedi, arrossamento del viso. ATTENZIONE: non dovete prendere nitrati se nelle ultime 24-48 ore avete assunto farmaci per la disfunzione erettile (tipo Viagra, Cialis), perché la pressione potrebbe scendere pericolosamente.
       </p>
     </div>
 
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Altri farmaci antianginosi:</strong>
+        <strong class="text-white">Altri farmaci per l'angina:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Ivabradina:</strong> Inibitore selettivo della corrente If nel nodo seno-atriale, riduce la frequenza cardiaca senza effetti inotropi negativi. Indicata in pazienti in ritmo sinusale con frequenza ≥70 bpm che non tollerano betabloccanti o in aggiunta a betabloccanti</li>
-        <li><strong class="text-white">Ranolazina:</strong> Inibisce la corrente tardiva del sodio, riduce il sovraccarico di calcio intracellulare. Efficacia antianginosa senza effetti su frequenza o pressione. Usata come add-on quando altri farmaci non controllano adeguatamente i sintomi</li>
-        <li><strong class="text-white">Trimetazidina:</strong> Modulatore metabolico miocardico. Beneficio antianginoso modesto, usata in casi selezionati</li>
+        <li><strong class="text-white">Ivabradina:</strong> Un farmaco che rallenta il battito cardiaco senza altri effetti sul cuore. Utile in persone che non possono prendere i betabloccanti o come aggiunta ai betabloccanti se il battito resta troppo veloce</li>
+        <li><strong class="text-white">Ranolazina:</strong> Aiuta il cuore a lavorare meglio senza influenzare il battito o la pressione. Si aggiunge agli altri farmaci quando questi non controllano bene i sintomi</li>
+        <li><strong class="text-white">Trimetazidina:</strong> Aiuta il cuore a usare meglio l'energia disponibile. L'effetto è modesto, usata in casi selezionati</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Terapia per prevenzione eventi (event prevention)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Farmaci per prevenire l'infarto</h3>
     <div class="warning-box rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        Tutti i pazienti con angina dovrebbero ricevere:
+        Tutti i pazienti con angina dovrebbero prendere questi farmaci fondamentali:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Antiaggreganti:</strong> Aspirina 75-100 mg/die riduce il rischio di infarto e morte del 25-30%. Se intolleranza ad aspirina, clopidogrel 75 mg/die. Dopo angioplastica con stent, doppia antiaggregazione (aspirina + clopidogrel/ticagrelor/prasugrel) per durata variabile (1-12 mesi o più) secondo il tipo di stent e rischio emorragico</li>
-        <li><strong class="text-white">Statine ad alta intensità:</strong> Atorvastatina 40-80 mg/die o rosuvastatina 20-40 mg/die. Target: LDL <55 mg/dL (<1.4 mmol/L) nei pazienti ad alto rischio, <40 mg/dL (<1.0 mmol/L) in quelli ad altissimo rischio. Riducono eventi cardiovascolari del 25-30% per ogni riduzione di 40 mg/dL di LDL</li>
-        <li><strong class="text-white">ACE-inibitori (o sartani):</strong> Indicati in tutti i pazienti con coronaropatia e diabete, ipertensione, disfunzione ventricolare sinistra (FE <40%) o pregresso infarto. Riducono mortalità e infarto del 20-25%</li>
-        <li><strong class="text-white">Controllo dei fattori di rischio:</strong> Target pressione arteriosa <130/80 mmHg, controllo glicemico ottimale nei diabetici (HbA1c <7%), cessazione del fumo</li>
+        <li><strong class="text-white">Aspirina (o clopidogrel):</strong> Una piccola dose di aspirina al giorno (75-100 mg) riduce il rischio di infarto e morte di circa un quarto. Se non potete prendere l'aspirina, si usa il clopidogrel. Dopo un'angioplastica con stent, serve prendere due farmaci antiaggreganti insieme per un periodo che va da 1 a 12 mesi o più, secondo il tipo di stent e il vostro rischio di sanguinamento</li>
+        <li><strong class="text-white">Statine per il colesterolo:</strong> Farmaci potenti che abbassano molto il colesterolo "cattivo" (LDL). I più usati sono atorvastatina e rosuvastatina a dosi medio-alte. L'obiettivo è portare il colesterolo LDL sotto certi valori. Questi farmaci riducono il rischio di infarto e morte di circa un quarto</li>
+        <li><strong class="text-white">ACE-inibitori (o sartani):</strong> Farmaci che proteggono il cuore e le arterie. Sono particolarmente importanti se avete anche diabete, pressione alta, o il cuore pompa meno bene del normale. Riducono la mortalità e il rischio di infarto di circa un quarto</li>
+        <li><strong class="text-white">Controllo dei fattori di rischio:</strong> È fondamentale mantenere la pressione ben controllata, tenere sotto controllo lo zucchero nel sangue se avete il diabete, e smettere assolutamente di fumare</li>
       </ul>
     </div>
   </section>
@@ -345,69 +371,69 @@ date: 2025-09-02
       <span class="text-white">Quando sono indicati angioplastica e bypass?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La rivascolarizzazione miocardica (angioplastica con stent o bypass chirurgico) è indicata per migliorare i sintomi in pazienti con angina refrattaria a terapia medica ottimale, o per migliorare la prognosi in anatomie ad alto rischio.
+      Quando i farmaci non bastano a controllare i sintomi, o quando le arterie sono molto malate in zone critiche del cuore, può essere necessario "riaprire" o bypassare i restringimenti con un intervento: l'angioplastica (che usa un palloncino e uno stent) o il bypass chirurgico.
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Angioplastica coronarica con stent (PCI)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Angioplastica con stent</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Procedura percutanea che dilata la stenosi coronarica mediante palloncino e impianta uno stent (protesi metallica) per mantenere il vaso pervio:
+        È una procedura eseguita senza aprire il petto. Il cardiologo "entra" nell'arteria del polso (o dell'inguine), fa arrivare dei tubicini sottili fino alle arterie del cuore, gonfia un palloncino nel punto ristretto per allargarlo, e poi impianta una "molla" metallica (stent) per tenere aperta l'arteria:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>Accesso arterioso (radiale preferito, femorale in casi selezionati)</li>
-        <li>Dilatazione con palloncino della stenosi</li>
-        <li>Impianto di stent drug-eluting (rilasciano farmaci antiproliferativi che riducono la restenosi a <5% a 1 anno)</li>
-        <li>Procedura in anestesia locale, durata 30-60 minuti, degenza 1 giorno</li>
+        <li>Si entra di solito dall'arteria del polso (preferito perché più comodo e sicuro) o dall'inguine</li>
+        <li>Il palloncino schiaccia il restringimento contro le pareti dell'arteria</li>
+        <li>Lo stent (una retina metallica) rimane lì permanentemente a tenere aperta l'arteria. Gli stent moderni rilasciano lentamente dei farmaci che riducono il rischio che l'arteria si richiuda</li>
+        <li>La procedura dura circa 30-60 minuti, si fa in anestesia locale, e di solito si viene dimessi il giorno dopo</li>
       </ul>
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Indicazioni:</strong>
+        <strong class="text-white">Quando si fa:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>Angina refrattaria a terapia medica con anatomia favorevole (stenosi in 1-2 vasi, lesioni discrete)</li>
-        <li>Ischemia documentata estesa (>10% del miocardio)</li>
-        <li>Stenosi del tronco comune non protetto (se non candidato a CABG)</li>
+        <li>Angina che non passa con i farmaci, e i restringimenti sono in posizioni trattabili (1-2 arterie, restringimenti non troppo estesi)</li>
+        <li>Test che mostrano che una parte grande del cuore (più del 10%) non riceve abbastanza sangue</li>
+        <li>Restringimento importante nell'arteria principale (tronco comune), se non si può fare il bypass</li>
       </ul>
       <p class="text-slate-300">
-        Richiede doppia antiaggregazione piastrinica (DAPT) post-procedura: aspirina indefinitamente + P2Y12 inibitore (clopidogrel/ticagrelor/prasugrel) per almeno 6-12 mesi con stent drug-eluting.
+        Dopo l'angioplastica è fondamentale prendere l'aspirina per sempre, e un secondo farmaco antiaggregante per almeno 6-12 mesi.
       </p>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Bypass aortocoronarico (CABG)</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Bypass coronarico (chirurgia)</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Intervento chirurgico che crea nuovi condotti per bypassare le stenosi coronariche usando innesti venosi (vena safena) o arteriosi (arteria mammaria interna, arteria radiale):
+        È un intervento chirurgico "a petto aperto" in cui il cardiochirurgo crea delle "scorciatoie" (bypass) usando vasi sanguigni presi da altre parti del vostro corpo (di solito una vena della gamba o un'arteria del petto) per portare sangue al cuore "saltando" i restringimenti:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>Tradizionalmente eseguito in circolazione extracorporea con arresto cardiaco</li>
-        <li>CABG off-pump (a cuore battente) in centri selezionati</li>
-        <li>Degenza 5-7 giorni, recupero completo 6-12 settimane</li>
+        <li>Tradizionalmente si fa fermando temporaneamente il cuore e usando una macchina che fa circolare il sangue al posto del cuore</li>
+        <li>In alcuni centri si può fare anche a cuore battente</li>
+        <li>La degenza in ospedale è di 5-7 giorni, il recupero completo richiede 6-12 settimane</li>
       </ul>
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Indicazioni preferenziali:</strong>
+        <strong class="text-white">Quando si preferisce il bypass:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Stenosi del tronco comune >50%</strong> (CABG offre beneficio prognostico rispetto a PCI nella maggior parte dei casi)</li>
-        <li><strong class="text-white">Malattia trivasale</strong> (coinvolgimento di tutte e tre le arterie principali), specialmente con disfunzione ventricolare sinistra o diabete</li>
-        <li><strong class="text-white">Malattia bivasale con coinvolgimento prossimale della discendente anteriore</strong></li>
-        <li><strong class="text-white">Anatomia complessa</strong> (SYNTAX score elevato): lesioni multiple, lunghe, calcifiche, biforcazioni</li>
-        <li><strong class="text-white">Diabete con malattia multivasale:</strong> CABG superiore a PCI per mortalità e necessità di ripetute rivascolarizzazioni</li>
+        <li><strong class="text-white">Arteria principale molto ristretta:</strong> Quando l'arteria "tronco" che divide il sangue per gran parte del cuore ha un restringimento importante, il bypass spesso dà risultati migliori dell'angioplastica</li>
+        <li><strong class="text-white">Malattia di tutte e tre le arterie principali:</strong> Specialmente se il cuore pompa meno bene del normale o se avete il diabete</li>
+        <li><strong class="text-white">Malattia di due arterie principali</strong> che coinvolge la parte iniziale dell'arteria discendente anteriore (quella più importante)</li>
+        <li><strong class="text-white">Situazione complessa:</strong> Molti restringimenti, lunghi, calcificati, in punti di biforcazione</li>
+        <li><strong class="text-white">Diabete con malattia diffusa:</strong> Nelle persone diabetiche con malattia in più arterie, il bypass dà risultati migliori dell'angioplastica in termini di sopravvivenza e necessità di ripetere interventi</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Scelta tra PCI e CABG</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Come si sceglie tra angioplastica e bypass?</h3>
     <div class="warning-box rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        La decisione richiede discussione multidisciplinare (Heart Team: cardiologo interventista + cardiochirurgo) considerando:
+        La decisione viene presa da un gruppo di specialisti (il "team del cuore": cardiologo interventista e cardiochirurgo) che si consultano e considerano:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Estensione e complessità della malattia coronarica (SYNTAX score)</li>
-        <li>Presenza di diabete mellito</li>
-        <li>Funzione ventricolare sinistra</li>
-        <li>Comorbidità e rischio chirurgico (EuroSCORE, STS score)</li>
-        <li>Preferenze del paziente dopo discussione informata di rischi/benefici</li>
+        <li>Quante arterie sono malate e quanto è complessa la situazione</li>
+        <li>Se avete il diabete</li>
+        <li>Come pompa il vostro cuore</li>
+        <li>Altre malattie che avete e quanto sarebbe rischioso l'intervento chirurgico</li>
+        <li>Le vostre preferenze dopo che vi hanno spiegato i pro e i contro di ogni opzione</li>
       </ul>
       <p class="text-slate-300 mt-4">
-        In generale: PCI preferita in malattia mono-bivasale semplice, CABG preferito in malattia complessa multivasale, tronco comune, diabetici. Trial recenti (SYNTAX, EXCEL, NOBLE) forniscono dati comparativi per guidare la scelta.
+        In generale: l'angioplastica è preferita quando la malattia è limitata a 1-2 arterie con restringimenti semplici da trattare; il bypass è preferito quando ci sono malattie più diffuse, situazioni complesse, diabete. Ci sono anche studi scientifici recenti che aiutano a guidare la scelta nel vostro caso specifico.
       </p>
     </div>
   </section>
@@ -418,55 +444,55 @@ date: 2025-09-02
       <span class="text-white">Qual è la prognosi dell'angina?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La prognosi dell'angina dipende dall'estensione della malattia coronarica, dalla funzione ventricolare sinistra, dalla presenza di ischemia inducibile e dalle comorbidità.
+      Come va l'angina nel tempo dipende da quanto sono malate le arterie del cuore, da come pompa il cuore, da quanto è estesa la zona che non riceve abbastanza sangue durante lo sforzo, e da altre malattie che avete.
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Stratificazione prognostica</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Situazioni con prognosi buona</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Fattori clinici favorevoli:</strong>
+        <strong class="text-white">Segnali favorevoli:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>Angina stabile CCS I-II ben controllata da terapia medica</li>
-        <li>Malattia monovasale senza coinvolgimento del tronco comune o discendente anteriore prossimale</li>
-        <li>Funzione ventricolare sinistra preservata (FE >50%)</li>
-        <li>Test da sforzo negativo o con ischemia limitata (<10% del miocardio)</li>
+        <li>Angina stabile lieve che si controlla bene con i farmaci (limita poco le vostre attività)</li>
+        <li>Malattia in una sola arteria, non nelle zone più critiche</li>
+        <li>Il cuore pompa normalmente</li>
+        <li>I test da sforzo mostrano che solo una piccola zona del cuore va in sofferenza durante lo sforzo</li>
       </ul>
       <p class="text-slate-300">
-        Mortalità annuale <1%, simile alla popolazione generale della stessa età con controllo ottimale dei fattori di rischio.
+        In questi casi, con le cure appropriate, il rischio annuale è molto basso (meno dell'1%), simile a quello di persone della stessa età senza problemi al cuore.
       </p>
     </div>
 
     <div class="warning-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Fattori prognostici sfavorevoli:</strong>
+        <strong class="text-white">Situazioni che richiedono più attenzione:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Angina severa (CCS III-IV) o angina instabile</li>
-        <li>Malattia del tronco comune o equivalente (stenosi prossimale di discendente anteriore e circonflessa)</li>
-        <li>Malattia trivasale, specialmente con disfunzione ventricolare sinistra</li>
-        <li>Frazione di eiezione <40%</li>
-        <li>Ischemia estesa ai test provocativi (>10% del miocardio)</li>
-        <li>Diabete mellito, insufficienza renale cronica</li>
-        <li>Pregresso infarto miocardico</li>
+        <li>Angina severa (che limita molto le attività) o angina instabile</li>
+        <li>Malattia nell'arteria principale (tronco comune) o equivalente</li>
+        <li>Malattia in tutte e tre le arterie principali, specialmente se il cuore pompa meno bene</li>
+        <li>Il cuore pompa male (meno del 40% del normale)</li>
+        <li>I test da sforzo mostrano che una zona grande del cuore (più del 10%) va in sofferenza</li>
+        <li>Avete il diabete o problemi ai reni</li>
+        <li>Avete avuto un infarto in passato</li>
       </ul>
       <p class="text-slate-300 mt-4">
-        Mortalità annuale 3-5% o superiore. Questi pazienti beneficiano di rivascolarizzazione oltre alla terapia medica.
+        In queste situazioni il rischio annuale è più alto. Per questo, oltre ai farmaci, può essere necessario fare un intervento (angioplastica o bypass) per migliorare la prognosi.
       </p>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Outcomes con terapia contemporanea</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Risultati con le cure moderne</h3>
     <div class="highlight-box rounded-lg p-6">
       <p class="text-slate-300 mb-3">
-        Con terapia medica ottimale (antiaggreganti, statine ad alta dose, betabloccanti, ACE-inibitori, controllo dei fattori di rischio):
+        Con le cure ottimali (aspirina, statine potenti, betabloccanti, ACE-inibitori, e controllo rigoroso di pressione, zuccheri e smettere di fumare):
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Riduzione del rischio di infarto del 25-30%</li>
-        <li>Riduzione della mortalità cardiovascolare del 20-25%</li>
-        <li>Controllo sintomatico adeguato in 70-80% dei pazienti con angina stabile</li>
+        <li>Il rischio di infarto si riduce di circa un quarto</li>
+        <li>Il rischio di morte per problemi cardiaci si riduce di circa un quarto</li>
+        <li>I sintomi sono ben controllati in circa 7-8 pazienti su 10 con angina stabile</li>
       </ul>
       <p class="text-slate-300 mt-4">
-        La rivascolarizzazione (PCI o CABG) aggiunge beneficio prognostico in anatomie ad alto rischio e migliora significativamente i sintomi in pazienti refrattari a terapia medica.
+        L'angioplastica o il bypass aggiungono un beneficio importante nelle situazioni a rischio più alto, e migliorano molto i sintomi nei pazienti che non rispondono bene ai farmaci.
       </p>
     </div>
   </section>
@@ -477,68 +503,93 @@ date: 2025-09-02
       <span class="text-white">Come prevenire le complicazioni dell'angina?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La prevenzione secondaria mediante controllo aggressivo dei fattori di rischio è fondamentale per ridurre la progressione della malattia e prevenire eventi cardiovascolari.
+      La prevenzione è fondamentale: controllare bene tutti i fattori di rischio aiuta a rallentare la progressione della malattia e a ridurre molto il rischio di infarto e altre complicazioni.
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Cessazione del fumo</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Smettere di fumare</h3>
     <div class="highlight-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-3">
-        Smettere di fumare riduce il rischio di infarto del 50% entro 1 anno e riporta il rischio vicino ai livelli dei non fumatori entro 3-5 anni:
+        Smettere di fumare è la cosa più importante che potete fare. Il rischio di infarto si dimezza entro un anno da quando smettete, e dopo 3-5 anni diventa quasi come quello di chi non ha mai fumato:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Counseling strutturato e supporto comportamentale aumentano i tassi di successo del 50-70%</li>
-        <li>Terapia sostitutiva nicotinica (cerotti, gomme, inalatori): raddoppia i tassi di cessazione</li>
-        <li>Farmaci (vareniclina, bupropione): efficacia superiore alla terapia sostitutiva</li>
-        <li>Approccio combinato (counseling + farmaci) offre i migliori risultati</li>
+        <li>Parlare con esperti e avere un supporto strutturato aumenta molto le probabilità di successo</li>
+        <li>Cerotti, gomme o inalatori di nicotina raddoppiano le possibilità di riuscire a smettere</li>
+        <li>Alcuni farmaci (vareniclina, bupropione) funzionano anche meglio dei cerotti</li>
+        <li>L'approccio migliore combina il supporto psicologico con i farmaci</li>
       </ul>
     </div>
 
     <h3 class="text-xl font-bold mb-4 text-white">Attività fisica</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-3">
-        Esercizio aerobico regolare riduce mortalità cardiovascolare del 25-30%:
+        L'esercizio fisico regolare riduce la mortalità cardiovascolare di circa un quarto:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Target: ≥150 minuti/settimana di attività moderata (camminata veloce, ciclismo) o 75 minuti/settimana di attività vigorosa</li>
-        <li>Inizio graduale con incrementi progressivi, specialmente dopo eventi acuti</li>
-        <li>Riabilitazione cardiaca supervisionata: programmi strutturati di esercizio, educazione e supporto psicologico. Riducono mortalità del 25% e ospedalizzazioni del 18%</li>
+        <li>Obiettivo: almeno 150 minuti alla settimana di attività moderata (camminata veloce, bicicletta) oppure 75 minuti alla settimana di attività più intensa</li>
+        <li>Iniziate gradualmente e aumentate poco alla volta, soprattutto se avete avuto problemi cardiaci di recente</li>
+        <li>I programmi di riabilitazione cardiaca seguiti da esperti (con esercizio guidato, educazione e supporto psicologico) riducono la mortalità di un quarto e le ospedalizzazioni di quasi un quinto</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Dieta</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Alimentazione</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-3">
-        Dieta mediterranea riduce eventi cardiovascolari del 30%:
+        La dieta mediterranea riduce gli eventi cardiovascolari di circa un terzo:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Abbondanti vegetali (verdure, legumi, frutta, noci), cereali integrali</li>
-        <li>Olio d'oliva come principale fonte di grassi</li>
-        <li>Pesce 2-3 volte/settimana</li>
-        <li>Riduzione di carni rosse, prodotti lattiero-caseari ad alto contenuto di grassi, dolci</li>
-        <li>Ridurre sodio (<5 g/die), aumentare potassio (frutta e verdura)</li>
+        <li>Molti vegetali (verdure, legumi, frutta, noci), cereali integrali</li>
+        <li>Olio d'oliva come grasso principale</li>
+        <li>Pesce 2-3 volte alla settimana</li>
+        <li>Ridurre carne rossa, formaggi grassi, dolci</li>
+        <li>Ridurre il sale (meno di un cucchiaino al giorno), aumentare frutta e verdura (che contengono potassio)</li>
       </ul>
     </div>
 
     <h3 class="text-xl font-bold mb-4 text-white">Controllo del peso</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-3">
-        Perdita di peso del 5-10% nei pazienti sovrappeso/obesi migliora i fattori di rischio:
+        Se siete sovrappeso o obesi, perdere il 5-10% del peso migliora tutti i fattori di rischio:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Target: BMI 20-25 kg/m², circonferenza addominale <94 cm (uomini), <80 cm (donne)</li>
-        <li>Approccio combinato: dieta ipocalorica + attività fisica</li>
-        <li>Interventi intensivi sullo stile di vita più efficaci rispetto a consigli generici</li>
+        <li>Obiettivo: indice di massa corporea (rapporto tra peso e altezza) tra 20 e 25, circonferenza addominale sotto i 94 cm negli uomini e sotto gli 80 cm nelle donne</li>
+        <li>La combinazione di dieta ipocalorica e attività fisica funziona meglio</li>
+        <li>I programmi intensivi seguiti da professionisti funzionano molto meglio dei semplici consigli generici</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Target terapeutici</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Obiettivi delle cure</h3>
     <div class="warning-box rounded-lg p-6">
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li><strong class="text-white">Pressione arteriosa:</strong> <130/80 mmHg (130-140/80 mmHg negli anziani >65 anni o fragili)</li>
-        <li><strong class="text-white">Colesterolo LDL:</strong> <55 mg/dL (1.4 mmol/L) nei pazienti ad alto rischio; <40 mg/dL (1.0 mmol/L) in quelli ad altissimo rischio</li>
-        <li><strong class="text-white">Glicemia (nei diabetici):</strong> HbA1c <7% (53 mmol/mol), glicemia a digiuno 80-130 mg/dL</li>
-        <li><strong class="text-white">Frequenza cardiaca:</strong> 50-60 bpm a riposo (negli anginosi trattati con betabloccanti)</li>
+        <li><strong class="text-white">Pressione arteriosa:</strong> Sotto 130/80. Negli anziani sopra i 65 anni o fragili, va bene anche 130-140/80</li>
+        <li><strong class="text-white">Colesterolo "cattivo" (LDL):</strong> Sotto certi valori che dipendono dal vostro rischio (di solito sotto 55 mg/dL nei pazienti ad alto rischio, sotto 40 mg/dL in quelli a rischio altissimo)</li>
+        <li><strong class="text-white">Glicemia (se avete il diabete):</strong> Emoglobina glicata sotto il 7%, glicemia a digiuno tra 80 e 130 mg/dL</li>
+        <li><strong class="text-white">Battito cardiaco:</strong> 50-60 battiti al minuto a riposo (se state prendendo betabloccanti per l'angina)</li>
       </ul>
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <div class="info-step rounded-lg p-6">
+      <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2">
+        <i data-lucide="external-link" class="w-5 h-5 text-emerald-400"></i>
+        DOVE TROVARE MAGGIORI INFORMAZIONI
+      </h2>
+      <div class="space-y-3 text-slate-300">
+        <p class="leading-relaxed">
+          Il vostro medico è sempre la migliore fonte di informazioni personalizzate sulla vostra situazione specifica. Non esitate a fare domande durante le visite.
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Organizzazioni di riferimento:</strong>
+        </p>
+        <ul class="space-y-2 ml-5">
+          <li>Associazione Italiana di Cardiologia (www.sicardiologia.it)</li>
+          <li>Fondazione Italiana per il Cuore (www.fondazionecuore.it)</li>
+          <li>Conacuore - Coordinamento Nazionale Associazioni del Cuore (www.conacuore.it)</li>
+        </ul>
+        <p class="leading-relaxed mt-4">
+          <strong class="text-white">In caso di emergenza:</strong> Se avete dolore al petto che dura più di 15 minuti o non passa con la vostra medicina abituale, chiamate subito il 112/118.
+        </p>
+      </div>
     </div>
   </section>
 
