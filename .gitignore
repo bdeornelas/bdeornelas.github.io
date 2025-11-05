@@ -20,3 +20,4 @@ assets/css/*.min.css
 # OS/editor junk
 .DS_Store
 *.log
+.vercel

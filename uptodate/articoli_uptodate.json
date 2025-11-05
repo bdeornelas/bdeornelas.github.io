@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "source": "UpToDate Patient Education",
+    "language": "italian",
+    "section": "Heart and Blood Vessels",
+    "note": "Lista curata di articoli patient education cardiovascolari in italiano"
+  },
+  "articles": [
+    {
+      "title": "Fibrillazione atriale - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/atrial-fibrillation-the-basics",
+      "url_en": "https://www.uptodate.com/contents/atrial-fibrillation-the-basics",
+      "category": "The Basics",
+      "topic": "Aritmie"
+    },
+    {
+      "title": "Scompenso cardiaco - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/heart-failure-in-adults-the-basics",
+      "url_en": "https://www.uptodate.com/contents/heart-failure-in-adults-the-basics",
+      "category": "The Basics",
+      "topic": "Scompenso"
+    },
+    {
+      "title": "Ipertensione arteriosa - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/high-blood-pressure-in-adults-the-basics",
+      "url_en": "https://www.uptodate.com/contents/high-blood-pressure-in-adults-the-basics",
+      "category": "The Basics",
+      "topic": "Ipertensione"
+    },
+    {
+      "title": "Infarto miocardico - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/heart-attack-the-basics",
+      "url_en": "https://www.uptodate.com/contents/heart-attack-the-basics",
+      "category": "The Basics",
+      "topic": "Cardiopatia ischemica"
+    },
+    {
+      "title": "Angina pectoris - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/angina-pectoris-the-basics",
+      "url_en": "https://www.uptodate.com/contents/angina-pectoris-the-basics",
+      "category": "The Basics",
+      "topic": "Cardiopatia ischemica"
+    },
+    {
+      "title": "Malattia coronarica - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/coronary-artery-disease-the-basics",
+      "url_en": "https://www.uptodate.com/contents/coronary-artery-disease-the-basics",
+      "category": "The Basics",
+      "topic": "Cardiopatia ischemica"
+    },
+    {
+      "title": "Colesterolo alto - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/high-cholesterol-the-basics",
+      "url_en": "https://www.uptodate.com/contents/high-cholesterol-the-basics",
+      "category": "The Basics",
+      "topic": "Fattori di rischio"
+    },
+    {
+      "title": "Malattie delle valvole cardiache - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/valvular-heart-disease-the-basics",
+      "url_en": "https://www.uptodate.com/contents/valvular-heart-disease-the-basics",
+      "category": "The Basics",
+      "topic": "Valvulopatie"
+    },
+    {
+      "title": "Trombosi venosa profonda - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/deep-vein-thrombosis-dvt-the-basics",
+      "url_en": "https://www.uptodate.com/contents/deep-vein-thrombosis-dvt-the-basics",
+      "category": "The Basics",
+      "topic": "Malattia tromboembolica"
+    },
+    {
+      "title": "Embolia polmonare - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/pulmonary-embolism-the-basics",
+      "url_en": "https://www.uptodate.com/contents/pulmonary-embolism-the-basics",
+      "category": "The Basics",
+      "topic": "Malattia tromboembolica"
+    },
+    {
+      "title": "Arteriopatia periferica - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/peripheral-artery-disease-the-basics",
+      "url_en": "https://www.uptodate.com/contents/peripheral-artery-disease-the-basics",
+      "category": "The Basics",
+      "topic": "Vascolare"
+    },
+    {
+      "title": "Aneurisma aortico - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/aortic-aneurysm-repair-the-basics",
+      "url_en": "https://www.uptodate.com/contents/aortic-aneurysm-repair-the-basics",
+      "category": "The Basics",
+      "topic": "Vascolare"
+    },
+    {
+      "title": "Pericardite - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/pericarditis-the-basics",
+      "url_en": "https://www.uptodate.com/contents/pericarditis-the-basics",
+      "category": "The Basics",
+      "topic": "Pericardio"
+    },
+    {
+      "title": "Endocardite - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/endocarditis-the-basics",
+      "url_en": "https://www.uptodate.com/contents/endocarditis-the-basics",
+      "category": "The Basics",
+      "topic": "Endocardio"
+    },
+    {
+      "title": "Ictus - Le basi",
+      "url_it": "https://www.uptodate.com/contents/it/stroke-the-basics",
+      "url_en": "https://www.uptodate.com/contents/stroke-the-basics",
+      "category": "The Basics",
+      "topic": "Cerebrovascolare"
+    },
+    {
+      "title": "Malattia coronarica - Oltre le basi",
+      "url_it": "https://www.uptodate.com/contents/it/coronary-artery-disease-beyond-the-basics",
+      "url_en": "https://www.uptodate.com/contents/coronary-artery-disease-beyond-the-basics",
+      "category": "Beyond the Basics",
+      "topic": "Cardiopatia ischemica"
+    },
+    {
+      "title": "Ipertensione arteriosa - Oltre le basi",
+      "url_it": "https://www.uptodate.com/contents/it/high-blood-pressure-in-adults-beyond-the-basics",
+      "url_en": "https://www.uptodate.com/contents/high-blood-pressure-in-adults-beyond-the-basics",
+      "category": "Beyond the Basics",
+      "topic": "Ipertensione"
+    },
+    {
+      "title": "Colesterolo alto e grassi nel sangue - Oltre le basi",
+      "url_it": "https://www.uptodate.com/contents/it/high-cholesterol-and-lipids-beyond-the-basics",
+      "url_en": "https://www.uptodate.com/contents/high-cholesterol-and-lipids-beyond-the-basics",
+      "category": "Beyond the Basics",
+      "topic": "Fattori di rischio"
+    },
+    {
+      "title": "Fibrillazione atriale - Oltre le basi",
+      "url_it": "https://www.uptodate.com/contents/it/atrial-fibrillation-beyond-the-basics",
+      "url_en": "https://www.uptodate.com/contents/atrial-fibrillation-beyond-the-basics",
+      "category": "Beyond the Basics",
+      "topic": "Aritmie"
+    },
+    {
+      "title": "Scompenso cardiaco - Oltre le basi",
+      "url_it": "https://www.uptodate.com/contents/it/heart-failure-in-adults-beyond-the-basics",
+      "url_en": "https://www.uptodate.com/contents/heart-failure-in-adults-beyond-the-basics",
+      "category": "Beyond the Basics",
+      "topic": "Scompenso"
+    }
+  ]
+}

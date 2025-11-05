@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<title>UpToDate</title>
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<meta content="UpToDate" name="apple-mobile-web-app-title">
+<meta content="telephone=no" name="format-detection"/>
+<link href="/app/utd-menu/utd-icon.png" rel="apple-touch-icon"/>
+<link href="/app/utd-menu/utd-icon-redesign.png" rel="icon" type="image/png"/>
+<meta content="!" name="fragment"/>
+<link href="" rel="canonical"/>
+<meta content="" name="description"/>
+<meta charset="utf-8"/>
+<style type="text/css">
+    #appContainer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(/app/utd-menu/utd-icon.png) no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: 48px 48px;
+    }
+  </style>
+<!-- for prerender.io -->
+<script> window.prerenderReady = false; </script>
+<script type="text/javascript">
+    function OptanonWrapper() {
+      window.utd_OneTrustInitialized = true;
+    }
+
+    function isIE11() {
+      return !!window.MSInputMethodContext && !!document.documentMode;
+    }
+
+    if (isIE11()) {
+      window.location.href = '/unsupported.html';
+    }
+  </script>
+<script async="" defer="" src="https://www.google.com/recaptcha/enterprise.js?render=explicit"></script>
+<script>
+    // Global wkPageData data layer   
+    var wkPageData = window.wkPageData || {};    
+    wkPageData.page = {
+        "pageInfo": {
+            "pageID": "",
+            "pageTitle": ""
+        },
+        "category": {
+            "businessUnit": "Health - CE - UpToDate", // mandatory, BU Assignment as used on OneWeb ({Division} - {Business Unit})
+            "division": "Health" // mandatory, Division Assignment as used on OneWeb
+        },
+        "attributes": {
+            "pageTemplate": "", // Optional, used in GA as custom dimension
+            "pageLanguage": "en", // mandatory, language-country code as used on OneWeb
+            "solution": "",
+            "solutionSuite": "",
+            "solutionHub": "",
+            "funnelStage": ""
+        }
+    };    
+  </script>
+<!-- index.js -->
+<!-- vendor.js -->
+<link crossorigin="" href="/app/dist/DOM-B4_Clvwd.min.js" rel="modulepreload"/>
+<!-- utd-all.js -->
+<link crossorigin="" href="/app/dist/epic-DXW5cQ9B.min.js" rel="modulepreload"/>
+<link crossorigin="" href="/app/assets/utd-all-DFEfE_ts.css" rel="stylesheet"/>
+</meta></head>
+<body>
+<div id="appContainer"></div>
+<script src="/app/dist/index-D2gSrbBn.min.js" type="module"></script>
+<script src="/app/dist/vendor-VxK7-klY.min.js" type="module"></script>
+<script src="/app/dist/utd-all-1-pQupPv.min.js" type="module"></script>
+<script src="/app/dist/epic-DXW5cQ9B.min.js" type="module"></script>
+</body>
+</html>
