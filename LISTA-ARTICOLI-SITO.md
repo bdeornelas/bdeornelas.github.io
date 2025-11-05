@@ -104,7 +104,7 @@ Iniziare con articoli più comuni/richiesti:
 16. ✅ **insufficienza-tricuspidale** ← COMPLETATO (commit 46a2a2b)
 
 ### FASE 5 - Aritmie rimanenti (priorità media)
-17. ⏳ flutter-atriale
+17. ✅ **flutter-atriale** ← COMPLETATO (commit 446887b)
 18. ⏳ tachicardia-ventricolare
 19. ⏳ tpsv
 20. ⏳ tilt-test
