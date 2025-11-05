@@ -95,16 +95,24 @@ Iniziare con articoli più comuni/richiesti:
 9. ✅ **colesterolo-alto** ← COMPLETATO (commit 7800826)
 10. ✅ **prevenzione-cardiovascolare** ← COMPLETATO (commit ffe3c11)
 
-### FASE 4 - Valvulopatie (priorità media)
+### FASE 4 - Valvulopatie (priorità media) ✅ COMPLETATA
 11. ✅ **stenosi-aortica** ← COMPLETATO (commit 605bef0)
 12. ✅ **insufficienza-mitralica** ← COMPLETATO (commit 067793f)
 13. ✅ **soffio-al-cuore** ← COMPLETATO (commit d9c4671)
 14. ✅ **stenosi-mitralica** ← COMPLETATO (commit 84b45aa)
 15. ✅ **insufficienza-aortica** ← COMPLETATO (commit e80eeae)
-16. ⏳ insufficienza-tricuspidale
+16. ✅ **insufficienza-tricuspidale** ← COMPLETATO (commit 46a2a2b)
 
-### FASE 5 - Altri (priorità media-bassa)
-17. ⏳ ... resto degli articoli
+### FASE 5 - Aritmie rimanenti (priorità media)
+17. ⏳ flutter-atriale
+18. ⏳ tachicardia-ventricolare
+19. ⏳ tpsv
+20. ⏳ tilt-test
+21. ⏳ vita-con-pacemaker-icd
+22. ⏳ holter-ecg
+
+### FASE 6 - Altri articoli (priorità media-bassa)
+23. ⏳ ... resto degli articoli
 
 ---
 
