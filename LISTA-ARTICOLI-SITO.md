@@ -96,7 +96,7 @@ Iniziare con articoli più comuni/richiesti:
 10. ✅ **prevenzione-cardiovascolare** ← COMPLETATO (commit ffe3c11)
 
 ### FASE 4 - Valvulopatie (priorità media)
-11. ⏳ stenosi-aortica
+11. ✅ **stenosi-aortica** ← COMPLETATO (commit 605bef0)
 12. ⏳ insufficienza-mitralica
 13. ⏳ soffio-al-cuore
 
