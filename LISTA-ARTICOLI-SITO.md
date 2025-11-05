@@ -93,7 +93,7 @@ Iniziare con articoli più comuni/richiesti:
 ### FASE 3 - Prevenzione (priorità media-alta)
 8. ✅ **ipertensione-arteriosa** ← COMPLETATO (commit fc7577f)
 9. ✅ **colesterolo-alto** ← COMPLETATO (commit 7800826)
-10. ⏳ prevenzione-cardiovascolare ← IN PROGRESS
+10. ✅ **prevenzione-cardiovascolare** ← COMPLETATO (commit ffe3c11)
 
 ### FASE 4 - Valvulopatie (priorità media)
 11. ⏳ stenosi-aortica
