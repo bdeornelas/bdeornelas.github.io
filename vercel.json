@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bundle install && bundle exec jekyll build && npm run build",
+  "buildCommand": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle install && bundle exec jekyll build",
   "outputDirectory": "_site",
   "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
