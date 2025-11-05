@@ -37,25 +37,21 @@ I seguenti pattern sono stati **confermati tramite analisi diretta** di articoli
 
 ### 🔤 Pattern Linguistici Confermati
 
-1. **Bullet character specifico**: ● (Unicode U+25CF)
-   - NON usare: - (trattino) o • (bullet normale)
-   - Questo è il carattere ESATTO usato da UpToDate
-
-2. **Formula nomi farmaci**: `[Generico] (brand name: [Commerciale])`
+1. **Formula nomi farmaci**: `[Generico] (brand name: [Commerciale])`
    - Esempi reali verificati:
      - "enoxaparin (brand name: Lovenox)"
      - "warfarin (brand name: Jantoven, also called Coumadin in some places)"
      - "apixaban (brand name: Eliquis)"
    - Nota: "brand names:" (plurale) quando ce n'è più d'uno
 
-3. **Abbreviazioni**: `[Termine completo], or "[Abbreviazione]"`
+2. **Abbreviazioni**: `[Termine completo], or "[Abbreviazione]"`
    - Esempi reali verificati:
      - "deep vein thrombosis," or "DVT"
      - "atrial fibrillation," or "A-fib"
      - "pulmonary embolism," or "PE"
    - Pattern: virgola + or + abbreviazione tra virgolette
 
-4. **Definizioni inline**: `[Termine tecnico] ([spiegazione semplice])`
+3. **Definizioni inline**: `[Termine tecnico] ([spiegazione semplice])`
    - "Anticoagulants (blood thinners)"
    - "Echocardiogram (ultrasound of the heart)"
    - Sempre: termine tecnico PRIMO, poi spiegazione tra parentesi
@@ -369,41 +365,6 @@ Frase conclusiva (transizione/riassume)
 - Frasi tutte della stessa lunghezza
 
 #### 3. LISTE ED ELENCHI
-
-UpToDate usa liste **puntate** (bullet points) per:
-- Sintomi
-- Fattori di rischio
-- Opzioni terapeutiche
-- Esami diagnostici
-
-**IMPORTANTE**: UpToDate usa il carattere **● (U+25CF)** per i bullet points, NON il trattino (-) o altri simboli.
-
-**Formato standard verificato da articoli reali**:
-```
-Common symptoms of atrial fibrillation include:
-
-●Palpitations (feeling that the heart is racing or beating irregularly)
-●Shortness of breath, especially during physical activity
-●Feeling tired or weak
-●Dizziness or lightheadedness
-●Chest discomfort or pain
-```
-
-**Pattern confermato**:
-- Frase introduttiva termina con ":"
-- Ogni item inizia con ● (senza spazio dopo il bullet)
-- Formato: **●[Termine]** – [Descrizione/spiegazione]
-- Oppure: **●[Termine]** ([definizione breve])
-
-**Esempi reali da UpToDate**:
-```
-Examples include:
-
-●Apixaban (brand name: Eliquis)
-●Dabigatran (brand name: Pradaxa)
-●Edoxaban (brand names: Savaysa, Lixiana)
-●Rivaroxaban (brand name: Xarelto)
-```
 
 **Regole**:
 - Ogni item termina senza punto (se frasi brevi)
@@ -1124,12 +1085,11 @@ Questo pattern appare costantemente per spiegare fisiopatologia.
 3. **TERMINI MEDICI + SPIEGAZIONE** sempre: "[Term] ([explanation])"
 4. **"YOU"** costantemente (seconda persona)
 5. **DOMANDE H2** - TUTTE le sezioni: "What is...?" "Why do I...?"
-6. **BULLET ●** (U+25CF) - NON usare - o •
-7. **BRAND NAMES** - Formula: "[generic] (brand name: [Brand])"
-8. **ABBREVIAZIONI** - Pattern: "[term]," or "[ABBR]"
-9. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
-10. **BOX** per emergenze e info critiche
-11. **NEUTRALE** ma accessibile nel tono
+6. **BRAND NAMES** - Formula: "[generic] (brand name: [Brand])"
+7. **ABBREVIAZIONI** - Pattern: "[term]," or "[ABBR]"
+8. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
+9. **BOX** per emergenze e info critiche
+10. **NEUTRALE** ma accessibile nel tono
 
 ### Quando Usare Questa Guida
 

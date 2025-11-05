@@ -77,11 +77,11 @@ date: 2025-09-15
     </p>
     <div class="highlight-box rounded-lg p-6 mb-6">
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Sensazione di "tuffo" o "salto" nel petto</li>
-        <li>●Percezione di battito "saltato" o "mancato"</li>
-        <li>●Colpo forte o martellante nel petto</li>
-        <li>●Sensazione che il cuore "si fermi" per un attimo</li>
-        <li>●Palpitazioni (consapevolezza del proprio battito cardiaco)</li>
+        <li>Sensazione di "tuffo" o "salto" nel petto</li>
+        <li>Percezione di battito "saltato" o "mancato"</li>
+        <li>Colpo forte o martellante nel petto</li>
+        <li>Sensazione che il cuore "si fermi" per un attimo</li>
+        <li>Palpitazioni (consapevolezza del proprio battito cardiaco)</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed mb-6">
@@ -92,10 +92,10 @@ date: 2025-09-15
         Chiamate il 112 o andate al pronto soccorso se avete:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Dolore al petto prolungato o che si verifica durante sforzo</li>
-        <li>●Difficoltà grave a respirare</li>
-        <li>●Svenimento o sensazione di imminente svenimento</li>
-        <li>●Battito cardiaco molto veloce e irregolare</li>
+        <li>Dolore al petto prolungato o che si verifica durante sforzo</li>
+        <li>Difficoltà grave a respirare</li>
+        <li>Svenimento o sensazione di imminente svenimento</li>
+        <li>Battito cardiaco molto veloce e irregolare</li>
       </ul>
     </div>
   </section>
@@ -107,15 +107,15 @@ date: 2025-09-15
     </p>
     <div class="info-step rounded-lg p-6 mb-6">
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li>●<strong class="text-white">Caffeina</strong> – Caffè, tè, bevande energetiche e alcuni integratori possono scatenare extrasistoli in persone sensibili</li>
-        <li>●<strong class="text-white">Alcol</strong> – Anche quantità moderate possono aumentare le extrasistoli, specialmente nelle ore successive al consumo</li>
-        <li>●<strong class="text-white">Stress</strong> – Le situazioni stressanti aumentano gli ormoni che possono stimolare extrasistoli</li>
-        <li>●<strong class="text-white">Privazione di sonno</strong> – Dormire poco o male può aumentare la frequenza delle extrasistoli</li>
-        <li>●<strong class="text-white">Fumo</strong> – La nicotina può irritare il tessuto cardiaco</li>
-        <li>●<strong class="text-white">Disidratazione</strong> – Bere poca acqua può alterare l'equilibrio elettrolitico</li>
-        <li>●<strong class="text-white">Squilibri elettrolitici</strong> – Livelli bassi di potassio o magnesio possono favorire aritmie</li>
-        <li>●<strong class="text-white">Disturbi tiroidei</strong> – Sia l'ipertiroidismo che l'ipotiroidismo possono causare extrasistoli</li>
-        <li>●<strong class="text-white">Malattie cardiache</strong> – Infarto precedente, insufficienza cardiaca, ipertrofia cardiaca o malattie delle valvole possono associarsi a extrasistoli</li>
+        <li><strong class="text-white">Caffeina</strong> – Caffè, tè, bevande energetiche e alcuni integratori possono scatenare extrasistoli in persone sensibili</li>
+        <li><strong class="text-white">Alcol</strong> – Anche quantità moderate possono aumentare le extrasistoli, specialmente nelle ore successive al consumo</li>
+        <li><strong class="text-white">Stress</strong> – Le situazioni stressanti aumentano gli ormoni che possono stimolare extrasistoli</li>
+        <li><strong class="text-white">Privazione di sonno</strong> – Dormire poco o male può aumentare la frequenza delle extrasistoli</li>
+        <li><strong class="text-white">Fumo</strong> – La nicotina può irritare il tessuto cardiaco</li>
+        <li><strong class="text-white">Disidratazione</strong> – Bere poca acqua può alterare l'equilibrio elettrolitico</li>
+        <li><strong class="text-white">Squilibri elettrolitici</strong> – Livelli bassi di potassio o magnesio possono favorire aritmie</li>
+        <li><strong class="text-white">Disturbi tiroidei</strong> – Sia l'ipertiroidismo che l'ipotiroidismo possono causare extrasistoli</li>
+        <li><strong class="text-white">Malattie cardiache</strong> – Infarto precedente, insufficienza cardiaca, ipertrofia cardiaca o malattie delle valvole possono associarsi a extrasistoli</li>
       </ul>
     </div>
   </section>
@@ -130,19 +130,19 @@ date: 2025-09-15
         Gli esami che possono diagnosticare e valutare le extrasistoli includono:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li>●<strong class="text-white">Elettrocardiogramma (ECG)</strong> – Questo esame registra l'attività elettrica del cuore per alcuni secondi. Può mostrare le extrasistoli se si verificano durante la registrazione. L'esame dura pochi minuti e non è doloroso</li>
-        <li>●<strong class="text-white">Holter ECG</strong> – Un piccolo registratore che portate per 24-48 ore mentre fate le vostre normali attività. Registra continuamente il ritmo cardiaco e permette di quantificare le extrasistoli e vedere quando si verificano</li>
-        <li>●<strong class="text-white">Ecocardiogramma</strong> – Un'ecografia del cuore che usa onde sonore per creare immagini. Mostra la struttura del cuore e come funzionano le camere e le valvole. È importante per verificare che il cuore sia strutturalmente normale</li>
-        <li>●<strong class="text-white">Test da sforzo</strong> – Un elettrocardiogramma eseguito mentre camminate su un tapis roulant. Le extrasistoli benigne di solito diminuiscono o scompaiono durante lo sforzo. Extrasistoli che aumentano con lo sforzo possono richiedere ulteriore valutazione</li>
+        <li><strong class="text-white">Elettrocardiogramma (ECG)</strong> – Questo esame registra l'attività elettrica del cuore per alcuni secondi. Può mostrare le extrasistoli se si verificano durante la registrazione. L'esame dura pochi minuti e non è doloroso</li>
+        <li><strong class="text-white">Holter ECG</strong> – Un piccolo registratore che portate per 24-48 ore mentre fate le vostre normali attività. Registra continuamente il ritmo cardiaco e permette di quantificare le extrasistoli e vedere quando si verificano</li>
+        <li><strong class="text-white">Ecocardiogramma</strong> – Un'ecografia del cuore che usa onde sonore per creare immagini. Mostra la struttura del cuore e come funzionano le camere e le valvole. È importante per verificare che il cuore sia strutturalmente normale</li>
+        <li><strong class="text-white">Test da sforzo</strong> – Un elettrocardiogramma eseguito mentre camminate su un tapis roulant. Le extrasistoli benigne di solito diminuiscono o scompaiono durante lo sforzo. Extrasistoli che aumentano con lo sforzo possono richiedere ulteriore valutazione</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed mb-4">
       Il medico può anche prescrivere esami del sangue per controllare:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5">
-      <li>●Elettroliti (potassio, magnesio, calcio)</li>
-      <li>●Funzione tiroidea</li>
-      <li>●Emocromo completo</li>
+      <li>Elettroliti (potassio, magnesio, calcio)</li>
+      <li>Funzione tiroidea</li>
+      <li>Emocromo completo</li>
     </ul>
   </section>
 
@@ -156,10 +156,10 @@ date: 2025-09-15
         Le extrasistoli sono generalmente benigne quando:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●L'ecocardiogramma mostra un cuore strutturalmente normale</li>
-        <li>●Le extrasistoli diminuiscono o scompaiono durante l'attività fisica</li>
-        <li>●Non causano svenimenti, dolore al petto grave o grave mancanza di respiro</li>
-        <li>●Non sono associate ad altre aritmie più complesse</li>
+        <li>L'ecocardiogramma mostra un cuore strutturalmente normale</li>
+        <li>Le extrasistoli diminuiscono o scompaiono durante l'attività fisica</li>
+        <li>Non causano svenimenti, dolore al petto grave o grave mancanza di respiro</li>
+        <li>Non sono associate ad altre aritmie più complesse</li>
       </ul>
     </div>
     <div class="warning-box rounded-lg p-6">
@@ -167,13 +167,13 @@ date: 2025-09-15
         Consultate il medico se avete:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Svenimenti o vertigini gravi</li>
-        <li>●Dolore al petto</li>
-        <li>●Mancanza di respiro sproporzionata all'attività</li>
-        <li>●Comparsa improvvisa di molte extrasistoli quando prima non le avevate</li>
-        <li>●Aumento delle extrasistoli durante l'attività fisica</li>
-        <li>●Storia familiare di morte cardiaca improvvisa in giovane età</li>
-        <li>●Malattie cardiache già note</li>
+        <li>Svenimenti o vertigini gravi</li>
+        <li>Dolore al petto</li>
+        <li>Mancanza di respiro sproporzionata all'attività</li>
+        <li>Comparsa improvvisa di molte extrasistoli quando prima non le avevate</li>
+        <li>Aumento delle extrasistoli durante l'attività fisica</li>
+        <li>Storia familiare di morte cardiaca improvvisa in giovane età</li>
+        <li>Malattie cardiache già note</li>
       </ul>
     </div>
   </section>
@@ -189,13 +189,13 @@ date: 2025-09-15
       Se le extrasistoli vi danno fastidio, provate questi accorgimenti:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5 mb-6">
-      <li>●Riducete il consumo di caffeina. Limitate il caffè a 1-2 tazze al giorno ed evitate bevande energetiche</li>
-      <li>●Limitate l'alcol o considerate di eliminarlo completamente</li>
-      <li>●Smettete di fumare se fumate</li>
-      <li>●Cercate di dormire regolarmente 7-9 ore per notte</li>
-      <li>●Bevete acqua a sufficienza durante la giornata</li>
-      <li>●Praticate tecniche di gestione dello stress (respirazione, meditazione, attività fisica regolare)</li>
-      <li>●Mangiate una dieta equilibrata ricca di frutta e verdura</li>
+      <li>Riducete il consumo di caffeina. Limitate il caffè a 1-2 tazze al giorno ed evitate bevande energetiche</li>
+      <li>Limitate l'alcol o considerate di eliminarlo completamente</li>
+      <li>Smettete di fumare se fumate</li>
+      <li>Cercate di dormire regolarmente 7-9 ore per notte</li>
+      <li>Bevete acqua a sufficienza durante la giornata</li>
+      <li>Praticate tecniche di gestione dello stress (respirazione, meditazione, attività fisica regolare)</li>
+      <li>Mangiate una dieta equilibrata ricca di frutta e verdura</li>
     </ul>
 
     <h3 class="text-xl font-bold mb-4 text-white">Farmaci</h3>
@@ -204,9 +204,9 @@ date: 2025-09-15
         I farmaci sono riservati ai casi in cui le extrasistoli causano sintomi significativi nonostante le modifiche dello stile di vita. I farmaci più usati includono:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●<strong class="text-white">Beta-bloccanti</strong> – Rallentano il battito cardiaco e riducono la frequenza delle extrasistoli. Sono i farmaci di prima scelta</li>
-        <li>●<strong class="text-white">Calcio-antagonisti</strong> – Un'alternativa ai beta-bloccanti in alcuni casi</li>
-        <li>●<strong class="text-white">Farmaci antiaritmici</strong> – Riservati a casi selezionati quando altri trattamenti non sono efficaci</li>
+        <li><strong class="text-white">Beta-bloccanti</strong> – Rallentano il battito cardiaco e riducono la frequenza delle extrasistoli. Sono i farmaci di prima scelta</li>
+        <li><strong class="text-white">Calcio-antagonisti</strong> – Un'alternativa ai beta-bloccanti in alcuni casi</li>
+        <li><strong class="text-white">Farmaci antiaritmici</strong> – Riservati a casi selezionati quando altri trattamenti non sono efficaci</li>
       </ul>
     </div>
 
@@ -219,9 +219,9 @@ date: 2025-09-15
         L'ablazione è considerata quando:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>●Le extrasistoli sono estremamente frequenti (più del 15-20 percento di tutti i battiti)</li>
-        <li>●Le extrasistoli stanno causando disfunzione del ventricolo sinistro</li>
-        <li>●I sintomi sono molto gravi e compromettono significativamente la qualità di vita nonostante i farmaci</li>
+        <li>Le extrasistoli sono estremamente frequenti (più del 15-20 percento di tutti i battiti)</li>
+        <li>Le extrasistoli stanno causando disfunzione del ventricolo sinistro</li>
+        <li>I sintomi sono molto gravi e compromettono significativamente la qualità di vita nonostante i farmaci</li>
       </ul>
       <p class="text-slate-300 leading-relaxed">
         L'ablazione ha una percentuale di successo del 60-80 percento, a seconda della sede di origine delle extrasistoli. Le complicanze sono rare ma possono includere sanguinamento, infezione, danno vascolare o, raramente, danno cardiaco.
