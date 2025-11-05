@@ -107,8 +107,8 @@ Iniziare con articoli più comuni/richiesti:
 17. ✅ **flutter-atriale** ← COMPLETATO (commit 446887b)
 18. ✅ **tachicardia-ventricolare** ← COMPLETATO (commit 6820062)
 19. ✅ **tpsv** ← COMPLETATO (commit 5309936)
-20. ⏳ tilt-test
-21. ⏳ vita-con-pacemaker-icd
+20. ✅ **tilt-test** ← COMPLETATO (commit 18cee6e)
+21. ✅ **vita-con-pacemaker-icd** ← COMPLETATO (commit 1f136b6)
 22. ⏳ holter-ecg
 
 ### FASE 6 - Altri articoli (priorità media-bassa)

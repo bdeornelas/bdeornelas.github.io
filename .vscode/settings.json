@@ -1,0 +1,4 @@
+{
+    "claudeRoleLauncher.newWindowCommand": "claudeVSCodeSidebar.open",
+    "claudeRoleLauncher.launchMode": "chat"
+}

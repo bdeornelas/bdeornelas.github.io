@@ -1,0 +1,8 @@
+{
+  "username": "YOUR_INSTITUTIONAL_USERNAME",
+  "password": "YOUR_INSTITUTIONAL_PASSWORD",
+  "institution_login_url": "YOUR_INSTITUTION_LOGIN_URL",
+  "delay_between_requests": 2,
+  "max_retries": 3,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+}
