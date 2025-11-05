@@ -30,18 +30,10 @@ I seguenti pattern sono stati **confermati tramite analisi diretta** di articoli
 
 ### 🎯 Elementi Strutturali Obbligatori
 
-1. **Outline/Schema iniziale** - SEMPRE presente all'inizio dell'articolo
-   - Sezione cliccabile con lista di tutte le sezioni principali
-   - Formato: lista puntata con link interni
-
-2. **Titoli H2 come domande** - TUTTE le sezioni principali usano domande
+1. **Titoli H2 come domande** - TUTTE le sezioni principali usano domande
    - ✅ "What are anticoagulants?"
    - ✅ "Why do I need an anticoagulant?"
    - ❌ MAI: "Anticoagulants" o "Necessità degli anticoagulanti"
-
-3. **Attribution line** - Sempre presente prima del contenuto
-   - Formula esatta: "Written by the doctors and editors at UpToDate"
-   - Posizione: Dopo il titolo, prima dell'Outline
 
 ### 🔤 Pattern Linguistici Confermati
 
@@ -1135,10 +1127,9 @@ Questo pattern appare costantemente per spiegare fisiopatologia.
 6. **BULLET ●** (U+25CF) - NON usare - o •
 7. **BRAND NAMES** - Formula: "[generic] (brand name: [Brand])"
 8. **ABBREVIAZIONI** - Pattern: "[term]," or "[ABBR]"
-9. **OUTLINE/SCHEMA** - All'inizio di ogni articolo
-10. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
-11. **BOX** per emergenze e info critiche
-12. **NEUTRALE** ma accessibile nel tono
+9. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
+10. **BOX** per emergenze e info critiche
+11. **NEUTRALE** ma accessibile nel tono
 
 ### Quando Usare Questa Guida
 
