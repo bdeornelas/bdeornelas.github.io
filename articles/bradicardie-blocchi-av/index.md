@@ -63,13 +63,13 @@ date: 2025-09-07
       <span class="text-white">Cos'è la bradicardia?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La bradicardia è definita come una frequenza cardiaca inferiore a 60 battiti al minuto a riposo. Questa definizione ha valore convenzionale: una frequenza di 55 battiti al minuto può essere perfettamente normale in una persona sana e allenata, mentre può causare sintomi in un altro paziente.
+      La bradicardia significa avere il battito cardiaco più lento del normale. In genere si parla di bradicardia quando il cuore batte meno di 60 volte al minuto mentre siete a riposo. Questa però è solo una definizione di riferimento: per alcune persone, specialmente gli sportivi, 55 battiti al minuto sono del tutto normali. Per altri invece possono causare disturbi.
     </p>
     <p class="text-slate-300 leading-relaxed mb-6">
-      Il battito cardiaco origina dal nodo seno-atriale (o senoatriale), una struttura posta nell'atrio destro che genera impulsi elettrici ritmici. Questi impulsi viaggiano attraverso il tessuto di conduzione cardiaco fino ai ventricoli, determinando la contrazione coordinata del cuore.
+      Il battito del cuore nasce da una piccola zona chiamata "nodo del seno", che funziona come un pacemaker naturale. Questa zona genera segnali elettrici che viaggiano attraverso il cuore facendolo battere in modo coordinato.
     </p>
     <p class="text-slate-300 leading-relaxed">
-      La bradicardia si verifica quando il nodo seno-atriale genera impulsi più lentamente del normale (disfunzione del nodo del seno), quando gli impulsi non riescono a propagarsi correttamente (blocchi di conduzione atrioventricolare), o quando altri meccanismi alterano la frequenza cardiaca.
+      Il battito può rallentare per due motivi principali: il "pacemaker naturale" genera i segnali più lentamente del dovuto, oppure i segnali elettrici hanno difficoltà a passare da una parte all'altra del cuore (come se ci fossero rallentamenti lungo la strada).
     </p>
   </section>
 
@@ -79,13 +79,13 @@ date: 2025-09-07
       <span class="text-white">Quando la bradicardia è normale?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      Una frequenza cardiaca inferiore a 60 battiti al minuto non è di per sé patologica. La bradicardia fisiologica si osserva in diverse situazioni:
+      Avere meno di 60 battiti al minuto non significa automaticamente avere un problema. Ci sono diverse situazioni in cui il battito lento è del tutto normale:
     </p>
     <div class="info-step rounded-lg p-6">
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Atleti e persone allenate:</strong> L'allenamento aerobico regolare induce adattamenti cardiovascolari tra cui bradicardia a riposo (frequenze di 40-50 battiti al minuto sono comuni negli atleti di resistenza). Questo riflette un'efficienza cardiaca aumentata, non una patologia</li>
-        <li><strong class="text-white">Durante il sonno:</strong> La frequenza cardiaca rallenta fisiologicamente durante il sonno, specialmente nella fase di sonno profondo (non-REM), per l'aumento del tono vagale</li>
-        <li><strong class="text-white">Variabilità individuale:</strong> Alcuni soggetti sani hanno frequenze cardiache basali più basse senza conseguenze cliniche</li>
+        <li><strong class="text-white">Se fate sport regolarmente:</strong> Chi si allena spesso, soprattutto con sport di resistenza come corsa o ciclismo, sviluppa un cuore più forte ed efficiente. Il cuore riesce a pompare più sangue a ogni battito, quindi non ha bisogno di battere velocemente. È normale che gli atleti abbiano 40-50 battiti al minuto a riposo</li>
+        <li><strong class="text-white">Mentre dormite:</strong> Durante il sonno il cuore rallenta naturalmente, specialmente nel sonno profondo. Questo è normale e sano</li>
+        <li><strong class="text-white">Per costituzione personale:</strong> Alcune persone hanno naturalmente un battito più lento senza che questo causi alcun problema</li>
       </ul>
     </div>
   </section>
@@ -93,25 +93,25 @@ date: 2025-09-07
   <section class="mb-12">
     <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
       <i data-lucide="alert-triangle" class="w-6 h-6 text-orange-400"></i>
-      <span class="text-white">Quando la bradicardia diventa sintomatica?</span>
+      <span class="text-white">Quando la bradicardia diventa un problema?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La bradicardia diventa clinicamente rilevante quando la frequenza cardiaca ridotta non garantisce una gittata cardiaca (quantità di sangue pompato dal cuore) sufficiente alle richieste metaboliche dell'organismo. Questo determina ipoperfusione d'organo, con sintomi caratteristici:
+      La bradicardia diventa preoccupante quando il cuore batte così lentamente che non riesce a pompare abbastanza sangue per le necessità del corpo. Questo significa che il cervello e gli altri organi non ricevono abbastanza ossigeno, causando vari disturbi:
     </p>
     <div class="warning-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Manifestazioni cliniche della bradicardia sintomatica:
+        Segnali che il battito lento sta causando problemi:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Presincope e sincope:</strong> Ridotto apporto di sangue al cervello causato dalla bassa gittata cardiaca. Si manifesta con capogiri, vista offuscata, sensazione di testa leggera o perdita di coscienza</li>
-        <li><strong class="text-white">Astenia:</strong> Affaticamento marcato, debolezza, ridotta tolleranza allo sforzo. Anche attività quotidiane semplici possono risultare faticose</li>
-        <li><strong class="text-white">Dispnea:</strong> Difficoltà respiratoria da sforzo o a riposo, causata da inadeguata perfusione tissutale e possibile congestione polmonare</li>
-        <li><strong class="text-white">Confusione mentale:</strong> Difficoltà di concentrazione, rallentamento cognitivo secondario a ipoperfusione cerebrale</li>
-        <li><strong class="text-white">Dolore toracico:</strong> Angina da ridotto apporto di ossigeno al miocardio, specialmente in pazienti con coronaropatia sottostante</li>
+        <li><strong class="text-white">Capogiri e svenimenti:</strong> Quando arriva poco sangue al cervello, potete sentirvi storditi, vedere tutto sfocato, sentire la testa leggera, o addirittura svenire</li>
+        <li><strong class="text-white">Stanchezza intensa:</strong> Vi sentite sempre stanchi e deboli, anche fare cose semplici come salire le scale vi affatica molto</li>
+        <li><strong class="text-white">Affanno:</strong> Avete difficoltà a respirare quando fate uno sforzo o anche a riposo, perché i polmoni non ricevono abbastanza sangue</li>
+        <li><strong class="text-white">Difficoltà a concentrarvi:</strong> Il pensiero diventa più lento, fate fatica a concentrarvi, tutto sembra più difficile</li>
+        <li><strong class="text-white">Dolore al petto:</strong> Il cuore stesso può ricevere meno ossigeno e questo può causare dolore al petto, specialmente se avete già problemi alle arterie del cuore</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed">
-      La gravità dei sintomi dipende dalla frequenza cardiaca assoluta, dalla riserva cardiaca del paziente, dalle comorbidità e dalla rapidità di insorgenza della bradicardia.
+      La gravità dei sintomi dipende da quanto lento batte il cuore, dallo stato generale del vostro cuore, da altre condizioni di salute che avete, e da quanto rapidamente si è sviluppato il problema.
     </p>
   </section>
 
@@ -121,38 +121,38 @@ date: 2025-09-07
       <span class="text-white">Quali sono le cause della bradicardia?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      Le cause di bradicardia si classificano in intrinseche (disfunzione del sistema di conduzione) ed estrinseche (fattori esterni che influenzano la conduzione):
+      Le cause della bradicardia si possono dividere in due gruppi: problemi che nascono direttamente dal sistema elettrico del cuore, e fattori esterni che influenzano il battito cardiaco:
     </p>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Cause intrinseche</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Problemi del sistema elettrico del cuore</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Disfunzione del nodo del seno (malattia del seno):</strong>
+        <strong class="text-white">Il "pacemaker naturale" non funziona bene:</strong>
       </p>
       <p class="text-slate-300 mb-4">
-        Degenerazione o fibrosi del nodo seno-atriale e del tessuto circostante. Si manifesta con bradicardia sinusale, pause sinusali, arresto sinusale o sindrome bradi-tachi (alternanza di bradicardia e tachicardia, tipicamente fibrillazione atriale). Più frequente negli anziani, può essere idiopatica o secondaria a cardiopatia ischemica, miocardite, chirurgia cardiaca.
+        Con l'età o per altri motivi, la zona del cuore che genera i segnali elettrici può deteriorarsi. Questo può causare battiti molto lenti, pause nel battito, o alternanza tra battito lento e veloce. È più comune nelle persone anziane, ma può essere causato anche da un infarto, da infiammazioni del cuore, o da interventi chirurgici sul cuore.
       </p>
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Blocchi atrioventricolari (AV):</strong>
+        <strong class="text-white">Blocchi nella trasmissione dei segnali elettrici:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Blocco AV di I grado: ritardo nella conduzione AV (intervallo PR prolungato), generalmente asintomatico</li>
-        <li>Blocco AV di II grado tipo I (Mobitz I o Wenckebach): progressivo allungamento dell'intervallo PR fino a una mancata conduzione. Spesso benigno</li>
-        <li>Blocco AV di II grado tipo II (Mobitz II): blocco improvviso della conduzione senza progressivo allungamento PR. Rischio di progressione a blocco completo</li>
-        <li>Blocco AV di III grado (completo): nessun impulso atriale raggiunge i ventricoli. I ventricoli battono con ritmo di scappamento a frequenza molto bassa (20-40 battiti/minuto). Richiede intervento urgente</li>
+        <li><strong class="text-white">Blocco lieve:</strong> I segnali viaggiano più lentamente del normale ma arrivano a destinazione. Di solito non dà sintomi</li>
+        <li><strong class="text-white">Blocco moderato tipo 1:</strong> I segnali rallentano sempre di più fino a che uno non riesce a passare. Spesso è benigno</li>
+        <li><strong class="text-white">Blocco moderato tipo 2:</strong> A volte i segnali passano, altre volte no, senza preavviso. Questo può peggiorare e richiede attenzione</li>
+        <li><strong class="text-white">Blocco completo:</strong> I segnali non passano più. Le camere inferiori del cuore devono battere da sole con un ritmo molto lento (20-40 battiti al minuto). Questo è grave e richiede intervento urgente</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Cause estrinseche</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Fattori esterni che rallentano il battito</h3>
     <div class="info-step rounded-lg p-6">
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Farmaci:</strong> Betabloccanti (metoprololo, atenololo, bisoprololo), calcio-antagonisti non-diidropiridinici (verapamil, diltiazem), digitale, amiodarone, ivabradina, alcuni antipsicotici. La bradicardia da farmaci è dose-dipendente e reversibile con riduzione del dosaggio o sospensione</li>
-        <li><strong class="text-white">Ipotiroidismo:</strong> La ridotta produzione di ormoni tiroidei rallenta il metabolismo, compresa la frequenza cardiaca</li>
-        <li><strong class="text-white">Squilibri elettrolitici:</strong> Iperkaliemia (potassio elevato), ipermagnesemia, ipocalcemia possono alterare la conduzione cardiaca</li>
-        <li><strong class="text-white">Cardiopatia ischemica:</strong> Infarto miocardico acuto della parete inferiore (territorio dell'arteria coronaria destra) può compromettere l'irrorazione del nodo AV</li>
-        <li><strong class="text-white">Ipertono vagale:</strong> Stimolazione vagale eccessiva durante manovre come la manovra di Valsalva, massaggio del seno carotideo, vomito. Comune negli atleti (bradicardia fisiologica da alto tono vagale)</li>
-        <li><strong class="text-white">Apnee ostruttive del sonno:</strong> Le apnee ripetute causano ipossia e risposte vagali che possono determinare bradicardia notturna</li>
-        <li><strong class="text-white">Altre cause:</strong> Miocardite, endocardite, malattie infiltrative (sarcoidosi, amiloidosi), post-ablazione transcatetere, post-cardiochirurgia</li>
+        <li><strong class="text-white">Farmaci:</strong> Alcuni medicinali per il cuore o per la pressione alta (betabloccanti, calcio-antagonisti, digitale) possono rallentare il battito. La bradicardia da farmaci di solito si risolve riducendo la dose o cambiando medicina</li>
+        <li><strong class="text-white">Tiroide che funziona poco:</strong> Quando la tiroide produce meno ormoni del normale, tutto il metabolismo rallenta, compreso il cuore</li>
+        <li><strong class="text-white">Sali minerali sbilanciati:</strong> Avere troppo potassio, troppo magnesio o poco calcio nel sangue può interferire con i segnali elettrici del cuore</li>
+        <li><strong class="text-white">Infarto:</strong> Un infarto in determinate zone del cuore può danneggiare il sistema elettrico</li>
+        <li><strong class="text-white">Stimolazione del nervo vago:</strong> Alcune manovre (come sforzarsi per andare in bagno, vomitare) possono stimolare un nervo che rallenta il cuore. Questo è normale anche negli atleti</li>
+        <li><strong class="text-white">Apnee nel sonno:</strong> Se smettete ripetutamente di respirare durante il sonno, questo può causare rallentamenti del cuore di notte</li>
+        <li><strong class="text-white">Altre cause:</strong> Infiammazioni del cuore, infezioni delle valvole, alcune malattie rare, o interventi precedenti sul cuore</li>
       </ul>
     </div>
   </section>
@@ -163,41 +163,41 @@ date: 2025-09-07
       <span class="text-white">Come viene diagnosticata la bradicardia?</span>
     </h2>
     <p class="text-slate-300 leading-relaxed mb-6">
-      La valutazione della bradicardia inizia con anamnesi dettagliata (sintomi, tempi di insorgenza, farmaci assunti, condizioni associate) ed esame obiettivo (rilevazione manuale della frequenza cardiaca e del polso, misurazione della pressione arteriosa).
+      La valutazione inizia con domande sui vostri sintomi, da quando sono iniziati, quali medicine prendete, e se avete altre condizioni di salute. Il medico vi visita, conta il battito del polso, e misura la pressione. Poi prescrive alcuni esami.
     </p>
 
     <h3 class="text-xl font-bold mb-4 text-white">Elettrocardiogramma (ECG)</h3>
     <div class="highlight-box rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        L'ECG a 12 derivazioni è il test diagnostico fondamentale. Consente di:
+        L'ECG è l'esame principale. Registra l'attività elettrica del cuore e permette di:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>Confermare la presenza di bradicardia e misurare la frequenza cardiaca precisa</li>
-        <li>Identificare il tipo di bradicardia (sinusale, da blocco AV, da ritmo giunzionale, da ritmo ventricolare di scappamento)</li>
-        <li>Classificare il grado di blocco AV se presente</li>
-        <li>Rilevare segni di ischemia miocardica, ipertrofia o altre alterazioni strutturali</li>
+        <li>Confermare che il cuore batte lentamente e misurare esattamente quanto</li>
+        <li>Capire quale tipo di problema sta causando il battito lento</li>
+        <li>Vedere se ci sono blocchi elettrici e quanto sono gravi</li>
+        <li>Controllare se ci sono altri problemi al cuore</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Monitoraggio ECG continuo</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Monitoraggio del cuore per più giorni</h3>
     <div class="info-step rounded-lg p-6 mb-6">
       <p class="text-slate-300 mb-4">
-        Se l'ECG basale è normale ma i sintomi suggeriscono bradicardia intermittente:
+        Se l'ECG fatto in ambulatorio è normale ma avete sintomi che vanno e vengono:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Holter ECG 24-72 ore:</strong> Registrazione continua dell'attività elettrica cardiaca durante le normali attività quotidiane. Utile per documentare episodi di bradicardia, correlare sintomi con alterazioni del ritmo, valutare pause e blocchi intermittenti</li>
-        <li><strong class="text-white">Loop recorder esterno (event recorder):</strong> Dispositivo indossato per periodi più lunghi (settimane) che registra quando il paziente avverte sintomi o quando rileva automaticamente aritmie</li>
-        <li><strong class="text-white">Loop recorder impiantabile:</strong> Piccolo dispositivo inserito sottocute che monitora il ritmo cardiaco continuamente per 2-3 anni. Indicato quando i sintomi sono rari ma potenzialmente gravi e gli altri metodi non hanno fornito diagnosi</li>
+        <li><strong class="text-white">Holter (1-3 giorni):</strong> Un piccolo registratore che portate a casa per 24-72 ore. Registra continuamente il battito mentre fate le vostre normali attività. Serve per capire se e quando il cuore rallenta</li>
+        <li><strong class="text-white">Registratore esterno (settimane):</strong> Un dispositivo che indossate per periodi più lunghi. Registra automaticamente o quando premete un pulsante se avete sintomi</li>
+        <li><strong class="text-white">Registratore impiantabile (2-3 anni):</strong> Un minuscolo dispositivo inserito sotto la pelle che monitora il cuore per anni. Si usa quando i sintomi sono rari ma preoccupanti e gli altri esami non hanno trovato il problema</li>
       </ul>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Esami complementari</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Altri esami utili</h3>
     <div class="info-step rounded-lg p-6">
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li><strong class="text-white">Ecocardiogramma:</strong> Valuta la funzione di pompa del cuore, la struttura delle valvole e delle camere cardiache, identifica eventuali patologie strutturali associate</li>
-        <li><strong class="text-white">Esami ematochimici:</strong> TSH e ormoni tiroidei (escludere ipotiroidismo), elettroliti sierici (potassio, magnesio, calcio), troponina se sospetto di ischemia acuta, digossinemia se il paziente assume digitale</li>
-        <li><strong class="text-white">Test da sforzo:</strong> Valuta la risposta cronotropa (capacità del cuore di aumentare la frequenza) durante esercizio fisico. Una risposta cronotropa inadeguata può indicare incompetenza cronotropa del nodo del seno</li>
-        <li><strong class="text-white">Studio elettrofisiologico:</strong> Procedura invasiva che valuta la funzione del sistema di conduzione mediante elettrocateteri inseriti nel cuore. Riservata a casi selezionati quando gli altri test non sono conclusivi</li>
+        <li><strong class="text-white">Ecocardiogramma:</strong> Un'ecografia del cuore che mostra come funziona il cuore, lo stato delle valvole e se ci sono altri problemi strutturali</li>
+        <li><strong class="text-white">Esami del sangue:</strong> Per controllare la tiroide, i sali minerali (potassio, magnesio, calcio), e se avete avuto un infarto. Se prendete certi medicinali per il cuore, si controlla il loro livello nel sangue</li>
+        <li><strong class="text-white">Test da sforzo:</strong> Vi fanno camminare su un tapis roulant mentre controllano il cuore. Serve per vedere se il cuore riesce ad accelerare quando fate uno sforzo</li>
+        <li><strong class="text-white">Studio elettrofisiologico:</strong> Un esame più invasivo dove inseriscono dei fili speciali nel cuore per studiare in dettaglio il sistema elettrico. Si fa solo in casi particolari quando gli altri esami non chiariscono la situazione</li>
       </ul>
     </div>
   </section>
@@ -235,35 +235,35 @@ date: 2025-09-07
     <h3 class="text-xl font-bold mb-4 text-white">Pacemaker permanente</h3>
     <div class="warning-box rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        L'impianto di pacemaker permanente è il trattamento definitivo per la bradicardia sintomatica causata da disfunzione intrinseca del sistema di conduzione quando non ci sono cause reversibili.
+        Il pacemaker è la soluzione definitiva per la bradicardia che causa sintomi quando il problema è nel sistema elettrico del cuore e non può essere risolto in altro modo.
       </p>
       <p class="text-slate-300 mb-4">
-        <strong class="text-white">Indicazioni all'impianto di pacemaker:</strong>
+        <strong class="text-white">Quando serve il pacemaker:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>Blocco AV di terzo grado sintomatico</li>
-        <li>Blocco AV di secondo grado tipo II (anche asintomatico per l'alto rischio di progressione)</li>
-        <li>Malattia del nodo del seno sintomatica con pause sinusali documentate</li>
-        <li>Bradicardia sintomatica persistente dopo correzione di cause reversibili</li>
-        <li>Sincope ricorrente attribuibile a bradicardia documentata</li>
-        <li>Incompetenza cronotropa sintomatica</li>
+        <li>Blocco completo che causa sintomi</li>
+        <li>Blocco moderato tipo 2 (anche senza sintomi, perché può peggiorare improvvisamente)</li>
+        <li>Il "pacemaker naturale" non funziona e causa sintomi con pause lunghe nel battito</li>
+        <li>Bradicardia con sintomi che continua anche dopo aver risolto le altre cause</li>
+        <li>Svenimenti ripetuti causati dal battito lento</li>
+        <li>Il cuore non riesce ad accelerare quando serve</li>
       </ul>
       <p class="text-slate-300">
-        Il pacemaker è un dispositivo elettronico che rileva l'attività cardiaca spontanea e, quando necessario, eroga stimoli elettrici per mantenere una frequenza cardiaca adeguata. Viene impiantato sottocute nella regione pettorale con procedura in anestesia locale, con uno o più elettrocateteri posizionati nel cuore attraverso una vena.
+        Il pacemaker è un piccolo dispositivo elettronico che controlla continuamente il battito del cuore. Quando il cuore batte troppo lentamente, il pacemaker invia piccoli impulsi elettrici per farlo battere a un ritmo normale. Viene messo sotto la pelle del torace con un piccolo intervento in anestesia locale. Uno o più fili sottili lo collegano al cuore passando attraverso una vena.
       </p>
     </div>
 
-    <h3 class="text-xl font-bold mb-4 text-white">Trattamento farmacologico acuto</h3>
+    <h3 class="text-xl font-bold mb-4 text-white">Trattamento in emergenza</h3>
     <div class="info-step rounded-lg p-6">
       <p class="text-slate-300 mb-4">
-        In situazioni di emergenza (bradicardia sintomatica grave, instabilità emodinamica), il trattamento farmacologico acuto include:
+        In situazioni di emergenza (battito molto lento con sintomi gravi o pressione molto bassa), si usa:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li><strong class="text-white">Atropina endovenosa:</strong> Farmaco anticolinergico che aumenta la frequenza cardiaca bloccando l'attività vagale. Utile nella bradicardia sinusale e nel blocco AV di alto grado</li>
-        <li><strong class="text-white">Catecolamine (dopamina, adrenalina):</strong> Amine simpaticomimetiche che aumentano la frequenza cardiaca e la contrattilità. Usate in terapia intensiva</li>
+        <li><strong class="text-white">Atropina in vena:</strong> Un farmaco che blocca i segnali che rallentano il cuore, facendolo battere più velocemente. Funziona rapidamente</li>
+        <li><strong class="text-white">Farmaci che stimolano il cuore:</strong> Medicine come dopamina o adrenalina che fanno battere il cuore più forte e più velocemente. Si usano in terapia intensiva</li>
       </ul>
       <p class="text-slate-300">
-        Se i farmaci non sono efficaci, si ricorre al <strong class="text-white">pacing transcutaneo</strong> (stimolazione elettrica attraverso elettrodi adesivi sul torace) o al <strong class="text-white">pacing transvenoso temporaneo</strong> (catetere-elettrodo inserito in vena centrale) come ponte verso il pacemaker permanente.
+        Se le medicine non funzionano, si può usare temporaneamente la <strong class="text-white">stimolazione elettrica esterna</strong> (attraverso piastre adesive sul petto) o un <strong class="text-white">pace maker temporaneo</strong> (un filo inserito attraverso una vena) finché non si mette il pacemaker definitivo.
       </p>
     </div>
   </section>
