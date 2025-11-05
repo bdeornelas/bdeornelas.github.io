@@ -23,6 +23,11 @@ exclude:
   - package.json
   - node_modules/
   - .parcel-cache/
+  - plugins/
+  - docs/
+  - graphics-app/
+  - ecg-*.html
+  - preview-*.html
 
 # Include files
 include:

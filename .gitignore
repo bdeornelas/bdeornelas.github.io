@@ -21,3 +21,16 @@ assets/css/*.min.css
 .DS_Store
 *.log
 .vercel
+
+# Backup files
+*.bak
+
+# Development HTML test files
+ecg-configurator*.html
+ecg-final-bg.html
+preview-*.html
+
+# Next.js app
+graphics-app/.next/
+graphics-app/out/
+graphics-app/node_modules/
