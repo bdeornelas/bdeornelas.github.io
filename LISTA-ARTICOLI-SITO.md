@@ -99,7 +99,7 @@ Iniziare con articoli più comuni/richiesti:
 11. ✅ **stenosi-aortica** ← COMPLETATO (commit 605bef0)
 12. ✅ **insufficienza-mitralica** ← COMPLETATO (commit 067793f)
 13. ✅ **soffio-al-cuore** ← COMPLETATO (commit d9c4671)
-14. ⏳ stenosi-mitralica
+14. ✅ **stenosi-mitralica** ← COMPLETATO (commit 84b45aa)
 15. ⏳ insufficienza-aortica
 16. ⏳ insufficienza-tricuspidale
 
