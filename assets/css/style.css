@@ -65,3 +65,80 @@ body {
   background: linear-gradient(135deg, rgba(16,185,129,.07), rgba(56,189,248,.07));
   border: 1px solid rgba(16,185,129,.25);
 }
+
+/* ECG Animation Styles */
+.ecg-container {
+  width: 100%;
+  height: 8rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+.ecg-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ecg-glow-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right,
+    rgba(15, 23, 42, 0.8) 0%,
+    transparent 50%,
+    rgba(15, 23, 42, 0.8) 100%
+  );
+  pointer-events: none;
+}
+
+/* ECG Wave Animation */
+@keyframes ecg-wave {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ecg-wave-alt {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes ecg-glow {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes ecg-dot {
+  0% {
+    cx: 0;
+  }
+  100% {
+    cx: 200;
+  }
+}
+
+.ecg-wave-path {
+  animation: ecg-wave 2s linear infinite;
+}
+
+.ecg-wave-path-alt {
+  animation: ecg-wave-alt 2s linear infinite;
+}
+
+.ecg-glow-circle {
+  animation: ecg-glow 1s ease-in-out infinite;
+}
