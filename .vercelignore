@@ -11,6 +11,7 @@ vendor/
 # Documentation and project files
 *.md
 !README.md
+!articles/**/*.md
 docs/
 plugins/
 .vscode/
