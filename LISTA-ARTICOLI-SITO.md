@@ -86,8 +86,8 @@ Iniziare con articoli più comuni/richiesti:
 4. ✅ **bradicardie-blocchi-av** ← COMPLETATO
 
 ### FASE 2 - Cardiopatia ischemica (priorità alta)
-5. ⏳ angina-pectoris
-6. ⏳ infarto-miocardico
+5. ✅ **angina-pectoris** ← COMPLETATO
+6. ⏳ **infarto-miocardico** ← PROSSIMO
 7. ⏳ malattia-coronarica
 
 ### FASE 3 - Prevenzione (priorità media-alta)
