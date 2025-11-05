@@ -80,9 +80,9 @@
 Iniziare con articoli più comuni/richiesti:
 
 ### FASE 1 - Aritmie comuni (priorità alta)
-1. ✅ **fibrillazione-atriale** ← PRIMO DA TRASFORMARE
-2. ⏳ extrasistoli
-3. ⏳ sincope
+1. ✅ **fibrillazione-atriale** ← COMPLETATO (commit 5541f8a)
+2. ✅ **extrasistoli** ← COMPLETATO (commit a3628ad)
+3. ⏳ **sincope** ← PROSSIMO
 4. ⏳ bradicardie-blocchi-av
 
 ### FASE 2 - Cardiopatia ischemica (priorità alta)
