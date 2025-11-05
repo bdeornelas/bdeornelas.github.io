@@ -51,57 +51,89 @@ date: 2025-11-02
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <i data-lucide="info" class="w-6 h-6 text-pink-400"></i>
-            Cos'è la pressione alta
+            Cos'è la pressione alta?
           </h2>
           <p class="text-slate-300 leading-relaxed mb-6">
-            L'ipertensione arteriosa è definita come l'elevazione persistente della pressione arteriosa sistemica oltre i valori di riferimento. La pressione arteriosa rappresenta la forza esercitata dal sangue sulle pareti arteriose durante il ciclo cardiaco: la pressione sistolica (massima) corrisponde alla contrazione ventricolare, la diastolica (minima) al rilasciamento. Valori persistentemente elevati causano stress meccanico cronico sulla parete vasale, innescando meccanismi di danno d'organo progressivi.
+            La pressione alta (ipertensione arteriosa) è una condizione in cui la forza del sangue contro le pareti delle arterie è costantemente troppo alta. Nelle persone con pressione alta, questa forza eccessiva può danneggiare le arterie e gli organi nel tempo.
           </p>
           <p class="text-slate-300 leading-relaxed mb-6">
-            L'ipertensione primaria (essenziale) costituisce il 90-95% dei casi. La fisiopatologia è multifattoriale: disfunzione endoteliale, iperattività simpatica, attivazione del sistema renina-angiotensina-aldosterone (RAAS), alterata natriuresi, rigidità arteriosa progressiva. L'ipertensione secondaria (5-10% dei casi) riconosce cause specifiche identificabili: patologie renali (stenosi arteria renale, nefropatie parenchimali), endocrine (iperaldosteronismo primario, feocromocitoma, sindrome di Cushing, iper/ipotiroidismo), apnee ostruttive del sonno, coartazione aortica, farmaci (FANS, contraccettivi orali, corticosteroidi, decongestionanti, simpaticomimetici).
+            La pressione arteriosa viene misurata con due numeri. Il primo numero (pressione sistolica o "massima") misura la pressione quando il cuore si contrae e pompa il sangue. Il secondo numero (pressione diastolica o "minima") misura la pressione quando il cuore si rilassa tra un battito e l'altro.
+          </p>
+          <p class="text-slate-300 leading-relaxed mb-6">
+            Normalmente, la pressione arteriosa sale e scende leggermente durante la giornata a seconda dell'attività fisica, dello stress e di altri fattori. Nella pressione alta, i valori rimangono costantemente elevati.
+          </p>
+          <p class="text-slate-300 leading-relaxed mb-6">
+            La pressione alta colpisce circa 30-35 percento degli adulti in Italia. La percentuale aumenta al 60-70 percento nelle persone sopra i 65 anni. È la causa principale di ictus e infarto, ed è un importante fattore di rischio per insufficienza cardiaca, malattie renali e altri problemi di salute.
           </p>
           <div class="highlight-box rounded-lg p-6">
-            <h3 class="font-bold text-white mb-3">Epidemiologia e burden globale</h3>
-            <ul class="text-slate-300 space-y-2">
-              <li>Prevalenza globale: 30-40% adulti (>1.3 miliardi persone worldwide)</li>
-              <li>In Italia: prevalenza 30-35% popolazione adulta, aumenta al 60-70% oltre i 65 anni</li>
-              <li>Prima causa di mortalità cardiovascolare: 10 milioni morti/anno attribuibili (GBD 2019)</li>
-              <li>Fattore di rischio modificabile principale per ictus, infarto miocardico, insufficienza cardiaca, IRC, malattia vascolare periferica, demenza vascolare</li>
-              <li>Sottod iagnosticata: circa 50% ipertesi non è a conoscenza della propria condizione. Tra i diagnosticati, solo 50% è trattato e solo 50% dei trattati raggiunge il target pressorio</li>
-            </ul>
+            <h3 class="font-bold text-white mb-3">Due tipi di pressione alta</h3>
+            <p class="text-slate-300 mb-4">
+              Ci sono due tipi principali di pressione alta:
+            </p>
+            <p class="text-slate-300 mb-4">
+              ●<strong class="text-white">Ipertensione primaria (o essenziale)</strong> – Questo è il tipo più comune (90-95 percento dei casi). Non ha una causa specifica ma si sviluppa gradualmente nel corso degli anni. È influenzata da fattori come età, genetica, stile di vita, peso e alimentazione
+            </p>
+            <p class="text-slate-300">
+              ●<strong class="text-white">Ipertensione secondaria</strong> – Questo tipo (5-10 percento dei casi) è causato da una condizione medica specifica o da farmaci. Le cause includono problemi ai reni, problemi ormonali, apnee del sonno (interruzioni del respiro durante il sonno), alcuni farmaci (antinfiammatori, pillola anticoncezionale, decongestionanti nasali)
+            </p>
           </div>
         </section>
 
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <i data-lucide="alert-circle" class="w-6 h-6 text-emerald-400"></i>
-            Perché è importante controllare la pressione
+            Perché è importante controllare la pressione?
           </h2>
           <p class="text-slate-300 leading-relaxed mb-6">
-            L'ipertensione è frequentemente asintomatica fino agli stadi avanzati di danno d'organo. Questa latenza clinica rende la misurazione pressoria sistematica essenziale per la diagnosi precoce. La morbilità e mortalità cardiovascolare aumentano progressivamente e continuamente con l'incremento dei valori pressori, senza una soglia netta che separi rischio normale da patologico. Ogni aumento di 20 mmHg di PAS o 10 mmHg di PAD raddoppia il rischio cardiovascolare a partire da valori di 115/75 mmHg.
+            La pressione alta di solito non causa sintomi. Molte persone si sentono bene anche quando la loro pressione è molto alta. Per questo la pressione alta viene chiamata "killer silenzioso" - può danneggiare il corpo per anni senza che tu te ne accorga.
           </p>
           <p class="text-slate-300 leading-relaxed mb-6">
-            La riduzione della pressione arteriosa mediante trattamento farmacologico e non farmacologico riduce significativamente l'incidenza di eventi cardiovascolari maggiori. Meta-analisi di trial randomizzati dimostrano che una riduzione di 10 mmHg di PAS si associa a: riduzione del 20% di eventi cardiovascolari maggiori, riduzione del 17% di malattia coronarica, riduzione del 27% di ictus, riduzione del 13% di mortalità totale (Ettehad D, Lancet 2016).
+            Il rischio di problemi cardiovascolari aumenta progressivamente man mano che la pressione sale. Non c'è un valore "sicuro" sopra il quale improvvisamente compare il rischio. Ogni aumento di 20 punti nella pressione massima (o 10 punti nella minima) raddoppia il rischio di problemi cardiaci.
           </p>
+          <p class="text-slate-300 leading-relaxed mb-6">
+            La buona notizia è che controllare la pressione funziona. Abbassare la pressione massima di 10 punti riduce:
+          </p>
+          <div class="ml-6 mb-6">
+            <p class="text-slate-300 mb-2">●Il rischio di ictus del 27 percento</p>
+            <p class="text-slate-300 mb-2">●Il rischio di infarto del 17 percento</p>
+            <p class="text-slate-300 mb-2">●Il rischio generale di problemi cardiovascolari del 20 percento</p>
+            <p class="text-slate-300 mb-2">●Il rischio di morte del 13 percento</p>
+          </div>
           <div class="warning-box rounded-lg p-6 mb-6">
-            <p class="text-slate-300 leading-relaxed">
-              L'ipertensione è il principale fattore di rischio modificabile per ictus (RR 3-5x), infarto miocardico (RR 2-3x), insufficienza cardiaca (RR 2-4x), malattia renale cronica progressiva (RR 2-3x), fibrillazione atriale (RR 1.5-2x), malattia vascolare periferica (RR 2x), demenza vascolare e Alzheimer (RR 1.6x). Il trattamento tempestivo e il raggiungimento di target pressori ottimali riducono sostanzialmente questi rischi.
+            <p class="text-slate-300 leading-relaxed mb-4">
+              <strong class="text-white">La pressione alta è il fattore di rischio più importante per:</strong>
+            </p>
+            <div class="ml-6">
+              <p class="text-slate-300 mb-2">●<strong class="text-white">Ictus</strong> – Il rischio è 3-5 volte più alto rispetto a chi ha pressione normale</p>
+              <p class="text-slate-300 mb-2">●<strong class="text-white">Infarto</strong> – Il rischio è 2-3 volte più alto</p>
+              <p class="text-slate-300 mb-2">●<strong class="text-white">Insufficienza cardiaca</strong> – Il rischio è 2-4 volte più alto</p>
+              <p class="text-slate-300 mb-2">●<strong class="text-white">Malattie renali</strong> – La pressione alta è la seconda causa più comune di insufficienza renale</p>
+              <p class="text-slate-300 mb-2">●<strong class="text-white">Demenza</strong> – La pressione alta in età adulta aumenta il rischio di demenza in età avanzata</p>
+            </div>
+          </div>
+          <div class="info-step rounded-lg p-6 mb-4">
+            <h3 class="font-bold text-white mb-3">Cosa succede al cuore</h3>
+            <p class="text-slate-300">
+              La pressione alta fa lavorare di più il cuore. Con il tempo, le pareti del cuore si ispessiscono e diventano più rigide. Questo può portare a insufficienza cardiaca (quando il cuore non riesce più a pompare abbastanza sangue). La pressione alta aumenta anche il rischio di fibrillazione atriale (un ritmo cardiaco irregolare). Controllare la pressione può aiutare il cuore a tornare più vicino alla normalità.
             </p>
           </div>
           <div class="info-step rounded-lg p-6 mb-4">
-            <h3 class="font-bold text-white mb-3">Danno d'organo cardiaco (HOD - Heart Organ Damage)</h3>
-            <p class="text-slate-300">L'aumento del postcarico ventricolare sinistro induce ipertrofia ventricolare sinistra (LVH) compensatoria. L'LVH è inizialmente concentrica (ispessimento parietale con normale volume cavitario), poi evolve in dilatativa con disfunzione sistolica. L'LVH è un marker indipendente di rischio cardiovascolare (RR 2-4x per eventi). L'ipertensione favorisce inoltre fibrosi miocardica, disfunzione diastolica (insufficienza cardiaca con FE preservata), ischemie microvascolare, incrementato rischio di fibrillazione atriale. Il controllo pressorio può indurre regressione parziale dell'LVH.</p>
+            <h3 class="font-bold text-white mb-3">Cosa succede ai vasi sanguigni</h3>
+            <p class="text-slate-300">
+              La pressione alta danneggia le pareti dei vasi sanguigni. I vasi diventano più rigidi e si formano più facilmente depositi di grasso (placche). Questo accelera l'aterosclerosi (indurimento delle arterie) e aumenta il rischio di ictus e infarto. In casi gravi, la pressione molto alta può causare la rottura di vasi sanguigni importanti.
+            </p>
           </div>
           <div class="info-step rounded-lg p-6 mb-4">
-            <h3 class="font-bold text-white mb-3">Danno vascolare e aterosclerosi accelerata</h3>
-            <p class="text-slate-300">Lo stress emodinamico cronico causa disfunzione endoteliale, aumentata permeabilità vasale, infiltrazione lipidica, infiammazione parietale, proliferazione muscolare liscia, calcificazione mediale. Accelera l'aterosclerosi coronarica, carotidea, aortica, periferica. Aumenta la rigidità arteriosa (ridotta compliance vasale, aumento pulse wave velocity, incremento pressione pulsatoria). Le complicanze acute includono dissezione aortica, rottura di aneurisma. L'ipertensione è il principale fattore di rischio per ictus ischemico ed emorragico.</p>
-          </div>
-          <div class="info-step rounded-lg p-6 mb-4">
-            <h3 class="font-bold text-white mb-3">Nefropatia ipertensiva</h3>
-            <p class="text-slate-300">La pressione elevata danneggia i piccoli vasi renali (arteriolosclerosi ialitica, nefroangiosclerosi), causando ischemia glomerulare progressiva, proteinuria, riduzione progressiva del filtrato glomerulare. L'ipertensione è la seconda causa di IRC terminale dopo il diabete. Il danno renale è bidirezione ale: l'ipertensione causa IRC, e l'IRC peggiora l'ipertensione (ridotta natriuresi, ipervolemia, iperattività RAAS). La riduzione intensiva della pressione rallenta la progressione della malattia renale cronica.</p>
+            <h3 class="font-bold text-white mb-3">Cosa succede ai reni</h3>
+            <p class="text-slate-300">
+              La pressione alta danneggia i piccoli vasi sanguigni nei reni. Questo riduce progressivamente la capacità dei reni di filtrare il sangue. La pressione alta è la seconda causa più comune di insufficienza renale dopo il diabete. Il problema diventa un circolo vizioso: la pressione alta danneggia i reni, e i reni danneggiati fanno aumentare ancora di più la pressione.
+            </p>
           </div>
           <div class="info-step rounded-lg p-6">
-            <h3 class="font-bold text-white mb-3">Deterioramento cognitivo e demenza</h3>
-            <p class="text-slate-300">L'ipertensione, specie se non controllata in età media, aumenta il rischio di deterioramento cognitivo vascolare e demenza (sia vascolare che Alzheimer) in età avanzata. Meccanismi: microinfarti cerebrali, malattia dei piccoli vasi cerebrali (leucoaraiosi), ictus clinici e silenti, ipoperfusione cerebrale cronica, rottura della barriera ematoencefalica. Studi suggeriscono che il controllo pressorio in età media riduce il rischio di demenza a lungo termine.</p>
+            <h3 class="font-bold text-white mb-3">Cosa succede al cervello</h3>
+            <p class="text-slate-300">
+              La pressione alta, specialmente se non controllata in età adulta, aumenta il rischio di demenza in età avanzata. Può causare piccoli ictus che passano inosservati, danneggiare i piccoli vasi del cervello e ridurre il flusso di sangue al cervello. Controllare la pressione in età media può ridurre il rischio di problemi di memoria e demenza negli anni successivi.
+            </p>
           </div>
         </section>
 
