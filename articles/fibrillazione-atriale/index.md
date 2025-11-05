@@ -73,11 +73,11 @@ date: 2025-09-16
         Quando i sintomi si verificano, possono includere:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Palpitazioni (sensazione che il cuore batte in modo irregolare, veloce o martellante)</li>
-        <li>●Affanno, specialmente durante attività fisica</li>
-        <li>●Sensazione di stanchezza o debolezza</li>
-        <li>●Vertigini o sensazione di testa leggera</li>
-        <li>●Fastidio o dolore al petto</li>
+        <li>Palpitazioni (sensazione che il cuore batte in modo irregolare, veloce o martellante)</li>
+        <li>Affanno, specialmente durante attività fisica</li>
+        <li>Sensazione di stanchezza o debolezza</li>
+        <li>Vertigini o sensazione di testa leggera</li>
+        <li>Fastidio o dolore al petto</li>
       </ul>
     </div>
     <div class="warning-box rounded-lg p-6">
@@ -85,11 +85,11 @@ date: 2025-09-16
         Chiamate il 112 o andate al pronto soccorso se avete:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Dolore forte al petto</li>
-        <li>●Difficoltà grave a respirare</li>
-        <li>●Debolezza improvvisa di un braccio o una gamba</li>
-        <li>●Difficoltà a parlare o a vedere</li>
-        <li>●Svenimento</li>
+        <li>Dolore forte al petto</li>
+        <li>Difficoltà grave a respirare</li>
+        <li>Debolezza improvvisa di un braccio o una gamba</li>
+        <li>Difficoltà a parlare o a vedere</li>
+        <li>Svenimento</li>
       </ul>
     </div>
   </section>
@@ -107,11 +107,11 @@ date: 2025-09-16
         Il rischio di ictus dipende da diversi fattori oltre alla fibrillazione atriale:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Età avanzata</li>
-        <li>●Pressione alta</li>
-        <li>●Diabete</li>
-        <li>●Ictus precedente o altri problemi cardiaci</li>
-        <li>●Malattie dei vasi sanguigni</li>
+        <li>Età avanzata</li>
+        <li>Pressione alta</li>
+        <li>Diabete</li>
+        <li>Ictus precedente o altri problemi cardiaci</li>
+        <li>Malattie dei vasi sanguigni</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed">
@@ -129,18 +129,18 @@ date: 2025-09-16
         Gli esami che possono diagnosticare la fibrillazione atriale includono:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li>●<strong class="text-white">Elettrocardiogramma (ECG)</strong> – Questo esame registra l'attività elettrica del cuore. Se l'aritmia è presente durante la registrazione, la diagnosi è immediata. L'esame dura pochi minuti e non fa male</li>
-        <li>●<strong class="text-white">Holter ECG</strong> – Un piccolo registratore che portate a casa per 24-48 ore. Registra continuamente il ritmo cardiaco. È utile se l'aritmia va e viene</li>
-        <li>●<strong class="text-white">Ecocardiogramma (ecografia del cuore)</strong> – Questo esame usa onde sonore per creare immagini del cuore. Mostra se ci sono altri problemi cardiaci</li>
+        <li><strong class="text-white">Elettrocardiogramma (ECG)</strong> – Questo esame registra l'attività elettrica del cuore. Se l'aritmia è presente durante la registrazione, la diagnosi è immediata. L'esame dura pochi minuti e non fa male</li>
+        <li><strong class="text-white">Holter ECG</strong> – Un piccolo registratore che portate a casa per 24-48 ore. Registra continuamente il ritmo cardiaco. È utile se l'aritmia va e viene</li>
+        <li><strong class="text-white">Ecocardiogramma (ecografia del cuore)</strong> – Questo esame usa onde sonore per creare immagini del cuore. Mostra se ci sono altri problemi cardiaci</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed mb-4">
       Il medico potrebbe anche prescrivere esami del sangue per:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5">
-      <li>●Controllare la funzione della tiroide</li>
-      <li>●Valutare la funzione dei reni</li>
-      <li>●Misurare elettroliti come potassio e magnesio</li>
+      <li>Controllare la funzione della tiroide</li>
+      <li>Valutare la funzione dei reni</li>
+      <li>Misurare elettroliti come potassio e magnesio</li>
     </ul>
   </section>
 
@@ -150,9 +150,9 @@ date: 2025-09-16
       Il trattamento della fibrillazione atriale ha diversi obiettivi:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5 mb-6">
-      <li>●Prevenire coaguli di sangue e ictus</li>
-      <li>●Controllare la frequenza cardiaca</li>
-      <li>●Ripristinare il ritmo normale (quando possibile)</li>
+      <li>Prevenire coaguli di sangue e ictus</li>
+      <li>Controllare la frequenza cardiaca</li>
+      <li>Ripristinare il ritmo normale (quando possibile)</li>
     </ul>
 
     <h3 class="text-xl font-bold mb-4 text-white">Prevenzione dell'ictus</h3>
@@ -165,9 +165,9 @@ date: 2025-09-16
       Se il cuore batte troppo veloce con la fibrillazione atriale, il medico può prescrivere farmaci per rallentarlo. I farmaci che rallentano la frequenza cardiaca includono:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5 mb-6">
-      <li>●Beta-bloccanti</li>
-      <li>●Calcio-antagonisti</li>
-      <li>●Digossina</li>
+      <li>Beta-bloccanti</li>
+      <li>Calcio-antagonisti</li>
+      <li>Digossina</li>
     </ul>
 
     <h3 class="text-xl font-bold mb-4 text-white">Ripristino del ritmo normale</h3>
@@ -175,9 +175,9 @@ date: 2025-09-16
       Per alcune persone, i medici cercano di ripristinare il ritmo normale. Questo può essere fatto con:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5">
-      <li>●Farmaci antiaritmici</li>
-      <li>●Cardioversione elettrica (una procedura che usa una scossa elettrica per ripristinare il ritmo normale)</li>
-      <li>●Ablazione transcatetere (una procedura che distrugge il tessuto cardiaco che causa l'aritmia)</li>
+      <li>Farmaci antiaritmici</li>
+      <li>Cardioversione elettrica (una procedura che usa una scossa elettrica per ripristinare il ritmo normale)</li>
+      <li>Ablazione transcatetere (una procedura che distrugge il tessuto cardiaco che causa l'aritmia)</li>
     </ul>
   </section>
 
@@ -191,10 +191,10 @@ date: 2025-09-16
         I nuovi anticoagulanti orali, o "NAO", sono i farmaci di prima scelta per la maggior parte dei pazienti. Includono:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>●Apixaban (nome commerciale: Eliquis)</li>
-        <li>●Rivaroxaban (nome commerciale: Xarelto)</li>
-        <li>●Edoxaban (nome commerciale: Lixiana)</li>
-        <li>●Dabigatran (nome commerciale: Pradaxa)</li>
+        <li>Apixaban (nome commerciale: Eliquis)</li>
+        <li>Rivaroxaban (nome commerciale: Xarelto)</li>
+        <li>Edoxaban (nome commerciale: Lixiana)</li>
+        <li>Dabigatran (nome commerciale: Pradaxa)</li>
       </ul>
       <p class="text-slate-300 leading-relaxed">
         Questi farmaci non richiedono esami del sangue regolari per controllare il dosaggio.
@@ -205,9 +205,9 @@ date: 2025-09-16
         Un altro anticoagulante è il warfarin (nome commerciale: Coumadin). Il warfarin è stato usato per molti anni. Oggi viene prescritto meno frequentemente, ma rimane indicato in alcune situazioni:
       </p>
       <ul class="text-slate-300 space-y-2 ml-5 mb-4">
-        <li>●Pazienti con valvole cardiache artificiali</li>
-        <li>●Alcuni tipi di problemi alle valvole cardiache</li>
-        <li>●Insufficienza renale molto grave</li>
+        <li>Pazienti con valvole cardiache artificiali</li>
+        <li>Alcuni tipi di problemi alle valvole cardiache</li>
+        <li>Insufficienza renale molto grave</li>
       </ul>
       <p class="text-slate-300 leading-relaxed">
         Il warfarin richiede esami del sangue regolari per controllare che il dosaggio sia corretto.
@@ -218,10 +218,10 @@ date: 2025-09-16
         <strong class="text-white">Importante sugli anticoagulanti:</strong>
       </p>
       <ul class="text-slate-300 space-y-2 ml-5">
-        <li>●Non sospendete mai gli anticoagulanti senza parlare con il vostro medico</li>
-        <li>●Prendete sempre il farmaco esattamente come prescritto</li>
-        <li>●Chiamate il vostro medico se notate sanguinamento anomalo</li>
-        <li>●Informate tutti i medici che vedete che prendete anticoagulanti</li>
+        <li>Non sospendete mai gli anticoagulanti senza parlare con il vostro medico</li>
+        <li>Prendete sempre il farmaco esattamente come prescritto</li>
+        <li>Chiamate il vostro medico se notate sanguinamento anomalo</li>
+        <li>Informate tutti i medici che vedete che prendete anticoagulanti</li>
       </ul>
     </div>
   </section>
@@ -232,8 +232,8 @@ date: 2025-09-16
       La cardioversione è una procedura che ripristina il ritmo normale del cuore. Ci sono due tipi di cardioversione:
     </p>
     <ul class="text-slate-300 space-y-4 ml-5 mb-6">
-      <li>●<strong class="text-white">Cardioversione elettrica</strong> – Il medico usa una scossa elettrica per ripristinare il ritmo normale. Ricevete una sedazione, quindi non sentirete dolore. La procedura dura pochi minuti</li>
-      <li>●<strong class="text-white">Cardioversione farmacologica</strong> – Ricevete farmaci per via endovenosa o per bocca che possono ripristinare il ritmo normale</li>
+      <li><strong class="text-white">Cardioversione elettrica</strong> – Il medico usa una scossa elettrica per ripristinare il ritmo normale. Ricevete una sedazione, quindi non sentirete dolore. La procedura dura pochi minuti</li>
+      <li><strong class="text-white">Cardioversione farmacologica</strong> – Ricevete farmaci per via endovenosa o per bocca che possono ripristinare il ritmo normale</li>
     </ul>
     <p class="text-slate-300 leading-relaxed mb-6">
       Se la fibrillazione atriale è presente da più di 48 ore, c'è il rischio che si siano formati coaguli nel cuore. Per questo motivo, dovrete prendere anticoagulanti per almeno 3 settimane prima della cardioversione. Dopo la cardioversione, gli anticoagulanti vanno continuati per almeno 4 settimane.
@@ -242,9 +242,9 @@ date: 2025-09-16
       Dopo aver ripristinato il ritmo normale, il medico può prescrivere farmaci antiaritmici per evitare che l'aritmia ritorni. I farmaci antiaritmici includono:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5">
-      <li>●Flecainide</li>
-      <li>●Propafenone</li>
-      <li>●Amiodarone</li>
+      <li>Flecainide</li>
+      <li>Propafenone</li>
+      <li>Amiodarone</li>
     </ul>
   </section>
 
@@ -257,9 +257,9 @@ date: 2025-09-16
       L'ablazione è particolarmente indicata per:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5 mb-6">
-      <li>●Persone giovani o di mezza età con fibrillazione atriale che va e viene</li>
-      <li>●Persone con molti sintomi nonostante i farmaci</li>
-      <li>●Persone con scompenso cardiaco causato dall'aritmia</li>
+      <li>Persone giovani o di mezza età con fibrillazione atriale che va e viene</li>
+      <li>Persone con molti sintomi nonostante i farmaci</li>
+      <li>Persone con scompenso cardiaco causato dall'aritmia</li>
     </ul>
     <p class="text-slate-300 leading-relaxed mb-6">
       In circa 7 su 10 persone con fibrillazione atriale che va e viene, l'aritmia non ritorna dopo l'ablazione. A volte serve una seconda procedura.
@@ -268,9 +268,9 @@ date: 2025-09-16
       L'ablazione comporta alcuni rischi, anche se sono rari:
     </p>
     <ul class="text-slate-300 space-y-2 ml-5 mb-6">
-      <li>●Sanguinamento nel punto di ingresso del catetere</li>
-      <li>●Versamento di liquido intorno al cuore</li>
-      <li>●Ictus (molto raro)</li>
+      <li>Sanguinamento nel punto di ingresso del catetere</li>
+      <li>Versamento di liquido intorno al cuore</li>
+      <li>Ictus (molto raro)</li>
     </ul>
     <p class="text-slate-300 leading-relaxed">
       Anche dopo un'ablazione riuscita, la maggior parte delle persone ha bisogno di continuare gli anticoagulanti se ha fattori di rischio per l'ictus.
@@ -284,11 +284,11 @@ date: 2025-09-16
         Modificare lo stile di vita può ridurre le recidive della fibrillazione atriale. I fattori più importanti da controllare sono:
       </p>
       <ul class="text-slate-300 space-y-3 ml-5">
-        <li>●<strong class="text-white">Pressione arteriosa</strong> – Mantenere la pressione sotto controllo (obiettivo sotto 130/80 mmHg) è fondamentale</li>
-        <li>●<strong class="text-white">Peso corporeo</strong> – Perdere il 10 percento del peso se siete in sovrappeso può dimezzare le probabilità che l'aritmia ritorni</li>
-        <li>●<strong class="text-white">Alcol</strong> – Ridurre o eliminare completamente l'alcol riduce le recidive. Anche quantità moderate (1-2 bicchieri al giorno) possono scatenare l'aritmia</li>
-        <li>●<strong class="text-white">Apnee notturne</strong> – Se russate molto e vi sentite stanchi di giorno, potreste avere le apnee nel sonno. Curarle riduce le recidive di quasi la metà</li>
-        <li>●<strong class="text-white">Diabete</strong> – Controllare bene la glicemia se avete il diabete</li>
+        <li><strong class="text-white">Pressione arteriosa</strong> – Mantenere la pressione sotto controllo (obiettivo sotto 130/80 mmHg) è fondamentale</li>
+        <li><strong class="text-white">Peso corporeo</strong> – Perdere il 10 percento del peso se siete in sovrappeso può dimezzare le probabilità che l'aritmia ritorni</li>
+        <li><strong class="text-white">Alcol</strong> – Ridurre o eliminare completamente l'alcol riduce le recidive. Anche quantità moderate (1-2 bicchieri al giorno) possono scatenare l'aritmia</li>
+        <li><strong class="text-white">Apnee notturne</strong> – Se russate molto e vi sentite stanchi di giorno, potreste avere le apnee nel sonno. Curarle riduce le recidive di quasi la metà</li>
+        <li><strong class="text-white">Diabete</strong> – Controllare bene la glicemia se avete il diabete</li>
       </ul>
     </div>
     <p class="text-slate-300 leading-relaxed">
