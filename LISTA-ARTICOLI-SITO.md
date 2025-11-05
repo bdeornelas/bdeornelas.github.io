@@ -98,10 +98,13 @@ Iniziare con articoli più comuni/richiesti:
 ### FASE 4 - Valvulopatie (priorità media)
 11. ✅ **stenosi-aortica** ← COMPLETATO (commit 605bef0)
 12. ✅ **insufficienza-mitralica** ← COMPLETATO (commit 067793f)
-13. ⏳ soffio-al-cuore
+13. ✅ **soffio-al-cuore** ← COMPLETATO (commit d9c4671)
+14. ⏳ stenosi-mitralica
+15. ⏳ insufficienza-aortica
+16. ⏳ insufficienza-tricuspidale
 
 ### FASE 5 - Altri (priorità media-bassa)
-14. ⏳ ... resto degli articoli
+17. ⏳ ... resto degli articoli
 
 ---
 
