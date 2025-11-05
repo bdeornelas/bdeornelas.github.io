@@ -7,8 +7,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f172a; /* slate-900 */
-  background-image: radial-gradient(circle at 1px 1px, #1e293b 1px, transparent 0); /* dots */
-  background-size: 24px 24px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ECG Background - Ultra-Realistic Single Trace */
+.ecg-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.11;
+  pointer-events: none;
+  --ecg-speed: 4.5s;
+}
+
+.ecg-background-svg {
+  width: 100%;
+  height: 100%;
 }
 
 /* Testo con gradiente */
@@ -64,4 +82,42 @@ body {
 .info-step {
   background: linear-gradient(135deg, rgba(16,185,129,.07), rgba(56,189,248,.07));
   border: 1px solid rgba(16,185,129,.25);
+}
+
+/* ECG Animation Styles - REMOVED (now using background) */
+
+/* ECG Wave Animation - Ultra-Realistic */
+@keyframes ecg-flow {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ecg-flow-seamless {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.ecg-primary {
+  animation: ecg-flow var(--ecg-speed, 4.5s) linear infinite;
+}
+
+.ecg-secondary {
+  animation: ecg-flow-seamless var(--ecg-speed, 4.5s) linear infinite;
+}
+
+/* Premium glow effect for ECG trace */
+.ecg-glow {
+  filter:
+    drop-shadow(0 0 1px currentColor)
+    drop-shadow(0 0 3px currentColor)
+    drop-shadow(0 0 6px rgba(56, 189, 248, 0.32))
+    drop-shadow(0 0 12px rgba(56, 189, 248, 0.16));
 }
