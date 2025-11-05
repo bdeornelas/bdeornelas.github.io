@@ -87,8 +87,8 @@ Iniziare con articoli più comuni/richiesti:
 
 ### FASE 2 - Cardiopatia ischemica (priorità alta)
 5. ✅ **angina-pectoris** ← COMPLETATO
-6. ⏳ **infarto-miocardico** ← PROSSIMO
-7. ⏳ malattia-coronarica
+6. ✅ **infarto-miocardico** ← COMPLETATO
+7. ⏳ **malattia-coronarica** ← PROSSIMO
 
 ### FASE 3 - Prevenzione (priorità media-alta)
 8. ⏳ ipertensione-arteriosa
