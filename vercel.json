@@ -1,8 +1,13 @@
 {
   "buildCommand": "bundle install && bundle exec jekyll build && npm run build",
   "outputDirectory": "_site",
-  "installCommand": "gem install bundler && bundle install && npm install",
+  "installCommand": "gem install bundler:2.4.22 && bundle install && npm install",
   "framework": null,
+  "build": {
+    "env": {
+      "RUBY_VERSION": "2.7.6"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
