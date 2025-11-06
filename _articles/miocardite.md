@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Miocardite - Cos'è, Sintomi e Cure | Dr. Benjamin De Ornelas"
 description: "Informazioni sulla miocardite per pazienti. Cos'è l'infiammazione del cuore, quali sono i sintomi, come si diagnostica e come si cura. Quando tornare allo sport."

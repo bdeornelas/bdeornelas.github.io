@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Colesterolo Alto - Cosa Significa e Come Controllarlo | Dr. Benjamin De Ornelas"
 description: "Guida pratica al colesterolo alto per pazienti e familiari. Scopri la differenza tra colesterolo buono e cattivo, come abbassarlo con alimentazione e movimento, e quando servono i farmaci."

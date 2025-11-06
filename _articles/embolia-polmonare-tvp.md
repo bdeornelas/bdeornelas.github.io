@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Embolia Polmonare e Trombosi Venosa Profonda - Guida per Pazienti | Dr. Benjamin De Ornelas"
 description: "Guida completa su embolia polmonare e trombosi venosa profonda - sintomi d'allarme, fattori di rischio, diagnosi e cure. Informazioni essenziali per riconoscere e trattare queste condizioni."

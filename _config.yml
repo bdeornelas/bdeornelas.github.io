@@ -40,6 +40,7 @@ collections:
   articles:
     output: true
     permalink: /articles/:name/
+    title: "Articoli di Cardiologia"
     sort_by: date
     sort_reverse: true
 

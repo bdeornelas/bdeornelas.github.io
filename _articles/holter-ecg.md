@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Holter ECG: Cos'è, Quando Serve e Come Funziona | Dr. Benjamin De Ornelas"
 description: "L'Holter ECG è un piccolo dispositivo portatile che registra il battito cardiaco per 24-48 ore. Scopri quando serve, come funziona, cosa aspettarsi e come prepararsi a questo esame sicuro e indolore."

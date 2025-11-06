@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Ictus e TIA - Riconoscimento, Urgenza e Prevenzione | Dr. Benjamin De Ornelas"
 description: "Cosa sono ictus e TIA, come riconoscerli con il test FAST, perché chiamare subito il 118, cure moderne, riabilitazione e prevenzione per proteggere il cervello."

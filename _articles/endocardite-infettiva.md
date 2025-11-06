@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Endocardite Infettiva - Infezione delle Valvole Cardiache | Dr. Benjamin De Ornelas"
 description: "Endocardite infettiva spiegata ai pazienti. Sintomi, diagnosi, cura antibiotica e prevenzione di questa seria infezione delle valvole del cuore."

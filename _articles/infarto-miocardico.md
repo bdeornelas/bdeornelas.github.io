@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Infarto - Riconoscere i Sintomi e Cosa Fare | Dr. Benjamin De Ornelas"
 description: "Come riconoscere un infarto, quando chiamare il 118, cosa succede in ospedale e come recuperare. Guida chiara per pazienti e familiari."

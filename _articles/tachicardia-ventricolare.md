@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Tachicardia Ventricolare - Cos'è, Sintomi e Cure | Dr. Benjamin De Ornelas"
 description: "La tachicardia ventricolare è un battito molto veloce che nasce dalle camere inferiori del cuore. Sintomi, cause, quando è pericolosa e le cure disponibili: farmaci, ablazione e defibrillatore."

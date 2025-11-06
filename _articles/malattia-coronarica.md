@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Malattia Coronarica - Guida per Pazienti | Dr. Benjamin De Ornelas"
 description: "Guida completa alla malattia coronarica - cos'è, cause, sintomi, diagnosi e cure disponibili. Informazioni chiare su stent, bypass, farmaci e stile di vita per gestire la cardiopatia ischemica."

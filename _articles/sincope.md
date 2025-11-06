@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Sincope (Svenimento): Cause, Quando Preoccuparsi e Cosa Fare | Dr. Benjamin De Ornelas"
 description: "Guida completa sullo svenimento per pazienti e familiari: tipi comuni, segnali d'allarme cardiaci, cosa fare durante un episodio, esami diagnostici e consigli pratici di prevenzione."

@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Test Ergometrico (Test da Sforzo): Cos'è, Come si Svolge e Quando Farlo | Dr. Benjamin De Ornelas"
 description: "Guida completa al test da sforzo, quando è necessario, come prepararsi e cosa aspettarsi durante l'esame per valutare la salute del cuore."

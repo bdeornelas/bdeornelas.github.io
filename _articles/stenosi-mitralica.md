@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Stenosi Mitralica - Informazioni per Pazienti e Familiari | Dr. Benjamin De Ornelas"
 description: "Stenosi della valvola mitrale: che cos'è, perché si verifica, quali sintomi provoca e come viene trattata. Informazioni chiare per pazienti."

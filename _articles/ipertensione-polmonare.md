@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Ipertensione Polmonare - Sintomi, Diagnosi e Terapie Disponibili | Dr. Benjamin De Ornelas"
 description: "Ipertensione polmonare: pressione alta nei vasi dei polmoni che rende difficile al cuore pompare sangue. Sintomi, cause, diagnosi con ecocardiogramma e cateterismo, terapie moderne che migliorano prognosi e qualità di vita."

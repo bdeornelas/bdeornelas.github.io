@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Soffio al Cuore: Cos'è, Quando Preoccuparsi e Cosa Fare | Dr. Benjamin De Ornelas"
 description: "Scopri cosa significa sentirsi dire "ha un soffio al cuore". La maggior parte sono innocenti - ecco come capire quando serve l'ecocardiogramma."

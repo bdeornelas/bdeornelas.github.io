@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Bradicardia - Quando il Cuore Batte Lento | Dr. Benjamin De Ornelas"
 description: "Cos'è la bradicardia (battito lento), quando è normale e quando preoccupa, quali sintomi riconoscere, come si diagnostica e quando serve il pacemaker. Guida per pazienti."

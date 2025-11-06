@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Flutter Atriale - Cosa Sapere per Pazienti | Dr. Benjamin De Ornelas"
 description: "Flutter atriale spiegato in modo semplice per pazienti e familiari. Sintomi, differenze con la fibrillazione, ablazione e prognosi eccellente."

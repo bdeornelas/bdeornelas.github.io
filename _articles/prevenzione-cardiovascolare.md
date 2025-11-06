@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Prevenzione Cardiovascolare - Come Proteggere il Cuore | Dr. Benjamin De Ornelas"
 description: "Guida pratica alla prevenzione delle malattie cardiovascolari. Fattori di rischio modificabili, azioni concrete quotidiane, controlli medici e quando chiedere aiuto."

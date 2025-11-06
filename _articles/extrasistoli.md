@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Extrasistoli - Quando Preoccuparsi e Come Gestirle | Dr. Benjamin De Ornelas"
 description: "Cosa sono le extrasistoli, perché si sentono e quando richiedono attenzione medica. Guida completa per capire questi battiti extra comuni e quasi sempre benigni."

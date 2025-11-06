@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Cardiomiopatia Dilatativa: Sintomi, Diagnosi e Terapia | Dr. Benjamin De Ornelas"
 description: "Cardiomiopatia dilatativa - una condizione in cui il cuore si dilata e perde forza. Sintomi, cause, esami diagnostici e terapie disponibili spiegate in modo chiaro."

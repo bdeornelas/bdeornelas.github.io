@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Tilt Test (Lettino Basculante): A Cosa Serve | Dr. Benjamin De Ornelas"
 description: "Test del lettino inclinato per capire le cause degli svenimenti ricorrenti: come funziona, quando serve e cosa aspettarsi."
