@@ -6,6 +6,8 @@
     "build": "parcel build assets/js/main.js assets/css/style.css --dist-dir dist --no-source-maps",
     "watch": "parcel watch assets/js/main.js assets/css/style.css --dist-dir dist --no-source-maps",
     "vercel-build": "bundle install && bundle exec jekyll build && npm run build",
+    "vercel-deploy": "npx vercel --prod",
+    "vercel-deploy:force": "npx vercel --prod --yes",
     "dev": "bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
