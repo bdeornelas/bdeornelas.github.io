@@ -7,9 +7,8 @@ baseurl: ""
 # Build settings
 markdown: kramdown
 highlighter: rouge
-# plugins:
-#   - jekyll-feed
-#   - jekyll-sitemap
+plugins:
+  - jekyll-paginate-v2
 
 # Exclude from processing
 exclude:
@@ -38,9 +37,25 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  articles:
+    output: true
+    permalink: /articles/:name/
+    sort_by: date
+    sort_reverse: true
 
 # Permalinks
 permalink: pretty
 
 # Timezone
 timezone: Europe/Rome
+
+# Pagination (jekyll-paginate-v2)
+pagination:
+  enabled: true
+  debug: true
+  collection: articles
+  per_page: 12
+  permalink: "/articles/page/:num/"
+  title: "Articoli di Cardiologia - Pagina :num"
+  sort_field: date
+  sort_reverse: true
