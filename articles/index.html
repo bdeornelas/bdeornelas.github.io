@@ -39,38 +39,70 @@ pagination:
           {% assign items = site.articles %}
         {% endif %}
         <ul class="space-y-4">
-          <li>
-            <a href="/articles/aneurisma-aortico/" class="block px-6 py-4 rounded-lg glass-card border-l-4 border-amber-400 hover:border-amber-300 hover:bg-slate-800/50 transition group">
-              <div class="flex items-center gap-3">
-                <i data-lucide="shield-check" class="w-5 h-5 text-amber-400 group-hover:text-amber-300"></i>
-                <div>
-                  <h3 class="font-bold text-white group-hover:text-sky-100">Aneurisma dell'Aorta: guida per pazienti e familiari</h3>
-                  <p class="text-sm text-slate-400 mt-1">Guida completa all'aneurisma aortico: cos'è, come si scopre, chi è a rischio e le opzioni di trattamento</p>
-                  <div class="flex items-center gap-4 mt-2 text-xs text-slate-500">
-                    <span class="flex items-center gap-1">
-                      <i data-lucide="calendar" class="w-3 h-3"></i>
-                      1 Settembre 2025
-                    </span>
-                    <span class="flex items-center gap-1">
-                      <i data-lucide="clock" class="w-3 h-3"></i>
-                      8 min lettura
-                    </span>
-                    <span class="flex items-center gap-1">
-                      <i data-lucide="tag" class="w-3 h-3"></i>
-                      Aneurisma aortico, Screening
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </li>
           {% for a in items %}
+          {% assign parts = a.url | split: '/' %}
+          {% assign slug = parts[2] %}
+          {% assign border_class = 'border-violet-400' %}
+          {% assign hover_border_class = 'hover:border-violet-300' %}
+          {% assign icon_name = 'book-open' %}
+          {% assign icon_color = 'text-violet-400' %}
+          {% assign cat_label = 'Articolo' %}
+
+          {% assign aritmie = 'bradicardie-blocchi-av|extrasistoli|fibrillazione-atriale|flutter-atriale|sincope|tachicardia-ventricolare|tilt-test|tpsv|vita-con-pacemaker-icd|holter-ecg' | split: '|' %}
+          {% assign valvulopatie = 'insufficienza-aortica|insufficienza-mitralica|insufficienza-tricuspidale|soffio-al-cuore|stenosi-aortica|stenosi-mitralica' | split: '|' %}
+          {% assign ischemia = 'angina-pectoris|infarto-miocardico|malattia-coronarica' | split: '|' %}
+          {% assign vascolari = 'aneurisma-aortico|arteriopatia-periferica|embolia-polmonare-tvp|ictus-tia|ipertensione-polmonare' | split: '|' %}
+          {% assign prevenzione = 'anticoagulanti-doac-warfarin|attivita-fisica-cuore|colesterolo-alto|dieta-mediterranea-colesterolo|fumo-e-cuore|prevenzione-cardiovascolare|statine-target-ldl' | split: '|' %}
+          {% assign diagnostici = 'ecocardiogramma-importanza|risonanza-cardiaca|tac-coronarica|test-ergometrico|holter-pressorio-mapa' | split: '|' %}
+
+          {% if aritmie contains slug %}
+            {% assign border_class = 'border-pink-400' %}
+            {% assign hover_border_class = 'hover:border-pink-300' %}
+            {% assign icon_name = 'activity' %}
+            {% assign icon_color = 'text-pink-400' %}
+            {% assign cat_label = 'Aritmie' %}
+          {% elsif valvulopatie contains slug %}
+            {% assign border_class = 'border-rose-400' %}
+            {% assign hover_border_class = 'hover:border-rose-300' %}
+            {% assign icon_name = 'heart' %}
+            {% assign icon_color = 'text-rose-400' %}
+            {% assign cat_label = 'Valvulopatie' %}
+          {% elsif ischemia contains slug %}
+            {% assign border_class = 'border-red-400' %}
+            {% assign hover_border_class = 'hover:border-red-300' %}
+            {% assign icon_name = 'heart' %}
+            {% assign icon_color = 'text-red-400' %}
+            {% assign cat_label = 'Cardiopatia ischemica' %}
+          {% elsif vascolari contains slug %}
+            {% assign border_class = 'border-amber-400' %}
+            {% assign hover_border_class = 'hover:border-amber-300' %}
+            {% assign icon_name = 'shield' %}
+            {% assign icon_color = 'text-amber-400' %}
+            {% assign cat_label = 'Patologie vascolari' %}
+          {% elsif prevenzione contains slug %}
+            {% assign border_class = 'border-emerald-400' %}
+            {% assign hover_border_class = 'hover:border-emerald-300' %}
+            {% assign icon_name = 'shield-check' %}
+            {% assign icon_color = 'text-emerald-400' %}
+            {% assign cat_label = 'Prevenzione' %}
+          {% elsif diagnostici contains slug %}
+            {% assign border_class = 'border-indigo-400' %}
+            {% assign hover_border_class = 'hover:border-indigo-300' %}
+            {% assign icon_name = 'microscope' %}
+            {% assign icon_color = 'text-indigo-400' %}
+            {% assign cat_label = 'Esami diagnostici' %}
+          {% endif %}
+
           <li>
-            <a href="{{ a.url }}" class="block px-6 py-4 rounded-lg glass-card border-l-4 border-violet-400 hover:border-violet-300 hover:bg-slate-800/50 transition group">
+            <a href="{{ a.url | relative_url }}" class="block px-6 py-4 rounded-lg glass-card border-l-4 {{ border_class }} {{ hover_border_class }} hover:bg-slate-800/50 transition group">
               <div class="flex items-center gap-3">
-                <i data-lucide="book-open" class="w-5 h-5 text-violet-400 group-hover:text-violet-300"></i>
+                <i data-lucide="{{ icon_name }}" class="w-5 h-5 {{ icon_color }} group-hover:opacity-90"></i>
                 <div>
                   <h3 class="font-bold text-white group-hover:text-sky-100">{{ a.title }}</h3>
+                  <div class="mt-1 text-xs text-slate-500 flex items-center gap-1">
+                    <i data-lucide="tag" class="w-3 h-3"></i>
+                    {{ cat_label }}
+                  </div>
                   {% if a.description %}<p class="text-sm text-slate-400 mt-1">{{ a.description }}</p>{% endif %}
                   <div class="flex items-center gap-4 mt-2 text-xs text-slate-500">
                     {% if a.date %}
@@ -97,7 +129,11 @@ pagination:
             {% if page == paginator.page %}
               <span class="px-3 py-1 rounded bg-sky-500 text-white">{{ page }}</span>
             {% else %}
-              <a class="px-3 py-1 rounded glass-card hover:bg-slate-800/50" href="{{ paginator.paginate_path | replace: ':num', page }}">{{ page }}</a>
+              {% if page == 1 %}
+                <a class="px-3 py-1 rounded glass-card hover:bg-slate-800/50" href="{{ '/articles/' | relative_url }}">{{ page }}</a>
+              {% else %}
+                <a class="px-3 py-1 rounded glass-card hover:bg-slate-800/50" href="{{ paginator.paginate_path | replace: ':num', page }}">{{ page }}</a>
+              {% endif %}
             {% endif %}
           {% endfor %}
           {% if paginator.next_page %}
