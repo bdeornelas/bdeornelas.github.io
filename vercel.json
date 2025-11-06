@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle install && bundle exec jekyll build",
+  "buildCommand": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle install && echo \"url: https://$VERCEL_URL\" > _config.vercel.yml && bundle exec jekyll build --config _config.yml,_config.vercel.yml",
   "outputDirectory": "_site",
   "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
@@ -39,7 +39,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+          "value": "public, max-age=600"
         }
       ]
     }
