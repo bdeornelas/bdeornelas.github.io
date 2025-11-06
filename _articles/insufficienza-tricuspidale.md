@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Insufficienza Tricuspidale - Informazioni per Pazienti | Dr. Benjamin De Ornelas"
 description: "Cos'è l'insufficienza tricuspidale, quali sono le cause, i sintomi, come si diagnostica e quali trattamenti sono disponibili."

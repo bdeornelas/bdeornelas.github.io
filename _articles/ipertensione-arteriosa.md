@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Pressione Alta (Ipertensione) - Guida per Pazienti | Dr. Benjamin De Ornelas"
 description: "Cos'è la pressione alta, perché è importante controllarla, come misurarla correttamente e quali sono i rimedi efficaci. Guida pratica per gestire l'ipertensione arteriosa."

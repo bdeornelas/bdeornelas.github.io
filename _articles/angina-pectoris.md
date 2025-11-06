@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Angina Pectoris - Sintomi, Diagnosi e Cura | Dr. Benjamin De Ornelas"
 description: "Angina pectoris - dolore toracico da ridotto afflusso di sangue al cuore. Come riconoscere i sintomi, quando preoccuparsi e quali sono le terapie disponibili."

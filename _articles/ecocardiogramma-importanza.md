@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Ecocardiogramma: Cos'è, Come Si Fa e Quando Serve | Dr. Benjamin De Ornelas"
 description: "Guida completa all'ecocardiogramma per pazienti. Scopri cos'è, come si svolge l'esame, la preparazione necessaria, quando serve e cosa permette di vedere. Senza dolore e senza radiazioni."

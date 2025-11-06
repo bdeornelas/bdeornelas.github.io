@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Fibrillazione Atriale: Cos'è, Sintomi e Terapie | Dr. Benjamin De Ornelas"
 description: "La fibrillazione atriale è l'aritmia più comune. Scopri come riconoscerla, perché è importante curarla e quali terapie sono disponibili per proteggere dal rischio di ictus."

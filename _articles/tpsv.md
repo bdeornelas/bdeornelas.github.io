@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Tachicardia Parossistica Sopraventricolare (TPSV) - Sintomi, Diagnosi e Cure | Dr. Benjamin De Ornelas"
 description: "La tachicardia parossistica sopraventricolare causa episodi improvvisi di battito cardiaco molto veloce. Scopri i sintomi, le manovre per fermarla e le cure disponibili, inclusa l'ablazione che risolve il problema nella maggior parte dei casi."

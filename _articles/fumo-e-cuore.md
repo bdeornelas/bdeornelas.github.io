@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Fumo e Cuore: Perché Smettere e Come Riuscirci | Dr. Benjamin De Ornelas"
 description: "Come il fumo danneggia il cuore, quanto aumenta il rischio di infarto e ictus, e quali sono i metodi più efficaci per smettere. I benefici iniziano subito."

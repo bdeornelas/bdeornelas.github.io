@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Arteriopatia Periferica - Quando le Arterie delle Gambe si Restringono | Dr. Benjamin De Ornelas"
 description: "L'arteriopatia periferica causa dolore alle gambe camminando. Quali sono i sintomi, chi è a rischio, come si diagnostica e quali trattamenti esistono per migliorare la circolazione e la qualità di vita."

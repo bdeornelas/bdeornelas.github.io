@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Insufficienza Mitralica - Sintomi, Diagnosi e Cure | Dr. Benjamin De Ornelas"
 description: "Cos'è l'insufficienza mitralica, quali sono le cause, come si diagnostica con ecocardiogramma e quando trattare con riparazione chirurgica o percutanea."

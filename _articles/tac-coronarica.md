@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "TAC Coronarica - Quando Serve e Cosa Mostra | Dr. Benjamin De Ornelas"
 description: "La TAC coronarica permette di vedere le arterie del cuore senza intervento invasivo. Quando è utile, come prepararsi e cosa aspettarsi dall'esame."

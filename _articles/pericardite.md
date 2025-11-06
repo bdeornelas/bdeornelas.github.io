@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Pericardite - Cos'è, Sintomi e Cura | Dr. Benjamin De Ornelas"
 description: "La pericardite è un'infiammazione della membrana che avvolge il cuore. Scopri cause, sintomi, diagnosi e trattamento spiegati in modo chiaro per pazienti e familiari."

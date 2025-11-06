@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Stenosi Aortica - Sintomi, Diagnosi e Quando Operarsi | Dr. Benjamin De Ornelas"
 description: "Cos'è la stenosi aortica, quali sono i sintomi, come si diagnostica con ecocardiogramma e quando intervenire con sostituzione valvolare. Guida chiara per pazienti."

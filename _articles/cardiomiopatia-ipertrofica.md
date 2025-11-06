@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Cardiomiopatia Ipertrofica - Quando il Cuore Diventa Troppo Spesso | Dr. Benjamin De Ornelas"
 description: "Cos'è la cardiomiopatia ipertrofica, quali sintomi causa e come si cura. Guida per pazienti su diagnosi, terapie farmacologiche, procedure e gestione della vita quotidiana."

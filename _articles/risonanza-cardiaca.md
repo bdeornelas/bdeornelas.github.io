@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Risonanza Magnetica Cardiaca: Guida per Pazienti | Dr. Benjamin De Ornelas"
 description: "Tutto sulla risonanza magnetica del cuore: quando serve, come funziona, cosa aspettarsi durante l'esame e come prepararsi."

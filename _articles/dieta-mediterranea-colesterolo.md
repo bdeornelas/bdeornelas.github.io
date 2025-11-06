@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Dieta Mediterranea e Colesterolo: La Guida Completa per Proteggere il Cuore | Dr. Benjamin De Ornelas"
 description: "Scopri come la dieta mediterranea abbassa il colesterolo LDL, riduce il rischio cardiovascolare e migliora la salute del cuore con alimenti naturali e gustosi."

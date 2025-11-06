@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Insufficienza Aortica - Sintomi, Diagnosi e Cure | Dr. Benjamin De Ornelas"
 description: "Insufficienza aortica spiegata: cos'è, cause, sintomi, quando serve l'intervento e la prognosi con i controlli regolari."

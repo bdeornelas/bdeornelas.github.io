@@ -1,4 +1,5 @@
 ---
+collection: articles
 layout: "default"
 title: "Aneurisma dell'Aorta - Informazioni per Pazienti e Familiari | Dr. Benjamin De Ornelas"
 description: "Guida completa all'aneurisma aortico per pazienti: cos'è, come si scopre, chi è a rischio, i controlli periodici e le opzioni di trattamento. Informazioni chiare e rassicuranti."
