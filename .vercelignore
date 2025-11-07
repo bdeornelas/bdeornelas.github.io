@@ -9,8 +9,12 @@ vendor/
 .sass-cache/
 
 # Documentation and project files
+# Ignore most Markdown docs to speed up upload,
+# but DO include site content in collections.
 *.md
 !README.md
+!_articles/*.md
+!_articles/**/*.md
 docs/
 plugins/
 .vscode/

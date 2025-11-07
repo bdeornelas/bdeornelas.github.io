@@ -6,389 +6,389 @@ description: "La pericardite è un'infiammazione della membrana che avvolge il c
 og_title: "Pericardite - Guida per Pazienti"
 og_description: "Guida completa sulla pericardite: sintomi, cause, esami diagnostici e percorso di guarigione spiegati in modo comprensibile."
 og_image: /assets/img/og-card.jpg
-date: "2025-10-16"
+date: "2025-09-17"
 
 ---
 
-      <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
-        <a href="/" class="hover:text-sky-400">Home</a>
-        <span class="mx-2">/</span>
-        <a href="/articles/" class="hover:text-sky-400">Articoli</a>
-        <span class="mx-2">/</span>
-        <span class="text-white">Pericardite</span>
-      </nav>
+<nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
+<a href="/" class="hover:text-sky-400">Home</a>
+<span class="mx-2">/</span>
+<a href="/articles/" class="hover:text-sky-400">Articoli</a>
+<span class="mx-2">/</span>
+<span class="text-white">Pericardite</span>
+</nav>
 
-      <header class="mb-12" data-aos="fade-up">
-        <div class="glass-card rounded-xl p-8 md:p-12">
-          <div class="flex items-center gap-2 text-rose-400 text-sm font-medium mb-4">
-            <i data-lucide="flame" class="w-4 h-4"></i>
+<header class="mb-12" data-aos="fade-up">
+<div class="glass-card rounded-xl p-8 md:p-12">
+<div class="flex items-center gap-2 text-rose-400 text-sm font-medium mb-4">
+<i data-lucide="flame" class="w-4 h-4"></i>
             INFIAMMAZIONI • PERICARDIO
-          </div>
-          <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            <span class="gradient-text">Pericardite:</span><br>
-            <span class="text-white">quando si infiamma la membrana del cuore</span>
-          </h1>
-          <p class="text-xl text-slate-300 leading-relaxed mb-8">
+</div>
+<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+<span class="gradient-text">Pericardite:</span><br>
+<span class="text-white">quando si infiamma la membrana del cuore</span>
+</h1>
+<p class="text-xl text-slate-300 leading-relaxed mb-8">
             La pericardite è un'infiammazione del pericardio, la membrana che avvolge il cuore come una busta protettiva. Si manifesta principalmente con dolore al torace che cambia con la respirazione e la posizione del corpo. Nella maggior parte dei casi ha origine virale e guarisce completamente con riposo e terapia antinfiammatoria. La prognosi è eccellente: oltre il 90% delle persone recupera completamente senza conseguenze.
-          </p>
-          <div class="flex flex-wrap gap-4 text-sm text-slate-400">
-            <div class="flex items-center gap-2">
-              <i data-lucide="calendar" class="w-4 h-4"></i>
-              16 Ottobre 2025
-            </div>
-            <div class="flex items-center gap-2">
-              <i data-lucide="clock" class="w-4 h-4"></i>
+</p>
+<div class="flex flex-wrap gap-4 text-sm text-slate-400">
+<div class="flex items-center gap-2">
+<i data-lucide="calendar" class="w-4 h-4"></i>
+              17 Settembre 2025
+</div>
+<div class="flex items-center gap-2">
+<i data-lucide="clock" class="w-4 h-4"></i>
               7 min di lettura
-            </div>
-            <div class="flex items-center gap-2">
-              <i data-lucide="tag" class="w-4 h-4"></i>
+</div>
+<div class="flex items-center gap-2">
+<i data-lucide="tag" class="w-4 h-4"></i>
               Pericardite, Dolore Toracico, Infiammazione
-            </div>
-          </div>
-        </div>
-      </header>
+</div>
+</div>
+</div>
+</header>
 
-      <article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
+<article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="info" class="w-6 h-6 text-rose-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="info" class="w-6 h-6 text-rose-400"></i>
             Cos'è il pericardio e cosa significa pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             Il <strong>pericardio</strong> è una membrana che avvolge il cuore, proprio come una busta avvolge una lettera. Questa membrana ha due strati: uno interno che aderisce alla superficie del cuore e uno esterno. Tra questi due strati c'è uno spazio sottile contenente una piccola quantità di liquido lubrificante che permette al cuore di battere liberamente senza attrito.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             La <strong>pericardite</strong> si verifica quando questa membrana si infiamma. L'infiammazione causa irritazione e può portare all'accumulo di liquido extra nello spazio tra i due strati. Questa condizione può manifestarsi a qualsiasi età, ma è più comune negli adulti tra i 40 e i 50 anni, con maggiore frequenza negli uomini.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             La pericardite viene classificata in base alla durata dei sintomi:
-          </p>
-          <ul class="text-slate-300 space-y-2 ml-5 list-disc mb-6">
-            <li><strong class="text-white">Acuta:</strong> quando i sintomi durano meno di un mese</li>
-            <li><strong class="text-white">Ricorrente:</strong> quando si ripresenta dopo un periodo senza sintomi</li>
-            <li><strong class="text-white">Cronica:</strong> quando i sintomi persistono per oltre tre mesi</li>
-          </ul>
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Aspetto rassicurante:</strong> La pericardite, quando diagnosticata e trattata correttamente, ha una prognosi eccellente. Oltre il 90% delle persone guarisce completamente senza conseguenze permanenti sul cuore. Le complicazioni gravi sono rare quando si seguono le indicazioni terapeutiche.</p>
-          </div>
-        </section>
+</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc mb-6">
+<li><strong class="text-white">Acuta:</strong> quando i sintomi durano meno di un mese</li>
+<li><strong class="text-white">Ricorrente:</strong> quando si ripresenta dopo un periodo senza sintomi</li>
+<li><strong class="text-white">Cronica:</strong> quando i sintomi persistono per oltre tre mesi</li>
+</ul>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Aspetto rassicurante:</strong> La pericardite, quando diagnosticata e trattata correttamente, ha una prognosi eccellente. Oltre il 90% delle persone guarisce completamente senza conseguenze permanenti sul cuore. Le complicazioni gravi sono rare quando si seguono le indicazioni terapeutiche.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="activity" class="w-6 h-6 text-emerald-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="activity" class="w-6 h-6 text-emerald-400"></i>
             I sintomi della pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             Il sintomo principale della pericardite è il <strong>dolore al torace</strong>, presente nella grande maggioranza dei casi. Questo dolore ha caratteristiche molto particolari che aiutano a distinguerlo da altri tipi di dolore toracico, come quello dell'infarto:
-          </p>
-          <ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
-            <li><strong class="text-white">Localizzazione:</strong> il dolore si avverte al centro del torace o sul lato sinistro, e può estendersi alle spalle o al collo</li>
-            <li><strong class="text-white">Qualità:</strong> viene descritto come acuto, pungente o come una pressione continua</li>
-            <li><strong class="text-white">Comportamento con la respirazione:</strong> peggiora nettamente quando si respira profondamente, si tossisce o si deglutisce</li>
-            <li><strong class="text-white">Comportamento con la posizione:</strong> peggiora quando ci si sdraia sulla schiena e migliora significativamente quando ci si siede in avanti, piegandosi leggermente</li>
-          </ul>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
+<li><strong class="text-white">Localizzazione:</strong> il dolore si avverte al centro del torace o sul lato sinistro, e può estendersi alle spalle o al collo</li>
+<li><strong class="text-white">Qualità:</strong> viene descritto come acuto, pungente o come una pressione continua</li>
+<li><strong class="text-white">Comportamento con la respirazione:</strong> peggiora nettamente quando si respira profondamente, si tossisce o si deglutisce</li>
+<li><strong class="text-white">Comportamento con la posizione:</strong> peggiora quando ci si sdraia sulla schiena e migliora significativamente quando ci si siede in avanti, piegandosi leggermente</li>
+</ul>
+<p class="text-slate-300 leading-relaxed mb-6">
             Questa caratteristica posizionale del dolore è molto tipica della pericardite: molte persone riferiscono di dormire sedute o con più cuscini perché stare sdraiati completamente è impossibile per il dolore.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             Altri sintomi che possono accompagnare il dolore toracico includono:
-          </p>
-          <ul class="text-slate-300 space-y-2 ml-5 list-disc mb-6">
-            <li><strong class="text-white">Febbre lieve:</strong> generalmente non molto alta, intorno ai 37,5-38°C</li>
-            <li><strong class="text-white">Senso di affaticamento:</strong> stanchezza e debolezza generale</li>
-            <li><strong class="text-white">Difficoltà respiratoria:</strong> sensazione di respiro corto, soprattutto quando si è sdraiati</li>
-            <li><strong class="text-white">Tosse secca persistente:</strong> che peggiora il dolore toracico</li>
-            <li><strong class="text-white">Palpitazioni:</strong> sensazione di battito cardiaco accelerato</li>
-          </ul>
-          <div class="warning-box rounded-lg p-6 mt-6">
-            <h3 class="font-bold text-white mb-3 flex items-center gap-2">
-              <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
+</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc mb-6">
+<li><strong class="text-white">Febbre lieve:</strong> generalmente non molto alta, intorno ai 37,5-38°C</li>
+<li><strong class="text-white">Senso di affaticamento:</strong> stanchezza e debolezza generale</li>
+<li><strong class="text-white">Difficoltà respiratoria:</strong> sensazione di respiro corto, soprattutto quando si è sdraiati</li>
+<li><strong class="text-white">Tosse secca persistente:</strong> che peggiora il dolore toracico</li>
+<li><strong class="text-white">Palpitazioni:</strong> sensazione di battito cardiaco accelerato</li>
+</ul>
+<div class="warning-box rounded-lg p-6 mt-6">
+<h3 class="font-bold text-white mb-3 flex items-center gap-2">
+<i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
               Quando rivolgersi immediatamente al medico
-            </h3>
-            <p class="text-slate-300 mb-3">È importante consultare rapidamente il pronto soccorso se si manifestano:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong>Dolore toracico intenso</strong> che non migliora o peggiora progressivamente</li>
-              <li><strong>Difficoltà respiratoria grave</strong> o sensazione di mancanza d'aria</li>
-              <li><strong>Febbre elevata</strong> che persiste o peggiora</li>
-              <li><strong>Svenimenti</strong> o sensazione di perdita di coscienza</li>
-              <li><strong>Gonfiore alle gambe</strong> o accumulo di liquidi</li>
-              <li><strong>Vene del collo gonfie</strong> visibilmente ingrossate</li>
-            </ul>
-            <p class="text-slate-300 mt-3">Questi sintomi possono indicare complicazioni che richiedono valutazione immediata.</p>
-          </div>
-        </section>
+</h3>
+<p class="text-slate-300 mb-3">È importante consultare rapidamente il pronto soccorso se si manifestano:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong>Dolore toracico intenso</strong> che non migliora o peggiora progressivamente</li>
+<li><strong>Difficoltà respiratoria grave</strong> o sensazione di mancanza d'aria</li>
+<li><strong>Febbre elevata</strong> che persiste o peggiora</li>
+<li><strong>Svenimenti</strong> o sensazione di perdita di coscienza</li>
+<li><strong>Gonfiore alle gambe</strong> o accumulo di liquidi</li>
+<li><strong>Vene del collo gonfie</strong> visibilmente ingrossate</li>
+</ul>
+<p class="text-slate-300 mt-3">Questi sintomi possono indicare complicazioni che richiedono valutazione immediata.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="layers" class="w-6 h-6 text-orange-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="layers" class="w-6 h-6 text-orange-400"></i>
             Le cause della pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             Nella maggior parte dei casi, circa l'80-90%, non si riesce a identificare una causa precisa della pericardite, che viene quindi definita "idiopatica". Questo non significa che non ci sia una causa, ma semplicemente che non è possibile individuarla. Gli esperti ritengono che molti di questi casi siano dovuti a <strong>infezioni virali</strong> già guarite spontaneamente prima che venga posta la diagnosi.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             Quando è possibile identificare una causa, le più frequenti sono:
-          </p>
-          <ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
-            <li><strong class="text-white">Infezioni virali:</strong> virus influenzali comuni, virus del raffreddore e altri virus possono causare pericardite come complicanza. Spesso la pericardite compare dopo o durante un'infezione respiratoria</li>
-            <li><strong class="text-white">Dopo un infarto cardiaco:</strong> può verificarsi nei giorni o settimane successive a un attacco cardiaco, come reazione infiammatoria</li>
-            <li><strong class="text-white">Malattie autoimmuni:</strong> condizioni in cui il sistema immunitario attacca i tessuti del corpo, come lupus o artrite reumatoide</li>
-            <li><strong class="text-white">Insufficienza renale avanzata:</strong> in particolare nelle persone in dialisi</li>
-            <li><strong class="text-white">Tumori:</strong> raramente, metastasi da altri tumori possono interessare il pericardio</li>
-            <li><strong class="text-white">Dopo interventi al cuore:</strong> può comparire dopo cardiochirurgia o procedure cardiache invasive</li>
-            <li><strong class="text-white">Alcuni farmaci:</strong> in rari casi, alcuni medicinali possono causare infiammazione del pericardio</li>
-          </ul>
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Importante da sapere:</strong> La forma più comune di pericardite è quella idiopatica o post-virale, che ha carattere benigno e guarisce completamente. Le cause più gravi, come infezioni batteriche o tumori, sono rare e vengono generalmente riconosciute perché la persona presenta altri sintomi o condizioni mediche note.</p>
-          </div>
-        </section>
+</p>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
+<li><strong class="text-white">Infezioni virali:</strong> virus influenzali comuni, virus del raffreddore e altri virus possono causare pericardite come complicanza. Spesso la pericardite compare dopo o durante un'infezione respiratoria</li>
+<li><strong class="text-white">Dopo un infarto cardiaco:</strong> può verificarsi nei giorni o settimane successive a un attacco cardiaco, come reazione infiammatoria</li>
+<li><strong class="text-white">Malattie autoimmuni:</strong> condizioni in cui il sistema immunitario attacca i tessuti del corpo, come lupus o artrite reumatoide</li>
+<li><strong class="text-white">Insufficienza renale avanzata:</strong> in particolare nelle persone in dialisi</li>
+<li><strong class="text-white">Tumori:</strong> raramente, metastasi da altri tumori possono interessare il pericardio</li>
+<li><strong class="text-white">Dopo interventi al cuore:</strong> può comparire dopo cardiochirurgia o procedure cardiache invasive</li>
+<li><strong class="text-white">Alcuni farmaci:</strong> in rari casi, alcuni medicinali possono causare infiammazione del pericardio</li>
+</ul>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Importante da sapere:</strong> La forma più comune di pericardite è quella idiopatica o post-virale, che ha carattere benigno e guarisce completamente. Le cause più gravi, come infezioni batteriche o tumori, sono rare e vengono generalmente riconosciute perché la persona presenta altri sintomi o condizioni mediche note.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="search" class="w-6 h-6 text-sky-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="search" class="w-6 h-6 text-sky-400"></i>
             Come si diagnostica la pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             La diagnosi di pericardite si basa principalmente sulla visita medica e su alcuni esami specifici. Il medico inizia ascoltando attentamente la descrizione dei sintomi, in particolare le caratteristiche del dolore toracico e il suo comportamento con la respirazione e la posizione del corpo.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             Durante la visita, il medico ausculta il cuore con lo stetoscopio per cercare rumori anomali caratteristici dell'infiammazione del pericardio. Valuta anche la presenza di febbre, difficoltà respiratoria e altri segni clinici.
-          </p>
+</p>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Gli esami diagnostici</h3>
-            <p class="text-slate-300 mb-3">Per confermare la diagnosi vengono richiesti alcuni esami:</p>
-            <ul class="text-slate-300 space-y-3 ml-5 list-disc">
-              <li><strong class="text-white">Elettrocardiogramma (ECG):</strong> registra l'attività elettrica del cuore attraverso elettrodi applicati sul torace. Nella pericardite mostra alterazioni caratteristiche diverse da quelle dell'infarto. L'esame è rapido, indolore e fornisce informazioni immediate</li>
-              <li><strong class="text-white">Ecocardiogramma:</strong> ecografia del cuore che permette di vedere il pericardio e verificare se c'è accumulo di liquido. È l'esame principale per valutare l'entità dell'infiammazione e escludere complicazioni. Anche questo esame è indolore e non invasivo</li>
-              <li><strong class="text-white">Esami del sangue:</strong> misurano i livelli di infiammazione nel corpo e alcuni marcatori cardiaci. Aiutano a confermare la presenza di infiammazione e a monitorare l'efficacia della terapia nel tempo</li>
-              <li><strong class="text-white">Radiografia del torace:</strong> può mostrare se il cuore è ingrandito a causa di accumulo di liquido e aiuta a escludere altre cause di dolore toracico</li>
-            </ul>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Gli esami diagnostici</h3>
+<p class="text-slate-300 mb-3">Per confermare la diagnosi vengono richiesti alcuni esami:</p>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Elettrocardiogramma (ECG):</strong> registra l'attività elettrica del cuore attraverso elettrodi applicati sul torace. Nella pericardite mostra alterazioni caratteristiche diverse da quelle dell'infarto. L'esame è rapido, indolore e fornisce informazioni immediate</li>
+<li><strong class="text-white">Ecocardiogramma:</strong> ecografia del cuore che permette di vedere il pericardio e verificare se c'è accumulo di liquido. È l'esame principale per valutare l'entità dell'infiammazione e escludere complicazioni. Anche questo esame è indolore e non invasivo</li>
+<li><strong class="text-white">Esami del sangue:</strong> misurano i livelli di infiammazione nel corpo e alcuni marcatori cardiaci. Aiutano a confermare la presenza di infiammazione e a monitorare l'efficacia della terapia nel tempo</li>
+<li><strong class="text-white">Radiografia del torace:</strong> può mostrare se il cuore è ingrandito a causa di accumulo di liquido e aiuta a escludere altre cause di dolore toracico</li>
+</ul>
+</div>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Esami aggiuntivi in casi particolari</h3>
-            <p class="text-slate-300 mb-3">In alcune situazioni, quando i sintomi sono atipici o non rispondono alla terapia, possono essere necessari esami più approfonditi:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Risonanza magnetica cardiaca:</strong> fornisce immagini molto dettagliate del cuore e del pericardio, utile quando la diagnosi non è chiara o si sospetta coinvolgimento del muscolo cardiaco</li>
-              <li><strong class="text-white">TAC del torace:</strong> può essere richiesta se si sospettano cause particolari dell'infiammazione</li>
-              <li><strong class="text-white">Prelievo di liquido pericardico:</strong> solo in rari casi, quando c'è molto liquido accumulato o si sospettano infezioni gravi o tumori, può essere necessario prelevare un campione di liquido per analizzarlo</li>
-            </ul>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Esami aggiuntivi in casi particolari</h3>
+<p class="text-slate-300 mb-3">In alcune situazioni, quando i sintomi sono atipici o non rispondono alla terapia, possono essere necessari esami più approfonditi:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Risonanza magnetica cardiaca:</strong> fornisce immagini molto dettagliate del cuore e del pericardio, utile quando la diagnosi non è chiara o si sospetta coinvolgimento del muscolo cardiaco</li>
+<li><strong class="text-white">TAC del torace:</strong> può essere richiesta se si sospettano cause particolari dell'infiammazione</li>
+<li><strong class="text-white">Prelievo di liquido pericardico:</strong> solo in rari casi, quando c'è molto liquido accumulato o si sospettano infezioni gravi o tumori, può essere necessario prelevare un campione di liquido per analizzarlo</li>
+</ul>
+</div>
 
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Distinguere dalla sindrome coronarica acuta:</strong> Una delle preoccupazioni principali quando si manifesta dolore al torace è escludere l'infarto. Gli esami permettono di fare questa distinzione in modo chiaro: nell'infarto il dolore non cambia con la respirazione o la posizione, l'elettrocardiogramma mostra alterazioni diverse e i marcatori cardiaci nel sangue sono molto più elevati.</p>
-          </div>
-        </section>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Distinguere dalla sindrome coronarica acuta:</strong> Una delle preoccupazioni principali quando si manifesta dolore al torace è escludere l'infarto. Gli esami permettono di fare questa distinzione in modo chiaro: nell'infarto il dolore non cambia con la respirazione o la posizione, l'elettrocardiogramma mostra alterazioni diverse e i marcatori cardiaci nel sangue sono molto più elevati.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="pill" class="w-6 h-6 text-emerald-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="pill" class="w-6 h-6 text-emerald-400"></i>
             La cura della pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             Il trattamento della pericardite si basa principalmente su due obiettivi: ridurre l'infiammazione e controllare il dolore. Nella grande maggioranza dei casi, la terapia è ambulatoriale, cioè la persona può curarsi a casa senza necessità di ricovero.
-          </p>
+</p>
 
-          <div class="highlight-box rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">I farmaci per la pericardite</h3>
-            <p class="text-slate-300 mb-3">La terapia si basa su due categorie di farmaci:</p>
-            <p class="text-slate-300 mb-3"><strong class="text-emerald-400">1. Farmaci antinfiammatori</strong></p>
-            <p class="text-slate-300 mb-3">Rappresentano la base del trattamento. I più utilizzati sono:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc mb-4">
-              <li><strong class="text-white">Ibuprofene:</strong> farmaco antinfiammatorio molto comune e generalmente ben tollerato, assunto più volte al giorno secondo prescrizione medica</li>
-              <li><strong class="text-white">Aspirina:</strong> utilizzata soprattutto nelle persone che hanno avuto un infarto</li>
-              <li><strong class="text-white">Altri antinfiammatori:</strong> in base alle caratteristiche individuali</li>
-            </ul>
-            <p class="text-slate-300 mb-3">Gli antinfiammatori vengono assunti a dosi piene inizialmente, poi gradualmente ridotti nel corso di alcune settimane. È importante seguire lo schema di riduzione indicato dal medico per evitare ricadute.</p>
-            <p class="text-slate-300 mb-3">Per proteggere lo stomaco dagli effetti degli antinfiammatori, viene sempre associato un <strong>gastroprotettore</strong>.</p>
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">I farmaci per la pericardite</h3>
+<p class="text-slate-300 mb-3">La terapia si basa su due categorie di farmaci:</p>
+<p class="text-slate-300 mb-3"><strong class="text-emerald-400">1. Farmaci antinfiammatori</strong></p>
+<p class="text-slate-300 mb-3">Rappresentano la base del trattamento. I più utilizzati sono:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc mb-4">
+<li><strong class="text-white">Ibuprofene:</strong> farmaco antinfiammatorio molto comune e generalmente ben tollerato, assunto più volte al giorno secondo prescrizione medica</li>
+<li><strong class="text-white">Aspirina:</strong> utilizzata soprattutto nelle persone che hanno avuto un infarto</li>
+<li><strong class="text-white">Altri antinfiammatori:</strong> in base alle caratteristiche individuali</li>
+</ul>
+<p class="text-slate-300 mb-3">Gli antinfiammatori vengono assunti a dosi piene inizialmente, poi gradualmente ridotti nel corso di alcune settimane. È importante seguire lo schema di riduzione indicato dal medico per evitare ricadute.</p>
+<p class="text-slate-300 mb-3">Per proteggere lo stomaco dagli effetti degli antinfiammatori, viene sempre associato un <strong>gastroprotettore</strong>.</p>
 
-            <p class="text-slate-300 mb-3 mt-6"><strong class="text-emerald-400">2. Colchicina</strong></p>
-            <p class="text-slate-300 mb-3">È un farmaco che si è dimostrato molto efficace nel prevenire le ricadute della pericardite. Studi scientifici hanno mostrato che quando viene associata agli antinfiammatori, la probabilità che la pericardite si ripresenti si riduce notevolmente.</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc mb-4">
-              <li>Viene assunta quotidianamente per alcuni mesi</li>
-              <li>La dose viene adattata al peso corporeo e alla tollerabilità</li>
-              <li>L'effetto collaterale più comune è la diarrea, che si può spesso controllare riducendo la dose</li>
-              <li>È molto importante completare il ciclo di terapia anche quando ci si sente meglio</li>
-            </ul>
-          </div>
+<p class="text-slate-300 mb-3 mt-6"><strong class="text-emerald-400">2. Colchicina</strong></p>
+<p class="text-slate-300 mb-3">È un farmaco che si è dimostrato molto efficace nel prevenire le ricadute della pericardite. Studi scientifici hanno mostrato che quando viene associata agli antinfiammatori, la probabilità che la pericardite si ripresenti si riduce notevolmente.</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc mb-4">
+<li>Viene assunta quotidianamente per alcuni mesi</li>
+<li>La dose viene adattata al peso corporeo e alla tollerabilità</li>
+<li>L'effetto collaterale più comune è la diarrea, che si può spesso controllare riducendo la dose</li>
+<li>È molto importante completare il ciclo di terapia anche quando ci si sente meglio</li>
+</ul>
+</div>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Il riposo e le limitazioni fisiche</h3>
-            <p class="text-slate-300 mb-3">Durante la fase acuta della pericardite è fondamentale rispettare alcune indicazioni:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Riposo relativo:</strong> evitare sforzi fisici intensi e limitare le attività faticose finché i sintomi non migliorano</li>
-              <li><strong class="text-white">Sospensione dell'attività sportiva:</strong> è necessario interrompere completamente l'attività fisica intensa. Per chi pratica sport a livello agonistico, il periodo di stop è più lungo</li>
-              <li><strong class="text-white">Ripresa graduale:</strong> quando i sintomi sono completamente risolti e gli esami normalizzati, si può riprendere progressivamente l'attività fisica leggera</li>
-              <li><strong class="text-white">Ritorno allo sport:</strong> la ripresa dell'attività sportiva intensa richiede il via libera del cardiologo dopo verifiche complete</li>
-            </ul>
-            <p class="text-slate-300 mt-3">Queste limitazioni sono importanti per permettere la guarigione completa e ridurre il rischio di complicazioni o ricadute.</p>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Il riposo e le limitazioni fisiche</h3>
+<p class="text-slate-300 mb-3">Durante la fase acuta della pericardite è fondamentale rispettare alcune indicazioni:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Riposo relativo:</strong> evitare sforzi fisici intensi e limitare le attività faticose finché i sintomi non migliorano</li>
+<li><strong class="text-white">Sospensione dell'attività sportiva:</strong> è necessario interrompere completamente l'attività fisica intensa. Per chi pratica sport a livello agonistico, il periodo di stop è più lungo</li>
+<li><strong class="text-white">Ripresa graduale:</strong> quando i sintomi sono completamente risolti e gli esami normalizzati, si può riprendere progressivamente l'attività fisica leggera</li>
+<li><strong class="text-white">Ritorno allo sport:</strong> la ripresa dell'attività sportiva intensa richiede il via libera del cardiologo dopo verifiche complete</li>
+</ul>
+<p class="text-slate-300 mt-3">Queste limitazioni sono importanti per permettere la guarigione completa e ridurre il rischio di complicazioni o ricadute.</p>
+</div>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Quando serve il cortisone</h3>
-            <p class="text-slate-300 mb-3">Il cortisone non è il trattamento di prima scelta per la pericardite, ma viene riservato a situazioni particolari:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li>Quando gli antinfiammatori comuni non possono essere usati per problemi di stomaco o reni</li>
-              <li>Nelle pericarditi causate da malattie autoimmuni</li>
-              <li>Quando la pericardite non risponde alla terapia standard</li>
-              <li>Nelle forme ricorrenti difficili da controllare</li>
-            </ul>
-            <p class="text-slate-300 mt-3">Il cortisone, quando necessario, viene iniziato a dosi moderate e poi ridotto molto gradualmente per evitare ricadute.</p>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Quando serve il cortisone</h3>
+<p class="text-slate-300 mb-3">Il cortisone non è il trattamento di prima scelta per la pericardite, ma viene riservato a situazioni particolari:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li>Quando gli antinfiammatori comuni non possono essere usati per problemi di stomaco o reni</li>
+<li>Nelle pericarditi causate da malattie autoimmuni</li>
+<li>Quando la pericardite non risponde alla terapia standard</li>
+<li>Nelle forme ricorrenti difficili da controllare</li>
+</ul>
+<p class="text-slate-300 mt-3">Il cortisone, quando necessario, viene iniziato a dosi moderate e poi ridotto molto gradualmente per evitare ricadute.</p>
+</div>
 
-          <div class="warning-box rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3 flex items-center gap-2">
-              <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3 flex items-center gap-2">
+<i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
               Quando è necessario il ricovero
-            </h3>
-            <p class="text-slate-300 mb-3">Nella maggior parte dei casi la pericardite può essere curata a domicilio, ma in alcune situazioni è necessario il ricovero ospedaliero:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong>Accumulo importante di liquido</strong> nel pericardio</li>
-              <li><strong>Febbre molto alta</strong> che suggerisce infezioni gravi</li>
-              <li><strong>Mancata risposta</strong> alla terapia iniziale</li>
-              <li><strong>Coinvolgimento del muscolo cardiaco</strong> oltre al pericardio</li>
-              <li><strong>Compromissione della funzione del cuore</strong> a causa dell'accumulo di liquido</li>
-            </ul>
-            <p class="text-slate-300 mt-3">In ospedale è possibile un monitoraggio più stretto e, se necessario, procedure per rimuovere il liquido in eccesso.</p>
-          </div>
+</h3>
+<p class="text-slate-300 mb-3">Nella maggior parte dei casi la pericardite può essere curata a domicilio, ma in alcune situazioni è necessario il ricovero ospedaliero:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong>Accumulo importante di liquido</strong> nel pericardio</li>
+<li><strong>Febbre molto alta</strong> che suggerisce infezioni gravi</li>
+<li><strong>Mancata risposta</strong> alla terapia iniziale</li>
+<li><strong>Coinvolgimento del muscolo cardiaco</strong> oltre al pericardio</li>
+<li><strong>Compromissione della funzione del cuore</strong> a causa dell'accumulo di liquido</li>
+</ul>
+<p class="text-slate-300 mt-3">In ospedale è possibile un monitoraggio più stretto e, se necessario, procedure per rimuovere il liquido in eccesso.</p>
+</div>
 
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Messaggio rassicurante:</strong> La pericardite trattata correttamente ha una prognosi eccellente. La grande maggioranza delle persone guarisce completamente senza conseguenze. La chiave del successo è seguire scrupolosamente la terapia prescritta, rispettare i tempi di riposo e non interrompere prematuramente i farmaci anche quando ci si sente meglio.</p>
-          </div>
-        </section>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Messaggio rassicurante:</strong> La pericardite trattata correttamente ha una prognosi eccellente. La grande maggioranza delle persone guarisce completamente senza conseguenze. La chiave del successo è seguire scrupolosamente la terapia prescritta, rispettare i tempi di riposo e non interrompere prematuramente i farmaci anche quando ci si sente meglio.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
             Guarigione e tempi di recupero
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             La maggior parte delle persone con pericardite nota un miglioramento significativo dei sintomi entro la prima settimana di trattamento. Il dolore toracico tende a ridursi progressivamente e la febbre, se presente, si risolve rapidamente.
-          </p>
+</p>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Cosa aspettarsi durante la guarigione</h3>
-            <ul class="text-slate-300 space-y-3 ml-5 list-disc">
-              <li><strong class="text-white">Prima settimana:</strong> il dolore al torace inizia a migliorare sensibilmente. La febbre, se presente, tende a scomparire. È normale sentirsi ancora affaticati e avere bisogno di riposo</li>
-              <li><strong class="text-white">Seconda-terza settimana:</strong> la maggior parte delle persone si sente notevolmente meglio. Il dolore è generalmente risolto o molto ridotto. Gli esami del sangue iniziano a normalizzarsi</li>
-              <li><strong class="text-white">Primo mese:</strong> la terapia antinfiammatoria viene gradualmente ridotta. L'energia e la capacità di svolgere le attività quotidiane tornano progressivamente normali</li>
-              <li><strong class="text-white">Secondo-terzo mese:</strong> completamento della terapia. Gli esami di controllo verificano la completa risoluzione dell'infiammazione</li>
-            </ul>
-            <p class="text-slate-300 mt-3">È importante ricordare che questi sono tempi indicativi: ogni persona ha il proprio ritmo di guarigione e alcuni possono impiegare più tempo di altri.</p>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Cosa aspettarsi durante la guarigione</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Prima settimana:</strong> il dolore al torace inizia a migliorare sensibilmente. La febbre, se presente, tende a scomparire. È normale sentirsi ancora affaticati e avere bisogno di riposo</li>
+<li><strong class="text-white">Seconda-terza settimana:</strong> la maggior parte delle persone si sente notevolmente meglio. Il dolore è generalmente risolto o molto ridotto. Gli esami del sangue iniziano a normalizzarsi</li>
+<li><strong class="text-white">Primo mese:</strong> la terapia antinfiammatoria viene gradualmente ridotta. L'energia e la capacità di svolgere le attività quotidiane tornano progressivamente normali</li>
+<li><strong class="text-white">Secondo-terzo mese:</strong> completamento della terapia. Gli esami di controllo verificano la completa risoluzione dell'infiammazione</li>
+</ul>
+<p class="text-slate-300 mt-3">È importante ricordare che questi sono tempi indicativi: ogni persona ha il proprio ritmo di guarigione e alcuni possono impiegare più tempo di altri.</p>
+</div>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">I controlli medici durante la guarigione</h3>
-            <p class="text-slate-300 mb-3">Durante il percorso di guarigione sono previsti controlli regolari per verificare che l'infiammazione stia regredendo:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Visita di controllo dopo una settimana:</strong> per verificare la risposta iniziale alla terapia</li>
-              <li><strong class="text-white">Esami del sangue periodici:</strong> per monitorare i livelli di infiammazione</li>
-              <li><strong class="text-white">Ecocardiogramma di controllo:</strong> per verificare la riduzione del liquido pericardico, se presente</li>
-              <li><strong class="text-white">Elettrocardiogramma:</strong> per documentare la normalizzazione delle alterazioni elettriche</li>
-            </ul>
-            <p class="text-slate-300 mt-3">Questi controlli permettono di adattare la terapia e di garantire una guarigione completa.</p>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">I controlli medici durante la guarigione</h3>
+<p class="text-slate-300 mb-3">Durante il percorso di guarigione sono previsti controlli regolari per verificare che l'infiammazione stia regredendo:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Visita di controllo dopo una settimana:</strong> per verificare la risposta iniziale alla terapia</li>
+<li><strong class="text-white">Esami del sangue periodici:</strong> per monitorare i livelli di infiammazione</li>
+<li><strong class="text-white">Ecocardiogramma di controllo:</strong> per verificare la riduzione del liquido pericardico, se presente</li>
+<li><strong class="text-white">Elettrocardiogramma:</strong> per documentare la normalizzazione delle alterazioni elettriche</li>
+</ul>
+<p class="text-slate-300 mt-3">Questi controlli permettono di adattare la terapia e di garantire una guarigione completa.</p>
+</div>
 
-          <div class="highlight-box rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Quando migliorano i sintomi</h3>
-            <p class="text-slate-300">Nella maggior parte dei casi, entro i primi giorni di terapia si nota già un miglioramento del dolore. Il recupero completo dell'energia e del benessere generale richiede di solito alcune settimane. È normale sentirsi stanchi durante la guarigione: il corpo sta combattendo l'infiammazione e ha bisogno di tempo e riposo per recuperare completamente.</p>
-          </div>
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Quando migliorano i sintomi</h3>
+<p class="text-slate-300">Nella maggior parte dei casi, entro i primi giorni di terapia si nota già un miglioramento del dolore. Il recupero completo dell'energia e del benessere generale richiede di solito alcune settimane. È normale sentirsi stanchi durante la guarigione: il corpo sta combattendo l'infiammazione e ha bisogno di tempo e riposo per recuperare completamente.</p>
+</div>
 
-          <div class="warning-box rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3 flex items-center gap-2">
-              <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3 flex items-center gap-2">
+<i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
               Segnali d'allarme durante la guarigione
-            </h3>
-            <p class="text-slate-300 mb-3">Durante il periodo di cura è importante contattare il medico se compaiono:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong>Peggioramento del dolore toracico</strong> nonostante la terapia</li>
-              <li><strong>Ritorno della febbre</strong> dopo iniziale miglioramento</li>
-              <li><strong>Aumento della difficoltà respiratoria</strong></li>
-              <li><strong>Gonfiore delle gambe</strong> o aumento di peso rapido</li>
-              <li><strong>Svenimenti o vertigini importanti</strong></li>
-              <li><strong>Effetti collaterali dei farmaci</strong> che causano disagio significativo</li>
-            </ul>
-            <p class="text-slate-300 mt-3">Questi sintomi potrebbero indicare la necessità di modificare la terapia o la presenza di complicazioni che richiedono attenzione.</p>
-          </div>
+</h3>
+<p class="text-slate-300 mb-3">Durante il periodo di cura è importante contattare il medico se compaiono:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong>Peggioramento del dolore toracico</strong> nonostante la terapia</li>
+<li><strong>Ritorno della febbre</strong> dopo iniziale miglioramento</li>
+<li><strong>Aumento della difficoltà respiratoria</strong></li>
+<li><strong>Gonfiore delle gambe</strong> o aumento di peso rapido</li>
+<li><strong>Svenimenti o vertigini importanti</strong></li>
+<li><strong>Effetti collaterali dei farmaci</strong> che causano disagio significativo</li>
+</ul>
+<p class="text-slate-300 mt-3">Questi sintomi potrebbero indicare la necessità di modificare la terapia o la presenza di complicazioni che richiedono attenzione.</p>
+</div>
 
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Timeline di recupero tipica:</strong> Dolore migliorato entro 1 settimana, risoluzione sintomi entro 2-3 settimane, normalizzazione degli esami entro 3-4 settimane. Ritorno alle attività quotidiane normali dopo circa un mese. Per l'attività sportiva intensa i tempi sono più lunghi e richiedono valutazione medica specifica.</p>
-          </div>
-        </section>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Timeline di recupero tipica:</strong> Dolore migliorato entro 1 settimana, risoluzione sintomi entro 2-3 settimane, normalizzazione degli esami entro 3-4 settimane. Ritorno alle attività quotidiane normali dopo circa un mese. Per l'attività sportiva intensa i tempi sono più lunghi e richiedono valutazione medica specifica.</p>
+</div>
+</section>
 
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="rotate-ccw" class="w-6 h-6 text-orange-400"></i>
+<section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="rotate-ccw" class="w-6 h-6 text-orange-400"></i>
             Quando la pericardite può ripresentarsi
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             In alcuni casi, la pericardite può ripresentarsi dopo essere guarita. Questo fenomeno si chiama pericardite ricorrente. È importante sapere che l'uso della colchicina durante il primo episodio riduce notevolmente la probabilità di ricadute.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             I sintomi di una ricaduta sono simili a quelli del primo episodio: ritorna il dolore toracico con le stesse caratteristiche (che peggiora con la respirazione e migliora piegandosi in avanti), può ricomparire la febbre e il senso di affaticamento.
-          </p>
+</p>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Come si gestiscono le ricadute</h3>
-            <p class="text-slate-300 mb-3">Se la pericardite si ripresenta, è necessario:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Contattare prontamente il cardiologo:</strong> non aspettare che i sintomi peggiorino</li>
-              <li><strong class="text-white">Riprendere la terapia antinfiammatoria:</strong> spesso è necessario riiniziare il trattamento</li>
-              <li><strong class="text-white">Prolungare la durata della terapia:</strong> nei casi ricorrenti si prolunga il periodo di assunzione della colchicina</li>
-              <li><strong class="text-white">Valutare cause specifiche:</strong> ricadute frequenti possono richiedere approfondimenti per escludere cause sottostanti</li>
-            </ul>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Come si gestiscono le ricadute</h3>
+<p class="text-slate-300 mb-3">Se la pericardite si ripresenta, è necessario:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Contattare prontamente il cardiologo:</strong> non aspettare che i sintomi peggiorino</li>
+<li><strong class="text-white">Riprendere la terapia antinfiammatoria:</strong> spesso è necessario riiniziare il trattamento</li>
+<li><strong class="text-white">Prolungare la durata della terapia:</strong> nei casi ricorrenti si prolunga il periodo di assunzione della colchicina</li>
+<li><strong class="text-white">Valutare cause specifiche:</strong> ricadute frequenti possono richiedere approfondimenti per escludere cause sottostanti</li>
+</ul>
+</div>
 
-          <div class="info-step rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Prevenire le ricadute</h3>
-            <p class="text-slate-300 mb-3">Per ridurre il rischio che la pericardite si ripresenti:</p>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Completare la terapia prescritta:</strong> anche quando ci si sente completamente guariti, è fondamentale terminare il ciclo di farmaci</li>
-              <li><strong class="text-white">Non interrompere bruscamente gli antinfiammatori:</strong> la riduzione deve essere graduale secondo le indicazioni mediche</li>
-              <li><strong class="text-white">Assumere la colchicina per tutto il periodo indicato:</strong> anche se non ci sono sintomi</li>
-              <li><strong class="text-white">Rispettare i tempi di riposo sportivo:</strong> non riprendere l'attività fisica intensa prematuramente</li>
-              <li><strong class="text-white">Seguire i controlli programmati:</strong> permettono di identificare precocemente segni di ricaduta</li>
-            </ul>
-          </div>
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Prevenire le ricadute</h3>
+<p class="text-slate-300 mb-3">Per ridurre il rischio che la pericardite si ripresenti:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Completare la terapia prescritta:</strong> anche quando ci si sente completamente guariti, è fondamentale terminare il ciclo di farmaci</li>
+<li><strong class="text-white">Non interrompere bruscamente gli antinfiammatori:</strong> la riduzione deve essere graduale secondo le indicazioni mediche</li>
+<li><strong class="text-white">Assumere la colchicina per tutto il periodo indicato:</strong> anche se non ci sono sintomi</li>
+<li><strong class="text-white">Rispettare i tempi di riposo sportivo:</strong> non riprendere l'attività fisica intensa prematuramente</li>
+<li><strong class="text-white">Seguire i controlli programmati:</strong> permettono di identificare precocemente segni di ricaduta</li>
+</ul>
+</div>
 
-          <div class="highlight-box rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-rose-400">Prospettiva rassicurante:</strong> Anche quando la pericardite si ripresenta, la prognosi rimane buona. Con una terapia adeguata e monitoraggio appropriato, la grande maggioranza delle persone riesce a controllare completamente il problema. Le ricadute multiple sono gestibili con terapie specifiche che hanno dimostrato ottima efficacia.</p>
-          </div>
-        </section>
+<div class="highlight-box rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-rose-400">Prospettiva rassicurante:</strong> Anche quando la pericardite si ripresenta, la prognosi rimane buona. Con una terapia adeguata e monitoraggio appropriato, la grande maggioranza delle persone riesce a controllare completamente il problema. Le ricadute multiple sono gestibili con terapie specifiche che hanno dimostrato ottima efficacia.</p>
+</div>
+</section>
 
-        <section>
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-            <i data-lucide="heart-pulse" class="w-6 h-6 text-sky-400"></i>
+<section>
+<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+<i data-lucide="heart-pulse" class="w-6 h-6 text-sky-400"></i>
             Vivere dopo la pericardite
-          </h2>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
             La pericardite, una volta guarita completamente, non lascia generalmente conseguenze sulla salute del cuore. La maggior parte delle persone torna a condurre una vita completamente normale, senza limitazioni nelle attività quotidiane, lavorative o sportive.
-          </p>
-          <p class="text-slate-300 leading-relaxed mb-6">
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
             È importante ricordare alcuni punti chiave:
-          </p>
-          <ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
-            <li><strong class="text-white">La guarigione completa è la regola:</strong> oltre il 90% delle persone guarisce completamente senza problemi a lungo termine</li>
-            <li><strong class="text-white">Il cuore ritorna a funzionare normalmente:</strong> l'infiammazione non danneggia permanentemente il muscolo cardiaco nella maggior parte dei casi</li>
-            <li><strong class="text-white">Non ci sono restrizioni dietetiche particolari:</strong> una volta guariti, si può mangiare normalmente</li>
-            <li><strong class="text-white">L'attività fisica è incoraggiata:</strong> dopo il periodo di riposo prescritto, tornare a fare sport fa bene e non aumenta il rischio di ricadute</li>
-          </ul>
+</p>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc mb-6">
+<li><strong class="text-white">La guarigione completa è la regola:</strong> oltre il 90% delle persone guarisce completamente senza problemi a lungo termine</li>
+<li><strong class="text-white">Il cuore ritorna a funzionare normalmente:</strong> l'infiammazione non danneggia permanentemente il muscolo cardiaco nella maggior parte dei casi</li>
+<li><strong class="text-white">Non ci sono restrizioni dietetiche particolari:</strong> una volta guariti, si può mangiare normalmente</li>
+<li><strong class="text-white">L'attività fisica è incoraggiata:</strong> dopo il periodo di riposo prescritto, tornare a fare sport fa bene e non aumenta il rischio di ricadute</li>
+</ul>
 
-          <div class="highlight-box rounded-lg p-6 mb-6">
-            <h3 class="font-bold text-white mb-3">Consigli per il futuro</h3>
-            <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-              <li><strong class="text-white">Prestare attenzione a sintomi sospetti:</strong> conoscere i segnali della pericardite permette di riconoscere precocemente eventuali ricadute</li>
-              <li><strong class="text-white">Informare i medici:</strong> quando si visitano nuovi specialisti, menzionare l'episodio di pericardite nella propria storia clinica</li>
-              <li><strong class="text-white">Mantenere uno stile di vita sano:</strong> alimentazione equilibrata, attività fisica regolare e gestione dello stress contribuiscono al benessere generale del cuore</li>
-              <li><strong class="text-white">Non vivere con l'ansia:</strong> avere avuto una pericardite non significa avere un cuore fragile o essere a rischio di problemi futuri</li>
-            </ul>
-          </div>
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Consigli per il futuro</h3>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Prestare attenzione a sintomi sospetti:</strong> conoscere i segnali della pericardite permette di riconoscere precocemente eventuali ricadute</li>
+<li><strong class="text-white">Informare i medici:</strong> quando si visitano nuovi specialisti, menzionare l'episodio di pericardite nella propria storia clinica</li>
+<li><strong class="text-white">Mantenere uno stile di vita sano:</strong> alimentazione equilibrata, attività fisica regolare e gestione dello stress contribuiscono al benessere generale del cuore</li>
+<li><strong class="text-white">Non vivere con l'ansia:</strong> avere avuto una pericardite non significa avere un cuore fragile o essere a rischio di problemi futuri</li>
+</ul>
+</div>
 
-          <div class="info-step rounded-lg p-6">
-            <p class="text-slate-300"><strong class="text-emerald-400">Messaggio finale:</strong> La pericardite, pur essendo una condizione che spaventa per il dolore toracico che provoca, è nella stragrande maggioranza dei casi una malattia benigna con prognosi eccellente. Con la diagnosi corretta, la terapia appropriata e il rispetto delle indicazioni mediche, la guarigione completa è l'esito atteso. Non è una malattia che compromette la qualità di vita futura né la funzione cardiaca a lungo termine.</p>
-          </div>
-        </section>
+<div class="info-step rounded-lg p-6">
+<p class="text-slate-300"><strong class="text-emerald-400">Messaggio finale:</strong> La pericardite, pur essendo una condizione che spaventa per il dolore toracico che provoca, è nella stragrande maggioranza dei casi una malattia benigna con prognosi eccellente. Con la diagnosi corretta, la terapia appropriata e il rispetto delle indicazioni mediche, la guarigione completa è l'esito atteso. Non è una malattia che compromette la qualità di vita futura né la funzione cardiaca a lungo termine.</p>
+</div>
+</section>
 
-      </article>
+</article>
