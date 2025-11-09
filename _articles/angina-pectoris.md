@@ -63,26 +63,26 @@ date: "2025-09-16"
 <div class="highlight-box rounded-lg p-6 mb-8">
 <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2">
 <i data-lucide="book-open" class="w-5 h-5 text-sky-400"></i>
-        LE BASI
+        SINTESI CLINICA
 </h2>
 <div class="space-y-4 text-slate-300">
 <p class="leading-relaxed">
-          L'angina è un dolore o fastidio al petto che compare quando il cuore non riceve abbastanza sangue. Di solito si manifesta durante uno sforzo fisico o un momento di stress, e migliora quando vi riposate.
+          <strong class="text-white">Definizione:</strong> Angina pectoris è dolore/fastidio toracico ischemico causato da squilibrio tra domanda e offerta miocardica di ossigeno, tipicamente secondario a malattia coronarica aterosclerotica ostruttiva (stenosi ≥50-70% diametro coronarico).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Cause:</strong> Il problema più comune è il restringimento delle arterie che portano il sangue al cuore, causato da depositi di grasso sulle pareti dei vasi.
+<strong class="text-white">Eziologia:</strong> CAD aterosclerotica (90%), spasmo coronarico (angina variante Prinzmetal 5-10%), microvascolare dysfunction (angina microvascolare 10-15%), stenosi aortica severa (Ao <1.0 cm²), cardiomiopatia ipertrofica.
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Sintomi:</strong> Dolore o pressione al centro del petto, che può estendersi al braccio sinistro, mandibola o collo. Alcune persone sentono affanno o stanchezza invece del dolore classico.
+<strong class="text-white">Manifestazione clinica:</strong> Dolore retrosternale oppressivo/costrittivo provocato da sforzo fisico (↑ MVO₂), stress emotivo, freddo, pasti. Durata 2-10 minuti. Irradiazione: braccio sinistro (lato ulnare), mandibola, collo, scapola. Equivalenti anginosi: dispnea, astenia (30% pazienti, specie diabetici/anziani/donne).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Diagnosi:</strong> Il medico fa domande sui vostri sintomi, vi visita, e può prescrivere esami come l'elettrocardiogramma o il test da sforzo.
+<strong class="text-white">Diagnosi:</strong> Anamnesi dettagliata (caratterizzazione dolore, trigger, durata), ECG basale e sotto sforzo, test provocativi (test ergometrico sensibilità 60-70%, TC coronarica sensibilità 90-95%, coronarografia gold standard).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Trattamento:</strong> Include farmaci per controllare i sintomi e prevenire l'infarto, cambiamenti nello stile di vita, e a volte interventi come l'angioplastica o il bypass.
+<strong class="text-white">Trattamento:</strong> Terapia medica ottimale (antiaggreganti, beta-bloccanti, nitrati, statine target LDL <55 mg/dL), rivascolarizzazione miocardica (PCI con stent drug-eluting, CABG in malattia multivasale/tronco comune).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Prognosi:</strong> Con le cure appropriate, la maggior parte delle persone può controllare bene i sintomi e vivere una vita normale.
+<strong class="text-white">Prognosi:</strong> Angina stabile con TMO: mortalità 1-3%/anno. Angina instabile/NSTEMI: mortalità ospedaliera 2-5%, rischio eventi avversi maggiori (MACE) 10-15%/anno senza trattamento. Controllo fattori rischio e rivascolarizzazione appropriata riducono MACE 30-50%.
 </p>
 </div>
 </div>
@@ -91,76 +91,100 @@ date: "2025-09-16"
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="info" class="w-6 h-6 text-rose-400"></i>
-<span class="text-white">Cos'è l'angina pectoris?</span>
+Qual è la fisiopatologia dell'angina pectoris?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      L'angina pectoris, chiamata più semplicemente "angina", è un dolore o fastidio al petto che compare quando il cuore non riceve abbastanza sangue e ossigeno per il suo lavoro. Immaginate il cuore come un motore: quando deve lavorare di più (per esempio durante una camminata veloce o salendo le scale), ha bisogno di più "carburante" (sangue e ossigeno). Se le arterie che portano il sangue al cuore sono ristrette, non arriva abbastanza carburante, e il cuore "protesta" causando dolore.
+      L'angina pectoris è sintomo clinico di ischemia miocardica reversibile determinata da squilibrio tra domanda e offerta di ossigeno al miocardio. Fisiopatologia: quando il consumo miocardico di O₂ (MVO₂) supera la capacità di perfusione coronarica, si verifica deficit energetico cellulare con accumulo metaboliti (adenosina, lattato, ioni H⁺, potassio extracellulare) che stimolano nocicettori miocardici, trasmettendo segnale doloroso attraverso fibre C afferenti al sistema nervoso centrale (dermatomeri C7-T4).
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-      Questo restringimento delle arterie del cuore è solitamente causato da depositi di grasso e altre sostanze che si accumulano sulle pareti interne dei vasi sanguigni, un po' come quando si forma del calcare nei tubi dell'acqua. Quando fate uno sforzo fisico o vivete un momento di forte emozione, il cuore batte più velocemente e ha bisogno di più sangue, ma le arterie ristrette non riescono a portare abbastanza sangue. A differenza dell'infarto, nell'angina il cuore non subisce danni permanenti: quando vi riposate, il dolore passa e il cuore torna normale.
+      <strong class="text-white">Meccanismo ostruttivo (causa 90% casi):</strong> aterosclerosi coronarica determina stenosi luminale progressiva con riduzione riserva coronarica. Placca aterosclerotica composta da core lipidico necrotico (colesterolo, esteri colesterolo), cappuccio fibroso (cellule muscolari lisce, collagene), infiltrato infiammatorio (macrofagi, linfociti T). Stenosi critica (≥50-70% riduzione diametro, ≥75-90% riduzione area luminale) compromette autoregolazione coronarica: flusso basale conservato, ma incapacità incremento flusso durante aumento domanda metabolica (sforzo fisico, stress emotivo, tachicardia). Differenza angina vs infarto: nell'angina ischemia è transitoria/reversibile senza necrosi miocardica (normalizzazione ECG e biomarker). Nell'infarto occlusione completa/subocclusiva prolungata causa necrosi irreversibile (troponina elevata persistente, alterazioni ECG permanenti).
 </p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Determinanti consumo miocardico ossigeno (MVO₂)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Frequenza cardiaca (FC):</strong> correlazione lineare diretta. Incremento FC riduce tempo diastole (fase perfusione coronarica), aumenta lavoro miocardico. Beta-bloccanti riducono MVO₂ 20-30% mediante bradicardia.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Contrattilità miocardica:</strong> maggior inotropismo richiede maggior ATP. Condizioni aumentanti contrattilità (catecolamine, simpaticomimetici, dobutamina) incrementano MVO₂.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tensione parete ventricolare (legge Laplace):</strong> Tensione = (Pressione × Raggio) / (2 × Spessore). Ipertensione arteriosa e dilatazione ventricolare aumentano stress parietale e MVO₂. Nitrati riducono precarico (-tensione), ACE-inibitori riducono postcarico.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Massa miocardica:</strong> ipertrofia ventricolare sinistra (secondaria a IA, stenosi aortica, cardiomiopatia ipertrofica) aumenta MVO₂ basale 30-50%.</p>
+</div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Trigger angina pectoris: meccanismi fisiopatologici</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizio fisico:</strong> aumenta MVO₂ mediante ↑FC (50-80%), ↑contrattilità, ↑PA sistolica. Angina tipica compare a soglia riproducibile sforzo (double product = FC × PAs costante, solitamente 15000-25000 mmHg×bpm).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stress emotivo:</strong> attivazione sistema simpatico con rilascio catecolamine (adrenalina, noradrenalina) determina tachicardia, ipertensione, vasocostrizione coronarica, aumento contrattilità (tutti ↑MVO₂).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Freddo:</strong> vasocostrizione periferica incrementa resistenze vascolari sistemiche (+postcarico, +PA) e vasocostrizione coronarica (riduce offerta O₂). Incremento MVO₂ 15-25%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pasti abbondanti:</strong> redistribuzione flusso splancnico, tachicardia postprandiale, aumento lavoro cardiaco. Incremento MVO₂ 10-20%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Febbre/infezioni:</strong> ogni 1°C aumento temperatura corporea incrementa metabolismo basale 10-13%, con proporzionale ↑MVO₂.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Anemia (Hb <10 g/dL):</strong> ridotta capacità trasporto O₂ arterioso determina ischemia relativa nonostante perfusione coronarica conservata.</p>
+</div>
+
 <p class="text-slate-300 leading-relaxed">
-      L'angina può essere provocata da diverse situazioni: attività fisica, stress emotivo intenso, esposizione al freddo (che fa stringere i vasi sanguigni), pasti abbondanti (che richiedono più lavoro al cuore per la digestione), febbre, o condizioni che fanno battere il cuore molto velocemente. A volte, anche senza questi depositi di grasso, le arterie del cuore possono stringersi temporaneamente a causa di uno "spasmo" del muscolo della parete del vaso.
+      <strong class="text-white">Meccanismo non-ostruttivo (angina variante Prinzmetal 5-10% casi):</strong> spasmo coronarico intenso transitorio (vasocostrizione arteria epicardica) causa occlusione dinamica flusso in assenza stenosi aterosclerotiche fisse o con stenosi minima <30%. Patogenesi: iperreattività vascolare (disfunzione endoteliale, ipersensibilità recettori α-adrenergici muscolatura liscia), attivazione sistema renina-angiotensina-aldosterone, ridotta produzione NO endoteliale. Trigger: fumo, cocaina, iperventilazione, Raynaud, esposizione freddo, alcaloidi ergot. Tipicamente notturna (2-4 AM, massima attivazione vagale paradossa).
 </p>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="layers" class="w-6 h-6 text-purple-400"></i>
-<span class="text-white">Quali sono i tipi di angina?</span>
+Qual è la classificazione clinica dell'angina pectoris?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      I medici distinguono diversi tipi di angina in base a come si presenta e al livello di preoccupazione:
+      La classificazione angina si basa su presentazione clinica, gravità sintomi, pattern temporale, rischio eventi cardiovascolari avversi. Sistemi classificativi principali: Canadian Cardiovascular Society (CCS) per angina cronica stabile, classificazione ESC per sindromi coronariche acute (NSTE-ACS vs STE-ACS), classificazione Prinzmetal per angina vasospastica.
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina stabile</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina cronica stabile (CCS - Chronic Coronary Syndrome)</h3>
 <div class="info-step rounded-lg p-6 mb-6">
 <p class="text-slate-300 mb-4">
-        È il tipo più comune e "prevedibile" di angina. Si chiama stabile perché si comporta sempre allo stesso modo da almeno due mesi. Caratteristiche tipiche:
+        Angina pattern stabile ≥2 mesi, scatenata da sforzi fisici riproducibili, risoluzione con riposo/nitrati sublinguali entro 2-10 minuti. Rappresenta 70-80% casi angina. Patogenesi: stenosi coronarica fissa ≥50-70% diametro, riserva coronarica compromessa, ischemia provocabile aumento MVO₂. Caratteristiche cliniche:
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Compare sempre con lo stesso tipo di attività (per esempio, salendo due rampe di scale o camminando veloce per 10 minuti)</li>
-<li>Dura solitamente pochi minuti (da 2 a 10 minuti)</li>
-<li>Passa se vi fermate a riposare o se prendete la medicina che vi ha dato il medico (una pasticca che si mette sotto la lingua)</li>
-<li>La frequenza e l'intensità rimangono costanti nel tempo</li>
-</ul>
-<p class="text-slate-300 mt-4">
-        I medici classificano la gravità dell'angina stabile in quattro livelli, in base a quanto limita la vostra vita quotidiana:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mt-3">
-<li><strong class="text-white">Livello 1 (molto lieve):</strong> Le normali attività quotidiane non provocano dolore. Il dolore compare solo durante sforzi intensi o prolungati, come correre o fare lavori pesanti</li>
-<li><strong class="text-white">Livello 2 (lieve):</strong> Leggera limitazione nelle attività normali. Il dolore compare camminando velocemente, salendo più di una rampa di scale, soprattutto dopo mangiato o quando fa freddo</li>
-<li><strong class="text-white">Livello 3 (moderato):</strong> Limitazione importante. Il dolore compare camminando in piano per 100-200 metri o salendo una sola rampa di scale a velocità normale</li>
-<li><strong class="text-white">Livello 4 (severo):</strong> Impossibilità di fare qualsiasi attività senza dolore. Il dolore può comparire anche stando fermi a riposo</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern predicibile:</strong> soglia sforzo costante (stessa distanza camminata, stesso numero rampe scale), double product riproducibile (FC × PAs tipicamente 15000-25000).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Durata episodi:</strong> 2-10 minuti (mediana 5 min). Durata <30 sec suggerisce origine non cardiaca. Durata >20 min richiede esclusione infarto/angina instabile.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta trattamento:</strong> risoluzione entro 1-5 min con riposo, 1-3 min con nitroglicerina sublinguale 0.3-0.6 mg. Mancata risposta nitrati sublinguali suggerisce infarto in atto.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Stabilità temporale:</strong> frequenza, intensità, soglia scatenamento costanti negli ultimi 2 mesi.</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Canadian Cardiovascular Society (CCS) Grading Scale</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (angina lieve):</strong> attività fisica abituale (camminare, salire scale) non provoca angina. Angina solo durante sforzi fisici intensi/rapidi/prolungati (corsa, sollevamento pesi >20 kg, esercizio vigoroso). Prevalenza 15-20% pazienti angina. MACE 1-2%/anno.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe II (angina lieve-moderata):</strong> lieve limitazione attività ordinarie. Angina camminando >2 isolati (>200m) in piano a passo normale, salendo >1 rampa scale a velocità normale. Fattori aggravanti: freddo, vento, post-prandiale, stress emotivo, prime ore mattino. Prevalenza 35-40% pazienti. MACE 2-3%/anno.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe III (angina moderata-severa):</strong> marcata limitazione attività fisica ordinaria. Angina camminando 1-2 isolati (100-200m) in piano a passo normale, salendo 1 rampa scale a velocità normale. Impatto significativo qualità vita. Prevalenza 30-35% pazienti. MACE 4-6%/anno.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Classe IV (angina severa):</strong> impossibilità svolgere qualsiasi attività fisica senza disagio. Angina a riposo o sforzi minimi (vestirsi, lavarsi, camminare <50m). Prevalenza 10-15% pazienti. MACE 8-12%/anno. Richiede valutazione urgente rivascolarizzazione.</p>
+</div>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina instabile (situazione urgente)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina instabile (NSTE-ACS - Non-ST Elevation Acute Coronary Syndrome)</h3>
 <div class="warning-box rounded-lg p-6 mb-6">
 <p class="text-slate-300 mb-4">
-        Questo tipo di angina è molto più preoccupante e richiede attenzione medica immediata. Si verifica quando la situazione delle arterie del cuore peggiora improvvisamente. I segnali d'allarme sono:
+        <strong class="text-white">EMERGENZA MEDICA:</strong> angina pattern instabile rappresenta sindrome coronarica acuta (ACS) con rischio elevato progressione NSTEMI/STEMI. Patogenesi: rottura/fissurazione placca aterosclerotica vulnerabile (thin-cap fibroatheroma) con trombosi non-occlusiva sovrapposta, embolizzazione distale microtrombi, vasocostrizione intensa. Richiede ospedalizzazione immediata, stratificazione rischio, terapia antitrombotica aggressiva. Mortalità ospedaliera 2-5%, MACE 10-15% a 30 giorni.
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Dolore a riposo:</strong> Il dolore compare anche quando siete fermi, senza aver fatto alcuno sforzo, e dura più di 10-20 minuti</li>
-<li><strong class="text-white">Dolore nuovo:</strong> Non avevate mai avuto angina prima, e improvvisamente iniziate ad avere dolori frequenti e intensi che limitano molto le vostre attività</li>
-<li><strong class="text-white">Dolore in peggioramento:</strong> Se avevate già l'angina, ma negli ultimi tempi è peggiorata: viene più spesso, dura di più, è più forte, o non passa più come prima con il riposo o con la medicina</li>
-</ul>
-<p class="text-slate-300 mt-4">
-        L'angina instabile si verifica quando i depositi di grasso nelle arterie diventano instabili e si rompono, formando un coagulo di sangue che blocca parzialmente il flusso. Questa è una situazione a metà strada tra l'angina stabile e l'infarto vero e proprio. Se avete questi sintomi, dovete andare subito al pronto soccorso: è necessario un ricovero urgente per prevenire che si sviluppi un infarto.
-</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Pattern clinici angina instabile (classificazione Braunwald):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Classe I (angina severa new-onset):</strong> angina severa CCS III-IV comparsa de novo negli ultimi 2 mesi, mai angina precedente.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Classe II (angina a riposo subacuta):</strong> ≥1 episodio angina a riposo nel mese precedente, ma non nelle ultime 48 ore.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Classe III (angina a riposo acuta, massimo rischio):</strong> ≥1 episodio angina a riposo nelle ultime 48 ore. Rischio massimo evoluzione STEMI.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Severità clinica (sottoclassificazione B/C):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>A (secondaria):</strong> condizione extracardiac exacerbante (anemia Hb <8 g/dL, ipertiroidismo, febbre, ipertensione severa, tachicardia).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>B (primaria):</strong> angina instabile senza fattore precipitante extracardiaco identificabile.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>C (post-infartuale):</strong> angina instabile entro 2 settimane da IMA documentato. Rischio massimo re-infarto/morte.</p>
+
+<div class="highlight-box rounded-lg p-6 mt-4">
+<h3 class="font-bold text-white mb-3">Criteri ospedalizzazione immediata (chiamata 118)</h3>
+<p class="text-slate-300 mb-3">●Dolore toracico a riposo >10-20 minuti non responsivo a 2-3 dosi nitrati sublinguali (intervallo 5 min tra dosi).</p>
+<p class="text-slate-300 mb-3">●Angina pattern crescendo: incremento frequenza episodi (da settimanale a quotidiana/multipla giornaliera), durata (da 2-3 min a 10-15 min), intensità, riduzione soglia scatenamento (da sforzi moderati a minimi sforzi/riposo).</p>
+<p class="text-slate-300 mb-3">●Sintomi associati: dispnea severa, sincope/presincope, diaforesi profusa, nausea/vomito.</p>
+<p class="text-slate-300 mb-6">●Equivalenti anginosi a riposo: dispnea acuta, edema polmonare flash, aritmie ventricolari (TV sostenuta), sincope.</p>
+</div>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina da spasmo (o variante di Prinzmetal)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina variante (o vasospastica, Prinzmetal)</h3>
 <div class="info-step rounded-lg p-6">
 <p class="text-slate-300 mb-3">
-        Questo è un tipo raro di angina causato da uno "spasmo" (una contrazione improvvisa) delle arterie del cuore, anche senza i depositi di grasso che causano gli altri tipi di angina. Caratteristiche tipiche:
+        Angina causata da spasmo coronarico epicardico intenso transitorio, tipicamente in assenza malattia aterosclerotica ostruttiva significativa o con stenosi minima (<30% diametro). Prevalenza: 2-10% pazienti angina (maggior prevalenza popolazione asiatica, Giappone 10-15%). Età media diagnosi 50-60 anni. Caratteristiche distintive:
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Compare di solito quando siete a riposo, spesso di notte o al mattino presto</li>
-<li>Tende a ripetersi in modo ciclico, spesso alla stessa ora del giorno o della notte</li>
-<li>Passa rapidamente con le medicine che rilassano le arterie</li>
-<li>Durante l'episodio, l'elettrocardiogramma mostra dei cambiamenti particolari che poi tornano normali</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern temporale:</strong> angina a riposo, circadiana (tipicamente notturna 2-4 AM o mattino presto 6-8 AM), clustering episodi (serie ripetute stessa ora giorno/settimana). NO correlazione sforzo fisico.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Alterazioni ECG durante episodio:</strong> sopraslivellamento ST transitorio (≥2 mm) derivazioni specifiche territorio vascolare coinvolto (anteriore, inferiore, laterale). Normalizzazione ECG completa entro 5-15 min risoluzione sintomi. Diagnosi richiede documentazione ECG durante episodio spontaneo o test provocativo (iperventilazione, ergonovina/acetilcolina intracoronarica).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta terapeutica:</strong> risoluzione rapida (1-3 min) con nitrati sublinguali/calcio-antagonisti. Refractorietà beta-bloccanti (possono peggiorare spasmo per unopposed α-vasoconstrizione).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze:</strong> aritmie ventricolari durante spasmo (TV/FV 5-10% episodi), blocchi AV transitori (spasmo arteria coronaria destra/circonflessa), sincope. Rischio infarto transmurale se spasmo prolungato >20-30 min (raro, <5%). Prognosi buona con terapia appropriata (calcio-antagonisti long-acting + nitrati), mortalità <1%/anno.</p>
 </div>
   </section>
 
