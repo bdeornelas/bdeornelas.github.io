@@ -56,21 +56,36 @@ date: "2025-09-21"
             Cos'è l'aneurisma aortico?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'aorta è il principale vaso arterioso dell'organismo. Origina dal ventricolo sinistro e distribuisce il sangue ossigenato a tutti gli organi attraverso le sue diramazioni. Il diametro normale è di 2-3 cm a livello dell'aorta addominale. L'aneurisma aortico è definito come una dilatazione focale permanente con diametro ≥50% superiore al valore normale atteso per sesso ed età, o >3 cm in valore assoluto.
+L'aorta è il vaso sanguigno più grande del corpo. Parte dal cuore e porta sangue ricco di ossigeno a tutti gli organi. Normalmente, l'aorta ha un diametro di circa 2-3 cm nella zona dell'addome.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'aneurisma aortico risulta da un progressivo indebolimento della parete vasale, con degenerazione della media e alterazione delle fibre elastiche. Il rimodellamento strutturale avviene per stress emodinamico cronico, infiammazione e degradazione della matrice extracellulare mediata da metalloproteinasi. Prevalenza: 4-8% negli uomini >65 anni, maggiore in fumatori e ipertesi.
+Un aneurisma dell'aorta si verifica quando una parte dell'aorta si dilata (si allarga) in modo permanente. Questo succede perché la parete del vaso sanguigno si indebolisce nel tempo. L'aneurisma si forma quando il diametro dell'aorta diventa più grande del 50% rispetto al normale, o supera i 3 cm.
+</p>
+<p class="text-slate-300 leading-relaxed mb-6">
+Circa 4-8 persone su 100 tra gli uomini sopra i 65 anni hanno un aneurisma dell'aorta addominale (nell'addome). È più comune in chi fuma e in chi ha la pressione alta.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione anatomica</h3>
-<p class="text-slate-300 mb-3">L'aneurisma si classifica in base alla localizzazione:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma dell'aorta addominale (AAA):</strong> localizzazione infrarenale nel 90% dei casi. Rappresenta il 75% di tutti gli aneurismi aortici. Prevalenza 4-8% in uomini >65 anni</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma dell'aorta toracica (TAA):</strong> coinvolge aorta ascendente, arco o discendente. Incidenza 6-10/100.000 per anno. Spesso associato a patologie del tessuto connettivo</p>
-<p class="text-slate-300"><strong class="text-white">●Aneurisma toraco-addominale:</strong> estensione continua dall'aorta toracica discendente all'aorta addominale. Classificazione di Crawford (tipo I-IV) in base all'estensione</p>
+<h3 class="font-bold text-white mb-3">Dove può formarsi l'aneurisma?</h3>
+<p class="text-slate-300 mb-3">L'aneurisma può formarsi in diverse zone dell'aorta:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma dell'aorta addominale (chiamato anche AAA):</strong> Si trova nell'addome, sotto i reni. È il tipo più comune: circa 3 aneurismi su 4 si formano in questa zona. Colpisce circa 4-8 persone su 100 tra gli uomini sopra i 65 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma dell'aorta toracica (chiamato anche TAA):</strong> Si trova nel torace. È meno comune e può coinvolgere l'aorta che sale dal cuore, la sua curva (arco), o la parte che scende. A volte è legato a malattie che indeboliscono i tessuti del corpo.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Aneurisma toraco-addominale:</strong> Si estende dal torace all'addome. È il tipo meno comune e il più esteso.</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Storia naturale e rischio di rottura</h3>
-<p class="text-slate-300 mb-3">La crescita aneurismatica è mediamente 2-3 mm/anno per AAA e 1-2 mm/anno per TAA. Il rischio di rottura aumenta esponenzialmente con il diametro: <1%/anno per AAA <5 cm, 10-20%/anno per AAA >6 cm. La rottura determina mortalità del 80-90% (50% pre-ospedaliera, 30-50% intraoperatoria). La sorveglianza ecografica e il trattamento elettivo riducono la mortalità del 40-50% rispetto alla gestione conservativa.</p>
+<h3 class="font-bold text-white mb-3">Come cresce l'aneurisma e quando è pericoloso?</h3>
+
+<p class="text-slate-300 mb-3">L'aneurisma dell'aorta addominale (AAA) cresce mediamente di 2-3 millimetri all'anno. L'aneurisma toracico cresce più lentamente, circa 1-2 millimetri all'anno.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">Il rischio principale è la rottura:</strong> quando l'aneurisma si rompe, provoca un'emorragia interna grave. Il rischio di rottura aumenta man mano che l'aneurisma diventa più grande:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurismi piccoli (meno di 5 cm):</strong> meno di 1 persona su 100 all'anno va incontro a rottura.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurismi grandi (più di 6 cm):</strong> circa 10-20 persone su 100 all'anno vanno incontro a rottura.</p>
+
+<p class="text-slate-300">La rottura è molto pericolosa: circa 8-9 persone su 10 muoiono se l'aneurisma si rompe. Per questo motivo, i controlli regolari con ecografia e il trattamento preventivo quando necessario sono molto importanti: riducono il rischio di morte del 40-50% rispetto a chi non fa controlli.</p>
 </div>
 </section>
 
@@ -80,30 +95,39 @@ date: "2025-09-21"
             Chi è a rischio?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Diversi fattori di rischio sono stati identificati per l'aneurisma aortico. Il riconoscimento dei soggetti a rischio permette programmi di screening mirato con dimostrato rapporto costo-efficacia.
+Alcune persone hanno più probabilità di sviluppare un aneurisma dell'aorta. Conoscere questi fattori di rischio aiuta a identificare chi dovrebbe fare controlli preventivi.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Fattori di rischio principali</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Età ≥65 anni:</strong> prevalenza AAA 4-8% negli uomini >65 anni vs 1% <55 anni. Incidenza aumenta esponenzialmente dopo la sesta decade</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sesso maschile:</strong> rischio 4-6 volte superiore negli uomini. Rapporto M:F 4-6:1 per AAA</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo di tabacco:</strong> principale fattore di rischio modificabile. OR 5-7 per fumatori attivi. Il rischio permane elevato (OR 2-3) anche dopo cessazione. Relazione dose-dipendente con pack-years</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ipertensione arteriosa:</strong> OR 1.3-1.7. L'ipertensione accelera la crescita aneurismatica e aumenta il rischio di rottura</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Storia familiare:</strong> rischio 10-20 volte superiore in parenti di primo grado. Pattern autosomico con penetranza variabile. Circa 20% degli AAA ha componente familiare</p>
-<p class="text-slate-300"><strong class="text-white">●Aterosclerosi sistemica:</strong> associazione con malattia coronarica (30-50%), arteriopatia periferica (40%). Condividono fattori di rischio cardiovascolare</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Età sopra i 65 anni:</strong> Circa 4-8 persone su 100 tra gli uomini sopra i 65 anni hanno un aneurisma dell'aorta addominale. Sotto i 55 anni, solo 1 persona su 100 lo ha. Il rischio aumenta molto dopo i 60 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Essere uomo:</strong> Gli uomini hanno un rischio 4-6 volte più alto delle donne di sviluppare un aneurisma. Per ogni donna con aneurisma ci sono 4-6 uomini.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fumare:</strong> Il fumo di sigaretta è il fattore di rischio più importante che puoi controllare. Chi fuma ha un rischio 5-7 volte più alto. Anche chi ha smesso di fumare ha un rischio 2-3 volte più alto. Più sigarette hai fumato nella vita, maggiore è il rischio.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta:</strong> L'ipertensione aumenta il rischio di sviluppare un aneurisma e fa crescere l'aneurisma più velocemente, aumentando il rischio di rottura.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Familiarità:</strong> Se tuo padre, madre, fratello o sorella hanno avuto un aneurisma dell'aorta, hai un rischio 10-20 volte più alto. Circa 2 aneurismi su 10 hanno una componente familiare.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Malattie delle arterie:</strong> Se hai malattie delle arterie del cuore (malattia coronarica) o delle gambe (arteriopatia periferica), hai più probabilità di avere anche un aneurisma. Circa 3-5 persone su 10 con aneurisma hanno anche malattia coronarica.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Patologie associate ad aumentato rischio</h3>
-<p class="text-slate-300 mb-3">Condizioni predisponenti all'aneurisma aortico:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Connettivopatie ereditarie:</strong> sindrome di Marfan (rischio TAA 60-80%), sindrome di Ehlers-Danlos (tipo IV), sindrome di Loeys-Dietz. Aneurismi a età più giovane (<40 anni) con maggior rischio di dissezione</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Valvola aortica bicuspide:</strong> presente nel 1-2% popolazione. Rischio TAA ascendente aumentato 5-10 volte. Richiede sorveglianza imaging</p>
-<p class="text-slate-300"><strong class="text-white">●BPCO:</strong> OR 1.5-2.0 per AAA. Meccanismo: degradazione elastina polmonare ed aortica, infiammazione cronica, condivisione fattore di rischio (fumo)</p>
+<h3 class="font-bold text-white mb-3">Malattie che aumentano il rischio</h3>
+<p class="text-slate-300 mb-3">Alcune malattie rendono più probabile lo sviluppo di un aneurisma dell'aorta:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Malattie ereditarie del tessuto connettivo:</strong> Sindrome di Marfan, sindrome di Ehlers-Danlos (tipo IV) e sindrome di Loeys-Dietz. Queste malattie indeboliscono i tessuti del corpo, compresi i vasi sanguigni. Le persone con sindrome di Marfan hanno un rischio di 60-80 su 100 di sviluppare un aneurisma toracico. Gli aneurismi possono formarsi in età più giovane (prima dei 40 anni) e il rischio di rottura è più alto.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Valvola aortica bicuspide:</strong> Circa 1-2 persone su 100 nascono con una valvola aortica con due cuspidi invece di tre (bicuspide). Questa condizione aumenta il rischio di aneurisma dell'aorta toracica di 5-10 volte. Se hai questa condizione, dovrai fare controlli periodici con ecografia.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Broncopneumopatia cronica ostruttiva (BPCO):</strong> La BPCO aumenta il rischio di aneurisma di circa 1,5-2 volte. Questo succede perché il fumo (che causa la BPCO) danneggia anche le fibre elastiche dell'aorta, e perché l'infiammazione cronica nei polmoni può coinvolgere anche i vasi sanguigni.</p>
 </div>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="heart" class="w-5 h-5 text-orange-400"></i>
-              Screening in soggetti con storia familiare
+Controlli per chi ha familiari con aneurisma
 </h3>
-<p class="text-slate-300 mb-3">Parenti di primo grado di pazienti con AAA hanno rischio relativo 10-20. Le linee guida raccomandano screening ecografico una tantum a partire dai 55-60 anni (o 10 anni prima dell'età di diagnosi del familiare se <60 anni). Lo screening riduce mortalità AAA-correlata del 40-50% in questa popolazione ad alto rischio.</p>
+<p class="text-slate-300 mb-3">Se tuo padre, madre, fratello o sorella hanno avuto un aneurisma dell'aorta addominale, il tuo rischio è 10-20 volte più alto della media. Per questo motivo, è raccomandato un controllo con ecografia dell'addome all'età di 55-60 anni (oppure 10 anni prima dell'età in cui il tuo familiare ha scoperto l'aneurisma, se questo è successo prima dei 60 anni). Questo singolo controllo riduce il rischio di morte per aneurisma del 40-50% nelle persone con storia familiare.</p>
 </div>
 </section>
 
@@ -113,29 +137,39 @@ date: "2025-09-21"
             Quali sono i sintomi e perché spesso non ci sono?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il 75-80% degli aneurismi aortici è asintomatico e viene diagnosticato incidentalmente durante imaging eseguito per altre indicazioni (ecografia addominale, TC torace-addome). La presentazione clinica varia in base a localizzazione, dimensioni e presenza di complicanze.
+Circa 7-8 persone su 10 con aneurisma dell'aorta non hanno sintomi. L'aneurisma viene scoperto per caso durante esami fatti per altri motivi, come un'ecografia dell'addome o una TAC del torace.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'assenza di sintomi è dovuta all'espansione graduale della parete aortica senza compressione di strutture adiacenti o ischemia. La diagnosi incidentale rappresenta il 70% dei casi per AAA e 60% per TAA. Il rilevamento precoce attraverso screening in popolazioni a rischio identifica aneurismi in fase asintomatica quando il rischio di rottura è basso (<1%/anno per AAA <5 cm).
+L'aneurisma non dà sintomi perché cresce lentamente e gradualmente, senza premere sugli organi vicini. Circa 7 aneurismi addominali su 10 e 6 aneurismi toracici su 10 vengono scoperti per caso. Quando l'aneurisma è piccolo (meno di 5 cm), il rischio di rottura è molto basso (meno di 1 persona su 100 all'anno). Per questo motivo, i controlli preventivi nelle persone a rischio sono molto importanti: permettono di scoprire l'aneurisma quando è ancora piccolo.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Presentazione clinica aneurisma non complicato</h3>
-<p class="text-slate-300 mb-3">Gli aneurismi asintomatici o paucisintomatici rappresentano il 75-80% dei casi. Sintomi aspecifici occasionali (15-20% pazienti):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore addominale o lombare:</strong> dolore sordo, profondo, epigastrico o periombelicale irradiato a regione lombare. Intensità variabile, non correlato a pasti o movimenti. Può indicare espansione rapida o fissurazione contenuta</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Massa addominale pulsante:</strong> palpabile in pazienti magri (BMI <25), localizzata in regione periombelicale o epigastrica. Pulsatilità sincrona con battito cardiaco. Sensibilità diagnostica 30-40% per AAA >5 cm</p>
-<p class="text-slate-300"><strong class="text-white">●Fenomeni compressivi:</strong> rari, includono sazietà precoce (compressione gastrica), trombosi venosa profonda (compressione vena cava), idronef rosi (compressione ureterale)</p>
-<p class="text-slate-300 mt-3">La presenza di sintomi anche lievi in aneurisma noto richiede valutazione clinica e imaging urgente per escludere espansione rapida (>1 cm/anno) o complicanze incipenti.</p>
+<h3 class="font-bold text-white mb-3">Sintomi quando presenti</h3>
+<p class="text-slate-300 mb-3">Circa 7-8 aneurismi su 10 non danno sintomi. Alcune persone (circa 1-2 su 10) possono avere sintomi lievi e generici:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore all'addome o alla schiena:</strong> Un dolore sordo, profondo, nella parte centrale dell'addome (intorno all'ombelico) o nella parte bassa della schiena. Il dolore non è legato ai pasti o ai movimenti. Se hai un aneurisma noto e compare dolore, potrebbe significare che l'aneurisma sta crescendo velocemente.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Massa pulsante nell'addome:</strong> Nelle persone magre, a volte si può sentire una massa che pulsa nella zona dell'ombelico, in sincronia con il battito del cuore. Questo segno si trova in circa 3-4 persone su 10 con aneurisma addominale grande (più di 5 cm).</p>
+
+<p class="text-slate-300"><strong class="text-white">●Sintomi da compressione:</strong> Raramente, se l'aneurisma è molto grande, può premere sugli organi vicini causando: senso di sazietà precoce (compressione dello stomaco), gonfiore alle gambe (compressione della vena cava), o problemi ai reni (compressione degli ureteri).</p>
+
+<p class="text-slate-300 mt-3">Se hai un aneurisma noto e compare qualsiasi sintomo, anche lieve, contatta il tuo medico. Sarà necessaria una visita e un'ecografia urgente per escludere che l'aneurisma stia crescendo rapidamente (più di 1 cm all'anno) o che ci siano complicazioni.</p>
 </div>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="alert-circle" class="w-5 h-5 text-orange-400"></i>
-              Presentazione clinica di rottura o complicanza acuta
+Sintomi di emergenza: quando chiamare subito il 118
 </h3>
-<p class="text-slate-300 mb-3">La rottura di aneurisma aortico costituisce emergenza chirurgica con mortalità 80-90%. Sintomi indicativi di rottura o fissurazione richiedono accesso immediato a pronto soccorso e attivazione protocollo emergenza vascolare:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore improvviso severo</strong> addominale, lombare o toracico (intensità 8-10/10 su scala analogica), persistente, non responsivo ad analgesici comuni. Può irradiarsi a inguine, fianchi o regione interscapolare</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Shock ipovolemico</strong> con ipotensione (PAS <90 mmHg), tachicardia (FC >100 bpm), alterazione stato coscienza, cute fredda e sudata, oliguria. Indica emorragia massiva intraperitoneale o retroperitoneale</p>
-<p class="text-slate-300"><strong class="text-white">●Sincope o pre-sincope</strong> in contesto di dolore addominale/lombare acuto. Segno di ipoperfusione cerebrale da ipovolemia acuta</p>
-<p class="text-slate-300 mt-3">La triade classica rottura AAA (dolore addominale/lombare + ipotensione + massa pulsante) è presente solo nel 25-50% pazienti. La rottura contenuta (40% casi) può presentarsi con sintomi meno drammatici ma evolve rapidamente verso instabilità emodinamica. Mortalità pre-ospedaliera 50%, intraoperatoria 30-50%, globale 80-90%. La sorveglianza programmata e il trattamento elettivo prevengono questa complicanza nel 95% dei casi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white uppercase">CHIAMA IMMEDIATAMENTE IL 118 se hai:</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore improvviso e molto forte</strong> all'addome, alla schiena o al torace. È un dolore intenso (8-10 su una scala da 0 a 10), che non passa e non risponde ai comuni antidolorifici. Può diffondersi all'inguine, ai fianchi o tra le scapole.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Segni di shock:</strong> pressione bassa (meno di 90 mmHg la massima), battito cardiaco veloce (più di 100 battiti al minuto), confusione mentale, pelle fredda e sudata, riduzione dell'urina. Questi segni indicano un'emorragia grave interna.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Perdita di coscienza o senso di svenimento</strong> insieme a dolore improvviso all'addome o alla schiena. Questo significa che il cervello non riceve abbastanza sangue a causa dell'emorragia.</p>
+
+<p class="text-slate-300 mt-3">Questi sintomi possono indicare la rottura dell'aneurisma, che è un'emergenza medica molto grave. Circa 8-9 persone su 10 muoiono se l'aneurisma si rompe. Solo 2-5 persone su 10 con rottura classica (dolore + pressione bassa + massa pulsante nell'addome) sopravvivono. A volte la rottura è parziale e contenuta (4 volte su 10): in questo caso i sintomi possono essere meno evidenti all'inizio, ma la situazione peggiora rapidamente.</p>
+
+<p class="text-slate-300 mt-3"><strong class="text-white">La buona notizia:</strong> i controlli regolari e il trattamento preventivo prevengono la rottura in più di 95 persone su 100.</p>
 </div>
 </section>
 
@@ -145,33 +179,47 @@ date: "2025-09-21"
             Come si scopre l'aneurisma?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La diagnosi di aneurisma aortico si basa su imaging non invasivo. La scelta della metodica dipende da localizzazione (AAA vs TAA), indicazione (screening vs sorveglianza vs pianificazione chirurgica) e disponibilità di risorse.
+L'aneurisma dell'aorta si scopre con esami di imaging (che creano immagini dell'interno del corpo) senza bisogno di interventi invasivi. Il tipo di esame dipende da dove si trova l'aneurisma (addome o torace), dal motivo dell'esame (controllo preventivo, monitoraggio, o preparazione a un intervento) e dalla disponibilità dell'esame.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Ecografia addominale (US)</h3>
-<p class="text-slate-300 mb-3">Gold standard per screening e sorveglianza AAA. Metodica di prima scelta per aneurismi infrarenali:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sensibilità e specificità:</strong> 95-100% per AAA >3 cm. Accuratezza nella misurazione del diametro anteroposterior e massimo trasverso ±3-5 mm. Operatore-dipendente</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Vantaggi tecnici:</strong> assenza radiazioni ionizzanti, costo contenuto (€50-100), rapida esecuzione (10-15 minuti), ripetibilità illimitata, imaging real-time</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Limiti:</strong> visione limitata in pazienti obesi (BMI >30), meteorismo intestinale, AAA sovrarenali o toraco-addominali. Impossibile caratterizzare trombo murale, dissezione, coinvolgimento rami viscerali</p>
-<p class="text-slate-300"><strong class="text-white">●Indicazioni:</strong> screening popolazione a rischio (classe I, evidenza A), follow-up AAA <5.5 cm asintomatico, valutazione post-operatoria chirurgia aperta</p>
-<p class="text-slate-300 mt-3">Gli ultrasuoni rappresentano la modalità ottimale per programmi di screening di popolazione con rapporto costo-efficacia favorevole (ICER £7,370-£10,000/QALY). Il diametro massimo anteroposterior misurato in sezione trasversa è il parametro standard per sorveglianza.</p>
+<h3 class="font-bold text-white mb-3">Ecografia dell'addome</h3>
+<p class="text-slate-300 mb-3">L'ecografia (anche chiamata ecografia addominale o ultrasuoni) è l'esame migliore per i controlli preventivi e il monitoraggio degli aneurismi dell'addome. È l'esame di prima scelta per gli aneurismi sotto i reni:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quanto è preciso:</strong> L'ecografia trova più di 95-100 aneurismi su 100 quando sono più grandi di 3 cm. La misurazione del diametro è accurata con una variabilità di circa 3-5 millimetri. La qualità dipende dall'esperienza di chi esegue l'esame.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Vantaggi:</strong> Non usa radiazioni, costa poco (circa 50-100 euro), è veloce (10-15 minuti), puoi ripeterlo tutte le volte che serve, e mostra le immagini in tempo reale.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Limiti:</strong> Non funziona bene nelle persone con molto grasso addominale o con aria nell'intestino. Non può vedere gli aneurismi sopra i reni o quelli del torace. Non può mostrare dettagli come coaguli di sangue dentro l'aneurisma o coinvolgimento di altri vasi.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Quando si usa:</strong> Per lo screening nelle persone a rischio, per i controlli regolari di aneurismi piccoli (meno di 5,5 cm) senza sintomi, e per i controlli dopo chirurgia tradizionale.</p>
+
+<p class="text-slate-300 mt-3">L'ecografia è l'esame ideale per i programmi di controllo nella popolazione perché ha un ottimo rapporto tra costi e benefici. Il diametro misurato dall'ecografia è il parametro principale usato per decidere quando fare i controlli.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">TC angiografia (CTA)</h3>
-<p class="text-slate-300 mb-3">Esame di riferimento per pianificazione chirurgica, caratterizzazione anatomica dettagliata, valutazione TAA:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Caratterizzazione anatomica:</strong> ricostruzioni multiplanari (MPR) e 3D con definizione diametri, lunghezze, angolazioni, rapporti con rami viscerali e iliaci. Accuratezza ±1-2 mm. Permette planning pre-operatorio EVAR/TEVAR</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Indicazioni:</strong> AAA >5 cm in candidati a trattamento, AAA sintomatico, sospetta rottura/dissezione, aneurismi toracici, sorveglianza post-EVAR (endoleak detection), anatomia complessa (toraco-addominale, juxtarenale)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Limiti:</strong> radiazioni ionizzanti (dose efficace 5-15 mSv), nefrotossicità mdc iodato (rischio 2-7% in IRC), costo superiore (€200-400), reazioni allergiche mdc (0.6% moderate-severe)</p>
-<p class="text-slate-300"><strong class="text-white">●Protocollo:</strong> acquisizione arteriosa con mdc iodato (100-120 mL, 350-400 mg I/mL), bolus tracking aorta toracica discendente. Ricostruzioni assiali 1-2 mm, MPR, center-line of flow per misurazioni precise</p>
+<h3 class="font-bold text-white mb-3">TAC con mezzo di contrasto (angio-TAC)</h3>
+<p class="text-slate-300 mb-3">L'angio-TAC (anche chiamata TC angiografia o CTA) è l'esame più dettagliato per preparare l'intervento chirurgico e per vedere gli aneurismi del torace:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa mostra:</strong> Crea immagini tridimensionali molto precise che mostrano dimensioni esatte, lunghezze, angoli e rapporti con gli altri vasi sanguigni. La precisione è di circa 1-2 millimetri. Queste informazioni sono essenziali per pianificare l'intervento.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quando si usa:</strong> Quando l'aneurisma addominale supera i 5 cm e sei candidato a un intervento, se hai sintomi, se c'è sospetto di rottura, per tutti gli aneurismi toracici, per i controlli dopo intervento endovascolare, e per aneurismi in posizioni complesse.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Limiti:</strong> Usa radiazioni (dose circa 5-15 mSv), il mezzo di contrasto può danneggiare i reni (rischio 2-7 persone su 100 se hai già problemi renali), costa di più (circa 200-400 euro), e può causare reazioni allergiche al contrasto (circa 6 persone su 1000 hanno reazioni moderate-gravi).</p>
+
+<p class="text-slate-300"><strong class="text-white">●Come si esegue:</strong> Ti viene iniettato un mezzo di contrasto iodato (100-120 millilitri) attraverso una vena. Le immagini vengono acquisite mentre il contrasto circola nell'aorta. Poi vengono create ricostruzioni dettagliate in 3D per misurazioni precise.</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Raccomandazioni screening</h3>
-<p class="text-slate-300 mb-3">Linee guida internazionali (USPSTF, ESC, SVS) per screening AAA con ecografia addominale una tantum:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Uomini 65-75 anni con storia di fumo</strong> (≥100 sigarette lifetime): classe I, evidenza A. NNS 500-700 per prevenire 1 morte AAA. Riduzione mortalità AAA-specifica 40-50% a 10-13 anni</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Parenti primo grado pazienti AAA:</strong> screening età 55-60 anni o 10 anni prima diagnosi familiare se <60 anni. RR 10-20, prevalenza 15-20% vs 4-8% popolazione generale</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Donne 65-75 anni fumatrici o con storia familiare:</strong> classe IIa, evidenza B. Prevalenza inferiore (1-2%), ma mortalità rottura superiore vs uomini</p>
-<p class="text-slate-300"><strong class="text-white">●Uomini >65 anni non fumatori:</strong> classe IIb, evidenza B. Beneficio screening incerto, valutazione individualizzata in base comorbidità cardiovascolari</p>
-<p class="text-slate-300 mt-3">Lo screening riduce mortalità AAA-specifica del 40-50% e mortalità totale del 3-4% in uomini 65-75 anni fumatori. L'ecografia una tantum in questa popolazione ha rapporto costo-efficacia favorevole in tutti i sistemi sanitari occidentali. Il rescreening in pazienti con aorta normale (<3 cm) non è raccomandato (incidenza AAA <1% a 5 anni).</p>
+<h3 class="font-bold text-white mb-3">Chi dovrebbe fare il controllo preventivo?</h3>
+<p class="text-slate-300 mb-3">Le linee guida internazionali raccomandano un controllo con ecografia dell'addome (una volta sola nella vita) per:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Uomini tra 65 e 75 anni che hanno fumato:</strong> Se hai fumato almeno 100 sigarette nella tua vita, dovresti fare questo controllo. È la raccomandazione più forte. Per prevenire 1 morte da aneurisma servono circa 500-700 controlli. Lo screening riduce il rischio di morte per aneurisma del 40-50% a 10-13 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Parenti di persone con aneurisma:</strong> Se tuo padre, madre, fratello o sorella hanno avuto un aneurisma addominale, dovresti fare il controllo a 55-60 anni (oppure 10 anni prima dell'età in cui il tuo familiare ha scoperto l'aneurisma). Il tuo rischio è 10-20 volte più alto. Circa 15-20 persone su 100 con familiari con aneurisma lo sviluppano, contro 4-8 su 100 nella popolazione generale.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Donne tra 65 e 75 anni fumatrici o con familiari con aneurisma:</strong> Se sei una donna, fumi e/o hai familiari con aneurisma, potrebbe essere utile fare il controllo. Gli aneurismi sono meno comuni nelle donne (1-2 su 100), ma quando si rompono la mortalità è più alta rispetto agli uomini.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Uomini sopra i 65 anni non fumatori:</strong> Se non hai mai fumato e non hai familiari con aneurisma, il beneficio del controllo non è chiaro. Il tuo medico valuterà se farlo in base ad altri problemi cardiovascolari che potresti avere.</p>
+
+<p class="text-slate-300 mt-3">Lo screening riduce il rischio di morte per aneurisma del 40-50% e il rischio di morte totale del 3-4% negli uomini tra 65 e 75 anni che hanno fumato. Un singolo controllo con ecografia in questo gruppo di persone ha un ottimo rapporto tra costi e benefici. Se la tua aorta è normale (meno di 3 cm), non serve ripetere il controllo: il rischio di sviluppare un aneurisma nei successivi 5 anni è molto basso (meno di 1%).</p>
 </div>
 </section>
 
@@ -181,35 +229,51 @@ date: "2025-09-21"
             Come monitorare l'aneurisma nel tempo con i controlli periodici?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Gli aneurismi aortici infrarenali <5.5 cm (uomini) o <5 cm (donne) asintomatici sono gestiti con sorveglianza attiva (watchful waiting) e modificazione fattori di rischio. Il monitoraggio imaging periodico permette identificazione tempestiva di progressione e timing ottimale intervento preventivo.
+Gli aneurismi addominali piccoli (meno di 5,5 cm negli uomini o meno di 5 cm nelle donne) senza sintomi vengono controllati nel tempo con ecografie periodiche e modificando i fattori di rischio. I controlli regolari permettono di vedere se l'aneurisma sta crescendo e di capire quando è il momento giusto per l'intervento preventivo.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Protocollo sorveglianza imaging</h3>
-<p class="text-slate-300 mb-3">Frequenza controlli ecografici basata su diametro AAA massimo (raccomandazioni ESC/SVS/ACC):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 3.0-3.9 cm:</strong> ecografia ogni 3 anni. Rischio crescita >5 cm a 5 anni: 3-4%. Rischio rottura annuale <0.5%</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 4.0-4.9 cm:</strong> ecografia ogni 12 mesi. Tasso crescita medio 2-3 mm/anno. Rischio crescita >5.5 cm a 3 anni: 30-40%. Rischio rottura annuale 1-2%</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 5.0-5.4 cm:</strong> ecografia ogni 6 mesi. Tasso crescita medio 3-4 mm/anno. Rischio rottura annuale 3-5%. Considerare CTA pre-operatoria per planning</p>
-<p class="text-slate-300"><strong class="text-white">●AAA ≥5.5 cm:</strong> CTA urgente per pianificazione chirurgica. Rischio rottura annuale 10-20%. Indicazione trattamento elettivo (soglia 5.5 cm uomini, 5.0 cm donne)</p>
-<p class="text-slate-300 mt-3">Crescita rapida (>5 mm in 6 mesi o >10 mm in 12 mesi) costituisce indicazione a trattamento indipendentemente dal diametro assoluto. La variabilità inter-osservatore ecografica è ±3-5 mm: incrementi <5 mm in 6 mesi possono riflettere variabilità metodologica piuttosto che vera espansione.</p>
+<h3 class="font-bold text-white mb-3">Ogni quanto fare i controlli?</h3>
+<p class="text-slate-300 mb-3">La frequenza dei controlli con ecografia dipende dalla dimensione dell'aneurisma:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma piccolo (3,0-3,9 cm):</strong> Ecografia ogni 3 anni. Il rischio che superi i 5 cm nei prossimi 5 anni è basso (3-4%). Il rischio di rottura è molto basso (meno di 1 persona su 200 all'anno).</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma medio (4,0-4,9 cm):</strong> Ecografia ogni anno. L'aneurisma cresce in media 2-3 millimetri all'anno. Il rischio che superi 5,5 cm nei prossimi 3 anni è del 30-40%. Il rischio di rottura è di 1-2 persone su 100 all'anno.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma grande (5,0-5,4 cm):</strong> Ecografia ogni 6 mesi. L'aneurisma cresce in media 3-4 millimetri all'anno. Il rischio di rottura è di 3-5 persone su 100 all'anno. Il tuo medico potrebbe prescrivere una TAC per programmare l'intervento.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Aneurisma molto grande (5,5 cm o più):</strong> TAC urgente per pianificare l'intervento chirurgico. Il rischio di rottura è di 10-20 persone su 100 all'anno. A queste dimensioni è raccomandata la riparazione preventiva (5,5 cm negli uomini, 5 cm nelle donne).</p>
+
+<p class="text-slate-300 mt-3">Se l'aneurisma cresce velocemente (più di 5 millimetri in 6 mesi o più di 10 millimetri in un anno), è raccomandato l'intervento anche se non ha ancora raggiunto i 5,5 cm. Tieni presente che l'ecografia ha una variabilità di circa 3-5 millimetri: se l'aneurisma cresce meno di 5 millimetri in 6 mesi, potrebbe essere solo variabilità della misurazione e non una vera crescita.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Gestione farmacologica e modificazione fattori di rischio</h3>
-<p class="text-slate-300 mb-3">Interventi terapeutici durante sorveglianza per rallentare progressione e ridurre rischio cardiovascolare globale:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cessazione fumo:</strong> priorità assoluta. Riduce tasso crescita AAA del 15-20% e rischio rottura del 20-30%. I fumatori attivi hanno crescita 0.4 mm/anno superiore vs ex-fumatori. Programmi strutturati cessazione (NRT, vareniclina, counseling) raccomandati</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo pressorio:</strong> target PA <140/90 mmHg (classe I), <130/80 mmHg in diabetici/IRC (classe IIa). ACE-inibitori o ARB preferibili per potenziale effetto anti-rimodellamento (evidenza controversa). Evitare ipotensione eccessiva</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Statine:</strong> indicazione classe I in tutti pazienti AAA per riduzione rischio cardiovascolare globale (RR 0.6-0.7 eventi MACE). Effetto su crescita AAA controverso (studi negativi). Target LDL <70 mg/dL</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Antiaggreganti:</strong> ASA 75-100 mg/die in prevenzione secondaria se arteriopatia concomitante. Non indicati in prevenzione primaria solo per AAA</p>
-<p class="text-slate-300"><strong class="text-white">●Beta-bloccanti:</strong> non raccomandati per rallentare crescita AAA (RCT negativi). Indicati solo per altre indicazioni cardiovascolari (post-IMA, scompenso)</p>
-<p class="text-slate-300 mt-3">Attualmente non esistono farmaci specifici approvati per arrestare o invertire crescita aneurismatica. Doxiciclina, FANS, macrolidi hanno mostrato risultati negativi in RCT. La ricerca si concentra su inibitori MMP, modulatori infiammazione, terapie biologiche (phase II trials in corso).</p>
+<h3 class="font-bold text-white mb-3">Farmaci e stile di vita durante i controlli</h3>
+<p class="text-slate-300 mb-3">Durante i controlli periodici, è importante fare cambiamenti nello stile di vita e prendere farmaci per rallentare la crescita dell'aneurisma e ridurre il rischio cardiovascolare generale:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Smettere di fumare:</strong> È la cosa più importante che puoi fare. Smettere di fumare riduce la velocità di crescita dell'aneurisma del 15-20% e il rischio di rottura del 20-30%. Chi continua a fumare ha una crescita dell'aneurisma di circa 0,4 millimetri all'anno in più rispetto a chi ha smesso. Il tuo medico può aiutarti con programmi per smettere di fumare (cerotti alla nicotina, farmaci come la vareniclina, consulenza).</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllare la pressione:</strong> L'obiettivo è mantenere la pressione sotto 140/90 mmHg. Se hai il diabete o problemi ai reni, l'obiettivo è ancora più basso (sotto 130/80 mmHg). I farmaci chiamati ACE-inibitori o sartani (ARB) sono preferiti perché potrebbero aiutare a proteggere le pareti dei vasi sanguigni. Evita che la pressione scenda troppo.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Statine (farmaci per il colesterolo):</strong> Tutti i pazienti con aneurisma dovrebbero prendere le statine per ridurre il rischio cardiovascolare generale (riducono eventi come infarti e ictus del 30-40%). L'effetto sulla crescita dell'aneurisma non è chiaro. L'obiettivo è portare il colesterolo LDL (quello "cattivo") sotto 70 mg/dL.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aspirina:</strong> L'aspirina (75-100 mg al giorno) è raccomandata se hai già altre malattie delle arterie (cuore o gambe). Se hai solo l'aneurisma senza altre malattie delle arterie, l'aspirina non è necessaria.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Beta-bloccanti:</strong> I beta-bloccanti NON rallentano la crescita dell'aneurisma (gli studi lo hanno dimostrato). Si usano solo se hai altri problemi cardiaci (come dopo un infarto o se hai scompenso cardiaco).</p>
+
+<p class="text-slate-300 mt-3"><strong class="text-white">Farmaci sperimentali:</strong> Attualmente non esistono farmaci specifici approvati per fermare o far regredire l'aneurisma. Farmaci come doxiciclina, anti-infiammatori e alcuni antibiotici (macrolidi) sono stati testati ma non hanno funzionato. La ricerca sta studiando nuovi farmaci che bloccano l'infiammazione e la degradazione dei tessuti (studi in fase II).</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Restrizioni attività fisica</h3>
-<p class="text-slate-300 mb-3">Raccomandazioni attività fisica in pazienti AAA in sorveglianza (evidenza limitata, consensus-based):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attività aerobica moderata:</strong> raccomandata (classe I). Walking, ciclismo, nuoto a intensità moderata (50-70% FCmax) sono sicure e benefiche per fitness cardiovascolare. Nessuna evidenza aumentato rischio rottura</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sollevamento pesi:</strong> evitare sforzi isometrici intensi (>50% 1RM) e manovra Valsalva prolungata in AAA >5 cm per teorico aumento picchi PA intra-aortici. Esercizi resistenza moderata (<50% 1RM, alto numero ripetizioni) probabilmente sicuri</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sport competitivi ad alta intensità:</strong> valutazione individualizzata. Assenza evidenza controindica sport in AAA piccoli (<4 cm). In AAA 4-5 cm considerare natura sport e tolleranza sforzo</p>
-<p class="text-slate-300"><strong class="text-white">●Viaggi aerei:</strong> nessuna controindicazione. La pressurizzazione cabina (equivalente 2400 m) non influenza emodinamica aortica. Raccomandare mobilizzazione periodica, idratazione per prevenzione TVP</p>
-<p class="text-slate-300 mt-3">L'attività fisica regolare migliora prognosi cardiovascolare globale (riduzione RR eventi MACE 20-30%). Il beneficio supera il rischio teorico in AAA <5 cm. Importante counseling individualizzato considerando diametro, comorbidità, fitness baseline.</p>
+<h3 class="font-bold text-white mb-3">Attività fisica: cosa puoi fare?</h3>
+<p class="text-slate-300 mb-3">Se hai un aneurisma in controllo, ecco cosa puoi fare e cosa è meglio evitare:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Attività aerobica moderata:</strong> È raccomandata! Camminare, andare in bicicletta, nuotare a intensità moderata (50-70% della tua frequenza cardiaca massima) sono attività sicure e fanno bene al tuo sistema cardiovascolare. Non ci sono prove che aumentino il rischio di rottura.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sollevare pesi:</strong> Se il tuo aneurisma è più grande di 5 cm, evita sollevamenti pesanti intensi (più del 50% del massimo che riesci a sollevare) e trattenere il respiro con sforzo (manovra di Valsalva). Questo potrebbe aumentare temporaneamente la pressione nell'aorta. Esercizi con pesi leggeri e molte ripetizioni sono probabilmente sicuri.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sport competitivi intensi:</strong> Va valutato caso per caso con il tuo medico. Se l'aneurisma è piccolo (meno di 4 cm), non ci sono prove che lo sport sia pericoloso. Se è tra 4 e 5 cm, il tuo medico considererà il tipo di sport e come il tuo corpo tollera lo sforzo.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Viaggi in aereo:</strong> Puoi viaggiare in aereo senza problemi. La pressurizzazione della cabina (equivalente a un'altitudine di 2400 metri) non influenza l'aorta. Durante voli lunghi, alzati e cammina periodicamente, bevi acqua e considera di usare calze elastiche per prevenire coaguli nelle gambe (trombosi venosa).</p>
+
+<p class="text-slate-300 mt-3">L'attività fisica regolare migliora la tua salute cardiovascolare generale e riduce il rischio di infarti e ictus del 20-30%. Se l'aneurisma è piccolo (meno di 5 cm), i benefici dell'esercizio superano i rischi teorici. Il tuo medico ti darà consigli personalizzati in base alle dimensioni dell'aneurisma, ad altri problemi di salute che potresti avere e alla tua forma fisica.</p>
 </div>
 </section>
 
@@ -219,26 +283,37 @@ date: "2025-09-21"
             Quando serve l'intervento?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'indicazione al trattamento elettivo si basa sul bilanciamento tra rischio di rottura (dipendente da diametro, morfologia, crescita) e rischio perioperatorio (dipendente da età, comorbidità, anatomia). Le soglie dimensionali derivano da RCT che confrontano chirurgia elettiva vs sorveglianza.
+La decisione di operare si basa sul bilanciamento tra il rischio che l'aneurisma si rompa (che dipende dalle dimensioni, dalla forma e dalla velocità di crescita) e il rischio dell'operazione stessa (che dipende dalla tua età, da altri problemi di salute che potresti avere e dall'anatomia dell'aneurisma). Le soglie di dimensione per l'intervento derivano da grandi studi che hanno confrontato l'intervento preventivo con il semplice controllo nel tempo.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Indicazioni trattamento elettivo AAA</h3>
-<p class="text-slate-300 mb-3">Raccomandazioni linee guida ESC/SVS/ESVS 2024 per riparazione elettiva AAA infrarenale:</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Diametro ≥5.5 cm in uomini:</strong> classe I, evidenza A. Rischio rottura annuale 10-20%. Mortalità operatoria EVAR 1-2%, chirurgia aperta 3-5%. Benefit assoluto trattamento vs sorveglianza a 5 anni: riduzione mortalità AAA-specifica 5-7%</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Diametro ≥5.0 cm in donne:</strong> classe I, evidenza B. Parete aortica più sottile, rottura a diametri inferiori vs uomini. Rischio rottura 5-10%/anno per AAA 5.0-5.4 cm in donne vs 1-3% uomini</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Crescita rapida >10 mm in 12 mesi o >5 mm in 6 mesi:</strong> classe IIa, evidenza C. Indica instabilità parete e rischio aumentato rottura indipendentemente da diametro assoluto. Considerare imaging con CTA per escludere fissurazione contenuta</p>
-<p class="text-slate-300"><strong class="text-white">●AAA sintomatico (dolore addominale/lombare persistente attribuibile):</strong> classe I, evidenza C. Alto rischio rottura imminente. Richiede imaging urgente e trattamento prioritario entro 2-4 settimane</p>
-<p class="text-slate-300 mt-3">In AAA 5.0-5.4 cm uomini (zona grigia) decisione individualizzata considerando: aspettativa vita (trattare se >2 anni), fitness chirurgico (basso rischio favorisce chirurgia), anatomia favorevole EVAR, preferenze paziente informato. Trial PIVOTAL (in corso) confronta EVAR precoce vs sorveglianza in questa popolazione.</p>
+<h3 class="font-bold text-white mb-3">Quando è raccomandato l'intervento?</h3>
+<p class="text-slate-300 mb-3">Le linee guida internazionali 2024 raccomandano l'intervento preventivo per:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma di 5,5 cm o più negli uomini:</strong> Questa è la raccomandazione più forte. A queste dimensioni, il rischio di rottura è di 10-20 persone su 100 all'anno. Il rischio dell'intervento endovascolare è di 1-2 persone su 100, quello della chirurgia tradizionale è di 3-5 persone su 100. Operare riduce il rischio di morte per aneurisma del 5-7% a 5 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma di 5 cm o più nelle donne:</strong> Nelle donne la parete dell'aorta è più sottile e l'aneurisma può rompersi a dimensioni più piccole rispetto agli uomini. Il rischio di rottura per aneurismi di 5-5,4 cm nelle donne è di 5-10 persone su 100 all'anno, contro 1-3 negli uomini.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Crescita rapida (più di 10 millimetri in un anno o più di 5 millimetri in 6 mesi):</strong> Anche se l'aneurisma non ha ancora raggiunto 5,5 cm, una crescita rapida indica che la parete è instabile e il rischio di rottura è aumentato. In questo caso potrebbe essere necessaria una TAC urgente per escludere una rottura parziale.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Aneurisma che dà sintomi (dolore continuo all'addome o alla schiena):</strong> Se hai un aneurisma noto e compare dolore persistente, c'è un alto rischio di rottura imminente. Serve una TAC urgente e l'intervento va fatto entro 2-4 settimane.</p>
+
+<p class="text-slate-300 mt-3"><strong class="text-white">Zona grigia (5,0-5,4 cm negli uomini):</strong> In questa fascia di dimensioni, la decisione va presa caso per caso insieme al tuo medico, considerando: quanti anni potresti ancora vivere (se più di 2 anni, conviene operare), se sei in buone condizioni generali per l'intervento, se l'anatomia è favorevole per l'intervento endovascolare, e le tue preferenze dopo aver ricevuto tutte le informazioni.</p>
 </div>
 <div class="highlight-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Storia naturale e rischio rottura</h3>
-<p class="text-slate-300 mb-3">Il rischio di rottura AAA aumenta esponenzialmente con il diametro massimo. Dati da studi osservazionali e RCT (UKSAT, ADAM, CAESAR):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA <4.0 cm:</strong> rischio rottura <0.5%/anno. Crescita media 1-2 mm/anno. Sorveglianza sicura, mortalità rottura eccezionale</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 4.0-4.9 cm:</strong> rischio rottura 1-2%/anno. Crescita media 2-3 mm/anno. RCT dimostrano nessun beneficio trattamento precoce vs sorveglianza (mortalità sovrapponibile a 5-8 anni)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 5.0-5.4 cm:</strong> rischio rottura 3-5%/anno (uomini), 5-10%/anno (donne). Zona grigia, bilanciamento rischio rottura vs rischio operatorio</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●AAA 5.5-5.9 cm:</strong> rischio rottura 10-15%/anno. Indicazione chirurgia elettiva consolidata. Mortalità rottura 80-90% vs mortalità elettiva 1-5%</p>
-<p class="text-slate-300"><strong class="text-white">●AAA ≥6.0 cm:</strong> rischio rottura 15-25%/anno. Priorità alta per trattamento. Considerare anatomia complessa e rischio operatorio aumentato in aneurismi giganti (>8 cm)</p>
-<p class="text-slate-300 mt-3">Fattori aggiuntivi associati ad aumentato rischio rottura indipendentemente dal diametro: sesso femminile (RR 3-4), fumo attivo (RR 2-3), ipertensione non controllata (RR 1.5-2), BPCO (RR 1.5), forma sacculare vs fusiforme, parete posteriore >anteriore, presenza trombo murale eccentrico. Il diametro rimane il predittore più robusto e riproducibile per stratificazione rischio.</p>
+<h3 class="font-bold text-white mb-3">Rischio di rottura in base alle dimensioni</h3>
+<p class="text-slate-300 mb-3">Il rischio di rottura aumenta molto man mano che l'aneurisma diventa più grande. Ecco i dati dai principali studi internazionali:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma piccolo (meno di 4 cm):</strong> Rischio di rottura molto basso (meno di 1 persona su 200 all'anno). Cresce in media 1-2 millimetri all'anno. Il controllo periodico è sicuro, le rotture sono eccezionali.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma medio (4,0-4,9 cm):</strong> Rischio di rottura di 1-2 persone su 100 all'anno. Cresce in media 2-3 millimetri all'anno. Gli studi dimostrano che operare subito o controllare nel tempo porta agli stessi risultati di sopravvivenza a 5-8 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma grande (5,0-5,4 cm):</strong> Rischio di rottura di 3-5 persone su 100 all'anno negli uomini, 5-10 nelle donne. È la "zona grigia" dove bisogna bilanciare il rischio di rottura con il rischio dell'operazione.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aneurisma molto grande (5,5-5,9 cm):</strong> Rischio di rottura di 10-15 persone su 100 all'anno. L'intervento preventivo è fortemente raccomandato. Se l'aneurisma si rompe, la mortalità è dell'80-90%. Con l'intervento preventivo, la mortalità è solo dell'1-5%.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Aneurisma gigante (6 cm o più):</strong> Rischio di rottura di 15-25 persone su 100 all'anno. L'intervento è prioritario. Gli aneurismi molto grandi (più di 8 cm) possono avere un'anatomia più complessa e un rischio operatorio leggermente più alto.</p>
+
+<p class="text-slate-300 mt-3"><strong class="text-white">Altri fattori che aumentano il rischio di rottura:</strong> essere donna (rischio 3-4 volte più alto), fumare (rischio 2-3 volte più alto), pressione alta non controllata (rischio 1,5-2 volte più alto), BPCO (rischio 1,5 volte più alto), forma a sacco invece che fusiforme, parete posteriore più grande di quella anteriore, presenza di coaguli di sangue non centrati dentro l'aneurisma. Tuttavia, le dimensioni rimangono il fattore più importante e affidabile per prevedere il rischio.</p>
 </div>
 </section>
 
