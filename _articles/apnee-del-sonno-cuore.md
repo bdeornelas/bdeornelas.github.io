@@ -64,13 +64,13 @@ date: "2025-10-13"
             Cosa sono le apnee notturne?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Le apnee notturne sono interruzioni ripetute della respirazione durante il sonno, causate dal collasso delle vie aeree superiori. Il rilassamento eccessivo dei muscoli faringei determina l'ostruzione parziale o completa del flusso d'aria per almeno 10 secondi, con conseguente riduzione della saturazione di ossigeno nel sangue.
+            Le apnee notturne sono interruzioni ripetute del respiro mentre dormi. Succedono quando le vie respiratorie (gola e faringe) si chiudono troppo durante il sonno. I muscoli della gola si rilassano troppo e bloccano il passaggio dell'aria per almeno 10 secondi. Questo fa diminuire l'ossigeno nel sangue.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La frequenza delle apnee può variare da 5-15 eventi per ora (forma lieve) fino a oltre 30 eventi per ora (forma grave). Ogni episodio provoca un microrisveglio cerebrale necessario per ripristinare la respirazione, frammentando il sonno e impedendo il recupero fisiologico.
+            Normalmente, respiri regolarmente tutta la notte. Con le apnee notturne, il tuo respiro si ferma e riparte molte volte. Ogni volta che il respiro si ferma, il cervello ti fa svegliare per un attimo (anche se non te ne accorgi) per farti riprendere a respirare. Questo interrompe il sonno e non ti permette di riposare bene.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'apnea ostruttiva del sonno (OSA) colpisce circa il 24% degli adulti, con prevalenza maggiore negli uomini (34%) rispetto alle donne (17%). Il rischio aumenta significativamente dopo i 40 anni, in presenza di obesità, e nelle donne dopo la menopausa. Esistono anche fattori anatomici predisponenti indipendenti dal peso corporeo.
+            La frequenza delle apnee può essere lieve (da 5 a 15 interruzioni ogni ora), moderata (da 15 a 30 ogni ora) o grave (più di 30 ogni ora). Circa 24 persone su 100 hanno apnee notturne. È più comune negli uomini (34 su 100) che nelle donne (17 su 100). Il rischio aumenta molto dopo i 40 anni, se sei sovrappeso, e nelle donne dopo la menopausa.
 </p>
 </section>
 
@@ -81,38 +81,38 @@ date: "2025-10-13"
             Quali sono i sintomi da riconoscere?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            I sintomi dell'apnea ostruttiva del sonno si dividono in notturni e diurni. La sintomatologia è spesso aspecifica e può determinare un ritardo diagnostico significativo.
+            I sintomi delle apnee notturne si dividono in due categorie: quelli che succedono di notte mentre dormi e quelli che senti durante il giorno. Spesso i sintomi non sono chiari e molte persone non si accorgono di avere il problema per anni.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Sintomi notturni</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Russamento intenso e irregolare:</strong> russamento rumoroso interrotto da pause respiratorie seguite da rantoli o gasping al ripristino della ventilazione</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Apnee osservate:</strong> episodi di arresto respiratorio della durata di almeno 10 secondi riportati dal partner</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risvegli con dispnea:</strong> risvegli improvvisi con sensazione di soffocamento o tachicardia</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sudorazione notturna:</strong> iperidrosi senza cause febbrili o ambientali</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Nicturia:</strong> necessità di urinare multiple volte durante la notte con frammentazione del sonno</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Russare forte e irregolare:</strong> russi molto forte e il russamento si interrompe con pause, poi riprendi a respirare con un suono tipo rantolo o boccheggiamento (come se ti mancasse l'aria)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pause nel respiro osservate da altri:</strong> il tuo partner o chi dorme con te nota che smetti di respirare per almeno 10 secondi mentre dormi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risvegli improvvisi con sensazione di soffocare:</strong> ti svegli all'improvviso con la sensazione di non riuscire a respirare o con il cuore che batte veloce</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sudorazione notturna:</strong> sudi molto durante la notte anche se non fa caldo e non hai febbre</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Bisogno di urinare spesso di notte:</strong> devi alzarti più volte durante la notte per andare in bagno, interrompendo il sonno</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Sintomi diurni</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Astenia:</strong> affaticamento persistente non ristorato dal sonno notturno</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Eccessiva sonnolenza diurna (ESD):</strong> difficoltà a mantenere la vigilanza durante attività passive o guida, con episodi di addormentamento involontario</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cefalea mattutina:</strong> mal di testa al risveglio che si risolve spontaneamente nel corso della mattinata</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Deficit cognitivi:</strong> riduzione della capacità di concentrazione, disturbi della memoria a breve termine e rallentamento delle performance cognitive</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Alterazioni dell'umore:</strong> irritabilità, labilità emotiva, sintomi depressivi</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Disfunzione sessuale:</strong> riduzione della libido e disfunzione erettile nell'uomo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stanchezza continua:</strong> ti senti sempre stanco durante il giorno, anche se hai dormito tutta la notte. Il sonno non ti fa riposare</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sonnolenza durante il giorno:</strong> fai fatica a stare sveglio quando guardi la TV, leggi, o fai attività tranquille. Puoi anche addormentarti mentre guidi (questo è molto pericoloso)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mal di testa al mattino:</strong> ti svegli con mal di testa che passa da solo durante la mattinata</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Difficoltà a concentrarsi e ricordare:</strong> fai fatica a concentrarti, dimentichi le cose facilmente, e pensi più lentamente del normale</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cambiamenti di umore:</strong> sei più irritabile, nervoso, o triste del solito</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Problemi sessuali:</strong> hai meno desiderio sessuale o, negli uomini, difficoltà di erezione</p>
 </div>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
-              Indicazioni alla valutazione urgente
+              Quando consultare il medico velocemente
 </h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              La presenza di uno o più dei seguenti segni richiede valutazione medica tempestiva:
+              Devi parlare con il tuo medico il prima possibile se hai uno o più di questi segnali:
 </p>
-<p class="text-slate-300 mb-3">●Sonnolenza diurna severa con rischio per la sicurezza stradale o lavorativa</p>
-<p class="text-slate-300 mb-3">●Ipertensione arteriosa resistente alla terapia farmacologica</p>
-<p class="text-slate-300 mb-3">●Aritmie cardiache o palpitazioni ricorrenti</p>
-<p class="text-slate-300 mb-3">●Edemi declivi o dispnea a riposo suggestivi di scompenso cardiaco</p>
-<p class="text-slate-300 mb-6">●Apnee osservate associate a cianosi periorale o facciale</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sonnolenza grave durante il giorno:</strong> se ti addormenti mentre guidi o al lavoro, mettendo a rischio la tua sicurezza o quella degli altri</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta difficile da controllare:</strong> la tua pressione arteriosa resta alta anche se prendi già farmaci</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Battito cardiaco irregolare:</strong> senti spesso il cuore che batte in modo strano (aritmie) o palpitazioni frequenti</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Gonfiore alle gambe o difficoltà a respirare a riposo:</strong> questi possono essere segnali di scompenso cardiaco (il cuore che non pompa bene)</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Pause nel respiro con labbra o faccia che diventano bluastre:</strong> se chi dorme con te nota che diventi bluastro quando smetti di respirare</p>
 </div>
 </section>
 
@@ -123,29 +123,29 @@ date: "2025-10-13"
             Perché le apnee sono pericolose per il cuore?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'apnea ostruttiva del sonno determina conseguenze cardiovascolari attraverso meccanismi fisiopatologici complessi e interconnessi. La ripetizione ciclica di questi eventi durante la notte produce un danno progressivo sul sistema cardiovascolare.
+            Le apnee notturne danneggiano il cuore e i vasi sanguigni in diversi modi. Ogni volta che smetti di respirare durante la notte, il tuo corpo subisce uno stress che si ripete decine di volte ogni ora. Nel tempo, questo stress continuo danneggia il sistema cardiovascolare (cuore e vasi sanguigni).
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Fisiopatologia dell'evento apnoico</h3>
+<h3 class="font-bold text-white mb-3">Cosa succede ogni volta che smetti di respirare</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              Durante ogni episodio apnoico si verificano le seguenti alterazioni:
+              Durante ogni apnea (pausa nel respiro), il tuo corpo reagisce in questo modo:
 </p>
-<p class="text-slate-300 mb-3">●Ipossiemia: riduzione della saturazione arteriosa di ossigeno (SpO2) con desaturazioni che possono raggiungere valori critici</p>
-<p class="text-slate-300 mb-3">●Attivazione simpatica: risposta compensatoria del sistema nervoso autonomo con rilascio di catecolamine</p>
-<p class="text-slate-300 mb-3">●Variazioni emodinamiche acute: incremento della pressione arteriosa sistemica e polmonare con aumento della frequenza cardiaca</p>
-<p class="text-slate-300 mb-3">●Arousal cerebrale: microrisveglio necessario per ripristinare il tono muscolare faringeo e la pervietà delle vie aeree</p>
-<p class="text-slate-300 mb-6">●Ripetizione ciclica: il pattern si ripete con frequenza variabile da 5 a oltre 30 volte per ora di sonno</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ossigeno nel sangue diminuisce:</strong> quando smetti di respirare, l'ossigeno nel sangue scende. In alcuni casi può arrivare a livelli molto bassi e pericolosi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Il corpo va in allarme:</strong> il sistema nervoso rilascia ormoni dello stress (chiamati catecolamine) per cercare di proteggere il corpo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●La pressione e il battito cardiaco aumentano:</strong> la pressione del sangue sale rapidamente e il cuore batte più veloce</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ti svegli per un attimo:</strong> il cervello ti fa svegliare brevemente (anche se non te ne accorgi) per farti riprendere a respirare e riaprire le vie aeree</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Si ripete molte volte:</strong> questo ciclo si ripete da 5 a più di 30 volte ogni ora, tutta la notte</p>
 </div>
 <p class="text-slate-300 leading-relaxed mb-6">
-<strong class="text-white">Complicanze cardiovascolari:</strong>
+<strong class="text-white">Problemi al cuore causati dalle apnee notturne:</strong>
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ipertensione arteriosa:</strong> l'OSA è causa di ipertensione resistente nel 50-80% dei casi. L'attivazione simpatica ripetuta determina ipertensione diurna difficilmente controllabile con la sola terapia farmacologica</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cardiopatia strutturale:</strong> l'aumento cronico del postcarico ventricolare sinistro induce ipertrofia miocardica e può evolvere verso la disfunzione sistolica</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aritmie:</strong> aumentato rischio di fibrillazione atriale (rischio relativo 2-4x), bradicardia notturna, e altri disturbi del ritmo. La fibrillazione atriale incrementa il rischio tromboembolico</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aterosclerosi accelerata:</strong> lo stress ossidativo e l'infiammazione sistemica cronica favoriscono la progressione del processo aterosclerotico</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Eventi cardiovascolari maggiori:</strong> l'OSA non trattata aumenta significativamente il rischio di infarto miocardico, ictus e morte cardiovascolare</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta (ipertensione):</strong> le apnee notturne sono la causa di pressione alta difficile da controllare in circa 50-80 persone su 100. Lo stress ripetuto durante la notte fa aumentare la pressione anche durante il giorno, e spesso i farmaci da soli non bastano a tenerla sotto controllo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Il cuore si ingrossa e indebolisce:</strong> la pressione alta ripetuta ogni notte fa lavorare troppo il cuore. Nel tempo, il muscolo del cuore si ispessisce (ipertrofia) e può indebolirsi, pompando meno bene il sangue</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Battito cardiaco irregolare (aritmie):</strong> il rischio di fibrillazione atriale (un tipo di aritmia) è 2-4 volte più alto se hai le apnee notturne. Puoi anche avere il cuore che batte troppo lento di notte o altri disturbi del ritmo. La fibrillazione atriale aumenta il rischio di formazione di coaguli di sangue</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie che si ostruiscono più velocemente (aterosclerosi):</strong> lo stress e l'infiammazione causati dalle apnee fanno sì che le placche nelle arterie (depositi di grasso e colesterolo) crescano più velocemente</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Infarto e ictus:</strong> se le apnee non vengono curate, il rischio di infarto, ictus e morte per problemi cardiovascolari aumenta molto</p>
 <p class="text-slate-300 mb-6">
-              Il trattamento dell'OSA riduce la pressione arteriosa media di 2-10 mmHg, migliora la funzione ventricolare sinistra e riduce il rischio di eventi cardiovascolari secondo studi prospettici randomizzati.
+              La buona notizia è che curare le apnee notturne riduce la pressione arteriosa di 2-10 mmHg, migliora il funzionamento del cuore e riduce il rischio di infarto e ictus. Questo è stato dimostrato da molti studi scientifici.
 </p>
 </section>
 
@@ -156,25 +156,25 @@ date: "2025-10-13"
             Chi è più a rischio?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Numerosi fattori di rischio sono associati all'insorgenza di apnea ostruttiva del sonno. La loro identificazione permette lo screening dei soggetti a rischio e indirizza la valutazione diagnostica.
+            Alcune caratteristiche aumentano il rischio di avere apnee notturne. Conoscere questi fattori di rischio aiuta a capire se sei a rischio e se devi fare controlli specifici.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Fattori di rischio principali</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Obesità:</strong> il BMI ≥30 kg/m² è il principale fattore di rischio modificabile. L'adiposità a livello del collo (circonferenza >43 cm negli uomini, >41 cm nelle donne) comprime le vie aeree superiori. La perdita del 10% del peso corporeo riduce l'AHI del 26%</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sesso maschile ed età:</strong> prevalenza 2-3 volte maggiore negli uomini prima della menopausa. Nelle donne il rischio aumenta significativamente dopo la menopausa. Il picco di incidenza si osserva tra 40-60 anni</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Anomalie craniofacciali:</strong> retrognatia, micrognazia, macroglossia, ipertrofia tonsillare, palato molle ridondante riducono il calibro delle vie aeree superiori</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ostruzione nasale cronica:</strong> deviazione del setto, poliposi, rinite allergica determinano aumento delle resistenze al flusso aereo</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Familiarità:</strong> rischio 2-4 volte superiore nei familiari di primo grado per componenti genetiche del controllo respiratorio e caratteristiche anatomiche</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sovrappeso e obesità:</strong> questo è il fattore di rischio più importante che puoi modificare. Se hai un BMI (indice di massa corporea) di 30 o più, il rischio è molto più alto. Anche il grasso intorno al collo (circonferenza del collo più di 43 cm negli uomini o più di 41 cm nelle donne) può comprimere le vie respiratorie. La buona notizia: perdere anche solo il 10% del tuo peso riduce la gravità delle apnee del 26%</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Essere uomo ed età:</strong> gli uomini hanno un rischio 2-3 volte più alto delle donne prima della menopausa. Dopo la menopausa, il rischio nelle donne aumenta molto. Il rischio è più alto tra i 40 e i 60 anni</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Conformazione del viso e della gola:</strong> alcune caratteristiche anatomiche (mandibola piccola o arretrata, lingua grande, tonsille grosse, palato molle abbondante) riducono lo spazio per il passaggio dell'aria nella gola</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Naso chiuso cronico:</strong> se hai il setto nasale deviato, polipi nel naso, o rinite allergica, l'aria fa più fatica a passare e il rischio di apnee aumenta</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Familiarità:</strong> se un tuo familiare stretto (genitori, fratelli, sorelle) ha apnee notturne, il tuo rischio è 2-4 volte più alto. Questo dipende in parte dalla genetica (controllo del respiro) e in parte da caratteristiche anatomiche ereditate</p>
 </div>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="wine" class="w-5 h-5 text-orange-400"></i>
-              Fattori aggravanti modificabili
+              Cose che puoi cambiare per migliorare
 </h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Consumo di alcol:</strong> l'assunzione alcolica nelle 4-6 ore precedenti il sonno riduce il tono muscolare faringeo aumentando la collassabilità delle vie aeree e prolungando la durata delle apnee</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo di tabacco:</strong> induce edema e infiammazione delle mucose delle vie aeree superiori con incremento delle resistenze al flusso. I fumatori hanno rischio 2-3 volte superiore</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci depressori del SNC:</strong> benzodiazepine, ipnotici non benzodiazepinici, oppioidi riducono il drive respiratorio e la risposta agli arousal peggiorando l'OSA</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Posizione supina:</strong> favorisce il collasso posteriore della lingua per gravità. L'OSA posizionale (AHI supino ≥2 volte AHI laterale) rappresenta il 25-30% dei casi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Bere alcolici prima di dormire:</strong> se bevi alcol nelle 4-6 ore prima di andare a letto, i muscoli della gola si rilassano troppo. Questo fa chiudere più facilmente le vie respiratorie e le apnee durano più a lungo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fumare:</strong> il fumo fa gonfiare e infiammare le mucose della gola, rendendo più difficile il passaggio dell'aria. I fumatori hanno un rischio 2-3 volte più alto di avere apnee notturne</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Alcuni farmaci:</strong> benzodiazepine (farmaci per l'ansia e per dormire), sonniferi, e oppioidi (antidolorifici forti) possono peggiorare le apnee perché rallentano il respiro e rendono più difficile svegliarsi quando smetti di respirare</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dormire sulla schiena:</strong> quando dormi sulla schiena (a pancia in su), la lingua cade all'indietro per gravità e può bloccare la gola. Circa 25-30 persone su 100 con apnee hanno il problema principalmente in questa posizione (apnee posizionali)</p>
 </div>
 </section>
 
@@ -185,17 +185,17 @@ date: "2025-10-13"
             Come si diagnosticano le apnee notturne?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La diagnosi di OSA si basa su valutazione clinica e studio strumentale del sonno (polisonnografia o monitoraggio cardiorespiratorio). L'iter diagnostico prevede screening, conferma obiettiva con registrazione notturna e stratificazione della gravità.
+            Per sapere se hai le apnee notturne, il medico valuterà i tuoi sintomi e poi ti farà fare un esame che registra cosa succede mentre dormi (polisonnografia o monitoraggio del sonno). L'esame misura quante volte smetti di respirare durante la notte e quanto sono gravi le apnee.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Algoritmo diagnostico</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Valutazione clinica:</strong> anamnesi mirata ai sintomi notturni e diurni, esame obiettivo con valutazione delle vie aeree superiori, BMI, circonferenza del collo. Questionari validati (Epworth Sleepiness Scale, STOP-BANG)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Polisonnografia (PSG):</strong> gold standard diagnostico. Registrazione in laboratorio di EEG, EOG, EMG, flusso aereo nasale/orale, movimenti toraco-addominali, SpO2, ECG, posizione corporea. Permette il calcolo dell'indice di apnea-ipopnea (AHI) e la stadiazione del sonno. <em>Monitoraggio domiciliare:</em> poligrafia respiratoria semplificata (tipo 3-4) utilizzabile in pazienti selezionati con alta probabilità pre-test</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Valutazione cardiovascolare:</strong> ecocardiogramma transtoracico per escludere disfunzione ventricolare sinistra e valutare pressione arteriosa polmonare. ECG Holter 24h per aritmie. Monitoraggio pressorio 24h (ABPM) per ipertensione</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Valutazione ORL:</strong> fibroscopia delle vie aeree superiori per identificare siti di ostruzione anatomica potenzialmente correggibili chirurgicamente (ipertrofia tonsillare, deviazione settale severa)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Visita medica:</strong> il medico ti chiederà dei sintomi notturni (russamento, pause nel respiro) e diurni (stanchezza, sonnolenza). Ti misurerà il peso, l'altezza (per calcolare il BMI), e la circonferenza del collo. Potrebbe farti compilare questionari sui sintomi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Polisonnografia:</strong> questo è l'esame principale per diagnosticare le apnee notturne. Può essere fatto in ospedale o a casa. L'esame registra durante la notte: le onde cerebrali (per vedere le fasi del sonno), i movimenti degli occhi, l'attività muscolare, il flusso d'aria dal naso e dalla bocca, i movimenti del torace e dell'addome mentre respiri, l'ossigeno nel sangue, il battito cardiaco, e la posizione in cui dormi. L'esame calcola quante volte all'ora smetti di respirare (chiamato AHI - indice di apnea-ipopnea). Se è possibile farlo a casa, usi apparecchi più semplici ma ugualmente efficaci</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controlli del cuore:</strong> il medico può prescrivere un ecocardiogramma (ecografia del cuore) per vedere se il cuore funziona bene e se la pressione nei polmoni è alta. Può anche farti fare un ECG Holter (registrazione del battito cardiaco per 24 ore) per vedere se hai aritmie, e un monitoraggio della pressione arteriosa per 24 ore</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Visita otorinolaringoiatrica:</strong> lo specialista delle orecchie, naso e gola può guardare dentro la tua gola con una piccola telecamera (fibroscopia) per vedere se ci sono problemi anatomici che si possono correggere con un intervento (tonsille molto grosse, setto nasale molto deviato)</p>
 </div>
 <p class="text-slate-300 leading-relaxed">
-            La gravità dell'OSA si classifica in base all'AHI: lieve (5-14 eventi/ora), moderata (15-29 eventi/ora), grave (≥30 eventi/ora). La decisione terapeutica considera AHI, sintomatologia, comorbidità cardiovascolari e preferenze del paziente.
+            La gravità delle apnee notturne si classifica in base a quante volte all'ora smetti di respirare (AHI): lieve (da 5 a 14 volte all'ora), moderata (da 15 a 29 volte all'ora), grave (30 o più volte all'ora). La scelta della cura dipende dalla gravità, dai sintomi che hai, se hai problemi al cuore, e da cosa preferisci tu.
 </p>
 </section>
 
