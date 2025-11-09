@@ -420,73 +420,121 @@ Qual è il trattamento farmacologico dell'angina pectoris?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="cpu" class="w-6 h-6 text-rose-400"></i>
-<span class="text-white">Quando sono indicati angioplastica e bypass?</span>
+Quali sono le indicazioni e modalità rivascolarizzazione miocardica (PCI vs CABG)?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      Quando i farmaci non bastano a controllare i sintomi, o quando le arterie sono molto malate in zone critiche del cuore, può essere necessario "riaprire" o bypassare i restringimenti con un intervento: l'angioplastica (che usa un palloncino e uno stent) o il bypass chirurgico.
+      Rivascolarizzazione miocardica (percutanea PCI o chirurgica CABG) indicata in angina pectoris per: (1) <strong class="text-white">Indicazione sintomatica</strong> - angina CCS III-IV refrattaria terapia medica ottimale (OMT) nonostante beta-bloccanti + CCB/nitrati a dose massima tollerata, limitazione significativa qualità vita, (2) <strong class="text-white">Indicazione prognostica</strong> - anatomia coronarica alto rischio (stenosi tronco comune >50%, malattia trivasale specie LVEF <50%, malattia bivasale con stenosi prossimale LAD >70%), ischemia estesa test provocativi (>10% massa VS). Scelta modalità (PCI vs CABG) basata su: estensione/complessità malattia coronarica (SYNTAX score), LVEF, comorbidità, diabete mellito, preferenze paziente informato.
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angioplastica con stent</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        È una procedura eseguita senza aprire il petto. Il cardiologo "entra" nell'arteria del polso (o dell'inguine), fa arrivare dei tubicini sottili fino alle arterie del cuore, gonfia un palloncino nel punto ristretto per allargarlo, e poi impianta una "molla" metallica (stent) per tenere aperta l'arteria:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Si entra di solito dall'arteria del polso (preferito perché più comodo e sicuro) o dall'inguine</li>
-<li>Il palloncino schiaccia il restringimento contro le pareti dell'arteria</li>
-<li>Lo stent (una retina metallica) rimane lì permanentemente a tenere aperta l'arteria. Gli stent moderni rilasciano lentamente dei farmaci che riducono il rischio che l'arteria si richiuda</li>
-<li>La procedura dura circa 30-60 minuti, si fa in anestesia locale, e di solito si viene dimessi il giorno dopo</li>
-</ul>
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Quando si fa:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Angina che non passa con i farmaci, e i restringimenti sono in posizioni trattabili (1-2 arterie, restringimenti non troppo estesi)</li>
-<li>Test che mostrano che una parte grande del cuore (più del 10%) non riceve abbastanza sangue</li>
-<li>Restringimento importante nell'arteria principale (tronco comune), se non si può fare il bypass</li>
-</ul>
-<p class="text-slate-300">
-        Dopo l'angioplastica è fondamentale prendere l'aspirina per sempre, e un secondo farmaco antiaggregante per almeno 6-12 mesi.
-</p>
+<h3 class="text-xl font-bold mb-4 text-white">PCI (Percutaneous Coronary Intervention) - Angioplastica coronarica con stent</h3>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Tecnica procedurale PCI moderna</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Accesso vascolare:</strong> radiale (transradial, preferito 70-80% procedure contemporanee, complicanze vascolari 0.3-0.5%, mortalità ridotta 30-40% vs femorale trial MATRIX/RIVAL) o femorale (6-7 Fr sheath standard). Sedazione cosciente + anestesia locale. Anticoagulazione procedurale: eparina non frazionata 70-100 UI/kg (target ACT 250-350 sec) o bivalirudina (inibitore diretto trombina, riduce sanguinamenti vs eparina trial HORIZONS-AMI).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Sequenza interventistica standard:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">1. Cateterizzazione selettiva ostio coronarico (guiding catheter 6-7 Fr)</p>
+<p class="text-slate-300 ml-6 mb-3">2. Avanzamento guidewire 0.014" distalmente a stenosi (attraversamento lesione)</p>
+<p class="text-slate-300 ml-6 mb-3">3. Predilatazione balloon (2.0-4.0 mm diametro, 8-20 atm, 10-30 sec) se stenosi serrata >90% o calcifica (facilitate stent advancement/expansion)</p>
+<p class="text-slate-300 ml-6 mb-3">4. Impianto stent drug-eluting (DES): posizionamento, espansione alta pressione 12-20 atm, verificazione apposizione ottimale (IVUS/OCT guidance in anatomie complesse: biforcazioni, tronco comune, ostiali)</p>
+<p class="text-slate-300 ml-6 mb-3">5. Post-dilatazione balloon non-compliant (NC balloon) alta pressione (18-24 atm) per ottimizzare espansione stent (riduce malapposition, riduce trombosi stent 30-40%)</p>
+<p class="text-slate-300 ml-6 mb-3">6. Controllo angiografico finale: TIMI flow 3 (flusso normale), assenza dissezioni residue, stenosi residua <10%</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Stent drug-eluting (DES - Drug-Eluting Stent, gold standard moderno):</strong> piattaforma metallica (cobalt-chromium, platinum-chromium) + polimero biocompatibile/biodegradabile + farmaco antiproliferativo (sirolimus, everolimus, zotarolimus -limus drugs) rilascio controllato 30-90 giorni → inibizione iperplasia neointimale (proliferazione cellule muscolari lisce reattiva injury vascolare meccanico). Generazioni evolutive:</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>DES 1ª generazione (2003-2007):</strong> sirolimus-eluting (Cypher), paclitaxel-eluting (Taxus). Riduzione restenosi 60-70% vs BMS (bare-metal stent), ma rischio trombosi tardiva/molto tardiva (>1 anno) 0.5-1%/anno (infiammazione cronica polimeri durabil, ritardo riendotelizzazione).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>DES 2ª-3ª generazione (2008-oggi):</strong> everolimus-eluting (Xience, Promus), zotarolimus-eluting (Resolute), polimeri biocompatibili/biodegradabili, struts sottili (60-80 μm vs 130-140 μm 1ª gen). Performance superiore: restenosi <5% a 1 anno, trombosi <0.5%/anno (equivalente BMS long-term). Trial SPIRIT, RESOLUTE: sicurezza/efficacia superiore 1ª gen. <strong>DES moderni raccomandati universalmente vs BMS</strong> (ESC Class I), BMS riservato solo controindicazioni assolute DAPT (chirurgia maggiore imminente non differibile, alto rischio sanguinamento non gestibile).</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Durata procedura, ricovero, recupero:</strong> procedura elettiva 30-60 min (anatomy semplice) fino 90-180 min (complessy multivasale, biforcazioni, CTO). Osservazione post-PCI 6-24h (monitoraggio complicanze accesso, angina recidiva). Dimissione POD 1 (post-operative day 1) se procedura uncomplicated. Ripresa attività leggere 24-48h, normale attività fisica 5-7 giorni. Guida automobilistica 48h-7 giorni secondo locale regulations.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Bypass coronarico (chirurgia)</h3>
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        È un intervento chirurgico "a petto aperto" in cui il cardiochirurgo crea delle "scorciatoie" (bypass) usando vasi sanguigni presi da altre parti del vostro corpo (di solito una vena della gamba o un'arteria del petto) per portare sangue al cuore "saltando" i restringimenti:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Tradizionalmente si fa fermando temporaneamente il cuore e usando una macchina che fa circolare il sangue al posto del cuore</li>
-<li>In alcuni centri si può fare anche a cuore battente</li>
-<li>La degenza in ospedale è di 5-7 giorni, il recupero completo richiede 6-12 settimane</li>
-</ul>
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Quando si preferisce il bypass:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Arteria principale molto ristretta:</strong> Quando l'arteria "tronco" che divide il sangue per gran parte del cuore ha un restringimento importante, il bypass spesso dà risultati migliori dell'angioplastica</li>
-<li><strong class="text-white">Malattia di tutte e tre le arterie principali:</strong> Specialmente se il cuore pompa meno bene del normale o se avete il diabete</li>
-<li><strong class="text-white">Malattia di due arterie principali</strong> che coinvolge la parte iniziale dell'arteria discendente anteriore (quella più importante)</li>
-<li><strong class="text-white">Situazione complessa:</strong> Molti restringimenti, lunghi, calcificati, in punti di biforcazione</li>
-<li><strong class="text-white">Diabete con malattia diffusa:</strong> Nelle persone diabetiche con malattia in più arterie, il bypass dà risultati migliori dell'angioplastica in termini di sopravvivenza e necessità di ripetere interventi</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Indicazioni PCI angina stabile (ESC 2018 Guidelines)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (fortemente raccomandato, evidenza robusta):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Angina CCS III-IV refrattaria OMT (beta-bloccanti, CCB, nitrati a dose massima tollerata), stenosi ≥70% diametro arteria epicardica, evidenza ischemia obiettiva test provocativi.</p>
+<p class="text-slate-300 ml-6 mb-3">- Ischemia estesa (>10% massa VS) test imaging (SPECT SDS >8, PET, CMR), indipendentemente sintomi (indicazione prognostica).</p>
+<p class="text-slate-300 ml-6 mb-3">- Stenosi tronco comune non protetto ≥50% + SYNTAX score basso-intermedio (≤32) + elevato rischio chirurgico (STS/EuroSCORE alto), discussione Heart Team.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Classe IIa (da considerare, evidenza/opinione favorevole):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Angina CCS II refrattaria OMT, stenosi ≥70%, FFR ≤0.80 documentato (dimostrazione significatività emodinamica).</p>
+<p class="text-slate-300 ml-6 mb-3">- Malattia monovasale/bivasale anatomia favorevole (non coinvolgimento prossimale LAD, stenosi focali non calcifiche), preferenze paziente vs CABG.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Classe III (non raccomandato, evidenza danno/inefficacia):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Stenosi 50-70% senza documentazione ischemia funzionale (FFR >0.80, test imaging negativo): PCI non migliora outcome vs OMT, espone rischio procedurale senza beneficio.</p>
+<p class="text-slate-300 ml-6 mb-6">- Angina stabile lieve (CCS I-II) ben controllata OMT, NO ischemia estesa: trial COURAGE (2007, N=2287), BARI 2D (2009), <strong>ISCHEMIA (2020, N=5179)</strong> dimostrano PCI routinaria + OMT NON superiore OMT sola in riduzione morte/IMA. Beneficio PCI limitato a miglioramento sintomi (~10-15% absolute difference freedom angina vs OMT a 3 anni). ISCHEMIA: PCI vs OMT conservativa, ischemia moderata-severa, follow-up 3.2 anni → NO differenza morte CV (6.4% vs 6.5%, p=0.67), IMA (7.4% vs 8.0%), morte/IMA/ospedalizzazione scompenso/arresto/angina instabile composito. Conclusione: <strong>strategia invasiva routinaria non indicata angina stabile, preferire OMT prima, riservare PCI sintomi refrattari</strong>.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Come si sceglie tra angioplastica e bypass?</h3>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        La decisione viene presa da un gruppo di specialisti (il "team del cuore": cardiologo interventista e cardiochirurgo) che si consultano e considerano:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Quante arterie sono malate e quanto è complessa la situazione</li>
-<li>Se avete il diabete</li>
-<li>Come pompa il vostro cuore</li>
-<li>Altre malattie che avete e quanto sarebbe rischioso l'intervento chirurgico</li>
-<li>Le vostre preferenze dopo che vi hanno spiegato i pro e i contro di ogni opzione</li>
-</ul>
-<p class="text-slate-300 mt-4">
-        In generale: l'angioplastica è preferita quando la malattia è limitata a 1-2 arterie con restringimenti semplici da trattare; il bypass è preferito quando ci sono malattie più diffuse, situazioni complesse, diabete. Ci sono anche studi scientifici recenti che aiutano a guidare la scelta nel vostro caso specifico.
-</p>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Complicanze PCI e outcome</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Complicanze procedurali acute (<24h):</strong> morte <0.5% (elettivo), IMA periprocedura 0.5-1% (side branch occlusion, slow-flow/no-reflow, dissezione), dissezione coronarica (5-10% minori autolimitanti, 0.5% flow-limiting richiedono stent addizionale), perforazione coronarica (0.2-0.5%, richiede emostasi coil/stent covered, drenaggio pericardico se tamponamento), trombosi acuta stent (<24h, 0.3-0.5%, catastrofica), nefropatia contrasto (CIN 2-5%, prevenzione idratazione), complicanze accesso vascolare (vedi sezione coronarografia).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Restenosi intra-stent (ISR - In-Stent Restenosis):</strong> restringimento progressivo lume stent >50% per iperplasia neointimale. Incidenza DES moderni <5% a 1 anno, <10% a 5 anni (vs 20-30% BMS). Fattori rischio ISR: diabete mellito (2-3x), IRC dialisi (3-4x), lesioni lunghe >20mm, biforcazioni, vasi piccoli <2.5mm, sottodimensionamento stent, malapposition. Presentazione: recidiva angina tipicamente 6-12 mesi post-PCI. Trattamento: re-PCI con balloon drug-coated (DCB paclitaxel) o DES 2° stent overlapping.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Trombosi stent (ST - Stent Thrombosis):</strong> occlusione trombotica acuta/subacuta stent. Classificazione temporale ARC (Academic Research Consortium): acuta (<24h), subacuta (1-30 giorni), tardiva (30 giorni-1 anno), molto tardiva (>1 anno). Incidenza cumulativa DES: acuta+subacuta 0.5-1%, tardiva 0.2-0.5%/anno. Conseguenze catastrofiche: mortalità 20-40%, IMA transmurale 60-80%. Fattori rischio ST: sospensione prematura DAPT (causa #1, 50-60% casi ST), malapposition stent (IVUS/OCT identifica 20-30% casi, correggibile post-dilatazione NC balloon), sottodimensionamento stent, copertura incompleta lesione, residuo trombo intracoronarico, diabete, IRC, neoplasia attiva. <strong>Prevenzione critica: aderenza DAPT prescritta (ASA + P2Y₁₂ inibitore), educazione paziente importanza vitale continuazione therapy, coordinazione interruzioni perioperatorie chirurgici con Heart Team</strong>.</p>
+</div>
+
+<h3 class="text-xl font-bold mb-4 text-white mt-8">CABG (Coronary Artery Bypass Grafting) - Bypass aortocoronarico</h3>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Tecnica chirurgica CABG</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Approccio chirurgico standard (sternotomia mediana):</strong> incisione mediana sternale, sternotomia longitudinale, esposizione cuore e aorta ascendente. Anestesia generale. Durata intervento 3-6 ore (dipende numero grafts, complessità). Due tecniche principali circolazione extracorporea:</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●On-pump CABG (bypass cardiopolmonare - CPB):</strong> tecnica tradizionale gold standard. Cannulazione aorta ascendente + atrio destro, circolazione extracorporea (heart-lung machine) sostituisce funzione cardio-polmonare. Cardioplegia (soluzione K⁺ iperkaliemica fredda) → arresto cardiaco diastolico (asistolia protettiva). Cuore immobile, campo operatorio esangue, anastomosi precise. Vantaggi: precisione massima anastomosi, fattibilità anatomie complesse (calcificazioni diffuse, ateroma ascendente, piccoli vasi target), completeness revascularization elevata. Svantaggi: risposta infiammatoria sistemica CPB (SIRS), rischio ictus embolia aterosclerotica manipolazione aorta (1-3%), maggior morbidità post-operatoria (aritmie FA 20-40%, disfunzione renale, necessità trasfusioni).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Off-pump CABG (OPCAB - cuore battente):</strong> CABG senza CPB. Stabilizzazione locale segmento coronarico target mediante devices meccanici (tissue stabilizers), esecuzione anastomosi cuore battente. Vantaggi teorici: riduzione SIRS, riduzione ictus (no aortic manipulation), riduzione FA post-operatoria, recupero più rapido, minori trasfusioni. Limitazioni: tecnicamente challenging (movimento cuore, instabilità emodinamica manovre), learning curve significativa operatore, rischio incompleteness revascularization (conversione on-pump 2-5%). Trial CORONARY (2012, N=4752), GOPCABE (2013): OPCAB vs on-pump, outcome composito morte/IMA/ictus/IRC equivalente a 30 giorni e 5 anni. NO superiorità dimostrata OPCAB popolazione generale. OPCAB preferito selettivamente: pazienti alto rischio ictus (ateroma ascendente severo, storia ictus pregresso), insufficienza renale avanzata (evitare CPB-induced AKI).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Conduits (vasi utilizzati grafts), pervietà long-term:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>LIMA (Left Internal Mammary Artery - arteria mammaria interna sinistra):</strong> gold standard assoluto graft LAD (left anterior descending). Pervietà 90-95% a 10 anni, >85% a 20 anni. Beneficio mortalità robusto: riduzione 30-40% mortalità long-term vs SVG→LAD. Raccomandazione ESC/ACC Classe I: LIMA→LAD obbligatoria ogni CABG salvo controindicazioni anatomiche (LIMA diseased, steal syndrome subclavian).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>RIMA (Right Internal Mammary Artery):</strong> secondo graft arterioso. Pervietà equivalente LIMA (90-95% a 10 anni). Utilizzo bilaterale IMA (BIMA - bilateral IMA) migliora outcome vs LIMA+SVG: trial ART (2018, N=3102) BIMA vs SIMA, follow-up 10 anni → mortalità 20.3% vs 21.2% (p=0.21, non significativo primario endpoint), ma repeat revascularization 9.4% vs 12.0% (p=0.003). BIMA raccomandato pazienti giovani (<70y), assenza diabete (rischio infezioni sternali mediastinite 2-5% BIMA vs 1% SIMA, specie diabetici obesi). Tecniche: RIMA→RCA o circonflessa, in situ vs free graft aorta.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Radial artery:</strong> arteria radiale avambraccio (prelievo non-dominante dopo test Allen normale). Pervietà intermedia: 85-90% a 5 anni, 70-80% a 10 anni (inferiore IMA, superiore SVG). Suscettibile spasmo (vasodilatatori perioperatori CCB), competizione flusso nativi (graft failure se stenosi nativa <70%). Uso: terzo graft in malattia trivasale giovane.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>SVG (Saphenous Vein Graft - grande safena):</strong> vena safena magna gamba. Pervietà inferiore arterie: 80-85% a 1 anno, 60-70% a 5 anni, 40-50% a 10 anni. Degenerazione accelerata: iperplasia intimale (1-5 anni), aterosclerosi accelerata (>5 anni). Uso: grafts addizionali 3°-4° territorio se insufficienti arterie, target territories marginali (diagonali, marginali ottuse piccole). Tecnica harvesting atraumatica endoscopica preferita (riduce infezioni wound leg). Terapia post-CABG: statine high-intensity + ASA riducono progressione SVG disease 30-40%.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Post-operatorio e recupero:</strong> degenza Terapia Intensiva Cardiochirurgica 24-48h (monitoraggio invasivo, supporto inotropi, gestione dolore, prevenzione aritmie). Trasferimento reparto POD 2-3, rimozione drenaggi toracici POD 2-4. Degenza totale 5-7 giorni se uncomplicated. Fisioterapia respiratoria intensiva (prevenzione atelettasie, polmoniti). Recupero: deambulazione POD 1-2, dimissione domicilio POD 5-7, riabilitazione cardiaca ambulatoriale 4-8 settimane, ripresa attività quotidiane normali 6-8 settimane, guida automobilistica 4-6 settimane, lavori fisici pesanti 10-12 settimane. Guarigione completa sterno 8-12 settimane (evitare sforzi pushing/pulling intensi).</p>
+</div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Indicazioni CABG angina stabile (ESC 2018 Guidelines)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (fortemente raccomandato CABG preferenziale vs PCI):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Stenosi tronco comune non protetto >50%:</strong> CABG riduce mortalità 30-40% vs OMT sola. Trial EXCEL (2019 follow-up 5y) e NOBLE (2016): PCI non-inferiore CABG anatomia favorevole (SYNTAX ≤22), ma CABG superiore SYNTAX intermedio-alto (23-32: repeat revascularization 50% lower CABG; ≥33: mortalità significativamente inferiore CABG).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Malattia trivasale + diabete mellito:</strong> trial FREEDOM (2012, N=1900 diabetici, malattia multivasale): CABG vs PCI, morte/IMA/ictus 18.7% vs 26.6% a 5 anni (p=0.005), mortalità 10.9% vs 16.3% (p=0.049). NNT 13 per prevenire 1 evento maggiore 5 anni. Meccanismo: completeness revascularization superiore CABG (grafts multipli simultanei), protezione long-term LIMA→LAD.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Malattia trivasale + LVEF <50%:</strong> beneficio sopravvivenza CABG vs OMT particolarmente robusto pazienti disfunzione VS (riduzione mortalità 40-50% CASS registry, STICH trial subset analyses).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Malattia bivasale con stenosi prossimale LAD >70%:</strong> territorio LAD irriga 50-60% massa VS, rivascolarizzazione LAD (LIMA→LAD) riduce mortalità significativamente.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Classe IIa (da considerare CABG):</strong> Malattia multivasale SYNTAX score intermedio-alto (>22), anatomia complessa (lesioni lunghe diffuse, biforcazioni multiple, calcificazioni severe, CTO multiple).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Outcome CABG vs OMT:</strong> trial STICH (2011, N=1212 LVEF <35%, CAD): CABG vs OMT, mortalità 36% vs 41% a 10 anni (HR 0.84, p=0.02), morte CV/ospedalizzazione 58% vs 66% (HR 0.72, p<0.001). Maggior beneficio assoluto pazienti più compromessi.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Complicanze CABG e mortalità operatoria</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mortalità operatoria (30-giorni):</strong> rischio stratificato score EuroSCORE II, STS score. Popolazione generale elettiva rischio basso-intermedio: mortalità 1-3%. Fattori rischio maggiori morte: età >75y, LVEF <30%, scompenso NYHA IV, urgenza/emergenza, reintervento, chirurgia valvolare combinata, IRC dialisi, ictus pregresso, arteriopatia periferica severa. Alto rischio: mortalità 5-15%.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Complicanze maggiori:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Ictus perioperatorio:</strong> 1-3% popolazione generale (aterosclerosi aorta ascendente, embolia gassosa/particolata, FA post-operatoria, ipoperfusione). Più elevato età >75y (3-5%), reintervento (4-6%), ateroma ascendente severo. Sequele permanenti 50-60% ictus perioperatori.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>IMA perioperatorio:</strong> 2-5% (occlusione graft acuta, incompletezza revascularization, protezione miocardica inadeguata). Diagnosi: ECG (nuove Q waves), troponina elevata (interpretazione complessa post-CPB, cutoff >10-20× ULN significativo).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Insufficienza renale acuta (AKI):</strong> 5-10% popolazione generale (ischemia renale CPB, emolisi, nefrotossici, low cardiac output). IRC preesistente fattore rischio maggiore: AKI 15-30%, dialisi nuova 2-5%. AKI post-CABG incrementa mortalità ospedaliera 5-10x.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Fibrillazione atriale post-operatoria:</strong> 20-40% (picco POD 2-3). Fattori rischio: età, ipertrofia atriale, valvulopatia, sospensione beta-bloccanti. Gestione: ripristino beta-bloccanti, amiodarone, anticoagulazione se persistente >48h. Aumenta degenza, rischio ictus, mortalità 1.5-2x.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Infezioni:</strong> mediastinite (infezione profonda sternale) 1-2% (diabete, obesità, BIMA harvesting fattori rischio). Mortalità 10-20% se mediastinite, richiede débridement chirurgico, terapia antibiotica prolungata, lembi muscolari ricostruttivi. Infezioni polmonari (polmonite) 5-10%, infezioni urinarie 5-8%, infezioni wound superficiali leg 5-10%.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Sanguinamento maggiore/reintervento:</strong> re-esplorazione chirurgica per sanguinamento 2-5% (coagulopatia CPB-induced, sanguinamento chirurgico anastomosi). Trasfusioni emazie concentrate 40-60% pazienti CABG (anemizzazione CPB, perdite ematiche).</p>
+</div>
+
+<h3 class="text-xl font-bold mb-4 text-white mt-8">PCI vs CABG: strategia decisionale e SYNTAX score</h3>
+
+<div class="info-step rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">SYNTAX score e Heart Team decision-making</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●SYNTAX score (Synergy between PCI with Taxus and Cardiac Surgery):</strong> score angiografico complessità malattia coronarica calcolato mediante software dedicato online (www.syntaxscore.org). Quantifica 12 variabili anatomiche: numero lesioni, localizzazione (tronco, biforcazioni, triforcazioni, ostiali), morfologia (lunghezza >20mm, calcificazioni severe, trombo, tortuosità severa, CTO), dominanza. Range 0-100+. Stratificazione tertili: basso ≤22, intermedio 23-32, alto ≥33. Validazione: trial SYNTAX (2009, N=1800 malattia trivasale/tronco comune): outcome PCI vs CABG stratificato per score.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Risultati trial SYNTAX per tertili (follow-up 10 anni):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>SYNTAX basso (≤22):</strong> PCI vs CABG equivalente morte/IMA/ictus (28.6% vs 26.8%, p=0.43). Repeat revascularization maggiore PCI (26.7% vs 14.0%, p<0.001) ma outcome hard equivalente. <strong>Conclusione: PCI opzione ragionevole anatomy favorevole</strong>.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>SYNTAX intermedio (23-32):</strong> CABG superiore morte/IMA/ictus (22.6% vs 28.0%, p=0.02), repeat revascularization (13.7% vs 34.7%, p<0.001). <strong>Conclusione: CABG preferibile, PCI considerabile rischio chirurgico elevato o controindicazioni CABG</strong>.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>SYNTAX alto (≥33):</strong> CABG nettamente superiore morte/IMA/ictus (20.9% vs 33.0%, p<0.001), repeat revascularization (12.9% vs 46.1%, p<0.001). Mortalità CABG 14.1% vs PCI 23.9% (p<0.001). <strong>Conclusione: CABG chiaramente indicata, PCI solo se inoperabilità chirurgica assoluta</strong>.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Heart Team multidisciplinare (ESC Class I raccomandazione):</strong> discussione collaborativa caso-per-caso tra cardiologo clinico, cardiologo interventista, cardiochirurgo (± anestesista, geriatra se frail). Valutazione integrata: anatomia coronarica (SYNTAX score), estensione ischemia funzionale, LVEF, comorbidità (diabete, IRC, BPCO, fragilità, demenza), rischio chirurgico (EuroSCORE II, STS), aspettativa vita, preferenze paziente informato. Documentazione discussione Heart Team in cartella clinica. Obbligatorio malattia tronco comune, trivasale, anatomia complessa SYNTAX ≥23. Riduce inappropriate revascularizations 20-30%, migliora appropriateness decision-making.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Algoritmo decisionale semplificato PCI vs CABG:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Preferire PCI:</strong> malattia monovasale/bivasale non LAD prossimale, SYNTAX ≤22, elevato rischio chirurgico (EuroSCORE >6%, STS >4%), comorbidità severe (BPCO FEV1 <1L, cirrosi Child B-C, neoplasia attiva aspettativa <3 anni, demenza severa), urgenza sintomatica (angina instabile preferire PCI acuzie, possibile CABG staging successivo), preferenza paziente informato.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Preferire CABG:</strong> stenosi tronco comune >50%, malattia trivasale + diabete mellito, malattia trivasale + LVEF <50%, malattia bivasale + LAD prossimale, SYNTAX ≥23, anatomia complessa (CTO multiple, biforcazioni complesse, calcificazioni diffuse), giovane età (<60y, LIMA longevity benefit), aspettativa vita >10 anni, rischio chirurgico basso-intermedio (EuroSCORE <4%).</p>
 </div>
   </section>
 
