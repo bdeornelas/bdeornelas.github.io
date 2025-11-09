@@ -240,24 +240,27 @@ Qual è la semeiotica clinica dell'angina pectoris?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="search" class="w-6 h-6 text-violet-400"></i>
-<span class="text-white">Come viene diagnosticata l'angina?</span>
+Qual è il workflow diagnostico per sospetta angina pectoris?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      Per capire se avete l'angina e quanto è grave, il medico usa diversi strumenti: raccoglie informazioni su di voi e sui vostri sintomi, vi visita, e può richiedere vari esami.
+      Approccio diagnostico angina basato su: (1) probabilità pre-test CAD mediante caratterizzazione clinica sintomi e fattori rischio cardiovascolare, (2) stratificazione mediante test non-invasivi funzionali/anatomici selezionati secondo probabilità pretest e disponibilità locale, (3) coronarografia invasiva riservata a casi alto rischio, sintomi refrattari, o anomalie significative test non-invasivi.
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Prima valutazione</h3>
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Step 1: Valutazione clinica iniziale e probabilità pre-test CAD</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Anamnesi dettagliata:</strong> caratterizzazione dolore toracico (qualità, localizzazione, durata, trigger, risoluzione), classificazione Diamond-Forrester (tipica/atipica/non-cardiaca), score CCS se angina stabile, identificazione red flags angina instabile/ACS.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fattori rischio cardiovascolare:</strong> età, sesso, diabete mellito, ipertensione arteriosa, dislipidemia, fumo attivo, familiarità CAD prematura (uomini <55y, donne <65y parenti I grado), IRC, obesità.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esame obiettivo:</strong> PA bilaterale, auscultazione cardiaca (soffi valvolari, S3/S4 galoppo), polsi periferici, BMI, segni scompenso cardiaco (edemi, rantoli).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●ECG 12-derivazioni basale:</strong> sensibilità limitata CAD (normale 50% pazienti angina stabile asintomatici). Segni suggestivi: onde Q patologiche (infarto pregresso), inversione T, sottoslivellamento ST, ipertrofia VS, BBSx. ECG durante dolore: sottoslivellamento ST ≥1mm (sensibilità 50%, specificità 90%).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Lab basale:</strong> emocromo (anemia), creatinina/eGFR (IRC), glicemia/HbA1c (diabete), profilo lipidico completo (LDL, HDL, trigliceridi, Lp(a)), troponina hs (esclusione NSTEMI se dolore recente <24h), TSH (ipertiroidismo), BNP/NT-proBNP se dispnea (scompenso vs ischemia).</p>
+</div>
+
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Il medico inizia con:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Una conversazione approfondita sui vostri sintomi: come si presenta il dolore, quando compare, quanto dura, cosa lo fa passare</li>
-<li>Verifica se avete fattori di rischio per problemi al cuore: età, pressione alta, diabete, colesterolo alto, fumo, familiari che hanno avuto problemi cardiaci</li>
-<li>Una visita al cuore e alla circolazione</li>
-<li>Un elettrocardiogramma (ECG): un esame rapido e indolore che registra l'attività elettrica del cuore. Spesso è normale quando non avete dolore, ma può mostrare cambiamenti quando il cuore non riceve abbastanza sangue</li>
-<li>Esami del sangue: per controllare il funzionamento generale dell'organismo, colesterolo, glicemia, e per escludere che ci sia stato un infarto</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Step 2: Calcolo probabilità pre-test CAD ostruttiva</h3>
+<p class="text-slate-300 mb-4">Probabilità pretest CAD ostruttiva (stenosi ≥50%) calcolata mediante modelli validati (Duke Clinical Score, ESC 2019 guidelines) basati su: età, sesso, caratteristiche dolore toracico (tipico/atipico/non-cardiaco), fattori rischio. Guida selezione test diagnostico appropriato.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Bassa probabilità (<15%):</strong> dolore toracico non-cardiaco, giovane età, assenza fattori rischio. Gestione: rassicurazione, escludi cause non-cardiache (GERD, muscoloscheletrico, ansia). NO test provocativi routinari (alto tasso falsi positivi).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Probabilità intermedia (15-85%):</strong> angina atipica o tipica con fattori rischio moderati. Indicazione test non-invasivo funzionale (test sforzo ECG, imaging stress) o anatomico (TC coronarica). Scelta basata su disponibilità, caratteristiche paziente, probabilità specifica nel range.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Alta probabilità (>85%):</strong> angina tipica, multipli fattori rischio, età avanzata. Considerare coronarografia diretta vs test imaging avanzato pre-rivascolarizzazione per valutazione estensione malattia e pianificazione strategia interventistica.</p>
 </div>
 
 <h3 class="text-xl font-bold mb-4 text-white">Test da sforzo</h3>
