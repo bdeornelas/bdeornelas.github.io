@@ -53,212 +53,238 @@ date: "2025-10-18"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="info" class="w-6 h-6 text-emerald-400"></i>
-            Cos'è lo scompenso cardiaco
+            Cos'è lo scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Esistono diversi tipi di scompenso. Nel primo tipo, il muscolo del cuore si indebolisce e pompa meno sangue: il cuore diventa più grande e meno efficiente. Nel secondo tipo, il muscolo si irrigidisce e il cuore fatica a riempirsi: la pompa non si espande bene. Questo secondo tipo è più comune nelle persone anziane, nelle donne e in chi ha pressione alta. In entrambi i casi, il risultato è simile: il cuore non riesce a soddisfare le necessità del corpo. Durante la visita, l'ecocardiogramma (ecografia del cuore) permette di capire quale tipo è presente e di scegliere la terapia più adatta.
+Lo scompenso cardiaco è una condizione in cui il cuore non riesce a pompare sangue in quantità sufficiente per le necessità del corpo. In una persona con scompenso cardiaco, il muscolo del cuore diventa più debole o più rigido del normale.
 </p>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            La fisiopatologia coinvolge: (1) ridotta gittata cardiaca → attivazione neuroormonale compensatoria (sistema renina-angiotensina-aldosterone, catecolamine) che inizialmente mantiene perfusione ma cronicamente causa ritenzione idrosalina, rimodellamento ventricolare, progressione scompenso; (2) congestione sistemica/polmonare → dispnea, edemi, epatomegalia; (3) ipoperfusione periferica → astenia, disfunzione renale, cachessia. Il circolo vizioso neuroormonale spiega perché i bloccanti RAAS (ACEI/ARB/ARNI) e neuro-ormonali (beta-bloccanti, MRA) sono cardini terapeutici.
+Normalmente, il cuore si contrae con forza e si rilassa completamente tra un battito e l'altro, pompando sangue a tutti gli organi. Nello scompenso cardiaco, questa funzione è compromessa: il sangue circola più lentamente e si accumula nei polmoni e nelle gambe.
 </p>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'incidenza SC è 5-10/1000 persone-anno sopra i 65 anni. L'età media alla diagnosi è 75 anni. La sopravvivenza mediana è 5 anni (range 2-10 anni secondo gravità), con mortalità annua 5-10% in stabili NYHA II, 20-40% in NYHA IV. Le cause principali di morte sono: progressione scompenso refrattario (40-50%), morte improvvisa aritmica (30-40%), comorbidità (ictus, infezioni, neoplasie 20-30%). Le ospedalizzazioni SC consumano 1-2% della spesa sanitaria totale nei paesi sviluppati.
+Lo scompenso cardiaco colpisce circa 1 persona su 50 dopo i 70 anni. Diventa più comune con l'età.
 </p>
-<div class="highlight-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Analogia: pompa idraulica con valvole e tubature</h3>
-<p class="text-slate-300">
-              Il cuore è una pompa muscolare a 4 camere con valvole unidirezionali. Se il muscolo si indebolisce (HFrEF), la pompa espelle meno volume a ogni ciclo (FEVS ridotta da 55-60% normale a 20-40%). Se il muscolo si irrigidisce (HFpEF), la pompa non si riempie completamente in diastole (FEVS normale >50% ma volume diastolico ridotto). In entrambi i casi: gittata cardiaca insufficiente → congestione a monte (polmoni) e ipoperfusione a valle (organi). L'accumulo liquidi nei polmoni causa dispnea; l'accumulo periferico causa edemi declivi.
-</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Tipi di scompenso cardiaco</h3>
+
+<p class="text-slate-300 mb-3">Esistono due tipi principali:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Scompenso con muscolo indebolito:</strong> Il muscolo del cuore si indebolisce e pompa meno sangue. Il cuore diventa più grande e meno efficiente. Questo tipo è più comune negli uomini e in chi ha avuto un infarto.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Scompenso con muscolo irrigidito:</strong> Il muscolo si irrigidisce e il cuore fatica a riempirsi di sangue. La pompa non si espande bene. Questo tipo è più comune nelle persone anziane, nelle donne e in chi ha la pressione alta da tempo.</p>
+
+<p class="text-slate-300">In entrambi i casi, il risultato è simile: il cuore non riesce a soddisfare le necessità del corpo. Durante la visita, l'ecocardiogramma (un'ecografia del cuore) permette al medico di capire quale tipo hai e di scegliere la terapia più adatta.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="activity" class="w-6 h-6 text-pink-400"></i>
-            I sintomi principali
+            Quali sono i sintomi dello scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            I sintomi dello scompenso cardiaco derivano dall'accumulo di liquidi nel corpo e dalla ridotta capacità del cuore di pompare sangue. I segnali più comuni sono la mancanza di fiato, la stanchezza e il gonfiore alle gambe.
+Alcune persone con scompenso cardiaco non hanno sintomi nelle fasi iniziali. La condizione viene scoperta durante una visita di routine o esami fatti per altri motivi.
+</p>
+
+<p class="text-slate-300 leading-relaxed mb-6">
+Quando i sintomi compaiono, derivano dall'accumulo di liquidi nel corpo e dalla ridotta capacità del cuore di pompare sangue. I segnali più comuni includono:
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Mancanza di fiato (dispnea)</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Durante lo sforzo:</strong> affanno quando si cammina, si salgono le scale o si fanno attività che prima non creavano problemi</li>
-<li><strong class="text-white">A riposo:</strong> nei casi più avanzati, difficoltà a respirare anche da fermi</li>
-<li><strong class="text-white">Di notte:</strong> bisogno di dormire con più cuscini o svegliarsi con sensazione di soffocamento</li>
-<li><strong class="text-white">Tosse:</strong> tosse secca o con catarro, soprattutto di notte</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Durante lo sforzo:</strong> Affanno quando cammini, sali le scale o fai attività che prima non creavano problemi.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●A riposo:</strong> Nei casi più avanzati, difficoltà a respirare anche da fermo.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Di notte:</strong> Bisogno di dormire con più cuscini o svegliarsi con sensazione di soffocamento.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Tosse:</strong> Tosse secca o con catarro, soprattutto di notte.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Stanchezza e affaticamento</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Ridotta energia:</strong> sensazione di debolezza anche per attività abituali</li>
-<li><strong class="text-white">Difficoltà nelle attività quotidiane:</strong> vestirsi, lavarsi o fare le faccende domestiche richiede più sforzo</li>
-<li><strong class="text-white">Bisogno di riposare frequentemente:</strong> necessità di fermarsi durante le normali attività</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ridotta energia:</strong> Sensazione di debolezza anche per attività abituali.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Difficoltà nelle attività quotidiane:</strong> Vestirsi, lavarsi o fare le faccende domestiche richiede più sforzo del solito.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Bisogno di riposare frequentemente:</strong> Necessità di fermarti durante le normali attività.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Gonfiore (edema)</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Gambe e caviglie:</strong> gonfiore che peggiora verso sera e migliora al mattino</li>
-<li><strong class="text-white">Piedi:</strong> le scarpe diventano strette, difficoltà a calzarle</li>
-<li><strong class="text-white">Addome:</strong> sensazione di pancia gonfia, fastidio dopo i pasti</li>
-<li><strong class="text-white">Aumento di peso:</strong> incremento rapido del peso corporeo per accumulo di liquidi</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Gambe e caviglie:</strong> Gonfiore che peggiora verso sera e migliora al mattino.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Piedi:</strong> Le scarpe diventano strette, difficoltà a calzarle.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Addome:</strong> Sensazione di pancia gonfia, fastidio dopo i pasti.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Aumento di peso:</strong> Incremento rapido del peso per accumulo di liquidi (più di 1-2 kg in pochi giorni).</p>
+</div>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">CHIEDI AIUTO D'EMERGENZA (chiama il 118) se hai:</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto intenso o prolungato</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Grave difficoltà respiratoria o sensazione di soffocamento</strong></p>
+
+<p class="text-slate-300"><strong class="text-white">●Svenimento o confusione mentale improvvisa</strong></p>
 </div>
 
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Altri sintomi possibili</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Ridotta produzione di urina:</strong> fare pipì meno del solito durante il giorno</li>
-<li><strong class="text-white">Confusione mentale:</strong> difficoltà di concentrazione, soprattutto negli anziani</li>
-<li><strong class="text-white">Perdita di appetito:</strong> senso di sazietà precoce, nausea</li>
-<li><strong class="text-white">Battito cardiaco irregolare:</strong> sensazione che il cuore batta in modo strano</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ridotta produzione di urina:</strong> Fare pipì meno del solito durante il giorno.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Difficoltà di concentrazione:</strong> Soprattutto negli anziani, problemi di memoria o confusione.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Perdita di appetito:</strong> Senso di sazietà precoce, nausea.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Battito cardiaco irregolare:</strong> Sensazione che il cuore batta in modo strano o troppo veloce.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="alert-circle" class="w-6 h-6 text-orange-400"></i>
-            Le cause più comuni
+            Quali sono le cause dello scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Lo scompenso cardiaco può svilupparsi per diverse ragioni. Spesso è la conseguenza di altre malattie del cuore che col tempo ne hanno indebolito la funzione.
+Lo scompenso cardiaco può essere causato da diverse condizioni che danneggiano o indeboliscono il cuore. Le cause più comuni includono:
 </p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Dopo un infarto</h3>
-<p class="text-slate-300 mb-3">
-              Un infarto danneggia una parte del muscolo cardiaco. Se il danno è esteso, il cuore può non riuscire più a pompare con la stessa efficacia di prima. Lo scompenso dopo infarto è una delle cause più frequenti nei paesi occidentali.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Infarto del miocardio (attacco di cuore):</strong> Un infarto danneggia una parte del muscolo cardiaco. Se il danno è esteso, il cuore può non riuscire più a pompare con la stessa efficacia di prima. Circa 1 persona su 4 con scompenso cardiaco ha avuto un infarto in passato.</p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Pressione alta non controllata</h3>
-<p class="text-slate-300 mb-3">
-              La pressione arteriosa alta non curata costringe il cuore a lavorare più duramente per anni. Col tempo, questo sforzo continuo può indebolire il muscolo cardiaco e portare allo scompenso.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta non controllata (ipertensione):</strong> La pressione arteriosa alta non curata costringe il cuore a lavorare più duramente per anni. Col tempo, questo sforzo continuo può indebolire il muscolo cardiaco e portare allo scompenso. L'ipertensione è la causa più frequente nelle donne e negli anziani.</p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Problemi alle valvole cardiache</h3>
-<p class="text-slate-300 mb-3">
-              Le valvole sono le "porte" che regolano il flusso di sangue nel cuore. Se sono ristrette o non si chiudono bene, il cuore deve pompare più forte per compensare, fino a quando può affaticarsi e sviluppare scompenso.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Problemi alle valvole cardiache:</strong> Le valvole sono le "porte" che regolano il flusso di sangue nel cuore. Se sono ristrette (stenosi) o non si chiudono bene (insufficienza), il cuore deve pompare più forte per compensare, fino a quando si affatica e sviluppa scompenso.</p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Malattie del muscolo cardiaco</h3>
-<p class="text-slate-300 mb-3">
-              Alcune condizioni indeboliscono direttamente il muscolo del cuore, rendendolo meno capace di contrarsi o rilassarsi normalmente. Queste malattie possono essere ereditarie, causate da infezioni o avere altre origini.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Malattie del muscolo cardiaco (cardiomiopatie):</strong> Alcune condizioni indeboliscono direttamente il muscolo del cuore, rendendolo meno capace di contrarsi o rilassarsi normalmente. Queste malattie possono essere ereditarie, causate da infezioni virali, alcol o avere altre origini.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Malattia coronarica:</strong> Quando le arterie del cuore sono ristrette o bloccate, il muscolo cardiaco riceve meno sangue e ossigeno, indebolendosi progressivamente.</p>
 
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="trending-up" class="w-5 h-5 text-orange-400"></i>
               Situazioni che possono peggiorare lo scompenso
 </h3>
-<p class="text-slate-300 mb-3">Anche quando lo scompenso è compensato, alcune situazioni possono farlo peggiorare improvvisamente:</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Non prendere regolarmente i farmaci prescritti</li>
-<li>Mangiare troppo sale o bere troppi liquidi</li>
-<li>Infezioni come influenza, bronchite o polmonite</li>
-<li>Battito cardiaco irregolare o troppo veloce</li>
-<li>Anemia o altri squilibri nel sangue</li>
-</ul>
+
+<p class="text-slate-300 mb-3">Anche quando lo scompenso è stabile, alcune situazioni possono farlo peggiorare improvvisamente:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Non prendere regolarmente i farmaci prescritti</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mangiare troppo sale o bere troppi liquidi</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Infezioni come influenza, bronchite o polmonite</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Battito cardiaco irregolare (fibrillazione atriale) o troppo veloce</strong></p>
+
+<p class="text-slate-300"><strong class="text-white">●Anemia (bassi livelli di globuli rossi) o altri squilibri nel sangue</strong></p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="stethoscope" class="w-6 h-6 text-violet-400"></i>
-            Come viene diagnosticato
+            Come viene diagnosticato lo scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il medico arriva alla diagnosi di scompenso cardiaco attraverso diversi passaggi: ascolto dei sintomi, visita clinica ed esami specifici. Questi esami aiutano a capire quanto è severa la condizione e quale tipo di scompenso è presente.
+Il tuo medico farà:
 </p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Visita medica</h3>
-<p class="text-slate-300 mb-3">
-              Durante la visita, il medico valuterà i sintomi e cercherà segni di accumulo di liquidi ascoltando i polmoni, controllando le gambe per il gonfiore e auscultando il cuore. Misurerà anche la pressione arteriosa e verificherà la frequenza del battito cardiaco.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Domande sui tuoi sintomi e sulla tua storia medica</strong></p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Esami del sangue</h3>
-<p class="text-slate-300 mb-3">
-              Alcuni esami del sangue possono indicare la presenza di scompenso cardiaco. Il medico controllerà anche la funzione dei reni, i livelli di elettroliti e verificherà se ci sono altri problemi come anemia.
-</p>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Una visita clinica</strong></p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Ecocardiogramma</h3>
-<p class="text-slate-300 mb-3">
-              L'ecocardiogramma è un'ecografia del cuore. Permette di vedere il cuore in movimento, misurare quanto pompa efficacemente e verificare se ci sono problemi alle valvole o al muscolo cardiaco. È un esame indolore e fondamentale per la diagnosi.
-</p>
-</div>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Prescriverà alcuni esami</strong></p>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Radiografia del torace</h3>
-<p class="text-slate-300 mb-3">
-              La radiografia mostra le dimensioni del cuore e può rivelare accumulo di liquidi nei polmoni. È un esame semplice che fornisce informazioni utili.
+<p class="text-slate-300 leading-relaxed mb-6">
+Durante la visita, il medico ascolterà i tuoi polmoni con lo stetoscopio (per sentire se c'è liquido), controllerà le gambe per vedere se sono gonfie, e misurerà la pressione e il battito cardiaco.
 </p>
-</div>
 
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Elettrocardiogramma (ECG)</h3>
-<p class="text-slate-300 mb-3">
-              L'ECG registra l'attività elettrica del cuore e può mostrare problemi del ritmo cardiaco, segni di infarto pregresso o altre anomalie che contribuiscono allo scompenso.
-</p>
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Esami che possono aiutare a diagnosticare lo scompenso cardiaco</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ecocardiogramma (ecografia del cuore):</strong> Mostra il cuore in movimento e misura quanto bene pompa il sangue. Verifica anche se ci sono problemi alle valvole o al muscolo cardiaco. È un esame indolore e fondamentale. In circa 15-20 minuti fornisce informazioni complete sulla funzione del cuore.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esami del sangue:</strong> Misurano sostanze specifiche (chiamate peptidi natriuretici, o "BNP") che aumentano quando il cuore è sotto sforzo. Il medico controllerà anche la funzione dei reni, i livelli di elettroliti (come potassio e sodio) e verificherà se hai anemia.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Elettrocardiogramma, o "ECG":</strong> Registra l'attività elettrica del cuore. Può mostrare problemi del ritmo cardiaco, segni di infarto pregresso o altre anomalie. Richiede solo pochi minuti.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Radiografia del torace:</strong> Mostra le dimensioni del cuore e può rivelare accumulo di liquidi nei polmoni. È un esame semplice che fornisce informazioni utili.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="pill" class="w-6 h-6 text-violet-400"></i>
-            Le cure disponibili
+            Come viene trattato lo scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il trattamento HFrEF si basa sulla terapia medica ottimale guidata (GDMT) che comprende quattro "pilastri" farmacologici da iniziare tutti rapidamente e titolare a dosi target (ESC 2021). La GDMT quadrupla (ACEI/ARB/ARNI + beta-bloccanti + MRA + SGLT2i) riduce mortalità del 50-70% e ospedalizzazioni del 30-50% vs placebo. La sequenza storica (ACEI/ARB prima, aggiunta graduale altri farmaci) è superata: approccio moderno prevede inizio rapido simultaneo dei quattro pilastri entro 4-6 settimane dalla diagnosi, con titolazione progressiva a dosi target (raggiunte in 3-6 mesi). La persistenza terapeutica è critica: aderenza <80% aumenta mortalità/ospedalizzazioni del 50-100%.
+Il trattamento per lo scompenso cardiaco dipende dal tipo di scompenso che hai e da quanto è grave.
+</p>
+
+<p class="text-slate-300 leading-relaxed mb-6">
+Le opzioni di trattamento includono:
+</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci che aiutano il cuore a lavorare meglio e prevengono i peggioramenti</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Modifiche dello stile di vita (limitare il sale, controllare il peso, attività fisica moderata)</strong></p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●In alcuni casi, dispositivi speciali o interventi chirurgici</strong></p>
+
+<p class="text-slate-300 leading-relaxed mb-6">
+Il tuo medico parlerà con te di quale trattamento è più adatto al tuo caso.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-4">I farmaci principali per lo scompenso</h3>
-<p class="text-slate-300 mb-4">Il trattamento si basa su quattro categorie di farmaci che lavorano insieme per aiutare il cuore. Questi farmaci hanno dimostrato di ridurre notevolmente il rischio di ricoveri e di migliorare la durata e la qualità della vita. Il medico li inizierà tutti nelle prime settimane e aggiusterà gradualmente le dosi nei mesi successivi.</p>
 
-<p class="text-slate-300 mb-4"><strong>1. Farmaci che rilassano i vasi sanguigni</strong></p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>Cosa fanno:</strong> riducono la pressione e permettono al cuore di lavorare con meno sforzo. Migliorano i sintomi e allungano la vita. Il medico regolerà la dose gradualmente nelle prime settimane.</li>
-<li><strong>Effetti collaterali:</strong> possono causare tosse secca, capogiri quando ci si alza in piedi o stanchezza iniziale. La maggior parte migliora con il tempo. Informare il medico se compaiono.</li>
-<li><strong>Quando evitare:</strong> in gravidanza o se si è avuto gonfiore della bocca o della lingua con farmaci simili in passato.</li>
-</ul>
+<p class="text-slate-300 mb-6">Il trattamento si basa su diverse categorie di farmaci che lavorano insieme per aiutare il cuore. Questi farmaci riducono il rischio di ricoveri in ospedale e migliorano la qualità di vita. Il tuo medico inizierà i farmaci nelle prime settimane e aggiusterà gradualmente le dosi.</p>
 
-<p class="text-slate-300 mb-4 mt-4"><strong>2. Farmaci che rallentano il battito cardiaco</strong></p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>Cosa fanno:</strong> rallentano il cuore e gli permettono di riposare di più tra un battito e l'altro. Riducono il rischio di peggioramenti improvvisi. L'obiettivo è un battito tra 60 e 70 al minuto quando si è a riposo.</li>
-<li><strong>Effetti collaterali:</strong> nelle prime settimane possono aumentare temporaneamente la stanchezza o il gonfiore, ma questo è normale. Il corpo si abitua. Possono causare mani e piedi freddi.</li>
-<li><strong>Quando evitare:</strong> in caso di asma grave o se il battito è già molto lento (sotto 50 battiti al minuto).</li>
-</ul>
+<p class="text-slate-300 mb-4"><strong class="text-white">1. Farmaci che rilassano i vasi sanguigni</strong></p>
 
-<p class="text-slate-300 mb-4 mt-4"><strong>3. Farmaci che eliminano i liquidi in eccesso</strong></p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>Cosa fanno:</strong> aiutano i reni a eliminare l'acqua e il sale accumulati nel corpo. Riducono il gonfiore e la mancanza di fiato. Sono molto efficaci nel migliorare i sintomi.</li>
-<li><strong>Effetti collaterali:</strong> aumentano la necessità di urinare. Il medico controllerà regolarmente potassio e funzione renale con esami del sangue. In alcuni uomini possono causare gonfiore del seno.</li>
-<li><strong>Monitoraggio:</strong> esami del sangue dopo 1-2 settimane dall'inizio, poi mensilmente nei primi mesi.</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa fanno:</strong> Riducono la pressione e permettono al cuore di lavorare con meno sforzo. Migliorano i sintomi e la durata della vita. Circa 7 persone su 10 notano miglioramenti dopo alcune settimane.</p>
 
-<p class="text-slate-300 mb-4 mt-4"><strong>4. Farmaci per il metabolismo del cuore</strong></p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>Cosa fanno:</strong> aiutano il cuore a usare meglio l'energia disponibile e riducono l'accumulo di liquidi. Funzionano anche in persone senza diabete. Riducono notevolmente il rischio di ricoveri in ospedale.</li>
-<li><strong>Effetti collaterali:</strong> possono causare infezioni delle vie urinarie o genitali, di solito lievi e curabili con creme o terapie brevi. Raramente possono dare pressione bassa se combinati con altri farmaci.</li>
-<li><strong>Sicurezza:</strong> sono sicuri anche in chi ha problemi renali lievi o moderati.</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Effetti collaterali:</strong> Possono causare tosse secca, capogiri quando ti alzi in piedi o stanchezza iniziale. La maggior parte di questi effetti migliora con il tempo.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Esempi:</strong> enalapril, ramipril, sacubitril/valsartan (chiamati anche "ACE-inibitori" o "sartani").</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">2. Farmaci che rallentano il battito cardiaco (beta-bloccanti)</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa fanno:</strong> Rallentano il cuore e gli permettono di riposare di più tra un battito e l'altro. Riducono il rischio di peggioramenti improvvisi. L'obiettivo è un battito tra 60 e 70 al minuto quando sei a riposo.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Effetti collaterali:</strong> Nelle prime settimane possono aumentare temporaneamente la stanchezza o il gonfiore, ma questo è normale. Il tuo corpo si abitua. Possono causare mani e piedi freddi.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Esempi:</strong> bisoprololo, carvedilolo, metoprololo.</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">3. Farmaci che eliminano i liquidi in eccesso (diuretici)</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa fanno:</strong> Aiutano i reni a eliminare l'acqua e il sale accumulati nel corpo. Riducono il gonfiore e la mancanza di fiato. Sono molto efficaci nel migliorare i sintomi rapidamente.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Effetti collaterali:</strong> Aumentano la necessità di urinare. Il medico controllerà regolarmente il potassio e la funzione dei reni con esami del sangue.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Esempi:</strong> furosemide, spironolattone, eplerenone.</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">4. Farmaci che aiutano il metabolismo del cuore (inibitori SGLT2)</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa fanno:</strong> Aiutano il cuore a usare meglio l'energia disponibile e riducono l'accumulo di liquidi. Funzionano anche in persone senza diabete. Riducono il rischio di ricoveri in ospedale di circa 30 per cento.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Effetti collaterali:</strong> Possono causare infezioni delle vie urinarie o genitali, di solito lievi e curabili facilmente.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Esempi:</strong> dapagliflozin, empagliflozin.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
@@ -273,261 +299,262 @@ date: "2025-10-18"
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Dispositivi cardiaci</h3>
-<p class="text-slate-300 mb-3">
-              In alcuni pazienti selezionati, il cardiologo può consigliare l'impianto di dispositivi speciali:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Defibrillatore:</strong> piccolo apparecchio impiantato sotto la pelle che monitora il ritmo cardiaco e può intervenire se si verificano aritmie pericolose</li>
-<li><strong class="text-white">Pacemaker speciale (resincronizzatore):</strong> aiuta il cuore a battere in modo più coordinato ed efficiente quando esiste un problema nella conduzione elettrica</li>
-</ul>
-<p class="text-slate-300 mt-3">
-              Questi dispositivi vengono consigliati solo quando possono portare benefici significativi e sono inseriti con una procedura poco invasiva. Il medico spiegherà nel dettaglio se possono essere utili nel caso specifico.
-</p>
+
+<p class="text-slate-300 mb-3">In alcuni casi selezionati, il tuo cardiologo può consigliare l'impianto di dispositivi speciali:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Defibrillatore impiantabile, o "ICD":</strong> Un piccolo apparecchio impiantato sotto la pelle che monitora il ritmo cardiaco e può intervenire se si verificano aritmie pericolose. È come avere un "salvavita" sempre con te.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pacemaker speciale (resincronizzatore), o "CRT":</strong> Aiuta il cuore a battere in modo più coordinato ed efficiente quando esiste un problema nella conduzione elettrica. Può migliorare i sintomi in circa 7 persone su 10.</p>
+
+<p class="text-slate-300">Questi dispositivi vengono consigliati solo quando possono portare benefici significativi e sono inseriti con una procedura poco invasiva. Il tuo medico spiegherà nel dettaglio se possono essere utili nel tuo caso.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Cosa aspettarsi dalle cure</h3>
-<p class="text-slate-300 mb-3">
-              Con il trattamento adeguato, molti pazienti sperimentano miglioramenti notevoli:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Riduzione della mancanza di fiato e del gonfiore</li>
-<li>Maggiore energia per le attività quotidiane</li>
-<li>Minore necessità di ricoveri in ospedale</li>
-<li>Miglioramento della qualità di vita complessiva</li>
-<li>Possibilità di mantenere una vita attiva e soddisfacente</li>
-</ul>
-<p class="text-slate-300 mt-3">
-              I miglioramenti possono richiedere settimane o mesi, poiché il cuore ha bisogno di tempo per rispondere alle terapie. La pazienza e la costanza sono fondamentali.
-</p>
+
+<p class="text-slate-300 mb-3">Con il trattamento adeguato, molte persone con scompenso cardiaco sperimentano miglioramenti notevoli:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Riduzione della mancanza di fiato e del gonfiore</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Maggiore energia per le attività quotidiane</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Minore necessità di ricoveri in ospedale</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Possibilità di mantenere una vita attiva</strong></p>
+
+<p class="text-slate-300 mt-3">I miglioramenti possono richiedere settimane o mesi, poiché il cuore ha bisogno di tempo per rispondere alle terapie. Nulla può far scomparire completamente lo scompenso cardiaco. Ma il trattamento può far stare molto meglio e ridurre il rischio di peggioramenti.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="home" class="w-6 h-6 text-emerald-400"></i>
-            Vita quotidiana e stile di vita
+            Cosa posso fare nella vita quotidiana?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Oltre ai farmaci, alcune modifiche allo stile di vita sono essenziali per gestire lo scompenso cardiaco. Queste abitudini aiutano il cuore a lavorare meglio e prevengono i peggioramenti.
+Oltre ai farmaci, alcune modifiche allo stile di vita sono essenziali per gestire lo scompenso cardiaco. Queste abitudini aiutano il cuore a lavorare meglio e prevengono i peggioramenti.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Limitare il sale</h3>
-<p class="text-slate-300 mb-3">
-              Il sodio (contenuto nel sale) fa trattenere liquidi nel corpo, peggiorando il gonfiore e la mancanza di fiato. Ridurre il sale è una delle modifiche più importanti:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Evitare di aggiungere sale a tavola</li>
-<li>Limitare cibi molto salati: insaccati, formaggi stagionati, cibi in scatola, snack salati</li>
-<li>Leggere le etichette dei prodotti confezionati</li>
-<li>Preferire cibi freschi cucinati in casa</li>
-<li>Usare spezie ed erbe aromatiche per insaporire i piatti</li>
-</ul>
-</div>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Controllare i liquidi</h3>
-<p class="text-slate-300 mb-3">
-              Nei casi di scompenso avanzato, può essere necessario limitare anche la quantità di liquidi assunti:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Il medico indicherà la quantità massima giornaliera (di solito 1,5-2 litri)</li>
-<li>Considerare tutti i liquidi: acqua, tè, caffè, succhi, latte, zuppe</li>
-<li>Bere lentamente durante il giorno invece di grandi quantità in una volta</li>
-<li>Nei periodi stabili, la restrizione può essere meno severa</li>
-</ul>
+<p class="text-slate-300 mb-3">Il sodio (contenuto nel sale) fa trattenere liquidi nel corpo, peggiorando il gonfiore e la mancanza di fiato. Ridurre il sale è una delle modifiche più importanti:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Evita di aggiungere sale a tavola</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Limita cibi molto salati:</strong> insaccati, formaggi stagionati, cibi in scatola, snack salati</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Leggi le etichette</strong> dei prodotti confezionati</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Preferisci cibi freschi</strong> cucinati in casa</p>
+
+<p class="text-slate-300"><strong class="text-white">●Usa spezie ed erbe aromatiche</strong> per insaporire i piatti</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Controllare il peso ogni giorno</h3>
-<p class="text-slate-300 mb-3">
-              Pesarsi quotidianamente è fondamentale per riconoscere precocemente l'accumulo di liquidi:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Pesarsi ogni mattina, dopo essere andati in bagno e prima di colazione</li>
-<li>Usare sempre la stessa bilancia, con gli stessi vestiti</li>
-<li>Annotare il peso su un diario o quaderno</li>
-<li>Avvisare il medico se il peso aumenta di più di 2 kg in 3 giorni</li>
-</ul>
+
+<p class="text-slate-300 mb-3">Pesarti quotidianamente è fondamentale per riconoscere precocemente l'accumulo di liquidi:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pesati ogni mattina,</strong> dopo essere andato in bagno e prima di colazione</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Usa sempre la stessa bilancia,</strong> con gli stessi vestiti</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Annota il peso</strong> su un diario o quaderno</p>
+
+<p class="text-slate-300"><strong class="text-white">●Chiama il medico</strong> se il peso aumenta di più di 2 kg in 2-3 giorni</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Attività fisica</h3>
-<p class="text-slate-300 mb-3">
-              Contrariamente a quanto si potrebbe pensare, l'attività fisica leggera e regolare fa bene allo scompenso cardiaco:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Camminare a passo moderato per 20-30 minuti al giorno</li>
-<li>Fare attività regolare, ma senza affaticarsi eccessivamente</li>
-<li>Evitare sforzi improvvisi o molto intensi</li>
-<li>Fermarsi se compare mancanza di fiato, dolore al petto o capogiri</li>
-<li>Il cardiologo può consigliare programmi di riabilitazione cardiaca</li>
-</ul>
-</div>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Alimentazione</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Seguire una dieta equilibrata, ricca di frutta, verdura e cereali integrali</li>
-<li>Preferire carni bianche e pesce</li>
-<li>Limitare grassi saturi e cibi molto elaborati</li>
-<li>Evitare pasti abbondanti che causano eccessivo gonfiore</li>
-<li>Mantenere un peso corporeo sano</li>
-</ul>
+<p class="text-slate-300 mb-3">L'attività fisica leggera e regolare fa bene allo scompenso cardiaco:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cammina a passo moderato</strong> per 20-30 minuti al giorno</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fai attività regolare,</strong> ma senza affaticarti eccessivamente</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fermati se compaiono</strong> mancanza di fiato, dolore al petto o capogiri</p>
+
+<p class="text-slate-300"><strong class="text-white">●Chiedi al cardiologo</strong> se puoi partecipare a programmi di riabilitazione cardiaca</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Alcol e fumo</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Alcol:</strong> limitare o evitare completamente le bevande alcoliche, che possono indebolire ulteriormente il cuore</li>
-<li><strong class="text-white">Fumo:</strong> smettere di fumare è essenziale. Il fumo peggiora lo scompenso e aumenta il rischio di complicanze</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Alcol:</strong> Limita o evita completamente le bevande alcoliche. L'alcol può indebolire ulteriormente il cuore.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Fumo:</strong> Smettere di fumare è essenziale. Il fumo peggiora lo scompenso e aumenta il rischio di complicanze. Chiedi al tuo medico aiuto per smettere se ne hai bisogno.</p>
 </div>
 
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Vaccinazioni</h3>
-<p class="text-slate-300 mb-3">
-              Le infezioni respiratorie possono peggiorare lo scompenso. È importante:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Vaccinarsi ogni anno contro l'influenza</li>
-<li>Fare il vaccino contro lo pneumococco (polmonite)</li>
-<li>Discutere con il medico eventuali altri vaccini consigliati</li>
-</ul>
+
+<p class="text-slate-300 mb-3">Le infezioni respiratorie possono peggiorare lo scompenso. È importante:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Vaccinarti ogni anno</strong> contro l'influenza</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fare il vaccino</strong> contro lo pneumococco (polmonite)</p>
+
+<p class="text-slate-300"><strong class="text-white">●Discutere con il medico</strong> eventuali altri vaccini consigliati</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-6 h-6 text-orange-400"></i>
-            Segnali di peggioramento: quando preoccuparsi
+            Quando devo chiamare il medico?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            È importante riconoscere i segnali che indicano un peggioramento dello scompenso. Intervenire precocemente può prevenire ricoveri ospedalieri e complicanze.
+È importante riconoscere i segnali che indicano un peggioramento dello scompenso. Intervenire precocemente può prevenire ricoveri ospedalieri e complicanze.
 </p>
 
 <div class="warning-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="phone" class="w-5 h-5 text-orange-400"></i>
-              Chiamare subito il medico se si nota:
+              Chiama subito il tuo medico se noti:
 </h3>
-<ul class="text-slate-300 space-y-3 ml-5 list-disc">
-<li><strong class="text-white">Aumento improvviso del peso:</strong> più di 2 kg in 2-3 giorni</li>
-<li><strong class="text-white">Peggioramento della mancanza di fiato:</strong> affanno che aumenta o compare a riposo</li>
-<li><strong class="text-white">Gonfiore crescente:</strong> gambe e caviglie sempre più gonfie</li>
-<li><strong class="text-white">Difficoltà a dormire sdraiati:</strong> bisogno di aggiungere cuscini o dormire seduti</li>
-<li><strong class="text-white">Tosse persistente:</strong> soprattutto notturna, con eventuale catarro</li>
-<li><strong class="text-white">Stanchezza estrema:</strong> debolezza che peggiora rapidamente</li>
-<li><strong class="text-white">Ridotta produzione di urina:</strong> fare pipì molto meno del solito</li>
-<li><strong class="text-white">Battito cardiaco irregolare o molto veloce:</strong> sensazione di cuore che batte in modo strano</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aumento improvviso del peso:</strong> più di 2 kg in 2-3 giorni</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Peggioramento della mancanza di fiato:</strong> affanno che aumenta o compare a riposo</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Gonfiore crescente:</strong> gambe e caviglie sempre più gonfie</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Difficoltà a dormire sdraiato:</strong> bisogno di aggiungere cuscini o dormire seduto</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tosse persistente:</strong> soprattutto notturna, con eventuale catarro</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stanchezza estrema:</strong> debolezza che peggiora rapidamente</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ridotta produzione di urina:</strong> fare pipì molto meno del solito</p>
+
+<p class="text-slate-300"><strong class="text-white">●Battito cardiaco irregolare o molto veloce:</strong> sensazione di cuore che batte in modo strano</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="phone-call" class="w-5 h-5 text-red-400"></i>
-              Chiamare immediatamente il 118 se si presenta:
+              CHIAMA IMMEDIATAMENTE IL 118 se hai:
 </h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Dolore al petto intenso o prolungato</li>
-<li>Grave difficoltà respiratoria o sensazione di soffocamento</li>
-<li>Svenimento o grave capogiro</li>
-<li>Confusione mentale improvvisa</li>
-<li>Battito cardiaco estremamente veloce o irregolare</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto intenso o prolungato</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Grave difficoltà respiratoria o sensazione di soffocamento</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Svenimento o grave capogiro</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Confusione mentale improvvisa</strong></p>
+
+<p class="text-slate-300"><strong class="text-white">●Battito cardiaco estremamente veloce o irregolare</strong></p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="calendar-check" class="w-6 h-6 text-emerald-400"></i>
-            Controlli regolari
+            Quanto spesso devo fare i controlli?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il follow-up regolare con il cardiologo è fondamentale per monitorare lo scompenso e adattare le cure. Durante le visite, il medico valuterà i sintomi, controllerà il peso e la pressione, e prescriverà esami del sangue periodici.
+Il follow-up regolare con il tuo cardiologo è fondamentale per monitorare lo scompenso e adattare le cure.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa aspettarsi dalle visite di controllo</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Discussione dei sintomi e di eventuali cambiamenti</li>
-<li>Misurazione del peso, della pressione e del battito cardiaco</li>
-<li>Visita clinica per verificare segni di accumulo di liquidi</li>
-<li>Aggiustamento dei farmaci se necessario</li>
-<li>Prescrizione di esami del sangue per controllare reni ed elettroliti</li>
-<li>Ecografie cardiache periodiche per valutare la funzione del cuore</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Cosa succede durante le visite di controllo</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Il medico ti chiederà</strong> dei sintomi e di eventuali cambiamenti</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Misurerà</strong> il peso, la pressione e il battito cardiaco</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farà una visita clinica</strong> per verificare segni di accumulo di liquidi</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Potrà aggiustare i farmaci</strong> se necessario</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Prescriverà esami del sangue</strong> per controllare reni ed elettroliti</p>
+
+<p class="text-slate-300"><strong class="text-white">●Programmerà ecografie cardiache periodiche</strong> per valutare la funzione del cuore</p>
 </div>
 
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Frequenza dei controlli</h3>
-<p class="text-slate-300 mb-3">
-              La frequenza delle visite dipende dalla gravità dello scompenso:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Nelle fasi iniziali o dopo aggiustamenti terapeutici: controlli più ravvicinati</li>
-<li>Quando la situazione è stabile: visite ogni 3-6 mesi</li>
-<li>Esami del sangue: generalmente ogni 3-6 mesi</li>
-<li>Ecocardiogramma: di solito una o due volte all'anno</li>
-</ul>
+
+<p class="text-slate-300 mb-3">La frequenza delle visite dipende da quanto grave è il tuo scompenso:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Nelle fasi iniziali</strong> o dopo aggiustamenti terapeutici: controlli più ravvicinati (ogni 2-4 settimane)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quando la situazione è stabile:</strong> visite ogni 3-6 mesi</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esami del sangue:</strong> generalmente ogni 3-6 mesi</p>
+
+<p class="text-slate-300"><strong class="text-white">●Ecocardiogramma:</strong> di solito una o due volte all'anno</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="heart-pulse" class="w-6 h-6 text-pink-400"></i>
-            Vivere con lo scompenso cardiaco
+            Come posso vivere bene con lo scompenso cardiaco?
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Ricevere una diagnosi di scompenso cardiaco può essere spaventoso, ma è importante sapere che con le cure giuste e le modifiche dello stile di vita molte persone conducono vite soddisfacenti e attive per molti anni.
+Ricevere una diagnosi di scompenso cardiaco può essere spaventoso. Ma è importante sapere che con le cure giuste e le modifiche dello stile di vita molte persone conducono vite soddisfacenti e attive per molti anni.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Aspetti pratici</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Organizzare i farmaci:</strong> usare portapillole settimanali per non dimenticare le dosi</li>
-<li><strong class="text-white">Tenere un diario:</strong> annotare peso quotidiano, sintomi e pressione arteriosa</li>
-<li><strong class="text-white">Pianificare le attività:</strong> distribuire le attività impegnative durante la giornata, intervallate da pause</li>
-<li><strong class="text-white">Adattare la casa:</strong> organizzare gli spazi per ridurre gli sforzi (ad esempio, tenere oggetti di uso comune a portata di mano)</li>
-<li><strong class="text-white">Chiedere aiuto:</strong> non esitare a farsi aiutare da familiari per attività faticose</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Organizza i farmaci:</strong> Usa portapillole settimanali per non dimenticare le dosi.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tieni un diario:</strong> Annota peso quotidiano, sintomi e pressione arteriosa.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pianifica le attività:</strong> Distribuisci le attività impegnative durante la giornata, intervallate da pause.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Adatta la casa:</strong> Organizza gli spazi per ridurre gli sforzi (ad esempio, tieni oggetti di uso comune a portata di mano).</p>
+
+<p class="text-slate-300"><strong class="text-white">●Chiedi aiuto:</strong> Non esitare a farti aiutare da familiari per attività faticose.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Aspetto emotivo</h3>
-<p class="text-slate-300 mb-3">
-              È normale sentirsi ansiosi, preoccupati o tristi dopo la diagnosi. Questi sentimenti fanno parte del processo di adattamento:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Parlare apertamente dei propri sentimenti con familiari e amici</li>
-<li>Considerare il supporto di gruppi di pazienti con lo stesso problema</li>
-<li>Informare il medico se l'ansia o la tristezza diventano opprimenti</li>
-<li>Mantenere contatti sociali e hobby che danno piacere</li>
-<li>Ricordare che la condizione è gestibile e che le cure funzionano</li>
-</ul>
+
+<p class="text-slate-300 mb-3">È normale sentirsi ansiosi, preoccupati o tristi dopo la diagnosi. Questi sentimenti fanno parte del processo di adattamento:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Parla apertamente</strong> dei tuoi sentimenti con familiari e amici</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Considera il supporto</strong> di gruppi di pazienti con lo stesso problema</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Informa il medico</strong> se l'ansia o la tristezza diventano opprimenti</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mantieni contatti sociali</strong> e hobby che ti danno piacere</p>
+
+<p class="text-slate-300"><strong class="text-white">●Ricorda</strong> che la condizione è gestibile e che le cure funzionano</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Il ruolo dei familiari</h3>
-<p class="text-slate-300 mb-3">
-              I familiari svolgono un ruolo importante nel supporto del paziente con scompenso cardiaco:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Aiutare a ricordare l'assunzione dei farmaci</li>
-<li>Incoraggiare l'aderenza alle raccomandazioni sullo stile di vita</li>
-<li>Aiutare a riconoscere i segnali di peggioramento</li>
-<li>Accompagnare alle visite mediche e prendere appunti</li>
-<li>Offrire supporto emotivo e pratico nelle attività quotidiane</li>
-<li>Imparare insieme al paziente sulla condizione</li>
-</ul>
+
+<p class="text-slate-300 mb-3">I familiari svolgono un ruolo importante nel supporto:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aiutare a ricordare</strong> l'assunzione dei farmaci</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Incoraggiare l'aderenza</strong> alle raccomandazioni sullo stile di vita</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aiutare a riconoscere</strong> i segnali di peggioramento</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Accompagnare alle visite</strong> mediche e prendere appunti</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Offrire supporto emotivo</strong> e pratico nelle attività quotidiane</p>
+
+<p class="text-slate-300"><strong class="text-white">●Imparare insieme</strong> sulla condizione</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="lightbulb" class="w-6 h-6 text-amber-400"></i>
-            Domande frequenti
+            Quali sono le domande più frequenti?
 </h2>
 
 <div class="info-step rounded-lg p-6 mb-4">
@@ -585,16 +612,22 @@ date: "2025-10-18"
             Punti chiave da ricordare
 </h2>
 <div class="highlight-box rounded-lg p-6">
-<ul class="text-slate-300 space-y-3 ml-5 list-disc">
-<li>Lo scompenso cardiaco è una condizione in cui il cuore fatica a pompare sangue in modo efficace</li>
-<li>I sintomi principali sono mancanza di fiato, stanchezza e gonfiore alle gambe</li>
-<li>La causa più comune è un infarto pregresso, seguito da pressione alta e problemi alle valvole cardiache</li>
-<li>Il trattamento si basa su farmaci che hanno dimostrato di migliorare i sintomi e prolungare la vita</li>
-<li>È fondamentale prendere i farmaci regolarmente, limitare il sale e controllare il peso ogni giorno</li>
-<li>Riconoscere precocemente i segnali di peggioramento permette di intervenire tempestivamente</li>
-<li>Con le cure giuste e le modifiche dello stile di vita, molte persone con scompenso conducono vite soddisfacenti</li>
-<li>Il supporto dei familiari e il follow-up regolare con il cardiologo sono elementi essenziali della gestione</li>
-</ul>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Lo scompenso cardiaco</strong> è una condizione in cui il cuore fatica a pompare sangue in modo efficace</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●I sintomi principali</strong> sono mancanza di fiato, stanchezza e gonfiore alle gambe</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●La causa più comune</strong> è un infarto pregresso, seguito da pressione alta e problemi alle valvole cardiache</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Il trattamento</strong> si basa su farmaci che hanno dimostrato di migliorare i sintomi e prolungare la vita</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●È fondamentale</strong> prendere i farmaci regolarmente, limitare il sale e controllare il peso ogni giorno</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Riconoscere precocemente</strong> i segnali di peggioramento permette di intervenire tempestivamente</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Con le cure giuste,</strong> molte persone con scompenso conducono vite soddisfacenti per molti anni</p>
+
+<p class="text-slate-300"><strong class="text-white">●Il supporto dei familiari</strong> e il follow-up regolare con il cardiologo sono elementi essenziali della gestione</p>
 </div>
 </section>
 
