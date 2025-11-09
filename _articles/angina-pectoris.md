@@ -191,48 +191,49 @@ Qual è la classificazione clinica dell'angina pectoris?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="activity" class="w-6 h-6 text-pink-400"></i>
-<span class="text-white">Quali sono i sintomi dell'angina?</span>
+Qual è la semeiotica clinica dell'angina pectoris?
 </h2>
 
-<h3 class="text-xl font-bold mb-4 text-white">Come si presenta tipicamente</h3>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Tipo di dolore:</strong> La maggior parte delle persone descrive una sensazione di oppressione, peso o pressione al centro del petto, come se qualcuno stesse schiacciando o stringendo. Non è un dolore acuto come una puntura o una coltellata, e non si può indicare un punto preciso con un dito</li>
-<li><strong class="text-white">Dove si sente:</strong> Al centro del petto o nella parte sinistra, dietro lo sterno (l'osso centrale del petto). L'area interessata è abbastanza grande, di circa 10-15 centimetri, non un singolo punto</li>
-<li><strong class="text-white">Dove può diffondersi:</strong> Il dolore può estendersi verso il braccio sinistro (soprattutto dalla parte del mignolo), la mandibola, il collo, la schiena tra le scapole, o anche il braccio destro. Talvolta può essere sentito alla bocca dello stomaco</li>
-<li><strong class="text-white">Quanto dura:</strong> Di solito da 2 a 10 minuti. Se dura meno di 30 secondi, probabilmente non è angina. Se dura più di 15-20 minuti senza passare, potrebbe essere un infarto e dovete chiamare subito il 112/118</li>
-<li><strong class="text-white">Cosa lo scatena:</strong> Attività fisica (camminare, salire le scale, portare borse pesanti), forti emozioni o stress, esposizione al freddo, pasti abbondanti</li>
-<li><strong class="text-white">Cosa fa passare il dolore:</strong> Fermarsi e riposare (il dolore passa entro 5-10 minuti) oppure prendere la medicina che avete sotto la lingua (che fa effetto in 3-5 minuti)</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Angina tipica: criteri diagnostici (Diamond-Forrester)</h3>
+<p class="text-slate-300 mb-3">Dolore toracico classificato come "angina tipica" se presenta tutti 3 criteri seguenti (specificità 90-95% CAD significativa):</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">1. Qualità dolore:</strong> oppressivo/costrittivo/gravativo, NON puntorio/trafittivo. Segno Levine positivo (pugno chiuso sterno) in 40-50% pazienti. Area dolore diffusa (10-15 cm diametro), non puntiforme. Intensità variabile (discomfort lieve a dolore severo 7-8/10 VAS).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">2. Localizzazione/irradiazione:</strong> retrosternale/precordiale sinistra. Irradiazione pattern dermatomerico C7-T4: braccio sinistro lato ulnare (70% casi, territorio C8-T1), mandibola (30%), collo (25%), scapola/spalla sinistra (20%), braccio destro (15%), epigastrio (10-15%).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">3. Trigger/risoluzione:</strong> provocato sforzo fisico/stress emotivo (↑MVO₂), risoluzione con riposo entro 2-10 min o nitroglicerina SL entro 1-3 min.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Angina atipica:</strong> dolore toracico con solo 2/3 criteri sopra. Probabilità CAD 50-70% (dipende pretest probability da età, sesso, fattori rischio).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dolore toracico non-cardiaco:</strong> ≤1 criterio. Probabilità CAD <10-20%.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Sintomi diversi dal dolore al petto</h3>
 <div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Equivalenti anginosi (presentazioni atipiche ischemia miocardica)</h3>
 <p class="text-slate-300 mb-4">
-        Alcune persone, soprattutto donne, anziani e persone con diabete, possono avere sintomi diversi dal classico dolore al petto:
+        Sintomi ischemia miocardica senza dolore toracico classico. Prevalenza equivalenti anginosi: 20-30% pazienti CAD, maggiore in sottogruppi specifici (diabetici 40-50%, donne 30-40%, anziani >75 anni 35-45%, IRC avanzata 30-40%). Razionale: neuropatia auton diabetica, soglia percezione dolore elevata, pattern irradiazione dermatomerico atipico.
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Affanno improvviso:</strong> Vi manca il respiro durante attività che prima facevate senza problemi. Questo è particolarmente comune nelle persone anziane</li>
-<li><strong class="text-white">Stanchezza intensa:</strong> Vi sentite improvvisamente molto stanchi e deboli facendo cose che prima tolleravate bene</li>
-<li><strong class="text-white">Disturbi digestivi:</strong> Dolore o fastidio alla bocca dello stomaco, nausea, sensazione di pienezza o pesantezza allo stomaco</li>
-<li><strong class="text-white">Capogiri o svenimenti:</strong> Causati dal fatto che il cuore non riesce a pompare abbastanza sangue</li>
-<li><strong class="text-white">Nessun sintomo:</strong> Alcune persone, specialmente chi ha il diabete, possono non sentire alcun dolore anche quando il cuore non riceve abbastanza sangue (si chiama "angina silente")</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea da sforzo isolata (equivalente anginoso più frequente 60-70%):</strong> dyspnea on exertion (DOE) provocata attività fisica, risoluzione con riposo. Meccanismo: ischemia miocardica → disfunzione diastolica → ↑pressione telediastolica VS → congestione polmonare acuta. Tipico pazienti anziani, donne, diabetici.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Astenia/fatica intensa sforzo:</strong> affaticamento sproporzionato entità sforzo, limitazione attività abituali. Meccanismo: ridotta riserva contrattile per ischemia → ridotta gittata cardiaca sotto sforzo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi gastrointestinali:</strong> dolore epigastrico oppressivo, nausea, fullness postprandiale. Prevalenza 10-15% presentazioni ACS. Irradiazione dermatomeri T4-T6 (sovrapposizione territorio cardiaco/gastrico).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Presincope/sincope da sforzo:</strong> lipotimia/perdita coscienza durante attività fisica. Meccanismo: ischemia severa → disfunzione VS acuta → ipoperfusione cerebrale. Suggerisce CAD critica (stenosi tronco comune, malattia trivasale, stenosi aortica severa concomitante).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia silente (totalmente asintomatica 15-20% pazienti CAD):</strong> evidenza obiettiva ischemia miocardica (sottoslivellamento ST test sforzo, deficit perfusione scintigrafia) senza sintomi. Prevalenza massima diabete mellito (30-40%), autonomic neuropathy, anziani, post-trapianto cardiaco.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Quando andare immediatamente al pronto soccorso</h3>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        Chiamate subito il 112/118 se avete una di queste situazioni:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Dolore al petto che dura più di 15-20 minuti, anche stando fermi a riposo</li>
-<li>Dolore al petto che non avete mai avuto prima e che è forte e limitante</li>
-<li>Il vostro solito dolore da angina che sta diventando sempre più frequente, più forte o dura di più</li>
-<li>Il dolore non passa dopo aver preso la medicina sotto la lingua 2-3 volte</li>
-<li>Insieme al dolore avete: forte mancanza di respiro, sudorazione abbondante, nausea o vomito, svenimento</li>
-<li>Insieme al dolore il medico sente un soffio nuovo al cuore, sentite rumori al petto, o avete la pressione molto bassa</li>
-</ul>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Red flags: quando sospettare sindrome coronarica acuta (chiamata 118)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico a riposo persistente:</strong> durata >20 minuti senza risoluzione spontanea, non responsivo a 2-3 dosi nitroglicerina SL (intervallo 5 min). Suggerisce occlusione coronarica acuta vs angina instabile severa.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern crescendo/accelerazione angina:</strong> angina preesistente con cambiamento pattern: ↑frequenza (da episodica a quotidiana/multipla daily), ↑durata (da 3-5 min a 10-20 min), ↑intensità, ↓soglia scatenamento (da sforzi intensi a minimi sforzi/riposo), ↓risposta nitrati. Indica progressione patologia coronarica (crescita placca, instabilità placca).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico de novo severo:</strong> prima presentazione angina con intensità severa, limitante attività CCS III-IV, specie in paziente con multipli fattori rischio cardiovascolare.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi associati alto rischio:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Dispnea severa/ortopnea acuta (edema polmonare flash da ischemia acuta)</p>
+<p class="text-slate-300 ml-6 mb-3">- Sincope/presincope (ipotensione, bradiaritmie/tachiaritmie maligne)</p>
+<p class="text-slate-300 ml-6 mb-3">- Diaforesi profusa (attivazione simpatica massiva)</p>
+<p class="text-slate-300 ml-6 mb-3">- Nausea/vomito (stimolazione vagale, infarto inferiore)</p>
+<p class="text-slate-300 ml-6 mb-6">- Palpitazioni/aritmie (TV, FA parossistica da ischemia)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Segni obiettivi instabilità emodinamica:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Ipotensione severa (PAs <90 mmHg, shock cardiogeno)</p>
+<p class="text-slate-300 ml-6 mb-3">- Nuovo soffio insufficienza mitralica (rottura muscolo papillare, ischemia severa)</p>
+<p class="text-slate-300 ml-6 mb-3">- Rantoli polmonari diffusi bibasali (congestione polmonare acuta)</p>
+<p class="text-slate-300 ml-6 mb-6">- Ritmo galoppo S3 (disfunzione ventricolare acuta)</p>
 </div>
   </section>
 
