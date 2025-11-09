@@ -206,30 +206,30 @@ date: "2025-10-13"
             Come si trattano le apnee?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il trattamento dell'OSA prevede approcci terapeutici diversificati in base alla gravità, alla presenza di comorbidità e alle caratteristiche anatomiche. L'obiettivo è il ripristino della pervietà delle vie aeree superiori durante il sonno.
+            Il trattamento delle apnee notturne dipende da quanto sono gravi, se hai altri problemi di salute, e dalle caratteristiche della tua gola. L'obiettivo è mantenere aperte le vie respiratorie mentre dormi, così non smetti di respirare.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">CPAP (Continuous Positive Airway Pressure)</h3>
+<h3 class="font-bold text-white mb-3">CPAP (ventilazione a pressione positiva)</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              Terapia di prima linea per OSA moderata-grave (AHI ≥15) e prima scelta anche per OSA lieve sintomatica o con comorbidità cardiovascolari. Efficacia dimostrata nel ridurre AHI, migliorare qualità del sonno e outcomes cardiovascolari.
+              La CPAP è la cura principale per le apnee moderate-gravi (15 o più interruzioni del respiro all'ora). È raccomandata anche se hai apnee lievi ma con sintomi importanti o problemi al cuore. È dimostrato che funziona: riduce le apnee, migliora il sonno e protegge il cuore.
 </p>
 <p class="text-slate-300 leading-relaxed mb-3">
-<strong class="text-white">Meccanismo d'azione:</strong>
+<strong class="text-white">Come funziona:</strong>
 </p>
-<p class="text-slate-300 mb-3">●Il dispositivo genera un flusso d'aria a pressione positiva continua (tipicamente 5-20 cmH2O) calibrata su polisonnografia o autotitolazione</p>
-<p class="text-slate-300 mb-3">●L'aria viene somministrata attraverso circuito dedicato e interfaccia nasale o oro-nasale</p>
-<p class="text-slate-300 mb-3">●La pressione positiva pneumatica mantiene pervie le vie aeree superiori prevenendo il collasso faringeo</p>
-<p class="text-slate-300 mb-6">●Riduzione dell'AHI <5 eventi/ora nell'80-90% dei pazienti aderenti con normalizzazione degli indici di ossigenazione</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Un apparecchio genera aria a pressione:</strong> la macchina CPAP produce un flusso d'aria con una pressione regolabile (di solito tra 5 e 20 cmH2O). La pressione viene impostata in base ai risultati dell'esame del sonno o si regola automaticamente</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Indossi una maschera durante il sonno:</strong> l'aria arriva attraverso un tubo a una maschera che metti sul naso o su naso e bocca</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●La pressione tiene aperte le vie respiratorie:</strong> l'aria a pressione agisce come un "tutore pneumatico" che impedisce alla gola di chiudersi mentre dormi</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Funziona molto bene:</strong> in circa 80-90 persone su 100 che usano la CPAP correttamente, le apnee scendono a meno di 5 all'ora (quasi normali) e l'ossigeno nel sangue torna normale</p>
 <p class="text-slate-300 leading-relaxed">
-<strong class="text-white">Interfacce disponibili:</strong> maschere nasali, oronasali, nasali a cuscinetti (pillows). La scelta dipende da respirazione orale notturna, claustrofobia, struttura facciale.
+<strong class="text-white">Tipi di maschere disponibili:</strong> maschere nasali (solo sul naso), maschere oronasali (coprono naso e bocca), cuscinetti nasali (più piccole, solo sulle narici). La scelta dipende da se respiri con la bocca aperta di notte, se soffri di claustrofobia, e dalla forma del tuo viso.
 </p>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Opzioni terapeutiche alternative</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●MAD (Mandibular Advancement Device):</strong> dispositivi orali che avanzano la mandibola di 60-75% della protrusione massima, incrementando il calibro delle vie aeree superiori. Indicati in OSA lieve-moderata o intolleranza alla CPAP. Efficacia: riduzione AHI 40-50%</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Chirurgia delle vie aeree:</strong> uvulopalatofaringoplastica (UPPP), tonsillectomia, settoplastica, chirurgia bariatrica in pazienti obesi. Successo variabile 40-60% in pazienti selezionati con ostruzione anatomica documentata</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stimolazione del nervo ipoglosso (HGNS):</strong> terapia innovativa con neurostimolatore impiantabile che attiva il muscolo genioglosso riducendo il collasso linguale. Indicazioni: OSA moderata-grave, BMI <32, fallimento CPAP, pattern di collasso favorevole</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Terapia posizionale:</strong> dispositivi che prevengono il decubito supino. Efficaci solo in OSA posizionale (AHI supino/laterale ≥2). Riduzione AHI 50-60% in pazienti selezionati</p>
+<h3 class="font-bold text-white mb-3">Altre cure disponibili</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Bite per avanzare la mandibola (MAD):</strong> sono apparecchi dentali (simili a un bite per i denti) che tengono la mandibola spostata in avanti del 60-75% rispetto alla massima protrusione. Questo aumenta lo spazio nella gola e riduce le apnee. Sono indicati se hai apnee lievi-moderate o se non riesci a tollerare la CPAP. Riducono le apnee del 40-50%</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Chirurgia:</strong> ci sono diversi tipi di interventi chirurgici: rimozione di parte del palato molle e dell'ugola (UPPP), rimozione delle tonsille se sono molto grosse, correzione del setto nasale deviato, chirurgia per perdere peso in persone molto obese. Il successo varia dal 40% al 60% in persone selezionate con problemi anatomici specifici</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stimolazione del nervo ipoglosso (HGNS):</strong> è una cura innovativa. Un piccolo apparecchio viene impiantato chirurgicamente sotto la pelle e stimola il nervo che controlla la lingua. Questo impedisce alla lingua di cadere all'indietro e bloccare la gola. È indicato se hai apnee moderate-gravi, un BMI inferiore a 32, non riesci a usare la CPAP, e hai un tipo specifico di restringimento delle vie aeree</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dispositivi per non dormire sulla schiena:</strong> sono apparecchi che ti impediscono di dormire a pancia in su (sulla schiena). Funzionano solo se le tue apnee sono principalmente posizionali (almeno il doppio sulla schiena rispetto al fianco). Riducono le apnee del 50-60% in persone selezionate</p>
 </div>
 </section>
 
@@ -240,34 +240,34 @@ date: "2025-10-13"
             Cosa aspettarsi dalla CPAP e come adattarsi?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'aderenza terapeutica rappresenta il principale determinante dell'efficacia della CPAP. Il periodo di adattamento iniziale richiede mediamente 2-4 settimane. I dati telemetrici mostrano aderenza ottimale (≥4 ore/notte per ≥70% delle notti) nel 40-60% dei pazienti a 1 anno.
+            Per far funzionare bene la CPAP, la cosa più importante è usarla regolarmente ogni notte. All'inizio ci vuole un periodo di adattamento di circa 2-4 settimane. I dati mostrano che circa 40-60 persone su 100 usano la CPAP nel modo giusto (almeno 4 ore a notte, per almeno 7 notti su 10) dopo 1 anno.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Effetti collaterali iniziali e gestione</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Claustrofobia e disagio dell'interfaccia:</strong> riferito dal 30-50% dei pazienti nelle prime settimane. Gestione: desensibilizzazione graduale, prova di interfacce alternative, utilizzo progressivo (iniziare con 2-3 ore)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Intolleranza alla pressione:</strong> sensazione di eccessiva pressione espiratoria. Gestione: funzione rampa (aumento graduale della pressione), EPR (pressure relief), valutazione pressione ottimale</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Secchezza delle mucose:</strong> xerostomia, rinite secca in 20-30% dei pazienti. Gestione: umidificazione riscaldata, spray nasali salini, regolazione temperatura</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Leak (perdite d'aria):</strong> leak eccessivi riducono l'efficacia terapeutica. Gestione: ottimizzazione fitting maschera, sostituzione componenti usurati, addestramento posizionamento</p>
+<h3 class="font-bold text-white mb-3">Problemi iniziali e come risolverli</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Claustrofobia e fastidio della maschera:</strong> circa 30-50 persone su 100 nelle prime settimane sentono fastidio o claustrofobia con la maschera. Come risolvere: inizia indossandola solo per 2-3 ore la prima settimana, poi aumenta gradualmente. Prova maschere diverse (nasali, oronasali, cuscinetti). Col tempo ti abitui</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Difficoltà a respirare contro la pressione:</strong> all'inizio può sembrarti difficile buttare fuori l'aria contro la pressione della CPAP. Come risolvere: usa la funzione "rampa" (la macchina aumenta la pressione gradualmente dopo che ti sei addormentato). Molte CPAP hanno anche la funzione EPR (riduce la pressione quando espiri). Chiedi al medico se la pressione è troppo alta</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Bocca e naso secchi:</strong> circa 20-30 persone su 100 hanno secchezza della bocca e del naso. Come risolvere: usa l'umidificatore riscaldato incluso nella maggior parte delle CPAP. Puoi usare spray nasali con soluzione salina. Regola la temperatura dell'umidificatore fino a trovare quella giusta per te</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Perdite d'aria dalla maschera:</strong> se la maschera perde aria, la CPAP non funziona bene. Come risolvere: assicurati che la maschera sia della taglia giusta e ben posizionata. Sostituisci le parti usurate (cuscinetti, cinghie). Il tecnico può insegnarti come posizionarla correttamente</p>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Outcomes clinici con aderenza ottimale</h3>
+<h3 class="font-bold text-white mb-3">Quali miglioramenti aspettarsi se usi la CPAP regolarmente</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              I benefici terapeutici sono dose-dipendenti e si manifestano progressivamente:
+              I benefici aumentano più usi la CPAP, e si notano gradualmente:
 </p>
-<p class="text-slate-300 mb-3">●Miglioramento qualità soggettiva del sonno (2-7 giorni)</p>
-<p class="text-slate-300 mb-3">●Riduzione eccessiva sonnolenza diurna con calo Epworth score di 3-5 punti (2-4 settimane)</p>
-<p class="text-slate-300 mb-3">●Miglioramento performance neurocognitive e memoria (4-12 settimane)</p>
-<p class="text-slate-300 mb-3">●Riduzione pressione arteriosa media 2-10 mmHg (4-12 settimane)</p>
-<p class="text-slate-300 mb-3">●Riduzione nicturia per minor rilascio di ANP (1-2 settimane)</p>
-<p class="text-slate-300 mb-6">●Riduzione rischio eventi cardiovascolari maggiori (MACE) del 30-40% in studi prospettici a lungo termine</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dormi meglio (2-7 giorni):</strong> nei primi giorni noti già che dormi meglio e ti senti più riposato</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meno sonnolenza durante il giorno (2-4 settimane):</strong> dopo 2-4 settimane la sonnolenza diurna diminuisce molto. Ti senti più sveglio e attivo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pensi e ricordi meglio (4-12 settimane):</strong> dopo 1-3 mesi migliora la capacità di concentrarti, ricordare e pensare velocemente</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione più bassa (4-12 settimane):</strong> la pressione arteriosa scende di 2-10 mmHg in 1-3 mesi. Questo protegge il cuore</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ti alzi meno di notte per urinare (1-2 settimane):</strong> già dopo 1-2 settimane devi alzarti meno volte di notte per andare in bagno</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Cuore più protetto a lungo termine:</strong> dopo mesi e anni di uso regolare, il rischio di infarto, ictus e altri eventi cardiovascolari gravi si riduce del 30-40%. Questo è dimostrato da molti studi scientifici</p>
 </div>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="heart" class="w-5 h-5 text-orange-400"></i>
-              Requisiti di aderenza terapeutica
+              Quanto devi usare la CPAP perché funzioni
 </h3>
 <p class="text-slate-300 leading-relaxed">
-              L'aderenza minima per ottenere benefici clinici è ≥4 ore/notte per almeno il 70% delle notti. L'utilizzo sporadico non produce outcomes cardiovascolari significativi. Il monitoraggio telemetrico dell'aderenza permette interventi precoci in caso di scarsa compliance. Follow-up regolare (1, 3, 6, 12 mesi) migliora l'aderenza a lungo termine del 20-30%.
+              Per ottenere benefici reali devi usare la CPAP almeno 4 ore a notte, per almeno 7 notti su 10 (70% delle notti). Se la usi solo ogni tanto, non proteggi il cuore in modo efficace. La tua CPAP può trasmettere i dati di utilizzo al medico via internet (monitoraggio telematico), così il medico può aiutarti subito se vede che non la stai usando abbastanza. I controlli regolari con il medico (dopo 1 mese, 3 mesi, 6 mesi, 1 anno) aiutano a usarla meglio a lungo termine: chi fa i controlli regolari ha una probabilità del 20-30% in più di continuare a usare bene la CPAP.
 </p>
 </div>
 </section>
@@ -279,45 +279,45 @@ date: "2025-10-13"
             Quali cambiamenti nello stile di vita possono aiutare?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Le modifiche dello stile di vita rappresentano interventi terapeutici coadiuvanti che possono ridurre la gravità dell'OSA e migliorare l'efficacia delle terapie primarie. Alcuni interventi possono portare a risoluzione dell'OSA lieve in pazienti selezionati.
+            I cambiamenti nello stile di vita sono cure complementari che possono ridurre la gravità delle apnee notturne e far funzionare meglio le cure principali (come la CPAP). In alcune persone con apnee lievi, questi cambiamenti possono risolvere completamente il problema.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Riduzione ponderale</h3>
+<h3 class="font-bold text-white mb-3">Perdere peso</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              La perdita di peso è l'intervento non farmacologico più efficace nell'OSA. Riduzione del 10% del peso corporeo determina riduzione media dell'AHI del 26%. Perdita ≥15% può portare a risoluzione completa in OSA lieve-moderata.
+              Perdere peso è la cosa più efficace che puoi fare senza farmaci. Se perdi anche solo il 10% del tuo peso, le apnee diminuiscono in media del 26%. Se perdi il 15% o più del peso, e hai apnee lievi-moderate, puoi risolverle completamente.
 </p>
 <p class="text-slate-300 leading-relaxed">
-              Approcci: dieta ipocalorica bilanciata, esercizio fisico aerobico regolare (150 min/settimana), supporto nutrizionistico strutturato. Chirurgia bariatrica in obesità grave (BMI ≥40) riduce AHI del 50-70% ma non elimina completamente l'OSA in tutti i pazienti.
+              Come fare: segui una dieta con meno calorie ma bilanciata (con tutti i nutrienti). Fai esercizio aerobico regolare (almeno 150 minuti a settimana, circa 30 minuti per 5 giorni). Chiedi supporto a un nutrizionista. Se hai un'obesità molto grave (BMI di 40 o più), la chirurgia per perdere peso (chirurgia bariatrica) riduce le apnee del 50-70%, anche se non sempre le elimina completamente.
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Terapia posizionale</h3>
+<h3 class="font-bold text-white mb-3">Dormire su un fianco invece che sulla schiena</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              Nell'OSA posizionale (25-30% dei casi, definita da AHI supino ≥2 volte AHI laterale), evitare il decubito supino riduce l'AHI del 50-60%. Efficacia maggiore in OSA lieve-moderata, BMI <30, età <65 anni.
+              Se hai apnee posizionali (circa 25-30 persone su 100, cioè apnee almeno 2 volte più frequenti sulla schiena che sul fianco), evitare di dormire sulla schiena riduce le apnee del 50-60%. Funziona meglio se hai apnee lievi-moderate, BMI inferiore a 30, e meno di 65 anni.
 </p>
 <p class="text-slate-300 leading-relaxed">
-<strong class="text-white">Dispositivi posizionali:</strong>
+<strong class="text-white">Dispositivi per aiutarti:</strong>
 </p>
-<p class="text-slate-300 mb-3">●Tennis ball technique: pallina rigida fissata posteriormente al pigiama, efficacia dimostrata ma compliance limitata a lungo termine</p>
-<p class="text-slate-300 mb-3">●Zaini posizionali: dispositivi commerciali più confortevoli con migliore aderenza</p>
-<p class="text-slate-300 mb-6">●Dispositivi vibranti (biofeedback): sensori che emettono vibrazione in posizione supina, aderenza 60-70% a 6 mesi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tecnica della pallina da tennis:</strong> cuci una pallina rigida nella parte posteriore del pigiama. Ti dà fastidio se ti giri sulla schiena, così dormi sul fianco. Funziona ma a lungo termine molte persone smettono di usarla</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Zaini posizionali:</strong> sono dispositivi commerciali (come piccoli zaini) più comodi della pallina. Più persone continuano a usarli</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dispositivi vibranti (biofeedback):</strong> sono sensori che vibrano quando ti giri sulla schiena, così ti svegli e ti rimetti sul fianco. Circa 60-70 persone su 100 li usano ancora dopo 6 mesi</p>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Altre modifiche comportamentali evidence-based</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Astinenza da alcol pre-sonno:</strong> evitare assunzione alcolica nelle 4-6 ore precedenti il sonno. L'alcol riduce tono muscolare faringeo e prolunga durata apnee</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cessazione tabagica:</strong> il fumo aumenta rischio OSA di 2-3 volte per edema e infiammazione vie aeree superiori</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizio fisico:</strong> attività aerobica regolare (indipendentemente dalla perdita ponderale) riduce AHI del 15-30% per miglioramento tono muscolare e riduzione infiammazione sistemica</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Igiene del sonno:</strong> orari regolari, ambiente adeguato (buio, silenzioso, 18-20°C), limitazione esposizione schermi luminosi pre-sonno per ottimizzare architettura del sonno</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Trattamento patologie rino-sinusali:</strong> gestione farmacologica o chirurgica di rinite allergica, poliposi, deviazione settale per ridurre ostruzione nasale che peggiora OSA</p>
+<h3 class="font-bold text-white mb-3">Altri cambiamenti che aiutano (dimostrati scientificamente)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Non bere alcolici prima di dormire:</strong> evita di bere alcol nelle 4-6 ore prima di andare a letto. L'alcol fa rilassare troppo i muscoli della gola e le apnee durano più a lungo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Smetti di fumare:</strong> il fumo aumenta il rischio di apnee notturne di 2-3 volte perché fa gonfiare e infiammare le mucose della gola</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fai esercizio fisico:</strong> l'attività fisica aerobica regolare (anche senza perdere peso) riduce le apnee del 15-30%. Questo succede perché migliora il tono muscolare e riduce l'infiammazione nel corpo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cura l'igiene del sonno:</strong> vai a letto e svegliati sempre alla stessa ora. Dormi in una stanza buia, silenziosa e fresca (18-20°C). Non guardare schermi luminosi (TV, smartphone) prima di dormire. Questo aiuta a dormire meglio</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Cura i problemi al naso:</strong> se hai rinite allergica, polipi nasali o setto nasale deviato, fatti curare con farmaci o chirurgia. Il naso chiuso peggiora le apnee</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Esercizi orofaringei (myofunctional therapy)</h3>
+<h3 class="font-bold text-white mb-3">Esercizi per rinforzare i muscoli della gola</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              Protocolli strutturati di esercizi per rinforzare muscolatura orofaringea mostrano efficacia moderata in studi controllati. Riduzione AHI 25-40% in pazienti selezionati. Maggior beneficio in OSA lieve-moderata.
+              Esercizi specifici per rinforzare i muscoli della bocca e della gola (chiamati esercizi miofunzionali) funzionano abbastanza bene secondo gli studi scientifici. Riducono le apnee del 25-40% in persone selezionate. Funzionano meglio se hai apnee lievi-moderate.
 </p>
-<p class="text-slate-300 mb-3">●Esercizi linguali: pressione lingua contro palato, protrusione, movimenti laterali (20 ripetizioni 3x/die)</p>
-<p class="text-slate-300 mb-3">●Training muscoli faringei: vocalizzazione prolungata vocali, deglutizione forzata</p>
-<p class="text-slate-300 mb-6">●Protocolli standardizzati supervisionati da logopedista specializzato migliorano compliance e outcomes</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizi per la lingua:</strong> premi la lingua contro il palato, spingi la lingua in fuori, muovila da un lato all'altro (20 ripetizioni, 3 volte al giorno)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizi per la gola:</strong> pronuncia le vocali in modo prolungato, deglutisci (ingoia) in modo forzato</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Meglio con supervisione:</strong> se fai questi esercizi seguiti da un logopedista specializzato, è più probabile che continui a farli e che funzionino meglio</p>
 </div>
 </section>
 
@@ -328,13 +328,13 @@ date: "2025-10-13"
             Cosa ricordare?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'apnea ostruttiva del sonno è una patologia respiratoria cronica con significative implicazioni cardiovascolari. L'OSA non trattata è associata a ipertensione resistente, aritmie, cardiopatia strutturale e aumentato rischio di eventi cardiovascolari maggiori (infarto, ictus).
+            Le apnee notturne (apnea ostruttiva del sonno) sono un problema respiratorio cronico che ha conseguenze importanti sul cuore e i vasi sanguigni. Se non vengono curate, le apnee notturne causano pressione alta difficile da controllare, battito cardiaco irregolare (aritmie), cuore ingrossato o indebolito, e aumentano molto il rischio di infarto e ictus.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La valutazione diagnostica è indicata in presenza di: russamento intenso irregolare con apnee osservate, eccessiva sonnolenza diurna (ESS >10), astenia non ristorata, ipertensione resistente o aritmie ricorrenti. La polisonnografia o poligrafia respiratoria conferma la diagnosi e stratifica la gravità.
+            Devi fare gli esami se hai uno o più di questi sintomi: russi molto forte in modo irregolare con pause nel respiro osservate da altri, sei molto sonnolento durante il giorno, ti senti sempre stanco anche se dormi tutta la notte, hai pressione alta che non si controlla bene con i farmaci, o hai battito cardiaco irregolare frequente. L'esame del sonno (polisonnografia o poligrafia) conferma la diagnosi e dice quanto sono gravi le apnee.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La CPAP è il trattamento di prima linea per OSA moderata-grave, con efficacia nel ridurre AHI, migliorare sintomatologia e outcomes cardiovascolari. L'aderenza terapeutica (≥4 ore/notte, ≥70% notti) è determinante per l'efficacia. Opzioni alternative (MAD, chirurgia, HGNS) sono indicate in casi selezionati. Le modifiche dello stile di vita (perdita peso, astinenza alcolica, terapia posizionale) sono interventi coadiuvanti evidence-based.
+            La CPAP è la cura principale per le apnee moderate-gravi. Funziona molto bene: riduce le apnee, migliora i sintomi e protegge il cuore. La cosa più importante è usarla regolarmente (almeno 4 ore a notte, per almeno 7 notti su 10). Se non puoi usare la CPAP, ci sono altre cure (bite per la mandibola, chirurgia, stimolazione del nervo ipoglosso) per situazioni specifiche. I cambiamenti nello stile di vita (perdere peso, non bere alcol prima di dormire, dormire sul fianco) aiutano le cure principali e in alcuni casi risolvono le apnee lievi.
 </p>
 <p class="text-slate-400 text-sm">
 <em>Questo articolo ha finalità informative e non sostituisce il parere del medico. Le apnee notturne richiedono diagnosi e trattamento da parte di centri specializzati in medicina del sonno.</em>
