@@ -298,73 +298,122 @@ Qual è il workflow diagnostico per sospetta angina pectoris?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="pill" class="w-6 h-6 text-emerald-400"></i>
-<span class="text-white">Come si tratta l'angina con i farmaci?</span>
+Qual è il trattamento farmacologico dell'angina pectoris?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      I farmaci per l'angina hanno due scopi principali: controllare i sintomi (ridurre il dolore e permettervi di fare più attività) e prevenire eventi gravi come l'infarto.
+      Strategia terapeutica farmacologica angina basata su due obiettivi distinti: (1) <strong class="text-white">Terapia anti-ischemica sintomatica</strong> riduce frequenza/severità episodi anginosi mediante riduzione MVO₂ o aumento offerta O₂ coronarica, (2) <strong class="text-white">Terapia preventiva eventi cardiovascolari</strong> (Terapia Medica Ottimale - OMT) riduce rischio MACE (morte cardiovascolare, infarto miocardico, necessità rivascolarizzazione urgente) mediante modificazione storia naturale aterosclerosi (stabilizzazione placca, riduzione progressione).
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Farmaci per controllare i sintomi</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Betabloccanti:</strong>
-</p>
-<p class="text-slate-300 mb-3">
-        Sono spesso la prima scelta per l'angina stabile. Questi farmaci fanno lavorare il cuore più "tranquillamente": rallentano il battito e riducono la forza di contrazione, così il cuore consuma meno ossigeno e non va in sofferenza. I più usati sono: metoprololo, atenololo, bisoprololo, carvedilolo.
-</p>
-<p class="text-slate-300">
-        Il medico di solito cerca di portare il vostro battito a riposo intorno a 50-60 battiti al minuto. Non possono essere usati in persone con asma grave, problemi importanti di conduzione elettrica nel cuore, battito già molto lento, o pressione molto bassa.
-</p>
+<h3 class="text-xl font-bold mb-4 text-white">Terapia anti-ischemica sintomatica (controllo angina)</h3>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Beta-bloccanti (prima linea angina stabile)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismo d'azione:</strong> antagonismo competitivo recettori β1-adrenergici cardiaci → bradicardia (riduzione FC basale/sforzo), riduzione contrattilità miocardica (inotropismo negativo), riduzione PA sistolica → complessiva riduzione MVO₂ 20-30%. Prolungamento diastole (↑tempo perfusione coronarica). Riduzione catecolamine circolanti (stabilizzazione placca aterosclerotica).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Molecole rappresentative e dosaggio:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Metoprololo succinato/tartrato: 50-200 mg/die (diviso bid tartrato, qd succinato ER)</p>
+<p class="text-slate-300 ml-6 mb-3">- Atenololo: 50-100 mg qd (eliminazione renale, aggiustamento IRC)</p>
+<p class="text-slate-300 ml-6 mb-3">- Bisoprololo: 5-10 mg qd (maggior β1-selettività, preferito BPCO lieve)</p>
+<p class="text-slate-300 ml-6 mb-3">- Carvedilolo: 12.5-50 mg bid (antagonismo α+β non-selettivo, preferito scompenso cardiaco HFrEF concomitante)</p>
+<p class="text-slate-300 ml-6 mb-3">- Nebivololo: 5-10 mg qd (β1-selettivo + rilascio NO endoteliale, profilo metabolico favorevole)</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Titolazione target terapeutico:</strong> FC riposo 50-60 bpm (correlazione inversa outcome cardiovascolari). Incrementi graduali dose ogni 1-2 settimane fino target o dose massima tollerata. Monitoraggio PA, FC, tolleranza clinica.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Efficacia:</strong> riduzione frequenza angina 50-70%, riduzione consumo nitrati sublinguali 60-80%, miglioramento tolleranza sforzo 20-30%. Meta-analisi post-IMA: riduzione mortalità 20-25% (NNT 42), riduzione re-infarto 25-30%. Angina stabile senza IMA pregresso: beneficio sintomatico robusto, beneficio prognostico incerto (Trial ORBITA 2023 non mostra riduzione MACE vs placebo).</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Controindicazioni assolute:</strong> bradicardia severa (FC <50 bpm sintomatica), blocco AV II-III grado senza pacemaker, asma bronchiale severo non controllato, shock cardiogeno, scompenso acuto scompensato, malattia nodo del seno, fenomeno Raynaud severo, arteriopatia periferica critica. <strong class="text-white">Controindicazioni relative:</strong> BPCO moderata (β1-selettivi tollerati), diabete insulino-dipendente (mascherano ipoglicemia), depressione. <strong class="text-white">Effetti avversi comuni:</strong> affaticamento/astenia (10-20%), disfunzione erettile (5-10%), estremità fredde (vasocostrizione periferica), peggioramento sintomi Raynaud, bradicardia eccessiva, ipotensione, broncospasmo (pazienti BPCO).</p>
+</div>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Calcio-antagonisti (CCB - Calcium Channel Blockers)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismo d'azione:</strong> blocco canali calcio tipo-L (voltage-gated) → ridotto ingresso Ca²⁺ intracellulare → (1) vasodilatazione arteriosa periferica sistemica (↓postcarico, ↓PA, ↓MVO₂), (2) vasodilatazione coronarica epicardica/arteriole resistenza (↑offerta O₂), (3) riduzione contrattilità miocardica (effetto classe-dipendente). Divisi in due classi farmacologiche:</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●CCB non-diidropiridinici (rate-limiting: rallentano FC):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Verapamil:</strong> 120-480 mg/die (formulazioni SR/ER). Effetto inotropo negativo prominente + bradicardia (nodo SA) + riduzione conduzione AV. Efficacia anti-anginosa equivalente beta-bloccanti. Controindicazioni: scompenso HFrEF (LVEF <40%), blocco AV II-III, bradicardia <50 bpm, associazione beta-bloccanti (rischio bradicardia/blocco AV severo additivo). Metabolismo CYP3A4 (interazioni digossina, statine, warfarin).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Diltiazem:</strong> 120-360 mg/die (formulazioni CD/XR). Profilo simile verapamil ma inotropismo negativo minore. Meglio tollerato scompenso borderline. Controindicazioni simili verapamil.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●CCB diidropiridinici (vasoselettivi: NO effetto FC/conduzione significativo):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Amlodipina:</strong> 5-10 mg qd. Emivita lunga (~40h), steady-state 7-10 giorni. Vasodilatazione periferica potente (riduzione postcarico) senza effetti diretti FC/inotropismo. Indicazioni: associazione beta-bloccanti (terapia combinata se monoterapia insufficiente), intolleranza beta-bloccanti, angina vasospastica Prinzmetal (vasodilatazione coronarica diretta). Effetti avversi: edemi malleolari (10-15%, dose-dipendente, NON responsivi diuretici, meccanismo precapillare), cefalea (5-10%), flushing (5%).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Nifedipina ER (extended-release):</strong> 30-90 mg qd. IMPORTANTE: utilizzare SOLO formulazioni ER/GITS (rilascio prolungato). Formulazioni immediate-release (IR) controindicate (attivazione riflessa simpatica → tachicardia riflessa, ↑MVO₂, ↑rischio MACE). Efficacia simile amlodipina.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Strategia combinazione CCB + beta-bloccanti:</strong> possibile solo con diidropiridinici (amlodipina/nifedipina ER). Meccanismi complementari: beta-bloccanti riducono MVO₂ (FC/contrattilità), CCB riducono postcarico + vasodilatazione coronarica. Efficacia combinazione: riduzione angina addizionale 30-40% vs monoterapia. NON combinare CCB non-diidropiridinici (verapamil/diltiazem) + beta-bloccanti: rischio bradicardia severa, blocco AV, scompenso acuto.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Calcio-antagonisti:</strong>
-</p>
-<p class="text-slate-300 mb-3">
-        Questi farmaci aiutano il cuore in due modi: alcuni rallentano il battito (come i betabloccanti), altri allargano le arterie facilitando il passaggio del sangue. Ce ne sono di due tipi principali:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Verapamil e diltiazem: rallentano il battito cardiaco e riducono la forza di contrazione. Funzionano bene come i betabloccanti. Non vanno combinati con i betabloccanti perché insieme potrebbero rallentare troppo il cuore</li>
-<li>Amlodipina e nifedipina a rilascio prolungato: allargano le arterie senza influenzare molto il battito. Possono essere aggiunti ai betabloccanti se questi da soli non bastano, oppure usati al posto dei betabloccanti se questi non possono essere presi</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Nitrati organici (donatori NO esogeni)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismo d'azione:</strong> metabolismo → rilascio NO (nitric oxide) → attivazione guanilato ciclasi → ↑cGMP → (1) venodilatazione sistemica (pooling venoso, ↓precarico, ↓volume telediastolico VS, ↓tensione parete Laplace, ↓MVO₂), (2) vasodilatazione arteriosa coronarica epicardica (↑offerta O₂, risoluzione spasmo), (3) riduzione postcarico (dosi elevate). Redistribuzione flusso zone ischemiche epicardio→endocardio.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Nitroglicerina sublinguale (NTG SL - short-acting):</strong> 0.3-0.6 mg SL. Onset 1-3 min, durata 15-30 min. <strong>Indicazioni:</strong> (1) trattamento acuto episodio anginoso (1 cp SL, ripetibile ogni 5 min fino 3 dosi totali; persistenza dolore >15 min post 2-3 dosi = chiamata 118, esclusione ACS), (2) profilassi pre-attività nota scatenante angina (5-10 min prima sforzo previsto). Formulazioni alternative: spray sublinguale (0.4 mg/puff, maggior stabilità vs cp).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Nitrati long-acting (profilassi cronica):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Isosorbide mononitrato (ISMN):</strong> 30-120 mg qd (formulazione ER), oppure 20 mg bid (intervallo asimmetrico 7 AM / 2 PM, garantisce nitrate-free interval 10-14h notturne).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Isosorbide dinitrato (ISDN):</strong> 10-40 mg bid/tid (intervallo dosing asimmetrico).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Cerotti transdermici nitroglicerina:</strong> 0.2-0.8 mg/h, applicazione mattina, rimozione sera (12-14h on, 10-12h off), garantisce nitrate-free interval.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Tolleranza nitrati (tachyphylaxis):</strong> fenomeno desensibilizzazione recettoriale dose/tempo-dipendente con riduzione efficacia 50-70% dopo 24-48h esposizione continua. Meccanismo: deplezione gruppi sulfidrilici cellulari (-SH), downregulation guanilato ciclasi, stress ossidativo, controregolazone neuroormonale. Prevenzione: garantire nitrate-free interval quotidiano 10-14h consecutive (tipicamente notturne, eccetto angina notturna prevalente). Ripristino sensibilità completa dopo 10-12h washout.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Controindicazioni assolute:</strong> uso concomitante inibitori PDE-5 (sildenafil, tadalafil, vardenafil) entro 24-48h (rischio ipotensione severa life-threatening per vasodilatazione sinergica, collasso cardiovascolare). Ipotensione severa (PAs <90 mmHg). Stenosi aortica severa. Cardiomiopatia ipertrofica ostruttiva. IMA ventricolo destro (dipendenza precarico elevato). Glaucoma angolo chiuso.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Effetti avversi comuni:</strong> cefalea pulsante frontale/temporale (80-90% pazienti inizialmente, riduzione spontanea 7-10 giorni per tolleranza vascolare cerebrale; trattamento: paracetamolo, riduzione temporanea dose), ipotensione ortostatica (5-10%), flushing, tachicardia riflessa (compensazione simpatica vasodilatazione, attenuata beta-bloccanti concomitanti).</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Nitrati (nitroglicerina):</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-3">
-<li><strong class="text-white">Nitroglicerina sotto la lingua (azione rapida):</strong> È la medicina "di emergenza" per quando compare il dolore. Si mette una piccola compressa sotto la lingua, si scioglie rapidamente e fa effetto in 1-3 minuti, facendo passare il dolore in 15-30 minuti. Se il dolore non passa, potete ripetere ogni 5 minuti fino a 3 volte. Se dopo 15 minuti il dolore persiste ancora, chiamate il 112/118. Potete anche prenderla prima di fare un'attività che di solito vi provoca dolore (per prevenirlo)</li>
-<li><strong class="text-white">Nitrati a lunga durata:</strong> Sono compresse che prevengono il dolore durante la giornata. Per evitare che perdano efficacia, dovete avere un periodo di almeno 10-14 ore al giorno senza il farmaco (di solito si prendono la mattina e il primo pomeriggio, non la sera)</li>
-</ul>
-<p class="text-slate-300">
-        Effetti collaterali comuni: mal di testa, calo di pressione quando vi alzate in piedi, arrossamento del viso. ATTENZIONE: non dovete prendere nitrati se nelle ultime 24-48 ore avete assunto farmaci per la disfunzione erettile (tipo Viagra, Cialis), perché la pressione potrebbe scendere pericolosamente.
-</p>
+<h3 class="font-bold text-white mb-3">Agenti anti-anginosi di seconda linea (terapia add-on refrattari)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ivabradina:</strong> inibitore selettivo corrente If (funny current) nodo seno-atriale → bradicardia selettiva senza effetti inotropismo negativo, conduzione AV, PA. Dosaggio: 5-7.5 mg bid. Target: FC riposo 50-60 bpm. <strong>Meccanismo anti-anginoso:</strong> riduzione MVO₂ FC-dipendente + prolungamento diastole (↑perfusione coronarica). <strong>Indicazioni ESC:</strong> (1) intolleranza/controindicazioni beta-bloccanti, (2) add-on beta-bloccanti se FC >70 bpm nonostante beta-bloccanti dose massima tollerata, ritmo sinusale. Trial BEAUTIFUL (2008, N=10917 CAD): beneficio sintomatico, NO riduzione MACE popolazione totale; analisi sottogruppo FC ≥70 bpm: riduzione ospedalizzazioni CV 17%, riduzione rivascolarizzazioni 30%. <strong>Controindicazioni:</strong> bradicardia <60 bpm basale, blocco AV II-III, fibrillazione atriale (If assente FA), pacemaker-dipendenza, ipotensione severa, scompenso acuto scompensato, gravidanza. <strong>Effetti avversi:</strong> fenomeni visivi fosfeni (15%, luminosità transitoria campo visivo, benigni reversibili), bradicardia sintomatica (5-10%), blocco AV I grado asintomatico.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Ranolazina:</strong> inibitore parziale late sodium current (I<sub>Na-late</sub>) cardiomiociti → riduzione sovraccarico calcio intracellulare (via scambiatore Na⁺/Ca²⁺) → miglioramento funzione diastolica, metabolismo energetico miocardico. NO effetti emodinamici significativi (FC, PA, contrattilità). Dosaggio: 500-1000 mg bid. <strong>Meccanismo anti-anginoso:</strong> miglioramento efficienza metabolica cellulare, riduzione rigidità diastolica. Trial CARISA (2004): riduzione frequenza angina 30-40%, ↑tempo esercizio +115 sec vs placebo. Trial MERLIN-TIMI 36 (2007, N=6560 NSTE-ACS): NO riduzione MACE primario, riduzione angina ricorrente 15%. <strong>Indicazioni:</strong> add-on terapia standard (beta-bloccanti/CCB/nitrati) in angina refrattaria CCS III-IV nonostante terapia convenzionale. <strong>Limitazioni:</strong> efficacia modesta (incremento capacità esercizio ~10-15% vs placebo), costo elevato. <strong>Controindicazioni:</strong> IRC severa (eGFR <30), cirrosi epatica, prolungamento QTc >500 ms, farmaci prolunganti QT potenti. <strong>Interazioni CYP3A4:</strong> metabolismo epatico, evitare inibitori potenti CYP3A4 (ketoconazolo, diltiazem, verapamil, succo pompelmo) per rischio accumulo e torsione punta. <strong>Effetti avversi:</strong> nausea (5-10%), stipsi, vertigini, prolungamento QTc dose-dipendente medio 2-6 ms.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Trimetazidina:</strong> modulatore metabolico cellulare, inibisce β-ossidazione acidi grassi (blocco 3-KAT - 3-ketoacyl coenzyme A thiolase) → shift metabolismo da acidi grassi a glucosio (pathway energeticamente più efficiente condizioni ischemia, ↑ATP/O₂ ratio). NO effetti emodinamici. Dosaggio: 35 mg MR (modified release) bid. <strong>Evidenza clinica limitata:</strong> meta-analisi Cochrane 2005 (N=1378): riduzione frequenza angina modesta vs placebo, bias pubblicazione significativo, qualità studi bassa. Trial recenti negativi. Efficacia incerta, beneficio clinico marginale. <strong>Indicazioni (riservate):</strong> sintomatologia refrattaria nonostante terapia convenzionale completa, intolleranza/controindicazioni multiple terapie standard. Non raccomandato ESC/ACC come prima/seconda linea. <strong>Effetti avversi:</strong> sintomi parkinsoniani reversibili (tremori, rigidità, disturbi andatura 1-2%, reversibili sospensione farmaco entro settimane), nausea, vertigini.</p>
 </div>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Altri farmaci per l'angina:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Ivabradina:</strong> Un farmaco che rallenta il battito cardiaco senza altri effetti sul cuore. Utile in persone che non possono prendere i betabloccanti o come aggiunta ai betabloccanti se il battito resta troppo veloce</li>
-<li><strong class="text-white">Ranolazina:</strong> Aiuta il cuore a lavorare meglio senza influenzare il battito o la pressione. Si aggiunge agli altri farmaci quando questi non controllano bene i sintomi</li>
-<li><strong class="text-white">Trimetazidina:</strong> Aiuta il cuore a usare meglio l'energia disponibile. L'effetto è modesto, usata in casi selezionati</li>
-</ul>
+<h3 class="text-xl font-bold mb-4 text-white mt-8">Terapia medica ottimale preventiva (OMT - Optimal Medical Therapy)</h3>
+<p class="text-slate-300 leading-relaxed mb-6">
+      Tutti pazienti con angina pectoris (stabile/instabile) e CAD documentata richiedono terapia preventiva eventi cardiovascolari (MACE) indipendentemente da controllo sintomatico. OMT riduce mortalità cardiovascolare 25-40%, MACE 30-50%, progressione aterosclerosi 20-30%. Componenti fondamentali:</p>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Terapia antitrombotica (antiaggreganti piastrinici)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aspirina (ASA - acido acetilsalicilico):</strong> 75-100 mg qd. Meccanismo: inibizione irreversibile COX-1 piastrinica → blocco sintesi trombossano A₂ (TXA₂, potente aggregante) → riduzione aggregazione piastrinica 50-80%, durata effetto 7-10 giorni (vita piastrinica). <strong>Evidenza:</strong> meta-analisi Antithrombotic Trialists' Collaboration (N=287 trial, >100.000 pazienti CAD stabile): riduzione eventi vascolari maggiori (IMA, ictus, morte CV) 23% (RR 0.77), riduzione mortalità CV 15%. NNT 67 per 2 anni prevenire 1 evento. <strong>Indicazione:</strong> TUTTI pazienti CAD stabile salvo controindicazioni assolute (allergia ASA, sanguinamento attivo, diatesi emorragica severa). Dosaggio: 75-100 mg (equivalenza efficacia 75-325 mg, dosi basse 75-100 mg riducono rischio sanguinamento 30-40% vs >300 mg).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Clopidogrel:</strong> 75 mg qd. Inibitore recettore P2Y₁₂ ADP piastrinico (blocco pathway aggregazione ADP-indotta). Profarmaco, attivazione epatica CYP2C19 (10-30% popolazione poor metabolizers varianti alleliche CYP2C19*2/*3, ridotta efficacia). <strong>Indicazioni:</strong> (1) alternativa ASA in intolleranza/allergia ASA documentata (trial CAPRIE 1996: clopidogrel vs ASA RRR 8.7% eventi vascolari, beneficio modesto), (2) DAPT (Dual AntiPlatelet Therapy) post-PCI con stent (vedi sotto).</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●DAPT (terapia antiaggregante duale ASA + P2Y₁₂ inibitori) post-rivascolarizzazione percutanea:</strong> indicazione OBBLIGATORIA post-PCI con stent (DES drug-eluting stent) prevenzione trombosi stent (complicanza catastrofica mortalità 20-40%). Regime standard: ASA 75-100 mg qd indefinitamente + P2Y₁₂ inibitore (clopidogrel 75 mg, ticagrelor 90 mg bid, prasugrel 10 mg qd) per durata variabile. <strong>Durata DAPT post-PCI:</strong> individualizzata bilanciando rischio trombotico (trombosi stent, recidiva eventi ischemici) vs rischio emorragico. Guidelines ESC 2023: (1) <strong>Rischio emorragico basso (HAS-BLED ≤2):</strong> DAPT 12 mesi. (2) <strong>Rischio emorragico alto (HAS-BLED ≥3, precedente sanguinamento maggiore, anticoagulazione concomitante):</strong> DAPT abbreviata 3-6 mesi, poi ASA monoterapia. (3) <strong>ACS recente:</strong> DAPT 12 mesi indipendentemente (trial PEGASUS-TIMI 54: estensione DAPT oltre 12 mesi riduce MACE 15% ma aumenta sanguinamenti maggiori TIMI 2.5x). <strong>P2Y₁₂ inibitori preferiti ACS:</strong> ticagrelor/prasugrel (inibizione più potente/rapida vs clopidogrel, riduzione MACE 15-20% trial PLATO/TRITON-TIMI 38).</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Farmaci per prevenire l'infarto</h3>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Statine high-intensity (ipolipemizzanti)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismo pleiotropico:</strong> (1) inibizione HMG-CoA reduttasi → riduzione sintesi colesterolo epatica endogena → upregulation recettori LDL epatici → riduzione LDL plasmatico 30-60%, (2) stabilizzazione placca aterosclerotica (riduzione core lipidico, ispessimento cap fibroso, riduzione infiltrato infiammatorio), (3) effetti pleiotropici anti-infiammatori (riduzione PCR 20-40%), anti-trombotici, miglioramento funzione endoteliale (↑produzione NO).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Statine high-intensity (riduzione LDL ≥50%):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Atorvastatina:</strong> 40-80 mg qd (riduzione LDL 50-60%)</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Rosuvastatina:</strong> 20-40 mg qd (riduzione LDL 55-65%, più potente)</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Target terapeutici LDL-C (ESC/EAS 2019 Guidelines):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>CAD documentata / diabete mellito / rischio cardiovascolare molto alto:</strong> LDL <55 mg/dL (1.4 mmol/L) E riduzione ≥50% LDL basale.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Eventi recidivanti entro 2 anni nonostante LDL <55:</strong> LDL <40 mg/dL (1.0 mmol/L) (rischio estremamente alto).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Evidenza clinica robusta:</strong> meta-analisi CTT Collaboration 2010 (N=170.000 pazienti, 26 RCT): ogni riduzione 40 mg/dL (1 mmol/L) LDL-C riduce eventi cardiovascolari maggiori 21% (RR 0.79), mortalità CV 12%, mortalità totale 10%. Relazione lineare dose-risposta senza soglia inferiore identificata. Trial PROVE-IT TIMI 22 (post-ACS): atorvastatina 80 mg vs pravastatina 40 mg → LDL 62 vs 95 mg/dL, riduzione MACE 16% (NNT 63 per 2 anni). Beneficio incrementale LDL <70→<55 mg/dL (trial IMPROVE-IT ezetimibe add-on: ulteriore riduzione MACE 6.4%).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Terapia add-on se LDL non a target con statine massima dose tollerata:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Ezetimibe 10 mg qd:</strong> inibitore selettivo assorbimento intestinale colesterolo (NPC1L1). Riduzione LDL addizionale 15-20% vs statina monoterapia. Trial IMPROVE-IT: ezetimibe + simvastatina vs simvastatina, LDL 53 vs 70 mg/dL, riduzione MACE 6.4% (NNT 50 per 7 anni).</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Inibitori PCSK9 (alirocumab 75-150 mg SC q2settimane, evolocumab 140 mg SC q2settimane):</strong> anticorpi monoclonali vs PCSK9 → inibizione degradazione recettori LDL epatici → riduzione LDL ulteriore 50-60% (LDL finale tipicamente 20-40 mg/dL). Trial FOURIER (evolocumab, N=27564): LDL 30 vs 92 mg/dL, riduzione MACE 15% (NNT 67 per 2.2 anni). Trial ODYSSEY OUTCOMES (alirocumab post-ACS): riduzione MACE 15%, mortalità totale 15% (first PCSK9i trial show mortality benefit). Indicazioni (costo elevato €5000-7000/anno): (1) ipercolesterolemia familiare eterozigote, (2) CAD + LDL >70 mg/dL nonostante statine max + ezetimibe, (3) intolleranza statine documentata (multiple statine, mialgie/CK elevazione).</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Effetti avversi statine:</strong> mialgie (5-10%, NON associata elevazione CK), elevazione transaminasi asintomatica reversibile (0.5-2%, monitorare ALT baseline e 8-12 settimane post inizio; sospensione se ALT >3× ULN persistente), rabdomiolisi (rarissima <0.01%, CK >10× ULN + mioglobinuria + IRA, rischio aumentato interazioni farmaci CYP3A4, ipotiroidismo, IRC), diabete mellito de novo (9-12% vs 8% placebo, risk ratio 1.12, aumenta glicemia media 3-5 mg/dL; beneficio CV supera ampiamente rischio, continuare statine anche se DM development). Controindicazioni: epatopatia attiva scompensata, gravidanza/allattamento, ipersensibilità.</p>
+</div>
+
 <div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        Tutti i pazienti con angina dovrebbero prendere questi farmaci fondamentali:
-</p>
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Aspirina (o clopidogrel):</strong> Una piccola dose di aspirina al giorno (75-100 mg) riduce il rischio di infarto e morte di circa un quarto. Se non potete prendere l'aspirina, si usa il clopidogrel. Dopo un'angioplastica con stent, serve prendere due farmaci antiaggreganti insieme per un periodo che va da 1 a 12 mesi o più, secondo il tipo di stent e il vostro rischio di sanguinamento</li>
-<li><strong class="text-white">Statine per il colesterolo:</strong> Farmaci potenti che abbassano molto il colesterolo "cattivo" (LDL). I più usati sono atorvastatina e rosuvastatina a dosi medio-alte. L'obiettivo è portare il colesterolo LDL sotto certi valori. Questi farmaci riducono il rischio di infarto e morte di circa un quarto</li>
-<li><strong class="text-white">ACE-inibitori (o sartani):</strong> Farmaci che proteggono il cuore e le arterie. Sono particolarmente importanti se avete anche diabete, pressione alta, o il cuore pompa meno bene del normale. Riducono la mortalità e il rischio di infarto di circa un quarto</li>
-<li><strong class="text-white">Controllo dei fattori di rischio:</strong> È fondamentale mantenere la pressione ben controllata, tenere sotto controllo lo zucchero nel sangue se avete il diabete, e smettere assolutamente di fumare</li>
-</ul>
+<h3 class="font-bold text-white mb-3">ACE-inibitori / ARB (sartani)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismo:</strong> inibizione RAAS (renin-angiotensin-aldosterone system) → riduzione angiotensina II (vasocostrizione, ritenzione Na⁺/H₂O, proliferazione cellulare, stress ossidativo, infiammazione) → effetti: (1) riduzione postcarico (vasodilatazione arteriolare), (2) riduzione precarico (natriuresi), (3) anti-rimodellamento ventricolare (reverse remodeling post-IMA), (4) stabilizzazione placca aterosclerotica, (5) miglioramento funzione endoteliale.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Molecole rappresentative:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>ACE-inibitori:</strong> ramipril 5-10 mg qd, perindopril 4-8 mg qd, lisinopril 10-40 mg qd, enalapril 10-20 mg bid. Blocco conversione angiotensina I → II. Effetto avverso caratteristico: tosse secca (10-15% pazienti, accumulo bradichinina polmonare, reversibile sospensione).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>ARB (sartani):</strong> valsartan 80-160 mg bid, candesartan 8-32 mg qd, telmisartan 80 mg qd. Blocco recettore AT₁ angiotensina II. Profilo simile ACE-i, usati se intolleranza ACE-i (tosse). Evidenza outcome CV leggermente inferiore ACE-i (preferire ACE-i first-line se tollerati).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Evidenza:</strong> trial HOPE (ramipril, N=9297 CAD/DM/rischio alto): riduzione morte CV/IMA/ictus 22% (NNT 26 per 5 anni), mortalità totale 16%. Trial EUROPA (perindopril, N=12218 CAD stabile): riduzione endpoint primario 20%. Beneficio massimo sottogruppi: (1) post-IMA (specie LVEF <40%, riduzione mortalità 20-25%), (2) diabete mellito (riduzione nefropatia + CV events), (3) ipertensione arteriosa concomitante, (4) scompenso cardiaco HFrEF (riduzione mortalità 15-20%, ospedalizzazioni 20-30%).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Indicazioni ESC CAD stabile:</strong> Classe I (fortemente raccomandati): post-IMA, LVEF <40%, diabete mellito, IRC, ipertensione. Classe IIa (da considerare): tutti pazienti CAD anche se asintomatici/normotesi per effetto stabilizzazione placca.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Controindicazioni/precauzioni:</strong> stenosi bilaterale arterie renali (rischio IRA acuta blocco angiotensina II efferente glomerulare), iperpotassiemia (K⁺ >5.5 mEq/L, rischio aumentato IRC, diabete, farmaci risparmiatori K⁺), gravidanza (teratogenicità secondo/terzo trimestre), angioedema (raro <0.5%, più frequente ACE-i, potenzialmente fatale). Monitoraggio: creatinina/K⁺ baseline, 1-2 settimane post-inizio, periodicamente. Accettabile incremento creatinina <30% basale (indica appropriata riduzione filtrazione glomerulare), sospensione se >30% o IRA acuta.</p>
 </div>
   </section>
 
