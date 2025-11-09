@@ -513,81 +513,183 @@ Farmaci specifici claudicatio hanno efficacia modesta, inferiore SET. NON sostit
 </section>
 
 <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="activity" class="w-6 h-6 text-pink-400"></i>
-            Quando servono le procedure: trattamenti invasivi
+<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+<i data-lucide="activity" class="w-7 h-7 text-pink-400"></i>
+Quando è indicata la rivascolarizzazione PAD? PTA endovascolare vs bypass chirurgico
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Quando i cambiamenti dello stile di vita e i farmaci non bastano a controllare i sintomi, o quando la situazione è grave, possono essere necessari interventi per ripristinare il flusso di sangue alle gambe. La scelta del tipo di intervento dipende da molti fattori: dove si trovano i restringimenti, quanto sono estesi, le condizioni generali di salute della persona.
+Rivascolarizzazione PAD indicata: 1) CLI (Fontaine III-IV) → limb salvage, indicazione assoluta urgenza/emergenza, 2) Claudicatio lifestyle-limiting (Fontaine IIb severa) fallimento terapia conservativa (SET + OMT) 3-6 mesi. Obiettivi: miglioramento perfusione arto (↑ABI, ↑TcPO₂), risoluzione dolore riposo/claudicatio, guarigione ulcere, prevenzione amputazione. Scelta tecnica (endovascolare PTA vs chirurgico bypass): dipende TASC classification lesioni, anatomia vascolare inflow-outflow, comorbidità paziente, esperienza centro.
 </p>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Procedure disponibili</h3>
-<ul class="text-slate-300 space-y-3 ml-5 list-disc">
-<li>
-<strong class="text-white">Angioplastica con palloncino</strong>: attraverso un piccolo tubicino inserito dall'inguine, si raggiunge il punto ristretto dell'arteria e si gonfia un palloncino per allargarla. Spesso si posiziona anche una retina metallica (stent) per mantenere l'arteria aperta. È una procedura minimamente invasiva, si fa in anestesia locale e il recupero è veloce
-</li>
-<li>
-<strong class="text-white">Intervento di bypass</strong>: quando i restringimenti sono molto estesi o l'angioplastica non è possibile, si può creare una "strada alternativa" per il sangue. Il chirurgo collega un tubicino (che può essere una vena prelevata dalla gamba stessa o un tubo artificiale) a monte e a valle del restringimento, permettendo al sangue di aggirare l'ostacolo. Richiede un'operazione chirurgica vera e propria e un ricovero più lungo
-</li>
-</ul>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">TASC classification - guida strategia rivascolarizzazione</h3>
+
+<p class="text-slate-300 mb-3">
+TASC (TransAtlantic Inter-Society Consensus) classifica lesioni PAD in 4 categorie (A-D) based anatomia stenosi/occlusioni: localizzazione, lunghezza, numero, complessità. Raccomandazioni trattamento: TASC A → PTA first-line, TASC B → PTA preferred, TASC C → bypass preferred (PTA se alto rischio chirurgico), TASC D → bypass first-line.
+</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●TASC aorto-iliaco:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- TASC A: stenosi singola unilaterale iliaca comune/esterna <3 cm</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC B: stenosi breve (3-10 cm) arteria iliaca esterna non extending femorale comune, oppure 2 stenosi unilaterali iliache <5 cm ciascuna</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC C: stenosi bilaterali iliache comuni 5-10 cm, oppure occlusione unilaterale iliaca comune, oppure stenosi iliaca + femorale comune concomitanti</p>
+<p class="text-slate-300 ml-6 mb-3">- TASC D: occlusioni bilaterali croniche totali (CTO) iliache, oppure diffuse stenosi multisegmentarie aorto-iliache + femorali coinvolgimento bilaterale</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●TASC femoro-popliteo:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- TASC A: stenosi singola <10 cm, oppure occlusione singola <5 cm</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC B: lesioni multiple ciascuna <5 cm, oppure stenosi/occlusione singola 5-15 cm non involving poplitea distale, oppure lesioni heavily calcified <5 cm</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC C: stenosi recidivanti post-PTA, oppure occlusioni 5-15 cm, oppure stenosi poplitea distale + arteria triforcazione</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC D: occlusione CTO >20 cm femorale superficiale/poplitea, oppure occlusione poplitea + arteria triforcazione</p>
 </div>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">PTA (Percutaneous Transluminal Angioplasty) + stenting endovascolare</h3>
+
+<p class="text-slate-300 mb-3">
+PTA è tecnica endovascolare minimamente invasiva: cateterizzazione percutanea arteriosa (accesso femorale comune retrogrado 6-7 Fr sheath, oppure pedal access anterogrado 4-5 Fr CLI distale), navigazione guidewire 0.014-0.035" attraverso stenosi/occlusione (supporto catetere crossing dedicated), balloon angioplasty dilatazione lesione, stenting selettivo se necessario. Anestesia locale, regime ambulatoriale/overnight, recupero rapido 24-48h.
+</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tecnica PTA step-by-step:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">1. Accesso arterioso percutaneo (Seldinger technique): puntura femorale comune eco-guidata, inserimento sheath introducer 6-7 Fr (facilita catheter exchanges). Eparinizzazione sistemica (70-100 U/kg bolus IV, mantenimento ACT 250-300 sec).</p>
+<p class="text-slate-300 ml-6 mb-2">2. Angiografia diagnostica run-off completo: mapping anatomia lesioni, TASC classification, valutazione inflow-outflow.</p>
+<p class="text-slate-300 ml-6 mb-2">3. Crossing lesione: guidewire 0.014-0.035" (supporto catetere crossing se CTO: straight/angled tip, stiff/hydrophilic coating). CTO crossing success rate: stenosi fresh <3 mesi 90-95%, CTO >3 mesi 60-80%, CTO >12 mesi <50% (calcificazione, organized thrombus).</p>
+<p class="text-slate-300 ml-6 mb-2">4. Pre-dilatazione balloon: sizing balloon diametro arteria reference (evitare oversizing >10% rischio dissezione/rottura), lunghezza 40-200 mm. Pressioni inflation 6-14 atm, durata 60-180 sec. Balloon types: compliant (low pressure, conformable anatomy), non-compliant (high pressure, resistenza stenosi calcifiche), cutting/scoring balloon (lame metalliche micro-incidono placca, riducono barotrauma vessel wall).</p>
+<p class="text-slate-300 ml-6 mb-3">5. Stenting (se indicato): deployment stent self-expanding (nitinol, resistenza forze compressive esterne, preferito arterie periferiche mobile segments femoro-popliteo) oppure balloon-expanding (stainless steel/cromium-cobalt, radial force superiore, preferito arterie iliache large-caliber fixe). Indications stenting: residual stenosi >30% post-balloon, flow-limiting dissection (NHLBI tipo C-F), elastic recoil.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Outcome PTA per segmento anatomico:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- <strong>Aorto-iliaco (TASC A-B):</strong> technical success 95-98%, patency primaria 85-90% a 1 anno, 70-80% a 5 anni (migliori outcome entire vascular bed). Stenting routine superiore plain balloon: trial DUTCH ILIAC (stent vs PTA alone): patency 71% vs 54% a 2 anni.</p>
+<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo (TASC A-B):</strong> technical success 90-95%, patency primaria 60-70% a 1 anno, 40-50% a 3 anni. TASC C-D: patency 40-50% a 1 anno. Stenting vs plain balloon: nessuna superiorità dimostrata (trial RESILIENT, SUPERA); stenting riservato bail-out (dissection, recoil). Drug-coated balloon (DCB paclitaxel-eluting): superiore plain balloon, patency 75-80% vs 55-60% a 1 anno (meta-analisi, trial IN.PACT SFA, LEVANT 2).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Infrapopliteo/tibiale (TASC A-B):</strong> technical success 85-90%, patency primaria 50-60% a 1 anno, 30-40% a 2 anni. Outcome inferiori vs proximal segments (small vessel caliber 2-3 mm, high restenosis rate). Indicazioni PTA tibiale: principalmente CLI limb salvage (dolore riposo, ulcere), raramente claudicatio isolated. Trial BASIL-2 comparing PTA vs bypass tibiale CLI: limb salvage equivalente 1 anno, ma reinterventions 2-3x higher PTA.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze PTA (incidenza totale 5-10%):</strong> complicanze accesso (ematoma 2-4%, pseudoaneurisma 0.5-1%, AV fistola 0.2%), dissezione flow-limiting 3-5% (trattata stent bail-out), perforazione vessel 0.5-1% (embolizzazione coil se bleeding), ateroembolismo distale (blue toe syndrome) 1-2%, trombosi acuta stent <1%, CIN 2-5% (prevenzione: idratazione IV, riduzione contrasto volume, N-acetilcisteina profilassi). Amputazione periprocedurale <0.1%. Mortalità 30-day <0.5%.</p>
+</div>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Bypass chirurgico open - gold standard TASC C-D, CLI</h3>
+
+<p class="text-slate-300 mb-3">
+Bypass chirurgico crea condotto alternativo bypass stenosi/occlusione arteriosa, ripristinando perfusione distale. Tecnica: anastomosi prossimale (inflow) arteria patent a monte lesione, tunneling graft conduit anatomico (subfascial) o extra-anatomico, anastomosi distale (outflow) arteria patent distalmente. Anestesia generale/locoregionale (epidurale), degenza ospedaliera 3-7 giorni, recupero 4-6 settimane.
+</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Conduits graft bypass (autologous vs synthetic):</strong></p>
+
+<p class="text-slate-300 ml-6 mb-3">- <strong>Vena safena magna (GSV - Great Saphenous Vein) autologa:</strong> gold standard conduit, superiorità patency vs synthetic grafts soprattutto below-knee bypass. Harvesting: incisione chirurgica arto ipsilaterale/controlaterale gamba, asportazione GSV calibro 3-5 mm, reverse configuration (valvole venose non interferiscono flusso) oppure in-situ technique (valvulotome destroy valves, mantiene vasa vasorum). Patency primaria femoro-popliteo above-knee GSV: 75-80% a 5 anni. Below-knee/tibiale GSV: 60-70% a 5 anni. Limiti: 20-30% pazienti GSV inadequate (previous varicose vein surgery, small caliber <3 mm, varicosities).</p>
+
+<p class="text-slate-300 ml-6 mb-3">- <strong>Alternative vein conduits:</strong> arm veins (vena basilica, cefalica), vena safena parva (lesser saphenous vein), spliced vein segments (multiple vein pieces anastomizzati). Patency inferiore GSV 10-15%, ma superiore synthetic grafts. Utilizzate quando GSV unavailable.</p>
+
+<p class="text-slate-300 ml-6 mb-3">- <strong>Prosthetic grafts (PTFE - Polytetrafluoroethylene, Dacron):</strong> condotti sintetici, diametro 6-8 mm. Indicazioni: above-knee femoro-popliteo GSV unavailable, aorto-bifemorale, axillo-bifemorale extra-anatomico. Patency femoro-popliteo above-knee PTFE: 50-60% a 5 anni (inferiore GSV 75-80%). Below-knee PTFE: patency poor 30-40% a 3 anni → evitare, preferire vein autologous. Heparin-bonded PTFE, PTFE + vein cuff distal anastomosis: miglioramento patency marginale 5-10%.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Configurazioni bypass comuni:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- <strong>Aorto-bifemorale (ABF):</strong> inflow aorta infrarenale, biforcazione graft Dacron 14x7 mm, outflow bilaterale femorali comuni. Gold standard malattia aorto-iliaca TASC D, giovani (aspettativa vita >10 anni). Patency 85-90% a 10 anni. Invasività: laparotomia, clampaggio aorta, morbidità 5-10% (disfunzione erettile 10-25% lesione plessi ipogastrici, ischemia colica 1-2%, paraplegia spinale <1%).</p>
+<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo above-knee:</strong> inflow femorale comune/superficiale, outflow poplitea above-knee (P1 segment). Indicazioni: TASC C-D SFA, claudicatio severa/CLI. Conduit: GSV first-choice, PTFE acceptable. Patency GSV 75-80% a 5 anni, PTFE 50-60%.</p>
+<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo/tibiale below-knee:</strong> outflow poplitea below-knee (P3 segment) oppure tibiali (tibiale anteriore, posteriore, peroniera). Indicazioni: CLI limb salvage. Conduit: GSV obbligatorio (PTFE below-knee patency inaccettabile). Patency GSV 60-70% a 5 anni. Trial BASIL (Bypass versus Angioplasty in Severe Ischaemia of the Leg): bypass vs PTA CLI, amputation-free survival equivalente a 1 anno, ma bypass superiore long-term (>2 anni) se aspettativa vita >2 anni + vein conduit available.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze bypass chirurgico (morbidità perioperatoria 10-15%):</strong> infezione ferita 3-5% (superficial SSI), infezione graft 1-2% (devastante, richiede graft excision + extra-anatomic reconstruction, mortalità 10-20%), graft thrombosis early (<30 days) 3-5% (technical error, hypercoagulability), lymphocele/lymphedema 2-3%, cardiac events perioperatori (infarto, aritmie) 2-5%, stroke 1%, insufficienza renale acuta 2-3% (contrast/ateroembolismo), amputazione perioperatoria 2-3% (graft failure irreversibile). Mortalità 30-day: 1-3% claudicatio, 3-5% CLI.</p>
+</div>
+
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quando sono necessari</h3>
-<p class="text-slate-300 mb-2">Le procedure invasive vengono prese in considerazione quando:</p>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>I sintomi limitano gravemente la vita quotidiana nonostante i trattamenti</li>
-<li>Compare dolore anche a riposo</li>
-<li>Ci sono ferite che non guariscono</li>
-<li>Esiste il rischio di perdere la gamba</li>
-</ul>
-</div>
-<p class="text-slate-300">
-            La decisione viene sempre presa insieme al medico, valutando rischi e benefici per la situazione specifica. Non tutti hanno bisogno di questi interventi: molte persone stanno bene con i cambiamenti dello stile di vita e i farmaci.
-</p>
-</section>
+<h3 class="font-bold text-white mb-3">Endovascular-first vs bypass-first strategy - trial evidence</h3>
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="heart" class="w-6 h-6 text-amber-400"></i>
-            Arteriopatia e rischio cardiovascolare generale
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            L'arteriopatia periferica non è solo un problema delle gambe. Chi ne soffre ha un rischio aumentato di infarto e ictus, perché le stesse placche che si formano nelle arterie delle gambe possono formarsi anche nelle arterie del cuore e del cervello. In effetti, l'arteriopatia periferica è spesso un "campanello d'allarme" che segnala un problema di circolazione più diffuso.
+<p class="text-slate-300 mb-3">
+Strategia rivascolarizzazione contemporanea: endovascular-first approach preferita maggioranza centri (less invasive, faster recovery, preserva vein conduits future bypass se restenosis). Bypass riservato fallimento endovascolare, anatomia TASC D non suscettibile PTA, disponibilità vein conduit good-quality + aspettativa vita >2 anni.
 </p>
-<div class="info-step rounded-lg p-6">
-<p class="text-slate-300">
-              Per questo motivo, il piano di cura non si concentra solo sulle gambe, ma mira a proteggere tutto il sistema cardiovascolare. I controlli periodici includono anche la valutazione del cuore e delle arterie che portano il sangue al cervello. Curare l'arteriopatia periferica significa quindi proteggere l'intero organismo.
-</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Trial BASIL (N=452, CLI femoro-popliteo):</strong> angioplasty-first vs bypass-first, follow-up 5 anni. Outcome primario: amputation-free survival equivalente 1 anno (angioplasty 68% vs bypass 71%, p=NS). Long-term (>2 anni): bypass superiore se vein conduit + aspettativa vita >2 anni (HR 0.61 mortalità, p=0.02). Reinterventions: 2x higher angioplasty group (45% vs 20%). Costi: angioplasty inizialmente cheaper, ma costs equivalente long-term (reinterventions). Conclusione: angioplasty-first reasonable claudicatio/CLI short-term goals; bypass preferred good surgical candidates vein disponibile aspettativa vita >2 anni.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●TASC consensus recommendations (aggiornamento 2024):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- TASC A: PTA first-line (Class I indication), bypass raramente necessario</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC B: PTA preferred initial approach (Class IIa), bypass se fallimento PTA/restenosi</p>
+<p class="text-slate-300 ml-6 mb-2">- TASC C: PTA vs bypass equipoise, scelta individualizzata (anatomia, comorbidità, vein availability, patient preference). Bypass preferred se vein conduit + low surgical risk + aspettativa >2 anni.</p>
+<p class="text-slate-300 ml-6 mb-3">- TASC D: bypass first-line (Class I), PTA riservata alto rischio chirurgico O vein unavailable (accepting inferior patency)</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Hybrid procedures (endovascular + open combined):</strong> strategia combinata PTA segmento iliaco (inflow optimization) + bypass femoro-distale simultaneous. Indicazioni: malattia multilivello (es. stenosi iliaca + CTO femorale), permette evitare aortic clamping (morbidità ridotta). Trial CART (Combined endovascular and surgical Approach in severe peripheral arterial disease): hybrid approach vs bypass alone, morbidità perioperatoria ridotta 30-40%, patency equivalente. Emerging strategy centri high-volume.</p>
 </div>
 </section>
 
 <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="trending-up" class="w-6 h-6 text-amber-400"></i>
-            Prevenire il peggioramento: cosa aspettarsi
+<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+<i data-lucide="heart" class="w-7 h-7 text-amber-400"></i>
+Quale rischio cardiovascolare sistemico comporta la PAD? Malattia polivascolare
 </h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-            Con il trattamento appropriato, la maggior parte delle persone con arteriopatia periferica riesce a vivere bene e a mantenere una buona qualità di vita. I sintomi spesso migliorano, permettendo di camminare distanze maggiori e di tornare alle normali attività.
+PAD è marker rischio CV sistemico elevato. Aterosclerosi è processo diffuso multidistrettuale: stessi fattori rischio (fumo, diabete, dislipidemia, ipertensione) causano placche aterosclerotiche simultaneamente arterie coronarie (CAD), cerebrali (carotidi, intracraniche), renali, mesenteriche. PAD raramente isolata: 40-60% pazienti PAD hanno CAD concomitante (stenosi coronariche ≥50%), 25-30% stenosi carotidee significative (≥50%), 20-30% insufficienza renale cronica aterosclerotica.
 </p>
-<p class="text-slate-300 leading-relaxed mb-6">
-            È importante seguire i controlli medici regolari, che all'inizio saranno ogni 3-6 mesi. Durante queste visite si verificano i progressi, si controllano i fattori di rischio e si adattano le cure se necessario. La costanza nel seguire le indicazioni mediche, nel prendere i farmaci e nel mantenere uno stile di vita sano fa una grande differenza.
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">MACE (Major Adverse Cardiovascular Events) in pazienti PAD</h3>
+
+<p class="text-slate-300 mb-3">
+Incidenza MACE (morte CV, infarto miocardico non fatale, ictus ischemico) pazienti PAD: 5-7%/anno (5-10x superiore popolazione generale matched age). Breakdown eventi: morte CV 2-3%/anno, infarto miocardico 2-3%/anno, ictus 1-2%/anno. Mortalità totale all-cause 15-30% a 5 anni (3-5x superiore controlli senza PAD).
 </p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stratificazione rischio PAD severity:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- PAD asintomatica (ABI <0.90): MACE 3-5%/anno (rischio intermedio)</p>
+<p class="text-slate-300 ml-6 mb-2">- Claudicatio intermittens (Fontaine IIa-IIb): MACE 5-7%/anno (rischio alto)</p>
+<p class="text-slate-300 ml-6 mb-2">- CLI (Fontaine III-IV): MACE 10-15%/anno, mortalità 1 anno 20-25% (rischio molto alto, prognosi peggiore cancro colon-retto stadio III)</p>
+<p class="text-slate-300 ml-6 mb-3">- PAD + CAD concomitante: MACE 15-20%/anno (rischio estremo, necessità screening/trattamento aggressive entrambi territori)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Prevalenza malattia polivascolare (≥2 territori arteriosi coinvolti):</strong> 40-50% pazienti PAD sintomatica hanno malattia polivascolare documentata (PAD + CAD: 40%, PAD + stenosi carotidee: 25%, PAD + CAD + carotidi: 15%). Registry REACH (Reduction of Atherothrombosis for Continued Health, N=68.000 pazienti aterosclerosi): polyvascular disease (≥2 territori) vs single territory (PAD isolated): MACE 2x aumentato (12.8% vs 5.3%/anno), mortalità CV 3x aumentata.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Cause morte pazienti PAD:</strong> morte cardiovascolare 40-50% (infarto 25-30%, stroke 10-15%, sudden cardiac death 5-10%), cancro 20-25%, infezioni/sepsi 10-15%, altre cause 15-20%. Morte limb-specific (CLI → amputazione → complicanze): <5% totale. Takeaway: maggioranza pazienti PAD muore eventi CV sistemici (CAD/stroke), NON complicanze limb. Priorità: OMT aggressiva prevenzione MACE (antiaggreganti, statine high-intensity, antipertensivi, controllo fattori rischio).</p>
+</div>
+
 <div class="highlight-box rounded-lg p-6">
-<p class="text-slate-300">
-<strong class="text-amber-400">Da ricordare:</strong> L'arteriopatia periferica è una condizione cronica, ma gestibile. Con impegno e il giusto supporto medico, è possibile migliorare significativamente i sintomi e proteggere la salute cardiovascolare nel lungo periodo.
+<h3 class="font-bold text-white mb-3">Screening malattia polivascolare - valutazione sistematica pazienti PAD</h3>
+
+<p class="text-slate-300 mb-3">
+TUTTI pazienti PAD documentata devono ricevere screening CAD + stenosi carotidee, anche asintomatici. Obiettivo: identificare lesioni aterosclerotiche significative territory extraperipheriche, trattare preventivamente prima eventi acuti (infarto, stroke).
 </p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Screening CAD (coronaropatia):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- ECG 12 derivazioni baseline: Q waves patologiche (necrosi pregresse), alterazioni ST-T (ischemia silente)</p>
+<p class="text-slate-300 ml-6 mb-2">- Test funzionale ischemia: test ergometrico ECG, eco-stress (dobutamina/exercise), scintigrafia miocardica SPECT, PET. Indicazioni: sintomi suggestivi angina/equivalenti anginosi, diabete, PAD severa (CLI) candidati major surgery vascolare (preoperative cardiac risk assessment)</p>
+<p class="text-slate-300 ml-6 mb-3">- CTCA coronarica (calcium score + angiografia): alternativa non-invasiva screening anatomico stenosi coronariche. Utile pazienti impossibilità test sforzo (claudicatio limitante exercise capacity)</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Screening carotideo:</strong> eco-Doppler tronchi sovra-aortici (TSA) TUTTI pazienti PAD sintomatica Class IIa ESC 2024. Identificazione stenosi carotidee ≥50% asintomatiche (prevalenza 25-30% PAD). Stenosi severa ≥70-80% asintomatica: considerare endarterectomia carotidea (CEA) O stenting carotideo (CAS) prevenzione stroke primaria (NNT 20-30 prevenire 1 stroke 5 anni, trial ACST/ACAS). Stenosi sintomatica (TIA/stroke recente): CEA/CAS urgente entro 14 giorni (NNT 6 prevenire stroke recidiva).</p>
 </div>
 </section>
 
 <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="file-text" class="w-6 h-6 text-amber-400"></i>
-            Una storia di miglioramento
+<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+<i data-lucide="trending-up" class="w-7 h-7 text-amber-400"></i>
+Qual è la prognosi PAD? Outcome limb e follow-up protocollo
 </h2>
-<div class="highlight-box rounded-lg p-6">
-<p class="text-slate-300">
-              Maria ha 68 anni e per molto tempo ha fumato. Aveva iniziato a notare un forte dolore ai polpacci dopo appena un centinaio di metri di camminata. Dopo la diagnosi, ha deciso di smettere di fumare con l'aiuto del medico, ha iniziato un programma di cammino graduale e ha cominciato a prendere farmaci per il colesterolo. Dopo sei mesi, riusciva a percorrere 500 metri senza dolore. "All'inizio pensavo fosse solo l'età che avanzava," racconta, "ma ora mi sento piena di energia e posso fare le passeggiate che mi piacciono".
+
+<p class="text-slate-300 leading-relaxed mb-6">
+Prognosi PAD dipende severità clinica (asintomatica/claudicatio/CLI), comorbidità (diabete, CKD, CAD), compliance terapia conservativa (cessazione fumo, OMT, esercizio), necessità/outcome rivascolarizzazione. Outcome valutati: 1) limb-specific (progressione CLI, amputazione maggiore, limb salvage), 2) cardiovascular systemic (MACE, mortalità).
 </p>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Outcome limb-specific per stadio clinico</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●PAD asintomatica (Fontaine I, ABI <0.90):</strong> prognosi limb eccellente. Progressione CLI: <1%/anno. Amputazione maggiore: <0.5% a 5 anni. Miglioramento spontaneo sintomi: 10-15% (sviluppo circoli collaterali). Stabilità clinica: 70-80% a 5 anni. Peggioramento claudicatio: 10-15%. Principale rischio: eventi CV sistemici (MACE 3-5%/anno), NON perdita arto.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Claudicatio intermittens (Fontaine IIa-IIb):</strong> prognosi limb buona con trattamento conservativo (SET + OMT). Stabilità sintomi: 70-80% a 5 anni. Miglioramento walking distance: 10-15% (esercizio regolare, circoli collaterali). Peggioramento CLI: 5-10% a 5 anni (maggiore fumatori attivi 15-20%, diabetici 10-15%, vs non-fumatori/non-diabetici 3-5%). Amputazione maggiore: 1-2% a 5 anni (bassa, principalmente progression CLI subset). Fattori predittori peggioramento: fumo continuato (OR 3-4), diabete (OR 2-3), ABI <0.50 (OR 2-3), non-compliance OMT.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●CLI (Fontaine III-IV):</strong> prognosi limb severa senza rivascolarizzazione. Natural history CLI non trattata: amputazione maggiore 40-50% a 6 mesi, mortalità 20-25% a 1 anno. Con rivascolarizzazione appropriata (PTA/bypass): limb salvage 70-85% a 1 anno, 60-70% a 3 anni. Amputazione maggiore necessaria 15-30% casi nonostante rivascolarizzazione (tissue loss extensive, infezione severa, no-option anatomia). Mortalità post-rivascolarizzazione CLI: 10-15% a 1 anno, 30-40% a 3 anni (comorbidità severe baseline). Outcome bypass vs PTA CLI: limb salvage equivalente 1 anno (trial BASIL 68-71%), bypass superiore long-term >2 anni se vein conduit disponibile.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Follow-up protocollo standard pazienti PAD</h3>
+
+<p class="text-slate-300 mb-3">
+Follow-up regolare essenziale monitoraggio progressione malattia, compliance OMT, identificazione precoce complicanze (restenosi post-rivascolarizzazione, eventi CV sistemici). Frequenza visite: variabile stadio clinico e interventi eseguiti.
+</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●PAD asintomatica/claudicatio stabile (Fontaine I-IIa):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- Visite ambulatoriali: ogni 6-12 mesi</p>
+<p class="text-slate-300 ml-6 mb-2">- Anamnesi: compliance OMT farmaci (ASA, statine, antipertensivi), modifiche sintomi (onset claudicatio, peggioramento), fattori rischio (status fumo, controllo diabete/PA)</p>
+<p class="text-slate-300 ml-6 mb-2">- Esame obiettivo: polsi periferici palpazione, auscultazione soffi vascolari, ispezione cute arti (trofismo, ulcere)</p>
+<p class="text-slate-300 ml-6 mb-2">- Test diagnostici: ABI annuale (monitoraggio progressione, baseline 0.7-0.9 → decline 0.05-0.10/anno suggerisce progressione attiva). Eco-Doppler arterioso ogni 1-2 anni se sintomi stabili.</p>
+<p class="text-slate-300 ml-6 mb-3">- Laboratorio: profilo lipidico (LDL-C target <55 mg/dL), HbA1c diabetici (target <7%), funzione renale (creatinina, eGFR), annual</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Claudicatio severa/post-rivascolarizzazione (PTA/bypass):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">- Visite: ogni 3 mesi primo anno post-rivascolarizzazione, poi ogni 6 mesi se stabile</p>
+<p class="text-slate-300 ml-6 mb-2">- Eco-Doppler surveillance bypass graft: 1 mese, 3 mesi, 6 mesi, 12 mesi, poi annuale lifelong. Identificazione stenosi graft precoce (50-70% stenosi asintomatica → intervention preventiva evita thrombosis). Peak systolic velocity ratio >2.0-2.5 → stenosi >50% → angiografia + PTA.</p>
+<p class="text-slate-300 ml-6 mb-3">- ABI post-rivascolarizzazione: improvement ≥0.15 vs baseline indica technical success. Decline ≥0.15 vs post-procedure → restenosi/progression disease → imaging urgente.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●CLI/ulcere attive:</strong> follow-up intensivo multidisciplinare (chirurgo vascolare, podiatrist, infermiere wound care, diabetologo se diabete). Visite settimanali-bisettimanali fase acuta healing ulcera. Medicazioni avanzate, off-loading pressure relief, antibiotici empirici se infezione (copertura Staph aureus MRSA, Gram-negative, anaerobi piede diabetico). TcPO₂ monitoring healing progress: TcPO₂ >40 mmHg predice healing, <20 mmHg predice failure (considerare amputation level revision).</p>
 </div>
 </section>
 
@@ -597,29 +699,6 @@ Farmaci specifici claudicatio hanno efficacia modesta, inferiore SET. NON sostit
             Potrebbe interessarti
 </h2>
 <p class="text-slate-400 text-sm">Vedi anche: <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/malattia-coronarica/">malattia coronarica</a> e <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/prevenzione-cardiovascolare/">prevenzione cardiovascolare</a>.</p>
-</section>
-
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="help-circle" class="w-6 h-6 text-amber-400"></i>
-            Domande frequenti
-</h2>
-<div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Il dolore può davvero migliorare camminando di più?</h3>
-<p class="text-slate-300">Sì, è dimostrato scientificamente. Anche se può sembrare strano, camminare regolarmente è uno dei trattamenti più efficaci. L'esercizio stimola la formazione di nuovi piccoli vasi sanguigni che aiutano a portare sangue ai muscoli, e rafforza i muscoli stessi rendendoli più efficienti. I benefici si vedono di solito dopo qualche settimana di allenamento costante.</p>
-</div>
-<div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">I farmaci vanno presi per sempre?</h3>
-<p class="text-slate-300">Nella maggior parte dei casi sì, perché servono a controllare i fattori di rischio (colesterolo, pressione) e a proteggere da eventi cardiovascolari futuri. Anche se i sintomi alle gambe migliorano, i farmaci continuano a svolgere un ruolo protettivo importante. Se si notano effetti collaterali, è importante parlarne con il medico: spesso è possibile modificare la terapia.</p>
-</div>
-<div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Quando serve davvero un intervento?</h3>
-<p class="text-slate-300">Gli interventi vengono presi in considerazione quando i sintomi sono gravi e non migliorano con i trattamenti medici, o quando c'è dolore a riposo, ferite che non guariscono o rischio di perdere la gamba. Il medico valuta ogni caso individualmente e discute insieme al paziente le opzioni disponibili, i rischi e i benefici.</p>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-2">L'arteriopatia può peggiorare nel tempo?</h3>
-<p class="text-slate-300">Se non viene trattata o se si continuano comportamenti a rischio (come fumare), la malattia può progressivamente peggiorare. Per questo è fondamentale seguire le indicazioni mediche, modificare lo stile di vita e fare controlli regolari. Con le giuste cure, la progressione può essere rallentata o fermata, e molte persone riescono a migliorare i sintomi.</p>
-</div>
 </section>
 
 </article>
