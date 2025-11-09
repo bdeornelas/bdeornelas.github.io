@@ -54,45 +54,77 @@ date: "2025-11-07"
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Cos'è la fibrillazione atriale?</h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      La fibrillazione atriale, o "FA", è un tipo di ritmo cardiaco anomalo (aritmia). Nelle persone con fibrillazione atriale, le camere superiori del cuore (atri) battono in modo irregolare e molto veloce.
+      La fibrillazione atriale (FA) è una tachiaritmia sopraventricolare caratterizzata da attivazione atriale rapida e disorganizzata con conseguente compromissione della funzione meccanica atriale. Il meccanismo elettrofisiologico sottostante implica circuiti di rientro multipli atriali che determinano attività elettrica caotica a frequenza 300-600 bpm, visibile all'ECG come onde f (fibrillazione) a morfologia e ampiezza variabili. La conduzione atrioventricolare è irregolarmente irregolare, producendo risposta ventricolare con intervalli RR variabili.
 </p>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      Normalmente, il cuore batte in modo regolare e coordinato. Gli atri si contraggono per primi, pompando sangue nelle camere inferiori (ventricoli). Poi i ventricoli si contraggono, pompando sangue ai polmoni e al resto del corpo. Nella fibrillazione atriale, gli atri tremano invece di contrarsi normalmente. Questo impedisce loro di pompare efficacemente il sangue nei ventricoli.
+      La FA rappresenta l'aritmia sostenuta più prevalente nella pratica clinica. Colpisce 2-4% della popolazione adulta con incidenza che aumenta esponenzialmente con l'età: 0.1% in soggetti <40 anni, 1% età 50-60 anni, 4-5% età 60-70 anni, 10-15% età >80 anni. Il rischio lifetime di sviluppare FA dopo i 40 anni è 25-35% (1 su 3-4 individui). La prevalenza globale è stimata 33-46 milioni di individui (2019), con proiezioni di raddoppio entro 2050 per invecchiamento popolazione.
 </p>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La fibrillazione atriale è l'aritmia più comune. Diventa più frequente con l'età. Prima dei 60 anni è rara. Dopo gli 80 anni, circa il 10 percento delle persone ha la fibrillazione atriale. Nel corso della vita, circa 1 persona su 3 svilupperà questa aritmia.
-</p>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Classificazione clinica temporale (ESC 2020)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA di nuova diagnosi (first detected):</strong> primo episodio documentato indipendentemente da durata o presenza sintomi. Include sia FA parossistica che persistente non precedentemente rilevata.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA parossistica:</strong> episodi autolimitanti con durata <7 giorni (tipicamente <48 ore). Terminazione spontanea entro 7 giorni. Possibile recidiva con pattern temporale variabile. Rappresenta 25-30% FA di nuova diagnosi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente:</strong> durata ≥7 giorni o richiede cardioversione (elettrica/farmacologica) per terminazione. Include episodi cardiovertiti <7 giorni se improbabile terminazione spontanea. Rappresenta 25-30% FA di nuova diagnosi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente di lunga durata (long-standing persistent):</strong> FA continuativa documentata ≥12 mesi quando si decide strategia controllo ritmo. Riflette rimodellamento atriale avanzato con ridotta probabilità mantenimento ritmo sinusale post-cardioversione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●FA permanente:</strong> FA accettata da paziente e medico, senza ulteriori tentativi controllo ritmo. Strategia rate-control esclusiva. Categoria dinamica: può riclassificarsi se si adotta successivamente strategia rhythm-control.</p>
+</div>
+
+<div class="highlight-box rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Classificazione eziopatogenetica</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA non valvolare (90-95% casi):</strong> FA in assenza stenosi mitralica moderata-severa o protesi valvolare meccanica. Include FA associata a ipertensione, coronaropatia, diabete, obesità, scompenso, insufficienze valvolari non stenotiche. Terminologia rilevante per scelta anticoagulante (DOAC appropriati vs warfarin necessario).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA valvolare (5-10% casi):</strong> FA con stenosi mitralica moderata-severa (area valvolare <1.5 cm², gradiente medio >5 mmHg) o protesi valvolare meccanica. Richiede anticoagulazione con VKA (warfarin), DOAC controindicati. Trial RE-ALIGN dimostrato fallimento dabigatran in protesi meccaniche (aumentato rischio trombotico ed emorragico).</p>
+<p class="text-slate-300"><strong class="text-white">●FA secondaria:</strong> FA precipitata da condizione acuta reversibile (chirurgia cardiaca/non cardiaca, infarto miocardico, miocardite, pericardite, embolia polmonare, ipertiroidismo, intossicazione alcolica acuta). Trattamento condizione sottostante può risolvere FA. Rischio recidiva 10-40% a 1 anno se fattori predisponenti persistenti.</p>
+</div>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Quali sono i sintomi della fibrillazione atriale?</h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      Alcune persone con fibrillazione atriale non hanno sintomi. La condizione viene scoperta durante un esame medico di routine o un elettrocardiogramma.
+      Il 20-30% dei pazienti con FA è completamente asintomatico (FA silente o subclinica). La diagnosi avviene incidentalmente durante ECG di routine, monitoraggio Holter eseguito per altre indicazioni, o dopo evento tromboembolico (ictus criptogenico che rivela FA sottostante). La FA asintomatica ha stesso rischio tromboembolico della FA sintomatica a parità di score CHA₂DS₂-VASc, rendendo screening opportunistico importante in popolazioni ad alto rischio.
 </p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 leading-relaxed mb-4">
-        Quando i sintomi si verificano, possono includere:
+
+<p class="text-slate-300 leading-relaxed mb-6">
+      Il 70-80% pazienti presenta sintomatologia variabile. L'intensità sintomi dipende da: frequenza ventricolare media (FC >110 bpm genera sintomi più severi), tipo FA (parossistica sintomi acuti intermittenti vs persistente/permanente sintomi cronici con possibile adattamento), funzione ventricolare sinistra baseline, presenza cardiopatia strutturale. La perdita contributo atriale alla diastole ventricolare (kick atriale 15-25% gittata cardiaca) e frequenza ventricolare rapida irregolare determinano riduzione portata cardiaca del 20-30%.
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Palpitazioni (sensazione che il cuore batte in modo irregolare, veloce o martellante)</li>
-<li>Affanno, specialmente durante attività fisica</li>
-<li>Sensazione di stanchezza o debolezza</li>
-<li>Vertigini o sensazione di testa leggera</li>
-<li>Fastidio o dolore al petto</li>
-</ul>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Presentazione sintomatica tipica</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Palpitazioni (60-75% pazienti sintomatici):</strong> percezione battito cardiaco irregolare, rapido, "sfarfallio" toracico. Caratteristico pattern "irregolarmente irregolare" distingue FA da altre tachiaritmie. Più evidenti in FA parossistica (onset acuto) vs FA permanente (adattamento percettivo).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea da sforzo (50-60%):</strong> ridotta riserva cardiaca da perdita contributo atriale e FC inadeguata all'esercizio. Progressione dispnea riflette rimodellamento ventricolare sinistro (tachicardio-miopatia) se FC non controllata cronicamente. Classe funzionale NYHA correlata inversamente con qualità vita.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Astenia/ridotta tolleranza sforzo (40-50%):</strong> riduzione portata cardiaca a riposo e sotto sforzo. Cronotrop ismo inadeguato (FC non aumenta appropriatamente con attività). Impatto significativo su performance fisiche e attività quotidiane.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Vertigini/presincope (20-30%):</strong> ipoperfusione cerebrale transitoria da gittata cardiaca ridotta durante FC molto elevate (>150 bpm) o pause post-cardioversione spontanea (sindrome bradi-tachi). Raramente sincope completa (<5%), suggerisce patologia nodo seno-atriale sottostante.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico (15-25%):</strong> dolore atipico non-ischemico da palpitazioni intense. Se angina tipica durante FA, considerare ischemia miocard ica demand-related (FC elevata in presenza coronaropatia) o embolizzazione coronarica da trombo atriale sinistro.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Nicturia, poliuria (10-15%):</strong> rilascio peptide natriuretico atriale (ANP) da distensione atriale. Può precedere altri sintomi in FA parossistica notturna.</p>
 </div>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-3 font-bold text-white">
-        Chiamate il 112 o andate al pronto soccorso se avete:
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Score EHRA (European Heart Rhythm Association)</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Classificazione standardizzata gravità sintomatica correlata a FA, utilizzata per guida decisionale terapeutica (rate vs rhythm control):
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Dolore forte al petto</li>
-<li>Difficoltà grave a respirare</li>
-<li>Debolezza improvvisa di un braccio o una gamba</li>
-<li>Difficoltà a parlare o a vedere</li>
-<li>Svenimento</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA I - Asintomatico:</strong> nessun sintomo riferibile a FA. Diagnosticata incidentalmente. 20-30% pazienti. Anticoagulazione basata su CHA₂DS₂-VASc. Controllo FC target <110 bpm riposo permissivo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA II - Sintomi lievi:</strong> attività quotidiane non limitate. Sintomi presenti ma tollerati. 30-40% pazienti. Rate-control spesso sufficiente. Rhythm-control se sintomi persistenti nonostante FC ottimale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA III - Sintomi severi:</strong> attività quotidiane significativamente limitate. Sintomi invalidanti. 20-30% pazienti. Rhythm-control preferito se FA parossistica/persistente. Ablazione considerata precocemente.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●EHRA IV - Sintomi disabilitanti:</strong> normale attività quotidiana impossibile. 5-10% pazienti. Rhythm-control mandatorio. Ablazione transcatetere classe IIa se fallimento farmaci antiaritmici. Considerare anche scompenso cardiaco sottostante non controllato.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6">
+<h3 class="font-bold text-white mb-3 flex items-center gap-2">
+<i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
+        Presentazioni acute richiedenti accesso emergenza immediato (chiamare 118)
+</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        I seguenti sintomi in paziente con FA o sospetta FA costituiscono emergenze mediche:
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico acuto severo con dispnea:</strong> possibile sindrome coronarica acuta (SCA). FA può precipitare ischemia demand in coronaropatia. ECG, troponina, coronarografia emergente se STEMI. Mortalità IMA + FA aumentata 1.5-2x vs ritmo sinusale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Deficit neurologici focali acuti:</strong> emiparesi, afasia, deficit campo visivo, alterazione coscienza. Ictus ischemico acuto da tromboembolismo cardiogeno. Attivazione Stroke Code <4.5 ore per eligibilità trombolisi IV (rtPA). Rischio ictus FA non anticoagulata 3-5%/anno, mortalità ictus cardio embolico 20-30%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea severa a riposo, ortopnea:</strong> scompenso cardiaco acuto (edema polmonare). FA con FC rapida non controllata (>130-150 bpm) può precipitare decompensation in pazienti con disfunzione VN baseline o cardiopatia strutturale. Mortalità ricovero scompenso+FA 8-15% vs 4-6% ritmo sinusale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sincope:</strong> perdita coscienza completa transitoria. Suggerisce bradicardia severa (disfunzione nodo SA, BAV completo parossistico), torsione di punta (QT lungo + FA rapida), o compromissione emodinamica critica. Richiede monitoraggio telemetrico immediato.</p>
+<p class="text-slate-300"><strong class="text-white">●FC >150-180 bpm persistente con ipotensione:</strong> instabilità emodinamica. Considerare cardioversione elettrica emergente se ipotensione sintomatica (PAS <90 mmHg), edema polmonare acuto, ischemia miocardica ongoing. Cardioversione elettrica urgente classe I in FA emodinamicamente instabile.</p>
 </div>
   </section>
 
