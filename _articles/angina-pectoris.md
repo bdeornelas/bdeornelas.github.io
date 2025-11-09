@@ -541,130 +541,188 @@ Quali sono le indicazioni e modalità rivascolarizzazione miocardica (PCI vs CAB
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="line-chart" class="w-6 h-6 text-sky-400"></i>
-<span class="text-white">Qual è la prognosi dell'angina?</span>
+Qual è la stratificazione prognostica e outcome dell'angina pectoris?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      Come va l'angina nel tempo dipende da quanto sono malate le arterie del cuore, da come pompa il cuore, da quanto è estesa la zona che non riceve abbastanza sangue durante lo sforzo, e da altre malattie che avete.
+      Prognosi angina pectoris dipende da: estensione anatomica CAD (vessel score, localizzazione stenosi), funzione ventricolare sinistra (LVEF), estensione ischemia funzionale test provocativi, comorbidità (diabete, IRC, arteriopatia periferica), risposta terapia medica ottimale (OMT). Stratificazione rischio essenziale per individualizzare strategia terapeutica (OMT sola vs rivascolarizzazione) e intensità follow-up. Registri contemporanei (post-OMT moderna era statine/DAPT/rivascolarizzazione): mortalità annuale angina stabile controllata OMT 1-3% (variabile secondo anatomia/funzione VS).
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Situazioni con prognosi buona</h3>
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Segnali favorevoli:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Angina stabile lieve che si controlla bene con i farmaci (limita poco le vostre attività)</li>
-<li>Malattia in una sola arteria, non nelle zone più critiche</li>
-<li>Il cuore pompa normalmente</li>
-<li>I test da sforzo mostrano che solo una piccola zona del cuore va in sofferenza durante lo sforzo</li>
-</ul>
-<p class="text-slate-300">
-        In questi casi, con le cure appropriate, il rischio annuale è molto basso (meno dell'1%), simile a quello di persone della stessa età senza problemi al cuore.
-</p>
+<h3 class="font-bold text-white mb-3">Fattori prognostici favorevoli (rischio basso MACE <1-2%/anno)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Anatomia coronarica:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Malattia monovasale non LAD prossimale, stenosi <70% (COURAGE registry: mortalità 0.6-1%/anno OMT)</p>
+<p class="text-slate-300 ml-6 mb-3">- Assenza stenosi tronco comune, assenza malattia trivasale</p>
+<p class="text-slate-300 ml-6 mb-3">- SYNTAX score basso (≤22)</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Funzione ventricolare:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- LVEF preservata ≥50% (normal cardiac function)</p>
+<p class="text-slate-300 ml-6 mb-3">- Assenza disfunzione diastolica significativa, BNP/NT-proBNP normale</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Ischemia funzionale:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Ischemia lieve test imaging (<5% massa VS, SPECT SDS <4)</p>
+<p class="text-slate-300 ml-6 mb-3">- Buona tolleranza sforzo (>7 METs, >85% FCmax raggiunta senza sintomi/alterazioni ECG severe)</p>
+<p class="text-slate-300 ml-6 mb-3">- Assenza ischemia rest/bassa soglia sforzo</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Presentazione clinica:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Angina stabile CCS I-II ben controllata OMT</p>
+<p class="text-slate-300 ml-6 mb-3">- NO episodi angina rest ultimi 6 mesi, pattern stabile >2 mesi</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Comorbidità:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Assenza diabete mellito, IRC (eGFR >60), BPCO severa</p>
+<p class="text-slate-300 ml-6 mb-6">- Fattori rischio CV ben controllati (PA <130/80, LDL <55 mg/dL, non fumatore, BMI <30)</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Outcome atteso con OMT:</strong> mortalità CV <1%/anno, MACE composito (morte CV + IMA non fatale) 1-2%/anno. Registro COURAGE: pazienti rischio basso OMT, mortalità 0.6%/anno, IMA 1.2%/anno, sopravvivenza 98% a 5 anni. Simile popolazione generale età-matched senza CAD nota.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Situazioni che richiedono più attenzione:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Angina severa (che limita molto le attività) o angina instabile</li>
-<li>Malattia nell'arteria principale (tronco comune) o equivalente</li>
-<li>Malattia in tutte e tre le arterie principali, specialmente se il cuore pompa meno bene</li>
-<li>Il cuore pompa male (meno del 40% del normale)</li>
-<li>I test da sforzo mostrano che una zona grande del cuore (più del 10%) va in sofferenza</li>
-<li>Avete il diabete o problemi ai reni</li>
-<li>Avete avuto un infarto in passato</li>
-</ul>
-<p class="text-slate-300 mt-4">
-        In queste situazioni il rischio annuale è più alto. Per questo, oltre ai farmaci, può essere necessario fare un intervento (angioplastica o bypass) per migliorare la prognosi.
-</p>
+<h3 class="font-bold text-white mb-3">Fattori prognostici sfavorevoli (rischio alto MACE >5-10%/anno)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Anatomia coronarica alto rischio:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Stenosi tronco comune >50%:</strong> mortalità 10-15%/anno OMT sola (CASS registry), ridotta 30-40% con CABG. Equivalente tronco: stenosi prossimale LAD + circonflessa >70%.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Malattia trivasale:</strong> mortalità 5-8%/anno OMT sola, 3-4%/anno post-CABG. Rischio massimo se LVEF <50% o diabete (mortalità 8-12%/anno OMT vs 3-5%/anno CABG, trial FREEDOM/BARI 2D).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Malattia bivasale con stenosi LAD prossimale >70%:</strong> mortalità 4-6%/anno. LAD irriga 50-60% massa VS, ischemia estesa conseguenze prognostiche severe.</p>
+<p class="text-slate-300 ml-6 mb-3">- SYNTAX score alto (≥33): mortalità 10y PCI 23.9% vs CABG 14.1% (trial SYNTAX).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Disfunzione ventricolare sinistra:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>LVEF ridotta <40% (HFrEF con CAD):</strong> mortalità 10-15%/anno OMT sola. Trial STICH: CABG vs OMT, LVEF <35%, mortalità 36% vs 41% a 10y (HR 0.84, p=0.02). Viabilità miocardica (PET/CMR) identifica pazienti maggior beneficio revascularizzazione.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>LVEF borderline 40-50%:</strong> mortalità intermedia 5-8%/anno, aumenta proporzionalmente riduzione LVEF.</p>
+<p class="text-slate-300 ml-6 mb-3">- Scompenso cardiaco sintomatico NYHA III-IV: mortalità 15-25%/anno nonostante OMT, CABG riduce mortalità 30-40% se viabilità presente.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Ischemia estesa test provocativi:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Ischemia >10% massa VS:</strong> SPECT SDS >8, deficit reversibile multipli territori. Mortalità annuale 3-5% vs <1% ischemia lieve (<5% massa). Trial ISCHEMIA: ischemia moderata-severa, mortalità 6.4% a 3.2y (simile PCI vs OMT conservativa).</p>
+<p class="text-slate-300 ml-6 mb-3">- Deficit perfusione fisso esteso (>15% massa, scar transmural): mortalità 8-12%/anno, predice eventi indipendentemente da ischemia reversibile.</p>
+<p class="text-slate-300 ml-6 mb-3">- Test ergometrico criteri alto rischio: incapacità raggiungere 5 METs, sottoslivellamento ST ≥2mm derivazioni multiple, ipotensione indotta esercizio (PAs diminuzione >10 mmHg picco), aritmie ventricolari complesse inducibili. Mortalità annuale 5-8%.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Comorbidità alto rischio:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Diabete mellito:</strong> mortalità 1.5-2x vs non-diabetici anatomia equivalente. Trial FREEDOM: diabetici malattia multivasale, mortalità 10.9% CABG vs 16.3% PCI a 5y. Meccanismi: aterosclerosi accelerata/diffusa, placche vulnerabili, ischemia silente (ritardo diagnosi).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Insufficienza renale cronica (IRC):</strong> mortalità proporzionale riduzione eGFR. eGFR 30-60: mortalità 2x; eGFR <30 non-dialisi: mortalità 4-5x; dialisi: mortalità 10-15x vs eGFR normale. Meccanismi: calcificazioni vascolari accelerate, anemia, sovraccarico volume, infiammazione cronica.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>IMA pregresso:</strong> mortalità raddoppiata (LVEF <40% post-IMA: 8-12%/anno). Cicatrice miocardica predispone aritmie ventricolari maligne (TV/FV), rimodellamento progressivo VS.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Arteriopatia periferica severa (claudicatio/ischemia critica):</strong> marker aterosclerosi diffusa multiorgano. Mortalità CV 3-5x vs assenza PAD. ABI <0.90 predittore indipendente morte CV.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Presentazione clinica instabile:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Angina instabile (NSTE-ACS):</strong> mortalità ospedaliera 2-5%, MACE 10-15% a 30 giorni senza trattamento aggressivo. Score GRACE stratifica rischio: alto (>140): mortalità 8-12%, intermedio (109-140): 3-5%, basso (<109): 1-2%.</p>
+<p class="text-slate-300 ml-6 mb-6">- Angina CCS IV refrattaria OMT massimale + rivascolarizzazione completa: può indicare ischemia microvascolare (CMD - coronary microvascular dysfunction), spasmo, ponte miocardico. Prognosi variabile, qualità vita severely compromised.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Outcome atteso senza rivascolarizzazione appropriata:</strong> mortalità CV 5-15%/anno (dipende combinazione fattori sopra), MACE composito 10-20%/anno. Rivascolarizzazione (PCI/CABG) indicata prognosticamente oltre che sintomaticamente in questi sottogruppi alto rischio.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Risultati con le cure moderne</h3>
 <div class="highlight-box rounded-lg p-6">
-<p class="text-slate-300 mb-3">
-        Con le cure ottimali (aspirina, statine potenti, betabloccanti, ACE-inibitori, e controllo rigoroso di pressione, zuccheri e smettere di fumare):
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Il rischio di infarto si riduce di circa un quarto</li>
-<li>Il rischio di morte per problemi cardiaci si riduce di circa un quarto</li>
-<li>I sintomi sono ben controllati in circa 7-8 pazienti su 10 con angina stabile</li>
-</ul>
-<p class="text-slate-300 mt-4">
-        L'angioplastica o il bypass aggiungono un beneficio importante nelle situazioni a rischio più alto, e migliorano molto i sintomi nei pazienti che non rispondono bene ai farmaci.
-</p>
+<h3 class="font-bold text-white mb-3">Impatto terapia medica ottimale (OMT) moderna su prognosi</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Componenti OMT e riduzione rischio relativo (RRR) eventi CV:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Aspirina 75-100 mg:</strong> RRR 23% eventi vascolari maggiori (meta-analisi ATT Collaboration)</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Statine high-intensity (atorvastatina 80 mg, rosuvastatina 20-40 mg):</strong> RRR 21% MACE per ogni 40 mg/dL riduzione LDL (meta-analisi CTT), riduzione mortalità CV 12%, mortalità totale 10%. Target LDL <55 mg/dL CAD: beneficio incrementale assoluto.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>ACE-inibitori (ramipril, perindopril):</strong> RRR 20-22% morte CV/IMA/ictus (trial HOPE/EUROPA), beneficio massimo LVEF <40%, diabete, IRC</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Beta-bloccanti post-IMA:</strong> RRR 20-25% mortalità, 25-30% re-infarto. Angina stabile senza IMA pregresso: beneficio sintomatico robusto, prognostico incerto (ORBITA 2023).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Controllo fattori rischio:</strong> cessazione fumo RRR 50% mortalità entro 1y, controllo glicemico diabete (HbA1c <7%) RRR 15-20% eventi microvascolari/macrovascolari, controllo PA (<130/80) RRR 25-30% eventi CV.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Effetto cumulativo OMT:</strong> trial COURAGE, BARI 2D, ISCHEMIA dimostrano pazienti angina stabile con OMT intensiva (aderenza >80% farmaci raccomandati + modificazioni stile vita) raggiungono mortalità annuale 1-2%, simile popolazione rivascolarizzata anatomia favorevole. Sottolinea importanza aderenza terapeutica lifelong: sospensione ASA/statine aumenta rischio eventi 2-3x entro mesi.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Controllo sintomatico:</strong> OMT raggiunge freedom angina 70-80% pazienti angina CCS II-III a 1y. Pazienti refrattari OMT (angina persistente CCS III-IV nonostante beta-bloccanti + CCB + nitrati dose massima): rivascolarizzazione (PCI/CABG) migliora qualità vita significantly (Seattle Angina Questionnaire score improvement 10-20 points), riduce ospedalizzazioni 40-60%.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Beneficio rivascolarizzazione vs OMT sola:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Indicazione sintomatica:</strong> PCI/CABG superiore OMT per controllo sintomi angina refrattaria (NNT ~3-5 per eliminare angina CCS III-IV). Trial COURAGE: PCI + OMT vs OMT, freedom angina 66% vs 58% a 1y (p<0.001), ma differenza riduce progressivamente (convergenza 3-5y).</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Indicazione prognostica (riduzione mortalità):</strong> beneficio limitato anatomie alto rischio (tronco comune, trivasale + diabete/LVEF ridotta, bivasale + LAD prossimale). Trial ISCHEMIA (2020): PCI routinaria vs OMT conservativa, NO riduzione morte CV (6.4% vs 6.5% a 3.2y), IMA (7.4% vs 8.0%), in angina stabile ischemia moderata-severa. Conclusione: strategia invasiva routinaria NON giustificata prognosticamente angina stabile, riservare anatomie alto rischio specifiche o refrattarietà sintomatica.</p>
 </div>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="heart" class="w-6 h-6 text-green-400"></i>
-<span class="text-white">Come prevenire le complicazioni dell'angina?</span>
+Quali sono le strategie prevenzione secondaria e modificazioni stile vita in CAD?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      La prevenzione è fondamentale: controllare bene tutti i fattori di rischio aiuta a rallentare la progressione della malattia e a ridurre molto il rischio di infarto e altre complicazioni.
+      Prevenzione secondaria CAD richiede approccio multimodale aggressivo controllo fattori rischio cardiovascolare modificabili: cessazione fumo, esercizio fisico strutturato, alimentazione cardioprotettiva, controllo peso, gestione ottimale comorbidità (ipertensione, dislipidemia, diabete). Evidenza robusta riduzione MACE 30-50% con aderenza interventi lifestyle + OMT farmacologica (meta-analisi Cochrane, AHA/ESC guidelines). Riabilitazione cardiaca strutturata (Classe I raccomandazione) integra componenti: training esercizio supervisionato, counseling nutrizionale, supporto psicosociale, educazione gestione malattia, ottimizzazione farmacoterapia.
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Smettere di fumare</h3>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-3">
-        Smettere di fumare è la cosa più importante che potete fare. Il rischio di infarto si dimezza entro un anno da quando smettete, e dopo 3-5 anni diventa quasi come quello di chi non ha mai fumato:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Parlare con esperti e avere un supporto strutturato aumenta molto le probabilità di successo</li>
-<li>Cerotti, gomme o inalatori di nicotina raddoppiano le possibilità di riuscire a smettere</li>
-<li>Alcuni farmaci (vareniclina, bupropione) funzionano anche meglio dei cerotti</li>
-<li>L'approccio migliore combina il supporto psicologico con i farmaci</li>
-</ul>
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Cessazione fumo (intervento priorità massima)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Impatto prognostico cessazione:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Riduzione rischio mortalità:</strong> cessazione fumo riduce mortalità CV 36% (RR 0.64) entro 1 anno, 50% entro 3-5 anni (meta-analisi Critchley Cochrane). Beneficio dose-risposta: riduzione proporzionale numero sigarette/die.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Riduzione recidiva eventi post-IMA:</strong> cessazione riduce re-infarto 32% (NNT 25), angina ricorrente 40%, necessità rivascolarizzazione 30% (trial post-ACS registries).</p>
+<p class="text-slate-300 ml-6 mb-3">- Meccanismi beneficio: riduzione attivazione piastrinica (normalizzazione aggregabilità entro settimane), miglioramento funzione endoteliale (↑NO bioavailability), riduzione progressione aterosclerosi, riduzione spasmo coronarico, normalizzazione profilo lipidico (↑HDL 10-15%), riduzione resistenza insulinica.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Strategie evidence-based cessazione fumo:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Counseling comportamentale intensivo:</strong> interventi multicontatto (≥4 sessioni, >10 min ciascuna) aumentano quit rate 2-3x vs consigli brevi. Counseling telefonico proattivo (quitlines nazionali 800-554088 Italia) efficacia equivalente face-to-face, maggior accessibilità.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Nicotine Replacement Therapy (NRT - terapia sostitutiva nicotina):</strong> formulazioni: cerotti transdermici (21-7 mg/24h tapering 8-12 settimane), gomme (2-4 mg prn), losanghe/pastiglie (2-4 mg), spray nasale (0.5 mg/puff), inalatore. Efficacia: OR cessazione 1.6-1.7 vs placebo (NNT ~15). Sicurezza post-ACS/CAD: sicura, NO incremento eventi CV (trial EAGLES 2016). Combinazione NRT (cerotto long-acting + forma short-acting prn cravings) superiore monoterapia (OR 1.34).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Vareniclina (Champix):</strong> agonista parziale recettore nicotinico α4β2 cerebrale → riduce cravings + blocca reward fumo. Dosaggio: 0.5 mg qd × 3d → 0.5 mg bid × 4d → 1 mg bid × 12 settimane (estendere 24 settimane se recidiva alta). Efficacia: OR cessazione 2.3-2.7 vs placebo (NNT ~9, superiore NRT). Trial EAGLES (N=8000): vareniclina vs NRT vs bupropione, quit rate 21.8% vs 16.4% vs 16.2% a 6 mesi. Sicurezza CV rivalutata: NO incremento eventi CV (precedente black box warning rimosso FDA 2016). Effetti avversi: nausea 30% (dose-dipendente, riduzione graduale uptitration), insonnia 15%, sogni vividi/anormali 10-15%, neuropsichiatrici controversi (depressione, suicidio: studi recenti NO associazione causale). Controindicazioni: storia convulsioni, psicosi attiva severa.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Bupropione SR (Zyban):</strong> antidepressivo atipico inibitore reuptake dopamina/noradrenalina. Dosaggio: 150 mg qd × 3d → 150 mg bid × 12 settimane. Efficacia: OR cessazione 1.6-1.8 vs placebo (NNT ~12), leggermente inferiore vareniclina. Vantaggi: dual benefit se depressione comorbida, previene aumento peso post-cessazione. Controindicazioni: convulsioni (abbassa soglia), disturbi alimentari, IMAOi, astinenza alcol/benzodiazepine acuta. Effetti avversi: insonnia 30-40%, dry mouth, cefalea.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Strategia combinata massima efficacia:</strong> counseling comportamentale intensivo + farmacoterapia (vareniclina o NRT combinazione) + follow-up strutturato prolungato (12 mesi) raggiunge abstinence rate 35-40% a 1 anno (vs 3-5% unassisted quit attempts). ESC/ACC raccomandazione Classe I: offrire sistematicamente programma strutturato cessazione fumo OGNI fumatore CAD, referral automatico tabaccologia ospedaliera post-ACS/rivascolarizzazione.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Attività fisica</h3>
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-3">
-        L'esercizio fisico regolare riduce la mortalità cardiovascolare di circa un quarto:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Obiettivo: almeno 150 minuti alla settimana di attività moderata (camminata veloce, bicicletta) oppure 75 minuti alla settimana di attività più intensa</li>
-<li>Iniziate gradualmente e aumentate poco alla volta, soprattutto se avete avuto problemi cardiaci di recente</li>
-<li>I programmi di riabilitazione cardiaca seguiti da esperti (con esercizio guidato, educazione e supporto psicologico) riducono la mortalità di un quarto e le ospedalizzazioni di quasi un quinto</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Esercizio fisico e riabilitazione cardiaca</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Beneficio prognostico esercizio fisico regolare CAD:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Meta-analisi Cochrane 2016 (N=148 trial, 98,000 pazienti CAD): riabilitazione cardiaca exercise-based riduce mortalità CV 26% (RR 0.74, NNT 37), ospedalizzazioni 18% (RR 0.82, NNT 26), migliora qualità vita (SMD 0.46 SF-36).</p>
+<p class="text-slate-300 ml-6 mb-3">- Dose-risposta: ogni aumento 1 MET capacità esercizio riduce mortalità 10-15%. Pazienti raggiungono >7 METs post-riabilitazione: mortalità <2%/anno vs 8-10%/anno se <5 METs.</p>
+<p class="text-slate-300 ml-6 mb-3">- Meccanismi: miglioramento funzione endoteliale (↑NO-mediated vasodilation), riduzione progressione aterosclerosi (↑shear stress protezione endotelio), miglioramento profilo lipidico (↓trigliceridi 15-20%, ↑HDL 5-10%), riduzione PA sistolica/diastolica 5-7/3-5 mmHg, miglioramento sensibilità insulinica/controllo glicemico (↓HbA1c 0.3-0.6%), riduzione peso/adiposità viscerale, effetti anti-infiammatori (↓PCR 20-30%), miglioramento capacità funzionale cardiorespiratoria.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Raccomandazioni quantitative esercizio fisico (AHA/ESC 2020):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Attività aerobica moderata:</strong> ≥150 min/settimana (optimal 200-300 min), distribuiti ≥3 sessioni/settimana, 30-60 min/sessione. Intensità: 50-70% VO₂max, 60-75% FCmax, 12-14/20 Borg perceived exertion scale, conversazione possibile durante esercizio (talk test). Modalità: camminata veloce (5-6 km/h), ciclismo, nuoto, ellittica.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Attività vigorosa:</strong> alternativa 75-150 min/settimana (50% tempo moderata). Intensità: 70-85% VO₂max, 75-85% FCmax, dispnea moderata, conversazione difficoltosa. Modalità: jogging, ciclismo intenso, nuoto vigoroso.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Resistance training (allenamento resistenza/forza):</strong> aggiunta ≥2 sessioni/settimana (complementare aerobica, NON sostitutiva). Modalità: 8-10 esercizi gruppi muscolari maggiori, 1-3 serie, 8-12 ripetizioni/serie, carico 50-70% 1-RM, riposo 2-3 min tra serie. Benefici addizionali: ↑massa muscolare/forza, ↓sarcopenia, miglioramento metabolismo glucidico.</p>
+<p class="text-slate-300 ml-6 mb-3">- Progressione graduale: iniziare low-intensity (<50% FCmax) 10-15 min se decondizionati/post-eventi acuti, incrementi 5-10% volume settimanale, raggiungere target raccomandati 8-12 settimane.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Riabilitazione cardiaca strutturata (Cardiac Rehabilitation - CR):</strong> programma multidisciplinare supervisionato 12-36 sessioni (tipicamente 3 sessioni/settimana × 8-12 settimane). Componenti integrate: (1) valutazione iniziale (test ergometrico, VO₂max, comorbidità), (2) training esercizio personalizzato monitorato (ECG telemetrico fasi iniziali, progressione intensità individualizzata), (3) educazione stile vita (nutrizione, gestione stress, aderenza farmaci), (4) supporto psicologico (screening depressione, ansia), (5) ottimizzazione fattori rischio (target PA/LDL/glicemia). <strong>Indicazione CR Classe I:</strong> post-IMA, post-rivascolarizzazione (PCI/CABG), angina stabile, scompenso HFrEF stabile. Underutilization: solo 20-30% pazienti eleggibili partecipa CR (barriere: distanza, costi, supporto sociale), telemedicina/home-based CR alternativa validata (efficacia non-inferiore supervised CR trial REHAB-HF).</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Alimentazione</h3>
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-3">
-        La dieta mediterranea riduce gli eventi cardiovascolari di circa un terzo:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Molti vegetali (verdure, legumi, frutta, noci), cereali integrali</li>
-<li>Olio d'oliva come grasso principale</li>
-<li>Pesce 2-3 volte alla settimana</li>
-<li>Ridurre carne rossa, formaggi grassi, dolci</li>
-<li>Ridurre il sale (meno di un cucchiaino al giorno), aumentare frutta e verdura (che contengono potassio)</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Alimentazione cardioprotettiva</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dieta mediterranea (Mediterranean Diet - gold standard prevenzione secondaria CAD):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Trial PREDIMED (2013, N=7447 alto rischio CV):</strong> dieta mediterranea + olio oliva extravergine (50mL/d) vs dieta low-fat, endpoint composito morte CV/IMA/ictus ridotto 30% (HR 0.70, NNT 61 per 4.8y). Beneficio incrementale eventi maggiori anche pazienti CAD documentata.</p>
+<p class="text-slate-300 ml-6 mb-3">- Componenti chiave quantificati: verdure ≥2 porzioni/die (400-500g), frutta 2-3 porzioni/die, legumi ≥3 porzioni/settimana, cereali integrali preferiti (pasta, riso, pane integrali), noci 30g/die (noci, mandorle, nocciole non salate), pesce grasso (salmone, sgombro, sardine) ≥2-3 volte/settimana (acidi grassi ω-3 EPA/DHA 250-500mg/die), olio oliva extravergine fonte principale grassi (30-50mL/die, ricco polifenoli/antiossidanti), consumo moderato vino rosso (opzionale, <1-2 bicchieri/die uomini, <1 donne, con pasti). Limitare: carne rossa <1-2 volte/settimana (preferire tagli magri), carni processate occasionali (salumi, insaccati ricchi nitriti/sodio), latticini grassi (preferire yogurt/formaggi magri).</p>
+<p class="text-slate-300 ml-6 mb-3">- Meccanismi cardioprotettivi: profilo lipidico favorevole (↓LDL-C 5-10%, ↑HDL-C 5%, ↓trigliceridi 10-15%), effetti anti-infiammatori (↓PCR, IL-6, TNF-α), miglioramento funzione endoteliale (↑NO bioavailability), proprietà antiossidanti (polifenoli olio oliva, resveratrolo vino), modulazione microbiota intestinale (fibre, prebiotici), riduzione PA 2-5 mmHg.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Restrizione sodio:</strong> intake raccomandato <2000-2300 mg/die (equivalente 5-6g sale/die, 1 cucchiaino). Popolazione CAD italiana media 9-12g/die (riduzione necessaria 50%). Beneficio PA: ogni riduzione 100 mmol/die (2.3g) sodio riduce PAs 5-6 mmHg, PAd 2-3 mmHg. Strategie pratiche: evitare aggiunta sale cucina/tavola, limitare alimenti processati/conservati (maggior sorgente sodio nascosto 70-75%), preferire spezie/erbe aromatiche, leggere etichette nutrizionali.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Supplementazione acidi grassi ω-3 (EPA/DHA):</strong> evidenza riduzione eventi CV controversa studi recenti. Meta-analisi Cochrane 2020: supplementazione EPA/DHA (dosi 0.5-4g/die) NO riduzione mortalità CV (RR 0.98), IMA non fatale (RR 0.97), ictus (RR 1.01) vs placebo. Trial REDUCE-IT (2019) icosapent ethyl purificato (EPA 4g/die, prescrizione, non OTC): riduzione eventi CV 25% (HR 0.75) pazienti alto rischio trigliceridi elevati >135 mg/dL nonostante statine. Raccomandazione: preferire intake dietetico pesce grasso ≥2 volte/settimana vs supplementi OTC (evidenza superiore, costo-efficacia migliore). Supplementazione farmacologica EPA riservata ipertrigliceridemia persistente ≥200 mg/dL nonostante statine + modifiche dieta.</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Controllo del peso</h3>
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-3">
-        Se siete sovrappeso o obesi, perdere il 5-10% del peso migliora tutti i fattori di rischio:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Obiettivo: indice di massa corporea (rapporto tra peso e altezza) tra 20 e 25, circonferenza addominale sotto i 94 cm negli uomini e sotto gli 80 cm nelle donne</li>
-<li>La combinazione di dieta ipocalorica e attività fisica funziona meglio</li>
-<li>I programmi intensivi seguiti da professionisti funzionano molto meglio dei semplici consigli generici</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Controllo peso corporeo</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Impatto obesità prognosi CAD:</strong> obesità (BMI ≥30) aumenta rischio MACE 20-40% vs normopeso. Obesità viscerale/addominale (circonferenza vita >102 cm uomini, >88 cm donne) predittore indipendente eventi CV superiore BMI (grasso viscerale metabolicamente attivo, rilascio adipochine pro-infiammatorie, resistenza insulinica).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Obiettivi weight loss CAD:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Target BMI:</strong> 20-25 kg/m² (peso ideale). Se BMI 25-30 (sovrappeso) senza comorbidità: mantenimento acceptable se fattori rischio controllati. BMI ≥30: riduzione peso indicata.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Target circonferenza vita:</strong> <94 cm uomini, <80 cm donne (European cutoff). <102/<88 cm cutoff americani (rischio aumentato).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Perdita peso clinicamente significativa:</strong> riduzione ≥5-10% peso corporeo basale. Perdita 5%: migliora glicemia/HbA1c, trigliceridi, PA. Perdita 10%: beneficio addizionale LDL-C, fattori infiammatori, outcome CV.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Strategie weight loss evidence-based:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Restrizione calorica:</strong> deficit 500-750 kcal/die (riduzione intake totale vs dispendio energetico) → perdita peso 0.5-1 kg/settimana (ritmo sostenibile, mantenimento massa magra). Diete ipocaloriche bilanciate (distribuzione macronutrienti fisiologica 50-60% carboidrati complessi, 15-20% proteine, 25-30% grassi) superiori diete squilibrate/fad (chetogenica, low-carb estrema) per mantenimento long-term.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Combinazione dieta + esercizio:</strong> superiore interventi singoli. Trial Look AHEAD (diabetici): intervento intensivo lifestyle (dieta + esercizio) vs educazione standard → perdita peso 8.6% vs 0.7% a 1y, mantenimento 6% vs 3.5% a 4y.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Programmi strutturati multidisciplinari:</strong> dietista + trainer esercizio + supporto comportamentale → aderenza/successo 3-4x vs consigli generici isolati. Follow-up frequente (settimanale fase intensiva → mensile mantenimento) previene recidiva peso.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Farmacoterapia obesità (BMI ≥30 o ≥27 + comorbidità, fallimento lifestyle 6 mesi):</strong> orlistat (inibitore lipasi intestinale, riduce assorbimento grassi 30%), liraglutide 3mg SC qd (analogo GLP-1, sazietà centrale + ritardo svuotamento gastrico, perdita peso 5-10%), semaglutide 2.4mg SC settimanale (GLP-1 agonista, trial STEP: perdita peso 15% a 68 settimane, riduzione eventi CV 20% trial SELECT 2023). Chirurgia bariatrica (sleeve gastrectomy, bypass gastrico Roux-en-Y): riservata obesità severa BMI ≥40 o ≥35 + comorbidità severe, fallimento terapie conservative. Perdita peso 25-35% totale, remissione diabete 60-80%, riduzione mortalità CV long-term 30-40% (Swedish Obese Subjects study).</p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Obiettivi delle cure</h3>
 <div class="warning-box rounded-lg p-6">
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Pressione arteriosa:</strong> Sotto 130/80. Negli anziani sopra i 65 anni o fragili, va bene anche 130-140/80</li>
-<li><strong class="text-white">Colesterolo "cattivo" (LDL):</strong> Sotto certi valori che dipendono dal vostro rischio (di solito sotto 55 mg/dL nei pazienti ad alto rischio, sotto 40 mg/dL in quelli a rischio altissimo)</li>
-<li><strong class="text-white">Glicemia (se avete il diabete):</strong> Emoglobina glicata sotto il 7%, glicemia a digiuno tra 80 e 130 mg/dL</li>
-<li><strong class="text-white">Battito cardiaco:</strong> 50-60 battiti al minuto a riposo (se state prendendo betabloccanti per l'angina)</li>
-</ul>
+<h3 class="font-bold text-white mb-3">Target terapeutici prevenzione secondaria CAD (ESC/ACC 2019-2023 Guidelines)</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione arteriosa:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Target standard adulti <65 anni:</strong> PA <130/80 mmHg (misurazione office). Trial SPRINT: target intensivo PAs <120 mmHg vs <140 mmHg, riduzione eventi CV 25%, mortalità CV 43%. Approccio graduale: primo obiettivo <140/90, poi titolazione <130/80 se tollerato.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Anziani ≥65 anni / fragilità:</strong> PAs 130-140 mmHg acceptable (evitare ipotensione ortostatica, cadute, ipoperfusione organi). PAd target 70-80 mmHg (evitare <70 mmHg, rischio ipoperfusione coronarica diastolica).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Colesterolo LDL-C:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>CAD documentata (rischio molto alto ESC):</strong> LDL <55 mg/dL (1.4 mmol/L) E riduzione ≥50% valore basale. Se eventi recidivanti entro 2 anni nonostante LDL <55: target <40 mg/dL (rischio estremo).</p>
+<p class="text-slate-300 ml-6 mb-3">- Statine high-intensity first-line (atorvastatina 40-80 mg, rosuvastatina 20-40 mg). Add-on ezetimibe se LDL non target con statina massima dose (riduzione addizionale 15-20%). Add-on inibitori PCSK9 se LDL persistente >70 mg/dL nonostante statina+ezetimibe o intolleranza statine.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Controllo glicemico (diabete mellito):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>HbA1c target:</strong> <7.0% (53 mmol/mol) popolazione generale diabete + CAD. Target individualizzato: <6.5% pazienti giovani senza complicanze, <7.5-8% anziani fragili/aspettativa vita limitata/multiple comorbidità (evitare ipoglicemie).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Glicemia target:</strong> glicemia digiuno 80-130 mg/dL (4.4-7.2 mmol/L), glicemia postprandiale <180 mg/dL (<10 mmol/L).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Farmaci cardioprotettivi preferiti:</strong> SGLT2 inibitori (empagliflozin, dapagliflozin) riducono ospedalizzazioni HF 30-40%, eventi CV 10-15% (EMPA-REG, DECLARE-TIMI 58); GLP-1 agonisti (liraglutide, semaglutide) riducono eventi CV maggiori 12-26% (LEADER, SUSTAIN-6). Raccomandazione: preferire SGLT2i/GLP-1 agonisti vs sulfoniluree/insulina se CAD + diabete.</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Frequenza cardiaca (se terapia beta-bloccanti angina):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- FC riposo target 50-60 bpm (correlazione inversa outcome CV, riduzione MVO₂ ottimale). Monitoraggio ECG/Holter se bradicardia sintomatica (<50 bpm + lipotimia/astenia severa), blocchi conduzione emergenti.</p>
+
+<p class="text-slate-300 mb-6 mt-3"><strong class="text-white">●Trigliceridi:</strong> target <150 mg/dL. Se persistente elevazione ≥200 mg/dL nonostante statine: considerare fenofibrato (diabetici) o icosapent ethyl 4g/die (trial REDUCE-IT). Trigliceridi >500 mg/dL: rischio pancreatite, richiedono trattamento aggressivo (fibrati, ω-3 high-dose, restrizione alcol).</p>
+
+<p class="text-slate-300 mb-3 mt-3"><strong class="text-white">●Aderenza farmacoterapia:</strong> non-aderenza (<80% dosi assunte) aumenta MACE 2-3x. Strategie miglioramento: semplificazione regimi (politerapia →combinazioni fisse single-pill), educazione paziente importanza terapia lifelong, reminder/app smartphone, coinvolgimento famiglia/caregiver, riduzione costi (generici vs brand), follow-up frequente, monitoring biomarker obiettivi (LDL-C, PA, HbA1c visualizzazione progressi).</p>
 </div>
   </section>
 
