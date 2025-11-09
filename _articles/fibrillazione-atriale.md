@@ -303,116 +303,177 @@ date: "2025-11-07"
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Cos'è un anticoagulante?</h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      Un anticoagulante è un farmaco che diminuisce la coagulazione del sangue. Gli anticoagulanti sono anche chiamati "fluidificanti del sangue", ma in realtà non rendono il sangue più liquido.
+      L'anticoagulazione orale (OAC) rappresenta il cardine terapia in FA con CHA₂DS₂-VASc ≥2 (classe I, livello A evidenza). Farmaci disponibili: DOAC (direct oral anticoagulants: dabigatran, rivaroxaban, apixaban, edoxaban) e VKA (vitamin K antagonists: warfarin, acenocumarolo). Meta-analisi trial registrativi dimostrato DOAC superiori vs warfarin per riduzione ictus/embolia 19%, emorragia intracranica 52%, mortalità 10%. DOAC sono prima scelta in FA non-valvolare (classe I).
 </p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 leading-relaxed mb-4">
-        I nuovi anticoagulanti orali, o "NAO", sono i farmaci di prima scelta per la maggior parte dei pazienti. Includono:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Apixaban (nome commerciale: Eliquis)</li>
-<li>Rivaroxaban (nome commerciale: Xarelto)</li>
-<li>Edoxaban (nome commerciale: Lixiana)</li>
-<li>Dabigatran (nome commerciale: Pradaxa)</li>
-</ul>
-<p class="text-slate-300 leading-relaxed">
-        Questi farmaci non richiedono esami del sangue regolari per controllare il dosaggio.
-</p>
-</div>
+
 <div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">DOAC vs VKA: confronto clinico</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●DOAC (preferiti in FA non-valvolare):</strong> inibizione diretta trombina (dabigatran 150 mg BID) o fattore Xa (rivaroxaban 20 mg OD, apixaban 5 mg BID, edoxaban 60 mg OD). Onset rapido 2-4h, emivita breve 5-17h, dosaggio fisso senza monitoraggio coagulativo routinario. Riduzione aderenza dosaggio se CrCl 30-50 mL/min. Controindicati se CrCl <15 mL/min (warfarin necessario).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●VKA (warfarin 2-10 mg/die):</strong> indicati in FA valvolare (stenosi mitralica moderata-severa, protesi meccaniche), IRC severa (CrCl <15 mL/min), costo limitazione. Richiedono monitoraggio INR ogni 4-6 settimane con target 2-3 (FA non-valvolare) o 2.5-3.5 (protesi meccaniche). Efficacia dipendente da TTR (time in therapeutic range): TTR >70% ottimale, <60% aumenta rischio ictus ed emorragie.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Antidoti specifici:</strong> idarucizumab reversione dabigatran, andexanet alfa reversione anti-Xa, PCC/vitamina K reversione warfarin. Disponibilità antidoti aumenta sicurezza gestione emorragie maggiori.</p>
+</div>
+
 <p class="text-slate-300 leading-relaxed mb-4">
-        Un altro anticoagulante è il warfarin (nome commerciale: Coumadin). Il warfarin è stato usato per molti anni. Oggi viene prescritto meno frequentemente, ma rimane indicato in alcune situazioni:
+      Per informazioni dettagliate su meccanismi, dosaggi, interazioni, gestione peri-procedurale, monitoraggio, effetti avversi e gestione emorragie, consultare l'articolo dedicato:
 </p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Pazienti con valvole cardiache artificiali</li>
-<li>Alcuni tipi di problemi alle valvole cardiache</li>
-<li>Insufficienza renale molto grave</li>
-</ul>
 <p class="text-slate-300 leading-relaxed">
-        Il warfarin richiede esami del sangue regolari per controllare che il dosaggio sia corretto.
+      <a href="/articles/anticoagulanti-doac-warfarin/" class="text-sky-400 hover:text-sky-300 underline font-medium">→ Guida completa agli anticoagulanti orali (DOAC e warfarin)</a>
 </p>
-</div>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-3">
-<strong class="text-white">Importante sugli anticoagulanti:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Non sospendete mai gli anticoagulanti senza parlare con il vostro medico</li>
-<li>Prendete sempre il farmaco esattamente come prescritto</li>
-<li>Chiamate il vostro medico se notate sanguinamento anomalo</li>
-<li>Informate tutti i medici che vedete che prendete anticoagulanti</li>
-</ul>
-</div>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Cos'è la cardioversione?</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La cardioversione è una procedura che ripristina il ritmo normale del cuore. Ci sono due tipi di cardioversione:
-</p>
-<ul class="text-slate-300 space-y-4 ml-5 mb-6">
-<li><strong class="text-white">Cardioversione elettrica</strong> – Il medico usa una scossa elettrica per ripristinare il ritmo normale. Ricevete una sedazione, quindi non sentirete dolore. La procedura dura pochi minuti</li>
-<li><strong class="text-white">Cardioversione farmacologica</strong> – Ricevete farmaci per via endovenosa o per bocca che possono ripristinare il ritmo normale</li>
-</ul>
-<p class="text-slate-300 leading-relaxed mb-6">
-      Se la fibrillazione atriale è presente da più di 48 ore, c'è il rischio che si siano formati coaguli nel cuore. Per questo motivo, dovrete prendere anticoagulanti per almeno 3 settimane prima della cardioversione. Dopo la cardioversione, gli anticoagulanti vanno continuati per almeno 4 settimane.
-</p>
-<p class="text-slate-300 leading-relaxed mb-4">
-      Dopo aver ripristinato il ritmo normale, il medico può prescrivere farmaci antiaritmici per evitare che l'aritmia ritorni. I farmaci antiaritmici includono:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Flecainide</li>
-<li>Propafenone</li>
-<li>Amiodarone</li>
-</ul>
-  </section>
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white">Cos'è l'ablazione transcatetere?</h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      L'ablazione transcatetere è una procedura che può correggere la fibrillazione atriale. Durante l'ablazione, il medico inserisce sottili tubicini (cateteri) attraverso una vena nell'inguine e li porta fino al cuore. Il medico usa il calore o il freddo per distruggere il tessuto cardiaco che causa l'aritmia.
+      La cardioversione è procedura per ripristino acuto ritmo sinusale in FA. Due modalità disponibili: elettrica (direct current cardioversion, DCCV) e farmacologica. Successo dipende da durata FA (massimo se <48h), dimensioni atrio sinistro (<50 mm favorevole), assenza fibrosi atriale severa. La cardioversione non è curativa: serve terapia mantenimento ritmo (antiaritmici o ablazione) per prevenire recidive che occorrono in 50-70% pazienti a 1 anno senza profilassi.
 </p>
-<p class="text-slate-300 leading-relaxed mb-4">
-      L'ablazione è particolarmente indicata per:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-6">
-<li>Persone giovani o di mezza età con fibrillazione atriale che va e viene</li>
-<li>Persone con molti sintomi nonostante i farmaci</li>
-<li>Persone con scompenso cardiaco causato dall'aritmia</li>
-</ul>
-<p class="text-slate-300 leading-relaxed mb-6">
-      In circa 7 su 10 persone con fibrillazione atriale che va e viene, l'aritmia non ritorna dopo l'ablazione. A volte serve una seconda procedura.
-</p>
-<p class="text-slate-300 leading-relaxed mb-4">
-      L'ablazione comporta alcuni rischi, anche se sono rari:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-6">
-<li>Sanguinamento nel punto di ingresso del catetere</li>
-<li>Versamento di liquido intorno al cuore</li>
-<li>Ictus (molto raro)</li>
-</ul>
-<p class="text-slate-300 leading-relaxed">
-      Anche dopo un'ablazione riuscita, la maggior parte delle persone ha bisogno di continuare gli anticoagulanti se ha fattori di rischio per l'ictus.
-</p>
-  </section>
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white">Cosa posso fare per prevenire la fibrillazione atriale?</h2>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 leading-relaxed mb-4">
-        Modificare lo stile di vita può ridurre le recidive della fibrillazione atriale. I fattori più importanti da controllare sono:
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Cardioversione elettrica (DCCV)</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Procedura elettiva in setting controllato (sala elettrofisiologia, sala operatoria, pronto soccorso se emergente). Shock bifasico sincronizzato delivery durante onda R per evitare periodo vulnerabile (rischio fibrillazione ventricolare se shock durante onda T).
 </p>
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Pressione arteriosa</strong> – Mantenere la pressione sotto controllo (obiettivo sotto 130/80 mmHg) è fondamentale</li>
-<li><strong class="text-white">Peso corporeo</strong> – Perdere il 10 percento del peso se siete in sovrappeso può dimezzare le probabilità che l'aritmia ritorni</li>
-<li><strong class="text-white">Alcol</strong> – Ridurre o eliminare completamente l'alcol riduce le recidive. Anche quantità moderate (1-2 bicchieri al giorno) possono scatenare l'aritmia</li>
-<li><strong class="text-white">Apnee notturne</strong> – Se russate molto e vi sentite stanchi di giorno, potreste avere le apnee nel sonno. Curarle riduce le recidive di quasi la metà</li>
-<li><strong class="text-white">Diabete</strong> – Controllare bene la glicemia se avete il diabete</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tecnica procedurale:</strong> sedazione procedurale (propofol 1-2 mg/kg EV o midazolam 2-5 mg EV), posizionamento elettrodi anterolaterale o anteroposteriore, sincronizzazione ECG, shock bifasico energia crescente (100-150-200J). Successo 90-95% ripristino ritmo sinusale immediato. Durata procedura totale 15-30 minuti (sedazione + cardioversione + recovery).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Indicazioni urgenti/emergenti:</strong> FA con instabilità emodinamica (ipotensione sintomatica PAS <90 mmHg), edema polmonare acuto, ischemia miocardica ongoing, FC >180-200 bpm refrattaria farmaci rate-control. Cardioversione elettrica emergente classe I senza anticoagulazione preliminare (beneficio immediato supera rischio tromboembolico).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze:</strong> bradicardia/asistolia transitoria post-shock (1-2%, self-limiting), embolia sistemica se trombi LAA non esclusi (1-5% senza anticoagulazione adeguata), aritmie ventricolari indotte (rare <0.5% con sincronizzazione corretta), ustioni cutanee superficiali (5-10%), amnesia procedurale da sedazione.</p>
 </div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Cardioversione farmacologica</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Somministrazione antiaritmici EV per conversione chimica FA a ritmo sinusale. Successo 50-70% entro 24h, inferiore vs DCCV ma non richiede sedazione. Efficacia massima se FA <48h (conversione 70-80% vs 30-40% se FA >7 giorni).
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci disponibili:</strong></p>
+<p class="text-slate-300 mb-3">- <em>Flecainide EV</em> 2 mg/kg in 10 min (max 150 mg): conversione 60-70% entro 2-6h. Solo in assenza cardiopatia strutturale (LVEF >40%, no ipertrofia, no coronaropatia). Monitoraggio ECG continuo per QRS widening >25% baseline (stop infusione)</p>
+<p class="text-slate-300 mb-3">- <em>Propafenone EV</em> 2 mg/kg in 10-20 min (max 150 mg): simile flecainide. Conversione 50-60% entro 2-4h. Stesso profilo sicurezza/controindicazioni</p>
+<p class="text-slate-300 mb-3">- <em>Amiodarone EV</em> 5 mg/kg in 1h poi 50 mg/h infusione continua: conversione 30-50% entro 24h. Onset lento ma sicuro in cardiopatia strutturale. Preferito in scompenso, LVEF ridotta, coronaropatia</p>
+<p class="text-slate-300 mb-3">- <em>Vernakalant EV</em> 3 mg/kg in 10 min (seconda dose 2 mg/kg possibile dopo 15 min): conversione 50-60% entro 90 min. Recente approvazione EU, non disponibile US. Controindicato in SCA <30 giorni, ipotensione severa, QT lungo</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Pill-in-the-pocket:</strong> strategia ambulatoriale self-administration antiaritmico orale (flecainide 200-300 mg o propafenone 450-600 mg dose singola) all'onset palpitazioni in FA parossistica recidivante. Richiede test supervisionato ospedaliero iniziale, solo in lone AF, efficacia 70-80% terminazione episodi entro 2-4h.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6">
+<h3 class="font-bold text-white mb-3 flex items-center gap-2">
+<i data-lucide="shield" class="w-5 h-5 text-orange-400"></i>
+        Stratificazione rischio tromboembolico peri-cardioversione
+</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        La cardioversione (elettrica/farmacologica) aumenta transitoriamente rischio tromboembolismo per stunning atriale meccanico post-ripristino ritmo. Protocollo anticoagulazione mandatorio basato su durata FA:
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA <48 ore durata documentata:</strong> cardioversione immediata senza anticoagulazione preliminare se CHA₂DS₂-VASc=0. Se CHA₂DS₂-VASc ≥1: anticoagulazione iniziare immediatamente e continuare ≥4 settimane post-cardioversione. Rischio tromboembolico <1% senza anticoagulazione se durata realmente <48h.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA >48 ore o durata incerta (approccio convenzionale):</strong> anticoagulazione terapeutica (DOAC o warfarin INR 2-3) per ≥3 settimane pre-cardioversione + ≥4 settimane post-cardioversione. Continuazione long-term basata su CHA₂DS₂-VASc (≥2 richiede anticoagulazione lifetime indipendentemente da mantenimento ritmo sinusale).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Approccio TEE-guided (accelerato):</strong> alternativa all 'approccio convenzionale. TEE pre-cardioversione per escludere trombi LAA. Se LAA libero: cardioversione immediata con anticoagulazione acuta + ≥4 settimane post. Se trombi LAA presenti: anticoagulazione ≥3-6 settimane, ripetere TEE per risoluzione trombi prima cardioversione. Vantaggio: cardioversione precoce senza attesa 3 settimane. Equivalenza sicurezza vs approccio convenzionale (trial ACUTE).</p>
+<p class="text-slate-300"><strong class="text-white">●Stunning atriale post-cardioversione:</strong> disfunzione meccanica atriale transitoria (2-4 settimane) dopo ripristino ritmo elettrico, con velocità flusso LAA ridotta nonostante ritmo sinusale ECG. Spiega rischio tromboembolico persistente primissime settimane post-cardioversione. Anticoagulazione ≥4 settimane post-cardioversione mandatoria indipendentemente da CHA₂DS₂-VASc.</p>
+</div>
+  </section>
+
+  <section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+<i data-lucide="zap" class="w-7 h-7 text-rose-400"></i>
+Quando è indicata l'ablazione transcatetere per la fibrillazione atriale?
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
+      L'ablazione transcatetere è procedura invasiva mini-invasiva percutanea che mira a isolare elettricamente le vene polmonari (PVI - pulmonary vein isolation), principale sorgente trigger aritmogeni in 90% pazienti FA. Tecnica procedurale: accesso venoso femorale, puntura transettale, mappaggio elettroanatomico 3D (CARTO, EnSite), lesioni circonferenziali antrale vene polmonari mediante radiofrequenza (RF 40-50W) o crioablazione (balloon -40/-60°C). Isolamento completo verificato mediante mappaggio elettrofisiologico.
+</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Indicazioni ablazione transcatetere (Linee guida ESC 2020)</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (raccomandata):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- FA parossistica sintomatica refrattaria/intollerante a ≥1 antiaritmico (classe IC o III)</p>
+<p class="text-slate-300 ml-6 mb-3">- Cardiomiopatia tachi-indotta (LVEF ridotta secondaria a FA con FC elevata, reversibile post-ablazione 70-80% casi)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe IIa (da considerare):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- FA parossistica sintomatica in prima linea (alternativa antiaritmici), specie pazienti giovani (<60 anni) altamente sintomatici (EHRA ≥2b)</p>
+<p class="text-slate-300 ml-6 mb-3">- FA persistente sintomatica refrattaria ad antiaritmici, senza fattori prognostici negativi maggiori (LA <55 mm, durata FA <2-3 anni)</p>
+<p class="text-slate-300 ml-6 mb-3">- FA persistente + scompenso cardiaco HFrEF (LVEF <50%): trial CASTLE-AF dimostra riduzione mortalità 38% (HR 0.62) e ospedalizzazioni HF 44% vs terapia medica</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Classe III (controindicata):</strong> LA >60 mm, FA permanente accettata, trombo LAA, comorbidità severe limitanti aspettativa vita.</p>
+</div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Efficacia ablazione: tassi libertà da FA senza antiaritmici</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA parossistica:</strong> 70-80% libertà FA a 12 mesi post-singola procedura, 85-90% dopo procedure multiple. Meta-analisi RCT: ablazione superiore ad antiaritmici (RR 0.52, 95% CI 0.41-0.65 per recidiva FA).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente:</strong> 50-60% libertà FA a 12 mesi post-singola procedura, 70-75% dopo procedure multiple. Fattori predittivi insuccesso: durata FA >2-3 anni, LA >55 mm, fibrosi atriale estesa (>20% massa LA), insufficienza mitralica moderata-severa.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Trial CABANA (2018, N=2204):</strong> endpoint primario composito (morte, ictus, emorragia grave, arresto cardiaco) non differenza significativa ablazione vs farmaci (HR 0.86, p=0.30) in intention-to-treat. Analisi per-protocol e as-treated dimostrano superiorità ablazione. Mortalità totale ridotta 40% (HR 0.60, p=0.04). QoL significativamente migliorata con ablazione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ripetizioni procedura:</strong> 20-40% pazienti richiedono seconda ablazione per recidive (riconnessione vene polmonari 80-90% causa recidiva). Terza procedura in 5-10%.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Complicanze procedurali ablazione transcatetere</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tasso complicanze maggiori totale:</strong> 2-4% centri esperti (>100 procedure/anno), 5-6% centri volume basso.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tamponamento cardiaco:</strong> 1.0-1.5% (perforazione atriale, richiede pericardiocentesi urgente, raramente chirurgia).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ictus/TIA:</strong> 0.2-0.5% (embolia gassosa, trombotica). Prevenzione: anticoagulazione periprocedura (ACT >300 sec), imaging intraprocedura ecocardiografia transesofagea.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Complicanze vascolari (inguine):</strong> 2-3% (ematoma, pseudoaneurisma, fistola AV, dissezione). Gestione conservativa 80%, chirurgica/interventistica 20%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stenosi vene polmonari:</strong> 1-3% (riduzione diametro >50%). Rischio maggiore crioablazione prima generazione, ridotto con tecniche moderne. Sintomi: dispnea, tosse, emottisi. Trattamento: angioplastica balloon ± stent.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fistola atrio-esofagea:</strong> <0.1% (complicanza rara ma potenzialmente fatale, mortalità 50-80%). Esordio 2-4 settimane post-ablazione: febbre, dolore toracico, sepsi, embolia gassosa cerebrale. Richiede chirurgia toracica urgente.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Lesione nervo frenico:</strong> 0.1-0.5% (paralisi emidiaframma), più frequente crioablazione vena polmonare superiore destra. Recupero spontaneo 80% casi entro 6-12 mesi.</p>
+</div>
+
+<p class="text-slate-300 leading-relaxed mb-6">
+      <strong class="text-white">Anticoagulazione post-ablazione:</strong> continuazione TAO indefinita se CHA₂DS₂-VASc ≥2 (uomini) o ≥3 (donne), indipendentemente da esito ablazione. Razionale: episodi FA asintomatici persistono in 20-40% pazienti apparentemente liberi da aritmia al monitoraggio standard. Studio DISCERN-AF: monitoraggio continuo ILR rivela episodi FA subclinici 60% pazienti "guariti" clinicamente. Rischio ictus post-ablazione non eliminato se fattori rischio CHA₂DS₂-VASc presenti.
+</p>
+  </section>
+
+  <section class="mb-12">
+<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+<i data-lucide="heart" class="w-7 h-7 text-rose-400"></i>
+Quali modificazioni dello stile di vita riducono le recidive di fibrillazione atriale?
+</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
+      La gestione fattori rischio modificabili costituisce componente essenziale approccio integrato ABC pathway e rappresenta intervento terapeutico con efficacia paragonabile a trattamenti farmacologici/interventistici. Evidenza robusta da RCT supporta integrazione modificazione stile vita con terapie convenzionali per riduzione burden aritmico, miglioramento sintomi, potenziamento efficacia cardioversione/ablazione.
+</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Fattori di rischio modificabili con impatto quantificato</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Obesità e perdita peso:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Obesità (BMI ≥30): OR 1.5 per sviluppo FA incidente. Ogni aumento 1 unità BMI: incremento rischio FA 4%.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Trial LEGACY (2015, N=355):</strong> perdita peso ≥10% baseline associata a riduzione 50-60% burden FA e 6x maggior probabilità libertà da aritmia vs perdita <3%. Mantenimento perdita peso critico: recupero peso associato a recidiva FA 90% casi.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Trial ARREST-AF (2015):</strong> intervento strutturato gestione peso + controllo fattori rischio: 87.5% gruppo intervento liberi da FA vs 17.8% controllo (p<0.001). Perdita peso media 14.3±8.9 kg.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Ipertensione arteriosa:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- IA presente 60-80% pazienti FA. OR 1.5-2.0 per sviluppo FA incidente. Target PA: <130/80 mmHg (linee guida ESC 2018).</p>
+<p class="text-slate-300 ml-6 mb-3">- Controllo ottimale PA riduce fibrosi atriale, rimodellamento LA, incidenza FA 20-30%. ACE-inibitori/ARB mostrano beneficio addizionale oltre controllo pressorio (effetto anti-fibrotico diretto).</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Consumo alcol:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Relazione dose-dipendente: ogni drink standard/die (12g alcol) aumenta rischio FA 8% (OR 1.08 per drink/die).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Binge drinking</strong> (≥5 drink singola occasione): OR 2.0-2.5 per FA parossistica acuta ("holiday heart syndrome").</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Trial REDUCE-AF (2020, N=140):</strong> astinenza completa alcol vs consumo moderato continuato in pazienti FA regolare consumo (≥10 drink/settimana). Astinenza: riduzione 37% tempo burden FA, riduzione 50% recidive sintomatiche.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Apnee ostruttive del sonno (OSA):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Prevalenza OSA (AHI ≥15/ora) in pazienti FA: 50-60%, nettamente superiore popolazione generale (10-15%).</p>
+<p class="text-slate-300 ml-6 mb-3">- OSA non trattata: OR 2.0-4.0 sviluppo FA incidente, riduzione efficacia cardioversione 25%, riduzione successo ablazione 25-40%.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>CPAP terapia</strong> in OSA moderata-severa (AHI ≥15): riduzione recidive FA post-cardioversione 40-50% (HR 0.50-0.60), miglioramento esiti post-ablazione. Aderenza CPAP >4 ore/notte necessaria per beneficio clinico.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Diabete mellito:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- DM tipo 2: OR 1.4-1.6 per sviluppo FA. Controllo glicemico ottimale (HbA1c <7%) associato a riduzione rischio FA 20-25%.</p>
+<p class="text-slate-300 ml-6 mb-6">- Inibitori SGLT2 (empagliflozin, dapagliflozin) dimostrano riduzione incidenza FA 20-25% vs placebo in pazienti HF/DM (trial DECLARE-TIMI 58, EMPEROR).</p>
+</div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Attività fisica: paradosso dose-risposta</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizio moderato (effetto protettivo):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- 150 minuti/settimana attività aerobica moderata (camminata veloce, ciclismo, nuoto) o 75 min/settimana attività vigorosa: riduzione rischio FA incidente 20-30% vs sedentarietà.</p>
+<p class="text-slate-300 ml-6 mb-3">- Meccanismo protettivo: miglioramento funzione diastolica, riduzione pressione LA, controllo peso, riduzione IA, miglioramento funzione autonomica.</p>
+
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Esercizio estremo/ultra-endurance (effetto paradosso):</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Atleti endurance (>1500 ore/vita esercizio vigoroso): OR 2-10 per sviluppo FA vs individui moderatamente attivi. Rischio massimo sport resistenza prolungata (maratone, ultramaratone, triathlon Ironman, ciclismo lunga distanza).</p>
+<p class="text-slate-300 ml-6 mb-3">- Meccanismo aritmogenico: rimodellamento atriale (dilatazione LA, fibrosi), aumentato tono vagale, bradicardia sinusale, infiammazione miocardica post-esercizio estremo.</p>
+<p class="text-slate-300 mb-6">- Raccomandazione: limitare esercizio vigoroso <5 ore/settimana in individui predisposti FA o FA incidente.</p>
+</div>
+
+<div class="warning-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Quando contattare il medico per ottimizzazione fattori rischio</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Consulenza strutturata raccomandata se:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- BMI ≥27 (sovrappeso/obesità): programma strutturato perdita peso target ≥10%.</p>
+<p class="text-slate-300 ml-6 mb-3">- PA non controllata (≥130/80 mmHg): ottimizzazione terapia antipertensiva.</p>
+<p class="text-slate-300 ml-6 mb-3">- Consumo alcol ≥10 drink/settimana: counseling riduzione/astinenza.</p>
+<p class="text-slate-300 ml-6 mb-3">- Sintomi sospetti OSA (russamento severo, apnee osservate, sonnolenza diurna eccessiva): polisonnografia diagnostica.</p>
+<p class="text-slate-300 ml-6 mb-6">- HbA1c ≥7% in diabetici: intensificazione terapia ipoglicemizzante.</p>
+</div>
+
 <p class="text-slate-300 leading-relaxed">
-      L'esercizio fisico regolare moderato riduce il rischio di aritmie. L'ideale è camminare veloce, andare in bicicletta o nuotare 30 minuti al giorno per 5 giorni alla settimana. L'esercizio molto intenso per molte ore (maratone, triathlon) può aumentare il rischio di fibrillazione atriale.
+      <strong class="text-white">Approccio integrato multifattoriale:</strong> gestione combinata multipli fattori rischio mostra effetto sinergico superiore a interventi singoli. Trial ARREST-AF dimostra che approccio strutturato integrato (peso, PA, glicemia, lipidi, OSA, alcol) ottiene libertà FA 87.5% vs 17.8% controllo routinario. Modificazione stile vita potenzia efficacia cardioversione elettrica/farmacologica (+20-30% successo) e ablazione transcatetere (+15-25% libertà FA long-term).
 </p>
   </section>
 
