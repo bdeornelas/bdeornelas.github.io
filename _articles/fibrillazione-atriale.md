@@ -130,52 +130,117 @@ date: "2025-11-07"
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Perché ho bisogno di curare la fibrillazione atriale?</h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      La fibrillazione atriale va curata per due motivi: ridurre i sintomi e prevenire l'ictus cerebrale. La prevenzione dell'ictus è il motivo più importante per trattare la fibrillazione atriale.
+      Gli obiettivi terapeutici in FA sono: (1) prevenzione eventi tromboembolici (ictus ischemico, embolia sistemica) mediante anticoagulazione, (2) controllo sintomi tramite rate-control o rhythm-control, (3) prevenzione/trattamento tachicardio-miopatia, (4) modificazione fattori rischio per ridurre burden aritmico. La prevenzione tromboembolica è priorità assoluta indipendentemente da sintomatologia, poiché ictus cardio-embolico determina mortalità 20-30% e disabilità permanente 50-60% sopravvissuti.
 </p>
+
 <div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 leading-relaxed mb-4">
-        Quando gli atri tremano invece di contrarsi normalmente, il sangue può ristagnare e formare coaguli. Questi coaguli possono viaggiare dal cuore al cervello e causare un ictus. Le persone con fibrillazione atriale hanno un rischio di ictus circa 5 volte più alto rispetto alle persone senza fibrillazione atriale.
-</p>
+<h3 class="font-bold text-white mb-3">Fisiopatologia trombogenesi in fibrillazione atriale</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        Il rischio di ictus dipende da diversi fattori oltre alla fibrillazione atriale:
+        La FA determina stato pro-trombotico attraverso triade Virchow applicata all'atrio sinistro:
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Età avanzata</li>
-<li>Pressione alta</li>
-<li>Diabete</li>
-<li>Ictus precedente o altri problemi cardiaci</li>
-<li>Malattie dei vasi sanguigni</li>
-</ul>
-</div>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stasi ematica:</strong> perdita contrazione atriale coordinata causa riduzione velocità flusso in atrio sinistro, particolarmente in auricola sinistra (LAA, left atrial appendage). LAA è sito formazione trombi nel 90% casi FA non-valvolare. Velocità flusso LAA <20 cm/s all'ecocardiogramma transesofageo (TEE) predice aumentato rischio trombotico.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Disfunzione endoteliale:</strong> attivazione endoteliale con espressione molecole adesione, rilascio fattore von Willebrand, riduzione produzione NO. Biomarcatori (D-dimero, troponina ultrasensibile) elevati in FA riflettono stato pro-coagulante.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ipercoagulabilità:</strong> attivazione piastrinica, generazione trombina aumentata, fibrinolisi ridotta. Aggregazione piastrinica spontanea e formazione spontaneous echo contrast (SEC, "smoke" all'ecocardiografia) visibile al TEE in 10-20% FA.</p>
 <p class="text-slate-300 leading-relaxed">
-      Il vostro medico valuterà il vostro rischio individuale di ictus per decidere se avete bisogno di prendere farmaci per prevenirlo.
+        La formazione trombo in LAA precede embolizzazione verso circolo sistemico. Il 75-80% ictus FA-correlati sono cardio-embolici da LAA, 10-15% da trombi aortici/ateroma complesso, 5-10% eziologia multipla. L'ictus cardio-embolico è tipicamente severo (coinvolgimento territorio MCA), con mortalità 30 giorni 20-30% e recovery completa <30% casi.
 </p>
+</div>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Stratificazione rischio tromboembolico: CHA₂DS₂-VASc score</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Score validato per stratificazione rischio ictus in FA non-valvolare. Guida decisione anticoagulazione (linee guida ESC/AHA 2020):
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fattori di rischio e punteggio:</strong></p>
+<p class="text-slate-300 mb-3">- Scompenso cardiaco/disfunzione VN (LVEF <40%): 1 punto</p>
+<p class="text-slate-300 mb-3">- Ipertensione arteriosa: 1 punto</p>
+<p class="text-slate-300 mb-3">- Età ≥75 anni: 2 punti</p>
+<p class="text-slate-300 mb-3">- Diabete mellito: 1 punto</p>
+<p class="text-slate-300 mb-3">- Ictus/TIA/tromboembolismo precedente: 2 punti</p>
+<p class="text-slate-300 mb-3">- Malattia vascolare (IMA pregresso, arteriopatia periferica, ateroma aortico): 1 punto</p>
+<p class="text-slate-300 mb-3">- Età 65-74 anni: 1 punto</p>
+<p class="text-slate-300 mb-6">- Sesso femminile: 1 punto (solo se altri fattori presenti)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Rischio ictus annuale per score:</strong></p>
+<p class="text-slate-300 mb-3">- Score 0 (solo uomini): 0.2-0.3%/anno → no anticoagulazione (classe III)</p>
+<p class="text-slate-300 mb-3">- Score 1 (uomini) o 1 (donne senza altri fattori): 0.6-1.0%/anno → considerare anticoagulazione (classe IIa)</p>
+<p class="text-slate-300 mb-3">- Score ≥2 (uomini) o ≥2 (donne con ≥1 fattore): 2.2-15.0%/anno → anticoagulazione raccomandata (classe I)</p>
+<p class="text-slate-300 leading-relaxed">
+        L'anticoagulazione riduce rischio ictus 64% (RRR) vs placebo. DOAC preferiti vs warfarin (classe I) in FA non-valvolare per superiore profilo efficacia/sicurezza: riduzione ictus/embolia 19%, emorragia intracranica 52%, mortalità 10% vs warfarin (meta-analisi trial registrativi).
+</p>
+</div>
+
+<div class="info-step rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Stratificazione rischio emorragico: HAS-BLED score</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Score per valutare rischio emorragico in pazienti anticoagulati. NON controindicazione assoluta ad anticoagulazione, ma identifica pazienti richiedenti monitoraggio intensivo:
+</p>
+<p class="text-slate-300 mb-3">●Ipertensione non controllata (PAS >160 mmHg): 1 punto</p>
+<p class="text-slate-300 mb-3">●Funzione renale/epatica compromessa (1 punto ciascuno, max 2)</p>
+<p class="text-slate-300 mb-3">●Ictus pregresso: 1 punto</p>
+<p class="text-slate-300 mb-3">●Bleeding history o predisposizione: 1 punto</p>
+<p class="text-slate-300 mb-3">●INR labile (se warfarin, TTR <60%): 1 punto</p>
+<p class="text-slate-300 mb-3">●Età >65 anni: 1 punto</p>
+<p class="text-slate-300 mb-6">●Farmaci (FANS, antiaggreganti) o alcol (≥8 drinks/settimana): 1 punto ciascuno</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Rischio emorragie maggiori annuale:</strong></p>
+<p class="text-slate-300 mb-3">- Score 0-1: 1.0-1.5%/anno (basso rischio)</p>
+<p class="text-slate-300 mb-3">- Score 2: 1.9-2.5%/anno (rischio moderato)</p>
+<p class="text-slate-300 mb-3">- Score ≥3: 3.7-12%/anno (alto rischio)</p>
+<p class="text-slate-300 leading-relaxed">
+        HAS-BLED ≥3 richiede attenzione particolare (controllo PA, evitare FANS, ridurre alcol, monitoraggio funzione renale), ma beneficio anticoagulazione supera rischio emorragico nella maggior parte pazienti con CHA₂DS₂-VASc ≥2. L'interruzione anticoagulazione per timore emorragico determina rischio ictus significativamente superiore vs rischio emorragia.
+</p>
+</div>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Come viene diagnosticata la fibrillazione atriale?</h2>
+
 <p class="text-slate-300 leading-relaxed mb-6">
-      Il vostro medico vi chiederà dei vostri sintomi e della vostra storia medica. Vi visiterà e ordinerà degli esami.
+      La diagnosi FA richiede documentazione elettrocardiografica di aritmia con caratteristiche specifiche: assenza onde P,  attività atriale disorganizzata (onde f variabili morfologia/ampiezza), intervalli RR irregolarmente irregolari. Durata minima episodio per diagnosi: 30 secondi su tracciato ECG/monitoraggio. Il workflow diagnostico include: (1) conferma elettrocardiografica FA, (2) valutazione cardiopatia strutturale sottostante, (3) identificazione fattori precipitanti/comorbidità, (4) stratificazione rischio tromboembolico/emorragico.
 </p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 leading-relaxed mb-4">
-        Gli esami che possono diagnosticare la fibrillazione atriale includono:
-</p>
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Elettrocardiogramma (ECG)</strong> – Questo esame registra l'attività elettrica del cuore. Se l'aritmia è presente durante la registrazione, la diagnosi è immediata. L'esame dura pochi minuti e non fa male</li>
-<li><strong class="text-white">Holter ECG</strong> – Un piccolo registratore che portate a casa per 24-48 ore. Registra continuamente il ritmo cardiaco. È utile se l'aritmia va e viene</li>
-<li><strong class="text-white">Ecocardiogramma (ecografia del cuore)</strong> – Questo esame usa onde sonore per creare immagini del cuore. Mostra se ci sono altri problemi cardiaci</li>
-</ul>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Modalità di monitoraggio elettrocardiografico</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●ECG standard 12-derivazioni (gold standard diagnostico):</strong> registrazione 10 secondi. Sensibilità 100% se FA presente durante tracciato, ma yield basso (5-10%) in FA parossistica. Criteri diagnostici: assenza onde P, onde f (300-600 bpm) variabili ampiezza best visible V1/II/III, risposta ventricolare irregolare (RR intervals variabili >120 ms). Costo contenuto, immediata disponibilità, baseline mandatorio.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Holter ECG continuo 24-48 ore:</strong> monitoraggio ambulatoriale continuo 24-72 ore. Diagnostic yield 5-15% in FA parossistica sintomatica. Sensibilità aumenta con durata monitoraggio: 24h yield 12%, 48h yield 18%, 72h yield 22%. Indicato se sintomi quotidiani/frequenti (palpitazioni, vertigini ricorrenti). Limitato in FA con episodi <1-2/settimana.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Event recorder (registratore eventi):</strong> dispositivo ambulatoriale 14-30 giorni. Registrazione triggered (paziente attiva durante sintomi) o auto-triggered (algoritmo rileva aritmia). Yield 25-35% in FA parossistica con sintomi settimanali. Prolungata finestra monitoraggio aumenta probabilità cattura episodi. Richiede compliance paziente per attivazione manuale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Implantable loop recorder (ILR):</strong> dispositivo impiantabile sottocutaneo, durata batteria 2-3 anni. Monitoraggio continuo ECG monocanale con memoria loop. Yield 50-60% detection FA in ictus criptogenico. Trial CRYSTAL-AF: ILR rileva FA nel 30% ictus criptogenici vs 3% monitoraggio convenzionale a 3 anni. Indicazioni: ictus criptogenico, sincope ricorrente, FA parossistica sintomatica non documentata con monitoraggi convenzionali negativi.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Smartwatch/wearables con rilevamento FA:</strong> dispositivi consumer (Apple Watch, Fitbit, Kardia) con algoritmi fotopletismografici o ECG monocanale. Sensibilità 85-95%, specificità 70-85% vs ECG standard. Utile screening opportunistico popolazione generale, ma richiede conferma ECG formale per diagnosi. FDA-approved per detection FA. Yield screening popolazioni ≥65 anni: 1-2% nuove diagnosi.</p>
 </div>
-<p class="text-slate-300 leading-relaxed mb-4">
-      Il medico potrebbe anche prescrivere esami del sangue per:
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Ecocardiogramma transto racico (TTE)</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Indicato in TUTTI pazienti con nuova diagnosi FA (classe I, evidenza C) per valutazione cardiopatia strutturale sottostante e guida decisionale terapeutica:
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Controllare la funzione della tiroide</li>
-<li>Valutare la funzione dei reni</li>
-<li>Misurare elettroliti come potassio e magnesio</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Valutazione parametri strutturali:</strong> dimensioni atrio sinistro (dilatazione LA volume index >34 mL/m² presente in 60-70% FA), spessore parietale VS (ipertrofia concentrica suggerisce ipertensione), funzione sistolica VS (LVEF), valvulopatie (stenosi mitralica classifica FA come valvolare), ipertensione polmonare (PAPS >35 mmHg).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Funzione diastolica VS:</strong> disfunzione diastolica (E/e' >14) presente in 40-50% FA. Pattern restrittivo (E/A >2) predice scompenso e prognosi peggiore.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Esclusione trombi:</strong> TTE sensibilità limitata (30-40%) per trombi LAA. Se cardioversione pianificata in FA >48 ore, richiesto TEE pre-cardioversione per escludere trombi LAA (sensibilità >95%).</p>
+</div>
+
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Ecocardiogramma transesofageo (TEE)</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Sonda ecografica intraesofagea con visione superiore atrio sinistro/LAA. Indicazioni specifiche:
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pre-cardioversione in FA >48 ore o durata incerta:</strong> escludere trombi LAA prima cardioversione elettrica/farmacologica. Approccio guidato-TEE permette cardioversione immediata se LAA libero da trombi (vs 3-4 settimane anticoagulazione terapeutica approccio convenzionale). Trombi LAA presenti in 5-15% FA >48 ore. Sensibilità TEE >95% vs TTE 30-40%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ictus criptogenico:</strong> ricerca fonte cardioembolica (trombi LAA, SEC - spontaneous echo contrast, PFO - patent foramen ovale, ateroma aortico complesso). TEE rileva potenziale fonte cardioembolica in 40-50% ictus criptogenici.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Pianificazione ablazione/occlusione LAA:</strong> anatomia LAA (morfologia, ostio, lobi), PFO screening pre-procedura, ruling out trombi.</p>
+</div>
+
+<div class="info-step rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Workup laboratoristico</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Valutazione baseline mandatoria in nuova diagnosi FA per identificare cause reversibili e comorbidità:
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Funzione tiroidea (TSH, FT4):</strong> ipertiroidismo subclinico/manifesto causa FA in 10-15% casi. TSH <0.1 mUI/L associato OR 3.1 per FA incident. Trattamento ipertiroidismo può ripristinare ritmo sinusale in 50-60% FA secondaria.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Funzione renale (creatinina, eGFR):</strong> guida dosaggio DOAC (riduzione dose se CrCl 30-50 mL/min, controindicazione se <15 mL/min). IRC moderata-severa (eGFR <60) presente in 30-40% FA, aumenta rischio trombotico ed emorragico.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Funzione epatica (AST, ALT, bilirubina):</strong> epatopatia severa (Child-Pugh C) controindicazione relativa DOAC. Alterazioni transaminasi >2-3x ULN richiedono cautela/monitoraggio.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Elettroliti (Na, K, Mg):</strong> ipokaliemia (<3.5 mmol/L) e ipomagnesemia (<0.8 mmol/L) facilitano FA. Correzione disturbi elettrolitici può terminare episodi parossistici. Monitoraggio K+ mandatorio in terapia diuretica.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Emocromo completo:</strong> anemia può precipitare FA ad alta risposta ventricolare. Piastrinopenia (<100,000/μL) aumenta rischio emorragico in anticoagulazione.</p>
+<p class="text-slate-300"><strong class="text-white">●Biomarcatori opzionali:</strong> NT-proBNP elevato (>400 pg/mL) indica strain atriale, predice recidive post-cardioversione. Troponina hs elevata (anche senza SCA) associata a rimodellamento atriale e prognosi peggiore.</p>
+</div>
   </section>
 
   <section class="mb-12">
