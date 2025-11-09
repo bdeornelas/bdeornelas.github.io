@@ -245,39 +245,60 @@ date: "2025-11-07"
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white">Come viene trattata la fibrillazione atriale?</h2>
-<p class="text-slate-300 leading-relaxed mb-4">
-      Il trattamento della fibrillazione atriale ha diversi obiettivi:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-6">
-<li>Prevenire coaguli di sangue e ictus</li>
-<li>Controllare la frequenza cardiaca</li>
-<li>Ripristinare il ritmo normale (quando possibile)</li>
-</ul>
 
-<h3 class="text-xl font-bold mb-4 text-white">Prevenzione dell'ictus</h3>
 <p class="text-slate-300 leading-relaxed mb-6">
-      La maggior parte delle persone con fibrillazione atriale ha bisogno di prendere un anticoagulante (fluidificante del sangue) per prevenire l'ictus. Il vostro medico deciderà se avete bisogno di questo farmaco in base al vostro rischio individuale di ictus.
+      Il management FA prevede tre pilastri terapeutici: (1) anticoagulazione orale (OAC) per prevenzione tromboembolica (priorità assoluta, classe I in CHA₂DS₂-VASc ≥2), (2) controllo frequenza ventricolare (rate-control) o ripristino/mantenimento ritmo sinusale (rhythm-control) per controllo sintomi, (3) trattamento cardiopatia sottostante e fattori rischio (ABC pathway: Anticoagulation, Better symptom control, Cardiovascular risk management). La scelta rate vs rhythm control è individualizzata basata su sintomatologia (EHRA score), tipo FA, età, comorbidità, preferenze paziente.
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Controllo della frequenza cardiaca</h3>
-<p class="text-slate-300 leading-relaxed mb-4">
-      Se il cuore batte troppo veloce con la fibrillazione atriale, il medico può prescrivere farmaci per rallentarlo. I farmaci che rallentano la frequenza cardiaca includono:
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Rate-control: strategia di prima linea</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Approccio che accetta FA permanente controllando frequenza ventricolare. Trial AFFIRM e RACE dimostrato mortalità sovrapponibile rate vs rhythm control a lungo termine. Rate-control preferito in: FA asintomatica/sintomi lievi (EHRA I-II), FA persistente lunga durata/permanente, età avanzata (>75 anni), controindicazioni antiaritmici, fallimenti multipli rhythm-control.
 </p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-6">
-<li>Beta-bloccanti</li>
-<li>Calcio-antagonisti</li>
-<li>Digossina</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Target frequenza cardiaca:</strong></p>
+<p class="text-slate-300 mb-3">- Lenient control: FC <110 bpm riposo (RACE II trial: outcome simile vs strict control <80 bpm, ma minor necessità farmaci/effetti avversi)</p>
+<p class="text-slate-300 mb-3">- Strict control: FC <80 bpm riposo, <110 bpm sforzo moderato. Indicato se sintomi persistenti con lenient control o tachicardio-miopatia (LVEF ridotta con FC cronicamente >110-120 bpm)</p>
+<p class="text-slate-300 mb-6">- Monitoraggio: ECG Holter 24h per FC media, ECG sotto sforzo per FC max durante attività</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci rate-control prima linea:</strong></p>
+<p class="text-slate-300 mb-3">- <em>Beta-bloccanti</em> (metoprolol 25-200 mg/die, bisoprolol 2.5-10 mg/die, carvedilolo 3.125-25 mg BID): efficacia 60-70% controllo FC <110 bpm. Preferiti se scompenso (LVEF ridotta), coronaropatia, post-IMA. Limitazione: bradicardia/ipotensione, broncosp asmo (β-bloccanti non selettivi)</p>
+<p class="text-slate-300 mb-3">- <em>Calcio-antagonisti non-diidropiridinici</em> (diltiazem 120-360 mg/die, verapamil 120-480 mg/die): efficacia simile beta-bloccanti. Preferiti se controindicazioni beta-bloccanti (asma, BPCO). Controindicazione in scompenso sistolico (LVEF <40%), ipotensione, disfunzione nodo SA</p>
+<p class="text-slate-300 mb-3">- <em>Digossina</em> (0.125-0.25 mg/die): efficacia rate-control a riposo ma non sotto sforzo. Finestra terapeutica ristretta (target 0.5-1.0 ng/mL, tossicità >2 ng/mL). Indicazione: terapia aggiuntiva se monoterapia beta/calcio-antagonisti insufficiente, rate-control in FA + scompenso sistolico. Ridotta clearance in IRC (dose adjustment per eGFR)</p>
+<p class="text-slate-300 mb-6">- <em>Terapia combinata</em>: beta-bloccante + digossina o calcio-antagonista + digossina se monoterapia inadeguata. Attenzione sinergia bradicardizzante</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ablazione nodo AV + pacemaker:</strong> rate-control definitivo quando farmacoterapia inadeguata/mal tollerata. Ablazione RF nodo AV crea BAV completo, richiede pacemaker VVI/VVIR permanente. Indicazioni: FC refrattaria, sintomi severi nonostante polifarmacoterapia, controindicazioni rhythm-control. Tasso successo >95% controllo FC. Svantaggio: dipendenza pacemaker lifetime, necessità upgrade CRT se LVEF deteriora.</p>
+</div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Ripristino del ritmo normale</h3>
-<p class="text-slate-300 leading-relaxed mb-4">
-      Per alcune persone, i medici cercano di ripristinare il ritmo normale. Questo può essere fatto con:
+<div class="info-step rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Rhythm-control: ripristino e mantenimento ritmo sinusale</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Strategia che mira a ripristinare/mantenere ritmo sinusale. Indicazioni classe I: sintomi severi nonostante rate-control ottimale (EHRA III-IV), tachicardio-miopatia, FA secondaria reversibile, prima diagnosi FA sintomatica in giovani (<60 anni). Trial EAST-AFNET 4: rhythm-control precoce riduce outcome composito (morte CV, ictus, scompenso, SCA) del 21% vs rate-control in FA recente.
 </p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Farmaci antiaritmici</li>
-<li>Cardioversione elettrica (una procedura che usa una scossa elettrica per ripristinare il ritmo normale)</li>
-<li>Ablazione transcatetere (una procedura che distrugge il tessuto cardiaco che causa l'aritmia)</li>
-</ul>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cardioversione (ripristino acuto):</strong></p>
+<p class="text-slate-300 mb-3">- <em>Cardioversione elettrica (DCCV)</em>: shock bifasico sincronizzato 100-200J sotto sedazione procedurale. Successo immediato 90-95%. Indicazioni urgenti: instabilità emodinamica, edema polmonare acuto, ischemia miocardica ongoing. Elettiva: fallimento farmacologica, preferenza paziente/operatore</p>
+<p class="text-slate-300 mb-3">- <em>Cardioversione farmacologica</em>: antiaritmici EV (flecainide 2 mg/kg in 10 min, propafenone 2 mg/kg in 10-20 min, amiodarone 5 mg/kg in 1h poi infusione). Successo 50-70% entro 24h. Efficacia maggiore se FA <48h. Controindicazioni: cardiopatia strutturale severa per flecainide/propafenone (rischio pro-aritmia)</p>
+<p class="text-slate-300 mb-6">- <em>Anticoagulazione peri-cardioversione</em>: FA >48h o durata incerta richiede anticoagulazione terapeutica ≥3 settimane pre-cardioversione + ≥4 settimane post (rischio tromboembolico 1-5% senza anticoagulazione). Alternativa: TEE-guided cardioversione se LAA libero + anticoagulazione acuta</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci antiaritmici mantenimento ritmo sinusale:</strong></p>
+<p class="text-slate-300 mb-3">- <em>Flecainide</em> (100-200 mg BID): classe IC Vaughan-Williams (blocco canali Na+). Efficacia 50-60% mantenimento ritmo sinusale a 1 anno. Controindicazione: cardiopatia strutturale (LVEF <40%, ipertrofia >14 mm, coronaropatia) per rischio flutter atriale 1:1 e torsione punta. Solo in "lone AF" (atri strutturalmente normali)</p>
+<p class="text-slate-300 mb-3">- <em>Propafenone</em> (150-300 mg TID): simile flecainide, stesso profilo sicurezza/efficacia. Preferito se FC baseline elevata (blocco beta lieve intrinseco)</p>
+<p class="text-slate-300 mb-3">- <em>Amiodarone</em> (200 mg/die dopo loading 600-800 mg/die x 1-2 settimane): classe III (blocco canali K+). Farmaco antiaritmico più efficace (70-80% mantenimento ritmo a 1 anno). Utilizzabile in cardiopatia strutturale. Limitazione: tossicità extracardiaca (tiroide 15-20%, polmonare 5-10%, epatica 15%, neurologica, cutanea) richiede monitoraggio FT4/TSH ogni 6 mesi, Rx torace/PFT baseline e periodici</p>
+<p class="text-slate-300 mb-3">- <em>Dronedarone</em> (400 mg BID): derivato amiodarone senza iodio, minor tossicità extracardiaca. Efficacia inferiore vs amiodarone. Controindicato in scompenso NYHA III-IV (trial ANDROMEDA: aumentata mortalità). Indicazione: FA parossistica/persistente senza scompenso avanzato</p>
+<p class="text-slate-300 mb-6">- <em>Sotalolo</em> (80-160 mg BID): classe III con proprietà beta-bloccanti. Efficacia moderata. Limitazione: QTc-prolongation dose-dipendente (rischio torsione punta 1-3%), richiede monitoraggio ECG seriale, aggiustamento dose per funzione renale</p>
+<p class="text-slate-300 leading-relaxed">
+        La scelta antiaritmico è guidata da cardiopatia sottostante: classe IC in lone AF, amiodarone/dronedarone in cardiopatia strutturale. Recidive FA 40-60% a 1 anno con farmaci antiaritmici. Fallimento 2+ farmaci antiaritmici è indicazione ablazione transcatetere.
+</p>
+</div>
+
+<div class="info-step rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Modificazione fattori rischio (ABC pathway - componente C)</h3>
+<p class="text-slate-300 leading-relaxed mb-3">
+        Gestione integrata fattori rischio cardiovascolare riduce burden FA e migliora efficacia rate/rhythm control:
+</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo peso:</strong> obesità (BMI ≥30) aumenta rischio FA 50% (OR 1.5 per 5 unità BMI). Perdita peso ≥10% riduce burden FA 50-60% e aumenta successo ablazione. Programmi strutturati weight-loss + esercizio fisico aerobico (LEGACY trial, ARREST-AF trial).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo pressorio:</strong> ipertensione presente in 70-80% FA. Target PA <130/80 mmHg (classe I). Ogni 20 mmHg riduzione PAS riduce rischio FA incidente 28%. ACE-inibitori/ARB potenziale effetto anti-rimodellamento atriale oltre controllo PA.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Screening apnee sonno (OSA):</strong> OSA presente in 50-60% FA. Trattamento CPAP riduce recidive post-cardioversione e post-ablazione 40-50%. Screening con questionari (STOP-BANG), polisonnografia se sospetto alto.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo glicemico:</strong> diabete aumenta rischio FA 40% (OR 1.4). HbA1c <7% target. SGLT2-inibitori mostrato riduzione FA incidente in trial CV outcomes.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Riduzione alcol:</strong> consumo >2 drinks/die aumenta rischio FA dose-dipendente. Astinenza completa o riduzione <1 drink/die riduce recidive 60% (trial REDUCE-AF).</p>
+<p class="text-slate-300"><strong class="text-white">●Esercizio fisico moderato:</strong> attività aerobica 150 min/settimana riduce burden FA. Attenzione: atleti endurance (>1500 METs-min/settimana) hanno paradossalmente rischio FA aumentato 5x (fibrosi atriale da strain cronico).</p>
+</div>
   </section>
 
   <section class="mb-12">
