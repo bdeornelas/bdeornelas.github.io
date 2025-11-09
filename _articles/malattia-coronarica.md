@@ -75,18 +75,24 @@ date: "2025-10-09"
             La malattia coronarica è causata dall'accumulo di depositi di grasso (placche aterosclerotiche) sulle pareti delle arterie coronarie. Questo processo è chiamato aterosclerosi (indurimento delle arterie).
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            I fattori di rischio per la malattia coronarica includono:
+I fattori di rischio per la malattia coronarica includono:
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Colesterolo alto (colesterolo LDL alto o colesterolo HDL basso)</p>
-<p class="text-slate-300 mb-2">●Pressione arteriosa alta</p>
-<p class="text-slate-300 mb-2">●Diabete</p>
-<p class="text-slate-300 mb-2">●Fumo di sigaretta</p>
-<p class="text-slate-300 mb-2">●Storia familiare di malattia coronarica (un parente stretto che ha avuto un infarto prima dei 55 anni se uomo o prima dei 65 anni se donna)</p>
-<p class="text-slate-300 mb-2">●Età avanzata (il rischio aumenta dopo i 45 anni negli uomini e dopo i 55 anni nelle donne)</p>
-<p class="text-slate-300 mb-2">●Obesità o sovrappeso</p>
-<p class="text-slate-300 mb-2">●Mancanza di attività fisica</p>
-</div>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Colesterolo alto</strong> (colesterolo LDL alto o colesterolo HDL basso)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione arteriosa alta</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Diabete</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo di sigaretta</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Storia familiare di malattia coronarica</strong> (un parente stretto che ha avuto un infarto prima dei 55 anni se uomo o prima dei 65 anni se donna)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Età avanzata</strong> (il rischio aumenta dopo i 45 anni negli uomini e dopo i 55 anni nelle donne)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Obesità o sovrappeso</strong></p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Mancanza di attività fisica</strong></p>
 <p class="text-slate-300 leading-relaxed">
             Avere più fattori di rischio aumenta la probabilità di sviluppare la malattia coronarica. Il medico valuterà il rischio complessivo per decidere quali trattamenti sono necessari.
 </p>
@@ -101,31 +107,34 @@ date: "2025-10-09"
             Alcune persone con malattia coronarica non hanno sintomi. La condizione viene scoperta durante una visita o un esame di routine.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Quando i sintomi si manifestano, possono includere:
+Quando i sintomi si manifestano, possono includere:
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Dolore o fastidio al petto (angina) – Di solito si verifica durante lo sforzo fisico o lo stress emotivo e migliora con il riposo. Il dolore può sembrare una pressione, un peso o una costrizione al centro del petto</p>
-<p class="text-slate-300 mb-2">●Dolore che si irradia – Il dolore al petto può estendersi al braccio sinistro, alla spalla, al collo o alla mandibola</p>
-<p class="text-slate-300 mb-2">●Mancanza di respiro durante lo sforzo</p>
-<p class="text-slate-300 mb-2">●Stanchezza o debolezza insolite</p>
-</div>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore o fastidio al petto (angina):</strong> Di solito si verifica durante lo sforzo fisico o lo stress emotivo e migliora con il riposo. Il dolore può sembrare una pressione, un peso o una costrizione al centro del petto.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore che si irradia:</strong> Il dolore al petto può estendersi al braccio sinistro, alla spalla, al collo o alla mandibola.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mancanza di respiro</strong> durante lo sforzo.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Stanchezza o debolezza insolite.</strong></p>
 <p class="text-slate-300 leading-relaxed mb-6">
             In alcune persone, specialmente donne, anziani e diabetici, i sintomi possono essere diversi. Potrebbero avere solo mancanza di respiro, stanchezza o nausea senza dolore al petto.
 </p>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
-              CHIAMA SUBITO IL 118 se hai:
+              CHIAMA IMMEDIATAMENTE IL 118 se hai:
 </h3>
-<div class="ml-6">
-<p class="text-slate-300 mb-2">●Dolore al petto che dura più di 15 minuti</p>
-<p class="text-slate-300 mb-2">●Dolore al petto che non migliora con il riposo o con nitroglicerina</p>
-<p class="text-slate-300 mb-2">●Dolore al petto con sudorazione, nausea o mancanza di respiro grave</p>
-<p class="text-slate-300 mb-2">●Nuovo dolore al petto o dolore che è diverso dal solito</p>
-</div>
-<p class="text-slate-300 mt-4">
-              Questi possono essere segni di un infarto miocardico (attacco di cuore).
-</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto che dura più di 15 minuti</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto che non migliora con il riposo o con nitroglicerina</strong></p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto con sudorazione, nausea o mancanza di respiro grave</strong></p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">●Nuovo dolore al petto o dolore che è diverso dal solito</strong></p>
+
+<p class="text-slate-300">Questi possono essere segni di un infarto miocardico (attacco di cuore).</p>
 </div>
 </section>
 
@@ -135,22 +144,27 @@ date: "2025-10-09"
             Come si diagnostica?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il medico:
+Il tuo medico:
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Ti chiederà dei tuoi sintomi e della tua storia clinica</p>
-<p class="text-slate-300 mb-2">●Farà una visita medica</p>
-<p class="text-slate-300 mb-2">●Prescriverà degli esami</p>
-</div>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Gli esami che possono aiutare a diagnosticare la malattia coronarica includono:
-</p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-4">●<strong class="text-white">Elettrocardiogramma (ECG)</strong> – Registra l'attività elettrica del cuore. Può mostrare segni di scarso apporto di sangue al cuore</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Test da sforzo</strong> – Registra l'ECG mentre cammini su un tapis roulant. Aiuta a vedere se il cuore riceve abbastanza sangue durante l'esercizio</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Ecocardiogramma (ecografia del cuore)</strong> – Utilizza onde sonore per creare immagini del cuore. Può essere fatto a riposo o durante lo sforzo</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">TC coronarica</strong> – Una TAC che crea immagini dettagliate delle arterie coronarie</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Coronarografia (cateterismo cardiaco)</strong> – Il medico inserisce un tubicino sottile in un'arteria del braccio o dell'inguine e lo fa arrivare fino al cuore. Poi inietta un liquido di contrasto che rende visibili le arterie coronarie ai raggi X. Questo è l'esame più preciso per vedere i restringimenti delle arterie</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ti chiederà</strong> dei tuoi sintomi e della tua storia clinica</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farà</strong> una visita medica</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Prescriverà</strong> degli esami</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Esami che possono aiutare a diagnosticare la malattia coronarica</h3>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Elettrocardiogramma, o "ECG":</strong> Registra l'attività elettrica del cuore. Può mostrare segni di scarso apporto di sangue al cuore.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Test da sforzo:</strong> Registra l'ECG mentre cammini su un tapis roulant. Aiuta a vedere se il cuore riceve abbastanza sangue durante l'esercizio.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ecocardiogramma (ecografia del cuore):</strong> Utilizza onde sonore per creare immagini del cuore. Può essere fatto a riposo o durante lo sforzo.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●TC coronarica:</strong> Una TAC che crea immagini dettagliate delle arterie coronarie.</p>
+
+<p class="text-slate-300"><strong class="text-white">●Coronarografia (cateterismo cardiaco):</strong> Il medico inserisce un tubicino sottile in un'arteria del braccio o dell'inguine e lo fa arrivare fino al cuore. Poi inietta un liquido di contrasto che rende visibili le arterie coronarie ai raggi X. Questo è l'esame più preciso per vedere i restringimenti delle arterie.</p>
 </div>
 <p class="text-slate-300 leading-relaxed">
             Il medico deciderà quali esami sono necessari in base ai tuoi sintomi e fattori di rischio.
@@ -166,20 +180,28 @@ date: "2025-10-09"
             Il trattamento della malattia coronarica dipende dalla gravità dei sintomi e da quanto sono ristrette le arterie.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Le opzioni di trattamento includono:
+Le opzioni di trattamento includono:
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-4">●<strong class="text-white">Cambiamenti nello stile di vita</strong> – Smettere di fumare, seguire una dieta sana, fare attività fisica regolare e mantenere un peso sano. Questi cambiamenti possono rallentare la progressione della malattia</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Farmaci</strong> – La maggior parte delle persone con malattia coronarica prende farmaci per:</p>
-<div class="ml-6 mb-4">
-<p class="text-slate-300 mb-2">- Ridurre il colesterolo (statine)</p>
-<p class="text-slate-300 mb-2">- Prevenire la formazione di coaguli di sangue (aspirina o altri anticoagulanti)</p>
-<p class="text-slate-300 mb-2">- Controllare la pressione arteriosa (ACE-inibitori o altri farmaci per la pressione)</p>
-<p class="text-slate-300 mb-2">- Ridurre il dolore al petto (beta-bloccanti, calcio-antagonisti o nitroglicerina)</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">●Cambiamenti nello stile di vita:</strong> Smettere di fumare, seguire una dieta sana, fare attività fisica regolare e mantenere un peso sano. Questi cambiamenti possono rallentare la progressione della malattia.</p>
+
+<div class="highlight-box rounded-lg p-6 mb-6">
+<h3 class="font-bold text-white mb-3">Farmaci</h3>
+
+<p class="text-slate-300 mb-3">La maggior parte delle persone con malattia coronarica prende farmaci per:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ridurre il colesterolo</strong> (statine come atorvastatina, rosuvastatina)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Prevenire la formazione di coaguli di sangue</strong> (aspirina o altri antipiastrinici)</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllare la pressione arteriosa</strong> (ACE-inibitori o altri farmaci per la pressione)</p>
+
+<p class="text-slate-300"><strong class="text-white">●Ridurre il dolore al petto</strong> (beta-bloccanti, calcio-antagonisti o nitroglicerina)</p>
 </div>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Angioplastica e stent</strong> – Una procedura per aprire un'arteria ristretta. Il medico inserisce un tubicino sottile attraverso un'arteria del braccio o dell'inguine fino a raggiungere l'arteria coronaria ristretta. Poi gonfia un palloncino per allargare l'arteria e posiziona uno stent (un tubicino metallico) per mantenerla aperta</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Bypass coronarico</strong> – Un intervento chirurgico per creare un "ponte" (bypass) che aggira il restringimento dell'arteria. Il chirurgo utilizza un vaso sanguigno prelevato da un'altra parte del corpo (di solito dalla gamba o dal torace)</p>
-</div>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">●Angioplastica e stent:</strong> Una procedura per aprire un'arteria ristretta. Il medico inserisce un tubicino sottile attraverso un'arteria del braccio o dell'inguine fino a raggiungere l'arteria coronaria ristretta. Poi gonfia un palloncino per allargare l'arteria e posiziona uno stent (un tubicino metallico) per mantenerla aperta.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Bypass coronarico:</strong> Un intervento chirurgico per creare un "ponte" (bypass) che aggira il restringimento dell'arteria. Il chirurgo utilizza un vaso sanguigno prelevato da un'altra parte del corpo (di solito dalla gamba o dal torace).</p>
 <p class="text-slate-300 leading-relaxed">
             Il medico parlerà con te di quale trattamento è più adatto per il tuo caso. È importante prendere i farmaci esattamente come prescritto, anche se ti senti bene.
 </p>
@@ -191,15 +213,18 @@ date: "2025-10-09"
             Cosa posso fare per migliorare?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            I cambiamenti nello stile di vita sono molto importanti per rallentare la progressione della malattia e ridurre il rischio di complicazioni.
+I cambiamenti nello stile di vita sono molto importanti per rallentare la progressione della malattia e ridurre il rischio di complicazioni.
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-4">●<strong class="text-white">Smettere di fumare</strong> – Questa è la cosa più importante che puoi fare. Smettere di fumare riduce il rischio di infarto del 50 percento entro un anno</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Seguire una dieta sana per il cuore</strong> – Mangiare molta frutta e verdura, pesce, cereali integrali e legumi. Usare olio d'oliva. Limitare carni rosse, cibi processati, dolci e sale</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Fare attività fisica regolare</strong> – Cerca di fare almeno 30 minuti di camminata veloce quasi tutti i giorni della settimana. Parla con il medico per sapere quale attività è sicura per te</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Mantenere un peso sano</strong> – Se sei in sovrappeso, perdere anche solo 5-10 chili può aiutare</p>
-<p class="text-slate-300 mb-4">●<strong class="text-white">Controllare stress e ansia</strong> – Lo stress cronico e la depressione possono peggiorare la malattia. Parla con il medico se ti senti ansioso o depresso</p>
-</div>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Smettere di fumare:</strong> Questa è la cosa più importante che puoi fare. Smettere di fumare riduce il rischio di infarto del 50 percento entro un anno.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Seguire una dieta sana per il cuore:</strong> Mangiare molta frutta e verdura, pesce, cereali integrali e legumi. Usare olio d'oliva. Limitare carni rosse, cibi processati, dolci e sale.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fare attività fisica regolare:</strong> Cerca di fare almeno 30 minuti di camminata veloce quasi tutti i giorni della settimana. Parla con il tuo medico per sapere quale attività è sicura per te.</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mantenere un peso sano:</strong> Se sei in sovrappeso, perdere anche solo 5-10 chili può aiutare.</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Controllare stress e ansia:</strong> Lo stress cronico e la depressione possono peggiorare la malattia. Parla con il medico se ti senti ansioso o depresso.</p>
 <p class="text-slate-300 leading-relaxed">
             Il medico ti farà controlli regolari per monitorare la pressione arteriosa, il colesterolo e altri fattori di rischio. Seguire queste raccomandazioni, insieme ai farmaci prescritti, può fare una grande differenza.
 </p>
@@ -214,49 +239,52 @@ date: "2025-10-09"
             Le prospettive per le persone con malattia coronarica sono migliorate molto negli ultimi anni. Con la terapia farmacologica, i cambiamenti dello stile di vita e, quando necessario, le procedure di rivascolarizzazione, molte persone vivono bene con questa condizione.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La tua prognosi dipende da diversi fattori:
+La tua prognosi dipende da diversi fattori:
 </p>
-<div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Quante arterie sono coinvolte e quanto sono ristrette</p>
-<p class="text-slate-300 mb-2">●Quanto bene funziona il tuo cuore come pompa</p>
-<p class="text-slate-300 mb-2">●Se prendi regolarmente i farmaci prescritti</p>
-<p class="text-slate-300 mb-2">●Se controlli i fattori di rischio (colesterolo, pressione, diabete)</p>
-<p class="text-slate-300 mb-2">●Se fai i cambiamenti nello stile di vita raccomandati</p>
-</div>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quante arterie sono coinvolte</strong> e quanto sono ristrette</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quanto bene funziona</strong> il tuo cuore come pompa</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se prendi regolarmente</strong> i farmaci prescritti</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se controlli i fattori di rischio</strong> (colesterolo, pressione, diabete)</p>
+
+<p class="text-slate-300 mb-6"><strong class="text-white">●Se fai i cambiamenti</strong> nello stile di vita raccomandati</p>
 <p class="text-slate-300 leading-relaxed mb-6">
             Le persone con angina stabile che prendono regolarmente i farmaci e controllano i fattori di rischio hanno un rischio di infarto del 2-3 percento all'anno. Prendere i farmaci come prescritto riduce il rischio di morte del 40-50 percento.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Seguire regolarmente il cardiologo</h3>
-<p class="text-slate-300 mb-4">
-              Se la tua angina è stabile e ben controllata, probabilmente vedrai il cardiologo ogni 6-12 mesi. Durante queste visite, il medico:
-</p>
-<div class="ml-6 mb-4">
-<p class="text-slate-300 mb-2">●Controllerà i tuoi sintomi</p>
-<p class="text-slate-300 mb-2">●Farà un esame clinico ed eventualmente un ECG</p>
-<p class="text-slate-300 mb-2">●Aggiusterà i farmaci se necessario</p>
-<p class="text-slate-300 mb-2">●Controllerà quanto bene stai seguendo le modifiche dello stile di vita</p>
-</div>
-<p class="text-slate-300">
-              Se hai sintomi nuovi o che cambiano, vedrai il medico più spesso. Il medico potrebbe prescriverti test da sforzo ogni 2-3 anni per controllare come sta funzionando il cuore.
-</p>
+
+<p class="text-slate-300 mb-4">Se la tua angina è stabile e ben controllata, probabilmente vedrai il cardiologo ogni 6-12 mesi. Durante queste visite, il medico:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllerà</strong> i tuoi sintomi</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Farà</strong> un esame clinico ed eventualmente un ECG</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aggiusterà</strong> i farmaci se necessario</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">●Controllerà</strong> quanto bene stai seguendo le modifiche dello stile di vita</p>
+
+<p class="text-slate-300">Se hai sintomi nuovi o che cambiano, vedrai il medico più spesso. Il medico potrebbe prescriverti test da sforzo ogni 2-3 anni per controllare come sta funzionando il cuore.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Nitroglicerina per l'angina</h3>
-<p class="text-slate-300 mb-4">
-              Se hai angina, il medico ti prescriverà nitroglicerina da tenere sempre con te. Impara come usarla:
-</p>
-<div class="ml-6 mb-4">
-<p class="text-slate-300 mb-2">●Prendi 1 dose quando senti dolore al petto</p>
-<p class="text-slate-300 mb-2">●Se il dolore non passa dopo 5 minuti, prendi un'altra dose</p>
-<p class="text-slate-300 mb-2">●Puoi ripetere fino a 3 dosi ogni 5 minuti</p>
-<p class="text-slate-300 mb-2">●Se dopo 3 dosi il dolore non è passato, chiama il 118</p>
-</div>
-<p class="text-slate-300">
-              La nitroglicerina perde efficacia con il tempo. Sostituiscila ogni 6 mesi anche se non l'hai usata.
-</p>
+
+<p class="text-slate-300 mb-4">Se hai angina, il medico ti prescriverà nitroglicerina da tenere sempre con te. Impara come usarla:</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Prendi 1 dose</strong> quando senti dolore al petto</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se il dolore non passa dopo 5 minuti,</strong> prendi un'altra dose</p>
+
+<p class="text-slate-300 mb-3"><strong class="text-white">●Puoi ripetere</strong> fino a 3 dosi ogni 5 minuti</p>
+
+<p class="text-slate-300 mb-4"><strong class="text-white">●Se dopo 3 dosi il dolore non è passato,</strong> chiama il 118</p>
+
+<p class="text-slate-300">La nitroglicerina perde efficacia con il tempo. Sostituiscila ogni 6 mesi anche se non l'hai usata.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
