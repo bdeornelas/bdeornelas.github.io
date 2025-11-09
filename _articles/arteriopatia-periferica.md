@@ -1,10 +1,10 @@
 ---
 collection: articles
 layout: "default"
-title: "Arteriopatia Periferica - Definizione Clinica, Diagnosi, Trattamento Evidence-Based | Dr. Benjamin De Ornelas"
-description: "Arteriopatia obliterante arti inferiori (PAD): definizione clinica, classificazione Fontaine/Rutherford, diagnosi ABI/imaging, terapia medica ottimale, rivascolarizzazione endovascolare/chirurgica. Evidenza scientifica aggiornata."
-og_title: "Arteriopatia Periferica - Approccio Clinico Evidence-Based"
-og_description: "Claudicatio intermittens, ischemia critica arti: definizione, stratificazione Fontaine/Rutherford, ABI, imaging vascolare, OMT, PTA/bypass. Evidenza scientifica."
+title: "Arteriopatia Periferica - Guida Paziente | Dr. Benjamin De Ornelas"
+description: "Arteriopatia periferica (restringimento delle arterie delle gambe): sintomi, cause, diagnosi e cure spiegate in modo chiaro. Quando serve l'intervento e come migliorare."
+og_title: "Arteriopatia Periferica - Guida per Pazienti"
+og_description: "Dolore alle gambe camminando, arterie ostruite, diagnosi e trattamenti: tutto spiegato in modo semplice e completo."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-07"
 
@@ -26,10 +26,10 @@ date: "2025-09-07"
 </div>
 <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
 <span class="gradient-text">Arteriopatia Periferica:</span><br>
-<span class="text-white">approccio clinico evidence-based</span>
+<span class="text-white">quando le arterie delle gambe si restringono</span>
 </h1>
 <p class="text-xl text-slate-300 leading-relaxed mb-8">
-            Arteriopatia obliterante periferica (PAD - Peripheral Artery Disease) è patologia aterosclerotica ostruttiva arterie arti inferiori, caratterizzata da stenosi/occlusioni arteriose che causano riduzione perfusione tissutale distale. Manifestazione clinica: claudicatio intermittens, dolore riposo, ulcere/gangrena ischemica (ischemia critica arti - CLI).
+            L'arteriopatia periferica (chiamata anche PAD) succede quando le arterie delle gambe si restringono o si ostruiscono a causa di placche di grasso e colesterolo (aterosclerosi). Questo riduce il sangue che arriva ai muscoli delle gambe e dei piedi. I sintomi più comuni sono dolore alle gambe quando cammini (che passa con il riposo), dolore anche a riposo nei casi gravi, e ulcere o gangrena nei casi più severi.
 </p>
 <div class="flex flex-wrap gap-4 text-sm text-slate-400">
 <div class="flex items-center gap-2">
@@ -52,26 +52,26 @@ date: "2025-09-07"
 
 <section class="mb-12">
 <div class="highlight-box rounded-lg p-6 mb-8">
-<h3 class="font-bold text-white mb-4 text-lg">Sintesi Clinica Essenziale</h3>
+<h3 class="font-bold text-white mb-4 text-lg">Informazioni Essenziali</h3>
 
 <p class="leading-relaxed">
-<strong class="text-white">Definizione:</strong> PAD è malattia aterosclerotica ostruttiva arterie arti inferiori (iliache, femorali, poplitee, tibiali, peroniere) con stenosi/occlusioni che riducono perfusione basale/da sforzo tissutale distale. Diagnosi: ABI (ankle-brachial index) <0.90 al riposo (sensibilità 79%, specificità 96% PAD angiografica).
+<strong class="text-white">Cos'è:</strong> L'arteriopatia periferica (PAD) è una malattia in cui le arterie delle gambe (arterie iliache, femorali, poplitee, tibiali) si restringono o si ostruiscono a causa di placche di grasso e colesterolo (aterosclerosi). Questo riduce il flusso di sangue alle gambe e ai piedi. La diagnosi si fa con un esame semplice chiamato ABI (indice caviglia-braccio): se il valore è inferiore a 0.90, indica che hai l'arteriopatia periferica.
 </p>
 
 <p class="leading-relaxed">
-<strong class="text-white">Epidemiologia:</strong> prevalenza globale 3-10% popolazione generale, 15-20% >70 anni, 20-30% pazienti diabetici. Incidenza 2-4 casi/1000 persone-anno. Distribuzione geografica: maggiore prevalenza paesi ad alto reddito (Europa occidentale, Nord America 8-12%) vs paesi basso reddito (4-6%).
+<strong class="text-white">Quanto è comune:</strong> Circa 3-10 persone su 100 hanno arteriopatia periferica. È più comune con l'età: 15-20 persone su 100 sopra i 70 anni, e 20-30 persone su 100 con diabete. Ogni anno, circa 2-4 nuove persone su 1000 sviluppano questa malattia. È più comune nei paesi ricchi (Europa occidentale, Nord America: 8-12 su 100) rispetto ai paesi poveri (4-6 su 100).
 </p>
 
 <p class="leading-relaxed">
-<strong class="text-white">Manifestazioni cliniche:</strong> 40-50% pazienti PAD asintomatici, 30-40% claudicatio intermittens (dolore muscolare polpaccio/coscia da sforzo, risoluzione <10 min riposo), 10-15% sintomi atipici, 1-3% ischemia critica arti (CLI - dolore riposo, ulcere/gangrena). Progressione CLI: 20-25% pazienti claudicatio sviluppa CLI entro 5 anni se non trattati.
+<strong class="text-white">Sintomi principali:</strong> Circa 40-50 persone su 100 con arteriopatia periferica non hanno sintomi. Circa 30-40 su 100 hanno "claudicatio" (dolore ai muscoli del polpaccio o della coscia quando cammini, che passa in meno di 10 minuti se ti riposi). Circa 10-15 su 100 hanno sintomi diversi. Solo 1-3 su 100 hanno "ischemia critica" (dolore anche a riposo, ulcere o gangrena). Se non ti curi, circa 20-25 persone su 100 con claudicatio sviluppano ischemia critica entro 5 anni.
 </p>
 
 <p class="leading-relaxed">
-<strong class="text-white">Rischio cardiovascolare associato:</strong> PAD è marker rischio CV sistemico elevato. Pazienti PAD sintomatica: incidenza MACE (morte CV, infarto miocardico, ictus) 5-7%/anno, mortalità totale 15-30% a 5 anni. OR infarto miocardico 2.5, OR ictus ischemico 2.0-3.0 vs popolazione senza PAD.
+<strong class="text-white">Rischio per il cuore:</strong> Se hai arteriopatia periferica, hai un rischio molto alto anche per il cuore. Ogni anno, circa 5-7 persone su 100 con arteriopatia sintomatica hanno un evento cardiovascolare grave (morte, infarto, ictus). Circa 15-30 persone su 100 muoiono entro 5 anni. Il rischio di infarto è 2.5 volte più alto, e di ictus è 2-3 volte più alto rispetto a chi non ha arteriopatia periferica.
 </p>
 
 <p class="leading-relaxed">
-<strong class="text-white">Outcome senza trattamento:</strong> claudicatio stabile 70-80% casi a 5 anni, miglioramento spontaneo 10-15%, peggioramento CLI 5-10%. CLI non trattata: amputazione maggiore (sopra caviglia) 40-50% a 6 mesi, mortalità 20-25% a 1 anno. Trattamento OMT + rivascolarizzazione appropriata: riduzione amputazione 50-70%, riduzione mortalità 30-40%.
+<strong class="text-white">Cosa succede senza cure:</strong> Se hai claudicatio e non ti curi, circa 70-80 persone su 100 rimangono stabili nei prossimi 5 anni, 10-15 su 100 migliorano da sole, e 5-10 su 100 peggiorano verso ischemia critica. Se hai ischemia critica e non ti curi: circa 40-50 persone su 100 devono subire un'amputazione maggiore (sopra la caviglia) entro 6 mesi, e 20-25 su 100 muoiono entro 1 anno. Con le cure giuste (farmaci + eventuale intervento per riaprire le arterie), il rischio di amputazione si riduce del 50-70% e il rischio di morte del 30-40%.
 </p>
 </div>
 </section>
