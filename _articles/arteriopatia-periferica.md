@@ -79,51 +79,51 @@ date: "2025-09-07"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="info" class="w-7 h-7 text-amber-400"></i>
-Qual è la fisiopatologia dell'arteriopatia periferica?
+Come si formano le ostruzioni nelle arterie delle gambe?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-PAD è manifestazione regionale aterosclerosi sistemica. Processo fisiopatologico identico CAD (malattia coronarica): deposizione lipidica subintimale (fatty streaks età giovanile) → progressione placca fibroadiposa complessa (core lipidico, cappuccio fibroso, infiltrazione macrofagica, calcificazione). Placche aterosclerotiche causano stenosi luminale progressiva (≥50% diametro → riduzione flusso emodinamicamente significativa) o occlusione completa arteria.
+L'arteriopatia periferica è causata dall'aterosclerosi (formazione di placche) nelle arterie delle gambe, lo stesso processo che causa la malattia coronarica (al cuore). Le placche iniziano a formarsi già da giovani: prima sono depositi di grasso nella parete interna dell'arteria (striature di grasso). Col tempo, queste placche crescono diventando più complesse: hanno un nucleo di grasso, un cappuccio fibroso, cellule infiammatorie, e calcio. Quando una placca restringe l'arteria di più del 50%, il flusso di sangue diminuisce in modo significativo. In alcuni casi, l'arteria si chiude completamente.
 </p>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Squilibrio domanda-offerta ossigeno tissutale: muscoli arti inferiori richiedono aumento flusso sanguigno durante sforzo (walking demand 4-6x flusso basale), ma stenosi/occlusioni arteriose impediscono adeguato incremento perfusione → ischemia muscolare relativa → dolore claudicatio. Meccanismo dolore: accumulo metaboliti anaerobi (lattato, adenosina, potassio) + acidosi tessutale → stimolazione nocicettori muscolari.
+Perché fa male quando cammini? Normalmente, i muscoli delle gambe hanno bisogno di 4-6 volte più sangue quando cammini rispetto a quando sei a riposo. Ma se le arterie sono ristrette o chiuse, non arriva abbastanza sangue ai muscoli durante lo sforzo. Questo causa "ischemia muscolare" (i muscoli non ricevono abbastanza ossigeno). Quando i muscoli lavorano senza abbastanza ossigeno, si accumulano sostanze di scarto (lattato, adenosina, potassio) e il tessuto diventa acido. Queste sostanze stimolano i recettori del dolore nei muscoli, causando il dolore caratteristico (claudicatio).
 </p>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Circolazione collaterale: sviluppo compensatorio network vascolare collaterale (arteriole preesistenti dilatate + arteriogenesi neovascolarizzazione) può parzialmente bypassare stenosi, determinando variabilità clinica sintomi. Efficacia circoli collaterali: massima localizzazione stenosi singola segmento corto (es. femorale superficiale isolata), minima malattia multisegmentaria diffusa.
+Il corpo cerca di compensare: quando un'arteria si restringe, il corpo sviluppa "circoli collaterali" (vie alternative per il sangue). Alcuni vasi sanguigni più piccoli già presenti si dilatano, e ne crescono di nuovi. Questo può parzialmente bypassare (aggirare) l'ostruzione. I circoli collaterali funzionano meglio se l'ostruzione è in un solo punto e corta (per esempio, un pezzo dell'arteria femorale). Funzionano peggio se ci sono ostruzioni in molti punti o molto lunghe.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Distribuzione anatomica stenosi PAD</h3>
+<h3 class="font-bold text-white mb-3">Dove si formano le ostruzioni nelle gambe?</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Malattia aorto-iliaca (30% pazienti PAD):</strong> stenosi/occlusioni aorta addominale distale, arterie iliache comuni/esterne. Sintomi: claudicatio glutei/cosce, disfunzione erettile (sindrome Leriche se occlusione aorta biforcazione). Collaterali: arterie ipogastriche, lombari, circonflesse iliache.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie dell'anca e del bacino (circa 30 persone su 100 con arteriopatia periferica):</strong> le ostruzioni sono nell'aorta addominale bassa o nelle arterie iliache (che vanno dall'aorta alle gambe). Sintomi: dolore ai glutei e alle cosce quando cammini, disfunzione erettile negli uomini (se l'aorta è ostruita nel punto in cui si biforca, questa è chiamata "sindrome di Leriche"). Il corpo crea vie alternative attraverso altre arterie (ipogastriche, lombari, circonflesse iliache).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Malattia femoro-poplitea (80-90% pazienti):</strong> segmento più frequentemente colpito. Arteria femorale superficiale (SFA): stenosi tipica canale adduttori (segmento mid-distal SFA), lunghezza variabile 2-30 cm. Claudicatio polpaccio tipica. Collaterali: arteria femorale profonda (profunda femoris) principale circolo compensatorio.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie della coscia e del ginocchio (circa 80-90 persone su 100):</strong> questo è il posto più comune dove si formano le ostruzioni. L'arteria femorale superficiale (che va dalla coscia al ginocchio) si restringe tipicamente in un punto chiamato "canale degli adduttori". L'ostruzione può essere lunga da 2 a 30 cm. Il sintomo tipico è dolore al polpaccio. La via alternativa principale è l'arteria femorale profonda.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Malattia infrapoplitea/tibiale (40-50%, spesso associata diabete):</strong> stenosi arterie tibiali (tibiale anteriore, posteriore, peroniera), tronco tibio-peroniero. Spesso malattia multisegmentaria diffusa. Claudicatio piede/caviglia, CLI frequente (ulcere digitali, gangrena). Collaterali limitati: alto rischio ischemia critica.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie della gamba e del piede (circa 40-50 persone su 100, spesso chi ha diabete):</strong> le ostruzioni sono nelle arterie tibiali (arteria tibiale anteriore, posteriore, peroniera). Spesso ci sono ostruzioni in molti punti. Sintomi: dolore al piede e alla caviglia, frequenti ulcere e gangrena. Le vie alternative sono limitate, quindi il rischio di ischemia critica (danni gravi per mancanza di sangue) è alto.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Malattia multilivello (30-40%):</strong> stenosi/occlusioni multiple segmenti arteriosi (es. iliaca + femorale, femoro-poplitea + tibiale). Sintomi severi, limiti funzionali maggiori, maggior rischio CLI. Peggiore prognosi, rivascolarizzazione complessa.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ostruzioni in più punti (circa 30-40 persone su 100):</strong> ci sono ostruzioni in più posti insieme (per esempio anca + coscia, o coscia + gamba). I sintomi sono più gravi, i limiti funzionali maggiori, e il rischio di ischemia critica è più alto. La prognosi è peggiore e riaprire le arterie è più complesso.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Fattori rischio aterosclerosi PAD (modificabili e non)</h3>
+<h3 class="font-bold text-white mb-3">Chi è a rischio di arteriopatia periferica?</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo sigaretta:</strong> fattore rischio singolo più importante PAD. OR 2.0-4.0 sviluppo PAD fumatori attivi vs mai fumatori. Relazione dose-dipendente: >20 sigarette/die OR 4.5, 10-20 sig/die OR 2.5, <10 sig/die OR 1.5. Progressione malattia accelerata: fumatori sviluppano CLI 2-3x più frequentemente vs non fumatori. Amputazione maggiore: rischio 10-15x aumentato fumatori vs non fumatori.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo:</strong> questo è il fattore di rischio più importante. Se fumi, il tuo rischio di arteriopatia periferica è 2-4 volte più alto rispetto a chi non ha mai fumato. Più fumi, peggio è: se fumi più di 20 sigarette al giorno, il rischio è 4.5 volte più alto; 10-20 sigarette al giorno, rischio 2.5 volte più alto; meno di 10 sigarette al giorno, rischio 1.5 volte più alto. I fumatori sviluppano ischemia critica (forma grave) 2-3 volte più spesso, e il rischio di amputazione maggiore è 10-15 volte più alto rispetto ai non fumatori.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Diabete mellitus:</strong> OR 1.9-4.0 PAD pazienti diabetici. Prevalenza PAD: 20-30% diabetici vs 3-10% popolazione generale. Pattern malattia: predilezione arterie tibiali/infrapoplitee (malattia distale diffusa), calcificazione mediale (sclerosi Mönckeberg) → ABI falsamente elevato. Rischio CLI 5-10x, amputazione 10-15x vs non diabetici. HbA1c >7%: ogni 1% incremento HbA1c → aumento 25-30% rischio PAD.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Diabete:</strong> se hai il diabete, il rischio di arteriopatia periferica è 1.9-4 volte più alto. Circa 20-30 persone su 100 con diabete hanno arteriopatia periferica, contro 3-10 persone su 100 nella popolazione generale. Il diabete causa ostruzioni soprattutto nelle arterie delle gambe e dei piedi, con calcificazioni nella parete delle arterie che possono rendere meno affidabile l'esame ABI. Il rischio di ischemia critica è 5-10 volte più alto, e di amputazione 10-15 volte più alto rispetto a chi non ha diabete. Se l'emoglobina glicata (HbA1c) è sopra il 7%, ogni 1% in più aumenta il rischio di arteriopatia del 25-30%.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dislipidemia:</strong> LDL-C elevato OR 1.5-2.0 PAD per ogni 10 mg/dL incremento. Trigliceridi elevati OR 1.3-1.7. HDL-C basso (<40 mg/dL uomini, <50 donne) OR 1.5. Statine riducono progressione PAD, eventi CV, mortalità (riduzione relativa MACE 20-30%).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Colesterolo alto:</strong> per ogni aumento di 10 mg/dL del colesterolo LDL ("cattivo"), il rischio aumenta di 1.5-2 volte. Anche i trigliceridi alti aumentano il rischio (1.3-1.7 volte). Se il colesterolo HDL ("buono") è basso (meno di 40 mg/dL negli uomini o meno di 50 nelle donne), il rischio aumenta di 1.5 volte. Le statine (farmaci per il colesterolo) riducono la progressione dell'arteriopatia, gli eventi cardiovascolari e la mortalità del 20-30%.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ipertensione arteriosa:</strong> OR 1.5-2.0 PAD. PAs ≥140 mmHg associato aumento rischio 50-100% vs normotesi. Trattamento antipertensivo riduce eventi CV 20-25%, ma impatto su progressione PAD limitato.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta:</strong> se hai pressione alta, il rischio è 1.5-2 volte più alto. Se la pressione sistolica (il numero più alto) è 140 mmHg o più, il rischio aumenta del 50-100% rispetto a chi ha pressione normale. I farmaci per la pressione riducono gli eventi cardiovascolari del 20-25%, ma hanno un effetto limitato sulla progressione dell'arteriopatia.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Età:</strong> prevalenza PAD aumenta esponenzialmente: <50 anni 1-3%, 50-69 anni 5-10%, ≥70 anni 15-20%. Ogni decade incremento età → OR 1.5-2.0.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Età:</strong> il rischio aumenta molto con l'età: sotto i 50 anni, 1-3 persone su 100 hanno arteriopatia; tra 50 e 69 anni, 5-10 su 100; sopra i 70 anni, 15-20 su 100. Ogni 10 anni di età in più, il rischio aumenta di 1.5-2 volte.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sesso:</strong> uomini OR 1.5-2.0 vs donne (differenza ridotta età >70 anni: prevalenza simile). Donne: presentazione clinica più tardiva, sintomi atipici frequenti, outcome post-rivascolarizzazione peggiori.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Essere uomo:</strong> gli uomini hanno un rischio 1.5-2 volte più alto delle donne (ma dopo i 70 anni la differenza si riduce e il rischio diventa simile). Le donne tendono ad avere i sintomi più tardi, hanno più spesso sintomi diversi da quelli tipici, e i risultati dopo gli interventi per riaprire le arterie sono peggiori.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Familiarità:</strong> storia familiare PAD parenti primo grado OR 1.5-2.5. Component genetico: polimorfismi geni coagulazione (fattore V Leiden, protrombina G20210A), metabolismo lipidico (APOE), infiammazione.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Familiarità:</strong> se un tuo familiare stretto (genitori, fratelli, sorelle) ha arteriopatia periferica, il tuo rischio è 1.5-2.5 volte più alto. C'è una componente genetica legata a geni della coagulazione (fattore V Leiden, protrombina G20210A), del metabolismo dei grassi (APOE), e dell'infiammazione.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Obesità, inattività fisica, insufficienza renale cronica, infiammazione cronica (PCR elevata), iperhomocisteinemia:</strong> fattori rischio aggiuntivi con OR 1.2-2.0 ciascuno.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Altri fattori:</strong> obesità, inattività fisica (sedentarietà), insufficienza renale cronica, infiammazione cronica (proteina C-reattiva alta), e omocisteina alta: ognuno di questi aumenta il rischio di 1.2-2 volte.</p>
 </div>
 </section>
 
