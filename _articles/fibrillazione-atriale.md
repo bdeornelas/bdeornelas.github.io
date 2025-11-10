@@ -327,95 +327,95 @@ date: "2025-11-07"
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cardioversione elettrica (DCCV)</h3>
+<h3 class="font-bold text-white mb-3">Scossa elettrica (cardioversione elettrica)</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        Procedura elettiva in setting controllato (sala elettrofisiologia, sala operatoria, pronto soccorso se emergente). Shock bifasico sincronizzato delivery durante onda R per evitare periodo vulnerabile (rischio fibrillazione ventricolare se shock durante onda T).
+        Questa procedura viene fatta in un ambiente controllato (sala di elettrofisiologia, sala operatoria, o pronto soccorso se urgente). Ti viene data sedazione per farti dormire, e poi una scossa elettrica sincronizzata ripristina il ritmo normale.
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tecnica procedurale:</strong> sedazione procedurale (propofol 1-2 mg/kg EV o midazolam 2-5 mg EV), posizionamento elettrodi anterolaterale o anteroposteriore, sincronizzazione ECG, shock bifasico energia crescente (100-150-200J). Successo 90-95% ripristino ritmo sinusale immediato. Durata procedura totale 15-30 minuti (sedazione + cardioversione + recovery).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Indicazioni urgenti/emergenti:</strong> FA con instabilità emodinamica (ipotensione sintomatica PAS <90 mmHg), edema polmonare acuto, ischemia miocardica ongoing, FC >180-200 bpm refrattaria farmaci rate-control. Cardioversione elettrica emergente classe I senza anticoagulazione preliminare (beneficio immediato supera rischio tromboembolico).</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze:</strong> bradicardia/asistolia transitoria post-shock (1-2%, self-limiting), embolia sistemica se trombi LAA non esclusi (1-5% senza anticoagulazione adeguata), aritmie ventricolari indotte (rare <0.5% con sincronizzazione corretta), ustioni cutanee superficiali (5-10%), amnesia procedurale da sedazione.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Come funziona:</strong> ti danno farmaci sedativi per farti dormire, posizionano elettrodi sul tuo petto, e danno una scossa elettrica sincronizzata con il battito cardiaco. Funziona in circa 90-95 persone su 100. La procedura totale dura 15-30 minuti (sedazione, scossa, e risveglio).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Quando è urgente:</strong> se hai pressione bassa pericolosa, liquido nei polmoni, infarto in corso, o battito molto veloce che non risponde ai farmaci. In questi casi, la cardioversione va fatta subito senza aspettare gli anticoagulanti perché il beneficio supera il rischio.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Complicazioni:</strong> battito temporaneamente molto lento dopo la scossa (circa 1-2 persone su 100, si risolve da solo), ictus se ci sono coaguli non rilevati (circa 1-5 persone su 100 senza anticoagulanti adeguati), ritmi cardiaci pericolosi (meno di 5 persone su 1000 se fatto correttamente), bruciature superficiali della pelle (circa 5-10 persone su 100), o amnesia temporanea dalla sedazione.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cardioversione farmacologica</h3>
+<h3 class="font-bold text-white mb-3">Cardioversione con farmaci</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        Somministrazione antiaritmici EV per conversione chimica FA a ritmo sinusale. Successo 50-70% entro 24h, inferiore vs DCCV ma non richiede sedazione. Efficacia massima se FA <48h (conversione 70-80% vs 30-40% se FA >7 giorni).
+        Farmaci attraverso una flebo per riportare chimicamente il cuore a battere normalmente. Funziona in circa 50-70 persone su 100 entro 24 ore, meno della scossa elettrica ma non richiede sedazione. Funziona meglio se hai avuto fibrillazione atriale per meno di 48 ore (circa 70-80 persone su 100 vs 30-40 persone su 100 se hai avuto fibrillazione atriale per più di 7 giorni).
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Farmaci disponibili:</strong></p>
-<p class="text-slate-300 mb-3">- <em>Flecainide EV</em> 2 mg/kg in 10 min (max 150 mg): conversione 60-70% entro 2-6h. Solo in assenza cardiopatia strutturale (LVEF >40%, no ipertrofia, no coronaropatia). Monitoraggio ECG continuo per QRS widening >25% baseline (stop infusione)</p>
-<p class="text-slate-300 mb-3">- <em>Propafenone EV</em> 2 mg/kg in 10-20 min (max 150 mg): simile flecainide. Conversione 50-60% entro 2-4h. Stesso profilo sicurezza/controindicazioni</p>
-<p class="text-slate-300 mb-3">- <em>Amiodarone EV</em> 5 mg/kg in 1h poi 50 mg/h infusione continua: conversione 30-50% entro 24h. Onset lento ma sicuro in cardiopatia strutturale. Preferito in scompenso, LVEF ridotta, coronaropatia</p>
-<p class="text-slate-300 mb-3">- <em>Vernakalant EV</em> 3 mg/kg in 10 min (seconda dose 2 mg/kg possibile dopo 15 min): conversione 50-60% entro 90 min. Recente approvazione EU, non disponibile US. Controindicato in SCA <30 giorni, ipotensione severa, QT lungo</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Pill-in-the-pocket:</strong> strategia ambulatoriale self-administration antiaritmico orale (flecainide 200-300 mg o propafenone 450-600 mg dose singola) all'onset palpitazioni in FA parossistica recidivante. Richiede test supervisionato ospedaliero iniziale, solo in lone AF, efficacia 70-80% terminazione episodi entro 2-4h.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Farmaci disponibili:</strong></p>
+<p class="text-slate-300 mb-3">- <em>Flecainide per via endovenosa</em>: ripristina il ritmo normale in circa 60-70 persone su 100 entro 2-6 ore. Può essere usato SOLO se il tuo cuore è strutturalmente normale. Richiede monitoraggio continuo.</p>
+<p class="text-slate-300 mb-3">- <em>Propafenone per via endovenosa</em>: simile alla flecainide. Ripristina il ritmo normale in circa 50-60 persone su 100 entro 2-4 ore. Stesse limitazioni della flecainide.</p>
+<p class="text-slate-300 mb-3">- <em>Amiodarone per via endovenosa</em>: ripristina il ritmo normale in circa 30-50 persone su 100 entro 24 ore. Funziona più lentamente ma è sicuro anche se hai problemi strutturali al cuore. Preferito se hai insufficienza cardiaca, cuore indebolito, o problemi alle arterie del cuore.</p>
+<p class="text-slate-300 mb-3">- <em>Vernakalant per via endovenosa</em>: ripristina il ritmo normale in circa 50-60 persone su 100 entro 90 minuti. Approvato di recente in Europa, non disponibile negli Stati Uniti. Non può essere usato se hai avuto un infarto nelle ultime 4 settimane, pressione molto bassa, o altri problemi elettrici del cuore.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Farmaco in tasca (pill-in-the-pocket):</strong> alcune persone con fibrillazione atriale che va e viene possono prendere una dose singola di farmaco a casa quando iniziano le palpitazioni. Richiede un test supervisionato in ospedale prima, può essere usato SOLO se il tuo cuore è strutturalmente normale, e funziona in circa 70-80 persone su 100 entro 2-4 ore.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="shield" class="w-5 h-5 text-orange-400"></i>
-        Stratificazione rischio tromboembolico peri-cardioversione
+        Anticoagulanti prima e dopo la cardioversione
 </h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        La cardioversione (elettrica/farmacologica) aumenta transitoriamente rischio tromboembolismo per stunning atriale meccanico post-ripristino ritmo. Protocollo anticoagulazione mandatorio basato su durata FA:
+        La cardioversione (elettrica o farmaci) aumenta temporaneamente il rischio di coaguli perché dopo che il cuore torna a battere normalmente, gli atri possono rimanere "storditi" e non contrarsi bene per 2-4 settimane. Gli anticoagulanti sono obbligatori in base a quanto tempo hai avuto fibrillazione atriale:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA <48 ore durata documentata:</strong> cardioversione immediata senza anticoagulazione preliminare se CHA₂DS₂-VASc=0. Se CHA₂DS₂-VASc ≥1: anticoagulazione iniziare immediatamente e continuare ≥4 settimane post-cardioversione. Rischio tromboembolico <1% senza anticoagulazione se durata realmente <48h.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA >48 ore o durata incerta (approccio convenzionale):</strong> anticoagulazione terapeutica (DOAC o warfarin INR 2-3) per ≥3 settimane pre-cardioversione + ≥4 settimane post-cardioversione. Continuazione long-term basata su CHA₂DS₂-VASc (≥2 richiede anticoagulazione lifetime indipendentemente da mantenimento ritmo sinusale).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Approccio TEE-guided (accelerato):</strong> alternativa all 'approccio convenzionale. TEE pre-cardioversione per escludere trombi LAA. Se LAA libero: cardioversione immediata con anticoagulazione acuta + ≥4 settimane post. Se trombi LAA presenti: anticoagulazione ≥3-6 settimane, ripetere TEE per risoluzione trombi prima cardioversione. Vantaggio: cardioversione precoce senza attesa 3 settimane. Equivalenza sicurezza vs approccio convenzionale (trial ACUTE).</p>
-<p class="text-slate-300"><strong class="text-white">●Stunning atriale post-cardioversione:</strong> disfunzione meccanica atriale transitoria (2-4 settimane) dopo ripristino ritmo elettrico, con velocità flusso LAA ridotta nonostante ritmo sinusale ECG. Spiega rischio tromboembolico persistente primissime settimane post-cardioversione. Anticoagulazione ≥4 settimane post-cardioversione mandatoria indipendentemente da CHA₂DS₂-VASc.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Se hai avuto fibrillazione atriale per meno di 48 ore:</strong> cardioversione immediata senza anticoagulanti preliminari se non hai fattori di rischio per l'ictus. Se hai fattori di rischio: inizia subito gli anticoagulanti e continua per almeno 4 settimane dopo la cardioversione. Il rischio di ictus è meno di 1 persona su 100 senza anticoagulanti se hai davvero avuto fibrillazione atriale per meno di 48 ore.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Se hai avuto fibrillazione atriale per più di 48 ore o non sai da quanto tempo:</strong> anticoagulanti per almeno 3 settimane prima della cardioversione più almeno 4 settimane dopo. Se hai fattori di rischio per l'ictus, dovrai continuare gli anticoagulanti per tutta la vita anche se il ritmo rimane normale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Approccio accelerato:</strong> alternativa alle 3 settimane di attesa. Il medico fa un'ecografia speciale attraverso l'esofago per vedere se ci sono coaguli nella piccola tasca dell'atrio sinistro. Se non ci sono coaguli: cardioversione immediata con anticoagulanti acuti più almeno 4 settimane dopo. Se ci sono coaguli: anticoagulanti per 3-6 settimane, ripetere l'ecografia per vedere se i coaguli si sono dissolti prima della cardioversione. Vantaggio: cardioversione precoce senza aspettare 3 settimane. È sicuro quanto l'approccio standard.</p>
+<p class="text-slate-300"><strong class="text-white">Perché servono anticoagulanti dopo:</strong> dopo che il cuore torna a battere normalmente, gli atri possono rimanere temporaneamente "storditi" e non contrarsi bene per 2-4 settimane, anche se l'elettrocardiogramma mostra ritmo normale. Questo spiega perché il rischio di coaguli rimane alto nelle prime settimane dopo la cardioversione. Gli anticoagulanti per almeno 4 settimane dopo la cardioversione sono obbligatori indipendentemente dai tuoi fattori di rischio.</p>
 </div>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="zap" class="w-7 h-7 text-rose-400"></i>
-Quando è indicata l'ablazione transcatetere per la fibrillazione atriale?
+Quando è indicata l'ablazione con catetere per la fibrillazione atriale?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      L'ablazione transcatetere è procedura invasiva mini-invasiva percutanea che mira a isolare elettricamente le vene polmonari (PVI - pulmonary vein isolation), principale sorgente trigger aritmogeni in 90% pazienti FA. Tecnica procedurale: accesso venoso femorale, puntura transettale, mappaggio elettroanatomico 3D (CARTO, EnSite), lesioni circonferenziali antrale vene polmonari mediante radiofrequenza (RF 40-50W) o crioablazione (balloon -40/-60°C). Isolamento completo verificato mediante mappaggio elettrofisiologico.
+      L'ablazione con catetere è una procedura mini-invasiva che mira a isolare elettricamente le vene polmonari, che sono la principale fonte degli impulsi elettrici anomali che causano fibrillazione atriale in circa 90 persone su 100. Come funziona: il medico inserisce cateteri attraverso una vena nell'inguine, li fa passare attraverso il setto tra gli atri destro e sinistro, crea una mappa tridimensionale del cuore, e poi crea lesioni cicatriziali intorno alle vene polmonari usando radiofrequenza (energia termica) o crioablazione (freddo estremo). L'isolamento completo viene verificato con studi elettrofisiologici.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Indicazioni ablazione transcatetere (Linee guida ESC 2020)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (raccomandata):</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- FA parossistica sintomatica refrattaria/intollerante a ≥1 antiaritmico (classe IC o III)</p>
-<p class="text-slate-300 ml-6 mb-3">- Cardiomiopatia tachi-indotta (LVEF ridotta secondaria a FA con FC elevata, reversibile post-ablazione 70-80% casi)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Classe IIa (da considerare):</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- FA parossistica sintomatica in prima linea (alternativa antiaritmici), specie pazienti giovani (<60 anni) altamente sintomatici (EHRA ≥2b)</p>
-<p class="text-slate-300 ml-6 mb-3">- FA persistente sintomatica refrattaria ad antiaritmici, senza fattori prognostici negativi maggiori (LA <55 mm, durata FA <2-3 anni)</p>
-<p class="text-slate-300 ml-6 mb-3">- FA persistente + scompenso cardiaco HFrEF (LVEF <50%): trial CASTLE-AF dimostra riduzione mortalità 38% (HR 0.62) e ospedalizzazioni HF 44% vs terapia medica</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Classe III (controindicata):</strong> LA >60 mm, FA permanente accettata, trombo LAA, comorbidità severe limitanti aspettativa vita.</p>
+<h3 class="font-bold text-white mb-3">Quando è raccomandata l'ablazione</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fortemente raccomandata se:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Hai fibrillazione atriale che va e viene con sintomi e almeno 1 farmaco antiaritmico non ha funzionato o non lo tolleri</p>
+<p class="text-slate-300 ml-6 mb-3">- Il tuo cuore si è indebolito a causa di un battito troppo veloce per troppo tempo (reversibile dopo l'ablazione in circa 70-80 persone su 100)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Da considerare se:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Hai fibrillazione atriale che va e viene con sintomi, sei giovane (meno di 60 anni), e preferisci l'ablazione invece di provare prima i farmaci</p>
+<p class="text-slate-300 ml-6 mb-3">- Hai fibrillazione atriale persistente con sintomi, i farmaci non hanno funzionato, e hai fattori favorevoli (atrio sinistro non troppo grande, fibrillazione atriale da meno di 2-3 anni)</p>
+<p class="text-slate-300 ml-6 mb-3">- Hai fibrillazione atriale persistente con insufficienza cardiaca: gli studi mostrano che l'ablazione riduce la mortalità del 38% e i ricoveri per insufficienza cardiaca del 44% rispetto ai soli farmaci</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Non raccomandata se:</strong> atrio sinistro molto grande (più di 60 mm), hai accettato di mantenere la fibrillazione atriale permanente, hai coaguli nell'auricola sinistra, o hai malattie gravi che limitano l'aspettativa di vita.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Efficacia ablazione: tassi libertà da FA senza antiaritmici</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA parossistica:</strong> 70-80% libertà FA a 12 mesi post-singola procedura, 85-90% dopo procedure multiple. Meta-analisi RCT: ablazione superiore ad antiaritmici (RR 0.52, 95% CI 0.41-0.65 per recidiva FA).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente:</strong> 50-60% libertà FA a 12 mesi post-singola procedura, 70-75% dopo procedure multiple. Fattori predittivi insuccesso: durata FA >2-3 anni, LA >55 mm, fibrosi atriale estesa (>20% massa LA), insufficienza mitralica moderata-severa.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Trial CABANA (2018, N=2204):</strong> endpoint primario composito (morte, ictus, emorragia grave, arresto cardiaco) non differenza significativa ablazione vs farmaci (HR 0.86, p=0.30) in intention-to-treat. Analisi per-protocol e as-treated dimostrano superiorità ablazione. Mortalità totale ridotta 40% (HR 0.60, p=0.04). QoL significativamente migliorata con ablazione.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ripetizioni procedura:</strong> 20-40% pazienti richiedono seconda ablazione per recidive (riconnessione vene polmonari 80-90% causa recidiva). Terza procedura in 5-10%.</p>
+<h3 class="font-bold text-white mb-3">Efficacia dell'ablazione</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale che va e viene:</strong> circa 70-80 persone su 100 sono libere da fibrillazione atriale a 12 mesi dopo una singola procedura, e circa 85-90 persone su 100 dopo procedure multiple. Gli studi dimostrano che l'ablazione è superiore ai farmaci: riduce le recidive del 48% rispetto ai farmaci antiaritmici.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale persistente:</strong> circa 50-60 persone su 100 sono libere da fibrillazione atriale a 12 mesi dopo una singola procedura, e circa 70-75 persone su 100 dopo procedure multiple. L'ablazione funziona meno bene se hai avuto fibrillazione atriale per più di 2-3 anni, hai un atrio sinistro molto grande, hai cicatrici estese nell'atrio, o hai problemi severi alla valvola mitrale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Studio importante (CABANA, 2018):</strong> in circa 2200 persone, l'ablazione ha ridotto la mortalità del 40% rispetto ai farmaci. La qualità di vita è risultata significativamente migliore con l'ablazione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Procedure ripetute:</strong> circa 20-40 persone su 100 hanno bisogno di una seconda ablazione per recidive (di solito perché le vene polmonari si ricollegano elettricamente). Circa 5-10 persone su 100 hanno bisogno di una terza procedura.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Complicanze procedurali ablazione transcatetere</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tasso complicanze maggiori totale:</strong> 2-4% centri esperti (>100 procedure/anno), 5-6% centri volume basso.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tamponamento cardiaco:</strong> 1.0-1.5% (perforazione atriale, richiede pericardiocentesi urgente, raramente chirurgia).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ictus/TIA:</strong> 0.2-0.5% (embolia gassosa, trombotica). Prevenzione: anticoagulazione periprocedura (ACT >300 sec), imaging intraprocedura ecocardiografia transesofagea.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Complicanze vascolari (inguine):</strong> 2-3% (ematoma, pseudoaneurisma, fistola AV, dissezione). Gestione conservativa 80%, chirurgica/interventistica 20%.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stenosi vene polmonari:</strong> 1-3% (riduzione diametro >50%). Rischio maggiore crioablazione prima generazione, ridotto con tecniche moderne. Sintomi: dispnea, tosse, emottisi. Trattamento: angioplastica balloon ± stent.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fistola atrio-esofagea:</strong> <0.1% (complicanza rara ma potenzialmente fatale, mortalità 50-80%). Esordio 2-4 settimane post-ablazione: febbre, dolore toracico, sepsi, embolia gassosa cerebrale. Richiede chirurgia toracica urgente.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Lesione nervo frenico:</strong> 0.1-0.5% (paralisi emidiaframma), più frequente crioablazione vena polmonare superiore destra. Recupero spontaneo 80% casi entro 6-12 mesi.</p>
+<h3 class="font-bold text-white mb-3">Complicazioni dell'ablazione</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Complicazioni maggiori totali:</strong> circa 2-4 persone su 100 nei centri esperti (più di 100 procedure all'anno), o circa 5-6 persone su 100 nei centri con meno esperienza.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Tamponamento cardiaco:</strong> circa 1.0-1.5 persone su 100 (perforazione dell'atrio, richiede drenaggio urgente con ago, raramente chirurgia).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Ictus o mini-ictus:</strong> circa 2-5 persone su 1000 (coaguli gassosi o di sangue). Prevenuto con anticoagulanti durante la procedura ed ecografia.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Complicazioni all'inguine:</strong> circa 2-3 persone su 100 (ematoma, pseudoaneurisma, fistola). La maggior parte (circa 80 persone su 100) si gestisce in modo conservativo, circa 20 persone su 100 richiedono chirurgia o procedure interventistiche.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Restringimento delle vene polmonari:</strong> circa 1-3 persone su 100. Meno comune con le tecniche moderne. Sintomi: affanno, tosse, sangue nell'espettorato. Trattamento: dilatazione con palloncino con o senza stent.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fistola tra atrio ed esofago:</strong> meno di 1 persona su 1000 (complicanza rara ma molto grave, mortalità 50-80%). Si manifesta 2-4 settimane dopo l'ablazione con febbre, dolore toracico, infezione del sangue, bolle d'aria nel cervello. Richiede chirurgia toracica urgente.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Lesione del nervo frenico:</strong> circa 1-5 persone su 1000 (paralisi di metà del diaframma), più comune con la crioablazione. Circa 80 persone su 100 si riprendono da sole entro 6-12 mesi.</p>
 </div>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      <strong class="text-white">Anticoagulazione post-ablazione:</strong> continuazione TAO indefinita se CHA₂DS₂-VASc ≥2 (uomini) o ≥3 (donne), indipendentemente da esito ablazione. Razionale: episodi FA asintomatici persistono in 20-40% pazienti apparentemente liberi da aritmia al monitoraggio standard. Studio DISCERN-AF: monitoraggio continuo ILR rivela episodi FA subclinici 60% pazienti "guariti" clinicamente. Rischio ictus post-ablazione non eliminato se fattori rischio CHA₂DS₂-VASc presenti.
+      <strong class="text-white">Anticoagulanti dopo l'ablazione:</strong> devi continuare gli anticoagulanti per tutta la vita se hai fattori di rischio per l'ictus, anche se l'ablazione ha successo e non hai più fibrillazione atriale. Perché? Episodi di fibrillazione atriale senza sintomi persistono in circa 20-40 persone su 100 che sembrano "guarite" con il monitoraggio standard. Gli studi con monitoraggio continuo mostrano che circa 60 persone su 100 "guarite" clinicamente hanno ancora episodi silenti. Il rischio di ictus non viene eliminato se hai ancora i fattori di rischio.
 </p>
   </section>
 
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="heart" class="w-7 h-7 text-rose-400"></i>
-Quali modificazioni dello stile di vita riducono le recidive di fibrillazione atriale?
+Quali modifiche dello stile di vita riducono le recidive di fibrillazione atriale?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      La gestione fattori rischio modificabili costituisce componente essenziale approccio integrato ABC pathway e rappresenta intervento terapeutico con efficacia paragonabile a trattamenti farmacologici/interventistici. Evidenza robusta da RCT supporta integrazione modificazione stile vita con terapie convenzionali per riduzione burden aritmico, miglioramento sintomi, potenziamento efficacia cardioversione/ablazione.
+      Gestire i fattori di rischio che puoi modificare è una parte essenziale del trattamento della fibrillazione atriale ed è efficace quanto i farmaci o le procedure. Studi di alta qualità dimostrano che modificare il tuo stile di vita insieme ai trattamenti convenzionali riduce gli episodi di fibrillazione atriale, migliora i sintomi, e aumenta le possibilità di successo della cardioversione e dell'ablazione.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
