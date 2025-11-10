@@ -169,10 +169,10 @@ date: "2025-09-06"
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione della severità (ESC/EACTS 2021)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza aortica lieve:</strong> EROA (Effective Regurgitant Orifice Area) <10 mm², volume rigurgitante <30 mL/battito, vena contracta <3 mm, frazione di rigurgito <30%. Asintomatica, follow-up eco ogni 3-5 anni, nessuna limitazione attività fisica. Prognosi eccellente.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza aortica moderata:</strong> EROA 10-29 mm², volume rigurgitante 30-59 mL, vena contracta 3-5.9 mm, frazione di rigurgito 30-49%. Generalmente asintomatica. Follow-up eco ogni 1-2 anni. Zona intermedia che richiede monitoraggio per progressione.</p>
-<p class="text-slate-300"><strong class="text-white">Insufficienza aortica severa:</strong> EROA ≥30 mm², volume rigurgitante ≥60 mL/battito, vena contracta ≥6 mm, frazione di rigurgito ≥50%. Sintomi frequenti quando LVEF <50% o LVESD >50 mm (>25 mm/m² indicizzato). Indicazione chirurgica Classe I ESC quando: (1) sintomatica con FEVS >50%, (2) asintomatica con FEVS ≤50%, (3) asintomatica con LVESD >50 mm o LVESD indicizzato >25 mm/m², (4) durante altro intervento cardiochirurgico. Follow-up eco ogni 6-12 mesi se asintomatica, ogni 3-6 mesi se progressivo ingrandimento VS.</p>
+<h3 class="font-bold text-white mb-3">Livelli di gravità dell'insufficienza aortica</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza aortica lieve:</strong> Il medico valuta la gravità guardando quanto sangue torna indietro attraverso la valvola. Nell'insufficienza lieve, solo una piccola quantità di sangue rifluisce. Non causa sintomi e la prognosi è eccellente. Sono necessari controlli ecocardiografici ogni 3-5 anni e non ci sono limitazioni nelle attività fisiche.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza aortica moderata:</strong> Una quantità intermedia di sangue torna indietro. La maggior parte delle persone non ha sintomi. Sono necessari controlli più frequenti (ogni 1-2 anni) per verificare se il problema sta peggiorando.</p>
+<p class="text-slate-300"><strong class="text-white">Insufficienza aortica grave:</strong> Una quantità importante di sangue rifluisce attraverso la valvola. I sintomi diventano comuni quando il cuore inizia a perdere forza o diventa molto ingrandito. L'intervento chirurgico è indicato quando compaiono sintomi, quando il cuore perde capacità di pompare, quando il cuore diventa troppo grande, o quando serve un altro intervento al cuore. Se non ci sono sintomi, i controlli sono ogni 6-12 mesi (ogni 3-6 mesi se il cuore si sta progressivamente ingrandendo).</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Parametri importanti per decidere quando operare</h3>
@@ -190,7 +190,7 @@ date: "2025-09-06"
 <ul class="text-slate-300 space-y-2 ml-5 ">
 <li><strong class="text-white">Elettrocardiogramma:</strong> registra l'attività elettrica del cuore e può mostrare segni di ingrandimento</li>
 <li><strong class="text-white">Radiografia del torace:</strong> può evidenziare l'ingrandimento del cuore o dell'aorta</li>
-<li><strong class="text-white">TC o risonanza magnetica:</strong> forniscono misure molto precise dell'aorta quando serve pianificare l'intervento</li>
+<li><strong class="text-white">TAC (tomografia computerizzata) o risonanza magnetica:</strong> forniscono misure molto precise dell'aorta quando serve pianificare l'intervento</li>
 <li><strong class="text-white">Ecocardiogramma transesofageo:</strong> una sonda ecografica viene inserita nell'esofago per ottenere immagini più dettagliate quando necessario</li>
 <li><strong class="text-white">Coronarografia:</strong> esame delle coronarie che viene eseguito prima dell'intervento negli uomini sopra i 40 anni e nelle donne sopra i 50 anni</li>
 <li><strong class="text-white">Test da sforzo:</strong> utile nei pazienti senza sintomi evidenti per capire se ci sono limitazioni non percepite</li>
@@ -288,7 +288,7 @@ date: "2025-09-06"
               È il trattamento standard per l'insufficienza aortica grave. L'intervento viene eseguito a cuore aperto, sostituendo la valvola malata con una protesi. Spesso, se anche l'aorta è dilatata, viene sostituita nella stessa operazione.
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Rischio dell'intervento:</strong> nei centri esperti e in pazienti in buone condizioni, la mortalità è del 3-5%</li>
+<li><strong class="text-white">Rischio dell'intervento:</strong> nei centri esperti e in pazienti in buone condizioni, il rischio di complicanze gravi è di 3-5 persone su 100</li>
 <li><strong class="text-white">Valvola biologica:</strong> realizzata con tessuti animali trattati. È preferita nei pazienti sopra i 60 anni. Dura tipicamente 10-20 anni</li>
 <li><strong class="text-white">Valvola meccanica:</strong> costruita con materiali artificiali. È indicata nei pazienti più giovani perché dura per tutta la vita, ma richiede l'assunzione quotidiana di anticoagulanti</li>
 <li><strong class="text-white">Degenza ospedaliera:</strong> 7-10 giorni</li>
@@ -342,10 +342,10 @@ date: "2025-09-06"
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Evoluzione naturale senza intervento</h3>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Insufficienza aortica grave senza sintomi e cuore che funziona bene:</strong> circa il 6-10% all'anno sviluppa sintomi o perdita di funzione del cuore. Per questo sono importanti i controlli regolari</li>
+<li><strong class="text-white">Insufficienza aortica grave senza sintomi e cuore che funziona bene:</strong> circa 6-10 persone su 100 ogni anno sviluppano sintomi o perdita di funzione del cuore. Per questo sono importanti i controlli regolari</li>
 <li><strong class="text-white">Quando compaiono i sintomi:</strong> se non trattata, la prognosi peggiora rapidamente</li>
 <li><strong class="text-white">Quando il cuore inizia a perdere forza:</strong> senza intervento la situazione si aggrava progressivamente</li>
-<li><strong class="text-white">Morte improvvisa:</strong> è molto rara (meno dello 0,2% all'anno) nei pazienti senza sintomi, ma il rischio aumenta quando compaiono disturbi</li>
+<li><strong class="text-white">Morte improvvisa:</strong> è molto rara (meno di 1 persona su 100 ogni anno) nei pazienti senza sintomi, ma il rischio aumenta quando compaiono disturbi</li>
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6">
@@ -354,10 +354,10 @@ date: "2025-09-06"
               L'intervento chirurgico migliora notevolmente la prognosi. La capacità del cuore di recuperare dipende dalle sue condizioni prima dell'operazione: ecco perché è importante intervenire al momento giusto.
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Sopravvivenza a lungo termine:</strong> nei pazienti operati quando il cuore funzionava ancora bene, la sopravvivenza a 10 anni è del 60-80%</li>
-<li><strong class="text-white">Ritorno alle dimensioni normali:</strong> nell'80% dei casi il cuore torna gradualmente a dimensioni più normali dopo l'intervento</li>
+<li><strong class="text-white">Sopravvivenza a lungo termine:</strong> nei pazienti operati quando il cuore funzionava ancora bene, 60-80 persone su 100 sono vive dopo 10 anni dall'intervento</li>
+<li><strong class="text-white">Ritorno alle dimensioni normali:</strong> in 8 persone su 10 il cuore torna gradualmente a dimensioni più normali dopo l'intervento</li>
 <li><strong class="text-white">Recupero della funzione:</strong> se il cuore funzionava ancora bene prima dell'intervento, il recupero è completo. Se la funzione era già compromessa, il recupero è solo parziale</li>
-<li><strong class="text-white">Miglioramento dei sintomi:</strong> l'85-95% dei pazienti ha un netto miglioramento dei disturbi</li>
+<li><strong class="text-white">Miglioramento dei sintomi:</strong> 85-95 persone su 100 hanno un netto miglioramento dei disturbi</li>
 </ul>
 <p class="text-slate-300 leading-relaxed mt-4">
 <strong class="text-white">Messaggio importante:</strong> seguire regolarmente i controlli permette di identificare il momento ottimale per l'intervento, quando la prognosi è migliore e il recupero più completo.
