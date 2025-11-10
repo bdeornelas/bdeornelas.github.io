@@ -76,7 +76,7 @@ date: "2025-09-02"
 </ul>
 <div class="highlight-box rounded-lg p-6 mt-6">
 <p class="text-slate-300 leading-relaxed">
-<strong class="text-sky-400">Un dato importante:</strong> Le persone che fanno attività fisica regolare hanno un rischio di infarto e ictus ridotto del 20-35% rispetto a chi è sedentario. È un beneficio paragonabile a quello di alcuni farmaci per il cuore, ma senza effetti collaterali.
+<strong class="text-sky-400">Un dato importante:</strong> Le persone che fanno attività fisica regolare hanno un rischio di infarto e ictus ridotto: 20-35 persone su 100 si risparmiano l'infarto rispetto a chi è sedentario. È un beneficio paragonabile a quello di alcuni farmaci per il cuore, ma senza effetti collaterali.
 </p>
 </div>
 </section>
@@ -319,7 +319,7 @@ date: "2025-09-02"
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
 <p class="text-slate-300 leading-relaxed">
-<strong class="text-sky-400">Dato importante:</strong> Le persone che completano un programma di riabilitazione cardiaca hanno un rischio di morte o nuovo ricovero ridotto del 25-30% rispetto a chi non lo fa. L'esercizio fisico controllato è una vera e propria terapia.
+<strong class="text-sky-400">Dato importante:</strong> Le persone che completano un programma di riabilitazione cardiaca hanno un rischio ridotto: 25-30 persone su 100 si risparmiano morte o nuovo ricovero rispetto a chi non lo fa. L'esercizio fisico controllato è una vera e propria terapia.
 </p>
 </div>
 <div class="info-step rounded-lg p-6">
