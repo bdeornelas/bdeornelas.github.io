@@ -29,7 +29,7 @@ date: "2025-09-14"
 <span class="text-white">riconoscere i segni, agire subito e proteggere il cervello</span>
 </h1>
 <p class="text-xl text-slate-300 leading-relaxed mb-8">
-            L'ictus cerebrale è la seconda causa di morte globalmente (5,5 milioni decessi/anno) e la prima causa di disabilità acquisita nell'adulto. L'incidenza è 150-300/100.000 abitanti/anno, con 15 milioni di nuovi ictus annui mondialmente. In Italia: 200.000 nuovi casi/anno, prevalenza 900.000 pazienti con esiti. L'85% sono ictus ischemici (occlusione arteriosa), 15% emorragici (rottura vascolare). La mortalità è 10-15% a 30 giorni, 20-25% a 1 anno; il 30-40% dei sopravvissuti presenta disabilità moderata-severa (mRS 3-5). La riperfusione precoce (trombolisi endovenosa entro 4,5h, trombectomia meccanica entro 6-24h) riduce disabilità del 30-50%, ma solo il 10-20% dei pazienti accede a queste terapie per ritardo riconoscimento sintomi/arrivo ospedale. "Time is brain": 1,9 milioni neuroni muoiono ogni minuto di ischemia non trattata.
+            L'ictus è una condizione grave che colpisce molte persone in tutto il mondo. La buona notizia è che molti ictus possono essere prevenuti e, se riconosciuti subito e trattati in tempo, le conseguenze possono essere molto ridotte. Le cure moderne hanno migliorato enormemente le possibilità di recupero, ma il tempo è fondamentale: ogni minuto conta per salvare il cervello. Per questo è così importante conoscere i segnali di allarme e agire immediatamente chiamando il 118.
 </p>
 <div class="flex flex-wrap gap-4 text-sm text-slate-400">
 <div class="flex items-center gap-2">
@@ -72,10 +72,10 @@ date: "2025-09-14"
             Differenza tra ictus e TIA
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il TIA (attacco ischemico transitorio) è un deficit neurologico focale acuto da ischemia cerebrale/retinica con sintomi <24 ore (definizione clinica classica) oppure <1 ora senza infarto documentato a imaging (definizione tissue-based moderna). L'85% dei TIA si risolve entro 60 minuti. Incidenza: 50-100/100.000/anno. Il TIA è un predittore potente di ictus: rischio 10-20% a 90 giorni (massimo nelle prime 48-72 ore: 5-10%). Il 40-50% degli ictus maggiori è preceduto da TIA/sintomi premonitori, offrendo finestra prevenzione secondaria urgente.
+            Il <strong class="text-white">TIA (attacco ischemico transitorio)</strong> è simile a un ictus, ma i sintomi sono <strong class="text-white">temporanei</strong> e di solito durano solo alcuni minuti o ore, poi scompaiono completamente. Anche se i sintomi passano da soli, il TIA è un <strong class="text-white">segnale di allarme molto serio</strong>: indica che c'è un problema che potrebbe causare un ictus vero e proprio nei giorni o settimane successive.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La gestione TIA è time-sensitive: imaging cerebrale + vascolare + ecocardiografia + laboratorio entro 24-48 ore. Antitrombotici in doppia (aspirina + clopidogrel) per 21-30 giorni riducono ictus precoce del 70-80% (POINT, CHANCE trials). Endarterectomia carotidea/stenting entro 14 giorni se stenosi critica ≥70% sintomatica. Il ricovero ospedaliero è raccomandato per TIA ad alto rischio (ABCD² ≥4, sintomi ricorrenti, stenosi critica, FA de novo) per monitoraggio e work-up diagnostico rapido.
+            Per questo, <strong class="text-white">anche se i sintomi sono passati, devi sempre chiamare il 118 o andare subito in pronto soccorso</strong>. I medici faranno esami urgenti (TAC cerebrale, ecografia dei vasi del collo, ecocardiogramma, esami del sangue) per capire la causa e iniziare subito le cure e i farmaci che possono prevenire un ictus maggiore. Spesso verranno prescritti due farmaci antiaggreganti insieme (come aspirina e clopidogrel) per alcune settimane, che riducono enormemente il rischio di un nuovo ictus nei giorni successivi.
 </p>
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
@@ -90,7 +90,7 @@ date: "2025-09-14"
 <li><strong>D</strong>uration: durata sintomi ≥60 min (2 punti) oppure 10-59 min (1 punto)</li>
 <li><strong>D</strong>iabetes: diabete mellito (1 punto)</li>
 </ul>
-<p class="text-slate-300 mt-3"><strong>Interpretazione:</strong> ABCD² 0-3 = basso rischio (rischio ictus 7 giorni 1-4%); ABCD² 4-5 = rischio moderato (4-8%); ABCD² 6-7 = alto rischio (8-12%). Score ≥4 richiede ricovero urgente e work-up completo entro 24h. Score <4 può essere gestito ambulatorialmente con valutazione specialistica entro 24-48h.</p>
+<p class="text-slate-300 mt-3"><strong>Interpretazione:</strong> ABCD² 0-3 = basso rischio (rischio ictus a 7 giorni: 1-4 persone su 100); ABCD² 4-5 = rischio moderato (4-8 persone su 100); ABCD² 6-7 = alto rischio (8-12 persone su 100). Score ≥4 richiede ricovero urgente con esami completi entro 24h. Score <4 può essere gestito ambulatorialmente con valutazione specialistica entro 24-48h.</p>
 </div>
 </section>
 
@@ -166,7 +166,7 @@ date: "2025-09-14"
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
 <li><strong class="text-white">TAC cerebrale</strong>: per capire se è un ictus ischemico (da coagulo) o emorragico (da sanguinamento)</li>
 <li><strong class="text-white">Esami del sangue</strong>: per valutare coagulazione e funzione di organi</li>
-<li><strong class="text-white">ECG</strong>: per controllare il ritmo cardiaco</li>
+<li><strong class="text-white">Elettrocardiogramma (ECG)</strong>: per controllare il ritmo cardiaco</li>
 <li><strong class="text-white">Risonanza magnetica</strong>: in alcuni casi, per vedere meglio le aree danneggiate</li>
 </ul>
 </div>
@@ -259,7 +259,7 @@ date: "2025-09-14"
             Come prevenire l'ictus
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La buona notizia è che <strong class="text-white">l'80% degli ictus può essere prevenuto</strong> controllando i fattori di rischio e adottando uno stile di vita sano.
+            La buona notizia è che <strong class="text-white">8 ictus su 10 possono essere prevenuti</strong> controllando i fattori di rischio e adottando uno stile di vita sano.
 </p>
 
 <div class="grid md:grid-cols-2 gap-6 mb-6">
@@ -296,7 +296,7 @@ date: "2025-09-14"
 <p class="text-slate-300 mb-3">Diabete e colesterolo alto danneggiano le arterie.</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc text-sm">
 <li>Mantieni la glicemia sotto controllo</li>
-<li>Mantieni il colesterolo LDL nel target personalizzato (spesso <100 mg/dL, <70 mg/dL nei pazienti ad altissimo rischio)</li>
+<li>Mantieni il colesterolo cattivo (LDL) nel target personalizzato (spesso <100 mg/dL, <70 mg/dL nei pazienti ad altissimo rischio)</li>
 <li>Prendi regolarmente i farmaci prescritti</li>
 </ul>
 </div>
@@ -373,11 +373,11 @@ date: "2025-09-14"
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Devo fare esami del sangue regolari se prendo anticoagulanti?</h3>
-<p class="text-slate-300">Dipende dal tipo di anticoagulante. Se prendi <strong class="text-white">warfarin</strong> (Coumadin), devi controllare regolarmente l'INR (di solito ogni 2-4 settimane). Se prendi i <strong class="text-white">nuovi anticoagulanti</strong> (apixaban, rivaroxaban, edoxaban, dabigatran), non serve controllare l'INR, ma devi fare controlli periodici della funzione renale.</p>
+<p class="text-slate-300">Dipende dal tipo di anticoagulante. Se prendi <strong class="text-white">warfarin</strong> (Coumadin), devi controllare regolarmente un esame del sangue chiamato INR (di solito ogni 2-4 settimane). Se prendi i <strong class="text-white">nuovi anticoagulanti</strong> (apixaban, rivaroxaban, edoxaban, dabigatran), non serve controllare l'INR, ma devi fare controlli periodici della funzione renale.</p>
 </div>
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-2">L'ictus può ripetersi?</h3>
-<p class="text-slate-300">Sì, chi ha avuto un ictus ha un rischio maggiore di averne un altro. Ma la buona notizia è che <strong class="text-white">questo rischio può essere ridotto enormemente</strong> (del 70-80%) prendendo i farmaci prescritti, controllando i fattori di rischio (pressione, colesterolo, diabete) e adottando uno stile di vita sano. Per questo è così importante seguire le indicazioni del medico.</p>
+<p class="text-slate-300">Sì, chi ha avuto un ictus ha un rischio maggiore di averne un altro. Ma la buona notizia è che <strong class="text-white">questo rischio può essere ridotto enormemente</strong> (di 70-80 punti su 100) prendendo i farmaci prescritti, controllando i fattori di rischio (pressione, colesterolo, diabete) e adottando uno stile di vita sano. Per questo è così importante seguire le indicazioni del medico.</p>
 </div>
 </section>
 
@@ -403,7 +403,7 @@ date: "2025-09-14"
 <li><strong class="text-white">Non aspettare</strong>: anche se i sintomi passano, chiama il 118. Potrebbe essere un TIA, segnale di allarme di un ictus in arrivo</li>
 <li>Le <strong class="text-white">cure moderne</strong> nelle prime ore possono salvare vite e ridurre enormemente le disabilità</li>
 <li>Dopo l'ictus: <strong class="text-white">riabilitazione</strong> intensiva, farmaci per prevenzione, controlli regolari</li>
-<li><strong class="text-white">L'80% degli ictus può essere prevenuto</strong>: controlla pressione, fibrillazione atriale, colesterolo, diabete, smetti di fumare</li>
+<li><strong class="text-white">8 ictus su 10 possono essere prevenuti</strong>: controlla pressione, fibrillazione atriale, colesterolo, diabete, smetti di fumare</li>
 <li>Con le cure giuste e la riabilitazione, <strong class="text-white">molte persone recuperano bene</strong> e tornano a una vita attiva</li>
 </ul>
 </div>
