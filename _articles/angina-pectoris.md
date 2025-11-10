@@ -126,65 +126,65 @@ Perché si verifica l'angina?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="layers" class="w-6 h-6 text-purple-400"></i>
-Qual è la classificazione clinica dell'angina pectoris?
+Quali sono i tipi di angina?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      La classificazione angina si basa su presentazione clinica, gravità sintomi, pattern temporale, rischio eventi cardiovascolari avversi. Sistemi classificativi principali: Canadian Cardiovascular Society (CCS) per angina cronica stabile, classificazione ESC per sindromi coronariche acute (NSTE-ACS vs STE-ACS), classificazione Prinzmetal per angina vasospastica.
+      I medici classificano l'angina in base a come si presenta, alla gravità dei sintomi, a quando compare, e al rischio di complicazioni. I principali tipi sono: angina stabile (quella che compare sempre con lo stesso livello di sforzo), angina instabile (più pericolosa, può portare a infarto), e angina di Prinzmetal (causata da spasmi delle arterie).
 </p>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina cronica stabile (CCS - Chronic Coronary Syndrome)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina stabile</h3>
 <div class="info-step rounded-lg p-6 mb-6">
 <p class="text-slate-300 mb-4">
-        Angina pattern stabile ≥2 mesi, scatenata da sforzi fisici riproducibili, risoluzione con riposo/nitrati sublinguali entro 2-10 minuti. Rappresenta 70-80% casi angina. Patogenesi: stenosi coronarica fissa ≥50-70% diametro, riserva coronarica compromessa, ischemia provocabile aumento MVO₂. Caratteristiche cliniche:
+        L'angina stabile è quella che hai da almeno 2 mesi e si presenta sempre nello stesso modo: scatenata da sforzi fisici prevedibili e si risolve con il riposo o con nitroglicerina sotto la lingua entro 2-10 minuti. È il tipo più comune di angina (70-80 persone su 100 con angina hanno questo tipo). È causata da restringimenti fissi nelle arterie coronarie (50-70% del diametro dell'arteria). Caratteristiche:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern predicibile:</strong> soglia sforzo costante (stessa distanza camminata, stesso numero rampe scale), double product riproducibile (FC × PAs tipicamente 15000-25000).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Durata episodi:</strong> 2-10 minuti (mediana 5 min). Durata <30 sec suggerisce origine non cardiaca. Durata >20 min richiede esclusione infarto/angina instabile.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta trattamento:</strong> risoluzione entro 1-5 min con riposo, 1-3 min con nitroglicerina sublinguale 0.3-0.6 mg. Mancata risposta nitrati sublinguali suggerisce infarto in atto.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Stabilità temporale:</strong> frequenza, intensità, soglia scatenamento costanti negli ultimi 2 mesi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern prevedibile:</strong> Il dolore compare sempre alla stessa soglia di sforzo (ad esempio sempre dopo aver camminato la stessa distanza o salito lo stesso numero di scale).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Durata degli episodi:</strong> 2-10 minuti (di solito 5 minuti). Se il dolore dura meno di 30 secondi, probabilmente non è il cuore. Se dura più di 20 minuti, potrebbe essere un infarto o angina instabile - chiama il 118.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta al trattamento:</strong> Il dolore passa entro 1-5 minuti con il riposo, o entro 1-3 minuti con nitroglicerina sotto la lingua. Se la nitroglicerina non funziona, potrebbe essere un infarto in corso.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Stabilità nel tempo:</strong> La frequenza, l'intensità e la soglia che scatena il dolore rimangono costanti negli ultimi 2 mesi.</p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Canadian Cardiovascular Society (CCS) Grading Scale</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (angina lieve):</strong> attività fisica abituale (camminare, salire scale) non provoca angina. Angina solo durante sforzi fisici intensi/rapidi/prolungati (corsa, sollevamento pesi >20 kg, esercizio vigoroso). Prevalenza 15-20% pazienti angina. MACE 1-2%/anno.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Classe II (angina lieve-moderata):</strong> lieve limitazione attività ordinarie. Angina camminando >2 isolati (>200m) in piano a passo normale, salendo >1 rampa scale a velocità normale. Fattori aggravanti: freddo, vento, post-prandiale, stress emotivo, prime ore mattino. Prevalenza 35-40% pazienti. MACE 2-3%/anno.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Classe III (angina moderata-severa):</strong> marcata limitazione attività fisica ordinaria. Angina camminando 1-2 isolati (100-200m) in piano a passo normale, salendo 1 rampa scale a velocità normale. Impatto significativo qualità vita. Prevalenza 30-35% pazienti. MACE 4-6%/anno.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Classe IV (angina severa):</strong> impossibilità svolgere qualsiasi attività fisica senza disagio. Angina a riposo o sforzi minimi (vestirsi, lavarsi, camminare <50m). Prevalenza 10-15% pazienti. MACE 8-12%/anno. Richiede valutazione urgente rivascolarizzazione.</p>
+<h3 class="font-bold text-white mb-3">Classificazione della gravità dell'angina stabile</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe I (angina lieve):</strong> Le normali attività quotidiane (camminare, salire le scale) NON causano angina. Hai dolore solo durante sforzi fisici intensi (correre, sollevare pesi oltre 20 kg, esercizio vigoroso). Questo riguarda 15-20 persone su 100 con angina. Rischio basso: 1-2 persone su 100 ogni anno hanno complicazioni gravi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe II (angina lieve-moderata):</strong> Lieve limitazione delle attività normali. Hai angina camminando più di 200 metri in piano a passo normale, o salendo più di 1 rampa di scale a velocità normale. Peggiora con il freddo, il vento, dopo mangiato, con lo stress emotivo, o al mattino presto. Riguarda 35-40 persone su 100 con angina. Rischio moderato: 2-3 persone su 100 ogni anno hanno complicazioni gravi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Classe III (angina moderata-grave):</strong> Marcata limitazione delle attività normali. Hai angina camminando 100-200 metri in piano a passo normale, o salendo 1 rampa di scale a velocità normale. Impatto significativo sulla qualità di vita. Riguarda 30-35 persone su 100 con angina. Rischio elevato: 4-6 persone su 100 ogni anno hanno complicazioni gravi.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Classe IV (angina grave):</strong> Impossibilità di svolgere qualsiasi attività fisica senza disagio. Hai angina anche a riposo o con sforzi minimi (vestirti, lavarti, camminare meno di 50 metri). Riguarda 10-15 persone su 100 con angina. Rischio molto elevato: 8-12 persone su 100 ogni anno hanno complicazioni gravi. Richiede valutazione urgente per procedure di rivascolarizzazione.</p>
 </div>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina instabile (NSTE-ACS - Non-ST Elevation Acute Coronary Syndrome)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina instabile</h3>
 <div class="warning-box rounded-lg p-6 mb-6">
 <p class="text-slate-300 mb-4">
-        <strong class="text-white">EMERGENZA MEDICA:</strong> angina pattern instabile rappresenta sindrome coronarica acuta (ACS) con rischio elevato progressione NSTEMI/STEMI. Patogenesi: rottura/fissurazione placca aterosclerotica vulnerabile (thin-cap fibroatheroma) con trombosi non-occlusiva sovrapposta, embolizzazione distale microtrombi, vasocostrizione intensa. Richiede ospedalizzazione immediata, stratificazione rischio, terapia antitrombotica aggressiva. Mortalità ospedaliera 2-5%, MACE 10-15% a 30 giorni.
+        <strong class="text-white">EMERGENZA MEDICA:</strong> L'angina instabile è una condizione pericolosa con alto rischio di evolvere in infarto. Si verifica quando una placca di colesterolo nell'arteria coronaria si rompe o si fessura, formando un coagulo di sangue che riduce ulteriormente il flusso di sangue al cuore. Richiede ricovero immediato in ospedale e trattamento urgente con farmaci anticoagulanti. Rischio: 2-5 persone su 100 muoiono in ospedale, 10-15 persone su 100 hanno infarto o morte entro 30 giorni.
 </p>
 
-<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Pattern clinici angina instabile (classificazione Braunwald):</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>Classe I (angina severa new-onset):</strong> angina severa CCS III-IV comparsa de novo negli ultimi 2 mesi, mai angina precedente.</p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>Classe II (angina a riposo subacuta):</strong> ≥1 episodio angina a riposo nel mese precedente, ma non nelle ultime 48 ore.</p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>Classe III (angina a riposo acuta, massimo rischio):</strong> ≥1 episodio angina a riposo nelle ultime 48 ore. Rischio massimo evoluzione STEMI.</p>
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Pattern di presentazione dell'angina instabile:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Tipo 1 (angina grave di nuova insorgenza):</strong> Hai sviluppato angina grave negli ultimi 2 mesi, limitante le attività normali (Classe III-IV), ma non avevi mai avuto angina prima.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Tipo 2 (angina a riposo subacuta):</strong> Hai avuto almeno 1 episodio di angina a riposo nel mese scorso, ma non nelle ultime 48 ore.</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Tipo 3 (angina a riposo acuta - massimo rischio):</strong> Hai avuto almeno 1 episodio di angina a riposo nelle ultime 48 ore. Questo è il tipo più pericoloso con il massimo rischio di infarto imminente.</p>
 
-<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Severità clinica (sottoclassificazione B/C):</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>A (secondaria):</strong> condizione extracardiac exacerbante (anemia Hb <8 g/dL, ipertiroidismo, febbre, ipertensione severa, tachicardia).</p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>B (primaria):</strong> angina instabile senza fattore precipitante extracardiaco identificabile.</p>
-<p class="text-slate-300 ml-6 mb-6">- <strong>C (post-infartuale):</strong> angina instabile entro 2 settimane da IMA documentato. Rischio massimo re-infarto/morte.</p>
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Gravità basata sulla causa:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Tipo A (secondaria):</strong> L'angina è peggiorata a causa di un'altra condizione medica (anemia severa con emoglobina sotto 8 g/dL, ipertiroidismo, febbre, pressione altissima, battito cardiaco molto rapido).</p>
+<p class="text-slate-300 ml-6 mb-3">- <strong>Tipo B (primaria):</strong> L'angina è peggiorata senza una causa medica esterna identificabile - è dovuta alle arterie del cuore.</p>
+<p class="text-slate-300 ml-6 mb-6">- <strong>Tipo C (post-infarto):</strong> Angina instabile entro 2 settimane da un infarto. Questo ha il rischio massimo di un altro infarto o morte.</p>
 
 <div class="highlight-box rounded-lg p-6 mt-4">
-<h3 class="font-bold text-white mb-3">Criteri ospedalizzazione immediata (chiamata 118)</h3>
-<p class="text-slate-300 mb-3">●Dolore toracico a riposo >10-20 minuti non responsivo a 2-3 dosi nitrati sublinguali (intervallo 5 min tra dosi).</p>
-<p class="text-slate-300 mb-3">●Angina pattern crescendo: incremento frequenza episodi (da settimanale a quotidiana/multipla giornaliera), durata (da 2-3 min a 10-15 min), intensità, riduzione soglia scatenamento (da sforzi moderati a minimi sforzi/riposo).</p>
-<p class="text-slate-300 mb-3">●Sintomi associati: dispnea severa, sincope/presincope, diaforesi profusa, nausea/vomito.</p>
-<p class="text-slate-300 mb-6">●Equivalenti anginosi a riposo: dispnea acuta, edema polmonare flash, aritmie ventricolari (TV sostenuta), sincope.</p>
+<h3 class="font-bold text-white mb-3">CHIAMA IMMEDIATAMENTE IL 118 se hai:</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●</strong>Dolore al petto a riposo che dura più di 10-20 minuti e NON passa con 2-3 dosi di nitroglicerina sotto la lingua (aspettando 5 minuti tra una dose e l'altra).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●</strong>Angina che peggiora: gli episodi sono più frequenti (da 1 volta a settimana a tutti i giorni o più volte al giorno), durano di più (da 2-3 minuti a 10-15 minuti), sono più intensi, o compaiono con sforzi sempre più piccoli (da sforzi moderati a sforzi minimi o anche a riposo).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●</strong>Sintomi associati: grave mancanza di respiro, svenimento o sensazione di svenimento, sudorazione profusa, nausea o vomito.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●</strong>Sintomi diversi dal dolore ma gravi: mancanza di respiro improvvisa, edema polmonare (accumulo di liquido nei polmoni), battito cardiaco irregolare pericoloso, svenimento.</p>
 </div>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Angina variante (o vasospastica, Prinzmetal)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Angina di Prinzmetal (vasospastica)</h3>
 <div class="info-step rounded-lg p-6">
 <p class="text-slate-300 mb-3">
-        Angina causata da spasmo coronarico epicardico intenso transitorio, tipicamente in assenza malattia aterosclerotica ostruttiva significativa o con stenosi minima (<30% diametro). Prevalenza: 2-10% pazienti angina (maggior prevalenza popolazione asiatica, Giappone 10-15%). Età media diagnosi 50-60 anni. Caratteristiche distintive:
+        Angina causata da un restringimento improvviso e temporaneo (spasmo) di un'arteria coronaria, di solito senza placche di colesterolo significative o con placche minime (meno del 30% di restringimento). Relativamente rara: 2-10 persone su 100 con angina hanno questo tipo (più comune nelle popolazioni asiatiche: 10-15 persone su 100 in Giappone). Di solito diagnosticata tra i 50 e i 60 anni. Caratteristiche:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern temporale:</strong> angina a riposo, circadiana (tipicamente notturna 2-4 AM o mattino presto 6-8 AM), clustering episodi (serie ripetute stessa ora giorno/settimana). NO correlazione sforzo fisico.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Alterazioni ECG durante episodio:</strong> sopraslivellamento ST transitorio (≥2 mm) derivazioni specifiche territorio vascolare coinvolto (anteriore, inferiore, laterale). Normalizzazione ECG completa entro 5-15 min risoluzione sintomi. Diagnosi richiede documentazione ECG durante episodio spontaneo o test provocativo (iperventilazione, ergonovina/acetilcolina intracoronarica).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta terapeutica:</strong> risoluzione rapida (1-3 min) con nitrati sublinguali/calcio-antagonisti. Refractorietà beta-bloccanti (possono peggiorare spasmo per unopposed α-vasoconstrizione).</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze:</strong> aritmie ventricolari durante spasmo (TV/FV 5-10% episodi), blocchi AV transitori (spasmo arteria coronaria destra/circonflessa), sincope. Rischio infarto transmurale se spasmo prolungato >20-30 min (raro, <5%). Prognosi buona con terapia appropriata (calcio-antagonisti long-acting + nitrati), mortalità <1%/anno.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quando si verifica:</strong> A riposo, segue un ritmo circadiano (di solito di notte tra le 2 e le 4 del mattino, o al mattino presto tra le 6 e le 8). Gli episodi tendono a raggrupparsi (serie ripetute alla stessa ora del giorno o della settimana). NON è collegata all'esercizio fisico.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cambiamenti all'elettrocardiogramma:</strong> Durante l'episodio, l'ECG mostra un sopraslivellamento del tratto ST (un segno caratteristico) che si normalizza completamente entro 5-15 minuti dalla fine del dolore. La diagnosi richiede un ECG fatto durante un episodio spontaneo o durante un test provocativo (il medico fa respiri profondi o somministra farmaci che possono scatenare lo spasmo).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risposta al trattamento:</strong> Il dolore passa rapidamente (1-3 minuti) con nitroglicerina sotto la lingua o calcio-antagonisti. I beta-bloccanti NON funzionano e possono addirittura peggiorare lo spasmo.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Complicazioni e prognosi:</strong> Durante lo spasmo possono verificarsi battiti cardiaci irregolari pericolosi (5-10 episodi su 100), blocchi della conduzione elettrica del cuore (se lo spasmo colpisce l'arteria coronaria destra), o svenimento. Raramente (meno di 5 episodi su 100), se lo spasmo dura più di 20-30 minuti, può causare un infarto. Con il trattamento appropriato (calcio-antagonisti a lunga durata d'azione + nitrati), la prognosi è buona: meno di 1 persona su 100 muore ogni anno.</p>
 </div>
   </section>
 
