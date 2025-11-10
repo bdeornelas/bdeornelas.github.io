@@ -56,27 +56,26 @@ date: "2025-11-07"
 <h2 class="text-2xl font-bold mb-6 text-white">Cos'è la fibrillazione atriale?</h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      La fibrillazione atriale (FA) è una tachiaritmia sopraventricolare caratterizzata da attivazione atriale rapida e disorganizzata con conseguente compromissione della funzione meccanica atriale. Il meccanismo elettrofisiologico sottostante implica circuiti di rientro multipli atriali che determinano attività elettrica caotica a frequenza 300-600 bpm, visibile all'ECG come onde f (fibrillazione) a morfologia e ampiezza variabili. La conduzione atrioventricolare è irregolarmente irregolare, producendo risposta ventricolare con intervalli RR variabili.
+      La fibrillazione atriale è un problema del ritmo cardiaco. Il tuo cuore ha quattro camere: due superiori (chiamate atri) e due inferiori (chiamate ventricoli). Normalmente, gli atri si contraggono in modo coordinato per spingere il sangue nei ventricoli. Nella fibrillazione atriale, gli atri tremano in modo disorganizzato invece di contrarsi normalmente. Questo significa che il sangue non viene pompato in modo efficiente dai tuoi atri ai tuoi ventricoli.
 </p>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      La FA rappresenta l'aritmia sostenuta più prevalente nella pratica clinica. Colpisce 2-4% della popolazione adulta con incidenza che aumenta esponenzialmente con l'età: 0.1% in soggetti <40 anni, 1% età 50-60 anni, 4-5% età 60-70 anni, 10-15% età >80 anni. Il rischio lifetime di sviluppare FA dopo i 40 anni è 25-35% (1 su 3-4 individui). La prevalenza globale è stimata 33-46 milioni di individui (2019), con proiezioni di raddoppio entro 2050 per invecchiamento popolazione.
+      La fibrillazione atriale è molto comune. Circa 2-4 persone su 100 nella popolazione adulta hanno questo problema. Il rischio aumenta con l'età: meno di 1 persona su 1000 sotto i 40 anni, circa 1 persona su 100 tra i 50 e 60 anni, circa 5 persone su 100 tra i 60 e 70 anni, e circa 10-15 persone su 100 sopra gli 80 anni. Se hai più di 40 anni, hai circa 1 possibilità su 3-4 di sviluppare fibrillazione atriale nel corso della tua vita.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione clinica temporale (ESC 2020)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA di nuova diagnosi (first detected):</strong> primo episodio documentato indipendentemente da durata o presenza sintomi. Include sia FA parossistica che persistente non precedentemente rilevata.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA parossistica:</strong> episodi autolimitanti con durata <7 giorni (tipicamente <48 ore). Terminazione spontanea entro 7 giorni. Possibile recidiva con pattern temporale variabile. Rappresenta 25-30% FA di nuova diagnosi.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente:</strong> durata ≥7 giorni o richiede cardioversione (elettrica/farmacologica) per terminazione. Include episodi cardiovertiti <7 giorni se improbabile terminazione spontanea. Rappresenta 25-30% FA di nuova diagnosi.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA persistente di lunga durata (long-standing persistent):</strong> FA continuativa documentata ≥12 mesi quando si decide strategia controllo ritmo. Riflette rimodellamento atriale avanzato con ridotta probabilità mantenimento ritmo sinusale post-cardioversione.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●FA permanente:</strong> FA accettata da paziente e medico, senza ulteriori tentativi controllo ritmo. Strategia rate-control esclusiva. Categoria dinamica: può riclassificarsi se si adotta successivamente strategia rhythm-control.</p>
+<h3 class="font-bold text-white mb-3">Tipi di fibrillazione atriale</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale parossistica:</strong> episodi che vanno e vengono da soli. Ogni episodio dura meno di 7 giorni (di solito meno di 48 ore) e poi il ritmo cardiaco torna normale da solo. Circa 25-30 persone su 100 con nuova diagnosi hanno questo tipo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale persistente:</strong> episodi che durano più di 7 giorni o che richiedono un trattamento per far tornare il cuore a battere normalmente. Circa 25-30 persone su 100 con nuova diagnosi hanno questo tipo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale persistente di lunga durata:</strong> fibrillazione atriale continua per 12 mesi o più. A questo punto, è più difficile far tornare il cuore a battere normalmente.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Fibrillazione atriale permanente:</strong> tu e il tuo medico decidete di non cercare più di far tornare il cuore a battere normalmente. Il trattamento si concentra sul controllare quanto velocemente batte il cuore e sul prevenire l'ictus.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Classificazione eziopatogenetica</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA non valvolare (90-95% casi):</strong> FA in assenza stenosi mitralica moderata-severa o protesi valvolare meccanica. Include FA associata a ipertensione, coronaropatia, diabete, obesità, scompenso, insufficienze valvolari non stenotiche. Terminologia rilevante per scelta anticoagulante (DOAC appropriati vs warfarin necessario).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●FA valvolare (5-10% casi):</strong> FA con stenosi mitralica moderata-severa (area valvolare <1.5 cm², gradiente medio >5 mmHg) o protesi valvolare meccanica. Richiede anticoagulazione con VKA (warfarin), DOAC controindicati. Trial RE-ALIGN dimostrato fallimento dabigatran in protesi meccaniche (aumentato rischio trombotico ed emorragico).</p>
-<p class="text-slate-300"><strong class="text-white">●FA secondaria:</strong> FA precipitata da condizione acuta reversibile (chirurgia cardiaca/non cardiaca, infarto miocardico, miocardite, pericardite, embolia polmonare, ipertiroidismo, intossicazione alcolica acuta). Trattamento condizione sottostante può risolvere FA. Rischio recidiva 10-40% a 1 anno se fattori predisponenti persistenti.</p>
+<h3 class="font-bold text-white mb-3">Cause della fibrillazione atriale</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale non valvolare (la maggior parte dei casi):</strong> questo tipo è associato a condizioni come pressione alta, problemi delle arterie del cuore, diabete, obesità, o insufficienza cardiaca. Non è causato da gravi problemi alle valvole cardiache. Circa 90-95 persone su 100 con fibrillazione atriale hanno questo tipo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fibrillazione atriale valvolare:</strong> questo tipo è causato da un grave restringimento di una valvola cardiaca chiamata valvola mitrale, oppure si verifica in persone con valvole cardiache meccaniche artificiali. Circa 5-10 persone su 100 con fibrillazione atriale hanno questo tipo. Il trattamento anticoagulante è diverso per questo tipo.</p>
+<p class="text-slate-300"><strong class="text-white">Fibrillazione atriale secondaria:</strong> questo tipo è causato da una condizione temporanea come chirurgia, infarto, infiammazione del cuore, embolia polmonare, ipertiroidismo, o consumo eccessivo di alcol. Se la condizione che l'ha causata viene trattata, la fibrillazione atriale potrebbe risolversi. Tuttavia, circa 10-40 persone su 100 avranno la fibrillazione atriale di nuovo entro un anno.</p>
 </div>
   </section>
 
@@ -84,47 +83,44 @@ date: "2025-11-07"
 <h2 class="text-2xl font-bold mb-6 text-white">Quali sono i sintomi della fibrillazione atriale?</h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      Il 20-30% dei pazienti con FA è completamente asintomatico (FA silente o subclinica). La diagnosi avviene incidentalmente durante ECG di routine, monitoraggio Holter eseguito per altre indicazioni, o dopo evento tromboembolico (ictus criptogenico che rivela FA sottostante). La FA asintomatica ha stesso rischio tromboembolico della FA sintomatica a parità di score CHA₂DS₂-VASc, rendendo screening opportunistico importante in popolazioni ad alto rischio.
+      Circa 20-30 persone su 100 con fibrillazione atriale non hanno sintomi. In questi casi, il problema viene scoperto durante un controllo medico di routine o dopo un ictus. Anche se non hai sintomi, hai lo stesso rischio di ictus di chi ha sintomi. Per questo motivo, è importante che il tuo medico controlli il tuo battito cardiaco durante le visite di routine, specialmente se hai più di 65 anni.
 </p>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      Il 70-80% pazienti presenta sintomatologia variabile. L'intensità sintomi dipende da: frequenza ventricolare media (FC >110 bpm genera sintomi più severi), tipo FA (parossistica sintomi acuti intermittenti vs persistente/permanente sintomi cronici con possibile adattamento), funzione ventricolare sinistra baseline, presenza cardiopatia strutturale. La perdita contributo atriale alla diastole ventricolare (kick atriale 15-25% gittata cardiaca) e frequenza ventricolare rapida irregolare determinano riduzione portata cardiaca del 20-30%.
+      Circa 70-80 persone su 100 con fibrillazione atriale hanno sintomi. I sintomi dipendono da quanto velocemente batte il tuo cuore (più veloce di solito significa sintomi peggiori), dal tipo di fibrillazione atriale che hai, e da quanto bene funziona il tuo cuore. Quando i tuoi atri non pompano normalmente, il tuo cuore non funziona in modo efficiente come dovrebbe. Questo può ridurre la quantità di sangue che il tuo cuore pompa di circa 20-30 persone su 100.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Presentazione sintomatica tipica</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Palpitazioni (60-75% pazienti sintomatici):</strong> percezione battito cardiaco irregolare, rapido, "sfarfallio" toracico. Caratteristico pattern "irregolarmente irregolare" distingue FA da altre tachiaritmie. Più evidenti in FA parossistica (onset acuto) vs FA permanente (adattamento percettivo).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea da sforzo (50-60%):</strong> ridotta riserva cardiaca da perdita contributo atriale e FC inadeguata all'esercizio. Progressione dispnea riflette rimodellamento ventricolare sinistro (tachicardio-miopatia) se FC non controllata cronicamente. Classe funzionale NYHA correlata inversamente con qualità vita.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Astenia/ridotta tolleranza sforzo (40-50%):</strong> riduzione portata cardiaca a riposo e sotto sforzo. Cronotrop ismo inadeguato (FC non aumenta appropriatamente con attività). Impatto significativo su performance fisiche e attività quotidiane.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Vertigini/presincope (20-30%):</strong> ipoperfusione cerebrale transitoria da gittata cardiaca ridotta durante FC molto elevate (>150 bpm) o pause post-cardioversione spontanea (sindrome bradi-tachi). Raramente sincope completa (<5%), suggerisce patologia nodo seno-atriale sottostante.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico (15-25%):</strong> dolore atipico non-ischemico da palpitazioni intense. Se angina tipica durante FA, considerare ischemia miocard ica demand-related (FC elevata in presenza coronaropatia) o embolizzazione coronarica da trombo atriale sinistro.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Nicturia, poliuria (10-15%):</strong> rilascio peptide natriuretico atriale (ANP) da distensione atriale. Può precedere altri sintomi in FA parossistica notturna.</p>
+<h3 class="font-bold text-white mb-3">Sintomi comuni</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Palpitazioni (circa 60-75 persone su 100 con sintomi):</strong> senti il tuo cuore battere in modo irregolare, veloce, o con un "tremito" nel petto. Questo è più evidente quando la fibrillazione atriale inizia improvvisamente rispetto a quando ce l'hai da tempo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Affanno durante l'attività (circa 50-60 persone su 100):</strong> ti senti senza fiato quando cammini, sali le scale, o fai altre attività. Questo accade perché il tuo cuore non pompa il sangue in modo efficiente come dovrebbe. Se il tuo battito cardiaco rimane troppo veloce per molto tempo, il tuo cuore può indebolirsi.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Stanchezza e ridotta tolleranza all'esercizio (circa 40-50 persone su 100):</strong> ti senti stanco anche con attività semplici. Il tuo cuore non pompa abbastanza sangue quando sei a riposo o quando sei attivo. Questo può rendere difficile fare le tue normali attività quotidiane.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Vertigini o sensazione di testa leggera (circa 20-30 persone su 100):</strong> ti senti stordito o come se stessi per svenire. Questo di solito accade quando il tuo cuore batte molto velocemente. Svenire completamente è raro (meno di 5 persone su 100).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Dolore toracico (circa 15-25 persone su 100):</strong> potresti sentire disagio nel petto a causa delle palpitazioni. Se hai un forte dolore al petto, chiama subito il 118 perché potrebbe essere un infarto.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Bisogno di urinare frequentemente (circa 10-15 persone su 100):</strong> potresti dover urinare più spesso del normale, specialmente di notte. Questo accade perché il tuo cuore rilascia un ormone quando i tuoi atri sono stressati.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Score EHRA (European Heart Rhythm Association)</h3>
-<p class="text-slate-300 leading-relaxed mb-3">
-        Classificazione standardizzata gravità sintomatica correlata a FA, utilizzata per guida decisionale terapeutica (rate vs rhythm control):
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA I - Asintomatico:</strong> nessun sintomo riferibile a FA. Diagnosticata incidentalmente. 20-30% pazienti. Anticoagulazione basata su CHA₂DS₂-VASc. Controllo FC target <110 bpm riposo permissivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA II - Sintomi lievi:</strong> attività quotidiane non limitate. Sintomi presenti ma tollerati. 30-40% pazienti. Rate-control spesso sufficiente. Rhythm-control se sintomi persistenti nonostante FC ottimale.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●EHRA III - Sintomi severi:</strong> attività quotidiane significativamente limitate. Sintomi invalidanti. 20-30% pazienti. Rhythm-control preferito se FA parossistica/persistente. Ablazione considerata precocemente.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●EHRA IV - Sintomi disabilitanti:</strong> normale attività quotidiana impossibile. 5-10% pazienti. Rhythm-control mandatorio. Ablazione transcatetere classe IIa se fallimento farmaci antiaritmici. Considerare anche scompenso cardiaco sottostante non controllato.</p>
+<h3 class="font-bold text-white mb-3">Gravità dei sintomi</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Nessun sintomo:</strong> non senti nulla di diverso. Circa 20-30 persone su 100. Il trattamento si concentra sulla prevenzione dell'ictus e sul controllo del battito cardiaco.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Sintomi lievi:</strong> hai dei sintomi ma non interferiscono con le tue attività quotidiane. Circa 30-40 persone su 100. I farmaci per rallentare il battito cardiaco spesso aiutano.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Sintomi moderati:</strong> i sintomi limitano significativamente le tue attività quotidiane. Circa 20-30 persone su 100. Potresti aver bisogno di trattamenti per ripristinare il ritmo normale del cuore.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Sintomi gravi:</strong> i sintomi rendono impossibile svolgere le normali attività quotidiane. Circa 5-10 persone su 100. Hai bisogno di trattamenti più aggressivi per ripristinare il ritmo normale del cuore.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-5 h-5 text-orange-400"></i>
-        Presentazioni acute richiedenti accesso emergenza immediato (chiamare 118)
+        Quando chiamare immediatamente il 118
 </h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        I seguenti sintomi in paziente con FA o sospetta FA costituiscono emergenze mediche:
+        Chiama subito il 118 se hai uno di questi sintomi:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico acuto severo con dispnea:</strong> possibile sindrome coronarica acuta (SCA). FA può precipitare ischemia demand in coronaropatia. ECG, troponina, coronarografia emergente se STEMI. Mortalità IMA + FA aumentata 1.5-2x vs ritmo sinusale.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Deficit neurologici focali acuti:</strong> emiparesi, afasia, deficit campo visivo, alterazione coscienza. Ictus ischemico acuto da tromboembolismo cardiogeno. Attivazione Stroke Code <4.5 ore per eligibilità trombolisi IV (rtPA). Rischio ictus FA non anticoagulata 3-5%/anno, mortalità ictus cardio embolico 20-30%.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea severa a riposo, ortopnea:</strong> scompenso cardiaco acuto (edema polmonare). FA con FC rapida non controllata (>130-150 bpm) può precipitare decompensation in pazienti con disfunzione VN baseline o cardiopatia strutturale. Mortalità ricovero scompenso+FA 8-15% vs 4-6% ritmo sinusale.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sincope:</strong> perdita coscienza completa transitoria. Suggerisce bradicardia severa (disfunzione nodo SA, BAV completo parossistico), torsione di punta (QT lungo + FA rapida), o compromissione emodinamica critica. Richiede monitoraggio telemetrico immediato.</p>
-<p class="text-slate-300"><strong class="text-white">●FC >150-180 bpm persistente con ipotensione:</strong> instabilità emodinamica. Considerare cardioversione elettrica emergente se ipotensione sintomatica (PAS <90 mmHg), edema polmonare acuto, ischemia miocardica ongoing. Cardioversione elettrica urgente classe I in FA emodinamicamente instabile.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Forte dolore al petto con affanno:</strong> potrebbe essere un infarto. Le persone con fibrillazione atriale che hanno un infarto hanno un rischio maggiore di morire rispetto a chi ha un battito cardiaco normale.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Debolezza improvvisa di un lato del corpo, difficoltà a parlare, problemi di vista, o confusione:</strong> potrebbe essere un ictus. Se hai fibrillazione atriale e non prendi anticoagulanti, hai un rischio di ictus di 3-5 persone su 100 ogni anno. Gli ictus causati dalla fibrillazione atriale sono spesso gravi: circa 20-30 persone su 100 muoiono, e circa 50-60 persone su 100 sopravvissute hanno disabilità permanenti.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Grave affanno a riposo o impossibilità di sdraiarsi:</strong> potrebbe essere insufficienza cardiaca acuta con accumulo di liquido nei polmoni. Se hai fibrillazione atriale con battito cardiaco molto veloce (più di 130-150 battiti al minuto) per molto tempo, il tuo cuore può indebolirsi improvvisamente.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Svenimento:</strong> perdita completa di coscienza. Questo potrebbe significare che il tuo cuore batte troppo lentamente, troppo velocemente in modo pericoloso, o non sta pompando abbastanza sangue. Hai bisogno di monitoraggio immediato in ospedale.</p>
+<p class="text-slate-300"><strong class="text-white">Battito cardiaco molto veloce (più di 150-180 battiti al minuto) con pressione bassa:</strong> il tuo cuore potrebbe non stare pompando abbastanza sangue al tuo corpo. Potresti aver bisogno di una scossa elettrica urgente per riportare il cuore a battere normalmente.</p>
 </div>
   </section>
 
@@ -132,63 +128,63 @@ date: "2025-11-07"
 <h2 class="text-2xl font-bold mb-6 text-white">Perché ho bisogno di curare la fibrillazione atriale?</h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-      Gli obiettivi terapeutici in FA sono: (1) prevenzione eventi tromboembolici (ictus ischemico, embolia sistemica) mediante anticoagulazione, (2) controllo sintomi tramite rate-control o rhythm-control, (3) prevenzione/trattamento tachicardio-miopatia, (4) modificazione fattori rischio per ridurre burden aritmico. La prevenzione tromboembolica è priorità assoluta indipendentemente da sintomatologia, poiché ictus cardio-embolico determina mortalità 20-30% e disabilità permanente 50-60% sopravvissuti.
+      Gli obiettivi del trattamento della fibrillazione atriale sono: (1) prevenire l'ictus con farmaci anticoagulanti, (2) controllare i sintomi rallentando il battito cardiaco o ripristinando il ritmo normale, (3) prevenire l'indebolimento del cuore, (4) modificare i fattori di rischio per ridurre gli episodi di fibrillazione atriale. La prevenzione dell'ictus è la priorità più importante, anche se non hai sintomi. Gli ictus causati dalla fibrillazione atriale sono gravi: circa 20-30 persone su 100 muoiono e circa 50-60 persone su 100 sopravvissute hanno disabilità permanenti.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Fisiopatologia trombogenesi in fibrillazione atriale</h3>
+<h3 class="font-bold text-white mb-3">Perché la fibrillazione atriale causa ictus?</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        La FA determina stato pro-trombotico attraverso triade Virchow applicata all'atrio sinistro:
+        Quando i tuoi atri tremano invece di contrarsi normalmente, il sangue si muove lentamente e può formare coaguli, specialmente in una piccola tasca dell'atrio sinistro chiamata auricola. Questo accade per tre motivi:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stasi ematica:</strong> perdita contrazione atriale coordinata causa riduzione velocità flusso in atrio sinistro, particolarmente in auricola sinistra (LAA, left atrial appendage). LAA è sito formazione trombi nel 90% casi FA non-valvolare. Velocità flusso LAA <20 cm/s all'ecocardiogramma transesofageo (TEE) predice aumentato rischio trombotico.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Disfunzione endoteliale:</strong> attivazione endoteliale con espressione molecole adesione, rilascio fattore von Willebrand, riduzione produzione NO. Biomarcatori (D-dimero, troponina ultrasensibile) elevati in FA riflettono stato pro-coagulante.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ipercoagulabilità:</strong> attivazione piastrinica, generazione trombina aumentata, fibrinolisi ridotta. Aggregazione piastrinica spontanea e formazione spontaneous echo contrast (SEC, "smoke" all'ecocardiografia) visibile al TEE in 10-20% FA.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Il sangue ristagna:</strong> quando gli atri non si contraggono normalmente, il sangue si muove molto lentamente nell'atrio sinistro, specialmente nell'auricola. Circa 90 coaguli su 100 che causano ictus nelle persone con fibrillazione atriale si formano in questa piccola tasca.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">I vasi sanguigni non funzionano normalmente:</strong> il rivestimento dei tuoi vasi sanguigni diventa più appiccicoso e favorisce la formazione di coaguli.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">Il sangue coagula più facilmente:</strong> le tue piastrine (le cellule che formano coaguli) diventano più attive e il tuo sangue è più propenso a coagulare. I medici possono vedere questo con esami speciali in circa 10-20 persone su 100 con fibrillazione atriale.</p>
 <p class="text-slate-300 leading-relaxed">
-        La formazione trombo in LAA precede embolizzazione verso circolo sistemico. Il 75-80% ictus FA-correlati sono cardio-embolici da LAA, 10-15% da trombi aortici/ateroma complesso, 5-10% eziologia multipla. L'ictus cardio-embolico è tipicamente severo (coinvolgimento territorio MCA), con mortalità 30 giorni 20-30% e recovery completa <30% casi.
+        I coaguli che si formano nell'auricola sinistra possono staccarsi e viaggiare attraverso il sangue fino al cervello, causando un ictus. Circa 75-80 ictus su 100 nelle persone con fibrillazione atriale sono causati da questi coaguli provenienti dall'auricola. Questi ictus sono di solito gravi: circa 20-30 persone su 100 muoiono entro 30 giorni e meno di 30 persone su 100 si riprendono completamente.
 </p>
 </div>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Stratificazione rischio tromboembolico: CHA₂DS₂-VASc score</h3>
+<h3 class="font-bold text-white mb-3">Chi ha bisogno di anticoagulanti?</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        Score validato per stratificazione rischio ictus in FA non-valvolare. Guida decisione anticoagulazione (linee guida ESC/AHA 2020):
+        Il tuo medico usa un sistema di punteggio per decidere se hai bisogno di anticoagulanti. Questo sistema considera diversi fattori di rischio per l'ictus:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fattori di rischio e punteggio:</strong></p>
-<p class="text-slate-300 mb-3">- Scompenso cardiaco/disfunzione VN (LVEF <40%): 1 punto</p>
-<p class="text-slate-300 mb-3">- Ipertensione arteriosa: 1 punto</p>
-<p class="text-slate-300 mb-3">- Età ≥75 anni: 2 punti</p>
-<p class="text-slate-300 mb-3">- Diabete mellito: 1 punto</p>
-<p class="text-slate-300 mb-3">- Ictus/TIA/tromboembolismo precedente: 2 punti</p>
-<p class="text-slate-300 mb-3">- Malattia vascolare (IMA pregresso, arteriopatia periferica, ateroma aortico): 1 punto</p>
-<p class="text-slate-300 mb-3">- Età 65-74 anni: 1 punto</p>
-<p class="text-slate-300 mb-6">- Sesso femminile: 1 punto (solo se altri fattori presenti)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Rischio ictus annuale per score:</strong></p>
-<p class="text-slate-300 mb-3">- Score 0 (solo uomini): 0.2-0.3%/anno → no anticoagulazione (classe III)</p>
-<p class="text-slate-300 mb-3">- Score 1 (uomini) o 1 (donne senza altri fattori): 0.6-1.0%/anno → considerare anticoagulazione (classe IIa)</p>
-<p class="text-slate-300 mb-3">- Score ≥2 (uomini) o ≥2 (donne con ≥1 fattore): 2.2-15.0%/anno → anticoagulazione raccomandata (classe I)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Fattori di rischio che aumentano la possibilità di ictus:</strong></p>
+<p class="text-slate-300 mb-3">- Insufficienza cardiaca o cuore indebolito</p>
+<p class="text-slate-300 mb-3">- Pressione alta</p>
+<p class="text-slate-300 mb-3">- Età 75 anni o più (rischio più alto)</p>
+<p class="text-slate-300 mb-3">- Diabete</p>
+<p class="text-slate-300 mb-3">- Ictus o mini-ictus precedente (rischio più alto)</p>
+<p class="text-slate-300 mb-3">- Malattia vascolare (infarto precedente, problemi alle arterie delle gambe, placche nell'aorta)</p>
+<p class="text-slate-300 mb-3">- Età tra 65 e 74 anni</p>
+<p class="text-slate-300 mb-6">- Essere donna (solo se hai anche altri fattori di rischio)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Raccomandazioni per gli anticoagulanti:</strong></p>
+<p class="text-slate-300 mb-3">- Se sei un uomo senza fattori di rischio: di solito non hai bisogno di anticoagulanti (rischio di ictus: meno di 3 persone su 1000 ogni anno)</p>
+<p class="text-slate-300 mb-3">- Se hai 1 fattore di rischio: il tuo medico potrebbe raccomandarti anticoagulanti (rischio di ictus: circa 6-10 persone su 1000 ogni anno)</p>
+<p class="text-slate-300 mb-3">- Se hai 2 o più fattori di rischio: dovresti prendere anticoagulanti (rischio di ictus: 2-15 persone su 100 ogni anno)</p>
 <p class="text-slate-300 leading-relaxed">
-        L'anticoagulazione riduce rischio ictus 64% (RRR) vs placebo. DOAC preferiti vs warfarin (classe I) in FA non-valvolare per superiore profilo efficacia/sicurezza: riduzione ictus/embolia 19%, emorragia intracranica 52%, mortalità 10% vs warfarin (meta-analisi trial registrativi).
+        Gli anticoagulanti riducono il rischio di ictus di circa 64 persone su 100 rispetto a non prendere nulla. I nuovi anticoagulanti orali sono di solito la scelta migliore perché sono più sicuri ed efficaci del warfarin: riducono l'ictus del 19%, le emorragie cerebrali del 52%, e il rischio di morte del 10% rispetto al warfarin.
 </p>
 </div>
 
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Stratificazione rischio emorragico: HAS-BLED score</h3>
+<h3 class="font-bold text-white mb-3">Rischio di sanguinamento con gli anticoagulanti</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-        Score per valutare rischio emorragico in pazienti anticoagulati. NON controindicazione assoluta ad anticoagulazione, ma identifica pazienti richiedenti monitoraggio intensivo:
+        Il tuo medico valuterà anche il tuo rischio di sanguinamento quando prendi anticoagulanti. Questo NON significa che non puoi prendere anticoagulanti, ma aiuta il medico a monitorarti più attentamente. Fattori che aumentano il rischio di sanguinamento:
 </p>
-<p class="text-slate-300 mb-3">●Ipertensione non controllata (PAS >160 mmHg): 1 punto</p>
-<p class="text-slate-300 mb-3">●Funzione renale/epatica compromessa (1 punto ciascuno, max 2)</p>
-<p class="text-slate-300 mb-3">●Ictus pregresso: 1 punto</p>
-<p class="text-slate-300 mb-3">●Bleeding history o predisposizione: 1 punto</p>
-<p class="text-slate-300 mb-3">●INR labile (se warfarin, TTR <60%): 1 punto</p>
-<p class="text-slate-300 mb-3">●Età >65 anni: 1 punto</p>
-<p class="text-slate-300 mb-6">●Farmaci (FANS, antiaggreganti) o alcol (≥8 drinks/settimana): 1 punto ciascuno</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Rischio emorragie maggiori annuale:</strong></p>
-<p class="text-slate-300 mb-3">- Score 0-1: 1.0-1.5%/anno (basso rischio)</p>
-<p class="text-slate-300 mb-3">- Score 2: 1.9-2.5%/anno (rischio moderato)</p>
-<p class="text-slate-300 mb-3">- Score ≥3: 3.7-12%/anno (alto rischio)</p>
+<p class="text-slate-300 mb-3">- Pressione alta non controllata (più di 160/100)</p>
+<p class="text-slate-300 mb-3">- Problemi ai reni o al fegato</p>
+<p class="text-slate-300 mb-3">- Ictus precedente</p>
+<p class="text-slate-300 mb-3">- Storia di sanguinamenti o tendenza a sanguinare facilmente</p>
+<p class="text-slate-300 mb-3">- Difficoltà a mantenere il dosaggio del warfarin nella giusta gamma (se usi warfarin)</p>
+<p class="text-slate-300 mb-3">- Età superiore a 65 anni</p>
+<p class="text-slate-300 mb-6">- Uso di farmaci antinfiammatori, aspirina, o consumo eccessivo di alcol (8 o più drink a settimana)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Rischio di sanguinamento grave ogni anno:</strong></p>
+<p class="text-slate-300 mb-3">- Basso rischio: circa 1-1.5 persone su 100</p>
+<p class="text-slate-300 mb-3">- Rischio moderato: circa 2-2.5 persone su 100</p>
+<p class="text-slate-300 mb-3">- Alto rischio: circa 4-12 persone su 100</p>
 <p class="text-slate-300 leading-relaxed">
-        HAS-BLED ≥3 richiede attenzione particolare (controllo PA, evitare FANS, ridurre alcol, monitoraggio funzione renale), ma beneficio anticoagulazione supera rischio emorragico nella maggior parte pazienti con CHA₂DS₂-VASc ≥2. L'interruzione anticoagulazione per timore emorragico determina rischio ictus significativamente superiore vs rischio emorragia.
+        Anche se hai un rischio alto di sanguinamento, i benefici degli anticoagulanti di solito superano i rischi se hai fattori di rischio per l'ictus. Il tuo medico lavorerà con te per controllare la pressione, evitare farmaci antinfiammatori, ridurre l'alcol e monitorare la funzione dei reni. Interrompere gli anticoagulanti per paura del sanguinamento mette a rischio molto più alto di ictus rispetto al rischio di sanguinamento.
 </p>
 </div>
   </section>
