@@ -254,13 +254,13 @@ date: "2025-11-06"
         L'elettrocardiogramma permette di classificare l'infarto in due tipi, che vengono curati in modo diverso:
 </p>
 <p class="text-slate-300 mb-3">
-<strong class="text-white">Infarto con arteria completamente bloccata (STEMI):</strong>
+<strong class="text-white">Infarto con arteria completamente bloccata:</strong>
 </p>
 <p class="text-slate-300 mb-4">
         L'ECG mostra cambiamenti particolari (tratto ST sollevato) che indicano che un'arteria è completamente bloccata. Questo succede in circa 4 infarti su 10. Richiede di riaprire l'arteria URGENTEMENTE (entro 90-120 minuti dall'arrivo in ospedale) con un palloncino o con farmaci che sciolgono il coagulo. Prima si riapre l'arteria, meglio è.
 </p>
 <p class="text-slate-300 mb-3">
-<strong class="text-white">Infarto con arteria parzialmente bloccata (NSTEMI):</strong>
+<strong class="text-white">Infarto con arteria parzialmente bloccata:</strong>
 </p>
 <p class="text-slate-300">
         L'ECG può sembrare normale o mostrare cambiamenti diversi. L'infarto viene confermato dagli esami del sangue. Questo tipo è più frequente (circa 6 infarti su 10). L'arteria è parzialmente bloccata, non completamente. Si inizia subito con medicine intensive, e poi si decide quando fare l'esame delle arterie (coronarografia) nelle ore o giorni successivi, secondo la gravità.
@@ -282,7 +282,7 @@ date: "2025-11-06"
 </ul>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Riaprire l'arteria bloccata (infarto STEMI)</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Riaprire l'arteria bloccata (infarto con arteria completamente bloccata)</h3>
 <div class="warning-box rounded-lg p-6 mb-6">
 <p class="text-slate-300 mb-4">
 <strong class="text-white">Angioplastica urgente:</strong>
@@ -301,7 +301,7 @@ date: "2025-11-06"
 </p>
 </div>
 
-<h3 class="text-xl font-bold mb-4 text-white">Cura dell'infarto NSTEMI</h3>
+<h3 class="text-xl font-bold mb-4 text-white">Cura dell'infarto con arteria parzialmente bloccata</h3>
 <div class="info-step rounded-lg p-6">
 <p class="text-slate-300 mb-3">
         Si inizia con medicine intensive, e poi si decide quando fare l'esame delle arterie secondo la gravità:
