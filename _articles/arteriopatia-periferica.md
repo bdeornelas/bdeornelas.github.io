@@ -504,94 +504,89 @@ Esistono alcuni farmaci specifici per il dolore da camminata (claudicatio), ma l
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="activity" class="w-7 h-7 text-pink-400"></i>
-Quando è indicata la rivascolarizzazione PAD? PTA endovascolare vs bypass chirurgico
+Quando serve un intervento per riaprire le arterie?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Rivascolarizzazione PAD indicata: 1) CLI (Fontaine III-IV) → limb salvage, indicazione assoluta urgenza/emergenza, 2) Claudicatio lifestyle-limiting (Fontaine IIb severa) fallimento terapia conservativa (SET + OMT) 3-6 mesi. Obiettivi: miglioramento perfusione arto (↑ABI, ↑TcPO₂), risoluzione dolore riposo/claudicatio, guarigione ulcere, prevenzione amputazione. Scelta tecnica (endovascolare PTA vs chirurgico bypass): dipende TASC classification lesioni, anatomia vascolare inflow-outflow, comorbidità paziente, esperienza centro.
+Un intervento per riaprire le arterie (chiamato rivascolarizzazione) è indicato in due situazioni: 1) Se hai ischemia critica (dolore a riposo, ulcere, gangrena) → l'intervento è URGENTE per salvare la gamba, 2) Se hai dolore severo quando cammini che limita gravemente la tua vita quotidiana E hai già provato esercizio fisico guidato + tutte le medicine per 3-6 mesi senza miglioramento sufficiente. Obiettivi dell'intervento: far arrivare più sangue alle gambe (migliora l'indice caviglia-braccio), eliminare il dolore a riposo o da camminata, far guarire le ulcere, prevenire l'amputazione. Esistono due tipi di intervento: angioplastica (procedura mininvasiva con catetere) e bypass chirurgico (operazione con condotto nuovo). La scelta dipende da: quanto sono gravi e dove sono i restringimenti, il tuo stato di salute generale, l'esperienza del centro.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">TASC classification - guida strategia rivascolarizzazione</h3>
+<h3 class="font-bold text-white mb-3">Come si decide quale intervento è meglio per te?</h3>
 
 <p class="text-slate-300 mb-3">
-TASC (TransAtlantic Inter-Society Consensus) classifica lesioni PAD in 4 categorie (A-D) based anatomia stenosi/occlusioni: localizzazione, lunghezza, numero, complessità. Raccomandazioni trattamento: TASC A → PTA first-line, TASC B → PTA preferred, TASC C → bypass preferred (PTA se alto rischio chirurgico), TASC D → bypass first-line.
+I medici classificano i restringimenti delle arterie in 4 categorie (dalla A alla D), in base a: dove sono, quanto sono lunghi, quanti sono, quanto sono complessi. Questa classificazione aiuta a decidere quale intervento è meglio:
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●TASC aorto-iliaco:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- TASC A: stenosi singola unilaterale iliaca comune/esterna <3 cm</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC B: stenosi breve (3-10 cm) arteria iliaca esterna non extending femorale comune, oppure 2 stenosi unilaterali iliache <5 cm ciascuna</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC C: stenosi bilaterali iliache comuni 5-10 cm, oppure occlusione unilaterale iliaca comune, oppure stenosi iliaca + femorale comune concomitanti</p>
-<p class="text-slate-300 ml-6 mb-3">- TASC D: occlusioni bilaterali croniche totali (CTO) iliache, oppure diffuse stenosi multisegmentarie aorto-iliache + femorali coinvolgimento bilaterale</p>
+<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo A (restringimenti semplici e corti):</strong> angioplastica con catetere è la prima scelta - funziona molto bene</p>
+<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo B (restringimenti moderati):</strong> angioplastica è ancora preferita - se non funziona, si fa bypass</p>
+<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo C (restringimenti estesi):</strong> bypass chirurgico è preferito, ma angioplastica è un'opzione se hai altri problemi di salute gravi</p>
+<p class="text-slate-300 ml-6 mb-3"><strong class="text-white">●Tipo D (occlusioni molto estese o bilaterali):</strong> bypass chirurgico è la prima scelta - funziona meglio a lungo termine</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●TASC femoro-popliteo:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- TASC A: stenosi singola <10 cm, oppure occlusione singola <5 cm</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC B: lesioni multiple ciascuna <5 cm, oppure stenosi/occlusione singola 5-15 cm non involving poplitea distale, oppure lesioni heavily calcified <5 cm</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC C: stenosi recidivanti post-PTA, oppure occlusioni 5-15 cm, oppure stenosi poplitea distale + arteria triforcazione</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC D: occlusione CTO >20 cm femorale superficiale/poplitea, oppure occlusione poplitea + arteria triforcazione</p>
+<p class="text-slate-300 mb-6">In generale: più semplici e corti sono i restringimenti, più l'angioplastica funziona bene. Più estese e complesse sono le occlusioni, più il bypass chirurgico è necessario.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">PTA (Percutaneous Transluminal Angioplasty) + stenting endovascolare</h3>
+<h3 class="font-bold text-white mb-3">Cos'è l'angioplastica (procedura con catetere)?</h3>
 
 <p class="text-slate-300 mb-3">
-PTA è tecnica endovascolare minimamente invasiva: cateterizzazione percutanea arteriosa (accesso femorale comune retrogrado 6-7 Fr sheath, oppure pedal access anterogrado 4-5 Fr CLI distale), navigazione guidewire 0.014-0.035" attraverso stenosi/occlusione (supporto catetere crossing dedicated), balloon angioplasty dilatazione lesione, stenting selettivo se necessario. Anestesia locale, regime ambulatoriale/overnight, recupero rapido 24-48h.
+L'angioplastica è una procedura mininvasiva per riaprire le arterie ristrette. Il medico inserisce un catetere sottile (un tubicino flessibile) attraverso una piccola puntura nell'inguine o nella gamba. Guidato dalle immagini radiologiche, fa avanzare il catetere fino al restringimento dell'arteria. Poi gonfia un palloncino per allargare il restringimento. Se necessario, può inserire uno stent (una retina metallica) per tenere aperta l'arteria. Si fa in anestesia locale, di solito puoi tornare a casa lo stesso giorno o il giorno dopo, recupero completo in 1-2 giorni.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tecnica PTA step-by-step:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">1. Accesso arterioso percutaneo (Seldinger technique): puntura femorale comune eco-guidata, inserimento sheath introducer 6-7 Fr (facilita catheter exchanges). Eparinizzazione sistemica (70-100 U/kg bolus IV, mantenimento ACT 250-300 sec).</p>
-<p class="text-slate-300 ml-6 mb-2">2. Angiografia diagnostica run-off completo: mapping anatomia lesioni, TASC classification, valutazione inflow-outflow.</p>
-<p class="text-slate-300 ml-6 mb-2">3. Crossing lesione: guidewire 0.014-0.035" (supporto catetere crossing se CTO: straight/angled tip, stiff/hydrophilic coating). CTO crossing success rate: stenosi fresh <3 mesi 90-95%, CTO >3 mesi 60-80%, CTO >12 mesi <50% (calcificazione, organized thrombus).</p>
-<p class="text-slate-300 ml-6 mb-2">4. Pre-dilatazione balloon: sizing balloon diametro arteria reference (evitare oversizing >10% rischio dissezione/rottura), lunghezza 40-200 mm. Pressioni inflation 6-14 atm, durata 60-180 sec. Balloon types: compliant (low pressure, conformable anatomy), non-compliant (high pressure, resistenza stenosi calcifiche), cutting/scoring balloon (lame metalliche micro-incidono placca, riducono barotrauma vessel wall).</p>
-<p class="text-slate-300 ml-6 mb-3">5. Stenting (se indicato): deployment stent self-expanding (nitinol, resistenza forze compressive esterne, preferito arterie periferiche mobile segments femoro-popliteo) oppure balloon-expanding (stainless steel/cromium-cobalt, radial force superiore, preferito arterie iliache large-caliber fixe). Indications stenting: residual stenosi >30% post-balloon, flow-limiting dissection (NHLBI tipo C-F), elastic recoil.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Come funziona l'angioplastica:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">1. Il medico fa una piccola puntura nell'arteria dell'inguine (guidata dall'ecografia) e inserisce un introduttore. Ti dà eparina (anticoagulante) per evitare coaguli durante la procedura.</p>
+<p class="text-slate-300 ml-6 mb-2">2. Fa una radiografia delle arterie iniettando mezzo di contrasto, per vedere esattamente dove e quanto sono ristrette.</p>
+<p class="text-slate-300 ml-6 mb-2">3. Guida un filo sottile attraverso il restringimento (se il restringimento è recente, riesce a passare in 90-95 casi su 100; se è vecchio di oltre 1 anno, riesce in 50 casi su 100 perché è più duro e calcificato).</p>
+<p class="text-slate-300 ml-6 mb-2">4. Gonfia un palloncino nel punto ristretto per allargarlo. Il palloncino rimane gonfiato per 1-3 minuti.</p>
+<p class="text-slate-300 ml-6 mb-3">5. Se il restringimento non si apre abbastanza o l'arteria tende a richiudersi, mette uno stent (retina metallica) che tiene aperta l'arteria.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Outcome PTA per segmento anatomico:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- <strong>Aorto-iliaco (TASC A-B):</strong> technical success 95-98%, patency primaria 85-90% a 1 anno, 70-80% a 5 anni (migliori outcome entire vascular bed). Stenting routine superiore plain balloon: trial DUTCH ILIAC (stent vs PTA alone): patency 71% vs 54% a 2 anni.</p>
-<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo (TASC A-B):</strong> technical success 90-95%, patency primaria 60-70% a 1 anno, 40-50% a 3 anni. TASC C-D: patency 40-50% a 1 anno. Stenting vs plain balloon: nessuna superiorità dimostrata (trial RESILIENT, SUPERA); stenting riservato bail-out (dissection, recoil). Drug-coated balloon (DCB paclitaxel-eluting): superiore plain balloon, patency 75-80% vs 55-60% a 1 anno (meta-analisi, trial IN.PACT SFA, LEVANT 2).</p>
-<p class="text-slate-300 ml-6 mb-3">- <strong>Infrapopliteo/tibiale (TASC A-B):</strong> technical success 85-90%, patency primaria 50-60% a 1 anno, 30-40% a 2 anni. Outcome inferiori vs proximal segments (small vessel caliber 2-3 mm, high restenosis rate). Indicazioni PTA tibiale: principalmente CLI limb salvage (dolore riposo, ulcere), raramente claudicatio isolated. Trial BASIL-2 comparing PTA vs bypass tibiale CLI: limb salvage equivalente 1 anno, ma reinterventions 2-3x higher PTA.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risultati dell'angioplastica a seconda della zona trattata:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Arterie dell'addome e del bacino (aorta e iliache):</strong> la procedura riesce in 95-98 casi su 100. L'arteria rimane aperta nell'85-90% dei casi a 1 anno e nel 70-80% dei casi a 5 anni. Questi sono i migliori risultati di tutta l'angioplastica periferica. Mettere uno stent funziona meglio del solo palloncino: l'arteria rimane aperta nel 71% vs 54% dei casi a 2 anni.</p>
+<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Arterie della coscia e dietro il ginocchio (femorali e poplitee):</strong> la procedura riesce in 90-95 casi su 100. L'arteria rimane aperta nel 60-70% dei casi a 1 anno e nel 40-50% dei casi a 3 anni (se il restringimento era semplice). Se il restringimento era esteso: 40-50% a 1 anno. I palloncini medicati (rilasciano una medicina che previene il restringimento) funzionano meglio: 75-80% vs 55-60% a 1 anno.</p>
+<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Arterie della gamba sotto il ginocchio (tibiali):</strong> la procedura riesce in 85-90 casi su 100. L'arteria rimane aperta nel 50-60% dei casi a 1 anno e nel 30-40% dei casi a 2 anni. Questi risultati sono peggiori perché le arterie sono molto piccole (2-3 mm) e tendono a richiudersi. L'angioplastica qui si fa soprattutto per ischemia critica (salvare la gamba), non per semplice dolore da camminata. Richiede spesso interventi ripetuti: 2-3 volte più frequenti rispetto al bypass chirurgico.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze PTA (incidenza totale 5-10%):</strong> complicanze accesso (ematoma 2-4%, pseudoaneurisma 0.5-1%, AV fistola 0.2%), dissezione flow-limiting 3-5% (trattata stent bail-out), perforazione vessel 0.5-1% (embolizzazione coil se bleeding), ateroembolismo distale (blue toe syndrome) 1-2%, trombosi acuta stent <1%, CIN 2-5% (prevenzione: idratazione IV, riduzione contrasto volume, N-acetilcisteina profilassi). Amputazione periprocedurale <0.1%. Mortalità 30-day <0.5%.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Rischi dell'angioplastica (complicanze totali 5-10 persone su 100):</strong> ematoma nel punto di puntura 2-4 su 100, rigonfiamento dell'arteria (pseudoaneurisma) 0.5-1 su 100, danno dell'arteria durante la procedura 3-5 su 100 (si risolve mettendo uno stent), perforazione dell'arteria 0.5-1 su 100, frammenti di placca che vanno ai piedi (dita blu) 1-2 su 100, danno ai reni dal mezzo di contrasto 2-5 su 100 (si previene bevendo molta acqua e riducendo la quantità di contrasto). Amputazione durante o subito dopo la procedura: meno di 1 su 1000. Morte entro 30 giorni: meno di 5 su 1000.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Bypass chirurgico open - gold standard TASC C-D, CLI</h3>
+<h3 class="font-bold text-white mb-3">Cos'è il bypass chirurgico (operazione)?</h3>
 
 <p class="text-slate-300 mb-3">
-Bypass chirurgico crea condotto alternativo bypass stenosi/occlusione arteriosa, ripristinando perfusione distale. Tecnica: anastomosi prossimale (inflow) arteria patent a monte lesione, tunneling graft conduit anatomico (subfascial) o extra-anatomico, anastomosi distale (outflow) arteria patent distalmente. Anestesia generale/locoregionale (epidurale), degenza ospedaliera 3-7 giorni, recupero 4-6 settimane.
+Il bypass chirurgico è un'operazione che crea una "strada alternativa" per il sangue, saltando il tratto di arteria ristretta o chiusa. Il chirurgo collega (anastomizza) un condotto all'arteria sana sopra il restringimento e all'arteria sana sotto il restringimento. Il sangue può così scorrere attraverso questo nuovo condotto. Si fa in anestesia generale o epidurale, rimani in ospedale 3-7 giorni, recupero completo in 4-6 settimane.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Conduits graft bypass (autologous vs synthetic):</strong></p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quali condotti si usano per il bypass:</strong></p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Vena safena magna (GSV - Great Saphenous Vein) autologa:</strong> gold standard conduit, superiorità patency vs synthetic grafts soprattutto below-knee bypass. Harvesting: incisione chirurgica arto ipsilaterale/controlaterale gamba, asportazione GSV calibro 3-5 mm, reverse configuration (valvole venose non interferiscono flusso) oppure in-situ technique (valvulotome destroy valves, mantiene vasa vasorum). Patency primaria femoro-popliteo above-knee GSV: 75-80% a 5 anni. Below-knee/tibiale GSV: 60-70% a 5 anni. Limiti: 20-30% pazienti GSV inadequate (previous varicose vein surgery, small caliber <3 mm, varicosities).</p>
+<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Vena safena (la tua vena della gamba):</strong> questa è la scelta migliore. Il chirurgo preleva la vena safena da una delle tue gambe attraverso un'incisione chirurgica. Questa vena diventa il nuovo condotto per il bypass. Risultati: il condotto rimane aperto nel 75-80% dei casi a 5 anni (se il bypass è sopra il ginocchio), e nel 60-70% dei casi a 5 anni (se il bypass è sotto il ginocchio o arriva fino alle arterie della gamba). Limiti: in 20-30 persone su 100 la vena safena non è adatta (perché è stata già operata per vene varicose, o è troppo piccola o malata).</p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Alternative vein conduits:</strong> arm veins (vena basilica, cefalica), vena safena parva (lesser saphenous vein), spliced vein segments (multiple vein pieces anastomizzati). Patency inferiore GSV 10-15%, ma superiore synthetic grafts. Utilizzate quando GSV unavailable.</p>
+<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Vene alternative (vene del braccio o altra vena della gamba):</strong> se la vena safena non è utilizzabile, il chirurgo può usare vene del braccio o altre vene più piccole. I risultati sono un po' peggiori (10-15% in meno) rispetto alla safena, ma sempre migliori dei condotti sintetici.</p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Prosthetic grafts (PTFE - Polytetrafluoroethylene, Dacron):</strong> condotti sintetici, diametro 6-8 mm. Indicazioni: above-knee femoro-popliteo GSV unavailable, aorto-bifemorale, axillo-bifemorale extra-anatomico. Patency femoro-popliteo above-knee PTFE: 50-60% a 5 anni (inferiore GSV 75-80%). Below-knee PTFE: patency poor 30-40% a 3 anni → evitare, preferire vein autologous. Heparin-bonded PTFE, PTFE + vein cuff distal anastomosis: miglioramento patency marginale 5-10%.</p>
+<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Condotti sintetici (protesi in materiale artificiale):</strong> questi sono tubi sintetici fatti di un materiale plastico speciale (PTFE o Dacron). Si usano quando non hai vene adatte, o per bypass nell'addome o bacino. Risultati: rimangono aperti nel 50-60% dei casi a 5 anni (se il bypass è sopra il ginocchio), ma solo nel 30-40% dei casi a 3 anni se il bypass è sotto il ginocchio. Per questo, sotto il ginocchio si cerca sempre di usare la tua vena.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Configurazioni bypass comuni:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- <strong>Aorto-bifemorale (ABF):</strong> inflow aorta infrarenale, biforcazione graft Dacron 14x7 mm, outflow bilaterale femorali comuni. Gold standard malattia aorto-iliaca TASC D, giovani (aspettativa vita >10 anni). Patency 85-90% a 10 anni. Invasività: laparotomia, clampaggio aorta, morbidità 5-10% (disfunzione erettile 10-25% lesione plessi ipogastrici, ischemia colica 1-2%, paraplegia spinale <1%).</p>
-<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo above-knee:</strong> inflow femorale comune/superficiale, outflow poplitea above-knee (P1 segment). Indicazioni: TASC C-D SFA, claudicatio severa/CLI. Conduit: GSV first-choice, PTFE acceptable. Patency GSV 75-80% a 5 anni, PTFE 50-60%.</p>
-<p class="text-slate-300 ml-6 mb-2">- <strong>Femoro-popliteo/tibiale below-knee:</strong> outflow poplitea below-knee (P3 segment) oppure tibiali (tibiale anteriore, posteriore, peroniera). Indicazioni: CLI limb salvage. Conduit: GSV obbligatorio (PTFE below-knee patency inaccettabile). Patency GSV 60-70% a 5 anni. Trial BASIL (Bypass versus Angioplasty in Severe Ischaemia of the Leg): bypass vs PTA CLI, amputation-free survival equivalente a 1 anno, ma bypass superiore long-term (>2 anni) se aspettativa vita >2 anni + vein conduit available.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tipi di bypass a seconda di dove sono i restringimenti:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass dall'aorta alle femorali (aorto-bifemorale):</strong> per restringimenti gravi dell'aorta e delle arterie del bacino. Usa un condotto sintetico a Y che parte dall'aorta nell'addome e arriva a entrambe le arterie femorali. Rimane aperto nell'85-90% dei casi a 10 anni. È un'operazione più impegnativa (serve aprire l'addome, bloccare l'aorta). Complicanze: problemi di erezione in 10-25 uomini su 100.</p>
+<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass dalla femorale all'arteria dietro il ginocchio (femoro-popliteo sopra il ginocchio):</strong> per restringimenti dell'arteria della coscia (femorale). Preferito: la tua vena safena (75-80% aperta a 5 anni). Alternativa: condotto sintetico (50-60% aperto a 5 anni).</p>
+<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass fino alle arterie della gamba sotto il ginocchio (femoro-popliteo/tibiale):</strong> per ischemia critica quando serve salvare la gamba. Si usa OBBLIGATORIAMENTE la tua vena safena (i condotti sintetici non funzionano bene sotto il ginocchio). Rimane aperto nel 60-70% dei casi a 5 anni. In studi su 452 persone con ischemia critica: bypass e angioplastica hanno risultati simili a 1 anno nel salvare la gamba (68-71% senza amputazione), ma dopo 2 anni il bypass funziona meglio se hai buona aspettativa di vita E una vena buona.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Complicanze bypass chirurgico (morbidità perioperatoria 10-15%):</strong> infezione ferita 3-5% (superficial SSI), infezione graft 1-2% (devastante, richiede graft excision + extra-anatomic reconstruction, mortalità 10-20%), graft thrombosis early (<30 days) 3-5% (technical error, hypercoagulability), lymphocele/lymphedema 2-3%, cardiac events perioperatori (infarto, aritmie) 2-5%, stroke 1%, insufficienza renale acuta 2-3% (contrast/ateroembolismo), amputazione perioperatoria 2-3% (graft failure irreversibile). Mortalità 30-day: 1-3% claudicatio, 3-5% CLI.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Rischi del bypass chirurgico (complicanze 10-15 persone su 100):</strong> infezione della ferita 3-5 su 100, infezione del condotto 1-2 su 100 (molto grave, richiede rimuovere il condotto, mortalità 10-20 su 100), chiusura precoce del condotto entro 30 giorni 3-5 su 100, gonfiore gamba (linfedema) 2-3 su 100, infarto o aritmie 2-5 su 100, ictus 1 su 100, insufficienza renale 2-3 su 100, amputazione 2-3 su 100. Morte entro 30 giorni: 1-3 persone su 100 se hai dolore da camminata, 3-5 persone su 100 se hai ischemia critica.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Endovascular-first vs bypass-first strategy - trial evidence</h3>
+<h3 class="font-bold text-white mb-3">Angioplastica o bypass: quale scegliere?</h3>
 
 <p class="text-slate-300 mb-3">
-Strategia rivascolarizzazione contemporanea: endovascular-first approach preferita maggioranza centri (less invasive, faster recovery, preserva vein conduits future bypass se restenosis). Bypass riservato fallimento endovascolare, anatomia TASC D non suscettibile PTA, disponibilità vein conduit good-quality + aspettativa vita >2 anni.
+Strategia attuale: la maggior parte dei centri preferisce cominciare con l'angioplastica (approccio angioplastica-prima) perché è meno invasiva, recupero più veloce, e conserva le vene per un eventuale bypass futuro se l'angioplastica non funziona o l'arteria si richiude. Il bypass chirurgico è riservato a: quando l'angioplastica non riesce o l'arteria si richiude, restringimenti molto estesi (Tipo D) che non sono adatti per angioplastica, quando hai una vena buona disponibile E aspettativa di vita superiore a 2 anni.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Trial BASIL (N=452, CLI femoro-popliteo):</strong> angioplasty-first vs bypass-first, follow-up 5 anni. Outcome primario: amputation-free survival equivalente 1 anno (angioplasty 68% vs bypass 71%, p=NS). Long-term (>2 anni): bypass superiore se vein conduit + aspettativa vita >2 anni (HR 0.61 mortalità, p=0.02). Reinterventions: 2x higher angioplasty group (45% vs 20%). Costi: angioplasty inizialmente cheaper, ma costs equivalente long-term (reinterventions). Conclusione: angioplasty-first reasonable claudicatio/CLI short-term goals; bypass preferred good surgical candidates vein disponibile aspettativa vita >2 anni.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Evidenza scientifica (studio BASIL su 452 persone con ischemia critica):</strong> angioplastica-prima vs bypass-prima, seguiti per 5 anni. Risultati a 1 anno: praticamente uguali (68% vs 71% senza amputazione e vivi). Risultati oltre 2 anni: il bypass funziona meglio se hai una vena buona E aspettativa di vita oltre 2 anni (riduzione mortalità del 39%). Interventi ripetuti necessari: doppi con angioplastica (45% vs 20%). Costi: angioplastica costa meno inizialmente, ma i costi diventano uguali a lungo termine (per i numerosi interventi ripetuti).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●TASC consensus recommendations (aggiornamento 2024):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- TASC A: PTA first-line (Class I indication), bypass raramente necessario</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC B: PTA preferred initial approach (Class IIa), bypass se fallimento PTA/restenosi</p>
-<p class="text-slate-300 ml-6 mb-2">- TASC C: PTA vs bypass equipoise, scelta individualizzata (anatomia, comorbidità, vein availability, patient preference). Bypass preferred se vein conduit + low surgical risk + aspettativa >2 anni.</p>
-<p class="text-slate-300 ml-6 mb-3">- TASC D: bypass first-line (Class I), PTA riservata alto rischio chirurgico O vein unavailable (accepting inferior patency)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Raccomandazioni attuali (2024):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo A: angioplastica è la prima scelta, bypass quasi mai necessario</p>
+<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo B: angioplastica è preferita, bypass se fallisce o si richiude</p>
+<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo C: angioplastica e bypass funzionano entrambi, la scelta è personalizzata (dipende da anatomia, altre tue malattie, disponibilità vena, tua preferenza). Bypass è preferito se hai una vena buona + basso rischio operatorio + aspettativa di vita oltre 2 anni.</p>
+<p class="text-slate-300 ml-6 mb-3">● Restringimenti Tipo D: bypass è la prima scelta, angioplastica solo se hai rischio operatorio troppo alto O non hai vene adatte (accettando risultati peggiori)</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Hybrid procedures (endovascular + open combined):</strong> strategia combinata PTA segmento iliaco (inflow optimization) + bypass femoro-distale simultaneous. Indicazioni: malattia multilivello (es. stenosi iliaca + CTO femorale), permette evitare aortic clamping (morbidità ridotta). Trial CART (Combined endovascular and surgical Approach in severe peripheral arterial disease): hybrid approach vs bypass alone, morbidità perioperatoria ridotta 30-40%, patency equivalente. Emerging strategy centri high-volume.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Procedure ibride (combinazione angioplastica + bypass):</strong> in alcuni centri specializzati si combina angioplastica nelle arterie del bacino + bypass nelle arterie della gamba nella stessa seduta. Questo è utile quando hai restringimenti a più livelli (es. bacino + coscia). Permette di evitare di aprire l'addome e riduce i rischi dell'operazione del 30-40%, con risultati uguali.</p>
 </div>
 </section>
 
