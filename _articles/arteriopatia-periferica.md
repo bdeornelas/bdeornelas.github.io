@@ -333,55 +333,55 @@ L'angiografia è l'esame più preciso per vedere le arterie, con la migliore qua
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="heart-pulse" class="w-7 h-7 text-violet-400"></i>
-Qual è il trattamento conservativo della PAD? Modifiche stile vita evidence-based
+Qual è il trattamento se hai dolore lieve-moderato quando cammini?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Trattamento PAD claudicatio intermittens (Fontaine IIa-IIb) si basa primariamente su modificazioni stile vita + OMT (Optimal Medical Therapy farmacologica). Rivascolarizzazione (PTA/bypass) riservata fallimento terapia conservativa 3-6 mesi O claudicatio lifestyle-limiting severa O CLI. Obiettivi terapia conservativa: 1) miglioramento sintomi claudicatio (↑walking distance), 2) riduzione rischio CV sistemico (MACE), 3) prevenzione progressione CLI/amputazione.
+Se hai dolore lieve-moderato quando cammini (claudicazione), il trattamento principale sono le modifiche dello stile di vita più le medicine. L'intervento per riaprire le arterie (angioplastica o bypass chirurgico) è riservato a chi: non migliora dopo 3-6 mesi di trattamento conservativo, oppure ha dolore molto grave che limita moltissimo la vita quotidiana, oppure ha ischemia critica (dolore a riposo, ulcere). Gli obiettivi del trattamento conservativo sono: 1) migliorare i sintomi di claudicazione (camminare più a lungo senza dolore), 2) ridurre il rischio di infarto e ictus, 3) prevenire che la condizione peggiori a ischemia critica o amputazione.
 </p>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cessazione fumo - intervento singolo più efficace PAD</h3>
+<h3 class="font-bold text-white mb-3">1. Smettere di fumare - la cosa più importante che puoi fare</h3>
 
-<p class="text-slate-300 mb-3">
-Fumo è fattore rischio modificabile principale PAD. Cessazione fumo associata: riduzione progressione PAD 50-70%, riduzione rischio CLI 60-80%, riduzione amputazione maggiore 70-85%, riduzione MACE 30-40%, miglioramento patency graft post-bypass 40-50%. Continuare fumo post-rivascolarizzazione: fallimento PTA/bypass 2-3x aumentato, restenosi precoce 50-60% vs 20-30% non fumatori.
+<p class="text-slate-300 mb-4">
+Il fumo è la causa principale modificabile dell'arteriopatia periferica. Se smetti di fumare: la progressione della malattia si riduce del 50-70%, il rischio di ischemia critica si riduce del 60-80%, il rischio di amputazione si riduce del 70-85%, il rischio di infarto e ictus si riduce del 30-40%, se devi fare un bypass, funziona meglio (40-50% in più di probabilità che resti aperto). Se continui a fumare dopo un intervento (angioplastica o bypass): il fallimento dell'intervento è 2-3 volte più alto, si richiude presto in 50-60 persone su 100 (vs 20-30 persone su 100 che non fumano).
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Strategie evidence-based cessazione:</strong></p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa ti aiuta a smettere:</strong></p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Counseling comportamentale intensivo:</strong> interventi multi-sessione (≥4 sessioni, 10-30 min ciascuna) vs intervento minimo (<3 min advice). Counseling intensivo: OR cessazione 1.5-2.0 vs minimo. Approccio 5 A's: Ask (chiedi status fumo), Advise (consiglia cessazione), Assess (valuta motivazione), Assist (fornisci supporto/risorse), Arrange (programma follow-up). Combinazione counseling + farmacoterapia: efficacia massima (quit rate 30-40% a 6 mesi vs 5-10% solo willpower).</p>
+<p class="text-slate-300 ml-6 mb-3">● <strong>Supporto psicologico intensivo:</strong> programmi di più sedute (almeno 4 sedute, 10-30 minuti ciascuna) funzionano molto meglio di semplici consigli brevi. Il supporto psicologico combinato con medicine funziona meglio: 30-40 persone su 100 smettono a 6 mesi (vs solo 5-10 persone su 100 con la sola forza di volontà).</p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Vareniclina (Champix):</strong> agonista parziale recettore nicotinico α4β2. Dosaggio: 0.5 mg qd × 3d → 0.5 mg bid × 4d → 1 mg bid × 12 settimane (estensione 12-24 settimane addizionali riduce recidiva). Efficacia: OR cessazione 2.3-2.7 vs placebo, superiore NRT/bupropione. Trial EAGLES (N=8000): vareniclina quit rate 21.8% vs NRT 16.4% vs bupropione 16.2% a 6 mesi. Effetti collaterali: nausea 30% (transitoria, ridotta assunzione post-prandiale), insonnia 10-15%, sogni vividi 10%. Controindicazioni: storia psichiatrica severa (depressione maggiore instabile, psicosi).</p>
+<p class="text-slate-300 ml-6 mb-3">● <strong>Vareniclina (Champix):</strong> medicina che aiuta a smettere riducendo il desiderio di fumare e rendendo il fumo meno piacevole. Come si prende: inizi con dosi basse e aumenti gradualmente fino a 1 mg due volte al giorno per 12 settimane. Efficacia: circa 22 persone su 100 smettono con successo a 6 mesi (vs 16 persone su 100 con cerotti alla nicotina, vs 5-10 senza aiuto). Effetti collaterali comuni: nausea in 30 persone su 100 (passa col tempo, ridotta se prendi la medicina dopo i pasti), difficoltà a dormire in 10-15 persone su 100, sogni vividi in 10 persone su 100. Non usare se: hai depressione grave instabile o psicosi.</p>
 
-<p class="text-slate-300 ml-6 mb-3">- <strong>Bupropione SR (Zyban):</strong> antidepressivo atipico, inibisce reuptake dopamina/norepinefrina. Dosaggio: 150 mg qd × 3d → 150 mg bid × 7-12 settimane. OR cessazione 1.6-2.0 vs placebo. Effetti collaterali: insonnia 30-40% (evitare assunzione serale), dry mouth 10%, cefalea 10%. Controindicazioni: convulsioni (abbassa soglia), disturbi alimentari, MAOI concomitanti.</p>
+<p class="text-slate-300 ml-6 mb-3">● <strong>Bupropione (Zyban):</strong> antidepressivo che aiuta a smettere di fumare. Dosaggio: 150 mg al giorno per 3 giorni, poi 150 mg due volte al giorno per 7-12 settimane. Effetti collaterali: difficoltà a dormire in 30-40 persone su 100 (non prenderlo la sera), bocca secca in 10 persone su 100, mal di testa in 10 persone su 100. Non usare se: hai convulsioni, disturbi alimentari, o prendi certi antidepressivi.</p>
 
-<p class="text-slate-300 ml-6 mb-6">- <strong>NRT (Nicotine Replacement Therapy):</strong> patch transdermici 7-21 mg/24h, gum 2-4 mg, lozenges, spray nasale, inalatori. Efficacia: OR 1.5-1.7 vs placebo. Combinazione patch + form rapida (gum/lozenge): superiore monoterapia, OR 2.0-2.5. Sicurezza CV: NRT sicuro anche pazienti CAD/PAD recente (studio EAGLES conferma safety profile). Durata: 8-12 settimane tapering progressivo.</p>
+<p class="text-slate-300 ml-6 mb-6">● <strong>Sostituti della nicotina (cerotti, gomme, pastiglie, spray):</strong> cerotti da applicare sulla pelle (7-21 mg al giorno), gomme da masticare (2-4 mg), pastiglie, spray nasale, inalatori. Funzionano bene, specialmente se combini cerotti con forme a rilascio rapido (gomme o pastiglie). Sono sicuri anche se hai arteriopatia o malattia coronarica. Durata: 8-12 settimane riducendo gradualmente la dose.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Supervised Exercise Therapy (SET) - trattamento first-line claudicatio</h3>
+<h3 class="font-bold text-white mb-3">2. Esercizio fisico guidato - il trattamento più efficace per la claudicazione</h3>
 
-<p class="text-slate-300 mb-3">
-SET è intervento NON farmacologico più efficace claudicatio intermittens. Raccomandazione ESC/AHA Class IA: SET offerto a TUTTI pazienti claudicatio prima considerare rivascolarizzazione. Efficacia SET vs PTA claudicatio moderata (Fontaine IIb): equivalente miglioramento walking distance 6 mesi (trial ERASE, CLEVER), ma SET vantaggi aggiuntivi (miglioramento fitness CV, riduzione fattori rischio, assenza complicanze procedure). PTA riservata fallimento SET 3-6 mesi O sintomi severi lifestyle-limiting.
+<p class="text-slate-300 mb-4">
+L'esercizio fisico guidato da un fisioterapista (chiamato anche riabilitazione vascolare) è il trattamento non-farmacologico più efficace se hai dolore quando cammini. Le linee guida raccomandano che a TUTTE le persone con claudicazione venga offerto l'esercizio fisico guidato prima di considerare un intervento. Gli studi dimostrano che l'esercizio guidato funziona bene quanto l'angioplastica per il dolore moderato: entrambi migliorano quanto riesci a camminare dopo 6 mesi. Ma l'esercizio ha vantaggi aggiuntivi: migliora la tua forma fisica generale, riduce i fattori di rischio (pressione, colesterolo), e non ha rischi di complicanze dell'intervento. L'intervento (angioplastica) è riservato a chi: non migliora dopo 3-6 mesi di esercizio, oppure ha sintomi molto gravi che limitano troppo la vita.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Protocollo SET standardizzato:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Frequenza: 3 sessioni/settimana, minimo 12 settimane (ideale 6 mesi)</p>
-<p class="text-slate-300 ml-6 mb-2">- Durata sessione: 30-60 minuti walking treadmill (escluso warm-up/cool-down)</p>
-<p class="text-slate-300 ml-6 mb-2">- Intensità: walking fino onset claudicatio moderato-severo (near-maximal pain), poi rest fino risoluzione completa dolore. Ripetere cicli walking-rest.</p>
-<p class="text-slate-300 ml-6 mb-2">- Progressione: incremento velocità/pendenza treadmill graduale (quando paziente completa 10 min continuous walking senza stop claudicatio)</p>
-<p class="text-slate-300 ml-6 mb-3">- Supervisione: fisioterapista/infermiere specializzato monitora compliance, sicurezza (PA, FC), progressione personalizzata</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Come funziona il programma di esercizio guidato:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Frequenza: 3 sedute a settimana, per almeno 12 settimane (idealmente 6 mesi)</p>
+<p class="text-slate-300 ml-6 mb-2">● Durata di ogni seduta: 30-60 minuti di camminata su tapis roulant (più riscaldamento e raffreddamento)</p>
+<p class="text-slate-300 ml-6 mb-2">● Intensità: cammini fino a quando il dolore diventa moderato-forte, poi riposi fino a che il dolore passa completamente. Ripeti questi cicli (cammina-riposa) per tutta la sessione</p>
+<p class="text-slate-300 ml-6 mb-2">● Progressione graduale: man mano che migliori, aumentano gradualmente la velocità e la pendenza del tapis roulant</p>
+<p class="text-slate-300 ml-6 mb-3">● Supervisione: un fisioterapista o infermiere specializzato controlla che tutto vada bene (pressione, battito cardiaco), ti aiuta a progredire in modo personalizzato, e ti incoraggia a continuare</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Outcome SET (meta-analisi Cochrane 2017, N=1800):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Miglioramento maximal walking distance (MWD): +120-180 metri (50-100% incremento) vs baseline a 3-6 mesi</p>
-<p class="text-slate-300 ml-6 mb-2">- Miglioramento pain-free walking distance: +60-80 metri (80-120% incremento)</p>
-<p class="text-slate-300 ml-6 mb-2">- Miglioramento qualità vita (SF-36, VascuQol): 10-20 punti incremento physical functioning domain</p>
-<p class="text-slate-300 ml-6 mb-2">- Riduzione sintomi claudicatio: 40-50% pazienti report miglioramento significativo activities daily living</p>
-<p class="text-slate-300 ml-6 mb-3">- Benefici CV sistemici: riduzione PA 5-10 mmHg, miglioramento profilo lipidico (↓LDL 5-10%, ↑HDL 5%), riduzione HbA1c 0.3-0.5% diabetici</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Risultati che puoi aspettarti (da grandi studi su 1800 persone):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Riesci a camminare 120-180 metri in più prima di dover fermarti (miglioramento del 50-100%)</p>
+<p class="text-slate-300 ml-6 mb-2">● Riesci a camminare 60-80 metri in più senza dolore (miglioramento dell'80-120%)</p>
+<p class="text-slate-300 ml-6 mb-2">● La tua qualità di vita migliora molto, specialmente per le attività fisiche quotidiane</p>
+<p class="text-slate-300 ml-6 mb-2">● 40-50 persone su 100 riportano miglioramenti significativi nelle attività di tutti i giorni</p>
+<p class="text-slate-300 ml-6 mb-3">● Benefici generali per la salute: pressione più bassa (5-10 mmHg in meno), colesterolo migliore (LDL più basso del 5-10%, HDL più alto del 5%), emoglobina glicata più bassa se hai diabete</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Meccanismi benefici SET:</strong> 1) neovascolarizzazione/arteriogenesi collaterale (sviluppo circoli compensatori), 2) miglioramento efficienza metabolica muscolare (↑densità mitocondriale, ↑enzimi ossidativi, shift fibre tipo I ossidative), 3) miglioramento funzione endoteliale (↑NO bioavailability, vasodilatazione), 4) riduzione infiammazione sistemica (↓CRP, ↓citochine pro-infiammatorie), 5) benefici emodinamici (↓viscosità ematica, miglioramento deformabilità eritrocitaria).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Perché l'esercizio funziona:</strong> l'esercizio aiuta il corpo a creare nuovi piccoli vasi sanguigni (circoli collaterali) che portano sangue aggirando i blocchi, migliora l'efficienza dei muscoli (usano meglio l'ossigeno disponibile), migliora la funzione delle pareti interne delle arterie (vasodilatazione), riduce l'infiammazione generale nel corpo, e migliora il flusso del sangue (sangue meno viscoso, globuli rossi più flessibili).</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Home-based exercise (alternativa SET se inaccessibile):</strong> programmi strutturati walking domiciliare con activity trackers/pedometri, coaching telefonico periodico, diario claudicatio. Efficacia inferiore SET supervisionato (50-70% outcome SET), ma superiore usual care. Trial GOALS (N=200): home-based walking coaching → +35 metri MWD vs +10 metri controllo a 6 mesi. Compliance critica: target ≥3 sessioni/settimana, 30 min/sessione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Esercizio a casa (se non puoi fare quello guidato):</strong> se non riesci ad andare in un centro per l'esercizio guidato, puoi fare un programma strutturato di camminata a casa con contapassi o smartwatch, supporto telefonico periodico da un infermiere o fisioterapista, e un diario dove annoti quanto cammini e quando hai dolore. Funziona meno bene dell'esercizio guidato (50-70% dei risultati), ma molto meglio che non fare niente. In uno studio su 200 persone, chi faceva camminata a casa con supporto migliorava di 35 metri, vs solo 10 metri senza supporto. Importante: devi essere costante: almeno 3 volte a settimana, 30 minuti a sessione.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
