@@ -80,17 +80,17 @@ date: "2025-09-20"
 <h3 class="font-bold text-white mb-3">Quanto aumenta il rischio?</h3>
 <p class="text-slate-300 mb-3">Il rischio aumenta con il numero di sigarette fumate ogni giorno:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>1-5 sigarette al giorno:</strong> il rischio di morire per cause cardiache aumenta del 50% rispetto a chi non fuma</li>
+<li><strong>1-5 sigarette al giorno:</strong> il rischio di morire per cause cardiache aumenta di 50 punti su 100 rispetto a chi non fuma</li>
 <li><strong>6-10 sigarette al giorno:</strong> il rischio quasi raddoppia</li>
 <li><strong>11-20 sigarette al giorno:</strong> il rischio più che raddoppia</li>
 <li><strong>Oltre 20 sigarette al giorno:</strong> il rischio quasi triplica</li>
-<li>Anche solo 1-4 sigarette al giorno aumentano il rischio di infarto del 40-50%</li>
+<li>Anche solo 1-4 sigarette al giorno aumentano il rischio di infarto di 40-50 punti su 100</li>
 <li>Il "fumo occasionale" (per esempio solo nei fine settimana) aumenta comunque il rischio</li>
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Il fumo passivo danneggia anche chi non fuma</h3>
-<p class="text-slate-300">Respirare il fumo degli altri aumenta il rischio di malattie cardiache del 25-30%. Ogni anno, nel mondo, circa 600.000 persone muoiono a causa del fumo passivo, e oltre un terzo di queste morti è dovuto a problemi al cuore. Nei paesi dove è vietato fumare nei luoghi pubblici, i ricoveri per infarto sono diminuiti del 10-17%. Proteggere chi ti sta intorno dal fumo è importante quanto smettere per te stesso.</p>
+<p class="text-slate-300">Respirare il fumo degli altri aumenta il rischio di malattie cardiache di 25-30 punti su 100. Ogni anno, nel mondo, circa 600.000 persone muoiono a causa del fumo passivo, e oltre un terzo di queste morti è dovuto a problemi al cuore. Nei paesi dove è vietato fumare nei luoghi pubblici, i ricoveri per infarto sono diminuiti di 10-17 punti su 100. Proteggere chi ti sta intorno dal fumo è importante quanto smettere per te stesso.</p>
 </div>
 </section>
 
@@ -173,7 +173,7 @@ date: "2025-09-20"
 <li><strong>Dopo 2-4 settimane:</strong> i vasi sanguigni iniziano a funzionare meglio</li>
 <li><strong>Dopo 1-3 mesi:</strong> l'infiammazione si riduce, il colesterolo buono aumenta</li>
 <li><strong>Dopo 3-6 mesi:</strong> aumenta la resistenza fisica, si fa meno fatica negli sforzi</li>
-<li><strong>Dopo 6-12 mesi:</strong> il rischio di infarto diminuisce del 30-40%</li>
+<li><strong>Dopo 6-12 mesi:</strong> il rischio di infarto diminuisce di 30-40 punti su 100</li>
 <li>Il sangue diventa meno denso e circola meglio</li>
 <li>Lo stress ossidativo (il "danno" alle cellule) si riduce progressivamente</li>
 </ul>
@@ -202,8 +202,8 @@ date: "2025-09-20"
 <h3 class="font-bold text-white mb-3">Dopo un infarto o un'angioplastica</h3>
 <p class="text-slate-300 mb-3">Smettere di fumare dopo un infarto è fondamentale:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Riduce il rischio di morte nel primo anno del 36-43% rispetto a chi continua a fumare</li>
-<li>Riduce il rischio di un secondo infarto del 32-50% nei primi 5 anni</li>
+<li>Riduce il rischio di morte nel primo anno di 36-43 punti su 100 rispetto a chi continua a fumare</li>
+<li>Riduce il rischio di un secondo infarto di 32-50 punti su 100 nei primi 5 anni</li>
 <li>Migliora i risultati dell'angioplastica e riduce il rischio che le arterie si richiudano</li>
 <li>Riduce il rischio che gli stent si ostruiscano</li>
 <li>Smettere entro il primo mese dall'evento porta i benefici maggiori</li>
@@ -215,7 +215,7 @@ date: "2025-09-20"
 <li>La pressione si riduce nei mesi successivi alla cessazione</li>
 <li>I farmaci per la pressione funzionano meglio</li>
 <li>Si riducono i danni agli organi (occhi, cuore, reni)</li>
-<li>Il rischio di infarto e ictus si riduce del 40-50%</li>
+<li>Il rischio di infarto e ictus si riduce di 40-50 punti su 100</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
@@ -223,14 +223,14 @@ date: "2025-09-20"
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
 <li>Il controllo della glicemia migliora nei mesi successivi</li>
 <li>Si riducono le complicanze del diabete (danni a occhi, reni, nervi)</li>
-<li>Il rischio di infarto e ictus si riduce del 50-60%</li>
+<li>Il rischio di infarto e ictus si riduce di 50-60 punti su 100</li>
 <li>Si riduce molto il rischio di problemi alle gambe e di amputazioni</li>
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Se hai il colesterolo alto</h3>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Il colesterolo "buono" (HDL) aumenta del 10-20% entro 6-12 mesi</li>
+<li>Il colesterolo "buono" (HDL) aumenta di 10-20 punti su 100 entro 6-12 mesi</li>
 <li>I trigliceridi si riducono</li>
 <li>Il colesterolo "cattivo" fa meno danni</li>
 <li>L'effetto si somma a quello delle statine, riducendo ulteriormente il rischio</li>
@@ -308,7 +308,7 @@ date: "2025-09-20"
 <li>Prescriverti eventualmente farmaci che possono aiutarti</li>
 <li>Programmare controlli ravvicinati (dopo una settimana, un mese, tre mesi)</li>
 </ul>
-<p class="text-slate-300 mt-3">Questo semplice intervento aumenta le probabilità di successo del 30-40%.</p>
+<p class="text-slate-300 mt-3">Questo semplice intervento aumenta le probabilità di successo di 30-40 punti su 100.</p>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Programmi strutturati per smettere</h3>
@@ -343,7 +343,7 @@ date: "2025-09-20"
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Cosa contengono le sigarette elettroniche</h3>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Contengono molte meno sostanze tossiche rispetto alle sigarette normali (95-99% in meno)</li>
+<li>Contengono molte meno sostanze tossiche rispetto alle sigarette normali (95-99 parti su 100 in meno)</li>
 <li>Non c'è combustione, quindi non producono monossido di carbonio e altre sostanze molto pericolose</li>
 <li>Contengono comunque nicotina, che crea dipendenza</li>
 <li>Possono contenere sostanze irritanti e, in piccole quantità, metalli</li>
@@ -426,7 +426,7 @@ date: "2025-09-20"
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Aumenterò di peso quando smetto?</h3>
-<p class="text-slate-300">In media, chi smette aumenta di 2-4 kg nei primi 6-12 mesi. Alcune persone (15-20%) aumentano di più (oltre 10 kg). L'aumento di peso avviene perché il metabolismo rallenta un po' e si tende a mangiare di più. Ma attenzione: i benefici per il cuore di smettere di fumare superano di gran lunga i rischi di un aumento di peso moderato. Per limitare l'aumento: segui una dieta equilibrata, aumenta l'attività fisica, considera il bupropione che aiuta a controllare il peso.</p>
+<p class="text-slate-300">In media, chi smette aumenta di 2-4 kg nei primi 6-12 mesi. Alcune persone (15-20 persone su 100) aumentano di più (oltre 10 kg). L'aumento di peso avviene perché il metabolismo rallenta un po' e si tende a mangiare di più. Ma attenzione: i benefici per il cuore di smettere di fumare superano di gran lunga i rischi di un aumento di peso moderato. Per limitare l'aumento: segui una dieta equilibrata, aumenta l'attività fisica, considera il bupropione che aiuta a controllare il peso.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">I farmaci per smettere sono sicuri se ho avuto un infarto?</h3>
@@ -448,7 +448,7 @@ date: "2025-09-20"
             In sintesi: perché smettere e come farlo
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Il fumo è il principale nemico del cuore che puoi eliminare. Anche poche sigarette al giorno (1-5) aumentano il rischio di problemi cardiaci del 50%. Il fumo danneggia il cuore in molti modi: irrigidisce i vasi sanguigni, rende il sangue più denso, aumenta la pressione e il battito cardiaco, favorisce la formazione di placche nelle arterie. La buona notizia è che smettere porta benefici immediati e progressivi: dopo 20 minuti battito e pressione si normalizzano, dopo 12 ore il monossido di carbonio viene eliminato, dopo un anno il rischio di infarto si dimezza, dopo 10-15 anni il rischio diventa simile a chi non ha mai fumato. Per smettere con successo puoi usare farmaci efficaci (vareniclina aiuta 25-30 persone su 100, sostituti della nicotina 10-15 su 100) e supporto psicologico (consiglio del medico, programmi strutturati, gruppi di supporto, app). Non è mai troppo tardi per smettere. Anche chi smette dopo i 60 anni guadagna anni di vita. Se hai già avuto problemi al cuore, smettere riduce drasticamente il rischio di nuovi eventi. Chiedi aiuto al tuo medico: insieme troverete il metodo migliore per te.
+            Il fumo è il principale nemico del cuore che puoi eliminare. Anche poche sigarette al giorno (1-5) aumentano il rischio di problemi cardiaci di 50 punti su 100. Il fumo danneggia il cuore in molti modi: irrigidisce i vasi sanguigni, rende il sangue più denso, aumenta la pressione e il battito cardiaco, favorisce la formazione di placche nelle arterie. La buona notizia è che smettere porta benefici immediati e progressivi: dopo 20 minuti battito e pressione si normalizzano, dopo 12 ore il monossido di carbonio viene eliminato, dopo un anno il rischio di infarto si dimezza, dopo 10-15 anni il rischio diventa simile a chi non ha mai fumato. Per smettere con successo puoi usare farmaci efficaci (vareniclina aiuta 25-30 persone su 100, sostituti della nicotina 10-15 persone su 100) e supporto psicologico (consiglio del medico, programmi strutturati, gruppi di supporto, app). Non è mai troppo tardi per smettere. Anche chi smette dopo i 60 anni guadagna anni di vita. Se hai già avuto problemi al cuore, smettere riduce drasticamente il rischio di nuovi eventi. Chiedi aiuto al tuo medico: insieme troverete il metodo migliore per te.
 </p>
 <p class="text-slate-400 text-sm">Approfondimenti correlati: <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/prevenzione-cardiovascolare/">prevenzione cardiovascolare</a>, <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/colesterolo-alto/">colesterolo alto</a>, <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/attivita-fisica-cuore/">attività fisica e cuore</a>, <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/ipertensione-arteriosa/">pressione alta</a>.</p>
 </section>
