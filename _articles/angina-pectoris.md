@@ -191,49 +191,49 @@ Quali sono i tipi di angina?
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="activity" class="w-6 h-6 text-pink-400"></i>
-Qual è la semeiotica clinica dell'angina pectoris?
+Come riconoscere l'angina?
 </h2>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Angina tipica: criteri diagnostici (Diamond-Forrester)</h3>
-<p class="text-slate-300 mb-3">Dolore toracico classificato come "angina tipica" se presenta tutti 3 criteri seguenti (specificità 90-95% CAD significativa):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">1. Qualità dolore:</strong> oppressivo/costrittivo/gravativo, NON puntorio/trafittivo. Segno Levine positivo (pugno chiuso sterno) in 40-50% pazienti. Area dolore diffusa (10-15 cm diametro), non puntiforme. Intensità variabile (discomfort lieve a dolore severo 7-8/10 VAS).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">2. Localizzazione/irradiazione:</strong> retrosternale/precordiale sinistra. Irradiazione pattern dermatomerico C7-T4: braccio sinistro lato ulnare (70% casi, territorio C8-T1), mandibola (30%), collo (25%), scapola/spalla sinistra (20%), braccio destro (15%), epigastrio (10-15%).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">3. Trigger/risoluzione:</strong> provocato sforzo fisico/stress emotivo (↑MVO₂), risoluzione con riposo entro 2-10 min o nitroglicerina SL entro 1-3 min.</p>
+<h3 class="font-bold text-white mb-3">Angina tipica: i 3 criteri principali</h3>
+<p class="text-slate-300 mb-3">Il dolore è classificato come "angina tipica" se presenta TUTTI i 3 criteri seguenti (quando ci sono tutti e 3, la probabilità di avere restringimenti nelle arterie coronarie è molto alta: 90-95 persone su 100):</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">1. Tipo di dolore:</strong> Sensazione di oppressione, peso, stretta al petto - NON un dolore pungente o trafittivo. Alcune persone (40-50 su 100) fanno un pugno chiuso sul petto per descriverlo (segno di Levine). Il dolore copre un'area ampia (10-15 cm), non è un punto preciso. L'intensità varia da lieve disagio a dolore forte (7-8 su una scala di 10).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">2. Dove si sente:</strong> Dietro lo sterno (al centro del petto) o nella parte sinistra del petto. Può irradiarsi a: braccio sinistro (70 persone su 100, specialmente il lato del mignolo), mandibola (30 su 100), collo (25 su 100), scapola o spalla sinistra (20 su 100), braccio destro (15 su 100), stomaco (10-15 su 100).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">3. Cosa lo scatena e come passa:</strong> Provocato da sforzo fisico o stress emotivo, e passa con il riposo entro 2-10 minuti o con nitroglicerina sotto la lingua entro 1-3 minuti.</p>
 
-<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Angina atipica:</strong> dolore toracico con solo 2/3 criteri sopra. Probabilità CAD 50-70% (dipende pretest probability da età, sesso, fattori rischio).</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Dolore toracico non-cardiaco:</strong> ≤1 criterio. Probabilità CAD <10-20%.</p>
+<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Angina atipica:</strong> Dolore al petto che ha solo 2 dei 3 criteri sopra. La probabilità di avere restringimenti nelle coronarie è 50-70 persone su 100 (dipende dall'età, dal sesso e dai fattori di rischio).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dolore toracico non-cardiaco:</strong> Dolore che ha 1 o nessuno dei criteri sopra. La probabilità di avere restringimenti nelle coronarie è bassa: meno di 10-20 persone su 100.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Equivalenti anginosi (presentazioni atipiche ischemia miocardica)</h3>
+<h3 class="font-bold text-white mb-3">Sintomi diversi dal dolore al petto</h3>
 <p class="text-slate-300 mb-4">
-        Sintomi ischemia miocardica senza dolore toracico classico. Prevalenza equivalenti anginosi: 20-30% pazienti CAD, maggiore in sottogruppi specifici (diabetici 40-50%, donne 30-40%, anziani >75 anni 35-45%, IRC avanzata 30-40%). Razionale: neuropatia auton diabetica, soglia percezione dolore elevata, pattern irradiazione dermatomerico atipico.
+        Alcune persone con mancanza di ossigeno al cuore (ischemia) NON hanno il dolore toracico classico. Questo succede in 20-30 persone su 100 con problemi alle coronarie, ed è più comune in gruppi specifici: diabetici (40-50 su 100), donne (30-40 su 100), anziani oltre 75 anni (35-45 su 100), persone con insufficienza renale avanzata (30-40 su 100). Motivo: il diabete può danneggiare i nervi che trasmettono il dolore, alcune persone hanno una soglia del dolore più alta, o i sintomi si manifestano in modo diverso.
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dispnea da sforzo isolata (equivalente anginoso più frequente 60-70%):</strong> dyspnea on exertion (DOE) provocata attività fisica, risoluzione con riposo. Meccanismo: ischemia miocardica → disfunzione diastolica → ↑pressione telediastolica VS → congestione polmonare acuta. Tipico pazienti anziani, donne, diabetici.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Astenia/fatica intensa sforzo:</strong> affaticamento sproporzionato entità sforzo, limitazione attività abituali. Meccanismo: ridotta riserva contrattile per ischemia → ridotta gittata cardiaca sotto sforzo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi gastrointestinali:</strong> dolore epigastrico oppressivo, nausea, fullness postprandiale. Prevalenza 10-15% presentazioni ACS. Irradiazione dermatomeri T4-T6 (sovrapposizione territorio cardiaco/gastrico).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Presincope/sincope da sforzo:</strong> lipotimia/perdita coscienza durante attività fisica. Meccanismo: ischemia severa → disfunzione VS acuta → ipoperfusione cerebrale. Suggerisce CAD critica (stenosi tronco comune, malattia trivasale, stenosi aortica severa concomitante).</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia silente (totalmente asintomatica 15-20% pazienti CAD):</strong> evidenza obiettiva ischemia miocardica (sottoslivellamento ST test sforzo, deficit perfusione scintigrafia) senza sintomi. Prevalenza massima diabete mellito (30-40%), autonomic neuropathy, anziani, post-trapianto cardiaco.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Mancanza di respiro durante sforzo (il sintomo alternativo più comune: 60-70 persone su 100):</strong> Respiro corto provocato dall'attività fisica, che passa con il riposo. Come funziona: quando il cuore non riceve abbastanza ossigeno, pompa meno bene, la pressione aumenta nelle camere del cuore, e il liquido si accumula temporaneamente nei polmoni causando mancanza di respiro. Tipico in persone anziane, donne e diabetici.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stanchezza o affaticamento intenso durante sforzo:</strong> Ti senti estremamente stanco con uno sforzo che prima tolleravi bene, e questo limita le tue attività normali. Come funziona: quando il cuore non riceve abbastanza ossigeno, perde forza di contrazione e pompa meno sangue durante lo sforzo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi simili a problemi digestivi:</strong> Dolore oppressivo nella parte alta dello stomaco, nausea, sensazione di pienezza dopo mangiato. Questo succede in 10-15 persone su 100 con sindrome coronarica acuta. Motivo: i nervi del cuore e dello stomaco hanno territori sovrapposti.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sensazione di svenimento o svenimento vero durante sforzo:</strong> Sensazione che stai per svenire o perdita di coscienza durante l'attività fisica. Come funziona: quando c'è ischemia grave, il cuore improvvisamente pompa molto meno sangue e il cervello non riceve abbastanza sangue. Questo suggerisce restringimenti molto gravi (arteria principale del cuore ostruita, più arterie ostruite, o stenosi aortica grave contemporanea).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia "silenziosa" - completamente senza sintomi (15-20 persone su 100 con problemi alle coronarie):</strong> Gli esami (elettrocardiogramma durante sforzo, scintigrafia) mostrano che il cuore non riceve abbastanza ossigeno, ma tu non senti nulla. Più comune nelle persone con diabete (30-40 su 100), danni ai nervi autonomici, anziani, o dopo trapianto di cuore.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Red flags: quando sospettare sindrome coronarica acuta (chiamata 118)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico a riposo persistente:</strong> durata >20 minuti senza risoluzione spontanea, non responsivo a 2-3 dosi nitroglicerina SL (intervallo 5 min). Suggerisce occlusione coronarica acuta vs angina instabile severa.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pattern crescendo/accelerazione angina:</strong> angina preesistente con cambiamento pattern: ↑frequenza (da episodica a quotidiana/multipla daily), ↑durata (da 3-5 min a 10-20 min), ↑intensità, ↓soglia scatenamento (da sforzi intensi a minimi sforzi/riposo), ↓risposta nitrati. Indica progressione patologia coronarica (crescita placca, instabilità placca).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore toracico de novo severo:</strong> prima presentazione angina con intensità severa, limitante attività CCS III-IV, specie in paziente con multipli fattori rischio cardiovascolare.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi associati alto rischio:</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- Dispnea severa/ortopnea acuta (edema polmonare flash da ischemia acuta)</p>
-<p class="text-slate-300 ml-6 mb-3">- Sincope/presincope (ipotensione, bradiaritmie/tachiaritmie maligne)</p>
-<p class="text-slate-300 ml-6 mb-3">- Diaforesi profusa (attivazione simpatica massiva)</p>
-<p class="text-slate-300 ml-6 mb-3">- Nausea/vomito (stimolazione vagale, infarto inferiore)</p>
-<p class="text-slate-300 ml-6 mb-6">- Palpitazioni/aritmie (TV, FA parossistica da ischemia)</p>
+<h3 class="font-bold text-white mb-3">CHIAMA IMMEDIATAMENTE IL 118 se hai:</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore al petto a riposo che non passa:</strong> Dura più di 20 minuti, non passa da solo, e non risponde a 2-3 dosi di nitroglicerina sotto la lingua (aspettando 5 minuti tra una dose e l'altra). Questo suggerisce che un'arteria coronaria è completamente bloccata o c'è angina instabile grave.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●La tua angina sta peggiorando:</strong> Se hai già angina e noti questi cambiamenti: gli episodi sono più frequenti (da occasionali a tutti i giorni o più volte al giorno), durano più a lungo (da 3-5 minuti a 10-20 minuti), sono più intensi, compaiono con sforzi sempre più piccoli (da sforzi intensi a sforzi minimi o anche a riposo), la nitroglicerina funziona meno bene. Questo indica che la malattia delle coronarie sta progredendo (le placche stanno crescendo o diventando instabili).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Primo episodio di dolore al petto molto forte:</strong> È la prima volta che hai angina, è molto intensa, ti impedisce di fare le normali attività (Classe III-IV), specialmente se hai multipli fattori di rischio cardiovascolare.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Sintomi associati ad alto rischio:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Grave mancanza di respiro o incapacità di stare sdraiato (accumulo rapido di liquido nei polmoni da ischemia acuta)</p>
+<p class="text-slate-300 ml-6 mb-3">- Svenimento o sensazione di svenimento (pressione molto bassa, battiti cardiaci pericolosamente lenti o veloci)</p>
+<p class="text-slate-300 ml-6 mb-3">- Sudorazione profusa (il corpo reagisce massivamente allo stress)</p>
+<p class="text-slate-300 ml-6 mb-3">- Nausea o vomito (stimolazione di nervi speciali, specialmente nell'infarto della parete inferiore del cuore)</p>
+<p class="text-slate-300 ml-6 mb-6">- Palpitazioni o battiti cardiaci irregolari (aritmie pericolose causate dall'ischemia)</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Segni obiettivi instabilità emodinamica:</strong></p>
-<p class="text-slate-300 ml-6 mb-3">- Ipotensione severa (PAs <90 mmHg, shock cardiogeno)</p>
-<p class="text-slate-300 ml-6 mb-3">- Nuovo soffio insufficienza mitralica (rottura muscolo papillare, ischemia severa)</p>
-<p class="text-slate-300 ml-6 mb-3">- Rantoli polmonari diffusi bibasali (congestione polmonare acuta)</p>
-<p class="text-slate-300 ml-6 mb-6">- Ritmo galoppo S3 (disfunzione ventricolare acuta)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Segni clinici di instabilità:</strong></p>
+<p class="text-slate-300 ml-6 mb-3">- Pressione sanguigna molto bassa (sotto 90 mmHg sistolica, shock cardiogeno)</p>
+<p class="text-slate-300 ml-6 mb-3">- Nuovo soffio al cuore da insufficienza mitralica (rottura di un muscolo del cuore, ischemia grave)</p>
+<p class="text-slate-300 ml-6 mb-3">- Rantoli diffusi nei polmoni (liquido accumulato nei polmoni acutamente)</p>
+<p class="text-slate-300 ml-6 mb-6">- Ritmo galoppo (un suono extra del cuore che indica disfunzione acuta del ventricolo)</p>
 </div>
   </section>
 
