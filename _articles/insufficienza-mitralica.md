@@ -62,7 +62,7 @@ date: "2025-10-10"
             Quando la valvola mitrale non chiude bene, parte del sangue torna indietro nell'atrio invece di essere pompato in avanti verso il resto del corpo. È come una porta che non si chiude completamente: qualcosa riesce a passare nella direzione sbagliata.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La regurgitazione mitralica (mitral regurgitation, MR) o insufficienza mitralica (IM) rappresenta la valvulopatia più frequente nei paesi occidentali. Dati epidemiologici: prevalenza ~2% popolazione generale, incremento età-dipendente con 10% negli ultrasettantacinquenni, >25% negli ultraottantacinquenni con forme almeno moderate. Incidenza in aumento per invecchiamento demografico, maggiore sopravvivenza post-infarto miocardico (IM ischemica), e migliori capacità diagnostiche ecocardiografiche.
+            L'insufficienza mitralica (chiamata anche rigurgito mitralico) è il problema valvolare cardiaco più comune nei paesi occidentali. Circa 2 persone su 100 ne sono affette nella popolazione generale. Questa condizione diventa più frequente con l'età: colpisce circa 10 persone su 100 dopo i 75 anni e più di 25 persone su 100 dopo gli 85 anni (in forme almeno moderate). Il numero di casi è in aumento per l'invecchiamento della popolazione, la migliore sopravvivenza dopo infarto e le migliorate capacità diagnostiche dell'ecocardiogramma.
 </p>
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Anatomia e fisiopatologia dell'apparato mitralico</h3>
@@ -88,17 +88,17 @@ date: "2025-10-10"
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">IM primaria (organica) - Patologia intrinseca apparato valvolare</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">Degenerazione mixomatosa (prolasso mitralico, MVP):</strong> Causa più frequente IM primaria nei paesi occidentali (60-70% casi). Alterazione strutturale tessuto connettivo cuspidi con accumulo proteoglicani, frammentazione collagene, ispessimento cuspidi (>5 mm), eccesso tessuto (prolasso = dislocazione sistolica di cuspide >2 mm oltre piano annulus in atrio). Forme: sindrome di Barlow (eccesso tessuto di entrambe cuspidi, rigonfiamento multi-segmentario, giovani), fibroelastic deficiency (degenerazione localizzata con rottura cordale, anziani). Spesso familiarità (trasmissione autosomica dominante con penetranza variabile), associazione con sindromi connettivali (Marfan, Ehlers-Danlos, osteogenesis imperfecta). Progressione lenta (anni-decenni) con aumento severità IM per dilatazione anulus, elongazione/rottura corde.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Rottura cordale:</strong> Rottura improvvisa corde tendinee (primarie tipo I che si inseriscono su margine libero cuspide), causa IM acuta severa con flail leaflet (lembo "svolazzante" mobile senza restrizione, prolassa ampiamente in atrio). Eziologia: degenerazione mixomatosa (50-60%), trauma (rara), spontanea idiopatica (20-30%), endocardite (erosione/distruzione), post-valvuloplastica percutanea. Più frequente cuspide posteriore (P2 segmento medio-scallop), vascolarizzazione inferiore. Presentazione spesso acuta con rapido peggioramento clinico.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Endocardite infettiva:</strong> Infezione batterica (Streptococcus viridans, Staphylococcus aureus, Enterococcus) che colonizza valvola con vegetazioni (masse fibrina-batteri-piastrine). Causa distruzione tessuto valvolare (perforazione cuspidi, erosione), rottura corde, ascessi anulus. IM acuta severa comune (40-50% endocarditi mitraliche). Fattori predisponenti: MVP, protesi valvolari, cardiopatie congenite, IVDU (endocardite su valvola nativa destra). Mortalità elevata (15-30%) nonostante antibiotici, spesso necessità chirurgia urgente.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Malattia reumatica:</strong> Sequela febbre reumatica acuta (infezione faringea da Streptococcus pyogenes gruppo A, reazione immunitaria cross-reattiva contro tessuti cardiaci). Causa fibrosi commissurale, accorciamento corde, ispessimento/retrazione cuspidi. Oggi <5% casi IM primaria in paesi sviluppati, ma rimane causa principale in paesi in via di sviluppo (Africa sub-sahariana, Asia meridionale). Tipicamente coinvolgimento combinato stenosi+insufficienza mitralica, spesso con valvulopatia multivalvolare (mitralica+aortica).</p>
-<p class="text-slate-300"><strong class="text-white">Altre cause:</strong> Calcificazione annulus mitralico (MAC, deposizione idrossiapatite, associata età >70 anni, insufficienza renale cronica, disturbi metabolismo calcio, causa IM per rigidità annulus, restrizione movimento base cuspidi). Farmaci: anorexigenici (fenfluramina, dexfenfluramina), ergotamina, metisergide (fibrosi valvolare). Radiazioni (radioterapia mediastinica >30 Gy, latenza 10-20 anni). Malattie autoimmuni (LES con endocardite Libman-Sacks, artrite reumatoide, sclerodermia). Traumi (contusione toracica, procedure transettali iatrogeniche).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Degenerazione mixomatosa (prolasso mitralico):</strong> È la causa più frequente di insufficienza mitralica primaria nei paesi occidentali (60-70 persone su 100 con questo tipo di problema). Il tessuto della valvola si indebolisce progressivamente, diventando più morbido ed elastico del normale. I lembi della valvola diventano più spessi e "prolassano" (si muovono all'indietro nell'atrio durante la contrazione del cuore). Esistono due forme: la sindrome di Barlow (più tessuto in eccesso, colpisce persone più giovani) e la deficienza fibroelastica (indebolimento localizzato con rottura dei "fili", più comune negli anziani). Spesso c'è familiarità (si trasmette in famiglia). La progressione è lenta (anni o decenni) con aumento graduale della gravità.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Rottura cordale:</strong> La rottura improvvisa dei "fili" che tengono i lembi della valvola causa insufficienza mitralica acuta grave. Il lembo diventa completamente mobile, svolazzando nell'atrio. Le cause includono: degenerazione del tessuto (50-60 persone su 100), rottura spontanea senza causa apparente (20-30 persone su 100), endocardite (infezione che distrugge i fili), o raramente trauma. Il lembo posteriore della valvola è più frequentemente colpito. I sintomi si sviluppano rapidamente e richiedono valutazione urgente.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Endocardite infettiva:</strong> È un'infezione batterica che colonizza la valvola, formando vegetazioni (ammassi di batteri, fibrina e piastrine). L'infezione può distruggere il tessuto della valvola, perforare i lembi, rompere i fili o creare ascessi. L'insufficienza mitralica acuta grave è comune quando la valvola mitrale è coinvolta (40-50 persone su 100 con endocardite mitralica). I fattori di rischio includono: prolasso mitralico preesistente, protesi valvolari, malattie cardiache congenite. Nonostante gli antibiotici, la mortalità rimane elevata (15-30 persone su 100) e spesso serve chirurgia urgente.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Malattia reumatica:</strong> È una conseguenza della febbre reumatica acuta (causata da un'infezione da streptococco alla gola, dove il sistema immunitario attacca anche il cuore). Provoca fibrosi (cicatrici) della valvola, accorciamento dei fili, ispessimento e retrazione dei lembi. Oggi rappresenta meno di 5 persone su 100 con insufficienza mitralica nei paesi sviluppati, ma rimane la causa principale nei paesi in via di sviluppo (Africa sub-sahariana, Asia meridionale). Tipicamente causa sia restringimento che insufficienza della valvola mitrale, e spesso colpisce più valvole contemporaneamente.</p>
+<p class="text-slate-300"><strong class="text-white">Altre cause:</strong> Calcificazione dell'anello mitralico (accumulo di calcio, più comune dopo i 70 anni o in chi ha insufficienza renale cronica, causa insufficienza perché l'anello diventa rigido). Alcuni farmaci (anoressizzanti, ergotamina, metisergide) possono causare fibrosi della valvola. La radioterapia al torace può danneggiare la valvola anni dopo (10-20 anni). Malattie autoimmuni (lupus, artrite reumatoide, sclerodermia) possono colpire la valvola. Traumi al torace o complicanze di procedure cardiache invasive sono cause rare.</p>
 </div>
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">IM secondaria (funzionale) - Conseguenza patologia ventricolare/atrial</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">IM ischemica post-infarto:</strong> Conseguenza infarto miocardico (IM) che causa alterazioni geometria ventricolare sinistra. Meccanismi: (1) Disfunzione/rottura muscolo papillare postero-mediale (vascolarizzato solo da coronaria destra, vulnerabile): rottura completa causa IM acuta catastrofica (shock cardiogeno, edema polmonare acuto, mortalità >50% senza chirurgia urgente); disfunzione ischemica causa IM cronica. (2) Rimodellamento post-infarto: dilatazione VS, acinesia/discinesia parete inferiore-posteriore, spostamento apicale muscoli papillari (tethering = trazione corde con restrizione movimento cuspidi, mancata coaptazione), dilatazione secondaria annulus. Prevalenza: 20-50% pazienti post-IM, associata prognosi peggiore (aumentato rischio scompenso, mortalità). Severità spesso dinamica (peggiora con esercizio, aumentata pressione/volume VS).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Cardiomiopatia dilatativa non-ischemica:</strong> Dilatazione globale VS (idiopatica, familiare, tossica da alcol/chemioterapici, post-miocardite, post-partum). Dilatazione progressiva cavità causa: (1) Dilatazione annulus mitralico (perde geometria 3D a sella, diventa planare circolare), (2) Dislocazione apicale-laterale muscoli papillari, (3) Tethering cuspidi con restrizione sistolica (pattern IIIb Carpentier), (4) Ridotta forza chiusura (disfunzione sistolica, ridotta contrattilità muscoli papillari). IM tipicamente centrale simmetrica, severità correla con grado dilatazione VS (LVESD >40 mm, LVEDD >60 mm).</p>
-<p class="text-slate-300"><strong class="text-white">IM atriale:</strong> Forma emergente riconosciuta recentemente. Secondaria a fibrillazione atriale cronica con dilatazione severa atrio sinistro (>60 mL/m², diametro antero-posteriore >50 mm) in assenza di significativa disfunzione VS. Meccanismi: dilatazione annulus posteriore per espansione atrio, loss of atrial contractility. Tipica in anziani con FA permanente lunga durata. Può beneficiare di riduzione atrio chirurgica + anuloplastica.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza mitralica ischemica post-infarto:</strong> È una conseguenza dell'infarto che altera la geometria del ventricolo sinistro. Ci sono due meccanismi: (1) Disfunzione o rottura del muscolo papillare (i muscoli che controllano i fili della valvola): la rottura completa causa insufficienza mitralica acuta catastrofica con shock e grave difficoltà respiratoria (più di 50 persone su 100 muoiono senza chirurgia urgente); il malfunzionamento causa insufficienza cronica. (2) Rimodellamento dopo infarto: il cuore si dilata, i muscoli papillari si spostano verso il basso, i fili vengono trazionati e i lembi non chiudono più bene. Colpisce 20-50 persone su 100 dopo infarto ed è associata a prognosi peggiore. La gravità spesso peggiora durante l'esercizio.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Cardiomiopatia dilatativa non-ischemica:</strong> È una dilatazione progressiva del ventricolo sinistro che può avere diverse cause: familiare, tossica (alcol, chemioterapici), dopo miocardite (infiammazione del cuore), o post-partum. La dilatazione progressiva causa insufficienza mitralica perché: (1) l'anello della valvola si dilata perdendo la sua forma normale, (2) i muscoli papillari si spostano verso il basso e ai lati, (3) i fili vengono trazionati e i lembi non chiudono più bene, (4) la forza di chiusura si riduce. Il rigurgito è tipicamente centrale e simmetrico, e la gravità aumenta con il grado di dilatazione del cuore.</p>
+<p class="text-slate-300"><strong class="text-white">Insufficienza mitralica atriale:</strong> È una forma riconosciuta di recente. Si verifica in persone con fibrillazione atriale cronica e importante dilatazione dell'atrio sinistro, anche quando il ventricolo funziona ancora normalmente. L'atrio molto dilatato tira l'anello della valvola deformandolo, e la perdita della contrazione atriale peggiora il problema. È tipica negli anziani con fibrillazione atriale permanente di lunga durata. Può beneficiare di chirurgia che riduce l'atrio e restringe l'anello valvolare.</p>
 </div>
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Perché è importante distinguere</h3>
@@ -119,10 +119,10 @@ date: "2025-10-10"
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Insufficienza mitralica cronica - Sintomi progressivi</h3>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Mancanza di respiro durante l'attività fisica:</strong> è il sintomo più comune (presente in circa il 70% dei casi). Inizialmente si nota solo durante sforzi intensi, poi progressivamente anche con attività più leggere, fino a manifestarsi a riposo negli stadi avanzati.</li>
+<li><strong class="text-white">Mancanza di respiro durante l'attività fisica:</strong> è il sintomo più comune (presente in circa 70 persone su 100). Inizialmente si nota solo durante sforzi intensi, poi progressivamente anche con attività più leggere, fino a manifestarsi a riposo negli stadi avanzati.</li>
 <li><strong class="text-white">Difficoltà a respirare da sdraiati:</strong> alcune persone devono dormire con più cuscini o addirittura in posizione seduta.</li>
-<li><strong class="text-white">Palpitazioni o battito irregolare:</strong> circa il 40% delle persone avverte il battito cardiaco accelerato o irregolare, spesso dovuto a fibrillazione atriale.</li>
-<li><strong class="text-white">Stanchezza e debolezza:</strong> presente in circa il 60% dei casi, dovuta al fatto che meno sangue arriva ai muscoli e agli organi.</li>
+<li><strong class="text-white">Palpitazioni o battito irregolare:</strong> circa 40 persone su 100 avvertono il battito cardiaco accelerato o irregolare, spesso dovuto a fibrillazione atriale.</li>
+<li><strong class="text-white">Stanchezza e debolezza:</strong> presente in circa 60 persone su 100, dovuta al fatto che meno sangue arriva ai muscoli e agli organi.</li>
 <li><strong class="text-white">Gonfiore alle gambe e alle caviglie:</strong> indica che il problema sta coinvolgendo anche la parte destra del cuore.</li>
 </ul>
 </div>
@@ -181,10 +181,10 @@ date: "2025-10-10"
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione severità (ESC/EACTS 2017-2021)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">IM lieve:</strong> EROA <20 mm², volume rigurgitante <30 mL, vena contracta <3 mm, rigurgito jet area <20% atrio sinistro. Generalmente asintomatica, gestione conservativa con eco ogni 2-3 anni.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">IM moderata:</strong> EROA 20-39 mm², volume rigurgitante 30-59 mL, vena contracta 3-6.9 mm. Zona "grigia" richiede follow-up stretto (eco annuale), risk stratification. Borderline severe (EROA 30-39 mm²) alta probabilità progressione.</p>
-<p class="text-slate-300"><strong class="text-white">IM severa:</strong> EROA ≥40 mm² (primaria) o ≥20 mm² (secondaria, cutoff inferiore per impatto prognostico), volume rigurgitante ≥60 mL, vena contracta ≥7 mm, rigurgito jet area >40% atrio, inversione flusso vena polmonare, E wave dominante (>1.5 m/s), dilatazione progressiva atrio sinistro (>60 mL/m²) e ventricolo sinistro. Indicazione valutazione chirurgica quando sintomatica o segni disfunzione VS (LVESD ≥40 mm, LVEF <60%, LVESD/BSA ≥20 mm/m²).</p>
+<h3 class="font-bold text-white mb-3">Livelli di gravità dell'insufficienza mitralica</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza mitralica lieve:</strong> Il medico valuta la gravità guardando quanto sangue torna indietro attraverso la valvola. Nell'insufficienza lieve, solo una piccola quantità di sangue rifluisce. Non causa sintomi e la prognosi è eccellente. Sono necessari controlli ecocardiografici ogni 2-3 anni e non ci sono limitazioni nelle attività fisiche.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Insufficienza mitralica moderata:</strong> Una quantità intermedia di sangue torna indietro. La maggior parte delle persone non ha sintomi. Sono necessari controlli più frequenti (ogni anno) per verificare se il problema sta peggiorando. Nei casi più vicini al severo, il medico prescrive controlli più ravvicinati perché la probabilità di progressione è maggiore.</p>
+<p class="text-slate-300"><strong class="text-white">Insufficienza mitralica severa:</strong> Una quantità importante di sangue rifluisce attraverso la valvola. I sintomi diventano comuni quando il cuore inizia a perdere forza o diventa molto ingrandito. L'intervento chirurgico è indicato quando compaiono sintomi, quando il cuore perde capacità di pompare, quando il cuore diventa troppo grande, o quando serve un altro intervento al cuore. Se non ci sono sintomi, i controlli sono ogni 6-12 mesi (ogni 3-6 mesi se il cuore si sta progressivamente ingrandendo).</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Ecocardiogramma transesofageo</h3>
@@ -325,7 +325,7 @@ date: "2025-10-10"
 <strong class="text-white">Come viene eseguita:</strong> il chirurgo può usare diverse tecniche, come rimuovere la parte danneggiata della valvola, sostituire i "fili" rotti con fili artificiali, restringere l'anello dilatato con un anello protesico. L'intervento richiede circolazione extracorporea (la "macchina cuore-polmoni").
 </p>
 <p class="text-slate-300 leading-relaxed mb-3">
-<strong class="text-white">Risultati:</strong> nei centri esperti, oltre il 95% dei prolassi mitralici può essere riparato con successo. Il rischio operatorio è basso (1-2% in pazienti selezionati). A 10 anni, più del 90% delle riparazioni continua a funzionare bene.
+<strong class="text-white">Risultati:</strong> nei centri esperti, oltre 95 persone su 100 con prolasso mitralico possono avere una riparazione valvolare con successo. Il rischio operatorio è basso (1-2 persone su 100 in pazienti selezionati). A 10 anni, più di 90 persone su 100 hanno riparazioni che continuano a funzionare bene.
 </p>
 <p class="text-slate-300 leading-relaxed">
 <strong class="text-white">Degenza:</strong> circa 6-8 giorni di ricovero, con recupero completo in 4-8 settimane.
@@ -341,7 +341,7 @@ date: "2025-10-10"
 <li><strong class="text-white">Protesi meccaniche:</strong> fatte di metallo e materiali sintetici. Durano tutta la vita ma richiedono anticoagulazione permanente (warfarin) con controlli periodici dell'INR. Sono preferite nei giovani sotto i 60 anni.</li>
 </ul>
 <p class="text-slate-300 leading-relaxed">
-<strong class="text-white">Rischi:</strong> leggermente superiori alla riparazione (3-6% di mortalità operatoria), con degenza e recupero simili.
+<strong class="text-white">Rischi:</strong> leggermente superiori alla riparazione (3-6 persone su 100 di mortalità operatoria), con degenza e recupero simili.
 </p>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
@@ -360,7 +360,7 @@ date: "2025-10-10"
 <li>Pazienti con insufficienza mitralica secondaria severa che rimane sintomatica nonostante terapie mediche ottimali</li>
 </ul>
 <p class="text-slate-300 leading-relaxed mb-3">
-<strong class="text-white">Risultati:</strong> successo tecnico (riduzione significativa del rigurgito) in oltre il 90% dei casi. Il rischio procedurale è basso (2-3% di mortalità). Circa il 70-80% dei pazienti ha un miglioramento importante dei sintomi.
+<strong class="text-white">Risultati:</strong> successo tecnico (riduzione significativa del rigurgito) in oltre 90 persone su 100. Il rischio procedurale è basso (2-3 persone su 100). Circa 70-80 persone su 100 hanno un miglioramento importante dei sintomi.
 </p>
 <p class="text-slate-300 leading-relaxed">
 <strong class="text-white">Vantaggi:</strong> degenza breve (2-4 giorni), recupero rapido (1-2 settimane), nessuna cicatrice visibile. Non richiede anticoagulazione a vita.
@@ -429,10 +429,10 @@ date: "2025-10-10"
               L'insufficienza mitralica severa non trattata tende a peggiorare progressivamente:
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li>Anche senza sintomi iniziali, circa il 10% all'anno sviluppa sintomi o disfunzione del cuore</li>
+<li>Anche senza sintomi iniziali, circa 10 persone su 100 ogni anno sviluppano sintomi o disfunzione del cuore</li>
 <li>Una volta che compaiono sintomi, il rischio di complicanze aumenta significativamente</li>
 <li>Se il cuore inizia a dilatarsi e a funzionare meno bene, il danno può diventare irreversibile</li>
-<li>La fibrillazione atriale, che compare in oltre il 50% dei casi severi, aumenta il rischio di ictus</li>
+<li>La fibrillazione atriale, che compare in oltre 50 persone su 100 con insufficienza mitralica severa, aumenta il rischio di ictus</li>
 </ul>
 <p class="text-slate-300 leading-relaxed mt-3">
               Per questo è importante non aspettare troppo prima di intervenire.
@@ -444,10 +444,10 @@ date: "2025-10-10"
               La riparazione mitralica eseguita al momento giusto (prima che il cuore si sia danneggiato troppo) offre risultati eccellenti:
 </p>
 <ul class="text-slate-300 space-y-2 ml-5  mb-4">
-<li><strong class="text-white">Aspettativa di vita:</strong> quando l'intervento è eseguito precocemente, la sopravvivenza a 10 anni è del 75-85%, paragonabile a quella di persone sane della stessa età</li>
+<li><strong class="text-white">Aspettativa di vita:</strong> quando l'intervento è eseguito precocemente, 75-85 persone su 100 sono vive dopo 10 anni, un risultato paragonabile a quello di persone sane della stessa età</li>
 <li><strong class="text-white">Qualità di vita:</strong> la maggior parte dei pazienti torna a una vita completamente normale, senza limitazioni</li>
-<li><strong class="text-white">Il cuore si riduce:</strong> nell'80% dei casi, le dimensioni del cuore tornano verso la normalità nei mesi successivi all'intervento</li>
-<li><strong class="text-white">Durabilità:</strong> a 10 anni, oltre il 90% delle riparazioni funziona ancora perfettamente</li>
+<li><strong class="text-white">Il cuore si riduce:</strong> in 80 persone su 100, le dimensioni del cuore tornano verso la normalità nei mesi successivi all'intervento</li>
+<li><strong class="text-white">Durabilità:</strong> a 10 anni, oltre 90 persone su 100 hanno riparazioni che funzionano ancora perfettamente</li>
 </ul>
 <p class="text-slate-300 leading-relaxed">
               I risultati migliori si ottengono quando la funzione cardiaca è ancora normale al momento dell'intervento. Per questo si tende a operare sempre più precocemente.
@@ -459,8 +459,8 @@ date: "2025-10-10"
               Anche la sostituzione offre buoni risultati, anche se leggermente inferiori alla riparazione:
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li>Sopravvivenza a 10 anni del 60-70%</li>
-<li>Se protesi biologica: necessità di secondo intervento in circa il 30% dei casi a 15 anni per degenerazione della protesi</li>
+<li>Sopravvivenza a 10 anni: 60-70 persone su 100 sono vive dopo 10 anni</li>
+<li>Se protesi biologica: circa 30 persone su 100 necessitano di un secondo intervento entro 15 anni per degenerazione della protesi</li>
 <li>Se protesi meccanica: dura tutta la vita ma richiede anticoagulazione permanente</li>
 <li>Miglioramento significativo dei sintomi nella maggior parte dei pazienti</li>
 </ul>
@@ -471,9 +471,9 @@ date: "2025-10-10"
               Il MitraClip è un'opzione per pazienti che non possono affrontare la chirurgia:
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Miglioramento sintomi:</strong> circa il 70-80% dei pazienti riferisce un significativo miglioramento della qualità di vita</li>
-<li><strong class="text-white">Riduzione ospedalizzazioni:</strong> nell'insufficienza mitralica secondaria, riduzione del 47% dei ricoveri per scompenso cardiaco</li>
-<li><strong class="text-white">Durabilità:</strong> a 5 anni, il 70-80% mantiene una riduzione significativa del rigurgito</li>
+<li><strong class="text-white">Miglioramento sintomi:</strong> circa 70-80 persone su 100 riferiscono un significativo miglioramento della qualità di vita</li>
+<li><strong class="text-white">Riduzione ospedalizzazioni:</strong> nell'insufficienza mitralica secondaria, i ricoveri per scompenso cardiaco si riducono di circa 47 punti su 100</li>
+<li><strong class="text-white">Durabilità:</strong> a 5 anni, 70-80 persone su 100 mantengono una riduzione significativa del rigurgito</li>
 <li><strong class="text-white">Possibilità di chirurgia successiva:</strong> se necessario, si può sempre ricorrere alla chirurgia in un secondo momento</li>
 </ul>
 <p class="text-slate-300 leading-relaxed mt-3">
