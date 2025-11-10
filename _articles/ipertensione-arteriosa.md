@@ -59,13 +59,13 @@ date: "2025-11-05"
             La pressione alta (ipertensione arteriosa) è una condizione in cui la forza del sangue contro le pareti delle arterie è costantemente troppo alta. Nelle persone con pressione alta, questa forza eccessiva può danneggiare le arterie e gli organi nel tempo.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La pressione arteriosa viene misurata con due numeri. Il primo numero (pressione sistolica o "massima") misura la pressione quando il cuore si contrae e pompa il sangue. Il secondo numero (pressione diastolica o "minima") misura la pressione quando il cuore si rilassa tra un battito e l'altro.
+            La pressione arteriosa viene misurata con due numeri. Il primo numero (pressione arteriosa sistolica, o "PAS", chiamata anche "massima") misura la pressione quando il cuore si contrae e pompa il sangue. Il secondo numero (pressione arteriosa diastolica, o "PAD", chiamata anche "minima") misura la pressione quando il cuore si rilassa tra un battito e l'altro.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
             Normalmente, la pressione arteriosa sale e scende leggermente durante la giornata a seconda dell'attività fisica, dello stress e di altri fattori. Nella pressione alta, i valori rimangono costantemente elevati.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La pressione alta colpisce circa 30-35 percento degli adulti in Italia. La percentuale aumenta al 60-70 percento nelle persone sopra i 65 anni. È la causa principale di ictus e infarto, ed è un importante fattore di rischio per insufficienza cardiaca, malattie renali e altri problemi di salute.
+            La pressione alta colpisce circa 30-35 persone su 100 tra gli adulti in Italia. La percentuale aumenta a 60-70 persone su 100 nelle persone sopra i 65 anni. È la causa principale di ictus e infarto, ed è un importante fattore di rischio per insufficienza cardiaca, malattie renali e altri problemi di salute.
 </p>
 <div class="highlight-box rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Due tipi di pressione alta</h3>
@@ -73,10 +73,10 @@ date: "2025-11-05"
               Ci sono due tipi principali di pressione alta:
 </p>
 <p class="text-slate-300 mb-4">
-              ●<strong class="text-white">Ipertensione primaria (o essenziale)</strong> – Questo è il tipo più comune (90-95 percento dei casi). Non ha una causa specifica ma si sviluppa gradualmente nel corso degli anni. È influenzata da fattori come età, genetica, stile di vita, peso e alimentazione
+              ●<strong class="text-white">Ipertensione primaria (o essenziale)</strong> – Questo è il tipo più comune (90-95 casi su 100). Non ha una causa specifica ma si sviluppa gradualmente nel corso degli anni. È influenzata da fattori come età, genetica, stile di vita, peso e alimentazione
 </p>
 <p class="text-slate-300">
-              ●<strong class="text-white">Ipertensione secondaria</strong> – Questo tipo (5-10 percento dei casi) è causato da una condizione medica specifica o da farmaci. Le cause includono problemi ai reni, problemi ormonali, apnee del sonno (interruzioni del respiro durante il sonno), alcuni farmaci (antinfiammatori, pillola anticoncezionale, decongestionanti nasali)
+              ●<strong class="text-white">Ipertensione secondaria</strong> – Questo tipo (5-10 casi su 100) è causato da una condizione medica specifica o da farmaci. Le cause includono problemi ai reni, problemi ormonali, apnee del sonno (interruzioni del respiro durante il sonno), alcuni farmaci (antinfiammatori, pillola anticoncezionale, decongestionanti nasali)
 </p>
 </div>
 </section>
@@ -96,10 +96,10 @@ date: "2025-11-05"
             La buona notizia è che controllare la pressione funziona. Abbassare la pressione massima di 10 punti riduce:
 </p>
 <div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Il rischio di ictus del 27 percento</p>
-<p class="text-slate-300 mb-2">●Il rischio di infarto del 17 percento</p>
-<p class="text-slate-300 mb-2">●Il rischio generale di problemi cardiovascolari del 20 percento</p>
-<p class="text-slate-300 mb-2">●Il rischio di morte del 13 percento</p>
+<p class="text-slate-300 mb-2">●Il rischio di ictus di 27 punti su 100</p>
+<p class="text-slate-300 mb-2">●Il rischio di infarto di 17 punti su 100</p>
+<p class="text-slate-300 mb-2">●Il rischio generale di problemi cardiovascolari di 20 punti su 100</p>
+<p class="text-slate-300 mb-2">●Il rischio di morte di 13 punti su 100</p>
 </div>
 <div class="warning-box rounded-lg p-6 mb-6">
 <p class="text-slate-300 leading-relaxed mb-4">
@@ -260,7 +260,7 @@ date: "2025-11-05"
 <p class="text-slate-300 mb-2">●Usa meno sale quando cucini e non aggiungerlo a tavola</p>
 <p class="text-slate-300 mb-2">●Limita cibi processati ricchi di sale: salumi, formaggi stagionati, patatine e snack salati, prodotti da forno, cibi in scatola, dadi da brodo</p>
 <p class="text-slate-300 mb-2">●Leggi le etichette nutrizionali quando fai la spesa</p>
-<p class="text-slate-300 mb-2">●Il 75-80 percento del sale che mangi viene da cibi già pronti e ristoranti. Solo 10-15 percento dal sale che aggiungi tu</p>
+<p class="text-slate-300 mb-2">●Da 75 a 80 parti su 100 del sale che mangi viene da cibi già pronti e ristoranti. Solo 10-15 parti su 100 dal sale che aggiungi tu</p>
 </div>
 </div>
 
@@ -414,12 +414,12 @@ date: "2025-11-05"
 <strong class="text-white">Perché i farmaci sono importanti:</strong> I farmaci per la pressione riducono enormemente il rischio di problemi gravi:
 </p>
 <div class="ml-6 mb-6">
-<p class="text-slate-300 mb-2">●Ictus: riduzione del 35-40 percento</p>
-<p class="text-slate-300 mb-2">●Infarto: riduzione del 20-25 percento</p>
-<p class="text-slate-300 mb-2">●Insufficienza cardiaca: riduzione del 50 percento</p>
+<p class="text-slate-300 mb-2">●Ictus: riduzione di 35-40 punti su 100</p>
+<p class="text-slate-300 mb-2">●Infarto: riduzione di 20-25 punti su 100</p>
+<p class="text-slate-300 mb-2">●Insufficienza cardiaca: riduzione di 50 punti su 100</p>
 </div>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La maggior parte delle persone (60-70 percento) ha bisogno di 2 o più farmaci diversi per controllare bene la pressione.
+            La maggior parte delle persone (60-70 persone su 100) ha bisogno di 2 o più farmaci diversi per controllare bene la pressione.
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
@@ -441,7 +441,7 @@ date: "2025-11-05"
 <h3 class="font-bold text-white mb-3">Quali farmaci vengono usati?</h3>
 <p class="text-slate-300 mb-4">Ci sono 5 tipi principali di farmaci per la pressione. Tutti riducono il rischio di ictus, infarto e insufficienza cardiaca.</p>
 
-<p class="text-slate-300 mb-2"><strong class="text-white">1. ACE-inibitori:</strong></p>
+<p class="text-slate-300 mb-2"><strong class="text-white">1. ACE-inibitori (farmaci che bloccano l'enzima di conversione dell'angiotensina):</strong></p>
 <p class="text-slate-300 mb-2">Questi farmaci rilassano i vasi sanguigni aiutando il corpo a eliminare il sale.</p>
 <div class="ml-6 mb-3">
 <p class="text-slate-300 mb-1">●<strong>Funzionano particolarmente bene per:</strong> diabete, problemi ai reni, dopo un infarto, insufficienza cardiaca</p>
