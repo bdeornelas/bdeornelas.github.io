@@ -593,87 +593,87 @@ Strategia attuale: la maggior parte dei centri preferisce cominciare con l'angio
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="heart" class="w-7 h-7 text-amber-400"></i>
-Quale rischio cardiovascolare sistemico comporta la PAD? Malattia polivascolare
+Che rischio hai di infarto e ictus se hai arteriopatia periferica?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-PAD è marker rischio CV sistemico elevato. Aterosclerosi è processo diffuso multidistrettuale: stessi fattori rischio (fumo, diabete, dislipidemia, ipertensione) causano placche aterosclerotiche simultaneamente arterie coronarie (CAD), cerebrali (carotidi, intracraniche), renali, mesenteriche. PAD raramente isolata: 40-60% pazienti PAD hanno CAD concomitante (stenosi coronariche ≥50%), 25-30% stenosi carotidee significative (≥50%), 20-30% insufficienza renale cronica aterosclerotica.
+Se hai arteriopatia periferica, il tuo rischio di infarto e ictus è MOLTO ALTO. L'aterosclerosi (le placche che restringono le arterie) NON colpisce solo le gambe, ma contemporaneamente anche: le arterie del cuore (coronarie), le arterie del collo (carotidi) che portano sangue al cervello, le arterie dei reni, le arterie dell'intestino. Gli stessi fattori di rischio (fumo, diabete, colesterolo alto, pressione alta) causano placche in TUTTE queste arterie. L'arteriopatia periferica raramente è isolata: 40-60 persone su 100 con arteriopatia periferica hanno ANCHE restringimenti delle coronarie (≥50%), 25-30 persone su 100 hanno restringimenti delle carotidi (≥50%), 20-30 persone su 100 hanno insufficienza renale.
 </p>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">MACE (Major Adverse Cardiovascular Events) in pazienti PAD</h3>
+<h3 class="font-bold text-white mb-3">Quanto è alto il rischio di eventi cardiovascolari gravi?</h3>
 
 <p class="text-slate-300 mb-3">
-Incidenza MACE (morte CV, infarto miocardico non fatale, ictus ischemico) pazienti PAD: 5-7%/anno (5-10x superiore popolazione generale matched age). Breakdown eventi: morte CV 2-3%/anno, infarto miocardico 2-3%/anno, ictus 1-2%/anno. Mortalità totale all-cause 15-30% a 5 anni (3-5x superiore controlli senza PAD).
+Se hai arteriopatia periferica, il rischio di eventi cardiovascolari gravi (morte cardiovascolare, infarto, ictus) è 5-7 persone su 100 ogni anno - questo è 5-10 VOLTE PIÙ ALTO rispetto alle persone della stessa età senza arteriopatia. Nel dettaglio: morte cardiovascolare 2-3 persone su 100 ogni anno, infarto 2-3 persone su 100 ogni anno, ictus 1-2 persone su 100 ogni anno. Mortalità totale per qualsiasi causa: 15-30 persone su 100 entro 5 anni (3-5 volte più alta rispetto a chi non ha arteriopatia).
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stratificazione rischio PAD severity:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- PAD asintomatica (ABI <0.90): MACE 3-5%/anno (rischio intermedio)</p>
-<p class="text-slate-300 ml-6 mb-2">- Claudicatio intermittens (Fontaine IIa-IIb): MACE 5-7%/anno (rischio alto)</p>
-<p class="text-slate-300 ml-6 mb-2">- CLI (Fontaine III-IV): MACE 10-15%/anno, mortalità 1 anno 20-25% (rischio molto alto, prognosi peggiore cancro colon-retto stadio III)</p>
-<p class="text-slate-300 ml-6 mb-3">- PAD + CAD concomitante: MACE 15-20%/anno (rischio estremo, necessità screening/trattamento aggressive entrambi territori)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Il rischio aumenta con la gravità dell'arteriopatia:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Se hai arteriopatia asintomatica (solo esami alterati, nessun dolore): 3-5 persone su 100 ogni anno hanno infarto/ictus/morte (rischio intermedio)</p>
+<p class="text-slate-300 ml-6 mb-2">● Se hai dolore da camminata (claudicatio): 5-7 persone su 100 ogni anno hanno infarto/ictus/morte (rischio alto)</p>
+<p class="text-slate-300 ml-6 mb-2">● Se hai ischemia critica (dolore a riposo, ulcere, gangrena): 10-15 persone su 100 ogni anno hanno infarto/ictus/morte, e 20-25 persone su 100 muoiono entro 1 anno (rischio molto alto - peggiore del cancro al colon stadio III)</p>
+<p class="text-slate-300 ml-6 mb-3">● Se hai arteriopatia INSIEME a malattia coronarica: 15-20 persone su 100 ogni anno hanno infarto/ictus/morte (rischio estremo - serve screening e trattamento aggressivo di entrambe)</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Prevalenza malattia polivascolare (≥2 territori arteriosi coinvolti):</strong> 40-50% pazienti PAD sintomatica hanno malattia polivascolare documentata (PAD + CAD: 40%, PAD + stenosi carotidee: 25%, PAD + CAD + carotidi: 15%). Registry REACH (Reduction of Atherothrombosis for Continued Health, N=68.000 pazienti aterosclerosi): polyvascular disease (≥2 territori) vs single territory (PAD isolated): MACE 2x aumentato (12.8% vs 5.3%/anno), mortalità CV 3x aumentata.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quante persone hanno placche in più arterie (malattia polivascolare)?</strong> 40-50 persone su 100 con arteriopatia periferica sintomatica hanno malattia polivascolare documentata (arteriopatia + coronarie: 40%, arteriopatia + carotidi: 25%, arteriopatia + coronarie + carotidi: 15%). In grandi studi su 68.000 persone con aterosclerosi: chi ha placche in 2 o più territori (es. gambe + cuore) ha rischio DOPPIO di infarto/ictus/morte (12.8% vs 5.3% ogni anno) e rischio TRIPLO di morte cardiovascolare, rispetto a chi ha placche in un solo territorio.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Cause morte pazienti PAD:</strong> morte cardiovascolare 40-50% (infarto 25-30%, stroke 10-15%, sudden cardiac death 5-10%), cancro 20-25%, infezioni/sepsi 10-15%, altre cause 15-20%. Morte limb-specific (CLI → amputazione → complicanze): <5% totale. Takeaway: maggioranza pazienti PAD muore eventi CV sistemici (CAD/stroke), NON complicanze limb. Priorità: OMT aggressiva prevenzione MACE (antiaggreganti, statine high-intensity, antipertensivi, controllo fattori rischio).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Di cosa muoiono le persone con arteriopatia periferica?</strong> Morte cardiovascolare 40-50% (infarto 25-30%, ictus 10-15%, morte cardiaca improvvisa 5-10%), cancro 20-25%, infezioni/sepsi 10-15%, altre cause 15-20%. Morte per complicanze della gamba (amputazione, ecc.): meno del 5% del totale. MESSAGGIO IMPORTANTE: la maggior parte delle persone con arteriopatia periferica muore per infarto o ictus, NON per complicanze alle gambe. Priorità: prendere TUTTE le medicine (aspirina, statine, pressione) e controllare TUTTI i fattori di rischio per prevenire infarto e ictus.</p>
 </div>
 
 <div class="highlight-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Screening malattia polivascolare - valutazione sistematica pazienti PAD</h3>
+<h3 class="font-bold text-white mb-3">Quali controlli devi fare se hai arteriopatia periferica?</h3>
 
 <p class="text-slate-300 mb-3">
-TUTTI pazienti PAD documentata devono ricevere screening CAD + stenosi carotidee, anche asintomatici. Obiettivo: identificare lesioni aterosclerotiche significative territory extraperipheriche, trattare preventivamente prima eventi acuti (infarto, stroke).
+Se hai arteriopatia periferica, devi fare controlli per cercare placche nelle arterie del cuore (coronarie) e del collo (carotidi), ANCHE SE NON HAI SINTOMI. Obiettivo: trovare restringimenti importanti e curarli PRIMA che causino infarto o ictus.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Screening CAD (coronaropatia):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- ECG 12 derivazioni baseline: Q waves patologiche (necrosi pregresse), alterazioni ST-T (ischemia silente)</p>
-<p class="text-slate-300 ml-6 mb-2">- Test funzionale ischemia: test ergometrico ECG, eco-stress (dobutamina/exercise), scintigrafia miocardica SPECT, PET. Indicazioni: sintomi suggestivi angina/equivalenti anginosi, diabete, PAD severa (CLI) candidati major surgery vascolare (preoperative cardiac risk assessment)</p>
-<p class="text-slate-300 ml-6 mb-3">- CTCA coronarica (calcium score + angiografia): alternativa non-invasiva screening anatomico stenosi coronariche. Utile pazienti impossibilità test sforzo (claudicatio limitante exercise capacity)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controlli per il cuore (coronarie):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Elettrocardiogramma (ECG) di base: cerca segni di infarti precedenti o ischemia silente</p>
+<p class="text-slate-300 ml-6 mb-2">● Test da sforzo (cicloergometro, ecocardiogramma da stress, scintigrafia): se hai sintomi suggestivi di angina, se hai diabete, se hai ischemia critica E devi fare un intervento vascolare importante (per valutare il rischio cardiaco prima dell'operazione)</p>
+<p class="text-slate-300 ml-6 mb-3">● TAC coronarica: alternativa non invasiva per vedere le coronarie. Utile se non riesci a fare il test da sforzo (perché il dolore alle gambe ti ferma prima)</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Screening carotideo:</strong> eco-Doppler tronchi sovra-aortici (TSA) TUTTI pazienti PAD sintomatica Class IIa ESC 2024. Identificazione stenosi carotidee ≥50% asintomatiche (prevalenza 25-30% PAD). Stenosi severa ≥70-80% asintomatica: considerare endarterectomia carotidea (CEA) O stenting carotideo (CAS) prevenzione stroke primaria (NNT 20-30 prevenire 1 stroke 5 anni, trial ACST/ACAS). Stenosi sintomatica (TIA/stroke recente): CEA/CAS urgente entro 14 giorni (NNT 6 prevenire stroke recidiva).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Controlli per le carotidi (arterie del collo):</strong> eco-Doppler delle carotidi raccomandato per TUTTE le persone con arteriopatia periferica sintomatica (linee guida europee 2024). Trova restringimenti delle carotidi ≥50% senza sintomi (presenti in 25-30 persone su 100 con arteriopatia periferica). Se trovi restringimento severo ≥70-80% senza sintomi: il medico può considerare un intervento alle carotidi (endarterectomia o stent) per prevenire l'ictus. Servono trattare 20-30 persone per prevenire 1 ictus in 5 anni. Se hai avuto un TIA (mini-ictus) o ictus recente E hai restringimento della carotide: intervento URGENTE entro 14 giorni. Qui servono trattare solo 6 persone per prevenire 1 ictus recidivo.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="trending-up" class="w-7 h-7 text-amber-400"></i>
-Qual è la prognosi PAD? Outcome limb e follow-up protocollo
+Qual è la prognosi se hai arteriopatia periferica?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Prognosi PAD dipende severità clinica (asintomatica/claudicatio/CLI), comorbidità (diabete, CKD, CAD), compliance terapia conservativa (cessazione fumo, OMT, esercizio), necessità/outcome rivascolarizzazione. Outcome valutati: 1) limb-specific (progressione CLI, amputazione maggiore, limb salvage), 2) cardiovascular systemic (MACE, mortalità).
+La prognosi dell'arteriopatia periferica dipende da: quanto è grave (asintomatica, dolore da camminata, ischemia critica), se hai altre malattie (diabete, insufficienza renale, malattia coronarica), se segui bene le cure (smetti fumo, prendi tutte le medicine, fai esercizio), se serve un intervento e come va. Ci sono due aspetti da valutare: 1) prognosi delle gambe (rischio di peggioramento, amputazione), 2) prognosi cardiovascolare generale (rischio di infarto, ictus, morte).
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Outcome limb-specific per stadio clinico</h3>
+<h3 class="font-bold text-white mb-3">Prognosi delle gambe a seconda della gravità</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●PAD asintomatica (Fontaine I, ABI <0.90):</strong> prognosi limb eccellente. Progressione CLI: <1%/anno. Amputazione maggiore: <0.5% a 5 anni. Miglioramento spontaneo sintomi: 10-15% (sviluppo circoli collaterali). Stabilità clinica: 70-80% a 5 anni. Peggioramento claudicatio: 10-15%. Principale rischio: eventi CV sistemici (MACE 3-5%/anno), NON perdita arto.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai arteriopatia asintomatica (solo esami alterati, nessun dolore):</strong> prognosi delle gambe eccellente. Rischio di ischemia critica: meno di 1 persona su 100 ogni anno. Rischio di amputazione maggiore: meno di 0.5 persone su 100 a 5 anni. Miglioramento spontaneo dei sintomi: 10-15 persone su 100 (si sviluppano circoli collaterali, cioè vie alternative per il sangue). Stabilità: 70-80 persone su 100 rimangono stabili a 5 anni. Peggioramento con dolore da camminata: 10-15 persone su 100. IMPORTANTE: il rischio principale NON è perdere la gamba, ma avere infarto/ictus (3-5 persone su 100 ogni anno).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Claudicatio intermittens (Fontaine IIa-IIb):</strong> prognosi limb buona con trattamento conservativo (SET + OMT). Stabilità sintomi: 70-80% a 5 anni. Miglioramento walking distance: 10-15% (esercizio regolare, circoli collaterali). Peggioramento CLI: 5-10% a 5 anni (maggiore fumatori attivi 15-20%, diabetici 10-15%, vs non-fumatori/non-diabetici 3-5%). Amputazione maggiore: 1-2% a 5 anni (bassa, principalmente progression CLI subset). Fattori predittori peggioramento: fumo continuato (OR 3-4), diabete (OR 2-3), ABI <0.50 (OR 2-3), non-compliance OMT.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai dolore da camminata (claudicatio):</strong> prognosi delle gambe buona se segui bene le cure (esercizio fisico guidato + tutte le medicine). Stabilità dei sintomi: 70-80 persone su 100 a 5 anni. Miglioramento della distanza di cammino: 10-15 persone su 100 (con esercizio regolare e sviluppo circoli collaterali). Peggioramento a ischemia critica: 5-10 persone su 100 a 5 anni (più alto se continui a fumare: 15-20 su 100, se hai diabete: 10-15 su 100, vs 3-5 su 100 se non fumi e non hai diabete). Rischio di amputazione maggiore: 1-2 persone su 100 a 5 anni (basso, principalmente chi peggiora a ischemia critica). Fattori che predicono peggioramento: continuare a fumare (rischio 3-4 volte più alto), diabete (rischio 2-3 volte più alto), indice caviglia-braccio molto basso <0.50 (rischio 2-3 volte più alto), non prendere le medicine.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●CLI (Fontaine III-IV):</strong> prognosi limb severa senza rivascolarizzazione. Natural history CLI non trattata: amputazione maggiore 40-50% a 6 mesi, mortalità 20-25% a 1 anno. Con rivascolarizzazione appropriata (PTA/bypass): limb salvage 70-85% a 1 anno, 60-70% a 3 anni. Amputazione maggiore necessaria 15-30% casi nonostante rivascolarizzazione (tissue loss extensive, infezione severa, no-option anatomia). Mortalità post-rivascolarizzazione CLI: 10-15% a 1 anno, 30-40% a 3 anni (comorbidità severe baseline). Outcome bypass vs PTA CLI: limb salvage equivalente 1 anno (trial BASIL 68-71%), bypass superiore long-term >2 anni se vein conduit disponibile.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Se hai ischemia critica (dolore a riposo, ulcere, gangrena):</strong> prognosi delle gambe severa senza intervento. Se NON fai un intervento per riaprire le arterie: amputazione maggiore in 40-50 persone su 100 entro 6 mesi, morte in 20-25 persone su 100 entro 1 anno. Se fai un intervento appropriato (angioplastica o bypass): gamba salvata in 70-85 persone su 100 a 1 anno, e in 60-70 persone su 100 a 3 anni. Amputazione maggiore necessaria in 15-30 persone su 100 nonostante l'intervento (perché la perdita di tessuto è troppo estesa, l'infezione è grave, o non ci sono arterie trattabili). Mortalità dopo intervento per ischemia critica: 10-15 persone su 100 a 1 anno, 30-40 persone su 100 a 3 anni (per le altre malattie gravi associate).</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Follow-up protocollo standard pazienti PAD</h3>
+<h3 class="font-bold text-white mb-3">Quali controlli devi fare nel tempo?</h3>
 
 <p class="text-slate-300 mb-3">
-Follow-up regolare essenziale monitoraggio progressione malattia, compliance OMT, identificazione precoce complicanze (restenosi post-rivascolarizzazione, eventi CV sistemici). Frequenza visite: variabile stadio clinico e interventi eseguiti.
+I controlli regolari sono essenziali per monitorare se la malattia peggiora, se prendi bene le medicine, e per identificare subito le complicanze (arteria che si richiude dopo intervento, infarto, ictus). La frequenza delle visite dipende dalla gravità e dagli interventi che hai fatto.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●PAD asintomatica/claudicatio stabile (Fontaine I-IIa):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Visite ambulatoriali: ogni 6-12 mesi</p>
-<p class="text-slate-300 ml-6 mb-2">- Anamnesi: compliance OMT farmaci (ASA, statine, antipertensivi), modifiche sintomi (onset claudicatio, peggioramento), fattori rischio (status fumo, controllo diabete/PA)</p>
-<p class="text-slate-300 ml-6 mb-2">- Esame obiettivo: polsi periferici palpazione, auscultazione soffi vascolari, ispezione cute arti (trofismo, ulcere)</p>
-<p class="text-slate-300 ml-6 mb-2">- Test diagnostici: ABI annuale (monitoraggio progressione, baseline 0.7-0.9 → decline 0.05-0.10/anno suggerisce progressione attiva). Eco-Doppler arterioso ogni 1-2 anni se sintomi stabili.</p>
-<p class="text-slate-300 ml-6 mb-3">- Laboratorio: profilo lipidico (LDL-C target <55 mg/dL), HbA1c diabetici (target <7%), funzione renale (creatinina, eGFR), annual</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai arteriopatia asintomatica o dolore lieve-moderato stabile:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Visite dal medico: ogni 6-12 mesi</p>
+<p class="text-slate-300 ml-6 mb-2">● Cosa ti chiede il medico: se prendi le medicine regolarmente (aspirina, statine, pressione), se i sintomi sono cambiati (dolore nuovo, peggioramento), se hai smesso di fumare, se controlli bene diabete e pressione</p>
+<p class="text-slate-300 ml-6 mb-2">● Cosa cerca il medico: polsi periferici, soffi arteriosi, stato della pelle delle gambe (colore, ulcere)</p>
+<p class="text-slate-300 ml-6 mb-2">● Esami: indice caviglia-braccio una volta all'anno (se peggiora di 0.05-0.10 rispetto all'anno prima, significa che la malattia sta progredendo). Eco-Doppler delle arterie ogni 1-2 anni se i sintomi sono stabili.</p>
+<p class="text-slate-300 ml-6 mb-3">● Esami del sangue: colesterolo (obiettivo LDL sotto 55 mg/dL), emoglobina glicata se hai diabete (obiettivo sotto 7%), funzione dei reni (creatinina), una volta all'anno</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Claudicatio severa/post-rivascolarizzazione (PTA/bypass):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Visite: ogni 3 mesi primo anno post-rivascolarizzazione, poi ogni 6 mesi se stabile</p>
-<p class="text-slate-300 ml-6 mb-2">- Eco-Doppler surveillance bypass graft: 1 mese, 3 mesi, 6 mesi, 12 mesi, poi annuale lifelong. Identificazione stenosi graft precoce (50-70% stenosi asintomatica → intervention preventiva evita thrombosis). Peak systolic velocity ratio >2.0-2.5 → stenosi >50% → angiografia + PTA.</p>
-<p class="text-slate-300 ml-6 mb-3">- ABI post-rivascolarizzazione: improvement ≥0.15 vs baseline indica technical success. Decline ≥0.15 vs post-procedure → restenosi/progression disease → imaging urgente.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai dolore severo o hai fatto un intervento (angioplastica/bypass):</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Visite: ogni 3 mesi il primo anno dopo l'intervento, poi ogni 6 mesi se tutto è stabile</p>
+<p class="text-slate-300 ml-6 mb-2">● Eco-Doppler di controllo del bypass: a 1 mese, 3 mesi, 6 mesi, 12 mesi, poi una volta all'anno per tutta la vita. Serve per trovare restringimenti del condotto del bypass prima che si chiuda completamente (50-70% dei restringimenti sono senza sintomi → se li trovi e curi subito, eviti che il bypass si chiuda).</p>
+<p class="text-slate-300 ml-6 mb-3">● Indice caviglia-braccio dopo l'intervento: se migliora di almeno 0.15 rispetto a prima dell'intervento, significa che l'intervento è riuscito. Se peggiora di 0.15 rispetto a subito dopo l'intervento → l'arteria si sta richiudendo → serve fare urgentemente un'ecografia o radiografia con contrasto.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●CLI/ulcere attive:</strong> follow-up intensivo multidisciplinare (chirurgo vascolare, podiatrist, infermiere wound care, diabetologo se diabete). Visite settimanali-bisettimanali fase acuta healing ulcera. Medicazioni avanzate, off-loading pressure relief, antibiotici empirici se infezione (copertura Staph aureus MRSA, Gram-negative, anaerobi piede diabetico). TcPO₂ monitoring healing progress: TcPO₂ >40 mmHg predice healing, <20 mmHg predice failure (considerare amputation level revision).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Se hai ischemia critica con ulcere attive:</strong> controlli molto frequenti con team multidisciplinare (chirurgo vascolare, podologo, infermiere specializzato nelle ferite, diabetologo se hai diabete). Visite settimanali o due volte a settimana finché l'ulcera non guarisce. Medicazioni avanzate, scarico del peso (off-loading) per non premere sull'ulcera, antibiotici se c'è infezione. Misurazione dell'ossigeno transcutaneo (TcPO₂) per monitorare la guarigione: se TcPO₂ è sopra 40 mmHg, l'ulcera guarirà probabilmente; se è sotto 20 mmHg, l'ulcera NON guarirà (può essere necessaria amputazione).</p>
 </div>
 </section>
 
