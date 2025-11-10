@@ -213,7 +213,7 @@ date: "2025-09-03"
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Andamento notturno</h3>
-<p class="text-slate-300">Normalmente, durante il sonno la pressione si abbassa del 10-20% rispetto ai valori diurni. Questa riduzione è un meccanismo protettivo per il cuore e i vasi sanguigni. Il referto indica se questo calo notturno è presente e adeguato.</p>
+<p class="text-slate-300">Normalmente, durante il sonno la pressione si abbassa di 10-20 punti su 100 rispetto ai valori diurni. Questa riduzione è un meccanismo protettivo per il cuore e i vasi sanguigni. Il referto indica se questo calo notturno è presente e adeguato.</p>
 </div>
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Percentuale di misurazioni normali</h3>
