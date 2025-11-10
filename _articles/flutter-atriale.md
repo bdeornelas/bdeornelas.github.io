@@ -4,7 +4,7 @@ layout: "default"
 title: "Flutter Atriale - Cosa Sapere per Pazienti | Dr. Benjamin De Ornelas"
 description: "Flutter atriale spiegato in modo semplice per pazienti e familiari. Sintomi, differenze con la fibrillazione, ablazione e prognosi eccellente."
 og_title: "Flutter Atriale - Guida per Pazienti"
-og_description: "Battito cardiaco rapido e regolare. Scopri sintomi, cure e l'ablazione che risolve il problema nel 95% dei casi."
+og_description: "Battito cardiaco rapido e regolare. Scopri sintomi, cure e l'ablazione che risolve il problema in 95 persone su 100."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-11"
 
@@ -85,7 +85,7 @@ date: "2025-09-11"
 <ul class="text-slate-300 space-y-2 ml-5 ">
 <li><strong class="text-white">Battito rapido e regolare:</strong> il cuore batte veloce ma con ritmo costante</li>
 <li><strong class="text-white">Circuito definito:</strong> l'impulso elettrico segue un percorso circolare preciso</li>
-<li><strong class="text-white">Curabile con ablazione:</strong> oltre 95% di successo con un singolo intervento</li>
+<li><strong class="text-white">Curabile con ablazione:</strong> oltre 95 interventi su 100 hanno successo con una singola procedura</li>
 <li><strong class="text-white">Sull'elettrocardiogramma:</strong> si vedono onde caratteristiche "a dente di sega"</li>
 </ul>
 </div>
@@ -234,7 +234,7 @@ date: "2025-09-11"
 <strong class="text-white">Importante:</strong> prima della cardioversione bisogna assumere anticoagulanti per almeno 3 settimane, oppure fare un ecocardiogramma transesofageo per escludere la presenza di coaguli nel cuore.
 </p>
 <p class="text-slate-300 leading-relaxed mt-3">
-              Il problema della cardioversione è che <strong class="text-white">il flutter tende a tornare</strong> nel 50-70% dei pazienti entro un anno. Per questo, la soluzione definitiva è l'ablazione.
+              Il problema della cardioversione è che <strong class="text-white">il flutter tende a tornare</strong> in 50-70 persone su 100 entro un anno. Per questo, la soluzione definitiva è l'ablazione.
 </p>
 </div>
 <div class="highlight-box rounded-lg p-6">
@@ -284,9 +284,9 @@ date: "2025-09-11"
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Risultati dell'ablazione</h3>
 <ul class="text-slate-300 space-y-3 ml-5 ">
-<li><strong class="text-white">Successo immediato:</strong> oltre 95% dei casi, il flutter viene eliminato definitivamente alla prima procedura</li>
-<li><strong class="text-white">Ritorno del flutter:</strong> molto raro, 5-10% dei pazienti. In questi casi si ripete l'ablazione con successo praticamente garantito</li>
-<li><strong class="text-white">Complicazioni serie:</strong> meno dell'1% (tamponamento cardiaco, problemi di conduzione, ictus)</li>
+<li><strong class="text-white">Successo immediato:</strong> in oltre 95 persone su 100, il flutter viene eliminato definitivamente alla prima procedura</li>
+<li><strong class="text-white">Ritorno del flutter:</strong> molto raro, 5-10 persone su 100. In questi casi si ripete l'ablazione con successo praticamente garantito</li>
+<li><strong class="text-white">Complicazioni serie:</strong> meno di 1 persona su 100 (tamponamento cardiaco, problemi di conduzione, ictus)</li>
 <li><strong class="text-white">Miglioramento dei sintomi:</strong> netto e immediato nella stragrande maggioranza dei pazienti</li>
 </ul>
 </div>
@@ -309,7 +309,7 @@ date: "2025-09-11"
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Dopo l'ablazione</h3>
 <ul class="text-slate-300 space-y-3 ml-5 ">
-<li><strong class="text-white">Libertà dal flutter:</strong> 90-95% dei pazienti non hanno più episodi di flutter per tutta la vita</li>
+<li><strong class="text-white">Libertà dal flutter:</strong> 90-95 persone su 100 non hanno più episodi di flutter per tutta la vita</li>
 <li><strong class="text-white">Qualità di vita:</strong> miglioramento importante, con scomparsa di palpitazioni, affanno e stanchezza</li>
 <li><strong class="text-white">Riduzione ricoveri:</strong> netta diminuzione degli accessi in ospedale e pronto soccorso</li>
 <li><strong class="text-white">Aspettativa di vita:</strong> non influenzata dal flutter se trattato adeguatamente; dipende dalle eventuali malattie cardiache associate</li>
