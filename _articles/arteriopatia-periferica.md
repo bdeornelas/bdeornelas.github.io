@@ -385,44 +385,44 @@ L'esercizio fisico guidato da un fisioterapista (chiamato anche riabilitazione v
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Dieta e controllo peso corporeo</h3>
+<h3 class="font-bold text-white mb-3">3. Dieta sana e controllo del peso</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dieta mediterranea:</strong> pattern alimentare raccomandato prevenzione CV ESC/AHA. Componenti: olio oliva extra-vergine (30-50 mL/die), nuts (30 g/die), pesce ≥2-3 volte/settimana, frutta/verdura ≥5 porzioni/die, legumi ≥3 volte/settimana, cereali integrali, riduzione carni rosse/processate (<1-2 volte/settimana), moderato vino rosso (1-2 bicchieri/die). Trial PREDIMED (N=7447): dieta mediterranea vs low-fat, riduzione MACE 30% (HR 0.70, NNT 61).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dieta mediterranea:</strong> questo tipo di alimentazione è raccomandato per prevenire infarti e ictus. Cosa mangiare: olio d'oliva extra-vergine (30-50 mL al giorno - circa 2-3 cucchiai), frutta secca (30 g al giorno - una manciata), pesce almeno 2-3 volte a settimana, frutta e verdura almeno 5 porzioni al giorno, legumi almeno 3 volte a settimana, cereali integrali, poca carne rossa o processata (meno di 1-2 volte a settimana), moderato vino rosso (1-2 bicchieri al giorno). In un grande studio su 7447 persone, chi seguiva la dieta mediterranea aveva il 30% in meno di rischio di infarto, ictus e morte cardiovascolare rispetto a chi seguiva una dieta povera di grassi.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Restrizione sodio:</strong> intake <2 g/die sodio (equivalente 5 g sale/die) riduce PA 5-10 mmHg ipertesi, 2-5 mmHg normotesi. Strategia DASH diet (Dietary Approaches to Stop Hypertension): riduzione sodio + ↑potassio (frutta/verdura) → effetto additivo antipertensivo.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Poco sale:</strong> meno di 5 grammi di sale al giorno (circa 1 cucchiaino) riduce la pressione di 5-10 mmHg se hai pressione alta, e di 2-5 mmHg anche se la pressione è normale. La dieta DASH (contro l'ipertensione) combina: poco sale + molto potassio (frutta e verdura) per un effetto maggiore sulla pressione.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo peso (target BMI 18.5-24.9 kg/m²):</strong> obesità (BMI ≥30) aumenta rischio PAD OR 1.5-2.0. Perdita peso 5-10% corporeo associata: riduzione PA 3-5 mmHg, miglioramento profilo lipidico (↓LDL 5-10%, ↓TG 10-15%), miglioramento glicemia (↓HbA1c 0.5-1.0% diabetici), riduzione infiammazione (↓CRP 20-30%). Strategie: restrizione calorica 500-750 kcal/die deficit (target perdita 0.5-1 kg/settimana), dieta mediterranea ipocalorica, attività fisica regolare (SET + aerobic exercise 150-300 min/settimana).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo del peso (obiettivo: indice di massa corporea 18.5-24.9):</strong> l'obesità (indice di massa corporea 30 o più) aumenta il rischio di arteriopatia periferica di 1.5-2 volte. Se perdi il 5-10% del tuo peso corporeo: la pressione si riduce di 3-5 mmHg, il colesterolo migliora (LDL più basso del 5-10%, trigliceridi più bassi del 10-15%), la glicemia migliora (emoglobina glicata più bassa di 0.5-1.0% se hai diabete), l'infiammazione si riduce (proteina C-reattiva più bassa del 20-30%). Come perdere peso: mangia 500-750 calorie in meno al giorno (perdi 0.5-1 kg a settimana in modo sano), segui la dieta mediterranea con meno calorie, fai attività fisica regolare (esercizio guidato più attività aerobica 150-300 minuti a settimana).</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Omega-3 PUFA (acidi grassi polinsaturi):</strong> EPA/DHA da pesce grasso (salmon, mackerel, sardine) ≥2 porzioni/settimana raccomandato guidelines CV. Supplementazione farmacologica omega-3 (icosapent ethyl 4 g/die) trial REDUCE-IT (N=8179): riduzione MACE 25% pazienti CV risk alto + TG elevati. Benefici: effetti anti-infiammatori, stabilizzazione placca, riduzione TG, miglioramento funzione endoteliale.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Omega-3 (grassi buoni del pesce):</strong> mangia pesce grasso (salmone, sgombro, sardine) almeno 2 volte a settimana - è raccomandato dalle linee guida. Se hai rischio cardiovascolare alto e trigliceridi alti, il medico può prescriverti omega-3 in capsule ad alte dosi (4 grammi al giorno): in uno studio su 8179 persone, questo riduceva il rischio di infarto, ictus e morte del 25%. Benefici: riduce l'infiammazione, stabilizza le placche nelle arterie, abbassa i trigliceridi, migliora la funzione dei vasi sanguigni.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Foot care educazione - essenziale prevenzione CLI diabetici</h3>
+<h3 class="font-bold text-white mb-3">4. Cura dei piedi - fondamentale se hai diabete</h3>
 
-<p class="text-slate-300 mb-3">
-Pazienti diabetici + PAD: rischio amputazione 10-15x vs non diabetici. Neuropatia diabetica periferica (DPN) + ischemia PAD + trauma minore/infezione → triade ulcera diabetica piede (diabetic foot ulcer - DFU). 50-70% amputazioni non-traumatiche precedute da DFU. Prevenzione primaria DFU riduce amputazione 50-60%.
+<p class="text-slate-300 mb-4">
+Se hai diabete e arteriopatia periferica: il rischio di amputazione è 10-15 volte più alto rispetto a chi non ha diabete. Perché? La combinazione di tre problemi crea un circolo vizioso: 1) neuropatia diabetica (perdita di sensibilità ai piedi), 2) arterie ristrette che portano poco sangue, 3) un trauma anche piccolo o un'infezione. Questa combinazione causa ulcere al piede. Circa 50-70 amputazioni su 100 sono precedute da un'ulcera al piede. La buona notizia: prevenire le ulcere riduce le amputazioni del 50-60%.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ispezione piedi quotidiana:</strong> self-examination bilaterale completa (utilizzo specchio ispezionare pianta). Screening lesioni: tagli, vesciche, eritema, calli/ipercheratosi (rischio ulcerazione sotto), modificazioni colore (rubor, pallore, cianosi). Se neuropatia → loss sensibilità protettiva → trauma inosservato (calzature inadeguate, corpo estraneo scarpa, ustioni termiche).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Controlla i piedi ogni giorno:</strong> guarda entrambi i piedi completamente ogni giorno (usa uno specchio per vedere la pianta se non riesci a piegarti). Cerca: tagli, vesciche, rossore, calli o pelle ispessita (sotto possono formarsi ulcere), cambiamenti di colore (rosso, pallido, bluastro). Se hai neuropatia perdi la sensibilità protettiva: potresti non sentire traumi causati da scarpe strette, oggetti nella scarpa, o scottature da acqua calda.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Calzature appropriate:</strong> scarpe comode, larghezza/profondità adeguata (evitare compressione dita), materiali morbidi (leather), suola rigida protettiva. Evitare: scarpe strette/tacchi alti, camminare scalzi, sandali aperti (rischio trauma). Diabetici neuropatia + deformità piede (hallux valgus, Charcot) → scarpe custom ortopediche/plantari.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Usa scarpe comode:</strong> scarpe comode, abbastanza larghe e profonde (non devono comprimere le dita), materiali morbidi (pelle), suola rigida che protegge. Evita: scarpe strette o tacchi alti, camminare scalzo, sandali aperti (rischio di traumi). Se hai neuropatia e deformità dei piedi (alluce valgo, piede di Charcot) hai bisogno di scarpe ortopediche su misura o plantari.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Igiene piedi:</strong> lavaggio quotidiano acqua tiepida (NON calda, rischio ustioni neuropatia), asciugatura accurata spazi interdigitali (prevenzione macerazione/fungal infection), idratazione cute (emollienti/creme urea 10-20%), evitare applicazione spazi interdigitali (umidità favorisce infezioni).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Igiene dei piedi:</strong> lava i piedi ogni giorno con acqua tiepida (NON calda - rischio di scottature se hai neuropatia), asciuga bene gli spazi tra le dita (previene macerazione e infezioni fungine), idrata la pelle con creme (urea 10-20%), ma NON mettere crema tra le dita (l'umidità favorisce infezioni).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Taglio unghie:</strong> taglio dritto (NON arrotondato angoli, rischio unghia incarnita), evitare taglio eccessivo (trauma periungueale). Se difficoltà visiva/destrezza limitata → podiatrist/infermiere specializzato pedicure.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Taglia le unghie correttamente:</strong> taglia dritto (NON arrotondare gli angoli - rischio di unghia incarnita), non tagliare troppo corto (rischio di trauma intorno all'unghia). Se hai problemi di vista o difficoltà a piegarti, vai da un podologo o infermiere specializzato.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Trattamento precoce lesioni minori:</strong> qualsiasi lesione piede diabetico richiede valutazione medica immediata. Small ulcer/blister apparentemente minore può rapidamente progredire infezione profonda (cellulite, osteomielite, sepsi). Red flags: eritema extending >2 cm margin ulcera, purulenza, odore fetido, esposizione tendini/osso, febbre/leucocitosi → emergenza infettivologica/chirurgica.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Tratta subito qualsiasi lesione:</strong> QUALSIASI ferita al piede se hai diabete richiede una visita medica immediata. Anche una piccola ulcera o vescica apparentemente minore può rapidamente diventare un'infezione profonda (cellulite, infezione dell'osso, infezione del sangue). CHIAMA SUBITO IL MEDICO se: rossore che si estende oltre 2 cm dal bordo della ferita, pus, cattivo odore, vedi tendini o ossa, febbre.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="pill" class="w-7 h-7 text-violet-400"></i>
-Qual è la terapia medica ottimale (OMT) della PAD? Farmacoterapia evidence-based
+Quali medicine dovrai prendere?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-OMT (Optimal Medical Therapy) PAD comprende: 1) farmaci antiaggreganti (prevenzione eventi trombotici), 2) statine ad alta intensità (riduzione LDL-C + effetti pleiotropici stabilizzazione placca), 3) antipertensivi (target PA <130/80 mmHg), 4) controllo glicemico diabetici (HbA1c <7%). Obiettivo primario OMT: riduzione rischio CV sistemico (MACE: morte CV, infarto, ictus). Obiettivo secondario: riduzione sintomi claudicatio (miglioramento walking distance). TUTTI pazienti PAD sintomatica/asintomatica devono ricevere OMT lifelong, indipendentemente rivascolarizzazione.
+Se hai arteriopatia periferica, il medico ti prescriverà diverse medicine importanti: 1) antiaggreganti (come l'aspirina) per prevenire coaguli di sangue, 2) statine ad alte dosi per abbassare il colesterolo e stabilizzare le placche nelle arterie, 3) medicine per la pressione alta (obiettivo: pressione sotto 130/80), 4) se hai diabete, medicine per controllare la glicemia (obiettivo: emoglobina glicata sotto 7%). L'obiettivo principale di queste medicine: ridurre il rischio di infarto, ictus e morte cardiovascolare. Obiettivo secondario: migliorare i sintomi di claudicazione (camminare più a lungo). TUTTE le persone con arteriopatia periferica devono prendere queste medicine per tutta la vita, anche se fanno un intervento per riaprire le arterie.
 </p>
 
 <div class="warning-box rounded-lg p-6 mb-6">
