@@ -130,131 +130,120 @@ Il corpo cerca di compensare: quando un'arteria si restringe, il corpo sviluppa 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="users" class="w-7 h-7 text-pink-400"></i>
-Come si classifica clinicamente la PAD? Classificazioni Fontaine e Rutherford
+Quanto è grave l'arteriopatia periferica? I diversi stadi della malattia
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Classificazioni cliniche PAD stratificano severità sintomi e guidano decisioni terapeutiche. Due sistemi principali utilizzati: classificazione Fontaine (Europa, più semplice) e Rutherford (Nord America, più dettagliata). Entrambe basate su presentazione clinica, non correlazione diretta con anatomia vascolare (stenosi severe possono essere asintomatiche se circoli collaterali efficaci; stenosi moderate con scarsi collaterali causano sintomi severi).
+L'arteriopatia periferica può essere lieve, moderata o grave. I medici usano diversi "stadi" per descrivere quanto è severa la tua condizione. Questi stadi si basano sui sintomi che hai, non solo su quanto sono ristrette le arterie: alcune persone con arterie molto ristrette non hanno sintomi (perché il corpo ha creato nuovi piccoli vasi che portano sangue - chiamati "circoli collaterali"), mentre altre con restringimenti meno severi possono avere sintomi importanti.
 </p>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione Fontaine (1954)</h3>
+<h3 class="font-bold text-white mb-3">I 5 stadi dell'arteriopatia periferica</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio I (asintomatico):</strong> stenosi arteriosa documentata (ABI <0.90) ma assenza sintomi. Prevalenza: 40-50% pazienti PAD totali. Prognosi arti: eccellente (progressione CLI <1%/anno), ma rischio CV sistemico elevato (MACE 5-7%/anno). Management: OMT aggressiva (antiaggreganti, statine, ACE-inibitori), modificazione fattori rischio.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 1 - Nessun sintomo:</strong> le arterie delle gambe sono ristrette (dimostrato con un esame chiamato indice caviglia-braccio), ma non hai nessun dolore o disagio. Questo succede a circa 40-50 persone su 100 con arteriopatia periferica. Il rischio di peggioramento agli arti è basso (meno di 1 persona su 100 ogni anno sviluppa stadi gravi), ma il rischio di infarto o ictus è elevato (5-7 persone su 100 ogni anno). Il trattamento include: medicina che fluidifica il sangue (antiaggreganti), statine per il colesterolo, medicine per la pressione alta, e smettere di fumare.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio IIa (claudicatio lieve):</strong> dolore muscolare da sforzo, insorgenza dopo >200 metri camminata (o >5 min treadmill standard Bruce/Gardner protocol). Limiti funzionali minimi, attività quotidiane preservate. Management: esercizio supervisionato + OMT (rivascolarizzazione raramente indicata).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 2 lieve - Dolore quando cammini (lieve):</strong> hai dolore ai muscoli delle gambe quando cammini, ma solo dopo aver camminato più di 200 metri (circa 2 campi da calcio). Il dolore passa quando ti fermi e riposi. Riesci a fare quasi tutte le attività normali senza problemi. Il trattamento principale è l'esercizio fisico guidato da un fisioterapista più le medicine. Raramente serve un intervento per riaprire le arterie.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio IIb (claudicatio moderato-severa):</strong> dolore da sforzo <200 metri camminata (<5 min treadmill). Limiti funzionali significativi attività quotidiane (shopping, scale, lavoro). Management: trial esercizio 3-6 mesi; se fallimento → considerare rivascolarizzazione (PTA/bypass) + OMT.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 2 moderato-grave - Dolore quando cammini (moderato-grave):</strong> hai dolore quando cammini meno di 200 metri (meno di 2 campi da calcio). Questo limita molto le tue attività quotidiane: fare la spesa, salire le scale, lavorare. Il trattamento iniziale è sempre l'esercizio fisico guidato più le medicine, provato per 3-6 mesi. Se l'esercizio non funziona abbastanza, il medico può considerare un intervento per riaprire le arterie (con palloncino o chirurgia).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio III (dolore riposo ischemico):</strong> dolore persistente piede/dita anche senza sforzo, tipicamente notturno (peggioramento decubito supino per riduzione gradiente pressione perfusione). Paziente dorme con gamba pendente fuori letto (gravity-dependent position allevia dolore). ABI tipicamente <0.40. Indicazione rivascolarizzazione urgente/urgenza differibile (rischio amputazione 10-40% entro 6 mesi senza trattamento).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 3 - Dolore anche a riposo:</strong> hai dolore persistente ai piedi e alle dita anche quando non stai camminando. Il dolore è spesso peggiore di notte quando sei sdraiato (perché la gravità non aiuta il sangue ad arrivare ai piedi). Molte persone dormono con la gamba che pende fuori dal letto per ridurre il dolore. Questo stadio è grave e ha bisogno di un intervento urgente per riaprire le arterie: senza trattamento, 10-40 persone su 100 perdono la gamba entro 6 mesi.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Stadio IV (ischemia critica arti - CLI, ulcerazione/gangrena):</strong> perdita tessutale: ulcere ischemiche, gangrena digitale/piede. Dolore severo persistente. ABI <0.40, TcPO₂ (ossimetria transcutanea) <30 mmHg. CLI definizione: dolore riposo ischemico >2 settimane O ulcere/gangrena. Indicazione rivascolarizzazione emergenza/urgenza (limb salvage). Amputazione maggiore necessaria 30-40% casi nonostante rivascolarizzazione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Stadio 4 - Ulcere o gangrena:</strong> questo è lo stadio più grave. Hai ulcere (ferite che non guariscono) o gangrena (morte del tessuto - la pelle diventa nera) alle dita o ai piedi. C'è dolore severo persistente. Questo stadio è chiamato "ischemia critica" e significa che l'arto è in pericolo immediato. Serve un intervento di emergenza o urgente per salvare la gamba. Anche con il trattamento, 30-40 persone su 100 hanno bisogno di un'amputazione importante (sotto o sopra il ginocchio).</p>
 </div>
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione Rutherford (1986, revisione 1997)</h3>
-
-<p class="text-slate-300 mb-2">Sistema più granulare con 7 categorie (0-6), suddivise in 4 gradi (0-III). Maggior precisione stratificazione severità claudicatio e CLI. Utilizzata prevalentemente trial clinici e centri vascolari accademici.</p>
-
-<p class="text-slate-300 mb-3 mt-4"><strong class="text-white">●Grado 0 - Categoria 0 (asintomatico):</strong> equivalente Fontaine I. PAD documentata, nessun sintomo. ABI <0.90.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Grado I - Categoria 1 (claudicatio lieve):</strong> sintomi lievi, non limitanti. Treadmill: dolore compare ma completa test standard (5 min, 2 mph, 12% grade). Equivalente Fontaine IIa.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Grado I - Categoria 2 (claudicatio moderata):</strong> dolore limita attività moderata. Treadmill: completa >3 min ma <5 min test standard. Distanza walking tipica 100-200 metri.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Grado I - Categoria 3 (claudicatio severa):</strong> dolore limita attività quotidiane. Treadmill: <3 min test standard. Distanza walking <100 metri. Equivalente Fontaine IIb. Indicazione considerare rivascolarizzazione se fallimento terapia conservativa.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Grado II - Categoria 4 (dolore riposo ischemico):</strong> equivalente Fontaine III. Dolore persistente riposo, peggioramento notturno. ABI <0.40, pressione caviglia assoluta <50 mmHg, TcPO₂ <30 mmHg.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Grado III - Categoria 5 (perdita tessutale minore):</strong> ulcera ischemica/gangrena limitata: perdita tessuto dita piede, piccola ulcera <3 cm². Infezione assente/limitata. Salvage arto possibile con rivascolarizzazione + debridement locale.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Grado III - Categoria 6 (perdita tessutale maggiore):</strong> gangrena estesa, ulcere multiple/grandi >3 cm², coinvolgimento forefoot/midfoot, infezione severa (osteomielite, ascesso). Spesso necessaria amputazione maggiore (below-knee BKA, above-knee AKA) nonostante rivascolarizzazione.</p>
-</div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Ischemia critica arti (CLI) - definizione e criteri diagnostici</h3>
+<h3 class="font-bold text-white mb-3">⚠️ Quando l'arteriopatia periferica è critica? Segni di pericolo</h3>
 
-<p class="text-slate-300 mb-3">
-CLI (Critical Limb Ischemia) rappresenta stadio terminale PAD, con rischio imminente perdita arto. Definizione Transatlantic Inter-Society Consensus (TASC II 2007): dolore riposo ischemico persistente ≥2 settimane richiedente analgesia regolare, OPPURE ulcerazione/gangrena piede/dita, associato a pressione caviglia <50 mmHg O pressione dita <30 mmHg.
+<p class="text-slate-300 mb-4">
+La condizione più grave dell'arteriopatia periferica si chiama "ischemia critica" (stadio 3-4). Questo significa che la gamba non sta ricevendo abbastanza sangue per sopravvivere e c'è rischio immediato di perdere l'arto.
 </p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Criteri obiettivi CLI:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Pressione caviglia assoluta <50 mmHg (70 mmHg se diabete)</p>
-<p class="text-slate-300 ml-6 mb-2">- Pressione alluce (toe pressure) <30 mmHg (40 mmHg se diabete)</p>
-<p class="text-slate-300 ml-6 mb-2">- TcPO₂ (ossimetria transcutanea) <30 mmHg (40 mmHg se diabete)</p>
-<p class="text-slate-300 ml-6 mb-3">- ABI <0.40 (attenzione: diabetici con calcificazione mediale possono avere ABI normale/elevato nonostante CLI → usare pressione dita/TcPO₂)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">CHIAMA IMMEDIATAMENTE IL MEDICO se hai uno di questi segni:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Dolore persistente ai piedi o alle dita anche a riposo, da più di 2 settimane</p>
+<p class="text-slate-300 ml-6 mb-2">● Dolore che ti sveglia di notte e devi tenere la gamba fuori dal letto per alleviarlo</p>
+<p class="text-slate-300 ml-6 mb-2">● Ulcere (ferite) ai piedi o alle dita che non guariscono</p>
+<p class="text-slate-300 ml-6 mb-3">● Pelle dei piedi o delle dita che diventa nera (gangrena)</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Outcome CLI senza trattamento:</strong> amputazione maggiore 40-50% a 6 mesi, mortalità 20-25% a 1 anno. Con rivascolarizzazione appropriata: limb salvage 70-85%, riduzione mortalità 30-40%. Fattori predittori amputazione: diabete, insufficienza renale (dialisi), perdita tessutale estesa Rutherford 6, infezione severa, assenza target tibiale outflow patent.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa succede senza trattamento:</strong> l'ischemia critica è molto grave. Senza un intervento urgente per riaprire le arterie, 40-50 persone su 100 perdono la gamba entro 6 mesi, e 20-25 persone su 100 muoiono entro 1 anno. Con il trattamento appropriato (intervento per riaprire le arterie), 70-85 persone su 100 riescono a salvare la gamba, e il rischio di morte si riduce del 30-40%.</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●CLTI (Chronic Limb-Threatening Ischemia):</strong> nuova terminologia WIfI classification (Wound Ischemia foot Infection, SVS 2014) sostituisce CLI. Approccio multidimensionale: valuta gravità wound (0-3), ischemia (0-3), infezione (0-3) → score composito WIfI 1-4 predice rischio amputazione 1 anno e beneficio rivascolarizzazione.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Fattori che aumentano il rischio di amputazione:</strong> il rischio di perdere la gamba è più alto se hai diabete, se sei in dialisi per insufficienza renale, se hai gangrena estesa, o se hai un'infezione grave (come infezione dell'osso - osteomielite).</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
 <i data-lucide="activity" class="w-7 h-7 text-pink-400"></i>
-Qual è la semeiotica clinica della PAD? Sintomi e segni obiettivi
+Quali sono i sintomi dell'arteriopatia periferica?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
-Presentazione clinica PAD variabile: 40-50% pazienti asintomatici (ABI <0.90 ma nessun sintomo, spesso anziani sedentari o limitazioni mobilità da altre cause), 30-40% claudicatio intermittens tipica, 10-15% sintomi leg atipici (fatica, debolezza, crampi non-exertional), 1-3% presentazione acuta CLI.
+I sintomi dell'arteriopatia periferica sono molto variabili. Circa 40-50 persone su 100 non hanno nessun sintomo (le arterie sono ristrette ma non causano dolore, soprattutto in anziani sedentari o persone con altre limitazioni ai movimenti). Circa 30-40 persone su 100 hanno il sintomo classico: dolore alle gambe quando camminano che passa con il riposo. Circa 10-15 persone su 100 hanno sintomi "atipici" come stanchezza o debolezza alle gambe, crampi non legati all'esercizio. Solo 1-3 persone su 100 si presentano con la forma grave acuta (ischemia critica).
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Claudicatio intermittens - caratteristiche classiche (sensibilità 90%, specificità 95% PAD)</h3>
+<h3 class="font-bold text-white mb-3">Il sintomo classico: dolore alle gambe quando cammini (claudicazione)</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Definizione clinica Rose/Edinburgh Questionnaire:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">1. Dolore/crampo/fatica muscolare localizzato (polpaccio 50-60%, coscia 30-40%, glutei 10-15%)</p>
-<p class="text-slate-300 ml-6 mb-2">2. Compare esclusivamente durante walking/sforzo, MAI a riposo seduto/in piedi</p>
-<p class="text-slate-300 ml-6 mb-2">3. Onset prevedibile: stessa distanza camminata (walking distance riproducibile)</p>
-<p class="text-slate-300 ml-6 mb-2">4. Risoluzione completa entro 10 minuti interruzione sforzo/riposo</p>
-<p class="text-slate-300 ml-6 mb-3">5. NON persiste dopo riposo (se dolore persiste >10 min → diagnosi alternativa: neuropatia, artropatia, miopatia)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Come riconoscere la claudicazione:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">1. Hai dolore, crampi o fatica muscolare in una zona specifica della gamba (polpaccio in 50-60 casi su 100, coscia in 30-40 casi su 100, glutei in 10-15 casi su 100)</p>
+<p class="text-slate-300 ml-6 mb-2">2. Il dolore compare SOLO quando cammini o fai esercizio, MAI quando sei seduto o in piedi fermo</p>
+<p class="text-slate-300 ml-6 mb-2">3. Il dolore compare sempre alla stessa distanza (per esempio, dopo 100 metri di camminata)</p>
+<p class="text-slate-300 ml-6 mb-2">4. Il dolore passa completamente entro 10 minuti se ti fermi e riposi</p>
+<p class="text-slate-300 ml-6 mb-3">5. Se il dolore non passa dopo 10 minuti di riposo, probabilmente non è arteriopatia periferica ma un altro problema (come neuropatia, problemi alle articolazioni, o problemi muscolari)</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Correlazione anatomica-clinica sintomi:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Malattia aorto-iliaca: claudicatio glutei/cosce/anche, disfunzione erettile uomini (sindrome Leriche)</p>
-<p class="text-slate-300 ml-6 mb-2">- Malattia femoro-poplitea: claudicatio polpaccio (gastrocnemio, soleo) - presentazione più frequente 50-60%</p>
-<p class="text-slate-300 ml-6 mb-3">- Malattia infrapoplitea/tibiale: claudicatio piede/caviglia, CLI frequente (dolore riposo, ulcere)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dove senti il dolore dipende da dove sono ristrette le arterie:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Se le arterie principali (aorta-iliache) sono ristrette: dolore ai glutei, cosce, anche. Negli uomini può causare anche disfunzione erettile (sindrome di Leriche)</p>
+<p class="text-slate-300 ml-6 mb-2">● Se le arterie della coscia (femorali) sono ristrette: dolore al polpaccio - questa è la presentazione più comune (50-60 persone su 100)</p>
+<p class="text-slate-300 ml-6 mb-3">● Se le arterie più piccole sotto il ginocchio (tibiali) sono ristrette: dolore al piede e alla caviglia. Questo tipo spesso progredisce agli stadi gravi con dolore a riposo e ulcere</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Walking distance e severità funzionale:</strong> ICD (Initial Claudication Distance) = distanza onset dolore; ACD (Absolute Claudication Distance) = distanza massima walking prima stop forzato. ICD >200m = claudicatio lieve (Fontaine IIa), ICD 50-200m = moderata, ICD <50m = severa (Fontaine IIb). Variabilità: pendenza terreno, velocità camminata, temperatura ambientale (freddo peggiora 20-30%), pasti recenti (peggioramento post-prandiale).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Quanto riesci a camminare prima che inizi il dolore?</strong> Questa distanza indica quanto è grave la tua condizione. Più di 200 metri = lieve, 50-200 metri = moderata, meno di 50 metri = grave. La distanza può variare in base a: salite (peggio), velocità di camminata (più veloce = peggio), freddo (peggiora del 20-30%), dopo i pasti (peggio).</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Presentazioni atipiche (leg symptoms atypici, 10-15% PAD):</strong> fatica arti inferiori senza dolore franco, debolezza muscolare da sforzo, crampi notturni (non correlati sforzo), parestesie walking-induced. Sensibilità/specificità diagnosi PAD ridotta (60-70%). Richiede alto indice sospetto + ABI conferma.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Sintomi "atipici" (meno tipici):</strong> circa 10-15 persone su 100 con arteriopatia periferica hanno sintomi diversi dal dolore classico: stanchezza alle gambe senza dolore vero, debolezza muscolare quando cammini, crampi di notte non legati all'esercizio, formicolio quando cammini. Questi sintomi atipici rendono la diagnosi più difficile - serve un esame specifico (indice caviglia-braccio) per confermare.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Segni obiettivi esame fisico vascolare</h3>
+<h3 class="font-bold text-white mb-3">Cosa cerca il medico durante la visita?</h3>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ispezione:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">- Cute lucida, atrofica, loss capelli arto (progressione distale-prossimale)</p>
-<p class="text-slate-300 ml-6 mb-2">- Ipotrofia muscolare polpaccio (riduzione circonferenza >2 cm vs controlaterale)</p>
-<p class="text-slate-300 ml-6 mb-2">- Unghie ispessite, distrofiche, crescita rallentata</p>
-<p class="text-slate-300 ml-6 mb-2">- Pallore cutaneo elevazione piede >60° (Buerger sign positive: pallore 30-60 sec elevazione, seguita da rubor pendenza)</p>
-<p class="text-slate-300 ml-6 mb-3">- CLI: ulcere digitali/piede (margini ben demarcati, base necrotica), gangrena secca/umida dita, rubor dipendente (foot dependent rubor: eritema violaceo persistente piede pendente, scompare elevazione)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Aspetto della pelle e delle gambe:</strong></p>
+<p class="text-slate-300 ml-6 mb-2">● Pelle lucida e sottile, perdita di peli sulla gamba</p>
+<p class="text-slate-300 ml-6 mb-2">● Muscolo del polpaccio più piccolo (ridotto di oltre 2 cm rispetto all'altra gamba)</p>
+<p class="text-slate-300 ml-6 mb-2">● Unghie ispessite e che crescono lentamente</p>
+<p class="text-slate-300 ml-6 mb-2">● Pallore del piede quando lo sollevi, rossore violaceo quando pende</p>
+<p class="text-slate-300 ml-6 mb-3">● Nei casi gravi: ulcere (ferite che non guariscono) o gangrena (pelle nera) alle dita o al piede</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Palpazione polsi arteriosi:</strong> sistema scoring standardizzato: 0 = assente, 1 = diminuito, 2 = normale, 3 = aumentato. Valutazione bilaterale comparativa.</p>
-<p class="text-slate-300 ml-6 mb-2">- Femorali (inguinali): normali 95% popolazione, ridotti/assenti → malattia aorto-iliaca</p>
-<p class="text-slate-300 ml-6 mb-2">- Poplitei (fossa poplitea, ginocchio flesso): difficile palpazione (obesi, edema), assenti 50-60% PAD femoro-poplitea</p>
-<p class="text-slate-300 ml-6 mb-2">- Tibiale posteriore (dietro malleolo mediale): assente 70-80% PAD significativa</p>
-<p class="text-slate-300 ml-6 mb-3">- Dorsale pedidio (dorso piede, laterale tendine estensore alluce): congenitamente assente 8-10% popolazione sana (variante anatomica), assente 80-90% PAD severa</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Palpazione dei polsi delle arterie:</strong> il medico sente i polsi in diversi punti della gamba per capire dove sono i restringimenti. Controlla i polsi su entrambe le gambe per confrontarle. I polsi principali sono:</p>
+<p class="text-slate-300 ml-6 mb-2">● All'inguine (arterie femorali) - normalmente presenti in 95 persone su 100</p>
+<p class="text-slate-300 ml-6 mb-2">● Dietro il ginocchio (arterie poplitee) - assenti in 50-60 persone su 100 con arteriopatia</p>
+<p class="text-slate-300 ml-6 mb-2">● Dietro la caviglia (arterie tibiali posteriori) - assenti in 70-80 persone su 100 con arteriopatia significativa</p>
+<p class="text-slate-300 ml-6 mb-3">● Sul dorso del piede (arterie del dorso del piede) - assenti in 80-90 persone su 100 con arteriopatia severa. Nota: circa 8-10 persone su 100 sane non hanno questo polso naturalmente, quindi non sempre la sua assenza significa malattia</p>
 
-<p class="text-slate-300 mb-3">Sensibilità palpazione polsi abnormali: 50-70% PAD angiografica (bassa sensibilità stadio precoce/malattia singolo segmento con collaterali). Specificità: 90-95% (polsi abnormali altamente suggestivi PAD). Polsi femorali normali + distali assenti = malattia femoro-poplitea. Tutti polsi distali assenti = malattia aorto-iliaca o multilivello.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Auscultazione con lo stetoscopio:</strong> il medico ascolta con lo stetoscopio le arterie all'inguine e nella pancia per sentire "soffi" (rumori anomali) che indicano restringimenti importanti delle arterie.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Auscultazione:</strong> soffi vascolari (bruits) arterie femorali/iliache indicano stenosi >50%. Sensibilità 20-40% (assenti malattia occlusiva completa o stenosi serrate). Localizzazione: inguinale (femorale comune), addome inferiore (iliache/aorta).</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Capillary refill time (CRT):</strong> compressione pulp dito piede 5 sec → rilascio → tempo ritorno colorazione normale. CRT normale <3 sec. CRT >5 sec suggerisce ischemia severa (sensibilità 60%, specificità 85% CLI).</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Test del riempimento capillare:</strong> il medico preme un dito del piede per 5 secondi e poi rilascia, guardando quanto tempo serve perché il colore normale torni. Normalmente serve meno di 3 secondi. Se serve più di 5 secondi, può indicare ischemia grave.</p>
 </div>
 
 <div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">CLI (Ischemia Critica Arti) - red flags emergenza vascolare</h3>
+<h3 class="font-bold text-white mb-3">⚠️ EMERGENZA: segni che richiedono cure immediate</h3>
 
-<p class="text-slate-300 mb-3">Riconoscimento precoce CLI critico prevenzione amputazione. Presentazione tipica CLI cronica (progressiva weeks-months) vs acuta (hours-days, embolia/trombosi acuta). Hai CLI se presenza ≥1 criteri seguenti:</p>
+<p class="text-slate-300 mb-4">Riconoscere presto questi segni gravi può salvare la tua gamba. L'ischemia critica può svilupparsi lentamente (settimane-mesi) o improvvisamente (ore-giorni). CHIAMA SUBITO IL MEDICO O VAI AL PRONTO SOCCORSO se hai uno di questi segni:</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore riposo ischemico (rest pain):</strong> dolore persistente severo piede/dita, presente >2 settimane, richiede analgesia regolare (oppioidi). Caratteristiche: peggioramento notturno (decubito supino riduce perfusione pressione gravitazionale), alleviamento parziale gamba pendente fuori letto. Localizzazione: metatarsi, dita piedi (territori terminali perfusione). Diagnosi differenziale: neuropatia diabetica (burning pain continuo, non posizionale), artropatia (pain meccanico activity-related).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore persistente ai piedi anche a riposo:</strong> hai dolore severo ai piedi o alle dita che dura da più di 2 settimane, anche quando non cammini. Il dolore è così forte che hai bisogno di antidolorifici forti (oppiacei). Caratteristiche tipiche:</p>
+<p class="text-slate-300 ml-6 mb-3">● Peggiora di notte quando sei sdraiato (perché la gravità non aiuta il sangue ad arrivare ai piedi); migliora parzialmente se tieni la gamba fuori dal letto che pende. Il dolore è localizzato all'avampiede e alle dita (le parti più lontane dove arriva meno sangue). Se hai diabete e bruciore continuo non legato alla posizione, potrebbe essere neuropatia diabetica invece di arteriopatia - chiedi al medico.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ulcere ischemiche:</strong> perdita cutanea non-healing >2-4 settimane. Localizzazione tipica: dita piedi (digital tips), calcagno, malleoli, prominenze ossee (pressione). Caratteristiche: margini ben demarcati, base pallida/necrotica, essudato scarso, dolore severo (vs ulcere venose bordi irregolari, essudato abbondante, dolore lieve). Infection sovrapposta: eritema perilesionale, purulenza, cellulite, osteomielite (probe-to-bone test positive).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Ferite (ulcere) che non guariscono:</strong> hai ferite ai piedi o alle dita che non guariscono dopo 2-4 settimane. Dove compaiono di solito:</p>
+<p class="text-slate-300 ml-6 mb-3">● Punte delle dita, tallone, caviglie, zone dove l'osso preme sulla pelle. Come riconoscerle: bordi netti e definiti, base pallida o nera (tessuto morto), poco liquido che esce, dolore severo. Se la ferita si infetta: rossore intorno alla ferita, pus, cellulite (infezione della pelle), infezione dell'osso (osteomielite).</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Gangrena:</strong> necrosi tessutale irreversibile. Gangrena secca: dita mummificate, nere, secche, demarcazione netta tessuto sano (ischemia pura). Gangrena umida: infezione sovrapposta, essudato purulento, odore fetido, progressione rapida (emergenza chirurgica, sepsi rischio). Localizzazione: dita (hallux frequente), forefoot, intero piede casi avanzati.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Gangrena (tessuto morto):</strong> parte del piede o delle dita diventa nera perché il tessuto è morto. Due tipi:</p>
+<p class="text-slate-300 ml-6 mb-2">● Gangrena secca: dita mummificate, nere, secche, con linea netta tra tessuto morto e sano (solo mancanza di sangue)</p>
+<p class="text-slate-300 ml-6 mb-3">● Gangrena umida: infezione sovrapposta, pus, odore cattivo, si espande rapidamente (EMERGENZA CHIRURGICA - rischio di infezione del sangue - sepsi)</p>
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia acuta arto (ALI - Acute Limb Ischemia):</strong> occlusione arteriosa improvvisa (embolia cardiogena 80%, trombosi in situ PAD preesistente 20%). 6 P's: Pain (dolore severo improvviso), Pallor (pallore), Pulselessness (polsi assenti), Paresthesia (parestesie), Paralysis (debolezza/plegia), Poikilothermia (freddo). Tempo ischemico critico: <6 ore finestra rivascolarizzazione emergenza (trombectomia/trombolisi) prevenzione danno irreversibile. Rutherford classification ALI: I (viable), IIa (marginally threatened), IIb (immediately threatened), III (irreversible) → guida management urgenza/amputazione primaria.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia acuta improvvisa (occlusione arteriosa improvvisa):</strong> l'arteria si blocca all'improvviso (per un coagulo dal cuore in 80 casi su 100, o per un coagulo che si forma nell'arteria malata in 20 casi su 100). Sintomi improvvisi - le "6 P":</p>
+<p class="text-slate-300 ml-6 mb-2">● Pain (dolore): dolore severo improvviso alla gamba</p>
+<p class="text-slate-300 ml-6 mb-2">● Pallor (pallore): la gamba diventa pallida</p>
+<p class="text-slate-300 ml-6 mb-2">● Pulselessness (polsi assenti): non si sentono i polsi al piede</p>
+<p class="text-slate-300 ml-6 mb-2">● Paresthesia (formicolio): formicolio o perdita di sensibilità</p>
+<p class="text-slate-300 ml-6 mb-2">● Paralysis (paralisi): debolezza o impossibilità di muovere la gamba</p>
+<p class="text-slate-300 ml-6 mb-6">● Poikilothermia (freddo): la gamba è fredda al tatto. TEMPO CRITICO: hai meno di 6 ore per riaprire l'arteria (con intervento d'emergenza) e salvare la gamba. Dopo 6 ore il danno può essere permanente.</p>
 </div>
 </section>
 
