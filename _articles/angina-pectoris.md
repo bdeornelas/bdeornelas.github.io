@@ -1,7 +1,7 @@
 ---
 collection: articles
 layout: "default"
-title: "Angina Pectoris - Sintomi, Diagnosi e Cura | Dr. Benjamin De Ornelas"
+title: "Angina Pectoris - Guida Paziente | Dr. Benjamin De Ornelas"
 description: "Angina pectoris - dolore toracico da ridotto afflusso di sangue al cuore. Come riconoscere i sintomi, quando preoccuparsi e quali sono le terapie disponibili."
 og_title: "Angina Pectoris - Sintomi e Cure"
 og_description: "Cos'è l'angina pectoris, quali sono i sintomi del dolore al petto da sforzo, come si diagnostica e come si cura con farmaci, angioplastica o bypass."
@@ -63,26 +63,26 @@ date: "2025-09-16"
 <div class="highlight-box rounded-lg p-6 mb-8">
 <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2">
 <i data-lucide="book-open" class="w-5 h-5 text-sky-400"></i>
-        SINTESI CLINICA
+        IN SINTESI
 </h2>
 <div class="space-y-4 text-slate-300">
 <p class="leading-relaxed">
-          <strong class="text-white">Definizione:</strong> Angina pectoris è dolore/fastidio toracico ischemico causato da squilibrio tra domanda e offerta miocardica di ossigeno, tipicamente secondario a malattia coronarica aterosclerotica ostruttiva (stenosi ≥50-70% diametro coronarico).
+          <strong class="text-white">Cos'è:</strong> L'angina pectoris è un dolore o fastidio al petto che si verifica quando il tuo cuore non riceve abbastanza sangue ricco di ossigeno. Di solito è causata da restringimenti nelle arterie del cuore (chiamate arterie coronarie).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Eziologia:</strong> CAD aterosclerotica (90%), spasmo coronarico (angina variante Prinzmetal 5-10%), microvascolare dysfunction (angina microvascolare 10-15%), stenosi aortica severa (Ao <1.0 cm²), cardiomiopatia ipertrofica.
+<strong class="text-white">Cause principali:</strong> In circa 90 persone su 100 con angina, la causa è l'accumulo di placche di colesterolo nelle arterie del cuore (aterosclerosi). Altre cause meno comuni includono: spasmi improvvisi delle arterie coronarie (5-10 persone su 100), problemi ai piccoli vasi sanguigni del cuore, stenosi aortica grave, o ispessimento del muscolo cardiaco (cardiomiopatia ipertrofica).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Manifestazione clinica:</strong> Dolore retrosternale oppressivo/costrittivo provocato da sforzo fisico (↑ MVO₂), stress emotivo, freddo, pasti. Durata 2-10 minuti. Irradiazione: braccio sinistro (lato ulnare), mandibola, collo, scapola. Equivalenti anginosi: dispnea, astenia (30% pazienti, specie diabetici/anziani/donne).
+<strong class="text-white">Come si manifesta:</strong> Il dolore tipico è dietro lo sterno (al centro del petto), con sensazione di oppressione, peso o stretta. Compare durante l'attività fisica, lo stress emotivo, l'esposizione al freddo o dopo pasti abbondanti. Dura di solito 2-10 minuti. Può irradiarsi al braccio sinistro, alla mandibola, al collo o alla schiena. Alcune persone (circa 30 su 100, specialmente diabetici, anziani e donne) hanno sintomi diversi come mancanza di fiato o stanchezza intensa.
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Diagnosi:</strong> Anamnesi dettagliata (caratterizzazione dolore, trigger, durata), ECG basale e sotto sforzo, test provocativi (test ergometrico sensibilità 60-70%, TC coronarica sensibilità 90-95%, coronarografia gold standard).
+<strong class="text-white">Come si diagnostica:</strong> Il tuo medico farà domande dettagliate sui tuoi sintomi (tipo di dolore, cosa lo scatena, quanto dura). Poi prescriverà esami: elettrocardiogramma (ECG) a riposo e durante sforzo, test da sforzo (identifica correttamente l'angina in 60-70 persone su 100), TAC delle coronarie (identifica correttamente l'angina in 90-95 persone su 100), o coronarografia (esame più accurato).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Trattamento:</strong> Terapia medica ottimale (antiaggreganti, beta-bloccanti, nitrati, statine target LDL <55 mg/dL), rivascolarizzazione miocardica (PCI con stent drug-eluting, CABG in malattia multivasale/tronco comune).
+<strong class="text-white">Come si cura:</strong> Il trattamento include farmaci (antiaggreganti per prevenire coaguli, beta-bloccanti per rallentare il cuore, nitrati per dilatare le arterie, statine per abbassare il colesterolo sotto 55 mg/dL), modifiche dello stile di vita, e in alcuni casi procedure per riaprire le arterie (angioplastica con stent o bypass coronarico quando ci sono molte arterie ostruite).
 </p>
 <p class="leading-relaxed">
-<strong class="text-white">Prognosi:</strong> Angina stabile con TMO: mortalità 1-3%/anno. Angina instabile/NSTEMI: mortalità ospedaliera 2-5%, rischio eventi avversi maggiori (MACE) 10-15%/anno senza trattamento. Controllo fattori rischio e rivascolarizzazione appropriata riducono MACE 30-50%.
+<strong class="text-white">Cosa aspettarsi:</strong> Con l'angina stabile ben curata, il rischio di morte è basso (1-3 persone su 100 ogni anno). L'angina instabile è più pericolosa: rischio di morte in ospedale 2-5 persone su 100, e rischio di complicazioni maggiori (infarto o morte) 10-15 persone su 100 ogni anno senza trattamento. Controllare i fattori di rischio e ricevere il trattamento appropriato riduce il rischio di complicazioni del 30-50%.
 </p>
 </div>
 </div>
@@ -91,35 +91,35 @@ date: "2025-09-16"
   <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="info" class="w-6 h-6 text-rose-400"></i>
-Qual è la fisiopatologia dell'angina pectoris?
+Perché si verifica l'angina?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-      L'angina pectoris è sintomo clinico di ischemia miocardica reversibile determinata da squilibrio tra domanda e offerta di ossigeno al miocardio. Fisiopatologia: quando il consumo miocardico di O₂ (MVO₂) supera la capacità di perfusione coronarica, si verifica deficit energetico cellulare con accumulo metaboliti (adenosina, lattato, ioni H⁺, potassio extracellulare) che stimolano nocicettori miocardici, trasmettendo segnale doloroso attraverso fibre C afferenti al sistema nervoso centrale (dermatomeri C7-T4).
+      L'angina si verifica quando il tuo cuore ha bisogno di più ossigeno di quanto le arterie coronarie possano fornire. Quando il cuore non riceve abbastanza ossigeno, le cellule del muscolo cardiaco producono sostanze chimiche che stimolano i recettori del dolore. Questi segnali di dolore viaggiano attraverso i nervi fino al cervello, e tu senti dolore al petto, al braccio sinistro, alla mandibola o alla schiena.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-      <strong class="text-white">Meccanismo ostruttivo (causa 90% casi):</strong> aterosclerosi coronarica determina stenosi luminale progressiva con riduzione riserva coronarica. Placca aterosclerotica composta da core lipidico necrotico (colesterolo, esteri colesterolo), cappuccio fibroso (cellule muscolari lisce, collagene), infiltrato infiammatorio (macrofagi, linfociti T). Stenosi critica (≥50-70% riduzione diametro, ≥75-90% riduzione area luminale) compromette autoregolazione coronarica: flusso basale conservato, ma incapacità incremento flusso durante aumento domanda metabolica (sforzo fisico, stress emotivo, tachicardia). Differenza angina vs infarto: nell'angina ischemia è transitoria/reversibile senza necrosi miocardica (normalizzazione ECG e biomarker). Nell'infarto occlusione completa/subocclusiva prolungata causa necrosi irreversibile (troponina elevata persistente, alterazioni ECG permanenti).
+      <strong class="text-white">Meccanismo più comune (90 persone su 100):</strong> L'aterosclerosi (accumulo di placche di colesterolo) nelle arterie coronarie causa restringimenti progressivi. Queste placche sono formate da: un nucleo di colesterolo, uno strato di tessuto fibroso che copre il nucleo, e cellule infiammatorie. Quando il restringimento diventa significativo (50-70% del diametro dell'arteria), il flusso di sangue a riposo è ancora normale, ma quando fai uno sforzo fisico (camminare, salire le scale) o sei sotto stress emotivo, il cuore lavora di più e ha bisogno di più ossigeno. Le arterie ristrette non riescono ad aumentare il flusso di sangue abbastanza, e questo causa il dolore dell'angina. <strong class="text-white">Differenza importante tra angina e infarto:</strong> nell'angina la mancanza di ossigeno è temporanea (alcuni minuti) e reversibile - non danneggia permanentemente il cuore. Nell'infarto l'arteria si blocca completamente per un tempo più lungo, causando morte del tessuto cardiaco (danno permanente).
 </p>
 
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Determinanti consumo miocardico ossigeno (MVO₂)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Frequenza cardiaca (FC):</strong> correlazione lineare diretta. Incremento FC riduce tempo diastole (fase perfusione coronarica), aumenta lavoro miocardico. Beta-bloccanti riducono MVO₂ 20-30% mediante bradicardia.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Contrattilità miocardica:</strong> maggior inotropismo richiede maggior ATP. Condizioni aumentanti contrattilità (catecolamine, simpaticomimetici, dobutamina) incrementano MVO₂.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tensione parete ventricolare (legge Laplace):</strong> Tensione = (Pressione × Raggio) / (2 × Spessore). Ipertensione arteriosa e dilatazione ventricolare aumentano stress parietale e MVO₂. Nitrati riducono precarico (-tensione), ACE-inibitori riducono postcarico.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Massa miocardica:</strong> ipertrofia ventricolare sinistra (secondaria a IA, stenosi aortica, cardiomiopatia ipertrofica) aumenta MVO₂ basale 30-50%.</p>
+<h3 class="font-bold text-white mb-3">Cosa fa aumentare il bisogno di ossigeno del cuore</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Frequenza cardiaca:</strong> Più veloce batte il cuore, più ossigeno consuma. Quando il cuore batte veloce, ha anche meno tempo per riempirsi di sangue tra un battito e l'altro. I beta-bloccanti (farmaci) rallentano il cuore e riducono il consumo di ossigeno del 20-30%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Forza di contrazione:</strong> Quando il cuore si contrae con più forza (ad esempio durante esercizio fisico o stress), ha bisogno di più energia e quindi più ossigeno. Sostanze come l'adrenalina aumentano la forza di contrazione.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Tensione della parete del cuore:</strong> Quando la pressione del sangue è alta o il cuore è dilatato, le pareti del cuore devono lavorare con più sforzo per pompare il sangue, consumando più ossigeno. I nitrati (farmaci) rilassano i vasi sanguigni riducendo il lavoro del cuore, mentre gli ACE-inibitori abbassano la pressione arteriosa.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Dimensioni del muscolo cardiaco:</strong> Se il muscolo cardiaco è ispessito (ipertrofia) a causa di pressione alta, stenosi aortica o cardiomiopatia ipertrofica, consuma 30-50% più ossigeno anche a riposo.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Trigger angina pectoris: meccanismi fisiopatologici</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizio fisico:</strong> aumenta MVO₂ mediante ↑FC (50-80%), ↑contrattilità, ↑PA sistolica. Angina tipica compare a soglia riproducibile sforzo (double product = FC × PAs costante, solitamente 15000-25000 mmHg×bpm).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stress emotivo:</strong> attivazione sistema simpatico con rilascio catecolamine (adrenalina, noradrenalina) determina tachicardia, ipertensione, vasocostrizione coronarica, aumento contrattilità (tutti ↑MVO₂).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Freddo:</strong> vasocostrizione periferica incrementa resistenze vascolari sistemiche (+postcarico, +PA) e vasocostrizione coronarica (riduce offerta O₂). Incremento MVO₂ 15-25%.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pasti abbondanti:</strong> redistribuzione flusso splancnico, tachicardia postprandiale, aumento lavoro cardiaco. Incremento MVO₂ 10-20%.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Febbre/infezioni:</strong> ogni 1°C aumento temperatura corporea incrementa metabolismo basale 10-13%, con proporzionale ↑MVO₂.</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Anemia (Hb <10 g/dL):</strong> ridotta capacità trasporto O₂ arterioso determina ischemia relativa nonostante perfusione coronarica conservata.</p>
+<h3 class="font-bold text-white mb-3">Cosa scatena l'angina</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esercizio fisico:</strong> L'attività fisica fa aumentare la frequenza cardiaca (del 50-80%), la forza di contrazione del cuore e la pressione sanguigna. Di solito l'angina compare sempre alla stessa soglia di sforzo (ad esempio sempre dopo 100 metri di camminata o dopo 10 gradini).</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Stress emotivo:</strong> Quando sei sotto stress, il corpo rilascia adrenalina e noradrenalina. Questi ormoni fanno battere il cuore più velocemente e con più forza, aumentano la pressione sanguigna e restringono i vasi sanguigni (incluse le arterie del cuore). Tutto questo aumenta il bisogno di ossigeno del cuore.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Freddo:</strong> L'esposizione al freddo restringe i vasi sanguigni in tutto il corpo, aumentando la pressione sanguigna e il lavoro del cuore. Le arterie coronarie si restringono anche loro, riducendo l'apporto di ossigeno. Questo aumenta il bisogno di ossigeno del 15-25%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Pasti abbondanti:</strong> Dopo un pasto abbondante, il sangue viene dirottato verso l'apparato digerente, il cuore batte più velocemente, e il lavoro cardiaco aumenta. Il consumo di ossigeno aumenta del 10-20%.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Febbre/infezioni:</strong> Ogni grado di febbre (1°C) aumenta il metabolismo del corpo del 10-13%, e di conseguenza aumenta anche il bisogno di ossigeno del cuore.</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">●Anemia (emoglobina bassa, sotto 10 g/dL):</strong> Se hai l'anemia, il sangue trasporta meno ossigeno. Anche se il flusso di sangue alle coronarie è normale, il cuore non riceve abbastanza ossigeno, causando angina.</p>
 </div>
 
 <p class="text-slate-300 leading-relaxed">
-      <strong class="text-white">Meccanismo non-ostruttivo (angina variante Prinzmetal 5-10% casi):</strong> spasmo coronarico intenso transitorio (vasocostrizione arteria epicardica) causa occlusione dinamica flusso in assenza stenosi aterosclerotiche fisse o con stenosi minima <30%. Patogenesi: iperreattività vascolare (disfunzione endoteliale, ipersensibilità recettori α-adrenergici muscolatura liscia), attivazione sistema renina-angiotensina-aldosterone, ridotta produzione NO endoteliale. Trigger: fumo, cocaina, iperventilazione, Raynaud, esposizione freddo, alcaloidi ergot. Tipicamente notturna (2-4 AM, massima attivazione vagale paradossa).
+      <strong class="text-white">Meccanismo meno comune - angina di Prinzmetal (5-10 persone su 100):</strong> In questo tipo di angina, un'arteria coronaria si restringe improvvisamente e temporaneamente (spasmo), anche se non ci sono placche di colesterolo o ci sono solo placche minime. Questo blocca temporaneamente il flusso di sangue. La causa è un'eccessiva reattività dei vasi sanguigni. Fattori scatenanti: fumo di sigaretta, cocaina, iperventilazione, sindrome di Raynaud, esposizione al freddo, alcuni farmaci (ergot). Di solito questo tipo di angina si verifica di notte (tra le 2 e le 4 del mattino) o al mattino presto.
 </p>
   </section>
 
