@@ -232,9 +232,9 @@ date: "2025-10-31"
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Correlazione sintomo-ritmo e gestione clinica</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Diagnosi confermata:</strong> In 30-50% dei pazienti con palpitazioni, l'Holter conferma la presenza di un'aritmia durante i sintomi</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Causa cardiaca esclusa:</strong> In 20-30% dei pazienti, il cuore batte normalmente durante i sintomi, escludendo una causa cardiaca</p>
-<p class="text-slate-300"><strong class="text-white">●Esame non conclusivo:</strong> In 20-40% dei casi, i sintomi non compaiono durante la registrazione</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Diagnosi confermata:</strong> In 30-50 persone su 100 con palpitazioni, l'Holter conferma la presenza di un'aritmia durante i sintomi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Causa cardiaca esclusa:</strong> In 20-30 persone su 100, il cuore batte normalmente durante i sintomi, escludendo una causa cardiaca</p>
+<p class="text-slate-300"><strong class="text-white">●Esame non conclusivo:</strong> In 20-40 persone su 100, i sintomi non compaiono durante la registrazione</p>
 </div>
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Valutazione del rischio in condizioni specifiche</h3>
