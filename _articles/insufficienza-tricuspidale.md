@@ -353,7 +353,7 @@ date: "2025-09-25"
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
 <li>7-8 pazienti su 10 stanno meglio e hanno meno affanno</li>
-<li>Riduzione dei ricoveri per scompenso del 40-50%</li>
+<li>Riduzione dei ricoveri per scompenso di 40-50 punti su 100</li>
 <li>Miglioramento della funzione del cuore destro in molti casi</li>
 <li>Riduzione del gonfiore e dell'accumulo di liquidi</li>
 <li>Se il fegato non è già troppo danneggiato, può migliorare</li>
