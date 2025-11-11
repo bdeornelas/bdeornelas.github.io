@@ -217,7 +217,7 @@ Durante la visita, il medico ascolterà i tuoi polmoni con lo stetoscopio (per s
 
 <p class="text-slate-300 mb-3"><strong class="text-white">●Ecocardiogramma (ecografia del cuore):</strong> Mostra il cuore in movimento e misura quanto bene pompa il sangue. Verifica anche se ci sono problemi alle valvole o al muscolo cardiaco. È un esame indolore e fondamentale. In circa 15-20 minuti fornisce informazioni complete sulla funzione del cuore.</p>
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Esami del sangue:</strong> Misurano sostanze specifiche (chiamate peptidi natriuretici, o "BNP") che aumentano quando il cuore è sotto sforzo. Il medico controllerà anche la funzione dei reni, i livelli di elettroliti (come potassio e sodio) e verificherà se hai anemia.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">●Esami del sangue:</strong> Misurano sostanze specifiche che aumentano quando il cuore è sotto sforzo. Il medico controllerà anche la funzione dei reni, i livelli di elettroliti (come potassio e sodio) e verificherà se hai anemia.</p>
 
 <p class="text-slate-300 mb-3"><strong class="text-white">●Elettrocardiogramma, o "ECG":</strong> Registra l'attività elettrica del cuore. Può mostrare problemi del ritmo cardiaco, segni di infarto pregresso o altre anomalie. Richiede solo pochi minuti.</p>
 
