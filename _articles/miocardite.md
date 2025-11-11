@@ -388,7 +388,7 @@ date: "2025-10-14"
 
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Miocardite dopo vaccino COVID-19: devo preoccuparmi?</h3>
-<p class="text-slate-300">La miocardite dopo vaccino mRNA COVID-19 è molto rara e nella grande maggioranza dei casi è lieve. Colpisce più frequentemente i giovani maschi dopo la seconda dose. La buona notizia è che quasi tutti (più del 95%) guariscono completamente in pochi mesi. Inoltre, il rischio di miocardite è molto più alto se prendi il COVID-19 rispetto al vaccino. I benefici del vaccino superano ampiamente i rischi. Se hai avuto una miocardite post-vaccino, dovrai evitare lo sport per 3 mesi, ma poi potrai tornare alle tue attività normali.</p>
+<p class="text-slate-300">La miocardite dopo vaccino mRNA COVID-19 è molto rara e nella grande maggioranza dei casi è lieve. Colpisce più frequentemente i giovani maschi dopo la seconda dose. La buona notizia è che quasi tutti (più di 95 persone su 100) guariscono completamente in pochi mesi. Inoltre, il rischio di miocardite è molto più alto se prendi il COVID-19 rispetto al vaccino. I benefici del vaccino superano ampiamente i rischi. Se hai avuto una miocardite post-vaccino, dovrai evitare lo sport per 3 mesi, ma poi potrai tornare alle tue attività normali.</p>
 </div>
 
 <div class="info-step rounded-lg p-6 mb-4">

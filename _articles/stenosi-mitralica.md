@@ -163,10 +163,10 @@ date: "2025-10-04"
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Classificazione della severità (ESC 2021)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">Stenosi mitralica lieve:</strong> Area valvolare mitralica (MVA) >1.5 cm², gradiente medio <5 mmHg, pressione arteriosa polmonare sistolica (PASP) <30 mmHg. Pazienti generalmente asintomatici, follow-up eco ogni 2-3 anni, prognosi eccellente senza limitazioni all'attività fisica.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">Stenosi mitralica moderata:</strong> MVA 1.0-1.5 cm², gradiente medio 5-10 mmHg, PASP 30-50 mmHg. Sintomi assenti o limitati a sforzi intensi. Follow-up eco annuale. Zona intermedia che richiede monitoraggio attento per progressione.</p>
-<p class="text-slate-300"><strong class="text-white">Stenosi mitralica severa:</strong> MVA ≤1.0 cm² (critica se <0.75 cm²), gradiente medio >10 mmHg (>15 mmHg se critica), PASP >50 mmHg. Sintomi frequenti (dispnea NYHA II-IV nel 60-70% casi). Indicazione a intervento quando sintomatica o con PASP >50 mmHg anche se asintomatica. Progressione media: riduzione MVA 0.1-0.3 cm²/anno.</p>
+<h3 class="font-bold text-white mb-3">Quanto è grave la stenosi?</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Stenosi lieve:</strong> il restringimento è minimo e la maggior parte delle persone non ha sintomi. L'apertura della valvola è ridotta ma ancora abbastanza ampia. Di solito si fa un controllo con ecocardiogramma ogni 2-3 anni. Puoi condurre una vita normale senza limitazioni.</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Stenosi moderata:</strong> il restringimento è intermedio. Potresti non avere sintomi o averne solo durante sforzi molto intensi. È necessario un controllo annuale con ecocardiogramma per verificare se la condizione sta progredendo.</p>
+<p class="text-slate-300"><strong class="text-white">Stenosi severa:</strong> il restringimento è importante e l'apertura della valvola è molto ridotta. In questi casi, circa 60-70 persone su 100 hanno sintomi (fiato corto, stanchezza). La pressione nei polmoni è elevata. Se hai sintomi o se la pressione polmonare è molto alta, il medico potrebbe consigliarti un intervento anche se non hai sintomi. La stenosi tende a peggiorare gradualmente nel tempo.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Ecocardiogramma transesofageo</h3>
@@ -204,7 +204,7 @@ date: "2025-10-04"
 <li>Gonfia il palloncino per allargare l'apertura della valvola</li>
 </ul>
 <p class="text-slate-300 leading-relaxed mb-3">
-              La procedura ha un'alta percentuale di successo (85-95% dei casi) e la maggior parte dei pazienti nota un miglioramento immediato dei sintomi. La degenza ospedaliera è breve, solitamente 2-3 giorni, e il recupero è rapido. Le complicanze sono rare e includono il rischio di versamento di liquido intorno al cuore, ictus o danneggiamento della valvola.
+              La procedura ha un'alta percentuale di successo (da 85 a 95 persone su 100 ottengono buoni risultati) e la maggior parte dei pazienti nota un miglioramento immediato dei sintomi. La degenza ospedaliera è breve, solitamente 2-3 giorni, e il recupero è rapido. Le complicanze sono rare e includono il rischio di versamento di liquido intorno al cuore, ictus o danneggiamento della valvola.
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
@@ -273,7 +273,7 @@ date: "2025-10-04"
             Fibrillazione atriale e stenosi mitralica
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            La fibrillazione atriale è un'aritmia molto comune nei pazienti con stenosi mitralica, presente in circa il 40% dei casi sintomatici. Si verifica perché l'atrio sinistro, dilatato dalla stenosi, tende a perdere il suo ritmo normale.
+            La fibrillazione atriale è un'aritmia molto comune nei pazienti con stenosi mitralica, presente in circa 4 persone su 10 con sintomi. Si verifica perché l'atrio sinistro, dilatato dalla stenosi, tende a perdere il suo ritmo normale.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Perché è importante</h3>
@@ -308,9 +308,9 @@ date: "2025-10-04"
               I risultati della valvuloplastica percutanea e della chirurgia sono generalmente molto buoni:
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li>La maggior parte dei pazienti (85-90%) nota un miglioramento significativo dei sintomi</li>
+<li>La maggior parte dei pazienti (da 85 a 90 persone su 100) nota un miglioramento significativo dei sintomi</li>
 <li>La pressione polmonare tende a ridursi progressivamente dopo l'intervento</li>
-<li>Dopo valvuloplastica, il 10-20% dei pazienti può necessitare di un nuovo intervento entro 10 anni</li>
+<li>Dopo valvuloplastica, circa 10-20 persone su 100 possono necessitare di un nuovo intervento entro 10 anni</li>
 <li>Chi riceve una protesi valvolare meccanica dovrà assumere anticoagulanti per tutta la vita</li>
 </ul>
 </div>
