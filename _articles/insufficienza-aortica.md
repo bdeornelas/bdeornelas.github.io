@@ -83,7 +83,7 @@ date: "2025-09-06"
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Problemi della valvola</h3>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Valvola bicuspide:</strong> alcune persone nascono con una valvola aortica che ha due lembi invece di tre. Questa variazione è presente in circa 1-2 persone su 100 ed è la causa più frequente di insufficienza aortica prima dei 70 anni</li>
+<li><strong class="text-white">Valvola bicuspide:</strong> alcune persone nascono con una valvola aortica che ha due parti invece di tre. Questa variazione è presente in circa 1-2 persone su 100 ed è la causa più frequente di insufficienza aortica prima dei 70 anni</li>
 <li><strong class="text-white">Endocardite infettiva:</strong> un'infezione che attacca la valvola, danneggiandola. È la causa più comune di insufficienza aortica grave improvvisa</li>
 <li><strong class="text-white">Degenerazione con l'età:</strong> col tempo la valvola può ispessirsi, irrigidirsi e perdere la capacità di chiudersi bene, soprattutto dopo i 60-70 anni</li>
 <li><strong class="text-white">Febbre reumatica:</strong> malattia diventata rara nei paesi occidentali, che può danneggiare le valvole cardiache</li>
@@ -92,7 +92,7 @@ date: "2025-09-06"
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Problemi dell'aorta</h3>
 <ul class="text-slate-300 space-y-2 ml-5 ">
-<li><strong class="text-white">Dilatazione dell'aorta:</strong> quando l'aorta si allarga, i lembi della valvola non riescono più a combaciare. È la causa più frequente nelle persone sopra i 60 anni</li>
+<li><strong class="text-white">Dilatazione dell'aorta:</strong> quando l'aorta si allarga, le parti della valvola non riescono più a combaciare. È la causa più frequente nelle persone sopra i 60 anni</li>
 <li><strong class="text-white">Pressione alta non controllata:</strong> può contribuire alla dilatazione progressiva dell'aorta</li>
 <li><strong class="text-white">Sindrome di Marfan:</strong> una condizione genetica che causa dilatazione importante dell'aorta e insufficienza della valvola aortica nella maggior parte dei pazienti</li>
 <li><strong class="text-white">Dissezione aortica:</strong> una lacerazione nella parete dell'aorta che causa improvvisa insufficienza grave della valvola. È un'emergenza medica</li>
@@ -307,9 +307,9 @@ date: "2025-09-06"
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Impianto di valvola senza chirurgia (TAVI)</h3>
+<h3 class="font-bold text-white mb-3">Impianto di valvola senza chirurgia</h3>
 <p class="text-slate-300 leading-relaxed mb-3">
-              Per l'insufficienza aortica, a differenza della stenosi, l'impianto transcatetere (senza aprire il torace) è ancora una procedura sperimentale, riservata a pazienti che non possono essere operati chirurgicamente.
+              Per l'insufficienza aortica, a differenza della stenosi, l'impianto attraverso i vasi sanguigni (senza aprire il torace) è ancora una procedura sperimentale, riservata a pazienti che non possono essere operati chirurgicamente.
 </p>
 <ul class="text-slate-300 space-y-2 ml-5 ">
 <li>Disponibile solo in centri molto specializzati per casi selezionati</li>

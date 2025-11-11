@@ -112,7 +112,7 @@ date: "2025-09-23"
             Quali sono le cause?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Nella maggior parte dei casi, la cardiomiopatia ipertrofica è una condizione ereditaria, trasmessa dai genitori ai figli. È causata da piccole modifiche nei geni che controllano la crescita del muscolo cardiaco. Se un genitore ha questa condizione, ogni figlio ha una probabilità del 50% di ereditare la predisposizione genetica.
+            Nella maggior parte dei casi, la cardiomiopatia ipertrofica è una condizione ereditaria, trasmessa dai genitori ai figli. È causata da piccole modifiche nei geni che controllano la crescita del muscolo cardiaco. Se un genitore ha questa condizione, ogni figlio ha 1 probabilità su 2 di ereditare la predisposizione genetica.
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Caratteristiche ereditarie</h3>
@@ -284,42 +284,47 @@ date: "2025-09-23"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="cpu" class="w-6 h-6 text-violet-400"></i>
-            Terapia interventistica dell'ostruzione
+            Quando considerare le procedure
 </h2>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Indicazioni (ESC 2014, classe I)</h3>
+<h3 class="font-bold text-white mb-3">Quando vengono proposte</h3>
+<p class="text-slate-300">Le procedure per ridurre l'ostruzione vengono considerate quando:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Gradiente LVOT ≥50 mmHg (riposo o provocato)</li>
-<li>Sintomi severi (NYHA III-IV) refrattari a terapia medica ottimale</li>
-<li>Anatomia favorevole (setto basale ≥18 mm, SAM mitralico)</li>
+<li>I sintomi limitano significativamente la tua vita quotidiana</li>
+<li>I farmaci non sono sufficienti a controllare i sintomi</li>
+<li>L'ostruzione al flusso di sangue è importante</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Miectomia settale chirurgica (gold standard)</h3>
+<h3 class="font-bold text-white mb-3">Intervento chirurgico (miectomia)</h3>
+<p class="text-slate-300 mb-3">È la procedura più efficace e duratura. Il chirurgo rimuove una piccola porzione del muscolo ispessito:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Resezione transaortica del setto basale ipertrofico (procedura di Morrow)</li>
-<li>Successo: riduzione gradiente <10 mmHg in >95%, NYHA I-II in 90%</li>
-<li>Mortalità perioperatoria <1% in centri esperti (>50 procedure/anno)</li>
-<li>Durabilità: 90-95% liberi da reintervento a 10 anni</li>
-<li>Complicanze: BAV completo 2-5% (PM definitivo), IM residua <5%</li>
+<li>Più di 95 persone su 100 ottengono un miglioramento significativo dei sintomi</li>
+<li>Circa 90 persone su 100 non hanno più limitazioni nelle attività quotidiane</li>
+<li>Nei centri specializzati, i rischi sono molto bassi (meno di 1 persona su 100)</li>
+<li>I risultati sono molto duraturi: più di 90 persone su 100 non hanno bisogno di altri interventi nei successivi 10 anni</li>
+<li>Possibili complicanze includono la necessità di un pacemaker (da 2 a 5 persone su 100)</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Ablazione settale con alcol (ASA)</h3>
+<h3 class="font-bold text-white mb-3">Ablazione con alcol</h3>
+<p class="text-slate-300 mb-3">È una procedura meno invasiva eseguita in sala di emodinamica:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Iniezione etanolo 1-3 mL in arteria settale perforante → infarto settale localizzato</li>
-<li>Successo: riduzione gradiente <50 mmHg in 70-90%, NYHA I-II in 70-80%</li>
-<li>Mortalità periprocedurale 1-2%</li>
-<li>Complicanze: BAV completo 10-20% (PM definitivo), dissezione coronarica <1%</li>
-<li>Preferibile in anziani >65 anni, comorbilità chirurgiche, rifiuto chirurgia</li>
+<li>Da 70 a 90 persone su 100 ottengono un miglioramento significativo</li>
+<li>Non richiede un intervento a cuore aperto</li>
+<li>La degenza in ospedale è più breve (2-3 giorni invece di una settimana)</li>
+<li>Può essere necessario un pacemaker in circa 10-20 persone su 100</li>
+<li>È spesso preferita in persone più anziane o con altre condizioni mediche</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Confronto miectomia vs ASA</h3>
+<h3 class="font-bold text-white mb-3">Come si sceglie</h3>
+<p class="text-slate-300">Il tuo cardiologo discuterà con te quale procedura è più adatta considerando:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Miectomia: maggior successo (95% vs 75%), minore BAV (3% vs 15%), più duratura</li>
-<li>ASA: meno invasiva, degenza breve (2-3 gg vs 7 gg), no sternotomia</li>
-<li>Scelta dipende da età, anatomia, esperienza del centro, preferenze paziente</li>
+<li>La tua età e le tue condizioni generali</li>
+<li>L'anatomia specifica del tuo cuore</li>
+<li>L'esperienza del centro in queste procedure</li>
+<li>Le tue preferenze personali</li>
 </ul>
 </div>
 </section>
@@ -327,50 +332,56 @@ date: "2025-09-23"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="zap" class="w-6 h-6 text-rose-400"></i>
-            ICD e prevenzione della morte improvvisa
+            Il defibrillatore: efficacia e considerazioni
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Efficacia ICD</h3>
+<h3 class="font-bold text-white mb-3">Quanto è efficace</h3>
+<p class="text-slate-300 mb-3">Il defibrillatore è molto efficace nel proteggere da aritmie pericolose:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Interventi appropriati (shock per TV/FV): 3-5% annuo in prevenzione primaria, 10-15% annuo in secondaria</li>
-<li>Riduzione mortalità totale: 50-70% nei pazienti ad alto rischio</li>
-<li>Number needed to treat: 17 pazienti con ICD per salvare 1 vita a 5 anni</li>
+<li>Nei pazienti a rischio elevato, può ridurre il rischio di complicanze gravi di circa 50-70 persone su 100</li>
+<li>Il dispositivo interviene automaticamente solo quando necessario, riconoscendo e trattando battiti irregolari pericolosi</li>
+<li>La maggior parte delle persone con defibrillatore non ha mai bisogno di interventi del dispositivo, ma è protetta in caso di necessità</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Complicanze ICD</h3>
+<h3 class="font-bold text-white mb-3">Cosa considerare</h3>
+<p class="text-slate-300 mb-3">Come ogni dispositivo medico, il defibrillatore ha alcuni aspetti da conoscere:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Shock inappropriati: 20-30% a 5 anni (FA rapida, oversensing, TVNS)</li>
-<li>Complicanze device: infezione 1-2%, malfunzionamento lead 10-15% a 5 anni</li>
-<li>Impatto psicologico: ansia, depressione nel 20-30% dopo primo shock</li>
+<li>In alcuni casi (circa 20-30 persone su 100 nei primi 5 anni), il dispositivo può intervenire quando non è necessario. Il tuo cardiologo può regolare il dispositivo per ridurre questo rischio</li>
+<li>Raramente possono verificarsi problemi tecnici o infezioni (circa 1-2 persone su 100)</li>
+<li>Alcune persone possono sentirsi ansiose dopo aver ricevuto uno shock. Il tuo medico può aiutarti a gestire queste sensazioni</li>
 </ul>
 </div>
 <div class="highlight-box rounded-lg p-6">
-<p class="text-slate-300"><strong class="text-rose-400">S-ICD (ICD sottocutaneo):</strong> alternativa a ICD transvenoso in pazienti giovani, accesso venoso difficile, o alto rischio infettivo. Evita lead endovascolari ma non consente pacing antitachicardico o bradipacing.</p>
+<h3 class="font-bold text-white mb-3">Defibrillatore sottocutaneo</h3>
+<p class="text-slate-300">Esiste anche una versione del defibrillatore che viene posizionato sotto la pelle senza fili nel cuore. Questo può essere una buona opzione per alcuni pazienti, soprattutto più giovani. Il tuo cardiologo discuterà con te quale tipo è più adatto alla tua situazione.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="line-chart" class="w-6 h-6 text-sky-400"></i>
-            Prognosi e storia naturale
+            Prospettive a lungo termine
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Mortalità e morbilità</h3>
+<h3 class="font-bold text-white mb-3">Cosa aspettarsi</h3>
+<p class="text-slate-300 mb-3">Con le cure moderne, le prospettive per le persone con cardiomiopatia ipertrofica sono molto buone:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Mortalità annua complessiva: <0.5% con management contemporaneo (vs 2-3% in era pre-ICD)</li>
-<li>Morte cardiaca improvvisa: 1-2% annuo senza ICD, <0.5% con ICD</li>
-<li>Scompenso cardiaco: 10-15% sviluppa disfunzione sistolica (FE <50%) e dilatazione VS (fase end-stage)</li>
-<li>Fibrillazione atriale: incidenza 2-3% annuo, associata a scompenso e stroke</li>
+<li>La maggior parte delle persone (più di 99 su 100) sta bene con i controlli regolari e le terapie disponibili</li>
+<li>Per chi ha un defibrillatore, il rischio di complicanze gravi è molto basso (meno di 1 persona su 100 all'anno)</li>
+<li>Alcune persone (circa 10-15 su 100) possono nel tempo sviluppare un indebolimento del cuore, che può essere gestito con farmaci specifici</li>
+<li>Circa 2-3 persone su 100 ogni anno possono sviluppare battiti irregolari (fibrillazione atriale), che possono essere trattati efficacemente</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Fattori prognostici favorevoli</h3>
+<h3 class="font-bold text-white mb-3">Fattori che indicano un decorso favorevole</h3>
+<p class="text-slate-300 mb-3">La tua condizione tende ad avere un decorso più favorevole se:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Asintomatici o NYHA I, spessore parete <20 mm</li>
-<li>Assenza di TVNS, gradiente LVOT <30 mmHg</li>
-<li>Mutazione MYBPC3 (prognosi migliore vs MYH7)</li>
-<li>LGE <5% massa VS, FE >60%</li>
+<li>Non hai sintomi o hai solo lievi limitazioni nelle attività quotidiane</li>
+<li>L'ispessimento del cuore non è molto marcato</li>
+<li>Non hai battiti irregolari frequenti</li>
+<li>L'ostruzione al flusso di sangue è lieve o assente</li>
+<li>Il cuore pompa bene e non ci sono segni importanti di cicatrici</li>
 </ul>
 </div>
 </section>
@@ -378,29 +389,32 @@ date: "2025-09-23"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
-            Follow-up e raccomandazioni sullo stile di vita
+            Controlli e vita quotidiana
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Periodicità controlli</h3>
+<h3 class="font-bold text-white mb-3">Frequenza dei controlli</h3>
+<p class="text-slate-300 mb-3">Il tuo cardiologo ti consiglierà la frequenza dei controlli in base alla tua situazione:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Visita cardiologica ogni 12-24 mesi (pazienti asintomatici, basso rischio)</li>
-<li>Visita ogni 6-12 mesi (sintomatici, alto rischio, ICD)</li>
-<li>Ecocardiogramma ogni 12-24 mesi o dopo variazione sintomi</li>
-<li>ECG Holter 24-48h ogni 12-24 mesi (screening TVNS, FA parossistica)</li>
-<li>Interrogazione ICD ogni 3-6 mesi</li>
+<li><strong>Se non hai sintomi:</strong> visita cardiologica ogni 1-2 anni</li>
+<li><strong>Se hai sintomi o sei a rischio più elevato:</strong> controlli ogni 6-12 mesi</li>
+<li><strong>Se hai un defibrillatore:</strong> controlli del dispositivo ogni 3-6 mesi</li>
+<li><strong>Ecocardiogramma:</strong> generalmente ogni 1-2 anni, o prima se compaiono nuovi sintomi</li>
+<li><strong>Monitoraggio del battito cardiaco:</strong> periodicamente per verificare eventuali battiti irregolari</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Attività fisica e sport</h3>
+<p class="text-slate-300 mb-3">L'attività fisica è importante, ma è necessario seguire alcune raccomandazioni:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong>Sport agonistici:</strong> controindicati (ESC 2020) per rischio MSC da sforzo</li>
-<li><strong>Attività ricreativa moderata:</strong> camminata, ciclismo, nuoto a intensità leggera-moderata (consentita)</li>
-<li><strong>Eccezioni:</strong> atleti asintomatici, basso rischio (HCM Risk-SCD <4%, no ostruzione, no LGE) possono praticare sport sotto stretto monitoraggio</li>
+<li><strong>Sport agonistici e competitivi:</strong> generalmente sconsigliati per il rischio associato a sforzi intensi</li>
+<li><strong>Attività ricreative moderate:</strong> camminata, ciclismo leggero, nuoto tranquillo sono generalmente sicuri e consigliati</li>
+<li><strong>Situazioni particolari:</strong> alcune persone senza sintomi e a basso rischio possono praticare sport più intensi sotto stretto controllo medico</li>
 </ul>
+<p class="text-slate-300 mt-3">Parla sempre con il tuo cardiologo per capire quali attività sono adatte al tuo caso specifico.</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Gravidanza e HCM</h3>
-<p class="text-slate-300">Generalmente ben tollerata in donne asintomatiche senza ostruzione severa. Rischio aumentato in NYHA III-IV, gradiente >50 mmHg, aritmie ventricolari. Gestione multidisciplinare cardio-ostetrica, evitare ipovolemia, monitorare FC. Parto vaginale preferibile (epidurale precoce), evitare cesareo non necessario.</p>
+<h3 class="font-bold text-white mb-3">Gravidanza</h3>
+<p class="text-slate-300">La gravidanza è generalmente ben tollerata dalle donne con cardiomiopatia ipertrofica, soprattutto se non hanno sintomi importanti e l'ostruzione non è severa. È importante una gestione coordinata tra cardiologo e ginecologo durante tutta la gravidanza. Il parto vaginale è di solito preferibile. Se hai questa condizione e stai pianificando una gravidanza, parlane con il tuo cardiologo per una valutazione personalizzata.</p>
 </div>
 </section>
 

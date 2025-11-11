@@ -291,49 +291,55 @@ date: "2025-10-02"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="line-chart" class="w-6 h-6 text-sky-400"></i>
-            Prognosi e stratificazione del rischio
+            Prospettive a lungo termine
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Mortalità e morbilità</h3>
+<h3 class="font-bold text-white mb-3">L'importanza delle terapie moderne</h3>
+<p class="text-slate-300 mb-3">Le prospettive per le persone con cardiomiopatia dilatativa sono migliorate moltissimo con le terapie moderne:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Senza terapia: mortalità 20-30% a 5 anni</li>
-<li>Con OMT ottimizzata: mortalità 10-15% a 5 anni</li>
-<li>Con OMT + CRT-D: mortalità <10% a 5 anni</li>
+<li>Senza terapia, la condizione può essere più seria (circa 20-30 persone su 100 possono avere complicanze importanti nei primi 5 anni)</li>
+<li>Con i farmaci moderni, le prospettive migliorano significativamente (circa 10-15 persone su 100 potrebbero avere complicanze nei primi 5 anni)</li>
+<li>Con i farmaci e i dispositivi quando necessari (pacemaker speciale o defibrillatore), meno di 10 persone su 100 hanno complicanze nei primi 5 anni</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Fattori prognostici negativi</h3>
+<h3 class="font-bold text-white mb-3">Fattori che influenzano il decorso</h3>
+<p class="text-slate-300 mb-3">Il tuo cardiologo valuterà diversi fattori per capire come potrebbe evolvere la tua condizione:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>NYHA III-IV, FE <30%, DTDVS >65 mm, IM severa</li>
-<li>NT-proBNP >1000 pg/mL persistente</li>
-<li>LGE mid-wall alla RM cardiaca</li>
-<li>Mutazioni LMNA, DSP (alto rischio aritmico)</li>
-<li>TVNS all'ECG Holter, QRS >120 ms</li>
+<li>Quanto limitano i sintomi la tua vita quotidiana</li>
+<li>Quanto pompa bene il cuore e le sue dimensioni</li>
+<li>I valori degli esami del sangue che indicano lo stress del cuore</li>
+<li>La presenza di cicatrici nel muscolo cardiaco (visibili alla risonanza magnetica)</li>
+<li>Se ci sono alterazioni genetiche specifiche</li>
+<li>Se ci sono battiti irregolari frequenti</li>
 </ul>
+<p class="text-slate-300 mt-3">Questi fattori aiutano il medico a personalizzare il tuo piano di cura e a decidere se servono terapie aggiuntive.</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="calendar" class="w-6 h-6 text-emerald-400"></i>
-            Follow-up e stile di vita
+            Controlli e stile di vita
 </h2>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Controlli periodici</h3>
+<p class="text-slate-300 mb-3">Il tuo cardiologo ti vedrà regolarmente per monitorare come sta andando la terapia:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Visite cardiologiche ogni 3-6 mesi (NYHA, PA, FC, peso)</li>
-<li>Ecocardiogramma ogni 6-12 mesi o dopo modifiche terapeutiche</li>
-<li>ECG Holter 24h annuale per rilevare aritmie asintomatiche</li>
-<li>Elettroliti, creatinina, NT-proBNP ogni 3-6 mesi</li>
+<li><strong>Visite cardiologiche:</strong> ogni 3-6 mesi per controllare i sintomi, la pressione, il battito cardiaco e il peso</li>
+<li><strong>Ecocardiogramma:</strong> ogni 6-12 mesi, o prima se cambiano i farmaci o i sintomi</li>
+<li><strong>Monitoraggio del battito cardiaco:</strong> una volta all'anno per verificare eventuali battiti irregolari</li>
+<li><strong>Esami del sangue:</strong> ogni 3-6 mesi per controllare la funzione dei reni e i marcatori dello stress cardiaco</li>
 </ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Modifiche dello stile di vita</h3>
+<h3 class="font-bold text-white mb-3">Cambiamenti nello stile di vita</h3>
+<p class="text-slate-300 mb-3">Alcune modifiche allo stile di vita possono aiutare molto il tuo cuore:</p>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Astinenza completa da alcol (specialmente in DCM alcolica)</li>
-<li>Restrizione sodio <2-3 g/die, monitoraggio quotidiano del peso</li>
-<li>Attività fisica aerobica moderata 30 min/die (evitare sport agonistici)</li>
-<li>Vaccinazione antinfluenzale e antipneumococcica</li>
+<li><strong>Alcol:</strong> evitarlo completamente, soprattutto se la cardiomiopatia è causata dall'alcol</li>
+<li><strong>Sale:</strong> ridurre il sale nella dieta aiuta a controllare il gonfiore. Pesa te stesso ogni giorno alla stessa ora e avvisa il medico se aumenti più di 2 kg in pochi giorni</li>
+<li><strong>Attività fisica:</strong> l'esercizio moderato (come camminare 30 minuti al giorno) fa bene al cuore. Evita sport competitivi o molto intensi</li>
+<li><strong>Vaccinazioni:</strong> fai il vaccino antinfluenzale ogni anno e quello contro la polmonite, come consigliato dal medico</li>
 </ul>
 </div>
 </section>
