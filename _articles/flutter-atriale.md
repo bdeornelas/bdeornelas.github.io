@@ -10,7 +10,6 @@ date: "2025-09-11"
 
 ---
 
-# Flutter Atriale – Le Basi
 
 Il **flutter atriale** è un tipo di **aritmia**. In una persona con flutter atriale, le camere superiori del cuore chiamate **atri** battono molto rapidamente e in modo regolare, tipicamente tra 240 e 340 volte al minuto. A differenza della **fibrillazione atriale**, nel flutter atriale il battito è rapido ma ritmico.
 

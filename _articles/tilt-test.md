@@ -10,7 +10,6 @@ date: "2025-10-07"
 
 ---
 
-# Tilt Test – Le Basi
 
 ## COS'È IL TILT TEST?
 

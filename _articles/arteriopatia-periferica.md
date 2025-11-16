@@ -10,7 +10,6 @@ date: "2025-09-07"
 
 ---
 
-# Arteriopatia Periferica – Le Basi
 
 L'**arteriopatia periferica** si verifica quando le arterie che portano sangue alle gambe si restringono o si ostruiscono a causa di accumulo di placche di grasso e colesterolo nelle pareti delle arterie. Questo riduce il flusso di sangue ai muscoli delle gambe e dei piedi, causando dolore durante il cammino e, nei casi gravi, anche a riposo.
 

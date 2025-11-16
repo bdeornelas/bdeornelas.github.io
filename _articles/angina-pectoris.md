@@ -10,7 +10,6 @@ date: "2025-09-16"
 
 ---
 
-# Angina Pectoris – Le Basi
 
 L'**angina pectoris** è un dolore al petto che si verifica quando il cuore non riceve abbastanza sangue ricco di ossigeno. Di solito è causata da restringimenti nelle arterie coronariche (i vasi che portano sangue al cuore). Il dolore tipico compare durante l'attività fisica o lo stress e passa con il riposo entro 2-10 minuti.
 

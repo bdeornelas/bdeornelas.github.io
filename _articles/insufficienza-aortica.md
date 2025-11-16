@@ -10,7 +10,6 @@ date: "2025-09-06"
 
 ---
 
-# Insufficienza Aortica – Le Basi
 
 L'**insufficienza aortica (rigurgito aortico)** è una condizione in cui la valvola aortica non chiude perfettamente. Questo permette al sangue di tornare indietro nel cuore invece di proseguire verso il resto del corpo.
 

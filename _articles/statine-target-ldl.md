@@ -10,7 +10,6 @@ og_image: /assets/img/og-card.jpg
 date: "2025-10-29"
 ---
 
-# Le Statine per il Colesterolo – Le Basi
 
 Le **statine** (farmaci che riducono il colesterolo nel sangue) aiutano a proteggere il cuore abbassando il colesterolo LDL, il "colesterolo cattivo" che si accumula nelle arterie. Se il tuo colesterolo LDL è elevato, se hai avuto un infarto o un ictus, o se hai molti fattori di rischio cardiovascolare, il medico probabilmente ti prescriverà una statina.
 

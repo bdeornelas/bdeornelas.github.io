@@ -10,7 +10,6 @@ date: "2025-10-31"
 
 ---
 
-# Holter ECG – Le Basi
 
 L'**Holter ECG** è un piccolo apparecchio che registra l'attività elettrica del tuo cuore per 24-48 ore consecutive mentre svolgi le tue normali attività quotidiane. A differenza dell'**elettrocardiogramma** standard eseguito in ambulatorio che registra il ritmo cardiaco solo per 10-15 secondi, l'Holter monitora il cuore continuamente per uno o due giorni interi. Il dispositivo è grande come uno smartphone e si aggancia alla cintura o si porta in tasca con una tracolla.
 

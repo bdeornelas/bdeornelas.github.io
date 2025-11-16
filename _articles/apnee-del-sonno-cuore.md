@@ -10,7 +10,6 @@ date: "2025-10-13"
 
 ---
 
-# Apnee Notturne – Le Basi
 
 Le **apnee notturne** sono interruzioni ripetute del respiro durante il sonno. Si verificano quando le vie respiratorie nella gola si chiudono completamente o parzialmente mentre dormi. Ogni volta che smetti di respirare per almeno 10 secondi, il livello di ossigeno nel sangue scende e il cervello ti fa svegliare brevemente per riprendere a respirare. Questo ciclo si ripete da 5 a più di 30 volte ogni ora durante tutta la notte.
 

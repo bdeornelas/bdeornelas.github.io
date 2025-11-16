@@ -10,7 +10,6 @@ date: "2025-10-10"
 
 ---
 
-# Insufficienza Mitralica – Le Basi
 
 ---
 

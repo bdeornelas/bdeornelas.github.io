@@ -10,7 +10,6 @@ date: "2025-09-13"
 
 ---
 
-# Stenosi Aortica – Le Basi
 
 La stenosi aortica è un restringimento della valvola aortica, la valvola che si trova all'uscita del ventricolo sinistro (la camera principale di pompaggio del cuore). Questa valvola si apre per far passare il sangue dal cuore verso tutto il corpo, poi si chiude per evitare che torni indietro.
 

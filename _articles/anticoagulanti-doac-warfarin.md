@@ -10,7 +10,6 @@ date: "2025-09-28"
 
 ---
 
-# Anticoagulanti – Le Basi
 
 Gli **anticoagulanti** sono farmaci che riducono la formazione di coaguli nel sangue. Aiutano a prevenire coaguli pericolosi che potrebbero causare ictus o embolia polmonare (coagulo che blocca un'arteria del polmone). Se hai fibrillazione atriale (battito cardiaco irregolare), protesi valvolari meccaniche, o storia di coaguli venosi, potresti aver bisogno di anticoagulanti.
 

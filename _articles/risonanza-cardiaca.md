@@ -10,7 +10,6 @@ og_image: /assets/img/og-card.jpg
 date: "2025-09-10"
 ---
 
-# Risonanza Magnetica Cardiaca – Le Basi
 
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>

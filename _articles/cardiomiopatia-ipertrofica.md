@@ -10,7 +10,6 @@ date: "2025-09-23"
 
 ---
 
-# Cardiomiopatia Ipertrofica – Le Basi
 
 La **cardiomiopatia ipertrofica** è una condizione in cui le pareti del cuore diventano più spesse del normale. L'ispessimento riguarda soprattutto il ventricolo sinistro. Questo ispessimento non è causato dalla pressione alta o da altre malattie cardiache, ma si verifica come condizione a sé stante.
 

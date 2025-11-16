@@ -10,7 +10,6 @@ date: "2025-09-04"
 
 ---
 
-# Bradicardia – Le Basi
 
 La **bradicardia** si verifica quando il cuore batte più lentamente del normale, tipicamente meno di 60 volte al minuto a riposo. Il battito del cuore nasce da una piccola zona chiamata nodo senoatriale, che genera impulsi elettrici che viaggiano attraverso il cuore facendolo battere in modo coordinato.
 

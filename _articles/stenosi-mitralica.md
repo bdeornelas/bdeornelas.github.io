@@ -10,7 +10,6 @@ date: "2025-10-04"
 
 ---
 
-# Stenosi Mitralica – Le Basi
 
 ---
 

@@ -10,7 +10,6 @@ date: "2025-11-03"
 
 ---
 
-# Prevenzione Cardiovascolare – Le Basi
 
 ## PERCHÉ LA PREVENZIONE È IMPORTANTE?
 

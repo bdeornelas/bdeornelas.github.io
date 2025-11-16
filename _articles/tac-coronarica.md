@@ -11,7 +11,6 @@ date: "2025-11-13"
 
 ---
 
-# TAC Coronarica – Esame Semplice per Vedere le Arterie del Cuore
 
 ## COS'È LA TAC CORONARICA?
 
