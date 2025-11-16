@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Apnee Notturne: Come Riconoscerle e Proteggere il Cuore | Dr. Benjamin De Ornelas"
 description: "Russamento forte, pause nel respiro e stanchezza diurna? Scopri cosa sono le apnee notturne, perché danneggiano il cuore e come curarle efficacemente."
 og_title: "Apnee Notturne - Guida per Pazienti"

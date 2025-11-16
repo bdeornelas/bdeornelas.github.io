@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Scompenso Cardiaco - Guida per Pazienti e Famiglie | Dr. Benjamin De Ornelas"
 description: "Cos'è lo scompenso cardiaco, quali sono i sintomi principali, le cure disponibili e come gestire la vita quotidiana con questa condizione."
 og_title: "Scompenso Cardiaco - Guida Completa per Pazienti"

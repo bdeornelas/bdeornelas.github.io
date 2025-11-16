@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Pericardite – Le Basi | Dr. Benjamin De Ornelas"
 description: "Pericardite spiegata per pazienti. Sintomi, cause, diagnosi e cura dell'infiammazione del pericardio."
 og_title: "Pericardite – Le Basi"

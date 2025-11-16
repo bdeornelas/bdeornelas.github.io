@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Malattia Coronarica – Le Basi | Dr. Benjamin De Ornelas"
 description: "Guida completa alla malattia coronarica - cos'è, cause, sintomi, diagnosi e cure disponibili. Informazioni chiare su stent, bypass, farmaci e stile di vita per gestire la cardiopatia ischemica."
 og_title: "Malattia Coronarica – Le Basi"

@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Embolia Polmonare e Trombosi Venosa – Le Basi | Dr. Benjamin De Ornelas"
 description: "Embolia polmonare e trombosi venosa profonda spiegate per pazienti. Sintomi d'allarme, fattori di rischio, diagnosi e trattamenti."
 og_title: "Embolia Polmonare e Trombosi Venosa – Le Basi"

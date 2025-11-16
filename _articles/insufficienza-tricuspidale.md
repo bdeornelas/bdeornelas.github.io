@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Insufficienza Tricuspidale – Le Basi | Dr. Benjamin De Ornelas"
 description: "Insufficienza tricuspidale spiegata per pazienti. Cause, sintomi, diagnosi e trattamenti."
 og_title: "Insufficienza Tricuspidale – Le Basi"
@@ -281,21 +281,4 @@ I risultati dei trattamenti, in particolare delle procedure percutanee, sono inc
 Dopo riparazione chirurgica, oltre 9 persone su 10 ottengono buoni risultati immediati. La durabilità a lungo termine è buona, anche se in alcuni casi l'insufficienza può tornare negli anni, soprattutto se persiste l'ipertensione polmonare o la dilatazione del cuore destro.
 
 ---
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai:
-
-• Gonfiore persistente alle gambe
-• Stanchezza insolita
-• Gonfiore addominale
-• Altri sintomi che potrebbero indicare insufficienza tricuspidale
-
-**CHIEDI ASSISTENZA MEDICA D'EMERGENZA** (chiama il 112 o recati al pronto soccorso) se hai:
-
-• Gonfiore improvviso e grave alle gambe con grave difficoltà a respirare
-• Dolore forte al petto
-• Svenimento o perdita di coscienza
-• Confusione mentale improvvisa
-• Gonfiore addominale improvviso e importante con difficoltà a respirare
 

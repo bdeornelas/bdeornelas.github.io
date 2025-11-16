@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Fibrillazione Atriale – Le Basi | Dr. Benjamin De Ornelas"
 description: "Fibrillazione atriale spiegata per pazienti. Sintomi, rischio ictus, anticoagulanti e trattamenti."
 og_title: "Fibrillazione Atriale – Le Basi"

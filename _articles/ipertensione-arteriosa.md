@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Pressione Alta (Ipertensione) – Le Basi | Dr. Benjamin De Ornelas"
 description: "Cos'è la pressione alta, perché è importante controllarla, come misurarla correttamente e quali sono i rimedi efficaci. Guida pratica per gestire l'ipertensione arteriosa."
 og_title: "Pressione Alta – Le Basi"

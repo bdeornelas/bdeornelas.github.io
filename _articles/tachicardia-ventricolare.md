@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Tachicardia Ventricolare – Le Basi | Dr. Benjamin De Ornelas"
 description: "Tachicardia ventricolare spiegata per pazienti. Sintomi, rischi, diagnosi e trattamenti."
 og_title: "Tachicardia Ventricolare – Le Basi"

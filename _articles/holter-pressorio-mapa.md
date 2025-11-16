@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Holter Pressorio (Monitoraggio 24 Ore): Cos'è e a Cosa Serve | Dr. Benjamin De Ornelas"
 description: "Guida semplice all'Holter pressorio per pazienti e familiari: come funziona il monitoraggio della pressione nelle 24 ore, cosa aspettarsi e come interpretare i risultati."
 og_title: "Holter Pressorio - Monitoraggio della Pressione 24 Ore"

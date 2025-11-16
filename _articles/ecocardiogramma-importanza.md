@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Ecocardiogramma – Le Basi | Dr. Benjamin De Ornelas"
 description: "Ecocardiogramma spiegato per pazienti. Come si fa, quando serve, cosa valuta. Esame sicuro senza radiazioni."
 og_title: "Ecocardiogramma – Le Basi"

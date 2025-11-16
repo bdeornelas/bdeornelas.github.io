@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Tachicardia Parossistica Sopraventricolare (TPSV) – Le Basi | Dr. Benjamin De Ornelas"
 description: "Tachicardia parossistica sopraventricolare spiegata per pazienti. Sintomi, diagnosi, manovre vagali e ablazione."
 og_title: "Tachicardia Parossistica Sopraventricolare – Le Basi"

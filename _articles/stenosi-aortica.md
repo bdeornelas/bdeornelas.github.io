@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Stenosi Aortica – Le Basi | Dr. Benjamin De Ornelas"
 description: "Stenosi aortica spiegata per pazienti. Sintomi, diagnosi, quando operarsi e tipi di intervento."
 og_title: "Stenosi Aortica – Le Basi"

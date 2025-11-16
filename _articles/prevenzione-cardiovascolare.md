@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Prevenzione Cardiovascolare – Le Basi | Dr. Benjamin De Ornelas"
 description: "Prevenzione cardiovascolare spiegata per pazienti. Come proteggere il cuore, fattori di rischio modificabili, azioni concrete quotidiane e controlli medici."
 og_title: "Prevenzione Cardiovascolare – Le Basi"

@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Stenosi Mitralica – Le Basi | Dr. Benjamin De Ornelas"
 description: "Stenosi mitralica spiegata per pazienti. Cause, sintomi, valvuloplastica e chirurgia."
 og_title: "Stenosi Mitralica – Le Basi"

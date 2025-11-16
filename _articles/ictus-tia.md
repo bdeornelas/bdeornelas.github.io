@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Ictus e TIA – Le Basi | Dr. Benjamin De Ornelas"
 description: "Ictus e TIA spiegati per pazienti. Riconoscimento con test FAST, urgenza, cure moderne e prevenzione."
 og_title: "Ictus e TIA – Le Basi"

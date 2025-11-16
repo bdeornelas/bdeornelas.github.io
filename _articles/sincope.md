@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Sincope – Le Basi | Dr. Benjamin De Ornelas"
 description: "Sincope (svenimento) spiegata per pazienti. Tipi di sincope, quando preoccuparsi e cosa fare."
 og_title: "Sincope – Le Basi"
