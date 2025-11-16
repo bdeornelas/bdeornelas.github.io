@@ -78,23 +78,6 @@ Durante una crisi potete provare alcune manovre che stimolano il nervo vago. Que
 
 ---
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico se avete palpitazioni intense che iniziano e finiscono all'improvviso.
-
-**Chiamate il 118 se:**
-
-●È la prima volta che vi succede
-●Le manovre non funzionano e la crisi dura più di 30 minuti
-●Avete dolore al petto forte o persistente
-●Vi sentite molto deboli o state per svenire
-●Avete difficoltà respiratorie importanti
-●Avete la sindrome di Wolff-Parkinson-White nota e la frequenza cardiaca supera 250 battiti al minuto (può essere pericoloso)
-
-In Pronto Soccorso il medico può somministrare adenosina per via endovenosa, un farmaco che ferma la crisi in pochi secondi in oltre 90 persone su 100. L'adenosina blocca temporaneamente la conduzione elettrica nel nodo AV, interrompendo il circuito.
-
----
-
 ## COME SI DIAGNOSTICA?
 
 Il vostro medico:

@@ -140,10 +140,3 @@ L'esercizio moderato e regolare fa bene al cuore. Inizia gradualmente con cammin
 
 Fai il vaccino antinfluenzale ogni anno e quello contro la polmonite da pneumococco, come consigliato dal medico. Le infezioni respiratorie possono peggiorare lo scompenso. Segui una dieta equilibrata ricca di frutta, verdura, cereali integrali, pesce. La dieta mediterranea è particolarmente raccomandata. Tieni un diario dei sintomi. Annota se l'affanno peggiora, se aumenta il gonfiore, se compaiono palpitazioni. Questo aiuta il medico a capire come stai.
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo cardiologo per un appuntamento programmato se i sintomi peggiorano gradualmente (più affanno, più stanchezza, più gonfiore) nelle ultime settimane, hai bisogno di più cuscini per dormire o di dormire in poltrona, il peso aumenta di più di 2 kg in 2–3 giorni, la tosse notturna peggiora, hai nuove palpitazioni o capogiri, hai difficoltà a prendere i farmaci come prescritto o hai effetti collaterali fastidiosi, o hai domande o preoccupazioni sulla tua condizione o terapia.
-
-Chiama il 118 o vai al pronto soccorso immediatamente se hai affanno grave a riposo o che peggiora rapidamente, dolore al petto persistente che dura più di pochi minuti, svenimento o perdita di coscienza, palpitazioni prolungate o molto intense accompagnate da capogiri, sudorazione o dolore al petto, gonfiore improvviso e importante alle gambe, all'addome o alla faccia. Se hai un defibrillatore e ricevi uno shock, dopo il primo shock chiama il 118 o vai al pronto soccorso per verifica. Chiama anche se hai confusione, disorientamento o difficoltà a parlare, o tosse con catarro schiumoso rosa.
-
-Questi sintomi possono indicare un peggioramento acuto dello scompenso o un'aritmia pericolosa. Non aspettare a vedere se i sintomi passano. Il trattamento precoce è fondamentale. La gestione della cardiomiopatia dilatativa richiede un rapporto collaborativo con il tuo cardiologo. Non esitare a contattarlo per dubbi, domande o nuovi sintomi. È meglio chiamare per una preoccupazione che si rivela minore, piuttosto che aspettare troppo quando serve aiuto immediato.

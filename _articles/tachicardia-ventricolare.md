@@ -44,19 +44,6 @@ Quando i sintomi si verificano, possono includere:
 
 ---
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai palpitazioni intense, vertigini o altri sintomi che potrebbero indicare tachicardia ventricolare.
-
-Cerca immediatamente assistenza medica d'urgenza se hai:
-
-●Perdita di coscienza o svenimento
-●Dolore forte al petto che non passa
-●Difficoltà grave a respirare
-●Palpitazioni che durano diversi minuti e causano malessere importante
-
----
-
 ## CHI È A RISCHIO?
 
 La tachicardia ventricolare può colpire chiunque, ma alcune persone hanno un rischio maggiore:

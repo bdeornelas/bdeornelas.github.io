@@ -220,19 +220,3 @@ Esistono alcune situazioni in cui il test è controindicato o deve essere esegui
 ●**Il test è coperto dal SSN?** – Sì, se prescritto dal vostro medico specialista con appropriata indicazione clinica
 ●**Quanto spesso va ripetuto?** – Non è un esame che si ripete di routine. Viene eventualmente riproposto se i vostri sintomi persistono nonostante il trattamento
 
----
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico se avete episodi ripetuti di svenimento, soprattutto se sono preceduti da sintomi premonitori o se si verificano in situazioni particolari come stare in piedi a lungo o in ambienti caldi.
-
-**CERCATE AIUTO IMMEDIATO (chiamate il 112 o andate al pronto soccorso) se avete:**
-
-●Svenimento durante sforzo fisico intenso
-●Svenimento senza sintomi premonitori
-●Dolore al petto prima o dopo lo svenimento
-●Difficoltà a respirare
-●Battito cardiaco molto veloce o molto lento
-●Sintomi neurologici (debolezza su un lato del corpo, difficoltà a parlare, confusione)
-●Trauma alla testa per caduta durante lo svenimento
-
