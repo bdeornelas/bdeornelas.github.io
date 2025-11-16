@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Test Ergometrico (Test da Sforzo) – Le Basi | Dr. Benjamin De Ornelas"
 description: "Test da sforzo spiegato per pazienti. Come funziona, quando serve, come prepararsi e cosa significano i risultati."
 og_title: "Test Ergometrico (Test da Sforzo) – Le Basi"

@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Insufficienza Aortica – Le Basi | Dr. Benjamin De Ornelas"
 description: "Insufficienza aortica spiegata per pazienti. Cause, sintomi, ecocardiogramma, sostituzione valvolare e prognosi."
 og_title: "Insufficienza Aortica – Le Basi"

@@ -121,3 +121,125 @@ body {
     drop-shadow(0 0 6px rgba(56, 189, 248, 0.32))
     drop-shadow(0 0 12px rgba(56, 189, 248, 0.16));
 }
+
+/* Article Content Styling */
+.article-content {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75;
+  color: #cbd5e1; /* slate-300 */
+}
+
+.article-content h1 {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 800;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  background: linear-gradient(90deg, #38bdf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.article-content h2 {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.article-content h3 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #38bdf8; /* sky-400 */
+}
+
+.article-content h4 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #a78bfa; /* violet-400 */
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+
+.article-content strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.article-content em {
+  color: #e2e8f0; /* slate-200 */
+  font-style: italic;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.article-content ul {
+  list-style-type: disc;
+}
+
+.article-content ol {
+  list-style-type: decimal;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.article-content a {
+  color: #38bdf8; /* sky-400 */
+  text-decoration: underline;
+}
+
+.article-content a:hover {
+  color: #7dd3fc; /* sky-300 */
+}
+
+.article-content blockquote {
+  border-left: 4px solid #38bdf8;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #cbd5e1;
+  margin: 1.5rem 0;
+}
+
+.article-content code {
+  color: #f472b6; /* pink-400 */
+  background-color: rgba(30, 41, 59, 0.5);
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+.article-content pre {
+  background-color: rgba(30, 41, 59, 0.5);
+  border: 1px solid #334155; /* slate-700 */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.article-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.article-content img {
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin: 2rem auto;
+  max-width: 100%;
+}

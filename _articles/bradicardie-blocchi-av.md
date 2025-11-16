@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Bradicardia – Le Basi | Dr. Benjamin De Ornelas"
 description: "Bradicardia spiegata per pazienti. Quando è normale, quando preoccuparsi, sintomi e pacemaker."
 og_title: "Bradicardia – Le Basi"

@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Insufficienza Mitralica – Le Basi | Dr. Benjamin De Ornelas"
 description: "Insufficienza mitralica spiegata per pazienti. Cause, sintomi, ecocardiogramma, riparazione e sostituzione valvolare."
 og_title: "Insufficienza Mitralica – Le Basi"

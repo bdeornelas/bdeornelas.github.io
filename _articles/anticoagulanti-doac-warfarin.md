@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Anticoagulanti: Guida Pratica per Pazienti e Famiglie | Dr. Benjamin De Ornelas"
 description: "Informazioni chiare sugli anticoagulanti per chi deve assumerli: cosa sono, perché si usano, come gestirli nella vita quotidiana e quali precauzioni seguire."
 og_title: "Anticoagulanti - Guida per Pazienti e Famiglie"

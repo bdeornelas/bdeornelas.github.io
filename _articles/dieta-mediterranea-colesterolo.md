@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Dieta Mediterranea e Colesterolo – Le Basi | Dr. Benjamin De Ornelas"
 description: "Dieta mediterranea e colesterolo spiegati per pazienti. Come abbassa il colesterolo, cosa mangiare e quando servono i farmaci."
 og_title: "Dieta Mediterranea e Colesterolo – Le Basi"

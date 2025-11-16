@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Flutter Atriale – Le Basi | Dr. Benjamin De Ornelas"
 description: "Flutter atriale spiegato per pazienti. Sintomi, diagnosi, ablazione e prognosi."
 og_title: "Flutter Atriale – Le Basi"

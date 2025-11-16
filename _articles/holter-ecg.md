@@ -1,6 +1,6 @@
 ---
 collection: articles
-layout: "default"
+layout: "article"
 title: "Holter ECG – Le Basi | Dr. Benjamin De Ornelas"
 description: "Holter ECG spiegato per pazienti. Come funziona, quando serve, cosa aspettarsi e come prepararsi."
 og_title: "Holter ECG – Le Basi"
