@@ -369,20 +369,3 @@ I risultati migliori si ottengono in pazienti accuratamente selezionati con anat
 
 ---
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai:
-
-• Fiato corto durante l'attività fisica
-• Stanchezza insolita
-• Palpitazioni
-• Altri sintomi che potrebbero indicare insufficienza mitralica
-
-**CHIEDI ASSISTENZA MEDICA D'EMERGENZA** (chiama il 112 o recati al pronto soccorso) se hai:
-
-• Grave difficoltà respiratoria che inizia improvvisamente
-• Necessità di stare seduto o in piedi per respirare
-• Dolore forte al petto
-• Svenimento o perdita di coscienza
-• Battito cardiaco molto accelerato con pressione bassa
-

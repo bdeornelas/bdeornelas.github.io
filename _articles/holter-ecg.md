@@ -230,38 +230,6 @@ L'Holter richiede preparazione minima:
 
 **Documenti** – Porta la richiesta medica, la tessera sanitaria e un elenco dei farmaci che prendi.
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Dovresti contattare il tuo medico se hai sintomi che potrebbero richiedere un Holter ECG per identificarne la causa o valutare la gravità.
-
-**Situazioni che giustificano una visita medica:**
-
-**Palpitazioni ricorrenti** – Se hai episodi ripetuti di sensazione che il cuore batte troppo veloce, troppo forte, irregolarmente, o "salta battiti", specialmente se gli episodi durano più di pochi secondi, si verificano più volte a settimana, o sono associati ad altri sintomi come vertigini o affanno. Anche se le palpitazioni sono molto comuni e spesso benigne, solo il medico può decidere se è necessario un Holter o altri esami.
-
-**Vertigini o sensazioni di instabilità ricorrenti** – Se hai episodi ripetuti di vertigini, sensazione di testa vuota, instabilità, o quasi-svenimenti specialmente quando ti alzi in piedi, fai attività fisica, o senza apparente motivo. Questi sintomi potrebbero essere causati da aritmie, pressione bassa, o altri problemi che l'Holter può aiutare a identificare.
-
-**Affanno inspiegato** – Se hai difficoltà a respirare o ti senti senza fiato durante attività che prima facevi senza problemi, specialmente se associato a sensazione di battito cardiaco irregolare. L'affanno può avere molte cause, cardiache e non cardiache, e l'Holter può aiutare a determinare se il cuore batte in modo appropriato durante i sintomi.
-
-**Dolore toracico ricorrente** – Se hai episodi di dolore, pressione, o fastidio al petto, specialmente se il dolore si irradia al braccio sinistro, collo, o mandibola, anche se gli episodi durano solo pochi minuti. Anche se l'ECG fatto in pronto soccorso o in ambulatorio è normale, l'Holter può catturare cambiamenti che si verificano solo durante gli episodi di dolore.
-
-**Dopo una diagnosi di aritmia** – Se ti è stata diagnosticata un'aritmia come fibrillazione atriale, flutter atriale, o tachicardia sopraventricolare e hai iniziato una terapia, il medico potrebbe volere fare un Holter per verificare che i farmaci stiano controllando adeguatamente l'aritmia.
-
-**Controllo di pacemaker o defibrillatore** – Se hai un pacemaker o defibrillatore e avverti sintomi nuovi come palpitazioni, vertigini, sincope, o se percepisci shock dal defibrillatore, contatta il medico che potrebbe prescrivere un Holter oltre all'interrogazione del dispositivo impiantabile.
-
-**Chiamata immediata al 112 o pronto soccorso:**
-
-Ci sono situazioni in cui NON devi aspettare una visita medica programmata o un Holter ma devi cercare assistenza medica urgente immediatamente:
-
-**Dolore toracico grave o prolungato** – Dolore, pressione, o peso al petto che dura più di 5-10 minuti, specialmente se si irradia al braccio sinistro, collo, mandibola, o schiena, associato a sudorazione, nausea, o difficoltà a respirare. Questi sono sintomi di possibile **infarto miocardico acuto** che richiede trattamento urgente entro 60-90 minuti per salvare il muscolo cardiaco. Non aspettare che passi, non guidare tu stesso in ospedale, chiama immediatamente il 112.
-
-**Sincope con perdita completa di coscienza** – Se svieni completamente perdendo coscienza e cadendo a terra, specialmente se la perdita di coscienza dura più di pochi secondi o se ti riprendi confuso. La sincope improvvisa può essere causata da aritmie pericolose come tachicardia ventricolare o blocco cardiaco completo che richiedono valutazione urgente.
-
-**Palpitazioni molto rapide e prolungate con altri sintomi** – Se il cuore batte più di 150-180 battiti al minuto per più di 20-30 minuti associato a grave vertigine, pressione arteriosa molto bassa, dolore toracico, o grave difficoltà a respirare. Questo potrebbe indicare tachicardia ventricolare o altre aritmie pericolose che richiedono **cardioversione urgente**.
-
-**Difficoltà respiratoria grave** – Se hai improvvisa e grave difficoltà a respirare a riposo, sensazione di soffocare, respiro sibilante, o labbra/dita bluastre. Questi sintomi potrebbero indicare **edema polmonare acuto**, **embolia polmonare**, o altre emergenze che richiedono ossigeno e trattamento urgente.
-
-**Sintomi di ictus** – Improvvisa debolezza o intorpidimento di un lato del corpo, difficoltà a parlare o comprendere il linguaggio, problemi di vista, forte mal di testa, o perdita di equilibrio. L'ictus richiede trattamento urgentissimo entro 3-4.5 ore dall'inizio dei sintomi per somministrare farmaci trombolitici che sciolgono il coagulo. Ogni minuto conta: chiama immediatamente il 112 e non aspettare che i sintomi passino.
-
 ---
 
 **Disclaimer**

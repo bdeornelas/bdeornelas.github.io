@@ -311,36 +311,3 @@ Un programma strutturato di gestione dei fattori di rischio dovrebbe includere:
 
 Questo approccio olistico trasforma la fibrillazione atriale da una condizione trattata solo con farmaci e procedure a una malattia gestita anche attraverso modifiche dello stile di vita, dando al paziente un ruolo attivo e controllo sulla propria condizione.
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai:
-
-●Palpitazioni persistenti o ricorrenti (sensazione di battito cardiaco irregolare, accelerato, o con tremito nel petto)
-●Dispnea insolita durante attività che facevi normalmente senza problemi
-●Stanchezza insolita e persistente per settimane che limita le tue attività quotidiane
-●Vertigini o sensazione di testa leggera persistente o ricorrente
-●Se già hai diagnosi di fibrillazione atriale: noti che gli episodi diventano più frequenti, durano più a lungo, o i sintomi peggiorano nonostante il trattamento
-●Se prendi anticoagulanti: hai sanguinamenti anomali come sangue nelle urine, feci nere o sangue nelle feci, sanguinamento gengivale persistente, lividi inspiegabili
-
-**CERCA IMMEDIATAMENTE ASSISTENZA MEDICA D'URGENZA** (chiama il 118 o vai al pronto soccorso) se hai:
-
-●**Forte dolore toracico** con affanno, sudorazione, nausea, o dolore che si irradia a braccio, collo, mascella, o schiena (potrebbe essere un infarto miocardico acuto). Il dolore cardiaco di solito è descritto come oppressione, pressione, o peso sul petto
-
-●**Segni di ictus** – Debolezza improvvisa di un lato del corpo, paralisi facciale con sorriso asimmetrico, difficoltà a parlare o pronunciare le parole, problemi di vista improvvisi in uno o entrambi gli occhi, confusione improvvisa, perdita di equilibrio o coordinazione, mal di testa intenso improvviso senza causa nota. Usa il test **FAST** per riconoscere l'ictus: **F**ace (chiedi alla persona di sorridere - il sorriso è asimmetrico?), **A**rms (chiedi di alzare entrambe le braccia - un braccio cade?), **S**peech (chiedi di ripetere una frase semplice - la parola è confusa?), **T**ime (se noti uno qualsiasi di questi segni, chiama il 118 immediatamente). Ogni minuto conta nell'ictus: "**time is brain**" (il tempo è cervello)
-
-●Grave dispnea a riposo o impossibilità di sdraiarsi a letto senza sentire affanno (**ortopnea**) – Potrebbe indicare edema polmonare acuto da scompenso cardiaco
-
-●**Sincope** (perdita completa di coscienza con caduta a terra) – Richiede valutazione urgente per escludere aritmie pericolose o problemi strutturali cardiaci
-
-●Battito cardiaco estremamente veloce (più di 150-180 battiti al minuto a riposo) associato a pressione arteriosa bassa, sudorazione fredda, pallore, o sensazione di morte imminente – Potrebbe indicare fibrillazione atriale con risposta ventricolare molto rapida o degenerazione in aritmia ventricolare
-
-Se prendi anticoagulanti, chiama il 118 immediatamente se hai:
-
-●Sanguinamento che non si ferma dopo 10-15 minuti di pressione diretta
-●Sangue nelle urine (urina rossa o marrone scuro) abbondante
-●Feci nere catramose (**melena**) o sangue rosso vivo nelle feci (**ematochezia**) – Indica sanguinamento gastrointestinale
-●Vomito con sangue rosso vivo o con aspetto di fondi di caffè
-●Mal di testa improvviso molto intenso, peggiore mal di testa della tua vita, associato a confusione, vomito, rigidità del collo, o perdita di coscienza – Possibile emorragia intracranica
-●Trauma cranico anche apparentemente lieve mentre sei in terapia anticoagulante – Rischio di sanguinamento cerebrale anche con trauma minore
-
-La fibrillazione atriale è una condizione cronica gestibile. Con il trattamento appropriato che include anticoagulanti per prevenire l'ictus, controllo della frequenza o del ritmo per gestire i sintomi, e modifiche aggressive dei fattori di rischio modificabili, la maggior parte delle persone con fibrillazione atriale può vivere una vita normale e attiva con aspettativa di vita simile a chi non ha fibrillazione atriale.
