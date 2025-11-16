@@ -268,32 +268,3 @@ La maggior parte delle persone recupera completamente e torna alle normali attiv
 
 • **Alimentazione** – Con gli anticoagulanti orali moderni non ci sono restrizioni dietetiche. Con warfarin mantieni un'assunzione costante di verdure a foglia verde come spinaci, cavoli e broccoli
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico per un appuntamento programmato se:
-
-• Hai fattori di rischio importanti: chirurgia maggiore imminente, immobilizzazione prolungata prevista
-
-• Noti gonfiore, dolore o arrossamento a una gamba
-
-• Durante la terapia anticoagulante, hai sanguinamenti insoliti: sangue nelle urine, feci nere, lividi estesi senza traumi
-
-• I sintomi dopo l'embolia non migliorano gradualmente nelle settimane successive
-
-• Hai domande sulla durata della terapia anticoagulante o effetti collaterali
-
-**CHIAMA IL 118 O VAI AL PRONTO SOCCORSO** se hai:
-
-• Difficoltà respiratoria improvvisa, mancanza di respiro anche a riposo
-
-• Dolore toracico acuto che peggiora respirando profondamente
-
-• Tosse con sangue, anche in piccole quantità
-
-• Battito cardiaco molto accelerato, più di 120 battiti al minuto, con sudorazione
-
-• Svenimento o sensazione di imminente perdita di coscienza
-
-• Vertigini intense con debolezza improvvisa
-
-• Durante la terapia anticoagulante: sanguinamento abbondante che non si ferma, sangue nel vomito, mal di testa improvviso molto forte che potrebbe indicare emorragia cerebrale

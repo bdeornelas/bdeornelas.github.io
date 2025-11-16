@@ -238,20 +238,3 @@ Dopo valvuloplastica, circa 10-20 persone su 100 possono necessitare di un nuovo
 
 ---
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai:
-
-• Fiato corto durante l'attività fisica
-• Stanchezza insolita
-• Palpitazioni
-• Altri sintomi che potrebbero indicare stenosi mitralica
-
-**CHIEDI ASSISTENZA MEDICA D'EMERGENZA** (chiama il 112 o recati al pronto soccorso) se hai:
-
-• Grave difficoltà respiratoria a riposo o impossibilità di sdraiarti
-• Dolore forte al petto
-• Svenimento o perdita di coscienza
-• Tosse con sangue abbondante
-• Gonfiore improvviso e grave alle gambe con difficoltà a respirare
-
