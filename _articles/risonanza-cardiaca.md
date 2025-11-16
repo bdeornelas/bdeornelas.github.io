@@ -10,6 +10,8 @@ og_image: /assets/img/og-card.jpg
 date: "2025-09-10"
 ---
 
+# Risonanza Magnetica Cardiaca – Le Basi
+
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>
 <span class="mx-2">/</span>
@@ -67,7 +69,7 @@ date: "2025-09-10"
 <li>**Come il cuore pompa il sangue:** Misura quanto sangue il cuore riesce a spingere quando batte. Questo è molto importante per capire se il cuore funziona bene oppure no</li>
 <li>**Cicatrici e danni al cuore:** Se il cuore ha subito infarti o altri danni, la risonanza mostra esattamente dove sono le cicatrici e quanto tessuto è stato danneggiato</li>
 <li>**Infiammazione e gonfiore:** Permette di vedere se il cuore è infiammato (come accade nella miocardite, quando il cuore si gonfia per un'infezione o per altre cause)</li>
-<li>**Come scorre il sangue:** Può mostrare se le arterie coronariche (che nutrono il cuore) sono strette e se il sangue scorre normalmente</li>
+<li>**Come scorre il sangue:** Può mostrare se le arterie coronariche sono strette e se il sangue scorre normalmente</li>
 <li>**Trombi e masse:** Identifica eventuali coaguli di sangue o tumori dentro il cuore che potrebbero essere pericolosi</li>
 </ul>
 </div>
@@ -377,7 +379,7 @@ date: "2025-09-10"
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Quanto è rumorosa la macchina e perché produce questi rumori?</h3>
-<p class="text-slate-300">Lo scanner RMC produce rumori forti e ripetitivi durante l'acquisizione delle immagini, con intensità di 75-110 decibel (paragonabile a un martello pneumatico, aspirapolvere industriale, o aereo in decollo). I suoni sono: colpi metallici ritmici, fischi acuti, ronzii profondi, suoni pulsanti. Questi rumori sono causati dall'attivazione rapida delle **bobine di gradiente** (elettromagneti che generano campi magnetici variabili rapidamente, centinaia di volte al secondo, causando vibrazioni meccaniche del gantry). I rumori sono più intensi durante alcune sequenze (cine-imaging, perfusione) e più lievi durante altre (anatomici statici). Vengono sempre fornite **cuffie di protezione acustica** che riducono il rumore di 20-30 decibel e permettono ascolto di musica rilassante. Alcuni pazienti sensibili riferiscono lieve tinnito transitorio (acufene) per alcune ore post-esame che si risolve spontaneamente.</p>
+<p class="text-slate-300">Lo scanner RMC produce rumori forti e ripetitivi durante l'acquisizione delle immagini, con intensità di 75-110 decibel (paragonabile a un martello pneumatico, aspirapolvere industriale, o aereo in decollo). I suoni sono: colpi metallici ritmici, fischi acuti, ronzii profondi, suoni pulsanti. Questi rumori sono causati dall'attivazione rapida delle **bobine di gradiente**. I rumori sono più intensi durante alcune sequenze (cine-imaging, perfusione) e più lievi durante altre (anatomici statici). Vengono sempre fornite **cuffie di protezione acustica** che riducono il rumore di 20-30 decibel e permettono ascolto di musica rilassante. Alcuni pazienti sensibili riferiscono lieve tinnito transitorio (acufene) per alcune ore post-esame che si risolve spontaneamente.</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Devo davvero trattenere il respiro ripetutamente e per quanto tempo?</h3>

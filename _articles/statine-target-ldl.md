@@ -1,384 +1,273 @@
 ---
 collection: articles
 layout: "default"
-title: "Le Statine per il Colesterolo Alto: Cosa Sapere | Dr. Benjamin De Ornelas"
+title: "Le Statine per il Colesterolo Alto: Guida Pratica | Dr. Benjamin De Ornelas"
 description: "Informazioni chiare sulle statine per abbassare il colesterolo nel sangue, come funzionano, quando servono e cosa aspettarsi durante il trattamento."
 og_title: "Le Statine per il Colesterolo Alto - Guida per Pazienti"
-og_description: "Una guida completa e comprensibile sulle statine, i farmaci più usati per controllare il colesterolo e proteggere cuore e arterie."
+og_description: "Una guida semplice e pratica sulle statine, i farmaci per controllare il colesterolo e proteggere cuore e arterie."
 og_image: /assets/img/og-card.jpg
 
 date: "2025-10-29"
 ---
-<nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
-<a href="/" class="hover:text-sky-400">Home</a>
-<span class="mx-2">/</span>
-<a href="/articles/" class="hover:text-sky-400">Articoli</a>
-<span class="mx-2">/</span>
-<span class="text-white">Le statine per il colesterolo</span>
-</nav>
 
-<header class="mb-12" data-aos="fade-up">
-<div class="glass-card rounded-xl p-8 md:p-12">
-<div class="flex items-center gap-2 text-sky-400 text-sm font-medium mb-4">
-<i data-lucide="pill" class="w-4 h-4"></i>
-            TERAPIE • COLESTEROLO
-</div>
-<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-<span class="gradient-text">Le Statine per il Colesterolo:</span><br>
-<span class="text-white">cosa sapere e cosa aspettarsi</span>
-</h1>
-<p class="text-xl text-slate-300 leading-relaxed mb-8">
-            Le statine sono i farmaci più utilizzati per abbassare il colesterolo nel sangue e proteggere cuore e arterie. Capire come funzionano e quando servono aiuta a gestire meglio la propria salute cardiovascolare.
-</p>
-<div class="flex flex-wrap gap-4 text-sm text-slate-400">
-<div class="flex items-center gap-2">
-<i data-lucide="calendar" class="w-4 h-4"></i>
-              29 Ottobre 2025
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="clock" class="w-4 h-4"></i>
-              7 min di lettura
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="tag" class="w-4 h-4"></i>
-              Statine, Colesterolo, Prevenzione
-</div>
-</div>
-</div>
-</header>
+# Le Statine per il Colesterolo – Le Basi
 
-<article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
+Le **statine** (farmaci che riducono il colesterolo nel sangue) aiutano a proteggere il cuore abbassando il colesterolo LDL, il "colesterolo cattivo" che si accumula nelle arterie. Se il tuo colesterolo LDL è elevato, se hai avuto un infarto o un ictus, o se hai molti fattori di rischio cardiovascolare, il medico probabilmente ti prescriverà una statina.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="info" class="w-6 h-6 text-sky-400"></i>
-            Cos'è il colesterolo e perché va controllato
-</h2>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Il colesterolo cattivo nelle arterie</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Il <strong class="text-white">colesterolo cattivo</strong> è un tipo di grasso che circola nel sangue e può depositarsi nelle pareti delle arterie, formando placche che le restringono</li>
-<li>Pensare al colesterolo come sabbia che si accumula in un tubo: più sabbia c'è, più il tubo si restringe e meno sangue riesce a passare</li>
-<li>Questo processo avviene lentamente nel tempo e può portare a <strong class="text-white">infarto o ictus</strong> se non controllato</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Cosa dicono le ricerche scientifiche</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Decenni di studi su milioni di persone hanno dimostrato che abbassare il colesterolo cattivo nel sangue riduce significativamente il rischio di problemi al cuore</li>
-<li>Più si abbassa il colesterolo, maggiore è la protezione: non esiste un livello sotto il quale il beneficio scompare</li>
-<li>L'effetto protettivo si vede in tutte le persone, indipendentemente dall'età, dal sesso o dalla presenza di altre malattie</li>
-</ul>
-</div>
-</section>
+Circa 4-5 persone su 10 in Italia prendono statine. Gli studi dimostrano che riducono il rischio di infarto e ictus del 20-30% in chi è a rischio alto. Le statine sono tra i farmaci più studiati e sicuri disponibili.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="target" class="w-6 h-6 text-sky-400"></i>
-            Quando serve abbassare il colesterolo
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Non tutte le persone hanno bisogno dello stesso livello di colesterolo nel sangue. Il cardiologo valuta il rischio individuale in base alla storia clinica, alla presenza di malattie cardiache e ad altri fattori come diabete, pressione alta o fumo.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">A chi serve abbassare di più il colesterolo</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Chi ha già avuto problemi al cuore</strong> come infarto, angina o ictus: serve raggiungere livelli molto bassi di colesterolo per evitare recidive</li>
-<li><strong class="text-white">Chi ha il diabete da molti anni</strong> o problemi ai reni: queste condizioni aumentano il rischio cardiovascolare e richiedono controlli più stretti</li>
-<li><strong class="text-white">Chi ha molti fattori di rischio insieme</strong> come pressione alta, fumo, familiarità per problemi cardiaci: il rischio complessivo è più alto</li>
-<li><strong class="text-white">Chi ha il colesterolo molto alto da sempre</strong>: l'esposizione prolungata nel tempo danneggia le arterie anche in giovane età</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Considerazioni particolari</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Chi ha avuto un infarto recente o ripetuti episodi cardiovascolari può beneficiare di livelli ancora più bassi di colesterolo</li>
-<li>Se le arterie continuano a peggiorare nonostante il colesterolo già basso, può essere necessario intensificare ulteriormente la terapia</li>
-<li>L'età in cui inizia l'esposizione al colesterolo alto conta: più anni passano con valori elevati, più danni si accumulano</li>
-</ul>
-</div>
-</section>
+## COME FUNZIONANO LE STATINE?
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="pill" class="w-6 h-6 text-sky-400"></i>
-            Come funzionano le statine
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Le statine sono farmaci che agiscono sul fegato, riducendo la produzione di colesterolo da parte dell'organismo. In risposta, il fegato aumenta la capacità di rimuovere il colesterolo dal sangue, abbassandone i livelli circolanti.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">I diversi tipi di statine</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Statine più potenti</strong>: abbassano il colesterolo in modo più marcato e sono preferite quando serve raggiungere livelli molto bassi</li>
-<li><strong class="text-white">Statine di potenza intermedia</strong>: utilizzate in situazioni di rischio moderato o quando non è tollerata una dose più alta</li>
-<li><strong class="text-white">Statine più leggere</strong>: riservate a chi necessita solo di piccoli aggiustamenti o ha difficoltà con i dosaggi più alti</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Benefici oltre il colesterolo</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Le statine non abbassano solo il colesterolo: riducono anche l'infiammazione nelle arterie e stabilizzano le placche già presenti</li>
-<li>Migliorano la salute delle pareti dei vasi sanguigni, rendendoli più elastici e meno soggetti a lesioni</li>
-<li>L'effetto completo si vede dopo alcune settimane dall'inizio della terapia: per questo è importante continuare con costanza</li>
-</ul>
-</div>
-</section>
+Le statine funzionano in modo semplice: bloccano la produzione di colesterolo nel fegato. Meno colesterolo produci, più basso diventa il colesterolo LDL nel sangue.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="zap" class="w-6 h-6 text-sky-400"></i>
-            Quando serve aggiungere altri farmaci
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            A volte, anche con le statine più potenti, il colesterolo non scende abbastanza. In questi casi, o quando la statina non è ben tollerata, il cardiologo può prescrivere farmaci aggiuntivi che lavorano in sinergia.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Il farmaco che blocca l'assorbimento del colesterolo</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Esiste un farmaco che <strong class="text-white">impedisce all'intestino di assorbire il colesterolo</strong> proveniente dagli alimenti o dalla bile</li>
-<li>Si assume una volta al giorno e abbassa ulteriormente il colesterolo quando aggiunto alla statina</li>
-<li>Studi su migliaia di pazienti hanno dimostrato che questa combinazione riduce il rischio di infarti e ictus più della sola statina</li>
-<li>È generalmente ben tollerato e costa poco, per cui è spesso la prima opzione quando la statina da sola non basta</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Le iniezioni per abbassare il colesterolo molto alto</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Per chi ha colesterolo molto alto nonostante statina e altri farmaci, esistono terapie iniettive che si fanno ogni due settimane o una volta al mese</li>
-<li>Questi farmaci agiscono aumentando drasticamente la capacità del fegato di rimuovere il colesterolo dal sangue</li>
-<li>Possono abbassare il colesterolo di oltre la metà e sono molto efficaci nel prevenire nuovi eventi cardiovascolari</li>
-<li>Sono riservati a persone ad altissimo rischio o con forme familiari di colesterolo alto</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">La strategia passo dopo passo</h3>
-<ol class="text-slate-300 space-y-2 ml-5 list-decimal">
-<li><strong class="text-white">Primo passo</strong>: iniziare con una statina potente</li>
-<li><strong class="text-white">Secondo passo</strong>: se dopo qualche settimana il colesterolo non è abbastanza basso, aggiungere il farmaco che blocca l'assorbimento intestinale</li>
-<li><strong class="text-white">Terzo passo</strong>: se ancora il colesterolo resta alto, considerare le iniezioni mensili</li>
-<li>Se la statina non è tollerata, combinare gli altri due farmaci tra loro</li>
-</ol>
-</div>
-</section>
+**Il meccanismo:**
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="activity" class="w-6 h-6 text-sky-400"></i>
-            Quanto funzionano le statine: i risultati degli studi
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Le statine sono tra i farmaci più studiati al mondo. Centinaia di ricerche su milioni di persone hanno dimostrato che abbassare il colesterolo con le statine riduce concretamente il rischio di infarto, ictus e morte cardiovascolare.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Benefici concreti in numeri accessibili</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>In chi ha già avuto un infarto o problemi al cuore, le statine prevengono un nuovo evento grave in circa una persona ogni venti-quaranta trattate per cinque anni</li>
-<li>In chi non ha ancora avuto problemi ma ha fattori di rischio elevati, prevengono un evento in una persona ogni cinquanta-cento trattate</li>
-<li>Più alto è il rischio iniziale, maggiore è il beneficio: chi è più a rischio trae più vantaggio dalla terapia</li>
-<li>Il beneficio si mantiene nel tempo e aumenta più a lungo si prosegue la terapia</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Le ricerche fondamentali</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Già negli anni Novanta studi su migliaia di pazienti dopo infarto hanno dimostrato che le statine riducono la mortalità cardiovascolare di oltre un terzo</li>
-<li>Studi più recenti hanno confermato che abbassare molto il colesterolo dopo un infarto riduce ulteriormente il rischio di nuovi eventi</li>
-<li>Anche in prevenzione primaria, le statine hanno dimostrato benefici chiari in chi ha rischio elevato</li>
-<li>Le combinazioni di farmaci offrono protezione aggiuntiva rispetto alla sola statina</li>
-</ul>
-</div>
-</section>
+Il fegato produce colesterolo naturalmente. Le statine bloccano un enzima (HMG-CoA reduttasi) che controlla questa produzione. In risposta, il fegato assorbe più colesterolo LDL dal sangue per compensare. Risultato: colesterolo nel sangue diminuisce del 30-60% a seconda del farmaco e del dosaggio.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="alert-triangle" class="w-6 h-6 text-sky-400"></i>
-            Effetti collaterali: cosa sapere senza preoccuparsi
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Come tutti i farmaci, le statine possono dare effetti collaterali, ma nella maggior parte dei casi sono ben tollerati. È importante conoscere i sintomi da segnalare al medico e sapere che esistono soluzioni per ogni situazione.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Disturbi muscolari: i più comuni ma gestibili</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Alcune persone avvertono <strong class="text-white">dolori o debolezza muscolare</strong>, soprattutto nelle prime settimane di terapia</li>
-<li>Questi disturbi sono generalmente lievi e spesso migliorano cambiando tipo di statina o riducendo la dose</li>
-<li>Raramente i dolori muscolari sono seri: il medico controlla con esami del sangue se necessario</li>
-<li>Molte persone che non tollerano una statina riescono a prenderne un'altra senza problemi</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Altri effetti da conoscere</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>In rari casi le statine possono alterare leggermente gli esami del fegato: per questo il medico controlla periodicamente le analisi</li>
-<li>Esiste un piccolo aumento del rischio di sviluppare il diabete, ma i benefici cardiovascolari superano ampiamente questo rischio</li>
-<li>Alcuni farmaci possono interagire con le statine: è importante informare il medico di tutte le terapie assunte</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Come gestire i disturbi muscolari</h3>
-<ol class="text-slate-300 space-y-2 ml-5 list-decimal">
-<li>Segnalare al cardiologo eventuali dolori muscolari nuovi o persistenti</li>
-<li>Il medico verificherà se ci sono altre cause possibili come carenza di vitamine o problemi alla tiroide</li>
-<li>Se confermato che è la statina, si prova a cambiarla o ridurre la dose</li>
-<li>In molti casi si aggiunge il farmaco che blocca l'assorbimento intestinale per compensare</li>
-<li>Se proprio non è possibile assumere statine, esistono alternative efficaci</li>
-</ol>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Chi è più a rischio di effetti collaterali</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Persone molto anziane, di costituzione minuta, o con problemi ai reni o al fegato</li>
-<li>Chi prende molti farmaci contemporaneamente, soprattutto alcuni antibiotici, antimicotici o farmaci per il cuore</li>
-<li>Chi ha già avuto in passato problemi muscolari o malattie della tiroide</li>
-<li>Chi beve alcolici in eccesso o fa attività fisica molto intensa</li>
-</ul>
-</div>
-</section>
+L'effetto massimo si vede dopo 4-6 settimane. Le statine a lunga durata (atorvastatina, rosuvastatina) puoi prenderle a qualsiasi ora del giorno.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="clipboard-list" class="w-6 h-6 text-sky-400"></i>
-            I controlli durante la terapia: cosa aspettarsi
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Chi inizia una terapia per il colesterolo deve fare controlli periodici per verificare l'efficacia del trattamento e la tollerabilità. I controlli sono semplici e diventano meno frequenti una volta raggiunto l'obiettivo.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Calendario dei controlli</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Prima di iniziare</strong>: analisi del sangue complete con colesterolo, funzionalità del fegato e dei reni, glicemia</li>
-<li><strong class="text-white">Dopo un mese o due</strong>: controllo del colesterolo per vedere se la terapia funziona; se necessario si aggiusta la dose</li>
-<li><strong class="text-white">Dopo tre mesi</strong>: verifica della funzionalità del fegato e nuovo controllo del colesterolo se non ancora a target</li>
-<li><strong class="text-white">Successivamente</strong>: controlli ogni sei-dodici mesi una volta stabilizzata la terapia</li>
-<li><strong class="text-white">Se compaiono dolori muscolari</strong>: analisi specifiche immediate per escludere problemi seri</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quando sospendere temporaneamente la statina</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Se gli esami mostrano un danno muscolare importante con valori molto alterati</li>
-<li>Se il fegato mostra segni di sofferenza persistenti negli esami</li>
-<li>Se si devono assumere farmaci che interagiscono in modo pericoloso con le statine</li>
-<li>In caso di interventi chirurgici importanti, il medico valuterà caso per caso</li>
-</ul>
-</div>
-</section>
+## QUALI STATINE ESISTONO?
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="user-check" class="w-6 h-6 text-sky-400"></i>
-            Interazioni con altri farmaci
-</h2>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Farmaci che possono aumentare gli effetti collaterali</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Alcuni antibiotici e antimicotici possono far aumentare i livelli di statina nel sangue, aumentando il rischio di disturbi muscolari</li>
-<li>Alcuni farmaci per il cuore come certi calcio-antagonisti o l'amiodarone richiedono attenzione</li>
-<li>Il succo di pompelmo in grandi quantità può interferire con alcune statine</li>
-<li>Quando possibile, il medico sceglie statine meno soggette a interazioni</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Farmaci per abbassare i trigliceridi</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Alcuni farmaci per i trigliceridi alti non possono essere associati alle statine perché aumentano molto il rischio di problemi muscolari</li>
-<li>Altri invece possono essere usati insieme ma con cautela e monitoraggio attento</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Altri farmaci da segnalare</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Gli anticoagulanti possono essere influenzati dalle statine: occorre controllare più spesso i valori della coagulazione all'inizio</li>
-<li>Alcuni farmaci per problemi gastrointestinali possono avere interazioni</li>
-<li>È sempre importante informare il cardiologo e il medico di famiglia di tutti i farmaci assunti, anche quelli senza ricetta</li>
-</ul>
-</div>
-</section>
+**Statine ad alta intensità** (riducono colesterolo LDL del 50% o più):
+- Atorvastatina 40-80 mg al giorno
+- Rosuvastatina 20-40 mg al giorno
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="trending-up" class="w-6 h-6 text-sky-400"></i>
-            Come è cambiato l'approccio al colesterolo negli anni
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            Negli ultimi decenni, grazie a ricerche sempre più approfondite, si è capito che abbassare il colesterolo più di quanto si pensasse in passato porta benefici ancora maggiori. Oggi gli obiettivi sono più ambiziosi ma anche più efficaci.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">L'evoluzione delle conoscenze</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Negli anni Ottanta si pensava che fosse sufficiente abbassare moderatamente il colesterolo</li>
-<li>Con il tempo, studi su decine di migliaia di pazienti hanno dimostrato che abbassarlo molto di più riduce ulteriormente infarti e ictus</li>
-<li>Oggi sappiamo che non esiste un livello troppo basso: più si scende, maggiore è la protezione</li>
-<li>Le nuove linee guida raccomandano livelli molto bassi soprattutto per chi è ad alto rischio</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Perché questo cambiamento</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Decine di studi hanno dimostrato che ogni ulteriore riduzione del colesterolo porta benefici aggiuntivi senza aumentare i rischi</li>
-<li>Ricerche genetiche su persone nate con colesterolo molto basso hanno confermato che è sicuro avere livelli bassi per tutta la vita</li>
-<li>Sono disponibili nuovi farmaci molto efficaci e sicuri che permettono di raggiungere obiettivi ambiziosi</li>
-</ul>
-</div>
-</section>
+Indicate se hai: infarto precedente, ictus, malattia coronarica, alto rischio cardiovascolare.
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="users" class="w-6 h-6 text-sky-400"></i>
-            Personalizzare la terapia: ogni persona è diversa
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-            La terapia per il colesterolo non è uguale per tutti. Il cardiologo valuta il rischio individuale, le altre malattie presenti, l'età, la tollerabilità dei farmaci e le preferenze del paziente per trovare la strategia migliore.
-</p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa considera il medico</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Il rischio cardiovascolare complessivo</strong>: non solo il colesterolo, ma anche pressione, diabete, fumo, familiarità e altre condizioni</li>
-<li><strong class="text-white">Le altre malattie presenti</strong>: problemi ai reni, al fegato, diabete o altre patologie influenzano la scelta della terapia</li>
-<li><strong class="text-white">L'età e l'aspettativa di vita</strong>: nelle persone molto anziane si valuta attentamente il rapporto benefici-rischi</li>
-<li><strong class="text-white">I farmaci già assunti</strong>: per evitare interazioni e semplificare il più possibile le terapie</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Come migliorare l'aderenza alla terapia</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Capire i benefici concreti della terapia aiuta a prenderla con costanza</li>
-<li>Affrontare subito eventuali effetti collaterali con il medico permette di trovare soluzioni</li>
-<li>Esistono combinazioni di farmaci in un'unica compressa per semplificare l'assunzione</li>
-<li>Controlli regolari con feedback sui risultati motivano a proseguire la terapia</li>
-<li>È importante coinvolgersi nelle decisioni e discutere apertamente dubbi e preoccupazioni</li>
-</ul>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Situazioni particolari</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li><strong class="text-white">Colesterolo alto familiare</strong>: chi ha forme genetiche necessita terapie più intensive fin da giovani</li>
-<li><strong class="text-white">Diabete</strong>: le statine sono generalmente raccomandate per proteggere cuore e arterie</li>
-<li><strong class="text-white">Malattie renali</strong>: le statine sono efficaci fino a stadi moderati di insufficienza renale</li>
-<li><strong class="text-white">Donne in età fertile</strong>: le statine non vanno assunte in gravidanza, serve una contraccezione efficace durante la terapia</li>
-</ul>
-</div>
-</section>
+**Statine a intensità moderata** (riducono LDL del 30-50%):
+- Atorvastatina 10-20 mg
+- Rosuvastatina 5-10 mg
+- Simvastatina 20-40 mg
+- Pravastatina 40-80 mg
 
-<section>
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="clipboard-check" class="w-6 h-6 text-sky-400"></i>
-            In sintesi: i punti essenziali
-</h2>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Da ricordare</h3>
-<ul class="text-slate-300 space-y-2 ml-5 list-disc">
-<li>Le statine sono farmaci molto efficaci per abbassare il colesterolo cattivo e proteggere cuore e arterie</li>
-<li>Chi ha già avuto problemi cardiaci o ha rischio elevato beneficia di più dalla terapia</li>
-<li>Spesso serve combinare più farmaci per raggiungere gli obiettivi, soprattutto nelle persone ad alto rischio</li>
-<li>Gli effetti collaterali sono generalmente rari e gestibili: esistono soluzioni per ogni situazione</li>
-<li>I controlli periodici servono a verificare l'efficacia e la tollerabilità, ma diventano meno frequenti col tempo</li>
-<li>Continuare la terapia con costanza è fondamentale: i benefici si vedono sul lungo periodo</li>
-<li>È importante comunicare con il medico per personalizzare la terapia e affrontare eventuali dubbi</li>
-</ul>
-</div>
-<p class="text-slate-400 text-sm">Approfondimenti: <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/colesterolo-alto/">quando il colesterolo è alto</a>, <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/prevenzione-cardiovascolare/">prevenzione cardiovascolare</a>, <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/dieta-mediterranea-colesterolo/">alimentazione per il colesterolo</a>.</p>
-</section>
+Indicate se rischio cardiovascolare moderato o tolleranza limitata a dosi alte.
 
-</article>
+**Statine a bassa intensità** (riducono LDL di meno del 30%):
+- Simvastatina 10 mg
+- Pravastatina 10-20 mg
+- Fluvastatina 20-40 mg
+
+Rare, usate solo in situazioni particolari.
+
+## QUALI SONO GLI OBIETTIVI DI COLESTEROLO LDL?
+
+Il tuo obiettivo di colesterolo LDL dipende dal tuo rischio cardiovascolare (probabilità di infarto o ictus nei prossimi anni). Il cardiologo lo calcola considerando: età, pressione arteriosa, diabete, abitudine al fumo, storia di malattie cardiache in famiglia, malattie cardiache già presenti.
+
+**Obiettivi consigliati:**
+
+- **Altissimo rischio** (infarto/ictus precedente, diabete con danno, malattia renale grave): colesterolo LDL inferiore a 55 mg/dL
+- **Alto rischio** (colesterolo molto alto, diabete, molti fattori di rischio): LDL inferiore a 70 mg/dL
+- **Rischio moderato** (giovani con diabete, pochi altri fattori): LDL inferiore a 100 mg/dL
+
+Regola generale: più basso è il colesterolo LDL, meglio è. Non esiste un livello "troppo basso" di colesterolo LDL.
+
+Se il colesterolo LDL non cala abbastanza con la statina da sola, il medico aggiunge altri farmaci (vedi sezione successiva).
+
+## QUANDO SERVONO FARMACI AGGIUNTIVI?
+
+Circa 1-2 persone su 10 tratteggiate con statine ad alta intensità non raggiungono l'obiettivo di colesterolo LDL. Il medico allora aggiunge:
+
+**Ezetimibe:**
+
+L'ezetimibe blocca l'assorbimento del colesterolo che mangi dall'intestino. Assunto insieme alla statina riduce ulteriormente il colesterolo LDL del 15-20%.
+
+- Dosaggio: 10 mg al giorno
+- Effetti collaterali: rari
+- Costo: contenuto
+
+**Inibitori di PCSK9:**
+
+Questi sono farmaci nuovi (anticorpi monoclonali) che potenziato molto l'effetto delle statine. Riducono colesterolo LDL del 55-70% quando aggiunti a statina ed ezetimibe.
+
+- Farmaci disponibili: evolocumab, alirocumab
+- Come si prendono: iniezione sottocutanea ogni 2 settimane o una volta al mese
+- Indicati in: altissimo rischio con LDL persistentemente elevato, intolleranza alle statine, colesterolo geneticamente molto alto
+- Costo: elevato, circa 500-1000 euro al mese. Richiedono approvazione della mutua.
+
+**Algoritmo pratico (step per step):**
+
+1. Inizia con statina ad alta intensità (atorvastatina 40-80 o rosuvastatina 20-40). Controlla LDL dopo 6 settimane
+2. Se LDL non a obiettivo: aggiungi ezetimibe 10 mg. Controlla dopo 6 settimane
+3. Se ancora non a obiettivo: aggiungi inibitore PCSK9 (se disponibile e approvato)
+
+## QUALI SONO GLI EFFETTI COLLATERALI?
+
+Le statine sono ben tollerate. Circa 85-90 persone su 100 non hanno effetti collaterali significativi.
+
+**Dolori muscolari (mialgia):**
+
+Circa 10-15 persone su 100 riferiscono dolori muscolari, debolezza o crampi. Importante: studi controllati mostrano che il 50% di questi sintomi non è causato dalla statina (effetto placebo).
+
+**Cosa fare:**
+
+- Se dolori tollerabili: continua la statina e monitora
+- Se dolori intollerabili: parla col medico. Opzioni: cambiare statina, ridurre dosaggio, statina a giorni alterni
+- Circa 60-70% dei pazienti tollera una statina diversa senza problemi
+- Se tutti i dolori muscolari sono gravi: considerare ezetimibe + inibitori PCSK9 al posto della statina
+
+Il medico controllerà i livelli di un enzima muscolare (CK). Se CK normale, i sintomi probabilmente non sono dalla statina.
+
+**Miopatia grave (rara):**
+
+Danno muscolare serio con elevazione massiccia di CK si verifica in meno di 1 persona su 1000 per anno. Rabdomiolisi (danno muscolare pericolo di vita) è ancora più rara: 1-3 casi per 100.000 pazienti-anno.
+
+**Aumento di transaminasi epatiche:**
+
+Circa 1-2 persone su 100. Di solito non è grave e asintomatico. Danno epatico serio (ittero, insufficienza) è raro.
+
+**Aumento del rischio di diabete:**
+
+Le statine aumentano il rischio di sviluppare diabete di circa il 9-12%. In termini concreti: 1-2 persone su 100 trattate per 5 anni sviluppano diabete che non avrebbero altrimenti avuto. Però i benefici cardiovascolare superano ampiamente questo rischio, anche se sviluppi diabete.
+
+**Effetti cognitivi:**
+
+Non c'è evidenza che le statine causino declino cognitivo o demenza. È un mito sfatato da studi scientifici.
+
+**Effetti oftalmici:**
+
+Aumento lieve del rischio di cataratta (circa 1 caso su 2000 per 5 anni). Beneficio cardiovascolare supera ampiamente questo rischio.
+
+## QUALI CONTROLLI SERVONO?
+
+**Prima di iniziare:**
+- Profilo lipidico completo (colesterolo totale, LDL, HDL, trigliceridi)
+- Transaminasi epatiche (ALT, AST)
+- Funzionalità renale (creatinina)
+- TSH (ormone tiroideo)
+- CK solo se hai sintomi muscolari o molti fattori di rischio
+
+**Dopo 4-6 settimane:**
+- Profilo lipidico per verificare se raggiungi l'obiettivo
+- Se non a obiettivo: intensifica la terapia
+
+**Dopo 8-12 settimane:**
+- Transaminasi epatiche se normali, non ripeterle di routine
+
+**Una volta stabile (ogni 6-12 mesi):**
+- Profilo lipidico per verificare mantenimento dell'obiettivo
+- Funzionalità renale
+
+**Se compaiono sintomi muscolari:**
+- CK immediatamente
+- Se CK normale: probabilmente non è dalla statina, continua
+- Se CK elevata: parla col medico
+
+## QUALI FARMACI INTERAGISCONO CON LE STATINE?
+
+Molti farmaci aumentano i livelli di statina nel sangue aumentando il rischio di miopatia:
+
+**Evitare o usare con cautela:**
+- Antibiotici: claritromicina, eritromicina
+- Antimicotici: itraconazolo, ketoconazolo, voriconazolo
+- Antivirali HIV: ritonavir, lopinavir
+- Alcuni anticoagulanti e antiaritmici: ciclosporina, amiodarone, verapamil, diltiazem
+- Gemfibrozil (per trigliceridi): evitare, aumenta molto il rischio. Usare fenofibrato se necessario
+
+**Se necessario farmaco che interagisce:**
+- Preferisci statine meno soggette a interazioni (pravastatina, rosuvastatina)
+- Riduci il dosaggio della statina
+- Monitorare sintomi muscolari
+
+**Succo di pompelmo:**
+- Se consumi regolarmente grandi quantità (>1 litro al giorno): può aumentare livelli di atorvastatina, simvastatina, lovastatina
+- Un bicchiere occasionale non è un problema
+- Rosuvastatina, pravastatina, fluvastatina non interagiscono
+
+**Warfarin (anticoagulante):**
+- Alcune statine possono potenziarne l'effetto
+- Controlla INR più frequentemente (ogni 3-7 giorni) quando inizi o cambi dosaggio statina
+
+## QUANTO EFFICACI SONO LE STATINE?
+
+Gli studi dimostrano benefici consolidati:
+
+**Numeri concreti:**
+
+Ogni riduzione di circa 40 mg/dL di colesterolo LDL riduce il rischio di:
+- Infarto miocardico del 27%
+- Ictus ischemico del 17%
+- Necessità di interventi coronarici del 24%
+- Morte cardiovascolare del 12%
+
+**In pratica:**
+
+**Se hai già avuto infarto o ictus** (prevenzione secondaria): circa 4-5 persone su 100 trattate per 5 anni evitano un nuovo evento cardiovascolare grave
+
+**Se non hai mai avuto infarto/ictus ma rischio alto** (prevenzione primaria): circa 2-3 persone su 100 trattate per 5 anni evitano un infarto o ictus
+
+Il beneficio aumenta se il rischio basale è più alto. Persone a rischio altissimo traggono più vantaggio.
+
+## COME PRENDERE LE STATINE CORRETTAMENTE
+
+**Regole di base:**
+
+- Prendi sempre alla stessa ora (tolleranza ±2 ore). Usa allarme sul telefono
+- La maggior parte delle statine può essere presa a qualsiasi ora, con o senza cibo
+- Non raddoppiare mai la dose se la dimentichi
+- Non smettere improvvisamente: smettere può aumentare il rischio di infarto entro pochi giorni
+- Porta sempre con te lista completa dei farmaci
+
+**Se dimentichi una dose:**
+
+- Se meno di 12 ore dal solito orario: prendi la dose
+- Se più di 12 ore: salta e prendi la prossima all'orario normale
+
+Dimenticare dosi frequentemente (più di 2 a settimana) riduce la protezione cardiovascolare del 30-50%. Usa portapillole settimanali.
+
+## COSA POSSO E NON POSSO FARE?
+
+**Attività fisica:**
+
+L'esercizio regolare è **consigliato** e non aumenta il rischio di sintomi muscolari. Fai 30 minuti di attività moderata 5 giorni a settimana: camminata, nuoto, ciclismo, palestra.
+
+**Dieta:**
+
+Non ci sono restrizioni alimentari con le statine (solo se prendi warfarin, mantenere costante la vitamina K da verdure).
+
+**Alcol:**
+
+Consumo moderato (1-2 unità al giorno) è sicuro. Alcol eccessivo aumenta il rischio di danno epatico.
+
+**Gravidanza:**
+
+Le statine sono **controindicati** in gravidanza (rischio malformazioni fetali). Se vuoi rimanere incinta, parla col medico prima per un'alternativa.
+
+## SITUAZIONI PARTICOLARI
+
+**Intolleranza alle statine:**
+
+Se tutti i tipi di statina causano sintomi intollerabili:
+- Aggiungi ezetimibe (funziona senza statina, riduce LDL del 15-20%)
+- Considera inibitore PCSK9
+- Chiedi al cardiologo altre alternative
+
+Non smettere completamente il controllo del colesterolo.
+
+**Colesterolo geneticamente molto alto** (ipercolesterolemia familiare):
+
+Colesterolo LDL >190-200 fin dall'infanzia. Richiede terapia intensiva: statina ad alta dose + ezetimibe + spesso inibitore PCSK9. Screening familiare consigliato.
+
+**Diabete:**
+
+Tutti i diabetici tra 40 e 75 anni dovrebbero prendere statine. Il lieve aumento di rischio di peggioramento glicemico è ampiamente compensato dalla protezione cardiovascolare.
+
+**Malattia renale cronica:**
+
+Le statine sono efficaci se hai funzionalità renale moderatamente ridotta. Parla col nefrologo per il dosaggio appropriato.
+
+**Anziani fragili:**
+
+Se molto anziano (>75 anni) con molte altre malattie e aspettativa di vita limitata, il beneficio di statine in prevenzione primaria è meno certo. Decisione individualizzata con il medico.
+
+## MESSAGGI CHIAVE DA RICORDARE
+
+- Le statine riducono il colesterolo LDL del 30-60% bloccando la produzione nel fegato
+- L'obiettivo di colesterolo LDL varia: inferiore a 55 mg/dL se altissimo rischio, inferiore a 70 se alto rischio
+- Quando statina da sola non basta: aggiungi ezetimibe, poi eventualmente inibitore PCSK9
+- Effetti collaterali rari e gestibili: dolori muscolari nel 10-15%, ma il 50% non è dalla statina
+- Controlli: profilo lipidico dopo 6 settimane, epatici dopo 12 settimane, poi ogni 6-12 mesi
+- L'aderenza è essenziale: beneficio si accumula nel tempo. Circa 50-60 su 100 abbandona la terapia entro 2 anni per scarsa educazione
+- Comunica apertamente con il cardiologo se percepisci effetti collaterali: esistono sempre soluzioni
+
+Se hai domande o dubbi, parla sempre con il tuo medico o cardiologo prima di cambiare o interrompere la terapia.
+

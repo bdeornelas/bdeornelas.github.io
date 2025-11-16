@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bdeornelas.github.io/sitemap.xml
+Sitemap: https://benjamindeornelas.it/sitemap.xml

@@ -37,12 +37,7 @@ I seguenti pattern sono stati **confermati tramite analisi diretta** di articoli
 
 ### 🔤 Pattern Linguistici Confermati
 
-1. **Formula nomi farmaci**: `[Generico] (brand name: [Commerciale])`
-   - Esempi reali verificati:
-     - "enoxaparin (brand name: Lovenox)"
-     - "warfarin (brand name: Jantoven, also called Coumadin in some places)"
-     - "apixaban (brand name: Eliquis)"
-   - Nota: "brand names:" (plurale) quando ce n'è più d'uno
+
 
 2. **Abbreviazioni**: `[Termine completo], or "[Abbreviazione]"`
    - Esempi reali verificati:
@@ -56,32 +51,6 @@ I seguenti pattern sono stati **confermati tramite analisi diretta** di articoli
    - "Echocardiogram (ultrasound of the heart)"
    - Sempre: termine tecnico PRIMO, poi spiegazione tra parentesi
 
-### 🔗 Cross-References Standard
-
-Formula esatta per rimandi ad altri articoli:
-
-```
-"More information about [topic] is available separately.
-Ask your doctor for the UpToDate handout on "[Titolo Esatto]"."
-```
-
-Esempio reale:
-```
-"More information about how to stay safe while taking an anticoagulant
-is available separately. Ask your doctor for the UpToDate handout on
-"How to take anticoagulants safely.""
-```
-
-### 📄 Disclaimer Obbligatorio
-
-- **Breve disclaimer in alto**: "Please read the Disclaimer at the end of this page."
-- **Disclaimer completo a fine articolo** con:
-  - "This generalized information is a limited summary..."
-  - "It is not meant to be comprehensive..."
-  - "It is not intended to be medical advice..."
-  - "Patients must speak with a health care provider..."
-
----
 
 ## 📋 INDICE
 
@@ -193,24 +162,6 @@ Red flags + quando chiamare medico/emergenza
 ```
 
 **Nota**: Non tutti gli articoli hanno tutte le sezioni - dipende dalla condizione.
-
-#### 4. BOX INFORMATIVI
-
-UpToDate usa box per:
-- **Emergenze**: "GET MEDICAL HELP RIGHT AWAY if you have..."
-- **Sintomi chiave**: Elenchi puntati dei sintomi principali
-- **Decisioni terapeutiche**: Opzioni con pro/contro
-- **Definizioni**: Spiegazioni di termini complessi
-
-**Formato visivo**:
-```
-┌─────────────────────────────────────┐
-│ [ICONA] TITOLO BOX                  │
-│                                      │
-│ Contenuto del box con informazioni  │
-│ critiche o pratiche                 │
-└─────────────────────────────────────┘
-```
 
 ---
 
@@ -396,7 +347,6 @@ Frase conclusiva (transizione/riassume)
 UpToDate usa generosamente lo spazio bianco:
 - Riga vuota tra paragrafi
 - Riga vuota prima/dopo liste
-- Riga vuota prima/dopo box informativi
 - Riga vuota prima/dopo intestazioni
 
 **Densità testo**: ~50-60% della pagina è testo, resto è spazio
@@ -480,7 +430,7 @@ When symptoms occur, they can include:
 • [Sintomo 2] – [Descrizione/frequenza]
 • [Sintomo 3] – [Descrizione/frequenza]
 
-[Box] GET EMERGENCY HELP if you have:
+**Call your doctor right away if you have:**
 • [Sintomo grave 1]
 • [Sintomo grave 2]
 ```
@@ -604,7 +554,6 @@ room) if:
 - Liste puntate: 3-6 per articolo
 
 #### ELEMENTI VISIVI (non testuali)
-- Box informativi: 2-4 per articolo
 - Immagini/Diagrammi: 1-3 (quando rilevanti)
 - Tabelle: 0-2 (raramente)
 
@@ -766,10 +715,9 @@ Treatment for atrial fibrillation has several goals:
 Most people with atrial fibrillation need to take an anticoagulant
 (blood thinner) to prevent stroke. Options include:
 
-• **Warfarin (sample brand name: Coumadin)** – Requires regular
-  blood tests to monitor
-• **Apixaban (Eliquis)** – Does not require blood tests
-• **Rivaroxaban (Xarelto)** – Does not require blood tests
+• **Warfarin** – Requires regular blood tests to monitor
+• **Apixaban** – Does not require blood tests
+• **Rivaroxaban** – Does not require blood tests
 
 ### Controlling heart rate
 
@@ -792,7 +740,6 @@ For some people, doctors try to restore normal rhythm using:
 **Differenze chiave**:
 - Struttura gerarchica chiara (obiettivi → categorie → opzioni)
 - Zero buzzwords AI ("comprehensive", "leverage", "navigate")
-- Nome generico + (brand name) per farmaci
 - Spiegazione immediata procedure
 - Zero rassicurazioni generiche ("molti stanno bene")
 - Tono neutrale e informativo
@@ -920,7 +867,7 @@ If a blood clot travels from the leg to the lungs, it is called a
 "pulmonary embolism," or "PE."
 ```
 
-#### Template 3: Lista Farmaci (Formula ESATTA)
+#### Template 3: Lista Farmaci
 
 **Pattern confermato**:
 ```
@@ -930,12 +877,11 @@ There are different types of [category]. [Most common type sentence].
 
 [Administration method sentence]. Examples include:
 
-●[Generic name] (brand name: [Brand])
-●[Generic name] (brand name: [Brand])
-●[Generic name] (brand names: [Brand1], [Brand2])
-●[Generic name] (brand name: [Brand], also called [OtherBrand] in some places)
+●[Generic name]
+●[Generic name]
+●[Generic name]
 
-"[Special type]," such as [specific name] (brand name: [Brand])
+"[Special type]," such as [specific name]
 
 In some cases, [alternative approach]. Examples include:
 
@@ -952,24 +898,19 @@ that you take by mouth.
 
 Most people who need an anticoagulant take a pill. Examples include:
 
-●Apixaban (brand name: Eliquis)
-●Dabigatran (brand name: Pradaxa)
-●Edoxaban (brand names: Savaysa, Lixiana)
-●Rivaroxaban (brand name: Xarelto)
-●Warfarin (brand name: Jantoven, also called Coumadin in some places)
+●Apixaban
+●Dabigatran
+●Edoxaban
+●Rivaroxaban
+●Warfarin
 
-"Low molecular weight heparin," such as enoxaparin (brand name: Lovenox)
+"Low molecular weight heparin," such as enoxaparin
 
 In some cases, people need anticoagulant shots. Examples include:
 
 ●Heparin – Given in the hospital through an "IV"
 ●"Low molecular weight heparin" – Given as a shot under the skin
 ```
-
-**Note chiave**:
-- "brand name:" (singolare) quando c'è un solo brand
-- "brand names:" (plurale) quando ce ne sono due o più
-- ", also called [Name] in some places" per varianti regionali
 
 #### Template 4: Domanda Comparativa con Tabella
 
@@ -1085,11 +1026,9 @@ Questo pattern appare costantemente per spiegare fisiopatologia.
 3. **TERMINI MEDICI + SPIEGAZIONE** sempre: "[Term] ([explanation])"
 4. **"YOU"** costantemente (seconda persona)
 5. **DOMANDE H2** - TUTTE le sezioni: "What is...?" "Why do I...?"
-6. **BRAND NAMES** - Formula: "[generic] (brand name: [Brand])"
-7. **ABBREVIAZIONI** - Pattern: "[term]," or "[ABBR]"
-8. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
-9. **BOX** per emergenze e info critiche
-10. **NEUTRALE** ma accessibile nel tono
+6. **ABBREVIAZIONI** - Pattern: "[term]," or "[ABBR]"
+7. **CROSS-REFS** - "Ask your doctor for the UpToDate handout on..."
+8. **NEUTRALE** ma accessibile nel tono
 
 ### Quando Usare Questa Guida
 

@@ -10,679 +10,265 @@ date: "2025-09-07"
 
 ---
 
-<nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
-<a href="/" class="hover:text-sky-400">Home</a>
-<span class="mx-2">/</span>
-<a href="/articles/" class="hover:text-sky-400">Articoli</a>
-<span class="mx-2">/</span>
-<span class="text-white">Arteriopatia periferica</span>
-</nav>
-
-<header class="mb-12" data-aos="fade-up">
-<div class="glass-card rounded-xl p-8 md:p-12">
-<div class="flex items-center gap-2 text-amber-400 text-sm font-medium mb-4">
-<i data-lucide="shield-check" class="w-4 h-4"></i>
-            VASI • ARTERIE PERIFERICHE
-</div>
-<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-<span class="gradient-text">Arteriopatia Periferica:</span><br>
-<span class="text-white">quando le arterie delle gambe si restringono</span>
-</h1>
-<p class="text-xl text-slate-300 leading-relaxed mb-8">
-            L'arteriopatia periferica (chiamata anche PAD) succede quando le arterie delle gambe si restringono o si ostruiscono a causa di placche di grasso e colesterolo (aterosclerosi). Questo riduce il sangue che arriva ai muscoli delle gambe e dei piedi. I sintomi più comuni sono dolore alle gambe quando cammini (che passa con il riposo), dolore anche a riposo nei casi gravi, e ulcere o gangrena nei casi più severi.
-</p>
-<div class="flex flex-wrap gap-4 text-sm text-slate-400">
-<div class="flex items-center gap-2">
-<i data-lucide="calendar" class="w-4 h-4"></i>
-              7 Settembre 2025
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="clock" class="w-4 h-4"></i>
-              12 min di lettura
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="tag" class="w-4 h-4"></i>
-              PAD, Claudicatio, Rivascolarizzazione
-</div>
-</div>
-</div>
-</header>
-
-<article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
-
-<section class="mb-12">
-<div class="highlight-box rounded-lg p-6 mb-8">
-<h3 class="font-bold text-white mb-4 text-lg">Informazioni Essenziali</h3>
+# Arteriopatia Periferica – Le Basi
 
-<p class="leading-relaxed">
-<strong class="text-white">Cos'è:</strong> L'arteriopatia periferica (PAD) è una malattia in cui le arterie delle gambe (arterie iliache, femorali, poplitee, tibiali) si restringono o si ostruiscono a causa di placche di grasso e colesterolo (aterosclerosi). Questo riduce il flusso di sangue alle gambe e ai piedi. La diagnosi si fa con un esame semplice chiamato ABI (indice caviglia-braccio): se il valore è inferiore a 0.90, indica che hai l'arteriopatia periferica.
-</p>
+L'**arteriopatia periferica** si verifica quando le arterie che portano sangue alle gambe si restringono o si ostruiscono a causa di accumulo di placche di grasso e colesterolo nelle pareti delle arterie. Questo riduce il flusso di sangue ai muscoli delle gambe e dei piedi, causando dolore durante il cammino e, nei casi gravi, anche a riposo.
 
-<p class="leading-relaxed">
-<strong class="text-white">Quanto è comune:</strong> Circa 3-10 persone su 100 hanno arteriopatia periferica. È più comune con l'età: 15-20 persone su 100 sopra i 70 anni, e 20-30 persone su 100 con diabete. Ogni anno, circa 2-4 nuove persone su 1000 sviluppano questa malattia. È più comune nei paesi ricchi (Europa occidentale, Nord America: 8-12 su 100) rispetto ai paesi poveri (4-6 su 100).
-</p>
+Normalmente le arterie delle gambe portano sangue ricco di ossigeno ai muscoli. Durante il cammino i muscoli hanno bisogno di 4-6 volte più sangue rispetto al riposo. Quando le arterie sono ristrette, il sangue non aumenta abbastanza durante lo sforzo. I muscoli non ricevono l'ossigeno necessario e questo causa dolore.
 
-<p class="leading-relaxed">
-<strong class="text-white">Sintomi principali:</strong> Circa 40-50 persone su 100 con arteriopatia periferica non hanno sintomi. Circa 30-40 su 100 hanno "claudicatio" (dolore ai muscoli del polpaccio o della coscia quando cammini, che passa in meno di 10 minuti se ti riposi). Circa 10-15 su 100 hanno sintomi diversi. Solo 1-3 su 100 hanno "ischemia critica" (dolore anche a riposo, ulcere o gangrena). Se non ti curi, circa 20-25 persone su 100 con claudicatio sviluppano ischemia critica entro 5 anni.
-</p>
+Circa 3-10 persone su 100 hanno arteriopatia periferica. Il rischio aumenta con l'età: 15-20 persone su 100 sopra i 70 anni. È più comune in chi fuma (rischio 2-4 volte maggiore) e in chi ha diabete (20-30 su 100). L'arteriopatia indica anche alto rischio cardiovascolare: 5-7 persone su 100 hanno infarto o ictus ogni anno.
 
-<p class="leading-relaxed">
-<strong class="text-white">Rischio per il cuore:</strong> Se hai arteriopatia periferica, hai un rischio molto alto anche per il cuore. Ogni anno, circa 5-7 persone su 100 con arteriopatia sintomatica hanno un evento cardiovascolare grave (morte, infarto, ictus). Circa 15-30 persone su 100 muoiono entro 5 anni. Il rischio di infarto è 2.5 volte più alto, e di ictus è 2-3 volte più alto rispetto a chi non ha arteriopatia periferica.
-</p>
+---
 
-<p class="leading-relaxed">
-<strong class="text-white">Cosa succede senza cure:</strong> Se hai claudicatio e non ti curi, circa 70-80 persone su 100 rimangono stabili nei prossimi 5 anni, 10-15 su 100 migliorano da sole, e 5-10 su 100 peggiorano verso ischemia critica. Se hai ischemia critica e non ti curi: circa 40-50 persone su 100 devono subire un'amputazione maggiore (sopra la caviglia) entro 6 mesi, e 20-25 su 100 muoiono entro 1 anno. Con le cure giuste (farmaci + eventuale intervento per riaprire le arterie), il rischio di amputazione si riduce del 50-70% e il rischio di morte del 30-40%.
-</p>
-</div>
-</section>
-
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="info" class="w-7 h-7 text-amber-400"></i>
-Come si formano le ostruzioni nelle arterie delle gambe?
-</h2>
+## QUALI SONO I SINTOMI?
 
-<p class="text-slate-300 leading-relaxed mb-6">
-L'arteriopatia periferica è causata dall'aterosclerosi (formazione di placche) nelle arterie delle gambe, lo stesso processo che causa la malattia coronarica (al cuore). Le placche iniziano a formarsi già da giovani: prima sono depositi di grasso nella parete interna dell'arteria (striature di grasso). Col tempo, queste placche crescono diventando più complesse: hanno un nucleo di grasso, un cappuccio fibroso, cellule infiammatorie, e calcio. Quando una placca restringe l'arteria di più del 50%, il flusso di sangue diminuisce in modo significativo. In alcuni casi, l'arteria si chiude completamente.
-</p>
+Circa 40-50 persone su 100 con arteriopatia non hanno sintomi evidenti. I sintomi dipendono da quanto sono ristrette le arterie.
 
-<p class="text-slate-300 leading-relaxed mb-6">
-Perché fa male quando cammini? Normalmente, i muscoli delle gambe hanno bisogno di 4-6 volte più sangue quando cammini rispetto a quando sei a riposo. Ma se le arterie sono ristrette o chiuse, non arriva abbastanza sangue ai muscoli durante lo sforzo. Questo causa "ischemia muscolare" (i muscoli non ricevono abbastanza ossigeno). Quando i muscoli lavorano senza abbastanza ossigeno, si accumulano sostanze di scarto (lattato, adenosina, potassio) e il tessuto diventa acido. Queste sostanze stimolano i recettori del dolore nei muscoli, causando il dolore caratteristico (claudicatio).
-</p>
-
-<p class="text-slate-300 leading-relaxed mb-6">
-Il corpo cerca di compensare: quando un'arteria si restringe, il corpo sviluppa "circoli collaterali" (vie alternative per il sangue). Alcuni vasi sanguigni più piccoli già presenti si dilatano, e ne crescono di nuovi. Questo può parzialmente bypassare (aggirare) l'ostruzione. I circoli collaterali funzionano meglio se l'ostruzione è in un solo punto e corta (per esempio, un pezzo dell'arteria femorale). Funzionano peggio se ci sono ostruzioni in molti punti o molto lunghe.
-</p>
-
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Dove si formano le ostruzioni nelle gambe?</h3>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie dell'anca e del bacino (circa 30 persone su 100 con arteriopatia periferica):</strong> le ostruzioni sono nell'aorta addominale bassa o nelle arterie iliache (che vanno dall'aorta alle gambe). Sintomi: dolore ai glutei e alle cosce quando cammini, disfunzione erettile negli uomini (se l'aorta è ostruita nel punto in cui si biforca, questa è chiamata "sindrome di Leriche"). Il corpo crea vie alternative attraverso altre arterie (ipogastriche, lombari, circonflesse iliache).</p>
+### Dolore al polpaccio camminando
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie della coscia e del ginocchio (circa 80-90 persone su 100):</strong> questo è il posto più comune dove si formano le ostruzioni. L'arteria femorale superficiale (che va dalla coscia al ginocchio) si restringe tipicamente in un punto chiamato "canale degli adduttori". L'ostruzione può essere lunga da 2 a 30 cm. Il sintomo tipico è dolore al polpaccio. La via alternativa principale è l'arteria femorale profonda.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Arterie della gamba e del piede (circa 40-50 persone su 100, spesso chi ha diabete):</strong> le ostruzioni sono nelle arterie tibiali (arteria tibiale anteriore, posteriore, peroniera). Spesso ci sono ostruzioni in molti punti. Sintomi: dolore al piede e alla caviglia, frequenti ulcere e gangrena. Le vie alternative sono limitate, quindi il rischio di ischemia critica (danni gravi per mancanza di sangue) è alto.</p>
+Il sintomo più tipico, presente in 30-40 persone su 100:
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ostruzioni in più punti (circa 30-40 persone su 100):</strong> ci sono ostruzioni in più posti insieme (per esempio anca + coscia, o coscia + gamba). I sintomi sono più gravi, i limiti funzionali maggiori, e il rischio di ischemia critica è più alto. La prognosi è peggiore e riaprire le arterie è più complesso.</p>
-</div>
+• **Come si presenta**: Dolore, crampo, pesantezza, o affaticamento nei muscoli delle gambe (polpacci, cosce, o glutei) che compare quando cammini e passa completamente in meno di 10 minuti se ti fermi
 
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Chi è a rischio di arteriopatia periferica?</h3>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fumo:</strong> questo è il fattore di rischio più importante. Se fumi, il tuo rischio di arteriopatia periferica è 2-4 volte più alto rispetto a chi non ha mai fumato. Più fumi, peggio è: se fumi più di 20 sigarette al giorno, il rischio è 4.5 volte più alto; 10-20 sigarette al giorno, rischio 2.5 volte più alto; meno di 10 sigarette al giorno, rischio 1.5 volte più alto. I fumatori sviluppano ischemia critica (forma grave) 2-3 volte più spesso, e il rischio di amputazione maggiore è 10-15 volte più alto rispetto ai non fumatori.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Diabete:</strong> se hai il diabete, il rischio di arteriopatia periferica è 1.9-4 volte più alto. Circa 20-30 persone su 100 con diabete hanno arteriopatia periferica, contro 3-10 persone su 100 nella popolazione generale. Il diabete causa ostruzioni soprattutto nelle arterie delle gambe e dei piedi, con calcificazioni nella parete delle arterie che possono rendere meno affidabile l'esame ABI. Il rischio di ischemia critica è 5-10 volte più alto, e di amputazione 10-15 volte più alto rispetto a chi non ha diabete. Se l'emoglobina glicata (HbA1c) è sopra il 7%, ogni 1% in più aumenta il rischio di arteriopatia del 25-30%.</p>
+• **Caratteristiche**: Sempre nello stesso punto della gamba, sempre alla stessa distanza di cammino (ad esempio sempre dopo 200 metri), passa rapidamente con il riposo (entro 2-10 minuti)
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Colesterolo alto:</strong> per ogni aumento di 10 mg/dL del colesterolo LDL ("cattivo"), il rischio aumenta di 1.5-2 volte. Anche i trigliceridi alti aumentano il rischio (1.3-1.7 volte). Se il colesterolo HDL ("buono") è basso (meno di 40 mg/dL negli uomini o meno di 50 nelle donne), il rischio aumenta di 1.5 volte. Le statine (farmaci per il colesterolo) riducono la progressione dell'arteriopatia, gli eventi cardiovascolari e la mortalità del 20-30%.</p>
+• **Dove fa male**: Polpaccio (60-70 su 100), coscia (10-20 su 100), glutei con possibile disfunzione erettile negli uomini (5-10 su 100)
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione alta:</strong> se hai pressione alta, il rischio è 1.5-2 volte più alto. Se la pressione sistolica (il numero più alto) è 140 mmHg o più, il rischio aumenta del 50-100% rispetto a chi ha pressione normale. I farmaci per la pressione riducono gli eventi cardiovascolari del 20-25%, ma hanno un effetto limitato sulla progressione dell'arteriopatia.</p>
+### Ischemia critica (forma grave)
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Età:</strong> il rischio aumenta molto con l'età: sotto i 50 anni, 1-3 persone su 100 hanno arteriopatia; tra 50 e 69 anni, 5-10 su 100; sopra i 70 anni, 15-20 su 100. Ogni 10 anni di età in più, il rischio aumenta di 1.5-2 volte.</p>
+La forma più grave, presente in 1-3 persone su 100:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Essere uomo:</strong> gli uomini hanno un rischio 1.5-2 volte più alto delle donne (ma dopo i 70 anni la differenza si riduce e il rischio diventa simile). Le donne tendono ad avere i sintomi più tardi, hanno più spesso sintomi diversi da quelli tipici, e i risultati dopo gli interventi per riaprire le arterie sono peggiori.</p>
+• **Dolore a riposo**: Dolore persistente ai piedi, dita, caviglie anche quando non cammini. Peggiora di notte quando sei sdraiato. Molti dormono con la gamba che pende fuori dal letto per alleviare il dolore
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Familiarità:</strong> se un tuo familiare stretto (genitori, fratelli, sorelle) ha arteriopatia periferica, il tuo rischio è 1.5-2.5 volte più alto. C'è una componente genetica legata a geni della coagulazione (fattore V Leiden, protrombina G20210A), del metabolismo dei grassi (APOE), e dell'infiammazione.</p>
+• **Ulcere che non guariscono**: Ferite aperte su piedi, dita, talloni, caviglie che non guariscono in 2-4 settimane nonostante medicazioni
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Altri fattori:</strong> obesità, inattività fisica (sedentarietà), insufficienza renale cronica, infiammazione cronica (proteina C-reattiva alta), e omocisteina alta: ognuno di questi aumenta il rischio di 1.2-2 volte.</p>
-</div>
-</section>
+• **Gangrena**: Morte dei tessuti con pelle nera, secca. Richiede intervento urgente per evitare infezione
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="users" class="w-7 h-7 text-pink-400"></i>
-Quanto è grave l'arteriopatia periferica? I diversi stadi della malattia
-</h2>
+• **Piede freddo e pallido**: Il piede affetto è più freddo e pallido rispetto all'altro
 
-<p class="text-slate-300 leading-relaxed mb-6">
-L'arteriopatia periferica può essere lieve, moderata o grave. I medici usano diversi "stadi" per descrivere quanto è severa la tua condizione. Questi stadi si basano sui sintomi che hai, non solo su quanto sono ristrette le arterie: alcune persone con arterie molto ristrette non hanno sintomi (perché il corpo ha creato nuovi piccoli vasi che portano sangue - chiamati "circoli collaterali"), mentre altre con restringimenti meno severi possono avere sintomi importanti.
-</p>
+### Sintomi atipici
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">I 5 stadi dell'arteriopatia periferica</h3>
+Circa 10-15 persone su 100 hanno sintomi diversi:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 1 - Nessun sintomo:</strong> le arterie delle gambe sono ristrette (dimostrato con un esame chiamato indice caviglia-braccio), ma non hai nessun dolore o disagio. Questo succede a circa 40-50 persone su 100 con arteriopatia periferica. Il rischio di peggioramento agli arti è basso (meno di 1 persona su 100 ogni anno sviluppa stadi gravi), ma il rischio di infarto o ictus è elevato (5-7 persone su 100 ogni anno). Il trattamento include: medicina che fluidifica il sangue (antiaggreganti), statine per il colesterolo, medicine per la pressione alta, e smettere di fumare.</p>
+• Debolezza o pesantezza alle gambe durante il cammino senza vero dolore
+• Intorpidimento o formicolio ai piedi durante il cammino
+• Piedi sempre freddi con scarsa crescita delle unghie e perdita di peli
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 2 lieve - Dolore quando cammini (lieve):</strong> hai dolore ai muscoli delle gambe quando cammini, ma solo dopo aver camminato più di 200 metri (circa 2 campi da calcio). Il dolore passa quando ti fermi e riposi. Riesci a fare quasi tutte le attività normali senza problemi. Il trattamento principale è l'esercizio fisico guidato da un fisioterapista più le medicine. Raramente serve un intervento per riaprire le arterie.</p>
+Più comuni nelle donne, negli anziani sopra 75 anni, e in chi ha diabete.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 2 moderato-grave - Dolore quando cammini (moderato-grave):</strong> hai dolore quando cammini meno di 200 metri (meno di 2 campi da calcio). Questo limita molto le tue attività quotidiane: fare la spesa, salire le scale, lavorare. Il trattamento iniziale è sempre l'esercizio fisico guidato più le medicine, provato per 3-6 mesi. Se l'esercizio non funziona abbastanza, il medico può considerare un intervento per riaprire le arterie (con palloncino o chirurgia).</p>
+---
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stadio 3 - Dolore anche a riposo:</strong> hai dolore persistente ai piedi e alle dita anche quando non stai camminando. Il dolore è spesso peggiore di notte quando sei sdraiato (perché la gravità non aiuta il sangue ad arrivare ai piedi). Molte persone dormono con la gamba che pende fuori dal letto per ridurre il dolore. Questo stadio è grave e ha bisogno di un intervento urgente per riaprire le arterie: senza trattamento, 10-40 persone su 100 perdono la gamba entro 6 mesi.</p>
+## CHI È A RISCHIO?
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Stadio 4 - Ulcere o gangrena:</strong> questo è lo stadio più grave. Hai ulcere (ferite che non guariscono) o gangrena (morte del tessuto - la pelle diventa nera) alle dita o ai piedi. C'è dolore severo persistente. Questo stadio è chiamato "ischemia critica" e significa che l'arto è in pericolo immediato. Serve un intervento di emergenza o urgente per salvare la gamba. Anche con il trattamento, 30-40 persone su 100 hanno bisogno di un'amputazione importante (sotto o sopra il ginocchio).</p>
-</div>
+### Fattori che puoi cambiare
 
+• **Fumo**: Il fattore più importante. Il rischio è 2-4 volte più alto. I fumatori hanno rischio di amputazione 10-15 volte maggiore
 
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">⚠️ Quando l'arteriopatia periferica è critica? Segni di pericolo</h3>
+• **Diabete**: Rischio 2-4 volte più alto. Circa 20-30 persone su 100 con diabete hanno arteriopatia. Rischio di amputazione 10-15 volte maggiore
 
-<p class="text-slate-300 mb-4">
-La condizione più grave dell'arteriopatia periferica si chiama "ischemia critica" (stadio 3-4). Questo significa che la gamba non sta ricevendo abbastanza sangue per sopravvivere e c'è rischio immediato di perdere l'arto.
-</p>
+• **Colesterolo alto**: Ogni aumento di 10 mg/dL del colesterolo LDL aumenta il rischio. Le statine riducono progressione del 20-30%
 
-<p class="text-slate-300 mb-3"><strong class="text-white">CHIAMA IMMEDIATAMENTE IL MEDICO se hai uno di questi segni:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Dolore persistente ai piedi o alle dita anche a riposo, da più di 2 settimane</p>
-<p class="text-slate-300 ml-6 mb-2">● Dolore che ti sveglia di notte e devi tenere la gamba fuori dal letto per alleviarlo</p>
-<p class="text-slate-300 ml-6 mb-2">● Ulcere (ferite) ai piedi o alle dita che non guariscono</p>
-<p class="text-slate-300 ml-6 mb-3">● Pelle dei piedi o delle dita che diventa nera (gangrena)</p>
+• **Pressione alta**: Rischio 1,5-2 volte più alto
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa succede senza trattamento:</strong> l'ischemia critica è molto grave. Senza un intervento urgente per riaprire le arterie, 40-50 persone su 100 perdono la gamba entro 6 mesi, e 20-25 persone su 100 muoiono entro 1 anno. Con il trattamento appropriato (intervento per riaprire le arterie), 70-85 persone su 100 riescono a salvare la gamba, e il rischio di morte si riduce del 30-40%.</p>
+• **Obesità**: Sovrappeso aumenta rischio di 1,3-1,5 volte. Obesità di 1,5-2 volte
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Fattori che aumentano il rischio di amputazione:</strong> il rischio di perdere la gamba è più alto se hai diabete, se sei in dialisi per insufficienza renale, se hai gangrena estesa, o se hai un'infezione grave (come infezione dell'osso - osteomielite).</p>
-</div>
-</section>
+• **Sedentarietà**: Inattività aumenta rischio di 1,5 volte. L'esercizio regolare riduce progressione e migliora la capacità di cammino
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="activity" class="w-7 h-7 text-pink-400"></i>
-Quali sono i sintomi dell'arteriopatia periferica?
-</h2>
+### Fattori che non puoi cambiare
 
-<p class="text-slate-300 leading-relaxed mb-6">
-I sintomi dell'arteriopatia periferica sono molto variabili. Circa 40-50 persone su 100 non hanno nessun sintomo (le arterie sono ristrette ma non causano dolore, soprattutto in anziani sedentari o persone con altre limitazioni ai movimenti). Circa 30-40 persone su 100 hanno il sintomo classico: dolore alle gambe quando camminano che passa con il riposo. Circa 10-15 persone su 100 hanno sintomi "atipici" come stanchezza o debolezza alle gambe, crampi non legati all'esercizio. Solo 1-3 persone su 100 si presentano con la forma grave acuta (ischemia critica).
-</p>
+• **Età**: Il rischio aumenta progressivamente. Sotto 50 anni: 1-3 su 100. Sopra 70 anni: 15-20 su 100
 
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Il sintomo classico: dolore alle gambe quando cammini (claudicazione)</h3>
+• **Sesso**: Gli uomini hanno rischio 1,5-2 volte più alto prima dei 70 anni
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Come riconoscere la claudicazione:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">1. Hai dolore, crampi o fatica muscolare in una zona specifica della gamba (polpaccio in 50-60 casi su 100, coscia in 30-40 casi su 100, glutei in 10-15 casi su 100)</p>
-<p class="text-slate-300 ml-6 mb-2">2. Il dolore compare SOLO quando cammini o fai esercizio, MAI quando sei seduto o in piedi fermo</p>
-<p class="text-slate-300 ml-6 mb-2">3. Il dolore compare sempre alla stessa distanza (per esempio, dopo 100 metri di camminata)</p>
-<p class="text-slate-300 ml-6 mb-2">4. Il dolore passa completamente entro 10 minuti se ti fermi e riposi</p>
-<p class="text-slate-300 ml-6 mb-3">5. Se il dolore non passa dopo 10 minuti di riposo, probabilmente non è arteriopatia periferica ma un altro problema (come neuropatia, problemi alle articolazioni, o problemi muscolari)</p>
+• **Familiarità**: Se genitori o fratelli hanno arteriopatia, il tuo rischio è 1,5-2,5 volte più alto
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dove senti il dolore dipende da dove sono ristrette le arterie:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Se le arterie principali (aorta-iliache) sono ristrette: dolore ai glutei, cosce, anche. Negli uomini può causare anche disfunzione erettile (sindrome di Leriche)</p>
-<p class="text-slate-300 ml-6 mb-2">● Se le arterie della coscia (femorali) sono ristrette: dolore al polpaccio - questa è la presentazione più comune (50-60 persone su 100)</p>
-<p class="text-slate-300 ml-6 mb-3">● Se le arterie più piccole sotto il ginocchio (tibiali) sono ristrette: dolore al piede e alla caviglia. Questo tipo spesso progredisce agli stadi gravi con dolore a riposo e ulcere</p>
+• **Insufficienza renale**: Rischio 1,5-3 volte maggiore
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Quanto riesci a camminare prima che inizi il dolore?</strong> Questa distanza indica quanto è grave la tua condizione. Più di 200 metri = lieve, 50-200 metri = moderata, meno di 50 metri = grave. La distanza può variare in base a: salite (peggio), velocità di camminata (più veloce = peggio), freddo (peggiora del 20-30%), dopo i pasti (peggio).</p>
+---
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Sintomi "atipici" (meno tipici):</strong> circa 10-15 persone su 100 con arteriopatia periferica hanno sintomi diversi dal dolore classico: stanchezza alle gambe senza dolore vero, debolezza muscolare quando cammini, crampi di notte non legati all'esercizio, formicolio quando cammini. Questi sintomi atipici rendono la diagnosi più difficile - serve un esame specifico (indice caviglia-braccio) per confermare.</p>
-</div>
+## COME SI DIAGNOSTICA?
 
-<div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa cerca il medico durante la visita?</h3>
+La diagnosi combina valutazione clinica ed esami.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aspetto della pelle e delle gambe:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Pelle lucida e sottile, perdita di peli sulla gamba</p>
-<p class="text-slate-300 ml-6 mb-2">● Muscolo del polpaccio più piccolo (ridotto di oltre 2 cm rispetto all'altra gamba)</p>
-<p class="text-slate-300 ml-6 mb-2">● Unghie ispessite e che crescono lentamente</p>
-<p class="text-slate-300 ml-6 mb-2">● Pallore del piede quando lo sollevi, rossore violaceo quando pende</p>
-<p class="text-slate-300 ml-6 mb-3">● Nei casi gravi: ulcere (ferite che non guariscono) o gangrena (pelle nera) alle dita o al piede</p>
+### Visita medica
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Palpazione dei polsi delle arterie:</strong> il medico sente i polsi in diversi punti della gamba per capire dove sono i restringimenti. Controlla i polsi su entrambe le gambe per confrontarle. I polsi principali sono:</p>
-<p class="text-slate-300 ml-6 mb-2">● All'inguine (arterie femorali) - normalmente presenti in 95 persone su 100</p>
-<p class="text-slate-300 ml-6 mb-2">● Dietro il ginocchio (arterie poplitee) - assenti in 50-60 persone su 100 con arteriopatia</p>
-<p class="text-slate-300 ml-6 mb-2">● Dietro la caviglia (arterie tibiali posteriori) - assenti in 70-80 persone su 100 con arteriopatia significativa</p>
-<p class="text-slate-300 ml-6 mb-3">● Sul dorso del piede (arterie del dorso del piede) - assenti in 80-90 persone su 100 con arteriopatia severa. Nota: circa 8-10 persone su 100 sane non hanno questo polso naturalmente, quindi non sempre la sua assenza significa malattia</p>
+Il medico valuta:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Auscultazione con lo stetoscopio:</strong> il medico ascolta con lo stetoscopio le arterie all'inguine e nella pancia per sentire "soffi" (rumori anomali) che indicano restringimenti importanti delle arterie.</p>
+• Sintomi: dolore alle gambe, distanza di cammino, dolore a riposo, ulcere
+• Esame fisico: palpa i polsi nelle gambe. L'assenza di polsi indica ostruzione. Ispeziona pelle cercando pallore, freddezza, perdita peli, ulcere
+• Fattori di rischio: fumo, diabete, pressione, colesterolo
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Test del riempimento capillare:</strong> il medico preme un dito del piede per 5 secondi e poi rilascia, guardando quanto tempo serve perché il colore normale torni. Normalmente serve meno di 3 secondi. Se serve più di 5 secondi, può indicare ischemia grave.</p>
-</div>
+### Indice caviglia-braccio (ABI)
 
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">⚠️ EMERGENZA: segni che richiedono cure immediate</h3>
+L'esame principale per diagnosticare. Semplice, non invasivo, dura 10-15 minuti:
 
-<p class="text-slate-300 mb-4">Riconoscere presto questi segni gravi può salvare la tua gamba. L'ischemia critica può svilupparsi lentamente (settimane-mesi) o improvvisamente (ore-giorni). CHIAMA SUBITO IL MEDICO O VAI AL PRONTO SOCCORSO se hai uno di questi segni:</p>
+• **Come si esegue**: Misura pressione arteriosa al braccio e alla caviglia. Calcola dividendo pressione caviglia per pressione braccio
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore persistente ai piedi anche a riposo:</strong> hai dolore severo ai piedi o alle dita che dura da più di 2 settimane, anche quando non cammini. Il dolore è così forte che hai bisogno di antidolorifici forti (oppiacei). Caratteristiche tipiche:</p>
-<p class="text-slate-300 ml-6 mb-3">● Peggiora di notte quando sei sdraiato (perché la gravità non aiuta il sangue ad arrivare ai piedi); migliora parzialmente se tieni la gamba fuori dal letto che pende. Il dolore è localizzato all'avampiede e alle dita (le parti più lontane dove arriva meno sangue). Se hai diabete e bruciore continuo non legato alla posizione, potrebbe essere neuropatia diabetica invece di arteriopatia - chiedi al medico.</p>
+• **Interpretazione**:
+  - 1,00-1,40: normale
+  - 0,91-0,99: borderline
+  - 0,41-0,90: arteriopatia da lieve a moderata
+  - 0,40 o meno: arteriopatia grave
+  - Più di 1,40: arterie calcificate (comune in diabete, anziani)
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ferite (ulcere) che non guariscono:</strong> hai ferite ai piedi o alle dita che non guariscono dopo 2-4 settimane. Dove compaiono di solito:</p>
-<p class="text-slate-300 ml-6 mb-3">● Punte delle dita, tallone, caviglie, zone dove l'osso preme sulla pelle. Come riconoscerle: bordi netti e definiti, base pallida o nera (tessuto morto), poco liquido che esce, dolore severo. Se la ferita si infetta: rossore intorno alla ferita, pus, cellulite (infezione della pelle), infezione dell'osso (osteomielite).</p>
+• **Accuratezza**: Trova 90 su 100 persone con arteriopatia
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Gangrena (tessuto morto):</strong> parte del piede o delle dita diventa nera perché il tessuto è morto. Due tipi:</p>
-<p class="text-slate-300 ml-6 mb-2">● Gangrena secca: dita mummificate, nere, secche, con linea netta tra tessuto morto e sano (solo mancanza di sangue)</p>
-<p class="text-slate-300 ml-6 mb-3">● Gangrena umida: infezione sovrapposta, pus, odore cattivo, si espande rapidamente (EMERGENZA CHIRURGICA - rischio di infezione del sangue - sepsi)</p>
+### Test da sforzo
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ischemia acuta improvvisa (occlusione arteriosa improvvisa):</strong> l'arteria si blocca all'improvviso (per un coagulo dal cuore in 80 casi su 100, o per un coagulo che si forma nell'arteria malata in 20 casi su 100). Sintomi improvvisi - le "6 P":</p>
-<p class="text-slate-300 ml-6 mb-2">● Pain (dolore): dolore severo improvviso alla gamba</p>
-<p class="text-slate-300 ml-6 mb-2">● Pallor (pallore): la gamba diventa pallida</p>
-<p class="text-slate-300 ml-6 mb-2">● Pulselessness (polsi assenti): non si sentono i polsi al piede</p>
-<p class="text-slate-300 ml-6 mb-2">● Paresthesia (formicolio): formicolio o perdita di sensibilità</p>
-<p class="text-slate-300 ml-6 mb-2">● Paralysis (paralisi): debolezza o impossibilità di muovere la gamba</p>
-<p class="text-slate-300 ml-6 mb-6">● Poikilothermia (freddo): la gamba è fredda al tatto. TEMPO CRITICO: hai meno di 6 ore per riaprire l'arteria (con intervento d'emergenza) e salvare la gamba. Dopo 6 ore il danno può essere permanente.</p>
-</div>
-</section>
+Se l'esame a riposo è normale ma hai sintomi:
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="search" class="w-7 h-7 text-emerald-400"></i>
-Come si diagnostica l'arteriopatia periferica? Quali esami farai
-</h2>
+• Misura indice a riposo, poi cammini su tapis roulant per 5 minuti o fino a comparsa dolore
+• Se l'indice diminuisce di più del 20% dopo sforzo, conferma arteriopatia
 
-<p class="text-slate-300 leading-relaxed mb-6">
-La diagnosi di arteriopatia periferica si basa su tre passaggi: 1) il medico sospetta la malattia in base ai tuoi sintomi (dolore quando cammini), fattori di rischio (fumo, diabete), e esame fisico (polsi deboli o assenti), 2) conferma la diagnosi con un esame semplice chiamato "indice caviglia-braccio" (ABI), 3) se hai bisogno di un intervento per riaprire le arterie, ti faranno esami di imaging per vedere esattamente dove sono i restringimenti. Chi dovrebbe fare lo screening (test di controllo): tutte le persone di 65 anni o più, persone di 50-64 anni con fattori di rischio (diabete, fumo), persone sotto i 50 anni con diabete più almeno un altro fattore di rischio, persone con dolore alle gambe quando camminano.
-</p>
+### Ecodoppler arterioso
 
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Esame 1: Indice caviglia-braccio (ABI) - l'esame principale per la diagnosi</h3>
+Ecografia delle arterie delle gambe:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Come si fa l'esame:</strong> l'ABI è un esame semplice e indolore che confronta la pressione del sangue alla caviglia con quella al braccio. Ti sdrai per 5-10 minuti. Il medico o l'infermiere mette un bracciale per la pressione alla caviglia e usa un piccolo dispositivo Doppler (che fa sentire il suono del flusso sanguigno) per misurare la pressione. Misura la pressione in due punti del piede (dorso del piede e dietro la caviglia) e nel braccio. Calcola l'ABI dividendo la pressione alla caviglia per quella al braccio. L'esame viene fatto su entrambe le gambe, quindi avrai due risultati (destro e sinistro).</p>
+• Visualizza le arterie, identifica dove sono le ostruzioni, quanto sono lunghe, quanto ristrette
+• Pianifica il trattamento
+• Monitora progressione nel tempo
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa significano i risultati dell'ABI:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● <strong>ABI 1.00-1.40: Normale.</strong> Le tue arterie stanno portando sangue normalmente alle gambe. Non ci sono restringimenti significativi.</p>
-<p class="text-slate-300 ml-6 mb-2">● <strong>ABI 0.91-0.99: Borderline (zona grigia).</strong> Possibile arteriopatia periferica iniziale. Se hai dolore quando cammini, il medico potrebbe ripetere il test dopo che hai camminato su un tapis roulant (vedi sotto).</p>
-<p class="text-slate-300 ml-6 mb-2">● <strong>ABI 0.70-0.90: Arteriopatia lieve-moderata.</strong> Hai restringimenti delle arterie. Di solito corrisponde al dolore lieve-moderato quando cammini. Questo test è molto accurato: identifica correttamente l'arteriopatia in circa 79 persone su 100 che ce l'hanno.</p>
-<p class="text-slate-300 ml-6 mb-2">● <strong>ABI 0.40-0.69: Arteriopatia moderata-grave.</strong> Hai restringimenti significativi delle arterie. Di solito hai dolore importante quando cammini che limita le tue attività. C'è rischio che peggiori allo stadio grave. Hai bisogno di trattamento intensivo: smettere di fumare, medicine, e esercizio fisico guidato.</p>
-<p class="text-slate-300 ml-6 mb-2">● <strong>ABI sotto 0.40: Arteriopatia grave / Ischemia critica.</strong> Le arterie sono molto ristrette o bloccate. Alto rischio di perdere la gamba. Spesso hai dolore anche a riposo o ulcere. Hai bisogno di esami urgenti di imaging e probabilmente di un intervento per riaprire le arterie.</p>
-<p class="text-slate-300 ml-6 mb-3">● <strong>ABI sopra 1.40: Arterie troppo rigide.</strong> Le arterie hanno depositi di calcio che le rendono rigide e incompressibili. Questo è comune se hai diabete, insufficienza renale, o sei anziano. In questi casi l'ABI non è affidabile - il medico userà altri test (pressione all'alluce o ossimetria cutanea).</p>
+### Angio-TC o Angio-RMN
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Test ABI dopo esercizio (ABI su tapis roulant):</strong> se il tuo ABI a riposo è borderline (0.91-1.0) ma hai dolore quando cammini, il medico potrebbe chiederti di camminare su un tapis roulant. Cammini fino a quando compare il dolore o per massimo 5 minuti. Poi il medico misura subito l'ABI e lo ripete ogni 1-2 minuti fino a che torna normale. Se l'ABI scende del 20% o più dopo l'esercizio, conferma che hai arteriopatia periferica. Questo test è molto accurato: identifica l'arteriopatia in circa 95 persone su 100 che hanno sintomi (a riposo il test può essere normale perché il corpo ha creato piccoli vasi collaterali che compensano, ma sotto sforzo questi non bastano).</p>
+Esami di imaging avanzati che creano immagini tridimensionali dettagliate:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione all'alluce (indice alluce-braccio):</strong> questo test viene fatto se il tuo ABI è sopra 1.40 (arterie troppo rigide per comprimerle). Il medico mette un piccolo bracciale per la pressione intorno all'alluce e usa un sensore di luce per misurare il flusso sanguigno. Risultati: sotto 0.70 = anormale, sotto 0.30 = ischemia critica. Il test è accurato in circa 85-90 persone su 100. Vantaggio: le piccole arterie delle dita raramente hanno depositi di calcio, quindi questo test funziona bene anche se hai diabete o insufficienza renale.</p>
+• Si usano prima di intervento per riaprire le arterie, per pianificare esattamente la procedura
+• Angio-TC: usa raggi X e contrasto. Precisione molto alta. Può danneggiare i reni
+• Angio-RMN: usa campo magnetico. Nessuna radiazione. Controindicata con pacemaker
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Ossimetria cutanea (TcPO₂):</strong> questo test misura quanto ossigeno arriva alla pelle del piede (riflette se il sangue sta arrivando ai tessuti). Viene fatto se il medico sospetta ischemia critica o deve valutare se una ferita può guarire. Come funziona: il medico applica un elettrodo riscaldato (44°C) sulla pelle del dorso del piede. Risultati: sopra 40 = normale, 30-40 = borderline, sotto 30 = ischemia grave, sotto 20 = le ferite non guariranno. Il test è accurato in circa 80-90 persone su 100 per identificare ischemia critica.</p>
-</div>
+---
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Esame 2: Ecografia Doppler delle arterie delle gambe</h3>
+## COME SI CURA?
 
-<p class="text-slate-300 mb-4">
-L'ecografia Doppler (o eco-Doppler) è un'ecografia speciale delle arterie delle gambe che mostra dove sono i restringimenti o blocchi e quanto sangue sta fluendo. È l'esame di imaging principale per l'arteriopatia periferica. Vantaggi: nessuna radiazione, nessun mezzo di contrasto che può danneggiare i reni, costa poco, mostra il flusso sanguigno in tempo reale. Limiti: dipende dall'abilità di chi fa l'esame, difficile vedere le arterie della pancia (gas intestinale oscura la visione), calcificazioni importanti possono nascondere parte delle arterie.
-</p>
+Il trattamento ha due obiettivi: ridurre rischio cardiovascolare (infarto, ictus, morte) e migliorare sintomi alle gambe.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa vede l'esame:</strong> l'ecografia mostra le placche di grasso e colesterolo nelle arterie (placche morbide appaiono scure, placche dure o calcificate appaiono bianche), i restringimenti (il diametro dell'arteria è ridotto), e i blocchi completi (non c'è passaggio di sangue).</p>
+### Modifiche stile di vita - essenziali per tutti
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Come misura il flusso sanguigno:</strong> il Doppler analizza la velocità del flusso sanguigno. Normalmente il flusso ha un pattern trifasico (avanti veloce, indietro, avanti lento). Quando c'è un restringimento importante (oltre 50%): il pattern diventa anormale (bifasico o monofasico), e la velocità del sangue aumenta molto nel punto ristretto (più del doppio rispetto al normale = restringimento di almeno 50%; più di 3.5 volte = restringimento di almeno 75%). Quando c'è un blocco completo: nessun segnale Doppler nel punto bloccato.</p>
+• **Smettere di fumare (priorità assoluta)**: Riduce progressione del 50-70%, riduce rischio amputazione del 40-60%, migliora risultati dopo interventi del 30-50%. Usa supporto farmacologico e counseling
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Quanto è accurato:</strong> l'ecografia Doppler identifica correttamente i restringimenti importanti in circa 85-90 persone su 100. È più accurata per le arterie della coscia (95 persone su 100), meno per le arterie della pancia (75-85 persone su 100, difficoltà tecniche), e le arterie sotto il ginocchio (80 persone su 100, vasi piccoli e calcificazioni).</p>
+• **Esercizio fisico supervisionato**: La terapia più efficace. Programma strutturato: 3 sessioni/settimana, 30-45 minuti, per almeno 12 settimane. Cammina fino a comparsa dolore moderato, riposa, riprendi. Migliora distanza di cammino del 150-200% in 3-6 mesi
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Quando ti fanno questo esame:</strong> per confermare l'arteriopatia periferica dopo un ABI anormale, per vedere dove esattamente sono i restringimenti o blocchi, per controllare se un intervento precedente (bypass o angioplastica) funziona ancora bene, per controllare se hai un aneurisma dietro il ginocchio (presente in 5-10 persone su 100 con arteriopatia), per controllare le vene prima di un intervento chirurgico di bypass (per vedere se la vena della gamba può essere usata come innesto).</p>
-</div>
+• **Dieta mediterranea**: Frutta, verdura, pesce, olio oliva, cereali integrali, poca carne rossa. Riduce eventi cardiovascolari del 25-30%
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Esame 3: TAC o Risonanza Magnetica con contrasto (angio-TAC o angio-RM)</h3>
+• **Controllo peso**: Se sovrappeso, perdere 5-10% migliora controllo glicemico, pressione, colesterolo
 
-<p class="text-slate-300 mb-4">
-Questi esami vengono fatti quando il medico sta pianificando un intervento per riaprire le arterie (angioplastica o bypass). Forniscono una "mappa" dettagliata delle arterie: dove sono esattamente i restringimenti o blocchi, quanto sono lunghi, se ci sono depositi di calcio, come sono i vasi collaterali. La scelta tra TAC o Risonanza dipende dalla funzione dei tuoi reni, se hai allergie al mezzo di contrasto, qual è disponibile nel tuo ospedale, e la preferenza del medico.
-</p>
+### Farmaci - per ridurre rischio cardiovascolare
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Angio-TAC (TAC con contrasto):</strong> è una TAC speciale delle arterie fatta iniettando mezzo di contrasto a base di iodio in vena. La scansione è molto veloce (10-20 secondi) e produce immagini dettagliate in 3D delle arterie. È molto accurata: identifica correttamente i restringimenti importanti in circa 95-98 persone su 100.</p>
+• **Antiaggreganti piastrinici**: Aspirina 75-100 mg/giorno o simili. Riducono infarto, ictus, morte del 25%
 
-<p class="text-slate-300 ml-6 mb-2">● <strong>Vantaggi:</strong> veloce, disponibile in quasi tutti gli ospedali, immagini molto dettagliate, mostra bene le calcificazioni (aiuta il medico a decidere quale tipo di intervento fare), può mostrare anche altri problemi (aneurismi, masse).</p>
-<p class="text-slate-300 ml-6 mb-3">● <strong>Svantaggi:</strong> usa radiazioni (equivalente a circa 250-750 radiografie del torace), il mezzo di contrasto può danneggiare i reni (rischio 2-5 persone su 100 in generale; 10-20 persone su 100 con insufficienza renale moderata; 20-50 persone su 100 con diabete e insufficienza renale). Le calcificazioni severe possono causare artefatti che sovrastimano i restringimenti. Non si può fare se hai insufficienza renale grave o allergia grave allo iodio.</p>
+• **Statine**: Riducono eventi cardiovascolari del 20-30% e mortalità del 15%. Obiettivo: colesterolo LDL sotto 70 mg/dL. Migliorano anche sintomi alle gambe
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Angio-RM (Risonanza con contrasto):</strong> è una risonanza magnetica delle arterie fatta iniettando mezzo di contrasto a base di gadolinio in vena. La scansione dura 30-60 secondi. È molto accurata: identifica correttamente i restringimenti importanti in circa 92-95 persone su 100.</p>
+• **Farmaci per pressione**: Obiettivo sotto 140/90 mmHg. Riducono eventi cardiovascolari del 20-25%
 
-<p class="text-slate-300 ml-6 mb-2">● <strong>Vantaggi:</strong> nessuna radiazione, il mezzo di contrasto (gadolinio) è meno tossico per i reni rispetto allo iodio (rischio minimo, controindicato solo se insufficienza renale molto grave), nessun artefatto da calcificazioni (migliore della TAC se hai molto calcio nelle arterie, comune nei diabetici).</p>
-<p class="text-slate-300 ml-6 mb-3">● <strong>Svantaggi:</strong> esame più lento (artefatti se ti muovi), non si può fare se hai pacemaker o defibrillatore vecchi (servono quelli "compatibili con risonanza"), se sei claustrofobico, disponibile solo in alcuni ospedali, costa di più. Può sovrastimare i restringimenti. Difficile vedere gli stent metallici (creano artefatti).</p>
+• **Controllo glicemia (se diabete)**: Obiettivo emoglobina glicata sotto 7%. I nuovi farmaci riducono anche eventi cardiovascolari del 10-20%
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Quando ti fanno TAC o Risonanza:</strong> se hai dolore moderato-grave quando cammini che limita molto la tua vita e l'esercizio fisico e le medicine non hanno funzionato dopo 3-6 mesi (per pianificare un intervento). Se hai ischemia critica con dolore a riposo o ulcere (esame urgente prima dell'intervento). Se il tuo ABI è sotto 0.40 anche senza sintomi (per vedere dove sono i problemi e prevenire che peggiori). Se hai avuto un intervento e i sintomi sono tornati (per vedere se l'intervento si è richiuso).</p>
-</div>
+• **Farmaco per migliorare sintomi**: Migliora distanza di cammino del 40-60% in 3-6 mesi. Controindicato se hai insufficienza cardiaca
 
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Esame 4: Angiografia (esame radiologico con catetere nell'arteria)</h3>
+### Rivascolarizzazione - riaprire le arterie
 
-<p class="text-slate-300 mb-4">
-L'angiografia è l'esame più preciso per vedere le arterie, con la migliore qualità di immagine. Come funziona: il medico inserisce un piccolo tubo (catetere) nell'arteria dell'inguine o del braccio, avanza il catetere fino alle arterie delle gambe, inietta mezzo di contrasto direttamente nell'arteria, e fa radiografie in tempo reale. Il computer "sottrae" le ossa e i tessuti molli dalle immagini, mostrando solo le arterie.
-</p>
+Indicazioni: dolore grave che limita molto le attività nonostante esercizio e farmaci per 3-6 mesi, ischemia critica (dolore a riposo, ulcere, gangrena).
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Quando si fa oggi:</strong> oggi l'angiografia NON è più il primo esame (TAC e Risonanza sono più sicure perché non invasive). L'angiografia viene fatta principalmente quando: serve fare diagnosi E trattamento nello stesso momento (in un solo intervento il medico vede le arterie e se possibile le riapre subito con palloncino o stent). Se hai ischemia critica e sei candidato per angioplastica, l'angiografia durante l'intervento permette di vedere e trattare immediatamente. Secondariamente: se TAC/Risonanza danno risultati poco chiari o contrastanti con i sintomi, o per pianificare interventi chirurgici complessi di bypass.</p>
+**Angioplastica con palloncino e stent**:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa valuta il medico:</strong> il medico guarda tutte le arterie dalla pancia fino ai piedi. "Arterie in entrata" (aorta, iliache) - devono essere aperte prima di trattare i problemi più in basso. "Arterie in uscita" (le 3 arterie sotto il ginocchio: tibiale anteriore, tibiale posteriore, peroniera; l'arco plantare del piede; le arterie delle dita). Più arterie sotto il ginocchio sono aperte, migliore è il risultato dell'intervento: se tutte e 3 le arterie tibiali sono aperte, il bypass funziona ancora in 85-90 persone su 100 dopo 5 anni; se solo 1 arteria è aperta, funziona ancora in 60-70 persone su 100; se nessuna arteria è aperta, funziona in meno di 50 persone su 100.</p>
+Procedura meno invasiva:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Rischi della procedura:</strong> l'angiografia è invasiva e ha alcuni rischi. Complicazioni nel punto di accesso (inguine/braccio) in 2-5 persone su 100: ematoma (livido grande) in 1-3 persone su 100, pseudoaneurisma (rigonfiamento dell'arteria) in circa 1 persona su 100, danni all'arteria in meno di 1 persona su 100. Complicazioni generali: reazione allergica al contrasto in circa 1 persona su 100, danno ai reni dal contrasto in 2-10 persone su 100 (più alto se hai diabete o insufficienza renale), coaguli che vanno alle dita (dita blu) in circa 1 persona su 100, ictus in meno di 1 persona su 100. Radiazioni: equivalente a circa 250-1000 radiografie del torace.</p>
+• **Come si esegue**: Anestesia locale all'inguine. Inserisce catetere sottile. Gonfia piccolo palloncino dentro l'ostruzione per allargarla. Spesso posiziona stent (tubicino metallico) per mantenere arteria aperta. Dura 1-2 ore
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Test aggiuntivi durante l'angiografia:</strong> a volte il medico usa test speciali durante l'angiografia. FFR (riserva frazionale di flusso): misura la differenza di pressione attraverso un restringimento usando un filo speciale. Se FFR è sotto 0.85 significa che il restringimento è importante e serve trattarlo. Viene usato quando il restringimento è intermedio (50-70%) e non è chiaro se serve trattarlo. IVUS (ecografia intravascolare): una piccola ecografia dentro l'arteria per vedere meglio le placche e verificare che lo stent sia ben espanso.</p>
-</div>
-</section>
+• **Recupero**: Ricovero 1-2 giorni. Riprendi camminare il giorno stesso o dopo. Ritorno attività normali in 1-2 settimane
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="heart-pulse" class="w-7 h-7 text-violet-400"></i>
-Qual è il trattamento se hai dolore lieve-moderato quando cammini?
-</h2>
+• **Risultati**: Successo in 85-95 su 100. L'arteria rimane aperta a 1 anno in 60-80% secondo sede e lunghezza ostruzione
 
-<p class="text-slate-300 leading-relaxed mb-6">
-Se hai dolore lieve-moderato quando cammini (claudicazione), il trattamento principale sono le modifiche dello stile di vita più le medicine. L'intervento per riaprire le arterie (angioplastica o bypass chirurgico) è riservato a chi: non migliora dopo 3-6 mesi di trattamento conservativo, oppure ha dolore molto grave che limita moltissimo la vita quotidiana, oppure ha ischemia critica (dolore a riposo, ulcere). Gli obiettivi del trattamento conservativo sono: 1) migliorare i sintomi di claudicazione (camminare più a lungo senza dolore), 2) ridurre il rischio di infarto e ictus, 3) prevenire che la condizione peggiori a ischemia critica o amputazione.
-</p>
+• **Complicanze**: In 3-5 su 100: ematoma inguine, danno arterioso
 
-<div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">1. Smettere di fumare - la cosa più importante che puoi fare</h3>
+**Chirurgia di bypass**:
 
-<p class="text-slate-300 mb-4">
-Il fumo è la causa principale modificabile dell'arteriopatia periferica. Se smetti di fumare: la progressione della malattia si riduce del 50-70%, il rischio di ischemia critica si riduce del 60-80%, il rischio di amputazione si riduce del 70-85%, il rischio di infarto e ictus si riduce del 30-40%, se devi fare un bypass, funziona meglio (40-50% in più di probabilità che resti aperto). Se continui a fumare dopo un intervento (angioplastica o bypass): il fallimento dell'intervento è 2-3 volte più alto, si richiude presto in 50-60 persone su 100 (vs 20-30 persone su 100 che non fumano).
-</p>
+Crea una "deviazione" intorno all'ostruzione usando vena dalla gamba o protesi sintetica:
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cosa ti aiuta a smettere:</strong></p>
+• **Come si esegue**: Anestesia generale o spinale. Connette vena o protesi sopra e sotto l'ostruzione. Dura 3-5 ore
 
-<p class="text-slate-300 ml-6 mb-3">● <strong>Supporto psicologico intensivo:</strong> programmi di più sedute (almeno 4 sedute, 10-30 minuti ciascuna) funzionano molto meglio di semplici consigli brevi. Il supporto psicologico combinato con medicine funziona meglio: 30-40 persone su 100 smettono a 6 mesi (vs solo 5-10 persone su 100 con la sola forza di volontà).</p>
+• **Recupero**: Ricovero 5-10 giorni. Inizia camminare dopo 2-3 giorni. Convalescenza completa 4-8 settimane
 
-<p class="text-slate-300 ml-6 mb-3">● <strong>Vareniclina (Champix):</strong> medicina che aiuta a smettere riducendo il desiderio di fumare e rendendo il fumo meno piacevole. Come si prende: inizi con dosi basse e aumenti gradualmente fino a 1 mg due volte al giorno per 12 settimane. Efficacia: circa 22 persone su 100 smettono con successo a 6 mesi (vs 16 persone su 100 con cerotti alla nicotina, vs 5-10 senza aiuto). Effetti collaterali comuni: nausea in 30 persone su 100 (passa col tempo, ridotta se prendi la medicina dopo i pasti), difficoltà a dormire in 10-15 persone su 100, sogni vividi in 10 persone su 100. Non usare se: hai depressione grave instabile o psicosi.</p>
+• **Risultati**: Il bypass rimane aperto a 5 anni in 70-80% se usa vena, 60-70% se usa protesi
 
-<p class="text-slate-300 ml-6 mb-3">● <strong>Bupropione (Zyban):</strong> antidepressivo che aiuta a smettere di fumare. Dosaggio: 150 mg al giorno per 3 giorni, poi 150 mg due volte al giorno per 7-12 settimane. Effetti collaterali: difficoltà a dormire in 30-40 persone su 100 (non prenderlo la sera), bocca secca in 10 persone su 100, mal di testa in 10 persone su 100. Non usare se: hai convulsioni, disturbi alimentari, o prendi certi antidepressivi.</p>
+• **Complicanze**: Mortalità 1-3%. Complicanze in 15-25 su 100: infarto, ictus, infezione, trombosi
 
-<p class="text-slate-300 ml-6 mb-6">● <strong>Sostituti della nicotina (cerotti, gomme, pastiglie, spray):</strong> cerotti da applicare sulla pelle (7-21 mg al giorno), gomme da masticare (2-4 mg), pastiglie, spray nasale, inalatori. Funzionano bene, specialmente se combini cerotti con forme a rilascio rapido (gomme o pastiglie). Sono sicuri anche se hai arteriopatia o malattia coronarica. Durata: 8-12 settimane riducendo gradualmente la dose.</p>
-</div>
+• **Quando preferire chirurgia**: Ostruzioni lunghe, più ostruzioni, anatomia non favorevole per angioplastica, aspettativa vita più di 5 anni
 
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">2. Esercizio fisico guidato - il trattamento più efficace per la claudicazione</h3>
+**Amputazione**:
 
-<p class="text-slate-300 mb-4">
-L'esercizio fisico guidato da un fisioterapista (chiamato anche riabilitazione vascolare) è il trattamento non-farmacologico più efficace se hai dolore quando cammini. Le linee guida raccomandano che a TUTTE le persone con claudicazione venga offerto l'esercizio fisico guidato prima di considerare un intervento. Gli studi dimostrano che l'esercizio guidato funziona bene quanto l'angioplastica per il dolore moderato: entrambi migliorano quanto riesci a camminare dopo 6 mesi. Ma l'esercizio ha vantaggi aggiuntivi: migliora la tua forma fisica generale, riduce i fattori di rischio (pressione, colesterolo), e non ha rischi di complicanze dell'intervento. L'intervento (angioplastica) è riservato a chi: non migliora dopo 3-6 mesi di esercizio, oppure ha sintomi molto gravi che limitano troppo la vita.
-</p>
+Ultimo ricorso quando impossibile salvare la gamba. Indicazioni: gangrena estesa, infezione grave, dolore intrattabile, impossibilità rivascolarizzazione.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Come funziona il programma di esercizio guidato:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Frequenza: 3 sedute a settimana, per almeno 12 settimane (idealmente 6 mesi)</p>
-<p class="text-slate-300 ml-6 mb-2">● Durata di ogni seduta: 30-60 minuti di camminata su tapis roulant (più riscaldamento e raffreddamento)</p>
-<p class="text-slate-300 ml-6 mb-2">● Intensità: cammini fino a quando il dolore diventa moderato-forte, poi riposi fino a che il dolore passa completamente. Ripeti questi cicli (cammina-riposa) per tutta la sessione</p>
-<p class="text-slate-300 ml-6 mb-2">● Progressione graduale: man mano che migliori, aumentano gradualmente la velocità e la pendenza del tapis roulant</p>
-<p class="text-slate-300 ml-6 mb-3">● Supervisione: un fisioterapista o infermiere specializzato controlla che tutto vada bene (pressione, battito cardiaco), ti aiuta a progredire in modo personalizzato, e ti incoraggia a continuare</p>
+---
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risultati che puoi aspettarti (da grandi studi su 1800 persone):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Riesci a camminare 120-180 metri in più prima di dover fermarti (miglioramento del 50-100%)</p>
-<p class="text-slate-300 ml-6 mb-2">● Riesci a camminare 60-80 metri in più senza dolore (miglioramento dell'80-120%)</p>
-<p class="text-slate-300 ml-6 mb-2">● La tua qualità di vita migliora molto, specialmente per le attività fisiche quotidiane</p>
-<p class="text-slate-300 ml-6 mb-2">● 40-50 persone su 100 riportano miglioramenti significativi nelle attività di tutti i giorni</p>
-<p class="text-slate-300 ml-6 mb-3">● Benefici generali per la salute: pressione più bassa (5-10 mmHg in meno), colesterolo migliore (LDL più basso del 5-10%, HDL più alto del 5%), emoglobina glicata più bassa se hai diabete</p>
+## QUAL È LA PROGNOSI?
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Perché l'esercizio funziona:</strong> l'esercizio aiuta il corpo a creare nuovi piccoli vasi sanguigni (circoli collaterali) che portano sangue aggirando i blocchi, migliora l'efficienza dei muscoli (usano meglio l'ossigeno disponibile), migliora la funzione delle pareti interne delle arterie (vasodilatazione), riduce l'infiammazione generale nel corpo, e migliora il flusso del sangue (sangue meno viscoso, globuli rossi più flessibili).</p>
+### Prognosi per le gambe
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Esercizio a casa (se non puoi fare quello guidato):</strong> se non riesci ad andare in un centro per l'esercizio guidato, puoi fare un programma strutturato di camminata a casa con contapassi o smartwatch, supporto telefonico periodico da un infermiere o fisioterapista, e un diario dove annoti quanto cammini e quando hai dolore. Funziona meno bene dell'esercizio guidato (50-70% dei risultati), ma molto meglio che non fare niente. In uno studio su 200 persone, chi faceva camminata a casa con supporto migliorava di 35 metri, vs solo 10 metri senza supporto. Importante: devi essere costante: almeno 3 volte a settimana, 30 minuti a sessione.</p>
-</div>
+• **Dolore lieve-moderato**: Senza trattamento: 70-80 su 100 rimangono stabili in 5 anni. Con trattamento ottimale: rischio progressione meno del 5%
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">3. Dieta sana e controllo del peso</h3>
+• **Dolore grave**: Rischio progressione a ischemia critica 10-15% in 5 anni
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dieta mediterranea:</strong> questo tipo di alimentazione è raccomandato per prevenire infarti e ictus. Cosa mangiare: olio d'oliva extra-vergine (30-50 mL al giorno - circa 2-3 cucchiai), frutta secca (30 g al giorno - una manciata), pesce almeno 2-3 volte a settimana, frutta e verdura almeno 5 porzioni al giorno, legumi almeno 3 volte a settimana, cereali integrali, poca carne rossa o processata (meno di 1-2 volte a settimana), moderato vino rosso (1-2 bicchieri al giorno). In un grande studio su 7447 persone, chi seguiva la dieta mediterranea aveva il 30% in meno di rischio di infarto, ictus e morte cardiovascolare rispetto a chi seguiva una dieta povera di grassi.</p>
+• **Ischemia critica**: Senza rivascolarizzazione: 40-50 su 100 richiedono amputazione entro 6 mesi. Con rivascolarizzazione: rischio amputazione 10-20% a 1 anno
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Poco sale:</strong> meno di 5 grammi di sale al giorno (circa 1 cucchiaino) riduce la pressione di 5-10 mmHg se hai pressione alta, e di 2-5 mmHg anche se la pressione è normale. La dieta DASH (contro l'ipertensione) combina: poco sale + molto potassio (frutta e verdura) per un effetto maggiore sulla pressione.</p>
+### Prognosi cardiovascolare
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controllo del peso (obiettivo: indice di massa corporea 18.5-24.9):</strong> l'obesità (indice di massa corporea 30 o più) aumenta il rischio di arteriopatia periferica di 1.5-2 volte. Se perdi il 5-10% del tuo peso corporeo: la pressione si riduce di 3-5 mmHg, il colesterolo migliora (LDL più basso del 5-10%, trigliceridi più bassi del 10-15%), la glicemia migliora (emoglobina glicata più bassa di 0.5-1.0% se hai diabete), l'infiammazione si riduce (proteina C-reattiva più bassa del 20-30%). Come perdere peso: mangia 500-750 calorie in meno al giorno (perdi 0.5-1 kg a settimana in modo sano), segui la dieta mediterranea con meno calorie, fai attività fisica regolare (esercizio guidato più attività aerobica 150-300 minuti a settimana).</p>
+• **Arteriopatia asintomatica**: Eventi cardiovascolari 3-5% annuale
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Omega-3 (grassi buoni del pesce):</strong> mangia pesce grasso (salmone, sgombro, sardine) almeno 2 volte a settimana - è raccomandato dalle linee guida. Se hai rischio cardiovascolare alto e trigliceridi alti, il medico può prescriverti omega-3 in capsule ad alte dosi (4 grammi al giorno): in uno studio su 8179 persone, questo riduceva il rischio di infarto, ictus e morte del 25%. Benefici: riduce l'infiammazione, stabilizza le placche nelle arterie, abbassa i trigliceridi, migliora la funzione dei vasi sanguigni.</p>
-</div>
+• **Arteriopatia sintomatica**: Eventi cardiovascolari 5-7% annuale. Mortalità 15-30% a 5 anni
 
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">4. Cura dei piedi - fondamentale se hai diabete</h3>
+• **Ischemia critica**: Mortalità 20-25% a 1 anno, 50-70% a 5 anni
 
-<p class="text-slate-300 mb-4">
-Se hai diabete e arteriopatia periferica: il rischio di amputazione è 10-15 volte più alto rispetto a chi non ha diabete. Perché? La combinazione di tre problemi crea un circolo vizioso: 1) neuropatia diabetica (perdita di sensibilità ai piedi), 2) arterie ristrette che portano poco sangue, 3) un trauma anche piccolo o un'infezione. Questa combinazione causa ulcere al piede. Circa 50-70 amputazioni su 100 sono precedute da un'ulcera al piede. La buona notizia: prevenire le ulcere riduce le amputazioni del 50-60%.
-</p>
+### Cosa migliora la prognosi
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controlla i piedi ogni giorno:</strong> guarda entrambi i piedi completamente ogni giorno (usa uno specchio per vedere la pianta se non riesci a piegarti). Cerca: tagli, vesciche, rossore, calli o pelle ispessita (sotto possono formarsi ulcere), cambiamenti di colore (rosso, pallido, bluastro). Se hai neuropatia perdi la sensibilità protettiva: potresti non sentire traumi causati da scarpe strette, oggetti nella scarpa, o scottature da acqua calda.</p>
+• Smettere fumo: riduce progressione 50-70%, mortalità 30-40%
+• Controllo ottimale fattori rischio: riduce eventi cardiovascolari 30-50%
+• Esercizio fisico: migliora sintomi 150-200%, riduce eventi cardiovascolari 20-30%
+• Antiaggreganti e statine: riducono eventi cardiovascolari 40-50%
+• Rivascolarizzazione tempestiva: riduce amputazioni 50-70%
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Usa scarpe comode:</strong> scarpe comode, abbastanza larghe e profonde (non devono comprimere le dita), materiali morbidi (pelle), suola rigida che protegge. Evita: scarpe strette o tacchi alti, camminare scalzo, sandali aperti (rischio di traumi). Se hai neuropatia e deformità dei piedi (alluce valgo, piede di Charcot) hai bisogno di scarpe ortopediche su misura o plantari.</p>
+---
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Igiene dei piedi:</strong> lava i piedi ogni giorno con acqua tiepida (NON calda - rischio di scottature se hai neuropatia), asciuga bene gli spazi tra le dita (previene macerazione e infezioni fungine), idrata la pelle con creme (urea 10-20%), ma NON mettere crema tra le dita (l'umidità favorisce infezioni).</p>
+## QUANDO CONSULTARE IL MEDICO
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Taglia le unghie correttamente:</strong> taglia dritto (NON arrotondare gli angoli - rischio di unghia incarnita), non tagliare troppo corto (rischio di trauma intorno all'unghia). Se hai problemi di vista o difficoltà a piegarti, vai da un podologo o infermiere specializzato.</p>
+### Consulta il medico se hai:
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Tratta subito qualsiasi lesione:</strong> QUALSIASI ferita al piede se hai diabete richiede una visita medica immediata. Anche una piccola ulcera o vescica apparentemente minore può rapidamente diventare un'infezione profonda (cellulite, infezione dell'osso, infezione del sangue). CHIAMA SUBITO IL MEDICO se: rossore che si estende oltre 2 cm dal bordo della ferita, pus, cattivo odore, vedi tendini o ossa, febbre.</p>
-</div>
-</section>
+• Dolore ai polpacci, cosce o glutei che compare quando cammini e passa con il riposo
+• Difficoltà a camminare distanze che prima percorrevi senza problemi
+• Piedi sempre freddi con colorazione pallida o bluastra
+• Ferite o ulcere ai piedi che non guariscono in 2-3 settimane
+• Unghie ispessite, perdita peli sulle gambe, pelle lucida e sottile
+• Fattori di rischio multipli (fumo, diabete, pressione alta, età sopra 60 anni) anche senza sintomi
 
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="pill" class="w-7 h-7 text-violet-400"></i>
-Quali medicine dovrai prendere?
-</h2>
+### Vai in pronto soccorso se:
 
-<p class="text-slate-300 leading-relaxed mb-6">
-Se hai arteriopatia periferica, il medico ti prescriverà diverse medicine importanti: 1) antiaggreganti (come l'aspirina) per prevenire coaguli di sangue, 2) statine ad alte dosi per abbassare il colesterolo e stabilizzare le placche nelle arterie, 3) medicine per la pressione alta (obiettivo: pressione sotto 130/80), 4) se hai diabete, medicine per controllare la glicemia (obiettivo: emoglobina glicata sotto 7%). L'obiettivo principale di queste medicine: ridurre il rischio di infarto, ictus e morte cardiovascolare. Obiettivo secondario: migliorare i sintomi di claudicazione (camminare più a lungo). TUTTE le persone con arteriopatia periferica devono prendere queste medicine per tutta la vita, anche se fanno un intervento per riaprire le arterie.
-</p>
+• Dolore intenso improvviso a una gamba a riposo con gamba fredda, pallida, senza polsi
+• Perdita improvvisa movimento o sensibilità in una gamba
+• Colore nero o blu scuro delle dita dei piedi o piede
+• Febbre alta con arrossamento, gonfiore, dolore intenso al piede
 
-<div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">1. Antiaggreganti (medicine che fluidificano il sangue)</h3>
+Questi sintomi possono indicare blocco improvviso di un'arteria o gangrena infetta, emergenze che richiedono trattamento immediato (entro 4-6 ore).
 
-<p class="text-slate-300 mb-4">
-L'arteriopatia periferica aumenta il rischio di coaguli di sangue: le placche danneggiano il rivestimento interno delle arterie, l'infiammazione aumenta la tendenza del sangue a coagulare, il flusso rallentato favorisce la formazione di coaguli. Gli antiaggreganti riducono infarti, ictus e blocchi improvvisi delle arterie del 20-30%, e la morte cardiovascolare del 10-15%.
-</p>
+---
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aspirina (cardioaspirina) 75-100 mg al giorno:</strong> questa è la medicina principale. Blocca l'azione delle piastrine che formano coaguli. Raccomandato per TUTTE le persone con arteriopatia periferica. In grandi studi su 135.000 persone, l'aspirina riduce infarto e ictus del 20-25%. Dose: 75-100 mg al giorno è la dose giusta (più efficace, meno rischi di sanguinamento). Dosi più alte (più di 100 mg) NON funzionano meglio ma aumentano il rischio di sanguinamento dallo stomaco di 2-3 volte. Nota: circa 5-10 persone su 100 non rispondono bene all'aspirina (interazioni con altri farmaci, problemi genetici).</p>
+## DOMANDE FREQUENTI
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Clopidogrel (Plavix) 75 mg al giorno:</strong> medicina alternativa che funziona in modo diverso dall'aspirina. Quando si usa: 1) se non puoi prendere aspirina (allergia o intolleranza), 2) se hai arteriopatia periferica grave. In uno studio su 19.185 persone, clopidogrel funzionava un po' meglio dell'aspirina, specialmente in chi aveva arteriopatia periferica (riduceva infarto e ictus del 24%). Doppia terapia (aspirina + clopidogrel insieme): NON si usa normalmente nell'arteriopatia periferica stabile (aumenta sanguinamenti senza benefici extra). Si usa solo: dopo angioplastica con stent (per 1-12 mesi), se hai avuto recentemente un infarto al cuore, dopo bypass coronarico.</p>
+### L'arteriopatia si può guarire?
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Rivaroxaban (Xarelto) 2.5 mg due volte al giorno + Aspirina (terapia combinata innovativa):</strong> questa combinazione è più potente. In uno studio su 27.395 persone, aggiungere rivaroxaban all'aspirina riduceva: infarto e ictus del 24%, blocchi improvvisi delle arterie delle gambe del 46%, amputazioni maggiori del 58% - risultati molto importanti. Il problema: aumenta i sanguinamenti del 70% (3 persone su 100 vs 2 su 100 solo con aspirina), ma NON aumenta sanguinamenti fatali o al cervello. Quando si usa: se hai arteriopatia periferica grave (claudicazione severa, ischemia critica, dopo intervento), se il rischio di sanguinamento è accettabile (reni funzionano bene, nessun sanguinamento recente dallo stomaco). Non si usa se: reni molto compromessi, prendi già altri anticoagulanti, alto rischio di sanguinamento.</p>
-</div>
+L'aterosclerosi è malattia cronica che non si "guarisce" completamente. Tuttavia, puoi rallentarla molto: smettere di fumare più controllo ottimale fattori rischio più farmaci può stabilizzare le placche in 70-80 persone su 100. Gli interventi riaprono le arterie ostruite ma non curano l'aterosclerosi: devi continuare farmaci e modifiche stile di vita.
 
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">2. Statine (medicine per il colesterolo)</h3>
+### Se ho dolore a una gamba sola, anche l'altra è malata?
 
-<p class="text-slate-300 mb-4">
-Le statine sono medicine fondamentali se hai arteriopatia periferica. Funzionano in due modi: 1) abbassano il colesterolo LDL ("colesterolo cattivo") bloccando la produzione di colesterolo nel fegato, 2) stabilizzano le placche nelle arterie, riducono l'infiammazione, migliorano la funzione dei vasi sanguigni, e riducono i coaguli. TUTTE le persone con arteriopatia periferica devono prendere statine ad alte dosi, anche se il colesterolo è già normale.
-</p>
+Spesso sì. Se hai ostruzione in una gamba, circa 50-60 persone su 100 hanno ostruzioni nell'altra gamba. L'aterosclerosi è malattia sistemica: se hai placche nelle gambe, probabilmente hai placche anche nelle arterie del cuore e del cervello.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Statine ad alte dosi (riducono il colesterolo LDL di almeno il 50%):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Atorvastatina (Torvast) 40-80 mg al giorno - questa è la prima scelta, ha le migliori prove scientifiche</p>
-<p class="text-slate-300 ml-6 mb-2">● Rosuvastatina (Crestor) 20-40 mg al giorno - alternativa, più potente per abbassare il colesterolo</p>
-<p class="text-slate-300 ml-6 mb-3">● Evita simvastatina 80 mg - ha più rischi di effetti collaterali muscolari</p>
+### Posso continuare a fare esercizio se ho dolore?
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Obiettivo del colesterolo LDL:</strong> se hai arteriopatia periferica, hai un rischio molto alto. L'obiettivo è: colesterolo LDL sotto 55 mg/dL E riduzione di almeno il 50% rispetto all'inizio. Se hai avuto eventi cardiovascolari ripetuti entro 2 anni: obiettivo LDL sotto 40 mg/dL. Se la statina ad alte dosi non basta: il medico aggiunge ezetimibe 10 mg al giorno (riduce l'assorbimento del colesterolo dall'intestino, abbassa ulteriormente il LDL del 15-20%). Se ancora il LDL è sopra 55: può considerare farmaci iniettabili (evolocumab o alirocumab, due volte al mese sottocute) che abbassano il LDL del 50-60% in più e riducono infarto/ictus del 15-20%.</p>
+Sì, anzi DEVI fare esercizio. È il trattamento più efficace. L'esercizio stimola formazione di nuovi vasi che "bypassano" naturalmente le ostruzioni. Cammina fino a dolore moderato, fermati e riposa, riprendi. Con programma supervisionato, 70-80 persone su 100 migliorano distanza di cammino del 150-200% in 3-6 mesi.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risultati delle statine:</strong> in grandi studi su 170.000 persone, le statine riducono infarto, ictus e morte del 20-25% per ogni 39 mg/dL di riduzione del colesterolo LDL. Se hai arteriopatia periferica: riduzione infarto 25-30%, ictus 20-25%, morte cardiovascolare 15-20%, necessità di interventi 20-25%. I benefici ci sono indipendentemente dal livello di colesterolo iniziale - le statine funzionano anche se il colesterolo è già "normale".</p>
+### Dovrò prendere farmaci per sempre?
 
-<p class="text-slate-300 mb-6"><strong class="text-white">●Effetti collaterali:</strong> le statine sono generalmente ben tollerate. Dolori muscolari: 5-10 persone su 100 (spesso lievi e non specifici). Aumento enzimi del fegato: 0.5-2 persone su 100 (il medico controlla con esami del sangue all'inizio, dopo 3 mesi, poi ogni anno). Rabdomiolisi (grave danno muscolare con insufficienza renale): meno di 1 persona su 1000 - è rara ma grave, serve ospedale. Rischi più alti se: hai più di 75 anni, sei donna, peso basso, insufficienza renale, ipotiroidismo, prendi certi farmaci insieme (gemfibrozil è controindicato; cautela con diltiazem, verapamil, amiodarone).</p>
-</div>
+Sì. L'arteriopatia indica aterosclerosi sistemica con alto rischio cardiovascolare. Antiaggreganti più statine più farmaci pressione sono raccomandati per sempre. Smettere farmaci aumenta rischio eventi di 2-3 volte. I benefici superano i rischi: previeni 10-15 infarti o ictus ogni 100 persone.
 
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Quali medicine servono per la pressione alta?</h3>
+### Cosa succede se non mi curo?
 
-<p class="text-slate-300 mb-3">Se hai arteriopatia periferica, l'obiettivo della pressione arteriosa è sotto 130/80 mmHg. Il controllo della pressione riduce il rischio di infarto, ictus e peggioramento dell'arteriopatia.</p>
+Dipende dalla gravità. Dolore lieve spesso rimane stabile (70-80 su 100) ma il rischio cardiovascolare resta alto: 5-7 eventi ogni 100 persone all'anno. Ischemia critica senza trattamento porta ad amputazione in 40-50 su 100 entro 6 mesi e morte in 20-25 su 100 entro 1 anno. Il trattamento riduce drasticamente questi rischi.
 
-<p class="text-slate-300 mb-3"><strong class="text-white">●ACE-inibitori (prima scelta se hai arteriopatia periferica):</strong> questi farmaci abbassano la pressione e proteggono il cuore e le arterie. Esempi: ramipril (Triatec) 5-10 mg al giorno, perindopril (Coversyl) 4-8 mg al giorno, enalapril 10-20 mg due volte al giorno. In grandi studi su circa 9.300 persone ad alto rischio cardiovascolare (incluse persone con arteriopatia periferica), riducono infarto, ictus e morte del 22%. Benefici: oltre ad abbassare la pressione di 2-3 punti, migliorano la salute delle pareti delle arterie, rallentano la progressione dell'aterosclerosi e proteggono i reni. Effetti collaterali: tosse secca in 10-15 persone su 100 (se intollerabile, il medico cambia con un sartano). Controindicazioni: se hai restringimenti gravi di entrambe le arterie dei reni o se sei in gravidanza.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sartani (alternativa agli ACE-inibitori):</strong> questi farmaci hanno efficacia simile agli ACE-inibitori ma NON causano tosse. Esempi: telmisartan (Micardis) 40-80 mg al giorno, valsartan (Tareg) 160-320 mg al giorno, losartan (Lortaan) 50-100 mg al giorno. Sono la prima scelta se non tolleri gli ACE-inibitori.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Calcio-antagonisti (se serve una medicina aggiuntiva):</strong> amlodipina (Norvasc) 5-10 mg al giorno, nifedipina a rilascio prolungato 30-60 mg al giorno. Questi farmaci rilassano le arterie e possono aiutare il flusso di sangue alle gambe. Vengono usati principalmente se ACE-inibitori o sartani da soli non bastano per controllare la pressione.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Beta-bloccanti NON sono controindicati se hai arteriopatia periferica:</strong> c'è un vecchio mito che i beta-bloccanti peggiorino il dolore alle gambe. Studi moderni su migliaia di persone dimostrano che i beta-bloccanti NON peggiorano la capacità di camminare e NON aumentano i sintomi dell'arteriopatia. Sono particolarmente utili se hai anche: malattia coronarica (angina, pregresso infarto), scompenso cardiaco, fibrillazione atriale. Preferiti: metoprololo (Seloken), bisoprololo (Concor), nebivololo (Lobivon) - sono più selettivi per il cuore.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Diuretici (per la ritenzione o pressione resistente):</strong> idroclorotiazide 12.5-25 mg al giorno, clortalidone 12.5-25 mg al giorno. Vengono aggiunti se ACE-inibitori/sartani e calcio-antagonisti non bastano. La furosemide (Lasix) è riservata a chi ha scompenso cardiaco o grave insufficienza renale.</p>
-</div>
-
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Quali medicine per il diabete se hai arteriopatia periferica?</h3>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Obiettivo emoglobina glicata (HbA1c) sotto 7% (personalizzato):</strong> se hai diabete E arteriopatia periferica, controllare bene la glicemia riduce le complicanze ai piccoli vasi (occhi, reni, nervi) ma ha effetto limitato sulle arterie grandi (gambe, cuore). L'obiettivo HbA1c è personalizzato: se sei giovane e in buona salute → HbA1c sotto 6.5%, se sei anziano o hai altre malattie → HbA1c sotto 7.5-8% (per evitare ipoglicemie pericolose). Studi su decine di migliaia di persone mostrano che abbassare troppo la glicemia (sotto 6%) non dà benefici al cuore ma aumenta il rischio di ipoglicemie.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Gliflozine (SGLT2 inibitori) - benefici al cuore e reni:</strong> questi farmaci ti fanno eliminare lo zucchero con le urine, abbassando la glicemia. Esempi: empagliflozin (Jardiance) 10-25 mg al giorno, dapagliflozin (Forxiga) 10 mg al giorno, canagliflozin (Invokana) 100-300 mg al giorno. Benefici documentati in studi su migliaia di persone con diabete E malattie cardiovascolari: riducono morte cardiovascolare del 38%, riducono scompenso cardiaco del 35%, proteggono i reni riducendo la progressione della nefropatia del 39%. Effetti collaterali: infezioni genitali (candida) in 10-15 persone su 100, chetoacidosi (rara ma grave, meno di 1 persona su 100). ATTENZIONE: alcuni studi (con canagliflozin) hanno trovato un piccolo aumento del rischio di amputazioni delle dita dei piedi (doppio rischio, soprattutto in persone che già avevano arteriopatia grave). Altri studi NON hanno confermato questo rischio. Cautela se hai ulcere o ischemia grave ai piedi.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●GLP-1 agonisti (iniezioni settimanali) - benefici cuore e perdita peso:</strong> questi farmaci si fanno con un'iniezione sottocutanea. Esempi: liraglutide (Victoza) 1.2-1.8 mg al giorno, semaglutide (Ozempic) 0.5-1 mg a settimana, dulaglutide (Trulicity) 1.5 mg a settimana. Benefici: abbassano la glicemia (HbA1c ridotta di 1-1.5%), fanno perdere 3-5 kg di peso, abbassano la pressione di 2-4 punti. In grandi studi riducono infarto, ictus e morte cardiovascolare del 13-22%. Effetti collaterali: nausea in 20-40 persone su 100 (di solito migliora dopo le prime settimane), vomito in 10 persone su 100, diarrea in 10 persone su 100. Il medico aumenta la dose lentamente per ridurre questi disturbi.</p>
-</div>
-
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Esistono medicine specifiche per il dolore alle gambe?</h3>
-
-<p class="text-slate-300 mb-3">
-Esistono alcuni farmaci specifici per il dolore da camminata (claudicatio), ma la loro efficacia è MODESTA e INFERIORE all'esercizio fisico guidato. NON sostituiscono l'esercizio e le altre medicine (aspirina, statine, pressione). Vengono considerati solo se: hai dolore moderato-severo che persiste nonostante 3-6 mesi di esercizio guidato E tutte le altre medicine, quando un intervento alle arterie non è indicato o non è possibile, come terapia aggiuntiva.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Cilostazol (Pletal) 100 mg due volte al giorno:</strong> questo farmaco dilata le arterie e blocca le piastrine. È l'unico farmaco approvato per la claudicatio negli Stati Uniti. In studi su circa 2.700 persone, aumenta la distanza di cammino di 42 metri (miglioramento del 25-30%) rispetto al placebo. Questo è MOLTO MENO dell'esercizio guidato (che ti fa camminare 120-180 metri in più). Effetti collaterali: mal di testa in 30 persone su 100, diarrea in 15 persone su 100, palpitazioni in 10 persone su 100. CONTROINDICATO se hai scompenso cardiaco (può peggiorare il cuore e aumentare mortalità). Cautela se hai fibrillazione atriale.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pentossifillina 400 mg tre volte al giorno:</strong> questo farmaco dovrebbe migliorare la fluidità del sangue. L'evidenza scientifica è DEBOLE: in studi su circa 600 persone aumenta la distanza di cammino di appena 29 metri rispetto al placebo (beneficio minimo). NON è raccomandata dalle linee guida europee e americane. Viene usata principalmente in Europa.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Naftidrofurile (Praxilene) 200 mg tre volte al giorno:</strong> questo farmaco dilata le arterie delle gambe. Ha evidenza limitata da piccoli studi europei: aumenta la distanza di cammino di circa 49 metri. NON è approvato negli Stati Uniti, disponibile solo in Europa. Efficacia marginale.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Prostaglandine (alprostadil, iloprost) - solo in ospedale per ischemia grave:</strong> questi sono farmaci vasodilatatori potenti che si danno in vena in ospedale. Vengono usati SOLO per ischemia critica grave (dolore a riposo, ulcere, gangrena) quando un intervento alle arterie non è possibile, come tentativo di salvare la gamba. Si fanno infusioni endovenose continue per 3-6 ore al giorno, per 2-4 settimane. In studi mostrano miglioramento della guarigione delle ulcere del 25-30%. Effetti collaterali: rossore, mal di testa, pressione bassa. Oggi con i moderni interventi alle arterie, il loro ruolo è limitato.</p>
-</div>
-</section>
-
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="activity" class="w-7 h-7 text-pink-400"></i>
-Quando serve un intervento per riaprire le arterie?
-</h2>
-
-<p class="text-slate-300 leading-relaxed mb-6">
-Un intervento per riaprire le arterie (chiamato rivascolarizzazione) è indicato in due situazioni: 1) Se hai ischemia critica (dolore a riposo, ulcere, gangrena) → l'intervento è URGENTE per salvare la gamba, 2) Se hai dolore severo quando cammini che limita gravemente la tua vita quotidiana E hai già provato esercizio fisico guidato + tutte le medicine per 3-6 mesi senza miglioramento sufficiente. Obiettivi dell'intervento: far arrivare più sangue alle gambe (migliora l'indice caviglia-braccio), eliminare il dolore a riposo o da camminata, far guarire le ulcere, prevenire l'amputazione. Esistono due tipi di intervento: angioplastica (procedura mininvasiva con catetere) e bypass chirurgico (operazione con condotto nuovo). La scelta dipende da: quanto sono gravi e dove sono i restringimenti, il tuo stato di salute generale, l'esperienza del centro.
-</p>
-
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Come si decide quale intervento è meglio per te?</h3>
-
-<p class="text-slate-300 mb-3">
-I medici classificano i restringimenti delle arterie in 4 categorie (dalla A alla D), in base a: dove sono, quanto sono lunghi, quanti sono, quanto sono complessi. Questa classificazione aiuta a decidere quale intervento è meglio:
-</p>
-
-<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo A (restringimenti semplici e corti):</strong> angioplastica con catetere è la prima scelta - funziona molto bene</p>
-<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo B (restringimenti moderati):</strong> angioplastica è ancora preferita - se non funziona, si fa bypass</p>
-<p class="text-slate-300 ml-6 mb-2"><strong class="text-white">●Tipo C (restringimenti estesi):</strong> bypass chirurgico è preferito, ma angioplastica è un'opzione se hai altri problemi di salute gravi</p>
-<p class="text-slate-300 ml-6 mb-3"><strong class="text-white">●Tipo D (occlusioni molto estese o bilaterali):</strong> bypass chirurgico è la prima scelta - funziona meglio a lungo termine</p>
-
-<p class="text-slate-300 mb-6">In generale: più semplici e corti sono i restringimenti, più l'angioplastica funziona bene. Più estese e complesse sono le occlusioni, più il bypass chirurgico è necessario.</p>
-</div>
-
-<div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cos'è l'angioplastica (procedura con catetere)?</h3>
-
-<p class="text-slate-300 mb-3">
-L'angioplastica è una procedura mininvasiva per riaprire le arterie ristrette. Il medico inserisce un catetere sottile (un tubicino flessibile) attraverso una piccola puntura nell'inguine o nella gamba. Guidato dalle immagini radiologiche, fa avanzare il catetere fino al restringimento dell'arteria. Poi gonfia un palloncino per allargare il restringimento. Se necessario, può inserire uno stent (una retina metallica) per tenere aperta l'arteria. Si fa in anestesia locale, di solito puoi tornare a casa lo stesso giorno o il giorno dopo, recupero completo in 1-2 giorni.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Come funziona l'angioplastica:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">1. Il medico fa una piccola puntura nell'arteria dell'inguine (guidata dall'ecografia) e inserisce un introduttore. Ti dà eparina (anticoagulante) per evitare coaguli durante la procedura.</p>
-<p class="text-slate-300 ml-6 mb-2">2. Fa una radiografia delle arterie iniettando mezzo di contrasto, per vedere esattamente dove e quanto sono ristrette.</p>
-<p class="text-slate-300 ml-6 mb-2">3. Guida un filo sottile attraverso il restringimento (se il restringimento è recente, riesce a passare in 90-95 casi su 100; se è vecchio di oltre 1 anno, riesce in 50 casi su 100 perché è più duro e calcificato).</p>
-<p class="text-slate-300 ml-6 mb-2">4. Gonfia un palloncino nel punto ristretto per allargarlo. Il palloncino rimane gonfiato per 1-3 minuti.</p>
-<p class="text-slate-300 ml-6 mb-3">5. Se il restringimento non si apre abbastanza o l'arteria tende a richiudersi, mette uno stent (retina metallica) che tiene aperta l'arteria.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risultati dell'angioplastica a seconda della zona trattata:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Arterie dell'addome e del bacino (aorta e iliache):</strong> la procedura riesce in 95-98 casi su 100. L'arteria rimane aperta nell'85-90% dei casi a 1 anno e nel 70-80% dei casi a 5 anni. Questi sono i migliori risultati di tutta l'angioplastica periferica. Mettere uno stent funziona meglio del solo palloncino: l'arteria rimane aperta nel 71% vs 54% dei casi a 2 anni.</p>
-<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Arterie della coscia e dietro il ginocchio (femorali e poplitee):</strong> la procedura riesce in 90-95 casi su 100. L'arteria rimane aperta nel 60-70% dei casi a 1 anno e nel 40-50% dei casi a 3 anni (se il restringimento era semplice). Se il restringimento era esteso: 40-50% a 1 anno. I palloncini medicati (rilasciano una medicina che previene il restringimento) funzionano meglio: 75-80% vs 55-60% a 1 anno.</p>
-<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Arterie della gamba sotto il ginocchio (tibiali):</strong> la procedura riesce in 85-90 casi su 100. L'arteria rimane aperta nel 50-60% dei casi a 1 anno e nel 30-40% dei casi a 2 anni. Questi risultati sono peggiori perché le arterie sono molto piccole (2-3 mm) e tendono a richiudersi. L'angioplastica qui si fa soprattutto per ischemia critica (salvare la gamba), non per semplice dolore da camminata. Richiede spesso interventi ripetuti: 2-3 volte più frequenti rispetto al bypass chirurgico.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Rischi dell'angioplastica (complicanze totali 5-10 persone su 100):</strong> ematoma nel punto di puntura 2-4 su 100, rigonfiamento dell'arteria (pseudoaneurisma) 0.5-1 su 100, danno dell'arteria durante la procedura 3-5 su 100 (si risolve mettendo uno stent), perforazione dell'arteria 0.5-1 su 100, frammenti di placca che vanno ai piedi (dita blu) 1-2 su 100, danno ai reni dal mezzo di contrasto 2-5 su 100 (si previene bevendo molta acqua e riducendo la quantità di contrasto). Amputazione durante o subito dopo la procedura: meno di 1 su 1000. Morte entro 30 giorni: meno di 5 su 1000.</p>
-</div>
-
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cos'è il bypass chirurgico (operazione)?</h3>
-
-<p class="text-slate-300 mb-3">
-Il bypass chirurgico è un'operazione che crea una "strada alternativa" per il sangue, saltando il tratto di arteria ristretta o chiusa. Il chirurgo collega (anastomizza) un condotto all'arteria sana sopra il restringimento e all'arteria sana sotto il restringimento. Il sangue può così scorrere attraverso questo nuovo condotto. Si fa in anestesia generale o epidurale, rimani in ospedale 3-7 giorni, recupero completo in 4-6 settimane.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Quali condotti si usano per il bypass:</strong></p>
-
-<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Vena safena (la tua vena della gamba):</strong> questa è la scelta migliore. Il chirurgo preleva la vena safena da una delle tue gambe attraverso un'incisione chirurgica. Questa vena diventa il nuovo condotto per il bypass. Risultati: il condotto rimane aperto nel 75-80% dei casi a 5 anni (se il bypass è sopra il ginocchio), e nel 60-70% dei casi a 5 anni (se il bypass è sotto il ginocchio o arriva fino alle arterie della gamba). Limiti: in 20-30 persone su 100 la vena safena non è adatta (perché è stata già operata per vene varicose, o è troppo piccola o malata).</p>
-
-<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Vene alternative (vene del braccio o altra vena della gamba):</strong> se la vena safena non è utilizzabile, il chirurgo può usare vene del braccio o altre vene più piccole. I risultati sono un po' peggiori (10-15% in meno) rispetto alla safena, ma sempre migliori dei condotti sintetici.</p>
-
-<p class="text-slate-300 ml-6 mb-3">●<strong class="text-white">Condotti sintetici (protesi in materiale artificiale):</strong> questi sono tubi sintetici fatti di un materiale plastico speciale (PTFE o Dacron). Si usano quando non hai vene adatte, o per bypass nell'addome o bacino. Risultati: rimangono aperti nel 50-60% dei casi a 5 anni (se il bypass è sopra il ginocchio), ma solo nel 30-40% dei casi a 3 anni se il bypass è sotto il ginocchio. Per questo, sotto il ginocchio si cerca sempre di usare la tua vena.</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Tipi di bypass a seconda di dove sono i restringimenti:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass dall'aorta alle femorali (aorto-bifemorale):</strong> per restringimenti gravi dell'aorta e delle arterie del bacino. Usa un condotto sintetico a Y che parte dall'aorta nell'addome e arriva a entrambe le arterie femorali. Rimane aperto nell'85-90% dei casi a 10 anni. È un'operazione più impegnativa (serve aprire l'addome, bloccare l'aorta). Complicanze: problemi di erezione in 10-25 uomini su 100.</p>
-<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass dalla femorale all'arteria dietro il ginocchio (femoro-popliteo sopra il ginocchio):</strong> per restringimenti dell'arteria della coscia (femorale). Preferito: la tua vena safena (75-80% aperta a 5 anni). Alternativa: condotto sintetico (50-60% aperto a 5 anni).</p>
-<p class="text-slate-300 ml-6 mb-2">●<strong class="text-white">Bypass fino alle arterie della gamba sotto il ginocchio (femoro-popliteo/tibiale):</strong> per ischemia critica quando serve salvare la gamba. Si usa OBBLIGATORIAMENTE la tua vena safena (i condotti sintetici non funzionano bene sotto il ginocchio). Rimane aperto nel 60-70% dei casi a 5 anni. In studi su 452 persone con ischemia critica: bypass e angioplastica hanno risultati simili a 1 anno nel salvare la gamba (68-71% senza amputazione), ma dopo 2 anni il bypass funziona meglio se hai buona aspettativa di vita E una vena buona.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Rischi del bypass chirurgico (complicanze 10-15 persone su 100):</strong> infezione della ferita 3-5 su 100, infezione del condotto 1-2 su 100 (molto grave, richiede rimuovere il condotto, mortalità 10-20 su 100), chiusura precoce del condotto entro 30 giorni 3-5 su 100, gonfiore gamba (linfedema) 2-3 su 100, infarto o aritmie 2-5 su 100, ictus 1 su 100, insufficienza renale 2-3 su 100, amputazione 2-3 su 100. Morte entro 30 giorni: 1-3 persone su 100 se hai dolore da camminata, 3-5 persone su 100 se hai ischemia critica.</p>
-</div>
-
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Angioplastica o bypass: quale scegliere?</h3>
-
-<p class="text-slate-300 mb-3">
-Strategia attuale: la maggior parte dei centri preferisce cominciare con l'angioplastica (approccio angioplastica-prima) perché è meno invasiva, recupero più veloce, e conserva le vene per un eventuale bypass futuro se l'angioplastica non funziona o l'arteria si richiude. Il bypass chirurgico è riservato a: quando l'angioplastica non riesce o l'arteria si richiude, restringimenti molto estesi (Tipo D) che non sono adatti per angioplastica, quando hai una vena buona disponibile E aspettativa di vita superiore a 2 anni.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Evidenza scientifica (studio BASIL su 452 persone con ischemia critica):</strong> angioplastica-prima vs bypass-prima, seguiti per 5 anni. Risultati a 1 anno: praticamente uguali (68% vs 71% senza amputazione e vivi). Risultati oltre 2 anni: il bypass funziona meglio se hai una vena buona E aspettativa di vita oltre 2 anni (riduzione mortalità del 39%). Interventi ripetuti necessari: doppi con angioplastica (45% vs 20%). Costi: angioplastica costa meno inizialmente, ma i costi diventano uguali a lungo termine (per i numerosi interventi ripetuti).</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Raccomandazioni attuali (2024):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo A: angioplastica è la prima scelta, bypass quasi mai necessario</p>
-<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo B: angioplastica è preferita, bypass se fallisce o si richiude</p>
-<p class="text-slate-300 ml-6 mb-2">● Restringimenti Tipo C: angioplastica e bypass funzionano entrambi, la scelta è personalizzata (dipende da anatomia, altre tue malattie, disponibilità vena, tua preferenza). Bypass è preferito se hai una vena buona + basso rischio operatorio + aspettativa di vita oltre 2 anni.</p>
-<p class="text-slate-300 ml-6 mb-3">● Restringimenti Tipo D: bypass è la prima scelta, angioplastica solo se hai rischio operatorio troppo alto O non hai vene adatte (accettando risultati peggiori)</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Procedure ibride (combinazione angioplastica + bypass):</strong> in alcuni centri specializzati si combina angioplastica nelle arterie del bacino + bypass nelle arterie della gamba nella stessa seduta. Questo è utile quando hai restringimenti a più livelli (es. bacino + coscia). Permette di evitare di aprire l'addome e riduce i rischi dell'operazione del 30-40%, con risultati uguali.</p>
-</div>
-</section>
-
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="heart" class="w-7 h-7 text-amber-400"></i>
-Che rischio hai di infarto e ictus se hai arteriopatia periferica?
-</h2>
-
-<p class="text-slate-300 leading-relaxed mb-6">
-Se hai arteriopatia periferica, il tuo rischio di infarto e ictus è MOLTO ALTO. L'aterosclerosi (le placche che restringono le arterie) NON colpisce solo le gambe, ma contemporaneamente anche: le arterie del cuore (coronarie), le arterie del collo (carotidi) che portano sangue al cervello, le arterie dei reni, le arterie dell'intestino. Gli stessi fattori di rischio (fumo, diabete, colesterolo alto, pressione alta) causano placche in TUTTE queste arterie. L'arteriopatia periferica raramente è isolata: 40-60 persone su 100 con arteriopatia periferica hanno ANCHE restringimenti delle coronarie (≥50%), 25-30 persone su 100 hanno restringimenti delle carotidi (≥50%), 20-30 persone su 100 hanno insufficienza renale.
-</p>
-
-<div class="warning-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Quanto è alto il rischio di eventi cardiovascolari gravi?</h3>
-
-<p class="text-slate-300 mb-3">
-Se hai arteriopatia periferica, il rischio di eventi cardiovascolari gravi (morte cardiovascolare, infarto, ictus) è 5-7 persone su 100 ogni anno - questo è 5-10 VOLTE PIÙ ALTO rispetto alle persone della stessa età senza arteriopatia. Nel dettaglio: morte cardiovascolare 2-3 persone su 100 ogni anno, infarto 2-3 persone su 100 ogni anno, ictus 1-2 persone su 100 ogni anno. Mortalità totale per qualsiasi causa: 15-30 persone su 100 entro 5 anni (3-5 volte più alta rispetto a chi non ha arteriopatia).
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Il rischio aumenta con la gravità dell'arteriopatia:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Se hai arteriopatia asintomatica (solo esami alterati, nessun dolore): 3-5 persone su 100 ogni anno hanno infarto/ictus/morte (rischio intermedio)</p>
-<p class="text-slate-300 ml-6 mb-2">● Se hai dolore da camminata (claudicatio): 5-7 persone su 100 ogni anno hanno infarto/ictus/morte (rischio alto)</p>
-<p class="text-slate-300 ml-6 mb-2">● Se hai ischemia critica (dolore a riposo, ulcere, gangrena): 10-15 persone su 100 ogni anno hanno infarto/ictus/morte, e 20-25 persone su 100 muoiono entro 1 anno (rischio molto alto - peggiore del cancro al colon stadio III)</p>
-<p class="text-slate-300 ml-6 mb-3">● Se hai arteriopatia INSIEME a malattia coronarica: 15-20 persone su 100 ogni anno hanno infarto/ictus/morte (rischio estremo - serve screening e trattamento aggressivo di entrambe)</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Quante persone hanno placche in più arterie (malattia polivascolare)?</strong> 40-50 persone su 100 con arteriopatia periferica sintomatica hanno malattia polivascolare documentata (arteriopatia + coronarie: 40%, arteriopatia + carotidi: 25%, arteriopatia + coronarie + carotidi: 15%). In grandi studi su 68.000 persone con aterosclerosi: chi ha placche in 2 o più territori (es. gambe + cuore) ha rischio DOPPIO di infarto/ictus/morte (12.8% vs 5.3% ogni anno) e rischio TRIPLO di morte cardiovascolare, rispetto a chi ha placche in un solo territorio.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Di cosa muoiono le persone con arteriopatia periferica?</strong> Morte cardiovascolare 40-50% (infarto 25-30%, ictus 10-15%, morte cardiaca improvvisa 5-10%), cancro 20-25%, infezioni/sepsi 10-15%, altre cause 15-20%. Morte per complicanze della gamba (amputazione, ecc.): meno del 5% del totale. MESSAGGIO IMPORTANTE: la maggior parte delle persone con arteriopatia periferica muore per infarto o ictus, NON per complicanze alle gambe. Priorità: prendere TUTTE le medicine (aspirina, statine, pressione) e controllare TUTTI i fattori di rischio per prevenire infarto e ictus.</p>
-</div>
-
-<div class="highlight-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quali controlli devi fare se hai arteriopatia periferica?</h3>
-
-<p class="text-slate-300 mb-3">
-Se hai arteriopatia periferica, devi fare controlli per cercare placche nelle arterie del cuore (coronarie) e del collo (carotidi), ANCHE SE NON HAI SINTOMI. Obiettivo: trovare restringimenti importanti e curarli PRIMA che causino infarto o ictus.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controlli per il cuore (coronarie):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Elettrocardiogramma (ECG) di base: cerca segni di infarti precedenti o ischemia silente</p>
-<p class="text-slate-300 ml-6 mb-2">● Test da sforzo (cicloergometro, ecocardiogramma da stress, scintigrafia): se hai sintomi suggestivi di angina, se hai diabete, se hai ischemia critica E devi fare un intervento vascolare importante (per valutare il rischio cardiaco prima dell'operazione)</p>
-<p class="text-slate-300 ml-6 mb-3">● TAC coronarica: alternativa non invasiva per vedere le coronarie. Utile se non riesci a fare il test da sforzo (perché il dolore alle gambe ti ferma prima)</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Controlli per le carotidi (arterie del collo):</strong> eco-Doppler delle carotidi raccomandato per TUTTE le persone con arteriopatia periferica sintomatica (linee guida europee 2024). Trova restringimenti delle carotidi ≥50% senza sintomi (presenti in 25-30 persone su 100 con arteriopatia periferica). Se trovi restringimento severo ≥70-80% senza sintomi: il medico può considerare un intervento alle carotidi (endarterectomia o stent) per prevenire l'ictus. Servono trattare 20-30 persone per prevenire 1 ictus in 5 anni. Se hai avuto un TIA (mini-ictus) o ictus recente E hai restringimento della carotide: intervento URGENTE entro 14 giorni. Qui servono trattare solo 6 persone per prevenire 1 ictus recidivo.</p>
-</div>
-</section>
-
-<section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
-<i data-lucide="trending-up" class="w-7 h-7 text-amber-400"></i>
-Qual è la prognosi se hai arteriopatia periferica?
-</h2>
-
-<p class="text-slate-300 leading-relaxed mb-6">
-La prognosi dell'arteriopatia periferica dipende da: quanto è grave (asintomatica, dolore da camminata, ischemia critica), se hai altre malattie (diabete, insufficienza renale, malattia coronarica), se segui bene le cure (smetti fumo, prendi tutte le medicine, fai esercizio), se serve un intervento e come va. Ci sono due aspetti da valutare: 1) prognosi delle gambe (rischio di peggioramento, amputazione), 2) prognosi cardiovascolare generale (rischio di infarto, ictus, morte).
-</p>
-
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Prognosi delle gambe a seconda della gravità</h3>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai arteriopatia asintomatica (solo esami alterati, nessun dolore):</strong> prognosi delle gambe eccellente. Rischio di ischemia critica: meno di 1 persona su 100 ogni anno. Rischio di amputazione maggiore: meno di 0.5 persone su 100 a 5 anni. Miglioramento spontaneo dei sintomi: 10-15 persone su 100 (si sviluppano circoli collaterali, cioè vie alternative per il sangue). Stabilità: 70-80 persone su 100 rimangono stabili a 5 anni. Peggioramento con dolore da camminata: 10-15 persone su 100. IMPORTANTE: il rischio principale NON è perdere la gamba, ma avere infarto/ictus (3-5 persone su 100 ogni anno).</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai dolore da camminata (claudicatio):</strong> prognosi delle gambe buona se segui bene le cure (esercizio fisico guidato + tutte le medicine). Stabilità dei sintomi: 70-80 persone su 100 a 5 anni. Miglioramento della distanza di cammino: 10-15 persone su 100 (con esercizio regolare e sviluppo circoli collaterali). Peggioramento a ischemia critica: 5-10 persone su 100 a 5 anni (più alto se continui a fumare: 15-20 su 100, se hai diabete: 10-15 su 100, vs 3-5 su 100 se non fumi e non hai diabete). Rischio di amputazione maggiore: 1-2 persone su 100 a 5 anni (basso, principalmente chi peggiora a ischemia critica). Fattori che predicono peggioramento: continuare a fumare (rischio 3-4 volte più alto), diabete (rischio 2-3 volte più alto), indice caviglia-braccio molto basso <0.50 (rischio 2-3 volte più alto), non prendere le medicine.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Se hai ischemia critica (dolore a riposo, ulcere, gangrena):</strong> prognosi delle gambe severa senza intervento. Se NON fai un intervento per riaprire le arterie: amputazione maggiore in 40-50 persone su 100 entro 6 mesi, morte in 20-25 persone su 100 entro 1 anno. Se fai un intervento appropriato (angioplastica o bypass): gamba salvata in 70-85 persone su 100 a 1 anno, e in 60-70 persone su 100 a 3 anni. Amputazione maggiore necessaria in 15-30 persone su 100 nonostante l'intervento (perché la perdita di tessuto è troppo estesa, l'infezione è grave, o non ci sono arterie trattabili). Mortalità dopo intervento per ischemia critica: 10-15 persone su 100 a 1 anno, 30-40 persone su 100 a 3 anni (per le altre malattie gravi associate).</p>
-</div>
-
-<div class="warning-box rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quali controlli devi fare nel tempo?</h3>
-
-<p class="text-slate-300 mb-3">
-I controlli regolari sono essenziali per monitorare se la malattia peggiora, se prendi bene le medicine, e per identificare subito le complicanze (arteria che si richiude dopo intervento, infarto, ictus). La frequenza delle visite dipende dalla gravità e dagli interventi che hai fatto.
-</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai arteriopatia asintomatica o dolore lieve-moderato stabile:</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Visite dal medico: ogni 6-12 mesi</p>
-<p class="text-slate-300 ml-6 mb-2">● Cosa ti chiede il medico: se prendi le medicine regolarmente (aspirina, statine, pressione), se i sintomi sono cambiati (dolore nuovo, peggioramento), se hai smesso di fumare, se controlli bene diabete e pressione</p>
-<p class="text-slate-300 ml-6 mb-2">● Cosa cerca il medico: polsi periferici, soffi arteriosi, stato della pelle delle gambe (colore, ulcere)</p>
-<p class="text-slate-300 ml-6 mb-2">● Esami: indice caviglia-braccio una volta all'anno (se peggiora di 0.05-0.10 rispetto all'anno prima, significa che la malattia sta progredendo). Eco-Doppler delle arterie ogni 1-2 anni se i sintomi sono stabili.</p>
-<p class="text-slate-300 ml-6 mb-3">● Esami del sangue: colesterolo (obiettivo LDL sotto 55 mg/dL), emoglobina glicata se hai diabete (obiettivo sotto 7%), funzione dei reni (creatinina), una volta all'anno</p>
-
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se hai dolore severo o hai fatto un intervento (angioplastica/bypass):</strong></p>
-<p class="text-slate-300 ml-6 mb-2">● Visite: ogni 3 mesi il primo anno dopo l'intervento, poi ogni 6 mesi se tutto è stabile</p>
-<p class="text-slate-300 ml-6 mb-2">● Eco-Doppler di controllo del bypass: a 1 mese, 3 mesi, 6 mesi, 12 mesi, poi una volta all'anno per tutta la vita. Serve per trovare restringimenti del condotto del bypass prima che si chiuda completamente (50-70% dei restringimenti sono senza sintomi → se li trovi e curi subito, eviti che il bypass si chiuda).</p>
-<p class="text-slate-300 ml-6 mb-3">● Indice caviglia-braccio dopo l'intervento: se migliora di almeno 0.15 rispetto a prima dell'intervento, significa che l'intervento è riuscito. Se peggiora di 0.15 rispetto a subito dopo l'intervento → l'arteria si sta richiudendo → serve fare urgentemente un'ecografia o radiografia con contrasto.</p>
-
-<p class="text-slate-300 mb-6"><strong class="text-white">●Se hai ischemia critica con ulcere attive:</strong> controlli molto frequenti con team multidisciplinare (chirurgo vascolare, podologo, infermiere specializzato nelle ferite, diabetologo se hai diabete). Visite settimanali o due volte a settimana finché l'ulcera non guarisce. Medicazioni avanzate, scarico del peso (off-loading) per non premere sull'ulcera, antibiotici se c'è infezione. Misurazione dell'ossigeno transcutaneo (TcPO₂) per monitorare la guarigione: se TcPO₂ è sopra 40 mmHg, l'ulcera guarirà probabilmente; se è sotto 20 mmHg, l'ulcera NON guarirà (può essere necessaria amputazione).</p>
-</div>
-</section>
-
-<section class="mb-2">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="link" class="w-6 h-6 text-amber-400"></i>
-            Potrebbe interessarti
-</h2>
-<p class="text-slate-400 text-sm">Vedi anche: <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/malattia-coronarica/">malattia coronarica</a> e <a class="text-sky-400 hover:text-sky-300 underline" href="/articles/prevenzione-cardiovascolare/">prevenzione cardiovascolare</a>.</p>
-</section>
-
-</article>

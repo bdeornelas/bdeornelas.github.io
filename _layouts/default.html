@@ -94,8 +94,8 @@
       "addressLocality": "Milano"
     },
     "telephone": "+39-02-XXXXXXX",
-    "url": "https://bdeornelas.github.io",
-    "image": "https://bdeornelas.github.io/assets/img/benjamin-de-ornelas-portrait.jpg",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/assets/img/benjamin-de-ornelas-portrait.jpg",
     "sameAs": [
       "https://it.linkedin.com/in/dr-benjamin-de-ornelas",
       "https://instagram.com/dr.deornelas_benjamin",
@@ -133,14 +133,14 @@
       "name": "Dr. Benjamin De Ornelas",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://bdeornelas.github.io/assets/img/logo-bdo.png"
+        "url": "{{ site.url }}/assets/img/logo-bdo.png"
       }
     },
     "datePublished": "{{ page.date | date: '%Y-%m-%d' | default: '2025-01-01' }}",
     "dateModified": "{{ page.date | date: '%Y-%m-%d' | default: '2025-01-01' }}",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bdeornelas.github.io{{ page.url }}"
+      "@id": "{{ site.url }}{{ page.url }}"
     },
     "about": [
       {
@@ -162,7 +162,7 @@
   <link rel="apple-touch-icon" href="/assets/img/logo-bdo.png">
 
   <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/assets/css/tailwind.min.css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -181,9 +181,14 @@
 </head>
 <body class="bg-slate-900 text-gray-200">
 
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-sky-500 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
+    Salta al contenuto principale
+  </a>
+
   <!-- ECG ULTRA-REALISTIC BACKGROUND -->
-  <div class="ecg-background">
-    <svg class="ecg-background-svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid slice">
+  <div class="ecg-background" aria-hidden="true">
+    <svg class="ecg-background-svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <defs>
         <!-- Premium gradient: Sky Blue → Purple -->
         <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -254,7 +259,7 @@
   </div>
 
   <!-- SUBTLE GLOW OVERLAY -->
-  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full">
+  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full" aria-hidden="true">
     <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/10 blur-3xl pulse-glow-animation"></div>
   </div>
 
@@ -262,7 +267,9 @@
 
     {% include header.html %}
 
+    <main id="main-content">
     {{ content }}
+    </main>
 
     {% include footer.html %}
 
