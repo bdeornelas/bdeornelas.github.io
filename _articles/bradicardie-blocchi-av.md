@@ -1,384 +1,119 @@
 ---
 collection: articles
 layout: "default"
-title: "Bradicardia - Quando il Cuore Batte Lento | Dr. Benjamin De Ornelas"
-description: "Cos'è la bradicardia (battito lento), quando è normale e quando preoccupa, quali sintomi riconoscere, come si diagnostica e quando serve il pacemaker. Guida per pazienti."
-og_title: "Bradicardia - Quando il Cuore Batte Lento"
-og_description: "Guida completa alla bradicardia: capire il battito lento, riconoscere i sintomi e sapere quando rivolgersi al medico."
+title: "Bradicardia – Le Basi | Dr. Benjamin De Ornelas"
+description: "Bradicardia spiegata per pazienti. Quando è normale, quando preoccuparsi, sintomi e pacemaker."
+og_title: "Bradicardia – Le Basi"
+og_description: "Informazioni essenziali sulla bradicardia per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-04"
 
 ---
 
-<!-- Fallback: se GitHub Pages non applica il layout Jekyll, carica gli asset minimi qui -->
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<link rel="stylesheet" href="/assets/css/style.min.css">
-<script defer src="https://unpkg.com/lucide@latest"></script>
+# Bradicardia – Le Basi
 
-<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+La **bradicardia** si verifica quando il cuore batte più lentamente del normale, tipicamente meno di 60 volte al minuto a riposo. Il battito del cuore nasce da una piccola zona chiamata nodo senoatriale, che genera impulsi elettrici che viaggiano attraverso il cuore facendolo battere in modo coordinato.
 
-<nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
-  <a href="/" class="hover:text-sky-400">Home</a>
-  <span class="mx-2">/</span>
-  <a href="/articles/" class="hover:text-sky-400">Articoli</a>
-  <span class="mx-2">/</span>
-  <span class="text-white">Bradicardia</span>
-</nav>
+Il battito può rallentare per due motivi principali: il nodo senoatriale genera i segnali più lentamente del dovuto, oppure i segnali elettrici hanno difficoltà a passare da una parte all'altra del cuore attraverso le vie di conduzione. Quando i segnali non passano correttamente, si formano i blocchi atrioventricolari, che rappresentano una delle cause più comuni di bradicardia che richiede trattamento.
 
-<header class="mb-12" data-aos="fade-up">
-  <div class="glass-card rounded-xl p-8 md:p-12">
-<div class="flex items-center gap-2 text-amber-400 text-sm font-medium mb-4">
-<i data-lucide="activity" class="w-4 h-4"></i>
-      ARITMIE • BATTITO LENTO
-</div>
-<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-<span class="gradient-text">Bradicardia:</span><br>
-<span class="text-white">quando il cuore batte lento</span>
-</h1>
-<p class="text-xl text-slate-300 leading-relaxed mb-8">
-      La bradicardia è un <strong class="text-white">rallentamento del battito cardiaco</strong>. In molti casi è del tutto normale, come negli sportivi o durante il sonno. In altri, può essere il segnale che il sistema elettrico del cuore ha bisogno di attenzione. Questa guida spiega quando preoccuparsi, quali sintomi riconoscere e come si interviene.
-</p>
-<div class="flex flex-wrap gap-4 text-sm text-slate-400">
-<div class="flex items-center gap-2">
-<i data-lucide="calendar" class="w-4 h-4"></i>
-        4 Settembre 2025
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="clock" class="w-4 h-4"></i>
-        7 min di lettura
-</div>
-<div class="flex items-center gap-2">
-<i data-lucide="tag" class="w-4 h-4"></i>
-        Battito lento, Pacemaker, Sintomi
-</div>
-</div>
-  </div>
-</header>
+Avere meno di 60 battiti al minuto non significa automaticamente avere un problema. Chi fa sport regolarmente, specialmente con sport di resistenza come corsa o ciclismo, sviluppa un cuore più forte ed efficiente che può pompare più sangue a ogni battito: per questi atleti è normale avere 40–50 battiti al minuto a riposo. La bradicardia diventa preoccupante quando il cuore batte così lentamente che non riesce a pompare abbastanza sangue per le necessità del corpo, causando sintomi come capogiri, svenimenti, stanchezza intensa o difficoltà a respirare. In questi casi il trattamento principale è l'impianto di un pacemaker, che migliora i sintomi in oltre 90 persone su 100 con bradicardia sintomatica.
 
-<article class="glass-card rounded-xl p-8 md:p-12 mb-12" data-aos="fade-up" data-aos-delay="200">
+## QUANDO LA BRADICARDIA È NORMALE?
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="info" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Cos'è la bradicardia?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La bradicardia significa avere il battito cardiaco più lento del normale. In genere si parla di bradicardia quando il cuore batte meno di 60 volte al minuto mentre siete a riposo. Questa però è solo una definizione di riferimento: per alcune persone, specialmente gli sportivi, 55 battiti al minuto sono del tutto normali. Per altri invece possono causare disturbi.
-</p>
-<p class="text-slate-300 leading-relaxed mb-6">
-      Il battito del cuore nasce da una piccola zona chiamata "nodo del seno", che funziona come un pacemaker naturale. Questa zona genera segnali elettrici che viaggiano attraverso il cuore facendolo battere in modo coordinato.
-</p>
-<p class="text-slate-300 leading-relaxed">
-      Il battito può rallentare per due motivi principali: il "pacemaker naturale" genera i segnali più lentamente del dovuto, oppure i segnali elettrici hanno difficoltà a passare da una parte all'altra del cuore (come se ci fossero rallentamenti lungo la strada).
-</p>
-  </section>
+Ci sono diverse situazioni in cui il battito lento è completamente normale e non richiede alcun trattamento. Se fai sport regolarmente, soprattutto con sport di resistenza, il tuo cuore diventa più forte ed efficiente. Riesce a pompare più sangue a ogni battito, quindi non ha bisogno di battere velocemente. Gli atleti allenati hanno tipicamente 40–50 battiti al minuto a riposo, e alcuni ciclisti professionisti o maratoneti possono avere anche 35–40 battiti.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="check-circle" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Quando la bradicardia è normale?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      Avere meno di 60 battiti al minuto non significa automaticamente avere un problema. Ci sono diverse situazioni in cui il battito lento è del tutto normale:
-</p>
-<div class="info-step rounded-lg p-6">
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Se fate sport regolarmente:</strong> Chi si allena spesso, soprattutto con sport di resistenza come corsa o ciclismo, sviluppa un cuore più forte ed efficiente. Il cuore riesce a pompare più sangue a ogni battito, quindi non ha bisogno di battere velocemente. È normale che gli atleti abbiano 40-50 battiti al minuto a riposo</li>
-<li><strong class="text-white">Mentre dormite:</strong> Durante il sonno il cuore rallenta naturalmente, specialmente nel sonno profondo. Questo è normale e sano</li>
-<li><strong class="text-white">Per costituzione personale:</strong> Alcune persone hanno naturalmente un battito più lento senza che questo causi alcun problema</li>
-</ul>
-</div>
-  </section>
+Durante il sonno il cuore rallenta naturalmente, specialmente nel sonno profondo. È normale che il battito scenda a 40–50 battiti al minuto o anche meno.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="alert-triangle" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Quando la bradicardia diventa un problema?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La bradicardia diventa preoccupante quando il cuore batte così lentamente che non riesce a pompare abbastanza sangue per le necessità del corpo. Questo significa che il cervello e gli altri organi non ricevono abbastanza ossigeno, causando vari disturbi:
-</p>
-<div class="warning-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Segnali che il battito lento sta causando problemi:
-</p>
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Capogiri e svenimenti:</strong> Quando arriva poco sangue al cervello, potete sentirvi storditi, vedere tutto sfocato, sentire la testa leggera, o addirittura svenire</li>
-<li><strong class="text-white">Stanchezza intensa:</strong> Vi sentite sempre stanchi e deboli, anche fare cose semplici come salire le scale vi affatica molto</li>
-<li><strong class="text-white">Affanno:</strong> Avete difficoltà a respirare quando fate uno sforzo o anche a riposo, perché i polmoni non ricevono abbastanza sangue</li>
-<li><strong class="text-white">Difficoltà a concentrarvi:</strong> Il pensiero diventa più lento, fate fatica a concentrarvi, tutto sembra più difficile</li>
-<li><strong class="text-white">Dolore al petto:</strong> Il cuore stesso può ricevere meno ossigeno e questo può causare dolore al petto, specialmente se avete già problemi alle arterie del cuore</li>
-</ul>
-</div>
-<p class="text-slate-300 leading-relaxed">
-      La gravità dei sintomi dipende da quanto lento batte il cuore, dallo stato generale del vostro cuore, da altre condizioni di salute che avete, e da quanto rapidamente si è sviluppato il problema.
-</p>
-  </section>
+Alcune persone hanno naturalmente un battito più lento per costituzione personale, senza che questo causi alcun problema. Se hai sempre avuto 50–55 battiti al minuto, non hai sintomi, e il tuo cuore è sano, questa è semplicemente la tua frequenza normale. Con l'invecchiamento fisiologico, il cuore può battere leggermente più lentamente, e questo è normale purché non causi sintomi.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="layers" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Quali sono le cause della bradicardia?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      Le cause della bradicardia si possono dividere in due gruppi: problemi che nascono direttamente dal sistema elettrico del cuore, e fattori esterni che influenzano il battito cardiaco:
-</p>
+## QUANDO LA BRADICARDIA DIVENTA UN PROBLEMA?
 
-<h3 class="text-xl font-bold mb-4 text-white">Problemi del sistema elettrico del cuore</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Il "pacemaker naturale" non funziona bene:</strong>
-</p>
-<p class="text-slate-300 mb-4">
-        Con l'età o per altri motivi, la zona del cuore che genera i segnali elettrici può deteriorarsi. Questo può causare battiti molto lenti, pause nel battito, o alternanza tra battito lento e veloce. È più comune nelle persone anziane, ma può essere causato anche da un infarto, da infiammazioni del cuore, o da interventi chirurgici sul cuore.
-</p>
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Blocchi nella trasmissione dei segnali elettrici:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Blocco lieve:</strong> I segnali viaggiano più lentamente del normale ma arrivano a destinazione. Di solito non dà sintomi</li>
-<li><strong class="text-white">Blocco moderato tipo 1:</strong> I segnali rallentano sempre di più fino a che uno non riesce a passare. Spesso è benigno</li>
-<li><strong class="text-white">Blocco moderato tipo 2:</strong> A volte i segnali passano, altre volte no, senza preavviso. Questo può peggiorare e richiede attenzione</li>
-<li><strong class="text-white">Blocco completo:</strong> I segnali non passano più. Le camere inferiori del cuore devono battere da sole con un ritmo molto lento (20-40 battiti al minuto). Questo è grave e richiede intervento urgente</li>
-</ul>
-</div>
+La bradicardia diventa preoccupante quando il cuore batte così lentamente che non riesce a pompare abbastanza sangue per le necessità del corpo. Questo significa che il cervello e gli altri organi non ricevono abbastanza ossigeno.
 
-<h3 class="text-xl font-bold mb-4 text-white">Fattori esterni che rallentano il battito</h3>
-<div class="info-step rounded-lg p-6">
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Farmaci:</strong> Alcuni medicinali per il cuore o per la pressione alta (betabloccanti, calcio-antagonisti, digitale) possono rallentare il battito. La bradicardia da farmaci di solito si risolve riducendo la dose o cambiando medicina</li>
-<li><strong class="text-white">Tiroide che funziona poco:</strong> Quando la tiroide produce meno ormoni del normale, tutto il metabolismo rallenta, compreso il cuore</li>
-<li><strong class="text-white">Sali minerali sbilanciati:</strong> Avere troppo potassio, troppo magnesio o poco calcio nel sangue può interferire con i segnali elettrici del cuore</li>
-<li><strong class="text-white">Infarto:</strong> Un infarto in determinate zone del cuore può danneggiare il sistema elettrico</li>
-<li><strong class="text-white">Stimolazione del nervo vago:</strong> Alcune manovre (come sforzarsi per andare in bagno, vomitare) possono stimolare un nervo che rallenta il cuore. Questo è normale anche negli atleti</li>
-<li><strong class="text-white">Apnee nel sonno:</strong> Se smettete ripetutamente di respirare durante il sonno, questo può causare rallentamenti del cuore di notte</li>
-<li><strong class="text-white">Altre cause:</strong> Infiammazioni del cuore, infezioni delle valvole, alcune malattie rare, o interventi precedenti sul cuore</li>
-</ul>
-</div>
-  </section>
+I sintomi che indicano che il battito lento sta causando problemi includono capogiri e svenimenti. Quando arriva poco sangue al cervello, puoi sentirti stordito, vedere tutto sfocato, sentire la testa leggera, o addirittura svenire. Gli svenimenti si verificano in circa 10–20 persone su 100 con blocco atrioventricolare completo. Gli svenimenti da bradicardia sono particolarmente pericolosi perché avvengono senza preavviso e possono causare cadute con traumi.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="search" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Come viene diagnosticata la bradicardia?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La valutazione inizia con domande sui vostri sintomi, da quando sono iniziati, quali medicine prendete, e se avete altre condizioni di salute. Il medico vi visita, conta il battito del polso, e misura la pressione. Poi prescrive alcuni esami.
-</p>
+La stanchezza intensa è un altro sintomo comune: ti senti sempre stanco e debole, anche fare cose semplici come salire le scale ti affatica molto. Circa 40–50 persone su 100 con bradicardia sintomatica riferiscono stanchezza come sintomo principale. Puoi avere difficoltà a respirare quando fai uno sforzo o anche a riposo. Il pensiero può diventare più lento, fai fatica a concentrarti, e potresti avere problemi di memoria.
 
-<h3 class="text-xl font-bold mb-4 text-white">Elettrocardiogramma (ECG)</h3>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        L'ECG è l'esame principale. Registra l'attività elettrica del cuore e permette di:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Confermare che il cuore batte lentamente e misurare esattamente quanto</li>
-<li>Capire quale tipo di problema sta causando il battito lento</li>
-<li>Vedere se ci sono blocchi elettrici e quanto sono gravi</li>
-<li>Controllare se ci sono altri problemi al cuore</li>
-</ul>
-</div>
+Il cuore stesso può ricevere meno ossigeno quando batte troppo lentamente, causando dolore al petto, specialmente se hai già problemi alle arterie coronarie. La gravità dei sintomi dipende da quanto lento batte il cuore, dallo stato generale del tuo cuore, e da quanto rapidamente si è sviluppato il problema. Una bradicardia che si sviluppa improvvisamente causa sintomi più gravi rispetto a una che si sviluppa gradualmente nel corso di mesi o anni.
 
-<h3 class="text-xl font-bold mb-4 text-white">Monitoraggio del cuore per più giorni</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Se l'ECG fatto in ambulatorio è normale ma avete sintomi che vanno e vengono:
-</p>
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Holter (1-3 giorni):</strong> Un piccolo registratore che portate a casa per 24-72 ore. Registra continuamente il battito mentre fate le vostre normali attività. Serve per capire se e quando il cuore rallenta</li>
-<li><strong class="text-white">Registratore esterno (settimane):</strong> Un dispositivo che indossate per periodi più lunghi. Registra automaticamente o quando premete un pulsante se avete sintomi</li>
-<li><strong class="text-white">Registratore impiantabile (2-3 anni):</strong> Un minuscolo dispositivo inserito sotto la pelle che monitora il cuore per anni. Si usa quando i sintomi sono rari ma preoccupanti e gli altri esami non hanno trovato il problema</li>
-</ul>
-</div>
+## QUALI SONO LE CAUSE DELLA BRADICARDIA?
 
-<h3 class="text-xl font-bold mb-4 text-white">Altri esami utili</h3>
-<div class="info-step rounded-lg p-6">
-<ul class="text-slate-300 space-y-3 ml-5">
-<li><strong class="text-white">Ecocardiogramma:</strong> Un'ecografia del cuore che mostra come funziona il cuore, lo stato delle valvole e se ci sono altri problemi strutturali</li>
-<li><strong class="text-white">Esami del sangue:</strong> Per controllare la tiroide, i sali minerali (potassio, magnesio, calcio), e se avete avuto un infarto. Se prendete certi medicinali per il cuore, si controlla il loro livello nel sangue</li>
-<li><strong class="text-white">Test da sforzo:</strong> Vi fanno camminare su un tapis roulant mentre controllano il cuore. Serve per vedere se il cuore riesce ad accelerare quando fate uno sforzo</li>
-<li><strong class="text-white">Studio elettrofisiologico:</strong> Un esame più invasivo dove inseriscono dei fili speciali nel cuore per studiare in dettaglio il sistema elettrico. Si fa solo in casi particolari quando gli altri esami non chiariscono la situazione</li>
-</ul>
-</div>
-  </section>
+Le cause della bradicardia si dividono in problemi del sistema elettrico del cuore e fattori esterni che influenzano il battito cardiaco. I problemi più comuni del sistema elettrico includono la disfunzione del nodo senoatriale e i blocchi nella trasmissione dei segnali.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="pill" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Come si tratta la bradicardia?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      Il trattamento dipende dalla presenza di sintomi, dalla causa sottostante, dalla gravità della bradicardia e dal rischio di progressione.
-</p>
+La disfunzione del nodo del seno si verifica quando la zona del cuore che genera i segnali elettrici si deteriora. Con l'età o per altri motivi, questo può causare battiti molto lenti, pause nel battito che durano 2–3 secondi o più, o alternanza tra battito lento e veloce. La disfunzione del nodo del seno colpisce circa 1 persona su 600 sopra i 65 anni, e la prevalenza aumenta a 3–5 persone su 1000 sopra gli 80 anni. Può essere causata da invecchiamento naturale del tessuto di conduzione, infarto miocardico, miocardite, o interventi chirurgici sul cuore.
 
-<h3 class="text-xl font-bold mb-4 text-white">Bradicardia asintomatica</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300">
-        La bradicardia senza sintomi in soggetti sani (atleti, anziani attivi) non richiede trattamento. È indicato il follow-up clinico periodico. Se la bradicardia è secondaria a farmaci necessari per altre patologie (ad esempio betabloccanti dopo infarto) e il paziente è asintomatico, si continua la terapia con monitoraggio.
-</p>
-</div>
+I blocchi atrioventricolari si formano quando i segnali elettrici hanno difficoltà a passare dal nodo senoatriale agli atri, poi attraverso il nodo atrioventricolare, per arrivare ai ventricoli. Quando questo percorso è danneggiato, si creano blocchi di gravità crescente:
 
-<h3 class="text-xl font-bold mb-4 text-white">Trattamento della causa reversibile</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Quando possibile, si interviene sulla causa:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Riduzione del dosaggio o sospensione di farmaci bradicardizzanti (sotto controllo medico)</li>
-<li>Terapia sostitutiva con levotiroxina nell'ipotiroidismo</li>
-<li>Correzione degli squilibri elettrolitici</li>
-<li>Trattamento dell'ischemia miocardica acuta (rivascolarizzazione se necessaria)</li>
-<li>Terapia con CPAP nelle apnee ostruttive del sonno</li>
-</ul>
-</div>
+**Blocco AV di primo grado** – I segnali viaggiano più lentamente del normale ma tutti arrivano a destinazione. Di solito non dà sintomi e non richiede trattamento. Si trova in circa 1–2 persone su 100 nella popolazione generale e in 5–10 persone su 100 sopra i 70 anni.
 
-<h3 class="text-xl font-bold mb-4 text-white">Pacemaker permanente</h3>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        Il pacemaker è la soluzione definitiva per la bradicardia che causa sintomi quando il problema è nel sistema elettrico del cuore e non può essere risolto in altro modo.
-</p>
-<p class="text-slate-300 mb-4">
-<strong class="text-white">Quando serve il pacemaker:</strong>
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Blocco completo che causa sintomi</li>
-<li>Blocco moderato tipo 2 (anche senza sintomi, perché può peggiorare improvvisamente)</li>
-<li>Il "pacemaker naturale" non funziona e causa sintomi con pause lunghe nel battito</li>
-<li>Bradicardia con sintomi che continua anche dopo aver risolto le altre cause</li>
-<li>Svenimenti ripetuti causati dal battito lento</li>
-<li>Il cuore non riesce ad accelerare quando serve</li>
-</ul>
-<p class="text-slate-300">
-        Il pacemaker è un piccolo dispositivo elettronico che controlla continuamente il battito del cuore. Quando il cuore batte troppo lentamente, il pacemaker invia piccoli impulsi elettrici per farlo battere a un ritmo normale. Viene messo sotto la pelle del torace con un piccolo intervento in anestesia locale. Uno o più fili sottili lo collegano al cuore passando attraverso una vena.
-</p>
-</div>
+**Blocco AV di secondo grado lieve** – I segnali rallentano progressivamente fino a che uno non riesce a passare, poi il ciclo ricomincia. Spesso è benigno e non richiede pacemaker a meno che non causi sintomi.
 
-<h3 class="text-xl font-bold mb-4 text-white">Trattamento in emergenza</h3>
-<div class="info-step rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        In situazioni di emergenza (battito molto lento con sintomi gravi o pressione molto bassa), si usa:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li><strong class="text-white">Atropina in vena:</strong> Un farmaco che blocca i segnali che rallentano il cuore, facendolo battere più velocemente. Funziona rapidamente</li>
-<li><strong class="text-white">Farmaci che stimolano il cuore:</strong> Medicine come dopamina o adrenalina che fanno battere il cuore più forte e più velocemente. Si usano in terapia intensiva</li>
-</ul>
-<p class="text-slate-300">
-        Se le medicine non funzionano, si può usare temporaneamente la <strong class="text-white">stimolazione elettrica esterna</strong> (attraverso piastre adesive sul petto) o un <strong class="text-white">pace maker temporaneo</strong> (un filo inserito attraverso una vena) finché non si mette il pacemaker definitivo.
-</p>
-</div>
-  </section>
+**Blocco AV di secondo grado grave** – A volte i segnali passano, altre volte no, senza preavviso. Questo tipo è più pericoloso perché può peggiorare improvvisamente in blocco completo. Anche senza sintomi, di solito richiede l'impianto di pacemaker preventivo perché circa 30–40 persone su 100 progrediscono a blocco completo entro 1 anno.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="heart-pulse" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Cosa aspettarsi dopo l'impianto di un pacemaker?</span>
-</h2>
-<p class="text-slate-300 leading-relaxed mb-6">
-      La maggior parte dei pazienti con bradicardia sintomatica ottiene un significativo miglioramento dei sintomi e della qualità di vita dopo l'impianto di pacemaker.
-</p>
+**Blocco AV completo** – I segnali non passano più dal nodo AV ai ventricoli. Gli atri e i ventricoli battono indipendentemente: gli atri normalmente, i ventricoli molto lentamente a solo 20–40 battiti al minuto. Questo è grave e richiede intervento urgente. Circa 70–80 persone su 100 con blocco completo hanno sintomi e richiedono pacemaker.
 
-<h3 class="text-xl font-bold mb-4 text-white">Periodo post-impianto</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Dopo la procedura è normale avvertire dolore lieve-moderato nella sede di impianto per alcuni giorni. Sono prescritti analgesici se necessario. Il braccio omolaterale deve essere mosso con cautela nelle prime 2-4 settimane per consentire la stabilizzazione degli elettrocateteri. Si evitano movimenti bruschi, sollevamento di pesi superiori a 2-3 kg, abduzione del braccio oltre 90 gradi.
-</p>
-<p class="text-slate-300">
-        La ferita viene medicata e controllata nei primi giorni. I punti di sutura (se non riassorbibili) vengono rimossi dopo 7-10 giorni. È importante segnalare al medico segni di infezione (rossore, gonfiore, secrezione, febbre).
-</p>
-</div>
+I fattori esterni che rallentano il battito includono diversi farmaci. I beta-bloccanti rallentano il battito riducendo la frequenza del nodo del seno. I calcio-antagonisti rallentano sia il nodo del seno che la conduzione attraverso il nodo AV. La digossina può causare bradicardia e blocchi AV, specialmente se il livello nel sangue diventa troppo alto. La bradicardia da farmaci di solito si risolve riducendo la dose o cambiando medicina.
 
-<h3 class="text-xl font-bold mb-4 text-white">Controlli e follow-up</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        I controlli del pacemaker sono programmati:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Primo controllo a 1-3 mesi dall'impianto</li>
-<li>Controlli successivi ogni 6-12 mesi</li>
-<li>Controlli più frequenti (ogni 3-6 mesi) verso fine vita della batteria</li>
-</ul>
-<p class="text-slate-300">
-        Durante il controllo, si verifica il funzionamento del dispositivo, si analizzano gli episodi aritmici registrati, si valuta la durata residua della batteria, si ottimizzano i parametri di stimolazione. Molti dispositivi moderni consentono il <strong class="text-white">monitoraggio remoto</strong> (controllo a distanza tramite dispositivo domiciliare che trasmette i dati via rete telefonica o internet), riducendo la necessità di accessi ambulatoriali.
-</p>
-</div>
+L'ipotiroidismo rallenta tutto il metabolismo, compreso il cuore. Circa 30–40 persone su 100 con ipotiroidismo severo hanno bradicardia. Gli squilibri elettrolitici, specialmente il potassio troppo alto nel sangue, possono interferire con i segnali elettrici del cuore e causare blocchi AV. Un infarto in determinate zone del cuore può danneggiare il nodo AV e causare blocchi. Le apnee ostruttive del sonno possono causare rallentamenti del cuore di notte con pause che arrivano a 2–3 secondi. Altre cause includono endocardite infettiva che forma ascessi vicino al nodo AV, e interventi chirurgici sul cuore.
 
-<h3 class="text-xl font-bold mb-4 text-white">Vita quotidiana</h3>
-<div class="info-step rounded-lg p-6 mb-6">
-<p class="text-slate-300 mb-4">
-        Dopo il periodo di guarigione iniziale, le persone con pacemaker possono tornare alle normali attività:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5 mb-4">
-<li>Attività fisica moderata e sport leggeri (camminata, nuoto, ciclismo) sono incoraggiati secondo indicazione medica. Sport di contatto sono sconsigliati per rischio di trauma al dispositivo</li>
-<li>Guida dell'automobile è permessa dopo 1-2 settimane (seguire indicazioni locali)</li>
-<li>Uso di apparecchi elettronici domestici (computer, telefoni cellulari, elettrodomestici) non interferisce con i pacemaker moderni</li>
-<li>Viaggi aerei: informare il personale di sicurezza aeroportuale della presenza del dispositivo (il metal detector può rilevarlo). Portare sempre la tessera identificativa del pacemaker</li>
-</ul>
-</div>
+## COME VIENE DIAGNOSTICATA LA BRADICARDIA?
 
-<h3 class="text-xl font-bold mb-4 text-white">Precauzioni</h3>
-<div class="warning-box rounded-lg p-6">
-<p class="text-slate-300 mb-4">
-        Alcune situazioni richiedono attenzione:
-</p>
-<ul class="text-slate-300 space-y-2 ml-5">
-<li><strong class="text-white">Risonanza magnetica (RM):</strong> I pacemaker di vecchia generazione sono controindicati per RM. I dispositivi moderni "MR-conditional" permettono l'esecuzione di RM in condizioni specifiche. Informare sempre il medico radiologo della presenza del pacemaker</li>
-<li><strong class="text-white">Procedure mediche:</strong> Chirurgia con elettrobisturi, litotripsia, radioterapia, cardioversione elettrica richiedono precauzioni specifiche. Informare sempre i medici della presenza del dispositivo</li>
-<li><strong class="text-white">Campi elettromagnetici intensi:</strong> Generatori elettrici industriali, apparecchiature di saldatura ad arco, stazioni radar possono interferire. Mantenere distanza di sicurezza (almeno 60 cm)</li>
-</ul>
-</div>
-  </section>
+Il tuo medico ti farà domande sui sintomi: quando sono iniziati, se hai capogiri o svenimenti, se senti il cuore battere lentamente, se hai stanchezza o difficoltà a respirare. Ti chiederà quali medicine prendi, se hai altre condizioni di salute, se fai sport regolarmente. Ti visiterà contando il battito del polso, misurando la pressione arteriosa, ascoltando il cuore con lo stetoscopio.
 
-  <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-<i data-lucide="phone" class="w-6 h-6 text-amber-400"></i>
-<span class="text-white">Quando consultare il medico?</span>
-</h2>
+L'**elettrocardiogramma** è l'esame principale. Registra l'attività elettrica del cuore attraverso elettrodi applicati sul petto, braccia e gambe. L'esame dura pochi minuti ed è completamente indolore. L'ECG permette di confermare che il cuore batte lentamente, capire quale tipo di problema sta causando il battito lento, e vedere se ci sono blocchi elettrici e di che grado.
 
-<h3 class="text-xl font-bold mb-4 text-white">Rivolgersi immediatamente al pronto soccorso</h3>
-<div class="warning-box rounded-lg p-6 mb-6">
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Sincope (perdita di coscienza improvvisa)</li>
-<li>Presincope grave (sensazione imminente di svenimento) accompagnata da frequenza cardiaca molto bassa</li>
-<li>Dolore toracico o dispnea marcata associati a bradicardia</li>
-<li>Confusione mentale acuta</li>
-<li>In portatori di pacemaker: sintomi come quelli presenti prima dell'impianto (può indicare malfunzionamento del dispositivo)</li>
-</ul>
-</div>
+L'**Holter ECG** è un piccolo registratore che porti per 24–72 ore. Registra continuamente il battito mentre fai le normali attività: lavoro, sonno, esercizio. Serve per capire se e quando il cuore rallenta durante la giornata, se ci sono pause nel battito e quanto durano. Circa 70–80 persone su 100 con bradicardia sintomatica hanno la diagnosi confermata dall'Holter.
 
-<h3 class="text-xl font-bold mb-4 text-white">Contattare il medico curante</h3>
-<div class="info-step rounded-lg p-6">
-<ul class="text-slate-300 space-y-2 ml-5">
-<li>Frequenza cardiaca persistentemente inferiore a 50 battiti/minuto in soggetto non sportivo</li>
-<li>Astenia marcata di nuova insorgenza o ingravescente</li>
-<li>Capogiri ricorrenti</li>
-<li>Ridotta tolleranza allo sforzo</li>
-<li>In portatori di pacemaker: rossore, gonfiore o secrezione dalla tasca del dispositivo</li>
-</ul>
-</div>
-  </section>
+Il **registratore di eventi** è un dispositivo che indossi per settimane o mesi. Registra automaticamente quando il battito è troppo lento o troppo veloce, oppure quando premi un pulsante se hai sintomi. È utile quando i sintomi sono rari e l'Holter di 24 ore non li cattura.
 
-</article>
+Il **loop recorder impiantabile** è un minuscolo dispositivo grande quanto una chiavetta USB inserito sotto la pelle del torace con un piccolo intervento in anestesia locale. Monitora il cuore continuamente per 2–3 anni. Si usa quando i sintomi sono rari ma preoccupanti e gli altri esami non hanno trovato il problema. Circa 50–60 persone su 100 con svenimenti inspiegabili ottengono una diagnosi grazie al loop recorder entro 1 anno.
 
-<!-- Nota medica -->
-<div class="glass-card rounded-xl p-6 mb-12 border-l-4 border-violet-400" data-aos="fade-up">
-  <div class="flex items-start gap-3">
-<i data-lucide="info" class="w-5 h-5 text-violet-400 mt-1 flex-shrink-0"></i>
-<div>
-<p class="text-slate-300 text-sm leading-relaxed">
-<strong class="text-white">Nota importante:</strong> Questo articolo ha scopo informativo e non sostituisce il parere del medico. Se avete sintomi di bradicardia o dubbi sulla vostra salute cardiaca, consultate il vostro medico. Non modificate mai le terapie prescritte senza aver parlato con il medico.
-</p>
-</div>
-  </div>
-</div>
+L'**ecocardiogramma** usa onde sonore per creare immagini in movimento del cuore. Mostra come funziona il cuore, lo stato delle valvole, e se ci sono problemi strutturali. Non diagnostica direttamente la bradicardia ma aiuta a capire se ci sono altre malattie cardiache associate.
 
-</div>
+Gli esami del sangue controllano la funzione tiroidea, i sali minerali (potassio, calcio, magnesio), e se prendi digossina controllano il suo livello nel sangue. Se c'è sospetto di infarto si controllano anche i marcatori di danno cardiaco.
 
-<!-- Fallback init script se il layout non è stato applicato -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (window.AOS) { AOS.init(); }
-    if (window.lucide) { lucide.createIcons(); }
-  });
-</script>
+Il **test da sforzo** ti fa camminare su un tapis roulant o pedalare su una cyclette mentre controllano il cuore con ECG continuo. Serve per vedere se il cuore riesce ad accelerare normalmente quando fai uno sforzo. Normalmente il battito dovrebbe aumentare di almeno 50–60 battiti al minuto durante sforzo massimale.
+
+## COME SI TRATTA LA BRADICARDIA?
+
+Il trattamento dipende dalla presenza di sintomi, dalla causa sottostante, dalla gravità della bradicardia e dal rischio di progressione. La bradicardia senza sintomi in persone sane, atleti o anziani attivi, non richiede trattamento. È indicato solo il controllo clinico periodico, tipicamente 1 volta all'anno con visita ed ECG. Se la bradicardia è secondaria a farmaci necessari per altre patologie e sei asintomatico, si continua la terapia con monitoraggio regolare.
+
+Quando possibile, si interviene sulla causa reversibile. Si riduce il dosaggio o si sospendono farmaci bradicardizzanti sotto controllo medico. Mai sospendere farmaci cardiaci da solo: alcuni farmaci come beta-bloccanti non devono essere fermati bruscamente perché può causare problemi gravi. La terapia sostitutiva con ormone tiroideo nell'ipotiroidismo normalizza il battito in 2–4 settimane nella maggior parte dei casi.
+
+Si correggono gli squilibri elettrolitici riducendo cibi ricchi di potassio, fermando farmaci che aumentano il potassio, o dando resine che legano il potassio nell'intestino. Nell'infarto acuto si fa rivascolarizzazione con angioplastica o farmaci che sciolgono i coaguli. Molti blocchi AV causati da infarto si risolvono entro 48–72 ore quando il flusso viene ripristinato. La terapia con CPAP nelle apnee ostruttive del sonno risolve la bradicardia notturna in circa 60–70 persone su 100.
+
+Il pacemaker permanente è la soluzione definitiva per la bradicardia che causa sintomi quando il problema è nel sistema elettrico del cuore e non può essere risolto in altro modo. Il pacemaker è indicato quando hai blocco AV completo che causa sintomi, blocco AV di secondo grado grave, disfunzione del nodo del seno che causa sintomi con pause lunghe nel battito, svenimenti ripetuti causati dal battito lento, o incapacità del cuore ad accelerare quando serve.
+
+Il pacemaker è un piccolo dispositivo elettronico grande quanto una moneta che pesa 20–30 grammi. Controlla continuamente il battito del cuore. Quando il cuore batte troppo lentamente, il pacemaker invia piccoli impulsi elettrici per farlo battere a un ritmo normale, tipicamente programmato a 60 battiti al minuto come minimo. Il dispositivo viene inserito sotto la pelle del torace con un piccolo intervento in anestesia locale che dura 1–2 ore.
+
+Il pacemaker migliora significativamente i sintomi in oltre 90 persone su 100 con bradicardia sintomatica. I capogiri e gli svenimenti si risolvono in circa 95 persone su 100. La stanchezza migliora in 70–80 persone su 100. La batteria dura tipicamente 7–12 anni, dopo di che il dispositivo viene sostituito con un piccolo intervento che dura 30–60 minuti.
+
+In situazioni di emergenza, quando hai battito molto lento con sintomi gravi, si usa trattamento farmacologico immediato con atropina. Se le medicine non funzionano, si usa temporaneamente stimolazione elettrica attraverso piastre adesive sul petto, o si inserisce un pacemaker temporaneo che può stimolare il cuore per giorni o settimane finché non si mette il pacemaker definitivo.
+
+## COSA ASPETTARSI DOPO L'IMPIANTO DI UN PACEMAKER?
+
+La maggior parte delle persone con bradicardia sintomatica ottiene un miglioramento significativo dei sintomi e della qualità di vita dopo l'impianto di pacemaker. Dopo la procedura è normale avvertire dolore lieve-moderato nella sede di impianto per alcuni giorni. Sono prescritti analgesici come paracetamolo se necessario.
+
+Il braccio dello stesso lato del pacemaker deve essere mosso con cautela nelle prime 2–4 settimane. Evita movimenti bruschi, sollevamento di pesi superiori a 2–3 kg, e alzare il braccio sopra l'altezza della spalla. Dopo 4 settimane puoi tornare alle normali attività.
+
+È importante segnalare al medico segni di infezione come rossore crescente, gonfiore, secrezione dalla ferita, o febbre sopra 38°C. L'infezione del pacemaker si verifica in meno di 2 persone su 100. Se si infetta, di solito serve rimuovere tutto il sistema e impiantare un nuovo dispositivo.
+
+I controlli del pacemaker sono programmati: primo controllo a 1–3 mesi dall'impianto, poi controlli successivi ogni 6–12 mesi per verificare il funzionamento del dispositivo e valutare la durata residua della batteria. Controlli più frequenti verso fine vita della batteria. Quando la batteria inizia a scaricarsi, hai ancora 3–6 mesi di tempo prima della sostituzione. Molti dispositivi moderni consentono il monitoraggio remoto a distanza, che riduce la necessità di accessi ambulatoriali.
+
+Dopo il periodo di guarigione iniziale, puoi tornare alle normali attività. L'attività fisica moderata e sport leggeri come camminata, nuoto, ciclismo sono incoraggiati. L'esercizio regolare migliora la salute cardiovascolare generale. Sport di contatto come calcio, rugby, arti marziali sono sconsigliati per rischio di trauma diretto al dispositivo che potrebbe danneggiarlo o spostare gli elettrocateteri. Guida dell'automobile è permessa dopo 1–2 settimane, quando la ferita è guarita e ti senti sicuro.
+
+L'uso di apparecchi elettronici domestici come computer, telefoni cellulari, elettrodomestici, televisori non interferisce con i pacemaker moderni. I viaggi aerei sono permessi: informa il personale di sicurezza aeroportuale della presenza del dispositivo. Porta sempre la tessera identificativa del pacemaker.
+
+La risonanza magnetica è possibile con la maggior parte dei pacemaker moderni, ma richiede precauzioni specifiche. Informa sempre il medico radiologo della presenza del pacemaker.
+
+Alcune procedure mediche come chirurgia, radioterapia, o cardioversione elettrica richiedono precauzioni specifiche. Informa sempre i medici della presenza del dispositivo. Campi elettromagnetici intensi in ambienti industriali possono interferire temporaneamente con il pacemaker: mantieni distanza di sicurezza.
+
+## QUANDO CONSULTARE IL MEDICO?
+
+Contatta il tuo medico se hai bradicardia frequente (battito spesso sotto 50 battiti al minuto) o sintomi che ti preoccupano. Cerca immediatamente assistenza medica d'urgenza chiamando il 112 o il 118 se hai svenimento improvviso senza preavviso, sensazione imminente di svenimento accompagnata da frequenza cardiaca molto bassa (meno di 40 battiti al minuto), dolore al petto o difficoltà grave a respirare associati a bradicardia, confusione mentale improvvisa con rallentamento del battito.
+
+Se hai un pacemaker e hai sintomi come quelli presenti prima dell'impianto (capogiri, svenimenti, stanchezza intensa), può indicare malfunzionamento del dispositivo o spostamento degli elettrocateteri. Chiama immediatamente il centro che segue il tuo pacemaker.
+
+Contatta il medico curante entro 24–48 ore se hai frequenza cardiaca persistentemente inferiore a 50 battiti al minuto e non sei sportivo, stanchezza marcata di nuova insorgenza che interferisce con le attività quotidiane, capogiri ricorrenti specialmente alzandoti in piedi, ridotta tolleranza allo sforzo (ti affatichi molto più facilmente di prima).
+
+Se hai un pacemaker, contatta il centro che lo segue se noti rossore, gonfiore o secrezione dalla tasca del dispositivo (possibile infezione), dolore persistente nella zona del dispositivo dopo le prime settimane, sensazione di battiti irregolari o troppo veloci, singhiozzo persistente (può indicare stimolazione del diaframma da elettrocatetere spostato).

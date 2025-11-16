@@ -3,20 +3,26 @@
   "version": "1.0.0",
   "description": "Personal website for Dr. Benjamin De Ornelas",
   "scripts": {
-    "build": "parcel build assets/js/main.js assets/css/style.css --dist-dir dist --no-source-maps",
+    "build:tailwind": "postcss assets/css/tailwind.css -o assets/css/tailwind.min.css --verbose",
+    "watch:tailwind": "postcss assets/css/tailwind.css -o assets/css/tailwind.min.css --watch --verbose",
+    "build": "npm run build:tailwind && parcel build assets/js/main.js assets/css/style.css --dist-dir dist --no-source-maps",
     "watch": "parcel watch assets/js/main.js assets/css/style.css --dist-dir dist --no-source-maps",
-    "vercel-build": "bundle install && bundle exec jekyll build && npm run build",
+    "vercel-build": "bundle install && npm run build:tailwind && bundle exec jekyll build && npm run build",
     "vercel-deploy": "npx vercel --prod",
     "vercel-deploy:force": "npx vercel --prod --yes",
     "dev": "bundle exec jekyll serve --livereload"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
     "autoprefixer": "^10.4.19",
     "imagemin": "^9.0.1",
     "imagemin-jpegtran": "^8.0.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.17"
   },
   "browserslist": [
     "last 2 versions",

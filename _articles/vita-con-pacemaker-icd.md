@@ -10,6 +10,8 @@ og_image: /assets/img/og-card.jpg
 date: "2025-10-11"
 ---
 
+# Vita con Pacemaker o ICD – Le Basi
+
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>
 <span class="mx-2">/</span>
@@ -25,11 +27,11 @@ date: "2025-10-11"
             GUIDA PRATICA • PAZIENTI
 </div>
 <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-<span class="gradient-text">Vivere con un Pacemaker o Defibrillatore:</span><br>
-<span class="text-white">guida pratica per pazienti e familiari</span>
+<span class="gradient-text">Vivere con Pacemaker o Defibrillatore:</span><br>
+<span class="text-white">guida pratica per la vita quotidiana</span>
 </h1>
 <p class="text-xl text-slate-300 leading-relaxed mb-8">
-            Ricevere un dispositivo cardiaco impiantabile può sembrare un grande cambiamento, ma la maggior parte delle persone torna rapidamente a una <strong class="text-white">vita normale e attiva</strong>. Questa guida fornisce informazioni pratiche su come gestire il dispositivo nella quotidianità, dai <strong class="text-white">primi giorni dopo l'intervento</strong> fino ai <strong class="text-white">controlli periodici</strong> e alle <strong class="text-white">attività di tutti i giorni</strong>.
+            Dopo un impianto di pacemaker o defibrillatore, circa 9 persone su 10 tornano alle loro attività normali in 4-6 settimane. Questa guida spiega cosa fare nei primi giorni, come gestire la vita quotidiana, come viaggiare in sicurezza e quali controlli sono necessari.
 </p>
 <div class="flex flex-wrap gap-4 text-sm text-slate-400">
 <div class="flex items-center gap-2">
@@ -38,7 +40,7 @@ date: "2025-10-11"
 </div>
 <div class="flex items-center gap-2">
 <i data-lucide="clock" class="w-4 h-4"></i>
-              8 min di lettura
+              6 min di lettura
 </div>
 <div class="flex items-center gap-2">
 <i data-lucide="tag" class="w-4 h-4"></i>
@@ -53,257 +55,210 @@ date: "2025-10-11"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="info" class="w-6 h-6 text-amber-400"></i>
-            Cos'è un pacemaker o un defibrillatore impiantabile?
+            COSA SAPERE SUL VOSTRO DISPOSITIVO
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Un pacemaker è un piccolo dispositivo che aiuta il tuo cuore a mantenere un ritmo regolare quando tende a battere troppo lentamente. Si può immaginare come un direttore d'orchestra che assicura che ogni battito arrivi al momento giusto, evitando pause o rallentamenti eccessivi.
+            Un **pacemaker** è un piccolo dispositivo delle dimensioni di un orologio da tasca che regola il battito cardiaco. Se il cuore batte troppo lentamente, il pacemaker eroga piccoli stimoli per mantenerlo a velocità adeguata.
 </p>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Un defibrillatore impiantabile (anche chiamato ICD) ha una funzione simile, ma con una capacità aggiuntiva: oltre a correggere i battiti troppo lenti, è in grado di riconoscere e interrompere ritmi cardiaci pericolosamente veloci attraverso piccole stimolazioni elettriche o, quando necessario, una scarica elettrica più intensa.
+            Un **defibrillatore (ICD)** fa tutto quello che fa un pacemaker, più un'azione importante: se il cuore batte in modo pericoloso e velocissimo, eroga una scarica elettrica per riportarlo al ritmo normale.
 </p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Come funzionano questi dispositivi</h3>
-<p class="text-slate-300 mb-4">
-              Il dispositivo viene posizionato sotto la pelle, solitamente nella zona sotto la clavicola. Da qui partono uno o più sottili fili elettrici (chiamati elettrocateteri) che raggiungono il cuore e lo monitorano costantemente.
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pacemaker:</strong> Rileva quando il cuore batte troppo lentamente e invia piccoli impulsi elettrici per stimolare il battito.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Defibrillatore:</strong> Monitora anche i ritmi troppo veloci e può intervenire con stimolazioni rapide o, se necessario, con una scarica elettrica per ripristinare il ritmo normale.</p>
-<p class="text-slate-300"><strong class="text-white">●Funzionamento automatico:</strong> Entrambi i dispositivi funzionano automaticamente, senza bisogno di alcun intervento da parte tua.</p>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quando viene consigliato l'impianto</h3>
-<p class="text-slate-300 mb-4">
-              Il tuo cardiologo può proporti l'impianto di un pacemaker quando il tuo cuore batte troppo lentamente causando sintomi come stanchezza, vertigini o svenimenti. Questo può accadere per diverse condizioni, come blocchi nella trasmissione degli impulsi elettrici del cuore o un rallentamento del nodo che genera il battito.
-</p>
-<p class="text-slate-300">
-              Un defibrillatore viene invece proposto quando esiste un rischio elevato di aritmie pericolose, per esempio se hai già avuto episodi di arresto cardiaco, se hai subito un infarto importante, o se presenti alcune malattie del muscolo cardiaco. In questi casi, il dispositivo agisce come una protezione costante contro eventi potenzialmente gravi.
-</p>
+<div class="highlight-box rounded-lg p-6">
+<h3 class="font-bold text-white mb-3">Il dispositivo ha due parti:</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Il generatore:</strong> piccolo dispositivo solido, come una moneta spessa, che contiene la batteria e l'elettronica. Viene inserito sotto la pelle vicino alla spalla</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">I cavi:</strong> sottilissimi fili che collegano il generatore al cuore. Monitorano il battito cardiaco e inviano gli stimoli quando necessario</p>
+<p class="text-slate-300">Il dispositivo funziona automaticamente 24 ore su 24, anche mentre dormite. La vostra tessera identificativa contiene tutte le informazioni: portatela sempre con voi</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="clipboard" class="w-6 h-6 text-amber-400"></i>
-            Come si svolge l'intervento di impianto?
+            COME AVVIENE L'INTERVENTO
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            L'impianto di un pacemaker o defibrillatore è una procedura relativamente semplice e sicura, che viene eseguita in anestesia locale. Rimani sveglio durante l'intervento, che dura generalmente tra 1 e 2 ore.
+            L'intervento dura 1-2 ore. State svegli durante la procedura, sedati per stare comodi. Il cardiologo pratica una piccola incisione di 4-5 cm sotto la clavicola, inserisce i cavi nel cuore attraverso una vena della spalla, collega tutto al generatore e chiude.
 </p>
-<div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Le fasi dell'intervento</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Anestesia locale:</strong> Ti viene praticata un'anestesia locale nella zona sotto la clavicola dove verrà posizionato il dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Creazione della tasca:</strong> Il medico crea una piccola tasca sotto la pelle dove alloggiare il dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Inserimento degli elettrocateteri:</strong> Gli elettrocateteri vengono inseriti attraverso una vena e guidati fino al tuo cuore sotto controllo radiologico.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Collegamento e test:</strong> Il dispositivo viene collegato agli elettrocateteri e testato per verificarne il corretto funzionamento.</p>
-<p class="text-slate-300"><strong class="text-white">●Chiusura:</strong> La ferita viene chiusa con punti di sutura.</p>
-</div>
-<div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Dopo l'intervento</h3>
-<p class="text-slate-300 mb-4">
-              Il ricovero dura solitamente 1-2 giorni. Durante questo periodo viene monitorato il funzionamento del dispositivo e verificata la guarigione della ferita. Prima della dimissione, il personale sanitario ti fornisce tutte le informazioni necessarie per la gestione a casa.
+<p class="text-slate-300 leading-relaxed mb-6">
+            Restate in ospedale 1-2 giorni per osservazione, poi potete tornare a casa con alcune limitazioni temporanee.
 </p>
-<p class="text-slate-300">
-              È normale che tu avverta un certo fastidio nella zona dell'impianto nei primi giorni, che generalmente si risolve con comuni antidolorifici. Il dispositivo può essere percepito al tatto sotto la pelle, soprattutto se sei magro, ma con il tempo ti abituerai alla sua presenza.
-</p>
-</div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="activity" class="w-6 h-6 text-amber-400"></i>
-            Cosa devo fare nei primi 40 giorni?
+            PRIMI 4-6 SETTIMANE: LE LIMITAZIONI IMPORTANTI
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Le prime settimane dopo l'impianto sono importanti per permettere alla tua ferita di guarire completamente e agli elettrocateteri di fissarsi stabilmente al cuore. Alcune semplici precauzioni ti aiutano a prevenire complicazioni.
+            Nel primo mese dopo l'impianto, è critico proteggere il dispositivo mentre i cavi si stabilizzano. Seguite queste limitazioni rigorosamente:
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa evitare nelle prime 4-6 settimane</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Movimenti ampi del braccio:</strong> Evita di sollevare il braccio dello stesso lato del dispositivo sopra l'altezza della spalla o di fare movimenti bruschi.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sollevare pesi:</strong> Non sollevare oggetti pesanti (oltre 5 chili circa, come una bottiglia d'acqua grande).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Pressione sulla zona:</strong> Evita urti o pressioni dirette sul dispositivo, proteggi la zona dalla cintura di sicurezza dell'auto.</p>
-<p class="text-slate-300"><strong class="text-white">●Attività fisiche intense:</strong> Rimanda sport e attività faticose, mentre le passeggiate tranquille sono incoraggiate.</p>
+<h3 class="font-bold text-white mb-3">Cosa NON fare:</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Non sollevate il braccio del lato del dispositivo al di sopra della spalla</strong> — non fate movimenti come pettinare i capelli sul lato del dispositivo</li>
+<li><strong class="text-white">Non sollevate pesi oltre 2-5 kg</strong> — niente buste della spesa pesanti, bambini, valigie</li>
+<li><strong class="text-white">Non fate urti o pressione diretta</strong> — proteggete il sito dalla cintura di sicurezza dell'auto, non indossate zaini pesanti sul lato</li>
+<li><strong class="text-white">Non nuotate né fate bagni in vasca</strong> — docce veloci d'accordo, ma la ferita non deve stare immersa</li>
+<li><strong class="text-white">Non fate sport o esercizi intensi</strong> — le passeggiate tranquille vanno bene</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Cura della ferita</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Mantieni pulita la ferita:</strong> Tieni la ferita pulita e asciutta.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Doccia:</strong> Puoi fare la doccia generalmente dopo la rimozione dei punti (7-10 giorni).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Evita immersioni:</strong> Evita bagni in vasca, piscina o mare fino a completa guarigione (circa 4 settimane).</p>
-<p class="text-slate-300"><strong class="text-white">●Controlla ogni giorno:</strong> Controlla ogni giorno la ferita e segnala al medico eventuali arrossamenti, gonfiori o secrezioni.</p>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li>Tenete la ferita pulita e asciutta</li>
+<li>Dopo 7-10 giorni potete fare docce brevi (proteggete la ferita dall'acqua diretta)</li>
+<li>Asciugate delicatamente con asciugamano pulito</li>
+<li>Controllate quotidianamente se ci sono segni di infezione: rossore che aumenta, gonfiore, calore, pus, apertura della ferita</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Quando contattare il medico</h3>
-<p class="text-slate-300 mb-4">
-              È importante che tu ti rivolga tempestivamente al centro che ha eseguito l'impianto in presenza di:
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Febbre persistente:</strong> Febbre che persiste oltre 38°C.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Segni di infezione:</strong> Arrossamento crescente, gonfiore, calore o fuoriuscita di liquido dalla ferita.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Dolore intenso:</strong> Dolore forte nella zona del dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Gonfiore rapido:</strong> Gonfiore che aumenta velocemente nella zona dove è stato impiantato il dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ricomparsa dei sintomi:</strong> Vertigini, svenimenti o palpitazioni intense come prima dell'impianto.</p>
-<p class="text-slate-300"><strong class="text-white">●Scariche elettriche (se hai un defibrillatore):</strong> Qualsiasi sensazione di scossa, anche singola.</p>
+<h3 class="font-bold text-white mb-3">Quando contattare subito il cardiologo:</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li>Febbre al di sopra di 38°C per più di un giorno</li>
+<li>Segni di infezione attorno alla ferita</li>
+<li>Dolore molto intenso che non migliora con i farmaci</li>
+<li>Il dispositivo sporge attraverso la pelle</li>
+<li>Tornano i sintomi di prima (svenimenti, capogiri, affanno)</li>
+<li>Se avete un defibrillatore: percepite una scarica elettrica</li>
+</ul>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="check-circle" class="w-6 h-6 text-amber-400"></i>
-            Cosa posso fare nella vita quotidiana?
+            DOPO 6 SETTIMANE: TORNATE A VIVERE NORMALMENTE
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Dopo il periodo iniziale di guarigione, puoi tornare a svolgere normalmente quasi tutte le attività quotidiane. L'obiettivo è vivere una vita piena e attiva, con alcune accortezze.
+            Superato il primo mese, potrete riprendere quasi tutte le attività. Dipende da come vi sentite e dalla vostra condizione cardiaca generale.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Attività fisica e sport</h3>
-<p class="text-slate-300 mb-4">
-              L'attività fisica regolare è benefica per il tuo cuore e generalmente incoraggiata. Dopo le prime settimane, puoi gradualmente tornare a fare esercizio secondo le tue condizioni generali.
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attività consigliate:</strong> Camminare, fare passeggiate, andare in bicicletta, nuotare, giocare a golf, ballare, yoga e ginnastica dolce.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attività da evitare:</strong> Sport con contatto fisico intenso come boxe, rugby o arti marziali, che potrebbero danneggiare il dispositivo.</p>
-<p class="text-slate-300 mb-4"><strong class="text-white">●Da discutere con il medico:</strong> Sport competitivi o attività molto intense, che richiedono una valutazione caso per caso in base alla tua situazione.</p>
-<p class="text-slate-300">
-              Se hai un defibrillatore, è meglio evitare anche attività dove un eventuale svenimento potrebbe essere molto pericoloso, come l'arrampicata in alta montagna o le immersioni subacquee profonde.
-</p>
+<h3 class="font-bold text-white mb-3">Attività quotidiane - tutte consentite:</h3>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li>Lavoro di ufficio, insegnamento, vendita, professioni sanitarie</li>
+<li>Camminare a qualsiasi velocità, ciclismo, yoga</li>
+<li>Nuoto, attività acquatiche — il dispositivo è impermeabile</li>
+<li>Golf, ballo, ginnastica leggera</li>
+<li>Attività sessuale — non c'è controindicazione</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Lavoro</h3>
-<p class="text-slate-300 mb-4">
-              La maggior parte delle professioni può essere ripresa senza problemi dopo 2-4 settimane. Lavori d'ufficio, insegnamento, attività commerciali e molte mansioni manuali leggere sono perfettamente compatibili con il dispositivo.
-</p>
-<p class="text-slate-300">
-              Alcune professioni specifiche possono richiedere valutazioni particolari: piloti, autisti professionisti di mezzi pesanti, operatori di macchinari industriali molto potenti. In questi casi, il tuo medico del lavoro aziendale valuterà insieme al cardiologo la compatibilità con la tua mansione specifica.
-</p>
+<h3 class="font-bold text-white mb-3">Sport: cosa potete e cosa no</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Consentiti:</strong> corsa leggera, ciclismo, nuoto, sci di fondo, calcetto dilettantistico leggero</p>
+<p class="text-slate-300"><strong class="text-white">Da evitare:</strong> sport di contatto violento (boxe, arti marziali, rugby) dove il dispositivo potrebbe subire urti diretti. Discutete con il cardiologo sport specifici di cui siete appassionati</p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Vita sociale e personale</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attività sessuale:</strong> Non ci sono controindicazioni, puoi riprendere quando ti senti pronto, generalmente dopo le prime settimane.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Viaggi:</strong> Puoi viaggiare liberamente, sia in Italia che all'estero (vedi la sezione dedicata per dettagli su aeroporti).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Hobby e tempo libero:</strong> Puoi mantenere quasi tutti i tuoi hobby, dal giardinaggio alla cucina, dalla lettura ai lavori manuali.</p>
-<p class="text-slate-300"><strong class="text-white">●Gravidanza:</strong> Se sei donna, il dispositivo non ti impedisce di portare avanti una gravidanza, che andrà seguita insieme al cardiologo e al ginecologo.</p>
+<h3 class="font-bold text-white mb-3">Lavori particolari</h3>
+<p class="text-slate-300 mb-3">La maggior parte dei lavori è compatibile. Se il vostro lavoro prevede:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Forti campi elettromagnetici:</strong> saldatura, manutenzione di trasformatori ad alta tensione — mantenete distanza dal dispositivo e discutete con il medico del lavoro</li>
+<li><strong class="text-white">Autista professionale o pilota:</strong> ci sono regole specifiche che il cardiologo spiegherà</li>
+</ul>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-6 h-6 text-amber-400"></i>
-            Quali dispositivi elettronici posso usare?
+            DISPOSITIVI ELETTRICI: COSA È SICURO?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            I dispositivi cardiaci moderni sono ben schermati contro le interferenze elettromagnetiche della vita quotidiana. Tuttavia, alcune precauzioni ti aiutano a prevenire eventuali problemi.
+            I dispositivi moderni hanno protezioni avanzate. La probabilità di interferenze dal cellulare o dagli elettrodomestici di casa è praticamente zero.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Dispositivi sicuri (uso normale)</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Telefoni cellulari e smartphone:</strong> Sono sicuri, meglio tenerli nell'orecchio opposto al lato del dispositivo durante le telefonate e non riporli nella tasca della camicia direttamente sopra il dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Computer, tablet e TV:</strong> Completamente sicuri.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Elettrodomestici:</strong> Forno, microonde, lavatrice, asciugacapelli, frullatore, aspirapolvere sono tutti sicuri.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attrezzi elettrici domestici:</strong> Trapano, sega elettrica, tagliaerba puoi usarli normalmente.</p>
-<p class="text-slate-300"><strong class="text-white">●Smartwatch e braccialetti fitness:</strong> Sono sicuri e possono esserti utili per monitorare la tua attività.</p>
+<h3 class="font-bold text-white mb-3">Completamente sicuri:</h3>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Cellulari e smartphone:</strong> usate normalmente (il wifi e il 5G sono completamente sicuri)</li>
+<li><strong class="text-white">Computer, tablet, televisione:</strong> nessuna limitazione</li>
+<li><strong class="text-white">Fornetti a microonde, forni normali, lavatrici, lavastoviglie, aspirapolvere:</strong> tutti sicuri</li>
+<li><strong class="text-white">Smartwatch e fitness tracker:</strong> sicuri da usare</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Precauzioni specifiche</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Magneti potenti:</strong> Evita di avvicinare magneti forti alla zona del dispositivo (casse audio molto potenti, cuffie grandi da DJ, chiusure magnetiche).</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sistemi antitaccheggio nei negozi:</strong> Puoi attraversarli normalmente senza fermarti, possono far suonare l'allarme ma sono sicuri.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Saldatrici e grandi motori elettrici industriali:</strong> Mantieni una distanza di sicurezza, informa il medico del lavoro se lavori con questi macchinari.</p>
-<p class="text-slate-300"><strong class="text-white">●Caricatori wireless:</strong> Evita di appoggiarli direttamente sopra il dispositivo, meglio usare caricatori con cavo.</p>
+<h3 class="font-bold text-white mb-3">Attenzione con:</h3>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Magneti forti:</strong> teneteli lontani (a 15-20 cm) dal dispositivo</li>
+<li><strong class="text-white">Metal detector negli aeroporti:</strong> attraversateli normalmente senza fermarvi. Se la bacchetta manuale viene tenuta troppo a lungo sopra il dispositivo, chiedete di passarla velocemente</li>
+<li><strong class="text-white">Saldatrici:</strong> se lavorate con saldatrici professionali, mantenete 60 cm di distanza</li>
+<li><strong class="text-white">Caricatori wireless:</strong> non appoggiateli direttamente sopra il dispositivo</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Procedure mediche</h3>
-<p class="text-slate-300 mb-4">
-              È fondamentale che tu <strong class="text-white">informi sempre qualsiasi medico o dentista</strong> che hai un pacemaker o defibrillatore prima di eseguire procedure. Questo include:
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Risonanza magnetica:</strong> La maggior parte dei dispositivi recenti è compatibile con la risonanza, ma serve una programmazione specifica prima dell'esame.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Interventi chirurgici:</strong> Anche piccoli interventi che usano il bisturi elettrico richiedono precauzioni.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Terapie oncologiche:</strong> Radioterapia e alcuni trattamenti possono richiedere protezioni particolari.</p>
-<p class="text-slate-300"><strong class="text-white">●Trattamenti estetici:</strong> Laser, elettrocoagulazione e alcune procedure estetiche vanno discusse con il tuo cardiologo.</p>
+<h3 class="font-bold text-white mb-3">Procedure mediche: informate sempre il medico</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Risonanza magnetica:</strong> circa 7-8 dispositivi moderni su 10 possono farla. Serve una interrogazione prima, spiegazioni sul protocollo, un controllo dopo. Il vostro cardiologo vi dirà se il vostro è compatibile</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Bisturi elettrico (chirurgia):</strong> va comunicato al chirurgo, che prenderà precauzioni speciali</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Radioterapia:</strong> richiede coordinamento speciale con il cardiologo</p>
+<p class="text-slate-300"><strong class="text-white">Fisioterapia:</strong> informate il fisioterapista. Evitate TENS vicino al dispositivo e non fate diatermia</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="plane" class="w-6 h-6 text-amber-400"></i>
-            Come comportarsi con viaggi e aeroporti?
+            VIAGGI E CONTROLLI AEROPORTUALI
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Avere un dispositivo cardiaco impiantabile non ti impedisce di viaggiare. Milioni di persone con pacemaker o defibrillatore viaggiano ogni giorno in aereo e visitano luoghi lontani. Alcune semplici precauzioni rendono tutto più semplice.
+            I dispositivi non rappresentano un problema per i viaggi. Milioni di persone con pacemaker e defibrillatore volano regolarmente.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Controlli di sicurezza in aeroporto</h3>
-<p class="text-slate-300 mb-4">
-              Il dispositivo può far suonare il metal detector, ma attraversarlo rapidamente è sicuro.
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Porta sempre la tessera:</strong> Porta sempre con te la tessera identificativa del dispositivo rilasciata dal centro che ha eseguito l'impianto.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Mostra la tessera prima:</strong> Mostra la tessera al personale di sicurezza prima di passare i controlli.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attraversa normalmente:</strong> Attraversa il metal detector a portale normalmente e senza fermarti.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Bacchetta magnetica:</strong> Se ti viene proposto il controllo con la bacchetta magnetica manuale, chiedi che non venga tenuta ferma sopra il dispositivo per più di qualche secondo.</p>
-<p class="text-slate-300 mb-4"><strong class="text-white">●Alternativa:</strong> In alternativa, puoi richiedere un controllo manuale senza metal detector.</p>
-<p class="text-slate-300">
-              I nuovi scanner corporei usati in molti aeroporti sono sicuri per i dispositivi cardiaci.
-</p>
+<h3 class="font-bold text-white mb-3">Controllo di sicurezza in aeroporto</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Portate sempre la tessera identificativa.</strong> Mostratela subito al personale di sicurezza</li>
+<li><strong class="text-white">Metal detector a portale:</strong> passate normalmente — non causa problemi</li>
+<li><strong class="text-white">Metal detector portatile:</strong> chiedete che non lo tengano troppo a lungo sopra il dispositivo</li>
+<li><strong class="text-white">Scanner corporei moderni:</strong> sono sicuri e preferibili ai metal detector</li>
+<li><strong class="text-white">Ispezione manuale:</strong> potete sempre chiedere la perquisizione manuale invece dei sistemi elettronici</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">In viaggio</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Volare in aereo:</strong> È sicuro, non ci sono rischi legati all'altitudine o alla pressione in cabina.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Documentazione medica:</strong> Porta sempre una copia della tua documentazione medica recente, utile in caso di necessità all'estero.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Assicurazione sanitaria:</strong> Verifica che la tua assicurazione sanitaria di viaggio copra eventuali problemi cardiaci.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Viaggi in luoghi remoti:</strong> Per viaggi in luoghi remoti, può esserti utile individuare in anticipo un centro cardiologico nella zona di destinazione.</p>
-<p class="text-slate-300"><strong class="text-white">●Farmaci nel bagaglio a mano:</strong> Porta i tuoi farmaci nel bagaglio a mano, in quantità sufficiente per l'intero viaggio più qualche giorno extra.</p>
+<h3 class="font-bold text-white mb-3">Volare in aereo è sicuro</h3>
+<p class="text-slate-300 mb-3">La pressione in cabina non danneggia il dispositivo. Gli aerei non generano campi magnetici pericolosi. Portatevi:</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li>Tessera del dispositivo nel portafoglio e copia digitale sul telefono</li>
+<li>Lettera del cardiologo in inglese (per emergenze all'estero)</li>
+<li>Lista dei farmaci che assumete</li>
+<li>Assicurazione sanitaria di viaggio che copra dispositivi cardiaci</li>
+<li>Tutti i farmaci nel bagaglio a mano</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Guida dell'automobile</h3>
-<p class="text-slate-300 mb-4">
-              Le regole sulla guida variano a seconda del tipo di dispositivo e della tua situazione clinica:
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Con un pacemaker:</strong> Generalmente puoi tornare a guidare dopo alcune settimane dalla dimissione.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Con un defibrillatore:</strong> Il periodo di astensione dalla guida è più lungo (alcuni mesi) per ragioni di sicurezza.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Patenti professionali:</strong> Per patenti professionali (autobus, camion) esistono restrizioni specifiche più rigorose.</p>
-<p class="text-slate-300"><strong class="text-white">●Indicazioni personalizzate:</strong> Il tuo cardiologo ti fornirà indicazioni precise in base alla tua situazione individuale.</p>
+<h3 class="font-bold text-white mb-3">Guida di auto e moto</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Pacemaker per battito lento:</strong> potete guidare normalmente. Chiedete al cardiologo una lettera di idoneità</p>
+<p class="text-slate-300"><strong class="text-white">Defibrillatore:</strong> ci sono limitazioni. Discutete con il cardiologo in base alla vostra situazione specifica. In genere dopo l'impianto dovete aspettare qualche settimana/mese prima di guidare</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="clipboard-list" class="w-6 h-6 text-amber-400"></i>
-            Come funzionano i controlli periodici?
+            CONTROLLI PERIODICI DEL DISPOSITIVO
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Dopo l'impianto, il dispositivo necessita di controlli regolari per verificarne il corretto funzionamento e ottimizzarne le impostazioni. Questi controlli sono semplici, non dolorosi e rappresentano un'occasione per discutere eventuali dubbi con lo specialista.
+            I controlli sono essenziali. Durano 20-30 minuti, non sono invasivi, non fanno male. Il cardiologo usa un lettore speciale che comunica con il dispositivo via onde radio.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Come si svolgono i controlli</h3>
-<p class="text-slate-300 mb-4">
-              Durante il controllo, il cardiologo usa uno strumento speciale (chiamato programmatore) che comunica con il tuo dispositivo attraverso la pelle, senza bisogno di alcun contatto diretto. Questo permette di:
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stato della batteria:</strong> Verificare lo stato della batteria e stimare quanto durerà ancora.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Funzionamento degli elettrocateteri:</strong> Controllare che gli elettrocateteri funzionino correttamente.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Aritmie registrate:</strong> Vedere se ci sono state aritmie registrate dal dispositivo.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Interventi del dispositivo:</strong> Verificare quante volte il dispositivo è intervenuto.</p>
-<p class="text-slate-300"><strong class="text-white">●Ottimizzazione delle impostazioni:</strong> Modificare le impostazioni se necessario per migliorare il tuo comfort o l'efficacia.</p>
+<h3 class="font-bold text-white mb-3">Cosa si controlla:</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Batteria:</strong> quanta energia rimane e quanto durerà ancora il dispositivo</li>
+<li><strong class="text-white">Cavi:</strong> se funzionano bene e se ci sono danni</li>
+<li><strong class="text-white">Parametri di stimolazione:</strong> se il dispositivo stia stimolando correttamente il cuore</li>
+<li><strong class="text-white">Eventi registrati:</strong> se avete avuto aritmie o altri problemi</li>
+<li><strong class="text-white">Programmazione:</strong> il cardiologo aggiusta le impostazioni se necessario</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Frequenza dei controlli</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Primo controllo:</strong> Pochi giorni dopo la dimissione, per verificare la guarigione della ferita.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Secondo controllo:</strong> Dopo circa 1 mese, per controllare che tutto funzioni correttamente.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Controlli successivi:</strong> Generalmente ogni 3-12 mesi, secondo il tipo di dispositivo e le tue esigenze individuali.</p>
-<p class="text-slate-300"><strong class="text-white">●Quando la batteria si esaurisce:</strong> Man mano che la batteria si esaurisce, i controlli diventano più frequenti.</p>
-</div>
-<div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Monitoraggio da casa</h3>
-<p class="text-slate-300 mb-4">
-              Molti dispositivi moderni permettono il controllo a distanza attraverso un piccolo apparecchio che ti viene fornito e che tieni a casa, solitamente sul comodino.
-</p>
-<p class="text-slate-300 mb-4">
-              Questo apparecchio, in modo completamente automatico, "interroga" il tuo dispositivo cardiaco (solitamente durante la notte) e invia i dati al centro di controllo. Se il dispositivo rileva qualcosa di importante, il centro viene avvisato automaticamente e può contattarti.
-</p>
-<p class="text-slate-300">
-              Il monitoraggio a distanza non sostituisce le tue visite periodiche, ma le integra permettendo una sorveglianza continua e riducendo il numero di visite necessarie.
-</p>
+<ul class="text-slate-300 space-y-2 ml-5 list-disc">
+<li><strong class="text-white">Prima settimana-due:</strong> controllo dopo la dimissione</li>
+<li><strong class="text-white">4-6 settimane:</strong> secondo controllo</li>
+<li><strong class="text-white">Dopo:</strong> pacemaker ogni 6-12 mesi, defibrillatore ogni 3-6 mesi</li>
+<li><strong class="text-white">Quando la batteria è quasi scarica:</strong> visite mensili per pianificare la sostituzione</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Sostituzione del dispositivo</h3>
-<p class="text-slate-300 mb-4">
-              La batteria del dispositivo ha una durata limitata nel tempo: generalmente 7-12 anni per i pacemaker e 5-8 anni per i defibrillatori, anche se la durata effettiva dipende da quanto il dispositivo lavora.
-</p>
-<p class="text-slate-300">
-              Quando la batteria si sta esaurendo, il dispositivo segnala che è tempo di sostituirlo. La sostituzione è una procedura molto più semplice dell'impianto iniziale: nella maggior parte dei casi si cambia solo il dispositivo, mantenendo gli elettrocateteri già presenti, e il tutto avviene in regime ambulatoriale o con un breve ricovero.
+<h3 class="font-bold text-white mb-3">Monitoraggio remoto</h3>
+<p class="text-slate-300 mb-3">
+              Molti centri offrono **monitoraggio remoto**: ricevete un piccolo dispositivo da tenere sul comodino. La notte interroga automaticamente il vostro pacemaker/defibrillatore e invia i dati al centro. Se succede qualcosa di importante, il centro vi contatta subito. Questo riduce il numero di visite necessarie in ospedale.
 </p>
 </div>
 </section>
@@ -311,66 +266,59 @@ date: "2025-10-11"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="zap" class="w-6 h-6 text-amber-400"></i>
-            Come gestire gli shock del defibrillatore?
+            SCARICHE DA DEFIBRILLATORE: COSA SAPERE
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Se hai un defibrillatore impiantabile puoi occasionalmente ricevere una scarica elettrica dal dispositivo. Capire cosa significhi e come comportarti ti aiuta a gestire questi eventi con maggiore serenità.
+            Se avete un defibrillatore, c'è una probabilità che riceviate una scarica. Circa 2-3 persone su 10 la ricevono nel primo anno. È normale avere paura, ma è importante capire cosa succede.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa significa ricevere uno shock</h3>
-<p class="text-slate-300 mb-4">
-              Uno shock significa che il defibrillatore ha rilevato un'aritmia pericolosa e ha erogato una scarica elettrica per interromperla e ripristinare il ritmo normale del tuo cuore. È esattamente quello che il dispositivo è programmato per fare: proteggere la tua vita.
-</p>
-<p class="text-slate-300">
-              Prima dello shock, spesso avverti sintomi premonitori come palpitazioni intense, vertigini o senso di mancamento. Lo shock stesso viene descritto come un colpo forte al petto, una sensazione intensa ma che dura solo un istante.
-</p>
+<h3 class="font-bold text-white mb-3">Due tipi di terapia:</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Stimoli rapidi (ATP):</strong> non li percepite. Sono piccoli impulsi che interrompono il battito pericoloso. Funzionano circa 85-90 volte su 100</p>
+<p class="text-slate-300"><strong class="text-white">Scarica elettrica (shock):</strong> la percepite come un colpo intenso al petto, un "calcio" interno. Intenso ma breve. Prima della scarica solitamente sentite il cuore battere velocissimo, capogiri, offuscamento della vista</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Cosa fare dopo uno shock</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se ricevi uno shock singolo:</strong> Contatta il centro che segue il tuo dispositivo entro 24 ore per informarli dell'accaduto. Potranno verificare se lo shock era appropriato e se serve modificare la tua terapia.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Se ricevi due o più shock in poco tempo:</strong> Recati al pronto soccorso, portando con te la tessera del dispositivo. Potrebbero essere necessari farmaci o altri interventi per stabilizzare il tuo ritmo cardiaco.</p>
-<p class="text-slate-300"><strong class="text-white">●Aspetti emotivi:</strong> Dopo uno shock è normale sentirti spaventato o scosso emotivamente: parlarne con il tuo cardiologo e, se necessario, con uno psicologo può esserti d'aiuto.</p>
+<h3 class="font-bold text-white mb-3">Dopo una scarica:</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Una scarica sola, e poi vi sentite bene:</strong> contattate il cardiologo entro 24 ore per un controllo</li>
+<li><strong class="text-white">Più scariche in pochi minuti:</strong> andate subito al pronto soccorso. È una situazione che richiede cure urgenti</li>
+<li><strong class="text-white">È normale sentirsi spaventati:</strong> circa 3-4 persone su 10 hanno ansia importante dopo una scarica. Parlatene con il cardiologo. C'è supporto psicologico disponibile</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Se sei vicino a qualcuno che riceve uno shock</h3>
-<p class="text-slate-300 mb-4">
-              I familiari e le persone vicine spesso si chiedono cosa fare se la persona riceve uno shock:
-</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Sicurezza:</strong> Toccare la persona durante o dopo lo shock è completamente sicuro.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Assistenza:</strong> Aiuta la persona a sedersi o sdraiarsi se si sente debole.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Rassicurazione:</strong> Rimani calmo e rassicura la persona.</p>
-<p class="text-slate-300"><strong class="text-white">●Emergenza:</strong> Se riceve più shock ravvicinati o non riprende coscienza, chiama il 118.</p>
+<h3 class="font-bold text-white mb-3">Se vedete qualcuno ricevere una scarica</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">È sicuro toccarla:</strong> l'elettricità è confinata dentro il corpo. Non ci sono pericoli per chi vi sta vicino</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Se è cosciente:</strong> fatela sedere, rassicuratela, non lasciatela sola</p>
+<p class="text-slate-300"><strong class="text-white">Se perde coscienza:</strong> controllate che respiri, iniziate la rianimazione cardiopolmonare se necessario, chiamate il 118</p>
 </div>
 </section>
 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="smile" class="w-6 h-6 text-amber-400"></i>
-            Come gestire gli aspetti emotivi?
+            ASPETTI PSICOLOGICI: ADATTARSI AL DISPOSITIVO
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
-            Ricevere un dispositivo cardiaco può inizialmente suscitare preoccupazioni e timori. È una reazione normale e comprensibile. Con il tempo, la maggior parte delle persone si adatta bene e torna a una vita piena e soddisfacente.
+            È normale sentire paura, ansia, tristezza dopo l'impianto. Circa 2-3 persone su 10 hanno ansia importante i primi mesi. Con il tempo e supporto, 7-8 su 10 si adattano bene entro 6-12 mesi.
 </p>
 <div class="highlight-box rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Adattarsi al cambiamento</h3>
-<p class="text-slate-300 mb-4">
-              Nelle prime settimane è comune provare preoccupazione per il dispositivo, chiederti se funzionerà correttamente, sentirti limitato nelle attività. Questi sentimenti tendono a diminuire man mano che acquisisci confidenza e ti rendi conto che la vita può continuare in modo molto simile a prima.
-</p>
-<p class="text-slate-300">
-              Parlare apertamente di queste preoccupazioni con il tuo medico, con i tuoi familiari o con altri pazienti che hanno vissuto la stessa esperienza può esserti molto utile.
-</p>
+<h3 class="font-bold text-white mb-3">Come evolve l'adattamento:</h3>
+<p class="text-slate-300 mb-3"><strong class="text-white">Prime 4 settimane:</strong> paure comuni — funzionerà? La ferita guarirà? Potrò fare le cose che faccio normalmente?</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">Mesi 2-6:</strong> lentamente iniziate a fare più cose. A volte potete pensare al dispositivo con apprensione, ma la vita ritorna più normale</p>
+<p class="text-slate-300"><strong class="text-white">Oltre 6 mesi:</strong> la maggior parte delle persone integra il dispositivo nella vita. Inizia a sentirsi protettivo, non limitante</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
-<h3 class="font-bold text-white mb-3">Supporto e risorse</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Team cardiologico:</strong> Il tuo team cardiologico è sempre disponibile per rispondere ai tuoi dubbi e fornirti rassicurazioni.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Associazioni di pazienti:</strong> Esistono associazioni di pazienti che offrono supporto, informazioni e opportunità di condividere esperienze.</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Supporto psicologico:</strong> In caso di ansia o preoccupazione persistente, può esserti utile un supporto psicologico, che molti centri cardiologici offrono.</p>
-<p class="text-slate-300"><strong class="text-white">●Familiari:</strong> I tuoi familiari giocano un ruolo importante: coinvolgerli nelle visite e nelle informazioni aiuta tutti a sentirsi più sicuri.</p>
+<h3 class="font-bold text-white mb-3">Risorse di aiuto:</h3>
+<ul class="text-slate-300 space-y-3 ml-5 list-disc">
+<li><strong class="text-white">Il vostro cardiologo:</strong> è la risorsa principale per dubbi, rassicurazioni, paure</li>
+<li><strong class="text-white">Associazioni di pazienti:</strong> AIAC Pazienti, forum online dove incontrare altre persone con dispositivi</li>
+<li><strong class="text-white">Supporto psicologico:</strong> se l'ansia è persistente, chiiedete al cardiologo uno psicologo specializzato</li>
+<li><strong class="text-white">Famiglia:</strong> coinvolgere partner e familiari negli appuntamenti medici aiuta. Il supporto della famiglia è cruciale per l'adattamento positivo</li>
+</ul>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-3">Guardare avanti</h3>
+<h3 class="font-bold text-white mb-3">Perspettiva a lungo termine</h3>
 <p class="text-slate-300">
-              Il dispositivo cardiaco è uno strumento che ti permette di vivere in modo più sicuro e spesso di sentirti meglio rispetto a prima dell'impianto, quando i sintomi potevano limitare le tue attività quotidiane. Molte persone riferiscono di aver ritrovato energia e libertà che temevano di aver perso. L'importante è non focalizzarti sulle poche limitazioni, ma sulle molte possibilità che il dispositivo ti consente di mantenere.
+              La maggior parte dei pazienti riferisce che vivere con un dispositivo è meglio che prima dell'impianto. Potete fare le cose che non potevate fare per paura di svenire, avere aritmie pericolose o morire improvvisamente. Il dispositivo vi protegge. Con il tempo imparerete a considerarlo un alleato, non una limitazione.
 </p>
 </div>
 </section>
@@ -378,45 +326,44 @@ date: "2025-10-11"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="help-circle" class="w-6 h-6 text-amber-400"></i>
-            Quali sono le domande più frequenti?
+            DOMANDE FREQUENTI
 </h2>
 <div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Quanto dura la batteria del dispositivo?</h3>
+<h3 class="font-bold text-white mb-2">Quanto dura la batteria?</h3>
 <p class="text-slate-300">
-              La batteria di un pacemaker dura mediamente 8-10 anni, mentre quella di un defibrillatore dura circa 6-7 anni. La durata effettiva dipende da quanto il dispositivo lavora: se interviene raramente durerà più a lungo, se lavora molto la batteria si esaurirà prima. Durante i tuoi controlli periodici, il medico verifica sempre lo stato della batteria e ti segnala per tempo quando sarà necessario sostituirla.
+              I pacemaker durano 8-12 anni. I defibrillatori durano 5-8 anni. Dipende da quanto il dispositivo lavora: maggiore lavoro = batteria che si scarica prima. Quando la batteria è quasi vuota, il dispositivo vi avvisa con anticipo (3-6 mesi prima). A quel punto programmate la sostituzione, che è una procedura più semplice dell'impianto iniziale.
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Il dispositivo si sente al tatto?</h3>
+<h3 class="font-bold text-white mb-2">Si percepisce il dispositivo?</h3>
 <p class="text-slate-300">
-              Sì, il dispositivo è palpabile sotto la pelle, soprattutto se sei più magro. Inizialmente puoi avvertirlo come un oggetto estraneo, ma con il tempo la percezione diventa sempre meno fastidiosa e molte persone smettono di notarlo. Le dimensioni sono paragonabili a quelle di una piccola scatola di fiammiferi sottile. Se il fastidio fosse persistente, puoi discuterne con il tuo medico.
+              Sì, sentirete una protuberanza sotto la pelle come una struttura solida rettangolare. Inizialmente è molto evidente, specialmente se siete magri. Nei 2-3 mesi successivi, il corpo forma un tessuto cicatriziale intorno al dispositivo che lo rende meno evidente. La maggior parte dei pazienti se ne dimentica dopo qualche mese. Se il fastidio persiste, ne parlate con il cardiologo.
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-2">Si può fare la risonanza magnetica?</h3>
 <p class="text-slate-300">
-              La maggior parte dei dispositivi moderni (impiantati negli ultimi anni) è compatibile con la risonanza magnetica. Prima di eseguire l'esame è però necessario che il tuo dispositivo venga programmato in modalità specifica e che vengano seguite precise precauzioni. È fondamentale che tu informi sempre il centro di radiologia che hai un dispositivo cardiaco e che tu chieda al tuo centro cardiologico le istruzioni specifiche.
+              Dipende dal vostro dispositivo specifico. Circa 7-8 dispositivi moderni su 10 possono fare la RM, ma serve una procedura speciale: si interroga il dispositivo prima, si riprogramma per la RM, si fa la RM presso un centro specializzato, poi si riprogramma di nuovo dopo. Il vostro cardiologo vi dirà se il vostro dispositivo è compatibile. Se non lo è, ci sono alternative come TC o ecografia.
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Si può nuotare al mare o in piscina?</h3>
+<h3 class="font-bold text-white mb-2">Si può nuotare?</h3>
 <p class="text-slate-300">
-              Assolutamente sì. Dopo la completa guarigione della ferita (circa 4-6 settimane dall'intervento), nuotare è non solo permesso ma anche incoraggiato come ottima forma di esercizio fisico. Il dispositivo è completamente sigillato e impermeabile. Devi evitare solo tuffi da grandi altezze che potrebbero causare traumi al petto e immersioni subacquee molto profonde (oltre i 10 metri).
+              Sì, dopo che la ferita è guarita (4-6 settimane). Il dispositivo è impermeabile. Potete nuotare in piscina, al mare, fare kayak, snorkeling. L'immersione subacquea ricreativa fino a 10-12 metri di profondità è generalmente sicura. Evitate solo tuffi da altezze importanti (da trampolini alti) perché potrebbero danneggiare il dispositivo. Se avete un defibrillatore, evitate di nuotare da soli in acque profonde (il rischio è sincope sott'acqua se il dispositivo eroga una scarica).
 </p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
-<h3 class="font-bold text-white mb-2">Il battito cardiaco sarà diverso da prima?</h3>
+<h3 class="font-bold text-white mb-2">Il battito sarà diverso?</h3>
 <p class="text-slate-300">
-              Alcune persone notano che il battito cardiaco risulta più regolare rispetto a prima, quando poteva essere irregolare o troppo lento. Il dispositivo assicura che il tuo cuore non scenda sotto una certa frequenza. Inizialmente questa regolarità può sembrarti strana, ma è proprio quello che ti aiuta a stare meglio. Se hai dubbi o sensazioni particolari riguardo al battito, è importante che tu ne parli durante i controlli.
+              Sì, molti pazienti percepiscono un ritmo più regolare e costante di prima. Alcuni percepiscono la stimolazione del pacemaker come piccoli "tic" nel petto, specialmente i primi giorni — questo è normale e passa in 2-4 settimane. Se percepite ritmi molto irregolari o pause, parlatene con il cardiologo durante il controllo.
 </p>
 </div>
 <div class="info-step rounded-lg p-6">
-<h3 class="font-bold text-white mb-2">Serve un documento particolare da portare sempre con sé?</h3>
+<h3 class="font-bold text-white mb-2">Quali documenti tenere sempre?</h3>
 <p class="text-slate-300">
-              Sì, al momento della dimissione ti viene rilasciata una tessera identificativa del dispositivo che contiene informazioni importanti (tipo di dispositivo, numero di serie, centro che lo ha impiantato). È consigliabile che tu la porti sempre con te, soprattutto quando viaggi o ti rechi in luoghi dove potrebbero esserci controlli di sicurezza. Può esserti utile anche conservarne una fotocopia o una foto sul telefono.
+              <strong>Portate sempre la tessera identificativa del dispositivo</strong> — è essenziale per i controlli di sicurezza aeroportuali, emergenze mediche, procedure mediche. Conservatene una fotocopia nel portafoglio e una copia digitale sul telefono. Per viaggi internazionali, chiedete al cardiologo una lettera di presentazione in inglese con la descrizione del dispositivo e della vostra condizione. Portate anche l'elenco dei farmaci che assumete.
 </p>
 </div>
 </section>
-
 
 </article>

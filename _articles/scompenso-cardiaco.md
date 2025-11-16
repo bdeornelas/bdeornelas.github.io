@@ -10,6 +10,8 @@ date: "2025-10-18"
 
 ---
 
+# Scompenso Cardiaco – Le Basi
+
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>
 <span class="mx-2">/</span>
@@ -53,7 +55,7 @@ date: "2025-10-18"
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="info" class="w-6 h-6 text-emerald-400"></i>
-            Cos'è lo scompenso cardiaco?
+            COS'È LO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -84,7 +86,7 @@ Lo scompenso cardiaco colpisce circa 1 persona su 50 dopo i 70 anni. Diventa pi�
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="activity" class="w-6 h-6 text-pink-400"></i>
-            Quali sono i sintomi dello scompenso cardiaco?
+            QUALI SONO I SINTOMI DELLO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -155,7 +157,7 @@ Quando i sintomi compaiono, derivano dall'accumulo di liquidi nel corpo e dalla 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="alert-circle" class="w-6 h-6 text-orange-400"></i>
-            Quali sono le cause dello scompenso cardiaco?
+            QUALI SONO LE CAUSE DELLO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -195,7 +197,7 @@ Lo scompenso cardiaco può essere causato da diverse condizioni che danneggiano 
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="stethoscope" class="w-6 h-6 text-violet-400"></i>
-            Come viene diagnosticato lo scompenso cardiaco?
+            COME VIENE DIAGNOSTICATO LO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -228,7 +230,7 @@ Durante la visita, il medico ascolterà i tuoi polmoni con lo stetoscopio (per s
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="pill" class="w-6 h-6 text-violet-400"></i>
-            Come viene trattato lo scompenso cardiaco?
+            COME VIENE TRATTATO LO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -329,7 +331,7 @@ Il tuo medico parlerà con te di quale trattamento è più adatto al tuo caso.
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="home" class="w-6 h-6 text-emerald-400"></i>
-            Cosa posso fare nella vita quotidiana?
+            COSA POSSO FARE NELLA VITA QUOTIDIANA?
 </h2>
 <p class="text-slate-300 leading-relaxed mb-6">
 Oltre ai farmaci, alcune modifiche allo stile di vita sono essenziali per gestire lo scompenso cardiaco. Queste abitudini aiutano il cuore a lavorare meglio e prevengono i peggioramenti.
@@ -403,7 +405,7 @@ Oltre ai farmaci, alcune modifiche allo stile di vita sono essenziali per gestir
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="alert-triangle" class="w-6 h-6 text-orange-400"></i>
-            Quando devo chiamare il medico?
+            QUANDO DEVO CHIAMARE IL MEDICO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -454,7 +456,7 @@ Oltre ai farmaci, alcune modifiche allo stile di vita sono essenziali per gestir
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="calendar-check" class="w-6 h-6 text-emerald-400"></i>
-            Quanto spesso devo fare i controlli?
+            QUANTO SPESSO DEVO FARE I CONTROLLI?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -495,7 +497,7 @@ Il follow-up regolare con il tuo cardiologo è fondamentale per monitorare lo sc
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="heart-pulse" class="w-6 h-6 text-pink-400"></i>
-            Come posso vivere bene con lo scompenso cardiaco?
+            COME POSSO VIVERE BENE CON LO SCOMPENSO CARDIACO?
 </h2>
 
 <p class="text-slate-300 leading-relaxed mb-6">
@@ -554,7 +556,7 @@ Ricevere una diagnosi di scompenso cardiaco può essere spaventoso. Ma è import
 <section class="mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="lightbulb" class="w-6 h-6 text-amber-400"></i>
-            Quali sono le domande più frequenti?
+            QUALI SONO LE DOMANDE PIÙ FREQUENTI?
 </h2>
 
 <div class="info-step rounded-lg p-6 mb-4">
@@ -596,7 +598,7 @@ Ricevere una diagnosi di scompenso cardiaco può essere spaventoso. Ma è import
 <section class="mt-12 mb-12">
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="link" class="w-6 h-6 text-emerald-400"></i>
-            Approfondimenti correlati
+            APPROFONDIMENTI CORRELATI
 </h2>
 <ul class="text-slate-300 space-y-2 ml-5 list-disc">
 <li><a class="text-sky-400 hover:text-sky-300 underline" href="/articles/infarto-miocardico/">Infarto miocardico</a>: una delle cause più comuni di scompenso cardiaco</li>
@@ -609,7 +611,7 @@ Ricevere una diagnosi di scompenso cardiaco può essere spaventoso. Ma è import
 <section>
 <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
 <i data-lucide="file-text" class="w-6 h-6 text-emerald-400"></i>
-            Punti chiave da ricordare
+            PUNTI CHIAVE DA RICORDARE
 </h2>
 <div class="highlight-box rounded-lg p-6">
 
