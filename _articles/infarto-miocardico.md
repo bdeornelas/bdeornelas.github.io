@@ -10,7 +10,6 @@ date: "2025-11-06"
 
 ---
 
-# Infarto – Le Basi
 
 ## COS'È L'INFARTO?
 

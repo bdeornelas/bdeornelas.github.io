@@ -10,7 +10,6 @@ date: "2025-09-25"
 
 ---
 
-# Insufficienza Tricuspidale – Le Basi
 
 ---
 

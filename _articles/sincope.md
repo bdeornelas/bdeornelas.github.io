@@ -10,7 +10,6 @@ date: "2025-09-27"
 
 ---
 
-# Sincope – Le Basi
 
 ## COS'È LA SINCOPE?
 

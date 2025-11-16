@@ -10,7 +10,6 @@ og_image: /assets/img/og-card.jpg
 date: "2025-10-11"
 ---
 
-# Vita con Pacemaker o ICD – Le Basi
 
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>

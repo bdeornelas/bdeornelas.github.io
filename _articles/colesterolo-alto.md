@@ -10,7 +10,6 @@ date: "2025-11-04"
 
 ---
 
-# Colesterolo Alto – Le Basi
 
 Il **colesterolo alto** è una condizione in cui hai troppo colesterolo LDL nel sangue. Il colesterolo è una sostanza grassa che il tuo corpo usa per funzionare normalmente. Il fegato produce circa il 70-80% del colesterolo che hai nel sangue. Il resto (il 20-30%) viene dal cibo che mangi.
 

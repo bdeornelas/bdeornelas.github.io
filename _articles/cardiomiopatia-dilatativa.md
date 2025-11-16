@@ -10,7 +10,6 @@ date: "2025-10-02"
 
 ---
 
-# Cardiomiopatia Dilatativa – Le Basi
 
 La **cardiomiopatia dilatativa** è una condizione in cui il muscolo del cuore si indebolisce e le camere cardiache si dilatano, soprattutto il ventricolo sinistro. Quando il cuore si dilata, perde la capacità di contrarsi con forza e pompa meno sangue a ogni battito. Questo può causare sintomi di scompenso cardiaco, come affanno, stanchezza e gonfiore alle gambe.
 

@@ -10,7 +10,6 @@ date: "2025-10-21"
 
 ---
 
-# Endocardite Infettiva – Le Basi
 
 L'**endocardite infettiva** è un'infezione grave delle valvole cardiache causata da batteri che entrano nel flusso sanguigno e si attaccano alle valvole del cuore. Questi batteri si moltiplicano e formano accumuli infetti sulle valvole, danneggiandole progressivamente. È una malattia seria ma curabile se diagnosticata e trattata in tempo.
 

@@ -10,7 +10,6 @@ date: "2025-09-03"
 
 ---
 
-# Holter Pressorio (MAPA) – Le Basi
 
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>

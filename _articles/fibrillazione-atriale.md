@@ -10,7 +10,6 @@ date: "2025-11-07"
 
 ---
 
-# Fibrillazione Atriale – Le Basi
 
 La **fibrillazione atriale** è il tipo più comune di **aritmia.** Nel tuo cuore ci sono quattro camere: due superiori chiamate **atri** e due inferiori chiamate **ventricoli.** Normalmente, gli atri si contraggono in modo coordinato per spingere il sangue nei ventricoli. Nella fibrillazione atriale, gli atri tremano in modo disorganizzato invece di contrarsi normalmente, come una gelatina che vibra invece di un pugno che si stringe.
 

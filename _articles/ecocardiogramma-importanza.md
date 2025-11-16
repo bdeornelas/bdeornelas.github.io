@@ -10,7 +10,6 @@ date: "2025-11-01"
 
 ---
 
-# Ecocardiogramma – Le Basi
 
 L'**ecocardiogramma,** o "eco," è un esame di imaging che utilizza ultrasuoni per creare immagini in movimento del tuo cuore. Il principio fisico è lo stesso delle ecografie ostetriche: le onde sonore rimbalzano sui tessuti cardiaci e tornano indietro, permettendo di ricostruire un'immagine dinamica sullo schermo. Il medico appoggia una sonda sul torace in diversi punti per vedere il cuore da angolazioni diverse.
 

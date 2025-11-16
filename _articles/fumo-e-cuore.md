@@ -10,7 +10,6 @@ date: "2025-09-20"
 
 ---
 
-# Fumo e Cuore – Le Basi
 
 <nav class="text-sm text-slate-400 mb-8" data-aos="fade-up">
 <a href="/" class="hover:text-sky-400">Home</a>

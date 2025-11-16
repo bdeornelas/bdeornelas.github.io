@@ -10,7 +10,6 @@ date: "2025-09-14"
 
 ---
 
-# Ictus e TIA – Le Basi
 
 ---
 

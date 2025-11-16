@@ -10,7 +10,6 @@ date: "2025-09-02"
 
 ---
 
-# Attività Fisica e Cuore – Le Basi
 
 L'**attività fisica regolare** è uno dei modi più efficaci per proteggere il cuore dalle malattie cardiovascolari. Il cuore è un muscolo, e come tutti i muscoli si rafforza quando lo facciamo lavorare regolarmente. L'esercizio non solo migliora la capacità del cuore di pompare sangue, ma agisce su tutti i principali fattori di rischio cardiovascolare: pressione arteriosa, colesterolo, peso corporeo e controllo della glicemia.
 

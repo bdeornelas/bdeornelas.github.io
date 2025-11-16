@@ -10,7 +10,6 @@ date: "2025-10-09"
 
 ---
 
-# Malattia Coronarica – Le Basi
 
 La **malattia coronarica** (chiamata anche **cardiopatia ischemica**) è la condizione in cui le arterie coronarie si restringono progressivamente.
 

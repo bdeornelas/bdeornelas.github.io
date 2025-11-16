@@ -10,7 +10,6 @@ date: "2025-10-30"
 
 ---
 
-# Test Ergometrico (Test da Sforzo) – Le Basi
 
 ## COS'È IL TEST DA SFORZO?
 

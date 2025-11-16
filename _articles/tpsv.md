@@ -10,7 +10,6 @@ date: "2025-09-18"
 
 ---
 
-# Tachicardia Parossistica Sopraventricolare (TPSV) – Le Basi
 
 ---
 

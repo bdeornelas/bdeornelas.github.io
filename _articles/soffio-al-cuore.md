@@ -10,7 +10,6 @@ date: "2025-10-16"
 
 ---
 
-# Soffio al Cuore – Le Basi
 
 ---
 

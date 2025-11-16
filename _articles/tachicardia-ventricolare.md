@@ -10,7 +10,6 @@ date: "2025-10-06"
 
 ---
 
-# Tachicardia Ventricolare – Le Basi
 
 ---
 

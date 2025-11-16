@@ -10,7 +10,6 @@ date: "2025-11-02"
 
 ---
 
-# Extrasistoli – Le Basi
 
 Le **extrasistoli** sono battiti del cuore che si verificano prima del previsto. Invece di attendere il normale segnale elettrico dal **nodo senoatriale,** una parte del tessuto cardiaco genera un impulso anticipato. Questo battito prematuro fa contrarre il cuore fuori dal ritmo normale.
 

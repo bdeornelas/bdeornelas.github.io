@@ -10,7 +10,6 @@ date: "2025-09-21"
 
 ---
 
-# Aneurisma dell'Aorta – Le Basi
 
 L'aneurisma dell'aorta è una dilatazione anomala dell'arteria principale del corpo. L'aorta trasporta il sangue ricco di ossigeno dal cuore a tutti gli organi.
 

@@ -10,7 +10,6 @@ date: "2025-10-03"
 
 ---
 
-# Embolia Polmonare e Trombosi Venosa – Le Basi
 
 L'**embolia polmonare** e la **trombosi venosa profonda,** o "TVP," sono due condizioni strettamente collegate. Un coagulo di sangue si forma in una vena profonda, solitamente nelle gambe, poi può staccarsi e viaggiare attraverso il flusso sanguigno fino a raggiungere i polmoni. Quando il coagulo blocca un'arteria polmonare, si verifica l'embolia polmonare.
 

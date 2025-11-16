@@ -10,7 +10,6 @@ date: "2025-09-09"
 
 ---
 
-# Dieta Mediterranea e Colesterolo – Le Basi
 
 La **dieta mediterranea** è uno stile di mangiare basato su frutta, verdura, cereali integrali, legumi, pesce e olio d'oliva. Non è un regime temporaneo da seguire per qualche settimana: è il modo naturale di mangiare che le generazioni precedenti seguivano quotidianamente. È questo stile alimentare che ha mantenuto basso il rischio di malattie cardiovascolari in Italia, Grecia e Spagna per decenni.
 
