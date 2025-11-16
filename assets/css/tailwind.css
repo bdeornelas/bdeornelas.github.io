@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source "../../_layouts/**/*.html";
+@source "../../_includes/**/*.html";
+@source "../../_articles/**/*.md";
+@source "../../*.html";
+@source "../../about/**/*.html";
+@source "../../contact/**/*.html";
+@source "../../articles/**/*.html";
