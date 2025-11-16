@@ -16,6 +16,7 @@ assets/js/*.min.js
 !assets/js/main.min.js
 assets/css/*.min.css
 !assets/css/style.min.css
+!assets/css/tailwind.min.css
 
 # OS/editor junk
 .DS_Store
