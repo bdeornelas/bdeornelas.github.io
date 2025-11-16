@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Colesterolo Alto - Cosa Significa e Come Controllarlo | Dr. Benjamin De Ornelas"
+title: "Colesterolo Alto"
 description: "Guida pratica al colesterolo alto per pazienti e familiari. Scopri la differenza tra colesterolo buono e cattivo, come abbassarlo con alimentazione e movimento, e quando servono i farmaci."
-og_title: "Colesterolo Alto - Guida per Pazienti e Familiari"
+og_title: "Colesterolo Alto"
 og_description: "Tutto quello che serve sapere sul colesterolo alto. Come si scopre, cosa mangiare, quando servono i farmaci e i controlli da fare. Spiegato in modo semplice."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-04"
@@ -24,11 +24,11 @@ Il colesterolo è una sostanza grassa necessaria per il corpo. Serve per costrui
 
 Il colesterolo non può viaggiare da solo nel sangue. Viene trasportato da particelle chiamate lipoproteine. Ci sono due tipi principali:
 
-**Colesterolo LDL** – il colesterolo "cattivo":
+**Colesterolo LDL**"cattivo":
 
 Le particelle LDL portano il colesterolo dal fegato al resto del corpo. Quando ce n'è troppo nel sangue, il colesterolo LDL si deposita sulle pareti delle arterie e forma le placche. L'LDL è il principale responsabile di infarto e ictus. Abbassare il colesterolo LDL è l'obiettivo principale del trattamento.
 
-**Colesterolo HDL** – il colesterolo "buono":
+**Colesterolo HDL**"buono":
 
 Le particelle HDL fanno il lavoro opposto: prelevano il colesterolo dalle arterie e lo riportano al fegato per essere eliminato. Il colesterolo HDL protegge il cuore. Avere il colesterolo HDL più alto è generalmente meglio. Fare movimento regolare e mantenere un peso sano sono i modi migliori per aumentare il colesterolo HDL.
 

@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Ecocardiogramma – Le Basi | Dr. Benjamin De Ornelas"
+title: "Ecocardiogramma"
 description: "Ecocardiogramma spiegato per pazienti. Come si fa, quando serve, cosa valuta. Esame sicuro senza radiazioni."
-og_title: "Ecocardiogramma – Le Basi"
+og_title: "Ecocardiogramma"
 og_description: "Informazioni essenziali sull'ecocardiogramma per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-01"
@@ -48,7 +48,7 @@ Il medico prescrive l'ecocardiogramma quando hai sintomi che potrebbero indicare
 
 • **Dolore toracico** – Dolore, oppressione o fastidio al petto, soprattutto se peggiora con l'attività fisica
 
-• **Palpitazioni** – Sensazione che il cuore batta troppo forte, troppo veloce, in modo irregolare o "salti" battiti
+• **Palpitazioni**"salti" battiti
 
 • **Sincope** – Svenimento improvviso o sensazione di imminente svenimento
 

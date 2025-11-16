@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Pressione Alta (Ipertensione) – Le Basi | Dr. Benjamin De Ornelas"
+title: "Pressione Alta (Ipertensione)"
 description: "Cos'è la pressione alta, perché è importante controllarla, come misurarla correttamente e quali sono i rimedi efficaci. Guida pratica per gestire l'ipertensione arteriosa."
-og_title: "Pressione Alta – Le Basi"
+og_title: "Pressione Alta"
 og_description: "Una guida pratica sulla pressione alta: cos'è, come riconoscerla, quando preoccuparsi e come gestirla con stile di vita e, se necessario, farmaci."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-05"
@@ -22,9 +22,9 @@ Pensate alle arterie come a un sistema di tubi flessibili che portano sangue ric
 
 La pressione arteriosa viene misurata con due numeri:
 
-●**Pressione sistolica** – chiamata anche "massima" o "PAS". Misura la pressione quando il cuore si contrae e pompa il sangue. È il numero più alto
+●**Pressione sistolica**"massima" o "PAS". Misura la pressione quando il cuore si contrae e pompa il sangue. È il numero più alto
 
-●**Pressione diastolica** – chiamata anche "minima" o "PAD". Misura la pressione quando il cuore si rilassa tra un battito e l'altro. È il numero più basso
+●**Pressione diastolica**"minima" o "PAD". Misura la pressione quando il cuore si rilassa tra un battito e l'altro. È il numero più basso
 
 I valori si scrivono così: 120/80 mmHg (si legge "120 su 80 millimetri di mercurio"). Normalmente, la pressione arteriosa sale e scende leggermente durante la giornata a seconda dell'attività fisica, dello stress, del sonno e di altri fattori. Nella pressione alta, i valori rimangono costantemente elevati.
 
@@ -719,7 +719,7 @@ Pressione MOLTO alta (di solito sopra 180/120 mmHg) CON danno acuto agli organi.
   - Tosse con catarro rosato e schiumoso
 
 ●**Lacerazione dell'aorta:**
-  - Dolore fortissimo al petto o alla schiena che arriva all'improvviso "come una pugnalata"
+ "come una pugnalata"
 
 ●**Se siete incinta:**
   - Pressione molto alta con mal di testa, problemi di vista, dolore alla pancia in alto a destra

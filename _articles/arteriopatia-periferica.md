@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Arteriopatia Periferica - Guida Paziente | Dr. Benjamin De Ornelas"
+title: "Arteriopatia Periferica"
 description: "Arteriopatia periferica (restringimento delle arterie delle gambe): sintomi, cause, diagnosi e cure spiegate in modo chiaro. Quando serve l'intervento e come migliorare."
-og_title: "Arteriopatia Periferica - Guida per Pazienti"
+og_title: "Arteriopatia Periferica"
 og_description: "Dolore alle gambe camminando, arterie ostruite, diagnosi e trattamenti: tutto spiegato in modo semplice e completo."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-07"

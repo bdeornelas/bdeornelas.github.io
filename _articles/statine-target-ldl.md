@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Le Statine per il Colesterolo Alto: Guida Pratica | Dr. Benjamin De Ornelas"
+title: "Le Statine per il Colesterolo Alto: Guida Pratica"
 description: "Informazioni chiare sulle statine per abbassare il colesterolo nel sangue, come funzionano, quando servono e cosa aspettarsi durante il trattamento."
-og_title: "Le Statine per il Colesterolo Alto - Guida per Pazienti"
+og_title: "Le Statine per il Colesterolo Alto"
 og_description: "Una guida semplice e pratica sulle statine, i farmaci per controllare il colesterolo e proteggere cuore e arterie."
 og_image: /assets/img/og-card.jpg
 

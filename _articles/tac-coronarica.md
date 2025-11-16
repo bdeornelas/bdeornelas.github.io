@@ -1,10 +1,10 @@
 ---
 collection: articles
 layout: "article"
-title: "TAC Coronarica – Esame Semplice per Vedere le Arterie del Cuore | Dr. Benjamin De Ornelas"
+title: "TAC Coronarica"
 description: "Come funziona la TAC coronarica per i pazienti. Quando serve, come prepararsi e cosa significano i risultati."
-og_title: "TAC Coronarica – Esame Non Invasivo delle Arterie"
-og_description: "Guida semplice sulla TAC coronarica per pazienti e familiari - quando serve e cosa aspettarsi."
+og_title: "TAC Coronarica"
+og_description: "Guida semplice sulla TAC coronarica per pazienti e familiari"
 og_image: /assets/img/og-card.jpg
 
 date: "2025-11-13"

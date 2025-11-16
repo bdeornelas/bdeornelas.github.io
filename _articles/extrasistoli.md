@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Extrasistoli – Le Basi | Dr. Benjamin De Ornelas"
+title: "Extrasistoli"
 description: "Extrasistoli spiegate per pazienti. Sintomi, cause, quando preoccuparsi e trattamenti."
-og_title: "Extrasistoli – Le Basi"
+og_title: "Extrasistoli"
 og_description: "Informazioni essenziali sulle extrasistoli per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-02"

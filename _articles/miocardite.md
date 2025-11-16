@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Miocardite – Le Basi | Dr. Benjamin De Ornelas"
+title: "Miocardite"
 description: "Miocardite spiegata per pazienti. Sintomi, diagnosi, cure e quando tornare allo sport."
-og_title: "Miocardite – Le Basi"
+og_title: "Miocardite"
 og_description: "Informazioni essenziali sulla miocardite per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-14"

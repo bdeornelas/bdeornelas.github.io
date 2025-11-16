@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Soffio al Cuore – Le Basi | Dr. Benjamin De Ornelas"
+title: "Soffio al Cuore"
 description: "Soffio al cuore spiegato per pazienti. Quando è innocente, quando preoccuparsi e quando serve l'ecocardiogramma."
-og_title: "Soffio al Cuore – Le Basi"
+og_title: "Soffio al Cuore"
 og_description: "Informazioni essenziali sul soffio al cuore per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-16"

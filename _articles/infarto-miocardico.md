@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Infarto – Le Basi | Dr. Benjamin De Ornelas"
+title: "Infarto"
 description: "Infarto spiegato per pazienti. Sintomi, cosa fare subito, cure in ospedale e recupero."
-og_title: "Infarto – Le Basi"
+og_title: "Infarto"
 og_description: "Informazioni essenziali sull'infarto per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-06"

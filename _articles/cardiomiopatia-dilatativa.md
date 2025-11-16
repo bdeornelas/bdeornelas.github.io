@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Cardiomiopatia Dilatativa – Le Basi | Dr. Benjamin De Ornelas"
+title: "Cardiomiopatia Dilatativa"
 description: "Cardiomiopatia dilatativa spiegata per pazienti. Cos'è, cause, sintomi, esami diagnostici e terapie moderne che migliorano la qualità di vita."
-og_title: "Cardiomiopatia Dilatativa – Le Basi"
+og_title: "Cardiomiopatia Dilatativa"
 og_description: "Informazioni essenziali sulla cardiomiopatia dilatativa per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-02"
