@@ -224,22 +224,3 @@ La maggior parte delle persone con un soffio al cuore, che sia innocente o legat
 
 Molte persone con soffi cardiaci lavorano, viaggiano, praticano sport e conducono vite assolutamente normali. La chiave è il dialogo costante con il cardiologo, i controlli regolari e l'attenzione ai segnali che il corpo invia. La consapevolezza della propria condizione è il primo passo per gestirla al meglio.
 
----
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contatta il tuo medico se hai:
-
-• Soffio al cuore scoperto recentemente che richiede valutazione
-• Affaticamento o respiro corto durante l'attività fisica
-• Palpitazioni o battiti irregolari
-• Altri sintomi che potrebbero indicare problemi valvolari
-
-**CHIEDI ASSISTENZA MEDICA D'EMERGENZA** (chiama il 112 o recati al pronto soccorso) se hai:
-
-• Difficoltà respiratoria a riposo o impossibilità di sdraiarti
-• Dolore forte al petto
-• Svenimento o perdita di coscienza
-• Febbre persistente con soffio cardiaco noto (può indicare endocardite)
-• Gonfiore improvviso e grave alle gambe con difficoltà a respirare
-

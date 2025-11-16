@@ -224,25 +224,3 @@ Il medico vi consiglierà l'esame più adatto alla vostra situazione specifica.
 
 ●**Quando i risultati sono disponibili?** – Il medico può darvi una prima indicazione subito dopo il test. Il referto completo viene solitamente redatto entro pochi giorni. Se il test mostra anomalie significative, il medico ve lo comunicherà subito
 
----
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico se avete sintomi che potrebbero richiedere un test da sforzo: dolore al petto durante sforzi, affanno sproporzionato all'attività fisica, palpitazioni durante esercizio, o se volete iniziare un programma di esercizio intenso e avete fattori di rischio cardiovascolare.
-
-**CERCATE AIUTO IMMEDIATO (chiamate il 112 o andate al pronto soccorso) se avete:**
-
-●Dolore forte al petto che dura più di 10-15 minuti
-●Dolore al petto con sudorazione, affanno, nausea o svenimento
-●Difficoltà grave a respirare a riposo
-●Svenimento completo (perdita di coscienza)
-●Battito cardiaco molto veloce (più di 150-180 battiti al minuto) con vertigini
-
-**Contattate il medico curante se avete:**
-
-●Dolore al petto che compare durante sforzi e passa a riposo
-●Affanno che peggiora progressivamente
-●Palpitazioni frequenti durante attività fisica
-●Necessità di valutare la vostra capacità di esercizio
-●Controllo dopo intervento cardiaco (infarto, angioplastica, bypass)
-

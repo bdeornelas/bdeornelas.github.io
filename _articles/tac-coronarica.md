@@ -228,23 +228,3 @@ No. Un restringimento visto alla TAC non significa automaticamente che dovete op
 
 La dose è bassa se considerata isolatamente, ma è vero che ogni radiazione comporta un rischio teorico. Però il medico prescrive l'esame solo se pensa che i benefici (sapere se avete una malattia coronarica) superino i rischi. Non chiedete di ripetere la TAC frequentemente senza motivo medico.
 
----
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico se avete sintomi che potrebbero indicare un problema coronarico: dolore al petto durante sforzi, affanno insolito, palpitazioni, o se volete fare una valutazione del vostro rischio cardiovascolare.
-
-**CERCATE AIUTO IMMEDIATO (chiamate il 112 o andate al pronto soccorso) se avete:**
-
-●Dolore al petto forte e persistente
-●Dolore al petto con sudorazione, affanno o nausea
-●Svenimento
-●Difficoltà grave a respirare
-
-**Contattate il medico curante per una visita se:**
-
-●Volete fare una TAC coronarica per escludere malattia coronarica
-●Avete sintomi suggestivi di angina
-●Avete molti fattori di rischio cardiovascolare e volete sapere il vostro rischio
-●Il vostro test da sforzo è risultato positivo
-

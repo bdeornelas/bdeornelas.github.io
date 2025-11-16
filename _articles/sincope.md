@@ -221,24 +221,3 @@ Quando le misure preventive non sono sufficienti e la sincope compromette la qua
 ●Midodrina per aumentare la pressione arteriosa
 ●Fludrocortisone per aumentare il volume di sangue circolante
 
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico dopo il primo episodio di sincope, quando gli episodi sono ricorrenti, o se ci sono segnali d'allarme.
-
-**CHIAMA IL 112 O VAI AL PRONTO SOCCORSO se hai:**
-
-●Sincope durante sforzo fisico
-●Dolore toracico o difficoltà respiratoria
-●La persona non riprende conoscenza entro 2-3 minuti
-●Trauma importante alla testa
-●Convulsioni prolungate
-●Storia di malattia cardiaca
-
-**Contattate il medico curante se avete:**
-
-●Primo episodio di sincope
-●Episodi ricorrenti (più di 2-3)
-●Sincope preceduta da palpitazioni
-●Storia familiare di morte cardiaca improvvisa
-●Età superiore a 60 anni al primo episodio
-

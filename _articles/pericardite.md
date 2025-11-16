@@ -303,18 +303,3 @@ La pericardite, una volta guarita completamente, non lascia generalmente consegu
 
 La pericardite, pur essendo una condizione che spaventa per il dolore toracico che provoca, è nella stragrande maggioranza dei casi una malattia benigna con prognosi eccellente. Con la diagnosi corretta, la terapia appropriata e il rispetto delle indicazioni mediche, la guarigione completa è l'esito atteso. Non è una malattia che compromette la qualità di vita futura né la funzione cardiaca a lungo termine.
 
----
-
-## QUANDO DEVO RIVOLGERMI AL MEDICO?
-
-Contattate il vostro medico se avete dolore toracico che peggiora con la respirazione, febbre persistente, o altri sintomi che potrebbero indicare pericardite.
-
-**CHIAMA IL 112 O VAI AL PRONTO SOCCORSO se hai:**
-
-●Dolore toracico intenso che non migliora o peggiora progressivamente
-●Difficoltà respiratoria grave o sensazione di mancanza d'aria
-●Febbre elevata (>38,5°C) che persiste o peggiora
-●Svenimenti o sensazione di perdita di coscienza
-●Gonfiore alle gambe o accumulo di liquidi
-●Vene del collo gonfie visibilmente ingrossate
-
