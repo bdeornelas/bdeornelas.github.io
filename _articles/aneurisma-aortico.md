@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Aneurisma dell'Aorta – Le Basi | Dr. Benjamin De Ornelas"
+title: "Aneurisma dell'Aorta"
 description: "Aneurisma aortico spiegato per pazienti. Cos'è, chi è a rischio, controlli e trattamenti."
-og_title: "Aneurisma dell'Aorta – Le Basi"
+og_title: "Aneurisma dell'Aorta"
 og_description: "Informazioni essenziali sull'aneurisma aortico per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-21"

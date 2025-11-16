@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Holter ECG – Le Basi | Dr. Benjamin De Ornelas"
+title: "Holter ECG"
 description: "Holter ECG spiegato per pazienti. Come funziona, quando serve, cosa aspettarsi e come prepararsi."
-og_title: "Holter ECG – Le Basi"
+og_title: "Holter ECG"
 og_description: "Informazioni essenziali sull'Holter ECG per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-31"
@@ -32,7 +32,7 @@ Il sistema Holter è composto da:
 
 **Diario dei sintomi** – Un quaderno o un'app dove annoti l'ora e la descrizione di ogni sintomo che provi: palpitazioni, vertigini, dolore toracico, affanno. Il diario include anche le attività che stai svolgendo quando i sintomi compaiono.
 
-**Pulsante marcatore di eventi** – Molti dispositivi hanno un pulsante che puoi premere quando avverti sintomi. Questo crea un "marcatore" nella registrazione che facilita al cardiologo l'identificazione del momento esatto del sintomo.
+**Pulsante marcatore di eventi**"marcatore" nella registrazione che facilita al cardiologo l'identificazione del momento esatto del sintomo.
 
 ### Tecnologia di registrazione
 

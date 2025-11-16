@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Ictus e TIA – Le Basi | Dr. Benjamin De Ornelas"
+title: "Ictus e TIA"
 description: "Ictus e TIA spiegati per pazienti. Riconoscimento con test FAST, urgenza, cure moderne e prevenzione."
-og_title: "Ictus e TIA – Le Basi"
+og_title: "Ictus e TIA"
 og_description: "Informazioni essenziali su ictus e TIA per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-14"
@@ -159,7 +159,7 @@ Dopo un ictus o TIA, è fondamentale prendere i farmaci prescritti per prevenire
 
 I farmaci più comuni includono:
 
-●**Antiaggreganti** – Aspirina o clopidogrel. Rendono il sangue meno "appiccicoso" e prevengono la formazione di coaguli
+●**Antiaggreganti**"appiccicoso" e prevengono la formazione di coaguli
 
 ●**Anticoagulanti** – Se l'ictus è stato causato da fibrillazione atriale. Includono warfarin o i nuovi anticoagulanti orali (apixaban, rivaroxaban, edoxaban, dabigatran)
 

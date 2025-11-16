@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Flutter Atriale – Le Basi | Dr. Benjamin De Ornelas"
+title: "Flutter Atriale"
 description: "Flutter atriale spiegato per pazienti. Sintomi, diagnosi, ablazione e prognosi."
-og_title: "Flutter Atriale – Le Basi"
+og_title: "Flutter Atriale"
 og_description: "Informazioni essenziali sul flutter atriale per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-11"
@@ -369,7 +369,7 @@ Oltre ai trattamenti medici (ablazione, cardioversione, farmaci, anticoagulanti)
 
 ●**Mantieni un peso sano** – L'obesità (BMI ≥30 kg/m²) aumenta il rischio di aritmie atriali del 50 percento. Perdere il 10 percento del peso corporeo riduce il rischio di aritmie atriali del 50-60 percento. Anche perdite di peso moderate di 5-7 kg possono fare differenza. L'obiettivo è BMI <27 kg/m²
 
-●**Limita o elimina l'alcol** – Il consumo eccessivo di alcol (più di 2 drink standard al giorno) può scatenare episodi di flutter e fibrillazione atriale. Il "holiday heart syndrome" (aritmie scatenate da binge drinking) è ben documentato. Anche il consumo moderato cronico aumenta il rischio. Ogni drink standard al giorno aumenta il rischio di fibrillazione atriale dell'8 percento. Limita a un massimo di 1 drink al giorno, o considera di eliminare completamente l'alcol
+●**Limita o elimina l'alcol**"holiday heart syndrome" (aritmie scatenate da binge drinking) è ben documentato. Anche il consumo moderato cronico aumenta il rischio. Ogni drink standard al giorno aumenta il rischio di fibrillazione atriale dell'8 percento. Limita a un massimo di 1 drink al giorno, o considera di eliminare completamente l'alcol
 
 ●**Tratta le apnee ostruttive del sonno** – Circa 50-60 persone su 100 con aritmie atriali hanno apnee ostruttive del sonno. Le apnee causano oscillazioni della pressione intratoracica, ipossia notturna, e attivazione del sistema nervoso simpatico che promuovono aritmie. Trattare le apnee con CPAP riduce le recidive di aritmie atriali del 40-50 percento. Se russi forte con pause respiratorie, hai sonnolenza diurna eccessiva, o ti svegli con mal di testa, parlane con il tuo medico per fare una polisonnografia
 

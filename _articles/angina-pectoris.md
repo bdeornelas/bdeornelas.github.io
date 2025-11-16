@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Angina Pectoris – Le Basi | Dr. Benjamin De Ornelas"
+title: "Angina Pectoris"
 description: "Angina pectoris: dolore al petto da ridotto afflusso di sangue al cuore. Sintomi, diagnosi e trattamenti evidence-based."
-og_title: "Angina Pectoris – Le Basi"
+og_title: "Angina Pectoris"
 og_description: "Informazioni essenziali sull'angina pectoris per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-16"

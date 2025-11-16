@@ -1,10 +1,10 @@
 ---
 collection: articles
 layout: "article"
-title: "Vita con Pacemaker o ICD: Consigli Pratici e Controlli | Dr. Benjamin De Ornelas"
-description: "Guida pratica per pazienti con pacemaker o defibrillatore impiantabile - attività quotidiane, viaggi, controlli e gestione del dispositivo."
-og_title: "Vita con Pacemaker/ICD - Guida Pratica per Pazienti"
-og_description: "Come vivere serenamente con un dispositivo cardiaco impiantabile - consigli pratici per la vita quotidiana."
+title: "Vita con Pacemaker o ICD: Consigli Pratici e Controlli"
+description: "Guida pratica per pazienti con pacemaker o defibrillatore impiantabile"
+og_title: "Vita con Pacemaker/ICD"
+og_description: "Come vivere serenamente con un dispositivo cardiaco impiantabile"
 og_image: /assets/img/og-card.jpg
 
 date: "2025-10-11"

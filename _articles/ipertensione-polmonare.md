@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Ipertensione Polmonare - Sintomi, Diagnosi e Terapie | Dr. Benjamin De Ornelas"
+title: "Ipertensione Polmonare"
 description: "Ipertensione polmonare: pressione alta nei vasi dei polmoni. Sintomi, cause, diagnosi e terapie moderne che migliorano la qualità di vita."
-og_title: "Ipertensione Polmonare - Guida per Pazienti"
+og_title: "Ipertensione Polmonare"
 og_description: "Cos'è l'ipertensione polmonare, sintomi (affanno, stanchezza, svenimenti), diagnosi e terapie disponibili."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-20"

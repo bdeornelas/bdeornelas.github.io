@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Attività Fisica e Cuore: Come Proteggere il Tuo Cuore con l'Esercizio | Dr. Benjamin De Ornelas"
+title: "Attività Fisica e Cuore: Come Proteggere il Tuo Cuore con l'Esercizio"
 description: "Scopri come l'attività fisica regolare protegge il cuore, quanto esercizio serve davvero e come iniziare in sicurezza. Consigli pratici per tutti."
-og_title: "Attività Fisica e Cuore - Guida Pratica per Tutti"
+og_title: "Attività Fisica e Cuore"
 og_description: "Come proteggere il cuore con l'esercizio fisico. Consigli pratici, benefici reali e segnali d'allarme da conoscere."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-02"

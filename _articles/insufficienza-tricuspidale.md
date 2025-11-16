@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Insufficienza Tricuspidale – Le Basi | Dr. Benjamin De Ornelas"
+title: "Insufficienza Tricuspidale"
 description: "Insufficienza tricuspidale spiegata per pazienti. Cause, sintomi, diagnosi e trattamenti."
-og_title: "Insufficienza Tricuspidale – Le Basi"
+og_title: "Insufficienza Tricuspidale"
 og_description: "Informazioni essenziali sull'insufficienza tricuspidale per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-25"
@@ -62,7 +62,7 @@ In questi casi la valvola stessa è danneggiata. Le cause includono:
 
 • **Febbre reumatica** – Oggi rara nei paesi sviluppati, può colpire più valvole insieme. È una complicanza di un'infezione da streptococco non trattata
 
-• **Prolasso della valvola tricuspide** – Uno o più lembi sono troppo lassi e "prolassano" durante la contrazione del cuore
+• **Prolasso della valvola tricuspide**"prolassano" durante la contrazione del cuore
 
 • **Malformazioni congenite** – Come l'anomalia di Ebstein, dove la valvola è posizionata in modo anomalo
 

@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Pressione Alta - Come Gestirla nel Tempo | Dr. Benjamin De Ornelas"
+title: "Pressione Alta"
 description: "Guida pratica per gestire l'ipertensione nella vita quotidiana con costanza, misurazioni corrette e stile di vita sano."
-og_title: "Pressione Alta - Come Gestirla nel Tempo"
+og_title: "Pressione Alta"
 og_description: "Come controllare la pressione arteriosa giorno dopo giorno con abitudini sane e cure appropriate."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-17"

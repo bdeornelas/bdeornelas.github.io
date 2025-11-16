@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Cardiomiopatia Ipertrofica - Quando il Cuore Diventa Troppo Spesso | Dr. Benjamin De Ornelas"
+title: "Cardiomiopatia Ipertrofica"
 description: "Cos'è la cardiomiopatia ipertrofica, quali sintomi causa e come si cura. Guida per pazienti su diagnosi, terapie farmacologiche, procedure e gestione della vita quotidiana."
-og_title: "Cardiomiopatia Ipertrofica - Guida per Pazienti"
+og_title: "Cardiomiopatia Ipertrofica"
 og_description: "Scopri cos'è la cardiomiopatia ipertrofica, i sintomi, le cause, la diagnosi e le opzioni terapeutiche disponibili. Informazioni chiare per pazienti e famiglie."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-23"
@@ -46,7 +46,7 @@ Quando i sintomi si manifestano, possono includere:
 
 • **Stanchezza eccessiva** – Sensazione di affaticamento anche per attività normalmente ben tollerate
 
-• **Palpitazioni** – Percezione del battito cardiaco, sensazione che il cuore "salti un colpo" o batta irregolarmente
+• **Palpitazioni**"salti un colpo" o batta irregolarmente
 
 • **Vertigini o svenimenti** – Specialmente durante l'attività fisica o quando ci si alza velocemente dalla posizione sdraiata o seduta
 

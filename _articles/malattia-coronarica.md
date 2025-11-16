@@ -1,10 +1,10 @@
 ---
 collection: articles
 layout: "article"
-title: "Malattia Coronarica – Le Basi | Dr. Benjamin De Ornelas"
-description: "Guida completa alla malattia coronarica - cos'è, cause, sintomi, diagnosi e cure disponibili. Informazioni chiare su stent, bypass, farmaci e stile di vita per gestire la cardiopatia ischemica."
-og_title: "Malattia Coronarica – Le Basi"
-og_description: "Tutto sulla malattia coronarica - dalle arterie del cuore ai trattamenti moderni. Informazioni affidabili e comprensibili per pazienti e famiglie."
+title: "Malattia Coronarica"
+description: "Guida completa alla malattia coronarica"
+og_title: "Malattia Coronarica"
+og_description: "Tutto sulla malattia coronarica"
 og_image: /assets/img/og-card.jpg
 date: "2025-10-09"
 
@@ -80,7 +80,7 @@ Quando i sintomi si manifestano, il sintomo più comune è l'**angina pectoris**
 
 ### Angina Tipica
 
-**Dolore o fastidio al petto** – Di solito si verifica al centro del petto, dietro lo sterno. Il dolore può sembrare una pressione, un peso, una costrizione o una sensazione di bruciore. Molti pazienti descrivono la sensazione come "un elefante seduto sul petto" o "una morsa che stringe".
+**Dolore o fastidio al petto**"un elefante seduto sul petto" o "una morsa che stringe".
 
 **Si verifica durante lo sforzo fisico o lo stress emotivo** – Camminare in salita, salire le scale, camminare contro vento freddo, fare sforzi fisici, o situazioni di stress emotivo intenso. Di solito dura 2 to 10 minuti.
 

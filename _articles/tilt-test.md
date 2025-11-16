@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Tilt Test – Le Basi | Dr. Benjamin De Ornelas"
+title: "Tilt Test"
 description: "Tilt test spiegato per pazienti. Test del lettino inclinato per capire le cause degli svenimenti ricorrenti."
-og_title: "Tilt Test – Le Basi"
+og_title: "Tilt Test"
 og_description: "Informazioni essenziali sul tilt test per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-10-07"

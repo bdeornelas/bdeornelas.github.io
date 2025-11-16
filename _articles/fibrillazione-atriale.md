@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Fibrillazione Atriale – Le Basi | Dr. Benjamin De Ornelas"
+title: "Fibrillazione Atriale"
 description: "Fibrillazione atriale spiegata per pazienti. Sintomi, rischio ictus, anticoagulanti e trattamenti."
-og_title: "Fibrillazione Atriale – Le Basi"
+og_title: "Fibrillazione Atriale"
 og_description: "Informazioni essenziali sulla fibrillazione atriale per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-11-07"
@@ -48,7 +48,7 @@ Circa 20-30 persone su 100 con fibrillazione atriale non hanno sintomi. In quest
 
 Circa 70-80 persone su 100 con fibrillazione atriale hanno sintomi. I più comuni includono:
 
-●**Palpitazioni** (sensazione di battito cardiaco anormale) – Senti il tuo cuore battere in modo irregolare, veloce, o con un tremito nel petto. Questo è il sintomo più comune, presente in 60-75 persone su 100 con sintomi. Alcune persone descrivono la sensazione come "un pesce che si agita nel petto" o "un battito caotico e irregolare"
+●**Palpitazioni** (sensazione di battito cardiaco anormale)"un pesce che si agita nel petto" o "un battito caotico e irregolare"
 
 ●**Dispnea** (mancanza di respiro) durante l'attività – Ti senti senza fiato quando cammini, salite le scale, o fai attività che prima facevi senza problemi. Presente in 50-60 persone su 100 con sintomi. La dispnea può verificarsi anche a riposo nei casi più gravi
 
@@ -58,7 +58,7 @@ Circa 70-80 persone su 100 con fibrillazione atriale hanno sintomi. I più comun
 
 ●**Disagio toracico** – Potresti sentire fastidio, pressione o dolore nel petto durante gli episodi. Presente in 15-25 persone su 100 con sintomi. Il dolore di solito non è grave come quello di un infarto
 
-●**Poliuria** (bisogno di urinare frequentemente) – Specialmente di notte. Presente in 10-15 persone su 100 con sintomi. Questo accade perché l'atrio disteso rilascia un ormone chiamato **peptide natriuretico atriale,** o "ANP," (ormone che aumenta la produzione di urina) che stimola i reni a produrre più urina
+●**Poliuria** (bisogno di urinare frequentemente)"ANP," (ormone che aumenta la produzione di urina) che stimola i reni a produrre più urina
 
 L'intensità dei sintomi varia molto da persona a persona. Alcune persone hanno sintomi lievi che non interferiscono con la vita quotidiana. Altre hanno sintomi gravi che limitano significativamente le attività e richiedono trattamento urgente.
 
@@ -153,7 +153,7 @@ Una volta confermata la diagnosi di fibrillazione atriale, altri esami important
 
 ●**Ecocardiogramma transesofageo,** o "TEE," – Un tipo speciale di ecografia in cui una sonda flessibile con un trasduttore sulla punta viene inserita attraverso la gola fino all'esofago (tubo che porta il cibo allo stomaco) che passa dietro al cuore. Questo fornisce immagini molto dettagliate dell'atrio sinistro e specialmente dell'auricola, dove si formano la maggior parte dei coaguli. Necessario prima di cardioversione se hai avuto fibrillazione atriale per più di 48 ore o se non sei sicuro della durata, per escludere coaguli nell'auricola. Viene fatto con sedazione cosciente e dura circa 10-20 minuti. Rileva trombi nell'auricola in circa 5-15 persone su 100 che devono fare cardioversione
 
-●**Esami del sangue** – Per controllare: **TSH** (ormone stimolante la tiroide) e **tiroxina libera** (ormone tiroideo) perché l'ipertiroidismo causa o contribuisce alla fibrillazione atriale in circa 10-15 persone su 100, specialmente negli anziani; **creatininemia** e clearance della creatinina per valutare la funzione renale che determina quale anticoagulante usare e quale dose; **transaminasi** (ALT, AST) per valutare la funzione epatica; **elettroliti** (potassio, magnesio, sodio) perché gli squilibri possono scatenare aritmie; **emocromo completo** per escludere anemia che può aggravare i sintomi; **peptide natriuretico cerebrale,** o "BNP" o "NT-proBNP," (ormone rilasciato quando il cuore è sotto stress) se c'è sospetto di scompenso cardiaco
+●**Esami del sangue**"BNP" o "NT-proBNP," (ormone rilasciato quando il cuore è sotto stress) se c'è sospetto di scompenso cardiaco
 
 ## COME VIENE TRATTATA?
 
@@ -280,15 +280,15 @@ Gestire i fattori di rischio modificabili è essenziale ed è efficace quanto i 
 
 I fattori che puoi modificare includono:
 
-●**Obesità e perdita di peso** – L'**indice di massa corporea,** o "BMI," (rapporto tra peso e altezza al quadrato) elevato è uno dei fattori di rischio più importanti. L'obesità (BMI ≥30 kg/m²) aumenta il rischio di sviluppare fibrillazione atriale del 50 persone su 100 rispetto al peso normale. L'obesità causa allargamento degli atri, **fibrosi atriale** (deposizione di tessuto cicatriziale negli atri), e infiammazione. Perdere almeno il 10 percento del tuo peso corporeo riduce gli episodi di fibrillazione atriale del 50-60 persone su 100 e aumenta le possibilità di successo dell'ablazione. Anche perdite di peso moderate di 5-7 kg possono fare differenza significativa. L'obiettivo è BMI <27 kg/m²
+●**Obesità e perdita di peso**"BMI," (rapporto tra peso e altezza al quadrato) elevato è uno dei fattori di rischio più importanti. L'obesità (BMI ≥30 kg/m²) aumenta il rischio di sviluppare fibrillazione atriale del 50 persone su 100 rispetto al peso normale. L'obesità causa allargamento degli atri, **fibrosi atriale** (deposizione di tessuto cicatriziale negli atri), e infiammazione. Perdere almeno il 10 percento del tuo peso corporeo riduce gli episodi di fibrillazione atriale del 50-60 persone su 100 e aumenta le possibilità di successo dell'ablazione. Anche perdite di peso moderate di 5-7 kg possono fare differenza significativa. L'obiettivo è BMI <27 kg/m²
 
-●**Controllo della pressione arteriosa** – Circa 70-80 persone su 100 con fibrillazione atriale hanno ipertensione. L'ipertensione causa ispessimento del ventricolo sinistro (**ipertrofia ventricolare sinistra**) e aumento della pressione nell'atrio sinistro che porta a dilatazione e fibrosi atriale. L'obiettivo è pressione inferiore a 130/80 mmHg. Ogni riduzione di 20 punti della pressione sistolica riduce il rischio di nuova fibrillazione atriale del 28 persone su 100. Tutti i farmaci antipertensivi sono efficaci, ma gli **ACE-inibitori** (farmaci che bloccano l'enzima di conversione dell'angiotensina) come **ramipril** o **enalapril**, e gli **antagonisti del recettore dell'angiotensina,** o "ARB," come **losartan** o **valsartan**, hanno effetti aggiuntivi contro il rimodellamento atriale
+●**Controllo della pressione arteriosa**"ARB," come **losartan** o **valsartan**, hanno effetti aggiuntivi contro il rimodellamento atriale
 
-●**Trattamento delle apnee ostruttive del sonno** – Circa 50-60 persone su 100 con fibrillazione atriale hanno **apnee ostruttive del sonno,** o "OSA," (pause respiratorie durante il sonno dovute a collasso delle vie aeree). Le apnee causano oscillazioni della pressione intratoracica, ipossia notturna, e attivazione del sistema nervoso simpatico che promuovono la fibrillazione atriale. Trattare le OSA con la macchina **CPAP** (dispositivo che mantiene le vie aeree aperte con pressione positiva continua durante il sonno) riduce le recidive di fibrillazione atriale dopo cardioversione o ablazione del 40-50 persone su 100. Se russi forte con pause respiratorie notate dal partner, ti svegli con mal di testa mattutino, hai sonnolenza diurna eccessiva, parlane con il tuo medico per fare uno studio del sonno (**polisonnografia**)
+●**Trattamento delle apnee ostruttive del sonno**"OSA," (pause respiratorie durante il sonno dovute a collasso delle vie aeree). Le apnee causano oscillazioni della pressione intratoracica, ipossia notturna, e attivazione del sistema nervoso simpatico che promuovono la fibrillazione atriale. Trattare le OSA con la macchina **CPAP** (dispositivo che mantiene le vie aeree aperte con pressione positiva continua durante il sonno) riduce le recidive di fibrillazione atriale dopo cardioversione o ablazione del 40-50 persone su 100. Se russi forte con pause respiratorie notate dal partner, ti svegli con mal di testa mattutino, hai sonnolenza diurna eccessiva, parlane con il tuo medico per fare uno studio del sonno (**polisonnografia**)
 
-●**Controllo del diabete** – Il diabete aumenta il rischio di fibrillazione atriale del 40 persone su 100 attraverso meccanismi di fibrosi atriale, neuropatia autonomica, e malattia microvascolare. L'obiettivo è **emoglobina glicata,** o "HbA1c," (misura del controllo glicemico medio negli ultimi 3 mesi) inferiore al 7 percento. Controllo glicemico stretto riduce la progressione da fibrillazione atriale parossistica a persistente
+●**Controllo del diabete**"HbA1c," (misura del controllo glicemico medio negli ultimi 3 mesi) inferiore al 7 percento. Controllo glicemico stretto riduce la progressione da fibrillazione atriale parossistica a persistente
 
-●**Riduzione o eliminazione dell'alcol** – L'alcol è un trigger diretto per la fibrillazione atriale. Consumo superiore a 2 drink standard al giorno (20-24 grammi di alcol puro) aumenta il rischio di fibrillazione atriale. Ogni drink standard aggiuntivo al giorno aumenta il rischio del 8 persone su 100. Smettere completamente di bere alcol o ridurre a meno di 1 drink al giorno riduce le recidive del 60 persone su 100. Anche il **binge drinking** (consumare 5 o più drink in una singola occasione) può scatenare episodi acuti di fibrillazione atriale, fenomeno chiamato "**holiday heart syndrome**" (sindrome del cuore da vacanza) perché si verifica spesso durante feste o vacanze
+●**Riduzione o eliminazione dell'alcol**"**holiday heart syndrome**" (sindrome del cuore da vacanza) perché si verifica spesso durante feste o vacanze
 
 ●**Esercizio fisico moderato regolare** – Attività aerobica moderata per 150 minuti a settimana (30 minuti, 5 giorni alla settimana) come camminata veloce, ciclismo leggero, nuoto, o danza riduce gli episodi di fibrillazione atriale migliorando il controllo del peso, della pressione, e riducendo l'infiammazione. **Attenzione:** Gli atleti di resistenza estrema come maratoneti, ultramaratoneti, triatleti Ironman, o ciclisti di lunga distanza che fanno più di 1500 ore di esercizio vigoroso nella vita hanno paradossalmente un rischio 5 volte maggiore di fibrillazione atriale. L'esercizio estremo causa rimodellamento atriale e fibrosi. L'esercizio moderato è protettivo, l'esercizio estremo è dannoso
 

@@ -1,9 +1,9 @@
 ---
 collection: articles
 layout: "article"
-title: "Tachicardia Parossistica Sopraventricolare (TPSV) – Le Basi | Dr. Benjamin De Ornelas"
+title: "Tachicardia Parossistica Sopraventricolare (TPSV)"
 description: "Tachicardia parossistica sopraventricolare spiegata per pazienti. Sintomi, diagnosi, manovre vagali e ablazione."
-og_title: "Tachicardia Parossistica Sopraventricolare – Le Basi"
+og_title: "Tachicardia Parossistica Sopraventricolare"
 og_description: "Informazioni essenziali sulla TPSV per pazienti e familiari."
 og_image: /assets/img/og-card.jpg
 date: "2025-09-18"
@@ -42,7 +42,7 @@ Alcune persone con TPSV non hanno sintomi durante episodi brevi. L'aritmia viene
 
 Quando i sintomi si verificano, possono includere:
 
-●**Palpitazioni regolari e rapide** – Sensazione che il cuore batta velocissimo (150-250 battiti al minuto), come un martello pneumatico nel petto. Il ritmo è regolare e costante, non irregolare. Tutte le persone con TPSV sintomatica avvertono questo sintomo. Molti pazienti descrivono la sensazione come se il cuore "corresse a tutta velocità" o "volesse uscire dal petto"
+●**Palpitazioni regolari e rapide**"corresse a tutta velocità" o "volesse uscire dal petto"
 
 ●**Difficoltà a respirare** – Mancanza di respiro perché il cuore batte così veloce che non ha tempo di riempirsi bene tra un battito e l'altro. È come cercare di riempire un secchio d'acqua ma svuotarlo prima che si riempia. Si verifica in 60-70 persone su 100
 
@@ -86,7 +86,7 @@ Il vostro medico:
 ●Vi visiterà, ascoltando il cuore con lo stetoscopio
 ●Prescriverà degli esami
 
-**Elettrocardiogramma** – L'ECG fatto durante l'episodio è il modo migliore per fare diagnosi. Mostra il cuore che batte molto veloce (150-250 battiti al minuto) in modo regolare. Se il medico riesce a registrare l'ECG durante la crisi, la diagnosi è certa al 100 percento. Il problema principale è riuscire a "catturare" l'episodio, perché spesso si ferma prima di arrivare in ospedale.
+**Elettrocardiogramma**"catturare" l'episodio, perché spesso si ferma prima di arrivare in ospedale.
 
 Gli smartwatch con funzione ECG (Apple Watch, Samsung Galaxy Watch, Fitbit) hanno rivoluzionato la diagnosi: ora potete registrare il battito del cuore da soli a casa quando sentite le palpitazioni. Questi dispositivi funzionano molto bene (accuratezza 98 percento) per i ritmi veloci e regolari come la TPSV. Molti medici ora accettano questi tracciati per fare diagnosi.
 
@@ -100,7 +100,7 @@ Gli smartwatch con funzione ECG (Apple Watch, Samsung Galaxy Watch, Fitbit) hann
 
 **Ecocardiogramma** – Un'ecografia del cuore per controllare che la struttura e il funzionamento del cuore siano normali. Il medico muove una sonda sul vostro petto e le onde sonore creano immagini del cuore in movimento su uno schermo. In 85-90 persone su 100 con TPSV, l'ecocardiogramma è completamente normale. Questo è rassicurante: significa che il vostro cuore è strutturalmente sano.
 
-**Studio elettrofisiologico** – Un esame fatto inserendo sottili cateteri nel cuore attraverso una vena dell'inguine. Il medico usa questi cateteri per stimolare il cuore con piccoli impulsi elettrici e "provocare" la tachicardia in modo controllato in laboratorio. Funziona molto bene: in 95 persone su 100 riesce a far partire la tachicardia durante l'esame. Questo test serve a capire con precisione esatta qual è il meccanismo della TPSV e dove si trova il circuito. Viene fatto quando state considerando l'ablazione come cura definitiva, spesso nella stessa seduta dell'ablazione.
+**Studio elettrofisiologico**"provocare" la tachicardia in modo controllato in laboratorio. Funziona molto bene: in 95 persone su 100 riesce a far partire la tachicardia durante l'esame. Questo test serve a capire con precisione esatta qual è il meccanismo della TPSV e dove si trova il circuito. Viene fatto quando state considerando l'ablazione come cura definitiva, spesso nella stessa seduta dell'ablazione.
 
 ---
 
@@ -110,7 +110,7 @@ Il trattamento della TPSV dipende dalla frequenza, durata e tollerabilità degli
 
 **Cure d'urgenza in Pronto Soccorso** – Se arrivate in ospedale durante un episodio, i medici possono usare:
 
-●Adenosina per via endovenosa – Il farmaco di prima scelta. Viene somministrato attraverso un'iniezione molto rapida in vena (deve essere iniettato in 1-2 secondi). Funziona in 9 persone su 10. Per pochi secondi può dare una sensazione sgradevole di "non riuscire a respirare," oppressione al petto, o calore che sale al viso, ma è completamente normale e passa rapidamente (dura 5-10 secondi). Alcuni pazienti descrivono una "sensazione di morte imminente" per pochi secondi, ma il farmaco è sicuro
+●Adenosina per via endovenosa"non riuscire a respirare," oppressione al petto, o calore che sale al viso, ma è completamente normale e passa rapidamente (dura 5-10 secondi). Alcuni pazienti descrivono una "sensazione di morte imminente" per pochi secondi, ma il farmaco è sicuro
 
 ●Verapamil o diltiazem per via endovenosa – Calcio-antagonisti usati come farmaci alternativi se l'adenosina non funziona o è controindicata. Agiscono più lentamente (3-5 minuti invece di pochi secondi) ma sono meglio tollerati
 
