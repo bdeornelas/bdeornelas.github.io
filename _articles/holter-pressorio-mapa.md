@@ -59,8 +59,8 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             L'Holter pressorio è uno strumento portatile semplice che comprende:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Un bracciale gonfiabile</strong> da indossare sul braccio (come quando il medico misura la pressione in ambulatorio)</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Un registratore digitale</strong> piccolo e leggero (circa 200 grammi, come uno smartphone) che agganci alla cintura o metti in tasca</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Un bracciale gonfiabile</strong> da indossare sul braccio (come quando il medico misura la pressione in ambulatorio)</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">- Un registratore digitale</strong> piccolo e leggero (circa 200 grammi, come uno smartphone) che agganci alla cintura o metti in tasca</p>
 <p class="text-slate-300 leading-relaxed mb-6">
             Durante 24 ore il dispositivo gonfia automaticamente il bracciale ogni 15-20 minuti durante il giorno e ogni 20-30 minuti durante la notte. Registra tre numeri fondamentali: la pressione massima, la pressione minima, e il numero di battiti del cuore. Quando rimuovi il dispositivo, i dati vengono scaricati e il medico analizza il risultato.
 </p>
@@ -125,17 +125,17 @@ date: "2025-09-03"
 </p>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Fase 1: Applicazione</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Posizionamento:</strong> L'infermiere posiziona il bracciale sul tuo braccio (solitamente il sinistro), a pochi centimetri sopra il gomito</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Collegamento:</strong> Collega il bracciale a un piccolo tubo collegato al registratore digitale, che appendi alla cintura o tieni in tasca</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Test iniziali:</strong> Il dispositivo fa 2-3 misurazioni di controllo per assicurarsi che funzioni correttamente</p>
-<p class="text-slate-300"><strong class="text-white">●Diario:</strong> Ricevi un foglio di carta dove annotare gli orari di sveglia, pasti, farmaci, lavoro e sonno</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Posizionamento:</strong> L'infermiere posiziona il bracciale sul tuo braccio (solitamente il sinistro), a pochi centimetri sopra il gomito</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Collegamento:</strong> Collega il bracciale a un piccolo tubo collegato al registratore digitale, che appendi alla cintura o tieni in tasca</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Test iniziali:</strong> Il dispositivo fa 2-3 misurazioni di controllo per assicurarsi che funzioni correttamente</p>
+<p class="text-slate-300"><strong class="text-white">- Diario:</strong> Ricevi un foglio di carta dove annotare gli orari di sveglia, pasti, farmaci, lavoro e sonno</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-6">
 <h3 class="font-bold text-white mb-3">Fase 2: Le 24 ore di monitoraggio</h3>
 <p class="text-slate-300 mb-3">Continua la tua giornata normalmente. Quando il bracciale si gonfia (sentirai una pressione crescente sul braccio):</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Ferma quello che stai facendo</strong> per 40-60 secondi</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Stai seduto o fermo in piedi</strong> con il braccio rilassato</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Evita di parlare o muoverti</strong> durante la misurazione</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Ferma quello che stai facendo</strong> per 40-60 secondi</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Stai seduto o fermo in piedi</strong> con il braccio rilassato</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Evita di parlare o muoverti</strong> durante la misurazione</p>
 <p class="text-slate-300">Annota nel diario quando prendi i farmaci, mangi, fai esercizio fisico o avverti sintomi.</p>
 </div>
 <div class="info-step rounded-lg p-6">
@@ -152,10 +152,10 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             La preparazione è minima:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Indossa abiti comodi:</strong> Magliette o camicie con maniche larghe che facilitino il posizionamento del bracciale</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Continua i tuoi farmaci:</strong> Non sospendere nessun medicinale. Prendi tutto come al solito</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Fatti una doccia prima:</strong> Non potrai lavarsi con il dispositivo indosso (il registratore non è impermeabile)</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Organizza una giornata normale:</strong> Evita giorni di ferie eccessive o attività straordinaria. Il medico vuole vedere la tua pressione durante la routine abituale</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Indossa abiti comodi:</strong> Magliette o camicie con maniche larghe che facilitino il posizionamento del bracciale</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Continua i tuoi farmaci:</strong> Non sospendere nessun medicinale. Prendi tutto come al solito</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Fatti una doccia prima:</strong> Non potrai lavarsi con il dispositivo indosso (il registratore non è impermeabile)</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">- Organizza una giornata normale:</strong> Evita giorni di ferie eccessive o attività straordinaria. Il medico vuole vedere la tua pressione durante la routine abituale</p>
 <div class="highlight-box rounded-lg p-6">
 <p class="text-slate-300">
 <strong class="text-white">Non serve digiuno.</strong> Mangia normalmente. Prendi i tuoi farmaci agli orari soliti.
@@ -173,15 +173,15 @@ date: "2025-09-03"
 </p>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-3">Cosa puoi fare</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Lavoro e spostamenti:</strong> Continua il lavoro d'ufficio, cammina, usa la macchina (con cautela durante i gonfiaggi)</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Attività leggere:</strong> Leggi, guarda la televisione, chiacchiera con amici</p>
-<p class="text-slate-300">●<strong class="text-white">Dormi normalmente:</strong> La maggior parte dorme bene. Prova a dormire dal lato opposto al bracciale per più comodità</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Lavoro e spostamenti:</strong> Continua il lavoro d'ufficio, cammina, usa la macchina (con cautela durante i gonfiaggi)</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Attività leggere:</strong> Leggi, guarda la televisione, chiacchiera con amici</p>
+<p class="text-slate-300">- <strong class="text-white">Dormi normalmente:</strong> La maggior parte dorme bene. Prova a dormire dal lato opposto al bracciale per più comodità</p>
 </div>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-3">Cosa evitare</h3>
-<p class="text-slate-300 mb-3"><strong class="text-white">●No a doccia o bagno:</strong> Il registratore non è impermeabile</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●No a sport intensi:</strong> Evita corsa, palestra pesante, sollevamento pesi</p>
-<p class="text-slate-300"><strong class="text-white">●Non manipolare il dispositivo:</strong> Non riposizionare il bracciale da solo. Se scivola contatta il centro</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- No a doccia o bagno:</strong> Il registratore non è impermeabile</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- No a sport intensi:</strong> Evita corsa, palestra pesante, sollevamento pesi</p>
+<p class="text-slate-300"><strong class="text-white">- Non manipolare il dispositivo:</strong> Non riposizionare il bracciale da solo. Se scivola contatta il centro</p>
 </div>
 <div class="highlight-box rounded-lg p-6">
 <p class="text-slate-300">
@@ -232,9 +232,9 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             L'Holter fornisce tre vantaggi importanti:
 </p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Elimina l'ansia da ambulatorio:</strong> Circa 3 persone su 10 hanno pressione alta solo quando vedono il medico. L'Holter mostra se è un vero problema o solo nervosismo</p>
-<p class="text-slate-300 mb-3"><strong class="text-white">●Scopre ipertensione nascosta:</strong> Circa 1 persona su 7 ha pressione normale in ambulatorio ma effettivamente alta durante la giornata. È importante scoprirlo perché aumenta il rischio di complicazioni</p>
-<p class="text-slate-300 mb-6"><strong class="text-white">●Verifica l'efficacia dei farmaci:</strong> Mostra se la tua terapia funziona davvero durante tutte le 24 ore, non solo in alcuni momenti</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Elimina l'ansia da ambulatorio:</strong> Circa 3 persone su 10 hanno pressione alta solo quando vedono il medico. L'Holter mostra se è un vero problema o solo nervosismo</p>
+<p class="text-slate-300 mb-3"><strong class="text-white">- Scopre ipertensione nascosta:</strong> Circa 1 persona su 7 ha pressione normale in ambulatorio ma effettivamente alta durante la giornata. È importante scoprirlo perché aumenta il rischio di complicazioni</p>
+<p class="text-slate-300 mb-6"><strong class="text-white">- Verifica l'efficacia dei farmaci:</strong> Mostra se la tua terapia funziona davvero durante tutte le 24 ore, non solo in alcuni momenti</p>
 </section>
 
 <section class="mb-12">
@@ -264,10 +264,10 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             Sulla base dei risultati, il medico può:
 </p>
-<p class="text-slate-300 mb-3">●<strong class="text-white">Scegliere il farmaco giusto</strong> per il tuo profilo specifico (ad esempio farmaci che funzionano meglio se presi la sera se hai pressione alta di notte)</p>
-<p class="text-slate-300 mb-3">●<strong class="text-white">Decidere quando prenderlo</strong> (mattina vs sera) in base a quando la tua pressione è più alta</p>
-<p class="text-slate-300 mb-3">●<strong class="text-white">Suggerire cambiamenti di stile di vita</strong> mirati: meno sale, più movimento, migliore sonno</p>
-<p class="text-slate-300 mb-6">●<strong class="text-white">Indagare altre cause</strong> se la pressione è strana (ad esempio verificare se hai apnee notturne)</p>
+<p class="text-slate-300 mb-3">- <strong class="text-white">Scegliere il farmaco giusto</strong> per il tuo profilo specifico (ad esempio farmaci che funzionano meglio se presi la sera se hai pressione alta di notte)</p>
+<p class="text-slate-300 mb-3">- <strong class="text-white">Decidere quando prenderlo</strong> (mattina vs sera) in base a quando la tua pressione è più alta</p>
+<p class="text-slate-300 mb-3">- <strong class="text-white">Suggerire cambiamenti di stile di vita</strong> mirati: meno sale, più movimento, migliore sonno</p>
+<p class="text-slate-300 mb-6">- <strong class="text-white">Indagare altre cause</strong> se la pressione è strana (ad esempio verificare se hai apnee notturne)</p>
 <div class="highlight-box rounded-lg p-6">
 <p class="text-slate-300">
 <strong class="text-white">Importante:</strong> Il successo della cura dipende dal prendere i farmaci regolarmente e mantenere le modifiche dello stile di vita. Il medico farà il monitoraggio periodico per verificare che tutto funzioni.
@@ -283,9 +283,9 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             La frequenza dipende dalla tua situazione:
 </p>
-<p class="text-slate-300 mb-3">●<strong class="text-white">Una volta all'inizio:</strong> Per formulare la diagnosi iniziale</p>
-<p class="text-slate-300 mb-3">●<strong class="text-white">Dopo 3-6 mesi da un nuovo farmaco:</strong> Per verificare che funzioni correttamente</p>
-<p class="text-slate-300 mb-6">●<strong class="text-white">Ogni 6-12 mesi:</strong> Se la pressione è difficile da controllare. Se è stabile, meno frequentemente</p>
+<p class="text-slate-300 mb-3">- <strong class="text-white">Una volta all'inizio:</strong> Per formulare la diagnosi iniziale</p>
+<p class="text-slate-300 mb-3">- <strong class="text-white">Dopo 3-6 mesi da un nuovo farmaco:</strong> Per verificare che funzioni correttamente</p>
+<p class="text-slate-300 mb-6">- <strong class="text-white">Ogni 6-12 mesi:</strong> Se la pressione è difficile da controllare. Se è stabile, meno frequentemente</p>
 <p class="text-slate-300">Il tuo medico ti dirà quando ripeterlo in base al tuo caso specifico.</p>
 </section>
 
@@ -299,15 +299,15 @@ date: "2025-09-03"
 </p>
 <div class="info-step rounded-lg p-6 mb-4">
 <h3 class="font-bold text-white mb-3">Holter pressorio</h3>
-<p class="text-slate-300 mb-3">●Misura automaticamente 60-100 volte in 24 ore, senza che tu faccia nulla</p>
-<p class="text-slate-300 mb-3">●È l'unico che misura anche durante il sonno</p>
-<p class="text-slate-300">●Usato per diagnosi iniziale, verifica della terapia, diagnosi di situazioni speciali</p>
+<p class="text-slate-300 mb-3">- Misura automaticamente 60-100 volte in 24 ore, senza che tu faccia nulla</p>
+<p class="text-slate-300 mb-3">- È l'unico che misura anche durante il sonno</p>
+<p class="text-slate-300">- Usato per diagnosi iniziale, verifica della terapia, diagnosi di situazioni speciali</p>
 </div>
 <div class="info-step rounded-lg p-6">
 <h3 class="font-bold text-white mb-3">Misurazioni a casa</h3>
-<p class="text-slate-300 mb-3">●Tu misuri manualmente con un apparecchio a casa (2 volte al mattino, 2 volte alla sera per 7 giorni)</p>
-<p class="text-slate-300 mb-3">●Permette monitoraggio nel tempo senza dipendere dal medico</p>
-<p class="text-slate-300">●Utile per controllo periodico tra una visita e l'altra</p>
+<p class="text-slate-300 mb-3">- Tu misuri manualmente con un apparecchio a casa (2 volte al mattino, 2 volte alla sera per 7 giorni)</p>
+<p class="text-slate-300 mb-3">- Permette monitoraggio nel tempo senza dipendere dal medico</p>
+<p class="text-slate-300">- Utile per controllo periodico tra una visita e l'altra</p>
 </div>
 </section>
 
@@ -350,9 +350,9 @@ date: "2025-09-03"
 <p class="text-slate-300 leading-relaxed mb-6">
             Durante l'esame contatta il centro se:
 </p>
-<p class="text-slate-300 mb-3">●Il bracciale causa dolore intenso o segni di compressione eccessiva (gonfiore, pallore, intorpidimento)</p>
-<p class="text-slate-300 mb-3">●Il dispositivo cade o si stacca completamente</p>
-<p class="text-slate-300 mb-6">●Hai sintomi acuti: mal di testa severo improvviso, dolore al petto, difficoltà a respirare, debolezza o intorpidimento di una parte del corpo</p>
+<p class="text-slate-300 mb-3">- Il bracciale causa dolore intenso o segni di compressione eccessiva (gonfiore, pallore, intorpidimento)</p>
+<p class="text-slate-300 mb-3">- Il dispositivo cade o si stacca completamente</p>
+<p class="text-slate-300 mb-6">- Hai sintomi acuti: mal di testa severo improvviso, dolore al petto, difficoltà a respirare, debolezza o intorpidimento di una parte del corpo</p>
 <p class="text-slate-300">Dopo aver ricevuto il rapporto, discuti i risultati con il medico entro 1-2 settimane per capire cosa significano e come procedere.</p>
 </section>
 
@@ -371,11 +371,11 @@ date: "2025-09-03"
 <i data-lucide="check-circle" class="w-6 h-6 text-sky-400"></i>
             PUNTI CHIAVE DA RICORDARE
 </h2>
-<p class="text-slate-300 mb-3">●L'Holter pressorio misura la tua pressione automaticamente 60-100 volte in 24 ore, mentre svolgi attività normali</p>
-<p class="text-slate-300 mb-3">●Mostra la vera pressione durante la vita quotidiana, non solo il momento della visita medica</p>
-<p class="text-slate-300 mb-3">●Aiuta il medico a capire se hai davvero ipertensione, se i farmaci funzionano, e come personalizzare la cura</p>
-<p class="text-slate-300 mb-3">●È indolore, ben tollerato (9 su 10 lo completano senza problemi), e fornisce informazioni che nessun'altra misura può dare</p>
-<p class="text-slate-300">●Holter e misurazioni a casa sono complementari: uno per diagnosi e verifica importante, l'altro per monitoraggio continuo</p>
+<p class="text-slate-300 mb-3">- L'Holter pressorio misura la tua pressione automaticamente 60-100 volte in 24 ore, mentre svolgi attività normali</p>
+<p class="text-slate-300 mb-3">- Mostra la vera pressione durante la vita quotidiana, non solo il momento della visita medica</p>
+<p class="text-slate-300 mb-3">- Aiuta il medico a capire se hai davvero ipertensione, se i farmaci funzionano, e come personalizzare la cura</p>
+<p class="text-slate-300 mb-3">- È indolore, ben tollerato (9 su 10 lo completano senza problemi), e fornisce informazioni che nessun'altra misura può dare</p>
+<p class="text-slate-300">- Holter e misurazioni a casa sono complementari: uno per diagnosi e verifica importante, l'altro per monitoraggio continuo</p>
 </section>
 
 </article>

@@ -33,21 +33,21 @@ La causa più comune della miocardite è un'infezione virale. I virus che più f
 
 **Le cause principali:**
 
-●**Virus** – La causa più frequente. Virus dell'influenza, del raffreddore, e altri virus comuni possono causare infiammazione del cuore
+- **Virus** – La causa più frequente. Virus dell'influenza, del raffreddore, e altri virus comuni possono causare infiammazione del cuore
 
-●**Batteri** – Raramente, alcune infezioni batteriche possono causare miocardite
+- **Batteri** – Raramente, alcune infezioni batteriche possono causare miocardite
 
-●**Reazioni autoimmuni** – A volte il sistema immunitario attacca erroneamente il cuore
+- **Reazioni autoimmuni** – A volte il sistema immunitario attacca erroneamente il cuore
 
-●**Farmaci** – Alcuni farmaci chemioterapici o altre sostanze possono causare infiammazione cardiaca
+- **Farmaci** – Alcuni farmaci chemioterapici o altre sostanze possono causare infiammazione cardiaca
 
 **Fattori di rischio:**
 
-●**Fare sport intenso durante un'infezione** – È molto importante riposare quando siete malati
+- **Fare sport intenso durante un'infezione** – È molto importante riposare quando siete malati
 
-●**Età** – Più comune nei giovani adulti
+- **Età** – Più comune nei giovani adulti
 
-●**Sesso** – Leggermente più frequente negli uomini
+- **Sesso** – Leggermente più frequente negli uomini
 
 ---
 
@@ -57,29 +57,29 @@ I tuoi sintomi possono variare molto. In alcuni casi sono lievi o assenti, mentr
 
 **I sintomi più comuni:**
 
-●**Dolore o fastidio al petto** – Può essere peggiorato dalla respirazione profonda. Può migliorare stando seduti o piegati in avanti
+- **Dolore o fastidio al petto** – Può essere peggiorato dalla respirazione profonda. Può migliorare stando seduti o piegati in avanti
 
-●**Affanno** – Difficoltà a respirare durante l'attività fisica o anche a riposo nei casi più intensi
+- **Affanno** – Difficoltà a respirare durante l'attività fisica o anche a riposo nei casi più intensi
 
-●**Palpitazioni** – Sensazione di battito cardiaco irregolare o accelerato
+- **Palpitazioni** – Sensazione di battito cardiaco irregolare o accelerato
 
-●**Stanchezza insolita** – Affaticamento eccessivo anche per piccoli sforzi
+- **Stanchezza insolita** – Affaticamento eccessivo anche per piccoli sforzi
 
-●**Febbre** – Soprattutto se l'infezione è ancora attiva
+- **Febbre** – Soprattutto se l'infezione è ancora attiva
 
-●**Gonfiore alle gambe** – Nei casi in cui il cuore fatica a pompare bene
+- **Gonfiore alle gambe** – Nei casi in cui il cuore fatica a pompare bene
 
 **Quando andare subito in pronto soccorso:**
 
 Chiamate il 112 o andate al pronto soccorso se avete:
 
-●Dolore al petto intenso, soprattutto se accompagnato da affanno grave
+- Dolore al petto intenso, soprattutto se accompagnato da affanno grave
 
-●Svenimento o senso di stordimento (può indicare problemi seri del ritmo cardiaco)
+- Svenimento o senso di stordimento (può indicare problemi seri del ritmo cardiaco)
 
-●Difficoltà respiratoria grave (se non riuscite a respirare normalmente anche a riposo)
+- Difficoltà respiratoria grave (se non riuscite a respirare normalmente anche a riposo)
 
-●Battito cardiaco molto irregolare o veloce, se accompagnato da malessere
+- Battito cardiaco molto irregolare o veloce, se accompagnato da malessere
 
 ---
 
@@ -89,41 +89,41 @@ La diagnosi di miocardite si basa su diversi esami. Il tuo cardiologo valuterà 
 
 **Analisi del sangue:**
 
-●**Troponina** – Nella miocardite è quasi sempre elevato
+- **Troponina** – Nella miocardite è quasi sempre elevato
 
-●**Altri marcatori** – Altri esami del sangue mostrano segni di infiammazione nel corpo
+- **Altri marcatori** – Altri esami del sangue mostrano segni di infiammazione nel corpo
 
-●**Test per virus** – A volte si cercano virus specifici per capire la causa dell'infiammazione
+- **Test per virus** – A volte si cercano virus specifici per capire la causa dell'infiammazione
 
 **Elettrocardiogramma:**
 
 L'elettrocardiogramma registra l'attività elettrica del cuore. Nella miocardite può mostrare:
 
-●Alterazioni del tracciato (cambiamenti che indicano infiammazione)
+- Alterazioni del tracciato (cambiamenti che indicano infiammazione)
 
-●Aritmie (battiti irregolari)
+- Aritmie (battiti irregolari)
 
-●Disturbi della conduzione (rallentamento nella trasmissione degli impulsi elettrici)
+- Disturbi della conduzione (rallentamento nella trasmissione degli impulsi elettrici)
 
 **Ecocardiogramma:**
 
 È un'ecografia del cuore che permette di vedere:
 
-●Come si contrae il cuore (se l'infiammazione ha indebolito la capacità del cuore di pompare)
+- Come si contrae il cuore (se l'infiammazione ha indebolito la capacità del cuore di pompare)
 
-●Le dimensioni delle camere cardiache (se ci sono dilatazioni)
+- Le dimensioni delle camere cardiache (se ci sono dilatazioni)
 
-●Presenza di liquido intorno al cuore (versamento pericardico)
+- Presenza di liquido intorno al cuore (versamento pericardico)
 
 **Risonanza magnetica cardiaca:**
 
 È l'esame migliore per confermare la diagnosi di miocardite. La risonanza magnetica permette di vedere:
 
-●L'infiammazione (vede direttamente le aree infiammate del cuore)
+- L'infiammazione (vede direttamente le aree infiammate del cuore)
 
-●L'estensione del danno (quanto tessuto cardiaco è coinvolto)
+- L'estensione del danno (quanto tessuto cardiaco è coinvolto)
 
-●Cicatrici (se ci sono aree di tessuto cicatriziale)
+- Cicatrici (se ci sono aree di tessuto cicatriziale)
 
 Questo esame è molto importante anche per decidere quando si può riprendere l'attività fisica.
 
@@ -131,9 +131,9 @@ Questo esame è molto importante anche per decidere quando si può riprendere l'
 
 La biopsia è raramente necessaria. Si fa solo in casi particolari quando:
 
-●La situazione è molto grave e non risponde alle cure
-●Si sospettano forme particolari di miocardite che richiedono terapie specifiche
-●Ci sono aritmie pericolose e si vuole capire meglio la causa
+- La situazione è molto grave e non risponde alle cure
+- Si sospettano forme particolari di miocardite che richiedono terapie specifiche
+- Ci sono aritmie pericolose e si vuole capire meglio la causa
 
 ---
 
@@ -143,41 +143,41 @@ La maggior parte delle persone con miocardite guarisce con riposo e farmaci per 
 
 **Il riposo è fondamentale:**
 
-●**Riposo nelle prime settimane** – È importante che tu riposi e non ti sforzi nelle prime settimane dopo la diagnosi
+- **Riposo nelle prime settimane** – È importante che tu riposi e non ti sforzi nelle prime settimane dopo la diagnosi
 
-●**Stop all'attività sportiva** – Devi evitare completamente lo sport e l'attività fisica intensa per almeno 3-6 mesi. Questo è molto importante per dare al tuo cuore il tempo di guarire
+- **Stop all'attività sportiva** – Devi evitare completamente lo sport e l'attività fisica intensa per almeno 3-6 mesi. Questo è molto importante per dare al tuo cuore il tempo di guarire
 
-●**Ridurre il sale** – Se il tuo cuore fatica a pompare, può essere utile ridurre il sale nella tua dieta
+- **Ridurre il sale** – Se il tuo cuore fatica a pompare, può essere utile ridurre il sale nella tua dieta
 
-●**Evita l'alcol** – L'alcol può affaticare ulteriormente il tuo cuore
+- **Evita l'alcol** – L'alcol può affaticare ulteriormente il tuo cuore
 
 **Farmaci per aiutare il cuore:**
 
 Il tuo cardiologo può prescriverti farmaci per aiutare il cuore a lavorare meglio e prevenire complicazioni:
 
-●**ACE inibitori** – Prevengono il rimodellamento del cuore
+- **ACE inibitori** – Prevengono il rimodellamento del cuore
 
-●**Beta-bloccanti** – Riducono il lavoro del cuore e lo proteggono
+- **Beta-bloccanti** – Riducono il lavoro del cuore e lo proteggono
 
-●**Diuretici** – Se c'è ritenzione di liquidi
+- **Diuretici** – Se c'è ritenzione di liquidi
 
-●**Farmaci per il ritmo** – Se ci sono problemi di aritmia
+- **Farmaci per il ritmo** – Se ci sono problemi di aritmia
 
-●**Anticoagulanti** – In alcuni casi, per prevenire la formazione di coaguli
+- **Anticoagulanti** – In alcuni casi, per prevenire la formazione di coaguli
 
 **Gestione del dolore:**
 
-●**Per il dolore al petto** – Il paracetamolo è preferibile
+- **Per il dolore al petto** – Il paracetamolo è preferibile
 
-●**Evitate gli antinfiammatori comuni** – I FANS come ibuprofene o ketoprofene possono peggiorare l'infiammazione del cuore e vanno evitati
+- **Evitate gli antinfiammatori comuni** – I FANS come ibuprofene o ketoprofene possono peggiorare l'infiammazione del cuore e vanno evitati
 
 **Farmaci immunosoppressori (solo in casi selezionati):**
 
 IMPORTANTE: I farmaci che sopprimono il sistema immunitario NON si usano nella miocardite virale comune, perché potrebbero peggiorare l'infezione. Si usano solo in forme particolari di miocardite, come:
 
-●Miocardite autoimmune (quando il sistema immunitario attacca il cuore)
-●Forme associate a malattie sistemiche (come il lupus)
-●Alcuni tipi molto rari di miocardite
+- Miocardite autoimmune (quando il sistema immunitario attacca il cuore)
+- Forme associate a malattie sistemiche (come il lupus)
+- Alcuni tipi molto rari di miocardite
 
 Sarà il vostro cardiologo a decidere se questi farmaci sono necessari nel vostro caso specifico.
 
@@ -185,13 +185,13 @@ Sarà il vostro cardiologo a decidere se questi farmaci sono necessari nel vostr
 
 In rari casi molto gravi, quando il cuore è molto compromesso, possono essere necessari:
 
-●**Ricovero in terapia intensiva** – Per monitoraggio continuo e supporto
+- **Ricovero in terapia intensiva** – Per monitoraggio continuo e supporto
 
-●**Dispositivi di assistenza** – Macchine che aiutano temporaneamente il cuore a pompare
+- **Dispositivi di assistenza** – Macchine che aiutano temporaneamente il cuore a pompare
 
-●**Defibrillatore impiantabile** – Se ci sono aritmie pericolose persistenti
+- **Defibrillatore impiantabile** – Se ci sono aritmie pericolose persistenti
 
-●**Trapianto cardiaco** – In rarissimi casi estremi che non rispondono a nessuna cura
+- **Trapianto cardiaco** – In rarissimi casi estremi che non rispondono a nessuna cura
 
 Fortunatamente, queste situazioni sono rare e la maggioranza delle persone guarisce bene con le cure standard.
 
@@ -203,41 +203,41 @@ Il ritorno all'attività sportiva è un aspetto molto importante e delicato. Il 
 
 **Stop allo sport: tempo minimo:**
 
-●**Almeno 3-6 mesi** – Devi evitare completamente lo sport e l'attività fisica intensa per almeno 3-6 mesi, anche se ti senti bene
+- **Almeno 3-6 mesi** – Devi evitare completamente lo sport e l'attività fisica intensa per almeno 3-6 mesi, anche se ti senti bene
 
-●**Il motivo** – Durante questo periodo il tuo cuore sta ancora guarendo, anche se non hai più sintomi. Fare sport troppo presto può causare problemi seri al ritmo cardiaco
+- **Il motivo** – Durante questo periodo il tuo cuore sta ancora guarendo, anche se non hai più sintomi. Fare sport troppo presto può causare problemi seri al ritmo cardiaco
 
-●**Controlli regolari** – Durante questi mesi farai controlli periodici per vedere come sta guarendo il tuo cuore
+- **Controlli regolari** – Durante questi mesi farai controlli periodici per vedere come sta guarendo il tuo cuore
 
 **Quando il cardiologo può dare l'ok per tornare allo sport:**
 
 Prima di riprendere l'attività sportiva intensa, il tuo cardiologo deve verificare che:
 
-●Siano passati almeno 3-6 mesi dalla diagnosi
+- Siano passati almeno 3-6 mesi dalla diagnosi
 
-●Non hai più sintomi (niente dolore al petto, affanno, palpitazioni)
+- Non hai più sintomi (niente dolore al petto, affanno, palpitazioni)
 
-●Il tuo elettrocardiogramma è normale (senza segni di infiammazione o aritmie)
+- Il tuo elettrocardiogramma è normale (senza segni di infiammazione o aritmie)
 
-●Il tuo cuore pompa bene (l'ecocardiogramma mostra che il cuore funziona normalmente)
+- Il tuo cuore pompa bene (l'ecocardiogramma mostra che il cuore funziona normalmente)
 
-●La tua risonanza magnetica è migliorata (l'infiammazione è scomparsa. Piccole cicatrici possono essere accettabili se tutto il resto va bene)
+- La tua risonanza magnetica è migliorata (l'infiammazione è scomparsa. Piccole cicatrici possono essere accettabili se tutto il resto va bene)
 
-●Il test da sforzo è negativo (nessun problema durante l'esercizio fisico monitorato)
+- Il test da sforzo è negativo (nessun problema durante l'esercizio fisico monitorato)
 
-●L'**Holter** è normale (nessuna aritmia pericolosa)
+- L'**Holter** è normale (nessuna aritmia pericolosa)
 
 **Situazioni in cui lo sport intenso va evitato:**
 
 In alcune situazioni il tuo cardiologo potrebbe sconsigliarti di riprendere lo sport agonistico:
 
-●Se il tuo cuore non ha recuperato bene (se la capacità di pompare è rimasta ridotta)
+- Se il tuo cuore non ha recuperato bene (se la capacità di pompare è rimasta ridotta)
 
-●Se hai ancora aritmie (battiti irregolari persistenti)
+- Se hai ancora aritmie (battiti irregolari persistenti)
 
-●Se hai un defibrillatore (in questo caso lo sport agonistico non è raccomandato)
+- Se hai un defibrillatore (in questo caso lo sport agonistico non è raccomandato)
 
-●Se ci sono cicatrici estese (che aumentano il rischio di problemi durante lo sforzo)
+- Se ci sono cicatrici estese (che aumentano il rischio di problemi durante lo sforzo)
 
 IMPORTANTE: Anche se non puoi fare sport agonistico, potrai comunque fare attività fisica moderata. Il tuo cardiologo ti consiglierà quale livello di attività è sicuro per te.
 
@@ -249,39 +249,39 @@ La buona notizia è che circa 70-80 persone su 100 con miocardite guariscono com
 
 **Come evolve di solito:**
 
-●**Guarigione completa (circa 70-80 persone su 100)** – Il tuo cuore torna a funzionare normalmente entro 3-6 mesi. Una volta guarito, la tua vita torna come prima
+- **Guarigione completa (circa 70-80 persone su 100)** – Il tuo cuore torna a funzionare normalmente entro 3-6 mesi. Una volta guarito, la tua vita torna come prima
 
-●**Cicatrici che richiedono controlli (circa 15-20 persone su 100)** – Rimangono piccole cicatrici nel tuo cuore che richiedono controlli periodici. Con il giusto follow-up e le cure appropriate, puoi vivere bene
+- **Cicatrici che richiedono controlli (circa 15-20 persone su 100)** – Rimangono piccole cicatrici nel tuo cuore che richiedono controlli periodici. Con il giusto follow-up e le cure appropriate, puoi vivere bene
 
-●**Forme gravi (circa 5-10 persone su 100)** – In alcuni casi l'infiammazione è molto grave e il cuore rimane indebolito. Questi pazienti necessitano di cure e controlli più intensivi
+- **Forme gravi (circa 5-10 persone su 100)** – In alcuni casi l'infiammazione è molto grave e il cuore rimane indebolito. Questi pazienti necessitano di cure e controlli più intensivi
 
 **Fattori che indicano una buona prognosi:**
 
-●**Età giovane** – I giovani tendono a recuperare meglio
+- **Età giovane** – I giovani tendono a recuperare meglio
 
-●**Miocardite virale** – Quelle causate da virus comuni guariscono meglio di quelle autoimmuni
+- **Miocardite virale** – Quelle causate da virus comuni guariscono meglio di quelle autoimmuni
 
-●**Cuore che funziona bene** – Se il cuore pompa normalmente alla diagnosi
+- **Cuore che funziona bene** – Se il cuore pompa normalmente alla diagnosi
 
-●**Cicatrici limitate** – Poche aree di cicatrice alla risonanza magnetica
+- **Cicatrici limitate** – Poche aree di cicatrice alla risonanza magnetica
 
-●**Risposta rapida alle cure** – Se i valori del sangue si normalizzano in poche settimane
+- **Risposta rapida alle cure** – Se i valori del sangue si normalizzano in poche settimane
 
-●**Niente aritmie pericolose** – Se il ritmo cardiaco rimane stabile
+- **Niente aritmie pericolose** – Se il ritmo cardiaco rimane stabile
 
 **Situazioni che richiedono più attenzione:**
 
 Alcune situazioni richiedono controlli più frequenti e cure più intensive:
 
-●Se il cuore è molto indebolito (fatica a pompare il sangue in modo efficace)
+- Se il cuore è molto indebolito (fatica a pompare il sangue in modo efficace)
 
-●Cicatrici estese (ampie zone di tessuto cicatriziale alla risonanza)
+- Cicatrici estese (ampie zone di tessuto cicatriziale alla risonanza)
 
-●Aritmie persistenti (problemi di ritmo che non si risolvono)
+- Aritmie persistenti (problemi di ritmo che non si risolvono)
 
-●Forme particolari di miocardite (alcuni tipi rari richiedono cure più aggressive)
+- Forme particolari di miocardite (alcuni tipi rari richiedono cure più aggressive)
 
-●Marcatori del sangue sempre alti (se la troponina rimane elevata per settimane)
+- Marcatori del sangue sempre alti (se la troponina rimane elevata per settimane)
 
 Anche in questi casi, con le cure giuste e un follow-up attento, molti pazienti migliorano nel tempo.
 
@@ -289,11 +289,11 @@ Anche in questi casi, con le cure giuste e un follow-up attento, molti pazienti 
 
 La risonanza magnetica è molto importante per capire la prognosi perché mostra:
 
-●Se ci sono cicatrici e quanto sono estese (piccole cicatrici o nessuna indicano una prognosi ottima)
+- Se ci sono cicatrici e quanto sono estese (piccole cicatrici o nessuna indicano una prognosi ottima)
 
-●Dove sono le cicatrici (la posizione fa differenza nella prognosi)
+- Dove sono le cicatrici (la posizione fa differenza nella prognosi)
 
-●Come evolve nel tempo (le risonanze di controllo mostrano se il cuore sta guarendo)
+- Come evolve nel tempo (le risonanze di controllo mostrano se il cuore sta guarendo)
 
 Questo esame aiuta il cardiologo a darvi informazioni precise sulla vostra situazione e a pianificare i controlli futuri.
 
@@ -305,27 +305,27 @@ Dopo la diagnosi di miocardite è molto importante che tu faccia controlli regol
 
 **Calendario dei controlli:**
 
-●**Dopo 2-4 settimane** – Prima visita di controllo. Analisi del sangue, elettrocardiogramma e a volte ecocardiogramma
+- **Dopo 2-4 settimane** – Prima visita di controllo. Analisi del sangue, elettrocardiogramma e a volte ecocardiogramma
 
-●**Dopo 2-3 mesi** – Ecocardiogramma per vedere come sta recuperando il cuore. Se c'erano aritmie, potrebbe essere necessario l'Holter
+- **Dopo 2-3 mesi** – Ecocardiogramma per vedere come sta recuperando il cuore. Se c'erano aritmie, potrebbe essere necessario l'Holter
 
-●**Dopo 3-6 mesi** – Risonanza magnetica di controllo per vedere se l'infiammazione è scomparsa. Se volete riprendere lo sport, test da sforzo
+- **Dopo 3-6 mesi** – Risonanza magnetica di controllo per vedere se l'infiammazione è scomparsa. Se volete riprendere lo sport, test da sforzo
 
-●**Dopo 6-12 mesi** – Visita, elettrocardiogramma ed ecocardiogramma
+- **Dopo 6-12 mesi** – Visita, elettrocardiogramma ed ecocardiogramma
 
-●**Nei primi anni** – Controlli annuali. Se ci sono cicatrici o il cuore non ha recuperato del tutto, potrebbero essere necessari controlli più frequenti
+- **Nei primi anni** – Controlli annuali. Se ci sono cicatrici o il cuore non ha recuperato del tutto, potrebbero essere necessari controlli più frequenti
 
 **Quando contattare subito il cardiologo:**
 
 Contattate immediatamente il vostro cardiologo se compaiono:
 
-●Ritorno dei sintomi (nuovo dolore al petto, affanno, palpitazioni, gonfiore alle gambe)
+- Ritorno dei sintomi (nuovo dolore al petto, affanno, palpitazioni, gonfiore alle gambe)
 
-●Svenimenti (anche solo senso di stordimento importante)
+- Svenimenti (anche solo senso di stordimento importante)
 
-●Battito molto irregolare (sensazione che il cuore batta in modo strano)
+- Battito molto irregolare (sensazione che il cuore batta in modo strano)
 
-●Peggioramento graduale (se vi sentite progressivamente più stanchi o con meno fiato)
+- Peggioramento graduale (se vi sentite progressivamente più stanchi o con meno fiato)
 
 Non aspettate il controllo programmato: chiamate subito per anticipare la visita.
 
@@ -333,9 +333,9 @@ Non aspettate il controllo programmato: chiamate subito per anticipare la visita
 
 In alcuni casi particolari, potrebbe essere necessario impiantare dispositivi per proteggere il cuore:
 
-●**Defibrillatore impiantabile** – Se ci sono state aritmie pericolose o se il cuore è molto indebolito. È un dispositivo che interviene automaticamente se il ritmo diventa pericoloso
+- **Defibrillatore impiantabile** – Se ci sono state aritmie pericolose o se il cuore è molto indebolito. È un dispositivo che interviene automaticamente se il ritmo diventa pericoloso
 
-●**Pacemaker** – Se il cuore batte troppo lentamente in modo persistente
+- **Pacemaker** – Se il cuore batte troppo lentamente in modo persistente
 
 Il vostro cardiologo vi spiegherà se uno di questi dispositivi è necessario nel vostro caso.
 
