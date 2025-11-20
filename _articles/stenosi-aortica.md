@@ -27,11 +27,11 @@ All'inizio, il cuore compensa ispessendo le pareti del ventricolo sinistro per g
 
 Esistono tre gradi di gravità:
 
-●**Stenosi lieve** – Il restringimento è presente ma limitato. Raramente causa sintomi
+- **Stenosi lieve** – Il restringimento è presente ma limitato. Raramente causa sintomi
 
-●**Stenosi moderata** – Il restringimento è intermedio. Richiede controlli più frequenti
+- **Stenosi moderata** – Il restringimento è intermedio. Richiede controlli più frequenti
 
-●**Stenosi severa** – Il restringimento è importante. Quando compaiono i sintomi, serve sostituire la valvola
+- **Stenosi severa** – Il restringimento è importante. Quando compaiono i sintomi, serve sostituire la valvola
 
 ---
 
@@ -71,20 +71,20 @@ Alcune persone con stenosi aortica severa non hanno sintomi. La condizione viene
 
 Contattate il vostro medico se:
 
-●Avete dolore al petto durante lo sforzo
-●Avete svenimenti o sensazione di stare per svenire, soprattutto durante attività fisica
-●Avete mancanza di respiro nuova o che peggiora
-●Avete difficoltà a fare attività che prima facevate senza problemi
-●Avete stanchezza marcata di nuova insorgenza
+- Avete dolore al petto durante lo sforzo
+- Avete svenimenti o sensazione di stare per svenire, soprattutto durante attività fisica
+- Avete mancanza di respiro nuova o che peggiora
+- Avete difficoltà a fare attività che prima facevate senza problemi
+- Avete stanchezza marcata di nuova insorgenza
 
 **Cercate aiuto medico urgente** (chiamate il 112 o andate al pronto soccorso) se:
 
-●Avete dolore al petto prolungato o a riposo
-●Avete uno svenimento improvviso
-●Avete difficoltà grave a respirare, anche a riposo
-●Avete confusione mentale improvvisa
-●Vi svegliate di notte con fame d'aria
-●Avete gonfiore rapido alle gambe con aumento di peso rapido
+- Avete dolore al petto prolungato o a riposo
+- Avete uno svenimento improvviso
+- Avete difficoltà grave a respirare, anche a riposo
+- Avete confusione mentale improvvisa
+- Vi svegliate di notte con fame d'aria
+- Avete gonfiore rapido alle gambe con aumento di peso rapido
 
 Quando compaiono i sintomi in una stenosi severa, senza sostituzione della valvola 50 persone su 100 muoiono entro 2 anni. Con l'intervento, il rischio immediato è basso (2-5 persone su 100), ma il beneficio sulla sopravvivenza e qualità di vita è molto grande.
 
@@ -94,10 +94,10 @@ Quando compaiono i sintomi in una stenosi severa, senza sostituzione della valvo
 
 Il vostro medico:
 
-●Vi farà domande sui sintomi e sulla storia clinica
-●Vi visiterà, ascoltando il cuore con lo stetoscopio per sentire il soffio caratteristico
-●Misurerà la pressione arteriosa
-●Prescriverà esami
+- Vi farà domande sui sintomi e sulla storia clinica
+- Vi visiterà, ascoltando il cuore con lo stetoscopio per sentire il soffio caratteristico
+- Misurerà la pressione arteriosa
+- Prescriverà esami
 
 **Elettrocardiogramma (ECG)** – Questo esame registra l'attività elettrica del cuore. Spesso mostra segni di ispessimento del ventricolo sinistro. Può anche mostrare problemi nel sistema di conduzione elettrica del cuore. L'esame dura pochi minuti ed è indolore. Anche se l'ECG è normale, serve comunque l'ecocardiogramma per la diagnosi.
 
@@ -105,31 +105,31 @@ Il vostro medico:
 
 L'ecocardiogramma misura:
 
-●**Velocità del sangue attraverso la valvola** – Normale: meno di 2 metri al secondo. Stenosi lieve: 2.6-2.9 metri al secondo. Moderata: 3.0-3.9. Severa: 4.0 o più
+- **Velocità del sangue attraverso la valvola** – Normale: meno di 2 metri al secondo. Stenosi lieve: 2.6-2.9 metri al secondo. Moderata: 3.0-3.9. Severa: 4.0 o più
 
-●**Gradiente di pressione (differenza di pressione attraverso la valvola)** – Misura quanto il cuore deve pompare con più forza per far passare il sangue. Stenosi lieve: meno di 20 mmHg. Moderata: 20-39 mmHg. Severa: 40 mmHg o più
+- **Gradiente di pressione (differenza di pressione attraverso la valvola)** – Misura quanto il cuore deve pompare con più forza per far passare il sangue. Stenosi lieve: meno di 20 mmHg. Moderata: 20-39 mmHg. Severa: 40 mmHg o più
 
-●**Area valvolare (superficie dell'apertura)** – È la misura più accurata. Normale: 3-4 centimetri quadrati. Stenosi lieve: più di 1.5 centimetri quadrati. Moderata: 1.0-1.5. Severa: meno di 1.0
+- **Area valvolare (superficie dell'apertura)** – È la misura più accurata. Normale: 3-4 centimetri quadrati. Stenosi lieve: più di 1.5 centimetri quadrati. Moderata: 1.0-1.5. Severa: meno di 1.0
 
-●**Frazione di eiezione (percentuale di sangue pompato ad ogni battito)** – Normale: 55 su 100 o più. Se scende sotto 50 su 100, significa che il cuore si sta indebolendo e serve intervenire urgentemente, anche senza sintomi
+- **Frazione di eiezione (percentuale di sangue pompato ad ogni battito)** – Normale: 55 su 100 o più. Se scende sotto 50 su 100, significa che il cuore si sta indebolendo e serve intervenire urgentemente, anche senza sintomi
 
 **I tre gradi di gravità:**
 
-●**Stenosi lieve** – Velocità 2.6-2.9 metri al secondo, area valvolare più di 1.5 centimetri quadrati. Di solito non causa sintomi. Controlli: ecocardiogramma ogni 3-5 anni, visita cardiologica ogni anno. Potete fare qualsiasi attività fisica, compresi sport agonistici
+- **Stenosi lieve** – Velocità 2.6-2.9 metri al secondo, area valvolare più di 1.5 centimetri quadrati. Di solito non causa sintomi. Controlli: ecocardiogramma ogni 3-5 anni, visita cardiologica ogni anno. Potete fare qualsiasi attività fisica, compresi sport agonistici
 
-●**Stenosi moderata** – Velocità 3.0-3.9, area 1.0-1.5 centimetri quadrati. Circa 20-30 persone su 100 peggiorano fino a diventare severa entro 2-5 anni. Controlli: ecocardiogramma ogni 1-2 anni, visita ogni 6 mesi
+- **Stenosi moderata** – Velocità 3.0-3.9, area 1.0-1.5 centimetri quadrati. Circa 20-30 persone su 100 peggiorano fino a diventare severa entro 2-5 anni. Controlli: ecocardiogramma ogni 1-2 anni, visita ogni 6 mesi
 
-●**Stenosi severa** – Velocità 4.0 o più, area meno di 1.0 centimetro quadrato. Se avete sintomi, serve sostituire la valvola. Anche senza sintomi, serve intervenire se: il cuore si indebolisce (frazione di eiezione sotto 50), il test da sforzo mostra problemi, la stenosi peggiora rapidamente, oppure dovete fare comunque un intervento al cuore per altri motivi
+- **Stenosi severa** – Velocità 4.0 o più, area meno di 1.0 centimetro quadrato. Se avete sintomi, serve sostituire la valvola. Anche senza sintomi, serve intervenire se: il cuore si indebolisce (frazione di eiezione sotto 50), il test da sforzo mostra problemi, la stenosi peggiora rapidamente, oppure dovete fare comunque un intervento al cuore per altri motivi
 
 **Altri esami:**
 
-●**Radiografia del torace** – Può mostrare se il cuore è ingrandito, se la valvola è calcificata, o se c'è accumulo di liquidi nei polmoni
+- **Radiografia del torace** – Può mostrare se il cuore è ingrandito, se la valvola è calcificata, o se c'è accumulo di liquidi nei polmoni
 
-●**TAC del cuore** – È essenziale se decidete per l'intervento meno invasivo (TAVI, impianto transcatetere della valvola aortica). La TAC permette di vedere l'anatomia della valvola, dell'aorta e dei vasi delle gambe, e di scegliere la protesi della misura giusta
+- **TAC del cuore** – È essenziale se decidete per l'intervento meno invasivo (TAVI, impianto transcatetere della valvola aortica). La TAC permette di vedere l'anatomia della valvola, dell'aorta e dei vasi delle gambe, e di scegliere la protesi della misura giusta
 
-●**Coronarografia (cateterismo cardiaco)** – Serve per vedere se le arterie coronarie hanno restringimenti. Viene fatta prima dell'intervento in chi: ha dolore al petto, ha già avuto un infarto, ha il cuore indebolito, ha più di 40 anni (uomini) o 50 anni (donne), o ha fattori di rischio cardiovascolare. Circa 40-50 persone su 100 oltre i 65 anni con stenosi severa hanno anche coronarie ristrette
+- **Coronarografia (cateterismo cardiaco)** – Serve per vedere se le arterie coronarie hanno restringimenti. Viene fatta prima dell'intervento in chi: ha dolore al petto, ha già avuto un infarto, ha il cuore indebolito, ha più di 40 anni (uomini) o 50 anni (donne), o ha fattori di rischio cardiovascolare. Circa 40-50 persone su 100 oltre i 65 anni con stenosi severa hanno anche coronarie ristrette
 
-●**Test da sforzo** – Se avete stenosi severa ma dite di non avere sintomi, il cardiologo può farvi fare un test da sforzo: camminate su un tapis roulant o pedalate mentre registrano ECG e pressione. Serve per vedere se avete sintomi nascosti o limitazioni che non avete notato. Il test è sicuro solo se fatto in ospedale con un cardiologo presente
+- **Test da sforzo** – Se avete stenosi severa ma dite di non avere sintomi, il cardiologo può farvi fare un test da sforzo: camminate su un tapis roulant o pedalate mentre registrano ECG e pressione. Serve per vedere se avete sintomi nascosti o limitazioni che non avete notato. Il test è sicuro solo se fatto in ospedale con un cardiologo presente
 
 ---
 
@@ -139,21 +139,21 @@ L'indicazione principale è la comparsa di sintomi in presenza di stenosi severa
 
 **Quando l'intervento è fortemente raccomandato:**
 
-●**Stenosi severa con sintomi** – Se avete stenosi severa (velocità 4.0 o più, area meno di 1.0 centimetro quadrato) e sintomi legati alla valvola (dolore al petto, svenimenti, mancanza di respiro, scompenso), dovete sostituire la valvola. Senza intervento, 50 persone su 100 muoiono entro 2 anni. Con l'intervento, 85-90 persone su 100 sono vive dopo 5 anni
+- **Stenosi severa con sintomi** – Se avete stenosi severa (velocità 4.0 o più, area meno di 1.0 centimetro quadrato) e sintomi legati alla valvola (dolore al petto, svenimenti, mancanza di respiro, scompenso), dovete sostituire la valvola. Senza intervento, 50 persone su 100 muoiono entro 2 anni. Con l'intervento, 85-90 persone su 100 sono vive dopo 5 anni
 
-●**Stenosi severa senza sintomi ma cuore indebolito** – Serve intervenire quando la frazione di eiezione scende sotto 50 su 100, anche senza sintomi. Questo indica che il cuore sta subendo danni. Intervenendo presto, il cuore può recuperare forza
+- **Stenosi severa senza sintomi ma cuore indebolito** – Serve intervenire quando la frazione di eiezione scende sotto 50 su 100, anche senza sintomi. Questo indica che il cuore sta subendo danni. Intervenendo presto, il cuore può recuperare forza
 
-●**Stenosi severa e altro intervento cardiaco programmato** – Se dovete già fare un intervento al cuore per altri motivi (bypass coronarico, altra valvola, aorta), è fortemente raccomandato sostituire anche la valvola aortica durante lo stesso intervento, anche senza sintomi
+- **Stenosi severa e altro intervento cardiaco programmato** – Se dovete già fare un intervento al cuore per altri motivi (bypass coronarico, altra valvola, aorta), è fortemente raccomandato sostituire anche la valvola aortica durante lo stesso intervento, anche senza sintomi
 
 Il momento giusto è importante: intervenire troppo presto significa rischio senza necessità; intervenire troppo tardi può causare danni permanenti al cuore.
 
 **Quando si può considerare l'intervento anche senza sintomi evidenti:**
 
-●**Test da sforzo positivo** – Se avete stenosi severa senza sintomi, ma il test da sforzo mostra sintomi nascosti o la pressione non sale normalmente, si può considerare l'intervento
+- **Test da sforzo positivo** – Se avete stenosi severa senza sintomi, ma il test da sforzo mostra sintomi nascosti o la pressione non sale normalmente, si può considerare l'intervento
 
-●**Stenosi che peggiora rapidamente** – Se la velocità del sangue aumenta più di 0.3 metri al secondo all'anno, si può considerare l'intervento
+- **Stenosi che peggiora rapidamente** – Se la velocità del sangue aumenta più di 0.3 metri al secondo all'anno, si può considerare l'intervento
 
-●**Giovani con rischio chirurgico molto basso** – Se avete meno di 65-70 anni, stenosi molto severa (velocità superiore a 5.0), rischio chirurgico molto basso e aspettativa di vita superiore a 20 anni, in alcuni casi si può anticipare l'intervento. Questa decisione richiede una discussione approfondita con il cardiologo
+- **Giovani con rischio chirurgico molto basso** – Se avete meno di 65-70 anni, stenosi molto severa (velocità superiore a 5.0), rischio chirurgico molto basso e aspettativa di vita superiore a 20 anni, in alcuni casi si può anticipare l'intervento. Questa decisione richiede una discussione approfondita con il cardiologo
 
 ---
 
@@ -215,23 +215,23 @@ La grande maggioranza delle persone riferisce un netto miglioramento della quali
 
 **Cosa migliora dopo l'intervento:**
 
-●**Scomparsa dei sintomi** – In circa 85-90 persone su 100 i sintomi scompaiono o migliorano molto entro 3-6 mesi. Il dolore al petto scompare completamente in più di 90 su 100 se le coronarie sono normali. La difficoltà respiratoria migliora in 80-85 su 100. La qualità di vita migliora significativamente
+- **Scomparsa dei sintomi** – In circa 85-90 persone su 100 i sintomi scompaiono o migliorano molto entro 3-6 mesi. Il dolore al petto scompare completamente in più di 90 su 100 se le coronarie sono normali. La difficoltà respiratoria migliora in 80-85 su 100. La qualità di vita migliora significativamente
 
-●**Ritorno all'attività fisica** – Potete gradualmente tornare alle normali attività: camminata veloce, ciclismo, nuoto, viaggi, lavoro. È consigliato fare almeno 150 minuti di attività fisica moderata alla settimana dopo la riabilitazione cardiaca. Potete riprendere l'attività sessuale dopo 4-6 settimane (chirurgia) o 2-3 settimane (TAVI)
+- **Ritorno all'attività fisica** – Potete gradualmente tornare alle normali attività: camminata veloce, ciclismo, nuoto, viaggi, lavoro. È consigliato fare almeno 150 minuti di attività fisica moderata alla settimana dopo la riabilitazione cardiaca. Potete riprendere l'attività sessuale dopo 4-6 settimane (chirurgia) o 2-3 settimane (TAVI)
 
-●**Miglioramento del cuore** – Dopo l'intervento, il cuore può tornare più normale. L'ispessimento delle pareti si riduce progressivamente. La frazione di eiezione: se era normale prima, rimane stabile o migliora leggermente. Se era ridotta, recupera in 50-70 persone su 100 entro 6-12 mesi
+- **Miglioramento del cuore** – Dopo l'intervento, il cuore può tornare più normale. L'ispessimento delle pareti si riduce progressivamente. La frazione di eiezione: se era normale prima, rimane stabile o migliora leggermente. Se era ridotta, recupera in 50-70 persone su 100 entro 6-12 mesi
 
-●**Prospettive a lungo termine** – Se la frazione di eiezione era normale e non avete altri problemi importanti, la vostra aspettativa di vita diventa simile a quella di persone della vostra età senza problemi cardiaci. Sopravvivenza dopo 10 anni: circa 70-80 persone su 100 se avete meno di 75 anni
+- **Prospettive a lungo termine** – Se la frazione di eiezione era normale e non avete altri problemi importanti, la vostra aspettativa di vita diventa simile a quella di persone della vostra età senza problemi cardiaci. Sopravvivenza dopo 10 anni: circa 70-80 persone su 100 se avete meno di 75 anni
 
 **Controlli e cure dopo l'intervento:**
 
-●**Farmaci antitrombotici (per prevenire coaguli)** – Valvola biologica: aspirina 75-100 mg al giorno per tutta la vita. Valvola meccanica: warfarin o acenocumarolo per tutta la vita con controlli regolari del sangue (INR)
+- **Farmaci antitrombotici (per prevenire coaguli)** – Valvola biologica: aspirina 75-100 mg al giorno per tutta la vita. Valvola meccanica: warfarin o acenocumarolo per tutta la vita con controlli regolari del sangue (INR)
 
-●**Prevenzione delle infezioni della valvola (endocardite)** – Avete un rischio leggermente maggiore di infezione della valvola artificiale. Quando andate dal dentista per procedure che toccano le gengive, dovete prendere un antibiotico preventivo: amoxicillina 2 grammi per bocca 30-60 minuti prima. Igiene orale importante: lavare i denti 2 volte al giorno, filo interdentale ogni giorno, dentista ogni 6 mesi
+- **Prevenzione delle infezioni della valvola (endocardite)** – Avete un rischio leggermente maggiore di infezione della valvola artificiale. Quando andate dal dentista per procedure che toccano le gengive, dovete prendere un antibiotico preventivo: amoxicillina 2 grammi per bocca 30-60 minuti prima. Igiene orale importante: lavare i denti 2 volte al giorno, filo interdentale ogni giorno, dentista ogni 6 mesi
 
-●**Ecocardiogrammi di controllo** – Un ecocardiogramma prima di lasciare l'ospedale. Poi un ecocardiogramma una volta all'anno se la valvola funziona normalmente
+- **Ecocardiogrammi di controllo** – Un ecocardiogramma prima di lasciare l'ospedale. Poi un ecocardiogramma una volta all'anno se la valvola funziona normalmente
 
-●**Visite cardiologiche** – Visite a 3 mesi, 6 mesi, 12 mesi dopo l'intervento, poi una volta all'anno se tutto è stabile. È fortemente consigliato partecipare a un programma di riabilitazione cardiaca: esercizio fisico supervisionato, consigli nutrizionali, gestione dei fattori di rischio, supporto psicologico
+- **Visite cardiologiche** – Visite a 3 mesi, 6 mesi, 12 mesi dopo l'intervento, poi una volta all'anno se tutto è stabile. È fortemente consigliato partecipare a un programma di riabilitazione cardiaca: esercizio fisico supervisionato, consigli nutrizionali, gestione dei fattori di rischio, supporto psicologico
 
 ---
 
@@ -243,11 +243,11 @@ La stenosi severa evolve in due fasi: prima una lunga fase senza sintomi che pu�
 
 **Aspettativa di vita per tipo di sintomo (senza intervento):**
 
-●**Dolore al petto (angina)** – Aspettativa di vita media: circa 5 anni (può variare da 3 a 9 anni). Rischio di morte: 10-20 persone su 100 ogni anno
+- **Dolore al petto (angina)** – Aspettativa di vita media: circa 5 anni (può variare da 3 a 9 anni). Rischio di morte: 10-20 persone su 100 ogni anno
 
-●**Svenimento (sincope)** – Aspettativa di vita media: circa 3 anni (può variare da 2 a 5 anni). Rischio di morte: 15-30 persone su 100 ogni anno
+- **Svenimento (sincope)** – Aspettativa di vita media: circa 3 anni (può variare da 2 a 5 anni). Rischio di morte: 15-30 persone su 100 ogni anno
 
-●**Scompenso cardiaco** – Aspettativa di vita media: solo 1-2 anni. Rischio di morte: 25-50 persone su 100 ogni anno
+- **Scompenso cardiaco** – Aspettativa di vita media: solo 1-2 anni. Rischio di morte: 25-50 persone su 100 ogni anno
 
 In generale, circa 50 persone su 100 con stenosi severa sintomatica muoiono entro 2 anni senza intervento.
 
@@ -263,27 +263,27 @@ Se la stenosi è stata diagnosticata ma non è ancora il momento di intervenire,
 
 **Se la stenosi è lieve:**
 
-●**Ecocardiogrammi:** Ogni 3-5 anni. Questo intervallo è sufficiente perché la stenosi lieve progredisce lentamente
+- **Ecocardiogrammi:** Ogni 3-5 anni. Questo intervallo è sufficiente perché la stenosi lieve progredisce lentamente
 
-●**Visite dal cardiologo:** Una volta all'anno. Il cardiologo vi chiederà se avete sintomi (difficoltà respiratoria, dolore al petto, svenimenti, ridotta capacità fisica). Farete anche un ECG ogni anno
+- **Visite dal cardiologo:** Una volta all'anno. Il cardiologo vi chiederà se avete sintomi (difficoltà respiratoria, dolore al petto, svenimenti, ridotta capacità fisica). Farete anche un ECG ogni anno
 
-●**Attività fisica:** Con stenosi lieve potete fare qualsiasi attività fisica senza restrizioni, compresi sport agonistici se la frazione di eiezione è normale e non avete sintomi. Importante gestire i fattori di rischio: controllare pressione, colesterolo, smettere di fumare
+- **Attività fisica:** Con stenosi lieve potete fare qualsiasi attività fisica senza restrizioni, compresi sport agonistici se la frazione di eiezione è normale e non avete sintomi. Importante gestire i fattori di rischio: controllare pressione, colesterolo, smettere di fumare
 
 **Se la stenosi è moderata:**
 
-●**Ecocardiogrammi:** Ogni 1-2 anni. Questa è una fase critica: circa 20-30 persone su 100 peggiorano fino a severa entro 2-5 anni
+- **Ecocardiogrammi:** Ogni 1-2 anni. Questa è una fase critica: circa 20-30 persone su 100 peggiorano fino a severa entro 2-5 anni
 
-●**Visite:** Ogni 6 mesi. È fondamentale riconoscere i sintomi di allarme e contattare immediatamente il cardiologo se compaiono. Se dite di non avere sintomi, il cardiologo farà un test da sforzo una volta all'anno
+- **Visite:** Ogni 6 mesi. È fondamentale riconoscere i sintomi di allarme e contattare immediatamente il cardiologo se compaiono. Se dite di non avere sintomi, il cardiologo farà un test da sforzo una volta all'anno
 
-●**Attività fisica:** Sport agonistici sconsigliati. Potete fare attività fisica ricreazionale moderata (camminata, ciclismo, nuoto) se non avete sintomi
+- **Attività fisica:** Sport agonistici sconsigliati. Potete fare attività fisica ricreazionale moderata (camminata, ciclismo, nuoto) se non avete sintomi
 
 **Se la stenosi è severa ma senza sintomi:**
 
-●**Ecocardiogrammi:** Ogni 6-12 mesi. Situazione critica che richiede sorveglianza stretta. Rischio di sviluppare sintomi: circa 10 persone su 100 ogni anno
+- **Ecocardiogrammi:** Ogni 6-12 mesi. Situazione critica che richiede sorveglianza stretta. Rischio di sviluppare sintomi: circa 10 persone su 100 ogni anno
 
-●**Visite e test da sforzo:** Ogni 3-6 mesi. Se continuate a non avere sintomi, dovete fare un test da sforzo supervisionato una volta all'anno
+- **Visite e test da sforzo:** Ogni 3-6 mesi. Se continuate a non avere sintomi, dovete fare un test da sforzo supervisionato una volta all'anno
 
-●**Riconoscere i sintomi:** È fondamentale riconoscere immediatamente i tre sintomi principali: dolore al petto, sensazione di stare per svenire o svenimenti, difficoltà respiratoria. Se compare anche solo uno, contattate urgentemente il cardiologo
+- **Riconoscere i sintomi:** È fondamentale riconoscere immediatamente i tre sintomi principali: dolore al petto, sensazione di stare per svenire o svenimenti, difficoltà respiratoria. Se compare anche solo uno, contattate urgentemente il cardiologo
 
-●**Attività fisica:** Sport agonistici controindicati (vietati). Potete fare attività fisica ricreazionale leggera-moderata solo se il test da sforzo è negativo
+- **Attività fisica:** Sport agonistici controindicati (vietati). Potete fare attività fisica ricreazionale leggera-moderata solo se il test da sforzo è negativo
 

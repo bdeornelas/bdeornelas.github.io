@@ -41,17 +41,17 @@ I medici faranno esami urgenti (TAC cerebrale, ecografia dei vasi del collo, eco
 
 Lo score ABCD² aiuta i medici a predire il rischio di ictus nei 7 giorni successivi a un TIA (range 0-7 punti):
 
-●Età: ≥60 anni (1 punto)
-●Pressione arteriosa: PA ≥140/90 mmHg alla presentazione (1 punto)
-●Caratteristiche cliniche: deficit motorio unilaterale (2 punti) oppure disturbo linguaggio isolato (1 punto)
-●Durata dei sintomi: ≥60 min (2 punti) oppure 10-59 min (1 punto)
-●Diabete mellito: presenza (1 punto)
+- Età: ≥60 anni (1 punto)
+- Pressione arteriosa: PA ≥140/90 mmHg alla presentazione (1 punto)
+- Caratteristiche cliniche: deficit motorio unilaterale (2 punti) oppure disturbo linguaggio isolato (1 punto)
+- Durata dei sintomi: ≥60 min (2 punti) oppure 10-59 min (1 punto)
+- Diabete mellito: presenza (1 punto)
 
 **Interpretazione:**
 
-●ABCD² 0-3 = basso rischio (rischio ictus a 7 giorni: 1-4 persone su 100)
-●ABCD² 4-5 = rischio moderato (4-8 persone su 100)
-●ABCD² 6-7 = alto rischio (8-12 persone su 100)
+- ABCD² 0-3 = basso rischio (rischio ictus a 7 giorni: 1-4 persone su 100)
+- ABCD² 4-5 = rischio moderato (4-8 persone su 100)
+- ABCD² 6-7 = alto rischio (8-12 persone su 100)
 
 Score ≥4 richiede ricovero urgente con esami completi entro 24 ore. Score <4 può essere gestito ambulatorialmente con valutazione specialistica entro 24-48 ore.
 
@@ -79,11 +79,11 @@ Se noti uno qualsiasi di questi segni: **CHIAMA IMMEDIATAMENTE IL 112**
 
 **Altri segnali di ictus - Chiama subito il 112:**
 
-●**Vista:** perdita improvvisa della vista in uno o entrambi gli occhi, visione doppia
-●**Equilibrio:** difficoltà improvvisa a camminare, vertigini, perdita di equilibrio o coordinazione
-●**Mal di testa:** mal di testa fortissimo e improvviso, diverso dal solito
-●**Confusione:** difficoltà a capire cosa dicono gli altri
-●**Intorpidimento:** perdita di sensibilità improvvisa di viso, braccio o gamba, specialmente su un lato del corpo
+- **Vista:** perdita improvvisa della vista in uno o entrambi gli occhi, visione doppia
+- **Equilibrio:** difficoltà improvvisa a camminare, vertigini, perdita di equilibrio o coordinazione
+- **Mal di testa:** mal di testa fortissimo e improvviso, diverso dal solito
+- **Confusione:** difficoltà a capire cosa dicono gli altri
+- **Intorpidimento:** perdita di sensibilità improvvisa di viso, braccio o gamba, specialmente su un lato del corpo
 
 **NON ASPETTARE CHE I SINTOMI PASSINO. CHIAMA SUBITO IL 112.**
 
@@ -99,13 +99,13 @@ Quando arrivate in ospedale con sospetto ictus, il team medico agirà molto rapi
 
 Verranno eseguiti immediatamente:
 
-●**TAC cerebrale** – Per capire se è un ictus ischemico (da coagulo) o emorragico (da sanguinamento). L'esame dura pochi minuti
+- **TAC cerebrale** – Per capire se è un ictus ischemico (da coagulo) o emorragico (da sanguinamento). L'esame dura pochi minuti
 
-●**Esami del sangue** – Per valutare coagulazione e funzione di organi
+- **Esami del sangue** – Per valutare coagulazione e funzione di organi
 
-●**Elettrocardiogramma** – Per controllare il ritmo cardiaco e cercare fibrillazione atriale
+- **Elettrocardiogramma** – Per controllare il ritmo cardiaco e cercare fibrillazione atriale
 
-●**Risonanza magnetica** – In alcuni casi, per vedere meglio le aree danneggiate
+- **Risonanza magnetica** – In alcuni casi, per vedere meglio le aree danneggiate
 
 **Terapia per sciogliere il coagulo (trombolisi):**
 
@@ -113,9 +113,9 @@ Se l'ictus è causato da un coagulo e arrivate entro le prime 4-5 ore, i medici 
 
 Questo farmaco viene dato attraverso una flebo in vena e può:
 
-●Ripristinare il flusso di sangue al cervello
-●Ridurre notevolmente i danni
-●Migliorare le possibilità di recupero
+- Ripristinare il flusso di sangue al cervello
+- Ridurre notevolmente i danni
+- Migliorare le possibilità di recupero
 
 Il trattamento con trombolisi aumenta del 30-50 punti percentuali la probabilità di recupero senza disabilità o con disabilità minima se somministrato entro 4,5 ore.
 
@@ -125,10 +125,10 @@ In alcuni casi, se il coagulo è grande e blocca un'arteria principale, i medici
 
 Questa procedura:
 
-●Si fa attraverso un catetere inserito nell'arteria dell'inguine
-●È efficace anche fino a 24 ore dopo l'ictus in pazienti selezionati
-●Può essere fatta insieme alla terapia con farmaci
-●Aumenta la probabilità di recupero funzionale di circa 40-50 punti percentuali
+- Si fa attraverso un catetere inserito nell'arteria dell'inguine
+- È efficace anche fino a 24 ore dopo l'ictus in pazienti selezionati
+- Può essere fatta insieme alla terapia con farmaci
+- Aumenta la probabilità di recupero funzionale di circa 40-50 punti percentuali
 
 **Le prime ore sono cruciali:**
 
@@ -144,13 +144,13 @@ Dopo la fase acuta dell'ictus, inizia un percorso importante di riabilitazione. 
 
 La riabilitazione inizia già in ospedale (di solito entro 24-48 ore se le condizioni sono stabili) e continua dopo la dimissione. Può includere:
 
-●**Fisioterapia** – Per recuperare la forza muscolare, l'equilibrio e la capacità di camminare
+- **Fisioterapia** – Per recuperare la forza muscolare, l'equilibrio e la capacità di camminare
 
-●**Logopedia** – Per migliorare il linguaggio, la parola e la deglutizione
+- **Logopedia** – Per migliorare il linguaggio, la parola e la deglutizione
 
-●**Terapia occupazionale** – Per ritornare alle attività quotidiane (vestirsi, cucinare, lavarsi)
+- **Terapia occupazionale** – Per ritornare alle attività quotidiane (vestirsi, cucinare, lavarsi)
 
-●**Supporto psicologico** – Per affrontare le emozioni e i cambiamenti dopo l'ictus. La depressione post-ictus colpisce circa 30-40 persone su 100
+- **Supporto psicologico** – Per affrontare le emozioni e i cambiamenti dopo l'ictus. La depressione post-ictus colpisce circa 30-40 persone su 100
 
 **Farmaci per prevenire un altro ictus:**
 
@@ -158,13 +158,13 @@ Dopo un ictus o TIA, è fondamentale prendere i farmaci prescritti per prevenire
 
 I farmaci più comuni includono:
 
-●**Antiaggreganti**"appiccicoso" e prevengono la formazione di coaguli
+- **Antiaggreganti**"appiccicoso" e prevengono la formazione di coaguli
 
-●**Anticoagulanti** – Se l'ictus è stato causato da fibrillazione atriale. Includono warfarin o i nuovi anticoagulanti orali (apixaban, rivaroxaban, edoxaban, dabigatran)
+- **Anticoagulanti** – Se l'ictus è stato causato da fibrillazione atriale. Includono warfarin o i nuovi anticoagulanti orali (apixaban, rivaroxaban, edoxaban, dabigatran)
 
-●**Statine** – Per abbassare il colesterolo e stabilizzare le placche nelle arterie. Target LDL <70 mg/dL in prevenzione secondaria
+- **Statine** – Per abbassare il colesterolo e stabilizzare le placche nelle arterie. Target LDL <70 mg/dL in prevenzione secondaria
 
-●**Farmaci per la pressione** – Per mantenere la pressione arteriosa sotto controllo (target <130/80 mmHg nella maggior parte dei casi)
+- **Farmaci per la pressione** – Per mantenere la pressione arteriosa sotto controllo (target <130/80 mmHg nella maggior parte dei casi)
 
 È importante non interrompere mai questi farmaci di propria iniziativa. Se avete dubbi o effetti collaterali, parlatene con il vostro medico.
 
@@ -182,47 +182,47 @@ La buona notizia è che circa 80-90 persone su 100 con ictus potrebbero averlo p
 
 La pressione alta è il fattore di rischio più importante per l'ictus. Aumenta il rischio di ictus di 3-4 volte.
 
-●Misura regolarmente la pressione
-●Obiettivo: pressione <130/80 mmHg (individualizzato in base al profilo di rischio)
-●Prendi regolarmente i farmaci prescritti
-●Riduci il sale nella dieta (<5 grammi al giorno)
+- Misura regolarmente la pressione
+- Obiettivo: pressione <130/80 mmHg (individualizzato in base al profilo di rischio)
+- Prendi regolarmente i farmaci prescritti
+- Riduci il sale nella dieta (<5 grammi al giorno)
 
 **Tratta la fibrillazione atriale:**
 
 La fibrillazione atriale aumenta il rischio di ictus di 5 volte. Circa 15-20 persone su 100 con fibrillazione atriale avranno un ictus senza trattamento anticoagulante.
 
-●Fai controllare il ritmo cardiaco
-●Se hai fibrillazione atriale, prendi gli anticoagulanti prescritti
-●Non interrompere mai la terapia senza parlare con il medico
+- Fai controllare il ritmo cardiaco
+- Se hai fibrillazione atriale, prendi gli anticoagulanti prescritti
+- Non interrompere mai la terapia senza parlare con il medico
 
 **Smetti di fumare:**
 
 Il fumo raddoppia o triplica il rischio di ictus.
 
-●Smettere di fumare riduce il rischio rapidamente
-●Dopo 2-4 anni, il rischio si dimezza
-●Dopo 5 anni, il rischio torna quasi normale
-●Chiedi aiuto al vostro medico per smettere
+- Smettere di fumare riduce il rischio rapidamente
+- Dopo 2-4 anni, il rischio si dimezza
+- Dopo 5 anni, il rischio torna quasi normale
+- Chiedi aiuto al vostro medico per smettere
 
 **Controlla diabete e colesterolo:**
 
 Il diabete aumenta il rischio di ictus di 2-4 volte. Il colesterolo alto contribuisce alla formazione di placche nelle arterie.
 
-●Mantieni la glicemia sotto controllo (HbA1c <7%)
-●Mantieni il colesterolo LDL nel target personalizzato (spesso <100 mg/dL, <70 mg/dL nei pazienti ad altissimo rischio)
-●Prendi regolarmente i farmaci prescritti
+- Mantieni la glicemia sotto controllo (HbA1c <7%)
+- Mantieni il colesterolo LDL nel target personalizzato (spesso <100 mg/dL, <70 mg/dL nei pazienti ad altissimo rischio)
+- Prendi regolarmente i farmaci prescritti
 
 **Adotta uno stile di vita sano:**
 
-●**Dieta mediterranea** – Frutta, verdura, pesce, olio d'oliva, cereali integrali, meno carne rossa. Riduce il rischio di ictus di circa 30 punti percentuali
+- **Dieta mediterranea** – Frutta, verdura, pesce, olio d'oliva, cereali integrali, meno carne rossa. Riduce il rischio di ictus di circa 30 punti percentuali
 
-●**Attività fisica** – Almeno 150 minuti di attività moderata (camminata veloce) a settimana, oppure 75 minuti di attività intensa. Riduce il rischio di ictus di circa 25-30 punti percentuali
+- **Attività fisica** – Almeno 150 minuti di attività moderata (camminata veloce) a settimana, oppure 75 minuti di attività intensa. Riduce il rischio di ictus di circa 25-30 punti percentuali
 
-●**Peso sano** – Mantenere un BMI <25 kg/m². L'obesità aumenta il rischio di ictus di circa 2 volte
+- **Peso sano** – Mantenere un BMI <25 kg/m². L'obesità aumenta il rischio di ictus di circa 2 volte
 
-●**Alcol moderato** – Massimo 1-2 bicchieri di vino al giorno. Alcol eccessivo aumenta il rischio di ictus
+- **Alcol moderato** – Massimo 1-2 bicchieri di vino al giorno. Alcol eccessivo aumenta il rischio di ictus
 
-●**Gestione dello stress** – Trova modi sani per rilassarti
+- **Gestione dello stress** – Trova modi sani per rilassarti
 
 Controllare i fattori di rischio può salvare la vostra vita. Anche piccoli cambiamenti nello stile di vita possono fare una grande differenza. Parlate con il vostro medico per un piano personalizzato di prevenzione.
 
@@ -234,22 +234,22 @@ Il recupero dopo un ictus è diverso per ogni persona e dipende da molti fattori
 
 **Cosa aspettarsi:**
 
-●**Molte persone recuperano bene** – Con le cure moderne e la riabilitazione, molti pazienti recuperano gran parte o tutta la funzione persa. Circa 70 persone su 100 sopravvivono al primo anno
+- **Molte persone recuperano bene** – Con le cure moderne e la riabilitazione, molti pazienti recuperano gran parte o tutta la funzione persa. Circa 70 persone su 100 sopravvivono al primo anno
 
-●**Il recupero è più rapido all'inizio** – I maggiori miglioramenti si vedono nei primi 3-6 mesi, ma il recupero può continuare per anni. Circa 10 persone su 100 recuperano completamente entro 3 mesi
+- **Il recupero è più rapido all'inizio** – I maggiori miglioramenti si vedono nei primi 3-6 mesi, ma il recupero può continuare per anni. Circa 10 persone su 100 recuperano completamente entro 3 mesi
 
-●**La riabilitazione è fondamentale** – Più intensa e precoce è la riabilitazione, migliore sarà il recupero
+- **La riabilitazione è fondamentale** – Più intensa e precoce è la riabilitazione, migliore sarà il recupero
 
-●**Ogni persona è diversa** – Alcuni recuperano completamente, altri hanno disabilità residue che possono essere gestite con supporti e adattamenti
+- **Ogni persona è diversa** – Alcuni recuperano completamente, altri hanno disabilità residue che possono essere gestite con supporti e adattamenti
 
 **Messaggio di speranza:**
 
 Grazie ai progressi nella medicina e nella riabilitazione:
 
-●Le cure moderne salvano vite e riducono notevolmente le disabilità
-●La riabilitazione intensiva può portare a recuperi sorprendenti
-●I farmaci di prevenzione riducono enormemente il rischio di un secondo ictus (dal 5-10% all'1-2% all'anno)
-●Con l'impegno e il supporto giusto, molte persone ritornano a una vita attiva
+- Le cure moderne salvano vite e riducono notevolmente le disabilità
+- La riabilitazione intensiva può portare a recuperi sorprendenti
+- I farmaci di prevenzione riducono enormemente il rischio di un secondo ictus (dal 5-10% all'1-2% all'anno)
+- Con l'impegno e il supporto giusto, molte persone ritornano a una vita attiva
 
 Non perdete mai la speranza. Anche piccoli progressi sono importanti, e il recupero può continuare nel tempo con pazienza e determinazione.
 
