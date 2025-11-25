@@ -830,14 +830,23 @@ Trigliceridi: `;
             ematoText.value = textLines.join("\n");
         }
 
+        function aggiornaSforzo() {
+            const sforzoNormale = document.getElementById("sforzo-normale");
+            const sforzoText = document.getElementById("sforzo-text");
+            if (!sforzoNormale || !sforzoText) return;
+            if (sforzoNormale.checked) {
+                sforzoText.value = "Test ergometrico massimale nei limiti della norma, senza evidenza di rilevanti anomalie cliniche o elettrocardiografiche (vedasi referto).";
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
             const ageInput = document.getElementById("age");
             const paoInput = document.getElementById("pao");
-            
+
             aggiornaEco();
             aggiornaEmatochimici();
             aggiornaSforzo();
-            
+
             document.querySelectorAll('input[name="eco-tipo"]').forEach(radio => radio.addEventListener("change", aggiornaEco));
             document.querySelectorAll('input[name="emato-tipo"]').forEach(radio => radio.addEventListener("change", aggiornaEmatochimici));
             document.querySelectorAll('input[name="sforzo-tipo"]').forEach(radio => radio.addEventListener("change", aggiornaSforzo));
@@ -913,13 +922,6 @@ Trigliceridi: `;
             }
         });
 
-        function aggiornaSforzo() {
-            const sforzoNormale = document.getElementById("sforzo-normale").checked;
-            const sforzoText = document.getElementById("sforzo-text");
-            if (sforzoNormale) {
-                sforzoText.value = "Test ergometrico massimale nei limiti della norma, senza evidenza di rilevanti anomalie cliniche o elettrocardiografiche (vedasi referto).";
-            }
-        }
     </script>
 </head>
 
