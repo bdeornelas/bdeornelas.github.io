@@ -25,29 +25,29 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.4;
+            line-height: 1.5;
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             min-height: 100vh;
             color: var(--text-color);
-            font-size: 0.95em;
+            font-size: 0.9em;
         }
 
         .container {
-            max-width: 1600px;
-            margin: 15px auto;
+            max-width: 1800px;
+            margin: 10px auto;
             padding: 0;
             background-color: #fff;
             box-shadow: var(--shadow-lg);
-            border-radius: 12px;
+            border-radius: 8px;
             overflow: hidden;
         }
 
         .header {
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
             color: white;
-            padding: 15px 20px;
+            padding: 12px 20px;
             text-align: center;
         }
 
@@ -58,59 +58,60 @@
         }
 
         .form-column {
-            flex: 0 0 65%;
+            flex: 0 0 68%;
             border-right: 1px solid var(--border-color);
         }
 
         .sidebar-column {
-            flex: 0 0 35%;
+            flex: 0 0 32%;
             position: sticky;
-            top: 15px;
-            max-height: calc(100vh - 30px);
+            top: 10px;
+            max-height: calc(100vh - 20px);
             overflow-y: auto;
+            padding-bottom: 10px;
         }
 
         .section {
             margin: 0;
             border: none;
-            padding: 8px 15px;
+            padding: 12px 20px;
             border-bottom: 1px solid var(--border-color);
             background-color: #fff;
-            transition: all 0.3s ease;
+            transition: background-color 0.2s ease;
         }
 
         .section:last-child { border-bottom: none; }
 
-        .section:hover { background-color: #fafbfc; transform: translateY(-1px); }
+        .section:hover { background-color: #fafbfc; }
 
         h1 {
             margin: 0;
-            font-size: 1.6em;
-            font-weight: 300;
+            font-size: 1.5em;
+            font-weight: 400;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
             color: var(--primary-color);
-            font-size: 1.1em;
+            font-size: 1.05em;
             font-weight: 600;
-            margin: 0 0 8px 0;
-            padding: 0 0 4px 0;
+            margin: 0 0 10px 0;
+            padding: 0 0 6px 0;
             border-bottom: 2px solid var(--accent-color);
             position: relative;
         }
 
-        h3 { color: var(--accent-color); font-size: 1em; margin: 8px 0 6px 0; font-weight: 500; }
+        h3 { color: var(--accent-color); font-size: 0.95em; margin: 8px 0 6px 0; font-weight: 500; }
 
-        label { display: block; margin-bottom: 4px; font-weight: 600; color: var(--text-color); font-size: 0.9em; }
+        label { display: block; margin-bottom: 5px; font-weight: 600; color: var(--text-color); font-size: 0.85em; }
 
         input[type="text"], input[type="number"], textarea {
             width: 100%;
-            padding: 6px 10px;
-            margin-bottom: 5px;
+            padding: 7px 10px;
+            margin-bottom: 6px;
             border: 1px solid var(--border-color);
             border-radius: 4px;
-            font-size: 0.9em;
+            font-size: 0.85em;
             transition: all 0.3s ease;
             background-color: #fff;
         }
@@ -122,19 +123,19 @@
 
         textarea { resize: vertical; font-family: inherit; min-height: 40px; }
 
-        .form-group { margin-bottom: 8px; }
+        .form-group { margin-bottom: 10px; }
 
-        .form-row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; flex-wrap: wrap; }
-        .form-row>div { flex: 1; min-width: 150px; }
+        .form-row { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; flex-wrap: wrap; }
+        .form-row>div { flex: 1; min-width: 160px; }
 
         input[type="checkbox"], input[type="radio"] { margin-right: 8px; transform: scale(1.2); accent-color: var(--accent-color); }
 
-        .checkbox-group, .radio-group { display: flex; flex-wrap: wrap; gap: 6px 15px; margin: 6px 0; }
+        .checkbox-group, .radio-group { display: flex; flex-wrap: wrap; gap: 8px 15px; margin: 8px 0; }
 
-        .checkbox-item, .radio-item { display: flex; align-items: center; cursor: pointer; padding: 4px 8px; border-radius: 4px; transition: background-color 0.2s ease; }
+        .checkbox-item, .radio-item { display: flex; align-items: center; cursor: pointer; padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s ease; }
         .checkbox-item:hover, .radio-item:hover { background-color: rgba(0, 123, 255, 0.05); }
 
-        .label-inline { margin: 0; font-weight: 500; cursor: pointer; user-select: none; font-size: 0.9em; }
+        .label-inline { margin: 0; font-weight: 500; cursor: pointer; user-select: none; font-size: 0.85em; }
 
         .checkbox-notification {
             display: none; font-size: 0.8em; font-weight: 600; margin-left: 6px;
@@ -147,8 +148,8 @@
 
         .terapia-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px 12px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px 15px;
         }
         .terapia-grid > div {
             display: flex;
@@ -159,14 +160,14 @@
 
         .score-section {
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            border-radius: 6px; padding: 8px; margin: 6px 0; border: 1px solid var(--border-color);
+            border-radius: 6px; padding: 10px; margin: 8px 0; border: 1px solid var(--border-color);
         }
-        .score-result { background: white; padding: 8px; border-radius: 4px; text-align: center; margin: 6px 0; border: 2px solid var(--danger-color); }
+        .score-result { background: white; padding: 10px; border-radius: 4px; text-align: center; margin: 8px 0; border: 2px solid var(--danger-color); }
 
         button.main-action {
-            width: 100%; padding: 10px 16px; font-size: 1em; font-weight: 600; cursor: pointer;
+            width: 100%; padding: 12px 16px; font-size: 0.95em; font-weight: 600; cursor: pointer;
             background: linear-gradient(135deg, var(--success-color) 0%, #20c997 100%);
-            color: white; border: none; border-radius: 6px; transition: all 0.3s ease; text-transform: uppercase; letter-spacing: 0.3px; box-shadow: var(--shadow);
+            color: white; border: none; border-radius: 6px; transition: all 0.3s ease; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: var(--shadow);
         }
         button.main-action:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3); background: linear-gradient(135deg, #218838 0%, #1e7e34 100%); }
         button.main-action:active { transform: translateY(0); }
@@ -177,8 +178,8 @@
         }
 
         #score2-result-display {
-            font-weight: bold; color: var(--danger-color); font-size: 1.3em;
-            padding: 5px 10px; background-color: rgba(220, 53, 69, 0.1); border-radius: 6px; display: inline-block;
+            font-weight: bold; color: var(--danger-color); font-size: 1.25em;
+            padding: 6px 12px; background-color: rgba(220, 53, 69, 0.1); border-radius: 6px; display: inline-block;
         }
 
         .error-message { color: var(--danger-color); font-size: 0.9em; margin-top: 8px; padding: 10px; background-color: rgba(220, 53, 69, 0.1); border-radius: 6px; border-left: 4px solid var(--danger-color); }
@@ -190,23 +191,24 @@
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             border: 2px solid var(--border-color);
             color: var(--text-color);
-            line-height: 1.6;
+            line-height: 1.5;
             white-space: pre-wrap;
             word-wrap: break-word;
-            border-radius: 8px;
-            padding: 20px;
+            border-radius: 6px;
+            padding: 15px;
+            font-size: 0.8em;
         }
 
         /* (AI review non presente su /normale) */
 
-        .note { font-size: 0.8em; color: var(--text-muted); display: block; margin-top: -4px; margin-bottom: 4px; font-style: italic; }
+        .note { font-size: 0.75em; color: var(--text-muted); display: block; margin-top: -3px; margin-bottom: 5px; font-style: italic; }
 
-        .card { background: white; border-radius: 4px; padding: 8px; margin: 6px 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); border: 1px solid var(--border-color); }
+        .card { background: white; border-radius: 4px; padding: 10px; margin: 8px 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); border: 1px solid var(--border-color); }
 
         .anamnesi-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
+            gap: 15px;
         }
 
         .anamnesi-grid > div {
@@ -214,32 +216,46 @@
         }
 
         .anamnesi-grid label {
-            margin-bottom: 3px;
+            margin-bottom: 4px;
             font-size: 0.85em;
         }
 
         .anamnesi-grid textarea {
-            min-height: 35px;
+            min-height: 40px;
             rows: 1;
         }
 
         .esame-obiettivo-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 10px;
+            gap: 15px;
         }
 
         .conclusioni-checkbox-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 4px;
+            gap: 6px 10px;
         }
 
         .radio-inline-group {
             display: flex;
             gap: 15px;
             flex-wrap: wrap;
-            margin: 6px 0;
+            margin: 8px 0;
+        }
+
+        @media (min-width: 1600px) {
+            .container { max-width: 1850px; }
+            .form-column { flex: 0 0 70%; }
+            .sidebar-column { flex: 0 0 30%; }
+            .anamnesi-grid { gap: 20px; }
+            .terapia-grid { gap: 12px 20px; }
+        }
+
+        @media (max-width: 1400px) {
+            .form-column { flex: 0 0 65%; }
+            .sidebar-column { flex: 0 0 35%; }
+            .terapia-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 768px) {
@@ -248,6 +264,9 @@
             .form-row { flex-direction: column; gap: 0; }
             .checkbox-group, .radio-group { flex-direction: column; gap: 10px; }
             .terapia-row { flex-direction: column; gap: 0; }
+            .anamnesi-grid, .terapia-grid { grid-template-columns: 1fr; }
+            .main-layout { flex-direction: column; }
+            .form-column, .sidebar-column { flex: 1; border: none; }
             h1 { font-size: 1.8em; }
             h2 { font-size: 1.2em; }
         }
@@ -940,15 +959,14 @@ Trigliceridi: `;
         <div class="section">
             <h2>⚠️ Fattori di Rischio Cardiovascolare</h2>
             <div class="card">
-                <label>Fattori di Rischio Generali</label>
-                <div class="checkbox-group" style="grid-template-columns: repeat(3, 1fr); display: grid;">
-                    <div class="checkbox-item"><input type="checkbox" id="fumo" name="fumo"><label for="fumo" class="label-inline">🚬 Fumo Attuale</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="pregresso-fumo" name="pregresso-fumo"><label for="pregresso-fumo" class="label-inline">🚭 Pregresso fumo</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="diabete" name="diabete"><label for="diabete" class="label-inline">🩸 Diabete</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="ipertensione" name="ipertensione"><label for="ipertensione" class="label-inline">📈 Ipertensione</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="ipercolesterolemia" name="ipercolesterolemia"><label for="ipercolesterolemia" class="label-inline">🧪 Ipercolesterolemia</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="obesita" name="obesita"><label for="obesita" class="label-inline">⚖️ Obesità</label></div>
-                    <div class="checkbox-item"><input type="checkbox" id="familiarita" name="familiarita"><label for="familiarita" class="label-inline">👨‍👩‍👧‍👦 Familiarità positiva per MCV</label></div>
+                <div class="checkbox-group" style="grid-template-columns: repeat(4, 1fr); display: grid; gap: 8px 12px;">
+                    <div class="checkbox-item"><input type="checkbox" id="fumo" name="fumo"><label for="fumo" class="label-inline">Fumo Attuale</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="pregresso-fumo" name="pregresso-fumo"><label for="pregresso-fumo" class="label-inline">Pregresso fumo</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="diabete" name="diabete"><label for="diabete" class="label-inline">Diabete</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="ipertensione" name="ipertensione"><label for="ipertensione" class="label-inline">Ipertensione</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="ipercolesterolemia" name="ipercolesterolemia"><label for="ipercolesterolemia" class="label-inline">Ipercolesterolemia</label></div>
+                    <div class="checkbox-item"><input type="checkbox" id="obesita" name="obesita"><label for="obesita" class="label-inline">Obesità</label></div>
+                    <div class="checkbox-item" style="grid-column: span 2;"><input type="checkbox" id="familiarita" name="familiarita"><label for="familiarita" class="label-inline">Familiarità positiva per MCV</label></div>
                 </div>
             </div>
         </div>
@@ -982,7 +1000,12 @@ Trigliceridi: `;
                 <div><input type="text" id="farmaco4" placeholder="Farmaco 4"><input type="text" id="dose4" placeholder="mg"></div>
                 <div><input type="text" id="farmaco5" placeholder="Farmaco 5"><input type="text" id="dose5" placeholder="mg"></div>
                 <div><input type="text" id="farmaco6" placeholder="Farmaco 6"><input type="text" id="dose6" placeholder="mg"></div>
-                <div><input type="text" id="farmaco7" placeholder="Farmaco 7"><input type="text" id="dose7" placeholder="mg"></div>
+            </div>
+            <div style="margin-top: 10px;">
+                <div style="display: flex; gap: 8px;">
+                    <input type="text" id="farmaco7" placeholder="Farmaco 7" style="flex: 2;">
+                    <input type="text" id="dose7" placeholder="mg" style="flex: 1;">
+                </div>
             </div>
         </div>
 
@@ -1040,22 +1063,22 @@ Trigliceridi: `;
         </div>
 
         <div class="section">
-            <h2>📝 Conclusioni e Raccomandazioni Terapeutiche</h2>
-            <div class="conclusioni-checkbox-grid">
-                <div><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia" class="label-inline">Confermare terapia in atto.</label></div>
-                <div><input type="checkbox" id="consiglio-angio-tc"><label for="consiglio-angio-tc" class="label-inline">Indicazione ad angio-TC coronarica.</label></div>
-                <div><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter" class="label-inline">Indicazione ad ECG-Holter 24h.</label></div>
-                <div><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco" class="label-inline">Indicazione ad EcocolorDoppler cardiaco.</label></div>
-                <div><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging" class="label-inline">Indicazione a test imaging da stress (eco, scinti, RMN).</label></div>
-                <div><input type="checkbox" id="consiglio-no-accertamenti"><label for="consiglio-no-accertamenti" class="label-inline">Non indicati ulteriori accertamenti.</label></div>
-                <div><input type="checkbox" id="consiglio-ematochimici"><label for="consiglio-ematochimici" class="label-inline">Indicazione a controllo esami ematochimici completi.</label></div>
+            <h2>📝 Conclusioni e Raccomandazioni</h2>
+            <div class="conclusioni-checkbox-grid" style="margin-bottom: 10px;">
+                <div><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia" class="label-inline">Confermare terapia in atto</label></div>
+                <div><input type="checkbox" id="consiglio-angio-tc"><label for="consiglio-angio-tc" class="label-inline">Angio-TC coronarica</label></div>
+                <div><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter" class="label-inline">ECG-Holter 24h</label></div>
+                <div><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco" class="label-inline">EcocolorDoppler cardiaco</label></div>
+                <div><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging" class="label-inline">Test imaging da stress</label></div>
+                <div><input type="checkbox" id="consiglio-ematochimici"><label for="consiglio-ematochimici" class="label-inline">Esami ematochimici</label></div>
+                <div><input type="checkbox" id="consiglio-no-accertamenti"><label for="consiglio-no-accertamenti" class="label-inline">Nessun ulteriore accertamento</label></div>
             </div>
-            <label for="conclusioni-custom" style="margin-top: 8px;">Note Aggiuntive:</label>
+            <label for="conclusioni-custom" style="margin-top: 6px;">Note Aggiuntive:</label>
             <textarea id="conclusioni-custom" rows="1" placeholder="(Opzionale) Aggiungere testo libero..."></textarea>
-            <div style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 10px;">
-                <div class="checkbox-item" style="padding: 3px 6px;"><input type="checkbox" id="aggiungi-consigli-lipidi-cb"><label for="aggiungi-consigli-lipidi-cb" class="label-inline">📊 Consigli Lipidi</label><span id="aggiungi-lipidi-notification-cb" class="checkbox-notification warning">On</span></div>
-                <div class="checkbox-item" style="padding: 3px 6px;"><input type="checkbox" id="copia-test-secondaria-cb"><label for="copia-test-secondaria-cb" class="label-inline">🔬 Ipertens. 2ria</label><span id="copia-secondaria-notification-cb" class="checkbox-notification success">✓</span></div>
-                <div class="checkbox-item" style="padding: 3px 6px;"><input type="checkbox" id="include-contact-info-cb"><label for="include-contact-info-cb" class="label-inline">📧 Contatti</label><span id="include-contact-info-notification-cb" class="checkbox-notification contact">On</span></div>
+            <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+                <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="aggiungi-consigli-lipidi-cb"><label for="aggiungi-consigli-lipidi-cb" class="label-inline">Consigli Lipidi</label><span id="aggiungi-lipidi-notification-cb" class="checkbox-notification warning">On</span></div>
+                <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="copia-test-secondaria-cb"><label for="copia-test-secondaria-cb" class="label-inline">Ipertens. 2ria</label><span id="copia-secondaria-notification-cb" class="checkbox-notification success">OK</span></div>
+                <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="include-contact-info-cb"><label for="include-contact-info-cb" class="label-inline">Info Contatto</label><span id="include-contact-info-notification-cb" class="checkbox-notification contact">On</span></div>
             </div>
         </div>
 
@@ -1064,63 +1087,67 @@ Trigliceridi: `;
         <div class="sidebar-column">
 
         <div class="section">
-            <h2>📊 Calcolo SCORE2 e LDL</h2>
-            <div class="score-section" style="margin: 0; padding: 10px;">
-                <div class="form-group">
-                    <label for="pao">🩺 PAO (Esame Obiettivo)</label>
+            <h2>📊 SCORE2 e Lipidi</h2>
+            <div class="score-section" style="margin: 0; padding: 12px;">
+                <div class="form-group" style="margin-bottom: 8px;">
+                    <label for="pao">PAO (Esame Obiettivo)</label>
                     <input type="text" id="pao" name="pao" value="120/80 mmHg" placeholder="Es. 130/85 mmHg">
-                    <span class="note">Il valore sistolico verrà usato per SBP.</span>
-                    <div id="bp-category-display" class="info-message" aria-live="polite" role="status" style="margin-top:6px; display:none;"></div>
+                    <span class="note">Sistolica auto-popolata in SBP sotto.</span>
+                    <div id="bp-category-display" class="info-message" aria-live="polite" role="status" style="margin-top:6px; display:none; padding: 6px; font-size: 0.75em;"></div>
                 </div>
-                <div class="form-row">
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
                     <div>
                         <label for="sbp">SBP</label>
                         <input type="number" id="sbp" name="sbp" placeholder="mmHg" readonly>
                     </div>
+                    <div>
+                        <label for="col-tot">Col Tot</label>
+                        <input type="number" id="col-tot" name="col-tot" placeholder="mg/dL">
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="col-tot">Col Totale</label>
-                    <input type="number" id="col-tot" name="col-tot" placeholder="mg/dL">
-                </div>
-                <div class="form-group">
-                    <label for="col-hdl">Col HDL</label>
-                    <input type="number" id="col-hdl" name="col-hdl" placeholder="mg/dL">
-                </div>
-                <div class="form-group">
-                    <label for="trigliceridi-score">Trigliceridi</label>
-                    <input type="number" id="trigliceridi-score" name="trigliceridi-score" placeholder="mg/dL">
-                </div>
-                <div class="form-group">
-                    <label for="ldl-calculated">LDL (calcolato)</label>
-                    <input type="text" id="ldl-calculated" name="ldl-calculated" placeholder="mg/dL" readonly>
-                    <span id="ldl-calculation-note" class="note">Formula di Friedewald (Trig < 400).</span>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+                    <div>
+                        <label for="col-hdl">HDL</label>
+                        <input type="number" id="col-hdl" name="col-hdl" placeholder="mg/dL">
+                    </div>
+                    <div>
+                        <label for="trigliceridi-score">Trigliceridi</label>
+                        <input type="number" id="trigliceridi-score" name="trigliceridi-score" placeholder="mg/dL">
+                    </div>
                 </div>
 
-                <div class="info-message" style="font-size: 0.85em; padding: 8px;">
-                    💡 I valori lipidici popoleranno automaticamente la sezione Ematochimici.
+                <div class="form-group" style="margin-bottom: 8px;">
+                    <label for="ldl-calculated">LDL (calcolato - Friedewald)</label>
+                    <input type="text" id="ldl-calculated" name="ldl-calculated" placeholder="Auto" readonly>
+                    <span id="ldl-calculation-note" class="note">Valido per Trigliceridi < 400 mg/dL.</span>
+                </div>
+
+                <div class="info-message" style="font-size: 0.75em; padding: 6px; margin: 8px 0;">
+                    I valori lipidici popoleranno automaticamente la sezione Ematochimici.
                 </div>
 
                 <!-- Regione fissa: Moderato (Italia) -->
                 <input type="radio" id="region-moderate" name="risk_region" value="2" checked="" style="display: none;">
 
-                <div class="score-result" style="padding: 8px; margin: 8px 0;">
-                    <label style="font-size: 1em; margin-bottom: 6px;">🎯 Rischio CVD a 10 anni (SCORE2)</label>
+                <div class="score-result" style="padding: 10px; margin: 8px 0;">
+                    <label style="font-size: 0.9em; margin-bottom: 6px; display: block;">Rischio CVD 10y (SCORE2 - Italia)</label>
                     <div>
                         <span id="score2-result-display">-</span>
                     </div>
-                    <span class="note">Questo valore apparirà anche nel testo generato.</span>
+                    <span class="note">Apparirà nel report finale.</span>
                 </div>
 
-                <div id="score2-error" class="error-message" style="padding: 8px; font-size: 0.85em;"></div>
+                <div id="score2-error" class="error-message" style="padding: 6px; font-size: 0.75em;"></div>
             </div>
         </div>
 
         <div class="section" id="output-visita-section">
             <h2>📄 Output Visita</h2>
-            <button type="button" class="main-action" onclick="compilaVisita()" style="margin-bottom: 6px;">Compila e Copia</button>
-            <textarea id="output-visita" name="output-visita" rows="35" placeholder="L'output della visita verrà generato qui..." readonly style="font-size: 0.85em; line-height: 1.3;"></textarea>
-            <div id="copy-notification" class="copy-notification" style="padding: 6px; margin-top: 8px; font-size: 0.9em;">Testo visita copiato negli appunti!</div>
+            <button type="button" class="main-action" onclick="compilaVisita()" style="margin-bottom: 8px;">Compila e Copia</button>
+            <textarea id="output-visita" name="output-visita" rows="32" placeholder="L'output della visita verrà generato qui..." readonly style="font-size: 0.8em; line-height: 1.4;"></textarea>
+            <div id="copy-notification" class="copy-notification" style="padding: 8px; margin-top: 8px; font-size: 0.85em;">Testo visita copiato negli appunti!</div>
         </div>
 
         </div><!-- End sidebar-column -->
