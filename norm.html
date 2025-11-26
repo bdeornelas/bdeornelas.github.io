@@ -514,6 +514,39 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
         }
         // === END ===
 
+        // Robust clipboard copy with fallback
+        function copyToClipboard(text) {
+            // Try modern Clipboard API first (requires HTTPS)
+            if (navigator.clipboard && window.isSecureContext) {
+                return navigator.clipboard.writeText(text);
+            } else {
+                // Fallback for HTTP or older browsers
+                return new Promise((resolve, reject) => {
+                    const textArea = document.createElement("textarea");
+                    textArea.value = text;
+                    textArea.style.position = "fixed";
+                    textArea.style.left = "-999999px";
+                    textArea.style.top = "-999999px";
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+
+                    try {
+                        const successful = document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                        if (successful) {
+                            resolve();
+                        } else {
+                            reject(new Error("execCommand('copy') failed"));
+                        }
+                    } catch (err) {
+                        document.body.removeChild(textArea);
+                        reject(err);
+                    }
+                });
+            }
+        }
+
         function compilaVisita() {
             const indent = " ";
             const sectionSeparator = "\n\n";
@@ -654,22 +687,27 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             output = normalizeLineEndings(output, false);
 
             document.getElementById("output-visita").value = output.trim();
-            navigator.clipboard.writeText(output.trim()).then(() => {
-                showAndHideNotification('copy-notification', true);
-                aggiungereConsigliLipidi = false;
-                document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
-                document.getElementById('copia-template-sforzo-cb').checked = false;
-                document.getElementById('copia-test-secondaria-cb').checked = false;
-                document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
-                document.getElementById('include-contact-info-notification-cb').style.display = 'none';
-            }).catch(err => {
-                alert("Non è stato possibile copiare il testo automaticamente.");
-                document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
-                document.getElementById('copia-template-sforzo-cb').checked = false;
-                document.getElementById('copia-test-secondaria-cb').checked = false;
-                document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
-                document.getElementById('include-contact-info-notification-cb').style.display = 'none';
-            });
+
+            // Try modern clipboard API first, fallback to execCommand
+            copyToClipboard(output.trim())
+                .then(() => {
+                    showAndHideNotification('copy-notification', true);
+                    aggiungereConsigliLipidi = false;
+                    document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
+                    document.getElementById('copia-template-sforzo-cb').checked = false;
+                    document.getElementById('copia-test-secondaria-cb').checked = false;
+                    document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
+                    document.getElementById('include-contact-info-notification-cb').style.display = 'none';
+                })
+                .catch(err => {
+                    console.error('Copy failed:', err);
+                    alert("Non è stato possibile copiare il testo automaticamente. Errore: " + err.message);
+                    document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
+                    document.getElementById('copia-template-sforzo-cb').checked = false;
+                    document.getElementById('copia-test-secondaria-cb').checked = false;
+                    document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
+                    document.getElementById('include-contact-info-notification-cb').style.display = 'none';
+                });
         }
 
         function showAndHideNotification(notificationId, isMainNotification = false) {
@@ -681,11 +719,12 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
 
         function copiaTestSecondaria(notificationId) {
             const testoDaCopiare = "Si richiedono esami ematochimici comprensivi di Creatinina, Potassio, Sodio, TSH, rapporto Aldosterone/Renina (ARR). Esame urine completo con rapporto Albumina/Creatinina (ACR). EcoDoppler delle Arterie Renali.";
-            navigator.clipboard.writeText(testoDaCopiare).then(() => {
+            copyToClipboard(testoDaCopiare).then(() => {
                 showAndHideNotification(notificationId);
                 setTimeout(() => { document.getElementById('copia-test-secondaria-cb').checked = false; }, 100);
             }).catch(err => {
-                alert("Non è stato possibile copiare il testo negli appunti.");
+                console.error('Copy failed:', err);
+                alert("Non è stato possibile copiare il testo negli appunti. Errore: " + err.message);
             });
         }
 
@@ -704,11 +743,12 @@ Sintomi: no.
 CONCLUSIONI:
 Test negativo per ridotta riserva coronarica.
 Capacità funzionale normale.`;
-            navigator.clipboard.writeText(templateText).then(() => {
+            copyToClipboard(templateText).then(() => {
                 showAndHideNotification(notificationId);
                 setTimeout(() => { document.getElementById('copia-template-sforzo-cb').checked = false; }, 100);
             }).catch(err => {
-                alert("Non è stato possibile copiare il template negli appunti.");
+                console.error('Copy failed:', err);
+                alert("Non è stato possibile copiare il template negli appunti. Errore: " + err.message);
             });
         }
 
