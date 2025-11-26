@@ -275,205 +275,6 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
         .options-row { display:flex; gap:20px; align-items:center; flex-wrap:wrap; }
-
-        /* ===== RADIAL MARKING MENU STYLES ===== */
-        .radial-menu-container {
-            position: relative;
-            min-height: 500px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* Trigger Button */
-        .radial-trigger {
-            cursor: pointer;
-            background: linear-gradient(135deg, var(--primary-color), #0056b3);
-            color: white;
-            border: none;
-            border-radius: 60px;
-            padding: 16px 32px;
-            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-            position: relative;
-            z-index: 10;
-        }
-
-        .radial-trigger:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 25px rgba(0, 123, 255, 0.5);
-        }
-
-        .radial-trigger:active {
-            transform: scale(0.95);
-        }
-
-        .trigger-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-weight: 600;
-        }
-
-        .trigger-icon {
-            font-size: 1.5em;
-        }
-
-        .trigger-label {
-            font-size: 1em;
-        }
-
-        .trigger-badge {
-            background: white;
-            color: var(--primary-color);
-            border-radius: 50%;
-            width: 28px;
-            height: 28px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.85em;
-            font-weight: 700;
-            transition: all 0.3s ease;
-        }
-
-        .trigger-badge.has-selection {
-            animation: pulseBadge 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-            background: #ffeb3b;
-            color: #333;
-        }
-
-        /* Backdrop */
-        .radial-backdrop {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(8px);
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.4s ease;
-            z-index: 999;
-        }
-
-        .radial-backdrop.active {
-            opacity: 1;
-            pointer-events: all;
-        }
-
-        /* Radial Items Container */
-        .radial-items {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
-            z-index: 1000;
-        }
-
-        .radial-items.active {
-            pointer-events: all;
-        }
-
-        /* Individual Radial Item */
-        .radial-item {
-            position: absolute;
-            background: white;
-            border: 2px solid var(--primary-color);
-            border-radius: 12px;
-            padding: 12px 18px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-            transform-origin: center;
-            opacity: 0;
-            transform: translate(-50%, -50%) scale(0) rotate(-90deg);
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            min-width: 200px;
-        }
-
-        .radial-item:hover {
-            transform: translate(-50%, -50%) scale(1.1) !important;
-            box-shadow: 0 6px 30px rgba(0, 123, 255, 0.4);
-            border-color: #0056b3;
-            z-index: 1001;
-        }
-
-        .radial-item input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            accent-color: var(--primary-color);
-        }
-
-        .radial-item label {
-            cursor: pointer;
-            margin: 0;
-            font-weight: 500;
-            flex: 1;
-        }
-
-        /* Wave Animation Keyframes */
-        @keyframes waveIn {
-            0% {
-                opacity: 0;
-                transform: translate(-50%, -50%) scale(0) rotate(-90deg);
-            }
-            60% {
-                transform: translate(var(--target-x), var(--target-y)) scale(1.1) rotate(0deg);
-            }
-            100% {
-                opacity: 1;
-                transform: translate(var(--target-x), var(--target-y)) scale(1) rotate(0deg);
-            }
-        }
-
-        @keyframes waveOut {
-            0% {
-                opacity: 1;
-                transform: translate(var(--target-x), var(--target-y)) scale(1) rotate(0deg);
-            }
-            100% {
-                opacity: 0;
-                transform: translate(-50%, -50%) scale(0) rotate(90deg);
-            }
-        }
-
-        @keyframes pulseBadge {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.3); }
-        }
-
-        /* Active states with animation */
-        .radial-item.wave-in {
-            animation: waveIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-        }
-
-        .radial-item.wave-out {
-            animation: waveOut 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards;
-        }
-
-        /* Mobile responsive */
-        @media (max-width: 768px) {
-            .radial-menu-container {
-                min-height: 350px;
-            }
-
-            .radial-item {
-                min-width: 160px;
-                padding: 10px 14px;
-                font-size: 0.9em;
-            }
-
-            .trigger-label {
-                font-size: 0.9em;
-            }
-        }
     </style>
     <script>
         let aggiungereConsigliLipidi = false;
@@ -1033,130 +834,56 @@ Trigliceridi: `;
             }
         }
 
-        // ===== RADIAL MARKING MENU JAVASCRIPT =====
-        let activeRadialMenu = null;
+        // ===== SCENARIO SELECTION LOGIC =====
+        function handleScenarioChange() {
+            const select = document.getElementById('scenario-select');
+            const selectedValue = select.value;
 
-        function toggleRadialMenu(menuId) {
-            if (activeRadialMenu === menuId) {
-                closeRadialMenu(menuId);
-            } else {
-                if (activeRadialMenu) closeRadialMenu(activeRadialMenu);
-                openRadialMenu(menuId);
-            }
-        }
-
-        function openRadialMenu(menuId) {
-            activeRadialMenu = menuId;
-            const backdrop = document.getElementById(menuId + '-backdrop');
-            const itemsContainer = document.getElementById(menuId + '-items');
-            const items = itemsContainer.querySelectorAll('.radial-item');
-
-            // Activate backdrop
-            backdrop.classList.add('active');
-            itemsContainer.classList.add('active');
-
-            // Calculate radial positions
-            const itemCount = items.length;
-            const radius = 200; // Distance from center (increased for 10 items)
-            const startAngle = -135; // 3/4 circle layout
-            const endAngle = 135;
-            const angleStep = (endAngle - startAngle) / (itemCount - 1);
-
-            // Position and animate items with wave effect
-            items.forEach((item, index) => {
-                const angle = (startAngle + (angleStep * index)) * (Math.PI / 180);
-                const x = Math.cos(angle) * radius;
-                const y = Math.sin(angle) * radius;
-
-                // Set CSS variables for target position
-                item.style.setProperty('--target-x', `calc(-50% + ${x}px)`);
-                item.style.setProperty('--target-y', `calc(-50% + ${y}px)`);
-
-                // Stagger animation (wave effect)
-                setTimeout(() => {
-                    item.classList.remove('wave-out');
-                    item.classList.add('wave-in');
-                }, index * 50); // 50ms delay between each item
-            });
-
-            // Haptic feedback (if supported)
-            if (navigator.vibrate) navigator.vibrate(10);
-        }
-
-        function closeRadialMenu(menuId) {
-            if (activeRadialMenu !== menuId) return;
-
-            const backdrop = document.getElementById(menuId + '-backdrop');
-            const itemsContainer = document.getElementById(menuId + '-items');
-            const items = itemsContainer.querySelectorAll('.radial-item');
-
-            // Reverse wave animation
-            items.forEach((item, index) => {
-                setTimeout(() => {
-                    item.classList.remove('wave-in');
-                    item.classList.add('wave-out');
-                }, index * 30); // Faster close animation
-            });
-
-            // Deactivate backdrop after animation
-            setTimeout(() => {
-                backdrop.classList.remove('active');
-                itemsContainer.classList.remove('active');
-                activeRadialMenu = null;
-            }, items.length * 30 + 300);
-        }
-
-        function updateRadialBadge(menuId) {
-            const checkboxIds = [
+            // Deselect all checkboxes first
+            const allCheckboxes = [
                 'consiglio-terapia', 'consiglio-angio-tc', 'consiglio-holter',
                 'consiglio-eco', 'consiglio-imaging', 'consiglio-ematochimici',
                 'consiglio-no-accertamenti', 'aggiungi-consigli-lipidi-cb',
                 'copia-test-secondaria-cb', 'include-contact-info-cb'
             ];
+            allCheckboxes.forEach(id => {
+                const checkbox = document.getElementById(id);
+                if (checkbox) checkbox.checked = false;
+            });
 
-            const selectedCount = checkboxIds.filter(id => document.getElementById(id)?.checked).length;
-            const badge = document.getElementById(menuId + '-badge');
+            // Map scenario to checkbox
+            const scenarioMap = {
+                'terapia': 'consiglio-terapia',
+                'angio-tc': 'consiglio-angio-tc',
+                'holter': 'consiglio-holter',
+                'eco': 'consiglio-eco',
+                'imaging': 'consiglio-imaging',
+                'ematochimici': 'consiglio-ematochimici',
+                'no-accertamenti': 'consiglio-no-accertamenti',
+                'lipidi': 'aggiungi-consigli-lipidi-cb',
+                'ipertensione': 'copia-test-secondaria-cb',
+                'contatto': 'include-contact-info-cb'
+            };
 
-            badge.textContent = selectedCount;
+            // Check the selected scenario checkbox
+            if (selectedValue && scenarioMap[selectedValue]) {
+                const checkboxId = scenarioMap[selectedValue];
+                const checkbox = document.getElementById(checkboxId);
+                if (checkbox) {
+                    checkbox.checked = true;
 
-            if (selectedCount > 0) {
-                badge.classList.add('has-selection');
+                    // Handle special scenarios
+                    if (selectedValue === 'lipidi') {
+                        aggiungereConsigliLipidi = true;
+                    } else if (selectedValue === 'ipertensione') {
+                        copiaTestSecondaria('copia-secondaria-notification-cb');
+                    }
+                }
             } else {
-                badge.classList.remove('has-selection');
+                // Reset special flags
+                aggiungereConsigliLipidi = false;
             }
         }
-
-        // Touch gesture support for swipe-close
-        let touchStartY = 0;
-        document.addEventListener('touchstart', (e) => {
-            if (activeRadialMenu && e.target.closest('.radial-backdrop')) {
-                touchStartY = e.touches[0].clientY;
-            }
-        });
-
-        document.addEventListener('touchmove', (e) => {
-            if (activeRadialMenu && touchStartY > 0) {
-                const touchY = e.touches[0].clientY;
-                const deltaY = touchY - touchStartY;
-
-                // Swipe down to close (>50px threshold)
-                if (deltaY > 50) {
-                    closeRadialMenu(activeRadialMenu);
-                    touchStartY = 0;
-                }
-            }
-        });
-
-        document.addEventListener('touchend', () => {
-            touchStartY = 0;
-        });
-
-        // ESC key to close
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && activeRadialMenu) {
-                closeRadialMenu(activeRadialMenu);
-            }
-        });
 
         document.addEventListener("DOMContentLoaded", () => {
             const ageInput = document.getElementById("age");
@@ -1171,7 +898,7 @@ Trigliceridi: `;
             document.querySelectorAll('input[name="sforzo-tipo"]').forEach(radio => radio.addEventListener("change", aggiornaSforzo));
             
             document.getElementById('copia-template-sforzo-cb').addEventListener('change', (e) => { if (e.target.checked) copiaTemplateSforzo('copia-sforzo-notification-cb'); });
-            document.getElementById('copia-test-secondaria-cb').addEventListener('change', (e) => { if (e.target.checked) copiaTestSecondaria('copia-secondaria-notification-cb'); updateRadialBadge('conclusioni'); });
+            document.getElementById('copia-test-secondaria-cb').addEventListener('change', (e) => { if (e.target.checked) copiaTestSecondaria('copia-secondaria-notification-cb'); });
 
             const aggiungiLipidiCb = document.getElementById('aggiungi-consigli-lipidi-cb');
             const lipidiNotif = document.getElementById('aggiungi-lipidi-notification-cb');
@@ -1179,7 +906,6 @@ Trigliceridi: `;
                 aggiungereConsigliLipidi = aggiungiLipidiCb.checked;
                 lipidiNotif.style.display = aggiungereConsigliLipidi ? 'inline' : 'none';
                 if (aggiungereConsigliLipidi) setTimeout(() => { lipidiNotif.style.display = 'none'; }, 3000);
-                updateRadialBadge('conclusioni');
             });
 
             const includeContactCb = document.getElementById('include-contact-info-cb');
@@ -1187,11 +913,7 @@ Trigliceridi: `;
             includeContactCb.addEventListener('change', () => {
                 contactNotif.style.display = includeContactCb.checked ? 'inline' : 'none';
                 if (includeContactCb.checked) setTimeout(() => { contactNotif.style.display = 'none'; }, 3000);
-                updateRadialBadge('conclusioni');
             });
-
-            // Initialize radial menu badge
-            updateRadialBadge('conclusioni');
             
             paoInput.addEventListener('input', updateSbpFromPao);
             
@@ -1391,66 +1113,35 @@ Trigliceridi: `;
         <div class="section">
             <h2>📝 Conclusioni e Raccomandazioni</h2>
 
-            <!-- Unified Radial Menu -->
-            <div class="radial-menu-container" id="conclusioni-container">
-                <div class="radial-trigger" onclick="toggleRadialMenu('conclusioni')">
-                    <div class="trigger-content">
-                        <span class="trigger-icon">📋</span>
-                        <span class="trigger-label">Opzioni Cliniche</span>
-                        <span class="trigger-badge" id="conclusioni-badge">0</span>
-                    </div>
-                </div>
+            <div class="form-group">
+                <label for="scenario-select">Seleziona Scenario Clinico</label>
+                <select id="scenario-select" name="scenario-select" onchange="handleScenarioChange()">
+                    <option value="">-- Seleziona uno scenario --</option>
+                    <option value="terapia">Confermare terapia in atto</option>
+                    <option value="angio-tc">Angio-TC coronarica</option>
+                    <option value="holter">ECG-Holter 24h</option>
+                    <option value="eco">EcocolorDoppler cardiaco</option>
+                    <option value="imaging">Test imaging da stress</option>
+                    <option value="ematochimici">Esami ematochimici</option>
+                    <option value="no-accertamenti">Nessun ulteriore accertamento</option>
+                    <option value="lipidi">Consigli Lipidi</option>
+                    <option value="ipertensione">Ipertensione secondaria</option>
+                    <option value="contatto">Info Contatto</option>
+                </select>
+            </div>
 
-                <div class="radial-backdrop" id="conclusioni-backdrop" onclick="closeRadialMenu('conclusioni')"></div>
-
-                <div class="radial-items" id="conclusioni-items">
-                    <!-- Raccomandazioni Cliniche -->
-                    <div class="radial-item" data-index="0">
-                        <input type="checkbox" id="consiglio-terapia" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-terapia">Confermare terapia in atto</label>
-                    </div>
-                    <div class="radial-item" data-index="1">
-                        <input type="checkbox" id="consiglio-angio-tc" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-angio-tc">Angio-TC coronarica</label>
-                    </div>
-                    <div class="radial-item" data-index="2">
-                        <input type="checkbox" id="consiglio-holter" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-holter">ECG-Holter 24h</label>
-                    </div>
-                    <div class="radial-item" data-index="3">
-                        <input type="checkbox" id="consiglio-eco" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-eco">EcocolorDoppler cardiaco</label>
-                    </div>
-                    <div class="radial-item" data-index="4">
-                        <input type="checkbox" id="consiglio-imaging" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-imaging">Test imaging da stress</label>
-                    </div>
-                    <div class="radial-item" data-index="5">
-                        <input type="checkbox" id="consiglio-ematochimici" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-ematochimici">Esami ematochimici</label>
-                    </div>
-                    <div class="radial-item" data-index="6">
-                        <input type="checkbox" id="consiglio-no-accertamenti" onchange="updateRadialBadge('conclusioni')">
-                        <label for="consiglio-no-accertamenti">Nessun ulteriore accertamento</label>
-                    </div>
-
-                    <!-- Opzioni Aggiuntive -->
-                    <div class="radial-item" data-index="7">
-                        <input type="checkbox" id="aggiungi-consigli-lipidi-cb" onchange="updateRadialBadge('conclusioni')">
-                        <label for="aggiungi-consigli-lipidi-cb">Consigli Lipidi</label>
-                        <span id="aggiungi-lipidi-notification-cb" class="checkbox-notification warning">On</span>
-                    </div>
-                    <div class="radial-item" data-index="8">
-                        <input type="checkbox" id="copia-test-secondaria-cb" onchange="updateRadialBadge('conclusioni')">
-                        <label for="copia-test-secondaria-cb">Ipertens. 2ria</label>
-                        <span id="copia-secondaria-notification-cb" class="checkbox-notification success">OK</span>
-                    </div>
-                    <div class="radial-item" data-index="9">
-                        <input type="checkbox" id="include-contact-info-cb" onchange="updateRadialBadge('conclusioni')">
-                        <label for="include-contact-info-cb">Info Contatto</label>
-                        <span id="include-contact-info-notification-cb" class="checkbox-notification contact">On</span>
-                    </div>
-                </div>
+            <!-- Hidden checkboxes to maintain compatibility with existing code -->
+            <div style="display: none;">
+                <input type="checkbox" id="consiglio-terapia">
+                <input type="checkbox" id="consiglio-angio-tc">
+                <input type="checkbox" id="consiglio-holter">
+                <input type="checkbox" id="consiglio-eco">
+                <input type="checkbox" id="consiglio-imaging">
+                <input type="checkbox" id="consiglio-ematochimici">
+                <input type="checkbox" id="consiglio-no-accertamenti">
+                <input type="checkbox" id="aggiungi-consigli-lipidi-cb">
+                <input type="checkbox" id="copia-test-secondaria-cb">
+                <input type="checkbox" id="include-contact-info-cb">
             </div>
         </div>
 
