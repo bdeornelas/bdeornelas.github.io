@@ -1062,29 +1062,29 @@ Trigliceridi: `;
         <div class="section">
             <h2>📝 Conclusioni e Raccomandazioni</h2>
 
-            <details style="border: 1px solid var(--border-color); border-radius: 4px; padding: 8px;" open>
+            <details style="border: 1px solid var(--border-color); border-radius: 4px; padding: 8px; margin-bottom: 8px;" open>
                 <summary style="cursor: pointer; font-weight: 600; color: var(--primary-color); user-select: none; list-style-position: outside;">
-                    📋 Raccomandazioni e Opzioni
+                    📋 Raccomandazioni Cliniche
                 </summary>
+                <div class="conclusioni-checkbox-grid" style="margin-top: 10px;">
+                    <div><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia" class="label-inline">Confermare terapia in atto</label></div>
+                    <div><input type="checkbox" id="consiglio-angio-tc"><label for="consiglio-angio-tc" class="label-inline">Angio-TC coronarica</label></div>
+                    <div><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter" class="label-inline">ECG-Holter 24h</label></div>
+                    <div><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco" class="label-inline">EcocolorDoppler cardiaco</label></div>
+                    <div><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging" class="label-inline">Test imaging da stress</label></div>
+                    <div><input type="checkbox" id="consiglio-ematochimici"><label for="consiglio-ematochimici" class="label-inline">Esami ematochimici</label></div>
+                    <div><input type="checkbox" id="consiglio-no-accertamenti"><label for="consiglio-no-accertamenti" class="label-inline">Nessun ulteriore accertamento</label></div>
+                </div>
+            </details>
 
-                <div style="margin-top: 10px;">
-                    <h3 style="font-size: 0.9em; margin-bottom: 8px;">Raccomandazioni Cliniche:</h3>
-                    <div class="conclusioni-checkbox-grid" style="margin-bottom: 12px;">
-                        <div><input type="checkbox" id="consiglio-terapia"><label for="consiglio-terapia" class="label-inline">Confermare terapia in atto</label></div>
-                        <div><input type="checkbox" id="consiglio-angio-tc"><label for="consiglio-angio-tc" class="label-inline">Angio-TC coronarica</label></div>
-                        <div><input type="checkbox" id="consiglio-holter"><label for="consiglio-holter" class="label-inline">ECG-Holter 24h</label></div>
-                        <div><input type="checkbox" id="consiglio-eco"><label for="consiglio-eco" class="label-inline">EcocolorDoppler cardiaco</label></div>
-                        <div><input type="checkbox" id="consiglio-imaging"><label for="consiglio-imaging" class="label-inline">Test imaging da stress</label></div>
-                        <div><input type="checkbox" id="consiglio-ematochimici"><label for="consiglio-ematochimici" class="label-inline">Esami ematochimici</label></div>
-                        <div><input type="checkbox" id="consiglio-no-accertamenti"><label for="consiglio-no-accertamenti" class="label-inline">Nessun ulteriore accertamento</label></div>
-                    </div>
-
-                    <h3 style="font-size: 0.9em; margin-bottom: 8px;">Opzioni Aggiuntive:</h3>
-                    <div style="display: flex; flex-direction: column; gap: 8px;">
-                        <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="aggiungi-consigli-lipidi-cb"><label for="aggiungi-consigli-lipidi-cb" class="label-inline">Consigli Lipidi</label><span id="aggiungi-lipidi-notification-cb" class="checkbox-notification warning">On</span></div>
-                        <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="copia-test-secondaria-cb"><label for="copia-test-secondaria-cb" class="label-inline">Ipertens. 2ria</label><span id="copia-secondaria-notification-cb" class="checkbox-notification success">OK</span></div>
-                        <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="include-contact-info-cb"><label for="include-contact-info-cb" class="label-inline">Info Contatto</label><span id="include-contact-info-notification-cb" class="checkbox-notification contact">On</span></div>
-                    </div>
+            <details style="border: 1px solid var(--border-color); border-radius: 4px; padding: 8px;">
+                <summary style="cursor: pointer; font-weight: 600; color: var(--primary-color); user-select: none; list-style-position: outside;">
+                    ⚙️ Opzioni Aggiuntive
+                </summary>
+                <div style="margin-top: 10px; display: flex; flex-direction: column; gap: 8px;">
+                    <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="aggiungi-consigli-lipidi-cb"><label for="aggiungi-consigli-lipidi-cb" class="label-inline">Consigli Lipidi</label><span id="aggiungi-lipidi-notification-cb" class="checkbox-notification warning">On</span></div>
+                    <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="copia-test-secondaria-cb"><label for="copia-test-secondaria-cb" class="label-inline">Ipertens. 2ria</label><span id="copia-secondaria-notification-cb" class="checkbox-notification success">OK</span></div>
+                    <div class="checkbox-item" style="padding: 4px 8px;"><input type="checkbox" id="include-contact-info-cb"><label for="include-contact-info-cb" class="label-inline">Info Contatto</label><span id="include-contact-info-notification-cb" class="checkbox-notification contact">On</span></div>
                 </div>
             </details>
         </div>
