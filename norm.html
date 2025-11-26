@@ -657,9 +657,17 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 .map(item => item.text.replace(/\.$/, ""));
 
             let conclusioniRaw = "";
-            if (consigliSelezionati.length > 0) conclusioniRaw = consigliSelezionati.join(". ") + ".";
-            if (!conclusioniRaw) conclusioniRaw = "Esame obiettivo e strumentale nei limiti della norma. Non evidenza di patologia cardiovascolare in atto.";
+            if (consigliSelezionati.length > 0) {
+                conclusioniRaw = consigliSelezionati.join(". ") + ".";
+            } else {
+                // Default text when no scenario is selected
+                conclusioniRaw = "Esame obiettivo e strumentale nei limiti della norma. Non evidenza di patologia cardiovascolare in atto.";
+            }
             if (aggiungereConsigliLipidi) conclusioniRaw += "\n" + consigliLipidiText.trim();
+
+            console.log('Consigli selezionati:', consigliSelezionati.length, consigliSelezionati);
+            console.log('Conclusioni raw:', conclusioniRaw);
+
             const conclusioniText = formatText(conclusioniRaw, indent);
 
             const includeContactInfo = document.getElementById("include-contact-info-cb").checked;
