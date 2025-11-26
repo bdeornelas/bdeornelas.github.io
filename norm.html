@@ -693,20 +693,34 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 .then(() => {
                     showAndHideNotification('copy-notification', true);
                     aggiungereConsigliLipidi = false;
-                    document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
-                    document.getElementById('copia-template-sforzo-cb').checked = false;
-                    document.getElementById('copia-test-secondaria-cb').checked = false;
-                    document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
-                    document.getElementById('include-contact-info-notification-cb').style.display = 'none';
+
+                    const consigliLipidiCb = document.getElementById('aggiungi-consigli-lipidi-cb');
+                    const templateSforzoCb = document.getElementById('copia-template-sforzo-cb');
+                    const testSecondariaCb = document.getElementById('copia-test-secondaria-cb');
+                    const lipidiNotif = document.getElementById('aggiungi-lipidi-notification-cb');
+                    const contactNotif = document.getElementById('include-contact-info-notification-cb');
+
+                    if (consigliLipidiCb) consigliLipidiCb.checked = aggiungereConsigliLipidi;
+                    if (templateSforzoCb) templateSforzoCb.checked = false;
+                    if (testSecondariaCb) testSecondariaCb.checked = false;
+                    if (lipidiNotif) lipidiNotif.style.display = 'none';
+                    if (contactNotif) contactNotif.style.display = 'none';
                 })
                 .catch(err => {
                     console.error('Copy failed:', err);
                     alert("Non è stato possibile copiare il testo automaticamente. Errore: " + err.message);
-                    document.getElementById('aggiungi-consigli-lipidi-cb').checked = aggiungereConsigliLipidi;
-                    document.getElementById('copia-template-sforzo-cb').checked = false;
-                    document.getElementById('copia-test-secondaria-cb').checked = false;
-                    document.getElementById('aggiungi-lipidi-notification-cb').style.display = 'none';
-                    document.getElementById('include-contact-info-notification-cb').style.display = 'none';
+
+                    const consigliLipidiCb = document.getElementById('aggiungi-consigli-lipidi-cb');
+                    const templateSforzoCb = document.getElementById('copia-template-sforzo-cb');
+                    const testSecondariaCb = document.getElementById('copia-test-secondaria-cb');
+                    const lipidiNotif = document.getElementById('aggiungi-lipidi-notification-cb');
+                    const contactNotif = document.getElementById('include-contact-info-notification-cb');
+
+                    if (consigliLipidiCb) consigliLipidiCb.checked = aggiungereConsigliLipidi;
+                    if (templateSforzoCb) templateSforzoCb.checked = false;
+                    if (testSecondariaCb) testSecondariaCb.checked = false;
+                    if (lipidiNotif) lipidiNotif.style.display = 'none';
+                    if (contactNotif) contactNotif.style.display = 'none';
                 });
         }
 
@@ -942,18 +956,22 @@ Trigliceridi: `;
 
             const aggiungiLipidiCb = document.getElementById('aggiungi-consigli-lipidi-cb');
             const lipidiNotif = document.getElementById('aggiungi-lipidi-notification-cb');
-            aggiungiLipidiCb.addEventListener('change', () => {
-                aggiungereConsigliLipidi = aggiungiLipidiCb.checked;
-                lipidiNotif.style.display = aggiungereConsigliLipidi ? 'inline' : 'none';
-                if (aggiungereConsigliLipidi) setTimeout(() => { lipidiNotif.style.display = 'none'; }, 3000);
-            });
+            if (aggiungiLipidiCb && lipidiNotif) {
+                aggiungiLipidiCb.addEventListener('change', () => {
+                    aggiungereConsigliLipidi = aggiungiLipidiCb.checked;
+                    lipidiNotif.style.display = aggiungereConsigliLipidi ? 'inline' : 'none';
+                    if (aggiungereConsigliLipidi) setTimeout(() => { lipidiNotif.style.display = 'none'; }, 3000);
+                });
+            }
 
             const includeContactCb = document.getElementById('include-contact-info-cb');
             const contactNotif = document.getElementById('include-contact-info-notification-cb');
-            includeContactCb.addEventListener('change', () => {
-                contactNotif.style.display = includeContactCb.checked ? 'inline' : 'none';
-                if (includeContactCb.checked) setTimeout(() => { contactNotif.style.display = 'none'; }, 3000);
-            });
+            if (includeContactCb && contactNotif) {
+                includeContactCb.addEventListener('change', () => {
+                    contactNotif.style.display = includeContactCb.checked ? 'inline' : 'none';
+                    if (includeContactCb.checked) setTimeout(() => { contactNotif.style.display = 'none'; }, 3000);
+                });
+            }
             
             paoInput.addEventListener('input', updateSbpFromPao);
             
