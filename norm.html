@@ -547,6 +547,16 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             }
         }
 
+        // Auto-resize textarea to fit content
+        function autoResizeTextarea(textarea) {
+            if (!textarea) return;
+            // Reset height to auto to get correct scrollHeight
+            textarea.style.height = 'auto';
+            // Set height to scrollHeight to fit all content
+            const newHeight = Math.max(150, textarea.scrollHeight);
+            textarea.style.height = newHeight + 'px';
+        }
+
         function compilaVisita() {
             const indent = " ";
             const sectionSeparator = "\n\n";
@@ -694,7 +704,11 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             output = sanitizeForPrint(output, 'latin1');
             output = normalizeLineEndings(output, false);
 
-            document.getElementById("output-visita").value = output.trim();
+            const outputTextarea = document.getElementById("output-visita");
+            outputTextarea.value = output.trim();
+
+            // Auto-resize textarea to fit content
+            autoResizeTextarea(outputTextarea);
 
             // Try modern clipboard API first, fallback to execCommand
             copyToClipboard(output.trim())
@@ -982,7 +996,13 @@ Trigliceridi: `;
             }
             
             paoInput.addEventListener('input', updateSbpFromPao);
-            
+
+            // Auto-resize output textarea when user edits manually
+            const outputVisitaTextarea = document.getElementById('output-visita');
+            if (outputVisitaTextarea) {
+                outputVisitaTextarea.addEventListener('input', () => autoResizeTextarea(outputVisitaTextarea));
+            }
+
             const scoreInputsIds = ["age", "sbp", "col-tot", "col-hdl", "fumo"];
             scoreInputsIds.forEach(id => {
                 const element = document.getElementById(id);
@@ -1275,7 +1295,7 @@ Trigliceridi: `;
         <div class="section" id="output-visita-section">
             <h2>📄 Output Visita</h2>
             <button type="button" class="main-action" onclick="compilaVisita()" style="margin-bottom: 8px;">Compila e Copia</button>
-            <textarea id="output-visita" name="output-visita" rows="32" placeholder="L'output della visita verrà generato qui..." readonly style="font-size: 0.8em; line-height: 1.4;"></textarea>
+            <textarea id="output-visita" name="output-visita" rows="10" placeholder="L'output della visita verrà generato qui..." style="font-size: 0.8em; line-height: 1.4; min-height: 150px; resize: vertical;"></textarea>
             <div id="copy-notification" class="copy-notification" style="padding: 8px; margin-top: 8px; font-size: 0.85em;">Testo visita copiato negli appunti!</div>
         </div>
 
