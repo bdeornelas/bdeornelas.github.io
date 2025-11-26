@@ -71,6 +71,35 @@
             padding-bottom: 10px;
         }
 
+        .output-section-wrapper {
+            width: 100%;
+            background-color: #fff;
+            border-top: 3px solid var(--primary-color);
+            padding: 20px;
+        }
+
+        .output-section-wrapper h2 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        #output-visita {
+            width: 100%;
+            max-width: 100%;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 2px solid var(--border-color);
+            border-radius: 6px;
+            padding: 15px;
+            font-size: 0.9em;
+            line-height: 1.6;
+            min-height: 200px;
+            resize: vertical;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: var(--text-color);
+        }
+
         .section {
             margin: 0;
             border: none;
@@ -185,19 +214,6 @@
         .error-message { color: var(--danger-color); font-size: 0.9em; margin-top: 8px; padding: 10px; background-color: rgba(220, 53, 69, 0.1); border-radius: 6px; border-left: 4px solid var(--danger-color); }
 
         .info-message { color: var(--info-color); background-color: rgba(23, 162, 184, 0.1); border-left: 4px solid var(--info-color); padding: 10px; border-radius: 6px; margin: 10px 0; }
-
-        #output-visita {
-            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            border: 2px solid var(--border-color);
-            color: var(--text-color);
-            line-height: 1.5;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            border-radius: 6px;
-            padding: 15px;
-            font-size: 0.8em;
-        }
 
         /* (AI review non presente su /normale) */
 
@@ -1292,15 +1308,17 @@ Trigliceridi: `;
             </div>
         </div>
 
-        <div class="section" id="output-visita-section">
-            <h2>📄 Output Visita</h2>
-            <button type="button" class="main-action" onclick="compilaVisita()" style="margin-bottom: 8px;">Compila e Copia</button>
-            <textarea id="output-visita" name="output-visita" rows="10" placeholder="L'output della visita verrà generato qui..." style="font-size: 0.8em; line-height: 1.4; min-height: 150px; resize: vertical;"></textarea>
-            <div id="copy-notification" class="copy-notification" style="padding: 8px; margin-top: 8px; font-size: 0.85em;">Testo visita copiato negli appunti!</div>
-        </div>
-
         </div><!-- End sidebar-column -->
         </div><!-- End main-layout -->
+
+        <!-- Output Visita Section - Full Width -->
+        <div class="output-section-wrapper">
+            <h2>📄 Output Visita</h2>
+            <button type="button" class="main-action" onclick="compilaVisita()" style="margin-bottom: 15px; max-width: 300px;">Compila e Copia</button>
+            <textarea id="output-visita" name="output-visita" rows="10" placeholder="L'output della visita verrà generato qui..."></textarea>
+            <div id="copy-notification" class="copy-notification" style="padding: 10px; margin-top: 12px; font-size: 0.95em;">✅ Testo visita copiato negli appunti!</div>
+        </div>
+
     </div><!-- End container -->
 </body>
 </html>
