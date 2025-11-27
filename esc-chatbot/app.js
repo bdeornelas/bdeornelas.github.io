@@ -1,49 +1,57 @@
 ---
 ---
 // ============================================
-// ESC Guidelines Chatbot - Main Application
+// ESC Guidelines Chatbot - RAG Implementation
 // ============================================
 
 class ESCChatbot {
     constructor() {
-        // API key is stored securely in Vercel environment variables
         this.model = 'anthropic/claude-3.5-sonnet';
         this.tocData = null;
-
+        this.guidelinesCache = {}; // Cache for loaded guideline files
         this.init();
     }
 
     async init() {
-        // Load TOC data
         await this.loadTOC();
-
-        // Setup event listeners
         this.setupEventListeners();
-
-        // Enable chatbot (no API key check needed)
         this.enableChatbot();
     }
 
     async loadTOC() {
         try {
-            const response = await fetch('../ESC_GUIDELINES_TOC.md');
-            const text = await response.text();
-            this.tocData = text;
+            const response = await fetch('/ESC_GUIDELINES_TOC.md');
+            this.tocData = await response.text();
             console.log('TOC loaded successfully');
         } catch (error) {
             console.error('Error loading TOC:', error);
         }
     }
 
+    async loadGuidelineFile(year) {
+        if (this.guidelinesCache[year]) {
+            return this.guidelinesCache[year];
+        }
+        try {
+            const response = await fetch(`/claude-project-files/ESC_${year}.md`);
+            if (!response.ok) throw new Error(`File not found for year ${year}`);
+            const content = await response.text();
+            this.guidelinesCache[year] = content.split('\n');
+            console.log(`Loaded ESC_${year}.md (${this.guidelinesCache[year].length} lines)`);
+            return this.guidelinesCache[year];
+        } catch (error) {
+            console.error(`Error loading ESC_${year}.md:`, error);
+            return null;
+        }
+    }
+
     setupEventListeners() {
-        // Form submission
         const form = document.getElementById('chat-form');
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             this.sendMessage();
         });
 
-        // Textarea auto-resize and Enter key handling
         const textarea = document.getElementById('chat-input');
         textarea.addEventListener('input', () => this.autoResize(textarea));
         textarea.addEventListener('keydown', (e) => {
@@ -53,12 +61,9 @@ class ESCChatbot {
             }
         });
 
-        // Example questions
-        const exampleBtns = document.querySelectorAll('.example-btn');
-        exampleBtns.forEach(btn => {
+        document.querySelectorAll('.example-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                const question = btn.dataset.question;
-                textarea.value = question;
+                textarea.value = btn.dataset.question;
                 this.autoResize(textarea);
                 form.dispatchEvent(new Event('submit'));
             });
@@ -71,18 +76,12 @@ class ESCChatbot {
     }
 
     enableChatbot() {
-        // Hide API notice if exists
-        const notice = document.getElementById('api-key-notice');
-        if (notice) notice.style.display = 'none';
-
-        // Enable input and button
         const input = document.getElementById('chat-input');
         const sendBtn = document.getElementById('send-button');
         input.disabled = false;
         sendBtn.disabled = false;
         input.placeholder = 'Fai una domanda sulle linee guida ESC...';
 
-        // Update status badge
         const statusBadge = document.getElementById('status-badge');
         statusBadge.innerHTML = '<span class="badge-dot"></span> Pronto';
         statusBadge.className = 'badge badge-success';
@@ -91,41 +90,25 @@ class ESCChatbot {
     async sendMessage() {
         const textarea = document.getElementById('chat-input');
         const message = textarea.value.trim();
-
         if (!message) return;
 
-        // Add user message to chat
         this.addMessage(message, 'user');
-
-        // Clear input
         textarea.value = '';
         this.autoResize(textarea);
-
-        // Disable input while processing
         textarea.disabled = true;
         document.getElementById('send-button').disabled = true;
 
-        // Add loading message
         const loadingId = this.addLoadingMessage();
 
         try {
-            // Process query with ESC workflow
             const response = await this.queryESCGuidelines(message);
-
-            // Remove loading message
             this.removeMessage(loadingId);
-
-            // Add assistant response
             this.addMessage(response, 'assistant');
         } catch (error) {
             console.error('Error:', error);
             this.removeMessage(loadingId);
-            this.addMessage(
-                'Mi dispiace, si è verificato un errore. Riprova più tardi.\n\nErrore: ' + error.message,
-                'assistant'
-            );
+            this.addMessage('Errore: ' + error.message, 'assistant');
         } finally {
-            // Re-enable input
             textarea.disabled = false;
             document.getElementById('send-button').disabled = false;
             textarea.focus();
@@ -133,182 +116,212 @@ class ESCChatbot {
     }
 
     async queryESCGuidelines(question) {
-        // Phase 1: Locate - Search TOC for relevant sections
-        const relevantSections = this.searchTOC(question);
+        // Phase 1: LOCATE - Find relevant sections in TOC
+        const tocMatches = this.searchTOC(question);
+        console.log('TOC matches:', tocMatches);
 
-        // Phase 2 & 3: Read & Cite - Query LLM with context
+        // Phase 2: READ - Extract actual content from MD files
+        const extractedContent = await this.extractContent(tocMatches);
+        console.log('Extracted content length:', extractedContent.length);
+
+        // Phase 3: CITE - Query LLM with real content
         const systemPrompt = this.buildSystemPrompt();
-        const userPrompt = this.buildUserPrompt(question, relevantSections);
+        const userPrompt = this.buildUserPrompt(question, extractedContent, tocMatches);
 
-        // Call OpenRouter API
-        const response = await this.callOpenRouter(systemPrompt, userPrompt);
-
-        return response;
+        return await this.callOpenRouter(systemPrompt, userPrompt);
     }
 
     searchTOC(question) {
-        if (!this.tocData) return '';
+        if (!this.tocData) return [];
 
-        // Extract keywords from question
         const keywords = this.extractKeywords(question);
-
-        // Search TOC for matching sections
         const lines = this.tocData.split('\n');
-        const relevantLines = [];
-        const context = 5; // Lines of context to include
+        const matches = [];
 
         for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].toLowerCase();
-            const hasMatch = keywords.some(keyword => line.includes(keyword));
+            const line = lines[i];
+            const lineLower = line.toLowerCase();
 
-            if (hasMatch) {
-                // Include context lines before and after
-                const start = Math.max(0, i - context);
-                const end = Math.min(lines.length, i + context + 1);
+            // Check if line matches any keyword
+            const matchScore = keywords.filter(kw => lineLower.includes(kw)).length;
+            if (matchScore === 0) continue;
 
-                for (let j = start; j < end; j++) {
-                    if (!relevantLines.includes(j)) {
-                        relevantLines.push(j);
-                    }
+            // Extract year from context (look backwards for year header)
+            let year = null;
+            for (let j = i; j >= Math.max(0, i - 50); j--) {
+                const yearMatch = lines[j].match(/^### (\d{4})/);
+                if (yearMatch) {
+                    year = yearMatch[1];
+                    break;
                 }
+                // Also check for year in the line itself
+                const inlineYear = lines[j].match(/\b(202[0-5])\b/);
+                if (inlineYear) {
+                    year = inlineYear[1];
+                    break;
+                }
+            }
+
+            // Extract line number from TOC entry: *(p. X, LNNN)*
+            const lineNumMatch = line.match(/\*\(p\.\s*\d+,?\s*L(\d+)\)\*/);
+            const pageMatch = line.match(/\*\(p\.\s*(\d+)/);
+
+            if (lineNumMatch && year) {
+                matches.push({
+                    tocLine: line.trim(),
+                    year: year,
+                    startLine: parseInt(lineNumMatch[1]),
+                    page: pageMatch ? parseInt(pageMatch[1]) : null,
+                    score: matchScore
+                });
             }
         }
 
-        // Sort and extract matched sections
-        relevantLines.sort((a, b) => a - b);
-        const sections = relevantLines.map(i => lines[i]).join('\n');
+        // Sort by score and take top matches
+        matches.sort((a, b) => b.score - a.score);
+        return matches.slice(0, 5); // Top 5 most relevant sections
+    }
 
-        return sections;
+    async extractContent(tocMatches) {
+        if (tocMatches.length === 0) return '';
+
+        const contentParts = [];
+        const yearsToLoad = [...new Set(tocMatches.map(m => m.year))];
+
+        // Load all needed year files
+        for (const year of yearsToLoad) {
+            await this.loadGuidelineFile(year);
+        }
+
+        for (const match of tocMatches) {
+            const lines = this.guidelinesCache[match.year];
+            if (!lines) continue;
+
+            // Find the next section's start line to know where to stop
+            const nextMatch = tocMatches.find(m =>
+                m.year === match.year && m.startLine > match.startLine
+            );
+            const endLine = nextMatch ? nextMatch.startLine : match.startLine + 200;
+
+            // Extract content (limit to ~150 lines per section)
+            const startIdx = Math.max(0, match.startLine - 1);
+            const endIdx = Math.min(lines.length, startIdx + 150, endLine);
+            const sectionContent = lines.slice(startIdx, endIdx).join('\n');
+
+            contentParts.push(`\n--- FROM: ESC_${match.year}.md (Line ${match.startLine}, Page ${match.page}) ---\n${sectionContent}`);
+        }
+
+        // Limit total content to avoid token limits
+        const combined = contentParts.join('\n\n');
+        if (combined.length > 15000) {
+            return combined.substring(0, 15000) + '\n\n[...contenuto troncato per limiti di lunghezza...]';
+        }
+        return combined;
     }
 
     extractKeywords(question) {
-        // Medical terms mapping (Italian to English + abbreviations)
         const termMap = {
-            'aorta': ['aorta', 'aortic'],
-            'fibrillazione atriale': ['atrial fibrillation', 'af', 'fibrillation'],
-            'stenosi': ['stenosis', 'stenotic'],
+            'aorta': ['aorta', 'aortic', 'ascending', 'root'],
+            'fibrillazione atriale': ['atrial fibrillation', 'af', 'fibrillation', 'afib'],
+            'stenosi': ['stenosis', 'stenotic', 'severe'],
             'insufficienza': ['insufficiency', 'regurgitation'],
-            'scompenso': ['heart failure', 'hf'],
-            'ipertensione': ['hypertension', 'blood pressure'],
-            'diabete': ['diabetes', 'glycemic'],
-            'anticoagulante': ['anticoagul', 'warfarin', 'doac'],
-            'imaging': ['imaging', 'ct', 'tac', 'mri', 'rm', 'echo', 'eco'],
-            'chirurgia': ['surgery', 'surgical', 'operation'],
-            'sorveglianza': ['surveillance', 'follow-up', 'monitoring'],
+            'scompenso': ['heart failure', 'hf', 'failure'],
+            'ipertensione': ['hypertension', 'blood pressure', 'arterial'],
+            'diabete': ['diabetes', 'glycemic', 'diabetic'],
+            'anticoagulante': ['anticoagul', 'warfarin', 'doac', 'oac'],
+            'tac': ['ct', 'computed tomography', 'imaging'],
+            'eco': ['echo', 'echocardiograph'],
+            'chirurgia': ['surgery', 'surgical', 'intervention'],
+            'valvola': ['valve', 'valvular', 'mitral', 'aortic', 'tricuspid'],
+            'coronar': ['coronary', 'cad', 'acs', 'stemi', 'nstemi'],
+            'aritmia': ['arrhythmia', 'rhythm', 'tachycardia', 'bradycardia'],
+            'pacemaker': ['pacing', 'crt', 'icd', 'device'],
+            'endocardite': ['endocarditis', 'infective'],
+            'cardiomiopatia': ['cardiomyopathy', 'hcm', 'dcm'],
+            'ipertensione polmonare': ['pulmonary hypertension', 'ph'],
         };
 
-        const words = question.toLowerCase().split(/\s+/);
         const keywords = new Set();
+        const questionLower = question.toLowerCase();
 
-        // Add original words
-        words.forEach(word => {
-            if (word.length > 3) {
-                keywords.add(word);
-            }
+        // Add words > 3 chars
+        questionLower.split(/\s+/).forEach(word => {
+            if (word.length > 3) keywords.add(word.replace(/[?.,!]/g, ''));
         });
 
         // Add mapped terms
         Object.entries(termMap).forEach(([italian, english]) => {
-            if (question.toLowerCase().includes(italian)) {
+            if (questionLower.includes(italian)) {
                 english.forEach(term => keywords.add(term));
             }
         });
 
-        // Common medical abbreviations
-        const abbreviations = {
-            'tac': 'ct',
-            'rm': 'mri',
-            'eco': 'echo',
-            'fa': 'atrial fibrillation',
-        };
-
-        Object.entries(abbreviations).forEach(([short, full]) => {
-            if (question.toLowerCase().includes(short)) {
-                keywords.add(full);
-            }
-        });
+        // Numbers (for thresholds like 45mm, 50%)
+        const numbers = question.match(/\d+/g);
+        if (numbers) numbers.forEach(n => keywords.add(n));
 
         return Array.from(keywords);
     }
 
     buildSystemPrompt() {
-        return `You are an expert ESC Guidelines assistant. Your role is to answer clinical cardiovascular questions by citing the official ESC (European Society of Cardiology) Guidelines.
+        return `Sei un assistente esperto per le Linee Guida ESC (European Society of Cardiology).
 
-**CRITICAL INSTRUCTIONS:**
+**ISTRUZIONI CRITICHE:**
 
-1. **Always cite sources**: Include PDF filename, section number, and page number
-2. **Include evidence level**: State the Recommendation Class (I/IIa/IIb/III) and Level of Evidence (A/B/C)
-3. **Quote exactly**: Use direct quotes from the guidelines when possible
-4. **Provide clinical context**: Include thresholds, surveillance intervals, and special population considerations
-5. **Structured response**: Follow this format:
+Ti viene fornito il CONTENUTO REALE estratto dalle linee guida ESC. Usa SOLO questo contenuto per rispondere.
 
-## ESC Recommendation
+1. **Cita esattamente**: Usa citazioni dirette dal testo fornito
+2. **Indica classe e livello**: Classe di Raccomandazione (I/IIa/IIb/III) e Livello di Evidenza (A/B/C)
+3. **Specifica la fonte**: Anno, sezione, pagina
 
-**[Class X, Level Y]**: [Brief summary]
+**FORMATO RISPOSTA:**
 
-"[Exact quote from guidelines if available]"
+## Raccomandazione ESC
 
-## Clinical Context
-- **Threshold/Criteria**: [Specific values]
-- **Imaging/Treatment**: [Recommended approach]
-- **Surveillance**: [Follow-up schedule]
-- **Special Considerations**: [Risk factors, comorbidities]
+**[Classe X, Livello Y]**: [Sintesi]
 
-## Source Citation
-**PDF**: [filename].pdf
-**Section**: [section number and title]
-**Page**: [page number]
+> "[Citazione esatta dal testo]"
 
-**AVAILABLE GUIDELINES (2020-2025):**
-- 2025: Dyslipidaemias Update, Mental Health & CVD, Myocarditis & Pericarditis, Pregnancy & CVD, Valvular Heart Disease
-- 2024: Atrial Fibrillation, Chronic Coronary Syndromes, Hypertension, Peripheral Arterial & Aortic
-- 2023: Acute Coronary Syndromes, Cardiomyopathies, CVD & Diabetes, Endocarditis, Heart Failure Update
-- 2022: Cardio-oncology, Non-Cardiac Surgery, Pulmonary Hypertension, Ventricular Arrhythmias & SCD
-- 2021: CVD Prevention, Cardiac Pacing & CRT, Heart Failure, Valvular Heart Disease
-- 2020: ACS NSTE, Adult Congenital Heart Disease, Atrial Fibrillation, Sports Cardiology
+## Dettagli Clinici
+- **Criteri/Soglie**: [valori specifici]
+- **Indicazioni**: [quando applicare]
+- **Follow-up**: [intervalli di sorveglianza]
 
-**IMPORTANT**:
-- If you don't have access to the exact PDF content, indicate that the answer is based on general ESC guideline knowledge and recommend verifying in the official PDF
-- Always maintain a professional, evidence-based tone
-- Respond in Italian if the question is in Italian
-`;
+## Fonte
+**Linea Guida**: [anno e titolo]
+**Pagina**: [numero]
+
+**IMPORTANTE**: Rispondi SEMPRE in italiano. Se il contenuto fornito non contiene informazioni sufficienti, indicalo chiaramente.`;
     }
 
-    buildUserPrompt(question, tocSections) {
-        return `**Clinical Question:**
+    buildUserPrompt(question, extractedContent, tocMatches) {
+        const tocSummary = tocMatches.map(m => `- ${m.tocLine} (${m.year}, p.${m.page})`).join('\n');
+
+        return `**DOMANDA CLINICA:**
 ${question}
 
-**Relevant TOC Sections Found:**
-${tocSections || 'No specific sections found in TOC search. Please answer based on your knowledge of ESC Guidelines.'}
+**SEZIONI TROVATE NEL TOC:**
+${tocSummary || 'Nessuna sezione specifica trovata'}
 
-**Instructions:**
-1. Based on the TOC sections above, identify which ESC guideline PDF would contain the answer
-2. Provide a detailed answer following the structured format in your system prompt
-3. If the exact information is not in the TOC, use your knowledge of ESC guidelines but clearly indicate this
-4. Respond in Italian
+**CONTENUTO ESTRATTO DALLE LINEE GUIDA ESC:**
+${extractedContent || 'Nessun contenuto disponibile. Rispondi indicando che le informazioni richieste non sono state trovate nelle linee guida caricate.'}
 
-Please provide your answer now.`;
+---
+Rispondi alla domanda usando ESCLUSIVAMENTE il contenuto sopra. Cita esattamente dal testo.`;
     }
 
     async callOpenRouter(systemPrompt, userPrompt) {
-        // Call our secure backend API (API key stored in Vercel env vars)
         const response = await fetch('/api/chat', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 model: this.model,
                 messages: [
-                    {
-                        role: 'system',
-                        content: systemPrompt
-                    },
-                    {
-                        role: 'user',
-                        content: userPrompt
-                    }
-                ]
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: userPrompt }
+                ],
+                temperature: 0.2,
+                max_tokens: 2500
             })
         });
 
@@ -324,75 +337,39 @@ Please provide your answer now.`;
     addMessage(content, role) {
         const messagesContainer = document.getElementById('chat-messages');
         const messageId = 'msg-' + Date.now();
-
         const messageDiv = document.createElement('div');
         messageDiv.className = `message ${role}-message`;
         messageDiv.id = messageId;
 
         const avatar = document.createElement('div');
         avatar.className = 'message-avatar';
-
-        if (role === 'assistant') {
-            avatar.innerHTML = `
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                </svg>
-            `;
-        } else {
-            avatar.innerHTML = `
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-            `;
-        }
+        avatar.innerHTML = role === 'assistant'
+            ? '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>'
+            : '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>';
 
         const messageContent = document.createElement('div');
         messageContent.className = 'message-content';
-
-        const messageHeader = document.createElement('div');
-        messageHeader.className = 'message-header';
-
-        const authorSpan = document.createElement('span');
-        authorSpan.className = 'message-author';
-        authorSpan.textContent = role === 'assistant' ? 'ESC Assistant' : 'Tu';
-
-        const timeSpan = document.createElement('span');
-        timeSpan.className = 'message-time';
-        timeSpan.textContent = new Date().toLocaleTimeString('it-IT', {
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-
-        messageHeader.appendChild(authorSpan);
-        messageHeader.appendChild(timeSpan);
-
-        const messageText = document.createElement('div');
-        messageText.className = 'message-text';
-        messageText.innerHTML = this.formatMessage(content);
-
-        messageContent.appendChild(messageHeader);
-        messageContent.appendChild(messageText);
+        messageContent.innerHTML = `
+            <div class="message-header">
+                <span class="message-author">${role === 'assistant' ? 'ESC Assistant' : 'Tu'}</span>
+                <span class="message-time">${new Date().toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}</span>
+            </div>
+            <div class="message-text">${this.formatMessage(content)}</div>
+        `;
 
         messageDiv.appendChild(avatar);
         messageDiv.appendChild(messageContent);
-
         messagesContainer.appendChild(messageDiv);
-
-        // Scroll to bottom
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
-
         return messageId;
     }
 
     addLoadingMessage() {
         const messagesContainer = document.getElementById('chat-messages');
         const messageId = 'loading-' + Date.now();
-
         const messageDiv = document.createElement('div');
         messageDiv.className = 'message assistant-message loading-message';
         messageDiv.id = messageId;
-
         messageDiv.innerHTML = `
             <div class="message-avatar">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -400,60 +377,39 @@ Please provide your answer now.`;
                 </svg>
             </div>
             <div class="message-content">
-                <div class="message-header">
-                    <span class="message-author">ESC Assistant</span>
-                </div>
+                <div class="message-header"><span class="message-author">ESC Assistant</span></div>
                 <div class="message-text">
                     <div class="loading-dots">
                         <div class="loading-dot"></div>
                         <div class="loading-dot"></div>
                         <div class="loading-dot"></div>
                     </div>
+                    <span style="color:#9ca3af;font-size:0.875rem;margin-left:8px">Cerco nelle linee guida...</span>
                 </div>
             </div>
         `;
-
         messagesContainer.appendChild(messageDiv);
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
-
         return messageId;
     }
 
     removeMessage(messageId) {
-        const message = document.getElementById(messageId);
-        if (message) {
-            message.remove();
-        }
+        document.getElementById(messageId)?.remove();
     }
 
     formatMessage(content) {
-        // Convert markdown-like syntax to HTML
-        let formatted = content;
-
-        // Headers
-        formatted = formatted.replace(/^## (.*$)/gim, '<h3>$1</h3>');
-        formatted = formatted.replace(/^### (.*$)/gim, '<h4>$1</h4>');
-
-        // Bold
-        formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-
-        // Italic
-        formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>');
-
-        // Code
-        formatted = formatted.replace(/`(.*?)`/g, '<code>$1</code>');
-
-        // Line breaks
-        formatted = formatted.replace(/\n/g, '<br>');
-
-        // Links
-        formatted = formatted.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
-
-        return formatted;
+        return content
+            .replace(/^## (.*$)/gim, '<h3>$1</h3>')
+            .replace(/^### (.*$)/gim, '<h4>$1</h4>')
+            .replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            .replace(/`(.*?)`/g, '<code>$1</code>')
+            .replace(/\n/g, '<br>')
+            .replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
     }
 }
 
-// Initialize chatbot when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     window.chatbot = new ESCChatbot();
 });
