@@ -1,0 +1,4668 @@
+# Indice Linee Guida ESC (2020-2025)
+
+*Generato automaticamente il 27/11/2025 alle 09:00*
+
+Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC**.
+
+---
+
+## Indice Rapido
+
+### 2025
+- [Dyslipidaemias Update](#2025-dyslipidaemias-update)
+- [Mental Health CVD](#2025-mental-health-cvd)
+- [Myocarditis Pericarditis](#2025-myocarditis-pericarditis)
+- [Pregnancy CVD](#2025-pregnancy-cvd)
+- [Valvular Heart Disease](#2025-valvular-heart-disease)
+
+### 2024
+- [Atrial Fibrillation](#2024-atrial-fibrillation)
+- [Chronic Coronary Syndromes](#2024-chronic-coronary-syndromes)
+- [Hypertension](#2024-hypertension)
+- [Peripheral Arterial Aortic](#2024-peripheral-arterial-aortic)
+
+### 2023
+- [Acute Coronary Syndromes](#2023-acute-coronary-syndromes)
+- [CVD Diabetes](#2023-cvd-diabetes)
+- [Cardiomyopathies](#2023-cardiomyopathies)
+- [Cardiomyopathies Supplementary](#2023-cardiomyopathies-supplementary)
+- [Endocarditis](#2023-endocarditis)
+- [Heart Failure Update](#2023-heart-failure-update)
+
+### 2022
+- [Cardio Oncology](#2022-cardio-oncology)
+- [Non Cardiac Surgery](#2022-non-cardiac-surgery)
+- [Pulmonary Hypertension](#2022-pulmonary-hypertension)
+- [Ventricular Arrhythmias SCD](#2022-ventricular-arrhythmias-scd)
+
+### 2021
+- [CVD Prevention](#2021-cvd-prevention)
+- [Cardiac Pacing CRT](#2021-cardiac-pacing-crt)
+- [Heart Failure](#2021-heart-failure)
+- [Valvular Heart Disease](#2021-valvular-heart-disease)
+
+### 2020
+- [ACS NSTE](#2020-acs-nste)
+- [Adult Congenital Heart Disease](#2020-adult-congenital-heart-disease)
+- [Atrial Fibrillation](#2020-atrial-fibrillation)
+- [Sports Cardiology](#2020-sports-cardiology)
+
+---
+
+## 2025
+
+### <a name="2025-dyslipidaemias-update"></a>Dyslipidaemias Update
+
+**File:** `2025_Dyslipidaemias_Update.pdf`
+
+- 2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias *(p. 1, L34)*
+  - 1. Preamble *(p. 3, L155)*
+  - 2. Introduction *(p. 5, L466)*
+  - 3. Estimation of total cardiovascular risk and implications for dyslipidaemia management *(p. 5, L466)*
+  - 4. New low-density lipoprotein cholesterol-lowering therapies *(p. 9, L986)*
+  - 5. Combination of lipid-lowering therapies during index hospitalization for acute coronary syndromes *(p. 11, L1205)*
+  - 6. Lipoprotein(a) *(p. 12, L1344)*
+  - 7. Hypertriglyceridaemia *(p. 13, L1473)*
+  - 8. Primary prevention in people with human immunodeficiency virus infection *(p. 14, L1567)*
+  - 9. Patients with cancer at high or very high chemotherapy-related cardiovascular toxicity risk *(p. 15, L1679)*
+  - 10. Dietary supplements *(p. 15, L1679)*
+  - 11. Evidence tables *(p. 16, L1800)*
+  - 12. Data availability statement *(p. 16, L1800)*
+  - 13. Author information *(p. 16, L1800)*
+  - Appendix *(p. 16, L1800)*
+  - References *(p. 17, L1941)*
+  - References *(p. 17, L1941)*
+
+
+---
+
+### <a name="2025-mental-health-cvd"></a>Mental Health CVD
+
+**File:** `2025_Mental_Health_CVD.pdf`
+
+- 2025 ESC Clinical Consensus Statement on mental health and cardiovascular disease: developed under the auspices of the ESC Clinical Practice Guidelines Committee *(p. 1, L162)*
+  - 1. Preamble *(p. 5, L602)*
+  - 2. The scope of this consensus statement *(p. 6, L790)*
+    - 2.1. Methods employed in the consensus statement *(p. 6, L790)*
+  - 3. Introduction *(p. 7, L911)*
+    - 3.1. The relationship between mental and cardiovascular health and disease *(p. 7, L911)*
+    - 3.2. Enduring problems *(p. 9, L1042)*
+    - 3.3. Aims of the document *(p. 10, L1107)*
+    - 3.4. The Psycho-Cardio team *(p. 10, L1107)*
+    - 3.5. Section summary points and management consensus statements from Section 3 *(p. 11, L1209)*
+  - 4. Impact of mental health on the risk of developing cardiovascular disease *(p. 11, L1209)*
+    - 4.1. Positive mental health states as predictors of better cardiovascular health *(p. 11, L1209)*
+    - 4.2. Psychosocial stress *(p. 11, L1209)*
+    - 4.3. Work stress and unemployment *(p. 12, L1331)*
+    - 4.4. Socioeconomic and subjective social status *(p. 13, L1417)*
+    - 4.5. Perceived discrimination *(p. 13, L1417)*
+    - 4.6. Mental stress through impaired social relationships *(p. 13, L1417)*
+      - 4.6.1. Adverse childhood experiences *(p. 13, L1417)*
+      - 4.6.2. Partnership violence *(p. 13, L1417)*
+      - 4.6.3. Loneliness and social isolation *(p. 13, L1417)*
+    - 4.7. Mental health conditions and personality traits as risk factors for cardiovascular disease *(p. 13, L1417)*
+      - 4.7.1. Depression *(p. 13, L1417)*
+      - 4.7.2. Anxiety *(p. 13, L1417)*
+      - 4.7.3. Post-traumatic stress disorder *(p. 14, L1533)*
+    - 4.8. Section summary points and management consensus statements from Section 4 *(p. 14, L1533)*
+  - 5. Mental health and mental health conditions in people with cardiovascular disease *(p. 14, L1533)*
+    - 5.1. Impact of cardiovascular disease on mental health *(p. 14, L1533)*
+    - 5.2. Specific mental health conditions in people with cardiovascular disease: prevalence and prognostic impact *(p. 14, L1533)*
+      - 5.2.1. Depressive symptoms and depression *(p. 14, L1533)*
+        - 5.2.1.1. Prevalence of depressive symptoms and depression in people with cardiovascular disease *(p. 15, L1653)*
+        - 5.2.1.2. Impact of depressive symptoms and depression on cardiovascular disease prognosis *(p. 15, L1653)*
+        - 5.2.1.3. Impact of depressive symptoms/depression on self-management and adherence *(p. 16, L1742)*
+      - 5.2.2. Anxiety *(p. 16, L1742)*
+        - 5.2.2.1. Prevalence of anxiety in people with cardiovascular disease *(p. 16, L1742)*
+        - 5.2.2.2. Impact of anxiety on cardiovascular disease prognosis *(p. 16, L1742)*
+        - 5.2.2.3. Impact of anxiety on self-management and adherence *(p. 16, L1742)*
+      - 5.2.3. Cardiac disease-induced post-traumatic stress disorder/symptoms *(p. 16, L1742)*
+        - 5.2.3.1. Prevalence of post-traumatic stress disorder in cardiovascular disease *(p. 16, L1742)*
+        - 5.2.3.2. Impact of post-traumatic stress disorder on cardiovascular disease prognosis *(p. 16, L1742)*
+        - 5.2.3.3. Impact of post-traumatic stress disorder on self-management and adherence to medical recommendations *(p. 17, L1852)*
+      - 5.2.4. Loneliness and living conditions *(p. 17, L1852)*
+      - 5.2.5. Chronic stress *(p. 18, L1928)*
+    - 5.3. Addressing the mental health needs of informal caregivers for people with cardiovascular disease *(p. 18, L1928)*
+    - 5.4. Section summary points and management consensus statements from Section 5 *(p. 19, L2025)*
+  - 6. Identification, prevention, and management of mental health issues in people with cardiovascular disease *(p. 19, L2025)*
+    - 6.1. Awareness of needs in people with cardiovascular disease *(p. 19, L2025)*
+    - 6.2. Identification and screening *(p. 20, L2127)*
+      - 6.2.1. Assessment of depression and anxiety *(p. 21, L2179)*
+      - 6.2.2. Suggested approach to screening people with cardiovascular disease for psychological distress, depression, and anxiety *(p. 22, L2271)*
+      - 6.2.3. Challenges in specific cardiovascular conditions *(p. 22, L2271)*
+      - 6.2.4. Assessment of subjective well-being and quality of life *(p. 23, L2374)*
+    - 6.3. Management of mental health conditions in people with cardiovascular disease *(p. 23, L2374)*
+      - 6.3.1. Communication, education, and support for people with mental health conditions and cardiovascular disease *(p. 23, L2374)*
+      - 6.3.2. Psychological interventions *(p. 24, L2494)*
+      - 6.3.3. Psycho-education *(p. 24, L2494)*
+      - 6.3.4. Social prescribing *(p. 25, L2582)*
+      - 6.3.5. Other psychological interventions *(p. 25, L2582)*
+      - 6.3.6. Interventions for people with post-traumatic stress disorder *(p. 26, L2707)*
+      - 6.3.7. Lifestyle interventions *(p. 26, L2707)*
+      - 6.3.8. Physical activity and exercise in people with cardiovascular disease and mental health conditions *(p. 26, L2707)*
+      - 6.3.9. Diet and nutrition approaches in cardiovascular disease and mental health conditions *(p. 26, L2707)*
+      - 6.3.10. Smoking cessation *(p. 26, L2707)*
+      - 6.3.11. Stress management techniques *(p. 27, L2826)*
+      - 6.3.12. Sleep hygiene *(p. 27, L2826)*
+    - 6.4. Tools and resources to support lifestyle change *(p. 27, L2826)*
+      - 6.4.1. Digital health tools *(p. 27, L2826)*
+      - 6.4.2. Motivational interviewing *(p. 27, L2826)*
+      - 6.4.3. Cardiac rehabilitation *(p. 28, L2944)*
+    - 6.5. Medical interventions *(p. 28, L2944)*
+      - 6.5.1. Efficacy and safety of pharmacological treatment for mental health conditions in people with cardiovascular disease *(p. 28, L2944)*
+      - 6.5.2. Use of specific medications in people with depression, anxiety, or post-traumatic stress disorders and cardiovascular disease *(p. 28, L2944)*
+      - 6.5.3. Use of antidepressants *(p. 28, L2944)*
+      - 6.5.4. Use of anxiolytics, sedatives, and hypnotics *(p. 30, L3117)*
+      - 6.5.5. Pharmacological treatment for mental health conditions in specific cardiovascular diseases *(p. 30, L3117)*
+        - 6.5.5.1. Ischaemic heart disease *(p. 30, L3117)*
+        - 6.5.5.2. Ventricular arrhythmias *(p. 30, L3117)*
+        - 6.5.5.3. Heart failure *(p. 30, L3117)*
+        - 6.5.5.4. Procedures (coronary artery bypass grafting, percutaneous coronary intervention) *(p. 31, L3234)*
+    - 6.6. Organization of care *(p. 31, L3234)*
+    - 6.7. Section summary points and management consensus statements from Section 6 *(p. 31, L3234)*
+  - 7. Severe mental illness and cardiovascular disease *(p. 32, L3332)*
+    - 7.1. Cardiovascular risk in people with severe mental illness *(p. 32, L3332)*
+    - 7.2. Prognosis in severe mental illness and cardiovascular disease *(p. 32, L3332)*
+    - 7.3. Increased cardiovascular disease risk in people with severe mental illness *(p. 33, L3434)*
+      - 7.3.1. Lifestyle and biological risk factors *(p. 33, L3434)*
+      - 7.3.2. Medication-induced cardiovascular risk factors *(p. 33, L3434)*
+      - 7.3.3. Assessing cardiovascular disease risk *(p. 35, L3611)*
+    - 7.4. Gaps and disparities in the management of cardiovascular disease in people with severe mental illness *(p. 36, L3811)*
+      - 7.4.1. Autonomy, communication, and informed consent *(p. 36, L3811)*
+    - 7.5. Management of cardiovascular disease in people with severe mental illness *(p. 36, L3811)*
+      - 7.5.1. Management of modifiable risk factors *(p. 36, L3811)*
+      - 7.5.2. Diet, physical activity, and body weight control *(p. 36, L3811)*
+      - 7.5.3. Smoking cessation *(p. 37, L3922)*
+      - 7.5.4. Pharmacological management *(p. 37, L3922)*
+    - 7.6. Management of cardiovascular conditions in people with severe mental illness *(p. 37, L3922)*
+      - 7.6.1. Rhythm disturbances *(p. 37, L3922)*
+        - 7.6.1.1. QTc interval prolongation *(p. 39, L4088)*
+        - 7.6.1.2. Heart rate changes *(p. 39, L4088)*
+      - 7.6.2. Clozapine-induced myocarditis *(p. 39, L4088)*
+    - 7.7. Interventions to improve the management of people with severe mental illness and cardiovascular disease *(p. 41, L4305)*
+    - 7.8. Section summary points and management consensus statements from Section 7 *(p. 41, L4305)*
+  - 8. Mental health in specific populations and situations *(p. 42, L4400)*
+    - 8.1. Sex and gender differences in mental health and cardiovascular disease *(p. 42, L4400)*
+      - 8.1.1. Cardiovascular disease and mental health conditions in transgender individuals *(p. 43, L4516)*
+      - 8.1.2. Sex and gender differences in mental health in people with obstructive coronary artery disease *(p. 43, L4516)*
+      - 8.1.3. Sex and gender differences in mental health in ischaemia/angina with non-obstructive coronary arteries and coronary vasomotor disorders *(p. 43, L4516)*
+      - 8.1.4. Sex and gender differences in mental health in people with takotsubo syndrome *(p. 43, L4516)*
+      - 8.1.5. Sex and gender differences in mental health in people with heart failure *(p. 43, L4516)*
+      - 8.1.6. Sex and gender differences in mental health in people with arrhythmias *(p. 44, L4636)*
+      - 8.1.7. Mental health conditions associated with peri-partum cardiomyopathy *(p. 44, L4636)*
+    - 8.2. Mental and cardiovascular health in older adults *(p. 44, L4636)*
+    - 8.3. Mental health and cardiovascular disease in people with frailty and multimorbidity *(p. 45, L4758)*
+      - 8.3.1. Mental health and frailty *(p. 45, L4758)*
+      - 8.3.2. Mental health, cardiovascular disease, and multimorbidity *(p. 45, L4758)*
+      - 8.3.3. Summary of evidence in older adults with cardiovascular disease and mental disorders *(p. 45, L4758)*
+    - 8.4. Mental health and cardiovascular disease in socioeconomically deprived populations *(p. 46, L4868)*
+      - 8.4.1. Mental health and cardiovascular disease in migrants and refugees *(p. 47, L4975)*
+      - 8.4.2. Barriers to mental healthcare access *(p. 47, L4975)*
+      - 8.4.3. Stigma in healthcare provision *(p. 48, L5092)*
+      - 8.4.4. Community and policy interventions *(p. 48, L5092)*
+    - 8.5. Mental health and cardiovascular disease in people with cancer (cardio-oncology) *(p. 49, L5169)*
+      - 8.5.1. Mental health in people with cancer and cardiovascular disease *(p. 49, L5169)*
+      - 8.5.2. Cancer survivors *(p. 49, L5169)*
+      - 8.5.3. Advanced cancer disease *(p. 49, L5169)*
+      - 8.5.4. Cancer therapy-related cardiovascular toxicity *(p. 49, L5169)*
+      - 8.5.5. Impact of cancer therapy on mental health *(p. 49, L5169)*
+      - 8.5.6. Psychological interventions *(p. 49, L5169)*
+      - 8.5.7. Lifestyle interventions in cardio-oncology *(p. 50, L5288)*
+      - 8.5.8. Medical interventions (including pharmacological therapies) *(p. 51, L5388)*
+    - 8.6. Section summary points and management consensus statements from Section 8 *(p. 51, L5388)*
+  - 9. Key messages *(p. 51, L5388)*
+  - 10. Gaps in knowledge *(p. 52, L5503)*
+    - 10.1. Knowledge gaps in relation to prevention and screening *(p. 52, L5503)*
+    - 10.2. Knowledge gaps in relation to clinical management *(p. 52, L5503)*
+    - 10.3. Knowledge gaps in relation to special populations *(p. 52, L5503)*
+    - 10.4. Knowledge gaps in relation to healthcare systems and healthcare delivery *(p. 52, L5503)*
+  - 11. Conclusions *(p. 52, L5503)*
+  - 12. Summary of mental health aspects in specific cardiovascular diseases *(p. 53, L5610)*
+  - 13. Clinical cases and patient perspectives *(p. 53, L5610)*
+  - 14. Evidence tables *(p. 53, L5610)*
+  - 15. Data availability statement *(p. 53, L5610)*
+  - 16. Author information *(p. 53, L5610)*
+  - Appendix *(p. 53, L5610)*
+  - References *(p. 54, L5749)*
+  - References *(p. 54, L5749)*
+
+
+---
+
+### <a name="2025-myocarditis-pericarditis"></a>Myocarditis Pericarditis
+
+**File:** `2025_Myocarditis_Pericarditis.pdf`
+
+- 2025 ESC Guidelines for the management of myocarditis and pericarditis *(p. 1, L245)*
+  - 1. Preamble *(p. 7, L1108)*
+  - 2. Introduction *(p. 8, L1235)*
+    - 2.1. What is new *(p. 8, L1235)*
+  - 3. Epidemiology, classification, stages, diagnostic criteria and aetiology *(p. 11, L1554)*
+    - 3.1. Epidemiology *(p. 11, L1554)*
+    - 3.2. Classification and stages *(p. 11, L1554)*
+    - 3.3. Diagnostic criteria *(p. 12, L1678)*
+      - 3.3.1. Diagnostic criteria for myocarditis *(p. 12, L1678)*
+      - 3.3.2. Diagnostic criteria for pericarditis *(p. 15, L2005)*
+    - 3.4. Aetiology of myocarditis and pericarditis *(p. 15, L2005)*
+      - 3.4.1. Aetiology of myocarditis *(p. 15, L2005)*
+      - 3.4.2. Aetiology of pericarditis *(p. 15, L2005)*
+  - 4. Clinical presentation of inflammatory myopericardial syndrome *(p. 15, L2005)*
+    - 4.1. General symptoms and signs *(p. 19, L2267)*
+    - 4.2. Clinical stages of myocarditis *(p. 19, L2267)*
+      - 4.2.1. Acute myocarditis *(p. 19, L2267)*
+      - 4.2.2. Fulminant myocarditis *(p. 20, L2322)*
+      - 4.2.3. Subacute myocarditis *(p. 20, L2322)*
+      - 4.2.4. Chronic myocarditis *(p. 20, L2322)*
+    - 4.3. Clinical presentations of myocarditis *(p. 20, L2322)*
+      - 4.3.1. Chest pain presentation *(p. 20, L2322)*
+      - 4.3.2. Heart failure presentation *(p. 22, L2464)*
+      - 4.3.3. Presentation with arrhythmias *(p. 22, L2464)*
+      - 4.3.4. Sudden cardiac death *(p. 22, L2464)*
+      - 4.3.5. Presentation of myocarditis with a potential genetic background *(p. 22, L2464)*
+    - 4.4. Clinical stages of pericarditis *(p. 22, L2464)*
+      - 4.4.1. Acute pericarditis *(p. 22, L2464)*
+      - 4.4.2. Subacute pericarditis *(p. 25, L2660)*
+      - 4.4.3. Chronic pericarditis *(p. 25, L2660)*
+    - 4.5. Clinical presentations of pericarditis *(p. 25, L2660)*
+      - 4.5.1. Dry pericarditis *(p. 25, L2660)*
+      - 4.5.2. Effusive pericarditis *(p. 25, L2660)*
+      - 4.5.3. Effusive–constrictive pericarditis *(p. 25, L2660)*
+      - 4.5.4. Pericarditis with cardiac tamponade *(p. 25, L2660)*
+      - 4.5.5. Constrictive pericarditis *(p. 26, L2767)*
+      - 4.5.6. Transient constrictive pericarditis *(p. 27, L2850)*
+        - 4.5.6.1. Constrictive pathophysiology *(p. 27, L2850)*
+      - 4.5.7. Pericarditis with polyserositis *(p. 28, L2897)*
+      - 4.5.8. Inflammatory vs non-inflammatory pericarditis *(p. 28, L2897)*
+        - 4.5.8.1. Inflammatory phenotype of pericarditis *(p. 28, L2897)*
+        - 4.5.8.2. Non-inflammatory phenotype of pericarditis *(p. 28, L2897)*
+  - 5. Diagnosis and diagnostic work-up *(p. 28, L2897)*
+    - 5.1. Electrocardiogram *(p. 29, L3015)*
+    - 5.2. Biomarkers *(p. 29, L3015)*
+      - 5.2.1. Biomarkers in clinical routine *(p. 29, L3015)*
+      - 5.2.2. Biomarkers beyond clinical routine *(p. 29, L3015)*
+    - 5.3. Genetics *(p. 30, L3114)*
+    - 5.4. Multimodality imaging *(p. 31, L3212)*
+    - 5.5. Echocardiography *(p. 31, L3212)*
+      - 5.5.1. Echocardiography in myocarditis *(p. 31, L3212)*
+      - 5.5.2. Echocardiography in pericarditis *(p. 31, L3212)*
+    - 5.6. Cardiovascular magnetic resonance *(p. 32, L3298)*
+    - 5.7. Computed tomography *(p. 32, L3298)*
+    - 5.8. Nuclear medicine *(p. 33, L3403)*
+    - 5.9. Endomyocardial and pericardial biopsy *(p. 33, L3403)*
+      - 5.9.1. Endomyocardial biopsy *(p. 33, L3403)*
+      - 5.9.2. Pericardial biopsy *(p. 35, L3563)*
+    - 5.10. Role of autopsy *(p. 35, L3563)*
+    - 5.11. Role of cardiac catheterization and coronary angiography *(p. 35, L3563)*
+    - 5.12. Electro-anatomical mapping *(p. 36, L3686)*
+  - 6. Therapy *(p. 36, L3686)*
+    - 6.1. Non-pharmacological therapy for inflammatory myopericardial syndrome *(p. 36, L3686)*
+    - 6.2. Pharmacological therapy *(p. 36, L3686)*
+      - 6.2.1. Pharmacological therapy for myocarditis *(p. 36, L3686)*
+        - 6.2.1.1. General principles *(p. 36, L3686)*
+        - 6.2.1.2. Fulminant myocarditis *(p. 38, L3848)*
+        - 6.2.1.3. Acute myocarditis *(p. 38, L3848)*
+        - 6.2.1.4. Subacute and chronic myocarditis *(p. 39, L3929)*
+      - 6.2.2. Pharmacological therapy for pericarditis *(p. 39, L3929)*
+        - 6.2.2.1. General principles *(p. 39, L3929)*
+          - 6.2.2.1.1. Acute pericarditis (first episode) *(p. 39, L3929)*
+        - 6.2.2.2. Incessant and recurrent pericarditis *(p. 39, L3929)*
+    - 6.3. Interventional techniques including circulatory support *(p. 42, L4214)*
+      - 6.3.1. Myocarditis *(p. 42, L4214)*
+        - 6.3.1.1. Short-term mechanical circulatory support *(p. 42, L4214)*
+        - 6.3.1.2. Intra-aortic balloon pump *(p. 42, L4214)*
+      - 6.3.2. Pericarditis *(p. 42, L4214)*
+        - 6.3.2.1. Pericardiocentesis and pericardial drainage *(p. 42, L4214)*
+        - 6.3.2.2. Percutaneous balloon pericardiotomy *(p. 43, L4343)*
+        - 6.3.2.3. Intrapericardial drug administration *(p. 43, L4343)*
+        - 6.3.2.4. Pericardioscopy *(p. 43, L4343)*
+        - 6.3.2.5. Pericardial fluid analysis, pericardial and epicardial biopsy *(p. 43, L4343)*
+        - 6.3.2.6. Circulatory support *(p. 43, L4343)*
+    - 6.4. Surgical therapy *(p. 43, L4343)*
+      - 6.4.1. Myocarditis *(p. 43, L4343)*
+      - 6.4.2. Pericarditis *(p. 43, L4343)*
+        - 6.4.2.1. Surgical pericardiocentesis *(p. 43, L4343)*
+        - 6.4.2.2. Pericardiotomy/pericardial window *(p. 43, L4343)*
+        - 6.4.2.3. Pericardiectomy *(p. 44, L4450)*
+    - 6.5. Management of arrhythmias and prevention of sudden cardiac death in myocarditis *(p. 44, L4450)*
+      - 6.5.1. Role of active devices (wearable and implanted devices) in acute myocarditis *(p. 45, L4552)*
+  - 7. Prognosis *(p. 45, L4552)*
+    - 7.1. Complications and outcomes for myocarditis *(p. 45, L4552)*
+      - 7.1.1. Sequela and mortality in myocarditis *(p. 46, L4677)*
+      - 7.1.2. Follow-up *(p. 46, L4677)*
+    - 7.2. Complications and outcomes for pericarditis *(p. 47, L4778)*
+  - 8. Inflammatory myopericardial syndrome overlapping types: myopericarditis and perimyocarditis *(p. 48, L4912)*
+    - 8.1. Inflammatory myopericardial syndrome in systemic disorders *(p. 49, L4981)*
+      - 8.1.1. Rheumatoid arthritis *(p. 49, L4981)*
+      - 8.1.2. Systemic lupus erythematosus *(p. 49, L4981)*
+      - 8.1.3. Antiphospholipid syndrome *(p. 49, L4981)*
+      - 8.1.4. Sjögren's syndrome *(p. 49, L4981)*
+      - 8.1.5. Systemic sclerosis *(p. 49, L4981)*
+      - 8.1.6. Polymyositis and dermatomyositis *(p. 49, L4981)*
+      - 8.1.7. Vasculitis *(p. 49, L4981)*
+    - 8.2. Inflammatory myopericardial syndrome in COVID-19 disease *(p. 49, L4981)*
+  - 9. Specific types of myocarditis *(p. 50, L5078)*
+    - 9.1. Lymphocytic myocarditis *(p. 50, L5078)*
+      - 9.1.1. Presentation *(p. 50, L5078)*
+      - 9.1.2. Diagnosis and therapy *(p. 50, L5078)*
+    - 9.2. Eosinophilic myocarditis *(p. 50, L5078)*
+      - 9.2.1. Presentation *(p. 50, L5078)*
+      - 9.2.2. Diagnosis *(p. 50, L5078)*
+      - 9.2.3. Therapy *(p. 50, L5078)*
+    - 9.3. Giant-cell myocarditis *(p. 50, L5078)*
+      - 9.3.1. Presentation *(p. 51, L5169)*
+      - 9.3.2. Diagnosis *(p. 51, L5169)*
+      - 9.3.3. Therapy *(p. 51, L5169)*
+    - 9.4. Myocarditis in sarcoidosis *(p. 52, L5276)*
+      - 9.4.1. Presentation *(p. 52, L5276)*
+      - 9.4.2. Diagnosis *(p. 52, L5276)*
+      - 9.4.3. Therapy *(p. 52, L5276)*
+    - 9.5. Specific infectious myocarditis (Viruses, Lyme, Chagas) *(p. 53, L5386)*
+      - 9.5.1. Viruses *(p. 53, L5386)*
+        - 9.5.1.1. Presentation *(p. 53, L5386)*
+        - 9.5.1.2. Diagnosis *(p. 53, L5386)*
+        - 9.5.1.3. Therapy *(p. 53, L5386)*
+          - 9.5.1.3.1. Influenza virus *(p. 53, L5386)*
+          - 9.5.1.3.2. Human immunodeficiency virus *(p. 53, L5386)*
+      - 9.5.2. Lyme carditis *(p. 53, L5386)*
+        - 9.5.2.1. Presentation *(p. 53, L5386)*
+        - 9.5.2.2. Diagnosis *(p. 53, L5386)*
+        - 9.5.2.3. Therapy *(p. 53, L5386)*
+      - 9.5.3. Chagas disease *(p. 54, L5483)*
+        - 9.5.3.1. Presentation *(p. 54, L5483)*
+        - 9.5.3.2. Diagnosis *(p. 54, L5483)*
+        - 9.5.3.3. Therapy *(p. 54, L5483)*
+    - 9.6. Drug- or vaccine-induced myocarditis *(p. 54, L5483)*
+      - 9.6.1. Drug-induced myocarditis *(p. 54, L5483)*
+        - 9.6.1.1. Immune checkpoint inhibitor-induced myocarditis *(p. 54, L5483)*
+          - 9.6.1.1.1. Presentation *(p. 54, L5483)*
+          - 9.6.1.1.2. Diagnosis *(p. 54, L5483)*
+          - 9.6.1.1.3. Therapy *(p. 54, L5483)*
+        - 9.6.1.2. Other drugs associated with myocarditis *(p. 55, L5574)*
+      - 9.6.2. Vaccine-induced myocarditis *(p. 55, L5574)*
+    - 9.7. Pregnancy-associated myocarditis *(p. 55, L5574)*
+      - 9.7.1. Presentation *(p. 55, L5574)*
+      - 9.7.2. Diagnosis *(p. 55, L5574)*
+      - 9.7.3. Therapy *(p. 55, L5574)*
+  - 10. Inflammatory cardiomyopathy *(p. 55, L5574)*
+    - 10.1. Presentation *(p. 56, L5679)*
+    - 10.2. Diagnosis *(p. 56, L5679)*
+    - 10.3. Therapy *(p. 56, L5679)*
+  - 11. Specific types of pericarditis *(p. 56, L5679)*
+    - 11.1. Tuberculous pericarditis *(p. 56, L5679)*
+      - 11.1.1. Presentation *(p. 56, L5679)*
+      - 11.1.2. Diagnosis *(p. 56, L5679)*
+      - 11.1.3. Therapy *(p. 57, L5784)*
+    - 11.2. Pericardial involvement in neoplastic disease *(p. 58, L5867)*
+      - 11.2.1. Presentation *(p. 58, L5867)*
+      - 11.2.2. Diagnosis *(p. 58, L5867)*
+      - 11.2.3. Therapy *(p. 58, L5867)*
+    - 11.3. Post-cardiac injury syndrome *(p. 58, L5867)*
+      - 11.3.1. Diagnosis *(p. 59, L5986)*
+      - 11.3.2. Therapy *(p. 59, L5986)*
+    - 11.4. Pericarditis and autoinflammatory diseases *(p. 59, L5986)*
+    - 11.5. Purulent pericarditis *(p. 59, L5986)*
+      - 11.5.1. Presentation *(p. 60, L6098)*
+      - 11.5.2. Diagnosis *(p. 60, L6098)*
+      - 11.5.3. Therapy *(p. 60, L6098)*
+    - 11.6. Incessant and recurrent pericarditis *(p. 60, L6098)*
+    - 11.7. Inflammatory and non-inflammatory pericardial effusion *(p. 60, L6098)*
+      - 11.7.1. Classification and aetiology *(p. 60, L6098)*
+      - 11.7.2. Presentation *(p. 60, L6098)*
+      - 11.7.3. Diagnosis *(p. 61, L6196)*
+      - 11.7.4. Therapy *(p. 62, L6240)*
+      - 11.7.5. Prognosis and follow-up *(p. 62, L6240)*
+    - 11.8. Cardiac tamponade *(p. 62, L6240)*
+      - 11.8.1. Presentation *(p. 62, L6240)*
+      - 11.8.2. Aetiology and diagnosis *(p. 62, L6240)*
+      - 11.8.3. Therapy *(p. 63, L6349)*
+      - 11.8.4. Outcomes and prognosis *(p. 63, L6349)*
+    - 11.9. Pericardial constriction and constrictive pericarditis (calcified and non-calcified) *(p. 63, L6349)*
+      - 11.9.1. Introduction *(p. 63, L6349)*
+      - 11.9.2. Presentation *(p. 63, L6349)*
+      - 11.9.3. Diagnosis *(p. 63, L6349)*
+      - 11.9.4. Therapy *(p. 64, L6435)*
+    - 11.10. Effusive–constrictive pericarditis *(p. 64, L6435)*
+      - 11.10.1. Introduction *(p. 64, L6435)*
+      - 11.10.2. Aetiology *(p. 64, L6435)*
+      - 11.10.3. Presentation *(p. 64, L6435)*
+      - 11.10.4. Diagnosis *(p. 64, L6435)*
+      - 11.10.5. Treatment *(p. 64, L6435)*
+  - 12. Age- and sex-related aspects in inflammatory myopericardial syndrome *(p. 64, L6435)*
+    - 12.1. Sex distribution *(p. 64, L6435)*
+    - 12.2. Paediatric patients *(p. 65, L6537)*
+      - 12.2.1. Myocarditis *(p. 65, L6537)*
+      - 12.2.2. Pericarditis *(p. 65, L6537)*
+    - 12.3. Pregnancy, lactation, and reproductive issues *(p. 65, L6537)*
+    - 12.4. The elderly *(p. 66, L6649)*
+    - 12.5. Physical activity in inflammatory myopericardial syndrome *(p. 66, L6649)*
+      - 12.5.1. Mental health effect of restricting exercise *(p. 66, L6649)*
+    - 12.6. Multidisciplinary teams for the management of inflammatory myopericardial syndrome *(p. 66, L6649)*
+  - 13. Advice for patients *(p. 67, L6765)*
+  - 14. Tertiary referral centres for inflammatory myopericardial syndrome: feature and volume of activity *(p. 67, L6765)*
+    - 14.1. Tertiary care centres *(p. 67, L6765)*
+    - 14.2. Inflammatory myopericardial syndrome in regional centres *(p. 67, L6765)*
+    - 14.3. Hub-and-spoke model *(p. 67, L6765)*
+    - 14.4. Teamwork, competencies, and advances in imaging techniques *(p. 68, L6835)*
+  - 15. Key messages *(p. 68, L6835)*
+    - 15.1. Aetiology *(p. 68, L6835)*
+    - 15.2. Clinical presentation and diagnosis *(p. 68, L6835)*
+    - 15.3. Therapy *(p. 68, L6835)*
+    - 15.4. Prognosis and outcomes *(p. 68, L6835)*
+    - 15.5. Multidisciplinary team *(p. 68, L6835)*
+  - 16. Gaps in evidence *(p. 68, L6835)*
+    - 16.1. Myocarditis *(p. 68, L6835)*
+    - 16.2. Pericarditis *(p. 69, L6922)*
+  - 17. Sex differences *(p. 69, L6922)*
+  - 18. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 69, L6922)*
+  - 19. Evidence tables *(p. 72, L7208)*
+  - 20. Data availability statement *(p. 72, L7208)*
+  - 21. Author information *(p. 72, L7208)*
+  - Appendix *(p. 73, L7305)*
+    - ESC Scientific Document Group *(p. 73, L7305)*
+  - References *(p. 74, L7456)*
+  - References *(p. 74, L7456)*
+
+
+---
+
+### <a name="2025-pregnancy-cvd"></a>Pregnancy CVD
+
+**File:** `2025_Pregnancy_CVD.pdf`
+
+- 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy *(p. 1, L239)*
+  - 1. Preamble *(p. 7, L1197)*
+  - 2. Introduction *(p. 8, L1331)*
+    - 2.1. Why we need new Guidelines on cardiovascular disease and pregnancy *(p. 8, L1331)*
+    - 2.2. Why these Guidelines are important *(p. 8, L1331)*
+    - 2.3. What is new *(p. 8, L1331)*
+    - 2.4. What has changed *(p. 11, L1607)*
+  - 3. General considerations *(p. 12, L1712)*
+    - 3.1. Epidemiology *(p. 12, L1712)*
+    - 3.2. Physiology of pregnancy *(p. 12, L1712)*
+  - 4. The Pregnancy Heart Team *(p. 14, L1947)*
+    - 4.1. Concept and requirements *(p. 14, L1947)*
+    - 4.2. Pre-pregnancy counselling and family planning *(p. 14, L1947)*
+      - 4.2.1. Risk assessment *(p. 14, L1947)*
+        - 4.2.1.1. Maternal risk assessment *(p. 14, L1947)*
+      - 4.2.2. Genetic counselling *(p. 14, L1947)*
+        - 4.2.2.1. Pre-natal and pre-implantation diagnosis *(p. 14, L1947)*
+      - 4.2.3. Reproductive technology *(p. 14, L1947)*
+      - 4.2.4. Contraception *(p. 21, L2708)*
+      - 4.2.5. Termination of pregnancy including psychological support *(p. 21, L2708)*
+    - 4.3. Diagnostic methods in pregnancy *(p. 23, L2923)*
+      - 4.3.1. Electrocardiogram, including mobile rhythm devices *(p. 23, L2923)*
+      - 4.3.2. Echocardiography *(p. 23, L2923)*
+      - 4.3.3. Cardiopulmonary exercise testing *(p. 23, L2923)*
+      - 4.3.4. Biomarkers *(p. 23, L2923)*
+      - 4.3.5. Ionizing radiation exposure *(p. 23, L2923)*
+        - 4.3.5.1. Chest radiography *(p. 23, L2923)*
+        - 4.3.5.2. Computed tomography and nuclear medicine imaging *(p. 23, L2923)*
+        - 4.3.5.3. Cardiac catheterization *(p. 24, L3024)*
+      - 4.3.6. Cardiovascular magnetic resonance *(p. 24, L3024)*
+    - 4.4. Foetal assessment *(p. 24, L3024)*
+      - 4.4.1. Risk of foetal/obstetric complications *(p. 24, L3024)*
+      - 4.4.2. Screening for congenital heart disease in the foetus *(p. 24, L3024)*
+      - 4.4.3. Assessing foetal well-being *(p. 24, L3024)*
+      - 4.4.4. Foetal assessment of heritable primary arrhythmias *(p. 25, L3115)*
+    - 4.5. Timing and mode of delivery *(p. 25, L3115)*
+      - 4.5.1. Timing of delivery *(p. 25, L3115)*
+      - 4.5.2. Induction of labour *(p. 25, L3115)*
+      - 4.5.3. Vaginal or caesarean delivery *(p. 25, L3115)*
+      - 4.5.4. Haemodynamic monitoring during delivery *(p. 25, L3115)*
+      - 4.5.5. Anaesthesia/analgesia *(p. 25, L3115)*
+      - 4.5.6. Delivery in women on anticoagulants *(p. 26, L3205)*
+        - 4.5.6.1. Planned delivery *(p. 26, L3205)*
+        - 4.5.6.2. Urgent delivery on therapeutic anticoagulation *(p. 26, L3205)*
+          - 4.5.6.2.1. Delivery on vitamin K antagonists *(p. 26, L3205)*
+          - 4.5.6.2.2. Delivery on heparin *(p. 26, L3205)*
+        - 4.5.6.3. Restarting anticoagulation after delivery *(p. 26, L3205)*
+      - 4.5.7. Endocarditis prophylaxis for delivery *(p. 26, L3205)*
+    - 4.6. Post-partum monitoring and complications *(p. 28, L3369)*
+      - 4.6.1. Monitoring *(p. 28, L3369)*
+      - 4.6.2. Breastfeeding and lactation *(p. 28, L3369)*
+      - 4.6.3. Complications *(p. 28, L3369)*
+        - 4.6.3.1. Haemorrhage *(p. 28, L3369)*
+        - 4.6.3.2. Psychological reactions, post-partum depression *(p. 28, L3369)*
+  - 5. Drugs during pregnancy and lactation *(p. 28, L3369)*
+    - 5.1. General principles *(p. 28, L3369)*
+      - 5.1.1. Pharmacokinetics and pharmacodynamics in pregnancy *(p. 28, L3369)*
+      - 5.1.2. Pharmacogenetics *(p. 28, L3369)*
+      - 5.1.3. Newborn drug exposure in breast milk *(p. 28, L3369)*
+    - 5.2. Drug classes in pregnancy *(p. 28, L3369)*
+      - 5.2.1. Anticoagulants *(p. 28, L3369)*
+        - Low-molecular-weight heparin treatment regimen glossary *(p. 29, L3461)*
+        - 5.2.1.1. Vitamin K antagonists *(p. 29, L3461)*
+        - 5.2.1.2. Low-molecular-weight heparins *(p. 30, L3566)*
+          - 5.2.1.2.1. Low-molecular-weight heparin dosing *(p. 30, L3566)*
+          - 5.2.1.2.2. Once-daily vs twice-daily administration *(p. 30, L3566)*
+        - 5.2.1.3. Unfractionated heparin *(p. 30, L3566)*
+        - 5.2.1.4. Fondaparinux *(p. 30, L3566)*
+        - 5.2.1.5. Direct oral anticoagulants *(p. 30, L3566)*
+      - 5.2.2. Antiplatelet treatment *(p. 31, L3670)*
+      - 5.2.3. Diuretics and SGLT2 inhibitors *(p. 31, L3670)*
+      - 5.2.4. Pulmonary hypertension *(p. 31, L3670)*
+      - 5.2.5. Anti-arrhythmic agents *(p. 31, L3670)*
+      - 5.2.6. Calcium channel blockers *(p. 31, L3670)*
+      - 5.2.7. Renin–angiotensin–aldosterone system inhibitors *(p. 32, L3766)*
+      - 5.2.8. Lipid-lowering agents *(p. 32, L3766)*
+      - 5.2.9. Beta-adrenergic blocking agents *(p. 32, L3766)*
+      - 5.2.10. Immunosuppressants *(p. 32, L3766)*
+      - 5.2.11. Neuroactive drugs *(p. 32, L3766)*
+      - 5.2.12. Obstetric drugs in patients with cardiovascular disease *(p. 32, L3766)*
+    - 5.3. Internet databases *(p. 32, L3766)*
+    - 5.4. List of drugs *(p. 32, L3766)*
+  - 6. Pregnancy in women with cardiomyopathies and primary arrhythmia syndromes *(p. 34, L4016)*
+    - 6.1. Cardiomyopathies *(p. 34, L4016)*
+      - 6.1.1. Dilated cardiomyopathy and non-dilated left ventricular cardiomyopathy *(p. 34, L4016)*
+      - 6.1.2. Arrhythmogenic right ventricular cardiomyopathy *(p. 34, L4016)*
+      - 6.1.3. Hypertrophic cardiomyopathy *(p. 34, L4016)*
+        - 6.1.3.1. Treatment of hypertrophic cardiomyopathy in pregnancy *(p. 34, L4016)*
+        - 6.1.3.2. Left ventricular outflow tract obstruction *(p. 34, L4016)*
+      - 6.1.4. Hypertrabeculation of the left ventricle *(p. 35, L4111)*
+      - 6.1.5. Labour and delivery in cardiomyopathies *(p. 35, L4111)*
+    - 6.2. Primary arrhythmia syndromes *(p. 35, L4111)*
+      - 6.2.1. Long QT syndrome *(p. 35, L4111)*
+      - 6.2.2. Brugada syndrome *(p. 36, L4241)*
+      - 6.2.3. Catecholaminergic polymorphic ventricular tachycardia *(p. 36, L4241)*
+      - 6.2.4. Short QT syndrome *(p. 36, L4241)*
+      - 6.2.5. Labour and delivery in primary arrhythmia syndromes *(p. 36, L4241)*
+  - 7. Peripartum cardiomyopathy *(p. 37, L4340)*
+    - 7.1. Epidemiology *(p. 37, L4340)*
+    - 7.2. Mechanisms *(p. 37, L4340)*
+    - 7.3. Diagnosis and clinical interventions *(p. 37, L4340)*
+    - 7.4. Outcomes *(p. 39, L4596)*
+  - 8. Pregnancy in women with aortopathies *(p. 39, L4596)*
+    - 8.1. Women with heritable thoracic aortic disease *(p. 39, L4596)*
+      - 8.1.1. Marfan syndrome *(p. 40, L4709)*
+      - 8.1.2. Loeys–Dietz syndrome *(p. 40, L4709)*
+      - 8.1.3. Vascular Ehlers–Danlos syndrome *(p. 40, L4709)*
+      - 8.1.4. Non-syndromic heritable thoracic aortic diseases *(p. 40, L4709)*
+      - 8.1.5. Aortic disease with no identifiable (likely) pathogenic variant *(p. 40, L4709)*
+    - 8.2. Turner syndrome *(p. 40, L4709)*
+    - 8.3. Bicuspid aortic valve disease *(p. 40, L4709)*
+    - 8.4. Aortic aneurysms other than root or ascending aorta *(p. 41, L4801)*
+    - 8.5. Aortic dissection *(p. 41, L4801)*
+    - 8.6. Management *(p. 41, L4801)*
+    - 8.7. Cardiac surgery during pregnancy *(p. 42, L4883)*
+  - 9. Pregnancy in women with known congenital heart disease *(p. 43, L4981)*
+  - 10. Pregnancy in women with pulmonary arterial hypertension *(p. 47, L5499)*
+    - 10.1. Pre-existing pulmonary arterial hypertension *(p. 47, L5499)*
+      - 10.1.1. Maternal and foetal risk *(p. 47, L5499)*
+      - 10.1.2. Counselling and contraception *(p. 47, L5499)*
+      - 10.1.3. Management during pregnancy *(p. 47, L5499)*
+    - 10.2. New diagnosis in pregnancy *(p. 48, L5598)*
+    - 10.3. Delivery in women with pulmonary arterial hypertension *(p. 48, L5598)*
+      - 10.3.1. Peri- and post-partum monitoring *(p. 48, L5598)*
+  - 11. Venous thromboembolism in pregnancy and post-partum *(p. 48, L5598)*
+    - 11.1. Epidemiology and maternal risk *(p. 48, L5598)*
+    - 11.2. Risk factors for pregnancy-related venous thromboembolism *(p. 48, L5598)*
+    - 11.3. Prevention of venous thromboembolism *(p. 49, L5701)*
+      - 11.3.1. Pregnant women with no prior indications for long-term anticoagulation *(p. 49, L5701)*
+      - 11.3.2. Pregnant women with prior indication for long-term anticoagulation *(p. 49, L5701)*
+    - 11.4. Management of acute venous thromboembolism *(p. 49, L5701)*
+      - 11.4.1. Clinical presentation and diagnosis *(p. 49, L5701)*
+        - 11.4.1.1. Deep vein thrombosis *(p. 49, L5701)*
+        - 11.4.1.2. Pulmonary embolism *(p. 50, L5770)*
+      - 11.4.2. Treatment of venous thromboembolism in pregnancy *(p. 50, L5770)*
+    - 11.5. Management of delivery and the post-partum period *(p. 52, L5884)*
+  - 12. Pregnancy in women with acquired heart disease *(p. 52, L5884)*
+    - 12.1. Acute chest pain in pregnancy *(p. 52, L5884)*
+    - 12.2. Coronary artery disease *(p. 52, L5884)*
+      - 12.2.1. Acute coronary syndrome *(p. 52, L5884)*
+        - 12.2.1.1. Coronary artery disease epidemiology and aetiology *(p. 52, L5884)*
+        - 12.2.1.2. Presentation and diagnosis *(p. 54, L6031)*
+        - 12.2.1.3. Pregnancy-associated spontaneous coronary artery dissection *(p. 54, L6031)*
+      - 12.2.2. Coronary artery interventions *(p. 54, L6031)*
+      - 12.2.3. Chronic coronary syndromes in pregnancy *(p. 54, L6031)*
+      - 12.2.4. Management and delivery *(p. 54, L6031)*
+    - 12.3. Hypertensive disorders *(p. 55, L6127)*
+      - 12.3.1. Definition and classification of hypertension in pregnancy *(p. 56, L6211)*
+        - 12.3.1.1. Pre-eclampsia/eclampsia *(p. 56, L6211)*
+      - 12.3.2. Diagnosis and risk assessment *(p. 56, L6211)*
+        - 12.3.2.1. Blood pressure measurement *(p. 56, L6211)*
+        - 12.3.2.2. Laboratory tests *(p. 56, L6211)*
+      - 12.3.3. Management of hypertension in pregnancy *(p. 56, L6211)*
+        - 12.3.3.1. Non-pharmacological management *(p. 56, L6211)*
+        - 12.3.3.2. Pharmacological treatment *(p. 57, L6303)*
+          - 12.3.3.2.1. Mild hypertension (BP 140/90 – 159/109 mmHg) *(p. 57, L6303)*
+          - 12.3.3.2.2. Pre-eclampsia *(p. 57, L6303)*
+          - 12.3.3.2.3. Severe hypertension (BP ≧160/110 mmHg) *(p. 60, L6451)*
+      - 12.3.4. Hypertension and delivery *(p. 60, L6451)*
+    - 12.4. Arrhythmias *(p. 61, L6548)*
+      - 12.4.1. Supraventricular arrhythmias *(p. 61, L6548)*
+        - 12.4.1.1. New-onset narrow QRS tachycardia *(p. 61, L6548)*
+        - 12.4.1.2. Atrial fibrillation including anticoagulation *(p. 62, L6621)*
+        - 12.4.1.3. Pre-existing supraventricular tachycardia *(p. 63, L6685)*
+      - 12.4.2. Ventricular arrhythmias *(p. 64, L6736)*
+      - 12.4.3. Cardioversion, ablation, and device implantation, and implantable cardioverter defibrillator management *(p. 64, L6736)*
+        - 12.4.3.1. Electrical cardioversion *(p. 64, L6736)*
+        - 12.4.3.2. Catheter ablation *(p. 64, L6736)*
+        - 12.4.3.3. Device implantation *(p. 65, L6837)*
+        - 12.4.3.4. Implantable cardioverter defibrillator management *(p. 66, L6896)*
+      - 12.4.4. Cardiac arrest *(p. 68, L7088)*
+      - 12.4.5. Bradycardia *(p. 69, L7142)*
+        - 12.4.5.1. Sinus node dysfunction *(p. 69, L7142)*
+        - 12.4.5.2. Atrioventricular block *(p. 69, L7142)*
+        - 12.4.5.3. Management of sinus node dysfunction and atrioventricular block *(p. 69, L7142)*
+    - 12.5. Valvular heart disease *(p. 69, L7142)*
+      - 12.5.1. Stenotic native valve lesions *(p. 69, L7142)*
+        - 12.5.1.1. Mitral valve stenosis *(p. 70, L7260)*
+          - 12.5.1.1.1. Management *(p. 70, L7260)*
+          - 12.5.1.1.2. Interventions *(p. 70, L7260)*
+          - 12.5.1.1.3. Delivery *(p. 70, L7260)*
+          - 12.5.1.1.4. Post-partum *(p. 70, L7260)*
+        - 12.5.1.2. Valvular aortic stenosis *(p. 70, L7260)*
+          - 12.5.1.2.1. Management *(p. 70, L7260)*
+      - 12.5.2. Regurgitant native valve lesions *(p. 70, L7260)*
+        - 12.5.2.1. Mitral and aortic valve regurgitation *(p. 70, L7260)*
+          - 12.5.2.1.1. Management *(p. 70, L7260)*
+        - 12.5.2.2. Arrhythmogenic mitral valve prolapse *(p. 70, L7260)*
+        - 12.5.2.3. Tricuspid regurgitation *(p. 71, L7352)*
+      - 12.5.3. Prosthetic valves *(p. 72, L7446)*
+        - 12.5.3.1. Bioprosthetic valves *(p. 72, L7446)*
+        - 12.5.3.2. Mechanical valves *(p. 72, L7446)*
+          - 12.5.3.2.1. Anticoagulation during pregnancy *(p. 73, L7542)*
+          - 12.5.3.2.2. Mechanical valve thrombosis *(p. 73, L7542)*
+          - 12.5.3.2.3. Anticoagulation during delivery in women with mechanical heart valves *(p. 73, L7542)*
+      - 12.5.4. Endocarditis prophylaxis *(p. 75, L7694)*
+    - 12.6. Heart failure *(p. 75, L7694)*
+      - 12.6.1. Chronic heart failure *(p. 75, L7694)*
+      - 12.6.2. Acute heart failure (including cardiogenic shock) *(p. 75, L7694)*
+    - 12.7. Special populations *(p. 77, L7889)*
+      - 12.7.1. Heart transplantation *(p. 77, L7889)*
+      - 12.7.2. Cardio-oncology *(p. 77, L7889)*
+        - 12.7.2.1 Gestational cancer *(p. 77, L7889)*
+        - 12.7.2.2 Pregnancy in cancer survivors *(p. 78, L7987)*
+  - 13. Adverse pregnancy outcomes and long-term management *(p. 78, L7987)*
+    - 13.1. Adverse pregnancy outcomes *(p. 78, L7987)*
+      - 13.1.1. Post-partum hypertensive disorders *(p. 78, L7987)*
+      - 13.1.2. Gestational diabetes mellitus *(p. 78, L7987)*
+      - 13.1.3. Pre-term birth *(p. 78, L7987)*
+      - 13.1.4. Small for gestational age *(p. 78, L7987)*
+      - 13.1.5. Pregnancy loss and placental abruption *(p. 78, L7987)*
+    - 13.2. Breastfeeding *(p. 78, L7987)*
+    - 13.3. Women's Heart Clinics *(p. 79, L8082)*
+  - 14. Key messages *(p. 81, L8249)*
+  - 15. Gaps in evidence *(p. 82, L8340)*
+  - 16. ‘What to do’ and ‘what not to do’ messages from the Guidelines *(p. 83, L8433)*
+  - 17. Evidence tables *(p. 83, L8433)*
+  - 18. Data availability statement *(p. 83, L8433)*
+  - 19. Author information *(p. 88, L8991)*
+  - Appendix *(p. 88, L8991)*
+  - References *(p. 89, L9108)*
+  - References *(p. 89, L9108)*
+
+
+---
+
+### <a name="2025-valvular-heart-disease"></a>Valvular Heart Disease
+
+**File:** `2025_Valvular_Heart_Disease.pdf`
+
+- 2025 ESC/EACTS Guidelines for the management of valvular heart disease *(p. 1, L173)*
+  - 1. Preamble *(p. 6, L851)*
+  - 2. Introduction *(p. 8, L1166)*
+    - 2.1. What is new *(p. 9, L1261)*
+  - 3. The Heart Team and Heart Valve Centre *(p. 15, L2014)*
+    - 3.1. The Heart Valve Network *(p. 15, L2014)*
+      - 3.1.1. Composition of the Heart Team *(p. 16, L2131)*
+      - 3.1.2. Procedural volume and clinical outcomes *(p. 17, L2222)*
+  - 4. Imaging of patients with valvular heart disease *(p. 18, L2347)*
+    - 4.1. Initial valve assessment *(p. 18, L2347)*
+    - 4.2. Associated diseases and conditions *(p. 19, L2419)*
+    - 4.3. Evaluation of valvular heart disease dynamics and variability *(p. 19, L2419)*
+    - 4.4. Assessment of extravalvular cardiac consequences from valvular heart disease *(p. 19, L2419)*
+    - 4.5. Evaluation of eligibility, planning, and guiding of interventions *(p. 19, L2419)*
+  - 5. Clinical evaluation of patients with valvular heart disease *(p. 19, L2419)*
+    - 5.1. Clinical examination *(p. 19, L2419)*
+    - 5.2. Assessment of comorbidities and risk stratification *(p. 19, L2419)*
+    - 5.3. Biomarkers *(p. 20, L2506)*
+    - 5.4. Exercise testing *(p. 21, L2554)*
+    - 5.5. Invasive investigations *(p. 21, L2554)*
+      - 5.5.1. Coronary angiography *(p. 21, L2554)*
+      - 5.5.2. Cardiac catheterization *(p. 21, L2554)*
+    - 5.6. Patient-centred care and shared decision-making *(p. 21, L2554)*
+  - 6. Management of conditions associated with valvular heart disease *(p. 21, L2554)*
+    - 6.1. Diagnosis and management of coronary artery disease *(p. 21, L2554)*
+    - 6.2. Atrial fibrillation *(p. 23, L2754)*
+    - 6.3. Cancer and radiation therapy *(p. 23, L2754)*
+    - 6.4. Prophylaxis of rheumatic fever *(p. 24, L2880)*
+    - 6.5. Cardiogenic shock and acute heart failure *(p. 24, L2880)*
+    - 6.6. Palliative care *(p. 24, L2880)*
+  - 7. Aortic regurgitation *(p. 24, L2880)*
+    - 7.1. Prevalence and aetiology *(p. 24, L2880)*
+    - 7.2. Evaluation *(p. 24, L2880)*
+    - 7.3. Medical therapy *(p. 26, L3059)*
+    - 7.4. Indications for intervention *(p. 26, L3059)*
+    - 7.5. Follow-up *(p. 26, L3059)*
+    - 7.6. Special patient populations *(p. 28, L3200)*
+  - 8. Aortic stenosis *(p. 28, L3200)*
+    - 8.1. Prevalence and aetiology *(p. 28, L3200)*
+    - 8.2. Evaluation *(p. 28, L3200)*
+      - 8.2.1. Echocardiography and cardiac computed tomography *(p. 28, L3200)*
+      - 8.2.2. Additional diagnostic and prognostic parameters *(p. 29, L3317)*
+      - 8.2.3. Procedural planning *(p. 29, L3317)*
+    - 8.3. Medical therapy *(p. 29, L3317)*
+    - 8.4. Indication for intervention *(p. 31, L3457)*
+      - 8.4.1. Symptomatic severe aortic stenosis *(p. 31, L3457)*
+      - 8.4.2. Asymptomatic severe aortic stenosis *(p. 31, L3457)*
+      - 8.4.3. Moderate aortic stenosis *(p. 31, L3457)*
+    - 8.5. Treatment options *(p. 33, L3596)*
+      - 8.5.1. The mode of intervention in candidates for a bioprosthesis *(p. 33, L3596)*
+        - 8.5.1.1. Age and life expectancy *(p. 34, L3687)*
+        - 8.5.1.2. Anatomical features *(p. 34, L3687)*
+        - 8.5.1.3. Lifetime management *(p. 34, L3687)*
+    - 8.6. Follow-up *(p. 37, L3969)*
+  - 9. Mitral regurgitation *(p. 37, L3969)*
+    - 9.1. Primary mitral regurgitation *(p. 37, L3969)*
+      - 9.1.1. Prevalence and aetiology *(p. 37, L3969)*
+      - 9.1.2. Evaluation *(p. 37, L3969)*
+        - 9.1.2.1. Echocardiography and right heart catheterization *(p. 37, L3969)*
+        - 9.1.2.2. Biomarkers *(p. 37, L3969)*
+        - 9.1.2.3. Cardiac magnetic resonance and computed tomography *(p. 38, L4072)*
+        - 9.1.2.4. Genetic evaluation *(p. 40, L4199)*
+      - 9.1.3. Medical therapy *(p. 40, L4199)*
+      - 9.1.4. Indications for intervention *(p. 40, L4199)*
+      - 9.1.5. Follow-up *(p. 41, L4299)*
+    - 9.2. Secondary mitral regurgitation *(p. 41, L4299)*
+      - 9.2.1. Prevalence and aetiology *(p. 41, L4299)*
+      - 9.2.2. Evaluation *(p. 41, L4299)*
+      - 9.2.3. Definition of atrial secondary mitral regurgitation *(p. 41, L4299)*
+      - 9.2.4. Management of ventricular secondary mitral regurgitation *(p. 42, L4414)*
+        - 9.2.4.1. Medical and device therapy *(p. 42, L4414)*
+        - 9.2.4.2. Indications for intervention *(p. 43, L4530)*
+        - 9.2.4.3. Follow-up *(p. 44, L4587)*
+      - 9.2.5. Management of atrial secondary mitral regurgitation *(p. 45, L4679)*
+        - 9.2.5.1. Medical therapy and rhythm management *(p. 45, L4679)*
+        - 9.2.5.2. Indications for intervention *(p. 45, L4679)*
+        - 9.2.5.3. Follow-up *(p. 45, L4679)*
+  - 10. Mitral stenosis *(p. 45, L4679)*
+    - 10.1. Prevalence and aetiology *(p. 45, L4679)*
+    - 10.2. Rheumatic mitral stenosis *(p. 45, L4679)*
+      - 10.2.1. Evaluation *(p. 45, L4679)*
+      - 10.2.2. Medical therapy *(p. 46, L4808)*
+      - 10.2.3. Indications for intervention *(p. 46, L4808)*
+      - 10.2.4. Follow-up *(p. 46, L4808)*
+    - 10.3. Degenerative mitral stenosis with mitral annular calcification *(p. 46, L4808)*
+      - 10.3.1. Evaluation *(p. 47, L4894)*
+      - 10.3.2. Indications for intervention *(p. 47, L4894)*
+  - 11. Tricuspid regurgitation *(p. 48, L4936)*
+    - 11.1. Prevalence and aetiology *(p. 48, L4936)*
+    - 11.2. Evaluation *(p. 49, L5065)*
+    - 11.3. Medical therapy *(p. 49, L5065)*
+    - 11.4. Indications for intervention *(p. 49, L5065)*
+      - 11.4.1. Surgery *(p. 49, L5065)*
+        - 11.4.1.1. Patients without indication for left-sided valve surgery *(p. 51, L5280)*
+        - 11.4.1.2. Patients with indication for left-sided valve surgery *(p. 51, L5280)*
+      - 11.4.2. Transcatheter techniques *(p. 52, L5337)*
+  - 12. Tricuspid stenosis *(p. 53, L5376)*
+    - 12.1. Prevalence and aetiology *(p. 53, L5376)*
+    - 12.2. Evaluation *(p. 53, L5376)*
+    - 12.3. Medical therapy *(p. 54, L5494)*
+    - 12.4. Indications for intervention *(p. 54, L5494)*
+  - 13. Multiple and mixed valvular heart disease *(p. 54, L5494)*
+    - 13.1. Prevalence and undertreatment *(p. 54, L5494)*
+    - 13.2. Evaluation and diagnostic pitfalls *(p. 54, L5494)*
+    - 13.3. Indications for intervention *(p. 54, L5494)*
+      - 13.3.1. Multiple valvular heart disease *(p. 54, L5494)*
+      - 13.3.2. Mixed aortic valve disease *(p. 56, L5739)*
+      - 13.3.3. Mixed mitral valve disease *(p. 56, L5739)*
+    - 13.4. Follow-up *(p. 56, L5739)*
+  - 14. Management of patients with prosthetic valves or valve repair *(p. 56, L5739)*
+    - 14.1. Choice of prosthetic valve *(p. 56, L5739)*
+    - 14.2. Follow-up of patients with prosthetic valves *(p. 57, L5856)*
+    - 14.3. Antithrombotic therapy in patients with treated valvular heart disease *(p. 57, L5856)*
+      - 14.3.1. Mechanical heart valves *(p. 57, L5856)*
+        - 14.3.1.1. Post-operative anticoagulation and therapeutic targets *(p. 57, L5856)*
+        - 14.3.1.2. Prevention and management of bleeding *(p. 59, L6017)*
+        - 14.3.1.3. Management of anticoagulation therapy before and after non-cardiac invasive procedures *(p. 59, L6017)*
+      - 14.3.2. Biological heart valves *(p. 61, L6256)*
+        - 14.3.2.1. Patients with a surgical biological heart valve and no indication for oral anticoagulation *(p. 61, L6256)*
+        - 14.3.2.2. Patients with a transcatheter heart valve and no indication for oral anticoagulation *(p. 61, L6256)*
+        - 14.3.2.3. Patients with a surgical biological heart valve and an indication for oral anticoagulation *(p. 62, L6348)*
+        - 14.3.2.4. Patients with a transcatheter biological heart valve and an indication for oral anticoagulation *(p. 62, L6348)*
+    - 14.4. Management of prosthetic valve dysfunction and complications *(p. 63, L6483)*
+      - 14.4.1. Structural valve deterioration *(p. 63, L6483)*
+      - 14.4.2. Non-structural valve dysfunction *(p. 64, L6595)*
+        - 14.4.2.1. Prosthesis–patient mismatch *(p. 64, L6595)*
+        - 14.4.2.2. Paravalvular leak and haemolysis *(p. 64, L6595)*
+      - 14.4.3. Endocarditis *(p. 64, L6595)*
+      - 14.4.4. Valve thrombosis *(p. 64, L6595)*
+        - 14.4.4.1. Hypo-attenuated leaflet thickening *(p. 64, L6595)*
+        - 14.4.4.2. Clinically significant valve thrombosis *(p. 64, L6595)*
+  - 15. Management during non-cardiac surgery *(p. 66, L6729)*
+    - 15.1. Pre-operative evaluation *(p. 66, L6729)*
+    - 15.2. Specific valve lesions *(p. 66, L6729)*
+      - 15.2.1. Aortic stenosis *(p. 66, L6729)*
+      - 15.2.2. Mitral stenosis *(p. 67, L6825)*
+      - 15.2.3. Aortic and mitral regurgitation *(p. 67, L6825)*
+    - 15.3. Peri-operative monitoring *(p. 68, L6883)*
+  - 16. Management of valvular heart disease during pregnancy *(p. 68, L6883)*
+    - 16.1. Management before pregnancy *(p. 68, L6883)*
+    - 16.2. Management during pregnancy *(p. 69, L7042)*
+      - 16.2.1. Patients with native valve disease *(p. 69, L7042)*
+      - 16.2.2. Patients with prosthetic valves *(p. 69, L7042)*
+  - 17. Sex-specific considerations in patients with valvular heart disease *(p. 69, L7042)*
+    - 17.1. Aortic valve disease *(p. 69, L7042)*
+    - 17.2. Mitral valve disease *(p. 70, L7137)*
+    - 17.3. Tricuspid valve disease *(p. 70, L7137)*
+  - 18. Key messages *(p. 70, L7137)*
+  - 19. Gaps in evidence *(p. 71, L7219)*
+  - 20. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 73, L7418)*
+  - 21. Evidence tables *(p. 76, L7713)*
+  - 22. Data availability statement *(p. 76, L7713)*
+  - 23. Author information *(p. 76, L7713)*
+  - Appendix *(p. 76, L7713)*
+  - References *(p. 77, L7834)*
+  - References *(p. 77, L7834)*
+
+
+---
+
+## 2024
+
+### <a name="2024-atrial-fibrillation"></a>Atrial Fibrillation
+
+**File:** `2024_Atrial_Fibrillation.pdf`
+
+- 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS) *(p. 1, L120)*
+  - 1. Preamble *(p. 6, L703)*
+  - 2. Introduction *(p. 8, L937)*
+    - 2.1. What is new *(p. 9, L1055)*
+  - 3. Definitions and clinical impact *(p. 13, L1466)*
+    - 3.1. Definition and classification of AF *(p. 13, L1466)*
+    - 3.2. Diagnostic criteria for AF *(p. 14, L1588)*
+    - 3.3. Symptoms attributable to AF *(p. 15, L1713)*
+    - 3.4. Diagnostic evaluation of new AF *(p. 15, L1713)*
+    - 3.5. Adverse events associated with AF *(p. 16, L1836)*
+    - 3.6. Atrial flutter *(p. 17, L1938)*
+  - 4. Patient pathways and management of AF *(p. 17, L1938)*
+    - 4.1. Patient-centred, multidisciplinary AF management *(p. 17, L1938)*
+      - 4.1.1. The patient at the heart of care *(p. 17, L1938)*
+      - 4.1.2. Education and shared decision-making *(p. 18, L2071)*
+      - 4.1.3. Education of healthcare professionals *(p. 19, L2184)*
+      - 4.1.4. Inclusive management of AF *(p. 19, L2184)*
+    - 4.2. Principles of AF-CARE *(p. 19, L2184)*
+  - 5. [C] Comorbidity and risk factor management *(p. 25, L2681)*
+    - 5.1. Hypertension *(p. 26, L2740)*
+    - 5.2. Heart failure *(p. 26, L2740)*
+    - 5.3. Type 2 diabetes mellitus *(p. 27, L2888)*
+    - 5.4. Obesity *(p. 27, L2888)*
+    - 5.5. Obstructive sleep apnoea *(p. 27, L2888)*
+    - 5.6. Physical inactivity *(p. 27, L2888)*
+    - 5.7. Alcohol excess *(p. 28, L3002)*
+  - 6. [A] Avoid stroke and thromboembolism *(p. 28, L3002)*
+    - 6.1. Initiating oral anticoagulation *(p. 28, L3002)*
+      - 6.1.1. Decision support for anticoagulation in AF *(p. 28, L3002)*
+    - 6.2. Oral anticoagulants *(p. 30, L3245)*
+      - 6.2.1. Direct oral anticoagulants *(p. 31, L3395)*
+      - 6.2.2. Vitamin K antagonists *(p. 32, L3532)*
+      - 6.2.3. Clinical vs. device-detected subclinical AF *(p. 32, L3532)*
+    - 6.3. Antiplatelet drugs and combinations with anticoagulants *(p. 33, L3636)*
+    - 6.4. Residual ischaemic stroke risk despite anticoagulation *(p. 33, L3636)*
+    - 6.5. Percutaneous left atrial appendage occlusion *(p. 33, L3636)*
+    - 6.6. Surgical left atrial appendage occlusion *(p. 34, L3765)*
+    - 6.7. Bleeding risk *(p. 35, L3899)*
+      - 6.7.1. Assessment of bleeding risk *(p. 35, L3899)*
+      - 6.7.2. Management of bleeding on anticoagulant therapy *(p. 35, L3899)*
+  - 7. [R] Reduce symptoms by rate and rhythm control *(p. 38, L4172)*
+    - 7.1. Management of heart rate in patients with AF *(p. 38, L4172)*
+      - 7.1.1. Indications and target heart rate *(p. 39, L4316)*
+      - 7.1.2. Heart rate control in the acute setting *(p. 39, L4316)*
+      - 7.1.3. Long-term heart rate control *(p. 39, L4316)*
+      - 7.1.4. Atrioventricular node ablation and pacemaker implantation *(p. 40, L4439)*
+    - 7.2. Rhythm control strategies in patients with AF *(p. 40, L4439)*
+      - 7.2.1. General principles and anticoagulation *(p. 40, L4439)*
+      - 7.2.2. Electrical cardioversion *(p. 43, L4775)*
+      - 7.2.3. Pharmacological cardioversion *(p. 43, L4775)*
+      - 7.2.4. Antiarrhythmic drugs *(p. 44, L4911)*
+      - 7.2.5. Catheter ablation *(p. 45, L5053)*
+      - 7.2.6. Anticoagulation in patients undergoing catheter ablation *(p. 46, L5182)*
+      - 7.2.7. Endoscopic and hybrid AF ablation *(p. 47, L5317)*
+      - 7.2.8. AF ablation during cardiac surgery *(p. 48, L5456)*
+      - 7.2.9. Atrial tachycardia after pulmonary vein isolation *(p. 48, L5456)*
+  - 8. [E] Evaluation and dynamic reassessment *(p. 48, L5456)*
+    - 8.1. Implementation of dynamic care *(p. 49, L5580)*
+    - 8.2. Improving treatment adherence *(p. 49, L5580)*
+    - 8.3. Cardiac imaging *(p. 49, L5580)*
+    - 8.4. Patient-reported outcome measures *(p. 50, L5697)*
+  - 9. The AF-CARE pathway in specific clinical settings *(p. 51, L5759)*
+    - 9.1. AF-CARE in unstable patients *(p. 51, L5759)*
+    - 9.2. AF-CARE in acute and chronic coronary syndromes *(p. 51, L5759)*
+    - 9.3. AF-CARE in vascular disease *(p. 53, L5946)*
+    - 9.4. AF-CARE in acute stroke or intracranial haemorrhage *(p. 53, L5946)*
+      - 9.4.1. Management of acute ischaemic stroke *(p. 53, L5946)*
+      - 9.4.2. Introduction or re-introduction of anticoagulation after ischaemic stroke *(p. 54, L6081)*
+      - 9.4.3. Introduction or re-introduction of anticoagulation after haemorrhagic stroke *(p. 54, L6081)*
+    - 9.5. AF-CARE for trigger-induced AF *(p. 54, L6081)*
+    - 9.6. AF-CARE in post-operative patients *(p. 55, L6200)*
+    - 9.7. AF-CARE in embolic stroke of unknown source *(p. 55, L6200)*
+    - 9.8. AF-CARE during pregnancy *(p. 56, L6329)*
+    - 9.9. AF-CARE in congenital heart disease *(p. 57, L6471)*
+    - 9.10. AF-CARE in endocrine disorders *(p. 57, L6471)*
+    - 9.11. AF-CARE in inherited cardiomyopathies and primary arrhythmia syndromes *(p. 57, L6471)*
+    - 9.12. AF-CARE in cancer *(p. 58, L6594)*
+    - 9.13. AF-CARE in older, multimorbid, or frail patients *(p. 58, L6594)*
+    - 9.14. AF-CARE in atrial flutter *(p. 58, L6594)*
+  - 10. Screening and prevention of AF *(p. 58, L6594)*
+    - 10.1. Epidemiology of AF *(p. 58, L6594)*
+    - 10.2. Screening tools for AF *(p. 59, L6712)*
+    - 10.3. Screening strategies for AF *(p. 60, L6758)*
+      - 10.3.1. Single timepoint screening ‘snapshot’ *(p. 61, L6850)*
+      - 10.3.2. Prolonged screening *(p. 61, L6850)*
+    - 10.4. Factors associated with incident AF *(p. 62, L6957)*
+    - 10.5. Primary prevention of AF *(p. 62, L6957)*
+      - 10.5.1. Hypertension *(p. 63, L7079)*
+      - 10.5.2. Heart failure *(p. 63, L7079)*
+      - 10.5.3. Type 2 diabetes mellitus *(p. 63, L7079)*
+      - 10.5.4. Obesity *(p. 63, L7079)*
+      - 10.5.5. Sleep apnoea syndrome *(p. 63, L7079)*
+      - 10.5.6. Physical activity *(p. 63, L7079)*
+      - 10.5.7. Alcohol intake *(p. 64, L7206)*
+  - 11. Key messages *(p. 64, L7206)*
+  - 12. Gaps in evidence *(p. 64, L7206)*
+  - 13. ‘What to do’ and ‘What not to do’ messages from the guidelines *(p. 66, L7433)*
+  - 14. Evidence tables *(p. 69, L7737)*
+  - 15. Data availability statement *(p. 69, L7737)*
+  - 16. Author information *(p. 69, L7737)*
+  - Appendix *(p. 70, L7842)*
+  - References *(p. 71, L7989)*
+  - References *(p. 71, L7989)*
+
+
+---
+
+### <a name="2024-chronic-coronary-syndromes"></a>Chronic Coronary Syndromes
+
+**File:** `2024_Chronic_Coronary_Syndromes.pdf`
+
+- 2024 ESC Guidelines for the management of chronic coronary syndromes *(p. 1, L162)*
+  - 1. Preamble *(p. 8, L1169)*
+  - 2. Introduction *(p. 9, L1267)*
+    - 2.1. Evolving pathophysiological concepts of chronic coronary syndromes *(p. 9, L1267)*
+    - 2.2. Chronic coronary syndromes: clinical presentations (Figure 1) *(p. 10, L1340)*
+    - 2.3. Changing epidemiology and management strategies *(p. 10, L1340)*
+    - 2.4. What is new *(p. 12, L1499)*
+  - 3. Stepwise approach to the initial management of individuals with suspected chronic coronary syndrome *(p. 19, L2287)*
+    - 3.1. STEP 1: General clinical examination *(p. 19, L2287)*
+      - 3.1.1. History, differential diagnosis, and physical examination *(p. 19, L2287)*
+      - 3.1.2. Basic testing: 12-lead electrocardiogram and biochemistry *(p. 22, L2543)*
+        - 3.1.2.1. Electrocardiogram *(p. 22, L2543)*
+        - 3.1.2.2. Biochemical tests *(p. 23, L2681)*
+    - 3.2. STEP 2: Further evaluation *(p. 23, L2681)*
+      - 3.2.1. Pre-test clinical likelihood of obstructive atherosclerotic coronary artery disease *(p. 23, L2681)*
+      - 3.2.2. Transthoracic echocardiography and cardiac magnetic resonance at rest *(p. 26, L3067)*
+      - 3.2.3. Exercise electrocardiogram testing *(p. 26, L3067)*
+      - 3.2.4. Chest X-ray *(p. 27, L3197)*
+      - 3.2.5. Ambulatory electrocardiogram monitoring *(p. 27, L3197)*
+    - 3.3. STEP 3: Confirming the diagnosis *(p. 27, L3197)*
+      - 3.3.1. Anatomical imaging: coronary computed tomography angiography *(p. 27, L3197)*
+        - 3.3.1.1. Computed tomography perfusion imaging *(p. 27, L3197)*
+        - 3.3.1.2. Prognosis, plaque features, and opportunity to improve outcomes *(p. 28, L3338)*
+        - 3.3.1.3. Recognized pre-requisites for coronary computed tomography angiography *(p. 28, L3338)*
+      - 3.3.2. Functional imaging *(p. 28, L3338)*
+        - 3.3.2.1. Stress echocardiography *(p. 28, L3338)*
+        - 3.3.2.2. Myocardial perfusion scintigraphy—single-photon emission computed tomography *(p. 29, L3458)*
+        - 3.3.2.3. Positron emission tomography-computed tomography *(p. 30, L3595)*
+        - 3.3.2.4. Cardiac magnetic resonance imaging *(p. 30, L3595)*
+        - 3.3.2.5. Non-invasive testing for microvascular dysfunction *(p. 31, L3723)*
+      - 3.3.3. Invasive tests *(p. 31, L3723)*
+        - 3.3.3.1. Invasive coronary angiography *(p. 31, L3723)*
+        - 3.3.3.2. Functional assessment of epicardial stenosis severity to guide coronary revascularization *(p. 32, L3849)*
+        - 3.3.3.3. Assessment of microvascular dysfunction *(p. 33, L3985)*
+        - 3.3.3.4. Testing for coronary vasospasm *(p. 33, L3985)*
+      - 3.3.4. Diagnostic algorithm and selection of appropriate tests *(p. 34, L4116)*
+      - 3.3.5. Adverse-event risk assessment *(p. 39, L4562)*
+    - 3.4. STEP 4: Initial therapy *(p. 40, L4700)*
+  - 4. Guideline-directed therapy *(p. 41, L4832)*
+    - 4.1. Patient education, lifestyle optimization for risk-factor control, and exercise therapy *(p. 41, L4832)*
+      - 4.1.1. Patient education *(p. 41, L4832)*
+      - 4.1.2. Key lifestyle interventions for risk-factor control *(p. 41, L4832)*
+        - 4.1.2.1. Smoking and substance abuse *(p. 42, L4964)*
+        - 4.1.2.2. Weight management *(p. 42, L4964)*
+        - 4.1.2.3. Diet and alcohol *(p. 42, L4964)*
+        - 4.1.2.4. Mental health *(p. 42, L4964)*
+        - 4.1.2.5. Physical activity and sedentary behaviour *(p. 42, L4964)*
+      - 4.1.3. Exercise therapy *(p. 43, L5086)*
+    - 4.2. Antianginal/anti-ischaemic medication *(p. 43, L5086)*
+      - 4.2.1. General strategy *(p. 43, L5086)*
+      - 4.2.2. Beta blockers *(p. 44, L5224)*
+      - 4.2.3. Combination therapy *(p. 45, L5323)*
+    - 4.3. Medical therapy for event prevention *(p. 46, L5473)*
+      - 4.3.1. Antithrombotic drugs *(p. 46, L5473)*
+        - 4.3.1.1. Antiplatelet drugs *(p. 46, L5473)*
+          - 4.3.1.1.1. Aspirin monotherapy *(p. 46, L5473)*
+          - 4.3.1.1.2. Oral P2Y12 inhibitor monotherapy *(p. 46, L5473)*
+          - 4.3.1.1.2.1. Clopidogrel monotherapy *(p. 46, L5473)*
+          - 4.3.1.1.2.2. Ticagrelor monotherapy *(p. 46, L5473)*
+          - 4.3.1.1.3. Dual antiplatelet therapy post-percutaneous coronary intervention *(p. 48, L5665)*
+          - 4.3.1.1.4. Extended intensified antithrombotic therapy *(p. 48, L5665)*
+          - 4.3.1.1.5. Genotype- and phenotype-guided dual antiplatelet therapy *(p. 49, L5789)*
+        - 4.3.1.2. Anticoagulant therapy *(p. 50, L5886)*
+          - 4.3.1.2.1. Monotherapy with oral anticoagulant *(p. 50, L5886)*
+          - 4.3.1.2.2. Combination of anticoagulant and antiplatelet therapy after percutaneous coronary intervention in chronic coronary syndrome patients with AF or other indication for oral anticoagulant *(p. 50, L5886)*
+        - 4.3.1.3. Coronary artery bypass grafting and antithrombotic therapy *(p. 51, L6013)*
+        - 4.3.1.4. Proton pump inhibitors *(p. 51, L6013)*
+      - 4.3.2. Lipid-lowering drugs *(p. 53, L6224)*
+      - 4.3.3. Renin–angiotensin–aldosterone blockers/angiotensin receptor neprilysin inhibitor *(p. 53, L6224)*
+      - 4.3.4. Sodium–glucose cotransporter 2 inhibitors and glucagon-like peptide-1 receptor agonists *(p. 54, L6363)*
+      - 4.3.5. Anti-inflammatory agents for event prevention *(p. 54, L6363)*
+    - 4.4. Revascularization for chronic coronary syndromes *(p. 55, L6491)*
+      - 4.4.1. Appropriate indication for myocardial revascularization *(p. 55, L6491)*
+      - 4.4.2. Additional considerations on reduced systolic left ventricular function: myocardial viability, revascularization, and its modality *(p. 56, L6623)*
+      - 4.4.3. Additional considerations—complete vs. partial revascularization *(p. 57, L6747)*
+      - 4.4.4. Assessment of clinical risk and anatomical complexity *(p. 57, L6747)*
+      - 4.4.5. Choice of myocardial revascularization modality *(p. 58, L6871)*
+        - 4.4.5.1. Patients with single- or two-vessel coronary artery disease *(p. 58, L6871)*
+        - 4.4.5.2. Patients with unprotected left main coronary artery disease *(p. 58, L6871)*
+        - 4.4.5.3. Patients with multivessel coronary artery disease *(p. 60, L7092)*
+        - 4.4.5.4. Impact of coronary pressure guidance on multivessel coronary artery disease patients undergoing percutaneous coronary intervention *(p. 60, L7092)*
+        - 4.4.5.5. Virtual percutaneous coronary intervention: combination of coronary pressure mapping with coronary anatomy for percutaneous coronary intervention planning *(p. 60, L7092)*
+        - 4.4.5.6. Impact of intracoronary imaging guidance on multivessel coronary artery disease patients undergoing percutaneous coronary intervention *(p. 60, L7092)*
+        - 4.4.5.7. Hybrid revascularization in multivessel coronary artery disease patients *(p. 61, L7211)*
+      - 4.4.6. Patient–physician shared decision-making to perform and select revascularization modality *(p. 61, L7211)*
+      - 4.4.7. Institutional protocols, clinical pathways, and quality of care *(p. 61, L7211)*
+  - 5. Optimal assessment and treatment of specific groups *(p. 64, L7521)*
+    - 5.1. Coronary artery disease and heart failure *(p. 64, L7521)*
+    - 5.2. Angina/ischaemia with non-obstructive coronary arteries *(p. 65, L7632)*
+      - 5.2.1. Definition *(p. 65, L7632)*
+      - 5.2.2. Angina/ischaemia with non-obstructive coronary arteries endotypes *(p. 65, L7632)*
+        - 5.2.2.1. Microvascular angina *(p. 66, L7736)*
+        - 5.2.2.2. Epicardial vasospastic angina *(p. 67, L7797)*
+      - 5.2.3. Clinical presentations *(p. 67, L7797)*
+      - 5.2.4. Short- and long-term prognosis *(p. 67, L7797)*
+      - 5.2.5. Diagnosis *(p. 67, L7797)*
+        - 5.2.5.1. Non-invasive diagnosis *(p. 67, L7797)*
+        - 5.2.5.2. Invasive coronary functional testing *(p. 67, L7797)*
+          - 5.2.5.2.1. Basic coronary functional testing *(p. 67, L7797)*
+          - 5.2.5.2.2. Coronary vasomotor testing *(p. 67, L7797)*
+      - 5.2.6. Management of angina/ischaemia with non-obstructive coronary arteries *(p. 69, L7978)*
+    - 5.3. Other specific patient groups *(p. 71, L8122)*
+      - 5.3.1. Older adults *(p. 71, L8122)*
+      - 5.3.2. Sex differences in chronic coronary syndromes *(p. 71, L8122)*
+      - 5.3.3. High bleeding-risk patients *(p. 72, L8260)*
+      - 5.3.4. Inflammatory rheumatic diseases *(p. 72, L8260)*
+      - 5.3.5. Hypertension *(p. 72, L8260)*
+      - 5.3.6. Atrial fibrillation *(p. 72, L8260)*
+      - 5.3.7. Valvular heart disease *(p. 72, L8260)*
+      - 5.3.8. Chronic kidney disease *(p. 73, L8378)*
+      - 5.3.9. Cancer *(p. 73, L8378)*
+      - 5.3.10. Optimal treatment of patients with human immunodeficiency virus *(p. 73, L8378)*
+      - 5.3.11. Socially and geographically diverse groups *(p. 73, L8378)*
+    - 5.4. Screening for coronary artery disease in asymptomatic individuals *(p. 74, L8493)*
+  - 6. Long-term follow-up and care *(p. 75, L8641)*
+    - 6.1. Voice of the patient *(p. 75, L8641)*
+      - 6.1.1. Communication *(p. 75, L8641)*
+      - 6.1.2. Depression and anxiety *(p. 75, L8641)*
+    - 6.2. Adherence and persistence *(p. 75, L8641)*
+      - 6.2.1. Adherence to healthy lifestyle behaviours *(p. 75, L8641)*
+        - 6.2.1.1. Why behavioural changes are difficult *(p. 75, L8641)*
+        - 6.2.1.2. How to change behaviour and support healthy lifestyles *(p. 76, L8761)*
+        - 6.2.1.3. Digital and mHealth *(p. 77, L8821)*
+        - 6.2.1.4. How to assess adherence *(p. 78, L8879)*
+      - 6.2.2. Adherence to medical therapy *(p. 78, L8879)*
+        - 6.2.2.1. Strategies to improve medication adherence *(p. 78, L8879)*
+        - 6.2.2.2. mHealth strategies for medication adherence *(p. 78, L8879)*
+    - 6.3. Diagnosis of disease progression *(p. 78, L8879)*
+      - 6.3.1. Risk factors for recurrent coronary artery disease events *(p. 79, L9001)*
+      - 6.3.2. Organization of long-term follow-up *(p. 79, L9001)*
+      - 6.3.3. Non-invasive diagnostic testing *(p. 80, L9130)*
+    - 6.4. Treatment of myocardial revascularization failure *(p. 81, L9177)*
+      - 6.4.1. Percutaneous coronary intervention failure *(p. 81, L9177)*
+      - 6.4.2. Managing graft failure after coronary artery bypass grafting *(p. 81, L9177)*
+    - 6.5. Recurrent or refractory angina/ischaemia *(p. 82, L9316)*
+    - 6.6. Treatment of disease complications *(p. 83, L9457)*
+  - 7. Key messages *(p. 83, L9457)*
+  - 8. Gaps in evidence *(p. 84, L9580)*
+  - 9. ‘What to do’ and ‘What not to do’ messages from the guidelines *(p. 85, L9702)*
+  - 10. Evidence tables *(p. 91, L10306)*
+  - 11. Data availability statement *(p. 91, L10306)*
+  - 12. Author information *(p. 91, L10306)*
+  - Appendix *(p. 92, L10415)*
+  - 14. References *(p. 93, L10578)*
+  - 14. References *(p. 93, L10578)*
+
+
+---
+
+### <a name="2024-hypertension"></a>Hypertension
+
+**File:** `2024_Hypertension.pdf`
+
+- 2024 ESC Guidelines for the management of elevated blood pressure and hypertension *(p. 1, L203)*
+  - 1. Preamble *(p. 7, L977)*
+  - 2. Introduction *(p. 8, L1065)*
+    - 2.1. What is new *(p. 9, L1145)*
+  - 3. Pathophysiology of elevated blood pressure and hypertension *(p. 17, L2073)*
+  - 4. Clinical consequences of elevated blood pressure and hypertension *(p. 17, L2073)*
+  - 5. Measuring blood pressure *(p. 18, L2218)*
+    - 5.1. Introduction and pertinent definitions *(p. 18, L2218)*
+    - 5.2. Practical recommendations for measuring blood pressure *(p. 19, L2314)*
+      - 5.2.1. Clinical validation of equipment for measuring blood pressure *(p. 19, L2314)*
+      - 5.2.2. Office blood pressure measurement *(p. 19, L2314)*
+      - 5.2.3. Home blood pressure measurement *(p. 20, L2436)*
+      - 5.2.4. Ambulatory blood pressure measurement *(p. 22, L2545)*
+      - 5.2.5. Comparison of home and ambulatory blood pressure monitoring *(p. 23, L2628)*
+    - 5.3. What is the best method for measuring blood pressure to diagnose hypertension? *(p. 23, L2628)*
+      - 5.3.1. Blood pressure measurement for hypertension screening *(p. 23, L2628)*
+      - 5.3.2. Blood pressure measurement for diagnosing hypertension *(p. 23, L2628)*
+    - 5.4. What is the best method for measuring blood pressure for long-term management of hypertension? *(p. 23, L2628)*
+      - 5.4.1. Home monitoring *(p. 23, L2628)*
+      - 5.4.2. Ambulatory monitoring *(p. 23, L2628)*
+    - 5.5. Measuring blood pressure in selected groups *(p. 24, L2743)*
+      - 5.5.1. Pregnancy *(p. 24, L2743)*
+      - 5.5.2. Atrial fibrillation *(p. 24, L2743)*
+      - 5.5.3. Orthostatic hypotension *(p. 24, L2743)*
+    - 5.6. Novel methods of measuring blood pressure *(p. 24, L2743)*
+  - 6. Definition and classification of elevated blood pressure and hypertension, and cardiovascular disease risk assessment *(p. 25, L2874)*
+    - 6.1. Definition and classification of elevated blood pressure and hypertension *(p. 25, L2874)*
+    - 6.2. Principles of a risk-based approach for managing blood pressure and preventing cardiovascular disease *(p. 25, L2874)*
+      - 6.2.1. Role of cardiovascular disease risk assessment *(p. 25, L2874)*
+    - 6.3. Predicting cardiovascular disease risk *(p. 26, L2999)*
+      - 6.3.1. 10-year cardiovascular disease risk-prediction models *(p. 27, L3069)*
+    - 6.4. Refining cardiovascular disease risk estimation beyond risk models *(p. 28, L3136)*
+      - 6.4.1. Sex-specific non-traditional cardiovascular disease risk modifiers *(p. 28, L3136)*
+      - 6.4.2. Non-traditional cardiovascular disease risk modifiers shared by men and women *(p. 29, L3263)*
+      - 6.4.3. Additional risk decision tests *(p. 30, L3307)*
+    - 6.5. Summary of the cardiovascular disease risk stratification approach for allocating blood pressure treatment *(p. 30, L3307)*
+  - 7. Diagnosing hypertension and investigating underlying causes *(p. 32, L3503)*
+    - 7.1. Screening for hypertension *(p. 32, L3503)*
+    - 7.2. Confirming the diagnosis of hypertension *(p. 32, L3503)*
+    - 7.3. Communicating the diagnosis *(p. 33, L3637)*
+    - 7.4. Baseline assessment and diagnostic approach *(p. 33, L3637)*
+      - 7.4.1. Medical history, medication history, and physical examination *(p. 33, L3637)*
+      - 7.4.2. Drug adherence and persistence with treatment *(p. 34, L3719)*
+      - 7.4.3. Routine and optional tests *(p. 34, L3719)*
+        - 7.4.3.1. The kidneys *(p. 36, L3898)*
+        - 7.4.3.2. The heart *(p. 36, L3898)*
+        - 7.4.3.3. The arteries *(p. 37, L4038)*
+      - 7.4.4. Genetic testing *(p. 37, L4038)*
+    - 7.5. Resistant hypertension: definition and diagnosis *(p. 37, L4038)*
+    - 7.6. Secondary hypertension: when to screen/further investigations *(p. 39, L4243)*
+      - 7.6.1. General considerations *(p. 39, L4243)*
+      - 7.6.2. Primary aldosteronism *(p. 39, L4243)*
+      - 7.6.3. Renovascular hypertension *(p. 40, L4366)*
+      - 7.6.4. Obstructive sleep apnoea syndrome *(p. 40, L4366)*
+      - 7.6.5. Phaeochromocytoma/paraganglioma *(p. 43, L4619)*
+  - 8. Preventing and treating elevated blood pressure and hypertension *(p. 43, L4619)*
+    - 8.1. Prevention strategies in early life *(p. 43, L4619)*
+    - 8.2. Non-pharmacological interventions *(p. 43, L4619)*
+      - 8.2.1. Dietary sodium and potassium intake *(p. 43, L4619)*
+        - 8.2.1.1. Sodium *(p. 43, L4619)*
+        - 8.2.1.2. Potassium *(p. 44, L4749)*
+      - 8.2.2. Physical activity and exercise *(p. 45, L4813)*
+      - 8.2.3. Weight reduction and diet *(p. 46, L4860)*
+      - 8.2.4. Alcohol, coffee, and soft drinks *(p. 46, L4860)*
+      - 8.2.5. Smoking *(p. 46, L4860)*
+    - 8.3. Pharmacological interventions *(p. 47, L4978)*
+      - 8.3.1. Treatment strategy to reduce adverse cardiovascular disease outcomes *(p. 47, L4978)*
+      - 8.3.2. Drug classes with evidence on clinical outcomes in the target population *(p. 47, L4978)*
+      - 8.3.3. New therapies with blood pressure-lowering properties that await supportive evidence from cardiovascular outcomes trials prior to guideline endorsement and routine use in hypertension *(p. 48, L5122)*
+      - 8.3.4. Drug combinations and up-titrating strategies *(p. 48, L5122)*
+      - 8.3.5. A practical algorithm for intensive, effective, and tolerable blood pressure lowering with drug therapy, including considerations around single-pill combinations *(p. 48, L5122)*
+      - 8.3.6. Timing of blood pressure-lowering drug treatment *(p. 51, L5370)*
+    - 8.4. Selecting patients for pharmacological blood pressure-lowering treatment *(p. 51, L5370)*
+    - 8.5. Intensity of blood pressure-lowering therapy and ideal treatment targets *(p. 53, L5660)*
+      - 8.5.1. Expected degree of blood pressure reduction with approved drugs *(p. 53, L5660)*
+      - 8.5.2. The ideal target of blood pressure-lowering treatment *(p. 53, L5660)*
+      - 8.5.3. Personalizing treatment strategies *(p. 54, L5783)*
+      - 8.5.4. Duration and monitoring of drug therapy *(p. 55, L5862)*
+    - 8.6. Device-based blood pressure lowering *(p. 55, L5862)*
+      - 8.6.1. Catheter-based renal denervation *(p. 55, L5862)*
+      - 8.6.2. Other devices *(p. 57, L6126)*
+    - 8.7. Unintended and potentially harmful consequences of blood pressure lowering and implications for treatment targets *(p. 57, L6126)*
+      - 8.7.1. Adverse effects of blood pressure-lowering medications *(p. 57, L6126)*
+        - 8.7.1.1. Symptomatic adverse effects *(p. 57, L6126)*
+        - 8.7.1.2. Renal effects *(p. 57, L6126)*
+        - 8.7.1.3. Erectile dysfunction *(p. 57, L6126)*
+      - 8.7.2. Pill burden and non-adherence *(p. 57, L6126)*
+      - 8.7.3. Potentially harmful consequences of blood pressure lowering for frail older people *(p. 57, L6126)*
+      - 8.7.4. Clinical inertia in blood pressure lowering *(p. 57, L6126)*
+  - 9. Managing specific patient groups or circumstances *(p. 58, L6240)*
+    - 9.1. Young adulthood (18–40 years) *(p. 58, L6240)*
+      - 9.1.1. Definition and epidemiology *(p. 58, L6240)*
+      - 9.1.2. Secondary hypertension in young adulthood *(p. 58, L6240)*
+      - 9.1.3. Measurement and management of blood pressure in young adults *(p. 58, L6240)*
+    - 9.2. Pregnancy *(p. 58, L6240)*
+      - 9.2.1. Definition and epidemiology *(p. 58, L6240)*
+      - 9.2.2. Classifying hypertension in pregnancy *(p. 58, L6240)*
+      - 9.2.3. Measuring blood pressure in pregnancy *(p. 59, L6362)*
+      - 9.2.4. Investigating hypertension in pregnancy *(p. 59, L6362)*
+      - 9.2.5. Preventing hypertension and pre-eclampsia *(p. 59, L6362)*
+      - 9.2.6. Treatment initiation and blood pressure targets *(p. 59, L6362)*
+      - 9.2.7. Managing mild hypertension in pregnancy (office blood pressure 140–159/90–109 mmHg) *(p. 59, L6362)*
+      - 9.2.8. Managing severe hypertension in pregnancy (≫160/110 mmHg) *(p. 60, L6481)*
+      - 9.2.9. Managing blood pressure post-partum *(p. 60, L6481)*
+      - 9.2.10. Risk of recurrence of hypertensive disorders in a subsequent pregnancy *(p. 60, L6481)*
+    - 9.3. Very old age (≧85 years), frailty, multimorbidity, and polypharmacy *(p. 60, L6481)*
+      - 9.3.1. Definition of frailty *(p. 60, L6481)*
+      - 9.3.2. Randomized controlled trials of blood pressure lowering in frail older patients *(p. 61, L6615)*
+      - 9.3.3. Starting blood pressure-lowering treatment in very old or frail patients *(p. 62, L6773)*
+      - 9.3.4. Maintaining blood pressure lowering in very old or frail patients *(p. 62, L6773)*
+    - 9.4. Isolated systolic and diastolic hypertension *(p. 62, L6773)*
+      - 9.4.1. Definition of isolated systolic hypertension *(p. 62, L6773)*
+      - 9.4.2. Isolated systolic hypertension, risk factors, and ageing *(p. 62, L6773)*
+      - 9.4.3. Isolated systolic hypertension in young adults *(p. 63, L6904)*
+      - 9.4.4. Isolated diastolic hypertension *(p. 63, L6904)*
+    - 9.5. Orthostatic hypotension with supine hypertension *(p. 63, L6904)*
+    - 9.6. Diabetes *(p. 64, L7035)*
+      - 9.6.1. Diabetes and elevated blood pressure/hypertension *(p. 64, L7035)*
+      - 9.6.2. J-shaped curve of blood pressure and risk of cardiovascular disease in patients with diabetes *(p. 64, L7035)*
+      - 9.6.3. Managing blood pressure in diabetes *(p. 64, L7035)*
+    - 9.7. Chronic kidney disease *(p. 64, L7035)*
+      - 9.7.1. Relationship between hypertension and chronic kidney disease *(p. 64, L7035)*
+      - 9.7.2. Blood pressure lowering in chronic kidney disease *(p. 65, L7166)*
+      - 9.7.3. Managing blood pressure in chronic kidney disease *(p. 65, L7166)*
+      - 9.7.4. Blood pressure targets in chronic kidney disease *(p. 65, L7166)*
+    - 9.8. Cardiac disease *(p. 65, L7166)*
+      - 9.8.1. Blood pressure thresholds and targets in patients with cardiac disease *(p. 65, L7166)*
+      - 9.8.2. Coronary artery disease with particular reference to the blood pressure J-curve *(p. 66, L7292)*
+      - 9.8.3. Valvular heart disease *(p. 66, L7292)*
+      - 9.8.4. Heart failure *(p. 66, L7292)*
+      - 9.8.5. Heart rhythm disease (including AF) *(p. 67, L7412)*
+    - 9.9. Chronic cerebrovascular disease and/or cognitive impairment *(p. 67, L7412)*
+      - 9.9.1. Role of hypertension in chronic cerebrovascular disease *(p. 67, L7412)*
+      - 9.9.2. Treatment in patients with history of prior stroke or transient ischaemic attack *(p. 67, L7412)*
+      - 9.9.3. Treatment in patients with chronic cerebrovascular disease and cognitive impairment *(p. 67, L7412)*
+    - 9.10. Aortopathy *(p. 68, L7546)*
+      - 9.10.1. Coarctation of the aorta *(p. 68, L7546)*
+      - 9.10.2. Bicuspid aortic valve-related aortopathy *(p. 68, L7546)*
+      - 9.10.3. Preventing aortic dilation and dissection in high-risk patients *(p. 68, L7546)*
+    - 9.11. Different ethnic groups *(p. 68, L7546)*
+    - 9.12. Nocturnal hypertension *(p. 68, L7546)*
+      - 9.12.1. Definition *(p. 68, L7546)*
+      - 9.12.2. Epidemiology *(p. 69, L7670)*
+      - 9.12.3. Night-time blood pressure as a cardiovascular disease risk factor *(p. 69, L7670)*
+      - 9.12.4. Treatment of nocturnal hypertension *(p. 69, L7670)*
+    - 9.13. Resistant hypertension *(p. 69, L7670)*
+      - 9.13.1. Definition of resistant hypertension *(p. 69, L7670)*
+      - 9.13.2. Non-pharmacological interventions *(p. 69, L7670)*
+      - 9.13.3. Pharmacological interventions *(p. 69, L7670)*
+      - 9.13.4. Devices for blood pressure lowering *(p. 70, L7793)*
+    - 9.14. Management of specific causes of secondary hypertension *(p. 71, L7847)*
+      - 9.14.1. General considerations *(p. 71, L7847)*
+      - 9.14.2. Primary aldosteronism *(p. 71, L7847)*
+      - 9.14.3. Renovascular hypertension *(p. 71, L7847)*
+      - 9.14.4. Phaeochromocytoma/paraganglioma *(p. 72, L7973)*
+      - 9.14.5. Obstructive sleep apnoea syndrome *(p. 72, L7973)*
+      - 9.14.6. Drug-induced hypertension *(p. 72, L7973)*
+        - 9.14.6.1. Anticancer drug-induced hypertension *(p. 72, L7973)*
+      - 9.14.7. Other forms of secondary hypertension *(p. 72, L7973)*
+  - 10. Acute and short-term lowering of blood pressure *(p. 72, L7973)*
+    - 10.1. Acute blood pressure management in hypertensive emergencies *(p. 72, L7973)*
+      - 10.1.1. Definition and characteristics of hypertensive emergencies *(p. 72, L7973)*
+      - 10.1.2. Acute management of hypertensive emergencies *(p. 73, L8093)*
+      - 10.1.3. Prognosis and follow-up *(p. 73, L8093)*
+    - 10.2. Acute blood pressure management in acute intracerebral haemorrhage *(p. 73, L8093)*
+    - 10.3. Acute blood pressure management in acute ischaemic stroke *(p. 73, L8093)*
+    - 10.4. Acute blood pressure management in pre-eclampsia and severe hypertension in pregnancy *(p. 74, L8213)*
+      - 10.4.1. Pre-eclampsia *(p. 74, L8213)*
+      - 10.4.2. Severe acute hypertension in pregnancy *(p. 74, L8213)*
+    - 10.5. Peri-operative acute management of elevated blood pressure *(p. 74, L8213)*
+      - 10.5.1. Blood pressure-lowering drugs in the peri-operative phase *(p. 74, L8213)*
+  - 11. Patient-centred care in hypertension *(p. 75, L8346)*
+    - 11.1. Definition *(p. 75, L8346)*
+    - 11.2. Communicating consequences of treatment *(p. 75, L8346)*
+    - 11.3. Self-measuring and monitoring *(p. 76, L8398)*
+    - 11.4. Facilitating medication adherence and persistence *(p. 76, L8398)*
+    - 11.5. Multidisciplinary management *(p. 76, L8398)*
+  - 12. Key messages *(p. 77, L8542)*
+  - 13. Gaps in the evidence *(p. 78, L8584)*
+  - 14. ‘What to do’ and ‘what not to do’ messages from the guidelines *(p. 78, L8584)*
+  - 15. Evidence tables *(p. 82, L9005)*
+  - 16. Data availability statement *(p. 82, L9005)*
+  - 17. Author information *(p. 82, L9005)*
+  - Appendix *(p. 82, L9005)*
+  - 19. References *(p. 83, L9119)*
+  - 19. References *(p. 83, L9119)*
+
+
+---
+
+### <a name="2024-peripheral-arterial-aortic"></a>Peripheral Arterial Aortic
+
+**File:** `2024_Peripheral_Arterial_Aortic.pdf`
+
+- 2024 ESC Guidelines for the management of peripheral arterial and aortic diseases *(p. 1, L271)*
+  - 1. Preamble *(p. 10, L1656)*
+  - 2. Introduction *(p. 11, L1742)*
+  - 3. What is new *(p. 13, L1880)*
+  - 4. Epidemiology and risk factors *(p. 21, L2841)*
+    - 4.1. Epidemiology *(p. 21, L2841)*
+    - 4.2. Risk factors *(p. 22, L2922)*
+  - 5. Evaluation of peripheral arteries and aorta *(p. 23, L2980)*
+    - 5.1. Clinical history and examination, and laboratory assessment, in patients with peripheral arterial and aortic diseases *(p. 23, L2980)*
+    - 5.2. Functional and quality of life assessment in patients with peripheral arterial and aortic diseases *(p. 23, L2980)*
+    - 5.3. Vascular examination of peripheral arteries *(p. 24, L3104)*
+      - 5.3.1. Duplex ultrasound *(p. 25, L3162)*
+      - 5.3.2. Digital subtraction angiography, computed tomography angiography, and magnetic resonance angiography *(p. 25, L3162)*
+    - 5.4. Evaluation of the aorta *(p. 25, L3162)*
+      - 5.4.1. Aortic measurements *(p. 25, L3162)*
+      - 5.4.2. Normal aortic values *(p. 28, L3433)*
+      - 5.4.3. Chest X-ray and electrocardiogram *(p. 28, L3433)*
+      - 5.4.4. Echocardiography *(p. 28, L3433)*
+      - 5.4.5. Duplex ultrasound imaging of the abdominal aorta *(p. 29, L3561)*
+      - 5.4.6. Cardiovascular computed tomography *(p. 29, L3561)*
+      - 5.4.7. Cardiovascular magnetic resonance *(p. 29, L3561)*
+      - 5.4.8. Positron emission tomography *(p. 29, L3561)*
+      - 5.4.9. Intravascular ultrasound *(p. 30, L3697)*
+      - 5.4.10. Digital subtraction aortography *(p. 30, L3697)*
+  - 6. Screening for carotid, peripheral arterial, and aortic diseases *(p. 30, L3697)*
+    - 6.1. Screening for carotid and peripheral arterial diseases *(p. 30, L3697)*
+      - 6.1.1. Lower-extremity peripheral arterial disease *(p. 30, L3697)*
+      - 6.1.2. Carotid artery stenosis *(p. 30, L3697)*
+      - 6.1.3. Multisite artery disease *(p. 30, L3697)*
+    - 6.2. Screening for aortic diseases *(p. 31, L3817)*
+      - 6.2.1. Screening for abdominal aortic aneurysm *(p. 31, L3817)*
+      - 6.2.2. Screening for thoracic aortic aneurysm *(p. 31, L3817)*
+  - 7. Optimal medical treatment *(p. 31, L3817)*
+    - 7.1. Lifestyle, exercise, patient education *(p. 31, L3817)*
+      - 7.1.1. Diet *(p. 31, L3817)*
+      - 7.1.2. Physical activity *(p. 32, L3957)*
+      - 7.1.3. Smoking *(p. 33, L4010)*
+      - 7.1.4. Patient education *(p. 33, L4010)*
+      - 7.1.5. Risk scoring models in secondary prevention *(p. 33, L4010)*
+    - 7.2. Principles of pharmacological medical therapy *(p. 34, L4139)*
+      - 7.2.1. Antithrombotic therapy *(p. 34, L4139)*
+      - 7.2.2. Antihypertensive therapy *(p. 34, L4139)*
+        - 7.2.2.1. Renovascular hypertension *(p. 34, L4139)*
+      - 7.2.3. Lipid-lowering therapy *(p. 35, L4271)*
+        - 7.2.3.1. Statins *(p. 35, L4271)*
+        - 7.2.3.2. Ezetimibe *(p. 35, L4271)*
+        - 7.2.3.3. Proprotein convertase subtilisin/kexin type 9 inhibitors *(p. 35, L4271)*
+        - 7.2.3.4. Bempedoic acid *(p. 35, L4271)*
+        - 7.2.3.5. Hypertriglyceridaemia *(p. 35, L4271)*
+      - 7.2.4. Diabetes and pre-diabetes conditions *(p. 36, L4407)*
+      - 7.2.5. Other pharmacological therapy *(p. 37, L4565)*
+  - 8. Peripheral arterial disease *(p. 37, L4565)*
+    - 8.1. Lower-extremity peripheral arterial disease *(p. 37, L4565)*
+      - 8.1.1. Peripheral arterial disease syndromes *(p. 37, L4565)*
+        - 8.1.1.1. Clinical presentation and diagnosis *(p. 37, L4565)*
+          - 8.1.1.1.1. Diagnostic tests *(p. 38, L4676)*
+          - 8.1.1.1.2. Imaging methods *(p. 39, L4718)*
+        - 8.1.1.2. Medical treatment *(p. 41, L4960)*
+          - 8.1.1.2.1. Exercise therapy *(p. 41, L4960)*
+          - 8.1.1.2.2. Pharmacological treatment *(p. 45, L5174)*
+          - 8.1.1.2.3. Aorto-iliac lesion revascularization *(p. 46, L5317)*
+          - 8.1.1.2.4. Femoro-popliteal lesion revascularization *(p. 47, L5426)*
+          - 8.1.1.2.5. Below-the-knee artery revascularization *(p. 47, L5426)*
+        - 8.1.1.3. Follow-up *(p. 48, L5525)*
+      - 8.1.2. Chronic limb-threatening ischaemia *(p. 48, L5525)*
+        - 8.1.2.1. Clinical presentation and diagnosis *(p. 48, L5525)*
+          - 8.1.2.1.1. Definition *(p. 48, L5525)*
+          - 8.1.2.1.2. Initial assessment and risk of amputation *(p. 48, L5525)*
+          - 8.1.2.1.3. Imaging *(p. 48, L5525)*
+          - 8.1.2.1.4. Mortality risk assessment *(p. 48, L5525)*
+        - 8.1.2.2. Medical treatment *(p. 49, L5658)*
+        - 8.1.2.3. Interventional treatment *(p. 49, L5658)*
+          - 8.1.2.3.1. Revascularization *(p. 49, L5658)*
+          - 8.1.2.3.2. Spinal cord stimulation *(p. 50, L5796)*
+          - 8.1.2.3.3. Amputation *(p. 50, L5796)*
+        - 8.1.2.4. Follow-up *(p. 50, L5796)*
+      - 8.1.3. Acute limb ischaemia *(p. 50, L5796)*
+        - 8.1.3.1. Clinical presentation and diagnosis *(p. 50, L5796)*
+          - 8.1.3.1.1. Clinical examination *(p. 51, L5932)*
+          - 8.1.3.1.2. Imaging and functional tests *(p. 51, L5932)*
+        - 8.1.3.2. Medical treatment *(p. 51, L5932)*
+        - 8.1.3.3. Surgical and interventional treatment *(p. 51, L5932)*
+        - 8.1.3.4. Follow-up *(p. 53, L6127)*
+    - 8.2. Extracranial carotid and vertebral artery disease *(p. 53, L6127)*
+      - 8.2.1. Clinical presentation and diagnosis *(p. 53, L6127)*
+        - 8.2.1.1. Clinical presentation *(p. 53, L6127)*
+        - 8.2.1.2. Diagnosis *(p. 53, L6127)*
+      - 8.2.2. Asymptomatic carotid artery stenosis *(p. 54, L6264)*
+        - 8.2.2.1. Medical treatment *(p. 54, L6264)*
+          - 8.2.2.1.1. Lipid-lowering therapy *(p. 54, L6264)*
+          - 8.2.2.1.2. Antihypertensive therapy *(p. 54, L6264)*
+          - 8.2.2.1.3. Glucose-lowering therapy *(p. 54, L6264)*
+          - 8.2.2.1.4. Antithrombotic therapy *(p. 54, L6264)*
+        - 8.2.2.2. Interventional treatment *(p. 55, L6343)*
+          - 8.2.2.2.1. Open surgery vs. medical therapy *(p. 55, L6343)*
+          - 8.2.2.2.2. Carotid revascularization: surgery vs. stenting *(p. 55, L6343)*
+      - 8.2.3. Symptomatic carotid artery stenosis *(p. 57, L6538)*
+        - 8.2.3.1. Medical treatment *(p. 57, L6538)*
+          - 8.2.3.1.1. Lipid-lowering therapy *(p. 57, L6538)*
+          - 8.2.3.1.2. Antihypertensive therapy *(p. 57, L6538)*
+          - 8.2.3.1.3. Glucose-lowering therapy *(p. 57, L6538)*
+          - 8.2.3.1.4. Antithrombotic therapy *(p. 57, L6538)*
+        - 8.2.3.2. Interventional treatment *(p. 58, L6676)*
+          - 8.2.3.2.1. Open surgery *(p. 58, L6676)*
+          - 8.2.3.2.2. Endovascular therapy vs. open surgery *(p. 58, L6676)*
+          - 8.2.3.2.3. Vertebral arteries *(p. 58, L6676)*
+        - 8.2.3.3. Follow-up *(p. 59, L6796)*
+    - 8.3. Other arterial locations *(p. 59, L6796)*
+      - 8.3.1. Subclavian artery disease *(p. 59, L6796)*
+        - 8.3.1.1. Clinical presentation and diagnosis *(p. 59, L6796)*
+        - 8.3.1.2. Treatment strategy (medical and interventional) *(p. 60, L6941)*
+        - 8.3.1.3. Follow-up *(p. 60, L6941)*
+      - 8.3.2. Renal artery disease *(p. 61, L7079)*
+        - 8.3.2.1. Clinical presentation and diagnosis *(p. 61, L7079)*
+          - 8.3.2.1.1. Epidemiology *(p. 61, L7079)*
+          - 8.3.2.1.2. Clinical presentation *(p. 61, L7079)*
+          - 8.3.2.1.3. Diagnosis of renal artery disease *(p. 61, L7079)*
+          - 8.3.2.1.4. Prognosis *(p. 61, L7079)*
+        - 8.3.2.2. Treatment strategy (medical and interventional) *(p. 61, L7079)*
+          - 8.3.2.2.1. Medical therapy *(p. 61, L7079)*
+          - 8.3.2.2.2. Revascularization *(p. 61, L7079)*
+        - 8.3.2.3. Follow-up *(p. 63, L7269)*
+      - 8.3.3. Visceral artery disease *(p. 63, L7269)*
+        - 8.3.3.1. Acute mesenteric ischaemia *(p. 63, L7269)*
+          - 8.3.3.1.1. Clinical presentation and diagnosis *(p. 63, L7269)*
+          - 8.3.3.1.2. Treatment strategy *(p. 63, L7269)*
+          - 8.3.3.1.3. Follow-up *(p. 64, L7404)*
+        - 8.3.3.2. Chronic mesenteric artery disease *(p. 64, L7404)*
+          - 8.3.3.2.1. Clinical presentation and diagnosis *(p. 64, L7404)*
+          - 8.3.3.2.2. Treatment strategy *(p. 65, L7452)*
+          - 8.3.3.2.3. Follow-up *(p. 65, L7452)*
+  - 9. Aorta *(p. 65, L7452)*
+    - 9.1. Atheromatous disease of the aorta *(p. 65, L7452)*
+      - 9.1.1. General concepts *(p. 65, L7452)*
+      - 9.1.2. Treatment *(p. 65, L7452)*
+        - 9.1.2.1. Primary prevention *(p. 65, L7452)*
+        - 9.1.2.2. Secondary prevention *(p. 65, L7452)*
+    - 9.2. Aortic aneurysms *(p. 66, L7591)*
+      - 9.2.1. General concepts *(p. 66, L7591)*
+        - 9.2.1.1. Definitions *(p. 66, L7591)*
+      - 9.2.2. Thoracic aortic aneurysms *(p. 66, L7591)*
+        - 9.2.2.1. Aetiology, risk factors, and natural history *(p. 66, L7591)*
+        - 9.2.2.2. Ascending thoracic aorta and arch aneurysms *(p. 66, L7591)*
+        - 9.2.2.3. Descending thoracic aorta and thoracoabdominal aorta aneurysms *(p. 67, L7730)*
+        - 9.2.2.4. Surveillance *(p. 70, L7867)*
+      - 9.2.3. Abdominal aortic aneurysms *(p. 70, L7867)*
+        - 9.2.3.1. General concepts *(p. 70, L7867)*
+        - 9.2.3.2. Aetiology, risk factors, and natural history *(p. 70, L7867)*
+        - 9.2.3.3. Surveillance *(p. 70, L7867)*
+      - 9.2.4. Optimal medical treatment of aortic aneurysms *(p. 72, L8090)*
+      - 9.2.5. Surgical management of aortic aneurysms *(p. 72, L8090)*
+        - 9.2.5.1. Surgical treatment of aortic root and ascending aorta *(p. 72, L8090)*
+        - 9.2.5.2. Surgical treatment of aortic arch aneurysms *(p. 74, L8293)*
+        - 9.2.5.3. Surgical treatment of the thoracic descending aorta *(p. 75, L8436)*
+          - 9.2.5.3.1. General considerations *(p. 75, L8436)*
+          - 9.2.5.3.2. Open repair *(p. 75, L8436)*
+          - 9.2.5.3.3. Endovascular repair *(p. 75, L8436)*
+        - 9.2.5.4. Surgical treatment of thoracoabdominal aorta aneurysms *(p. 75, L8436)*
+          - 9.2.5.4.1. General considerations *(p. 75, L8436)*
+          - 9.2.5.4.2. Open repair *(p. 75, L8436)*
+          - 9.2.5.4.3. Endovascular repair *(p. 75, L8436)*
+        - 9.2.5.5. Surgical treatment of abdominal aorta aneurysms *(p. 76, L8556)*
+          - 9.2.5.5.1. General considerations *(p. 76, L8556)*
+          - 9.2.5.5.2. Pre-operative cardiovascular evaluation and choice of treatment *(p. 76, L8556)*
+          - 9.2.5.5.3. Open abdominal aorta aneurysm repair *(p. 78, L8736)*
+          - 9.2.5.5.4. Endovascular abdominal aorta aneurysm repair *(p. 78, L8736)*
+      - 9.2.6. Endoleaks *(p. 78, L8736)*
+      - 9.2.7. Long-term follow-up after aortic repair *(p. 80, L8927)*
+        - 9.2.7.1. Follow-up after thoracic aortic aneurysm treatment *(p. 80, L8927)*
+        - 9.2.7.2. Follow-up after abdominal aortic aneurysm treatment *(p. 80, L8927)*
+    - 9.3. Acute thoracic aortic syndromes *(p. 81, L9059)*
+      - 9.3.1. General concepts *(p. 81, L9059)*
+        - 9.3.1.1. Epidemiology and risk factors *(p. 81, L9059)*
+          - 9.3.1.1.1. Sex differences *(p. 83, L9245)*
+          - 9.3.1.1.2. Chronobiology *(p. 84, L9349)*
+          - 9.3.1.1.3. Outcomes *(p. 84, L9349)*
+        - 9.3.1.2. Clinical presentation *(p. 85, L9418)*
+        - 9.3.1.3. Diagnostic work-up *(p. 85, L9418)*
+        - 9.3.1.4. Therapeutic intervention in acute aortic dissection *(p. 85, L9418)*
+          - 9.3.1.4.1. Initial treatment *(p. 85, L9418)*
+          - 9.3.1.4.2. Type A aortic dissection interventional treatment *(p. 86, L9559)*
+          - 9.3.1.4.3. Acute type B aortic dissection interventional treatment *(p. 91, L9934)*
+          - 9.3.1.4.4. Chronic type B aortic dissection interventional treatment *(p. 92, L10058)*
+          - 9.3.1.4.5. Management during pregnancy *(p. 92, L10058)*
+      - 9.3.2. Intramural haematoma *(p. 93, L10203)*
+        - 9.3.2.1. Diagnostic work-up *(p. 93, L10203)*
+        - 9.3.2.2. Clinical outcomes *(p. 93, L10203)*
+        - 9.3.2.3. Geographical variations *(p. 93, L10203)*
+        - 9.3.2.4. Management *(p. 93, L10203)*
+          - 9.3.2.4.1. Type A intramural haematoma *(p. 93, L10203)*
+          - 9.3.2.4.2. Type B intramural haematoma *(p. 93, L10203)*
+      - 9.3.3. Penetrating atherosclerotic ulcer *(p. 94, L10310)*
+        - 9.3.3.1. Diagnosis *(p. 94, L10310)*
+        - 9.3.3.2. Treatment *(p. 94, L10310)*
+      - 9.3.4. Aortic pseudo-aneurysm *(p. 95, L10470)*
+      - 9.3.5. Traumatic aortic injury *(p. 96, L10525)*
+        - 9.3.5.1. Diagnosis and therapeutic interventions *(p. 96, L10525)*
+        - 9.3.5.2. Long-term surveillance in traumatic aortic injury *(p. 96, L10525)*
+      - 9.3.6. Iatrogenic aortic injuries *(p. 96, L10525)*
+      - 9.3.7. Long-term follow-up of acute aortic syndrome *(p. 96, L10525)*
+        - 9.3.7.1. Follow-up after invasive treatment *(p. 97, L10659)*
+        - 9.3.7.2. Follow-up under medical treatment (chronic type B aortic dissection, intramural haematoma, penetrating atherosclerotic ulcer) *(p. 99, L10733)*
+  - 10. Genetic and congenital diseases of the aorta *(p. 100, L10804)*
+    - 10.1. Genetic and chromosomal diseases *(p. 100, L10804)*
+      - 10.1.1. Turner syndrome *(p. 101, L10945)*
+        - 10.1.1.1. Diagnosis, clinical presentation, and natural history *(p. 101, L10945)*
+        - 10.1.1.2. Medical treatment *(p. 103, L11151)*
+        - 10.1.1.3. Surgery of aortic aneurysms *(p. 103, L11151)*
+        - 10.1.1.4. Pregnancy and physical exercise *(p. 103, L11151)*
+      - 10.1.2. Vascular Ehlers–Danlos syndrome *(p. 104, L11269)*
+        - 10.1.2.1. Diagnosis, clinical presentation, and natural history *(p. 104, L11269)*
+        - 10.1.2.2. Surveillance and imaging *(p. 104, L11269)*
+        - 10.1.2.3. Medical treatment *(p. 104, L11269)*
+        - 10.1.2.4. Surgical treatment *(p. 104, L11269)*
+        - 10.1.2.5. Pregnancy *(p. 104, L11269)*
+      - 10.1.3. Marfan syndrome *(p. 104, L11269)*
+        - 10.1.3.1. Diagnosis, clinical presentation, and natural history *(p. 104, L11269)*
+        - 10.1.3.2. Imaging surveillance *(p. 104, L11269)*
+        - 10.1.3.3. Medical treatment *(p. 105, L11393)*
+        - 10.1.3.4. Aortic surgery *(p. 105, L11393)*
+        - 10.1.3.5. Pregnancy and physical exercise *(p. 106, L11525)*
+      - 10.1.4. Other syndromic and non-syndromic heritable thoracic aortic diseases and/or arterial disorders *(p. 106, L11525)*
+        - 10.1.4.1. Loeys–Dietz syndrome *(p. 106, L11525)*
+          - 10.1.4.1.1. Diagnosis, clinical presentation, and natural evolution *(p. 106, L11525)*
+        - 10.1.4.2. ACTA2-related heritable thoracic aortic disease *(p. 108, L11766)*
+    - 10.2. Aortic disease associated with bicuspid aortic valves *(p. 109, L11841)*
+    - 10.3. Coarctation of the aorta and aortic arch variants *(p. 111, L12026)*
+      - 10.3.1. Coarctation of the aorta *(p. 111, L12026)*
+        - 10.3.1.1. Diagnostic work-up *(p. 111, L12026)*
+        - 10.3.1.2. Treatment and follow-up *(p. 111, L12026)*
+      - 10.3.2. Aortic arch anatomic variants *(p. 113, L12220)*
+      - 10.3.3. Aberrant subclavian artery and Kommerell’s diverticulum *(p. 113, L12220)*
+  - 11. Polyvascular peripheral arterial disease and peripheral arterial disease in patients with cardiac diseases *(p. 113, L12220)*
+    - 11.1. Polyvascular disease *(p. 113, L12220)*
+      - 11.1.1. Epidemiology and prognosis *(p. 113, L12220)*
+      - 11.1.2. Screening for atherosclerosis in other arterial territories *(p. 113, L12220)*
+        - 11.1.2.1. Screening for coronary artery disease in patients with symptomatic peripheral arterial disease *(p. 114, L12308)*
+        - 11.1.2.2. Screening for peripheral arterial disease in patients with coronary artery disease *(p. 114, L12308)*
+        - 11.1.2.3. Screening for coronary artery disease in patients with carotid stenosis *(p. 114, L12308)*
+        - 11.1.2.4. Screening for carotid stenosis in patients with coronary artery disease *(p. 114, L12308)*
+      - 11.1.3. Management of patients with polyvascular disease *(p. 114, L12308)*
+    - 11.2. Peripheral arterial disease and heart failure *(p. 114, L12308)*
+    - 11.3. Peripheral arterial disease and AF *(p. 115, L12412)*
+    - 11.4. Peripheral arterial disease and aortic stenosis *(p. 115, L12412)*
+  - 12. Key messages *(p. 115, L12412)*
+  - 13. Gaps in evidence *(p. 116, L12543)*
+  - 14. Sex differences *(p. 116, L12543)*
+  - 15. ‘What to do’ and ‘What not to do’ messages from the guidelines *(p. 116, L12543)*
+  - 16. Evidence tables *(p. 124, L13424)*
+  - 17. Data availability statement *(p. 124, L13424)*
+  - 18. Author information *(p. 124, L13424)*
+  - Appendix *(p. 125, L13537)*
+  - References *(p. 126, L13682)*
+  - References *(p. 126, L13682)*
+
+
+---
+
+## 2023
+
+### <a name="2023-acute-coronary-syndromes"></a>Acute Coronary Syndromes
+
+**File:** `2023_Acute_Coronary_Syndromes.pdf`
+
+- 2023 ESC Guidelines for the management of acute coronary syndromes *(p. 1, L210)*
+  - 1. Preamble *(p. 8, L1235)*
+  - 2. Introduction *(p. 9, L1359)*
+    - 2.1. Definitions | Acute coronary syndromes and myocardial infarction *(p. 11, L1483)*
+    - 2.2. Epidemiology of acute coronary syndromes *(p. 13, L1644)*
+    - 2.3. Number and breakdown of classes of recommendations *(p. 13, L1644)*
+    - 2.4. What is new *(p. 14, L1695)*
+  - 3. Triage and diagnosis *(p. 16, L1927)*
+    - 3.1. Clinical presentation and physical examination *(p. 16, L1927)*
+      - 3.1.1. Clinical presentation *(p. 16, L1927)*
+      - 3.1.2. History taking and physical examination *(p. 18, L2093)*
+    - 3.2. Diagnostic tools | Electrocardiogram *(p. 18, L2093)*
+      - 3.2.1. Acute coronary syndrome with persistent ST-segment elevation (suspected ST-elevation myocardial infarction) *(p. 19, L2158)*
+      - 3.2.2. Acute coronary syndrome without persistent ST-segment elevation (non-ST elevation acute coronary syndrome) *(p. 19, L2158)*
+    - 3.3. Diagnostic tools | Biomarkers *(p. 20, L2271)*
+      - 3.3.1. High-sensitivity cardiac troponins *(p. 20, L2271)*
+      - 3.3.2. Central laboratory vs. point of care *(p. 20, L2271)*
+      - 3.3.3. Confounders of cardiac troponin concentration *(p. 20, L2271)*
+      - 3.3.4. Rapid ‘rule-in’ and ‘rule-out’ algorithms *(p. 20, L2271)*
+        - 3.3.4.1. European Society of Cardiology 0 h/1 h and 0 h/2 h algorithms *(p. 21, L2395)*
+          - 3.3.4.1.1. Rule-out *(p. 21, L2395)*
+          - 3.3.4.1.2. Rule-in *(p. 21, L2395)*
+          - 3.3.4.1.3. Observe *(p. 21, L2395)*
+        - 3.3.4.2. Practical guidance on how to implement the European Society of Cardiology 0 h/1 h algorithm *(p. 23, L2519)*
+      - 3.3.5. Other biomarkers *(p. 23, L2519)*
+    - 3.4. Diagnostic tools | Non-invasive imaging *(p. 23, L2519)*
+      - 3.4.1. Echocardiography *(p. 23, L2519)*
+      - 3.4.2. Computed tomography *(p. 23, L2519)*
+      - 3.4.3. Cardiac magnetic resonance imaging with or without stress testing *(p. 23, L2519)*
+    - 3.5. Differential diagnosis for acute chest pain *(p. 24, L2649)*
+  - 4. Initial measures for patients presenting with suspected acute coronary syndrome | Initial treatment *(p. 24, L2649)*
+    - 4.1. Pre-hospital logistics of care *(p. 24, L2649)*
+      - 4.1.1. Time to treatment *(p. 24, L2649)*
+      - 4.1.2. Healthcare systems and system delays *(p. 24, L2649)*
+      - 4.1.3. Emergency medical services *(p. 24, L2649)*
+      - 4.1.4. General practitioners *(p. 25, L2767)*
+      - 4.1.5. Organization of ST-elevation myocardial infarction treatment in networks *(p. 25, L2767)*
+    - 4.2. Emergency care *(p. 25, L2767)*
+      - 4.2.1. Initial diagnosis and monitoring *(p. 25, L2767)*
+      - 4.2.2. Acute pharmacotherapy *(p. 25, L2767)*
+        - 4.2.2.1. Oxygen *(p. 25, L2767)*
+        - 4.2.2.2. Nitrates *(p. 25, L2767)*
+        - 4.2.2.3. Pain relief *(p. 25, L2767)*
+        - 4.2.2.4. Intravenous beta-blockers *(p. 25, L2767)*
+  - 5. Acute-phase management of patients with acute coronary syndrome *(p. 26, L2884)*
+    - 5.1. Selection of invasive strategy and reperfusion therapy *(p. 26, L2884)*
+    - 5.2. Acute coronary syndrome managed with invasive strategy *(p. 26, L2884)*
+      - 5.2.1. Primary percutaneous coronary intervention strategy for ST-elevation myocardial infarction *(p. 26, L2884)*
+        - 5.2.1.1. Invasive strategy in ST-elevation myocardial infarction late presenters *(p. 28, L3121)*
+      - 5.2.2. Immediate invasive strategy for non-ST elevation acute coronary syndrome *(p. 28, L3121)*
+      - 5.2.3. Routine vs. selective invasive strategy *(p. 28, L3121)*
+        - 5.2.3.1. Early vs. delayed invasive strategy for non-ST elevation acute coronary syndrome *(p. 28, L3121)*
+      - 5.2.4. Summary of invasive strategies for patients with non-ST elevation acute coronary syndrome *(p. 28, L3121)*
+    - 5.3. Fibrinolysis and pharmaco-invasive strategy in patients with ST-elevation myocardial infarction *(p. 30, L3308)*
+      - 5.3.1. Benefit and indication of fibrinolysis *(p. 30, L3308)*
+        - 5.3.1.1. Pre-hospital fibrinolysis *(p. 30, L3308)*
+        - 5.3.1.2. Angiography and percutaneous coronary intervention after fibrinolysis (pharmaco-invasive strategy) *(p. 30, L3308)*
+          - 5.3.1.2.1. Comparison of fibrinolytic agents *(p. 30, L3308)*
+          - 5.3.1.2.2. Hazards of fibrinolysis and contraindications *(p. 30, L3308)*
+    - 5.4. Patients not undergoing reperfusion *(p. 30, L3308)*
+      - 5.4.1. Patients who are not candidates for invasive coronary angiography *(p. 30, L3308)*
+      - 5.4.2. Patients with coronary artery disease not amenable to revascularization *(p. 30, L3308)*
+  - 6. Antithrombotic therapy *(p. 31, L3412)*
+    - 6.1. Antiplatelet therapy in the acute phase *(p. 33, L3603)*
+      - 6.1.1. Oral antiplatelet therapy *(p. 33, L3603)*
+      - 6.1.2. Timing of loading dose of oral antiplatelet therapy *(p. 34, L3663)*
+        - 6.1.2.1. Pre-treatment in patients with suspected ST-elevation myocardial infarction *(p. 34, L3663)*
+        - 6.1.2.2. Pre-treatment in patients with non-ST-elevation acute coronary syndrome *(p. 34, L3663)*
+        - 6.1.2.3. Summary of pre-treatment strategies *(p. 34, L3663)*
+      - 6.1.3. Intravenous antiplatelet drugs *(p. 34, L3663)*
+    - 6.2. Anticoagulant treatment in the acute phase *(p. 35, L3783)*
+      - 6.2.1. Anticoagulation in patients with ST-elevation myocardial infarction undergoing primary percutaneous coronary intervention *(p. 35, L3783)*
+      - 6.2.2. Anticoagulation in patients with non-ST-elevation acute coronary syndrome undergoing angiography and percutaneous coronary intervention if indicated *(p. 35, L3783)*
+    - 6.3. Maintenance antithrombotic therapy after revascularization *(p. 36, L3904)*
+      - 6.3.1. Shortening dual antiplatelet therapy *(p. 37, L4006)*
+      - 6.3.2. De-escalation from potent P2Y12 inhibitor to clopidogrel *(p. 37, L4006)*
+      - 6.3.3. Summary of alternative antiplatelet strategies to reduce bleeding risk in the first 12 months after acute coronary syndrome *(p. 38, L4128)*
+    - 6.4. Long-term treatment *(p. 40, L4381)*
+      - 6.4.1. Prolonging antithrombotic therapy beyond 12 months *(p. 40, L4381)*
+    - 6.5. Antiplatelet therapy in patients requiring oral anticoagulation *(p. 41, L4530)*
+      - 6.5.1. Acute coronary syndrome patients requiring anticoagulation *(p. 41, L4530)*
+      - 6.5.2. Patients requiring vitamin K antagonists or undergoing coronary artery bypass surgery *(p. 43, L4730)*
+    - 6.6. Antithrombotic therapy as an adjunct to fibrinolysis *(p. 43, L4730)*
+    - 6.7. Antithrombotic therapy in patients not undergoing reperfusion *(p. 43, L4730)*
+  - 7. Acute coronary syndrome with unstable presentation *(p. 43, L4730)*
+    - 7.1. Out-of-hospital cardiac arrest in acute coronary syndrome *(p. 44, L4864)*
+      - 7.1.1. Systems of care *(p. 44, L4864)*
+    - 7.2. Cardiogenic shock complicating acute coronary syndrome *(p. 44, L4864)*
+  - 8. Management of acute coronary syndrome during hospitalization *(p. 45, L4995)*
+    - 8.1. Coronary care unit/intensive cardiac care unit *(p. 45, L4995)*
+      - 8.1.1. Monitoring *(p. 45, L4995)*
+      - 8.1.2. Ambulation *(p. 45, L4995)*
+      - 8.1.3. Length of stay in the intensive cardiac care unit *(p. 46, L5123)*
+    - 8.2. In-hospital care *(p. 46, L5123)*
+      - 8.2.1. Length of hospital stay *(p. 46, L5123)*
+      - 8.2.2. Risk assessment *(p. 46, L5123)*
+        - 8.2.2.1. Clinical risk assessment *(p. 46, L5123)*
+        - 8.2.2.2. Imaging risk assessment *(p. 46, L5123)*
+        - 8.2.2.3. Biomarkers for risk assessment *(p. 46, L5123)*
+        - 8.2.2.4. Bleeding risk assessment *(p. 46, L5123)*
+        - 8.2.2.5. Integrating ischaemic and bleeding risks *(p. 46, L5123)*
+  - 9. Technical aspects of invasive strategies *(p. 47, L5237)*
+    - 9.1. Percutaneous coronary intervention *(p. 47, L5237)*
+      - 9.1.1. Vascular access *(p. 47, L5237)*
+      - 9.1.2. Intravascular imaging/physiology of the infarct-related artery *(p. 47, L5237)*
+        - 9.1.2.1. Intravascular imaging *(p. 47, L5237)*
+        - 9.1.2.2. Intravascular physiology *(p. 48, L5353)*
+      - 9.1.3. Timing of revascularization with percutaneous coronary intervention *(p. 48, L5353)*
+      - 9.1.4. Balloons and stents *(p. 49, L5416)*
+      - 9.1.5. Embolic protection and microvascular salvage strategies *(p. 49, L5416)*
+        - 9.1.5.1. Thrombus aspiration *(p. 49, L5416)*
+        - 9.1.5.2. Interventions to protect the microcirculation *(p. 49, L5416)*
+    - 9.2. Coronary artery bypass grafting *(p. 49, L5416)*
+      - 9.2.1. Indication and timing of coronary artery bypass grafting in acute coronary syndrome patients *(p. 49, L5416)*
+      - 9.2.2. Technical considerations specific to acute coronary syndrome patients *(p. 49, L5416)*
+    - 9.3. Spontaneous coronary artery dissection *(p. 49, L5416)*
+      - 9.3.1. Intravascular imaging *(p. 50, L5537)*
+      - 9.3.2. Revascularization *(p. 50, L5537)*
+  - 10. Management of patients with multivessel disease *(p. 50, L5537)*
+    - 10.1. Management of multivessel disease in acute coronary syndrome complicated by cardiogenic shock *(p. 50, L5537)*
+    - 10.2. Patients with multivessel coronary artery disease undergoing primary percutaneous coronary intervention *(p. 51, L5672)*
+    - 10.3. Timing of non-infarct-related artery revascularization in acute coronary syndrome *(p. 52, L5729)*
+      - 10.3.1. Patients presenting with ST-elevation myocardial infarction and multivessel coronary artery disease *(p. 52, L5729)*
+      - 10.3.2. Patients presenting with non-ST-elevation acute coronary syndrome and multivessel coronary artery disease *(p. 52, L5729)*
+    - 10.4. Evaluation of non-infarct-related artery stenosis severity (angiography vs. physiology) *(p. 52, L5729)*
+    - 10.5. Hybrid revascularization *(p. 53, L5850)*
+  - 11. Myocardial infarction with non-obstructive coronary arteries *(p. 53, L5850)*
+  - 12. Special situations *(p. 56, L6058)*
+    - 12.1. Type 2 myocardial infarction and acute myocardial injury *(p. 56, L6058)*
+    - 12.2. Complications *(p. 56, L6058)*
+      - 12.2.1. Heart failure *(p. 56, L6058)*
+      - 12.2.2. Mechanical complications *(p. 57, L6184)*
+      - 12.2.3. Left ventricular thrombus *(p. 57, L6184)*
+      - 12.2.4. Post-acute coronary syndrome pericarditis *(p. 57, L6184)*
+      - 12.2.5. Arrhythmias *(p. 57, L6184)*
+        - 12.2.5.1. Atrial fibrillation *(p. 57, L6184)*
+        - 12.2.5.2. Ventricular arrhythmias *(p. 58, L6303)*
+      - 12.2.6. Bleeding *(p. 58, L6303)*
+        - 12.2.6.1. Management of bleeding *(p. 58, L6303)*
+    - 12.3. Comorbid conditions *(p. 59, L6441)*
+      - 12.3.1. Patients at high bleeding risk and with blood disorders (anaemia and thrombocytopaenia) *(p. 59, L6441)*
+      - 12.3.2. Chronic kidney disease *(p. 60, L6591)*
+      - 12.3.3. Diabetes mellitus *(p. 60, L6591)*
+      - 12.3.4. Older adults with frailty and multimorbidity *(p. 60, L6591)*
+        - 12.3.4.1. The older person *(p. 60, L6591)*
+        - 12.3.4.2. Frailty and multimorbidity *(p. 60, L6591)*
+      - 12.3.5. Pregnancy *(p. 61, L6712)*
+      - 12.3.6. Drug abuse *(p. 61, L6712)*
+      - 12.3.7. Patients with cancer *(p. 61, L6712)*
+      - 12.3.8. Coronavirus disease (COVID-19) *(p. 61, L6712)*
+  - 13. Long-term treatment *(p. 62, L6827)*
+    - 13.1. Cardiac rehabilitation *(p. 64, L6999)*
+      - 13.1.1. Comprehensive cardiac rehabilitation *(p. 64, L6999)*
+      - 13.1.2. Digital health *(p. 64, L6999)*
+      - 13.1.3. Adherence and persistence *(p. 64, L6999)*
+    - 13.2. Lifestyle management *(p. 64, L6999)*
+      - 13.2.1. Tobacco *(p. 64, L6999)*
+      - 13.2.2. Nutrition and alcohol *(p. 64, L6999)*
+      - 13.2.3. Physical activity and exercise *(p. 65, L7119)*
+      - 13.2.4. Psychological considerations *(p. 65, L7119)*
+      - 13.2.5. Resumption of activities *(p. 65, L7119)*
+    - 13.3. Pharmacological treatment *(p. 65, L7119)*
+      - 13.3.1. Antithrombotic therapy *(p. 65, L7119)*
+      - 13.3.2. Lipid-lowering therapy *(p. 65, L7119)*
+      - 13.3.3. Beta-blockers *(p. 66, L7230)*
+      - 13.3.4. Nitrates and calcium channel blockers *(p. 67, L7304)*
+      - 13.3.5. Renin–angiotensin–aldosterone system inhibitors *(p. 67, L7304)*
+      - 13.3.6. Medications for diabetes *(p. 67, L7304)*
+        - 13.3.6.1. Sodium–glucose co-transporter 2 inhibitors *(p. 67, L7304)*
+        - 13.3.6.2. Glucagon-like peptide-1 receptor agonists *(p. 68, L7436)*
+      - 13.3.7. Proton pump inhibitors *(p. 68, L7436)*
+      - 13.3.8. Vaccination *(p. 68, L7436)*
+      - 13.3.9. Anti-inflammatory drugs *(p. 68, L7436)*
+      - 13.3.10. Hormone replacement therapy *(p. 68, L7436)*
+  - 14. Patient perspectives *(p. 69, L7571)*
+    - 14.1. Patient-centred care *(p. 69, L7571)*
+    - 14.2. Shared decision-making *(p. 70, L7667)*
+    - 14.3. Informed consent *(p. 70, L7667)*
+    - 14.4. Research participation and consent in the acute setting *(p. 71, L7717)*
+    - 14.5. Patient satisfaction and expectations *(p. 71, L7717)*
+    - 14.6. Patient-reported outcome measures and patient-reported experience measures *(p. 72, L7771)*
+    - 14.7. Preparation for discharge *(p. 72, L7771)*
+  - 15. Key messages *(p. 72, L7771)*
+  - 16. Gaps in evidence *(p. 74, L8026)*
+  - 17. Sex differences *(p. 76, L8285)*
+  - 18. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 77, L8413)*
+  - 19. Quality indicators *(p. 82, L9211)*
+  - 20. Supplementary data *(p. 82, L9211)*
+  - 21. Data availability statement *(p. 82, L9211)*
+  - 22. Author information *(p. 82, L9211)*
+  - Appendix *(p. 82, L9211)*
+  - 24. References *(p. 83, L9337)*
+  - 24. References *(p. 83, L9337)*
+
+
+---
+
+### <a name="2023-cvd-diabetes"></a>CVD Diabetes
+
+**File:** `2023_CVD_Diabetes.pdf`
+
+- 2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes *(p. 1, L179)*
+  - 1. Preamble *(p. 8, L1140)*
+  - 2. Introduction *(p. 8, L1140)*
+    - 2.1. Central figure *(p. 10, L1355)*
+    - 2.2. What is new *(p. 11, L1436)*
+  - 3. Diagnosis of diabetes *(p. 15, L1983)*
+    - 3.1. Laboratory criteria for diagnosing diabetes and pre-diabetes *(p. 15, L1983)*
+      - 3.1.1. Fasting glucose *(p. 15, L1983)*
+      - 3.1.2. Two-hour oral glucose tolerance test and random glucose *(p. 15, L1983)*
+      - 3.1.3. Glycated haemoglobin *(p. 16, L2104)*
+    - 3.2. Classifying diabetes *(p. 17, L2185)*
+      - 3.2.1. Type 1 diabetes *(p. 17, L2185)*
+      - 3.2.2. Type 2 diabetes *(p. 17, L2185)*
+      - 3.2.3. Monogenic diabetes *(p. 17, L2185)*
+      - 3.2.4. Secondary diabetes and stress hyperglycaemia *(p. 17, L2185)*
+      - 3.2.5. Gestational diabetes *(p. 17, L2185)*
+      - 3.2.6. Further sub-group classification of type 2 diabetes *(p. 17, L2185)*
+    - 3.3. Screening for diabetes *(p. 17, L2185)*
+  - 4. Cardiovascular risk assessment in patients with type 2 diabetes *(p. 18, L2300)*
+    - 4.1. Assessing cardiovascular risk in type 2 diabetes *(p. 18, L2300)*
+      - 4.1.1. Cardiovascular risk categories in type 2 diabetes *(p. 18, L2300)*
+      - 4.1.2. SCORE2-Diabetes: estimating 10-year cardiovascular disease risk *(p. 18, L2300)*
+  - 5. Cardiovascular risk reduction in patients with diabetes: targets and treatments *(p. 19, L2432)*
+    - 5.1. Lifestyle and diabetes *(p. 19, L2432)*
+      - 5.1.1. Weight reduction *(p. 20, L2532)*
+      - 5.1.2. Change in diet or nutrition *(p. 20, L2532)*
+      - 5.1.3. Increasing physical activity and exercise *(p. 21, L2663)*
+      - 5.1.4. Smoking cessation *(p. 21, L2663)*
+    - 5.2. Glycaemic targets *(p. 22, L2803)*
+      - 5.2.1. Role of glycated haemoglobin *(p. 22, L2803)*
+      - 5.2.2. Additional glycaemic targets *(p. 22, L2803)*
+      - 5.2.3. Glycaemic control following vascular events *(p. 22, L2803)*
+    - 5.3. Atherosclerotic cardiovascular disease risk reduction by glucose-lowering medications in diabetes *(p. 23, L2923)*
+      - 5.3.1. Glucose-lowering medications with cardiovascular efficacy demonstrated in dedicated cardiovascular outcomes trials *(p. 23, L2923)*
+        - 5.3.1.1. Sodium–glucose co-transporter-2 inhibitors *(p. 23, L2923)*
+        - 5.3.1.2. Glucagon-like peptide-1 receptor agonists *(p. 24, L2989)*
+        - 5.3.1.3. Pioglitazone *(p. 26, L3433)*
+      - 5.3.2. Glucose-lowering medications with cardiovascular safety but not incremental efficacy demonstrated in dedicated cardiovascular outcomes trials *(p. 26, L3433)*
+        - 5.3.2.1. Dipeptidyl peptidase-4 inhibitors *(p. 26, L3433)*
+        - 5.3.2.2. Lixisenatide and exenatide *(p. 26, L3433)*
+        - 5.3.2.3. Insulin *(p. 26, L3433)*
+        - 5.3.2.4. Glimepiride *(p. 27, L3549)*
+      - 5.3.3. Cardiovascular considerations of older glucose-lowering medications not tested in dedicated cardiovascular outcomes trials *(p. 27, L3549)*
+        - 5.3.3.1. Metformin *(p. 27, L3549)*
+        - 5.3.3.2. Sulphonylureas *(p. 27, L3549)*
+      - 5.3.4. Special considerations *(p. 27, L3549)*
+        - 5.3.4.1. Hypoglycaemia and cardiovascular risk *(p. 27, L3549)*
+        - 5.3.4.2. Effects on weight *(p. 28, L3666)*
+      - 5.3.5. Implications of results from cardiovascular outcomes trials of glucose-lowering medications *(p. 28, L3666)*
+    - 5.4. Blood pressure and diabetes *(p. 30, L3835)*
+      - 5.4.1. Screening and diagnosis *(p. 30, L3835)*
+      - 5.4.2. Treatment targets *(p. 30, L3835)*
+      - 5.4.3. Management of hypertension *(p. 31, L3962)*
+        - 5.4.3.1. Effects of lifestyle intervention and weight loss *(p. 31, L3962)*
+        - 5.4.3.2. Pharmacological treatments in patients with diabetes *(p. 32, L4048)*
+        - 5.4.3.3. Blood pressure changes with glucose-lowering agents *(p. 32, L4048)*
+      - 5.4.4. Sex-specific aspects *(p. 32, L4048)*
+    - 5.5. Lipids and diabetes *(p. 33, L4184)*
+      - 5.5.1. Treatment targets *(p. 33, L4184)*
+      - 5.5.2. Lipid-lowering agents *(p. 33, L4184)*
+        - 5.5.2.1. Statins *(p. 33, L4184)*
+        - 5.5.2.2. Ezetimibe *(p. 33, L4184)*
+        - 5.5.2.3. Proprotein convertase subtilisin/kexin type 9 inhibitors *(p. 34, L4272)*
+        - 5.5.2.4. Fibrates and other TG-lowering drugs *(p. 34, L4272)*
+      - 5.5.3. Novel cholesterol-lowering drugs *(p. 34, L4272)*
+        - 5.5.3.1. Inclisiran *(p. 34, L4272)*
+        - 5.5.3.2. Bempedoic acid *(p. 34, L4272)*
+    - 5.6. Antithrombotic therapy and diabetes *(p. 35, L4399)*
+      - 5.6.1. Patients without a history of symptomatic atherosclerotic cardiovascular disease or revascularization *(p. 35, L4399)*
+      - 5.6.2. Patients with atherosclerotic cardiovascular disease and/or revascularization without an indication for long-term oral anticoagulation *(p. 36, L4541)*
+        - 5.6.2.1. Chronic coronary syndromes *(p. 36, L4541)*
+        - 5.6.2.2. Acute coronary syndrome *(p. 37, L4593)*
+          - 5.6.2.2.1. Peri-procedural management *(p. 37, L4593)*
+          - 5.6.2.2.2. Post-procedural management *(p. 37, L4593)*
+          - 5.6.2.2.3. Prolonging DAPT post-ACS *(p. 37, L4593)*
+          - 5.6.2.2.4. Shortening or de-escalating DAPT post-ACS in diabetes *(p. 37, L4593)*
+      - 5.6.3. Patients with atherosclerotic cardiovascular disease and/or revascularization requiring long-term oral anticoagulation *(p. 39, L4825)*
+      - 5.6.4. Preventing gastrointestinal bleeding *(p. 39, L4825)*
+    - 5.7. Multifactorial approach to risk-factor management in diabetes *(p. 40, L4953)*
+  - 6. Management of coronary artery disease and diabetes *(p. 41, L5089)*
+    - 6.1. Chronic coronary syndromes and diabetes *(p. 41, L5089)*
+      - 6.1.1. Clinical presentation *(p. 41, L5089)*
+      - 6.1.2. Screening and diagnosis *(p. 41, L5089)*
+      - 6.1.3. Management *(p. 42, L5152)*
+        - 6.1.3.1. Pharmacotherapy *(p. 42, L5152)*
+          - 6.1.3.1.1. Glucose-lowering medication *(p. 42, L5152)*
+          - 6.1.3.1.2. Other medications *(p. 42, L5152)*
+        - 6.1.3.2. Revascularization *(p. 42, L5152)*
+    - 6.2. Acute coronary syndromes and diabetes *(p. 42, L5152)*
+      - 6.2.1. Clinical presentation and diagnosis *(p. 42, L5152)*
+      - 6.2.2. Management *(p. 43, L5279)*
+        - 6.2.2.1. Pharmacotherapy *(p. 43, L5279)*
+        - 6.2.2.2. Glucose control in patients with acute coronary syndrome *(p. 43, L5279)*
+        - 6.2.2.3. Reperfusion strategies in ST-elevation myocardial infarction *(p. 43, L5279)*
+        - 6.2.2.4. Optimal timing of invasive strategy in non-ST-elevation acute coronary syndrome *(p. 43, L5279)*
+    - 6.3. Ischaemia with no obstructive coronary artery disease in diabetes *(p. 44, L5406)*
+  - 7. Heart failure and diabetes *(p. 44, L5406)*
+    - 7.1. Definition and pathophysiology *(p. 44, L5406)*
+    - 7.2. Epidemiology and prognosis *(p. 44, L5406)*
+    - 7.3. Screening and diagnosis *(p. 45, L5537)*
+    - 7.4. Treatment of heart failure in patients with diabetes *(p. 46, L5605)*
+      - 7.4.1. Treatment of heart failure with reduced ejection fraction *(p. 46, L5605)*
+        - 7.4.1.1. Sodium–glucose co-transporter-2 inhibitors *(p. 47, L5734)*
+        - 7.4.1.2. Angiotensin receptor–neprilysin inhibitor and angiotensin-converting enzyme inhibitors *(p. 47, L5734)*
+        - 7.4.1.3. Mineralocorticoid receptor antagonists *(p. 47, L5734)*
+        - 7.4.1.4. Beta-blockers *(p. 47, L5734)*
+        - 7.4.1.5. Angiotensin-II receptor blockers *(p. 47, L5734)*
+        - 7.4.1.6. Ivabradine *(p. 48, L5854)*
+        - 7.4.1.7. Hydralazine and isosorbide dinitrate *(p. 48, L5854)*
+        - 7.4.1.8. Digoxin *(p. 48, L5854)*
+        - 7.4.1.9. Diuretics *(p. 48, L5854)*
+        - 7.4.1.10. Device therapy and surgery *(p. 48, L5854)*
+      - 7.4.2. Treatment of heart failure with mildly reduced ejection fraction *(p. 48, L5854)*
+      - 7.4.3. Treatment of heart failure with preserved ejection fraction *(p. 49, L5991)*
+    - 7.5. Safety profile of glucose-lowering agents in patients with heart failure and diabetes *(p. 49, L5991)*
+      - 7.5.1. Sodium–glucose co-transporter-2 inhibitors *(p. 49, L5991)*
+      - 7.5.2. Glucagon-like peptide-1 receptor agonists *(p. 50, L6117)*
+      - 7.5.3. Dipeptidyl peptidase-4 inhibitors *(p. 51, L6212)*
+      - 7.5.4. Insulin *(p. 51, L6212)*
+      - 7.5.5. Metformin *(p. 51, L6212)*
+      - 7.5.6. Sulphonylureas *(p. 51, L6212)*
+      - 7.5.7. Thiazolidinediones *(p. 51, L6212)*
+      - 7.5.8. Special consideration: hypoglycaemia and risk of heart failure hospitalization *(p. 51, L6212)*
+  - 8. Arrhythmias: atrial fibrillation, ventricular arrhythmias, and sudden cardiac death and diabetes *(p. 54, L6410)*
+    - 8.1. Atrial fibrillation and diabetes *(p. 54, L6410)*
+      - 8.1.1. Epidemiology of atrial fibrillation and its association with diabetes *(p. 54, L6410)*
+      - 8.1.2. Screening and managing atrial fibrillation in patients with diabetes *(p. 54, L6410)*
+      - 8.1.3. Preventing stroke in patients with atrial fibrillation and diabetes *(p. 56, L6542)*
+    - 8.2. Ventricular arrhythmias and risk of sudden cardiac death and diabetes *(p. 56, L6542)*
+  - 9. Chronic kidney disease and diabetes *(p. 57, L6678)*
+    - 9.1. Chronic kidney disease definitions, staging, and screening *(p. 57, L6678)*
+    - 9.2. Management of cardiovascular disease risk and kidney failure in patients with chronic kidney disease and diabetes *(p. 58, L6813)*
+    - 9.3. Blood pressure and glycaemic control in patients with diabetes and chronic kidney disease *(p. 61, L7116)*
+    - 9.4. Roles for antithrombotic therapy and invasive strategies in managing atherosclerotic cardiovascular disease in patients with diabetes and chronic kidney disease *(p. 61, L7116)*
+  - 10. Aortic and peripheral arterial diseases and diabetes *(p. 62, L7248)*
+    - 10.1. The impact of diabetes on peripheral atherosclerosis *(p. 62, L7248)*
+      - 10.1.1. Diabetes and lower-extremity artery disease *(p. 62, L7248)*
+      - 10.1.2. Diabetes and carotid artery disease *(p. 64, L7442)*
+    - 10.2. Diabetes and aortic aneurysm *(p. 64, L7442)*
+  - 11. Type 1 diabetes and cardiovascular disease *(p. 65, L7576)*
+    - 11.1. Cardiovascular risk assessment in type 1 diabetes *(p. 65, L7576)*
+    - 11.2. Managing cardiovascular risk *(p. 65, L7576)*
+      - 11.2.1. Exercise and lifestyle *(p. 66, L7707)*
+      - 11.2.2. Lipid lowering *(p. 66, L7707)*
+      - 11.2.3. Blood pressure *(p. 66, L7707)*
+      - 11.2.4. Antiplatelet therapy *(p. 66, L7707)*
+    - 11.3. Glucose-lowering agents beyond insulin *(p. 66, L7707)*
+    - 11.4. Renal protection in type 1 diabetes *(p. 66, L7707)*
+  - 12. Person-centred care *(p. 66, L7707)*
+  - 13. Practical guidance *(p. 68, L7876)*
+  - 14. Key messages *(p. 68, L7876)*
+  - 15. Gaps in evidence *(p. 69, L7996)*
+  - 16. Sex differences *(p. 70, L8100)*
+  - 17. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 71, L8207)*
+  - 18. Quality indicators *(p. 75, L8626)*
+  - 19. Supplementary data *(p. 75, L8626)*
+  - 20. Data availability statement *(p. 75, L8626)*
+  - 21. Author information *(p. 75, L8626)*
+  - Appendix *(p. 76, L8725)*
+  - Acknowledgements *(p. 76, L8725)*
+  - References *(p. 77, L8861)*
+  - References *(p. 77, L8861)*
+
+
+---
+
+### <a name="2023-cardiomyopathies"></a>Cardiomyopathies
+
+**File:** `2023_Cardiomyopathies.pdf`
+
+- 2023 ESC Guidelines for the management of cardiomyopathies *(p. 1, L222)*
+  - 1. Preamble *(p. 7, L1077)*
+  - 2. Introduction *(p. 9, L1302)*
+  - 3. Phenotypic approach to cardiomyopathies *(p. 9, L1302)*
+    - 3.1. Definitions *(p. 12, L1553)*
+    - 3.2. Cardiomyopathy phenotypes *(p. 12, L1553)*
+      - 3.2.1. Hypertrophic cardiomyopathy *(p. 12, L1553)*
+      - 3.2.2. Dilated cardiomyopathy *(p. 12, L1553)*
+      - 3.2.3. Non-dilated left ventricular cardiomyopathy *(p. 12, L1553)*
+      - 3.2.4. Arrhythmogenic right ventricular cardiomyopathy *(p. 14, L1717)*
+      - 3.2.5. Restrictive cardiomyopathy *(p. 15, L1783)*
+    - 3.3. Other traits and syndromes associated with cardiomyopathy phenotypes *(p. 15, L1783)*
+      - 3.3.1. Left ventricular hypertrabeculation (left ventricular non-compaction) *(p. 15, L1783)*
+      - 3.3.2. Takotsubo syndrome *(p. 15, L1783)*
+  - 4. Epidemiology *(p. 15, L1783)*
+    - 4.1. Special populations *(p. 16, L1920)*
+  - 5. Integrated patient management *(p. 16, L1920)*
+    - 5.1. Multidisciplinary cardiomyopathy teams *(p. 16, L1920)*
+    - 5.2. Co-ordination between different levels of care *(p. 16, L1920)*
+  - 6. The patient pathway *(p. 17, L2034)*
+    - 6.1. Clinical presentation *(p. 18, L2103)*
+    - 6.2. Initial work-up *(p. 18, L2103)*
+    - 6.3. Systematic approach to diagnosis of cardiomyopathy *(p. 18, L2103)*
+    - 6.4. History and physical examination *(p. 18, L2103)*
+    - 6.5. Resting and ambulatory electrocardiography *(p. 19, L2226)*
+    - 6.6. Laboratory tests *(p. 22, L2542)*
+    - 6.7. Multimodality imaging *(p. 22, L2542)*
+      - 6.7.1. General considerations *(p. 22, L2542)*
+      - 6.7.2. Echocardiography *(p. 22, L2542)*
+      - 6.7.3. Cardiac magnetic resonance *(p. 23, L2675)*
+        - 6.7.3.1. Special considerations *(p. 23, L2675)*
+      - 6.7.4. Computed tomography and nuclear medicine techniques *(p. 26, L2960)*
+      - 6.7.5. Endomyocardial biopsy *(p. 26, L2960)*
+    - 6.8. Genetic testing and counselling *(p. 27, L3119)*
+      - 6.8.1. Genetic architecture *(p. 27, L3119)*
+      - 6.8.2. Genetic testing *(p. 27, L3119)*
+        - 6.8.2.1. Non-Mendelian cardiomyopathies and implications for genetic testing *(p. 32, L3485)*
+        - 6.8.2.2. Genetic test reports and variant interpretation *(p. 32, L3485)*
+      - 6.8.3. Genetic counselling *(p. 32, L3485)*
+        - 6.8.3.1. Genetic counselling in children *(p. 32, L3485)*
+        - 6.8.3.2. Pre- and post-test genetic counselling (proband) *(p. 33, L3594)*
+        - 6.8.3.3. Genetic counselling for cascade testing *(p. 33, L3594)*
+        - 6.8.3.4. Pre-natal or pre-implantation genetic diagnosis *(p. 34, L3651)*
+    - 6.9. Diagnostic approach to paediatric patients *(p. 35, L3772)*
+      - 6.9.1. Infantile and early childhood-onset cardiomyopathy *(p. 36, L3918)*
+    - 6.10. General principles in the management of patients with cardiomyopathy *(p. 37, L4020)*
+      - 6.10.1. Assessment of symptoms *(p. 37, L4020)*
+      - 6.10.2. Heart failure management *(p. 37, L4020)*
+        - 6.10.2.1. Preventive heart failure medical therapy of asymptomatic carriers/early disease expression *(p. 38, L4143)*
+        - 6.10.2.2. Cardiac transplantation *(p. 38, L4143)*
+        - 6.10.2.3. Left ventricular assist devices *(p. 38, L4143)*
+      - 6.10.3. Management of atrial arrhythmias *(p. 39, L4275)*
+        - 6.10.3.1. Anticoagulation *(p. 39, L4275)*
+        - 6.10.3.2. Rate control *(p. 39, L4275)*
+        - 6.10.3.3. Rhythm control *(p. 41, L4504)*
+        - 6.10.3.4. Comorbidities and risk factor management *(p. 41, L4504)*
+      - 6.10.4. Management of ventricular arrhythmias *(p. 42, L4633)*
+      - 6.10.5. Device therapy: implantable cardioverter defibrillator *(p. 42, L4633)*
+      - 6.10.6. Routine follow-up of patients with cardiomyopathy *(p. 44, L4928)*
+    - 6.11. Family screening and follow-up evaluation of relatives *(p. 44, L4928)*
+      - 6.11.1. Special considerations in family screening *(p. 45, L5062)*
+    - 6.12. Psychological support in cardiomyopathy patients and family members *(p. 46, L5123)*
+    - 6.13. The patient pathway *(p. 47, L5207)*
+  - 7. Specific cardiomyopathy phenotypes *(p. 47, L5207)*
+    - 7.1. Hypertrophic cardiomyopathy *(p. 47, L5207)*
+      - 7.1.1. Diagnosis *(p. 47, L5207)*
+        - 7.1.1.1. Diagnostic criteria *(p. 47, L5207)*
+        - 7.1.1.2. Diagnostic work-up *(p. 47, L5207)*
+        - 7.1.1.3. Echocardiography *(p. 47, L5207)*
+        - 7.1.1.4. Cardiac magnetic resonance *(p. 48, L5334)*
+        - 7.1.1.5. Nuclear imaging *(p. 49, L5440)*
+      - 7.1.2. Genetic testing and family screening *(p. 49, L5440)*
+      - 7.1.3. Assessment of symptoms *(p. 50, L5505)*
+      - 7.1.4. Management of symptoms and complications *(p. 50, L5505)*
+        - 7.1.4.1. Management of left ventricular outflow tract obstruction *(p. 51, L5593)*
+          - 7.1.4.1.1. General measures *(p. 51, L5593)*
+          - 7.1.4.1.2. Drug therapy *(p. 51, L5593)*
+          - 7.1.4.1.3. Invasive treatment of left ventricular outflow tract (septal reduction therapy) *(p. 53, L5832)*
+        - 7.1.4.2. Management of symptoms in patients without left ventricular outflow tract obstruction *(p. 55, L6025)*
+          - 7.1.4.2.1. Heart failure and chest pain *(p. 55, L6025)*
+          - 7.1.4.2.2. Cardiac resynchronization therapy *(p. 55, L6025)*
+      - 7.1.5. Sudden cardiac death prevention in hypertrophic cardiomyopathy *(p. 56, L6169)*
+        - 7.1.5.1. Left ventricular apical aneurysms *(p. 57, L6259)*
+        - 7.1.5.2. Left ventricular systolic dysfunction *(p. 57, L6259)*
+        - 7.1.5.3. Late gadolinium enhancement on cardiac magnetic resonance imaging *(p. 57, L6259)*
+        - 7.1.5.4. Abnormal exercise blood pressure response *(p. 57, L6259)*
+        - 7.1.5.5. Sarcomeric variants *(p. 58, L6378)*
+        - 7.1.5.6. Prevention of sudden cardiac death *(p. 58, L6378)*
+    - 7.2. Dilated cardiomyopathy *(p. 60, L6572)*
+      - 7.2.1. Diagnosis *(p. 60, L6572)*
+        - 7.2.1.1. Index case *(p. 60, L6572)*
+        - 7.2.1.2. Relatives *(p. 60, L6572)*
+        - 7.2.1.3. Diagnostic work-up *(p. 60, L6572)*
+        - 7.2.1.4. Echocardiography *(p. 60, L6572)*
+        - 7.2.1.5. Cardiac magnetic resonance *(p. 61, L6693)*
+        - 7.2.1.6. Nuclear medicine *(p. 61, L6693)*
+      - 7.2.2. Genetic testing and family screening *(p. 61, L6693)*
+        - 7.2.2.1. Genetic testing *(p. 61, L6693)*
+      - 7.2.3. Assessment of symptoms *(p. 62, L6815)*
+      - 7.2.4. Management *(p. 62, L6815)*
+      - 7.2.5. Sudden cardiac death prevention in dilated cardiomyopathy *(p. 62, L6815)*
+        - 7.2.5.1. Secondary prevention of sudden cardiac death *(p. 62, L6815)*
+        - 7.2.5.2. Primary prevention of sudden cardiac death *(p. 62, L6815)*
+    - 7.3. Non-dilated left ventricular cardiomyopathy *(p. 64, L7013)*
+      - 7.3.1. Diagnosis *(p. 64, L7013)*
+        - 7.3.1.1. Index case *(p. 64, L7013)*
+        - 7.3.1.2. Relatives *(p. 64, L7013)*
+        - 7.3.1.3. Diagnostic work-up *(p. 64, L7013)*
+        - 7.3.1.4. Electrocardiographic features *(p. 65, L7154)*
+        - 7.3.1.5. Echocardiography *(p. 65, L7154)*
+        - 7.3.1.6. Cardiac magnetic resonance *(p. 65, L7154)*
+        - 7.3.1.7. Nuclear medicine *(p. 65, L7154)*
+        - 7.3.1.8. Endomyocardial biopsy *(p. 65, L7154)*
+      - 7.3.2. Genetic testing *(p. 65, L7154)*
+      - 7.3.3. Assessment of symptoms *(p. 65, L7154)*
+      - 7.3.4. Management *(p. 65, L7154)*
+      - 7.3.5. Sudden cardiac death prevention in non-dilated left ventricular cardiomyopathy *(p. 66, L7279)*
+        - 7.3.5.1. Secondary prevention of sudden cardiac death *(p. 66, L7279)*
+        - 7.3.5.2. Primary prevention of sudden cardiac death *(p. 66, L7279)*
+    - 7.4. Arrhythmogenic right ventricular cardiomyopathy *(p. 67, L7414)*
+      - 7.4.1. Diagnosis *(p. 67, L7414)*
+        - 7.4.1.1. Index case *(p. 67, L7414)*
+        - 7.4.1.2. Relatives *(p. 67, L7414)*
+        - 7.4.1.3. Diagnostic work-up *(p. 67, L7414)*
+        - 7.4.1.4. Electrocardiography and Holter monitoring *(p. 67, L7414)*
+        - 7.4.1.5. Echocardiography and cardiac magnetic resonance *(p. 67, L7414)*
+        - 7.4.1.6. Endomyocardial biopsy *(p. 67, L7414)*
+        - 7.4.1.7. Nuclear medicine *(p. 67, L7414)*
+        - 7.4.1.8. Arrhythmogenic right ventricular cardiomyopathy phenocopies *(p. 68, L7533)*
+      - 7.4.2. Genetic testing and family screening *(p. 68, L7533)*
+      - 7.4.3. Assessment of symptoms *(p. 68, L7533)*
+      - 7.4.4. Management *(p. 68, L7533)*
+        - 7.4.4.1. Antiarrhythmic therapy *(p. 68, L7533)*
+      - 7.4.5. Sudden cardiac death prevention in arrhythmogenic right ventricular cardiomyopathy *(p. 68, L7533)*
+        - 7.4.5.1. Secondary prevention of sudden cardiac death *(p. 69, L7661)*
+        - 7.4.5.2. Primary prevention of sudden cardiac death *(p. 69, L7661)*
+    - 7.5. Restrictive cardiomyopathy *(p. 70, L7793)*
+      - 7.5.1. Diagnosis *(p. 70, L7793)*
+      - 7.5.2. Genetic testing *(p. 70, L7793)*
+      - 7.5.3. Assessment of symptoms *(p. 71, L7885)*
+      - 7.5.4. Management *(p. 71, L7885)*
+    - 7.6. Syndromic and metabolic cardiomyopathies *(p. 72, L7966)*
+      - 7.6.1. Anderson–Fabry disease *(p. 72, L7966)*
+        - 7.6.1.1. Definition *(p. 72, L7966)*
+        - 7.6.1.2. Diagnosis, clinical work-up, and differential diagnosis *(p. 72, L7966)*
+        - 7.6.1.3. Clinical course, outcome, and risk stratification *(p. 72, L7966)*
+        - 7.6.1.4. Management *(p. 75, L8374)*
+      - 7.6.2. RASopathies *(p. 75, L8374)*
+        - 7.6.2.1. Definition *(p. 75, L8374)*
+        - 7.6.2.2. Diagnosis, clinical work-up, and differential diagnosis *(p. 75, L8374)*
+        - 7.6.2.3. Clinical course, management, and sudden death risk stratification *(p. 75, L8374)*
+        - 7.6.2.4. Management *(p. 75, L8374)*
+      - 7.6.3. Friedreich ataxia *(p. 76, L8494)*
+        - 7.6.3.1. Definition *(p. 76, L8494)*
+        - 7.6.3.2. Diagnosis, clinical work-up, and differential diagnosis *(p. 76, L8494)*
+        - 7.6.3.3. Clinical course, management, and risk stratification *(p. 77, L8559)*
+        - 7.6.3.4. Management *(p. 77, L8559)*
+      - 7.6.4. Glycogen storage disorders *(p. 77, L8559)*
+        - 7.6.4.1. Definition *(p. 77, L8559)*
+        - 7.6.4.2. Diagnosis, clinical work-up, and differential diagnosis *(p. 77, L8559)*
+        - 7.6.4.3. Clinical course, management, and risk stratification *(p. 77, L8559)*
+        - 7.6.4.4. Management *(p. 77, L8559)*
+    - 7.7. Amyloidosis *(p. 77, L8559)*
+      - 7.7.1. Definition *(p. 77, L8559)*
+      - 7.7.2. Diagnosis, clinical work-up, and differential diagnosis *(p. 77, L8559)*
+      - 7.7.3. Clinical course and risk stratification *(p. 78, L8674)*
+      - 7.7.4. Management *(p. 78, L8674)*
+        - 7.7.4.1. Specific therapies *(p. 79, L8724)*
+  - 8. Other recommendations *(p. 79, L8724)*
+    - 8.1. Sports *(p. 79, L8724)*
+      - 8.1.1. Cardiovascular benefits of exercise *(p. 79, L8724)*
+      - 8.1.2. Exercise-related sudden cardiac death and historical exercise recommendations for patients with cardiomyopathy *(p. 80, L8814)*
+      - 8.1.3. Exercise recommendations in hypertrophic cardiomyopathy *(p. 80, L8814)*
+      - 8.1.4. Exercise recommendations in arrhythmogenic right ventricular cardiomyopathy *(p. 80, L8814)*
+      - 8.1.5. Exercise recommendations in dilated cardiomyopathy and non-dilated left ventricular cardiomyopathy *(p. 80, L8814)*
+    - 8.2. Reproductive issues *(p. 81, L8936)*
+      - 8.2.1. Contraception, in vitro fertilization, and hormonal treatment *(p. 81, L8936)*
+      - 8.2.2. Pregnancy management *(p. 81, L8936)*
+        - 8.2.2.1. Pre-pregnancy *(p. 81, L8936)*
+        - 8.2.2.2. Pregnancy *(p. 81, L8936)*
+        - 8.2.2.3. Timing and mode of delivery *(p. 82, L9072)*
+        - 8.2.2.4. Post-partum *(p. 82, L9072)*
+        - 8.2.2.5. Pharmacological treatment: general aspects *(p. 82, L9072)*
+        - 8.2.2.6. Specific cardiomyopathies *(p. 82, L9072)*
+        - 8.2.2.7. Peripartum cardiomyopathy *(p. 83, L9193)*
+    - 8.3. Recommendations for non-cardiac surgery *(p. 83, L9193)*
+  - 9. Requirements for specialized cardiomyopathy units *(p. 84, L9343)*
+  - 10. Living with cardiomyopathy: advice for patients *(p. 84, L9343)*
+  - 11. Sex differences in cardiomyopathies *(p. 85, L9472)*
+  - 12. Comorbidities and cardiovascular risk factors in cardiomyopathies *(p. 85, L9472)*
+    - 12.1. Cardiovascular risk factors *(p. 85, L9472)*
+    - 12.2. Dilated cardiomyopathy *(p. 86, L9604)*
+    - 12.3. Hypertrophic cardiomyopathy *(p. 86, L9604)*
+    - 12.4. Arrhythmogenic right ventricular cardiomyopathy *(p. 86, L9604)*
+  - 13. Coronavirus disease (COVID-19) and cardiomyopathies *(p. 86, L9604)*
+  - 14. Key messages *(p. 86, L9604)*
+  - 15. Gaps in evidence *(p. 87, L9741)*
+  - 16. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 89, L10001)*
+  - 17. Supplementary data *(p. 93, L10383)*
+  - 18. Data availability statement *(p. 93, L10383)*
+  - 19. Author information *(p. 93, L10383)*
+  - Appendix *(p. 94, L10518)*
+  - 21. Acknowledgements *(p. 95, L10668)*
+  - 22. References *(p. 95, L10668)*
+  - 22. References *(p. 95, L10668)*
+
+
+---
+
+### <a name="2023-cardiomyopathies-supplementary"></a>Cardiomyopathies Supplementary
+
+**File:** `2023_Cardiomyopathies_Supplementary.pdf`
+
+- 2023 ESC Guidelines for the management of cardiomyopathies Supplementary data *(p. 1, L47)*
+  - 1. Epidemiology *(p. 3, L198)*
+    - 1.1. General epidemiological data *(p. 3, L198)*
+    - 1.2. Paediatric cardiomyopathies *(p. 4, L364)*
+    - 1.3. Special populations *(p. 4, L364)*
+  - 2. The patient pathway *(p. 4, L364)*
+    - 2.1. Genetic testing *(p. 4, L364)*
+      - 2.1.1. Variant interpretation *(p. 4, L364)*
+    - 2.2. Genetic counselling *(p. 4, L364)*
+      - 2.2.1. What is genetic counselling? *(p. 4, L364)*
+      - 2.2.2. Who performs genetic counselling? *(p. 5, L458)*
+      - 2.2.3. Genetic counselling in paediatrics *(p. 5, L458)*
+      - 2.2.4. Pre- and post-test genetic counselling (proband) *(p. 5, L458)*
+      - 2.2.5. Cascade genetic testing *(p. 5, L458)*
+      - 2.2.6. Uptake of genetic counselling and testing *(p. 5, L458)*
+      - 2.2.7. Approaching relatives of the index patient *(p. 5, L458)*
+      - 2.2.8. Inheritance and family communication *(p. 6, L544)*
+      - 2.2.9. Psychological support *(p. 6, L544)*
+  - 3. Specific entities *(p. 6, L544)*
+    - 3.1. Hypertrophic cardiomyopathy *(p. 6, L544)*
+      - 3.1.1. Cardiac magnetic resonance imaging and sudden cardiac death risk in hypertrophic cardiomyopathy *(p. 6, L544)*
+    - 3.2. Restrictive cardiomyopathy *(p. 14, L1304)*
+    - 3.3. Amyloid *(p. 15, L1453)*
+  - 4. Sports *(p. 15, L1453)*
+  - 5. Recommendations for non-cardiac interventions *(p. 16, L1619)*
+  - 6. Requirements for specialized cardiomyopathy units *(p. 16, L1619)*
+    - 6.1. Requirements and skills *(p. 16, L1619)*
+  - 7. Living with cardiomyopathy: patient and family education *(p. 16, L1619)*
+  - 8. References *(p. 19, L1855)*
+  - 8. References *(p. 19, L1855)*
+
+
+---
+
+### <a name="2023-endocarditis"></a>Endocarditis
+
+**File:** `2023_Endocarditis.pdf`
+
+- 2023 ESC Guidelines for the management of endocarditis *(p. 1, L166)*
+  - 1. Preamble *(p. 6, L801)*
+  - 2. Introduction *(p. 8, L891)*
+    - 2.1. What is new *(p. 8, L891)*
+  - 3. Prevention *(p. 12, L1462)*
+    - 3.1. Rationale *(p. 12, L1462)*
+    - 3.2. Populations at risk of infective endocarditis *(p. 13, L1585)*
+    - 3.3. Situations and procedures at risk *(p. 14, L1705)*
+      - 3.3.1. Dental procedures *(p. 14, L1705)*
+      - 3.3.2. Non-dental procedures *(p. 14, L1705)*
+      - 3.3.3. Cardiac or vascular interventions *(p. 15, L1873)*
+    - 3.4. Patient education *(p. 15, L1873)*
+  - 4. The Endocarditis Team *(p. 16, L1932)*
+  - 5. Diagnosis *(p. 18, L2139)*
+    - 5.1. Clinical features *(p. 18, L2139)*
+    - 5.2. Laboratory findings *(p. 19, L2260)*
+    - 5.3. Microbiological diagnosis *(p. 19, L2260)*
+      - 5.3.1. Blood culture-positive infective endocarditis *(p. 19, L2260)*
+      - 5.3.2. Blood culture-negative infective endocarditis *(p. 19, L2260)*
+      - 5.3.3. Proposed strategy for a microbiological diagnostic algorithm in suspected infective endocarditis *(p. 20, L2381)*
+    - 5.4. Imaging techniques *(p. 20, L2381)*
+      - 5.4.1. Echocardiography *(p. 20, L2381)*
+      - 5.4.2. Computed tomography *(p. 22, L2584)*
+      - 5.4.3. Magnetic resonance imaging *(p. 22, L2584)*
+      - 5.4.4. Nuclear imaging positron emission tomography/computed tomography (angiography) and single photon emission tomography/computed tomography *(p. 23, L2730)*
+    - 5.5. Diagnostic criteria *(p. 24, L2866)*
+      - 5.5.1. Modifications for the diagnosis of infective endocarditis *(p. 24, L2866)*
+        - 5.5.1.1. Major criteria – microbiology *(p. 26, L2988)*
+        - 5.5.1.2. Major criteria – imaging *(p. 26, L2988)*
+        - 5.5.1.3. Minor criteria *(p. 27, L3040)*
+        - 5.5.1.4. Microbiological criteria *(p. 27, L3040)*
+        - 5.5.1.5. Infective endocarditis classification *(p. 28, L3095)*
+      - 5.5.2. The new 2023 European Society of Cardiology diagnostic algorithms *(p. 28, L3095)*
+  - 6. Prognostic assessment at admission *(p. 28, L3095)*
+  - 7. Antimicrobial therapy: principles and methods *(p. 28, L3095)*
+    - 7.1. General principles *(p. 28, L3095)*
+    - 7.2. Penicillin-susceptible oral streptococci and Streptococcus gallolyticus group *(p. 30, L3293)*
+    - 7.3. Oral streptococci and Streptococcus gallolyticus group susceptible, increased exposure or resistant to penicillin *(p. 30, L3293)*
+    - 7.4. Streptococcus pneumoniae, β-haemolytic streptococci (groups A, B, C, and G) *(p. 32, L3481)*
+    - 7.5. Granulicatella and Abiotrophia (formerly nutritionally variant streptococci) *(p. 32, L3481)*
+    - 7.6. Staphylococcus aureus and coagulase-negative staphylococci *(p. 32, L3481)*
+    - 7.7. Methicillin-resistant staphylococci *(p. 32, L3481)*
+    - 7.8. Enterococcus spp. *(p. 35, L3797)*
+    - 7.9. Gram-negative bacteria *(p. 36, L3902)*
+      - 7.9.1. Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, and Kingella-related species *(p. 36, L3902)*
+      - 7.9.2. Non-Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, and Kingella species *(p. 37, L3997)*
+    - 7.10. Blood culture-negative infective endocarditis *(p. 37, L3997)*
+    - 7.11. Fungi *(p. 37, L3997)*
+    - 7.12. Empirical therapy *(p. 37, L3997)*
+    - 7.13. Outpatient parenteral or oral antibiotic therapy for infective endocarditis *(p. 38, L4151)*
+      - 7.13.1. Parenteral and oral step-down antibiotic treatment *(p. 39, L4296)*
+      - 7.13.2. Other considerations for outpatient oral or parenteral antimicrobial therapy *(p. 39, L4296)*
+  - 8. Indications for surgery and management of main infective endocarditis complications *(p. 40, L4357)*
+    - 8.1. Pre-operative risk assessment *(p. 40, L4357)*
+    - 8.2. Heart failure *(p. 40, L4357)*
+      - 8.2.1. Heart failure in infective endocarditis *(p. 40, L4357)*
+      - 8.2.2. Indications and timing of surgery in the presence of heart failure in infective endocarditis *(p. 42, L4546)*
+    - 8.3. Uncontrolled infection *(p. 42, L4546)*
+      - 8.3.1. Septic shock and persistent infection *(p. 42, L4546)*
+      - 8.3.2. Locally uncontrolled infection *(p. 42, L4546)*
+      - 8.3.3 Indications and timing of surgery in the presence of uncontrolled infection *(p. 43, L4662)*
+        - 8.3.3.1. Persistent infection *(p. 43, L4662)*
+        - 8.3.3.2. Locally uncontrolled infection *(p. 43, L4662)*
+        - 8.3.3.3. Infection with resistant or virulent organisms *(p. 43, L4662)*
+    - 8.4. Prevention of systemic embolism *(p. 43, L4662)*
+      - 8.4.1. Incidence of embolic events in infective endocarditis *(p. 43, L4662)*
+      - 8.4.2. Predicting the risk of embolism *(p. 43, L4662)*
+      - 8.4.3. Indications and timing of surgery to prevent embolism in infective endocarditis *(p. 43, L4662)*
+  - 9. Other complications of infective endocarditis *(p. 44, L4774)*
+    - 9.1. Neurological complications *(p. 44, L4774)*
+      - 9.1.1. The role of cerebral imaging in infective endocarditis *(p. 45, L4920)*
+    - 9.2. Infective aneurysms *(p. 45, L4920)*
+    - 9.3. Splenic complications *(p. 45, L4920)*
+    - 9.4. Myocarditis and pericarditis *(p. 46, L5049)*
+    - 9.5. Heart rhythm and conduction disturbances *(p. 46, L5049)*
+    - 9.6. Musculoskeletal manifestations *(p. 46, L5049)*
+      - 9.6.1. Osteoarticular infective endocarditis-related infections *(p. 46, L5049)*
+      - 9.6.2. Rheumatological manifestations *(p. 47, L5168)*
+    - 9.7. Acute renal failure *(p. 47, L5168)*
+  - 10. Surgical therapy: principles and methods *(p. 47, L5168)*
+    - 10.1. Pre-operative and peri-operative management *(p. 47, L5168)*
+      - 10.1.1. Coronary angiography *(p. 47, L5168)*
+      - 10.1.2. Extracardiac infection *(p. 48, L5292)*
+      - 10.1.3. Intra-operative echocardiography *(p. 48, L5292)*
+    - 10.2. Other intra-operative considerations *(p. 48, L5292)*
+    - 10.3. Surgical approach and techniques *(p. 48, L5292)*
+      - 10.3.1. Choice of valve prosthesis *(p. 49, L5421)*
+    - 10.4. Timing of surgery after ischaemic and haemorrhagic stroke *(p. 50, L5475)*
+    - 10.5. Post-operative complications *(p. 50, L5475)*
+    - 10.6. Management of antithrombotic therapy after surgery *(p. 51, L5610)*
+  - 11. Outcome after discharge: follow-up and long-term prognosis *(p. 51, L5610)*
+    - 11.1. Recurrences: relapses and reinfections *(p. 51, L5610)*
+    - 11.2. First year follow-up *(p. 52, L5690)*
+    - 11.3. Long-term prognosis *(p. 52, L5690)*
+  - 12. Management of specific situations *(p. 52, L5690)*
+    - 12.1. Prosthetic valve endocarditis *(p. 52, L5690)*
+      - 12.1.1. Definition and pathophysiology *(p. 53, L5821)*
+      - 12.1.2. Diagnosis *(p. 53, L5821)*
+      - 12.1.3. Prognosis and treatment *(p. 53, L5821)*
+    - 12.2. Endocarditis in the elderly *(p. 53, L5821)*
+    - 12.3. Transcatheter prosthetic valve endocarditis *(p. 54, L5947)*
+      - 12.3.1. Endocarditis following transcatheter aortic valve implantation *(p. 54, L5947)*
+        - 12.3.1.1. Diagnosis *(p. 54, L5947)*
+        - 12.3.1.2. Prognosis and treatment *(p. 54, L5947)*
+      - 12.3.2. Endocarditis following transcatheter pulmonary valve implantation *(p. 54, L5947)*
+        - 12.3.2.1. Diagnosis *(p. 55, L6077)*
+        - 12.3.2.2. Prognosis and treatment *(p. 55, L6077)*
+    - 12.4. Infective endocarditis affecting cardiac implantable electronic devices *(p. 55, L6077)*
+      - 12.4.1. Definitions of cardiac device infections *(p. 55, L6077)*
+      - 12.4.2. Pathophysiology and microbiology *(p. 55, L6077)*
+      - 12.4.3. Risk factors *(p. 55, L6077)*
+      - 12.4.4. Prophylaxis *(p. 55, L6077)*
+      - 12.4.5. Diagnosis *(p. 55, L6077)*
+      - 12.4.6. Antimicrobial therapy *(p. 57, L6249)*
+      - 12.4.7. Device extraction *(p. 57, L6249)*
+      - 12.4.8. Device reimplantation *(p. 57, L6249)*
+    - 12.5. Infective endocarditis in patients admitted to intensive care units *(p. 58, L6377)*
+      - 12.5.1. Causative microorganisms *(p. 58, L6377)*
+      - 12.5.2. Diagnosis *(p. 58, L6377)*
+      - 12.5.3. Management *(p. 58, L6377)*
+    - 12.6. Right-sided infective endocarditis *(p. 58, L6377)*
+      - 12.6.1. Diagnosis and complications *(p. 59, L6509)*
+      - 12.6.2. Endocarditis in people who inject drugs *(p. 59, L6509)*
+      - 12.6.3. Prognosis and treatment *(p. 59, L6509)*
+        - 12.6.3.1. Antimicrobial therapy *(p. 59, L6509)*
+        - 12.6.3.2. Surgery *(p. 59, L6509)*
+    - 12.7. Infective endocarditis in congenital heart disease *(p. 60, L6627)*
+    - 12.8. Infective endocarditis in rheumatic heart disease *(p. 61, L6772)*
+    - 12.9. Infective endocarditis during pregnancy *(p. 61, L6772)*
+    - 12.10. Infective endocarditis in immunocompromised patients *(p. 61, L6772)*
+      - 12.10.1. Solid organ transplant recipients *(p. 61, L6772)*
+      - 12.10.2. Patients with human immunodeficiency virus *(p. 61, L6772)*
+      - 12.10.3. Patients with neutropaenia *(p. 62, L6898)*
+    - 12.11. Antithrombotic and anticoagulant therapy in infective endocarditis *(p. 62, L6898)*
+    - 12.12. Non-bacterial thrombotic endocarditis *(p. 62, L6898)*
+    - 12.13. Infective endocarditis and malignancy *(p. 63, L7023)*
+  - 13. Patient-centred care and shared decision-making in infective endocarditis *(p. 63, L7023)*
+    - 13.1. What is patient-centred care and shared decision-making and why is it important? *(p. 63, L7023)*
+    - 13.2. Patient-centred care and shared decision-making in infective endocarditis *(p. 63, L7023)*
+  - 14. Sex differences *(p. 64, L7142)*
+  - 15. Key messages *(p. 65, L7200)*
+  - 16. Gaps in evidence *(p. 66, L7312)*
+  - 17. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 67, L7426)*
+  - 18. Supplementary data *(p. 73, L8034)*
+  - 19. Data availability *(p. 73, L8034)*
+  - 20. Author information *(p. 73, L8034)*
+  - Appendix *(p. 74, L8149)*
+  - 22. References *(p. 74, L8149)*
+  - 22. References *(p. 74, L8149)*
+
+
+---
+
+### <a name="2023-heart-failure-update"></a>Heart Failure Update
+
+**File:** `2023_Heart_Failure_Update.pdf`
+
+- 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure *(p. 1, L37)*
+  - 1. Preamble *(p. 3, L177)*
+  - 2. Introduction *(p. 5, L406)*
+  - 3. Chronic heart failure *(p. 5, L406)*
+  - 4. Acute heart failure *(p. 8, L733)*
+    - 4.1. Medical therapy *(p. 8, L733)*
+      - 4.1.1. Diuretics *(p. 8, L733)*
+      - 4.1.2. Sodium–glucose co-transporter 2 inhibitors *(p. 8, L733)*
+    - 4.2. Management strategies *(p. 8, L733)*
+      - 4.2.1. Admission phase *(p. 8, L733)*
+      - 4.2.2. Pre-discharge and early post-discharge phases *(p. 8, L733)*
+  - 5. Comorbidities *(p. 9, L852)*
+    - 5.1. Chronic kidney disease and type 2 diabetes mellitus *(p. 9, L852)*
+      - 5.1.1. Sodium–glucose co-transporter 2 inhibitors *(p. 9, L852)*
+      - 5.1.2. Finerenone *(p. 10, L982)*
+    - 5.2. Iron deficiency *(p. 10, L982)*
+  - 6. Data availability statement *(p. 11, L1125)*
+  - 7. Author information *(p. 11, L1125)*
+  - Appendix *(p. 12, L1256)*
+  - 9. References *(p. 12, L1256)*
+
+
+---
+
+## 2022
+
+### <a name="2022-cardio-oncology"></a>Cardio Oncology
+
+**File:** `2022_Cardio_Oncology.pdf`
+
+- 2022 ESC Guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS) *(p. 1, L135)*
+  - Abbreviations and acronyms *(p. 6, L585)*
+  - 1. Preamble *(p. 8, L944)*
+  - 2. Introduction *(p. 10, L1160)*
+    - 2.1. Cancer and cardiovascular needs of patients with cancer *(p. 10, L1160)*
+    - 2.2. Role of cardio-oncology services *(p. 10, L1160)*
+    - 2.3. General principles of cardio-oncology *(p. 11, L1202)*
+  - 3. Cancer therapy-related cardiovascular toxicity definitions *(p. 14, L1324)*
+  - 4. Cardiovascular toxicity risk stratification before anticancer therapy *(p. 16, L1421)*
+    - 4.1. General approach to cardiovascular toxicity risk in patients with cancer *(p. 16, L1421)*
+    - 4.2. History and clinical examination *(p. 21, L1946)*
+    - 4.3. Electrocardiogram *(p. 21, L1946)*
+    - 4.4. Cardiac serum biomarkers *(p. 23, L2074)*
+    - 4.5. Cardiovascular imaging *(p. 24, L2139)*
+    - 4.6. Cardiopulmonary fitness assessment *(p. 25, L2206)*
+    - 4.7. Cardiovascular risk evaluation before cancer surgery *(p. 26, L2273)*
+    - 4.8. Genetic testing *(p. 26, L2273)*
+  - 5. Prevention and monitoring of cardiovascular complications during cancer therapy *(p. 26, L2273)*
+    - 5.1. General principles *(p. 26, L2273)*
+    - 5.2. Primary prevention strategies *(p. 28, L2358)*
+      - 5.2.1. Primary prevention of cancer therapy-related cardiovascular toxicity during anthracycline chemotherapy *(p. 28, L2358)*
+      - 5.2.2. Primary prevention of radiation-induced cardiovascular toxicity *(p. 28, L2358)*
+    - 5.3. Secondary prevention strategies *(p. 29, L2407)*
+    - 5.4. Cardiovascular surveillance during cancer therapies *(p. 29, L2407)*
+      - 5.4.1. Cardiac serum biomarkers *(p. 29, L2407)*
+      - 5.4.2. Cardiac imaging *(p. 29, L2407)*
+    - 5.5. Cancer therapy-related cardiovascular toxicity monitoring protocols *(p. 31, L2524)*
+      - 5.5.1. Anthracycline chemotherapy *(p. 31, L2524)*
+      - 5.5.2. HER2-targeted therapies *(p. 31, L2524)*
+      - 5.5.3. Fluoropyrimidines *(p. 33, L2637)*
+      - 5.5.4. Vascular endothelial growth factor inhibitors *(p. 33, L2637)*
+      - 5.5.5. Multitargeted kinase inhibitors targeting BCR-ABL *(p. 36, L2815)*
+      - 5.5.6. Bruton tyrosine kinase inhibitors *(p. 39, L2988)*
+      - 5.5.7. Multiple myeloma therapies *(p. 40, L3077)*
+      - 5.5.8. Rapidly accelerated fibrosarcoma and mitogen-activated extracellular signal-regulated kinase inhibitor treatment *(p. 43, L3228)*
+      - 5.5.9. Immune checkpoint inhibitors *(p. 45, L3383)*
+      - 5.5.10. Androgen deprivation therapies for prostate cancer *(p. 46, L3431)*
+      - 5.5.11. Endocrine therapies for breast cancer *(p. 48, L3547)*
+      - 5.5.12. Cyclin-dependent kinase 4/6 inhibitors *(p. 48, L3547)*
+      - 5.5.13. Anaplastic lymphoma kinase inhibitors *(p. 49, L3652)*
+      - 5.5.14. Epidermal growth factor receptor inhibitors *(p. 49, L3652)*
+      - 5.5.15. Chimeric antigen receptor T cell and tumour-infiltrating lymphocytes therapies *(p. 50, L3729)*
+      - 5.5.16. Radiotherapy *(p. 51, L3772)*
+      - 5.5.17. Haematopoietic stem cell transplantation *(p. 51, L3772)*
+      - 5.5.18. Other cancer treatments *(p. 54, L3965)*
+  - 6. Diagnosis and management of acute and subacute cardiovascular toxicity in patients receiving anticancer treatment *(p. 54, L3965)*
+    - 6.1. Cancer therapy-related cardiac dysfunction *(p. 54, L3965)*
+      - 6.1.1. Anthracycline chemotherapy-related cardiac dysfunction *(p. 54, L3965)*
+      - 6.1.2. Human epidermal receptor 2-targeted therapy-related cardiac dysfunction *(p. 56, L4076)*
+      - 6.1.3. Immune checkpoint inhibitor-associated myocarditis and non-inflammatory heart failure *(p. 58, L4210)*
+      - 6.1.4. Chimeric antigen receptor T cell and tumour-infiltrating lymphocytes therapies and heart dysfunction *(p. 62, L4455)*
+      - 6.1.5. Heart failure during haematopoietic stem cell transplantation *(p. 63, L4510)*
+      - 6.1.6. Takotsubo syndrome and cancer *(p. 63, L4510)*
+    - 6.2. Coronary artery disease *(p. 63, L4510)*
+      - 6.2.1. Acute coronary syndromes *(p. 63, L4510)*
+      - 6.2.2. Chronic coronary syndromes *(p. 65, L4631)*
+    - 6.3. Valvular heart disease *(p. 65, L4631)*
+    - 6.4. Cardiac arrhythmias *(p. 66, L4708)*
+      - 6.4.1. Atrial fibrillation *(p. 66, L4708)*
+      - 6.4.2. Long corrected QT interval and ventricular arrhythmias *(p. 70, L4941)*
+      - 6.4.3. Bradyarrhythmias *(p. 72, L5139)*
+    - 6.5. Arterial hypertension *(p. 72, L5139)*
+    - 6.6. Thrombosis and thromboembolic events *(p. 75, L5359)*
+      - 6.6.1. Venous thromboembolism *(p. 75, L5359)*
+      - 6.6.2. Arterial thromboembolism *(p. 76, L5409)*
+      - 6.6.3. Intracardiac thrombosis *(p. 76, L5409)*
+      - 6.6.4. Anticoagulation therapy *(p. 77, L5460)*
+        - 6.6.4.1. Treatment and secondary prevention of venous thromboembolism *(p. 77, L5460)*
+        - 6.6.4.2. Primary prevention of venous thromboembolism *(p. 77, L5460)*
+    - 6.7. Bleeding complications *(p. 78, L5533)*
+      - 6.7.1. High-risk patients *(p. 78, L5533)*
+      - 6.7.2. Antiplatelet therapy *(p. 78, L5533)*
+      - 6.7.3. Management of bleeding *(p. 78, L5533)*
+    - 6.8. Peripheral artery disease *(p. 79, L5590)*
+    - 6.9. Pulmonary hypertension *(p. 79, L5590)*
+    - 6.10. Pericardial diseases *(p. 80, L5650)*
+      - 6.10.1. Pericarditis *(p. 80, L5650)*
+      - 6.10.2. Pericardial effusion *(p. 80, L5650)*
+  - 7. End-of-cancer therapy cardiovascular risk assessment *(p. 81, L5705)*
+    - 7.1. Cardiovascular evaluation during the first year after cardiotoxic anticancer therapy *(p. 81, L5705)*
+    - 7.2. Which cancer survivors require cardiovascular surveillance in the first year after cancer treatment? *(p. 81, L5705)*
+    - 7.3. Management of cancer therapy-related cardiac dysfunction at the end-of-therapy assessment *(p. 82, L5775)*
+    - 7.4. Cardiopulmonary exercise testing and fitness during the end-of-therapy assessment *(p. 82, L5775)*
+    - 7.5. The role of cardiac rehabilitation *(p. 82, L5775)*
+  - 8. Long-term follow-up and chronic cardiovascular complications in cancer survivors *(p. 84, L5875)*
+    - 8.1. Cancer survivors *(p. 84, L5875)*
+      - 8.1.1. Adult survivors of childhood and adolescent cancer *(p. 84, L5875)*
+      - 8.1.2. Adult cancer survivors *(p. 85, L5954)*
+    - 8.2. Myocardial dysfunction and heart failure *(p. 87, L6139)*
+    - 8.3. Coronary artery disease *(p. 88, L6192)*
+    - 8.4. Valvular heart disease *(p. 89, L6263)*
+    - 8.5. Peripheral artery disease and stroke *(p. 89, L6263)*
+    - 8.6. Pericardial complications *(p. 89, L6263)*
+    - 8.7. Arrhythmias and autonomic disease *(p. 90, L6338)*
+    - 8.8. Metabolic syndrome, lipid abnormalities, diabetes mellitus, and hypertension *(p. 90, L6338)*
+    - 8.9. Pregnancy in cancer survivors *(p. 90, L6338)*
+    - 8.10. Pulmonary hypertension *(p. 91, L6380)*
+  - 9. Special populations *(p. 91, L6380)*
+    - 9.1. Cardiac tumours *(p. 91, L6380)*
+    - 9.2. Pregnant patients with cancer *(p. 91, L6380)*
+      - 9.2.1. Left ventricular dysfunction and heart failure *(p. 92, L6448)*
+      - 9.2.2. Venous thromboembolism and pulmonary embolism *(p. 92, L6448)*
+    - 9.3. Carcinoid valvular heart disease *(p. 95, L6607)*
+    - 9.4. Amyloid light-chain cardiac amyloidosis *(p. 96, L6686)*
+    - 9.5. Cardiac implantable electronic devices *(p. 98, L6763)*
+  - 10. Patient information, communication, and self-management *(p. 102, L6979)*
+  - 11. The role of scientific societies in the promotion and development of cardio-oncology in modern medicine *(p. 103, L7028)*
+  - 12. Key messages *(p. 103, L7028)*
+  - 13. Future needs *(p. 104, L7070)*
+  - 14. Gaps in evidence *(p. 105, L7125)*
+  - 15. ‘What to do’ and ‘what not to do’ messages from the Guidelines *(p. 105, L7125)*
+  - 16. Quality indicators for cardio-oncology *(p. 114, L7829)*
+  - 17. Supplementary data *(p. 114, L7829)*
+  - 18. Data availability statement *(p. 114, L7829)*
+  - 19. Author information *(p. 114, L7829)*
+  - Appendix *(p. 114, L7829)*
+  - References *(p. 115, L8008)*
+  - References *(p. 115, L8008)*
+
+
+---
+
+### <a name="2022-non-cardiac-surgery"></a>Non Cardiac Surgery
+
+**File:** `2022_Non_Cardiac_Surgery.pdf`
+
+- 2022 ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery *(p. 1, L173)*
+  - Abbreviations and acronyms *(p. 5, L551)*
+  - 1. Preamble *(p. 7, L893)*
+  - 2. Introduction *(p. 9, L1093)*
+    - 2.1. What is new *(p. 9, L1093)*
+    - 2.2. The magnitude of the problem *(p. 14, L1536)*
+    - 2.3. Change in demographics *(p. 15, L1598)*
+    - 2.4. Purpose *(p. 15, L1598)*
+    - 2.5. The outcomes we want to prevent *(p. 16, L1639)*
+  - 3. Clinical risk evaluation *(p. 16, L1639)*
+    - 3.1. Surgery-related risk *(p. 16, L1639)*
+      - 3.1.1. Timing of surgery *(p. 17, L1681)*
+    - 3.2. Type of surgical approach *(p. 17, L1681)*
+      - 3.2.1. Laparoscopy *(p. 17, L1681)*
+        - 3.2.1.1. Vascular and endovascular procedures *(p. 18, L1747)*
+        - 3.2.1.2. Video-assisted non-cardiac surgery *(p. 18, L1747)*
+    - 3.3. Patient-related risk *(p. 18, L1747)*
+      - 3.3.1. Initial assessment *(p. 18, L1747)*
+        - 3.3.1.1. Patients aged <65 years without a history of cardiovascular disease or cardiovascular risk factors *(p. 18, L1747)*
+        - 3.3.1.2. Patients aged ≧65 years or with cardiovascular risk factors *(p. 18, L1747)*
+        - 3.3.1.3. Patients with established cardiovascular disease *(p. 19, L1791)*
+      - 3.3.2. Patients with murmurs, chest pain, dyspnoea, or peripheral oedema *(p. 20, L1879)*
+        - 3.3.2.1. Murmurs *(p. 20, L1879)*
+        - 3.3.2.2. Chest pain *(p. 20, L1879)*
+        - 3.3.2.3. Dyspnoea *(p. 20, L1879)*
+        - 3.3.2.4. Peripheral oedema *(p. 20, L1879)*
+    - 3.4. Timing of adequate risk evaluation *(p. 21, L1957)*
+    - 3.5. Avoidance or allowance for surgery in the individual patient *(p. 21, L1957)*
+    - 3.6. The patient perspective *(p. 21, L1957)*
+  - 4. Pre-operative assessment tools *(p. 22, L2011)*
+    - 4.1. Risk scores *(p. 22, L2011)*
+      - 4.1.1. General risk calculators *(p. 22, L2011)*
+      - 4.1.2. Frailty *(p. 24, L2186)*
+    - 4.2. Functional capacity *(p. 24, L2186)*
+    - 4.3. Electrocardiography *(p. 25, L2235)*
+    - 4.4. Biomarkers *(p. 25, L2235)*
+    - 4.5. Non-invasive and invasive procedures *(p. 26, L2287)*
+      - 4.5.1. Resting transthoracic echocardiography *(p. 26, L2287)*
+      - 4.5.2. Stress tests *(p. 27, L2357)*
+        - 4.5.2.1. Exercise stress test *(p. 27, L2357)*
+        - 4.5.2.2. Stress imaging *(p. 27, L2357)*
+      - 4.5.3. Angiography *(p. 28, L2421)*
+        - 4.5.3.1. Coronary computed tomography angiography *(p. 28, L2421)*
+        - 4.5.3.2. Invasive coronary angiography *(p. 28, L2421)*
+  - 5. General risk-reduction strategies *(p. 29, L2499)*
+    - 5.1. Cardiovascular risk factors and lifestyle interventions *(p. 29, L2499)*
+    - 5.2. Pharmacological *(p. 29, L2499)*
+      - 5.2.1. Beta-blockers *(p. 29, L2499)*
+      - 5.2.2. Amiodarone *(p. 30, L2566)*
+      - 5.2.3. Statins *(p. 30, L2566)*
+      - 5.2.4. Renin–angiotensin–aldosterone system inhibitors *(p. 30, L2566)*
+      - 5.2.5. Calcium channel blockers *(p. 30, L2566)*
+      - 5.2.6. Alpha-2 receptor agonists *(p. 31, L2605)*
+      - 5.2.7. Diuretics *(p. 31, L2605)*
+      - 5.2.8. Ivabradine *(p. 31, L2605)*
+      - 5.2.9. Sodium–glucose co-transporter-2 inhibitors *(p. 31, L2605)*
+    - 5.3. Peri-operative handling of antithrombotic agents *(p. 32, L2674)*
+      - 5.3.1. Antiplatelets *(p. 32, L2674)*
+        - 5.3.1.1. Single antiplatelet therapy *(p. 32, L2674)*
+        - 5.3.1.2. Dual antiplatelet therapy *(p. 35, L3033)*
+        - 5.3.1.3. De-escalation of antiplatelet effect *(p. 37, L3145)*
+        - 5.3.1.4. Platelet function guided peri-operative management of antiplatelet therapy *(p. 37, L3145)*
+      - 5.3.2. Oral anticoagulants *(p. 38, L3222)*
+        - 5.3.2.1. Vitamin K antagonists *(p. 38, L3222)*
+          - 5.3.2.1.1. Vitamin K antagonists in patients with mechanical heart valves *(p. 38, L3222)*
+          - 5.3.2.1.2. Vitamin K antagonists for atrial fibrillation/venous thromboembolism *(p. 39, L3284)*
+          - 5.3.2.1.3. Restarting vitamin K antagonists after invasive procedures or surgery *(p. 39, L3284)*
+          - 5.3.2.1.4. Reversal of vitamin K antagonists *(p. 39, L3284)*
+        - 5.3.2.2. Non-vitamin K antagonist oral anticoagulants *(p. 39, L3284)*
+          - 5.3.2.2.1. Unplanned surgery in patients on non-vitamin K antagonist oral anticoagulants and reversal for emergency procedures *(p. 39, L3284)*
+          - 5.3.2.2.2. Planned interventions in patients on non-vitamin K oral anticoagulants *(p. 41, L3424)*
+          - 5.3.2.2.3. Bridging *(p. 41, L3424)*
+          - 5.3.2.2.4. Laboratory testing before surgery *(p. 41, L3424)*
+          - 5.3.2.2.5. Considerations for specific procedures *(p. 42, L3472)*
+          - 5.3.2.2.6. When to restart non-vitamin K antagonist oral anticoagulants after interventions *(p. 43, L3567)*
+        - 5.3.2.3. Combination therapy (antiplatelet and anticoagulant) *(p. 43, L3567)*
+    - 5.4. Peri-operative thromboprophylaxis *(p. 44, L3651)*
+    - 5.5. Patient blood management *(p. 44, L3651)*
+      - 5.5.1. Pre-operative anaemia—diagnosis and treatment *(p. 45, L3705)*
+      - 5.5.2. Bleeding and reduction of iatrogenic diagnostic/surgery-related blood loss *(p. 45, L3705)*
+      - 5.5.3. Optimal blood component use with patient-centred clinical decision support *(p. 46, L3778)*
+  - 6. Specific diseases *(p. 46, L3778)*
+    - 6.1. Coronary artery disease *(p. 46, L3778)*
+      - 6.1.1. Risk for patients with coronary artery disease *(p. 46, L3778)*
+      - 6.1.2. Pre-operative risk assessment and management *(p. 47, L3853)*
+      - 6.1.3. Revascularization strategies *(p. 47, L3853)*
+        - 6.1.3.1. Chronic coronary syndromes *(p. 47, L3853)*
+        - 6.1.3.2. Acute coronary syndromes *(p. 47, L3853)*
+    - 6.2. Chronic heart failure *(p. 49, L3948)*
+      - 6.2.1. Risk for patients with heart failure *(p. 49, L3948)*
+      - 6.2.2. Pre- and post-operative management strategies *(p. 49, L3948)*
+      - 6.2.3. Hypertrophic obstructive cardiomyopathy *(p. 50, L4019)*
+      - 6.2.4. Patients with ventricular assist devices undergoing non-cardiac surgery *(p. 50, L4019)*
+    - 6.3. Valvular heart disease *(p. 50, L4019)*
+      - 6.3.1. Risk for patients with valvular heart disease *(p. 50, L4019)*
+      - 6.3.2. Pre-operative management strategies and risk-reduction strategy *(p. 51, L4091)*
+        - 6.3.2.1. Aortic valve stenosis *(p. 51, L4091)*
+        - 6.3.2.2. Mitral valve stenosis *(p. 52, L4154)*
+        - 6.3.2.3. Aortic valve regurgitation *(p. 53, L4209)*
+        - 6.3.2.4. Mitral valve regurgitation *(p. 53, L4209)*
+        - 6.3.2.5. Patients with prosthetic valve(s) *(p. 53, L4209)*
+        - 6.3.2.6. Prophylaxis of infective endocarditis *(p. 53, L4209)*
+    - 6.4. Known or newly diagnosed arrhythmias *(p. 54, L4294)*
+      - 6.4.1. Peri-operative management—general measures *(p. 54, L4294)*
+      - 6.4.2. Supraventricular arrhythmias *(p. 54, L4294)*
+      - 6.4.3. Atrial fibrillation/flutter *(p. 54, L4294)*
+      - 6.4.4. Ventricular arrhythmias *(p. 54, L4294)*
+      - 6.4.5. Bradyarrhythmias *(p. 56, L4422)*
+      - 6.4.6. Management of patients with cardiac implantable electronic devices *(p. 56, L4422)*
+    - 6.5. Adult congenital heart disease *(p. 57, L4473)*
+    - 6.6. Pericardial diseases *(p. 58, L4521)*
+    - 6.7. Pulmonary disease and pulmonary arterial hypertension *(p. 59, L4577)*
+      - 6.7.1. Pulmonary disease *(p. 59, L4577)*
+      - 6.7.2. Pulmonary arterial hypertension *(p. 59, L4577)*
+    - 6.8. Arterial hypertension *(p. 60, L4626)*
+    - 6.9. Peripheral artery disease *(p. 61, L4691)*
+      - 6.9.1. Peripheral artery disease and non-vascular non-cardiac surgery *(p. 61, L4691)*
+      - 6.9.2. Peripheral artery disease and vascular non-cardiac surgery *(p. 61, L4691)*
+    - 6.10. Cerebrovascular disease *(p. 62, L4742)*
+    - 6.11. Renal disease *(p. 62, L4742)*
+    - 6.12. Obesity *(p. 63, L4804)*
+    - 6.13. Diabetes *(p. 64, L4866)*
+    - 6.14. Cancer *(p. 64, L4866)*
+    - 6.15. Coronavirus disease 2019 *(p. 64, L4866)*
+  - 7. Peri-operative monitoring and anaesthesia *(p. 65, L4916)*
+    - 7.1. Peri-operative monitoring *(p. 65, L4916)*
+    - 7.2. Anaesthesia *(p. 66, L4974)*
+      - 7.2.1. Intra-operative haemodynamics *(p. 66, L4974)*
+      - 7.2.2. Choice of anaesthetic agent *(p. 67, L5009)*
+    - 7.3. Locoregional techniques *(p. 67, L5009)*
+    - 7.4. Peri-operative goal-directed haemodynamic therapy *(p. 68, L5049)*
+    - 7.5. Post-operative management *(p. 68, L5049)*
+  - 8. Peri-operative cardiovascular complications *(p. 68, L5049)*
+    - 8.1. Peri-operative myocardial infarction/injury *(p. 69, L5112)*
+    - 8.2. Spontaneous myocardial infarction (after day 2) *(p. 72, L5283)*
+    - 8.3. Takotsubo syndrome *(p. 72, L5283)*
+    - 8.4. Acute heart failure *(p. 72, L5283)*
+    - 8.5. Venous thromboembolism *(p. 72, L5283)*
+    - 8.6. Atrial fibrillation and other relevant arrhythmias *(p. 72, L5283)*
+      - 8.6.1. Prevention of post-operative atrial fibrillation *(p. 72, L5283)*
+      - 8.6.2. Management of post-operative atrial fibrillation *(p. 73, L5330)*
+        - 8.6.2.1. Rate and/or rhythm control *(p. 73, L5330)*
+        - 8.6.2.2. Prevention of atrial fibrillation-related thromboembolic complications *(p. 74, L5385)*
+    - 8.7. Peri-operative stroke *(p. 74, L5385)*
+  - 9. Key messages *(p. 75, L5454)*
+  - 10. Gaps in evidence *(p. 75, L5454)*
+  - 11. Sex differences *(p. 76, L5519)*
+  - 12. ‘What to do’ and ‘what not to do’ messages from the Guidelines *(p. 76, L5519)*
+  - 13. Quality indicators *(p. 81, L5900)*
+  - 14. Central illustration *(p. 81, L5900)*
+  - 15. Supplementary data *(p. 82, L5970)*
+  - 16. Data availability statement *(p. 82, L5970)*
+  - 17. Author information *(p. 82, L5970)*
+  - Appendix *(p. 82, L5970)*
+  - References *(p. 83, L6157)*
+  - References *(p. 83, L6157)*
+
+
+---
+
+### <a name="2022-pulmonary-hypertension"></a>Pulmonary Hypertension
+
+**File:** `2022_Pulmonary_Hypertension.pdf`
+
+- 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension *(p. 1, L206)*
+  - Abbreviations and acronyms *(p. 5, L588)*
+  - 1. Preamble *(p. 7, L925)*
+  - 2. Introduction *(p. 8, L1046)*
+    - 2.1. What is new *(p. 8, L1046)*
+    - 2.2. Methods *(p. 18, L1776)*
+  - 3. Definitions and classifications *(p. 19, L1865)*
+    - 3.1. Definitions *(p. 19, L1865)*
+    - 3.2. Classifications *(p. 20, L1913)*
+  - 4. Epidemiology and risk factors *(p. 21, L1982)*
+    - 4.1. Group 1, pulmonary arterial hypertension *(p. 21, L1982)*
+    - 4.2. Group 2, pulmonary hypertension associated with left heart disease *(p. 23, L2162)*
+    - 4.3. Group 3, pulmonary hypertension associated with lung diseases and/or hypoxia *(p. 23, L2162)*
+    - 4.4. Group 4, pulmonary hypertension associated with chronic pulmonary artery obstruction *(p. 23, L2162)*
+    - 4.5. Group 5, pulmonary hypertension with unclear and/or multifactorial mechanisms *(p. 23, L2162)*
+  - 5. Pulmonary hypertension diagnosis *(p. 23, L2162)*
+    - 5.1. Diagnosis *(p. 23, L2162)*
+      - 5.1.1. Clinical presentation *(p. 23, L2162)*
+      - 5.1.2. Electrocardiogram *(p. 23, L2162)*
+      - 5.1.3. Chest radiography *(p. 24, L2229)*
+      - 5.1.4. Pulmonary function tests and arterial blood gases *(p. 24, L2229)*
+      - 5.1.5. Echocardiography *(p. 25, L2277)*
+      - 5.1.6. Ventilation/perfusion lung scan *(p. 26, L2338)*
+      - 5.1.7. Non-contrast and contrast-enhanced chest computed tomography examinations, and digital subtraction angiography *(p. 27, L2419)*
+      - 5.1.8. Cardiac magnetic resonance imaging *(p. 28, L2532)*
+      - 5.1.9. Blood tests and immunology *(p. 29, L2623)*
+      - 5.1.10. Abdominal ultrasound *(p. 29, L2623)*
+      - 5.1.11. Cardiopulmonary exercise testing *(p. 29, L2623)*
+      - 5.1.12. Right heart catheterization, vasoreactivity, exercise, and fluid challenge *(p. 29, L2623)*
+        - 5.1.12.1. Right heart catheterization *(p. 29, L2623)*
+        - 5.1.12.2. Vasoreactivity testing *(p. 30, L2698)*
+        - 5.1.12.3. Exercise right heart catheterization *(p. 30, L2698)*
+        - 5.1.12.4. Fluid challenge *(p. 30, L2698)*
+      - 5.1.13. Genetic counselling and testing *(p. 31, L2764)*
+    - 5.2. Diagnostic algorithm *(p. 31, L2764)*
+      - 5.2.1 Step 1 (suspicion) *(p. 31, L2764)*
+      - 5.2.2. Step 2 (detection) *(p. 31, L2764)*
+      - 5.2.3. Step 3 (confirmation) *(p. 33, L2962)*
+    - 5.3. Screening and early detection *(p. 35, L3173)*
+      - 5.3.1. Systemic sclerosis *(p. 36, L3261)*
+      - 5.3.2. BMPR2 mutation carriers *(p. 36, L3261)*
+      - 5.3.3. Portal hypertension *(p. 36, L3261)*
+      - 5.3.4. Pulmonary embolism *(p. 36, L3261)*
+  - 6. Pulmonary arterial hypertension (group 1) *(p. 38, L3414)*
+    - 6.1. Clinical characteristics *(p. 38, L3414)*
+    - 6.2. Severity and risk assessment *(p. 38, L3414)*
+      - 6.2.1. Clinical parameters *(p. 38, L3414)*
+      - 6.2.2. Imaging *(p. 39, L3476)*
+        - 6.2.2.1. Echocardiography *(p. 39, L3476)*
+        - 6.2.2.2. Cardiac magnetic resonance imaging *(p. 39, L3476)*
+      - 6.2.3. Haemodynamics *(p. 39, L3476)*
+      - 6.2.4. Exercise capacity *(p. 40, L3523)*
+      - 6.2.5. Biochemical markers *(p. 41, L3635)*
+      - 6.2.6. Patient-reported outcome measures *(p. 41, L3635)*
+      - 6.2.7. Comprehensive prognostic evaluation, risk assessment, and treatment goals *(p. 42, L3701)*
+    - 6.3. Therapy *(p. 43, L3778)*
+      - 6.3.1. General measures *(p. 43, L3778)*
+        - 6.3.1.1. Physical activity and supervised rehabilitation *(p. 43, L3778)*
+        - 6.3.1.2. Anticoagulation *(p. 43, L3778)*
+        - 6.3.1.3. Diuretics *(p. 44, L3844)*
+        - 6.3.1.4. Oxygen *(p. 44, L3844)*
+        - 6.3.1.5. Cardiovascular drugs *(p. 44, L3844)*
+        - 6.3.1.6. Anaemia and iron status *(p. 44, L3844)*
+        - 6.3.1.7. Vaccination *(p. 44, L3844)*
+        - 6.3.1.8. Psychosocial support *(p. 44, L3844)*
+        - 6.3.1.9. Adherence to treatments *(p. 44, L3844)*
+      - 6.3.2. Special circumstances *(p. 45, L3885)*
+        - 6.3.2.1. Pregnancy and birth control *(p. 45, L3885)*
+          - 6.3.2.1.1. Pregnancy *(p. 45, L3885)*
+          - 6.3.2.1.2. Contraception *(p. 45, L3885)*
+        - 6.3.2.2. Surgical procedures *(p. 45, L3885)*
+        - 6.3.2.3. Travel and altitude *(p. 45, L3885)*
+      - 6.3.3. Pulmonary arterial hypertension therapies *(p. 46, L3931)*
+        - 6.3.3.1. Calcium channel blockers *(p. 46, L3931)*
+        - 6.3.3.2. Endothelin receptor antagonists *(p. 47, L4019)*
+          - 6.3.3.2.1. Ambrisentan *(p. 48, L4149)*
+          - 6.3.3.2.2. Bosentan *(p. 48, L4149)*
+          - 6.3.3.2.3. Macitentan *(p. 49, L4192)*
+        - 6.3.3.3. Phosphodiesterase 5 inhibitors and guanylate cyclase stimulators *(p. 49, L4192)*
+          - 6.3.3.3.1. Sildenafil *(p. 50, L4261)*
+          - 6.3.3.3.2. Tadalafil *(p. 50, L4261)*
+          - 6.3.3.3.3. Riociguat *(p. 50, L4261)*
+        - 6.3.3.4. Prostacyclin analogues and prostacyclin receptor agonists *(p. 50, L4261)*
+          - 6.3.3.4.1. Epoprostenol *(p. 50, L4261)*
+          - 6.3.3.4.2. Iloprost *(p. 50, L4261)*
+          - 6.3.3.4.3. Treprostinil *(p. 50, L4261)*
+          - 6.3.3.4.4. Beraprost *(p. 50, L4261)*
+          - 6.3.3.4.5. Selexipag *(p. 50, L4261)*
+      - 6.3.4. Treatment strategies for patients with idiopathic, heritable, drug-associated, or connective tissue disease-associated pulmonary arterial hypertension *(p. 50, L4261)*
+        - 6.3.4.1. Initial treatment decision in patients without cardiopulmonary comorbidities *(p. 51, L4314)*
+        - 6.3.4.2. Treatment decisions during follow-up in patients without cardiopulmonary comorbidities *(p. 52, L4367)*
+        - 6.3.4.3. Pulmonary arterial hypertension with cardiopulmonary comorbidities *(p. 53, L4444)*
+      - 6.3.5. Drug interactions *(p. 54, L4532)*
+      - 6.3.6. Interventional therapy *(p. 54, L4532)*
+        - 6.3.6.1. Balloon atrial septostomy and Potts shunt *(p. 54, L4532)*
+        - 6.3.6.2. Pulmonary artery denervation *(p. 54, L4532)*
+      - 6.3.7. Advanced right ventricular failure *(p. 55, L4593)*
+        - 6.3.7.1. Intensive care unit management *(p. 55, L4593)*
+        - 6.3.7.2. Mechanical circulatory support *(p. 55, L4593)*
+      - 6.3.8. Lung and heart–lung transplantation *(p. 55, L4593)*
+      - 6.3.9. Evidence-based treatment algorithm *(p. 56, L4657)*
+      - 6.3.10. Diagnosis and treatment of pulmonary arterial hypertension complications *(p. 56, L4657)*
+        - 6.3.10.1. Arrhythmias *(p. 56, L4657)*
+        - 6.3.10.2. Haemoptysis *(p. 56, L4657)*
+        - 6.3.10.3. Mechanical complications *(p. 56, L4657)*
+      - 6.3.11. End-of-life care and ethical issues *(p. 57, L4710)*
+      - 6.3.12. New drugs in advanced clinical development (phase 3 studies) *(p. 57, L4710)*
+  - 7. Specific pulmonary arterial hypertension subsets *(p. 57, L4710)*
+    - 7.1. Pulmonary arterial hypertension associated with drugs and toxins *(p. 57, L4710)*
+    - 7.2. Pulmonary arterial hypertension associated with connective tissue disease *(p. 58, L4758)*
+      - 7.2.1. Epidemiology and diagnosis *(p. 58, L4758)*
+      - 7.2.2. Therapy *(p. 58, L4758)*
+    - 7.3. Pulmonary arterial hypertension associated with human immunodeficiency virus infection *(p. 59, L4823)*
+      - 7.3.1. Diagnosis *(p. 59, L4823)*
+      - 7.3.2. Therapy *(p. 59, L4823)*
+    - 7.4. Pulmonary arterial hypertension associated with portal hypertension *(p. 60, L4888)*
+      - 7.4.1. Diagnosis *(p. 60, L4888)*
+      - 7.4.2. Therapy *(p. 60, L4888)*
+        - 7.4.2.1. Liver transplantation *(p. 60, L4888)*
+    - 7.5. Pulmonary arterial hypertension associated with adult congenital heart disease *(p. 61, L4952)*
+      - 7.5.1. Diagnosis and risk assessment *(p. 61, L4952)*
+      - 7.5.2. Therapy *(p. 62, L5004)*
+    - 7.6. Pulmonary arterial hypertension associated with schistosomiasis *(p. 63, L5058)*
+    - 7.7. Pulmonary arterial hypertension with signs of venous/capillary involvement *(p. 63, L5058)*
+      - 7.7.1. Diagnosis *(p. 64, L5156)*
+      - 7.7.2. Therapy *(p. 64, L5156)*
+    - 7.8. Paediatric pulmonary hypertension *(p. 64, L5156)*
+      - 7.8.1. Epidemiology and classification *(p. 64, L5156)*
+      - 7.8.2. Diagnosis and risk assessment *(p. 66, L5322)*
+      - 7.8.3. Therapy *(p. 66, L5322)*
+  - 8. Pulmonary hypertension associated with left heart disease (group 2) *(p. 68, L5456)*
+    - 8.1. Definition, prognosis, and pathophysiology *(p. 68, L5456)*
+    - 8.2. Diagnosis *(p. 70, L5591)*
+      - 8.2.1. Diagnosis and control of the underlying left heart disease *(p. 70, L5591)*
+      - 8.2.2. Evaluation of pulmonary hypertension and patient phenotyping *(p. 70, L5591)*
+      - 8.2.3. Invasive assessment of haemodynamics *(p. 70, L5591)*
+    - 8.3. Therapy *(p. 71, L5645)*
+      - 8.3.1. Pulmonary hypertension associated with left-sided heart failure *(p. 71, L5645)*
+        - 8.3.1.1. Heart failure with reduced ejection fraction *(p. 71, L5645)*
+        - 8.3.1.2. Heart failure with preserved ejection fraction *(p. 71, L5645)*
+        - 8.3.1.3. Interatrial shunt devices *(p. 72, L5735)*
+        - 8.3.1.4. Remote pulmonary arterial pressure monitoring in heart failure *(p. 72, L5735)*
+      - 8.3.2. Pulmonary hypertension associated with valvular heart disease *(p. 72, L5735)*
+        - 8.3.2.1. Mitral valve disease *(p. 72, L5735)*
+        - 8.3.2.2. Aortic stenosis *(p. 72, L5735)*
+        - 8.3.2.3. Tricuspid regurgitation *(p. 72, L5735)*
+      - 8.3.3. Recommendations on the use of drugs approved for PAH in PH-LHD *(p. 72, L5735)*
+  - 9. Pulmonary hypertension associated with lung diseases and/or hypoxia (group 3) *(p. 73, L5787)*
+    - 9.1. Diagnosis *(p. 75, L5907)*
+    - 9.2. Therapy *(p. 75, L5907)*
+      - 9.2.1. Pulmonary hypertension associated with chronic obstructive pulmonary disease or emphysema *(p. 75, L5907)*
+      - 9.2.2. Pulmonary hypertension associated with interstitial lung disease *(p. 75, L5907)*
+      - 9.2.3. Recommendations on the use of drugs approved for PAH in PH associated with lung disease *(p. 76, L5945)*
+  - 10. Chronic thrombo-embolic pulmonary hypertension (group 4) *(p. 76, L5945)*
+    - 10.1. Diagnosis *(p. 77, L6025)*
+    - 10.2. Therapy *(p. 78, L6085)*
+      - 10.2.1. Surgical treatment *(p. 78, L6085)*
+      - 10.2.2. Medical therapy *(p. 78, L6085)*
+      - 10.2.3. Interventional treatment *(p. 79, L6138)*
+      - 10.2.4. Multimodal treatment *(p. 80, L6190)*
+      - 10.2.5. Follow-up *(p. 81, L6226)*
+    - 10.3. Chronic thrombo-embolic pulmonary hypertension team and experience criteria *(p. 81, L6226)*
+  - 11. Pulmonary hypertension with unclear and/or multifactorial mechanisms (group 5) *(p. 82, L6302)*
+    - 11.1. Haematological disorders *(p. 82, L6302)*
+    - 11.2. Systemic disorders *(p. 83, L6375)*
+    - 11.3. Metabolic disorders *(p. 83, L6375)*
+    - 11.4. Chronic kidney failure *(p. 83, L6375)*
+    - 11.5. Pulmonary tumour thrombotic microangiopathy *(p. 83, L6375)*
+    - 11.6. Fibrosing mediastinitis *(p. 83, L6375)*
+  - 12. Definition of a pulmonary hypertension centre *(p. 84, L6426)*
+    - 12.1. Facilities and skills required for a pulmonary hypertension centre *(p. 85, L6495)*
+    - 12.2. European Reference Network *(p. 85, L6495)*
+    - 12.3. Patient associations and patient empowerment *(p. 85, L6495)*
+  - 13. Key messages *(p. 86, L6567)*
+  - 14. Gaps in evidence *(p. 86, L6567)*
+    - 14.1. Pulmonary arterial hypertension (group 1) *(p. 86, L6567)*
+    - 14.2. Pulmonary hypertension associated with left heart disease (group 2) *(p. 86, L6567)*
+    - 14.3. Pulmonary hypertension associated with lung diseases and/or hypoxia (group 3) *(p. 87, L6624)*
+    - 14.4. Chronic thrombo-embolic pulmonary hypertension (group 4) *(p. 87, L6624)*
+    - 14.5. Pulmonary hypertension with unclear and/or multifactorial mechanisms (group 5) *(p. 87, L6624)*
+  - 15. ‘What to do’ and ‘What not to do’ messages from the Guidelines *(p. 87, L6624)*
+  - 16. Quality indicators *(p. 93, L7104)*
+  - 17. Supplementary data *(p. 94, L7172)*
+  - 18. Data availability statement *(p. 94, L7172)*
+  - 19. Author information *(p. 94, L7172)*
+  - 20. Appendix *(p. 94, L7172)*
+    - ESC/ERS Scientific Document Group *(p. 94, L7172)*
+  - 21. References *(p. 95, L7369)*
+  - 21. References *(p. 95, L7369)*
+
+
+---
+
+### <a name="2022-ventricular-arrhythmias-scd"></a>Ventricular Arrhythmias SCD
+
+**File:** `2022_Ventricular_Arrhythmias_SCD.pdf`
+
+- 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death *(p. 1, L150)*
+  - Abbreviations and acronyms *(p. 6, L596)*
+  - 1. Preamble *(p. 7, L779)*
+  - 2. Introduction *(p. 9, L909)*
+    - 2.1. What is new *(p. 9, L909)*
+  - 3. Definitions *(p. 15, L1524)*
+    - 3.1. Ventricular arrhythmia subtypes *(p. 15, L1524)*
+    - 3.2. Sudden cardiac death *(p. 15, L1524)*
+    - 3.3. Syncope *(p. 15, L1524)*
+    - 3.4. Specialized centres *(p. 15, L1524)*
+    - 3.5. Genetics *(p. 15, L1524)*
+  - 4. Epidemiology of sudden cardiac death, public awareness, and risk stratification *(p. 15, L1524)*
+    - 4.1. Incidence of sudden cardiac death *(p. 15, L1524)*
+    - 4.2. Causes of sudden cardiac death in different age groups *(p. 16, L1588)*
+    - 4.3. Population vs. individual risk prediction *(p. 16, L1588)*
+    - 4.4. Risk calculators for sudden cardiac death and review of the methodology *(p. 16, L1588)*
+    - 4.5. Awareness and intervention: public basic life support, and access to automated external defibrillators *(p. 16, L1588)*
+  - 5. Evaluation and treatment. General aspects *(p. 18, L1702)*
+    - 5.1. Diagnostic tools *(p. 18, L1702)*
+      - 5.1.1. History and physical examination *(p. 18, L1702)*
+      - 5.1.2. Laboratory testing *(p. 18, L1702)*
+      - 5.1.3. Non-invasive and invasive tests *(p. 18, L1702)*
+        - 5.1.3.1. Electrocardiogram and ambulatory electrocardiographic monitoring2 *(p. 18, L1702)*
+        - 5.1.3.2. Signal-averaged electrocardiogram *(p. 18, L1702)*
+        - 5.1.3.3. Exercise testing *(p. 18, L1702)*
+        - 5.1.3.4. Imaging *(p. 18, L1702)*
+        - 5.1.3.5. Provocative diagnostic tests *(p. 19, L1765)*
+        - 5.1.3.6. Electrophysiological study *(p. 19, L1765)*
+      - 5.1.4. Genetic testing *(p. 19, L1765)*
+    - 5.2. Diagnostic evaluation at first presentation with ventricular arrhythmia in patients without known cardiac disease *(p. 22, L2002)*
+      - 5.2.1. Scenario 1: Incidental finding of a non-sustained ventricular tachycardia *(p. 22, L2002)*
+      - 5.2.2. Scenario 2: First presentation of sustained monomorphic ventricular tachycardia *(p. 22, L2002)*
+      - 5.2.3. Scenario 3: Sudden cardiac arrest survivor *(p. 24, L2166)*
+      - 5.2.4. Scenario 4: Sudden death victim *(p. 27, L2327)*
+      - 5.2.5. Scenario 5: Relatives of sudden arrhythmic death syndrome decedents *(p. 28, L2420)*
+  - 6. Therapies for ventricular arrhythmias. General aspects *(p. 31, L2578)*
+    - 6.1. Acute management *(p. 31, L2578)*
+      - 6.1.1. Treatment of reversible causes *(p. 31, L2578)*
+      - 6.1.2. Acute management of sustained monomorphic ventricular tachycardia *(p. 33, L2705)*
+      - 6.1.3. Management of electrical storm and incessant ventricular tachycardia *(p. 34, L2783)*
+    - 6.2. Long-term management *(p. 38, L3008)*
+      - 6.2.1. Pharmacotherapy *(p. 38, L3008)*
+      - 6.2.2. Device therapy *(p. 42, L3511)*
+        - 6.2.2.1. Implantable cardioverter defibrillator *(p. 42, L3511)*
+        - 6.2.2.2. Adding cardiac resynchronization therapy2 *(p. 44, L3636)*
+        - 6.2.2.3. Wearable cardioverter defibrillator *(p. 44, L3636)*
+      - 6.2.3. Special aspects of device therapy *(p. 45, L3723)*
+        - 6.2.3.1. Optimization of device programming *(p. 45, L3723)*
+        - 6.2.3.2. Concomitant treatment to avoid inappropriate implantable cardioverter defibrillator therapy *(p. 45, L3723)*
+        - 6.2.3.3. Psychosocial impact of implantable cardioverter defibrillator treatment *(p. 46, L3814)*
+        - 6.2.3.4. Patients with left ventricular assist devices *(p. 46, L3814)*
+        - 6.2.3.5. Complications of devices *(p. 46, L3814)*
+        - 6.2.3.6. End-of-life issues *(p. 47, L3889)*
+      - 6.2.4. Interventional therapy *(p. 47, L3889)*
+        - 6.2.4.1. Catheter ablation *(p. 47, L3889)*
+          - 6.2.4.1.1. Patients with structural heart disease *(p. 47, L3889)*
+          - 6.2.4.1.2. Patients without apparent structural heart disease *(p. 48, L3955)*
+        - 6.2.4.2. Autonomic modulation *(p. 48, L3955)*
+  - 7. Diagnostic evaluation, management, and risk stratification according to clinical presentation and known (likely) disease *(p. 48, L3955)*
+    - 7.1. Specific structural heart diseases *(p. 48, L3955)*
+      - 7.1.1. Coronary artery disease *(p. 48, L3955)*
+        - 7.1.1.1. Acute coronary syndromes and vasospasm *(p. 48, L3955)*
+          - 7.1.1.1.1. Acute coronary syndromes *(p. 48, L3955)*
+          - 7.1.1.1.2. Vasospasm *(p. 49, L4002)*
+        - 7.1.1.2. Early after myocardial infarction *(p. 50, L4044)*
+        - 7.1.1.3. Chronic coronary artery disease *(p. 50, L4044)*
+          - 7.1.1.3.1. Primary prevention of sudden cardiac death in patients with reduced ejection fraction *(p. 50, L4044)*
+          - 7.1.1.3.2. Primary prevention of sudden cardiac death in patients with preserved or mildly reduced ejection fraction *(p. 51, L4120)*
+          - 7.1.1.3.3. Secondary prevention of sudden cardiac death *(p. 51, L4120)*
+          - 7.1.1.3.4. Management of patients with haemodynamically tolerated ventricular tachycardia and preserved and mildly reduced ejection fraction *(p. 52, L4214)*
+          - 7.1.1.3.5. Management of recurrent ventricular tachycardia in implantable cardioverter defibrillator carriers *(p. 53, L4274)*
+        - 7.1.1.4. Coronary anomalies *(p. 53, L4274)*
+      - 7.1.2. Idiopathic premature ventricular complexes/ventricular tachycardia and premature ventricular complex-induced cardiomyopathy *(p. 54, L4330)*
+        - 7.1.2.1. Idiopathic premature ventricular complexes/ventricular tachycardia *(p. 54, L4330)*
+        - 7.1.2.2. Premature ventricular complex-induced/-aggravated cardiomyopathy *(p. 56, L4503)*
+      - 7.1.3. Cardiomyopathies *(p. 58, L4651)*
+        - 7.1.3.1. Dilated cardiomyopathy and hypokinetic non-dilated cardiomyopathy *(p. 58, L4651)*
+          - 7.1.3.1.1. Diagnostic evaluation and risk stratification *(p. 58, L4651)*
+          - 7.1.3.1.2. Primary prevention of sudden cardiac death *(p. 59, L4717)*
+          - 7.1.3.1.3. Secondary prevention of sudden cardiac death and management of ventricular arrhythmias *(p. 61, L4840)*
+        - 7.1.3.2. Arrhythmogenic right ventricular cardiomyopathy *(p. 62, L4918)*
+          - 7.1.3.2.1. Risk stratification *(p. 62, L4918)*
+          - 7.1.3.2.2. Treatment *(p. 64, L5039)*
+        - 7.1.3.3. Hypertrophic cardiomyopathy *(p. 64, L5039)*
+          - 7.1.3.3.1. Risk stratification and primary prevention of sudden cardiac death *(p. 65, L5142)*
+          - 7.1.3.3.2. Treatment to prevent ventricular arrhythmia recurrence *(p. 66, L5185)*
+        - 7.1.3.4. Left ventricular non-compaction *(p. 67, L5270)*
+        - 7.1.3.5. Restrictive cardiomyopathy *(p. 67, L5270)*
+        - 7.1.3.6. Neuromuscular disorders *(p. 67, L5270)*
+      - 7.1.4. Inflammatory cardiac diseases *(p. 70, L5533)*
+        - 7.1.4.1. Myocarditis *(p. 70, L5533)*
+        - 7.1.4.2. Cardiac sarcoidosis *(p. 71, L5599)*
+        - 7.1.4.3. Chagas’ cardiomyopathy *(p. 72, L5667)*
+      - 7.1.5. Valvular heart disease *(p. 74, L5787)*
+      - 7.1.6. Congenital heart disease *(p. 75, L5851)*
+    - 7.2. Primary electrical disease *(p. 77, L5995)*
+      - 7.2.1. Idiopathic ventricular fibrillation *(p. 77, L5995)*
+      - 7.2.2. Long QT syndrome (including acquired long QT syndrome) *(p. 78, L6095)*
+      - 7.2.3. Andersen–Tawil syndrome Type 1 *(p. 83, L6396)*
+      - 7.2.4. Brugada syndrome *(p. 83, L6396)*
+      - 7.2.5. Early repolarization syndromes *(p. 85, L6522)*
+      - 7.2.6. Catecholaminergic polymorphic ventricular tachycardia *(p. 88, L6780)*
+      - 7.2.7. Short QT syndrome *(p. 90, L6919)*
+  - 8. Special aspects in selected populations *(p. 92, L7057)*
+    - 8.1. Pregnant patients and peri-partum cardiomyopathy *(p. 92, L7057)*
+      - 8.1.1. Electrocardioversion and implantable cardioverter defibrillator therapy in pregnancy *(p. 92, L7057)*
+      - 8.1.2. Pharmacological treatment *(p. 92, L7057)*
+      - 8.1.3. Catheter ablation *(p. 92, L7057)*
+    - 8.2. Heart transplantation *(p. 93, L7132)*
+    - 8.3. Sudden cardiac death in athletes *(p. 93, L7132)*
+    - 8.4. Wolff–Parkinson–White syndrome *(p. 94, L7212)*
+    - 8.5. Prevention of sudden cardiac death in the elderly *(p. 94, L7212)*
+  - 9. Key messages *(p. 94, L7212)*
+    - 9.1. General aspects *(p. 94, L7212)*
+    - 9.2. Structural heart disease *(p. 94, L7212)*
+    - 9.3. Primary electrical disease *(p. 95, L7267)*
+  - 10. Gaps in evidence *(p. 95, L7267)*
+    - 10.1. General aspects *(p. 95, L7267)*
+    - 10.2. Structural heart disease—general *(p. 95, L7267)*
+    - 10.3. Idiopathic premature ventricular complexes/ventricular tachycardia *(p. 95, L7267)*
+    - 10.4. Coronary artery disease *(p. 95, L7267)*
+    - 10.5. Cardiomyopathies *(p. 95, L7267)*
+    - 10.6. Valvular heart disease *(p. 95, L7267)*
+    - 10.7. Congenital heart disease *(p. 95, L7267)*
+    - 10.8. Primary electrical disease *(p. 95, L7267)*
+  - 11. ‘What to do’ and ‘what not to do’ messages from the Guidelines *(p. 96, L7329)*
+  - 12. Quality indicators *(p. 103, L7912)*
+  - 13. Supplementary data *(p. 103, L7912)*
+  - 14. Data availability statement *(p. 103, L7912)*
+  - 15. Author information *(p. 103, L7912)*
+  - Appendix *(p. 104, L7993)*
+  - References *(p. 105, L8174)*
+  - References *(p. 105, L8174)*
+
+
+---
+
+## 2021
+
+### <a name="2021-cvd-prevention"></a>CVD Prevention
+
+**File:** `2021_CVD_Prevention.pdf`
+
+- S5 *(p. 7, L943)*
+- S6 *(p. 8, L1021)*
+- S7 *(p. 9, L1067)*
+- S8 *(p. 10, L1121)*
+- S9 *(p. 10, L1121)*
+- S10 *(p. 10, L1121)*
+- S11 *(p. 10, L1121)*
+- S12 *(p. 10, L1121)*
+- S13 *(p. 10, L1121)*
+- S14 *(p. 10, L1121)*
+- tblfn1 *(p. 14, L1382)*
+- tblfn3a *(p. 15, L1446)*
+- S15 *(p. 16, L1507)*
+- S16 *(p. 16, L1507)*
+- S17 *(p. 16, L1507)*
+- tblfn3 *(p. 16, L1507)*
+- tblfn4 *(p. 16, L1507)*
+- tblfn5 *(p. 16, L1507)*
+- S18 *(p. 17, L1570)*
+- S19 *(p. 17, L1570)*
+- S20 *(p. 17, L1570)*
+- S21 *(p. 17, L1570)*
+- S22 *(p. 17, L1570)*
+- tblfn6 *(p. 18, L1620)*
+- S23 *(p. 19, L1732)*
+- S24 *(p. 24, L3673)*
+- tblfn8 *(p. 25, L3714)*
+- tblfn9 *(p. 25, L3714)*
+- tblfn10 *(p. 25, L3714)*
+- S25 *(p. 27, L3879)*
+- S26 *(p. 27, L3879)*
+- S27 *(p. 28, L3933)*
+- S28 *(p. 28, L3933)*
+- S29 *(p. 30, L4053)*
+- tblfn11 *(p. 30, L4053)*
+- tblfn12 *(p. 30, L4053)*
+- tblfn13 *(p. 30, L4053)*
+- S30 *(p. 31, L4128)*
+- S31 *(p. 31, L4128)*
+- tblfn14 *(p. 31, L4128)*
+- tblfn15 *(p. 31, L4128)*
+- tblfn16 *(p. 31, L4128)*
+- tblfn17 *(p. 31, L4128)*
+- tblfn18 *(p. 31, L4128)*
+- tblfn19 *(p. 31, L4128)*
+- S32 *(p. 32, L4195)*
+- S33 *(p. 32, L4195)*
+- S34 *(p. 32, L4195)*
+- S35 *(p. 33, L4242)*
+- S36 *(p. 33, L4242)*
+- S37 *(p. 33, L4242)*
+- S38 *(p. 33, L4242)*
+- S39 *(p. 33, L4242)*
+- S40 *(p. 33, L4242)*
+- S41 *(p. 33, L4242)*
+- S43 *(p. 33, L4242)*
+- S44 *(p. 34, L4294)*
+- S45 *(p. 34, L4294)*
+- S46 *(p. 34, L4294)*
+- S47 *(p. 34, L4294)*
+- S48 *(p. 34, L4294)*
+- tblfn20 *(p. 34, L4294)*
+- tblfn21 *(p. 34, L4294)*
+- tblfn22 *(p. 34, L4294)*
+- S49 *(p. 35, L4345)*
+- S50 *(p. 35, L4345)*
+- tblfn23 *(p. 35, L4345)*
+- tblfn24 *(p. 35, L4345)*
+- tblfn25 *(p. 35, L4345)*
+- S51 *(p. 36, L4447)*
+- S52 *(p. 36, L4447)*
+- S53 *(p. 36, L4447)*
+- S54 *(p. 36, L4447)*
+- S55 *(p. 36, L4447)*
+- S57 *(p. 38, L4570)*
+- S58 *(p. 38, L4570)*
+- S59 *(p. 38, L4570)*
+- S60 *(p. 39, L4611)*
+- S61 *(p. 39, L4611)*
+- S62 *(p. 39, L4611)*
+- S64 *(p. 39, L4611)*
+- S65 *(p. 40, L4655)*
+- S66 *(p. 40, L4655)*
+- S67 *(p. 40, L4655)*
+- S68 *(p. 40, L4655)*
+- S69 *(p. 40, L4655)*
+- S70 *(p. 40, L4655)*
+- S71 *(p. 40, L4655)*
+- tblfn26 *(p. 41, L4706)*
+- tblfn27 *(p. 41, L4706)*
+- tblfn28 *(p. 41, L4706)*
+- S72 *(p. 42, L4801)*
+- S73 *(p. 42, L4801)*
+- S74 *(p. 42, L4801)*
+- S75 *(p. 42, L4801)*
+- S76 *(p. 42, L4801)*
+- S78 *(p. 42, L4801)*
+- tblfn29 *(p. 42, L4801)*
+- tblfn30 *(p. 42, L4801)*
+- tblfn31 *(p. 42, L4801)*
+- S79 *(p. 43, L4857)*
+- S80 *(p. 43, L4857)*
+- S81 *(p. 43, L4857)*
+- S82 *(p. 43, L4857)*
+- S83 *(p. 43, L4857)*
+- tblfn32 *(p. 43, L4857)*
+- tblfn33 *(p. 43, L4857)*
+- S84 *(p. 44, L4943)*
+- S85 *(p. 44, L4943)*
+- S86 *(p. 44, L4943)*
+- S87 *(p. 44, L4943)*
+- S88 *(p. 44, L4943)*
+- tblfn34 *(p. 44, L4943)*
+- tblfn35 *(p. 44, L4943)*
+- tblfn36 *(p. 44, L4943)*
+- tblfn78 *(p. 44, L4943)*
+- S89 *(p. 45, L5021)*
+- S90 *(p. 45, L5021)*
+- S91 *(p. 45, L5021)*
+- S92 *(p. 45, L5021)*
+- S93 *(p. 46, L5070)*
+- S94 *(p. 46, L5070)*
+- S95 *(p. 46, L5070)*
+- S96 *(p. 46, L5070)*
+- S97 *(p. 46, L5070)*
+- S98 *(p. 46, L5070)*
+- S99 *(p. 46, L5070)*
+- tblfn79 *(p. 46, L5070)*
+- tblfn80 *(p. 46, L5070)*
+- tblfn81 *(p. 46, L5070)*
+- S101 *(p. 47, L5132)*
+- S102 *(p. 47, L5132)*
+- tblfn82 *(p. 47, L5132)*
+- tblfn83 *(p. 47, L5132)*
+- tblfn84 *(p. 47, L5132)*
+- tblfn85 *(p. 47, L5132)*
+- tblfn128 *(p. 47, L5132)*
+- tblfn129 *(p. 47, L5132)*
+- tblfn130 *(p. 47, L5132)*
+- S103 *(p. 49, L5657)*
+- S104 *(p. 49, L5657)*
+- S105 *(p. 49, L5657)*
+- S106 *(p. 49, L5657)*
+- S107 *(p. 49, L5657)*
+- tblfn39 *(p. 49, L5657)*
+- tblfn38 *(p. 49, L5657)*
+- S108 *(p. 50, L5718)*
+- S109 *(p. 50, L5718)*
+- S110 *(p. 50, L5718)*
+- S111 *(p. 50, L5718)*
+- S112 *(p. 50, L5718)*
+- S113 *(p. 50, L5718)*
+- S114 *(p. 50, L5718)*
+- tblfn40 *(p. 50, L5718)*
+- tblfn41 *(p. 50, L5718)*
+- tblfn42 *(p. 50, L5718)*
+- tblfn43 *(p. 50, L5718)*
+- S115 *(p. 52, L6085)*
+- S116 *(p. 52, L6085)*
+- S117 *(p. 52, L6085)*
+- S118 *(p. 52, L6085)*
+- S119 *(p. 53, L6156)*
+- S120 *(p. 53, L6156)*
+- S121 *(p. 53, L6156)*
+- S122 *(p. 53, L6156)*
+- S123 *(p. 53, L6156)*
+- tblfn44 *(p. 53, L6156)*
+- tblfn45 *(p. 53, L6156)*
+- tblfn46 *(p. 53, L6156)*
+- tblfn47 *(p. 53, L6156)*
+- S124 *(p. 54, L6218)*
+- S125 *(p. 54, L6218)*
+- S126 *(p. 54, L6218)*
+- S127 *(p. 54, L6218)*
+- tblfn51 *(p. 54, L6218)*
+- tblfn52 *(p. 54, L6218)*
+- tblfn53 *(p. 54, L6218)*
+- tblfn48 *(p. 54, L6218)*
+- tblfn49 *(p. 54, L6218)*
+- tblfn50 *(p. 54, L6218)*
+- S128 *(p. 55, L6297)*
+- S129 *(p. 55, L6297)*
+- S130 *(p. 55, L6297)*
+- tblfn54 *(p. 55, L6297)*
+- tblfn55 *(p. 55, L6297)*
+- tblfn56 *(p. 55, L6297)*
+- tblfn57 *(p. 55, L6297)*
+- tblfn58 *(p. 55, L6297)*
+- tblfn59 *(p. 55, L6297)*
+- tblfn60 *(p. 55, L6297)*
+- tblfn61 *(p. 55, L6297)*
+- tblfn62 *(p. 55, L6297)*
+- tblfn63 *(p. 56, L6408)*
+- tblfn64 *(p. 56, L6408)*
+- tblfn65 *(p. 56, L6408)*
+- tblfn66 *(p. 56, L6408)*
+- tblfn67 *(p. 56, L6408)*
+- tblfn68 *(p. 56, L6408)*
+- tblfn69 *(p. 57, L6511)*
+- tblfn70 *(p. 57, L6511)*
+- tblfn71 *(p. 57, L6511)*
+- tblfn72 *(p. 57, L6511)*
+- tblfn73 *(p. 57, L6511)*
+- tblfn74 *(p. 57, L6511)*
+- S139 *(p. 58, L6629)*
+- tblfn75 *(p. 58, L6629)*
+- S142 *(p. 59, L6698)*
+- tblfn76 *(p. 59, L6698)*
+- tblfn77 *(p. 59, L6698)*
+- tblfn86 *(p. 61, L7064)*
+- S148 *(p. 62, L7127)*
+- S149 *(p. 62, L7127)*
+- S150 *(p. 63, L7186)*
+- S151 *(p. 63, L7186)*
+- S152 *(p. 63, L7186)*
+- tblfn87 *(p. 63, L7186)*
+- tblfn88 *(p. 63, L7186)*
+- tblfn89 *(p. 63, L7186)*
+- tblfn90 *(p. 63, L7186)*
+- S153 *(p. 64, L7267)*
+- S154 *(p. 64, L7267)*
+- S155 *(p. 64, L7267)*
+- S156 *(p. 65, L7326)*
+- S157 *(p. 65, L7326)*
+- S158 *(p. 65, L7326)*
+- S159 *(p. 65, L7326)*
+- tblfn94 *(p. 65, L7326)*
+- tblfn95 *(p. 65, L7326)*
+- tblfn96 *(p. 65, L7326)*
+- tblfn91 *(p. 65, L7326)*
+- tblfn92 *(p. 65, L7326)*
+- tblfn93 *(p. 65, L7326)*
+- S160 *(p. 66, L7387)*
+- S161 *(p. 66, L7387)*
+- tblfn97 *(p. 66, L7387)*
+- tblfn98 *(p. 66, L7387)*
+- tblfn99 *(p. 66, L7387)*
+- tblfn100 *(p. 66, L7387)*
+- tblfn101 *(p. 66, L7387)*
+- tblfn102 *(p. 66, L7387)*
+- tblfn103 *(p. 66, L7387)*
+- S162 *(p. 67, L7456)*
+- S163 *(p. 67, L7456)*
+- S164 *(p. 67, L7456)*
+- S165 *(p. 67, L7456)*
+- S166 *(p. 67, L7456)*
+- S167 *(p. 67, L7456)*
+- S168 *(p. 67, L7456)*
+- S170 *(p. 68, L7493)*
+- S171 *(p. 68, L7493)*
+- S173 *(p. 69, L7552)*
+- tblfn104 *(p. 69, L7552)*
+- tblfn105 *(p. 69, L7552)*
+- tblfn106 *(p. 69, L7552)*
+- S174 *(p. 70, L7631)*
+- tblfn107 *(p. 70, L7631)*
+- tblfn108 *(p. 70, L7631)*
+- tblfn109 *(p. 70, L7631)*
+- tblfn110 *(p. 70, L7631)*
+- tblfn510 *(p. 70, L7631)*
+- S175 *(p. 71, L7700)*
+- tblfn111 *(p. 71, L7700)*
+- tblfn112 *(p. 71, L7700)*
+- tblfn113 *(p. 71, L7700)*
+- tblfn114 *(p. 71, L7700)*
+- tblfn115 *(p. 71, L7700)*
+- tblfn116 *(p. 71, L7700)*
+- tblfn117 *(p. 71, L7700)*
+- tblfn118 *(p. 71, L7700)*
+- tblfn119 *(p. 71, L7700)*
+- S176 *(p. 72, L7800)*
+- S177 *(p. 72, L7800)*
+- tblfn120 *(p. 72, L7800)*
+- tblfn121 *(p. 72, L7800)*
+- tblfn122 *(p. 72, L7800)*
+- tblfn123 *(p. 72, L7800)*
+- S178 *(p. 73, L7858)*
+- S179 *(p. 73, L7858)*
+- tblfn124 *(p. 73, L7858)*
+- tblfn125 *(p. 73, L7858)*
+- tblfn126 *(p. 73, L7858)*
+- S180 *(p. 76, L8067)*
+- S181 *(p. 79, L8274)*
+- S182 *(p. 84, L8720)*
+- S183 *(p. 84, L8720)*
+- tblfn127 *(p. 84, L8720)*
+- S184 *(p. 85, L8807)*
+
+
+---
+
+### <a name="2021-cardiac-pacing-crt"></a>Cardiac Pacing CRT
+
+**File:** `2021_Cardiac_Pacing_CRT.pdf`
+
+- ehab364-1 *(p. 6, L748)*
+- ehab364-2 *(p. 8, L922)*
+- ehab364-2.1 *(p. 8, L922)*
+- ehab364-2.2 *(p. 8, L922)*
+- ehab364-2.3 *(p. 8, L922)*
+- ehab364-2.3.1 *(p. 8, L922)*
+- tblfn1 *(p. 8, L922)*
+- ehab364-2.3.2 *(p. 9, L987)*
+- ehab364-2.3.3 *(p. 13, L1330)*
+- ehab364-3 *(p. 13, L1330)*
+- ehab364-3.1 *(p. 13, L1330)*
+- tblfn2 *(p. 13, L1330)*
+- tblfn3 *(p. 13, L1330)*
+- tblfn4 *(p. 13, L1330)*
+- tblfn5 *(p. 13, L1330)*
+- tblfn6 *(p. 13, L1330)*
+- tblfn7 *(p. 13, L1330)*
+- tblfn8 *(p. 13, L1330)*
+- tblfn9 *(p. 13, L1330)*
+- tblfn10 *(p. 13, L1330)*
+- tblfn11 *(p. 13, L1330)*
+- tblfn12 *(p. 13, L1330)*
+- tblfn13 *(p. 13, L1330)*
+- tblfn15 *(p. 13, L1330)*
+- tblfn16 *(p. 13, L1330)*
+- ehab364-3.2 *(p. 14, L1415)*
+- ehab364-3.3 *(p. 14, L1415)*
+- ehab364-3.4 *(p. 15, L1448)*
+- ehab364-3.4.1 *(p. 15, L1448)*
+- ehab364-3.4.2 *(p. 15, L1448)*
+- ehab364-3.4.3 *(p. 16, L1499)*
+- ehab364-3.4.4 *(p. 16, L1499)*
+- ehab364-3.4.4.1 *(p. 16, L1499)*
+- ehab364-3.4.4.2 *(p. 16, L1499)*
+- ehab364-3.4.5 *(p. 16, L1499)*
+- ehab364-3.4.6 *(p. 16, L1499)*
+- ehab364-3.5 *(p. 16, L1499)*
+- ehab364-4 *(p. 16, L1499)*
+- ehab364-4.1 *(p. 16, L1499)*
+- tblfn17 *(p. 17, L1543)*
+- ehab364-4.2 *(p. 18, L1719)*
+- ehab364-4.3 *(p. 18, L1719)*
+- tblfn18 *(p. 18, L1719)*
+- tblfn19 *(p. 18, L1719)*
+- tblfn20 *(p. 18, L1719)*
+- tblfn21 *(p. 18, L1719)*
+- tblfn22 *(p. 18, L1719)*
+- tblfn23 *(p. 18, L1719)*
+- ehab364-4.3.1 *(p. 19, L1901)*
+- ehab364-4.3.2 *(p. 19, L1901)*
+- ehab364-4.3.3 *(p. 19, L1901)*
+- tblfn24 *(p. 19, L1901)*
+- tblfn25 *(p. 19, L1901)*
+- tblfn26 *(p. 19, L1901)*
+- tblfn27 *(p. 19, L1901)*
+- tblfn28 *(p. 19, L1901)*
+- tblfn29 *(p. 19, L1901)*
+- tblfn30 *(p. 19, L1901)*
+- tblfn31 *(p. 19, L1901)*
+- ehab364-4.3.4 *(p. 20, L1981)*
+- ehab364-4.3.5 *(p. 20, L1981)*
+- tblfn32 *(p. 20, L1981)*
+- tblfn33 *(p. 20, L1981)*
+- tblfn34 *(p. 20, L1981)*
+- tblfn35 *(p. 20, L1981)*
+- tblfn36 *(p. 20, L1981)*
+- tblfn37 *(p. 20, L1981)*
+- ehab364-4.3.6 *(p. 21, L2043)*
+- ehab364-4.3.7 *(p. 21, L2043)*
+- ehab364-4.4 *(p. 21, L2043)*
+- tblfn38 *(p. 21, L2043)*
+- tblfn39 *(p. 21, L2043)*
+- tblfn40 *(p. 21, L2043)*
+- tblfn41 *(p. 21, L2043)*
+- tblfn42 *(p. 21, L2043)*
+- tblfn43 *(p. 21, L2043)*
+- tblfn44 *(p. 21, L2043)*
+- tblfn45 *(p. 21, L2043)*
+- tblfn46 *(p. 21, L2043)*
+- tblfn47 *(p. 21, L2043)*
+- tblfn48 *(p. 21, L2043)*
+- ehab364-4.5 *(p. 22, L2117)*
+- ehab364-5 *(p. 23, L2174)*
+- ehab364-5.1 *(p. 23, L2174)*
+- ehab364-5.1.1 *(p. 23, L2174)*
+- ehab364-5.1.1.1 *(p. 23, L2174)*
+- tblfn49 *(p. 23, L2174)*
+- tblfn50 *(p. 23, L2174)*
+- tblfn51 *(p. 23, L2174)*
+- ehab364-5.1.1.2 *(p. 24, L2230)*
+- ehab364-5.1.2 *(p. 24, L2230)*
+- ehab364-5.2 *(p. 26, L2335)*
+- ehab364-5.2.1 *(p. 26, L2335)*
+- ehab364-5.2.1.1 *(p. 26, L2335)*
+- ehab364-5.2.1.2 *(p. 26, L2335)*
+- ehab364-5.2.1.3 *(p. 26, L2335)*
+- ehab364-5.2.1.4 *(p. 26, L2335)*
+- tblfn52 *(p. 26, L2335)*
+- tblfn53 *(p. 26, L2335)*
+- tblfn54 *(p. 26, L2335)*
+- ehab364-5.2.2 *(p. 27, L2401)*
+- ehab364-5.2.2.1 *(p. 27, L2401)*
+- ehab364-5.2.2.2 *(p. 27, L2401)*
+- tblfn55 *(p. 27, L2401)*
+- tblfn56 *(p. 27, L2401)*
+- tblfn57 *(p. 27, L2401)*
+- tblfn58 *(p. 27, L2401)*
+- ehab364-5.3 *(p. 28, L2468)*
+- ehab364-5.3.1 *(p. 28, L2468)*
+- ehab364-5.3.1.1 *(p. 28, L2468)*
+- ehab364-5.3.1.2 *(p. 28, L2468)*
+- ehab364-5.3.1.3 *(p. 29, L2511)*
+- ehab364-5.3.1.4 *(p. 29, L2511)*
+- ehab364-5.3.1.5 *(p. 29, L2511)*
+- ehab364-5.3.2 *(p. 29, L2511)*
+- tblfn59 *(p. 29, L2511)*
+- tblfn60 *(p. 29, L2511)*
+- tblfn61 *(p. 29, L2511)*
+- ehab364-5.4 *(p. 30, L2585)*
+- ehab364-5.4.1 *(p. 31, L2629)*
+- ehab364-5.4.2 *(p. 32, L2684)*
+- ehab364-5.5 *(p. 32, L2684)*
+- ehab364-5.5.1 *(p. 32, L2684)*
+- ehab364-5.5.2 *(p. 32, L2684)*
+- ehab364-6 *(p. 32, L2684)*
+- ehab364-6.1 *(p. 32, L2684)*
+- tblfn62 *(p. 32, L2684)*
+- tblfn63 *(p. 32, L2684)*
+- tblfn64 *(p. 32, L2684)*
+- tblfn65 *(p. 32, L2684)*
+- tblfn66 *(p. 32, L2684)*
+- tblfn67 *(p. 32, L2684)*
+- ehab364-6.2 *(p. 33, L2758)*
+- tblfn68 *(p. 34, L2826)*
+- tblfn69 *(p. 34, L2826)*
+- tblfn70 *(p. 34, L2826)*
+- ehab364-6.3 *(p. 35, L2894)*
+- ehab364-6.3.1 *(p. 35, L2894)*
+- ehab364-6.3.2 *(p. 35, L2894)*
+- ehab364-6.3.3 *(p. 36, L2957)*
+- ehab364-6.4 *(p. 37, L3022)*
+- tblfn71 *(p. 37, L3022)*
+- tblfn72 *(p. 37, L3022)*
+- tblfn73 *(p. 37, L3022)*
+- tblfn74 *(p. 37, L3022)*
+- tblfn75 *(p. 37, L3022)*
+- tblfn76 *(p. 37, L3022)*
+- tblfn77 *(p. 37, L3022)*
+- ehab364-6.5 *(p. 38, L3112)*
+- ehab364-6.6 *(p. 38, L3112)*
+- tblfn78 *(p. 38, L3112)*
+- tblfn79 *(p. 38, L3112)*
+- tblfn80 *(p. 38, L3112)*
+- ehab364-6.7 *(p. 39, L3175)*
+- tblfn81 *(p. 39, L3175)*
+- tblfn82 *(p. 39, L3175)*
+- tblfn83 *(p. 39, L3175)*
+- ehab364-7 *(p. 40, L3225)*
+- ehab364-7.1 *(p. 40, L3225)*
+- ehab364-7.2 *(p. 40, L3225)*
+- ehab364-7.2.1 *(p. 40, L3225)*
+- ehab364-7.2.2 *(p. 42, L3322)*
+- ehab364-7.2.2.1 *(p. 42, L3322)*
+- ehab364-7.2.2.2 *(p. 42, L3322)*
+- ehab364-7.2.2.3 *(p. 42, L3322)*
+- tblfn84 *(p. 42, L3322)*
+- ehab364-7.3 *(p. 43, L3384)*
+- ehab364-7.4 *(p. 43, L3384)*
+- tblfn85 *(p. 43, L3384)*
+- tblfn86 *(p. 43, L3384)*
+- tblfn87 *(p. 43, L3384)*
+- ehab364-8 *(p. 44, L3441)*
+- ehab364-8.1 *(p. 44, L3441)*
+- ehab364-8.2 *(p. 44, L3441)*
+- ehab364-8.2.1 *(p. 44, L3441)*
+- tblfn88 *(p. 44, L3441)*
+- tblfn89 *(p. 44, L3441)*
+- tblfn90 *(p. 44, L3441)*
+- tblfn91 *(p. 44, L3441)*
+- tblfn92 *(p. 44, L3441)*
+- ehab364-8.2.2 *(p. 45, L3500)*
+- ehab364-8.2.3 *(p. 45, L3500)*
+- ehab364-8.3 *(p. 46, L3536)*
+- tblfn93 *(p. 46, L3536)*
+- tblfn94 *(p. 46, L3536)*
+- tblfn95 *(p. 46, L3536)*
+- tblfn96 *(p. 47, L3606)*
+- tblfn97 *(p. 47, L3606)*
+- ehab364-8.4 *(p. 48, L3688)*
+- ehab364-8.4.1 *(p. 48, L3688)*
+- ehab364-8.4.1.1 *(p. 48, L3688)*
+- ehab364-8.4.2 *(p. 48, L3688)*
+- ehab364-8.4.2.1 *(p. 48, L3688)*
+- tblfn98 *(p. 48, L3688)*
+- tblfn99 *(p. 48, L3688)*
+- tblfn100 *(p. 48, L3688)*
+- tblfn101 *(p. 48, L3688)*
+- tblfn102 *(p. 48, L3688)*
+- tblfn103 *(p. 48, L3688)*
+- tblfn104 *(p. 48, L3688)*
+- tblfn105 *(p. 48, L3688)*
+- tblfn106 *(p. 48, L3688)*
+- ehab364-8.4.3 *(p. 49, L3757)*
+- ehab364-8.4.3.1 *(p. 49, L3757)*
+- ehab364-8.4.4 *(p. 49, L3757)*
+- ehab364-8.5 *(p. 49, L3757)*
+- ehab364-8.5.1 *(p. 49, L3757)*
+- ehab364-8.5.2 *(p. 49, L3757)*
+- tblfn107 *(p. 49, L3757)*
+- tblfn108 *(p. 49, L3757)*
+- tblfn109 *(p. 49, L3757)*
+- ehab364-8.5.3 *(p. 50, L3819)*
+- ehab364-8.5.4 *(p. 50, L3819)*
+- ehab364-8.6 *(p. 50, L3819)*
+- ehab364-8.6.1 *(p. 50, L3819)*
+- ehab364-8.6.2 *(p. 50, L3819)*
+- tblfn110 *(p. 50, L3819)*
+- tblfn111 *(p. 50, L3819)*
+- tblfn112 *(p. 50, L3819)*
+- tblfn113 *(p. 50, L3819)*
+- tblfn114 *(p. 50, L3819)*
+- tblfn115 *(p. 50, L3819)*
+- tblfn116 *(p. 50, L3819)*
+- tblfn117 *(p. 50, L3819)*
+- ehab364-8.6.3 *(p. 51, L3887)*
+- ehab364-8.6.4 *(p. 51, L3887)*
+- ehab364-8.6.5 *(p. 51, L3887)*
+- ehab364-8.6.6 *(p. 51, L3887)*
+- tblfn118 *(p. 51, L3887)*
+- tblfn119 *(p. 51, L3887)*
+- tblfn120 *(p. 51, L3887)*
+- tblfn121 *(p. 51, L3887)*
+- tblfn122 *(p. 51, L3887)*
+- tblfn123 *(p. 51, L3887)*
+- tblfn124 *(p. 51, L3887)*
+- ehab364-8.6.6.1 *(p. 52, L3954)*
+- ehab364-8.7 *(p. 52, L3954)*
+- ehab364-9 *(p. 52, L3954)*
+- ehab364-9.1 *(p. 52, L3954)*
+- ehab364-9.2 *(p. 52, L3954)*
+- ehab364-9.3 *(p. 52, L3954)*
+- tblfn125 *(p. 52, L3954)*
+- tblfn126 *(p. 52, L3954)*
+- tblfn127 *(p. 52, L3954)*
+- tblfn128 *(p. 52, L3954)*
+- ehab364-9.4 *(p. 53, L4005)*
+- ehab364-9.5 *(p. 53, L4005)*
+- tblfn129 *(p. 53, L4005)*
+- tblfn130 *(p. 53, L4005)*
+- ehab364-9.6 *(p. 54, L4073)*
+- ehab364-9.7 *(p. 54, L4073)*
+- ehab364-9.8 *(p. 54, L4073)*
+- ehab364-10 *(p. 55, L4111)*
+- ehab364-10.1 *(p. 55, L4111)*
+- tblfn131 *(p. 55, L4111)*
+- tblfn132 *(p. 55, L4111)*
+- tblfn133 *(p. 55, L4111)*
+- ehab364-10.2 *(p. 56, L4184)*
+- ehab364-10.2.1 *(p. 56, L4184)*
+- ehab364-10.2.2 *(p. 56, L4184)*
+- ehab364-10.2.3 *(p. 56, L4184)*
+- ehab364-10.2.4 *(p. 56, L4184)*
+- tblfn134 *(p. 56, L4184)*
+- ehab364-10.2.5 *(p. 57, L4278)*
+- ehab364-11 *(p. 57, L4278)*
+- ehab364-11.1 *(p. 57, L4278)*
+- ehab364-11.2 *(p. 59, L4354)*
+- tblfn135 *(p. 59, L4354)*
+- tblfn136 *(p. 59, L4354)*
+- tblfn137 *(p. 59, L4354)*
+- tblfn138 *(p. 59, L4354)*
+- ehab364-11.3 *(p. 60, L4420)*
+- ehab364-11.4 *(p. 61, L4455)*
+- ehab364-11.5 *(p. 61, L4455)*
+- tblfn139 *(p. 61, L4455)*
+- tblfn140 *(p. 61, L4455)*
+- ehab364-11.6 *(p. 62, L4516)*
+- ehab364-11.7 *(p. 62, L4516)*
+- tblfn141 *(p. 62, L4516)*
+- tblfn142 *(p. 62, L4516)*
+- tblfn143 *(p. 62, L4516)*
+- tblfn144 *(p. 62, L4516)*
+- tblfn145 *(p. 62, L4516)*
+- tblfn1145 *(p. 62, L4516)*
+- ehab364-12 *(p. 63, L4583)*
+- ehab364-13 *(p. 63, L4583)*
+- tblfn147 *(p. 63, L4583)*
+- tblfn148 *(p. 63, L4583)*
+- tblfn150 *(p. 63, L4583)*
+- tblfn151 *(p. 63, L4583)*
+- tblfn152 *(p. 63, L4583)*
+- tblfn149 *(p. 64, L4639)*
+- ehab364-14 *(p. 65, L4692)*
+- tblfn153 *(p. 65, L4692)*
+- tblfn154 *(p. 65, L4692)*
+- tblfn155 *(p. 65, L4692)*
+- ehab364-15 *(p. 66, L4750)*
+- ehab364-16 *(p. 67, L4809)*
+- tblfn156 *(p. 69, L4966)*
+- tblfn157 *(p. 69, L4966)*
+- tblfn158 *(p. 69, L4966)*
+- tblfn159 *(p. 69, L4966)*
+- tblfn160 *(p. 69, L4966)*
+- tblfn161 *(p. 69, L4966)*
+- tblfn162 *(p. 69, L4966)*
+- tblfn163 *(p. 69, L4966)*
+- ehab364-17 *(p. 70, L5046)*
+- ehab364-18 *(p. 70, L5046)*
+- ehab364-19 *(p. 70, L5046)*
+
+
+---
+
+### <a name="2021-heart-failure"></a>Heart Failure
+
+**File:** `2021_Heart_Failure.pdf`
+
+- ehab368-1 *(p. 9, L1236)*
+- ehab368-2 *(p. 11, L1390)*
+- ehab368-2.1 *(p. 11, L1390)*
+- tblfn1 *(p. 11, L1390)*
+- tblfn2 *(p. 12, L1476)*
+- ehab368-3 *(p. 14, L1628)*
+- ehab368-3.1 *(p. 14, L1628)*
+- ehab368-3.2 *(p. 14, L1628)*
+- tblfn3 *(p. 14, L1628)*
+- ehab368-3.3 *(p. 15, L1682)*
+- tblfn4 *(p. 15, L1682)*
+- tblfn5 *(p. 15, L1682)*
+- tblfn6 *(p. 15, L1682)*
+- tblfn7 *(p. 15, L1682)*
+- ehab368-4 *(p. 16, L1746)*
+- ehab368-4.1 *(p. 16, L1746)*
+- tblfn15 *(p. 18, L1847)*
+- ehab368-4.2 *(p. 19, L1955)*
+- ehab368-4.3 *(p. 19, L1955)*
+- tblfn10 *(p. 19, L1955)*
+- tblfn11 *(p. 19, L1955)*
+- tblfn12 *(p. 19, L1955)*
+- tblfn13 *(p. 19, L1955)*
+- tblfn8 *(p. 19, L1955)*
+- tblfn9 *(p. 19, L1955)*
+- tblfn14 *(p. 20, L2067)*
+- ehab368-5 *(p. 21, L2159)*
+- ehab368-5.1 *(p. 21, L2159)*
+- ehab368-5.2 *(p. 21, L2159)*
+- ehab368-5.2.1 *(p. 21, L2159)*
+- ehab368-5.2.2 *(p. 21, L2159)*
+- tblfn16 *(p. 21, L2159)*
+- tblfn17 *(p. 21, L2159)*
+- tblfn18 *(p. 21, L2159)*
+- ehab368-5.3 *(p. 22, L2218)*
+- tblfn26 *(p. 22, L2218)*
+- tblfn27 *(p. 22, L2218)*
+- tblfn28 *(p. 22, L2218)*
+- ehab368-5.3.1 *(p. 23, L2278)*
+- ehab368-5.3.2 *(p. 23, L2278)*
+- ehab368-5.3.3 *(p. 23, L2278)*
+- ehab368-5.3.4 *(p. 23, L2278)*
+- tblfn19 *(p. 23, L2278)*
+- tblfn20 *(p. 23, L2278)*
+- tblfn21 *(p. 23, L2278)*
+- tblfn22 *(p. 23, L2278)*
+- tblfn23 *(p. 23, L2278)*
+- tblfn24 *(p. 23, L2278)*
+- tblfn25 *(p. 23, L2278)*
+- ehab368-5.3.5 *(p. 24, L2401)*
+- ehab368-5.4 *(p. 24, L2401)*
+- ehab368-5.4.1 *(p. 25, L2472)*
+- ehab368-5.4.2 *(p. 25, L2472)*
+- ehab368-5.4.3 *(p. 25, L2472)*
+- ehab368-5.4.4 *(p. 25, L2472)*
+- ehab368-5.4.5 *(p. 25, L2472)*
+- tblfn29 *(p. 25, L2472)*
+- tblfn30 *(p. 25, L2472)*
+- tblfn31 *(p. 25, L2472)*
+- tblfn32 *(p. 25, L2472)*
+- ehab368-5.4.6 *(p. 27, L2591)*
+- ehab368-5.5 *(p. 27, L2591)*
+- ehab368-6 *(p. 27, L2591)*
+- ehab368-6.1 *(p. 27, L2591)*
+- tblfn61 *(p. 27, L2591)*
+- tblfn62 *(p. 27, L2591)*
+- tblfn63 *(p. 27, L2591)*
+- ehab368-6.1.1 *(p. 28, L2650)*
+- ehab368-6.1.2 *(p. 28, L2650)*
+- ehab368-6.1.3 *(p. 28, L2650)*
+- ehab368-6.1.4 *(p. 28, L2650)*
+- ehab368-6.1.5 *(p. 28, L2650)*
+- ehab368-6.2 *(p. 29, L2701)*
+- tblfn64 *(p. 29, L2701)*
+- tblfn65 *(p. 29, L2701)*
+- tblfn66 *(p. 29, L2701)*
+- ehab368-6.3 *(p. 30, L2787)*
+- ehab368-7 *(p. 30, L2787)*
+- ehab368-7.1 *(p. 30, L2787)*
+- ehab368-7.2 *(p. 31, L2836)*
+- ehab368-7.3 *(p. 31, L2836)*
+- ehab368-7.3.1 *(p. 31, L2836)*
+- ehab368-7.3.2 *(p. 31, L2836)*
+- ehab368-7.3.3 *(p. 31, L2836)*
+- ehab368-7.3.4 *(p. 31, L2836)*
+- ehab368-7.3.5 *(p. 31, L2836)*
+- tblfn67 *(p. 31, L2836)*
+- tblfn68 *(p. 31, L2836)*
+- tblfn69 *(p. 31, L2836)*
+- ehab368-7.3.6 *(p. 32, L2920)*
+- ehab368-7.3.7 *(p. 32, L2920)*
+- ehab368-8 *(p. 32, L2920)*
+- ehab368-8.1 *(p. 32, L2920)*
+- ehab368-8.2 *(p. 32, L2920)*
+- ehab368-8.3 *(p. 32, L2920)*
+- ehab368-8.4 *(p. 33, L2970)*
+- tblfn33 *(p. 33, L2970)*
+- tblfn34 *(p. 33, L2970)*
+- tblfn35 *(p. 33, L2970)*
+- tblfn36 *(p. 34, L3044)*
+- tblfn37 *(p. 34, L3044)*
+- tblfn38 *(p. 34, L3044)*
+- tblfn39 *(p. 34, L3044)*
+- tblfn40 *(p. 34, L3044)*
+- tblfn41 *(p. 34, L3044)*
+- tblfn42 *(p. 34, L3044)*
+- ehab368-9 *(p. 35, L3143)*
+- ehab368-9.1 *(p. 35, L3143)*
+- ehab368-9.2 *(p. 35, L3143)*
+- ehab368-9.3 *(p. 35, L3143)*
+- tblfn43 *(p. 35, L3143)*
+- tblfn44 *(p. 35, L3143)*
+- tblfn45 *(p. 35, L3143)*
+- ehab368-9.4 *(p. 38, L3362)*
+- ehab368-9.5 *(p. 38, L3362)*
+- ehab368-9.6 *(p. 38, L3362)*
+- tblfn47 *(p. 38, L3362)*
+- tblfn48 *(p. 38, L3362)*
+- tblfn49 *(p. 38, L3362)*
+- tblfn50 *(p. 38, L3362)*
+- tblfn51 *(p. 38, L3362)*
+- tblfn52 *(p. 38, L3362)*
+- ehab368-10 *(p. 39, L3429)*
+- ehab368-10.1 *(p. 39, L3429)*
+- tblfn53 *(p. 39, L3429)*
+- tblfn54 *(p. 39, L3429)*
+- tblfn55 *(p. 39, L3429)*
+- tblfn56 *(p. 40, L3493)*
+- ehab368-10.2 *(p. 41, L3541)*
+- ehab368-10.2.1 *(p. 41, L3541)*
+- ehab368-10.2.2 *(p. 41, L3541)*
+- tblfn57 *(p. 41, L3541)*
+- tblfn58 *(p. 44, L3691)*
+- tblfn59 *(p. 44, L3691)*
+- tblfn60 *(p. 44, L3691)*
+- ehab368-10.2.3 *(p. 45, L3749)*
+- tblfn70 *(p. 45, L3749)*
+- tblfn71 *(p. 45, L3749)*
+- tblfn71a *(p. 45, L3749)*
+- tblfn106 *(p. 45, L3749)*
+- tblfn107 *(p. 45, L3749)*
+- tblfn108 *(p. 45, L3749)*
+- ehab368-10.2.4 *(p. 46, L3833)*
+- ehab368-11 *(p. 46, L3833)*
+- ehab368-11.1 *(p. 46, L3833)*
+- tblfn72 *(p. 46, L3833)*
+- tblfn73 *(p. 46, L3833)*
+- ehab368-11.2 *(p. 48, L3922)*
+- ehab368-11.2.1 *(p. 48, L3922)*
+- tblfn74 *(p. 48, L3922)*
+- tblfn75 *(p. 48, L3922)*
+- tblfn76 *(p. 48, L3922)*
+- ehab368-11.2.2 *(p. 49, L4026)*
+- ehab368-11.2.3 *(p. 49, L4026)*
+- ehab368-11.2.4 *(p. 49, L4026)*
+- tblfn77 *(p. 49, L4026)*
+- tblfn78 *(p. 49, L4026)*
+- tblfn78a *(p. 49, L4026)*
+- ehab368-11.3 *(p. 51, L4169)*
+- ehab368-11.3.1 *(p. 51, L4169)*
+- ehab368-11.3.2 *(p. 53, L4253)*
+- ehab368-11.3.3 *(p. 54, L4301)*
+- ehab368-11.3.4 *(p. 56, L4403)*
+- ehab368-11.3.5 *(p. 57, L4447)*
+- ehab368-11.3.6 *(p. 57, L4447)*
+- ehab368-11.3.7 *(p. 57, L4447)*
+- ehab368-11.3.8 *(p. 58, L4534)*
+- ehab368-11.3.9 *(p. 58, L4534)*
+- ehab368-11.3.10 *(p. 58, L4534)*
+- tblfn79 *(p. 58, L4534)*
+- tblfn80 *(p. 58, L4534)*
+- tblfn81 *(p. 58, L4534)*
+- tblfn82 *(p. 58, L4534)*
+- tblfn83 *(p. 58, L4534)*
+- tblfn84 *(p. 58, L4534)*
+- ehab368-12 *(p. 59, L4615)*
+- ehab368-12.1 *(p. 59, L4615)*
+- ehab368-12.1.1 *(p. 59, L4615)*
+- tblfn85 *(p. 59, L4615)*
+- tblfn86 *(p. 59, L4615)*
+- tblfn87 *(p. 59, L4615)*
+- ehab368-12.1.2 *(p. 62, L4803)*
+- ehab368-12.1.3 *(p. 62, L4803)*
+- ehab368-12.2 *(p. 62, L4803)*
+- tblfn124 *(p. 62, L4803)*
+- tblfn125 *(p. 62, L4803)*
+- tblfn126 *(p. 62, L4803)*
+- ehab368-12.3 *(p. 64, L4934)*
+- ehab368-12.3.1 *(p. 64, L4934)*
+- tblfn127 *(p. 64, L4934)*
+- tblfn128 *(p. 64, L4934)*
+- tblfn129 *(p. 64, L4934)*
+- ehab368-12.3.2 *(p. 66, L5070)*
+- ehab368-12.3.3 *(p. 66, L5070)*
+- tblfn130 *(p. 67, L5130)*
+- tblfn131 *(p. 67, L5130)*
+- tblfn132 *(p. 67, L5130)*
+- tblfn133 *(p. 67, L5130)*
+- tblfn134 *(p. 67, L5130)*
+- ehab368-12.3.4 *(p. 68, L5200)*
+- ehab368-12.4 *(p. 68, L5200)*
+- ehab368-12.5 *(p. 68, L5200)*
+- ehab368-13 *(p. 68, L5200)*
+- ehab368-13.1 *(p. 68, L5200)*
+- ehab368-13.2 *(p. 69, L5244)*
+- tblfn135 *(p. 69, L5244)*
+- tblfn136 *(p. 69, L5244)*
+- tblfn137 *(p. 69, L5244)*
+- ehab368-13.3 *(p. 70, L5305)*
+- ehab368-13.4 *(p. 70, L5305)*
+- ehab368-13.5 *(p. 70, L5305)*
+- ehab368-13.6 *(p. 71, L5341)*
+- tblfn138 *(p. 71, L5341)*
+- tblfn139 *(p. 71, L5341)*
+- tblfn140 *(p. 71, L5341)*
+- ehab368-13.7 *(p. 72, L5399)*
+- ehab368-13.8 *(p. 73, L5442)*
+- ehab368-13.9 *(p. 73, L5442)*
+- ehab368-13.10 *(p. 74, L5476)*
+- ehab368-13.11 *(p. 74, L5476)*
+- ehab368-13.12 *(p. 74, L5476)*
+- ehab368-13.13 *(p. 74, L5476)*
+- tblfn88 *(p. 75, L5518)*
+- ehab368-13.14 *(p. 77, L5615)*
+- ehab368-14 *(p. 77, L5615)*
+- ehab368-14.1 *(p. 77, L5615)*
+- ehab368-14.1.1 *(p. 77, L5615)*
+- ehab368-14.1.2 *(p. 77, L5615)*
+- tblfn89 *(p. 77, L5615)*
+- tblfn90 *(p. 77, L5615)*
+- tblfn91 *(p. 77, L5615)*
+- tblfn92 *(p. 77, L5615)*
+- ehab368-14.2 *(p. 79, L5716)*
+- ehab368-14.2.1 *(p. 79, L5716)*
+- ehab368-14.2.2 *(p. 79, L5716)*
+- tblfn93 *(p. 80, L5770)*
+- tblfn94 *(p. 80, L5770)*
+- tblfn95 *(p. 81, L5871)*
+- tblfn96 *(p. 81, L5871)*
+- tblfn97 *(p. 81, L5871)*
+- tblfn98 *(p. 82, L5919)*
+- tblfn99 *(p. 82, L5919)*
+- ehab368-14.3 *(p. 83, L5975)*
+- tblfn100 *(p. 83, L5975)*
+- ehab368-14.4 *(p. 84, L6025)*
+- ehab368-14.4.1 *(p. 84, L6025)*
+- ehab368-14.4.2 *(p. 84, L6025)*
+- ehab368-14.4.3 *(p. 84, L6025)*
+- ehab368-14.5 *(p. 84, L6025)*
+- ehab368-14.5.1 *(p. 84, L6025)*
+- ehab368-14.5.2 *(p. 84, L6025)*
+- ehab368-14.6 *(p. 84, L6025)*
+- ehab368-14.6.1 *(p. 84, L6025)*
+- tblfn101 *(p. 84, L6025)*
+- tblfn102 *(p. 85, L6091)*
+- tblfn103 *(p. 86, L6171)*
+- ehab368-14.6.2 *(p. 87, L6214)*
+- ehab368-14.7 *(p. 87, L6214)*
+- tblfn104 *(p. 87, L6214)*
+- tblfn105 *(p. 87, L6214)*
+- tblfn109 *(p. 87, L6214)*
+- ehab368-14.8 *(p. 88, L6276)*
+- tblfn110 *(p. 88, L6276)*
+- tblfn111 *(p. 88, L6276)*
+- tblfn811 *(p. 88, L6276)*
+- tblfn112 *(p. 88, L6276)*
+- tblfn113 *(p. 88, L6276)*
+- tblfn114 *(p. 88, L6276)*
+- ehab368-15 *(p. 90, L6442)*
+- tblfn115 *(p. 90, L6442)*
+- ehab368-16 *(p. 91, L6517)*
+- ehab368-17 *(p. 92, L6603)*
+- tblfn116 *(p. 94, L6795)*
+- tblfn117 *(p. 94, L6795)*
+- tblfn118 *(p. 94, L6795)*
+- tblfn119 *(p. 94, L6795)*
+- tblfn120 *(p. 94, L6795)*
+- ehab368-18 *(p. 95, L6867)*
+- tblfn121 *(p. 95, L6867)*
+- tblfn122 *(p. 95, L6867)*
+- tblfn123 *(p. 95, L6867)*
+- ehab368-19 *(p. 96, L6918)*
+- ehab368-20 *(p. 96, L6918)*
+- app1 *(p. 96, L6918)*
+
+
+---
+
+### <a name="2021-valvular-heart-disease"></a>Valvular Heart Disease
+
+**File:** `2021_Valvular_Heart_Disease.pdf`
+
+- ehab395-S1 *(p. 4, L455)*
+- ehab395-S2 *(p. 6, L695)*
+- ehab395-S2.1 *(p. 6, L695)*
+- ehab395-S2.2 *(p. 7, L746)*
+- ehab395-S2.3 *(p. 12, L1095)*
+- ehab395-S2.4 *(p. 12, L1095)*
+- tblfn1 *(p. 12, L1095)*
+- ehab395-S3 *(p. 13, L1153)*
+- ehab395-S3.1 *(p. 13, L1153)*
+- ehab395-S3.2 *(p. 13, L1153)*
+- tblfn3 *(p. 13, L1153)*
+- ehab395-S3.2.1 *(p. 14, L1206)*
+- ehab395-S3.2.2 *(p. 14, L1206)*
+- ehab395-S3.2.3 *(p. 15, L1254)*
+- ehab395-S3.2.3.1 *(p. 15, L1254)*
+- ehab395-S3.2.3.2 *(p. 15, L1254)*
+- ehab395-S3.2.3.3 *(p. 15, L1254)*
+- ehab395-S3.2.3.4 *(p. 15, L1254)*
+- ehab395-S3.2.3.5 *(p. 15, L1254)*
+- ehab395-S3.2.3.6 *(p. 15, L1254)*
+- ehab395-S3.2.4 *(p. 15, L1254)*
+- ehab395-S3.2.4.1 *(p. 15, L1254)*
+- ehab395-S3.2.4.2 *(p. 15, L1254)*
+- ehab395-S3.2.5 *(p. 15, L1254)*
+- ehab395-S3.3 *(p. 15, L1254)*
+- ehab395-S3.3.1 *(p. 16, L1309)*
+- ehab395-S3.3.2 *(p. 16, L1309)*
+- ehab395-S3.4 *(p. 16, L1309)*
+- ehab395-S3.5 *(p. 16, L1309)*
+- ehab395-S3.6 *(p. 16, L1309)*
+- ehab395-S3.6.1 *(p. 16, L1309)*
+- ehab395-S3.6.2 *(p. 17, L1371)*
+- ehab395-S3.7 *(p. 17, L1371)*
+- tblfn5 *(p. 17, L1371)*
+- tblfn6 *(p. 17, L1371)*
+- tblfn7 *(p. 17, L1371)*
+- tblfn8 *(p. 17, L1371)*
+- tblfn9 *(p. 17, L1371)*
+- tblfn10 *(p. 17, L1371)*
+- tblfn11 *(p. 17, L1371)*
+- tblfn13 *(p. 17, L1371)*
+- tblfn14 *(p. 17, L1371)*
+- tblfn15 *(p. 17, L1371)*
+- ehab395-S3.8 *(p. 18, L1450)*
+- ehab395-S4 *(p. 18, L1450)*
+- ehab395-S4.1 *(p. 18, L1450)*
+- ehab395-S4.1.1 *(p. 18, L1450)*
+- ehab395-S4.1.2 *(p. 18, L1450)*
+- ehab395-S4.2 *(p. 18, L1450)*
+- tblfn17 *(p. 18, L1450)*
+- tblfn18 *(p. 18, L1450)*
+- tblfn19 *(p. 18, L1450)*
+- tblfn20 *(p. 18, L1450)*
+- ehab395-S4.3 *(p. 20, L1571)*
+- ehab395-S4.4 *(p. 20, L1571)*
+- tblfn22 *(p. 20, L1571)*
+- tblfn23 *(p. 20, L1571)*
+- tblfn24 *(p. 20, L1571)*
+- tblfn25 *(p. 20, L1571)*
+- tblfn26 *(p. 20, L1571)*
+- tblfn27 *(p. 20, L1571)*
+- tblfn28 *(p. 20, L1571)*
+- ehab395-S4.5 *(p. 21, L1630)*
+- ehab395-S5 *(p. 21, L1630)*
+- ehab395-S5.1 *(p. 21, L1630)*
+- ehab395-S5.1.1 *(p. 21, L1630)*
+- ehab395-S5.1.2 *(p. 21, L1630)*
+- ehab395-S5.1.3 *(p. 23, L1739)*
+- tblfn30 *(p. 23, L1739)*
+- tblfn31 *(p. 23, L1739)*
+- tblfn32 *(p. 23, L1739)*
+- tblfn33 *(p. 23, L1739)*
+- tblfn34 *(p. 23, L1739)*
+- tblfn35 *(p. 23, L1739)*
+- ehab395-S5.2 *(p. 24, L1855)*
+- ehab395-S5.2.1 *(p. 24, L1855)*
+- ehab395-S5.2.2 *(p. 25, L1920)*
+- ehab395-S5.2.3 *(p. 25, L1920)*
+- ehab395-S5.3 *(p. 27, L2058)*
+- ehab395-S5.4 *(p. 27, L2058)*
+- ehab395-S5.5 *(p. 27, L2058)*
+- tblfn37 *(p. 27, L2058)*
+- tblfn38 *(p. 27, L2058)*
+- tblfn39 *(p. 27, L2058)*
+- tblfn40 *(p. 27, L2058)*
+- tblfn41 *(p. 27, L2058)*
+- tblfn42 *(p. 27, L2058)*
+- tblfn43 *(p. 27, L2058)*
+- tblfn44 *(p. 27, L2058)*
+- tblfn45 *(p. 27, L2058)*
+- ehab395-S6 *(p. 28, L2120)*
+- ehab395-S6.1 *(p. 28, L2120)*
+- ehab395-S6.1.1 *(p. 28, L2120)*
+- ehab395-S6.1.2 *(p. 28, L2120)*
+- tblfn47 *(p. 29, L2169)*
+- tblfn48 *(p. 29, L2169)*
+- tblfn49 *(p. 29, L2169)*
+- ehab395-S6.1.3 *(p. 30, L2260)*
+- ehab395-S6.1.4 *(p. 30, L2260)*
+- ehab395-S6.1.5 *(p. 30, L2260)*
+- ehab395-S6.2 *(p. 30, L2260)*
+- ehab395-S6.2.1 *(p. 30, L2260)*
+- tblfn51 *(p. 30, L2260)*
+- tblfn52 *(p. 30, L2260)*
+- tblfn53 *(p. 30, L2260)*
+- tblfn54 *(p. 30, L2260)*
+- tblfn55 *(p. 30, L2260)*
+- ehab395-S6.2.2 *(p. 31, L2317)*
+- ehab395-S6.2.3 *(p. 31, L2317)*
+- tblfn57 *(p. 32, L2371)*
+- tblfn58 *(p. 32, L2371)*
+- tblfn59 *(p. 32, L2371)*
+- tblfn60 *(p. 32, L2371)*
+- tblfn61 *(p. 32, L2371)*
+- tblfn62 *(p. 32, L2371)*
+- ehab395-S7 *(p. 34, L2498)*
+- ehab395-S7.1 *(p. 34, L2498)*
+- ehab395-S7.1.1 *(p. 34, L2498)*
+- ehab395-S7.1.2 *(p. 34, L2498)*
+- tblfn64 *(p. 34, L2498)*
+- tblfn65 *(p. 34, L2498)*
+- tblfn66 *(p. 34, L2498)*
+- tblfn67 *(p. 34, L2498)*
+- tblfn69 *(p. 34, L2498)*
+- tblfn70 *(p. 34, L2498)*
+- ehab395-S7.1.3 *(p. 35, L2571)*
+- ehab395-S7.1.4 *(p. 36, L2620)*
+- ehab395-S7.1.5 *(p. 36, L2620)*
+- ehab395-S7.2 *(p. 36, L2620)*
+- ehab395-S7.2.1 *(p. 36, L2620)*
+- ehab395-S7.2.2 *(p. 36, L2620)*
+- ehab395-S8 *(p. 36, L2620)*
+- ehab395-S8.1 *(p. 36, L2620)*
+- ehab395-S8.2 *(p. 37, L2664)*
+- tblfn72 *(p. 37, L2664)*
+- tblfn73 *(p. 37, L2664)*
+- tblfn74 *(p. 37, L2664)*
+- tblfn75 *(p. 37, L2664)*
+- tblfn76 *(p. 37, L2664)*
+- ehab395-S8.3 *(p. 38, L2730)*
+- ehab395-S9 *(p. 38, L2730)*
+- ehab395-S9.1 *(p. 39, L2788)*
+- ehab395-S9.2 *(p. 39, L2788)*
+- ehab395-S9.3 *(p. 39, L2788)*
+- ehab395-S10 *(p. 39, L2788)*
+- tblfn78 *(p. 39, L2788)*
+- tblfn79 *(p. 39, L2788)*
+- tblfn80 *(p. 39, L2788)*
+- tblfn81 *(p. 39, L2788)*
+- tblfn82 *(p. 39, L2788)*
+- tblfn83 *(p. 39, L2788)*
+- tblfn84 *(p. 39, L2788)*
+- ehab395-S11 *(p. 40, L2861)*
+- ehab395-S11.1 *(p. 40, L2861)*
+- tblfn86 *(p. 40, L2861)*
+- tblfn87 *(p. 40, L2861)*
+- tblfn88 *(p. 40, L2861)*
+- tblfn89 *(p. 40, L2861)*
+- tblfn90 *(p. 40, L2861)*
+- tblfn91 *(p. 40, L2861)*
+- tblfn92 *(p. 40, L2861)*
+- tblfn93 *(p. 40, L2861)*
+- ehab395-S11.2 *(p. 41, L2944)*
+- ehab395-S11.3 *(p. 41, L2944)*
+- ehab395-S11.3.1 *(p. 41, L2944)*
+- ehab395-S11.3.1.1 *(p. 41, L2944)*
+- ehab395-S11.3.1.2 *(p. 41, L2944)*
+- ehab395-S11.3.1.3 *(p. 41, L2944)*
+- tblfn95 *(p. 41, L2944)*
+- tblfn96 *(p. 41, L2944)*
+- tblfn97 *(p. 41, L2944)*
+- tblfn98 *(p. 41, L2944)*
+- tblfn99 *(p. 41, L2944)*
+- ehab395-S11.3.1.4 *(p. 42, L2998)*
+- ehab395-S11.3.1.5 *(p. 42, L2998)*
+- ehab395-S11.3.2 *(p. 42, L2998)*
+- ehab395-S11.3.2.1 *(p. 42, L2998)*
+- ehab395-S11.3.2.2 *(p. 42, L2998)*
+- tblfn101 *(p. 43, L3071)*
+- tblfn102 *(p. 43, L3071)*
+- tblfn103 *(p. 43, L3071)*
+- tblfn104 *(p. 43, L3071)*
+- tblfn105 *(p. 43, L3071)*
+- tblfn106 *(p. 43, L3071)*
+- tblfn107 *(p. 43, L3071)*
+- ehab395-S11.3.3 *(p. 44, L3205)*
+- ehab395-S11.4 *(p. 44, L3205)*
+- ehab395-S11.4.1 *(p. 44, L3205)*
+- ehab395-S11.4.2 *(p. 46, L3331)*
+- ehab395-S11.4.2.1 *(p. 46, L3331)*
+- ehab395-S11.4.2.2 *(p. 46, L3331)*
+- ehab395-S11.4.3 *(p. 46, L3331)*
+- ehab395-S11.4.4 *(p. 46, L3331)*
+- ehab395-S11.4.4.1 *(p. 46, L3331)*
+- ehab395-S11.4.4.2 *(p. 46, L3331)*
+- ehab395-S11.4.4.3 *(p. 46, L3331)*
+- ehab395-S11.4.5 *(p. 46, L3331)*
+- ehab395-S12 *(p. 47, L3386)*
+- ehab395-S12.1 *(p. 47, L3386)*
+- ehab395-S12.2 *(p. 47, L3386)*
+- ehab395-S12.2.1 *(p. 47, L3386)*
+- ehab395-S12.2.2 *(p. 47, L3386)*
+- ehab395-S12.2.3 *(p. 47, L3386)*
+- ehab395-S12.3 *(p. 47, L3386)*
+- ehab395-S13 *(p. 47, L3386)*
+- tblfn108 *(p. 47, L3386)*
+- tblfn109 *(p. 47, L3386)*
+- tblfn110 *(p. 47, L3386)*
+- ehab395-S13.1 *(p. 48, L3460)*
+- ehab395-S13.2 *(p. 48, L3460)*
+- ehab395-S13.2.1 *(p. 48, L3460)*
+- ehab395-S13.2.2 *(p. 49, L3516)*
+- ehab395-S14 *(p. 49, L3516)*
+- ehab395-S15 *(p. 50, L3564)*
+- ehab395-S16 *(p. 51, L3632)*
+- tblfn111 *(p. 53, L3809)*
+- ehab395-S17 *(p. 54, L3898)*
+- ehab395-S18 *(p. 54, L3898)*
+
+
+---
+
+## 2020
+
+### <a name="2020-acs-nste"></a>ACS NSTE
+
+**File:** `2020_ACS_NSTE.pdf`
+
+- tblfn1 *(p. 13, L1089)*
+- tblfn2 *(p. 13, L1089)*
+- tblfn3 *(p. 13, L1089)*
+- tblfn4 *(p. 13, L1089)*
+- tblfn5 *(p. 15, L1173)*
+- tblfn6 *(p. 15, L1173)*
+- tblfn7 *(p. 18, L1384)*
+- tblfn8 *(p. 18, L1384)*
+- tblfn17 *(p. 19, L1477)*
+- tblfn18 *(p. 19, L1477)*
+- tblfn19 *(p. 19, L1477)*
+- tblfn20 *(p. 19, L1477)*
+- tblfn21 *(p. 19, L1477)*
+- tblfn22 *(p. 19, L1477)*
+- tblfn23 *(p. 19, L1477)*
+- tblfn9 *(p. 20, L1537)*
+- tblfn10 *(p. 20, L1537)*
+- tblfn11 *(p. 20, L1537)*
+- tblfn12 *(p. 21, L1598)*
+- tblfn13 *(p. 21, L1598)*
+- tblfn14 *(p. 21, L1598)*
+- tblfn15 *(p. 21, L1598)*
+- tblfn16 *(p. 21, L1598)*
+- tblfn26 *(p. 23, L1677)*
+- tblfn27 *(p. 23, L1677)*
+- tblfn28 *(p. 23, L1677)*
+- tblfn24 *(p. 24, L1741)*
+- tblfn25 *(p. 24, L1741)*
+- tblfn39 *(p. 26, L1842)*
+- tblfn40 *(p. 26, L1842)*
+- tblfn41 *(p. 26, L1842)*
+- tblfn42 *(p. 28, L1981)*
+- tblfn43 *(p. 28, L1981)*
+- tblfn47 *(p. 28, L1981)*
+- tblfn48 *(p. 28, L1981)*
+- tblfn44 *(p. 29, L2062)*
+- tblfn45 *(p. 29, L2062)*
+- tblfn46 *(p. 29, L2062)*
+- tblfn49 *(p. 30, L2139)*
+- tblfn50 *(p. 30, L2139)*
+- tblfn51 *(p. 30, L2139)*
+- tblfn29 *(p. 31, L2196)*
+- tblfn103 *(p. 31, L2196)*
+- tblfn30 *(p. 33, L2338)*
+- tblfn31 *(p. 33, L2338)*
+- tblfn32 *(p. 33, L2338)*
+- tblfn33 *(p. 34, L2423)*
+- tblfn34 *(p. 34, L2423)*
+- tblfn35 *(p. 34, L2423)*
+- tblfn36 *(p. 41, L2734)*
+- tblfn37 *(p. 41, L2734)*
+- tblfn38 *(p. 41, L2734)*
+- tblfn104 *(p. 42, L2803)*
+- tblfn105 *(p. 42, L2803)*
+- tblfn106 *(p. 43, L2858)*
+- tblfn107 *(p. 43, L2858)*
+- tblfn108 *(p. 43, L2858)*
+- tblfn109 *(p. 44, L2894)*
+- tblfn110 *(p. 44, L2894)*
+- tblfn111 *(p. 44, L2894)*
+- tblfn112 *(p. 45, L2966)*
+- tblfn113 *(p. 45, L2966)*
+- tblfn114 *(p. 45, L2966)*
+- tblfn115 *(p. 45, L2966)*
+- tblfn116 *(p. 45, L2966)*
+- tblfn117 *(p. 45, L2966)*
+- tblfn118 *(p. 46, L3042)*
+- tblfn119 *(p. 46, L3042)*
+- tblfn120 *(p. 47, L3098)*
+- tblfn121 *(p. 47, L3098)*
+- tblfn122 *(p. 47, L3098)*
+- tblfn123 *(p. 48, L3165)*
+- tblfn124 *(p. 48, L3165)*
+- tblfn125 *(p. 48, L3165)*
+- tblfn126 *(p. 48, L3165)*
+- tblfn52 *(p. 51, L3353)*
+- tblfn53 *(p. 51, L3353)*
+- tblfn54 *(p. 51, L3353)*
+- tblfn55 *(p. 51, L3353)*
+- tblfn56 *(p. 55, L3513)*
+- tblfn99 *(p. 59, L3847)*
+- tblfn100 *(p. 59, L3847)*
+- tblfn101 *(p. 59, L3847)*
+- tblfn1102 *(p. 59, L3847)*
+- tblfn1103 *(p. 59, L3847)*
+- tblfn1104 *(p. 59, L3847)*
+- tblfn1105 *(p. 59, L3847)*
+
+
+---
+
+### <a name="2020-adult-congenital-heart-disease"></a>Adult Congenital Heart Disease
+
+**File:** `2020_Adult_Congenital_Heart_Disease.pdf`
+
+- l *(p. 8, L872)*
+- tblfn1 *(p. 12, L1102)*
+- tblfn2 *(p. 13, L1145)*
+- tblfn3 *(p. 15, L1233)*
+- tblfn4 *(p. 15, L1233)*
+- ehaa554-T6 *(p. 15, L1233)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn10 *(p. 18, L1412)*
+- tblfn11 *(p. 18, L1412)*
+- tblfn12 *(p. 18, L1412)*
+- tblfn13 *(p. 18, L1412)*
+- tblfn14 *(p. 18, L1412)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn5 *(p. 20, L1497)*
+- tblfn6 *(p. 20, L1497)*
+- tblfn7 *(p. 20, L1497)*
+- tblfn8 *(p. 20, L1497)*
+- tblfn9 *(p. 20, L1497)*
+- l *(p. 8, L872)*
+- tblfn24 *(p. 21, L1574)*
+- tblfn25 *(p. 21, L1574)*
+- l *(p. 8, L872)*
+- tblfn15 *(p. 22, L1651)*
+- tblfn16 *(p. 22, L1651)*
+- tblfn17 *(p. 22, L1651)*
+- tblfn18 *(p. 22, L1651)*
+- tblfn19 *(p. 22, L1651)*
+- tblfn20 *(p. 22, L1651)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn26 *(p. 25, L1810)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn27 *(p. 28, L1966)*
+- tblfn28 *(p. 28, L1966)*
+- tblfn34 *(p. 28, L1966)*
+- ehaa554-T11 *(p. 28, L1966)*
+- tblfn35 *(p. 28, L1966)*
+- tblfn36 *(p. 28, L1966)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn29 *(p. 30, L2115)*
+- tblfn30 *(p. 30, L2115)*
+- tblfn31 *(p. 30, L2115)*
+- tblfn32 *(p. 30, L2115)*
+- tblfn33 *(p. 30, L2115)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn37 *(p. 33, L2282)*
+- tblfn38 *(p. 33, L2282)*
+- tblfn39 *(p. 33, L2282)*
+- tblfn40 *(p. 33, L2282)*
+- tblfn41 *(p. 33, L2282)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn42 *(p. 35, L2402)*
+- tblfn43 *(p. 35, L2402)*
+- tblfn44 *(p. 35, L2402)*
+- tblfn45 *(p. 35, L2402)*
+- tblfn46 *(p. 35, L2402)*
+- l *(p. 8, L872)*
+- tblfn47 *(p. 36, L2483)*
+- tblfn48 *(p. 36, L2483)*
+- tblfn49 *(p. 36, L2483)*
+- tblfn50 *(p. 36, L2483)*
+- tblfn51 *(p. 36, L2483)*
+- tblfn52 *(p. 37, L2564)*
+- tblfn53 *(p. 37, L2564)*
+- l *(p. 8, L872)*
+- tblfn66 *(p. 38, L2622)*
+- tblfn67 *(p. 38, L2622)*
+- tblfn68 *(p. 38, L2622)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn54 *(p. 40, L2723)*
+- tblfn55 *(p. 40, L2723)*
+- tblfn56 *(p. 40, L2723)*
+- tblfn57 *(p. 40, L2723)*
+- l *(p. 8, L872)*
+- tblfn58 *(p. 41, L2792)*
+- tblfn59 *(p. 41, L2792)*
+- tblfn60 *(p. 41, L2792)*
+- tblfn61 *(p. 41, L2792)*
+- tblfn62 *(p. 41, L2792)*
+- l *(p. 8, L872)*
+- tblfn63 *(p. 42, L2866)*
+- tblfn64 *(p. 42, L2866)*
+- tblfn65 *(p. 42, L2866)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn69 *(p. 46, L3054)*
+- tblfn70 *(p. 46, L3054)*
+- tblfn71 *(p. 46, L3054)*
+- tblfn72 *(p. 46, L3054)*
+- tblfn73 *(p. 46, L3054)*
+- tblfn74 *(p. 46, L3054)*
+- tblfn75 *(p. 46, L3054)*
+- l *(p. 8, L872)*
+- tblfn76 *(p. 47, L3121)*
+- tblfn77 *(p. 47, L3121)*
+- tblfn78 *(p. 47, L3121)*
+- tblfn79 *(p. 47, L3121)*
+- tblfn80 *(p. 47, L3121)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn81 *(p. 49, L3232)*
+- tblfn82 *(p. 49, L3232)*
+- tblfn83 *(p. 49, L3232)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn84 *(p. 52, L3388)*
+- tblfn85 *(p. 52, L3388)*
+- tblfn86 *(p. 52, L3388)*
+- tblfn87 *(p. 52, L3388)*
+- tblfn88 *(p. 52, L3388)*
+- tblfn89 *(p. 52, L3388)*
+- tblfn90 *(p. 52, L3388)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn91 *(p. 57, L3631)*
+- tblfn92 *(p. 57, L3631)*
+- tblfn93 *(p. 57, L3631)*
+- l *(p. 8, L872)*
+- tblfn94 *(p. 58, L3709)*
+- tblfn95 *(p. 58, L3709)*
+- tblfn96 *(p. 58, L3709)*
+- tblfn97 *(p. 58, L3709)*
+- l *(p. 8, L872)*
+- tblfn98 *(p. 59, L3780)*
+- tblfn99 *(p. 59, L3780)*
+- tblfn100 *(p. 59, L3780)*
+- l *(p. 8, L872)*
+- tblfn101 *(p. 60, L3860)*
+- tblfn102 *(p. 60, L3860)*
+- tblfn103 *(p. 60, L3860)*
+- tblfn104 *(p. 60, L3860)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn105 *(p. 62, L3998)*
+- tblfn106 *(p. 62, L3998)*
+- tblfn107 *(p. 62, L3998)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn108 *(p. 65, L4168)*
+- tblfn109 *(p. 65, L4168)*
+- tblfn110 *(p. 65, L4168)*
+- l *(p. 8, L872)*
+- tblfn111 *(p. 66, L4242)*
+- tblfn112 *(p. 66, L4242)*
+- tblfn113 *(p. 66, L4242)*
+- tblfn114 *(p. 66, L4242)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- l *(p. 8, L872)*
+- tblfn21 *(p. 73, L4776)*
+- tblfn22 *(p. 73, L4776)*
+- tblfn23 *(p. 73, L4776)*
+
+
+---
+
+### <a name="2020-atrial-fibrillation"></a>Atrial Fibrillation
+
+**File:** `2020_Atrial_Fibrillation.pdf`
+
+- l *(p. 7, L845)*
+- l *(p. 7, L845)*
+- l *(p. 7, L845)*
+- tblfn2 *(p. 11, L1081)*
+- ehaa612-T23 *(p. 11, L1081)*
+- l *(p. 7, L845)*
+- tblfn150 *(p. 13, L1220)*
+- ehaa612-T24 *(p. 13, L1220)*
+- tblfn67 *(p. 13, L1220)*
+- ehaa612-3.2 *(p. 14, L1262)*
+- ehaa612-3.3 *(p. 14, L1262)*
+- l *(p. 7, L845)*
+- tblfn68 *(p. 14, L1262)*
+- tblfn69 *(p. 14, L1262)*
+- tblfn70 *(p. 14, L1262)*
+- ehaa612-4.2 *(p. 16, L1306)*
+- l *(p. 7, L845)*
+- tblfn3 *(p. 18, L1357)*
+- l *(p. 7, L845)*
+- tblfn68a *(p. 19, L1406)*
+- tblfn69a *(p. 19, L1406)*
+- tblfn70a *(p. 19, L1406)*
+- l *(p. 7, L845)*
+- l *(p. 7, L845)*
+- tblfn1 *(p. 22, L1507)*
+- l *(p. 7, L845)*
+- ehaa612-8 *(p. 23, L1553)*
+- tblfn74 *(p. 23, L1553)*
+- tblfn75 *(p. 23, L1553)*
+- tblfn76 *(p. 23, L1553)*
+- tblfn77 *(p. 23, L1553)*
+- tblfn4 *(p. 24, L1628)*
+- tblfn5 *(p. 24, L1628)*
+- tblfn6 *(p. 24, L1628)*
+- tblfn7 *(p. 25, L1668)*
+- tblfn8 *(p. 25, L1668)*
+- tblfn9 *(p. 25, L1668)*
+- ehaa612-9 *(p. 26, L1694)*
+- ehaa612-9 *(p. 26, L1694)*
+- ehaa612-9 *(p. 26, L1694)*
+- l *(p. 7, L845)*
+- ehaa612-10.1.1 *(p. 29, L1792)*
+- tblfn10 *(p. 29, L1792)*
+- tblfn11 *(p. 29, L1792)*
+- tblfn12 *(p. 29, L1792)*
+- ehaa612-10.1.2 *(p. 30, L1858)*
+- tblfn78 *(p. 30, L1858)*
+- tblfn13 *(p. 31, L1940)*
+- tblfn80 *(p. 31, L1940)*
+- tblfn81 *(p. 31, L1940)*
+- tblfn82 *(p. 31, L1940)*
+- tblfn83 *(p. 31, L1940)*
+- tblfn84 *(p. 31, L1940)*
+- l *(p. 7, L845)*
+- tblfn14 *(p. 32, L2041)*
+- tblfn15 *(p. 32, L2041)*
+- tblfn16 *(p. 32, L2041)*
+- tblfn17 *(p. 32, L2041)*
+- l *(p. 7, L845)*
+- tblfn18 *(p. 33, L2113)*
+- l *(p. 7, L845)*
+- tblfn19 *(p. 34, L2206)*
+- tblfn20 *(p. 34, L2206)*
+- tblfn21 *(p. 34, L2206)*
+- l *(p. 7, L845)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- ehaa612-10.2.1 *(p. 37, L2339)*
+- tblfn22 *(p. 37, L2339)*
+- tblfn23 *(p. 37, L2339)*
+- tblfn24 *(p. 37, L2339)*
+- tblfn25 *(p. 37, L2339)*
+- ehaa612-10.2.1 *(p. 37, L2339)*
+- tblfn26 *(p. 39, L2438)*
+- tblfn27 *(p. 39, L2438)*
+- tblfn28 *(p. 39, L2438)*
+- tblfn29 *(p. 39, L2438)*
+- tblfn30 *(p. 39, L2438)*
+- tblfn31 *(p. 40, L2520)*
+- tblfn32 *(p. 40, L2520)*
+- tblfn33 *(p. 40, L2520)*
+- tblfn34 *(p. 40, L2520)*
+- tblfn35 *(p. 40, L2520)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- ehaa612-10.2.2.2.2 *(p. 42, L2578)*
+- ehaa612-10.2.2.2 *(p. 42, L2578)*
+- tblfn36 *(p. 42, L2578)*
+- tblfn37 *(p. 42, L2578)*
+- tblfn38 *(p. 42, L2578)*
+- ehaa612-10.2.2.3 *(p. 44, L2641)*
+- tblfn39 *(p. 44, L2641)*
+- tblfn40 *(p. 44, L2641)*
+- tblfn41 *(p. 44, L2641)*
+- tblfn42 *(p. 44, L2641)*
+- tblfn43 *(p. 44, L2641)*
+- ehaa612-10.2.2.3 *(p. 44, L2641)*
+- tblfn44 *(p. 45, L2721)*
+- tblfn45 *(p. 45, L2721)*
+- tblfn46 *(p. 45, L2721)*
+- tblfn47 *(p. 45, L2721)*
+- ehaa612-10.2.2.3.3 *(p. 47, L2816)*
+- ehaa612-10.2.2.3 *(p. 44, L2641)*
+- tblfn48 *(p. 47, L2816)*
+- ehaa612-10.2.2.3 *(p. 44, L2641)*
+- ehaa612-10.2.2.3.6 *(p. 48, L2902)*
+- tblfn49 *(p. 48, L2902)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- tblfn50 *(p. 49, L2941)*
+- tblfn51 *(p. 49, L2941)*
+- tblfn52 *(p. 49, L2941)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- tblfn53 *(p. 50, L3021)*
+- tblfn54 *(p. 50, L3021)*
+- tblfn55 *(p. 50, L3021)*
+- ehaa612-10.2.2.6 *(p. 51, L3067)*
+- tblfn56 *(p. 51, L3067)*
+- tblfn57 *(p. 51, L3067)*
+- tblfn58 *(p. 51, L3067)*
+- ehaa612-10.2.2.6 *(p. 51, L3067)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- tblfn59 *(p. 52, L3152)*
+- tblfn60 *(p. 52, L3152)*
+- tblfn61 *(p. 52, L3152)*
+- tblfn62 *(p. 52, L3152)*
+- tblfn63 *(p. 52, L3152)*
+- tblfn64 *(p. 52, L3152)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- tblfn66 *(p. 53, L3212)*
+- tblfn65 *(p. 53, L3212)*
+- tblfn85 *(p. 55, L3339)*
+- tblfn87 *(p. 55, L3339)*
+- tblfn88 *(p. 56, L3396)*
+- ehaa612-10.2 *(p. 37, L2339)*
+- ehaa612-10.3 *(p. 57, L3429)*
+- tblfn89 *(p. 57, L3429)*
+- tblfn90 *(p. 57, L3429)*
+- tblfn91 *(p. 57, L3429)*
+- ehaa612-10.3.2.4 *(p. 58, L3488)*
+- ehaa612-10.3 *(p. 57, L3429)*
+- ehaa612-11.1 *(p. 59, L3533)*
+- ehaa612-11 *(p. 59, L3533)*
+- tblfn92 *(p. 59, L3533)*
+- tblfn93 *(p. 59, L3533)*
+- tblfn94 *(p. 59, L3533)*
+- tblfn95 *(p. 59, L3533)*
+- tblfn96 *(p. 59, L3533)*
+- tblfn97 *(p. 59, L3533)*
+- ehaa612-11.3 *(p. 60, L3611)*
+- tblfn98 *(p. 62, L3689)*
+- tblfn99 *(p. 62, L3689)*
+- tblfn100 *(p. 62, L3689)*
+- tblfn101 *(p. 62, L3689)*
+- tblfn102 *(p. 62, L3689)*
+- tblfn103 *(p. 62, L3689)*
+- tblfn104 *(p. 62, L3689)*
+- ehaa612-11 *(p. 59, L3533)*
+- ehaa612-11.4.3 *(p. 64, L3804)*
+- ehaa612-11 *(p. 59, L3533)*
+- tblfn105 *(p. 64, L3804)*
+- tblfn106 *(p. 64, L3804)*
+- tblfn107 *(p. 64, L3804)*
+- tblfn108 *(p. 64, L3804)*
+- tblfn109 *(p. 65, L3869)*
+- tblfn110 *(p. 65, L3869)*
+- tblfn111 *(p. 65, L3869)*
+- tblfn112 *(p. 65, L3869)*
+- ehaa612-11 *(p. 59, L3533)*
+- ehaa612-11.6 *(p. 67, L3921)*
+- ehaa612-11.7 *(p. 67, L3921)*
+- tblfn113 *(p. 67, L3921)*
+- tblfn114 *(p. 67, L3921)*
+- tblfn115 *(p. 67, L3921)*
+- tblfn116 *(p. 67, L3921)*
+- tblfn117 *(p. 67, L3921)*
+- tblfn118 *(p. 67, L3921)*
+- ehaa612-11 *(p. 59, L3533)*
+- ehaa612-11 *(p. 59, L3533)*
+- ehaa612-11 *(p. 59, L3533)*
+- tblfn119 *(p. 70, L4080)*
+- tblfn120 *(p. 70, L4080)*
+- tblfn121 *(p. 70, L4080)*
+- ehaa612-11 *(p. 59, L3533)*
+- ehaa612-11.19 *(p. 71, L4145)*
+- tblfn122 *(p. 71, L4145)*
+- tblfn123 *(p. 71, L4145)*
+- tblfn124 *(p. 71, L4145)*
+- tblfn125 *(p. 71, L4145)*
+- tblfn126 *(p. 71, L4145)*
+- tblfn127 *(p. 71, L4145)*
+- tblfn128 *(p. 71, L4145)*
+- tblfn129 *(p. 71, L4145)*
+- tblfn130 *(p. 71, L4145)*
+- tblfn131 *(p. 71, L4145)*
+- tblfn132 *(p. 71, L4145)*
+- tblfn133 *(p. 71, L4145)*
+- ehaa612-11.19 *(p. 71, L4145)*
+- l *(p. 7, L845)*
+- tblfn134 *(p. 73, L4261)*
+- tblfn135 *(p. 73, L4261)*
+- tblfn136 *(p. 73, L4261)*
+- l *(p. 7, L845)*
+- ehaa612-16 *(p. 74, L4314)*
+- tblfn137 *(p. 74, L4314)*
+- tblfn138 *(p. 74, L4314)*
+- tblfn139 *(p. 74, L4314)*
+- tblfn143 *(p. 74, L4314)*
+- tblfn144 *(p. 74, L4314)*
+- tblfn145 *(p. 74, L4314)*
+- tblfn140 *(p. 75, L4374)*
+- tblfn141 *(p. 75, L4374)*
+- tblfn142 *(p. 75, L4374)*
+- l *(p. 7, L845)*
+- tblfn146 *(p. 77, L4447)*
+- tblfn147 *(p. 77, L4447)*
+- tblfn148 *(p. 77, L4447)*
+- l *(p. 7, L845)*
+- l *(p. 7, L845)*
+- tblfn149 *(p. 84, L4977)*
+
+
+---
+
+### <a name="2020-sports-cardiology"></a>Sports Cardiology
+
+**File:** `2020_Sports_Cardiology.pdf`
+
+*Nessun indice disponibile*
+
+---
+
+## Note
+
+- I numeri di pagina si riferiscono alla numerazione interna del PDF
+- Le linee guida ESC sono proprietà della European Society of Cardiology
+- Questo documento è generato automaticamente a scopo di consultazione interna
