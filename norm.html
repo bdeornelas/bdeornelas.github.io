@@ -683,7 +683,11 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 .map(item => item.text.replace(/\.$/, ""));
 
             let conclusioniRaw = "";
-            if (consigliSelezionati.length > 0) {
+            // Check if "Primo riscontro ipertensione" scenario with generated text
+            const scenarioSelect = document.getElementById('scenario-select');
+            if (scenarioSelect.value === 'primo-riscontro-ht' && htGeneratedText) {
+                conclusioniRaw = htGeneratedText;
+            } else if (consigliSelezionati.length > 0) {
                 conclusioniRaw = consigliSelezionati.join(". ") + ".";
             } else {
                 // Default text when no scenario is selected
@@ -975,6 +979,197 @@ Trigliceridi: `;
                 // Reset special flags
                 aggiungereConsigliLipidi = false;
             }
+
+            // Show/hide cascading dropdown for "Primo riscontro ipertensione"
+            const htCascade = document.getElementById('primo-ht-cascade');
+            if (selectedValue === 'primo-riscontro-ht') {
+                htCascade.style.display = 'block';
+            } else {
+                htCascade.style.display = 'none';
+                // Reset cascading selections
+                resetHtCascade();
+            }
+        }
+
+        // Reset all cascading dropdowns for HT scenario
+        function resetHtCascade() {
+            document.getElementById('ht-esami').value = '';
+            document.getElementById('ht-ldl').value = '';
+            document.getElementById('ht-diabete').value = '';
+            document.getElementById('ht-rischio').value = '';
+            document.getElementById('ht-ldl-container').style.display = 'none';
+            document.getElementById('ht-diabete-container').style.display = 'none';
+            document.getElementById('ht-rischio-container').style.display = 'none';
+            document.getElementById('ht-testo-generato').style.display = 'none';
+        }
+
+        // Update cascading dropdowns visibility based on selections
+        function updateHtCascade() {
+            const esami = document.getElementById('ht-esami').value;
+            const ldl = document.getElementById('ht-ldl').value;
+            const diabete = document.getElementById('ht-diabete').value;
+            const rischio = document.getElementById('ht-rischio').value;
+
+            // Show/hide LDL dropdown based on esami selection
+            const ldlContainer = document.getElementById('ht-ldl-container');
+            const diabeteContainer = document.getElementById('ht-diabete-container');
+            const rischioContainer = document.getElementById('ht-rischio-container');
+
+            if (esami === 'disponibili') {
+                ldlContainer.style.display = 'block';
+            } else {
+                ldlContainer.style.display = 'none';
+                document.getElementById('ht-ldl').value = '';
+            }
+
+            // Show diabete if esami selected (disponibili or non-disponibili)
+            if (esami) {
+                diabeteContainer.style.display = 'block';
+            } else {
+                diabeteContainer.style.display = 'none';
+                document.getElementById('ht-diabete').value = '';
+            }
+
+            // Show rischio if diabete selected
+            if (diabete) {
+                rischioContainer.style.display = 'block';
+            } else {
+                rischioContainer.style.display = 'none';
+                document.getElementById('ht-rischio').value = '';
+            }
+
+            // Generate text when all required fields are filled
+            generateHtText();
+        }
+
+        // ESC-compliant text templates for all scenarios
+        function generateHtText() {
+            const esami = document.getElementById('ht-esami').value;
+            const ldl = document.getElementById('ht-ldl').value;
+            const diabete = document.getElementById('ht-diabete').value;
+            const rischio = document.getElementById('ht-rischio').value;
+
+            const testoContainer = document.getElementById('ht-testo-generato');
+            const testoPreview = document.getElementById('ht-testo-preview');
+
+            // Check if minimum required fields are filled
+            let canGenerate = false;
+            if (esami === 'non-disponibili' && diabete && rischio) {
+                canGenerate = true;
+            } else if (esami === 'disponibili' && ldl && diabete && rischio) {
+                canGenerate = true;
+            }
+
+            if (!canGenerate) {
+                testoContainer.style.display = 'none';
+                return;
+            }
+
+            // Generate the text based on the combination
+            let testo = generateHtTextByScenario(esami, ldl, diabete, rischio);
+
+            testoPreview.textContent = testo;
+            testoContainer.style.display = 'block';
+        }
+
+        function generateHtTextByScenario(esami, ldl, diabete, rischio) {
+            let testo = '';
+
+            // Base text for confirmed hypertension
+            const baseHt = `Riscontro di ipertensione arteriosa confermata. Si consiglia di iniziare terapia antipertensiva con l'obiettivo di raggiungere valori pressori target di 120-129/70-79 mmHg. Per completare la valutazione del danno d'organo, si programma ecocardiogramma color Doppler ed ecocolorDoppler dei tronchi sovraortici.`;
+
+            // Text for labs not available
+            if (esami === 'non-disponibili') {
+                testo = baseHt + `\n\nSi richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH.`;
+
+                if (diabete === 'si') {
+                    testo += `\n\nIn considerazione della presenza di diabete, il paziente presenta un rischio cardiovascolare intrinsecamente elevato. L'obiettivo di colesterolo LDL deve essere inferiore a 70 mg/dL con riduzione di almeno il 50% rispetto al valore basale. Si consiglia di avviare terapia con statina ad alta intensità e di verificare il raggiungimento del target lipidico con un controllo degli esami dopo 4-6 settimane dall'inizio della terapia.`;
+                }
+
+                testo += generateLifestyleAdvice(diabete, rischio);
+                return testo;
+            }
+
+            // Text for labs available
+            testo = baseHt;
+
+            // LDL management based on level and risk
+            if (ldl === 'normale') {
+                testo += `\n\nIl profilo lipidico risulta nei limiti di norma.`;
+                if (rischio === 'alto' || rischio === 'molto-alto' || diabete === 'si') {
+                    testo += ` Tuttavia, dato il profilo di rischio cardiovascolare, è opportuno mantenere uno stile di vita sano e rivalutare periodicamente l'assetto lipidico.`;
+                }
+            } else if (ldl === 'elevato') {
+                testo += generateLdlElevatoText(diabete, rischio);
+            } else if (ldl === 'molto-elevato') {
+                testo += generateLdlMoltoElevatoText(diabete, rischio);
+            }
+
+            // Diabetes-specific recommendations
+            if (diabete === 'si') {
+                testo += `\n\nIn presenza di diabete, si raccomanda un controllo glicemico ottimale (HbA1c target individualizzato secondo le linee guida), insieme al monitoraggio regolare della funzione renale e della microalbuminuria.`;
+            }
+
+            testo += generateLifestyleAdvice(diabete, rischio);
+
+            return testo;
+        }
+
+        function generateLdlElevatoText(diabete, rischio) {
+            let testo = '';
+
+            if (diabete === 'si' || rischio === 'alto' || rischio === 'molto-alto') {
+                // High/very high risk or diabetic: drug + lifestyle together
+                const target = (rischio === 'molto-alto' || diabete === 'si') ? '55' : '70';
+                testo = `\n\nIl colesterolo LDL risulta al di sopra del target raccomandato per il profilo di rischio cardiovascolare del paziente. Si consiglia di avviare terapia con statina ad alta intensità con l'obiettivo di raggiungere un valore di LDL inferiore a ${target} mg/dL e una riduzione di almeno il 50% rispetto al valore basale. Contestualmente si raccomanda l'adozione di un'alimentazione cardioprotettiva. Si programma un controllo del profilo lipidico dopo 4-6 settimane dall'inizio della terapia per verificare il raggiungimento del target.`;
+            } else if (rischio === 'moderato') {
+                // Moderate risk: lifestyle first, consider drug if uncontrolled
+                testo = `\n\nIl colesterolo LDL risulta lievemente elevato. In considerazione del profilo di rischio cardiovascolare moderato, si consiglia in prima istanza l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL. Si programma un controllo del profilo lipidico dopo 4-6 settimane per rivalutare la necessità di integrare con terapia farmacologica qualora le modifiche dello stile di vita non fossero sufficienti.`;
+            } else {
+                // Low risk: lifestyle only
+                testo = `\n\nIl colesterolo LDL risulta lievemente elevato. In considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita con particolare attenzione all'alimentazione. Non vi è indicazione attuale a terapia farmacologica ipolipemizzante. Si consiglia controllo periodico del profilo lipidico.`;
+            }
+
+            return testo;
+        }
+
+        function generateLdlMoltoElevatoText(diabete, rischio) {
+            let testo = '';
+            const target = (rischio === 'molto-alto' || diabete === 'si') ? '55' : (rischio === 'alto' ? '70' : '100');
+
+            testo = `\n\nIl colesterolo LDL risulta significativamente elevato (superiore a 190 mg/dL). Indipendentemente dal profilo di rischio calcolato, valori così elevati richiedono un approfondimento diagnostico per escludere forme di ipercolesterolemia familiare. Si consiglia di avviare terapia con statina ad alta intensità, eventualmente in associazione con ezetimibe se necessario per raggiungere il target di LDL inferiore a ${target} mg/dL. Contestualmente si raccomanda l'adozione di un'alimentazione cardioprotettiva. Si programma un controllo del profilo lipidico dopo 4-6 settimane dall'inizio della terapia.`;
+
+            return testo;
+        }
+
+        function generateLifestyleAdvice(diabete, rischio) {
+            let testo = `\n\nSi raccomandano le seguenti indicazioni sullo stile di vita:\n`;
+            testo += `- Alimentazione di tipo mediterraneo con consumo quotidiano di verdura (almeno 200g), frutta fresca (almeno 200g), cereali integrali e legumi. Limitare i grassi saturi a meno del 10% delle calorie totali, preferendo olio extravergine d'oliva come condimento principale.\n`;
+            testo += `- Consumare pesce ricco di omega-3 (salmone, sgombro, sardine) almeno 1-2 volte a settimana.\n`;
+            testo += `- Limitare la carne rossa a massimo 350-500g alla settimana ed evitare carni lavorate (insaccati, salumi).\n`;
+            testo += `- Includere una porzione giornaliera di frutta secca (30g di noci, mandorle).\n`;
+            testo += `- Apporto di fibre di 30-45g al giorno.\n`;
+            testo += `- Limitare il consumo di sale a meno di 5g al giorno.\n`;
+            testo += `- Attività fisica aerobica regolare: almeno 150-300 minuti alla settimana di intensità moderata (camminata veloce, nuoto, bicicletta).\n`;
+            testo += `- Mantenere un peso corporeo sano (indice di massa corporea 20-25 kg/m2).\n`;
+            testo += `- Evitare il fumo di sigaretta.\n`;
+            testo += `- Moderare il consumo di alcol (se presente).`;
+
+            return testo;
+        }
+
+        // Apply the generated text to the conclusions textarea
+        let htGeneratedText = '';
+        function applicaTestoHt() {
+            const testoPreview = document.getElementById('ht-testo-preview');
+            htGeneratedText = testoPreview.textContent;
+
+            // Store for use in compilaVisita
+            const notification = document.createElement('div');
+            notification.textContent = 'Testo applicato alle conclusioni!';
+            notification.style.cssText = 'position: fixed; bottom: 20px; right: 20px; background: var(--success-color); color: white; padding: 12px 20px; border-radius: 6px; z-index: 1000;';
+            document.body.appendChild(notification);
+            setTimeout(() => notification.remove(), 2000);
         }
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -1229,7 +1424,54 @@ Trigliceridi: `;
                     <option value="lipidi">Consigli Lipidi</option>
                     <option value="ipertensione">Ipertensione secondaria</option>
                     <option value="contatto">Info Contatto</option>
+                    <option value="primo-riscontro-ht">Primo riscontro ipertensione</option>
                 </select>
+            </div>
+
+            <!-- Cascading dropdowns for "Primo riscontro ipertensione" -->
+            <div id="primo-ht-cascade" style="display: none; margin-top: 12px; padding: 12px; background: var(--surface-color); border-radius: 8px; border: 1px solid var(--border-color);">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px;">
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <label for="ht-esami">Esami ematochimici</label>
+                        <select id="ht-esami" onchange="updateHtCascade()">
+                            <option value="">-- Seleziona --</option>
+                            <option value="disponibili">Disponibili</option>
+                            <option value="non-disponibili">Non disponibili</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="ht-ldl-container" style="display: none; margin-bottom: 0;">
+                        <label for="ht-ldl">Livello LDL</label>
+                        <select id="ht-ldl" onchange="updateHtCascade()">
+                            <option value="">-- Seleziona --</option>
+                            <option value="normale">&lt; 116 mg/dL (Normale)</option>
+                            <option value="elevato">116-190 mg/dL (Elevato)</option>
+                            <option value="molto-elevato">&gt; 190 mg/dL (Molto elevato)</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="ht-diabete-container" style="display: none; margin-bottom: 0;">
+                        <label for="ht-diabete">Diabete</label>
+                        <select id="ht-diabete" onchange="updateHtCascade()">
+                            <option value="">-- Seleziona --</option>
+                            <option value="no">No</option>
+                            <option value="si">Si</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="ht-rischio-container" style="display: none; margin-bottom: 0;">
+                        <label for="ht-rischio">Rischio CV</label>
+                        <select id="ht-rischio" onchange="updateHtCascade()">
+                            <option value="">-- Seleziona --</option>
+                            <option value="basso">Basso (&lt;2%)</option>
+                            <option value="moderato">Moderato (2-5%)</option>
+                            <option value="alto">Alto (5-10%)</option>
+                            <option value="molto-alto">Molto alto (&gt;10%)</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="ht-testo-generato" style="margin-top: 12px; padding: 10px; background: var(--background-color); border-radius: 6px; display: none;">
+                    <label style="font-weight: 600; font-size: 0.85em; color: var(--text-muted);">Testo generato:</label>
+                    <div id="ht-testo-preview" style="margin-top: 6px; font-size: 0.9em; line-height: 1.5; white-space: pre-wrap;"></div>
+                    <button type="button" onclick="applicaTestoHt()" style="margin-top: 10px; padding: 6px 12px; background: var(--primary-color); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.85em;">Applica alle Conclusioni</button>
+                </div>
             </div>
 
             <!-- Hidden checkboxes to maintain compatibility with existing code -->
