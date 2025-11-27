@@ -10,7 +10,8 @@
     "vercel-build": "bundle install && npm run build:tailwind && bundle exec jekyll build && npm run build",
     "vercel-deploy": "npx vercel --prod",
     "vercel-deploy:force": "npx vercel --prod --yes",
-    "dev": "bundle exec jekyll serve --livereload"
+    "dev": "bundle exec jekyll serve --livereload",
+    "build:full": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle exec jekyll build && cp -r claude-project-files _site/ && cp ESC_GUIDELINES_TOC.md _site/"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",
