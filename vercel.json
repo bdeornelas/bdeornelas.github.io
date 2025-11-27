@@ -3,11 +3,6 @@
   "outputDirectory": "_site",
   "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
-  "functions": {
-    "api/*.js": {
-      "runtime": "@vercel/node@3"
-    }
-  },
   "build": {
     "env": {
       "RUBY_VERSION": "2.7.6"
