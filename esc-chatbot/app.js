@@ -76,7 +76,8 @@ class ESCChatbot {
 
     async loadTOC() {
         try {
-            const response = await fetch('/ESC_GUIDELINES_TOC.md');
+            // Use raw GitHub URL to bypass Jekyll processing
+            const response = await fetch('https://raw.githubusercontent.com/bdeornelas/bdeornelas.github.io/main/ESC_GUIDELINES_TOC.md');
             this.tocData = await response.text();
             console.log('TOC loaded successfully, length:', this.tocData.length);
         } catch (error) {
@@ -89,8 +90,8 @@ class ESCChatbot {
             return this.guidelinesCache[filename];
         }
         try {
-            // Use individual guideline files from references folder (like /esc command does)
-            const response = await fetch(`/references/esc-guidelines-md/${filename}.md`);
+            // Use raw GitHub URL to bypass Jekyll processing
+            const response = await fetch(`https://raw.githubusercontent.com/bdeornelas/bdeornelas.github.io/main/references/esc-guidelines-md/${filename}.md`);
             if (!response.ok) throw new Error(`File not found: ${filename}`);
             const content = await response.text();
             this.guidelinesCache[filename] = content;
