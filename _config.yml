@@ -34,6 +34,7 @@ include:
   - _pages
   - esc-chatbot
   - claude-project-files
+  - references
 
 # Collections
 collections:
