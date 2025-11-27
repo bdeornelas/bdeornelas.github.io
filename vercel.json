@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bash build.sh",
+  "buildCommand": "chmod +x build.sh && ./build.sh",
   "outputDirectory": "_site",
   "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
