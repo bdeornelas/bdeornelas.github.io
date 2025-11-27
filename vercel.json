@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle install && echo \"url: https://$VERCEL_URL\" > _config.vercel.yml && bundle exec jekyll build --config _config.yml,_config.vercel.yml",
+  "buildCommand": "npm run build && cp dist/css/style.css assets/css/style.min.css && cp dist/js/main.js assets/js/main.min.js && bundle install && echo \"url: https://$VERCEL_URL\" > _config.vercel.yml && bundle exec jekyll build --config _config.yml,_config.vercel.yml && cp -r api _site/",
   "outputDirectory": "_site",
   "installCommand": "gem install bundler:2.4.22 && rm -f Gemfile.lock && bundle install && npm install",
   "framework": null,
@@ -47,12 +47,6 @@
           "value": "public, max-age=600"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
     }
   ],
   "redirects": [
