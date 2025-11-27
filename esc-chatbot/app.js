@@ -9,6 +9,36 @@ class ESCChatbot {
         this.model = 'anthropic/claude-3.5-sonnet';
         this.tocData = null;
         this.guidelinesCache = {}; // Cache for loaded guideline files
+        // All available guideline files (separate, not merged)
+        this.guidelineFiles = [
+            '2020_ACS_NSTE',
+            '2020_Adult_Congenital_Heart_Disease',
+            '2020_Atrial_Fibrillation',
+            '2020_Sports_Cardiology',
+            '2021_CVD_Prevention',
+            '2021_Cardiac_Pacing_CRT',
+            '2021_Heart_Failure',
+            '2021_Valvular_Heart_Disease',
+            '2022_Cardio_Oncology',
+            '2022_Non_Cardiac_Surgery',
+            '2022_Pulmonary_Hypertension',
+            '2022_Ventricular_Arrhythmias_SCD',
+            '2023_Acute_Coronary_Syndromes',
+            '2023_CVD_Diabetes',
+            '2023_Cardiomyopathies',
+            '2023_Cardiomyopathies_Supplementary',
+            '2023_Endocarditis',
+            '2023_Heart_Failure_Update',
+            '2024_Atrial_Fibrillation',
+            '2024_Chronic_Coronary_Syndromes',
+            '2024_Hypertension',
+            '2024_Peripheral_Arterial_Aortic',
+            '2025_Dyslipidaemias_Update',
+            '2025_Mental_Health_CVD',
+            '2025_Myocarditis_Pericarditis',
+            '2025_Pregnancy_CVD',
+            '2025_Valvular_Heart_Disease'
+        ];
         this.init();
     }
 
@@ -28,19 +58,19 @@ class ESCChatbot {
         }
     }
 
-    async loadGuidelineFile(year) {
-        if (this.guidelinesCache[year]) {
-            return this.guidelinesCache[year];
+    async loadGuidelineFile(filename) {
+        if (this.guidelinesCache[filename]) {
+            return this.guidelinesCache[filename];
         }
         try {
-            const response = await fetch(`/claude-project-files/ESC_${year}.md`);
-            if (!response.ok) throw new Error(`File not found for year ${year}`);
+            const response = await fetch(`/claude-project-files/${filename}.md`);
+            if (!response.ok) throw new Error(`File not found: ${filename}`);
             const content = await response.text();
-            this.guidelinesCache[year] = content.split('\n');
-            console.log(`Loaded ESC_${year}.md (${this.guidelinesCache[year].length} lines)`);
-            return this.guidelinesCache[year];
+            this.guidelinesCache[filename] = content.split('\n');
+            console.log(`Loaded ${filename}.md (${this.guidelinesCache[filename].length} lines)`);
+            return this.guidelinesCache[filename];
         } catch (error) {
-            console.error(`Error loading ESC_${year}.md:`, error);
+            console.error(`Error loading ${filename}.md:`, error);
             return null;
         }
     }
@@ -144,33 +174,37 @@ class ESCChatbot {
         const keywords = this.extractKeywords(question);
         const questionWords = question.toLowerCase().split(/\s+/).filter(w => w.length > 4);
         const matches = [];
-        const years = ['2023', '2024', '2025', '2022', '2021', '2020'];
 
         console.log('Direct search keywords:', keywords);
         console.log('Question words:', questionWords);
 
-        for (const year of years) {
+        // Prioritize files based on question content
+        const prioritizedFiles = this.prioritizeFiles(keywords, questionWords);
+        console.log('Prioritized files:', prioritizedFiles.slice(0, 5).map(f => f.file));
+
+        for (const { file, priority } of prioritizedFiles) {
             try {
-                console.log(`Searching ESC_${year}...`);
-                const lines = await this.loadGuidelineFile(year);
+                console.log(`Searching ${file}...`);
+                const lines = await this.loadGuidelineFile(file);
                 if (!lines || lines.length === 0) {
-                    console.log(`Failed to load ESC_${year}`);
+                    console.log(`Failed to load ${file}`);
                     continue;
                 }
-                console.log(`Loaded ESC_${year}: ${lines.length} lines`);
+                console.log(`Loaded ${file}: ${lines.length} lines`);
 
-                // First, quick search for exact question words in the raw content
+                // Quick search for exact question words in the raw content
                 const rawContent = lines.join('\n').toLowerCase();
                 let startSearchLine = 0;
+                let foundTerm = null;
 
                 // Find the first occurrence of any long question word
                 for (const word of questionWords) {
-                    if (word.length >= 6) { // Only search for longer words like drug names
+                    if (word.length >= 6) {
                         const idx = rawContent.indexOf(word);
                         if (idx !== -1) {
-                            // Count newlines to find line number
                             startSearchLine = rawContent.substring(0, idx).split('\n').length - 1;
-                            console.log(`Found "${word}" around line ${startSearchLine}`);
+                            foundTerm = word;
+                            console.log(`Found "${word}" at line ${startSearchLine} in ${file}`);
                             break;
                         }
                     }
@@ -190,6 +224,8 @@ class ESCChatbot {
                     questionWords.forEach(word => {
                         if (chunk.includes(word)) matchScore += 3;
                     });
+                    // Bonus for files that matched by name priority
+                    matchScore += priority;
 
                     if (matchScore > bestScore) {
                         bestScore = matchScore;
@@ -201,8 +237,10 @@ class ESCChatbot {
                                 break;
                             }
                         }
+                        const year = file.substring(0, 4);
                         bestMatch = {
-                            tocLine: `Direct match in ESC_${year}.md`,
+                            tocLine: `Direct match in ${file}.md`,
+                            filename: file,
                             year: year,
                             startLine: i + 1,
                             page: page,
@@ -212,23 +250,84 @@ class ESCChatbot {
                 }
 
                 if (bestMatch && bestScore >= 4) {
-                    console.log(`Found match in ${year}: line ${bestMatch.startLine}, score ${bestScore}`);
+                    console.log(`Found match in ${file}: line ${bestMatch.startLine}, score ${bestScore}`);
                     matches.push(bestMatch);
-                    if (bestScore >= 8) {
-                        console.log('Found excellent match, stopping search');
+                    // If we found an excellent match in a prioritized file, stop
+                    if (bestScore >= 10 && foundTerm) {
+                        console.log('Found excellent match with search term, stopping');
                         break;
                     }
                 } else {
-                    console.log(`No good match in ${year}, best score: ${bestScore}`);
+                    console.log(`No good match in ${file}, best score: ${bestScore}`);
                 }
+
+                // Limit search to top 8 files max
+                if (matches.length >= 3) break;
             } catch (error) {
-                console.error(`Error searching ${year}:`, error);
+                console.error(`Error searching ${file}:`, error);
             }
         }
 
         console.log('Direct search results:', matches.length);
         matches.sort((a, b) => b.score - a.score);
         return matches.slice(0, 3);
+    }
+
+    prioritizeFiles(keywords, questionWords) {
+        // Map keywords to relevant guideline files
+        const fileKeywords = {
+            '2023_Cardiomyopathies': ['cardiomyopathy', 'hcm', 'dcm', 'hypertrophic', 'mavacamten', 'aficamten', 'obstructive'],
+            '2023_Cardiomyopathies_Supplementary': ['cardiomyopathy', 'hcm', 'dcm', 'hypertrophic'],
+            '2024_Atrial_Fibrillation': ['fibrillation', 'af', 'afib', 'anticoagul', 'ablation', 'rhythm'],
+            '2020_Atrial_Fibrillation': ['fibrillation', 'af', 'afib', 'anticoagul'],
+            '2021_Heart_Failure': ['heart failure', 'hf', 'ejection', 'lvef', 'hfref', 'hfpef', 'sacubitril'],
+            '2023_Heart_Failure_Update': ['heart failure', 'hf', 'sglt2', 'empagliflozin', 'dapagliflozin'],
+            '2023_Acute_Coronary_Syndromes': ['acs', 'stemi', 'nstemi', 'infarction', 'troponin', 'pci'],
+            '2024_Chronic_Coronary_Syndromes': ['ccs', 'angina', 'coronary', 'stent', 'cabg'],
+            '2021_Valvular_Heart_Disease': ['valve', 'stenosis', 'regurgitation', 'mitral', 'aortic', 'tricuspid'],
+            '2025_Valvular_Heart_Disease': ['valve', 'stenosis', 'regurgitation', 'mitral', 'aortic', 'tavi', 'tavr'],
+            '2024_Hypertension': ['hypertension', 'blood pressure', 'arterial', 'antihypertensive'],
+            '2023_Endocarditis': ['endocarditis', 'infective', 'vegetation'],
+            '2023_CVD_Diabetes': ['diabetes', 'glycemic', 'sglt2', 'glp1'],
+            '2022_Pulmonary_Hypertension': ['pulmonary hypertension', 'ph', 'pah'],
+            '2022_Ventricular_Arrhythmias_SCD': ['arrhythmia', 'vt', 'vf', 'sudden death', 'icd', 'defibrillator'],
+            '2021_Cardiac_Pacing_CRT': ['pacemaker', 'pacing', 'crt', 'bradycardia', 'av block'],
+            '2024_Peripheral_Arterial_Aortic': ['aorta', 'aneurysm', 'dissection', 'peripheral', 'claudication'],
+            '2025_Myocarditis_Pericarditis': ['myocarditis', 'pericarditis', 'pericardial'],
+            '2025_Pregnancy_CVD': ['pregnancy', 'pregnant', 'gestational'],
+            '2022_Non_Cardiac_Surgery': ['surgery', 'perioperative', 'non-cardiac'],
+            '2022_Cardio_Oncology': ['cardio-oncology', 'chemotherapy', 'cancer', 'anthracycline'],
+            '2021_CVD_Prevention': ['prevention', 'risk', 'score', 'lipid', 'statin'],
+            '2025_Dyslipidaemias_Update': ['cholesterol', 'ldl', 'lipid', 'statin', 'pcsk9'],
+            '2020_Sports_Cardiology': ['sport', 'athlete', 'exercise'],
+            '2020_Adult_Congenital_Heart_Disease': ['congenital', 'achd', 'shunt'],
+            '2025_Mental_Health_CVD': ['mental', 'depression', 'anxiety', 'psychological'],
+            '2020_ACS_NSTE': ['nstemi', 'nste-acs', 'unstable angina']
+        };
+
+        const allKeywords = [...keywords, ...questionWords].map(k => k.toLowerCase());
+
+        return this.guidelineFiles.map(file => {
+            let priority = 0;
+            const fileKws = fileKeywords[file] || [];
+
+            // Check how many keywords match this file's topics
+            for (const kw of allKeywords) {
+                if (fileKws.some(fkw => kw.includes(fkw) || fkw.includes(kw))) {
+                    priority += 5;
+                }
+                // Also check if keyword appears in filename
+                if (file.toLowerCase().includes(kw)) {
+                    priority += 3;
+                }
+            }
+
+            // Prefer newer guidelines
+            const year = parseInt(file.substring(0, 4));
+            priority += (year - 2020) * 0.5;
+
+            return { file, priority };
+        }).sort((a, b) => b.priority - a.priority);
     }
 
     searchTOC(question) {
@@ -294,20 +393,21 @@ class ESCChatbot {
         if (tocMatches.length === 0) return '';
 
         const contentParts = [];
-        const yearsToLoad = [...new Set(tocMatches.map(m => m.year))];
+        const filesToLoad = [...new Set(tocMatches.map(m => m.filename || `ESC_${m.year}`))];
 
-        // Load all needed year files
-        for (const year of yearsToLoad) {
-            await this.loadGuidelineFile(year);
+        // Load all needed files
+        for (const file of filesToLoad) {
+            await this.loadGuidelineFile(file);
         }
 
         for (const match of tocMatches) {
-            const lines = this.guidelinesCache[match.year];
+            const cacheKey = match.filename || `ESC_${match.year}`;
+            const lines = this.guidelinesCache[cacheKey];
             if (!lines) continue;
 
             // Find the next section's start line to know where to stop
             const nextMatch = tocMatches.find(m =>
-                m.year === match.year && m.startLine > match.startLine
+                (m.filename || m.year) === (match.filename || match.year) && m.startLine > match.startLine
             );
             const endLine = nextMatch ? nextMatch.startLine : match.startLine + 200;
 
@@ -316,7 +416,8 @@ class ESCChatbot {
             const endIdx = Math.min(lines.length, startIdx + 150, endLine);
             const sectionContent = lines.slice(startIdx, endIdx).join('\n');
 
-            contentParts.push(`\n--- FROM: ESC_${match.year}.md (Line ${match.startLine}, Page ${match.page}) ---\n${sectionContent}`);
+            const filename = match.filename || `ESC_${match.year}`;
+            contentParts.push(`\n--- FROM: ${filename}.md (Line ${match.startLine}, Page ${match.page}) ---\n${sectionContent}`);
         }
 
         // Limit total content to avoid token limits
