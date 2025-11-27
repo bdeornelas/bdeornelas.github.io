@@ -4,9 +4,10 @@
 
 class ESCChatbot {
     constructor() {
-        this.apiKey = localStorage.getItem('openrouter_api_key');
-        this.model = localStorage.getItem('openrouter_model') || 'anthropic/claude-3.5-sonnet';
-        this.streamEnabled = localStorage.getItem('stream_enabled') === 'true';
+        // Hardcoded API key for personal use
+        this.apiKey = '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';
+        this.model = 'anthropic/claude-3.5-sonnet';
+        this.streamEnabled = false;
         this.tocData = null;
 
         this.init();
@@ -19,8 +20,8 @@ class ESCChatbot {
         // Setup event listeners
         this.setupEventListeners();
 
-        // Check API key
-        this.checkAPIKey();
+        // Enable chatbot (no API key check needed)
+        this.enableChatbot();
     }
 
     async loadTOC() {
@@ -62,28 +63,6 @@ class ESCChatbot {
                 form.dispatchEvent(new Event('submit'));
             });
         });
-
-        // Settings modal
-        document.getElementById('show-settings').addEventListener('click', (e) => {
-            e.preventDefault();
-            this.showSettings();
-        });
-        document.getElementById('close-settings').addEventListener('click', () => {
-            this.hideSettings();
-        });
-        document.getElementById('cancel-settings').addEventListener('click', () => {
-            this.hideSettings();
-        });
-        document.getElementById('save-settings').addEventListener('click', () => {
-            this.saveSettings();
-        });
-
-        // Click outside modal to close
-        document.getElementById('settings-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'settings-modal') {
-                this.hideSettings();
-            }
-        });
     }
 
     autoResize(textarea) {
@@ -91,62 +70,22 @@ class ESCChatbot {
         textarea.style.height = Math.min(textarea.scrollHeight, 200) + 'px';
     }
 
-    checkAPIKey() {
+    enableChatbot() {
+        // Hide API notice if exists
         const notice = document.getElementById('api-key-notice');
+        if (notice) notice.style.display = 'none';
+
+        // Enable input and button
         const input = document.getElementById('chat-input');
         const sendBtn = document.getElementById('send-button');
+        input.disabled = false;
+        sendBtn.disabled = false;
+        input.placeholder = 'Fai una domanda sulle linee guida ESC...';
+
+        // Update status badge
         const statusBadge = document.getElementById('status-badge');
-
-        if (this.apiKey) {
-            notice.style.display = 'none';
-            input.disabled = false;
-            sendBtn.disabled = false;
-            input.placeholder = 'Fai una domanda sulle linee guida ESC...';
-            statusBadge.innerHTML = '<span class="badge-dot"></span> Pronto';
-            statusBadge.className = 'badge badge-success';
-        } else {
-            notice.style.display = 'block';
-            input.disabled = true;
-            sendBtn.disabled = true;
-            input.placeholder = 'Inserisci la tua API key per iniziare...';
-            statusBadge.innerHTML = '<span class="badge-dot"></span> Non configurato';
-            statusBadge.className = 'badge badge-warning';
-        }
-    }
-
-    showSettings() {
-        const modal = document.getElementById('settings-modal');
-        const apiKeyInput = document.getElementById('api-key-input');
-        const modelSelect = document.getElementById('model-select');
-        const streamCheckbox = document.getElementById('stream-responses');
-
-        apiKeyInput.value = this.apiKey || '';
-        modelSelect.value = this.model;
-        streamCheckbox.checked = this.streamEnabled;
-
-        modal.classList.add('active');
-    }
-
-    hideSettings() {
-        const modal = document.getElementById('settings-modal');
-        modal.classList.remove('active');
-    }
-
-    saveSettings() {
-        const apiKeyInput = document.getElementById('api-key-input');
-        const modelSelect = document.getElementById('model-select');
-        const streamCheckbox = document.getElementById('stream-responses');
-
-        this.apiKey = apiKeyInput.value.trim();
-        this.model = modelSelect.value;
-        this.streamEnabled = streamCheckbox.checked;
-
-        localStorage.setItem('openrouter_api_key', this.apiKey);
-        localStorage.setItem('openrouter_model', this.model);
-        localStorage.setItem('stream_enabled', this.streamEnabled);
-
-        this.checkAPIKey();
-        this.hideSettings();
+        statusBadge.innerHTML = '<span class="badge-dot"></span> Pronto';
+        statusBadge.className = 'badge badge-success';
     }
 
     async sendMessage() {

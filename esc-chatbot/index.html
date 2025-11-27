@@ -135,19 +135,14 @@
 
                 <!-- Input Area -->
                 <div class="chat-input-container">
-                    <div class="api-key-notice" id="api-key-notice">
-                        ⚠️ <strong>Configurazione richiesta:</strong>
-                        <a href="#" id="show-settings">Inserisci la tua OpenRouter API key</a>
-                    </div>
                     <form class="chat-input-form" id="chat-form">
                         <textarea
                             class="chat-input"
                             id="chat-input"
                             placeholder="Fai una domanda sulle linee guida ESC..."
                             rows="1"
-                            disabled
                         ></textarea>
-                        <button type="submit" class="send-button" id="send-button" disabled>
+                        <button type="submit" class="send-button" id="send-button">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <line x1="22" y1="2" x2="11" y2="13"></line>
                                 <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
@@ -157,57 +152,6 @@
                     <div class="input-hint">
                         Shift + Enter per nuova linea • Enter per inviare
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Settings Modal -->
-        <div class="modal" id="settings-modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2>Configurazione</h2>
-                    <button class="modal-close" id="close-settings">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="api-key-input">
-                            OpenRouter API Key
-                            <a href="https://openrouter.ai/keys" target="_blank" class="help-link">
-                                (Ottieni qui)
-                            </a>
-                        </label>
-                        <input
-                            type="password"
-                            id="api-key-input"
-                            class="form-control"
-                            placeholder="sk-or-v1-..."
-                        >
-                        <small class="form-text">
-                            La tua API key non viene salvata sui server, rimane solo nel tuo browser.
-                        </small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="model-select">Modello</label>
-                        <select id="model-select" class="form-control">
-                            <option value="anthropic/claude-3.5-sonnet" selected>Claude 3.5 Sonnet (Raccomandato)</option>
-                            <option value="anthropic/claude-3-opus">Claude 3 Opus</option>
-                            <option value="openai/gpt-4-turbo">GPT-4 Turbo</option>
-                            <option value="openai/gpt-4o">GPT-4o</option>
-                            <option value="google/gemini-pro-1.5">Gemini 1.5 Pro</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" id="stream-responses">
-                            Stream responses (risposta in tempo reale)
-                        </label>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" id="cancel-settings">Annulla</button>
-                    <button class="btn btn-primary" id="save-settings">Salva</button>
                 </div>
             </div>
         </div>
