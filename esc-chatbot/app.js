@@ -117,8 +117,17 @@ class ESCChatbot {
 
     async queryESCGuidelines(question) {
         // Phase 1: LOCATE - Find relevant sections in TOC
-        const tocMatches = this.searchTOC(question);
+        let tocMatches = this.searchTOC(question);
         console.log('TOC matches:', tocMatches);
+
+        // Phase 1b: If TOC search yields weak results, do direct content search
+        if (tocMatches.length < 2 || tocMatches[0]?.score < 2) {
+            const directMatches = await this.searchContentDirectly(question);
+            if (directMatches.length > 0) {
+                tocMatches = [...tocMatches, ...directMatches].slice(0, 5);
+                console.log('Added direct content matches:', directMatches.length);
+            }
+        }
 
         // Phase 2: READ - Extract actual content from MD files
         const extractedContent = await this.extractContent(tocMatches);
@@ -129,6 +138,49 @@ class ESCChatbot {
         const userPrompt = this.buildUserPrompt(question, extractedContent, tocMatches);
 
         return await this.callOpenRouter(systemPrompt, userPrompt);
+    }
+
+    async searchContentDirectly(question) {
+        const keywords = this.extractKeywords(question);
+        const matches = [];
+        const years = ['2024', '2023', '2025', '2022', '2021', '2020'];
+
+        for (const year of years) {
+            const lines = await this.loadGuidelineFile(year);
+            if (!lines) continue;
+
+            // Search for keyword matches in content
+            for (let i = 0; i < lines.length; i += 50) {
+                const chunk = lines.slice(i, i + 100).join(' ').toLowerCase();
+                const matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
+
+                if (matchScore >= 2) {
+                    // Find the nearest page marker
+                    let page = null;
+                    for (let j = i; j >= Math.max(0, i - 50); j--) {
+                        const pageMatch = lines[j].match(/^### Page (\d+)/);
+                        if (pageMatch) {
+                            page = parseInt(pageMatch[1]);
+                            break;
+                        }
+                    }
+
+                    matches.push({
+                        tocLine: `Direct match in ESC_${year}.md`,
+                        year: year,
+                        startLine: i + 1,
+                        page: page,
+                        score: matchScore
+                    });
+
+                    // Only take first good match per year
+                    break;
+                }
+            }
+        }
+
+        matches.sort((a, b) => b.score - a.score);
+        return matches.slice(0, 3);
     }
 
     searchTOC(question) {
@@ -221,6 +273,7 @@ class ESCChatbot {
 
     extractKeywords(question) {
         const termMap = {
+            // Anatomia e condizioni
             'aorta': ['aorta', 'aortic', 'ascending', 'root'],
             'fibrillazione atriale': ['atrial fibrillation', 'af', 'fibrillation', 'afib'],
             'stenosi': ['stenosis', 'stenotic', 'severe'],
@@ -239,6 +292,22 @@ class ESCChatbot {
             'endocardite': ['endocarditis', 'infective'],
             'cardiomiopatia': ['cardiomyopathy', 'hcm', 'dcm'],
             'ipertensione polmonare': ['pulmonary hypertension', 'ph'],
+            // Farmaci -> condizioni correlate
+            'mavacamten': ['mavacamten', 'cardiomyopathy', 'hcm', 'hypertrophic', 'obstructive'],
+            'aficamten': ['aficamten', 'cardiomyopathy', 'hcm', 'hypertrophic'],
+            'empagliflozin': ['empagliflozin', 'sglt2', 'heart failure', 'diabetes'],
+            'dapagliflozin': ['dapagliflozin', 'sglt2', 'heart failure', 'diabetes'],
+            'sacubitril': ['sacubitril', 'arni', 'heart failure', 'hfref'],
+            'valsartan': ['valsartan', 'arni', 'heart failure'],
+            'entresto': ['entresto', 'sacubitril', 'arni', 'heart failure'],
+            'rivaroxaban': ['rivaroxaban', 'anticoagul', 'doac', 'fibrillation'],
+            'apixaban': ['apixaban', 'anticoagul', 'doac', 'fibrillation'],
+            'edoxaban': ['edoxaban', 'anticoagul', 'doac', 'fibrillation'],
+            'dabigatran': ['dabigatran', 'anticoagul', 'doac', 'fibrillation'],
+            'betabloccante': ['beta-blocker', 'metoprolol', 'bisoprolol', 'carvedilol'],
+            'statina': ['statin', 'atorvastatin', 'rosuvastatin', 'cholesterol'],
+            'ace inibitore': ['ace inhibitor', 'ramipril', 'enalapril', 'lisinopril'],
+            'sartano': ['arb', 'losartan', 'valsartan', 'candesartan'],
         };
 
         const keywords = new Set();
