@@ -144,11 +144,20 @@ class ESCChatbot {
         const keywords = this.extractKeywords(question);
         const questionWords = question.toLowerCase().split(/\s+/).filter(w => w.length > 4);
         const matches = [];
-        const years = ['2024', '2023', '2025', '2022', '2021', '2020'];
+        // Prioritize years based on common topics
+        const years = ['2023', '2024', '2025', '2022', '2021', '2020'];
+
+        console.log('Direct search keywords:', keywords);
+        console.log('Question words:', questionWords);
 
         for (const year of years) {
+            console.log(`Searching ESC_${year}...`);
             const lines = await this.loadGuidelineFile(year);
-            if (!lines) continue;
+            if (!lines) {
+                console.log(`Failed to load ESC_${year}`);
+                continue;
+            }
+            console.log(`Loaded ESC_${year}: ${lines.length} lines`);
 
             let bestMatch = null;
             let bestScore = 0;
@@ -190,10 +199,20 @@ class ESCChatbot {
 
             // Only add if we found a reasonably good match
             if (bestMatch && bestScore >= 3) {
+                console.log(`Found match in ${year}: line ${bestMatch.startLine}, score ${bestScore}`);
                 matches.push(bestMatch);
+            } else {
+                console.log(`No good match in ${year}, best score: ${bestScore}`);
+            }
+
+            // Early exit if we find a very good match
+            if (bestScore >= 6) {
+                console.log('Found excellent match, stopping search');
+                break;
             }
         }
 
+        console.log('Direct search results:', matches.length);
         matches.sort((a, b) => b.score - a.score);
         return matches.slice(0, 3);
     }
