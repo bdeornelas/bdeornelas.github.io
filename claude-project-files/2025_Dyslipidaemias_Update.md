@@ -23,8 +23,6 @@
   - [12. Data availability statement](#12-data-availability-statement) *(p. 16)*
   - [13. Author information](#13-author-information) *(p. 16)*
   - [Appendix](#appendix) *(p. 16)*
-  - [References](#references) *(p. 17)*
-  - [References](#references) *(p. 17)*
 
 ---
 
@@ -149,7 +147,6 @@ cardiovascular toxicity risk ...................................................
 12. Data availability statement .............................................................................. 16
 13. Author information ........................................................................................... 16
 14. Appendix ................................................................................................................ 16
-15. References ............................................................................................................. 17
 
 
 <!-- PAGE 3 -->
@@ -334,67 +331,106 @@ Evidence tables summarizing key information from relevant studies
 are generated to facilitate the formulation of recommendations, to 
 Table 1 Classes of recommendations
 ©
-
-
+
+
+
+
 	
 
-
+
+
+
+
+
 
-
+
+
+
 
-
+
+
 
 
-
+
+
 
-
-
-
 
-
+
+
+
+
+
+
+
+
+
+
 
-
-	
+
+
+
+	
+
 
-
+
+
 
 
-
+
+
  
 
 
 			
 
-
+
+
+
+
 
-
-
+
+
+
+
+
 
-
-
+
+
+
+
 
-	
+	
+
+
  		
-­
+­
+
 
 
 
-
+
+
 
-
-
+
+
+
+
 
 
 		
 
 
-
+
+
 
-
+
+
 
 
-
-
+
+
+
+
 
 		
 Table 2 Levels of evidence
@@ -404,14 +440,22 @@ Table 2 Levels of evidence
 
 
 
-
+
+
+
+
 	
-		
-	
+
+		
+
+	
+
 
-
+
+
 		
-							
+					
+		
 					
 ©
 
@@ -907,9 +951,12 @@ SCORE2/SCORE2-OP <2%
 
 
 
-
-	
-
+
+
+	
+
+
+
 
 
 
@@ -917,11 +964,16 @@ SCORE2/SCORE2-OP <2%
 
 
 
-
-
-
-
-
+
+
+
+
+
+
+
+
+
+
 Figure 1 Treatment goals for low-density lipoprotein cholesterol across categories of total cardiovascular risk. ASCVD, atherosclerotic cardiovas­
 cular disease; BP, blood pressure; CKD, chronic kidney disease; DM, diabetes mellitus; eGFR, estimated glomerular filtration rate; FH, familial hyper­
 cholesterolaemia; LDL-C, low-density lipoprotein cholesterol; SCORE2, Systematic Coronary Risk Evaluation 2; SCORE2-OP, Systematic Coronary 
@@ -1093,22 +1145,34 @@ risk of ASCVD events with ezetimibe in the absence of statin therapy
 
 
 
-
-
-
+
+
+
+
+
+
+
 
-
+
+
+
 
 
 
 
 
-
+
+
+
 
 	
-
+
+
+
 	
-
+
+
+
 + 
 	
 -10
@@ -1932,529 +1996,3 @@ EAS Executive Committee: Børge Grønne Nordestgaard
 Ulrich Laufs (Germany), Evangelos Liberopoulos (Greece), Katariina 
 Öörni (Finland), Kausik K. Ray (United Kingdom), and Jeanine 
 Roeters van Lennep (Netherlands).
-15. References
-1. Mach F, Baigent C, Catapano AL, Koskinas KC, Casula M, Badimon L, et al. 2019 ESC/ 
-EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce 
-cardiovascular risk. Eur Heart J 2020;41:111–88. https://doi.org/10.1093/eurheartj/ 
-ehz455
-2. SCORE2 working group and ESC Cardiovascular risk collaboration. SCORE2 risk 
-prediction algorithms: new models to estimate 10-year risk of cardiovascular disease 
-in Europe. Eur Heart J 2021;42:2439–54. https://doi.org/10.1093/eurheartj/ehab309
-3. SCORE2 working group and ESC Cardiovascular risk collaboration. SCORE2-OP risk 
-prediction algorithms: estimating incident cardiovascular event risk in older persons in 
-four geographical risk regions. Eur Heart J 2021;42:2455–67. https://doi.org/10.1093/ 
-eurheartj/ehab312
-4. Nissen SE, Lincoff AM, Brennan D, Ray KK, Mason D, Kastelein JJP, et al. Bempedoic 
-acid and cardiovascular outcomes in statin-intolerant patients. N Engl J Med 2023; 
-388:1353–64. https://doi.org/10.1056/NEJMoa2215024
-5. Raal FJ, Rosenson RS, Reeskamp LF, Hovingh GK, Kastelein JJP, Rubba P, et al. 
-Evinacumab for homozygous familial hypercholesterolemia. N Engl J Med 2020;383: 
-711–20. https://doi.org/10.1056/NEJMoa2004215
-6. Witztum JL, Gaudet D, Freedman SD, Alexander VJ, Digenio A, Williams KR, et al. 
-Volanesorsen and triglyceride levels in Familial Chylomicronemia syndrome. N Engl J 
-Med 2019;381:531–42. https://doi.org/10.1056/NEJMoa1715944
-7. Grinspoon SK, Fitch KV, Zanni MV, Fichtenbaum CJ, Umbleja T, Aberg JA, et al. 
-Pitavastatin to prevent cardiovascular disease in HIV infection. N Engl J Med 2023; 
-389:687–99. https://doi.org/10.1056/NEJMoa2304146
-8. Nicholls SJ, Lincoff AM, Garcia M, Bash D, Ballantyne CM, Barter PJ, et al. Effect of high- 
-dose omega-3 fatty acids vs corn oil on major adverse cardiovascular events in patients 
-at high cardiovascular risk: the STRENGTH randomized clinical trial. JAMA 2020;324: 
-2268–80. https://doi.org/10.1001/jama.2020.22258
-9. Neilan TG, Quinaglia T, Onoue T, Mahmood SS, Drobni ZD, Gilman HK, et al. 
-Atorvastatin for anthracycline-associated cardiac dysfunction: the STOP-CA rando­
-mized clinical trial. JAMA 2023;330:528–36. https://doi.org/10.1001/jama.2023.11887
-10. Laffin LJ, Bruemmer D, Garcia M, Brennan DM, McErlean E, Jacoby DS, et al. 
-Comparative effects of low-dose rosuvastatin, placebo, and dietary supplements on 
-lipids and inflammatory biomarkers. J Am Coll Cardiol 2023;81:1–12. https://doi.org/ 
-10.1016/j.jacc.2022.10.013
-11. Kalstad AA, Myhre PL, Laake K, Tveit SH, Schmidt EB, Smith P, et al. Effects of n-3 fatty 
-acid supplements in elderly patients after myocardial infarction: a randomized, controlled 
-trial. Circulation 2021;143:528–39. https://doi.org/10.1161/CIRCULATIONAHA.120. 
-052209
-12. Ference BA, Ginsberg HN, Graham I, Ray KK, Packard CJ, Bruckert E, et al. 
-Low-density lipoproteins cause atherosclerotic cardiovascular disease. 1. Evidence 
-from genetic, epidemiologic, and clinical studies. A consensus statement from the 
-European Atherosclerosis Society Consensus panel. Eur Heart J 2017;38:2459–72. 
-https://doi.org/10.1093/eurheartj/ehx144
-13. Cholesterol Treatment Trialists Collaboration; Baigent C, Blackwell L, Emberson J, 
-Holland LE, Reith C, et al. Efficacy and safety of more intensive lowering of LDL chol­
-esterol: a meta-analysis of data from 170,000 participants in 26 randomised trials. 
-Lancet 2010;376:1670–81. https://doi.org/10.1016/S0140-6736(10)61350-5
-14. Prospective Studies Collaboration; Lewington S, Whitlock G, Clarke R, Sherliker P, 
-Emberson J, et al. Blood cholesterol and vascular mortality by age, sex, and blood 
-pressure: a meta-analysis of individual data from 61 prospective studies with 
-55,000 vascular deaths. Lancet 2007;370:1829–39. https://doi.org/10.1016/S0140- 
-6736(07)61778-4
-15. Mendieta G, Pocock S, Mass V, Moreno A, Owen R, Garcia-Lunar I, et al. Determinants 
-of progression and regression of subclinical atherosclerosis over 6 years. J Am Coll 
-Cardiol 2023;82:2069–83. https://doi.org/10.1016/j.jacc.2023.09.814
-16. Oyama K, Giugliano RP, Tang M, Bonaca MP, Saver JL, Murphy SA, et al. Effect of 
-evolocumab on acute arterial events across all vascular territories: results from 
-the FOURIER trial. Eur Heart J 2021;42:4821–9. https://doi.org/10.1093/eurheartj/ 
-ehab604
-17. Visseren FLJ, Mach F, Smulders YM, Carballo D, Koskinas KC, Back M, et al. 2021 ESC 
-Guidelines on cardiovascular disease prevention in clinical practice. Eur Heart J 2021; 
-42:3227–337. https://doi.org/10.1093/eurheartj/ehab484
-18. van Trier TJ, Snaterse M, Boekholdt SM, Scholte Op Reimer WJM, Hageman SHJ, 
-Visseren FLJ, et al. Validation of systematic coronary risk evaluation 2 (SCORE2) 
-and SCORE2-older persons in the EPIC-Norfolk prospective population cohort. Eur 
-J Prev Cardiol 2024;31:182–9. https://doi.org/10.1093/eurjpc/zwad318
-19. Fernandez-Friera L, Garcia-Alvarez A, Oliva B, Garcia-Lunar I, Garcia I, 
-Moreno-Arciniegas A, et al. Association between subclinical atherosclerosis burden 
-and unrecognized myocardial infarction detected by cardiac magnetic resonance in 
-middle-aged low-risk adults. Eur Heart J Cardiovasc Imaging 2024;25:968–75. https:// 
-doi.org/10.1093/ehjci/jeae044
-20. Lin JS, Evans CV, Johnson E, Redmond N, Coppola EL, Smith N. Nontraditional risk 
-factors in cardiovascular disease risk assessment: updated evidence report and system­
-atic review for the US Preventive Services Task Force. JAMA 2018;320:281–97. https:// 
-doi.org/10.1001/jama.2018.4242
-21. Dzaye O, Razavi AC, Michos ED, Mortensen MB, Dardari ZA, Nasir K, et al. Coronary 
-artery calcium scores indicating secondary prevention level risk: findings from the CAC 
-consortium and FOURIER trial. Atherosclerosis 2022;347:70–6. https://doi.org/10. 
-1016/j.atherosclerosis.2022.02.006
-ESC Guidelines                                                                                                                                                                                               17
-
-
-<!-- PAGE 18 -->
-
-### Page 18
-
-22. Budoff MJ, Young R, Burke G, Jeffrey Carr J, Detrano RC, Folsom AR, et al. Ten-year 
-association of coronary artery calcium with atherosclerotic cardiovascular disease 
-(ASCVD) events: the multi-ethnic study of atherosclerosis (MESA). Eur Heart J 
-2018;39:2401–8. https://doi.org/10.1093/eurheartj/ehy217
-23. Mehta A, Pandey A, Ayers CR, Khera A, Sperling LS, Szklo MS, et al. Predictive value of 
-coronary artery calcium score categories for coronary events versus strokes: impact of 
-sex and race: MESA and DHS. Circ Cardiovasc Imaging 2020;13:e010153. https://doi. 
-org/10.1161/CIRCIMAGING.119.010153
-24. Peng AW, Dardari ZA, Blumenthal RS, Dzaye O, Obisesan OH, Iftekhar Uddin SM, 
-et al. Very high coronary artery calcium (≥1000) and association with cardiovascular 
-disease events, non-cardiovascular disease outcomes, and mortality: results from 
-MESA. Circulation 2021;143:1571–83. https://doi.org/10.1161/CIRCULATIONAHA. 
-120.050545
-25. Peng AW, Mirbolouk M, Orimoloye OA, Osei AD, Dardari Z, Dzaye O, et al. 
-Long-term all-cause and cause-specific mortality in asymptomatic patients with 
-CAC ≥1,000: results from the CAC Consortium. JACC Cardiovasc Imaging 2020;13: 
-83–93. https://doi.org/10.1016/j.jcmg.2019.02.005
-26. Valenti V, Ó Hartaigh B, Heo R, Cho I, Schulman-Marcus J, Gransar H, et al. A 15-year 
-warranty period for asymptomatic individuals without coronary artery calcium: a pro­
-spective follow-up of 9,715 individuals. JACC Cardiovasc Imaging 2015;8:900–9. https:// 
-doi.org/10.1016/j.jcmg.2015.01.025
-27. Hageman SHJ, Petitjaen C, Pennells L, Kaptoge S, Pajouheshnia R, Tillmann T, et al. 
-Improving 10-year cardiovascular risk prediction in apparently healthy people: flexible 
-addition of risk modifiers on top of SCORE2. Eur J Prev Cardiol 2023;30:1705–14. 
-https://doi.org/10.1093/eurjpc/zwad187
-28. Fuchs A, Kuhl JT, Sigvardsen PE, Afzal S, Knudsen AD, Moller MB, et al. Subclinical cor­
-onary atherosclerosis and risk for myocardial infarction in a Danish cohort: a prospect­
-ive observational cohort study. Ann Intern Med 2023;176:433–42. https://doi.org/10. 
-7326/M22-3027
-29. Lee SE, Chang HJ, Sung JM, Park HB, Heo R, Rizvi A, et al. Effects of statins on coronary 
-atherosclerotic plaques: the PARADIGM study. JACC Cardiovasc Imaging 2018;11: 
-1475–84. https://doi.org/10.1016/j.jcmg.2018.04.015
-30. van Rosendael AR, van den Hoogen IJ, Gianni U, Ma X, Tantawy SW, Bax AM, et al. 
-Association of statin treatment with progression of coronary atherosclerotic plaque 
-composition. JAMA Cardiol 2021;6:1257–66. https://doi.org/10.1001/jamacardio.2021. 
-3055
-31. Marx N, Federici M, Schütt K, Muller-Wieland D, Ajjan RA, Antunes MJ, et al. 2023 ESC 
-Guidelines for the management of cardiovascular disease in patients with diabetes. Eur 
-Heart J 2023;44:4043–140. https://doi.org/10.1093/eurheartj/ehad192
-32. SCORE2-Diabetes Working Group and the ESC Cardiovascular Risk Collaboration. 
-SCORE2-diabetes: 10-year cardiovascular risk estimation in type 2 diabetes in 
-Europe. Eur Heart J 2023;44:2544–56. https://doi.org/10.1093/eurheartj/ehad260
-33. Mortensen MB, Tybjaerg-Hansen A, Nordestgaard BG. Statin eligibility for primary 
-prevention of cardiovascular disease according to 2021 European Prevention 
-Guidelines compared with other international guidelines. JAMA Cardiol 2022;7: 
-836–43. https://doi.org/10.1001/jamacardio.2022.1876
-34. Domanski MJ, Wu CO, Tian X, Hasan AA, Ma X, Huang Y, et al. Association of incident 
-cardiovascular disease with time course and cumulative exposure to multiple risk fac­
-tors. J Am Coll Cardiol 2023;81:1151–61. https://doi.org/10.1016/j.jacc.2023.01.024
-35. Ference BA, Bhatt DL, Catapano AL, Packard CJ, Graham I, Kaptoge S, et al. 
-Association of genetic variants related to combined exposure to lower low-density li­
-poproteins and lower systolic blood pressure with lifetime risk of cardiovascular dis­
-ease. JAMA 2019;322:1381–91. https://doi.org/10.1001/jama.2019.14120
-36. Fuster V, Garcia-Alvarez A, Devesa A, Mass V, Owen R, Quesada A, et al. Influence of 
-subclinical atherosclerosis burden and progression on mortality. J Am Coll Cardiol 2024; 
-84:1391–403. https://doi.org/10.1016/j.jacc.2024.06.045
-37. Patel AP, Wang M, Pirruccello JP, Ellinor PT, Ng K, Kathiresan S, et al. Lp(a) (lipopro­
-tein[a]) concentrations and incident atherosclerotic cardiovascular disease: new in­
-sights from a large national biobank. Arterioscler Thromb Vasc Biol 2021;41:465–74. 
-https://doi.org/10.1161/ATVBAHA.120.315291
-38. Cholesterol Treatment Trialists Collaboration; Fulcher J, O’Connell R, Voysey M, 
-Emberson J, Blackwell L, et al. Efficacy and safety of LDL-lowering therapy among men 
-and women: meta-analysis of individual data from 174,000 participants in 27 randomised 
-trials. Lancet 2015;385:1397–405. https://doi.org/10.1016/S0140-6736(14)61368-4
-39. Cholesterol Treatment Trialists Collaborators; Mihaylova B, Emberson J, Blackwell L, 
-Keech A, Simes J, et al. The effects of lowering LDL cholesterol with statin therapy in 
-people at low risk of vascular disease: meta-analysis of individual data from 27 rando­
-mised trials. Lancet 2012;380:581–90. https://doi.org/10.1016/S0140-6736(12)60367-5
-40. Ruscica M, Sirtori CR, Carugo S, Banach M, Corsini A. Bempedoic acid: for whom and 
-when. Curr Atheroscler Rep 2022;24:791–801. https://doi.org/10.1007/s11883-022- 
-01054-2
-41. Pinkosky SL, Newton RS, Day EA, Ford RJ, Lhotak S, Austin RC, et al. Liver-specific 
-ATP-citrate lyase inhibition by bempedoic acid decreases LDL-C and attenuates ath­
-erosclerosis. Nat Commun 2016;7:13457. https://doi.org/10.1038/ncomms13457
-42. Ray KK, Bays HE, Catapano AL, Lalwani ND, Bloedon LT, Sterling LR, et al. Safety and 
-efficacy of bempedoic acid to reduce LDL cholesterol. N Engl J Med 2019;380: 
-1022–32. https://doi.org/10.1056/NEJMoa1803917
-43. Bays HE, Baum SJ, Brinton EA, Plutzky J, Hanselman JC, Teng R, et al. Effect of bempe­
-doic acid plus ezetimibe fixed-dose combination vs ezetimibe or placebo on low- 
-density lipoprotein cholesterol in patients with type 2 diabetes and hypercholesterol­
-emia not treated with statins. Am J Prev Cardiol 2021;8:100278. https://doi.org/10.1016/ 
-j.ajpc.2021.100278
-44. Ballantyne CM, Laufs U, Ray KK, Leiter LA, Bays HE, Goldberg AC, et al. Bempedoic 
-acid plus ezetimibe fixed-dose combination in patients with hypercholesterolemia 
-and high CVD risk treated with maximally tolerated statin therapy. Eur J Prev Cardiol 
-2020;27:593–603. https://doi.org/10.1177/2047487319864671
-45. Ray KK, Nicholls SJ, Li N, Louie MJ, Brennan D, Lincoff AM, et al. Efficacy and safety of 
-bempedoic acid among patients with and without diabetes: prespecified analysis of the 
-CLEAR outcomes randomised trial. Lancet Diabetes Endocrinol 2024;12:19–28. https:// 
-doi.org/10.1016/S2213-8587(23)00316-9
-46. Ference BA, Ray KK, Catapano AL, Ference TB, Burgess S, Neff DR, et al. Mendelian 
-randomization study of ACLY and cardiovascular disease. N Engl J Med 2019;380: 
-1033–42. https://doi.org/10.1056/NEJMoa1806747
-47. Lincoff AM, Ray KK, Sasiela WJ, Haddad T, Nicholls SJ, Li N, et al. Comparative cardio­
-vascular benefits of bempedoic acid and statin drugs. J Am Coll Cardiol 2024;84:152–62. 
-https://doi.org/10.1016/j.jacc.2024.04.048
-48. Ray KK, Wright RS, Kallend D, Koenig W, Leiter LA, Raal FJ, et al. Two phase 3 trials of 
-Inclisiran in patients with elevated LDL cholesterol. N Engl J Med 2020;382:1507–19. 
-https://doi.org/10.1056/NEJMoa1912387
-49. Cuchel M, Raal FJ, Hegele RA, Al-Rasadi K, Arca M, Averna M, et al. 2023 Update on 
-European Atherosclerosis Society Consensus statement on homozygous familial 
-hypercholesterolaemia: new treatments and clinical guidance. Eur Heart J 2023;44: 
-2277–91. https://doi.org/10.1093/eurheartj/ehad197
-50. Gaudet D, Greber-Platzer S, Reeskamp LF, Iannuzzo G, Rosenson RS, Saheb S, et al. 
-Evinacumab in homozygous familial hypercholesterolaemia: long-term safety and effi­
-cacy. Eur Heart J 2024;45:2422–34. https://doi.org/10.1093/eurheartj/ehae325
-51. Wiegman A, Greber-Platzer S, Ali S, Reijman MD, Brinton EA, Charng MJ, et al. 
-Evinacumab for pediatric patients with homozygous familial hypercholesterolemia. 
-Circulation 2024;149:343–53. https://doi.org/10.1161/CIRCULATIONAHA.123.065529
-52. Ouchi Y, Sasaki J, Arai H, Yokote K, Harada K, Katayama Y, et al. Ezetimibe 
-lipid-lowering trial on prevention of atherosclerotic cardiovascular disease in 75 or 
-older (EWTOPIA 75): a randomized, controlled trial. Circulation 2019;140: 
-992–1003. https://doi.org/10.1161/CIRCULATIONAHA.118.039415
-53. Nissen SE, Stroes E, Dent-Acosta RE, Rosenson RS, Lehman SJ, Sattar N, et al. Efficacy 
-and tolerability of evolocumab vs ezetimibe in patients with muscle-related statin in­
-tolerance: the GAUSS-3 randomized clinical trial. JAMA 2016;315:1580–90. https:// 
-doi.org/10.1001/jama.2016.3608
-54. Moriarty PM, Thompson PD, Cannon CP, Guyton JR, Bergeron J, Zieve FJ, et al. 
-Efficacy and safety of alirocumab vs ezetimibe in statin-intolerant patients, with a statin 
-rechallenge arm: the ODYSSEY ALTERNATIVE randomized trial. J Clin Lipidol 2015;9: 
-758–69. https://doi.org/10.1016/j.jacl.2015.08.006
-55. Goldberg AC, Leiter LA, Stroes ESG, Baum SJ, Hanselman JC, Bloedon LT, et al. Effect 
-of bempedoic acid vs placebo added to maximally tolerated statins on low-density 
-lipoprotein cholesterol in patients at high risk for cardiovascular disease: the CLEAR 
-wisdom randomized clinical trial. JAMA 2019;322:1780–8. https://doi.org/10.1001/ 
-jama.2019.16585
-56. de Lemos JA, Blazing MA, Wiviott SD, Lewis EF, Fox KA, White HD, et al. Early inten­
-sive vs a delayed conservative simvastatin strategy in patients with acute coronary syn­
-dromes: phase Z of the A to Z trial. JAMA 2004;292:1307–16. https://doi.org/10.1001/ 
-jama.292.11.1307
-57. Ray KK, Cannon CP, McCabe CH, Cairns R, Tonkin AM, Sacks FM, et al. Early and late 
-benefits of high-dose atorvastatin in patients with acute coronary syndromes: results 
-from the PROVE IT-TIMI 22 trial. J Am Coll Cardiol 2005;46:1405–10. https://doi.org/ 
-10.1016/j.jacc.2005.03.077
-58. Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, et al. 2023 ESC 
-Guidelines for the management of acute coronary syndromes. Eur Heart J 2023;44: 
-3720–826. https://doi.org/10.1093/eurheartj/ehad191
-59. Vrints C, Andreotti F, Koskinas KC, Rossello X, Adamo M, Ainslie J, et al. 2024 ESC 
-Guidelines for the management of chronic coronary syndromes. Eur Heart J 2024; 
-45:3415–537. https://doi.org/10.1093/eurheartj/ehae177
-60. Rossello X, Bueno H, Pocock SJ, Van de Werf F, Danchin N, Annemans L, et al. 
-Predictors of all-cause mortality and ischemic events within and beyond 1 year after 
-an acute coronary syndrome: results from the EPICOR registry. Clin Cardiol 2019; 
-42:111–9. https://doi.org/10.1002/clc.23116
-61. Jernberg T, Hasvold P, Henriksson M, Hjelm H, Thuresson M, Janzon M. Cardiovascular 
-risk in post-myocardial infarction patients: nationwide real world data demonstrate 
-the importance of a long-term perspective. Eur Heart J 2015;36:1163–70. https:// 
-doi.org/10.1093/eurheartj/ehu505
-62. Steen DL, Khan I, Andrade K, Koumas A, Giugliano RP. Event rates and risk factors for 
-recurrent cardiovascular events and mortality in a contemporary post acute coronary
-
-
-<!-- PAGE 19 -->
-
-### Page 19
-
-syndrome population representing 239 234 patients during 2005 to 2018 in the 
-United States. J Am Heart Assoc 2022;11:e022198. https://doi.org/10.1161/JAHA.121. 
-022198
-63. Schubert J, Lindahl B, Melhus H, Renlund H, Leosdottir M, Yari A, et al. Low-density 
-lipoprotein cholesterol reduction and statin intensity in myocardial infarction patients 
-and major adverse outcomes: a Swedish nationwide cohort study. Eur Heart J 2021;42: 
-243–52. https://doi.org/10.1093/eurheartj/ehaa1011
-64. De Backer G, Jankowski P, Kotseva K, Mirrakhimov E, Reiner Z, Ryden L, et al. 
-Management of dyslipidaemia in patients with coronary heart disease: results from 
-the ESC-EORP EUROASPIRE V survey in 27 countries. Atherosclerosis 2019;285: 
-135–46. https://doi.org/10.1016/j.atherosclerosis.2019.03.014
-65. Ray KK, Molemans B, Schoonen WM, Giovas P, Bray S, Kiru G, et al. EU-wide cross- 
-sectional observational study of lipid-modifying therapy use in secondary and primary 
-care: the DA VINCI study. Eur J Prev Cardiol 2021;28:1279–89. https://doi.org/10.1093/ 
-eurjpc/zwaa047
-66. Cannon CP, Blazing MA, Giugliano RP, McCagg A, White JA, Theroux P, et al. 
-Ezetimibe added to statin therapy after acute coronary syndromes. N Engl J Med 
-2015;372:2387–97. https://doi.org/10.1056/NEJMoa1410489
-67. Koskinas KC, Windecker S, Pedrazzini G, Mueller C, Cook S, Matter CM, et al. 
-Evolocumab for early reduction of LDL cholesterol levels in patients with acute cor­
-onary syndromes (EVOPACS). J Am Coll Cardiol 2019;74:2452–62. https://doi.org/10. 
-1016/j.jacc.2019.08.010
-68. Leucker TM, Blaha MJ, Jones SR, Vavuranakis MA, Williams MS, Lai H, et al. Effect of 
-evolocumab on atherogenic lipoproteins during the peri- and early postinfarction per­
-iod: a placebo-controlled, randomized trial. Circulation 2020;142:419–21. https://doi. 
-org/10.1161/CIRCULATIONAHA.120.046320
-69. Makhmudova U, Samadifar B, Maloku A, Haxhikadrija P, Geiling JA, Romer R, et al. 
-Intensive lipid-lowering therapy for early achievement of guideline-recommended 
-LDL-cholesterol levels in patients with ST-elevation myocardial infarction (“Jena auf 
-Ziel”). Clin Res Cardiol 2023;112:1212–9. https://doi.org/10.1007/s00392-022-02147-3
-70. Nicholls SJ, Kataoka Y, Nissen SE, Prati F, Windecker S, Puri R, et al. Effect of evolo­
-cumab on coronary plaque phenotype and burden in statin-treated patients following 
-myocardial infarction. JACC Cardiovasc Imaging 2022;15:1308–21. https://doi.org/10. 
-1016/j.jcmg.2022.03.002
-71. Raber L, Ueki Y, Otsuka T, Losdat S, Haner JD, Lonborg J, et al. Effect of alirocumab 
-added to high-intensity statin therapy on coronary atherosclerosis in patients with 
-acute myocardial infarction: the PACMAN-AMI randomized clinical trial. JAMA 2022; 
-327:1771–81. https://doi.org/10.1001/jama.2022.5218
-72. Schwartz GG, Gabriel Steg P, Bhatt DL, Bittner VA, Diaz R, Goodman SG, et al. Clinical 
-efficacy and safety of alirocumab after acute coronary syndrome according to achieved 
-level of low-density lipoprotein cholesterol: a propensity score-matched analysis of the 
-ODYSSEY OUTCOMES trial. Circulation 2021;143:1109–22. https://doi.org/10.1161/ 
-CIRCULATIONAHA.120.049447
-73. Giugliano RP, Pedersen TR, Park JG, De Ferrari GM, Gaciong ZA, Ceska R, et al. Clinical 
-efficacy and safety of achieving very low LDL-cholesterol concentrations with the 
-PCSK9 inhibitor evolocumab: a prespecified secondary analysis of the FOURIER trial. 
-Lancet 2017;390:1962–71. https://doi.org/10.1016/S0140-6736(17)32290-0
-74. Schwartz GG, Szarek M, Bhatt DL, Bittner VA, Bujas-Bobanovic M, Diaz R, et al. 
-Transiently achieved very low LDL-cholesterol levels by statin and alirocumab after 
-acute coronary syndrome are associated with cardiovascular risk reduction: the 
-ODYSSEY OUTCOMES trial. Eur Heart J 2023;44:1408–17. https://doi.org/10.1093/ 
-eurheartj/ehad144
-75. Schubert J, Leosdottir M, Lindahl B, Westerbergh J, Melhus H, Modica A, et al. Intensive 
-early and sustained lowering of non-high-density lipoprotein cholesterol after myocar­
-dial infarction and prognosis: the SWEDEHEART registry. Eur Heart J 2024;45: 
-4204–15. https://doi.org/10.1093/eurheartj/ehae576
-76. Leosdottir M, Hagstrom E, Hadziosmanovic N, Norhammar A, Lindahl B, Hambraeus 
-K, et al. Temporal trends in cardiovascular risk factors, lifestyle and secondary prevent­
-ive medication for patients with myocardial infarction attending cardiac rehabilitation 
-in Sweden 2006–2019: a registry-based cohort study. BMJ Open 2023;13:e069770. 
-https://doi.org/10.1136/bmjopen-2022-069770
-77. Allahyari A, Jernberg T, Hagstrom E, Leosdottir M, Lundman P, Ueda P. Application of 
-the 2019 ESC/EAS dyslipidaemia guidelines to nationwide data of patients with a re­
-cent myocardial infarction: a simulation study. Eur Heart J 2020;41:3900–9. https:// 
-doi.org/10.1093/eurheartj/ehaa034
-78. Kronenberg F, Mora S, Stroes ESG, Ference BA, Arsenault BJ, Berglund L, et al. 
-Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis: a 
-European Atherosclerosis Society Consensus Statement. Eur Heart J 2022;43: 
-3925–46. https://doi.org/10.1093/eurheartj/ehac361
-79. Langsted A, Kamstrup PR, Nordestgaard BG. High lipoprotein(a) and high risk of mor­
-tality. Eur Heart J 2019;40:2760–70. https://doi.org/10.1093/eurheartj/ehy902
-80. Bjornson E, Adiels M, Taskinen MR, Burgess S, Chapman MJ, Packard CJ, et al. 
-Lipoprotein(a) is markedly more atherogenic than LDL: an apolipoprotein B-based gen­
-etic analysis. J Am Coll Cardiol 2024;83:385–95. https://doi.org/10.1016/j.jacc.2023.10.039
-81. Marston NA, Melloni GEM, Murphy SA, Morze J, Kamanu FK, Ellinor PT, et al. 
-Per-particle cardiovascular risk of lipoprotein(a) vs non-Lp(a) apolipoprotein 
-B-containing lipoproteins. J Am Coll Cardiol 2024;83:470–2. https://doi.org/10.1016/j. 
-jacc.2023.09.836
-82. Welsh P, Welsh C, Celis-Morales CA, Brown R, Ho FK, Ferguson LD, et al. 
-Lipoprotein(a) and cardiovascular disease: prediction, attributable risk fraction, and es­
-timating benefits from novel interventions. Eur J Prev Cardiol 2022;28:1991–2000. 
-https://doi.org/10.1093/eurjpc/zwaa063
-83. Nordestgaard BG, Langsted A. Lipoprotein(a) and cardiovascular disease. Lancet 2024; 
-404:1255–64. https://doi.org/10.1016/S0140-6736(24)01308-4
-84. Kamstrup PR, Tybjaerg-Hansen A, Nordestgaard BG. Extreme lipoprotein(a) levels 
-and improved cardiovascular risk prediction. J Am Coll Cardiol 2013;61:1146–56. 
-https://doi.org/10.1016/j.jacc.2012.12.023
-85. Langsted A, Nordestgaard BG, Kamstrup PR. Elevated lipoprotein(a) and risk of ische­
-mic stroke. J Am Coll Cardiol 2019;74:54–66. https://doi.org/10.1016/j.jacc.2019.03.524
-86. Mehta A, Vasquez N, Ayers CR, Patel J, Hooda A, Khera A, et al. Independent associ­
-ation of lipoprotein(a) and coronary artery calcification with atherosclerotic cardio­
-vascular risk. J Am Coll Cardiol 2022;79:757–68. https://doi.org/10.1016/j.jacc.2021.11. 
-058
-87. Hedegaard BS, Bork CS, Kaltoft M, Klausen IC, Schmidt EB, Kamstrup PR, et al. 
-Equivalent impact of elevated lipoprotein(a) and familial hypercholesterolemia in pa­
-tients with atherosclerotic cardiovascular disease. J Am Coll Cardiol 2022;80: 
-1998–2010. https://doi.org/10.1016/j.jacc.2022.09.021
-88. Thomas PE, Vedel-Krogh S, Kamstrup PR, Nordestgaard BG. Lipoprotein(a) is linked 
-to atherothrombosis and aortic valve stenosis independent of C-reactive protein. Eur 
-Heart J 2023;44:1449–60. https://doi.org/10.1093/eurheartj/ehad055
-89. Thomas PE, Vedel-Krogh S, Nielsen SF, Nordestgaard BG, Kamstrup PR. 
-Lipoprotein(a) and risks of peripheral artery disease, abdominal aortic aneurysm, 
-and major adverse limb events. J Am Coll Cardiol 2023;82:2265–76. https://doi.org/ 
-10.1016/j.jacc.2023.10.009
-90. Kraaijenhof JM, Nurmohamed NS, Nordestgaard AT, Reeskamp LF, Stroes ESG, 
-G Kees Hovingh, et al. Low-density lipoprotein cholesterol, C-reactive protein, and li­
-poprotein(a) universal one-time screening in primary prevention: the EPIC-Norfolk 
-study. Eur Heart J 2025. https://doi.org/10.1093/eurheartj/ehaf209
-91. Simony SB, Mortensen MB, Langsted A, Afzal S, Kamstrup PR, Nordestgaard BG. Sex 
-differences of lipoprotein(a) levels and associated risk of morbidity and mortality by 
-age: the Copenhagen general population study. Atherosclerosis 2022;355:76–82. 
-https://doi.org/10.1016/j.atherosclerosis.2022.06.1023
-92. de Boer LM, Oorthuys AOJ, Wiegman A, Langendam MW, Kroon J, Spijker R, et al. 
-Statin therapy and lipoprotein(a) levels: a systematic review and meta-analysis. Eur J 
-Prev Cardiol 2022;29:779–92. https://doi.org/10.1093/eurjpc/zwab171
-93. Willeit P, Ridker PM, Nestel PJ, Simes J, Tonkin AM, Pedersen TR, et al. Baseline and 
-on-statin treatment lipoprotein(a) levels for prediction of cardiovascular events: indi­
-vidual patient-data meta-analysis of statin outcome trials. Lancet 2018;392:1311–20. 
-https://doi.org/10.1016/S0140-6736(18)31652-0
-94. Tsimikas S, Karwatowska-Prokopczuk E, Gouni-Berthold I, Tardif JC, Baum SJ, 
-Steinhagen-Thiessen E, et al. Lipoprotein(a) reduction in persons with cardiovascular 
-disease. N Engl J Med 2020;382:244–55. https://doi.org/10.1056/NEJMoa1905239
-95. O’Donoghue ML, Rosenson RS, Gencer B, Lopez JAG, Lepor NE, Baum SJ, et al. Small 
-interfering RNA to reduce lipoprotein(a) in cardiovascular disease. N Engl J Med 2022; 
-387:1855–64. https://doi.org/10.1056/NEJMoa2211023
-96. Nissen SE, Wolski K, Balog C, Swerdlow DI, Scrimgeour AC, Rambaran C, et al. Single 
-ascending dose study of a short interfering RNA targeting lipoprotein(a) production in 
-individuals with elevated plasma lipoprotein(a) levels. JAMA 2022;327:1679–87. https:// 
-doi.org/10.1001/jama.2022.5050
-97. Nissen SE, Linnebjerg H, Shen X, Wolski K, Ma X, Lim S, et al. Lepodisiran, an 
-extended-duration short interfering RNA targeting lipoprotein(a): a randomized 
-dose-ascending clinical trial. JAMA 2023;330:2075–83. https://doi.org/10.1001/jama. 
-2023.21835
-98. Nicholls SJ, Nissen SE, Fleming C, Urva S, Suico J, Berg PH, et al. Muvalaplin, an oral 
-small molecule inhibitor of lipoprotein(a) formation: a randomized clinical trial. 
-JAMA 2023;330:1042–53. https://doi.org/10.1001/jama.2023.16503
-99. Nicholls SJ, Ni W, Rhodes GM, Nissen SE, Navar AM, Michael LF, et al. Oral muvalaplin 
-for lowering of lipoprotein(a): a randomized clinical trial. JAMA 2025;333:222–31. 
-https://doi.org/10.1001/jama.2024.24017
-100. Nissen SE, Wang Q, Nicholls SJ, Navar AM, Ray KK, Schwartz GG, et al. Zerlasiran-a 
-small-interfering RNA targeting lipoprotein(a): a phase 2 randomized clinical trial. JAMA 
-2024;332:1992–2002. https://doi.org/10.1001/jama.2024.21957
-101. Berman AN, Biery DW, Besser SA, Singh A, Shiyovich A, Weber BN, et al. 
-Lipoprotein(a) and major adverse cardiovascular events in patients with or without 
-baseline atherosclerotic cardiovascular disease. J Am Coll Cardiol 2024;83:873–86. 
-https://doi.org/10.1016/j.jacc.2023.12.031
-102. Wadstrom BN, Pedersen KM, Wulff AB, Nordestgaard BG. Elevated remnant choles­
-terol, plasma triglycerides, and cardiovascular and non-cardiovascular mortality. Eur 
-Heart J 2023;44:1432–45. https://doi.org/10.1093/eurheartj/ehac822
-103. Balling M, Afzal S, Davey Smith G, Varbo A, Langsted A, Kamstrup PR, et al. Elevated 
-LDL triglycerides and atherosclerotic risk. J Am Coll Cardiol 2023;81:136–52. https:// 
-doi.org/10.1016/j.jacc.2022.10.019
-ESC Guidelines                                                                                                                                                                                               19
-
-
-<!-- PAGE 20 -->
-
-### Page 20
-
-### 104 Raposeiras-Roubin S, Rossello X, Oliva B, Fernandez-Friera L, Mendiguren JM, Andres
-
-V, et al. Triglycerides and residual atherosclerotic risk. J Am Coll Cardiol 2021;77: 
-3031–41. https://doi.org/10.1016/j.jacc.2021.04.059
-105. Wang D, Liu B, Tao W, Hao Z, Liu M. Fibrates for secondary prevention of cardiovas­
-cular disease and stroke. Cochrane Database Syst Rev 2015;2015:CD009580. https:// 
-doi.org/10.1002/14651858.CD009580.pub2
-106. Group AS, Ginsberg HN, Elam MB, Lovato LC, Crouse JR III, Leiter LA, et al. Effects of 
-combination lipid therapy in type 2 diabetes mellitus. N Engl J Med 2010;362:1563–74. 
-https://doi.org/10.1056/NEJMoa1001282
-107. Keech A, Simes RJ, Barter P, Best J, Scott R, Taskinen MR, et al. Effects of long-term 
-fenofibrate therapy on cardiovascular events in 9795 people with type 2 diabetes mel­
-litus (the FIELD study): randomised controlled trial. Lancet 2005;366:1849–61. https:// 
-doi.org/10.1016/S0140-6736(05)67667-2
-108. Rajamani K, Colman PG, Li LP, Best JD, Voysey M, D’Emden MC, et al. Effect of fenofi­
-brate on amputation events in people with type 2 diabetes mellitus (FIELD study): a 
-prespecified analysis of a randomised controlled trial. Lancet 2009;373:1780–8. 
-https://doi.org/10.1016/S0140-6736(09)60698-X
-109. Pradhan AD, Glynn RJ, Fruchart JC, MacFadyen JG, Zaharris ES, Everett BM, et al. 
-Triglyceride lowering with pemafibrate to reduce cardiovascular risk. N Engl J Med 
-2022;387:1923–34. https://doi.org/10.1056/NEJMoa2210645
-110. Mazzolai L, Teixido-Tura G, Lanzi S, Boc V, Bossone E, Brodmann M, et al. 2024 ESC 
-Guidelines for the management of peripheral arterial and aortic diseases. Eur Heart J 
-2024;45:3538–700. https://doi.org/10.1093/eurheartj/ehae179
-111. Bhatt DL, Steg PG, Miller M, Brinton EA, Jacobson TA, Ketchum SB, et al. 
-Cardiovascular risk reduction with icosapent ethyl for hypertriglyceridemia. N Engl J 
-Med 2019;380:11–22. https://doi.org/10.1056/NEJMoa1812792
-112. Olshansky B, Chung MK, Budoff MJ, Philip S, Jiao L, Doyle RT Jr, et al. Mineral oil: safety 
-and use as placebo in REDUCE-IT and other clinical studies. Eur Heart J Suppl 2020; 
-22(Suppl J):J34–48. https://doi.org/10.1093/eurheartj/suaa117
-113. Ridker PM, Rifai N, MacFadyen J, Glynn RJ, Jiao L, Steg PG, et al. Effects of randomized 
-treatment with icosapent ethyl and a mineral oil comparator on interleukin-1beta, 
-interleukin-6, C-reactive protein, oxidized low-density lipoprotein cholesterol, 
-homocysteine, lipoprotein(a), and lipoprotein-associated phospholipase A2: a 
-REDUCE-IT biomarker substudy. Circulation 2022;146:372–9. https://doi.org/10. 
-1161/CIRCULATIONAHA.122.059410
-114. U.S. Food & Drug Administration. Search Orphan Drug Designations and Approvals. 
-https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey= 
-480815 (22 October 2024, date last accessed).
-115. Sherratt SCR, Libby P, Dawoud H, Bhatt DL, Mason RP. Eicosapentaenoic acid im­
-proves endothelial nitric oxide bioavailability via changes in protein expression during 
-inflammation. J Am Heart Assoc 2024;13:e034076. https://doi.org/10.1161/JAHA.123. 
-034076
-116. Sherratt SCR, Libby P, Bhatt DL, Mason RP. A biological rationale for the disparate ef­
-fects of omega-3 fatty acids on cardiovascular disease outcomes. Prostaglandins Leukot 
-Essent Fatty Acids 2022;182:102450. https://doi.org/10.1016/j.plefa.2022.102450
-117. Alexander VJ, Karwatowska-Prokopczuk E, Prohaska TA, Li L, Geary RS, 
-Gouni-Berthold I, et al. Volanesorsen to prevent acute pancreatitis in hypertriglycer­
-idemia. N Engl J Med 2024;390:476–7. https://doi.org/10.1056/NEJMc2306575
-118. Bergmark BA, Marston NA, Prohaska TA, Alexander VJ, Zimerman A, Moura FA, et al. 
-Olezarsen for hypertriglyceridemia in patients at high cardiovascular risk. N Engl J Med 
-2024;390:1770–80. https://doi.org/10.1056/NEJMoa2402309
-119. Stroes ESG, Alexander VJ, Karwatowska-Prokopczuk E, Hegele RA, Arca M, Ballantyne 
-CM, et al. Olezarsen, acute pancreatitis, and Familial Chylomicronemia syndrome. N 
-Engl J Med 2024;390:1781–92. https://doi.org/10.1056/NEJMoa2400201
-120. Watts GF, Rosenson RS, Hegele RA, Goldberg IJ, Gallo A, Mertens A, et al. Plozasiran 
-for managing persistent chylomicronemia and pancreatitis risk. N Engl J Med 2025;392: 
-127–37. https://doi.org/10.1056/NEJMoa2409368
-121. Ballantyne CM, Vasas S, Azizad M, Clifton P, Rosenson RS, Chang T, et al. Plozasiran, an 
-RNA interference agent targeting APOC3, for mixed hyperlipidemia. N Engl J Med 
-2024;391:899–912. https://doi.org/10.1056/NEJMoa2404143
-122. Shah ASV, Stelzle D, Lee KK, Beck EJ, Alam S, Clifford S, et al. Global burden of atheroscler­
-otic cardiovascular disease in people living with HIV: systematic review and meta-analysis. 
-Circulation 2018;138:1100–12. https://doi.org/10.1161/CIRCULATIONAHA.117.033369
-123. Ntsekhe M, Baker JV. Cardiovascular disease among persons living with HIV: new in­
-sights into pathogenesis and clinical manifestations in a global context. Circulation 2023; 
-147:83–100. https://doi.org/10.1161/CIRCULATIONAHA.122.057443
-124. Triant VA, Perez J, Regan S, Massaro JM, Meigs JB, Grinspoon SK, et al. Cardiovascular 
-risk prediction functions underestimate risk in HIV infection. Circulation 2018;137: 
-2203–14. https://doi.org/10.1161/CIRCULATIONAHA.117.028975
-125. Kentoffio K, Temu TM, Shakil SS, Zanni MV, Longenecker CT. Cardiovascular disease 
-risk in women living with HIV. Curr Opin HIV AIDS 2022;17:270–8. https://doi.org/10. 
-1097/COH.0000000000000756
-126. University of Liverpool. HIV Drug Interactions. https://www.hiv-druginteractions.org/
-(27 July 2024, date last accessed).
-127. Negredo E, Molto J, Puig J, Cinquegrana D, Bonjoch A, Perez-Alvarez N, et al. 
-Ezetimibe, a promising lipid-lowering agent for the treatment of dyslipidaemia in 
-HIV-infected patients with poor response to statins. AIDS 2006;20:2159–64. https:// 
-doi.org/10.1097/01.aids.0000247573.95880.db
-128. Chow D, Chen H, Glesby MJ, Busti A, Souza S, Andersen J, et al. Short-term ezetimibe 
-is well tolerated and effective in combination with statin therapy to treat elevated LDL 
-cholesterol in HIV-infected patients. AIDS 2009;23:2133–41. https://doi.org/10.1097/ 
-QAD.0b013e32833068e3
-129. Saeedi R, Johns K, Frohlich J, Bennett MT, Bondy G. Lipid lowering efficacy and safety of 
-ezetimibe combined with rosuvastatin compared with titrating rosuvastatin mono­
-therapy in HIV-positive patients. Lipids Health Dis 2015;14:57. https://doi.org/10. 
-1186/s12944-015-0054-x
-130. Boccara F, Kumar PN, Caramelli B, Calmy A, Lopez JAG, Bray S, et al. Evolocumab in 
-HIV-infected patients with dyslipidemia: primary results of the randomized, double- 
-blind BEIJERINCK study. J Am Coll Cardiol 2020;75:2570–84. https://doi.org/10.1016/ 
-j.jacc.2020.03.025
-131. Hequet O, Le QH, Moullet I, Pauli E, Salles G, Espinouse D, et al. Subclinical late car­
-diomyopathy after doxorubicin therapy for lymphoma in adults. J Clin Oncol 2004;22: 
-1864–71. https://doi.org/10.1200/JCO.2004.06.033
-132. Nabati M, Janbabai G, Esmailian J, Yazdani J. Effect of rosuvastatin in preventing 
-chemotherapy-induced cardiotoxicity in women with breast cancer: a randomized, 
-single-blind, placebo-controlled trial. J Cardiovasc Pharmacol Ther 2019;24:233–41. 
-https://doi.org/10.1177/1074248418821721
-133. Hundley WG, D’Agostino R Jr, Crotts T, Craver K, Hackney MH, Jordan JH, et al. 
-Statins and left ventricular ejection fraction following doxorubicin treatment. NEJM 
-Evid 2022;1:10. https://doi.org/10.1056/EVIDoa2200097
-134. Thavendiranathan P, Houbois C, Marwick TH, Kei T, Saha S, Runeckles K, et al. Statins 
-to prevent early cardiac dysfunction in cancer patients at increased cardiotoxicity risk 
-receiving anthracyclines. Eur Heart J Cardiovasc Pharmacother 2023;9:515–25. https:// 
-doi.org/10.1093/ehjcvp/pvad031
-135. Lyon AR, López-Fernández T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, et al. 
-European Hematology Association (EHA), the European Society for Therapeutic 
-Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society 
-(IC-OS). Eur Heart J 2022;43:4229–361. https://doi.org/10.1093/eurheartj/ehac244
-136. D’Amario D, Laborante R, Bianchini E, Galli M, Ciliberti G, Mennuni M, et al. Statins as 
-preventive therapy for anthracycline cardiotoxicity: a meta-analysis of randomized 
-controlled trials. Int J Cardiol 2023;391:131219. https://doi.org/10.1016/j.ijcard.2023. 
-131219
-137. Felix N, Nogueira PC, Silva IM, Costa TA, Campello CA, Stecca C, et al. 
-Cardio-protective effects of statins in patients undergoing anthracycline-based chemo­
-therapy: an updated meta-analysis of randomized controlled trials. Eur J Intern Med 
-2024;126:43–8. https://doi.org/10.1016/j.ejim.2024.04.007
-138. Demonty I, Ras RT, van der Knaap HC, Duchateau GS, Meijer L, Zock PL, et al. 
-Continuous dose-response relationship of the LDL-cholesterol-lowering effect of 
-phytosterol intake. J Nutr 2009;139:271–84. https://doi.org/10.3945/jn.108.095125
-139. The European Commission. Commission Regulation (EU) 2022/860 of 1 June 2022 
-Amending Annex III to Regulation (EC) No 1925/2006 of the European Parliament and 
-of the Council as Regards Monacolins From Red Yeast Rice. https://eur-lex.europa.eu/ 
-eli/reg/2022/860/oj (17 August 2024, date last accessed).

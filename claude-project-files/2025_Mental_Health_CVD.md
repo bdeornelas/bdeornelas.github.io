@@ -151,8 +151,6 @@
   - [15. Data availability statement](#15-data-availability-statement) *(p. 53)*
   - [16. Author information](#16-author-information) *(p. 53)*
   - [Appendix](#appendix) *(p. 53)*
-  - [References](#references) *(p. 54)*
-  - [References](#references) *(p. 54)*
 
 ---
 
@@ -564,7 +562,6 @@ diseases .......................................................................
 15. Data availability statement .............................................................................. 53
 16. Author information ........................................................................................... 53
 17. Appendix ................................................................................................................ 53
-18. References ............................................................................................................. 54
 List of tables
 Table 1 Prevalence of depression/depressive symptoms in people 
 with cardiovascular disease .................................................................................... 15
@@ -995,8 +992,10 @@ and treatment efforts as persons without mental health condi­
 tions.21–26
 
 
-
-
+
+
+
+
 
 
 
@@ -1004,7 +1003,8 @@ tions.21–26
 
 
 
-	
+	
+
 
 
 
@@ -1012,7 +1012,8 @@ tions.21–26
 
 
 
-
+
+
 
 
 
@@ -1028,7 +1029,8 @@ tions.21–26
 
 
 
-
+
+
 
 Figure 2 Mental/cardiovascular health, disease interaction, and future directions. CV, cardiovascular. ACTIVE, Acknowledge, Check, (use validated) 
 Tools, Implement, Venture, Evaluate (see Figure 4).
@@ -1086,7 +1088,8 @@ caregivers. In this consensus statement, we have called this the
 Psycho-Cardio team (Figure 3).
 
 
-
+
+
 
 
 
@@ -1147,33 +1150,49 @@ and check CV risk factors during mental health visits.
 status among people with CVD, and use tools to inform and 
 educate about the importance of mental and CV health, and their 
 relationships.
-
+
+
 
 
 	
 
 
-
+
+
 
-
+
+
+
+
 
 
-
+
+
 
 
 
-
-
-
+
+
+
+
+
+
+
+
 
 
-
+
+
 
-
+
+
+
 
 
 
-
+
+
+
 
 
 
@@ -1358,24 +1377,36 @@ appropriately counselled as suggested in Section 5.
 
 
 
-
-
+
+
+
+
+
 
 
 	
 
 
-
-
+
+
+
+
 
 
-	
+
+	
 	
 
 
 	
-
-
+
+
+
+
+
+
+
+
 
 Figure 5 Sources of psychosocial stress as risk factors for cardiovascular disease. CVD, cardiovascular disease.
 
@@ -2023,16 +2054,33 @@ Figure 7. Additional experiences of people coping with CVD, presented
 in the associated ‘Clinical cases and patient perspectives’ text, further 
 highlight the importance of integrating mental health assessment within 
 CVD care.
-
+
+
+
 
-	
-
-		
+	
+
+
+
+
+
+
+
+	
+	
 
-	
-
-			
-		
+	
+
+
+
+		
+
+	
+
+
+		
+
+
 
 
 
@@ -2099,12 +2147,15 @@ veloping a protocol for screening and guiding referrals based on severity
 
 
 
-
+
+
 
 	
 
 
-
+
+
+
 
 
 
@@ -2113,7 +2164,9 @@ veloping a protocol for screening and guiding referrals based on severity
 
 
 
-
+
+
+
 
 Figure 7 Visualization of an ‘on demand’ support system for people with cardiovascular disease to improve mental health. Cardiovascular disease support 
 team on standby. People with cardiovascular disease, family members and caregivers access the relevant healthcare or allied professional, or other resources 
@@ -2178,10 +2231,12 @@ patient-reported outcome measures, referred to in Section 5.1.1,239
 also notes the Cardiac Anxiety Questionnaire, Cardiac Depression 
 Scale, and Cardiac Distress Inventory can be considered as possible 
 measures.
-
+
+
 
 
-	
+	
+
 
 
 
@@ -2197,10 +2252,13 @@ measures.
 
 
 
-
+
+
+
 
 
-
+
+
 
 Figure 8 Screening for mental health conditions in people with cardiovascular disease. CVD, cardiovascular disease; GAD, Generalized Anxiety 
 Disorder; PHQ, Patient Health Questionnaire.  
@@ -2467,12 +2525,14 @@ tigue, and also psychological fears (fear of shocks, worry about the fu­
 ture, and fear of ICD dysfunction) affecting QoL. Psycho-education 
 improved the physical component summary of QoL but had no effect 
 on mental component summary scores.268 In people with AF, 
-
+
+
 
 
 
 
-
+
+
 
 
 	
@@ -2481,21 +2541,24 @@ on mental component summary scores.268 In people with AF,
 
 
 
-
+
+
 
 
 
 
 
 
-
+
+
 
 
 
 
 
 
-
+
+
 
 
 
@@ -2506,7 +2569,8 @@ on mental component summary scores.268 In people with AF,
 
 
 
-	
+	
+
 Figure 9 Stepped care model for assessment and management of mental health conditions in people with cardiovascular disease. CV, cardiovascular; 
 CVD, cardiovascular disease; GAD, Generalized Anxiety Disorder; PHQ, Patient Health Questionnaire. Adapted from Pedersen et al with 
 permission.254
@@ -3401,12 +3465,14 @@ metabolic-induced side effects may not be independent predictors for
 
 
 
-
+
+
 
 
 
 
-
+
+
 
 	
 
@@ -3415,7 +3481,8 @@ metabolic-induced side effects may not be independent predictors for
 	
 
 
-
+
+
 
 	
 
@@ -3510,7 +3577,8 @@ meta-analysis of RCTs, olanzapine, clozapine, zotepine, sertindole,
 
 
 
-
+
+
 
 	
 
@@ -4368,13 +4436,17 @@ with depression and anxiety is mounting.504–507 These are associated
 with genetic differences, inflammation, platelet activation, sympathetic 
 function, and hormone-related receptor signalling pathways.
 
-
+
+
 
 
 	
-
+
+
 
-
+
+
+
 
 
 	
@@ -4417,7 +4489,9 @@ function, and hormone-related receptor signalling pathways.
 ­
  
 
-
+
+
+
  
 
 
@@ -4830,39 +4904,51 @@ professionals to:
 
 
 
-
+
+
 
-
+
+
 
-
-	
+
+
+	
+
 
 
-
+
+
 
 
 
 
 
 
-
+
+
+
 
-			
+	
+		
 
 
 
-
+
+
 
 
 
-
+
+
 
 
 
 
 
 
-
+
+
+
 
 
 
@@ -4878,7 +4964,8 @@ professionals to:
 
 
 
-
+
+
 Figure 16 Ageing, mental disorders, and cardiovascular disease. CVD, cardiovascular disease.
 
 
@@ -4936,32 +5023,65 @@ tive, deterring people with CVD from seeking needed care, with the fi­
 nancial burden of CVD care further limiting resources for mental health 
 support.619
 
-
-
+
+
+
+
+
+
+
+
 
 
 
-	
+	
+
+
 
-
-
-
-
-
-
-
-
-
-
-
-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
-
+
+
+
 
 
 
 
-
+
+
 Figure 17 Mechanisms through which socioeconomic deprivation contributes to cardiovascular risk. CV, cardiovascular.  
 ESC Guidelines                                                                                                                                                                                               47
 
@@ -5005,16 +5125,22 @@ ities include:
 
 
 
-
-
+
+
+
+
+
 
 
-
+
+
 	
 
 
 
-
+
+
+
 	
 
 
@@ -5024,12 +5150,15 @@ ities include:
 	
 
 
-
+
+
+
 	
 
 
 
-
+
+
 
 Figure 18 Mental health challenges in migrant populations.
 
@@ -5185,38 +5314,68 @@ duction programme.680
 
 
 
-
+
+
 	
 
 
-	
-
-
-
+
+	
+
+
+
+
+
+
+
+
+
+
 
-
-
-
+
+
+
+
+
+
 
-
-
-
-	
-	
-
+
+
+
+
+
+
+	
+
+	
+
+
+
+
 
 
-	
-
+
+	
+
+
 
 
 
 
 
-
-
-
-
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
@@ -5638,2486 +5797,3 @@ Kingdom), Eva Prescott (Denmark), Bianca Rocca (Italy), Xavier
 Rossello (Spain), Anna Sannino (Germany), Felix C. Tanner 
 (Switzerland), Wojtek Wojakowski (Poland), and Katja Zeppenfeld 
 (Netherlands).
-18. References
-1. Cox C, Fritz Z. Presenting complaint: use of language that disempowers patients. BMJ 
-2022;377:e066720. https://doi.org/10.1136/bmj-2021-066720
-2. Nasa P, Jain R, Juneja D. Delphi methodology in healthcare research: how to decide its 
-appropriateness. World J Methodol 2021;11:116–29. https://doi.org/10.5662/wjm.v11. 
-i4.116
-3. World Health Organization. Comprehensive Mental Health Action Plan 2013–2030. 
-2013. https://www.who.int/publications/i/item/9789240031029 (5 February 2024, 
-date last accessed).
-4. Manwell LA, Barbic SP, Roberts K, Durisko Z, Lee C, Ware E, et al. What is mental 
-health? Evidence towards a new definition from a mixed methods multidisciplinary 
-international survey. BMJ Open 2015;5:e007079. https://doi.org/10.1136/bmjopen- 
-2014-007079
-5. Chowdhury M. What is the Mental Health Continuum Model? 2019. https:// 
-positivepsychology.com/mental-health-continuum-model/ (8 October 2024, date 
-last accessed).
-6. Peck MC, Scheffler RM. An analysis of the definitions of mental illness used in state 
-parity laws. Psychiatr Serv 2002;53:1089–95. https://doi.org/10.1176/appi.ps.53.9. 
-1089
-7. World Health Organization. International Classification of Diseases, Eleventh Revision 
-(ICD-11) 2022. https://icd.who.int/ (5 February 2024, date last accessed).
-8. National Association of Chronic Disease Directors. Cardiovascular Health. https:// 
-chronicdisease.org/page/cardiovascularhealth/ (20 June 2024, date last accessed).
-9. Boehm JK, Kubzansky LD. The heart’s content: the association between positive psy­
-chological well-being and cardiovascular health. Psychol Bull 2012;138:655–91. https:// 
-doi.org/10.1037/a0027448
-10. Rozanski A. Behavioral cardiology: current advances and future directions. J Am Coll 
-Cardiol 2014;64:100–10. https://doi.org/10.1016/j.jacc.2014.03.047
-11. Kubzansky LD, Huffman JC, Boehm JK, Hernandez R, Kim ES, Koga HK, et al. Positive 
-psychological well-being and cardiovascular disease: JACC health promotion series. J 
-Am Coll Cardiol 2018;72:1382–96. https://doi.org/10.1016/j.jacc.2018.07.042
-12. Correll CU, Solmi M, Veronese N, Bortolato B, Rosson S, Santonastaso P, et al. 
-Prevalence, incidence and mortality from cardiovascular disease in patients with 
-pooled and specific severe mental illness: a large-scale meta-analysis of 3,211,768 pa­
-tients and 113,383,368 controls. World Psychiatry 2017;16:163–80. https://doi.org/10. 
-1002/wps.20420
-13. Vilchinsky N, Ginzburg K, Fait K, Foa EB. Cardiac-disease-induced PTSD (CDI-PTSD): 
-a systematic review. Clin Psychol Rev 2017;55:92–106. https://doi.org/10.1016/j.cpr. 
-2017.04.009
-14. Rafiei S, Raoofi S, Baghaei A, Masoumi M, Doustmehraban M, Nejatifar Z, et al. 
-Depression prevalence in cardiovascular disease: global systematic review and 
-meta-analysis. BMJ Support Palliat Care 2023;13:281–9. https://doi.org/10.1136/ 
-spcare-2022-003884
-15. Rutledge T, Reis VA, Linke SE, Greenberg BH, Mills PJ. Depression in heart failure a 
-meta-analytic review of prevalence, intervention effects, and associations with clinical 
-outcomes. J Am Coll Cardiol 2006;48:1527–37. https://doi.org/10.1016/j.jacc.2006.06.055
-16. Karami N, Kazeminia M, Karami A, Salimi Y, Ziapour A, Janjani P. Global prevalence of 
-depression, anxiety, and stress in cardiac patients: a systematic review and meta-analysis. 
-J Affect Disord 2023;324:175–89. https://doi.org/10.1016/j.jad.2022.12.055
-17. Lichtman JH, Froelicher ES, Blumenthal JA, Carney RM, Doering LV, Frasure-Smith N, 
-et al. Depression as a risk factor for poor prognosis among patients with acute coron­
-ary syndrome: systematic review and recommendations: a scientific statement from 
-the American Heart Association. Circulation 2014;129:1350–69. https://doi.org/10. 
-1161/CIR.0000000000000019
-18. Sokoreli I, de Vries JJ, Riistama JM, Pauws SC, Steyerberg EW, Tesanovic A, et al. 
-Depression as an independent prognostic factor for all-cause mortality after a hospital 
-admission for worsening heart failure. Int J Cardiol 2016;220:202–7. https://doi.org/10. 
-1016/j.ijcard.2016.06.068
-19. Celano CM, Millstein RA, Bedoya CA, Healy BC, Roest AM, Huffman JC. Association be­
-tween anxiety and mortality in patients with coronary artery disease: a meta-analysis. Am 
-Heart J 2015;170:1105–15. https://doi.org/10.1016/j.ahj.2015.09.013
-20. Morgan AJ, Reavley NJ, Ross A, Too LS, Jorm AF. Interventions to reduce stigma to­
-wards people with severe mental illness: systematic review and meta-analysis. J 
-Psychiatr Res 2018;103:120–33. https://doi.org/10.1016/j.jpsychires.2018.05.017
-21. Heiberg IH, Jacobsen BK, Balteskard L, Bramness JG, Naess Ø, Ystrom E, et al. 
-Undiagnosed cardiovascular disease prior to cardiovascular death in individuals with 
-severe mental illness. Acta Psychiatr Scand 2019;139:558–71. https://doi.org/10.1111/ 
-acps.13017
-22. Marchand WE. Occurrence of painless myocardial infarction in psychotic patients. N 
-Engl J Med 1955;253:51–5. https://doi.org/10.1056/NEJM195507142530202
-23. Stubbs B, Thompson T, Acaster S, Vancampfort D, Gaughran F, Correll CU. 
-Decreased pain sensitivity among people with schizophrenia: a meta-analysis of experi­
-mental pain induction studies. Pain 2015;156:2121–31. https://doi.org/10.1097/j.pain. 
-0000000000000304
-24. De Hert M, Cohen D, Bobes J, Cetkovich-Bakmas M, Leucht S, Ndetei DM, et al. Physical 
-illness in patients with severe mental disorders. II. Barriers to care, monitoring and treat­
-ment guidelines, plus recommendations at the system and individual level. World 
-Psychiatry 2011;10:138–51. https://doi.org/10.1002/j.2051-5545.2011.tb00036.x
-25. Mitchell AJ, Lord O. Do deficits in cardiac care influence high mortality rates in schizo­
-phrenia? A systematic review and pooled analysis. J Psychopharmacol 2010;24:69–80. 
-https://doi.org/10.1177/1359786810382056
-26. Correll CU, Solmi M, Croatto G, Schneider LK, Rohani-Montez SC, Fairley L, et al. 
-Mortality in people with schizophrenia: a systematic review and meta-analysis of rela­
-tive risk and aggravating or attenuating factors. World Psychiatry 2022;21:248–71. 
-https://doi.org/10.1002/wps.20994
-27. Prince M, Patel V, Saxena S, Maj M, Maselko J, Phillips MR, et al. No health without men­
-tal health. Lancet 2007;370:859–77. https://doi.org/10.1016/S0140-6736(07)61238-0
-28. Raj CT. The effectiveness of mental health disorder stigma-reducing interventions in 
-the healthcare setting: an integrative review. Arch Psychiatr Nurs 2022;39:73–83. 
-https://doi.org/10.1016/j.apnu.2022.03.005
-
-
-<!-- PAGE 55 -->
-
-### Page 55
-
-29. Jha MK, Qamar A, Vaduganathan M, Charney DS, Murrough JW. Screening and man­
-agement of depression in patients with cardiovascular disease: JACC state-of-the-art 
-review. J Am Coll Cardiol 2019;73:1827–45. https://doi.org/10.1016/j.jacc.2019.01.041
-30. Mindham R, Van Heetvelde M, Pedersen SS. How your patient is really feeling: the 
-emotional hinterland of a cardiac diagnosis. Eur Heart J 2024;45:748–50. https://doi. 
-org/10.1093/eurheartj/ehad840
-31. George-Levi S, Vilchinsky N, Rafaeli E, Liberman G, Khaskiaa A, Mosseri M, et al. 
-Caregiving styles and anxiety among couples: coping versus not coping with cardiac ill­
-ness. Anxiety Stress Coping 2017;30:107–20. https://doi.org/10.1080/10615806.2016. 
-1206530
-32. Fait K, Vilchinsky N, Dekel R, Levi N, Hod H, Matetzky S. Cardiac disease-induced post- 
-traumatic stress symptoms (CDI-PTSS) among patients’ partners. Stress Health 2017; 
-33:169–76. https://doi.org/10.1002/smi.2686
-33. van Wijnen HG, Rasquin SM, van Heugten CM, Verbunt JA, Moulaert VR. The impact 
-of cardiac arrest on the long-term wellbeing and caregiver burden of family caregivers: 
-a prospective cohort study. Clin Rehabil 2017;31:1267–75. https://doi.org/10.1177/ 
-0269215516686155
-34. Vilchinsky N. Unrecognized, undiagnosed, and untreated: cardiac-disease-induced 
-PTSD among patients’ partners. Front Psychol 2017;8:1265. https://doi.org/10.3389/ 
-fpsyg.2017.01265
-35. Revenson TA, Griva K, Luszczynska A, Morrison V, Panagopoulou E, Vilchinsky N, et al. 
-Caregiving in the Illness Context. Hampshire, England: Spinger, 2016, 1–156.
-36. Back M. A New Task Force for Allied Professionals in the European Society of Cardiology 
-(ESC). 2020. https://www.escardio.org/Sub-specialty-communities/Association-of- 
-Cardiovascular-Nursing-&-Allied-Professions/News/celebrating-allied-health- 
-professionals-day#:∼:text=An%20ESC%20transversal%20Task%20Force,in% 
-20cardiovascular%20disease%20management%20both (8 October 2024, date last 
-accessed).
-37. Solanes A, Albajes-Eizagirre A, Fullana MA, Fortea L, Fusar-Poli P, Torrent C, et al. Can 
-we increase the subjective well-being of the general population? An umbrella review of 
-the evidence. Rev Psiquiatr Salud Ment (Engl Ed) 2021;14:50–64. https://doi.org/10. 
-1016/j.rpsm.2020.08.002
-38. Levine GN, Cohen BE, Commodore-Mensah Y, Fleury J, Huffman JC, Khalid U, et al. 
-Psychological health, well-being, and the mind-heart-body connection: a scientific 
-statement from the American Heart Association. Circulation 2021;143:e763–83. 
-https://doi.org/10.1161/CIR.0000000000000947
-39. Levine GN, Steinke EE, Bakaeen FG, Bozkurt B, Cheitlin MD, Conti JB, et al. Sexual activity 
-and cardiovascular disease: a scientific statement from the American Heart Association. 
-Circulation 2012;125:1058–72. https://doi.org/10.1161/CIR.0b013e3182447787
-40. Mc Gee SL, Höltge J, Maercker A, Thoma MV. Sense of coherence and stress-related 
-resilience: investigating the mediating and moderating mechanisms in the development 
-of resilience following stress or adversity. Front Psychiatry 2018;9:378. https://doi.org/ 
-10.3389/fpsyt.2018.00378
-41. Chida Y, Steptoe A. Positive psychological well-being and mortality: a quantitative re­
-view of prospective observational studies. Psychosom Med 2008;70:741–56. https://doi. 
-org/10.1097/PSY.0b013e31818105ba
-42. Martín-María N, Miret M, Caballero FF, Rico-Uribe LA, Steptoe A, Chatterji S, et al. 
-The impact of subjective well-being on mortality: a meta-analysis of longitudinal studies 
-in the general population. Psychosom Med 2017;79:565–75. https://doi.org/10.1097/ 
-PSY.0000000000000444
-43. Davidson KW, Mostofsky E, Whang W. Don’t worry, be happy: positive affect and re­
-duced 10-year incident coronary heart disease: the Canadian Nova Scotia Health 
-Survey. Eur Heart J 2010;31:1065–70. https://doi.org/10.1093/eurheartj/ehp603
-44. Kim ES, Smith J, Kubzansky LD. Prospective study of the association between disposi­
-tional optimism and incident heart failure. Circ Heart Fail 2014;7:394–400. https://doi. 
-org/10.1161/CIRCHEARTFAILURE.113.000644
-45. Shimbo D, Cohen MT, McGoldrick M, Ensari I, Diaz KM, Fu J, et al. Translational re­
-search of the acute effects of negative emotions on vascular endothelial health: findings 
-from a randomized controlled study. J Am Heart Assoc 2024;13:e032698. https://doi. 
-org/10.1161/JAHA.123.032698
-46. Rozanski A, Kubzansky LD. Psychologic functioning and physical health: a paradigm of 
-flexibility. Psychosom Med 2005;67:S47–53. https://doi.org/10.1097/01.psy.0000164253. 
-69550.49
-47. Steptoe A, Wardle J, Marmot M. Positive affect and health-related neuroendocrine, 
-cardiovascular, and inflammatory processes. Proc Natl Acad Sci USA 2005;102: 
-6508–12. https://doi.org/10.1073/pnas.0409174102
-48. Boehm JK, Chen Y, Koga H, Mathur MB, Vie LL, Kubzansky LD. Is optimism associated 
-with healthier cardiovascular-related behavior? Meta-analyses of 3 health behaviors. 
-Circ Res 2018;122:1119–34. https://doi.org/10.1161/CIRCRESAHA.117.310828
-49. Lurz J, Ladwig KH. Mind and body interventions in cardiology: the importance of the 
-brain-heart connection. Herz 2022;47:103–9. https://doi.org/10.1007/s00059-022- 
-05104-y
-50. Lazarus RS. Some principles of psychological stress and their relation to dentistry. J 
-Dent Res 1966;45:1620–6. https://doi.org/10.1177/00220345660450060901
-51. Kivimäki M, Bartolomucci A, Kawachi I. The multiple roles of life stress in metabolic 
-disorders. Nat Rev Endocrinol 2023;19:10–27. https://doi.org/10.1038/s41574-022- 
-00746-8
-52. Ginty AT, Kraynak TE, Fisher JP, Gianaros PJ. Cardiovascular and autonomic reactivity 
-to psychological stress: neurophysiological substrates and links to cardiovascular dis­
-ease. Auton Neurosci 2017;207:2–9. https://doi.org/10.1016/j.autneu.2017.03.003
-53. Segerstrom SC, Miller GE. Psychological stress and the human immune system: a 
-meta-analytic study of 30 years of inquiry. Psychol Bull 2004;130:601–30. https://doi. 
-org/10.1037/0033-2909.130.4.601
-54. Yusuf S, Hawken S, Ounpuu S, Dans T, Avezum A, Lanas F, et al. Effect of potentially 
-modifiable risk factors associated with myocardial infarction in 52 countries (the 
-INTERHEART study): case-control study. Lancet 2004;364:937–52. https://doi.org/ 
-10.1016/S0140-6736(04)17018-9
-55. Dar T, Radfar A, Abohashem S, Pitman RK, Tawakol A, Osborne MT. Psychosocial 
-stress and cardiovascular disease. Curr Treat Options Cardiovasc Med 2019;21:23. 
-https://doi.org/10.1007/s11936-019-0724-5
-56. Rosengren A, Hawken S, Ounpuu S, Sliwa K, Zubaid M, Almahmeed WA, et al. 
-Association of psychosocial risk factors with risk of acute myocardial infarction in 
-11119 cases and 13648 controls from 52 countries (the INTERHEART study): case- 
-control study. Lancet 2004;364:953–62. https://doi.org/10.1016/S0140-6736(04)17019-0
-57. Peterson PN. JAHA spotlight on psychosocial factors and cardiovascular disease. J Am 
-Heart Assoc 2020;9:e017112. https://doi.org/10.1161/JAHA.120.017112
-58. Kivimäki M, Nyberg ST, Batty GD, Fransson EI, Heikkilä K, Alfredsson L, et al. Job strain as 
-a risk factor for coronary heart disease: a collaborative meta-analysis of individual partici­
-pant data. Lancet 2012;380:1491–7. https://doi.org/10.1016/S0140-6736(12)60994-5
-59. Magnusson Hanson LL, Westerlund H, Chungkham HS, Vahtera J, Rod NH, 
-Alexanderson K, et al. Job strain and loss of healthy life years between ages 50 and 
-75 by sex and occupational position: analyses of 64 934 individuals from four prospect­
-ive cohort studies. Occup Environ Med 2018;75:486–93. https://doi.org/10.1136/ 
-oemed-2017-104644
-60. Sørensen JK, Framke E, Pedersen J, Alexanderson K, Bonde JP, Farrants K, et al. Work 
-stress and loss of years lived without chronic disease: an 18-year follow-up of 1.5 mil­
-lion employees in Denmark. Eur J Epidemiol 2022;37:389–400. https://doi.org/10.1007/ 
-s10654-022-00852-x
-61. Xu T, Magnusson Hanson LL, Lange T, Starkopf L, Westerlund H, Madsen IEH, et al. 
-Workplace bullying and workplace violence as risk factors for cardiovascular disease: a 
-multi-cohort study. Eur Heart J 2019;40:1124–34. https://doi.org/10.1093/eurheartj/ 
-ehy683
-62. Landsbergis PA, Dobson M, Koutsouras G, Schnall P. Job strain and ambulatory blood 
-pressure: a meta-analysis and systematic review. Am J Public Health 2013;103:e61–71. 
-https://doi.org/10.2105/AJPH.2012.301153
-63. Yang B, Wang Y, Cui F, Huang T, Sheng P, Shi T, et al. Association between insomnia 
-and job stress: a meta-analysis. Sleep Breath 2018;22:1221–31. https://doi.org/10.1007/ 
-s11325-018-1682-y
-64. Rugulies R, Aust B, Madsen IE. Effort-reward imbalance at work and risk of depressive 
-disorders. A systematic review and meta-analysis of prospective cohort studies. Scand J 
-Work Environ Health 2017;43:294–306. https://doi.org/10.5271/sjweh.3632
-65. Li J, Atasoy S, Fang X, Angerer P, Ladwig KH. Combined effect of work stress and im­
-paired sleep on coronary and cardiovascular mortality in hypertensive workers: the 
-MONICA/KORA cohort study. Eur J Prev Cardiol 2021;28:220–6. https://doi.org/10. 
-1177/2047487319839183
-66. Heikkilä K, Nyberg ST, Fransson EI, Alfredsson L, De Bacquer D, Bjorner JB, et al. Job 
-strain and tobacco smoking: an individual-participant data meta-analysis of 166,130 
-adults in 15 European studies. PLoS One 2012;7:e35463. https://doi.org/10.1371/ 
-journal.pone.0035463
-67. Fransson EI, Heikkilä K, Nyberg ST, Zins M, Westerlund H, Westerholm P, et al. Job 
-strain as a risk factor for leisure-time physical inactivity: an individual-participant 
-meta-analysis of up to 170,000 men and women: the IPD-Work Consortium. Am J 
-Epidemiol 2012;176:1078–89. https://doi.org/10.1093/aje/kws336
-68. Heikkilä K, Nyberg ST, Fransson EI, Alfredsson L, De Bacquer D, Bjorner JB, et al. Job 
-strain and alcohol intake: a collaborative meta-analysis of individual-participant data 
-from 140,000 men and women. PLoS One 2012;7:e40101. https://doi.org/10.1371/ 
-journal.pone.0040101
-69. Heikkilä K, Fransson EI, Nyberg ST, Zins M, Westerlund H, Westerholm P, et al. Job 
-strain and health-related lifestyle: findings from an individual-participant meta-analysis 
-of 118,000 working adults. Am J Public Health 2013;103:2090–7. https://doi.org/10. 
-2105/AJPH.2012.301090
-70. Kaspersen SL, Pape K, Ose SO, Gunnell D, Bjørngaard JH. Unemployment and initi­
-ation of psychotropic medication: a case-crossover study of 2 348 552 Norwegian em­
-ployees. Occup Environ Med 2016;73:719–26. https://doi.org/10.1136/oemed-2016- 
-103578
-71. Sanchez Rico M, Plessz M, Airagnes G, Ribet C, Hoertel N, Goldberg M, et al. 
-Cardiovascular burden and unemployment: a retrospective study in a large population- 
-based French cohort. PLoS One 2023;18:e0288747. https://doi.org/10.1371/journal. 
-pone.0288747
-ESC Guidelines                                                                                                                                                                                               55
-
-
-<!-- PAGE 56 -->
-
-### Page 56
-
-72. Zagozdzon P, Parszuto J, Wrotkowska M, Dydjow-Bendek D. Effect of unemployment 
-on cardiovascular risk factors and mental health. Occup Med (Lond) 2014;64:436–41. 
-https://doi.org/10.1093/occmed/kqu044
-73. Ahn J, Kim NS, Lee BK, Park J, Kim Y. Comparison of the physical and mental health 
-problems of unemployed with employees in South Korea. Arch Environ Occup Health 
-2021;76:163–72. https://doi.org/10.1080/19338244.2020.1783503
-74. Wang T, Li Y, Zheng X. Association of socioeconomic status with cardiovascular dis­
-ease and cardiovascular risk factors: a systematic review and meta-analysis. Z Gesundh 
-Wiss 2023;32:385–99. https://doi.org/10.1007/s10389-023-01825-4
-75. Jackman MR, Jackman RW. An interpretation of the relation between objective and sub­
-jective social status. Am Sociol Rev 1973;38:569–82. https://doi.org/10.2307/2094408
-76. Tang KL, Rashid R, Godley J, Ghali WA. Association between subjective social status 
-and cardiovascular disease and cardiovascular risk factors: a systematic review and 
-meta-analysis. BMJ Open 2016;6:e010137. https://doi.org/10.1136/bmjopen-2015- 
-010137
-77. Everson-Rose SA, Lutsey PL, Roetker NS, Lewis TT, Kershaw KN, Alonso A, et al. 
-Perceived discrimination and incident cardiovascular events: the multi-ethnic study of 
-atherosclerosis. Am J Epidemiol 2015;182:225–34. https://doi.org/10.1093/aje/kwv035
-78. Lawrence WR, Jones GS, Johnson JA, Ferrell KP, Johnson JN, Shiels MS, et al. 
-Discrimination experiences and all-cause and cardiovascular mortality: multi-ethnic 
-study of atherosclerosis. Circ Cardiovasc Qual Outcomes 2023;16:e009697. https:// 
-doi.org/10.1161/CIRCOUTCOMES.122.009697
-79. Martos-Méndez MJ, García-Cid A, Gómez-Jacinto L, Hombrados-Mendieta I. Perceived 
-discrimination, psychological distress and cardiovascular risk in migrants in Spain. Int J 
-Environ Res Public Health 2020;17:4601. https://doi.org/10.3390/ijerph17124601
-80. Harris LK, Berry DC, Cortés YI. Psychosocial factors related to cardiovascular disease 
-risk in young African American women: a systematic review. Ethn Health 2022;27: 
-1806–24. https://doi.org/10.1080/13557858.2021.1990218
-81. Kalmakis KA, Chandler GE. Adverse childhood experiences: towards a clear concep­
-tual meaning. J Adv Nurs 2014;70:1489–501. https://doi.org/10.1111/jan.12329
-82. Jakubowski KP, Cundiff JM, Matthews KA. Cumulative childhood adversity and adult 
-cardiometabolic disease: a meta-analysis. Health Psychol 2018;37:701–15. https://doi. 
-org/10.1037/hea0000637
-83. Batty GD, Kivimäki M, Frank P. State care in childhood and adult mortality: a systematic 
-review and meta-analysis of prospective cohort studies. Lancet Public Health 2022;7: 
-e504–14. https://doi.org/10.1016/S2468-2667(22)00081-0
-84. Liang Y, Ai S, Weng F, Feng H, Yang L, He Z, et al. Associations of childhood maltreat­
-ment and genetic risks with incident heart failure in later life. J Am Heart Assoc 2022;11: 
-e026536. https://doi.org/10.1161/JAHA.122.026536
-85. Jackson DB, Testa A, Woodward KP, Qureshi F, Ganson KT, Nagata JM. Adverse child­
-hood experiences and cardiovascular risk among young adults: findings from the 2019 
-behavioral risk factor surveillance system. Int J Environ Res Public Health 2022;19:11710. 
-https://doi.org/10.3390/ijerph191811710
-86. Dong M, Giles WH, Felitti VJ, Dube SR, Williams JE, Chapman DP, et al. Insights into 
-causal pathways for ischemic heart disease: adverse childhood experiences study. 
-Circulation 2004;110:1761–6. https://doi.org/10.1161/01.CIR.0000143074.54995.7F
-87. Chandan JS, Thomas T, Bradbury-Jones C, Russell R, Bandyopadhyay S, 
-Nirantharakumar K, et al. Female survivors of intimate partner violence and risk of de­
-pression, anxiety and serious mental illness. Br J Psychiatry 2020;217:562–7. https://doi. 
-org/10.1192/bjp.2019.124
-88. Chandan JS, Thomas T, Bradbury-Jones C, Taylor J, Bandyopadhyay S, Nirantharakumar 
-K. Risk of cardiometabolic disease and all-cause mortality in female survivors of domestic 
-abuse. J Am Heart Assoc 2020;9:e014580. https://doi.org/10.1161/JAHA.119.014580
-89. Clark CJ, Alonso A, Everson-Rose SA, Spencer RA, Brady SS, Resnick MD, et al. 
-Intimate partner violence in late adolescence and young adulthood and subsequent 
-cardiovascular risk in adulthood. Prev Med 2016;87:132–7. https://doi.org/10.1016/j. 
-ypmed.2016.02.031
-90. Prohaska T, Burholt V, Burns A, Golden J, Hawkley L, Lawlor B, et al. Consensus state­
-ment: loneliness in older adults, the 21st century social determinant of health? BMJ 
-Open 2020;10:e034967. https://doi.org/10.1136/bmjopen-2019-034967
-91. Newall NEG, Menec VH. A comparison of different definitions of social isolation using 
-Canadian Longitudinal Study on Aging (CLSA) data. Ageing Soc 2020;40:2671–94. 
-https://doi.org/10.1017/S0144686X19000801
-92. Valtorta NK, Kanaan M, Gilbody S, Ronzi S, Hanratty B. Loneliness and social isolation 
-as risk factors for coronary heart disease and stroke: systematic review and 
-meta-analysis of longitudinal observational studies. Heart 2016;102:1009–16. https:// 
-doi.org/10.1136/heartjnl-2015-308790
-93. Liang YY, Chen Y, Feng H, Liu X, Ai QH, Xue H, et al. Association of social isolation and 
-loneliness with incident heart failure in a population-based cohort study. JACC Heart 
-Fail 2023;11:334–44. https://doi.org/10.1016/j.jchf.2022.11.028
-94. World Health Organization. Depression and Other Common Mental Disorders: Global 
-Health Estimates. Geneva: World Health Organization, 2017.
-95. Ladwig KH, Baumert J, Marten-Mittag B, Lukaschek K, Johar H, Fang X, et al. Room for 
-depressed and exhausted mood as a risk predictor for all-cause and cardiovascular mor­
-tality beyond the contribution of the classical somatic risk factors in men. Atherosclerosis 
-2017;257:224–31. https://doi.org/10.1016/j.atherosclerosis.2016.12.003
-96. Krittanawong C, Maitra NS, Qadeer YK, Wang Z, Fogg S, Storch EA, et al. Association 
-of depression and cardiovascular disease. Am J Med 2023;136:881–95. https://doi.org/ 
-10.1016/j.amjmed.2023.04.036
-97. Rajan S, McKee M, Rangarajan S, Bangdiwala S, Rosengren A, Gupta R, et al. Association 
-of symptoms of depression with cardiovascular disease and mortality in low-, middle-, 
-and high-income countries. JAMA Psychiatry 2020;77:1052–63. https://doi.org/10.1001/ 
-jamapsychiatry.2020.1351
-98. Cao L, Sheng C, Luo G, Ou J. Depression as a risk factor for developing heart failure: a 
-meta-analysis of prospective cohort studies. J Cardiovasc Nurs 2022;37:112–21. https:// 
-doi.org/10.1097/JCN.0000000000000760
-99. Shi S, Liu T, Liang J, Hu D, Yang B. Depression and risk of sudden cardiac death and 
-arrhythmias: a meta-analysis. Psychosom Med 2017;79:153–61. https://doi.org/10. 
-1097/PSY.0000000000000382
-100. Wu H, Li C, Li B, Zheng T, Feng K, Wu Y. Psychological factors and risk of atrial fib­
-rillation: a meta-analysis and systematic review. Int J Cardiol 2022;362:85–92. https:// 
-doi.org/10.1016/j.ijcard.2022.05.048
-101. Gilman SE, Sucha E, Kingsbury M, Horton NJ, Murphy JM, Colman I. Depression and 
-mortality in a longitudinal study: 1952–2011. CMAJ 2017;189:E1304–10. https://doi. 
-org/10.1503/cmaj.170125
-102. DeMartini J, Patel G, Fancher TL. Generalized anxiety disorder. Ann Intern Med 2019; 
-170:ITC49–64. https://doi.org/10.7326/AITC201904020
-103. Nechita D, Nechita F, Motorga R. A review of the influence the anxiety exerts on hu­
-man life. Rom J Morphol Embryol 2018;59:1045–51.
-104. Steimer T. The biology of fear- and anxiety-related behaviors. Dialogues Clin Neurosci 
-2002;4:231–49. https://doi.org/10.31887/DCNS.2002.4.3/tsteimer
-105. Batelaan NM, Seldenrijk A, Bot M, van Balkom AJ, Penninx BW. Anxiety and new onset 
-of cardiovascular disease: critical review and meta-analysis. Br J Psychiatry 2016;208: 
-223–31. https://doi.org/10.1192/bjp.bp.114.156554
-106. Roest AM, Martens EJ, de Jonge P, Denollet J. Anxiety and risk of incident coronary 
-heart disease: a meta-analysis. J Am Coll Cardiol 2010;56:38–46. https://doi.org/10. 
-1016/j.jacc.2010.03.034
-107. Janszky I, Ahnve S, Lundberg I, Hemmingsson T. Early-onset depression, anxiety, and risk 
-of subsequent coronary heart disease: 37-year follow-up of 49,321 young Swedish men. J 
-Am Coll Cardiol 2010;56:31–7. https://doi.org/10.1016/j.jacc.2010.03.033
-108. Nabi H, Hall M, Koskenvuo M, Singh-Manoux A, Oksanen T, Suominen S, et al. 
-Psychological and somatic symptoms of anxiety and risk of coronary heart disease: 
-the health and social support prospective cohort study. Biol Psychiatry 2010;67: 
-378–85. https://doi.org/10.1016/j.biopsych.2009.07.040
-109. Emdin CA, Odutayo A, Wong CX, Tran J, Hsiao AJ, Hunn BH. Meta-analysis of anxiety 
-as a risk factor for cardiovascular disease. Am J Cardiol 2016;118:511–9. https://doi.org/ 
-10.1016/j.amjcard.2016.05.041
-110. Fu Y, He W, Ma J, Wei B. Relationship between psychological factors and atrial fibril­
-lation: a meta-analysis and systematic review. Medicine (Baltimore) 2020;99:e19615. 
-https://doi.org/10.1097/MD.0000000000019615
-111. Gustad LT, Laugsand LE, Janszky I, Dalen H, Bjerkeset O. Symptoms of anxiety and de­
-pression and risk of heart failure: the HUNT study. Eur J Heart Fail 2014;16:861–70. 
-https://doi.org/10.1002/ejhf.133
-112. Smoller JW, Pollack MH, Wassertheil-Smoller S, Jackson RD, Oberman A, Wong ND, 
-et al. Panic attacks and risk of incident cardiovascular events among postmenopausal 
-women in the Women’s Health Initiative Observational Study. Arch Gen Psychiatry 
-2007;64:1153–60. https://doi.org/10.1001/archpsyc.64.10.1153
-113. Thakur A, Choudhary D, Kumar B, Chaudhary A. A review on post-traumatic stress 
-disorder (PTSD): symptoms, therapies and recent case studies. Curr Mol Pharmacol 
-2022;15:502–16. https://doi.org/10.2174/1874467214666210525160944
-114. Sladen RN, Shulman MA, Javaid A, Hodgson C, Myles PS, McGiffin D, et al. 
-Postdischarge functional capacity, health-related quality of life, depression, anxiety, 
-and post-traumatic stress disorder in patients receiving a long-term left ventricular as­
-sist device. J Card Fail 2022;28:83–92. https://doi.org/10.1016/j.cardfail.2021.07.019
-115. Beristianos MH, Yaffe K, Cohen B, Byers AL. PTSD and risk of incident cardiovascular 
-disease in aging veterans. Am J Geriatr Psychiatry 2016;24:192–200. https://doi.org/10. 
-1016/j.jagp.2014.12.003
-116. Jacquet-Smailovic M, Brennsthul MJ, Denis I, Kirche A, Tarquinio C, Tarquinio C. 
-Relationship between post-traumatic stress disorder and subsequent myocardial in­
-farction: a systematic review and meta-analysis. J Affect Disord 2022;297:525–35. 
-https://doi.org/10.1016/j.jad.2021.10.056
-117. Boscarino JA. A prospective study of PTSD and early-age heart disease mortality 
-among Vietnam veterans: implications for surveillance and prevention. Psychosom 
-Med 2008;70:668–76. https://doi.org/10.1097/PSY.0b013e31817bccaf
-118. Krantz DS, Shank LM, Goodie JL. Post-traumatic stress disorder (PTSD) as a systemic 
-disorder: pathways to cardiovascular disease. Health Psychol 2022;41:651–62. https:// 
-doi.org/10.1037/hea0001127
-119. Fu Q. Autonomic dysfunction and cardiovascular risk in post-traumatic stress disorder. 
-Auton Neurosci 2022;237:102923. https://doi.org/10.1016/j.autneu.2021.102923
-120. Peruzzolo TL, Pinto JV, Roza TH, Shintani AO, Anzolin AP, Gnielka V, et al. 
-Inflammatory and oxidative stress markers in post-traumatic stress disorder:
-
-
-<!-- PAGE 57 -->
-
-### Page 57
-
-a systematic review and meta-analysis. Mol Psychiatry 2022;27:3150–63. https://doi.org/ 
-10.1038/s41380-022-01564-0
-121. Edmondson D, Cohen BE. Posttraumatic stress disorder and cardiovascular disease. 
-Progress in Cardiovascular Diseases 2013;55:548–56. https://doi.org/10.1016/j.pcad.2013. 
-03.004
-122. Kelly MM, Jensen KP, Sofuoglu M. Co-occurring tobacco use and posttraumatic stress 
-disorder: smoking cessation treatment implications. Am J Addict 2015;24:695–704. 
-https://doi.org/10.1111/ajad.12304
-123. van den Berk-Clark C, Secrest S, Walls J, Hallberg E, Lustman PJ, Schneider FD, et al. 
-Association between posttraumatic stress disorder and lack of exercise, poor diet, 
-obesity, and co-occuring smoking: a systematic review and meta-analysis. Health 
-Psychol 2018;37:407–16. https://doi.org/10.1037/hea0000593
-124. Edmondson D. An enduring somatic threat model of posttraumatic stress disorder 
-due to acute life-threatening medical events. Soc Personal Psychol Compass 2014;8: 
-118–34. https://doi.org/10.1111/spc3.12089
-125. Tully PJ, Harrison NJ, Cheung P, Cosh S. Anxiety and cardiovascular disease risk: a re­
-view. Curr Cardiol Rep 2016;18:120. https://doi.org/10.1007/s11886-016-0800-3
-126. Shao M, Lin X, Jiang D, Tian H, Xu Y, Wang L, et al. Depression and cardiovascular dis­
-ease: shared molecular mechanisms and clinical implications. Psychiatry Res 2020;285: 
-112802. https://doi.org/10.1016/j.psychres.2020.112802
-127. Pedersen SS, Andersen CM, Burg M, Theuns D. Anger and long-term mortality and 
-ventricular arrhythmias in patients with a first-time implantable cardioverter- 
-defibrillator: data from the MIDAS study. Europace 2020;22:1054–61. https://doi. 
-org/10.1093/europace/euaa083
-128. Rosenstrøm S, Risom SS, Hove JD, Brødsgaard A. Living with atrial fibrillation: a family 
-perspective. Nurs Res Pract 2022;2022:7394445. https://doi.org/10.1155/2022/7394445
-129. Bermudez T, Bierbauer W, Scholz U, Hermann M. Depression and anxiety in cardiac re­
-habilitation: differential associations with changes in exercise capacity and quality of life. 
-Anxiety Stress Coping 2022;35:204–18. https://doi.org/10.1080/10615806.2021.1952191
-130. Szpakowski N, Qiu F, Masih S, Kurdyak P, Wijeysundera HC. Economic impact of sub­
-sequent depression in patients with a new diagnosis of stable angina: a population-based 
-study. J Am Heart Assoc 2017;6:e006911. https://doi.org/10.1161/JAHA.117.006911
-131. Hare DL, Toukhsati SR, Johansson P, Jaarsma T. Depression and cardiovascular disease: a 
-clinical review. Eur Heart J 2014;35:1365–72. https://doi.org/10.1093/eurheartj/eht462
-132. Lichtman JH, Bigger JT Jr, Blumenthal JA, Frasure-Smith N, Kaufmann PG, Lespérance F, 
-et al. Depression and coronary heart disease: recommendations for screening, referral, 
-and treatment: a science advisory from the American Heart Association Prevention 
-Committee of the Council on Cardiovascular Nursing, Council on Clinical Cardiology, 
-Council on Epidemiology and Prevention, and Interdisciplinary Council on Quality of 
-Care and Outcomes Research: endorsed by the American Psychiatric Association. 
-Circulation 2008;118:1768–75. https://doi.org/10.1161/circulationaha.108.190769
-133. Moussavi S, Chatterji S, Verdes E, Tandon A, Patel V, Ustun B. Depression, chronic dis­
-eases, and decrements in health: results from the World Health Surveys. Lancet 2007; 
-370:851–8. https://doi.org/10.1016/S0140-6736(07)61415-9
-134. Mai AS, Lim OZH, Ho YJ, Kong G, Lim GEH, Ng CH, et al. Prevalence, risk factors and 
-intervention for depression and anxiety in pulmonary hypertension: a systematic re­
-view and meta-analysis. Front Med (Lausanne) 2022;9:765461. https://doi.org/10. 
-3389/fmed.2022.765461
-135. Alosaimi N, Sherar LB, Griffiths P, Pearson N. Clustering of diet, physical activity and 
-sedentary behaviour and related physical and mental health outcomes: a systematic re­
-view. BMC Public Health 2023;23:1572. https://doi.org/10.1186/s12889-023-16372-6
-136. Thombs BD, Bass EB, Ford DE, Stewart KJ, Tsilidis KK, Patel U, et al. Prevalence of de­
-pression in survivors of acute myocardial infarction. J Gen Intern Med 2006;21:30–8. 
-https://doi.org/10.1111/j.1525-1497.2005.00269.x
-137. Mallik S, Spertus JA, Reid KJ, Krumholz HM, Rumsfeld JS, Weintraub WS, et al. 
-Depressive symptoms after acute myocardial infarction: evidence for highest rates 
-in younger women. Arch Intern Med 2006;166:876–83. https://doi.org/10.1001/ 
-archinte.166.8.876
-138. Pająk A, Jankowski P, Kotseva K, Heidrich J, de Smedt D, De Bacquer D. Depression, 
-anxiety, and risk factor control in patients after hospitalization for coronary heart dis­
-ease: the EUROASPIRE III Study. Eur J Prev Cardiol 2013;20:331–40. https://doi.org/10. 
-1177/2047487312441724
-139. Brown T, Chen S, Ou Z, McDonald N, Bennett-Murphy L, Schneider L, et al. Feasibility 
-of assessing adolescent and young adult heart transplant recipient mental health and 
-resilience using patient-reported outcome measures. J Acad Consult Liaison Psychiatry 
-2022;63:153–62. https://doi.org/10.1016/j.jaclp.2021.08.002
-140. de la Rosa A, Singer-Englar T, Hamilton MA, IsHak WW, Kobashigawa JA, Kittleson MM. 
-The impact of depression on heart transplant outcomes: a retrospective single-center 
-cohort study. Clin Transplant 2021;35:e14204. https://doi.org/10.1111/ctr.14204
-141. Dew MA, Kormos RL, DiMartini AF, Switzer GE, Schulberg HC, Roth LH, et al. 
-Prevalence and risk of depression and anxiety-related disorders during the first three 
-years after heart transplantation. Psychosomatics 2001;42:300–13. https://doi.org/10. 
-1176/appi.psy.42.4.300
-142. Rossi Ferrario S, Panzeri A, Pistono M. Psychological difficulties of LVAD patients and 
-caregivers: a follow up over one year from discharge. Artif Organs 2022;46:479–90. 
-https://doi.org/10.1111/aor.14071
-143. Heilmann C, Kaps J, Hartmann A, Zeh W, Anjarwalla AL, Beyersdorf F, et al. Mental 
-health status of patients with mechanical aortic valves, with ventricular assist devices 
-and after heart transplantation. Interact Cardiovasc Thorac Surg 2016;23:321–5. 
-https://doi.org/10.1093/icvts/ivw111
-144. Thrall G, Lip GY, Carroll D, Lane D. Depression, anxiety, and quality of life in patients 
-with atrial fibrillation. Chest 2007;132:1259–64. https://doi.org/10.1378/chest.07-0036
-145. Ghezzi ES, Sharman RLS, Selvanayagam JB, Psaltis PJ, Sanders P, Astley JM, et al. Burden 
-of mood symptoms and disorders in implantable cardioverter defibrillator patients: a 
-systematic review and meta-analysis of 39 954 patients. Europace 2023;25:euad130. 
-https://doi.org/10.1093/europace/euad130
-146. Pedersen SS, Nielsen JC, Wehberg S, Jørgensen OD, Riahi S, Haarbo J, et al. New onset 
-anxiety and depression in patients with an implantable cardioverter defibrillator during 
-24 months of follow-up (data from the national DEFIB-WOMEN study). Gen Hosp 
-Psychiatry 2021;72:59–65. https://doi.org/10.1016/j.genhosppsych.2021.07.003
-147. Ensslin C, Berg J, Hermes-Laufer J, Keller LS, Niederseer D, Pazhenkottil A, et al. 
-Depressive symptoms in patients after primary and secondary prophylactic ICD im­
-plantation. Clin Res Cardiol 2022;111:1210–8. https://doi.org/10.1007/s00392-021- 
-01940-w
-148. Tagney J. A literature review comparing the experiences and emergent needs of adult 
-patients with permanent pacemakers (PPMs) and implantable cardioverter defibrilla­
-tors (ICDs). J Clin Nurs 2010;19:2081–9. https://doi.org/10.1111/j.1365-2702.2009. 
-03031.x
-149. Andonian C, Beckmann J, Biber S, Ewert P, Freilinger S, Kaemmerer H, et al. Current 
-research status on the psychological situation of adults with congenital heart disease. 
-Cardiovasc Diagn Ther 2018;8:799–804. https://doi.org/10.21037/cdt.2018.12.06
-150. Udholm S, Nyboe C, Lundbye-Christensen S, Nordentoft M, Hjortdal VE. Congenital 
-heart disease and risk of suicide and self-harm: a Danish nationwide cohort study. J Am 
-Heart Assoc 2020;9:e015735. https://doi.org/10.1161/JAHA.119.015735
-151. Gu S, Hu H, Dong H. Systematic review of health-related quality of life in patients with 
-pulmonary arterial hypertension. Pharmacoeconomics 2016;34:751–70. https://doi.org/ 
-10.1007/s40273-016-0395-y
-152. Halimi L, Marin G, Molinari N, Gamez AS, Boissin C, Suehs CM, et al. Impact of psy­
-chological factors on the health-related quality of life of patients treated for pulmonary 
-arterial hypertension. J Psychosom Res 2018;105:45–51. https://doi.org/10.1016/j. 
-jpsychores.2017.12.003
-153. Pfeuffer-Jovic E, Joa F, Halank M, Krannich JH, Held M. Anxiety, depression and quality 
-of life in pulmonary hypertension: a comparison of incident and prevalent cases. 
-Respiration 2022;101:784–92. https://doi.org/10.1159/000524369
-154. Zhang J, Yin Y, Wen Y, Shi F, Wang J. Anxiety and depression in patients with pulmon­
-ary arterial hypertension in northwest China: a cross-sectional study. Front Psychiatry 
-2021;12:758120. https://doi.org/10.3389/fpsyt.2021.758120
-155. Von Visger TT, Kuntz KK, Phillips GS, Yildiz VO, Sood N. Quality of life and psycho­
-logical symptoms in patients with pulmonary hypertension. Heart Lung 2018;47: 
-115–21. https://doi.org/10.1016/j.hrtlng.2017.12.004
-156. Lane D, Carroll D, Ring C, Beevers DG, Lip GY. Mortality and quality of life 12 months 
-after myocardial infarction: effects of depression and anxiety. Psychosom Med 2001;63: 
-221–30. https://doi.org/10.1097/00006842-200103000-00005
-157. Meijer A, Conradi HJ, Bos EH, Anselmino M, Carney RM, Denollet J, et al. Adjusted 
-prognostic association of depression following myocardial infarction with mortality 
-and cardiovascular events: individual patient data meta-analysis. Br J Psychiatry 2013; 
-203:90–102. https://doi.org/10.1192/bjp.bp.112.111195
-158. van Dijk MR, Utens EM, Dulfer K, Al-Qezweny MN, van Geuns RJ, Daemen J, et al. 
-Depression and anxiety symptoms as predictors of mortality in PCI patients at 10 
-years of follow-up. Eur J Prev Cardiol 2016;23:552–8. https://doi.org/10.1177/ 
-2047487315571889
-159. Owen JE, Bonds CL, Wellisch DK. Psychiatric evaluations of heart transplant candi­
-dates: predicting post-transplant hospitalizations, rejection episodes, and survival. 
-Psychosomatics 2006;47:213–22. https://doi.org/10.1176/appi.psy.47.3.213
-160. Dew MA, Kormos RL, Roth LH, Murali S, DiMartini A, Griffith BP. Early post-transplant 
-medical compliance and mental health predict physical morbidity and mortality one to 
-three years after heart transplantation. J Heart Lung Transplant 1999;18:549–62. 
-https://doi.org/10.1016/S1053-2498(98)00044-8
-161. DeFilippis EM, Breathett K, Donald EM, Nakagawa S, Takeda K, Takayama H, et al. 
-Psychosocial risk and its association with outcomes in continuous-flow left ventricular 
-assist device patients. Circ Heart Fail 2020;13:e006910. https://doi.org/10.1161/ 
-CIRCHEARTFAILURE.120.006910
-162. Mullan C, Caraballo C, Ravindra NG, Miller PE, McCullough M, Brown K, et al. 
-Psychiatric comorbidity and outcomes after left ventricular assist device implantation 
-for end-stage heart failure. JACC Heart Fail 2020;8:569–77. https://doi.org/10.1016/j. 
-jchf.2020.03.011
-163. Zhuo C, Ji F, Lin X, Jiang D, Wang L, Tian H, et al. Depression and recurrence of atrial 
-fibrillation after catheter ablation: a meta-analysis of cohort studies. J Affect Disord 
-2020;271:27–32. https://doi.org/10.1016/j.jad.2020.03.118
-164. Sin NL, Kumar AD, Gehi AK, Whooley MA. Direction of association between depres­
-sive symptoms and lifestyle behaviors in patients with coronary heart disease: the heart 
-ESC Guidelines                                                                                                                                                                                               57
-
-
-<!-- PAGE 58 -->
-
-### Page 58
-
-and soul study. Ann Behav Med 2016;50:523–32. https://doi.org/10.1007/s12160-016- 
-9777-9
-165. Tang HY, Sayers SL, Weissinger G, Riegel B. The role of depression in medication ad­
-herence among heart failure patients. Clin Nurs Res 2014;23:231–44. https://doi.org/10. 
-1177/1054773813481801
-166. Swardfager W, Herrmann N, Marzolini S, Saleem M, Farber SB, Kiss A, et al. Major de­
-pressive disorder predicts completion, adherence, and outcomes in cardiac rehabilita­
-tion: a prospective cohort study of 195 patients with coronary artery disease. J Clin 
-Psychiatry 2011;72:1181–8. https://doi.org/10.4088/JCP.09m05810blu
-167. Kronish IM, Rieckmann N, Halm EA, Shimbo D, Vorchheimer D, Haas DC, et al. 
-Persistent depression affects adherence to secondary prevention behaviors after acute 
-coronary syndromes. J Gen Intern Med 2006;21:1178–83. https://doi.org/10.1111/j. 
-1525-1497.2006.00586.x
-168. Bermudez T, Maercker A, Bierbauer W, Bernardo A, Fleisch-Silvestri R, Hermann M, 
-et al. The role of daily adjustment disorder, depression and anxiety symptoms for the 
-physical activity of cardiac patients. Psychol Med 2023;53:5992–6001. https://doi.org/ 
-10.1017/S0033291722003154
-169. Lapa ME, Swabe GM, Rollman BL, Muldoon MF, Thurston RC, Magnani JW. 
-Assessment of depression and adherence to guideline-directed medical therapies fol­
-lowing percutaneous coronary intervention. JAMA Netw Open 2022;5:e2246317. 
-https://doi.org/10.1001/jamanetworkopen.2022.46317
-170. Poletti V, Pagnini F, Banfi P, Volpato E. The role of depression on treatment adherence 
-in patients with heart failure–a systematic review of the literature. Curr Cardiol Rep 
-2022;24:1995–2008. https://doi.org/10.1007/s11886-022-01815-0
-171. Storer B, Kershaw KA, Braund TA, Chakouch C, Coleshill MJ, Haffar S, et al. Global 
-prevalence of anxiety in adult cardiology outpatients: a systematic review and 
-meta-analysis. Curr Probl Cardiol 2023;48:101877. https://doi.org/10.1016/j.cpcardiol. 
-2023.101877
-172. Hanssen TA, Nordrehaug JE, Eide GE, Bjelland I, Rokne B. Anxiety and depression after 
-acute myocardial infarction: an 18-month follow-up study with repeated measures and 
-comparison with a reference population. Eur J Cardiovasc Prev Rehabil 2009;16:651–9. 
-https://doi.org/10.1097/HJR.0b013e32832e4206
-173. Johnson AK, Hayes SN, Sawchuk C, Johnson MP, Best PJ, Gulati R, et al. Analysis of 
-posttraumatic stress disorder, depression, anxiety, and resiliency within the unique 
-population of spontaneous coronary artery dissection survivors. J Am Heart Assoc 
-2020;9:e014372. https://doi.org/10.1161/JAHA.119.014372
-174. Easton K, Coventry P, Lovell K, Carter LA, Deaton C. Prevalence and measurement of 
-anxiety in samples of patients with heart failure: meta-analysis. J Cardiovasc Nurs 2016; 
-31:367–79. https://doi.org/10.1097/JCN.0000000000000265
-175. Dekker RL, Lennie TA, Doering LV, Chung ML, Wu JR, Moser DK. Coexisting anxiety 
-and depressive symptoms in patients with heart failure. Eur J Cardiovasc Nurs 2014;13: 
-168–76. https://doi.org/10.1177/1474515113519520
-176. Loh AZH, Tan JSY, Tam JKC, Zhang MW, Ho CSH, Ho RC. Postoperative psychologic­
-al disorders among heart transplant recipients: a meta-analysis and meta-regression. 
-Psychosom Med 2020;82:689–98. https://doi.org/10.1097/PSY.0000000000000833
-177. Koleck TA, Mitha SA, Biviano A, Caceres BA, Corwin EJ, Goldenthal I, et al. Exploring 
-depressive symptoms and anxiety among patients with atrial fibrillation and/or flutter 
-at the time of cardioversion or ablation. J Cardiovasc Nurs 2021;36:470–81. https://doi. 
-org/10.1097/JCN.0000000000000723
-178. Grand J, Fuglsbjerg C, Borregaard B, Wagner MK, Kragh AR, Bekker-Jensen D, et al. 
-Sex differences in symptoms of anxiety, depression, post-traumatic stress disorder, 
-and cognitive function among survivors of out-of-hospital cardiac arrest. Eur Heart J 
-Acute Cardiovasc Care 2023;12:765–73. https://doi.org/10.1093/ehjacc/zuad093
-179. Peskine A, Cariou A, Hajage D, Deye N, Guérot E, Dres M, et al. Long-term disabilities 
-of survivors of out-of-hospital cardiac arrest: the Hanox study. Chest 2021;159: 
-699–711. https://doi.org/10.1016/j.chest.2020.07.022
-180. Joshi VL, Tang LH, Mikkelsen TB, Nielsen JF, Zinckernagel L, Borregaard B, et al. Does 
-time heal fatigue, psychological, cognitive and disability problems in people who ex­
-perience an out-of-hospital cardiac arrest? Results from the DANCAS survey study. 
-Resuscitation 2023;182:109639. https://doi.org/10.1016/j.resuscitation.2022.11.005
-181. Frydensberg VS, Johansen JB, Möller S, Riahi S, Wehberg S, Haarbo J, et al. Anxiety and 
-depression symptoms in Danish patients with an implantable cardioverter- 
-defibrillator: prevalence and association with indication and sex up to 2 years of follow- 
-up (data from the national DEFIB-WOMEN study). Europace 2020;22:1830–40. 
-https://doi.org/10.1093/europace/euaa176
-182. Jackson JL, Leslie CE, Hondorp SN. Depressive and anxiety symptoms in adult congeni­
-tal heart disease: prevalence, health impact and treatment. Prog Cardiovasc Dis 2018;61: 
-294–9. https://doi.org/10.1016/j.pcad.2018.07.015
-183. Lebherz C, Frick M, Panse J, Wienstroer P, Brehmer K, Kerst G, et al. Anxiety and de­
-pression in adults with congenital heart disease. Front Pediatr 2022;10:906385. https:// 
-doi.org/10.3389/fped.2022.906385
-184. Roest AM, Zuidersma M, de Jonge P. Myocardial infarction and generalised anxiety dis­
-order: 10-year follow-up. Br J Psychiatry 2012;200:324–9. https://doi.org/10.1192/bjp. 
-bp.111.103549
-185. Celano CM, Villegas AC, Albanese AM, Gaggin HK, Huffman JC. Depression and anx­
-iety in heart failure: a review. Harv Rev Psychiatry 2018;26:175–84. https://doi.org/10. 
-1097/HRP.0000000000000162
-186. Alhurani AS, Dekker RL, Abed MA, Khalil A, Al Zaghal MH, Lee KS, et al. The associ­
-ation of co-morbid symptoms of depression and anxiety with all-cause mortality and 
-cardiac rehospitalization in patients with heart failure. Psychosomatics 2015;56:371–80. 
-https://doi.org/10.1016/j.psym.2014.05.022
-187. Suzuki T, Shiga T, Kuwahara K, Kobayashi S, Suzuki S, Nishimura K, et al. Impact of clus­
-tered depression and anxiety on mortality and rehospitalization in patients with heart 
-failure. J Cardiol 2014;64:456–62. https://doi.org/10.1016/j.jjcc.2014.02.031
-188. Kikkenborg Berg S, Caspar Thygesen L, Hastrup Svendsen J, Vinggaard Christensen A, 
-Zwisler AD. Anxiety predicts mortality in ICD patients: results from the cross- 
-sectional national CopenHeartICD survey with register follow-up. Pacing Clin 
-Electrophysiol 2014;37:1641–50. https://doi.org/10.1111/pace.12490
-189. Cromhout PF, Christensen AV, Jørgensen MB, Ekholm O, Juel K, Svendsen JH, et al. 
-Exploring the use of psychotropic medication in cardiac patients with and without anx­
-iety and its association with 1-year mortality. Eur J Cardiovasc Nurs 2022;21:612–9. 
-https://doi.org/10.1093/eurjcn/zvab111
-190. Grace SL, Abbey SE, Shnek ZM, Irvine J, Franche RL, Stewart DE. Cardiac rehabilitation 
-II: referral and participation. Gen Hosp Psychiatry 2002;24:127–34. https://doi.org/10. 
-1016/S0163-8343(02)00179-2
-191. Eisenberg SA, Shen BJ, Schwarz ER, Mallon S. Avoidant coping moderates the associ­
-ation between anxiety and patient-rated physical functioning in heart failure patients. J 
-Behav Med 2012;35:253–61. https://doi.org/10.1007/s10865-011-9358-0
-192. Edmondson D, Richardson S, Falzon L, Davidson KW, Mills MA, Neria Y. 
-Posttraumatic stress disorder prevalence and risk of recurrence in acute coronary syn­
-drome patients: a meta-analytic review. PLoS One 2012;7:e38915. https://doi.org/10. 
-1371/journal.pone.0038915
-193. Sumner JA, Kim ESH, Wood MJ, Chi G, Nolen J, Grodzinsky A, et al. Posttraumatic 
-stress disorder after spontaneous coronary artery dissection: a report of the inter­
-national spontaneous coronary artery dissection registry. J Am Heart Assoc 2024;13: 
-e032819. https://doi.org/10.1161/JAHA.123.032819
-194. Kobayashi S, Nishimura K, Suzuki T, Shiga T, Ishigooka J. Post-traumatic stress disorder 
-and its risk factors in Japanese patients living with implantable cardioverter defibrilla­
-tors: a preliminary examination. J Arrhythm 2014;30:105–10. https://doi.org/10.1016/ 
-j.joa.2013.07.004
-195. Kapa S, Rotondi-Trevisan D, Mariano Z, Aves T, Irvine J, Dorian P, et al. 
-Psychopathology in patients with ICDs over time: results of a prospective study. 
-Pacing Clin Electrophysiol 2010;33:198–208. https://doi.org/10.1111/j.1540-8159.2009. 
-02599.x
-196. Simeone RM, Downing KF, Bobo WV, Grosse SD, Khanna AD, Farr SL. Post-traumatic 
-stress disorder, anxiety, and depression among adults with congenital heart defects. 
-Birth Defects Res 2022;114:124–35. https://doi.org/10.1002/bdr2.1971
-197. Harrison DJ, Kay J, Jacobsen RM, Londono-Obregon C, Yeung E, Kelly SL, et al. The 
-burden of psychological trauma and post-traumatic stress disorder among adults 
-with congenital heart disease: PTSD in ACHD. Am J Cardiol 2024;219:9–16. https:// 
-doi.org/10.1016/j.amjcard.2024.03.007
-198. Edmondson D, Rieckmann N, Shaffer JA, Schwartz JE, Burg MM, Davidson KW, et al. 
-Posttraumatic stress due to an acute coronary syndrome increases risk of 42-month 
-major adverse cardiac events and all-cause mortality. J Psychiatr Res 2011;45:1621–6. 
-https://doi.org/10.1016/j.jpsychires.2011.07.004
-199. Horowitz M, Wilner N, Alvarez W. Impact of event scale: a measure of subjective stress. 
-Psychosom Med 1979;41:209–18. https://doi.org/10.1097/00006842-197905000-00004
-200. Ginzburg K, Kutz I, Koifman B, Roth A, Kriwisky M, David D, et al. Acute stress disorder 
-symptoms predict all-cause mortality among myocardial infarction patients: a 15-year 
-longitudinal study. Ann Behav Med 2016;50:177–86. https://doi.org/10.1007/s12160- 
-015-9744-x
-201. Shemesh E, Rudnick A, Kaluski E, Milovanov O, Salah A, Alon D, et al. A prospective 
-study of posttraumatic stress symptoms and nonadherence in survivors of a myocar­
-dial infarction (MI). Gen Hosp Psychiatry 2001;23:215–22. https://doi.org/10.1016/ 
-S0163-8343(01)00150-5
-202. Pedersen SS, van Domburg RT, Larsen ML. The effect of low social support on short- 
-term prognosis in patients following a first myocardial infarction. Scand J Psychol 2004; 
-45:313–8. https://doi.org/10.1111/j.1467-9450.2004.00410.x
-203. von Känel R, Hari R, Schmid JP, Wiedemar L, Guler E, Barth J, et al. Non-fatal cardio­
-vascular outcome in patients with posttraumatic stress symptoms caused by myocar­
-dial infarction. J Cardiol 2011;58:61–8. https://doi.org/10.1016/j.jjcc.2011.02.007
-204. Foa EB, Riggs DS, Dancu CV, Rothbaum BO. Reliability and validity of a brief instru­
-ment for assessing post-traumatic stress disorder. J Trauma Stress 1993;6:459–73. 
-https://doi.org/10.1007/BF00974317
-205. Doerfler LA, Paraskos JA, Piniarski L. Relationship of quality of life and perceived control 
-with posttraumatic stress disorder symptoms 3 to 6 months after myocardial infarction. 
-J Cardiopulm Rehabil 2005;25:166–72. https://doi.org/10.1097/00008483-200505000- 
-00008
-
-
-<!-- PAGE 59 -->
-
-### Page 59
-
-206. Shemesh E, Yehuda R, Milo O, Dinur I, Rudnick A, Vered Z, et al. Posttraumatic stress, 
-nonadherence, and adverse outcome in survivors of a myocardial infarction. Psychosom 
-Med 2004;66:521–6. https://doi.org/10.1097/01.psy.0000126199.05189.86
-207. Hari R, Begré S, Schmid JP, Saner H, Gander ML, von Känel R. Change over time in 
-posttraumatic stress caused by myocardial infarction and predicting variables. J 
-Psychosom Res 2010;69:143–50. https://doi.org/10.1016/j.jpsychores.2010.04.011
-208. Zen AL, Whooley MA, Zhao S, Cohen BE. Post-traumatic stress disorder is associated 
-with poor health behaviors: findings from the heart and soul study. Health Psychol 
-2012;31:194–201. https://doi.org/10.1037/a0025989
-209. Favaro A, Gerosa G, Caforio AL, Volpe B, Rupolo G, Zarneri D, et al. Posttraumatic 
-stress disorder and depression in heart transplantation recipients: the relationship 
-with outcome and adherence to medical treatment. Gen Hosp Psychiatry 2011;33: 
-1–7. https://doi.org/10.1016/j.genhosppsych.2010.10.001
-210. Sumner JA, Kronish IM, Pietrzak RH, Shimbo D, Shaffer JA, Parsons FE, et al. 
-Dimensional structure and correlates of posttraumatic stress symptoms following sus­
-pected acute coronary syndrome. J Affect Disord 2015;186:178–85. https://doi.org/10. 
-1016/j.jad.2015.06.013
-211. Christensen AV, Juel K, Ekholm O, Thrysøe L, Thorup CB, Borregaard B, et al. 
-Significantly increased risk of all-cause mortality among cardiac patients feeling lonely. 
-Heart 2020;106:140–6. https://doi.org/10.1136/heartjnl-2019-315460
-212. Hagström E, Norlund F, Stebbins A, Armstrong PW, Chiswell K, Granger CB, et al. 
-Psychosocial stress and major cardiovascular events in patients with stable coronary 
-heart disease. J Intern Med 2018;283:83–92. https://doi.org/10.1111/joim.12692
-213. Xu X, Bao H, Strait K, Spertus JA, Lichtman JH, D’Onofrio G, et al. Sex differences in per­
-ceived stress and early recovery in young and middle-aged patients with acute myocardial 
-infarction. Circulation 2015;131:614–23. https://doi.org/10.1161/CIRCULATIONAHA. 
-114.012826
-214. Le Grande MR, Murphy BM, Rogerson MC, Ski CF, Amerena J, Smith JA, et al. 
-Development of a short form of the cardiac distress inventory. BMC Cardiovasc 
-Disord 2023;23:408. https://doi.org/10.1186/s12872-023-03439-w
-215. Harris KM, Jacoby DL, Lampert R, Soucier RJ, Burg MM. Psychological stress in heart 
-failure: a potentially actionable disease modifier. Heart Fail Rev 2021;26:561–75. https:// 
-doi.org/10.1007/s10741-020-10056-8
-216. Endrighi R, Waters AJ, Gottlieb SS, Harris KM, Wawrzyniak AJ, Bekkouche NS, et al. 
-Psychological stress and short-term hospitalisations or death in patients with heart fail­
-ure. Heart 2016;102:1820–5. https://doi.org/10.1136/heartjnl-2015-309154
-217. Martire LM, Helgeson VS. Close relationships and the management of chronic illness: 
-associations and interventions. Am Psychol 2017;72:601–12. https://doi.org/10.1037/ 
-amp0000066
-218. Knoll N, Scholz U, Ditzen B. Social support, family processes, and health. In: Revenson 
-TA, Gurung RAR (eds.), The Handbook of Health Psychology. New York: Routledge, 
-2019, 279–89.
-219. Smith TW, Baucom BRW. Intimate relationships, individual adjustment, and coronary 
-heart disease: implications of overlapping associations in psychosocial risk. Am Psychol 
-2017;72:578–89. https://doi.org/10.1037/amp0000123
-220. Randall G, Molloy GJ, Steptoe A. The impact of an acute cardiac event on the partners 
-of patients: a systematic review. Health Psychol Rev 2009;3:1–84. https://doi.org/10. 
-1080/17437190902984919
-221. Bouchard K, Dans M, Higdon G, Quinlan B, Tulloch H. Caregiver distress and coronary 
-artery disease: prevalence, risk, outcomes, and management. Curr Cardiol Rep 2022;24: 
-2081–96. https://doi.org/10.1007/s11886-022-01810-5
-222. Kitko L, McIlvennan CK, Bidwell JT, Dionne-Odom JN, Dunlay SM, Lewis LM, et al. 
-Family caregiving for individuals with heart failure: a scientific statement from the 
-American Heart Association. Circulation 2020;141:e864–78. https://doi.org/10.1161/ 
-CIR.0000000000000768
-223. Kugler C, Malehsa D, Schrader E, Tegtbur U, Guetzlaff E, Haverich A, et al. A multi- 
-modal intervention in management of left ventricular assist device outpatients: dietary 
-counselling, controlled exercise and psychosocial support. Eur J Cardiothorac Surg 2012; 
-42:1026–32. https://doi.org/10.1093/ejcts/ezs206
-224. Kugler C, Meng M, Rehn E, Morshuis M, Gummert JF, Tigges-Limmer K. Sexual activity 
-in patients with left ventricular assist devices and their partners: impact of the device 
-on quality of life, anxiety and depression. Eur J Cardiothorac Surg 2018;53:799–806. 
-https://doi.org/10.1093/ejcts/ezx426
-225. UK Carers. State of Caring Survey 2023—The Impact of Caring on Health. https://www. 
-carersuk.org/reports/state-of-caring-survey-2023-the-impact-of-caring-on-health (23 
-September 2024, date last accessed).
-226. Buckner L, Yeandle S. Valuing Carers 2015 The Rising Value of Carers’ Support. 2015. 
-https://www.carersuk.org/reports/valuing-carers-2015-research-report/
-(23 
-September 2024, date last accessed).
-227. Hopp FP, Camp JK, Perry TE. Addressing heart failure challenges through 
-illness-informed social work. Health Soc Work 2015;40:201–8. https://doi.org/10. 
-1093/hsw/hlv036
-228. DeFrank JT, Barclay C, Sheridan S, Brewer NT, Gilliam M, Moon AM, et al. The psycho­
-logical harms of screening: the evidence we have versus the evidence we need. J Gen 
-Intern Med 2015;30:242–8. https://doi.org/10.1007/s11606-014-2996-5
-229. Whooley MA, Avins AL, Miranda J, Browner WS. Case-finding instruments for depres­
-sion. Two questions are as good as many. J Gen Intern Med 1997;12:439–45. https://doi. 
-org/10.1046/j.1525-1497.1997.00076.x
-230. Spitzer RL, Williams JB, Kroenke K, Linzer M, deGruy FV 3rd, Hahn SR, et al. Utility of a 
-new procedure for diagnosing mental disorders in primary care. The PRIME-MD 1000 
-study. JAMA 1994;272:1749–56. https://doi.org/10.1001/jama.1994.03520220043029
-231. Whooley MA. Screening for depression–a tale of two questions. JAMA Intern Med 
-2016;176:436–8. https://doi.org/10.1001/jamainternmed.2015.8493
-232. Bosanquet K, Bailey D, Gilbody S, Harden M, Manea L, Nutbrown S, et al. Diagnostic ac­
-curacy of the Whooley questions for the identification of depression: a diagnostic 
-meta-analysis. BMJ Open 2015;5:e008913. https://doi.org/10.1136/bmjopen-2015-008913
-233. Smith RD, Shing JSY, Lin J, Bosanquet K, Fong DYT, Lok KYW. Meta-analysis of diag­
-nostic properties of the Whooley questions to identify depression in perinatal women. 
-J Affect Disord 2022;315:148–55. https://doi.org/10.1016/j.jad.2022.07.026
-234. Gilbody S, Richards D, Brealey S, Hewitt C. Screening for depression in medical set­
-tings with the Patient Health Questionnaire (PHQ): a diagnostic meta-analysis. J Gen 
-Intern Med 2007;22:1596–602. https://doi.org/10.1007/s11606-007-0333-y
-235. Kronish IM, Moise N, Cheung YK, Clarke GN, Dolor RJ, Duer-Hefele J, et al. Effect of 
-depression screening after acute coronary syndromes on quality of life: the 
-CODIACS-QoL randomized clinical trial. JAMA Intern Med 2020;180:45–53. https:// 
-doi.org/10.1001/jamainternmed.2019.4518
-236. Bolgeo T, Di Matteo R, Simonelli N, Dal Molin A, Lusignani M, Bassola B, et al. 
-Psychometric properties and measurement invariance of the 7-item general anxiety 
-disorder scale (GAD-7) in an Italian coronary heart disease population. J Affect 
-Disord 2023;334:213–9. https://doi.org/10.1016/j.jad.2023.04.140
-237. van den Houdt S, Albus C, Herrmann-Lingen C, Widdershoven J, Kupper N. Validity of 
-a multidimensional comprehensive psychosocial screening instrument based on the 
-ESC Cardiovascular Prevention Guidelines—evidence from the general and cardiovas­
-cular patient population. J Psychosom Res 2022;157:110791. https://doi.org/10.1016/j. 
-jpsychores.2022.110791
-238. Staples LG, Dear BF, Gandy M, Fogliati V, Fogliati R, Karin E, et al. Psychometric prop­
-erties and clinical utility of brief measures of depression, anxiety, and general distress: 
-the PHQ-2, GAD-2, and K-6. Gen Hosp Psychiatry 2019;56:13–8. https://doi.org/10. 
-1016/j.genhosppsych.2018.11.003
-239. Moons P, Norekvål TM, Arbelo E, Borregaard B, Casadei B, Cosyns B, et al. Placing 
-patient-reported outcomes at the centre of cardiovascular clinical practice: implica­
-tions for quality of care and management. Eur Heart J 2023;44:3405–22. https://doi. 
-org/10.1093/eurheartj/ehad514
-240. Pedersen SS, Wehberg S, Nielsen JC, Riahi S, Larroudé C, Philbert BT, et al. Patients 
-with an implantable cardioverter defibrillator at risk of poorer psychological health 
-during 24 months of follow-up (results from the Danish national DEFIB-WOMEN 
-study). Gen Hosp Psychiatry 2023;80:54–61. https://doi.org/10.1016/j.genhosppsych. 
-2022.12.006
-241. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2021 
-ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. 
-Eur Heart J 2021;42:3599–726. https://doi.org/10.1093/eurheartj/ehab368
-242. Vrints C, Andreotti F, Koskinas KC, Rossello X, Adamo M, Ainslie J, et al. 2024 ESC 
-Guidelines for the management of chronic coronary syndromes. Eur Heart J 2024; 
-45:3415–537. https://doi.org/10.1093/eurheartj/ehae177
-243. Marx N, Federici M, Schütt K, Müller-Wieland D, Ajjan RA, Antunes MJ, et al. 2023 ESC 
-Guidelines for the management of cardiovascular disease in patients with diabetes. Eur 
-Heart J 2023;44:4043–140. https://doi.org/10.1093/eurheartj/ehad192
-244. Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, et al. 2023 ESC 
-Guidelines for the management of acute coronary syndromes. Eur Heart J 2023;44: 
-3720–826. https://doi.org/10.1093/eurheartj/ehad191
-245. Gorini A, Giuliani M, Raggio L, Barbieri S, Tremoli E. Depressive and anxiety symptoms 
-screening in cardiac inpatients: a virtuous Italian approach to psychocardiology. Int J 
-Environ Res Public Health 2020;17:5007. https://doi.org/10.3390/ijerph17145007
-246. Barry LC, Kasl SV, Lichtman J, Vaccarino V, Krumholz HM. Social support and change in 
-health-related quality of life 6 months after coronary artery bypass grafting. J Psychosom 
-Res 2006;60:185–93. https://doi.org/10.1016/j.jpsychores.2005.06.080
-247. Dew MA, DiMartini AF, Dobbels F, Grady KL, Jowsey-Gregoire SG, Kaan A, et al. The 
-2018 ISHLT/APM/AST/ICCAC/STSW recommendations for the psychosocial evalu­
-ation of adult cardiothoracic transplant candidates and candidates for long-term mech­
-anical circulatory support. J Heart Lung Transplant 2018;37:803–23. https://doi.org/10. 
-1016/j.healun.2018.03.005
-248. Vandenbogaart E, Doering L, Chen B, Saltzman A, Chaker T, Creaser JW, et al. 
-Evaluation of the SIPAT instrument to assess psychosocial risk in heart transplant can­
-didates: a retrospective single center study. Heart Lung 2017;46:273–9. https://doi.org/ 
-10.1016/j.hrtlng.2017.04.005
-249. Schneekloth TD, Hitschfeld MJ, Jowsey-Gregoire SG, Petterson TM, Dunlay SM, Niazi 
-SK, et al. Psychosocial risk predicts new episode depression after heart transplant. 
-Psychosomatics 2019;60:47–55. https://doi.org/10.1016/j.psym.2018.06.003
-250. Olsson KM, Meltendorf T, Fuge J, Kamp JC, Park DH, Richter MJ, et al. Prevalence of 
-mental disorders and impact on quality of life in patients with pulmonary arterial hyper­
-tension. Front Psychiatry 2021;12:667602. https://doi.org/10.3389/fpsyt.2021.667602
-ESC Guidelines                                                                                                                                                                                               59
-
-
-<!-- PAGE 60 -->
-
-### Page 60
-
-251. Topp CW, Østergaard SD, Søndergaard S, Bech P. The WHO-5 well-being index: a 
-systematic review of the literature. Psychother Psychosom 2015;84:167–76. https:// 
-doi.org/10.1159/000376585
-252. Europe WHOROf. Wellbeing Measures in Primary Health Care/The DepCare Project: 
-Report on a WHO meeting: Stockholm, Sweden, 12–3 February 1998. World Health 
-Organization. Regional Office for Europe. 1998. https://iris.who.int/handle/10665/ 
-349766 (16 June 2025, date last accessed).
-253. Baou CE, Desai R, Cooper C, Marchant NL, Pilling S, Richards M, et al. Psychological ther­
-apies for depression and cardiovascular risk: evidence from national healthcare records in 
-England. Eur Heart J 2023;44:1650–62. https://doi.org/10.1093/eurheartj/ehad188
-254. Pedersen SS, Skov O, Ahm R. Are we getting closer to treating heart and mind to­
-gether and bridging the gap for individual patients attending cardiac rehabilitation? 
-Eur Heart J 2023;44:997–9. https://doi.org/10.1093/eurheartj/ehac820
-255. Ho FY, Yeung WF, Ng TH, Chan CS. The efficacy and cost-effectiveness of stepped 
-care prevention and treatment for depressive and/or anxiety disorders: a systematic 
-review and meta-analysis. Sci Rep 2016;6:29281. https://doi.org/10.1038/srep29281
-256. Davidson KW, Bigger JT, Burg MM, Carney RM, Chaplin WF, Czajkowski S, et al. 
-Centralized, stepped, patient preference-based treatment for patients with post-acute 
-coronary syndrome depression: CODIACS vanguard randomized controlled trial. 
-JAMA Intern Med 2013;173:997–1004. https://doi.org/10.1001/jamainternmed.2013.915
-257. Davidson KW, Rieckmann N, Clemow L, Schwartz JE, Shimbo D, Medina V, et al. 
-Enhanced depression care for patients with acute coronary syndrome and persistent de­
-pressive symptoms: coronary psychosocial evaluation studies randomized controlled 
-trial. Arch Intern Med 2010;170:600–8. https://doi.org/10.1001/archinternmed.2010.29
-258. Tehranineshat B, Rakhshan M, Torabizadeh C, Fararouei M. Compassionate care in 
-healthcare systems: a systematic review. J Natl Med Assoc 2019;111:546–54. https:// 
-doi.org/10.1016/j.jnma.2019.04.002
-259. Okunrintemi V, Spatz ES, Di Capua P, Salami JA, Valero-Elizondo J, Warraich H, et al. 
-Patient-provider communication and health outcomes among individuals with athero­
-sclerotic cardiovascular disease in the United States: medical expenditure panel survey 
-2010 to 2013. Circ Cardiovasc Qual Outcomes 2017;10:e003635. https://doi.org/10. 
-1161/CIRCOUTCOMES.117.003635
-260. Zwack CC, Smith C, Poulsen V, Raffoul N, Redfern J. Information needs and commu­
-nication strategies for people with coronary heart disease: a scoping review. Int J 
-Environ Res Public Health 2023;20:1723. https://doi.org/10.3390/ijerph20031723
-261. Mentrup S, Harris E, Gomersall T, Köpke S, Astin F. Patients’ experiences of cardiovas­
-cular health education and risk communication: a qualitative synthesis. Qual Health Res 
-2020;30:88–104. https://doi.org/10.1177/1049732319887949
-262. Mitropoulou P, Grüner-Hegge N, Reinhold J, Papadopoulou C. Shared decision making 
-in cardiology: a systematic review and meta-analysis. Heart 2022;109:34–9. https://doi. 
-org/10.1136/heartjnl-2022-321050
-263. Ski CF, Taylor RS, McGuigan K, Long L, Lambert JD, Richards SH, et al. Psychological 
-interventions for depression and anxiety in patients with coronary heart disease, heart 
-failure or atrial fibrillation. Cochrane Database Syst Rev 2024;4:CD013508. https://doi. 
-org/10.1002/14651858.CD013508.pub3
-264. Mou H, Lam SKK, Chien WT. The effects of a family-focused dyadic psychoeducational 
-intervention for stroke survivors and their family caregivers: a randomised controlled 
-trial. Int J Nurs Stud 2023;143:104504. https://doi.org/10.1016/j.ijnurstu.2023.104504
-265. World Health Organization. Therapeutic Patient Education: An Introductory Guide. 
-Copenhagen: WHO Regional Office for Europe; 2023. Licence: CC BY-NC-SA 3.0 IGO. 
-https://www.who.int/europe/publications/i/item/9789289060219
-(17 
-December 
-2024, date last accessed).
-266. Shi W, Ghisi GLM, Zhang L, Hyun K, Pakosh M, Gallagher R. A systematic review, 
-meta-analysis, and meta-regression of patient education for secondary prevention in 
-patients with coronary heart disease: impact on psychological outcomes. Eur J 
-Cardiovasc Nurs 2022;21:643–54. https://doi.org/10.1093/eurjcn/zvac001
-267. Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, et al. Cochrane Handbook 
-for Systematic Reviews of Interventions Version 6.4 (Updated August 2023). Cochrane, 
-2023. 2022. www.training.cochrane.org/handbook (24 May 2024, date last accessed).
-268. Kao CW, Chen MY, Chen TY, Lin PH. Effect of psycho-educational interventions on 
-quality of life in patients with implantable cardioverter defibrillators: a meta-analysis of 
-randomized controlled trials. Health Qual Life Outcomes 2016;14:138. https://doi.org/ 
-10.1186/s12955-016-0543-2
-269. Palm P, Qvist I, Rasmussen TB, Christensen SW, Håkonsen SJ, Risom SS. Educational 
-interventions to improve outcomes in patients with atrial fibrillation-a systematic re­
-view. Int J Clin Pract 2020;74:e13629. https://doi.org/10.1111/ijcp.13629
-270. Whyne EZ, Woo J, Jeon-Slaughter H. The effects of subjective wellbeing and self-rated 
-health on lifetime risk of cardiovascular conditions in women. Int J Environ Res Public 
-Health 2023;20:6380. https://doi.org/10.3390/ijerph20146380
-271. Araki K, Takahashi Y, Okada H, Nakayama T. Social prescribing from the patient’s per­
-spective: a literature review. J Gen Fam Med 2022;23:299–309. https://doi.org/10.1002/ 
-jgf2.551
-272. Liebmann M, Pitman A, Hsueh YC, Bertotti M, Pearce E. Do people perceive benefits 
-in the use of social prescribing to address loneliness and/or social isolation? A qualita­
-tive meta-synthesis of the literature. BMC Health Serv Res 2022;22:1264. https://doi. 
-org/10.1186/s12913-022-08656-1
-273. Wood C, Chalmin-Pui LS, Smyth N, Rajcani J. Editorial: nature-based social prescrip­
-tions for improving health and wellbeing. Front Psychol 2022;13:1095064. https://doi. 
-org/10.3389/fpsyg.2022.1095064
-274. Cooper M, Avery L, Scott J, Ashley K, Jordan C, Errington L, et al. Effectiveness and active 
-ingredients of social prescribing interventions targeting mental health: a systematic re­
-view. BMJ Open 2022;12:e060214. https://doi.org/10.1136/bmjopen-2021-060214
-275. Nguyen PY, Astell-Burt T, Rahimi-Ardabili H, Feng X. Effect of nature prescriptions on 
-cardiometabolic and mental health, and physical activity: a systematic review. Lancet 
-Planet Health 2023;7:e313–28. https://doi.org/10.1016/S2542-5196(23)00025-6
-276. Shukla A, Choudhari SG, Gaidhane AM, Quazi Syed Z. Role of art therapy in the pro­
-motion of mental health: a critical review. Cureus 2022;14:e28026. https://doi.org/10. 
-7759/cureus.28026
-277. Coventry PA, Brown JE, Pervin J, Brabyn S, Pateman R, Breedvelt J, et al. Nature-based 
-outdoor activities for mental and physical health: systematic review and meta-analysis. 
-SSM Popul Health 2021;16:100934. https://doi.org/10.1016/j.ssmph.2021.100934
-278. Haleem A, Javaid M, Singh RP, Suman R. Telemedicine for healthcare: capabilities, fea­
-tures, barriers, and applications. Sens Int 2021;2:100117. https://doi.org/10.1016/j.sintl. 
-2021.100117
-279. Santo K, Redfern J. Digital health innovations to improve cardiovascular disease care. 
-Curr Atheroscler Rep 2020;22:71. https://doi.org/10.1007/s11883-020-00889-x
-280. Vidovic D, Reinhardt GY, Hammerton C. Can social prescribing foster individual and 
-community well-being? A systematic review of the evidence. Int J Environ Res Public 
-Health 2021;18:5276. https://doi.org/10.3390/ijerph18105276
-281. Richards SH, Anderson L, Jenkinson CE, Whalley B, Rees K, Davies P, et al. 
-Psychological interventions for coronary heart disease: Cochrane systematic review 
-and meta-analysis. Eur J Prev Cardiol 2018;25:247–59. https://doi.org/10.1177/ 
-2047487317739978
-282. Thoma N, Pilecki B, McKay D. Contemporary cognitive behavior therapy: a review of 
-theory, history, and evidence. Psychodyn Psychiatry 2015;43:423–61. https://doi.org/10. 
-1521/pdps.2015.43.3.423
-283. Magán I, Jurado-Barba R, Casado L, Barnum H, Jeon A, Hernandez AV, et al. Efficacy of 
-psychological interventions on clinical outcomes of coronary artery disease: systematic 
-review and meta-analysis. J Psychosom Res 2022;153:110710. https://doi.org/10.1016/j. 
-jpsychores.2021.110710
-284. Magán I, Casado L, Jurado-Barba R, Barnum H, Redondo MM, Hernandez AV, et al. 
-Efficacy of psychological interventions on psychological outcomes in coronary artery 
-disease: systematic review and meta-analysis. Psychol Med 2021;51:1846–60. https:// 
-doi.org/10.1017/S0033291720000598
-285. Särnholm J, Skúladóttir H, Rück C, Axelsson E, Bonnert M, Bragesjö M, et al. Cognitive 
-behavioral therapy improves quality of life in patients with symptomatic paroxysmal 
-atrial fibrillation. J Am Coll Cardiol 2023;82:46–56. https://doi.org/10.1016/j.jacc.2023. 
-04.044
-286. Holdgaard A, Eckhardt-Hansen C, Lassen CF, Kjesbu IE, Dall CH, Michaelsen KL, et al. 
-Cognitive-behavioural therapy reduces psychological distress in younger patients with 
-cardiac disease: a randomized trial. Eur Heart J 2023;44:986–96. https://doi.org/10. 
-1093/eurheartj/ehac792
-287. Chen B, Wen J, You D, Zhang Y. Implication of cognitive-behavioral stress manage­
-ment on anxiety, depression, and quality of life in acute myocardial infarction patients 
-after percutaneous coronary intervention: a multicenter, randomized, controlled 
-study. Ir J Med Sci 2024;193:101–9. https://doi.org/10.1007/s11845-023-03422-6
-288. Gulliksson M, Burell G, Vessby B, Lundin L, Toss H, Svärdsudd K. Randomized con­
-trolled trial of cognitive behavioral therapy vs standard treatment to prevent recurrent 
-cardiovascular events in patients with coronary heart disease: Secondary Prevention in 
-Uppsala Primary Health Care project (SUPRIM). Arch Intern Med 2011;171:134–40. 
-https://doi.org/10.1001/archinternmed.2010.510
-289. Rawlings GH, Thompson AR, Armstrong I, Novakova B, Beail N. Coping styles asso­
-ciated with depression, health anxiety and health-related quality of life in pulmonary 
-hypertension: cross-sectional analysis. BMJ Open 2022;12:e062564. https://doi.org/ 
-10.1136/bmjopen-2022-062564
-290. Humbert M, Kovacs G, Hoeper MM, Badagliacca R, Berger RMF, Brida M, et al. 2022 
-ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur 
-Heart J 2022;43:3618–731. https://doi.org/10.1093/eurheartj/ehac237
-291. Wittmann L, Blomert E, Linden M. Patients’ perception of side effects in cognitive- 
-behavior, psychodynamic, and psychoanalytic outpatient psychotherapy. Psychother 
-Res 2023;35:112–24. https://doi.org/10.1080/10503307.2023.2290029
-292. Knowles KA, Tolin DF. Mechanisms of action in exposure therapy. Curr Psychiatry Rep 
-2022;24:861–9. https://doi.org/10.1007/s11920-022-01391-8
-293. IsHak WW, Hamilton MA, Korouri S, Diniz MA, Mirocha J, Hedrick R, et al. 
-Comparative effectiveness of psychotherapy vs antidepressants for depression in 
-heart failure: a randomized clinical trial. JAMA Netw Open 2024;7:e2352094. https:// 
-doi.org/10.1001/jamanetworkopen.2023.52094
-294. Arabia E, Manca ML, Solomon RM. EMDR for survivors of life-threatening cardiac 
-events: results of a pilot study. J EMDR Prac Res 2011;5:2–13. https://doi.org/10. 
-1891/1933-3196.5.1.2
-295. Shemesh E, Annunziato RA, Weatherley BD, Cotter G, Feaganes JR, Santra M, et al. A 
-randomized controlled trial of the safety and promise of cognitive-behavioral therapy
-
-
-<!-- PAGE 61 -->
-
-### Page 61
-
-using imaginal exposure in patients with posttraumatic stress disorder resulting from 
-cardiovascular illness. J Clin Psychiatry 2011;72:168–74. https://doi.org/10.4088/JCP. 
-09m05116blu
-296. von Känel R, Barth J, Princip M, Meister-Langraf RE, Schmid JP, Znoj H, et al. Early psy­
-chological counseling for the prevention of posttraumatic stress induced by acute cor­
-onary syndrome: the MI-SPRINT randomized controlled trial. Psychother Psychosom 
-2018;87:75–84. https://doi.org/10.1159/000486099
-297. Walsh R. Lifestyle and mental health. Am Psychol 2011;66:579–92. https://doi.org/10. 
-1037/a0021769
-298. Nielsen RE, Banner J, Jensen SE. Cardiovascular disease in patients with severe mental 
-illness. Nat Rev Cardiol 2021;18:136–45. https://doi.org/10.1038/s41569-020-00463-7
-299. Ng R, Sutradhar R, Yao Z, Wodchis WP, Rosella LC. Smoking, drinking, diet and phys­
-ical activity-modifiable lifestyle risk factors and their associations with age to first 
-chronic disease. Int J Epidemiol 2020;49:113–30. https://doi.org/10.1093/ije/dyz078
-300. Tsima BM, Opondo P, Mosepele M, Mautle E, Bilker WB, Gross R. Prevalence of the 
-metabolic syndrome and associated factors among inpatients with severe mental ill­
-ness in Botswana: a cross-sectional study. BMC Cardiovasc Disord 2022;22:515. 
-https://doi.org/10.1186/s12872-022-02939-5
-301. Lean ME, Leslie WS, Barnes AC, Brosnahan N, Thom G, McCombie L, et al. Primary 
-care-led weight management for remission of type 2 diabetes (DiRECT): an open- 
-label, cluster-randomised trial. Lancet 2018;391:541–51. https://doi.org/10.1016/ 
-S0140-6736(17)33102-1
-302. Ornish D, Scherwitz LW, Billings JH, Brown SE, Gould KL, Merritt TA, et al. Intensive 
-lifestyle changes for reversal of coronary heart disease. JAMA 1998;280:2001–7. 
-https://doi.org/10.1001/jama.280.23.2001
-303. Caparrós B, Masferrer L. Coping strategies and complicated grief in a substance use 
-disorder sample. Front Psychol 2020;11:624065. https://doi.org/10.3389/fpsyg.2020. 
-624065
-304. Ghodeshwar GK, Dube A, Khobragade D. Impact of lifestyle modifications on cardio­
-vascular health: a narrative review. Cureus 2023;15:e42616. https://doi.org/10.7759/ 
-cureus.42616
-305. Basso JC, Suzuki WA. The effects of acute exercise on mood, cognition, neurophysi­
-ology, and neurochemical pathways: a review. Brain Plast 2017;2:127–52. https://doi. 
-org/10.3233/BPL-160040
-306. Callaghan P. Exercise: a neglected intervention in mental health care? J Psychiatr Ment 
-Health Nurs 2004;11:476–83. https://doi.org/10.1111/j.1365-2850.2004.00751.x
-307. Doyle F, Freedland KE, Carney RM, de Jonge P, Dickens C, Pedersen SS, et al. Hybrid 
-systematic review and network meta-analysis of randomized controlled trials of inter­
-ventions for depressive symptoms in patients with coronary artery disease. Psychosom 
-Med 2021;83:423–31. https://doi.org/10.1097/PSY.0000000000000944
-308. Blumenthal JA, Babyak MA, O’Connor C, Keteyian S, Landzberg J, Howlett J, et al. 
-Effects of exercise training on depressive symptoms in patients with chronic heart fail­
-ure: the HF-ACTION randomized trial. JAMA 2012;308:465–74. https://doi.org/10. 
-1001/jama.2012.8720
-309. Ghosh RK, Ball S, Prasad V, Gupta A. Depression in heart failure: intricate relationship, 
-pathophysiology and most updated evidence of interventions from recent clinical stud­
-ies. Int J Cardiol 2016;224:170–7. https://doi.org/10.1016/j.ijcard.2016.09.063
-310. Visseren FLJ, Mach F, Smulders YM, Carballo D, Koskinas KC, Bäck M, et al. 2021 ESC 
-Guidelines on cardiovascular disease prevention in clinical practice. Eur Heart J 2021; 
-42:3227–337. https://doi.org/10.1093/eurheartj/ehab484
-311. Rudzińska A, Perera I, Gryglewska B, Gąsowski J, Piotrowicz K. Can the Mediterranean 
-diet decrease the risk of depression in older persons—a systematic review. Psychiatr 
-Pol 2023;57:339–54. https://doi.org/10.12740/PP/OnlineFirst/140465
-312. Yin W, Löf M, Chen R, Hultman CM, Fang F, Sandin S. Mediterranean diet and depres­
-sion: a population-based cohort study. Int J Behav Nutr Phys Act 2021;18:153. https:// 
-doi.org/10.1186/s12966-021-01227-3
-313. Jacka FN, O’Neil A, Opie R, Itsiopoulos C, Cotton S, Mohebbi M, et al. A randomised 
-controlled trial of dietary improvement for adults with major depression (the ‘SMILES’ 
-trial). BMC Med 2017;15:23. https://doi.org/10.1186/s12916-017-0791-y
-314. Granero R. Role of nutrition and diet on healthy mental state. Nutrients 2022;14:750. 
-https://doi.org/10.3390/nu14040750
-315. O’Neil A, Quirk SE, Housden S, Brennan SL, Williams LJ, Pasco JA, et al. Relationship 
-between diet and mental health in children and adolescents: a systematic review. Am J 
-Public Health 2014;104:e31–42. https://doi.org/10.2105/AJPH.2014.302110
-316. Jiang W, Whellan DJ, Adams KF, Babyak MA, Boyle SH, Wilson JL, et al. Long-chain 
-omega-3 fatty acid supplements in depressed heart failure patients: results of the 
-OCEAN trial. JACC Heart Fail 2018;6:833–43. https://doi.org/10.1016/j.jchf.2018.03.011
-317. Thorndike AN, Achtyes ED, Cather C, Pratt S, Pachas GN, Hoeppner SS, et al. Weight 
-gain and 10-year cardiovascular risk with sustained tobacco abstinence in smokers with 
-serious mental illness: a subgroup analysis of a randomized trial. J Clin Psychiatry 2016; 
-77:e320–6. https://doi.org/10.4088/JCP.15m10074
-318. Okorare O, Evbayekha EO, Adabale OK, Daniel E, Ubokudum D, Olusiji SA, et al. 
-Smoking cessation and benefits to cardiovascular health: a review of literature. 
-Cureus 2023;15:e35966. https://doi.org/10.7759/cureus.35966
-319. Denison E, Underland V, Mosdøl A, Vist G. Cognitive Therapies for Smoking Cessation: a 
-Systematic Review. 2017. https://www.ncbi.nlm.nih.gov/books/NBK482098/ (13 January 
-2024, date last accessed).
-320. Schuman-Olivier Z, Trombka M, Lovas DA, Brewer JA, Vago DR, Gawande R, et al. 
-Mindfulness and behavior change. Harv Rev Psychiatry 2020;28:371–94. https://doi. 
-org/10.1097/HRP.0000000000000277
-321. Zaccaro A, Piarulli A, Laurino M, Garbella E, Menicucci D, Neri B, et al. How breath- 
-control can change your life: a systematic review on psycho-physiological correlates 
-of slow breathing. Front Hum Neurosci 2018;12:353. https://doi.org/10.3389/fnhum. 
-2018.00353
-322. Yaribeygi H, Panahi Y, Sahraei H, Johnston TP, Sahebkar A. The impact of stress on body 
-function: a review. EXCLI J 2017;16:1057–72. https://doi.org/10.17179/excli2017-480
-323. Toussaint L, Nguyen QA, Roettger C, Dixon K, Offenbächer M, Kohls N, et al. 
-Effectiveness of progressive muscle relaxation, deep breathing, and guided imagery 
-in promoting psychological and physiological states of relaxation. Evid Based 
-Complement Alternat Med 2021;2021:5924040. https://doi.org/10.1155/2021/5924040
-324. Masih T, Dimmock JA, Epel E, Guelfi KJ. An 8-week relaxation program consisting of 
-progressive muscle relaxation and mindfulness meditation to reduce stress and attenu­
-ate stress-driven eating. Appl Psychol Health Well Being 2020;12:188–211. https://doi. 
-org/10.1111/aphw.12179
-325. Xu J, Jo H, Noorbhai L, Patel A, Li A. Virtual mindfulness interventions to promote 
-well-being in adults: a mixed-methods systematic review. J Affect Disord 2022;300: 
-571–85. https://doi.org/10.1016/j.jad.2022.01.027
-326. Behan C. The benefits of meditation and mindfulness practices during times of crisis 
-such as COVID-19. Ir J Psychol Med 2020;37:256–8. https://doi.org/10.1017/ipm. 
-2020.38
-327. Koerten HR, Watford TS, Dubow EF, O’Brien WH. Cardiovascular effects of brief 
-mindfulness meditation among perfectionists experiencing failure. Psychophysiology 
-2020;57:e13517. https://doi.org/10.1111/psyp.13517
-328. Albus C, Herrmann-Lingen C, Jensen K, Hackbusch M, Munch N, Kuncewicz C, et al. 
-Additional effects of psychological interventions on subjective and objective outcomes 
-compared with exercise-based cardiac rehabilitation alone in patients with cardiovas­
-cular disease: a systematic review and meta-analysis. Eur J Prev Cardiol 2019;26: 
-1035–49. https://doi.org/10.1177/2047487319832393
-329. Shahrbabaki SS, Linz D, Hartmann S, Redline S, Baumert M. Sleep arousal burden is 
-associated with long-term all-cause and cardiovascular mortality in 8001 
-community-dwelling older men and women. Eur Heart J 2021;42:2088–99. https:// 
-doi.org/10.1093/eurheartj/ehab151
-330. Domínguez F, Fuster V, Fernández-Alvira JM, Fernández-Friera L, López-Melgar B, 
-Blanco-Rojo R, et al. Association of sleep duration and quality with subclinical athero­
-sclerosis. J Am Coll Cardiol 2019;73:134–44. https://doi.org/10.1016/j.jacc.2018.10.060
-331. Scott AJ, Webb TL, Martyn-St James M, Rowse G, Weich S. Improving sleep quality 
-leads to better mental health: a meta-analysis of randomised controlled trials. Sleep 
-Med Rev 2021;60:101556. https://doi.org/10.1016/j.smrv.2021.101556
-332. Miller MA, Howarth NE. Sleep and cardiovascular disease. Emerg Top Life Sci 2023;7: 
-457–66. https://doi.org/10.1042/ETLS20230111
-333. Vandekerckhove M, Wang YL. Emotion, emotion regulation and sleep: an intimate re­
-lationship. AIMS Neurosci 2017;5:1–17. https://doi.org/10.3934/Neuroscience.2018.1.1
-334. Kulbayeva S, Tazhibayeva K, Seiduanova L, Smagulova I, Mussina A, Tanabayeva S, et al. 
-The recent advances of mobile healthcare in cardiology practice. Acta Inform Med 2022; 
-30:236–50. https://doi.org/10.5455/aim.2022.30.236-250
-335. Cruz-Cobo C, Bernal-Jiménez M, Vázquez-García R, Santi-Cano MJ. Effectiveness of 
-mHealth interventions in the control of lifestyle and cardiovascular risk factors in pa­
-tients after a coronary event: systematic review and meta-analysis. JMIR Mhealth 
-Uhealth 2022;10:e39593. https://doi.org/10.2196/39593
-336. Takahashi EA, Schwamm LH, Adeoye OM, Alabi O, Jahangir E, Misra S, et al. An over­
-view of telehealth in the management of cardiovascular disease: a scientific statement 
-from the American Heart Association. Circulation 2022;146:e558–68. https://doi.org/ 
-10.1161/CIR.0000000000001107
-337. Lee WW, Choi KC, Yum RW, Yu DS, Chair SY. Effectiveness of motivational inter­
-viewing on lifestyle modification and health outcomes of clients at risk or diagnosed 
-with cardiovascular diseases: a systematic review. Int J Nurs Stud 2016;53:331–41. 
-https://doi.org/10.1016/j.ijnurstu.2015.09.010
-338. Ambrosetti M, Abreu A, Corrà U, Davos CH, Hansen D, Frederix I, et al. Secondary 
-prevention through comprehensive cardiovascular rehabilitation: from knowledge to 
-implementation. 2020 update. A position paper from the Secondary Prevention and 
-Rehabilitation Section of the European Association of Preventive Cardiology. Eur J 
-Prev Cardiol 2021;28:460–95. https://doi.org/10.1177/2047487320913379
-339. Salzwedel A, Jensen K, Rauch B, Doherty P, Metzendorf MI, Hackbusch M, et al. 
-Effectiveness of comprehensive cardiac rehabilitation in coronary artery disease pa­
-tients treated according to contemporary evidence based medicine: update of the 
-Cardiac Rehabilitation Outcome Study (CROS-II). Eur J Prev Cardiol 2020;27: 
-1756–74. https://doi.org/10.1177/2047487320905719
-340. Dibben G, Faulkner J, Oldridge N, Rees K, Thompson DR, Zwisler AD, et al. 
-Exercise-based cardiac rehabilitation for coronary heart disease. Cochrane Database 
-Syst Rev 2021;11:CD001800. https://doi.org/10.1002/14651858.CD001800.pub4
-ESC Guidelines                                                                                                                                                                                               61
-
-
-<!-- PAGE 62 -->
-
-### Page 62
-
-341. Morris NR, Kermeen FD, Jones AW, Lee JY, Holland AE. Exercise-based rehabilitation 
-programmes for pulmonary hypertension. Cochrane Database Syst Rev 2023;3: 
-CD011285. https://doi.org/10.1002/14651858.CD011285.pub3
-342. Molloy C, Long L, Mordi IR, Bridges C, Sagar VA, Davies EJ, et al. Exercise-based cardiac 
-rehabilitation for adults with heart failure. Cochrane Database Syst Rev 2024;3: 
-CD003331. https://doi.org/10.1002/14651858.CD003331.pub6
-343. Grünig E, MacKenzie A, Peacock AJ, Eichstaedt CA, Benjamin N, Nechwatal R, et al. 
-Standardized exercise training is feasible, safe, and effective in pulmonary arterial 
-and chronic thromboembolic pulmonary hypertension: results from a large 
-European multicentre randomized controlled trial. Eur Heart J 2021;42:2284–95. 
-https://doi.org/10.1093/eurheartj/ehaa696
-344. An QY, Wang L, Yuan P, Zhao QH, Gong SG, Zhang R, et al. Effectiveness and safety of 
-exercise training and rehabilitation in chronic thromboembolic pulmonary hyperten­
-sion: a systematic review and meta-analysis. Ann Palliat Med 2021;10:8134–46. 
-https://doi.org/10.21037/apm-21-1758
-345. Rutledge T, Redwine LS, Linke SE, Mills PJ. A meta-analysis of mental health treatments 
-and cardiac rehabilitation for improving clinical outcomes and depression among pa­
-tients with coronary heart disease. Psychosom Med 2013;75:335–49. https://doi.org/ 
-10.1097/PSY.0b013e318291d798
-346. Zheng X, Zheng Y, Ma J, Zhang M, Zhang Y, Liu X, et al. Effect of exercise-based cardiac 
-rehabilitation on anxiety and depression in patients with myocardial infarction: a sys­
-tematic review and meta-analysis. Heart Lung 2019;48:1–7. https://doi.org/10.1016/j. 
-hrtlng.2018.09.011
-347. Mehra VM, Gaalema DE, Pakosh M, Grace SL. Systematic review of cardiac rehabilita­
-tion guidelines: quality and scope. Eur J Prev Cardiol 2020;27:912–28. https://doi.org/10. 
-1177/2047487319878958
-348. Abreu A, Frederix I, Dendale P, Janssen A, Doherty P, Piepoli MF, et al. Standardization 
-and quality improvement of secondary prevention through cardiovascular rehabilita­
-tion programmes in Europe: the avenue towards EAPC accreditation programme: a 
-position statement of the Secondary Prevention and Rehabilitation Section of the 
-European Association of Preventive Cardiology (EAPC). Eur J Prev Cardiol 2021;28: 
-496–509. https://doi.org/10.1177/2047487320924912
-349. Helmark C, Harrison A, Pedersen SS, Doherty P. Systematic screening for anxiety and 
-depression in cardiac rehabilitation—are we there yet? Int J Cardiol 2022;352:65–71. 
-https://doi.org/10.1016/j.ijcard.2022.02.004
-350. Wells A, Reeves D, Capobianco L, Heal C, Davies L, Heagerty A, et al. Improving 
-the effectiveness of psychological interventions for depression and anxiety in cardiac 
-rehabilitation: PATHWAY-A single-blind, parallel, randomized, controlled trial of 
-group metacognitive therapy. Circulation 2021;144:23–33. https://doi.org/10.1161/ 
-CIRCULATIONAHA.120.052428
-351. Egholm CL, Helmark C, Rossau HK, Munkehøj P, Brøndum S, Pedersen SS, et al. 
-Implementation of systematic screening for anxiety and depression in cardiac rehabili­
-tation: real world lessons from a longitudinal study. J Psychosom Res 2022;158:110909. 
-https://doi.org/10.1016/j.jpsychores.2022.110909
-352. Sweda R, Siontis GCM, Nikolakopoulou A, Windecker S, Pilgrim T. Antidepressant 
-treatment in patients following acute coronary syndromes: a systematic review and 
-Bayesian meta-analysis. ESC Heart Fail 2020;7:3610–20. https://doi.org/10.1002/ehf2. 
-12861
-353. Tully PJ, Ang SY, Lee EJ, Bendig E, Bauereiß N, Bengel J, et al. Psychological and pharma­
-cological interventions for depression in patients with coronary artery disease. 
-Cochrane Database Syst Rev 2021;12:CD008012. https://doi.org/10.1002/14651858. 
-CD008012.pub4
-354. He W, Zhou Y, Ma J, Wei B, Fu Y. Effect of antidepressants on death in patients with 
-heart failure: a systematic review and meta-analysis. Heart Fail Rev 2020;25:919–26. 
-https://doi.org/10.1007/s10741-019-09850-w
-355. Hedrick R, Korouri S, Tadros E, Darwish T, Cortez V, Triay D, et al. The impact of anti­
-depressants on depressive symptom severity, quality of life, morbidity, and mortality in 
-heart failure: a systematic review. Drugs Context 2020;9:2020-5-4. https://doi.org/10. 
-7573/dic.2020-5-4
-356. Galling B, Calsina Ferrer A, Abi Zeid Daou M, Sangroula D, Hagi K, Correll CU. Safety 
-and tolerability of antidepressant co-treatment in acute major depressive disorder: re­
-sults from a systematic review and exploratory meta-analysis. Expert Opin Drug Saf 
-2015;14:1587–608. https://doi.org/10.1517/14740338.2015.1085970
-357. Behlke LM, Lenze EJ, Carney RM. The cardiovascular effects of newer antidepressants 
-in older adults and those with or at high risk for cardiovascular diseases. CNS Drugs 
-2020;34:1133–47. https://doi.org/10.1007/s40263-020-00763-z
-358. Hughes JW, Kuhn TA, Ede D, Gathright EC, Josephson RA. Meta-analysis of anti­
-depressant pharmacotherapy in patients eligible for cardiac rehabilitation: 
-ANTIDEPRESSANT AMBIVALENCE. J Cardiopulm Rehabil Prev 2022;42:434–41. 
-https://doi.org/10.1097/HCR.0000000000000699
-359. Park K, Kim S, Ko YJ, Park BJ. Duloxetine and cardiovascular adverse events: a system­
-atic review and meta-analysis. J Psychiatr Res 2020;124:109–14. https://doi.org/10. 
-1016/j.jpsychires.2020.02.022
-360. Ojero-Senard A, Benevent J, Bondon-Guitton E, Durrieu G, Chebane L, Araujo M, 
-et al. A comparative study of QT prolongation with serotonin reuptake inhibitors. 
-Psychopharmacology (Berl) 2017;234:3075–81. https://doi.org/10.1007/s00213-017- 
-4685-7
-361. Coupland C, Hill T, Morriss R, Moore M, Arthur A, Hippisley-Cox J. Antidepressant 
-use and risk of cardiovascular outcomes in people aged 20 to 64: cohort study using 
-primary care database. BMJ 2016;352:i1350. https://doi.org/10.1136/bmj.i1350
-362. Prasitlumkum N, Cheungpasitporn W, Tokavanich N, Ding KR, Kewcharoen J, 
-Thongprayoon C, et al. Antidepressants and risk of sudden cardiac death: a network 
-meta-analysis and systematic review. Med Sci (Basel) 2021;9:26. https://doi.org/10. 
-3390/medsci9020026
-363. Abbas R, Riley S, Nepal S, Bachinsky M, Lee KC, Chappell PB, et al. Lack of an effect of 
-supratherapeutic dose of venlafaxine on cardiac repolarization in healthy subjects. Clin 
-Pharmacol Drug Dev 2022;11:100–11. https://doi.org/10.1002/cpdd.989
-364. Tellone V, Rosignoli MT, Picollo R, Dragone P, Del Vecchio A, Comandini A, et al. 
-Effect of 3 single doses of trazodone on QTc interval in healthy subjects. J Clin 
-Pharmacol 2020;60:1483–95. https://doi.org/10.1002/jcph.1640
-365. Gurkan S, Liu F, Chain A, Gutstein DE. A study to assess the proarrhythmic potential of 
-mirtazapine using concentration-QTc (C-QTc) analysis. Clin Pharmacol Drug Dev 2019; 
-8:449–58. https://doi.org/10.1002/cpdd.605
-366. Alvares GA, Quintana DS, Hickie IB, Guastella AJ. Autonomic nervous system dysfunc­
-tion in psychiatric disorders and the impact of psychotropic medications: a systematic 
-review and meta-analysis. J Psychiatry Neurosci 2016;41:89–104. https://doi.org/10. 
-1503/jpn.140217
-367. Beach SR, Kostis WJ, Celano CM, Januzzi JL, Ruskin JN, Noseworthy PA, et al. 
-Meta-analysis of selective serotonin reuptake inhibitor-associated QTc prolongation. 
-J Clin Psychiatry 2014;75:e441–9. https://doi.org/10.4088/JCP.13r08672
-368. Short B, Fong J, Galvez V, Shelker W, Loo CK. Side-effects associated with ketamine 
-use in depression: a systematic review. Lancet Psychiatry 2018;5:65–78. https://doi. 
-org/10.1016/S2215-0366(17)30272-9
-369. Hiemke C, Bergemann N, Clement HW, Conca A, Deckert J, Domschke K, et al. 
-Consensus guidelines for therapeutic drug monitoring in neuropsychopharmacology: 
-update 2017. Pharmacopsychiatry 2018;51:9–62. https://doi.org/10.1055/s-0043-116492
-370. Faber MS, Fuhr U. Time response of cytochrome P450 1A2 activity on cessation of 
-heavy smoking. Clin Pharmacol Ther 2004;76:178–84. https://doi.org/10.1016/j.clpt. 
-2004.04.003
-371. Faber MS, Jetter A, Fuhr U. Assessment of CYP1A2 activity in clinical practice: why, 
-how, and when? Basic Clin Pharmacol Toxicol 2005;97:125–34. https://doi.org/10. 
-1111/j.1742-7843.2005.pto_973160.x
-372. Laporte S, Chapelle C, Caillet P, Beyens MN, Bellet F, Delavenne X, et al. Bleeding risk 
-under selective serotonin reuptake inhibitor (SSRI) antidepressants: a meta-analysis of 
-observational studies. Pharmacol Res 2017;118:19–32. https://doi.org/10.1016/j.phrs. 
-2016.08.017
-373. Eckersley MJ, Sepehripour AH, Casula R, Punjabi P, Athanasiou T. Do selective sero­
-tonin reuptake inhibitors increase the risk of bleeding or mortality following coronary 
-artery bypass graft surgery? A meta-analysis of observational studies. Perfusion 2018; 
-33:415–22. https://doi.org/10.1177/0267659118765933
-374. Rahman AA, Platt RW, Beradid S, Boivin JF, Rej S, Renoux C. Concomitant use of se­
-lective serotonin reuptake inhibitors with oral anticoagulants and risk of major bleed­
-ing. JAMA Netw Open 2024;7:e243208. https://doi.org/10.1001/jamanetworkopen. 
-2024.3208
-375. Rahman AA, He N, Rej S, Platt RW, Renoux C. Concomitant use of selective serotonin 
-reuptake inhibitors and oral anticoagulants and risk of major bleeding: a systematic re­
-view and meta-analysis. Thromb Haemost 2023;123:54–63. https://doi.org/10.1055/a- 
-1932-8976
-376. Machado CM, Alves M, Caldeira D. Impact of selective serotonin-reuptake inhibitors in 
-hemorrhagic risk in anticoagulated patients taking non-vitamin K antagonist anticoagu­
-lants: a systematic review and meta-analysis. J Clin Psychopharmacol 2023;43:267–72. 
-https://doi.org/10.1097/JCP.0000000000001684
-377. Votaw VR, Geyer R, Rieselbach MM, McHugh RK. The epidemiology of benzodiazep­
-ine misuse: a systematic review. Drug Alcohol Depend 2019;200:95–114. https://doi.org/ 
-10.1016/j.drugalcdep.2019.02.033
-378. Kripke DF, Langer RD, Kline LE. Hypnotics’ association with mortality or cancer: a 
-matched cohort study. BMJ Open 2012;2:e000850. https://doi.org/10.1136/bmjopen- 
-2012-000850
-379. Weich S, Pearce HL, Croft P, Singh S, Crome I, Bashford J, et al. Effect of anxiolytic and 
-hypnotic drug prescriptions on mortality hazards: retrospective cohort study. BMJ 
-2014;348:g1996. https://doi.org/10.1136/bmj.g1996
-380. Patorno E, Glynn RJ, Levin R, Lee MP, Huybrechts KF. Benzodiazepines and risk of all 
-cause mortality in adults: cohort study. BMJ 2017;358:j2941. https://doi.org/10.1136/ 
-bmj.j2941
-381. Liu S, Soedamah-Muthu SS, van Meerten SC, Kromhout D, Geleijnse JM, Giltay EJ. Use 
-of benzodiazepine and Z-drugs and mortality in older adults after myocardial infarc­
-tion. Int J Geriatr Psychiatry 2023;38:e5861. https://doi.org/10.1002/gps.5861
-382. von Känel R, Schmid JP, Meister-Langraf RE, Barth J, Znoj H, Schnyder U, et al. 
-Pharmacotherapy in the management of anxiety and pain during acute coronary syn­
-dromes and the risk of developing symptoms of posttraumatic stress disorder. J Am 
-Heart Assoc 2021;10:e018762. https://doi.org/10.1161/JAHA.120.018762
-
-
-<!-- PAGE 63 -->
-
-### Page 63
-
-383. Benowitz NL, Pipe A, West R, Hays JT, Tonstad S, McRae T, et al. Cardiovascular safety 
-of varenicline, bupropion, and nicotine patch in smokers: a randomized clinical trial. 
-JAMA Intern Med 2018;178:622–31. https://doi.org/10.1001/jamainternmed.2018.0397
-384. Anthenelli RM, Benowitz NL, West R, St Aubin L, McRae T, Lawrence D, et al. 
-Neuropsychiatric safety and efficacy of varenicline, bupropion, and nicotine patch in 
-smokers with and without psychiatric disorders (EAGLES): a double-blind, rando­
-mised, placebo-controlled clinical trial. Lancet 2016;387:2507–20. https://doi.org/10. 
-1016/S0140-6736(16)30272-0
-385. Das A, Roy B, Schwarzer G, Silverman MG, Ziegler O, Bandyopadhyay D, et al. 
-Comparison of treatment options for depression in heart failure: a network 
-meta-analysis. J Psychiatr Res 2019;108:7–23. https://doi.org/10.1016/j.jpsychires. 
-2018.10.007
-386. Ladwig K-H, Baghai TC, Doyle F, Hamer M, Herrmann-Lingen C, Kunschitz E, et al. 
-Mental health-related risk factors and interventions in patients with heart failure: a pos­
-ition paper endorsed by the European Association of Preventive Cardiology (EAPC). 
-Eur J Prev Cardiol 2022;29:1124–41. https://doi.org/10.1093/eurjpc/zwac006
-387. Brouwers C, Christensen SB, Damen NL, Denollet J, Torp-Pedersen C, Gislason GH, 
-et al. Antidepressant use and risk for mortality in 121,252 heart failure patients with or 
-without a diagnosis of clinical depression. Int J Cardiol 2016;203:867–73. https://doi. 
-org/10.1016/j.ijcard.2015.11.032
-388. Watson K, Summers KM. Depression in patients with heart failure: clinical implications and 
-management. Pharmacotherapy 2009;29:49–63. https://doi.org/10.1592/phco.29.1.49
-389. de Abajo FJ. Effects of selective serotonin reuptake inhibitors on platelet function: me­
-chanisms, clinical outcomes and implications for use in elderly patients. Drugs Aging 
-2011;28:345–67. https://doi.org/10.2165/11589340-000000000-00000
-390. Braithwaite V, Gibson D, Holman J. Age stereotyping: are we oversimplifying the phe­
-nomenon? Int J Aging Hum Dev 1985;22:315–25. https://doi.org/10.2190/Q2TM-B9V7- 
-HDBD-6X6H
-391. Teply RM, Packard KA, White ND, Hilleman DE, DiNicolantonio JJ. Treatment of de­
-pression in patients with concomitant cardiac disease. Prog Cardiovasc Dis 2016;58: 
-514–28. https://doi.org/10.1016/j.pcad.2015.11.003
-392. Colucci VJ, Berry BD. Heart failure worsening and exacerbation after venlafaxine and 
-duloxetine therapy. Ann Pharmacother 2008;42:882–7. https://doi.org/10.1345/aph. 
-1L031
-393. Zhang L, Bao Y, Tao S, Zhao Y, Liu M. The association between cardiovascular drugs 
-and depression/anxiety in patients with cardiovascular disease: a meta-analysis. 
-Pharmacol Res 2022;175:106024. https://doi.org/10.1016/j.phrs.2021.106024
-394. Riemer TG, Villagomez Fuentes LE, Algharably EAE, Schäfer MS, Mangelsen E, Fürtig 
-MA, et al. Do β-blockers cause depression?: Systematic review and meta-analysis of 
-psychiatric adverse events during β-blocker therapy. Hypertension 2021;77:1539–48. 
-https://doi.org/10.1161/HYPERTENSIONAHA.120.16590
-395. Ghaeli P, Solduzian M, Vejdani S, Talasaz AH. Comparison of the effects of melatonin 
-and oxazepam on anxiety levels and sleep quality in patients with 
-ST-segment-elevation myocardial infarction following primary percutaneous coron­
-ary intervention: a randomized clinical trial. Ann Pharmacother 2018;52:949–55. 
-https://doi.org/10.1177/1060028018776608
-396. Astarcioglu MA, Sen T, Kilit C, Durmus HI, Gozubuyuk G, Agus HZ, et al. Procedural 
-sedation during transradial coronary angiography to prevent spasm. Herz 2016;41: 
-435–8. https://doi.org/10.1007/s00059-015-4373-5
-397. Murphy KA, Dalcin A, McGinty EE, Goldsholl S, Heller A, Daumit GL. Applying care 
-coordination principles to reduce cardiovascular disease risk factors in people with 
-serious mental illness: a case study approach. Front Psychiatry 2021;12:742169. 
-https://doi.org/10.3389/fpsyt.2021.742169
-398. Huffman JC, Adams CN, Celano CM. Collaborative care and related interventions in 
-patients with heart disease: an update and new directions. Psychosomatics 2018;59: 
-1–18. https://doi.org/10.1016/j.psym.2017.09.003
-399. Rollman BL, Belnap BH, LeMenager MS, Mazumdar S, Houck PR, Counihan PJ, et al. 
-Telephone-delivered collaborative care for treating post-CABG depression: a rando­
-mized controlled trial. JAMA 2009;302:2095–103. https://doi.org/10.1001/jama.2009. 
-1670
-400. Katon WJ, Lin EH, Von Korff M, Ciechanowski P, Ludman EJ, Young B, et al. 
-Collaborative care for patients with depression and chronic illnesses. N Engl J Med 
-2010;363:2611–20. https://doi.org/10.1056/NEJMoa1003955
-401. Huffman JC, Mastromauro CA, Beach SR, Celano CM, DuBois CM, Healy BC, et al. 
-Collaborative care for depression and anxiety disorders in patients with recent cardiac 
-events: the management of sadness and anxiety in cardiology (MOSAIC) randomized clin­
-ical trial. JAMA Intern Med 2014;174:927–35. https://doi.org/10.1001/jamainternmed.2014. 
-739
-402. Morgan MA, Coates MJ, Dunbar JA, Reddy P, Schlicht K, Fuller J. The TrueBlue model 
-of collaborative care using practice nurses as case managers for depression alongside 
-diabetes or heart disease: a randomised trial. BMJ Open 2013;3:e002171. https://doi. 
-org/10.1136/bmjopen-2012-002171
-403. Archer J, Bower P, Gilbody S, Lovell K, Richards D, Gask L, et al. Collaborative care for 
-depression and anxiety problems. Cochrane Database Syst Rev 2012;10:CD006525. 
-https://doi.org/10.1002/14651858.CD006525.pub2
-404. Rollman BL, Anderson AM, Rothenberger SD, Abebe KZ, Ramani R, Muldoon MF, 
-et al. Efficacy of blended collaborative care for patients with heart failure and comorbid 
-depression: a randomized clinical trial. JAMA Intern Med 2021;181:1369–80. https://doi. 
-org/10.1001/jamainternmed.2021.4978
-405. Ferguson M, Kovacs AH. An integrated adult congenital heart disease psychology ser­
-vice. Congenit Heart Dis 2016;11:444–51. https://doi.org/10.1111/chd.12331
-406. Kovacs AH, Brouillette J, Ibeziako P, Jackson JL, Kasparian NA, Kim YY, et al. 
-Psychological outcomes and interventions for individuals with congenital heart disease: 
-a scientific statement from the American Heart Association. Circ Cardiovasc Qual 
-Outcomes 2022;15:e000110. https://doi.org/10.1161/HCQ.0000000000000110
-407. Priegnitz J, Langheim E, Rademacher W, Schmitz C, Köllner V. Effectiveness of psycho­
-cardiological care in inpatient rehabilitation: a pilot study. Psychother Psychosom Med 
-Psychol 2020;70:190–6. https://doi.org/10.1055/a-1023-4609
-408. Langheim E, Schmitz C, Köllner V. Interdisciplinary psychocardiological rehabilita­
-tion: from model project to blueprint of the dual rehabilitation concept—from em­
-pirical values to scientific data. Rehabilitation (Stuttg) 2022;61:230–9. https://doi.org/ 
-10.1055/a-1866-6781
-409. Sadlonova M, Löser JK, Celano CM, Kleiber C, Broschmann D, Herrmann-Lingen C. 
-Changes in treatment outcomes in patients undergoing an integrated psychosomatic 
-inpatient treatment: results from a cohort study. Front Psychiatry 2022;13:964879. 
-https://doi.org/10.3389/fpsyt.2022.964879
-410. van der Voort TY, van Meijel B, Goossens PJ, Renes J, Beekman AT, Kupka RW. 
-Collaborative care for patients with bipolar disorder: a randomised controlled trial. 
-BMC Psychiatry 2011;11:133. https://doi.org/10.1186/1471-244X-11-133
-411. van der Voort TY, van Meijel B, Hoogendoorn AW, Goossens PJ, Beekman AT, Kupka 
-RW. Collaborative care for patients with bipolar disorder: effects on functioning and 
-quality of life. J Affect Disord 2015;179:14–22. https://doi.org/10.1016/j.jad.2015.03.005
-412. Hjorthøj C, Stürup AE, McGrath JJ, Nordentoft M. Years of potential life lost and life 
-expectancy in schizophrenia: a systematic review and meta-analysis. Lancet Psychiatry 
-2017;4:295–301. https://doi.org/10.1016/S2215-0366(17)30078-0
-413. Kessing LV, Vradi E, Andersen PK. Life expectancy in bipolar disorder. Bipolar Disord 
-2015;17:543–8. https://doi.org/10.1111/bdi.12296
-414. Walker ER, McGee RE, Druss BG. Mortality in mental disorders and global disease bur­
-den implications: a systematic review and meta-analysis. JAMA Psychiatry 2015;72: 
-334–41. https://doi.org/10.1001/jamapsychiatry.2014.2502
-415. Lomholt LH, Andersen DV, Sejrsgaard-Jacobsen C, Øzdemir CM, Graff C, Schjerning 
-O, et al. Mortality rate trends in patients diagnosed with schizophrenia or bipolar dis­
-order: a nationwide study with 20 years of follow-up. Int J Bipolar Disord 2019;7:6. 
-https://doi.org/10.1186/s40345-018-0140-x
-416. Paratz ED, van Heusden A, Zentner D, Morgan N, Smith K, Thompson T, et al. Sudden 
-cardiac death in people with schizophrenia: higher risk, poorer resuscitation profiles, 
-and differing pathologies. JACC Clin Electrophysiol 2023;9:1310–8. https://doi.org/10. 
-1016/j.jacep.2023.01.026
-417. Park CS, Choi EK, Han KD, Ahn HJ, Kwon S, Lee SR, et al. Increased cardiovascular 
-events in young patients with mental disorders: a nationwide cohort study. Eur J 
-Prev Cardiol 2023;30:1582–92. https://doi.org/10.1093/eurjpc/zwad102
-418. Rossom RC, Hooker SA, O’Connor PJ, Crain AL, Sperl-Hillen JM. Cardiovascular 
-risk for patients with and without schizophrenia, schizoaffective disorder, or bipo­
-lar disorder. J Am Heart Assoc 2022;11:e021444. https://doi.org/10.1161/JAHA.121. 
-021444
-419. Lambert AM, Parretti HM, Pearce E, Price MJ, Riley M, Ryan R, et al. Temporal trends in 
-associations between severe mental illness and risk of cardiovascular disease: a system­
-atic review and meta-analysis. PLoS Med 2022;19:e1003960. https://doi.org/10.1371/ 
-journal.pmed.1003960
-420. Kugathasan P, Laursen TM, Grøntved S, Jensen SE, Aagaard J, Nielsen RE. Increased 
-long-term mortality after myocardial infarction in patients with schizophrenia. 
-Schizophr Res 2018;199:103–8. https://doi.org/10.1016/j.schres.2018.03.015
-421. Polcwiartek C, Loewenstein D, Friedman DJ, Johansson KG, Graff C, Sørensen PL, 
-et al. Clinical heart failure among patients with and without severe mental illness 
-and the association with long-term outcomes. Circ Heart Fail 2021;14:e008364. 
-https://doi.org/10.1161/CIRCHEARTFAILURE.121.008364
-422. Goldfarb M, De Hert M, Detraux J, Di Palo K, Munir H, Music S, et al. Severe mental 
-illness and cardiovascular disease: JACC state-of-the-art review. J Am Coll Cardiol 2022; 
-80:918–33. https://doi.org/10.1016/j.jacc.2022.06.017
-423. Polcwiartek C, O’Gallagher K, Friedman DJ, Correll CU, Solmi M, Jensen SE, et al. 
-Severe mental illness: cardiovascular risk assessment and management. Eur Heart J 
-2024;45:987–97. https://doi.org/10.1093/eurheartj/ehae054
-424. Vancampfort D, Firth J, Schuch FB, Rosenbaum S, Mugisha J, Hallgren M, et al. 
-Sedentary behavior and physical activity levels in people with schizophrenia, bipolar 
-disorder and major depressive disorder: a global systematic review and meta-analysis. 
-World Psychiatry 2017;16:308–15. https://doi.org/10.1002/wps.20458
-425. Kodama S, Saito K, Tanaka S, Maki M, Yachi Y, Asumi M, et al. Cardiorespiratory fitness 
-as a quantitative predictor of all-cause mortality and cardiovascular events in healthy 
-men and women: a meta-analysis. JAMA 2009;301:2024–35. https://doi.org/10.1001/ 
-jama.2009.681
-ESC Guidelines                                                                                                                                                                                               63
-
-
-<!-- PAGE 64 -->
-
-### Page 64
-
-426. Annamalai A, Kosir U, Tek C. Prevalence of obesity and diabetes in patients with 
-schizophrenia. World J Diabetes 2017;8:390–6. https://doi.org/10.4239/wjd.v8.i8.390
-427. Vancampfort D, Stubbs B, Mitchell AJ, De Hert M, Wampers M, Ward PB, et al. Risk of 
-metabolic syndrome and its components in people with schizophrenia and related 
-psychotic disorders, bipolar disorder and major depressive disorder: a systematic review 
-and meta-analysis. World Psychiatry 2015;14:339–47. https://doi.org/10.1002/wps.20252
-428. Haupt DW, Newcomer JW. Hyperglycemia and antipsychotic medications. J Clin 
-Psychiatry 2001;62:15–26. discussion 40–11. https://www.psychiatrist.com/jcp/ 
-hyperglycemia-antipsychotic-medications/
-429. Vuk A, Kuzman MR, Baretic M, Osvatic MM. Diabetic ketoacidosis associated with anti­
-psychotic drugs: case reports and a review of literature. Psychiatr Danub 2017;29: 
-121–35. https://doi.org/10.24869/psyd.2017.121
-430. Ayerbe L, Forgnone I, Addo J, Siguero A, Gelati S, Ayis S. Hypertension risk and clinical 
-care in patients with bipolar disorder or schizophrenia; a systematic review and 
-meta-analysis. J Affect Disord 2018;225:665–70. https://doi.org/10.1016/j.jad.2017.09.002
-431. de Leon J, Diaz FJ. A meta-analysis of worldwide studies demonstrates an association 
-between schizophrenia and tobacco smoking behaviors. Schizophr Res 2005;76: 
-135–57. https://doi.org/10.1016/j.schres.2005.02.010
-432. Fornaro M, Carvalho AF, De Prisco M, Mondin AM, Billeci M, Selby P, et al. The preva­
-lence, odds, predictors, and management of tobacco use disorder or nicotine depend­
-ence among people with severe mental illness: systematic review and meta-analysis. 
-Neurosci Biobehav Rev 2022;132:289–303. https://doi.org/10.1016/j.neubiorev.2021. 
-11.039
-433. Ohi K, Shimada T, Kuwata A, Kataoka Y, Okubo H, Kimura K, et al. Smoking rates and 
-number of cigarettes smoked per day in schizophrenia: a large cohort meta-analysis in 
-a Japanese population. Int J Neuropsychopharmacol 2019;22:19–27. https://doi.org/10. 
-1093/ijnp/pyy061
-434. Hjorthøj C, Østergaard ML, Benros ME, Toftdahl NG, Erlangsen A, Andersen JT, et al. 
-Association between alcohol and substance use disorders and all-cause and cause- 
-specific mortality in schizophrenia, bipolar disorder, and unipolar depression: a nation­
-wide, prospective, register-based study. Lancet Psychiatry 2015;2:801–8. https://doi. 
-org/10.1016/S2215-0366(15)00207-2
-435. Meyer JM, Correll CU. Increased metabolic potential, efficacy, and safety of emerging 
-treatments in schizophrenia. CNS Drugs 2023;37:545–70. https://doi.org/10.1007/ 
-s40263-023-01022-7
-436. Vancampfort D, Correll CU, Galling B, Probst M, De Hert M, Ward PB, et al. Diabetes 
-mellitus in people with schizophrenia, bipolar disorder and major depressive disorder: 
-a systematic review and large scale meta-analysis. World Psychiatry 2016;15:166–74. 
-https://doi.org/10.1002/wps.20309
-437. Pillinger T, McCutcheon RA, Vano L, Mizuno Y, Arumuham A, Hindley G, et al. 
-Comparative effects of 18 antipsychotics on metabolic function in patients with 
-schizophrenia, predictors of metabolic dysregulation, and association with psycho­
-pathology: a systematic review and network meta-analysis. Lancet Psychiatry 2020;7: 
-64–77. https://doi.org/10.1016/S2215-0366(19)30416-X
-438. De Hert M, Detraux J, van Winkel R, Yu W, Correll CU. Metabolic and cardiovascular 
-adverse effects associated with antipsychotic drugs. Nat Rev Endocrinol 2011;8:114–26. 
-https://doi.org/10.1038/nrendo.2011.156
-439. Correll CU, Kane JM, Manu P. Obesity and coronary risk in patients treated with 
-second-generation antipsychotics. Eur Arch Psychiatry Clin Neurosci 2011;261: 
-417–23. https://doi.org/10.1007/s00406-010-0177-z
-440. Rotella F, Cassioli E, Calderani E, Lazzeretti L, Ragghianti B, Ricca V, et al. Long-term 
-metabolic and cardiovascular effects of antipsychotic drugs. A meta-analysis of rando­
-mized controlled trials. Eur Neuropsychopharmacol 2020;32:56–65. https://doi.org/10. 
-1016/j.euroneuro.2019.12.118
-441. Yu ZH, Jiang HY, Shao L, Zhou YY, Shi HY, Ruan B. Use of antipsychotics and risk of 
-myocardial infarction: a systematic review and meta-analysis. Br J Clin Pharmacol 2016; 
-82:624–32. https://doi.org/10.1111/bcp.12985
-442. Taipale H, Tanskanen A, Mehtälä J, Vattulainen P, Correll CU, Tiihonen J. 20-year 
-follow-up study of physical morbidity and mortality in relationship to antipsychotic 
-treatment in a nationwide cohort of 62,250 patients with schizophrenia (FIN20). 
-World Psychiatry 2020;19:61–8. https://doi.org/10.1002/wps.20699
-443. Solmi M, Tiihonen J, Lähteenvuo M, Tanskanen A, Correll CU, Taipale H. 
-Antipsychotics use is associated with greater adherence to cardiometabolic medica­
-tions in patients with schizophrenia: results from a nationwide, within-subject design 
-study. Schizophr Bull 2022;48:166–75. https://doi.org/10.1093/schbul/sbab087
-444. Vancampfort D, Van Damme T, Probst M, Firth J, Stubbs B, Basangwa D, et al. Physical 
-activity is associated with the physical, psychological, social and environmental quality 
-of life in people with mental health problems in a low resource setting. Psychiatry Res 
-2017;258:250–4. https://doi.org/10.1016/j.psychres.2017.08.041
-445. Simon V, van Winkel R, De Hert M. Are weight gain and metabolic side effects of atyp­
-ical antipsychotics dose dependent? A literature review. J Clin Psychiatry 2009;70: 
-1041–50. https://doi.org/10.4088/JCP.08r04392
-446. Piras M, Chahma J, Ranjbar S, Laaboub N, Grosu C, Plessen KJ, et al. Is 
-clozapine-induced weight gain dose-dependent? Results from a prospective cohort 
-study. Schizophr Bull 2023;49:944–52. https://doi.org/10.1093/schbul/sbad009
-447. Quadackers D, Liemburg E, Bos F, Doornbos B, Risselada A, Berger M, et al. 
-Cardiovascular risk assessment methods yield unequal risk predictions: a large cross- 
-sectional study in psychiatric secondary care outpatients. BMC Psychiatry 2023;23:536. 
-https://doi.org/10.1186/s12888-023-05022-1
-448. Perry BI, Upthegrove R, Crawford O, Jang S, Lau E, McGill I, et al. Cardiometabolic risk 
-prediction algorithms for young people with psychosis: a systematic review and ex­
-ploratory analysis. Acta Psychiatr Scand 2020;142:215–32. https://doi.org/10.1111/ 
-acps.13212
-449. De Hert M, Dekker JM, Wood D, Kahl KG, Holt RI, Möller HJ. Cardiovascular disease 
-and diabetes in people with severe mental illness position statement from the 
-European Psychiatric Association (EPA), supported by the European Association for 
-the Study of Diabetes (EASD) and the European Society of Cardiology (ESC). Eur 
-Psychiatry 2009;24:412–24. https://doi.org/10.1016/j.eurpsy.2009.01.005
-450. Chan JKN, Correll CU, Wong CSM, Chu RST, Fung VSC, Wong GHS, et al. Life ex­
-pectancy and years of potential life lost in people with mental disorders: a systematic 
-review and meta-analysis. EClinicalMedicine 2023;65:102294. https://doi.org/10.1016/j. 
-eclinm.2023.102294
-451. Solmi M, Fiedorowicz J, Poddighe L, Delogu M, Miola A, Høye A, et al. Disparities in 
-screening and treatment of cardiovascular diseases in patients with mental disorders 
-across the world: systematic review and meta-analysis of 47 observational studies. 
-Am J Psychiatry 2021;178:793–803. https://doi.org/10.1176/appi.ajp.2021.21010031
-452. Ayerbe L, Forgnone I, Foguet-Boreu Q, González E, Addo J, Ayis S. Disparities in the 
-management of cardiovascular risk factors in patients with psychiatric disorders: a sys­
-tematic review and meta-analysis. Psychol Med 2018;48:2693–701. https://doi.org/10. 
-1017/S0033291718000302
-453. Tan YY, Papez V, Chang WH, Mueller SH, Denaxas S, Lai AG. Comparing clinical trial 
-population representativeness to real-world populations: an external validity analysis 
-encompassing 43 895 trials and 5 685 738 individuals across 989 unique drugs and 
-286 conditions in England. Lancet Healthy Longev 2022;3:e674–89. https://doi.org/10. 
-1016/S2666-7568(22)00186-6
-454. Chan JKN, Chu RST, Hung C, Law JWY, Wong CSM, Chang WC. Mortality, revascu­
-larization, and cardioprotective pharmacotherapy after acute coronary syndrome in 
-patients with severe mental illness: a systematic review and meta-analysis. Schizophr 
-Bull 2022;48:981–98. https://doi.org/10.1093/schbul/sbac070
-455. Hallyburton A. Diagnostic overshadowing: an evolutionary concept analysis on the 
-misattribution of physical symptoms to pre-existing psychological illnesses. Int J 
-Ment Health Nurs 2022;31:1360–72. https://doi.org/10.1111/inm.13034
-456. Szmukler G. “Capacity”, “best interests”, “will and preferences” and the UN conven­
-tion on the rights of persons with disabilities. World Psychiatry 2019;18:34–41. https:// 
-doi.org/10.1002/wps.20584
-457. Woesner ME, Marsh J, Kanofsky JD. The assertive community treatment team: an ap­
-propriate treatment for medical disorders that present with prominent psychiatric 
-symptoms. Prim Care Companion CNS Disord 2014;16:10.4088/PCC.14br01639. 
-https://doi.org/10.4088/PCC.14br01639
-458. Spivak S, Mojtabai R, Green C, Firth T, Sater H, Cullen BA. Distribution and correlates of 
-assertive community treatment (ACT) and ACT-like programs: results from the 2015 
-N-MHSS. Psychiatr Serv 2019;70:271–8. https://doi.org/10.1176/appi.ps.201700561
-459. Flodgren G, Rachas A, Farmer AJ, Inzitari M, Shepperd S. Interactive telemedicine: ef­
-fects on professional practice and health care outcomes. Cochrane Database Syst Rev 
-2015;2015:CD002098. https://doi.org/10.1002/14651858.CD002098.pub2
-460. Azad MC, Shoesmith WD, Al Mamun M, Abdullah AF, Naing DK, Phanindranath M, 
-et al. Cardiovascular diseases among patients with schizophrenia. Asian J Psychiatr 
-2016;19:28–36. https://doi.org/10.1016/j.ajp.2015.11.012
-461. Masa-Font R, Fernández-San-Martín MI, Martín López LM, Alba Muñoz AM, Oller 
-Canet S, Martín Royo J, et al. The effectiveness of a program of physical activity and 
-diet to modify cardiovascular risk factors in patients with severe mental illness after 
-3-month follow-up: CAPiCOR randomized clinical trial. Eur Psychiatry 2015;30: 
-1028–36. https://doi.org/10.1016/j.eurpsy.2015.09.006
-462. Scheewe TW, Backx FJ, Takken T, Jörg F, van Strater AC, Kroes AG, et al. Exercise 
-therapy improves mental and physical health in schizophrenia: a randomised con­
-trolled trial. Acta Psychiatr Scand 2013;127:464–73. https://doi.org/10.1111/acps.12029
-463. Stubbs B, Vancampfort D, Hallgren M, Firth J, Veronese N, Solmi M, et al. EPA guidance 
-on physical activity as a treatment for severe mental illness: a meta-review of the evi­
-dence and position statement from the European Psychiatric Association (EPA), sup­
-ported by the International Organization of Physical Therapists in Mental Health 
-(IOPTMH). Eur Psychiatry 2018;54:124–44. https://doi.org/10.1016/j.eurpsy.2018.07.004
-464. Jakobsen AS, Speyer H, Nørgaard HCB, Karlsen M, Birk M, Hjorthøj C, et al. Effect of 
-lifestyle coaching versus care coordination versus treatment as usual in people with 
-severe mental illness and overweight: two-years follow-up of the randomized 
-CHANGE trial. PLoS One 2017;12:e0185881. https://doi.org/10.1371/journal.pone. 
-0185881
-465. Aschbrenner KA, Naslund JA, Gorin AA, Mueser KT, Browne J, Wolfe RS, et al. Group 
-lifestyle intervention with mobile health for young adults with serious mental illness: a 
-randomized controlled trial. Psychiatr Serv 2022;73:141–8. https://doi.org/10.1176/ 
-appi.ps.202100047
-
-
-<!-- PAGE 65 -->
-
-### Page 65
-
-466. Daumit GL, Dalcin AT, Dickerson FB, Miller ER, Evins AE, Cather C, et al. Effect of a 
-comprehensive cardiovascular risk reduction intervention in persons with serious 
-mental illness: a randomized clinical trial. JAMA Netw Open 2020;3:e207247. https:// 
-doi.org/10.1001/jamanetworkopen.2020.7247
-467. Druss BG, von Esenwein SA, Glick GE, Deubler E, Lally C, Ward MC, et al. Randomized 
-trial of an integrated behavioral health home: the health outcomes management and 
-evaluation (HOME) study. Am J Psychiatry 2017;174:246–55. https://doi.org/10.1176/ 
-appi.ajp.2016.16050507
-468. Prasad F, De R, Korann V, Chintoh AF, Remington G, Ebdrup BH, et al. Semaglutide for 
-the treatment of antipsychotic-associated weight gain in patients not responding to 
-metformin—a case series. Ther Adv Psychopharmacol 2023;13:20451253231165169. 
-https://doi.org/10.1177/20451253231165169
-469. Cosentino F, Grant PJ, Aboyans V, Bailey CJ, Ceriello A, Delgado V, et al. 2019 ESC 
-Guidelines on diabetes, pre-diabetes, and cardiovascular diseases developed in collab­
-oration with the EASD. Eur Heart J 2020;41:255–323. https://doi.org/10.1093/ 
-eurheartj/ehz486
-470. Gierisch JM, Nieuwsma JA, Bradford DW, Wilder CM, Mann-Wrobel MC, McBroom 
-AJ, et al. Pharmacologic and behavioral interventions to improve cardiovascular risk 
-factors in adults with serious mental illness: a systematic review and meta-analysis. J 
-Clin Psychiatry 2014;75:e424–440. https://doi.org/10.4088/JCP.13r08558
-471. Cather C, Pachas GN, Cieslak KM, Evins AE. Achieving smoking cessation in individuals 
-with schizophrenia: special considerations. CNS Drugs 2017;31:471–81. https://doi.org/ 
-10.1007/s40263-017-0438-8
-472. Windle SB, Filion KB, Mancini JG, Adye-White L, Joseph L, Gore GC, et al. 
-Combination therapies for smoking cessation: a hierarchical Bayesian meta-analysis. 
-Am J Prev Med 2016;51:1060–71. https://doi.org/10.1016/j.amepre.2016.07.011
-473. Cerimele JM, Durango A. Does varenicline worsen psychiatric symptoms in patients 
-with schizophrenia or schizoaffective disorder? A review of published studies. J Clin 
-Psychiatry 2012;73:e1039–47. https://doi.org/10.4088/JCP.11r07410
-474. Hong LE, Thaker GK, McMahon RP, Summerfelt A, Rachbeisel J, Fuller RL, et al. Effects 
-of moderate-dose treatment with varenicline on neurobiological and cognitive bio­
-markers in smokers and nonsmokers with schizophrenia or schizoaffective disorder. 
-Arch Gen Psychiatry 2011;68:1195–206. https://doi.org/10.1001/archgenpsychiatry. 
-2011.83
-475. Tisdale JE, Chung MK, Campbell KB, Hammadah M, Joglar JA, Leclerc J, et al. Drug-induced 
-arrhythmias: a scientific statement from the American Heart Association. Circulation 2020; 
-142:e214–33. https://doi.org/10.1161/CIR.0000000000000905
-476. Stroup TS, Byerly MJ, Nasrallah HA, Ray N, Khan AY, Lamberti JS, et al. Effects of 
-switching from olanzapine, quetiapine, and risperidone to aripiprazole on 10-year cor­
-onary heart disease risk and metabolic syndrome status: results from a randomized 
-controlled trial. Schizophr Res 2013;146:190–5. https://doi.org/10.1016/j.schres.2013. 
-01.013
-477. Huhn M, Nikolakopoulou A, Schneider-Thoma J, Krause M, Samara M, Peter N, et al. 
-Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment 
-of adults with multi-episode schizophrenia: a systematic review and network 
-meta-analysis. Lancet 2019;394:939–51. https://doi.org/10.1016/S0140-6736(19)31135-3
-478. Huhn M, Arndt T, Schneider-Thoma J, Leucht S. Effects of antipsychotics on heart 
-rate in treatment of schizophrenia: a systematic review and meta-analysis. Ther Adv 
-Psychopharmacol 
-2022;12:20451253221097261. 
-https://doi.org/10.1177/ 
-20451253221097261
-479. Chou RH, Lo LW, Liou YJ, Shu JH, Hsu HC, Liang Y, et al. Antipsychotic treatment is 
-associated with risk of atrial fibrillation: a nationwide nested case-control study. Int J 
-Cardiol 2017;227:134–40. https://doi.org/10.1016/j.ijcard.2016.11.185
-480. Mehta N, Vannozzi R. Lithium-induced electrocardiographic changes: a complete re­
-view. Clin Cardiol 2017;40:1363–7. https://doi.org/10.1002/clc.22822
-481. Farran D, Feely O, Ashworth M, Gaughran F. Anticoagulation therapy and outcomes in 
-patients with atrial fibrillation and serious mental illness: a systematic review and 
-meta-analysis. J Psychiatr Res 2022;156:737–53. https://doi.org/10.1016/j.jpsychires. 
-2022.11.002
-482. Ahn HJ, Lee SR, Choi EK, Bae NY, Ahn HJ, Kwon S, et al. Increased risk of incident atrial 
-fibrillation in young adults with mental disorders: a nationwide population-based study. 
-Heart Rhythm 2023;20:365–73. https://doi.org/10.1016/j.hrthm.2022.12.019
-483. Tamargo J, Rosano G, Walther T, Duarte J, Niessner A, Kaski JC, et al. Gender differ­
-ences in the effects of cardiovascular drugs. Eur Heart J Cardiovasc Pharmacother 2017; 
-3:163–82. https://doi.org/10.1093/ehjcvp/pvw042
-484. Zeppenfeld K, Tfelt-Hansen J, de Riva M, Winkel BG, Behr ER, Blom NA, et al. 2022 
-ESC Guidelines for the management of patients with ventricular arrhythmias and 
-the prevention of sudden cardiac death. Eur Heart J 2022;43:3997–4126. https://doi. 
-org/10.1093/eurheartj/ehac262
-485. Wilde AAM, Semsarian C, Márquez MF, Shamloo AS, Ackerman MJ, Ashley EA, et al. 
-European Heart Rhythm Association (EHRA)/Heart Rhythm Society (HRS)/Asia 
-Pacific Heart Rhythm Society (APHRS)/Latin American Heart Rhythm Society 
-(LAHRS) Expert Consensus Statement on the state of genetic testing for cardiac dis­
-eases. Europace 2022;24:1307–67. https://doi.org/10.1093/europace/euac030
-486. Woosley RL, Heise CW, Gallo T, Woosley RD, Lambson J, Romero KA. www. 
-CredibleMeds.org, QTdrugs List, AZCERT, 1457 E. Desert Garden Dr., Tucson, AZ 
-85718. https://crediblemeds.org/ (23 September 2024, date last accessed).
-487. Lambiase PD, de Bono JP, Schilling RJ, Lowe M, Turley A, Slade A, et al. British Heart 
-Rhythm Society clinical practice guidelines on the management of patients developing 
-QT prolongation on antipsychotic medication. Arrhythm Electrophysiol Rev 2019;8: 
-161–5. https://doi.org/10.15420/aer.2019.8.3.G1
-488. Nilsson BM, Edström O, Lindström L, Wernegren P, Bodén R. Tachycardia in patients 
-treated with clozapine versus antipsychotic long-acting injections. Int Clin 
-Psychopharmacol 2017;32:219–24. https://doi.org/10.1097/YIC.0000000000000169
-489. Siskind D, Sidhu A, Cross J, Chua YT, Myles N, Cohen D, et al. Systematic review and 
-meta-analysis of rates of clozapine-associated myocarditis and cardiomyopathy. Aust N 
-Z J Psychiatry 2020;54:467–81. https://doi.org/10.1177/0004867419898760
-490. Vickers M, Ramineni V, Malacova E, Eriksson L, McMahon K, Moudgil V, et al. Risk factors 
-for clozapine-induced myocarditis and cardiomyopathy: a systematic review and 
-meta-analysis. Acta Psychiatr Scand 2022;145:442–55. https://doi.org/10.1111/acps.13398
-491. Authority MNZMaMDS. Clozapine and Cardiac Safety: Updated Advice for Prescribers. 
-2003. https://www.medsafe.govt.nz/profs/PUarticles/clozcardiac.htm (8 July 2024, 
-date last accessed).
-492. Andrade C. cardiometabolic risks in schizophrenia and directions for intervention, 3: 
-psychopharmacological interventions. J Clin Psychiatry 2016;77:e1090–4. https://doi. 
-org/10.4088/JCP.16f11128
-493. World Economic Forum. Global Gender Gap Report 2022. 2022. https://www3. 
-weforum.org/docs/WEF_GGGR_2022.pdf (5 February 2024, date last accessed).
-494. Mehta LS, Beckie TM, DeVon HA, Grines CL, Krumholz HM, Johnson MN, et al. 
-Acute myocardial infarction in women: a scientific statement from the American 
-Heart Association. Circulation 2016;133:916–47. https://doi.org/10.1161/CIR. 
-0000000000000351
-495. O’Neil A, Fisher AJ, Kibbey KJ, Jacka FN, Kotowicz MA, Williams LJ, et al. Depression is 
-a risk factor for incident coronary heart disease in women: an 18-year longitudinal 
-study. J Affect Disord 2016;196:117–24. https://doi.org/10.1016/j.jad.2016.02.029
-496. O’Neil A, Scovelle AJ, Milner AJ, Kavanagh A. Gender/sex as a social determinant of cardio­
-vascular risk. Circulation 2018;137:854–64. https://doi.org/10.1161/CIRCULATIONAHA. 
-117.028595
-497. Shah AJ, Veledar E, Hong Y, Bremner JD, Vaccarino V. Depression and history of at­
-tempted suicide as risk factors for heart disease mortality in young individuals. Arch 
-Gen Psychiatry 2011;68:1135–42. https://doi.org/10.1001/archgenpsychiatry.2011.125
-498. Taylor JL, Makarem N, Shimbo D, Aggarwal B. Gender differences in associations be­
-tween stress and cardiovascular risk factors and outcomes. Gend Genome 2018;2: 
-111–22. https://doi.org/10.1177/2470289718820845
-499. Seidler ZE, Dawes AJ, Rice SM, Oliffe JL, Dhillon HM. The role of masculinity in men’s 
-help-seeking for depression: a systematic review. Clin Psychol Rev 2016;49:106–18. 
-https://doi.org/10.1016/j.cpr.2016.09.002
-500. Berke DS, Liautaud M, Tuten M. Men’s psychiatric distress in context: understanding 
-the impact of masculine discrepancy stress, race, and barriers to help-seeking. J 
-Health Psychol 2022;27:946–60. https://doi.org/10.1177/1359105320977641
-501. Moons P, Kovacs AH, Luyckx K, Thomet C, Budts W, Enomoto J, et al. 
-Patient-reported outcomes in adults with congenital heart disease: inter-country vari­
-ation, standard of living and healthcare system factors. Int J Cardiol 2018;251:34–41. 
-https://doi.org/10.1016/j.ijcard.2017.10.064
-502. Hillerer KM, Neumann ID, Couillard-Despres S, Aigner L, Slattery DA. Sex-dependent 
-regulation of hippocampal neurogenesis under basal and chronic stress conditions in 
-rats. Hippocampus 2013;23:476–87. https://doi.org/10.1002/hipo.22107
-503. Oyola MG, Handa RJ. Hypothalamic-pituitary-adrenal and hypothalamic-pituitary-gonadal 
-axes: sex differences in regulation of stress responsivity. Stress 2017;20:476–94. https://doi. 
-org/10.1080/10253890.2017.1369523
-504. Pelletier R, Khan NA, Cox J, Daskalopoulou SS, Eisenberg MJ, Bacon SL, et al. Sex ver­
-sus gender-related characteristics: which predicts outcome after acute coronary syn­
-drome in the young? J Am Coll Cardiol 2016;67:127–35. https://doi.org/10.1016/j.jacc. 
-2015.10.067
-505. Bangasser DA, Cuarenta A. Sex differences in anxiety and depression: circuits and me­
-chanisms. Nat Rev Neurosci 2021;22:674–84. https://doi.org/10.1038/s41583-021- 
-00513-0
-506. Kivimäki M, Steptoe A. Effects of stress on the development and progression of cardiovas­
-cular disease. Nat Rev Cardiol 2018;15:215–29. https://doi.org/10.1038/nrcardio.2017.189
-507. Rossi A, Mikail N, Bengs S, Haider A, Treyer V, Buechel RR, et al. Heart-brain interac­
-tions in cardiac and brain diseases: why sex matters. Eur Heart J 2022;43:3971–80. 
-https://doi.org/10.1093/eurheartj/ehac061
-508. Sullivan S, Young A, Hammadah M, Lima BB, Levantsevych O, Ko YA, et al. Sex differ­
-ences in the inflammatory response to stress and risk of adverse cardiovascular out­
-comes among patients with coronary heart disease. Brain Behav Immun 2020;90: 
-294–302. https://doi.org/10.1016/j.bbi.2020.09.001
-509. Maki PM, Kornstein SG, Joffe H, Bromberger JT, Freeman EW, Athappilly G, et al. 
-Guidelines for the evaluation and treatment of perimenopausal depression: summary 
-and recommendations. Menopause 2018;25:1069–85. https://doi.org/10.1097/GME.
-
-
-<!-- PAGE 66 -->
-
-### Page 66
-
-510. Cohen LS, Soares CN, Vitonis AF, Otto MW, Harlow BL. Risk for new onset of de­
-pression during the menopausal transition: the Harvard study of moods and cycles. 
-Arch Gen Psychiatry 2006;63:385–90. https://doi.org/10.1001/archpsyc.63.4.385
-511. Rees M, Bitzer J, Cano A, Ceausu I, Chedraui P, Durmusoglu F, et al. Global consensus 
-recommendations on menopause in the workplace: a European Menopause and 
-Andropause Society (EMAS) position statement. Maturitas 2021;151:55–62. https:// 
-doi.org/10.1016/j.maturitas.2021.06.006
-512. Stute P, Spyropoulou A, Karageorgiou V, Cano A, Bitzer J, Ceausu I, et al. Management 
-of depressive symptoms in peri- and postmenopausal women: EMAS position state­
-ment. Maturitas 2020;131:91–101. https://doi.org/10.1016/j.maturitas.2019.11.002
-513. Corona G, Rastrelli G, Isidori AM, Pivonello R, Bettocchi C, Reisman Y, et al. Erectile 
-dysfunction and cardiovascular risk: a review of current findings. Expert Rev Cardiovasc 
-Ther 2020;18:155–64. https://doi.org/10.1080/14779072.2020.1745632
-514. Dilixiati D, Cao R, Mao Y, Li Y, Dilimulati D, Azhati B, et al. Association between cardio­
-vascular disease and risk of female sexual dysfunction: a systematic review and 
-meta-analysis. Eur J Prev Cardiol 2024;31:782–800. https://doi.org/10.1093/eurjpc/zwae042
-515. Winter S, Diamond M, Green J, Karasic D, Reed T, Whittle S, et al. Transgender peo­
-ple: health at the margins of society. Lancet 2016;388:390–400. https://doi.org/10. 
-1016/S0140-6736(16)00683-8
-516. Ruppert R, Kattari SK, Sussman S. Review: prevalence of addictions among transgender 
-and gender diverse subgroups. Int J Environ Res Public Health 2021;18:8843. https://doi. 
-org/10.3390/ijerph18168843
-517. Streed CG Jr, Beach LB, Caceres BA, Dowshen NL, Moreau KL, Mukherjee M, et al. 
-Assessing and addressing cardiovascular health in people who are transgender and 
-gender diverse: a scientific statement from the American Heart Association. 
-Circulation 2021;144:e136–48. https://doi.org/10.1161/CIR.0000000000001003
-518. Onasanya O, Iyer G, Lucas E, Lin D, Singh S, Alexander GC. Association between exogen­
-ous testosterone and cardiovascular events: an overview of systematic reviews. Lancet 
-Diabetes Endocrinol 2016;4:943–56. https://doi.org/10.1016/S2213-8587(16)30215-7
-519. Nota NM, Wiepjes CM, de Blok CJM, Gooren LJG, Kreukels BPC, den Heijer M. 
-Occurrence of acute cardiovascular events in transgender individuals receiving hormone 
-therapy. Circulation 2019;139:1461–2. https://doi.org/10.1161/CIRCULATIONAHA. 
-118.038584
-520. Getahun D, Nash R, Flanders WD, Baird TC, Becerra-Culqui TA, Cromwell L, et al. 
-Cross-sex hormones and acute cardiovascular events in transgender persons: a cohort 
-study. Ann Intern Med 2018;169:205–13. https://doi.org/10.7326/M17-2785
-521. van Zijverden LM, Wiepjes CM, van Diemen JJK, Thijs A, den Heijer M. Cardiovascular 
-disease in transgender people: a systematic review and meta-analysis. Eur J Endocrinol 
-2024;190:S13–24. https://doi.org/10.1093/ejendo/lvad170
-522. Suglia SF, Koenen KC, Boynton-Jarrett R, Chan PS, Clark CJ, Danese A, et al. Childhood 
-and adolescent adversity and cardiometabolic outcomes: a scientific statement from 
-the American Heart Association. Circulation 2018;137:e15–28. https://doi.org/10. 
-1161/CIR.0000000000000536
-523. Aspelund T, Gudnason V, Magnusdottir BT, Andersen K, Sigurdsson G, Thorsson B, 
-et al. Analysing the large decline in coronary heart disease mortality in the Icelandic 
-population aged 25–74 between the years 1981 and 2006. PLoS One 2010;5: 
-e13957. https://doi.org/10.1371/journal.pone.0013957
-524. Shah AJ, Ghasemzadeh N, Zaragoza-Macias E, Patel R, Eapen DJ, Neeland IJ, et al. Sex 
-and age differences in the association of depression with obstructive coronary artery 
-disease and adverse cardiovascular events. J Am Heart Assoc 2014;3:e000741. https:// 
-doi.org/10.1161/JAHA.113.000741
-525. Le Bras A. Risk factors: mental stress puts women’s hearts at risk. Nat Rev Cardiol 2018; 
-15:198. https://doi.org/10.1038/nrcardio.2018.23
-526. Smaardijk VR, Lodder P, Kop WJ, van Gennep B, Maas A, Mommersteeg PMC. Sex- 
-and gender-stratified risks of psychological factors for incident ischemic heart disease: 
-systematic review and meta-analysis. J Am Heart Assoc 2019;8:e010859. https://doi.org/ 
-10.1161/JAHA.118.010859
-527. Regitz-Zagrosek V, Gebhard C. Gender medicine: effects of sex and gender on cardio­
-vascular disease manifestation and outcomes. Nat Rev Cardiol 2023;20:236–47. https:// 
-doi.org/10.1038/s41569-022-00797-4
-528. Vaccarino V, Badimon L, Bremner JD, Cenko E, Cubedo J, Dorobantu M, et al. 
-Depression and coronary heart disease: 2018 position paper of the ESC working 
-group on coronary pathophysiology and microcirculation. Eur Heart J 2020;41: 
-1687–96. https://doi.org/10.1093/eurheartj/ehy913
-529. Mehta PK, Thobani A, Vaccarino V. Coronary artery spasm, coronary reactivity, and 
-their psychological context. Psychosom Med 2019;81:233–6. https://doi.org/10.1097/ 
-PSY.0000000000000682
-530. Waheed N, Elias-Smale S, Malas W, Maas AH, Sedlak TL, Tremmel J, et al. Sex differ­
-ences in non-obstructive coronary artery disease. Cardiovasc Res 2020;116:829–40. 
-https://doi.org/10.1093/cvr/cvaa001
-531. van der Meer RE, Maas AH. The role of mental stress in ischaemia with no obstructive 
-coronary artery disease and coronary vasomotor disorders. Eur Cardiol 2021;16:e37. 
-https://doi.org/10.15420/ecr.2021.20
-532. Konst RE, Elias-Smale SE, Lier A, Bode C, Maas AH. Different cardiovascular risk fac­
-tors and psychosocial burden in symptomatic women with and without obstructive 
-coronary artery disease. Eur J Prev Cardiol 2019;26:657–9. https://doi.org/10.1177/ 
-2047487318814298
-533. Rutledge T, Kenkre TS, Bittner V, Krantz DS, Thompson DV, Linke SE, et al. Anxiety 
-associations with cardiac symptoms, angiographic disease severity, and healthcare util­
-ization: the NHLBI-sponsored Women’s Ischemia Syndrome Evaluation. Int J Cardiol 
-2013;168:2335–40. https://doi.org/10.1016/j.ijcard.2013.01.036
-534. Vaccarino V, Almuwaqqat Z, Kim JH, Hammadah M, Shah AJ, Ko YA, et al. Association 
-of mental stress-induced myocardial ischemia with cardiovascular events in patients 
-with coronary heart disease. JAMA 2021;326:1818–28. https://doi.org/10.1001/jama. 
-2021.17649
-535. Vaccarino V, Sullivan S, Hammadah M, Wilmot K, Al Mheid I, Ramadan R, et al. Mental 
-stress-induced-myocardial ischemia in young patients with recent myocardial infarc­
-tion: sex differences and mechanisms. Circulation 2018;137:794–805. https://doi.org/ 
-10.1161/CIRCULATIONAHA.117.030849
-536. O’Riordan A, Gallagher S, Howard S. Type D personality and cardiovascular reactivity 
-to acute psychological stress: a systematic review and meta-analysis. Health Psychol 
-2023;42:628–41. https://doi.org/10.1037/hea0001328
-537. Mommersteeg PM, Pot I, Aarnoudse W, Denollet J, Widdershoven JW. Type D per­
-sonality and patient-perceived health in nonsignificant coronary artery disease: the 
-TWeesteden mIld STenosis (TWIST) study. Qual Life Res 2013;22:2041–50. https:// 
-doi.org/10.1007/s11136-012-0340-2
-538. Kunadian V, Chieffo A, Camici PG, Berry C, Escaned J, Maas A, et al. An EAPCI expert 
-consensus document on ischaemia with non-obstructive coronary arteries in collabor­
-ation with European Society of Cardiology Working Group on Coronary 
-Pathophysiology & Microcirculation Endorsed by Coronary Vasomotor Disorders 
-International Study Group. EuroIntervention 2021;16:1049–69. https://doi.org/10.4244/ 
-EIJY20M07_01
-539. Adlam D, Alfonso F, Maas A, Vrints C. European Society of Cardiology, acute cardio­
-vascular care association, SCAD study group: a position paper on spontaneous coron­
-ary artery dissection. Eur Heart J 2018;39:3353–68. https://doi.org/10.1093/eurheartj/ 
-ehy080
-540. Hayes SN, Tweet MS, Adlam D, Kim ESH, Gulati R, Price JE, et al. Spontaneous cor­
-onary artery dissection: JACC state-of-the-art review. J Am Coll Cardiol 2020;76: 
-961–84. https://doi.org/10.1016/j.jacc.2020.05.084
-541. Gurgoglione FL, Rizzello D, Giacalone R, Ferretti M, Vezzani A, Pfleiderer B, et al. 
-Precipitating factors in patients with spontaneous coronary artery dissection: clinical, 
-laboratoristic and prognostic implications. Int J Cardiol 2023;385:1–7. https://doi.org/ 
-10.1016/j.ijcard.2023.05.027
-542. Tofler GH, Kopel E, Klempfner R, Eldar M, Buckley T, Goldenberg I. Triggers and tim­
-ing of acute coronary syndromes. Am J Cardiol 2017;119:1560–5. https://doi.org/10. 
-1016/j.amjcard.2017.02.022
-543. Smaardijk VR, Mommersteeg PMC, Kop WJ, Pellegrini D, van Geuns RJ, Maas A. 
-Psychological and clinical characteristics of patients with spontaneous coronary artery 
-dissection: a case-control study. Int J Cardiol 2021;323:1–6. https://doi.org/10.1016/j. 
-ijcard.2020.08.045
-544. Lyon AR, Citro R, Schneider B, Morel O, Ghadri JR, Templin C, et al. Pathophysiology 
-of Takotsubo syndrome: JACC state-of-the-art review. J Am Coll Cardiol 2021;77: 
-902–21. https://doi.org/10.1016/j.jacc.2020.10.060
-545. Dawson DK. Acute stress-induced (Takotsubo) cardiomyopathy. Heart 2018;104: 
-96–102. https://doi.org/10.1136/heartjnl-2017-311579
-546. Singh T, Khan H, Gamble DT, Scally C, Newby DE, Dawson D. Takotsubo syndrome: 
-pathophysiology, emerging concepts, and clinical implications. Circulation 2022;145: 
-1002–19. https://doi.org/10.1161/CIRCULATIONAHA.121.055854
-547. Ghadri JR, Wittstein IS, Prasad A, Sharkey S, Dote K, Akashi YJ, et al. International ex­
-pert consensus document on Takotsubo syndrome (part I): clinical characteristics, 
-diagnostic criteria, and pathophysiology. Eur Heart J 2018;39:2032–46. https://doi. 
-org/10.1093/eurheartj/ehy076
-548. Ghadri JR, Wittstein IS, Prasad A, Sharkey S, Dote K, Akashi YJ, et al. International ex­
-pert consensus document on Takotsubo syndrome (part ii): diagnostic workup, out­
-come, and management. Eur Heart J 2018;39:2047–62. https://doi.org/10.1093/ 
-eurheartj/ehy077
-549. Galiuto L, Crea F. Primary and secondary Takotsubo syndrome: pathophysiological de­
-terminant and prognosis. Eur Heart J Acute Cardiovasc Care 2020;9:690–3. https://doi. 
-org/10.1177/2048872620963493
-550. Templin C, Hänggi J, Klein C, Topka MS, Hiestand T, Levinson RA, et al. Altered limbic 
-and autonomic processing supports brain-heart axis in Takotsubo syndrome. Eur 
-Heart J 2019;40:1183–7. https://doi.org/10.1093/eurheartj/ehz068
-551. Pozzi G, D’Amario D, Princi G, Ciliberti G, Irano A, Simone MV, et al. Pre-existing psy­
-chiatric morbidity is strongly associated to Takotsubo syndrome: a case-control study. 
-Front Cardiovasc Med 2022;9:925459. https://doi.org/10.3389/fcvm.2022.925459
-552. Pandey A, Omar W, Ayers C, LaMonte M, Klein L, Allen NB, et al. Sex and race differ­
-ences in lifetime risk of heart failure with preserved ejection fraction and heart failure 
-with reduced ejection fraction. Circulation 2018;137:1814–23. https://doi.org/10.1161/ 
-CIRCULATIONAHA.117.031622
-553. Sowden E, Hossain M, Chew-Graham C, Blakeman T, Tierney S, Wellwood I, et al. 
-Understanding the management of heart failure with preserved ejection fraction:
-
-
-<!-- PAGE 67 -->
-
-### Page 67
-
-a qualitative multiperspective study. Br J Gen Pract 2020;70:e880–9. https://doi.org/10. 
-3399/bjgp20X713477
-554. Forsyth F, Blakeman T, Burt J, Chew-Graham CA, Hossain M, Mant J, et al. Cumulative 
-complexity: a qualitative analysis of patients’ experiences of living with heart failure 
-with preserved ejection fraction. Eur J Cardiovasc Nurs 2023;22:529–36. https://doi. 
-org/10.1093/eurjcn/zvac081
-555. Endrighi R, Dimond AJ, Waters AJ, Dimond CC, Harris KM, Gottlieb SS, et al. 
-Associations of perceived stress and state anger with symptom burden and functional 
-status in patients with heart failure. Psychol Health 2019;34:1250–66. https://doi.org/ 
-10.1080/08870446.2019.1609676
-556. Borlaug BA, Sharma K, Shah SJ, Ho JE. Heart failure with preserved ejection fraction: 
-JACC scientific statement. J Am Coll Cardiol 2023;81:1810–34. https://doi.org/10.1016/ 
-j.jacc.2023.01.049
-557. Cirelli MA, Lacerda MS, Lopes CT, de Lima Lopes J, de Barros A. Correlations between 
-stress, anxiety and depression and sociodemographic and clinical characteristics 
-among outpatients with heart failure. Arch Psychiatr Nurs 2018;32:235–41. https:// 
-doi.org/10.1016/j.apnu.2017.11.008
-558. Topel ML, Kim JH, Mujahid MS, Sullivan SM, Ko YA, Vaccarino V, et al. Neighborhood 
-socioeconomic status and adverse outcomes in patients with cardiovascular disease. 
-Am J Cardiol 2019;123:284–90. https://doi.org/10.1016/j.amjcard.2018.10.011
-559. Polikandrioti M, Koutelekos I, Vasilopoulos G, Gerogianni G, Gourni M, Zyga S, et al. 
-Anxiety and depression in patients with permanent atrial fibrillation: prevalence and 
-associated factors. Cardiol Res Pract 2018;2018:7408129. https://doi.org/10.1155/ 
-2018/7408129
-560. Gleason KT, Dennison Himmelfarb CR, Ford DE, Lehmann H, Samuel L, Jain S, et al. 
-Association of sex and atrial fibrillation therapies with patient-reported outcomes. 
-Heart 2019;105:1642–8. https://doi.org/10.1136/heartjnl-2019-314881
-561. von Eisenhart Rothe A, Hutt F, Baumert J, Breithardt G, Goette A, Kirchhof P, et al. 
-Depressed mood amplifies heart-related symptoms in persistent and paroxysmal atrial 
-fibrillation patients: a longitudinal analysis—data from the German Competence 
-Network on Atrial Fibrillation. Europace 2015;17:1354–62. https://doi.org/10.1093/ 
-europace/euv018
-562. Du H, Yang L, Hu Z, Zhang H. Anxiety is associated with higher recurrence of atrial 
-fibrillation after catheter ablation: a meta-analysis. Clin Cardiol 2022;45:243–50. 
-https://doi.org/10.1002/clc.23753
-563. Starrenburg A, Pedersen S, van den Broek K, Kraaier K, Scholten M, Van der Palen J. 
-Gender differences in psychological distress and quality of life in patients with an 
-ICD 1-year postimplant. Pacing Clin Electrophysiol 2014;37:843–52. https://doi.org/10. 
-1111/pace.12357
-564. Paap E, Witjes M, van Landsveld-Verhoeven C, Pijnappel RM, Maas AH, Broeders MJ. 
-Mammography in females with an implanted medical device: impact on image quality, 
-pain and anxiety. Br J Radiol 2016;89:20160142. https://doi.org/10.1259/bjr.20160142
-565. Habibović M, Denollet J, Pedersen SS. Posttraumatic stress and anxiety in patients with 
-an implantable cardioverter defibrillator: trajectories and vulnerability factors. Pacing 
-Clin Electrophysiol 2017;40:817–23. https://doi.org/10.1111/pace.13090
-566. Sliwa K, Rakisheva A, Viljoen C, Pfeffer T, Simpson M, Jackson AM, et al. Living with 
-peripartum cardiomyopathy: a statement from the Heart Failure Association and 
-the Association of Cardiovascular Nursing and Allied Professions of the European 
-Society of Cardiology. Eur J Heart Fail 2024;26:2143–54. https://doi.org/10.1002/ejhf. 
-3377
-567. World Health Organization. Aging and Health: Key Facts. 2024. https://www.who.int/ 
-news-room/fact-sheets/detail/ageing-and-health#:∼:text=By%202050%2C%20the% 
-20world’s%20population,2050%20to%20reach%20426%20million (14 March 2025, 
-date last accessed).
-568. Forman DE, Maurer MS, Boyd C, Brindis R, Salive ME, Horne FM, et al. Multimorbidity 
-in older adults with cardiovascular disease. J Am Coll Cardiol 2018;71:2149–61. https:// 
-doi.org/10.1016/j.jacc.2018.03.022
-569. Ferrucci L, Fabbri E. Inflammageing: chronic inflammation in ageing, cardiovascular dis­
-ease, and frailty. Nat Rev Cardiol 2018;15:505–22. https://doi.org/10.1038/s41569-018- 
-0064-2
-570. Wang MS, Deng JW, Geng WY, Zheng R, Xu HL, Dong Y, et al. Temporal trend and 
-attributable risk factors of cardiovascular disease burden for adults 55 years and older 
-in 204 countries/territories from 1990 to 2021: an analysis for the Global Burden of 
-Disease Study 2021. Eur J Prev Cardiol 2024;32:539–52. https://doi.org/10.1093/ 
-eurjpc/zwae384
-571. Global, regional, and national burden of 12 mental disorders in 204 countries and terri­
-tories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. 
-Lancet Psychiatry 2022;9:137–50. https://doi.org/10.1016/S2215-0366(21)00395-3
-572. Jalali A, Ziapour A, Karimi Z, Rezaei M, Emami B, Kalhori RP, et al. Global prevalence of 
-depression, anxiety, and stress in the elderly population: a systematic review and 
-meta-analysis. BMC Geriatr 2024;24:809. https://doi.org/10.1186/s12877-024-05311-8
-573. Sivertsen H, Bjørkløf GH, Engedal K, Selbæk G, Helvik AS. Depression and quality of life 
-in older persons: a review. Dement Geriatr Cogn Disord 2015;40:311–39. https://doi.org/ 
-10.1159/000437299
-574. Wei J, Hou R, Zhang X, Xu H, Xie L, Chandrasekar EK, et al. The association of late-life 
-depression with all-cause and cardiovascular mortality among community-dwelling 
-older adults: systematic review and meta-analysis. Br J Psychiatry 2019;215:449–55. 
-https://doi.org/10.1192/bjp.2019.74
-575. Moradi M, Doostkami M, Behnamfar N, Rafiemanesh H, Behzadmehr R. Global preva­
-lence of depression among heart failure patients: a systematic review and 
-meta-analysis. Curr Probl Cardiol 2022;47:100848. https://doi.org/10.1016/j.cpcardiol. 
-2021.100848
-576. Zhang S, Zhang N, Liu L, Zheng W, Ma ZL, Qiao SY, et al. Global epidemiology of mental 
-disorder in atrial fibrillation between 1998–2021: a systematic review and meta-analysis. 
-World J Psychiatry 2024;14:179–93. https://doi.org/10.5498/wjp.v14.i1.179
-577. Beishon L, Hickey B, Desai B, Chithiramohan T, Evley R, Subramaniam H, et al. 
-Integrated physical-mental healthcare services in specialist settings to improve out­
-comes for older people living with mental health diagnoses: a systematic review. Int 
-J Geriatr Psychiatry 2024;39:e6146. https://doi.org/10.1002/gps.6146
-578. Purcell C, Dibben G, Hilton Boon M, Matthews L, Palmer VJ, Thomson M, et al. Social 
-network interventions to support cardiac rehabilitation and secondary prevention in 
-the management of people with heart disease. Cochrane Database Syst Rev 2023;6: 
-CD013820. https://doi.org/10.1002/14651858.CD013820.pub2
-579. Anrys P, Petit AE, Thevelin S, Sallevelt B, Drenth C, Soiza RL, et al. An international 
-consensus list of potentially clinically significant drug-drug interactions in older people. 
-J Am Med Dir Assoc 2021;22:2121–33.e24. https://doi.org/10.1016/j.jamda.2021.03.019
-580. Siwek M, Woroń J, Gorostowicz A, Wordliczek J. Adverse effects of interactions be­
-tween antipsychotics and medications used in the treatment of cardiovascular disor­
-ders. Pharmacol Rep 2020;72:350–9. https://doi.org/10.1007/s43440-020-00058-6
-581. Boyd C, Smith CD, Masoudi FA, Blaum CS, Dodson JA, Green AR, et al. Decision mak­
-ing for older adults with multiple chronic conditions: executive summary for the 
-American Geriatrics Society guiding principles on the care of older adults with multi­
-morbidity. J Am Geriatr Soc 2019;67:665–73. https://doi.org/10.1111/jgs.15809
-582. Piña IL, Di Palo KE, Ventura HO. Psychopharmacology and cardiovascular disease. J Am 
-Coll Cardiol 2018;71:2346–59. https://doi.org/10.1016/j.jacc.2018.03.458
-583. Castaldelli-Maia JM, Hofmann C, Chagas ACP, Liprandi AS, Alcocer A, Andrade LH, 
-et al. Major cardiac-psychiatric drug-drug interactions: a systematic review of the con­
-sistency of drug databases. Cardiovasc Drugs Ther 2021;35:441–54. https://doi.org/10. 
-1007/s10557-020-06979-x
-584. Sheikh-Taha M, Asmar M. Polypharmacy and severe potential drug-drug interactions 
-among older adults with cardiovascular disease in the United States. BMC Geriatr 
-2021;21:233. https://doi.org/10.1186/s12877-021-02183-0
-585. Kim DH, Rockwood K. Frailty in older adults. N Engl J Med 2024;391:538–48. https:// 
-doi.org/10.1056/NEJMra2301292
-586. Richter D, Guasti L, Walker D, Lambrinou E, Lionis C, Abreu A, et al. Frailty in cardi­
-ology: definition, assessment and clinical implications for general cardiology. A consen­
-sus document of the Council for Cardiology Practice (CCP), Association for Acute 
-Cardio Vascular Care (ACVC), Association of Cardiovascular Nursing and Allied 
-Professions (ACNAP), European Association of Preventive Cardiology (EAPC), 
-European Heart Rhythm Association (EHRA), Council on Valvular Heart Diseases 
-(VHD), Council on Hypertension (CHT), Council of Cardio-Oncology (CCO), 
-Working Group (WG) Aorta and Peripheral Vascular Diseases, WG e-Cardiology, 
-WG Thrombosis, of the European Society of Cardiology, European Primary Care 
-Cardiology Society (EPCCS). Eur J Prev Cardiol 2022;29:216–27. https://doi.org/10. 
-1093/eurjpc/zwaa167
-587. Talha KM, Pandey A, Fudim M, Butler J, Anker SD, Khan MS. Frailty and heart failure: 
-state-of-the-art review. J Cachexia Sarcopenia Muscle 2023;14:1959–72. https://doi.org/ 
-10.1002/jcsm.13306
-588. Liperoti R, Vetrano DL, Palmer K, Targowski T, Cipriani MC, Lo Monaco MR, et al. 
-Association between frailty and ischemic heart disease: a systematic review and 
-meta-analysis. BMC Geriatr 2021;21:357. https://doi.org/10.1186/s12877-021-02304-9
-589. Savelieva I, Fumagalli S, Kenny RA, Anker S, Benetos A, Boriani G, et al. EHRA expert 
-consensus document on the management of arrhythmias in frailty syndrome, en­
-dorsed by the Heart Rhythm Society (HRS), Asia Pacific Heart Rhythm Society 
-(APHRS), Latin America Heart Rhythm Society (LAHRS), and Cardiac Arrhythmia 
-Society of Southern Africa (CASSA). Europace 2023;25:1249–76. https://doi.org/10. 
-1093/europace/euac123
-590. Tan M, Bhanu C, Frost R. The association between frailty and anxiety: a systematic re­
-view. Int J Geriatr Psychiatry 2023;38:e5918. https://doi.org/10.1002/gps.5918
-591. Zhu J, Zhou D, Nie Y, Wang J, Yang Y, Chen D, et al. Assessment of the bidirectional 
-causal association between frailty and depression: a Mendelian randomization study. 
-J Cachexia Sarcopenia Muscle 2023;14:2327–34. https://doi.org/10.1002/jcsm.13319
-592. Suo X, Zhang J, Guo J, Liu Y, You J, Lyu Q, et al. (6 March, 2025) Frailty mediated the 
-associations of fine particulate matter with depression and anxiety: findings from the 
-UK Biobank. J Gerontol A Biol Sci Med Sci, https://doi.org/10.1093/gerona/glaf047
-593. World Health Organization. WHO Clinical Consortium on Healthy Ageing. Report of 
-Consortium Meeting 1–2 December 2016 in Geneva, Switzerland. 2016. https://www. 
-who.int/publications/i/item/WHO-FWC-ALC-17.2 (5 February 2024, date last 
-accessed).
-594. Chowdhury SR, Chandra Das D, Sunna TC, Beyene J, Hossain A. Global and regional 
-prevalence of multimorbidity in the adult population in community settings: 
-ESC Guidelines                                                                                                                                                                                               67
-
-
-<!-- PAGE 68 -->
-
-### Page 68
-
-a systematic review and meta-analysis. EClinicalMedicine 2023;57:101860. https://doi. 
-org/10.1016/j.eclinm.2023.101860
-595. Zhu Y, Edwards D, Mant J, Payne RA, Kiddle S. Characteristics, service use and mor­
-tality of clusters of multimorbid patients in England: a population-based study. BMC 
-Med 2020;18:78. https://doi.org/10.1186/s12916-020-01543-8
-596. Soley-Bori M, Ashworth M, Bisquera A, Dodhia H, Lynch R, Wang Y, et al. Impact of 
-multimorbidity on healthcare costs and utilisation: a systematic review of the UK lit­
-erature. Br J Gen Pract 2021;71:e39–46. https://doi.org/10.3399/bjgp20X713897
-597. Cottrell E, Yardley S. Lived experiences of multimorbidity: an interpretative meta- 
-synthesis of patients’, general practitioners’ and trainees’ perceptions. Chronic Illn 
-2015;11:279–303. https://doi.org/10.1177/1742395315574764
-598. Coventry PA, Small N, Panagioti M, Adeyemi I, Bee P. Living with complexity; marshal­
-ling resources: a systematic review and qualitative meta-synthesis of lived experience 
-of mental and physical multimorbidity. BMC Fam Pract 2015;16:171. https://doi.org/10. 
-1186/s12875-015-0345-3
-599. Van Wilder L, Devleesschauwer B, Clays E, De Buyser S, Van der Heyden J, 
-Charafeddine R, et al. The impact of multimorbidity patterns on health-related quality 
-of life in the general population: results of the Belgian Health Interview Survey. Qual Life 
-Res 2022;31:551–65. https://doi.org/10.1007/s11136-021-02951-w
-600. Garin N, Koyanagi A, Chatterji S, Tyrovolas S, Olaya B, Leonardi M, et al. Global multi­
-morbidity patterns: a cross-sectional, population-based, multi-country study. J Gerontol 
-A Biol Sci Med Sci 2016;71:205–14. https://doi.org/10.1093/gerona/glv128
-601. Sinnige J, Braspenning J, Schellevis F, Stirbu-Wagner I, Westert G, Korevaar J. The 
-prevalence of disease clusters in older adults with multiple chronic diseases—a system­
-atic literature review. PLoS One 2013;8:e79641. https://doi.org/10.1371/journal.pone. 
-0079641
-602. Cuschieri S, Stranges S, Makovski TT. The different definitions of multimorbidity and 
-their implications for research, surveillance, and policy. Eur J Public Health 2025;35: 
-197–8. https://doi.org/10.1093/eurpub/ckae193
-603. Salisbury C, Man MS, Bower P, Guthrie B, Chaplin K, Gaunt DM, et al. Management of 
-multimorbidity using a patient-centred care model: a pragmatic cluster-randomised 
-trial of the 3D approach. Lancet 2018;392:41–50. https://doi.org/10.1016/S0140- 
-6736(18)31308-4
-604. Smith SM, Wallace E, O’Dowd T, Fortin M. Interventions for improving outcomes in pa­
-tients with multimorbidity in primary care and community settings. Cochrane Database 
-Syst Rev 2016;3:CD006560. https://doi.org/10.1002/14651858.CD006560.pub3
-605. Pampel FC, Krueger PM, Denney JT. Socioeconomic disparities in health behaviors. 
-Annu Rev Sociol 2010;36:349–70. https://doi.org/10.1146/annurev.soc.012809.102529
-606. Kimenai DM, Pirondini L, Gregson J, Prieto D, Pocock SJ, Perel P, et al. Socioeconomic 
-deprivation: an important, largely unrecognized risk factor in primary prevention 
-of cardiovascular disease. Circulation 2022;146:240–8. https://doi.org/10.1161/ 
-CIRCULATIONAHA.122.060042
-607. Schultz WM, Kelli HM, Lisko JC, Varghese T, Shen J, Sandesara P, et al. Socioeconomic 
-status and cardiovascular outcomes: challenges and interventions. Circulation 2018; 
-137:2166–78. https://doi.org/10.1161/CIRCULATIONAHA.117.029652
-608. Mariotti A. The effects of chronic stress on health: new insights into the molecular me­
-chanisms of brain-body communication. Future Sci OA 2015;1:FSO23. https://doi.org/ 
-10.4155/fso.15.21
-609. Deferio JJ, Breitinger S, Khullar D, Sheth A, Pathak J. Social determinants of health in 
-mental health care and research: a case for greater inclusion. J Am Med Inform Assoc 
-2019;26:895–9. https://doi.org/10.1093/jamia/ocz049
-610. Foroughi I, Gupta N, Crouse DL. Healthcare service use for mood and anxiety disor­
-ders following acute myocardial infarction: a cohort study of the role of neighbour­
-hood socioenvironmental characteristics in a largely rural population. Int J Environ 
-Res Public Health 2020;17:4939. https://doi.org/10.3390/ijerph17144939
-611. Aldridge RW, Story A, Hwang SW, Nordentoft M, Luchenski SA, Hartwell G, et al. 
-Morbidity and mortality in homeless individuals, prisoners, sex workers, and individuals 
-with substance use disorders in high-income countries: a systematic review and 
-meta-analysis. Lancet 2018;391:241–50. https://doi.org/10.1016/S0140-6736(17)31869-X
-612. Hill L, Baruah R, Beattie JM, Bistola V, Castiello T, Celutkienė J, et al. Culture, ethnicity, 
-and socio-economic status as determinants of the management of patients with ad­
-vanced heart failure who need palliative care: a clinical consensus statement from 
-the Heart Failure Association (HFA) of the ESC, the ESC Patient Forum, and the 
-European Association of Palliative Care. Eur J Heart Fail 2023;25:1481–92. https:// 
-doi.org/10.1002/ejhf.2973
-613. Thordardottir EB, Yin L, Hauksdottir A, Mittendorfer-Rutz E, Hollander AC, Hultman 
-CM, et al. Mortality and major disease risk among migrants of the 1991–2001 Balkan 
-wars to Sweden: a register-based cohort study. PLoS Med 2020;17:e1003392. https:// 
-doi.org/10.1371/journal.pmed.1003392
-614. Knappe F, Filippou K, Hatzigeorgiadis A, Morres ID, Tzormpatzakis E, Havas E, et al. 
-Psychological well-being, mental distress, metabolic syndrome, and associated factors 
-among people living in a refugee camp in Greece: a cross-sectional study. Front Public 
-Health 2023;11:1179756. https://doi.org/10.3389/fpubh.2023.1179756
-615. Agyemang C, van den Born BJ. Cardiovascular health and disease in migrant popula­
-tions: a call to action. Nat Rev Cardiol 2022;19:1–2. https://doi.org/10.1038/s41569- 
-021-00644-y
-616. Lionis C, Papadakaki M, Saridaki A, Dowrick C, O’Donnell CA, Mair FS, et al. Engaging 
-migrants and other stakeholders to improve communication in cross-cultural consult­
-ation in primary care: a theoretically informed participatory study. BMJ Open 2016;6: 
-e010822. https://doi.org/10.1136/bmjopen-2015-010822
-617. MacFarlane A, Dowrick C, Gravenhorst K, O’Reilly-de Brún M, de Brún T, van den 
-Muijsenbergh M, et al. Involving migrants in the adaptation of primary care services 
-in a ‘newly’ diverse urban area in Ireland: the tension between agency and structure. 
-Health Place 2021;70:102556. https://doi.org/10.1016/j.healthplace.2021.102556
-618. Packness A, Halling A, Simonsen E, Waldorff FB, Hastrup LH. Are perceived barriers to 
-accessing mental healthcare associated with socioeconomic position among individuals 
-with symptoms of depression? Questionnaire-results from the Lolland-Falster Health 
-Study, a rural Danish population study. BMJ Open 2019;9:e023844. https://doi.org/10. 
-1136/bmjopen-2018-023844
-619. Finegan M, Firth N, Delgadillo J. Adverse impact of neighbourhood socioeconomic de­
-privation on psychological treatment outcomes: the role of area-level income and 
-crime. Psychother Res 2020;30:546–54. https://doi.org/10.1080/10503307.2019. 
-1649500
-620. Novak P, Anderson AC, Chen J. Changes in health insurance coverage and barriers to 
-health care access among individuals with serious psychological distress following the 
-affordable care act. Adm Policy Ment Health 2018;45:924–32. https://doi.org/10.1007/ 
-s10488-018-0875-9
-621. Mirza NA, Hulko W. The complex nature of transportation as a key determinant of 
-health in primary and community care restructuring initiatives in rural Canada. J 
-Aging Stud 2022;60:101002. https://doi.org/10.1016/j.jaging.2022.101002
-622. Ahmedani BK. Mental health stigma: society, individuals, and the profession. J Soc Work 
-Values Ethics 2011;8:41–416.
-623. Collopy CM, Cosh SM, Tully PJ. Screening and referral is not enough: a qualitative ex­
-ploration of barriers to access and uptake of mental health services in patients with 
-cardiovascular diseases. BMC Health Serv Res 2021;21:49. https://doi.org/10.1186/ 
-s12913-020-06030-7
-624. Montgomery RM, Boucher EM, Honomichl RD, Powell TA, Guyton SL, Bernecker SL, 
-et al. The effects of a digital mental health intervention in adults with cardiovascular 
-disease risk factors: analysis of real-world user data. JMIR Cardio 2021;5:e32351. 
-https://doi.org/10.2196/32351
-625. Cook JE, Purdie-Vaughns V, Meyer IH, Busch JTA. Intervening within and across levels: 
-a multilevel approach to stigma and public health. Soc Sci Med 2014;103:101–9. https:// 
-doi.org/10.1016/j.socscimed.2013.09.023
-626. Henderson C, Noblett J, Parke H, Clement S, Caffrey A, Gale-Grant O, et al. Mental 
-health-related stigma in health care and mental health-care settings. Lancet Psychiatry 
-2014;1:467–82. https://doi.org/10.1016/S2215-0366(14)00023-6
-627. Clement S, Schauman O, Graham T, Maggioni F, Evans-Lacko S, Bezborodovs N, et al. 
-What is the impact of mental health-related stigma on help-seeking? A systematic re­
-view of quantitative and qualitative studies. Psychol Med 2015;45:11–27. https://doi.org/ 
-10.1017/S0033291714000129
-628. Castillo EG, Ijadi-Maghsoodi R, Shadravan S, Moore E, Mensah MO 3rd, Docherty M, 
-et al. Community interventions to promote mental health and social equity. Curr 
-Psychiatry Rep 2019;21:35. https://doi.org/10.1007/s11920-019-1017-0
-629. Mensah GA, Cooper RS, Siega-Riz AM, Cooper LA, Smith JD, Brown CH, et al. 
-Reducing cardiovascular disparities through community-engaged implementation re­
-search: a National Heart, Lung, and Blood Institute workshop report. Circ Res 2018; 
-122:213–30. https://doi.org/10.1161/CIRCRESAHA.117.312243
-630. Mezzina R, Gopikumar V, Jenkins J, Saraceno B, Sashidharan SP. Social vulnerability and 
-mental health inequalities in the “syndemic”: call for action. Front Psychiatry 2022;13: 
-894370. https://doi.org/10.3389/fpsyt.2022.894370
-631. Ozbay F, Johnson DC, Dimoulas E, Morgan CA, Charney D, Southwick S. Social sup­
-port and resilience to stress: from neurobiology to clinical practice. Psychiatry 
-(Edgmont) 2007;4:35–40. https://doi.org/https://www.ncbi.nlm.nih.gov/pmc/articles/ 
-PMC2921311/
-632. Riegel B, Moser DK, Buck HG, Dickson VV, Dunbar SB, Lee CS, et al. Self-care for the 
-prevention and management of cardiovascular disease and stroke: a scientific state­
-ment for healthcare professionals from the American Heart Association. J Am Heart 
-Assoc 2017;6:e006997. https://doi.org/10.1161/JAHA.117.006997
-633. Swope CB, Hernández D. Housing as a determinant of health equity: a conceptual mod­
-el. Soc Sci Med 2019;243:112571. https://doi.org/10.1016/j.socscimed.2019.112571
-634. Gustavson AM, Lewinski AA, Fitzsimmons-Craft EE, Coronado GD, Linke SE, 
-O’Malley DM, et al. Strategies to bridge equitable implementation of telehealth. 
-Interact J Med Res 2023;12:e40358. https://doi.org/10.2196/40358
-635. Curiale C, Lenzi M, Gaboardi M, Marino C, Ronconi L, Demita S, et al. Homeless peo­
-ple’s recovery in housing first and traditional services: the role of working alliance in 
-Italian housing services. J Community Psychol 2023;51:2758–73. https://doi.org/10. 
-1002/jcop.23055
-636. Belkin G, McCray C. ThriveNYC: delivering on mental health. Am J Public Health 2019; 
-109:S156–63. https://doi.org/10.2105/AJPH.2019.305040
-637. Walton-Moss B, Samuel L, Nguyen TH, Commodore-Mensah Y, Hayat MJ, Szanton SL. 
-Community-based cardiovascular health interventions in vulnerable populations: a
-
-
-<!-- PAGE 69 -->
-
-### Page 69
-
-systematic review. J Cardiovasc Nurs 2014;29:293–307. https://doi.org/10.1097/JCN. 
-0b013e31828e2995
-638. Dai S, Mo Y, Wang Y, Xiang B, Liao Q, Zhou M, et al. Chronic stress promotes cancer 
-development. Front Oncol 2020;10:1492. https://doi.org/10.3389/fonc.2020.01492
-639. Omari M, Amaadour L, El Asri A, Benbrahim Z, Mellas N, El Rhazi K, et al. Psychological 
-distress and coping strategies in breast cancer patients under neoadjuvant therapy: a 
-systematic review. Womens Health (Lond) 2024;20:17455057241276232. https://doi. 
-org/10.1177/17455057241276232
-640. Stabellini N, Cullen J, Bittencourt MS, Moore JX, Sutton A, Nain P, et al. Allostatic load/ 
-chronic stress and cardiovascular outcomes in patients diagnosed with breast, lung, or 
-colorectal cancer. J Am Heart Assoc 2024;13:e033295. https://doi.org/10.1161/JAHA. 
-123.033295
-641. Stabellini N, Cullen J, Bittencourt MS, Moore JX, Cao L, Weintraub NL, et al. Allostatic 
-load and cardiovascular outcomes in males with prostate cancer. JNCI Cancer Spectr 
-2023;7:pkad005. https://doi.org/10.1093/jncics/pkad005
-642. Fang F, Keating NL, Mucci LA, Adami HO, Stampfer MJ, Valdimarsdóttir U, et al. 
-Immediate risk of suicide and cardiovascular death after a prostate cancer diagnosis: 
-cohort study in the United States. J Natl Cancer Inst 2010;102:307–14. https://doi. 
-org/10.1093/jnci/djp537
-643. Mędrek S, Szmit S. Are cardiovascular comorbidities always associated with a worse 
-prognosis in patients with lung cancer? Front Cardiovasc Med 2022;9:984951. https:// 
-doi.org/10.3389/fcvm.2022.984951
-644. Fang S, Wang Y, He PK, Han XN, Yang Y, Hong T, et al. Cardiogenic shock caused by 
-Takotsubo syndrome complicated with severe anxiety: a case report and literature review. 
-Medicine (Baltimore) 2021;100:e27812. https://doi.org/10.1097/MD.0000000000027812
-645. Kinno R, Ono K. Takotsubo syndrome: optimizing care with a multidisciplinary ap­
-proach. J Multidiscip Healthc 2021;14:2487–99. https://doi.org/10.2147/JMDH.S283667
-646. Desai A, Noor A, Joshi S, Kim AS. Takotsubo cardiomyopathy in cancer patients. 
-Cardiooncology 2019;5:7. https://doi.org/10.1186/s40959-019-0042-9
-647. da Silva Costa IBS, Figueiredo CS, Fonseca SMR, Bittar CS, de Carvalho Silva CMD, Rizk 
-SI, et al. Takotsubo syndrome: an overview of pathophysiology, diagnosis and treat­
-ment with emphasis on cancer patients. Heart Fail Rev 2019;24:833–46. https://doi. 
-org/10.1007/s10741-019-09813-1
-648. Kim H, Senecal C, Lewis B, Prasad A, Rajiv G, Lerman LO, et al. Natural history and 
-predictors of mortality of patients with Takotsubo syndrome. Int J Cardiol 2018; 
-267:22–7. https://doi.org/10.1016/j.ijcard.2018.04.139
-649. Desai R, Desai A, Abbas SA, Patel U, Bansod S, Damarlapally N, et al. National preva­
-lence, trends and outcomes of Takotsubo syndrome in hospitalizations with prior his­
-tory of mediastinal/intrathoracic cancer and radiation therapy. Int J Cardiol 2020;309: 
-14–8. https://doi.org/10.1016/j.ijcard.2020.02.036
-650. Herrmann J, Loprinzi C, Ruddy K. Building a cardio-onco-hematology program. Curr 
-Oncol Rep 2018;20:81. https://doi.org/10.1007/s11912-018-0725-7
-651. Podina IR, Todea D, Fodor LA. Fear of cancer recurrence and mental health: a com­
-prehensive meta-analysis. Psychooncology 2023;32:1503–13. https://doi.org/10.1002/ 
-pon.6205
-652. Yan G, Zhang Q, Yan Y, Zhang Y, Li Y, Liu M, et al. Trends in the prevalence and treat­
-ment of comorbid depression among US adults with and without cancer, 2005–2020. J 
-Affect Disord 2023;340:743–50. https://doi.org/10.1016/j.jad.2023.08.091
-653. Lubas MM, Wang M, Jefferies JL, Ness KK, Ehrhardt MJ, Krull KR, et al. The contribution 
-of stress and distress to cardiovascular health in adult survivors of childhood cancer. 
-Cancer Epidemiol Biomarkers Prev 2021;30:286–94. https://doi.org/10.1158/1055- 
-9965.EPI-20-1183
-654. Chan JSK, Satti DI, Dee EC, Sharma G, Virani SS, Liu T, et al. Association between psy­
-chological distress and cardiovascular health amongst cancer survivors in the United 
-States: findings from nationally representative data. Eur J Prev Cardiol 2023;30:e74–7. 
-https://doi.org/10.1093/eurjpc/zwad162
-655. Gontijo Garcia GS, Meira KC, de Souza AH, Guimarães NS. Anxiety and depression 
-disorders in oncological patients under palliative care at a hospital service: a cross- 
-sectional study. BMC Palliat Care 2023;22:116. https://doi.org/10.1186/s12904-023- 
-01233-1
-656. Caruso R, Nanni MG, Riba M, Sabato S, Mitchell AJ, Croce E, et al. Depressive spectrum 
-disorders in cancer: prevalence, risk factors and screening for depression: a critical re­
-view. Acta Oncol 2017;56:146–55. https://doi.org/10.1080/0284186X.2016.1266090
-657. Garrido MM, Prigerson HG, Neupane S, Penrod JD, Johnson CE, Boockvar KS. Mental 
-illness and mental healthcare receipt among hospitalized veterans with serious physical 
-illnesses. J Palliat Med 2017;20:247–52. https://doi.org/10.1089/jpm.2016.0261
-658. Lyon AR, López-Fernández T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, et al. 
-European Hematology Association (EHA), the European Society for Therapeutic 
-Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society 
-(IC-OS). Eur Heart J 2022;43:4229–361. https://doi.org/10.1093/eurheartj/ehac244
-659. Koop Y, van Zadelhof N, Maas A, Atsma F, El Messaoudi S, Vermeulen H. Quality of life 
-in breast cancer patients with cancer treatment-related cardiac dysfunction: a 
-qualitative study. Eur J Cardiovasc Nurs 2022;21:235–42. https://doi.org/10.1093/ 
-eurjcn/zvab057
-660. Harrison JM, Davis MA, Barton DL, Janz NK, Pressler SJ, Friese CR. Functional status 
-and quality of life among breast cancer survivors with heart failure: results of the 
-Medicare Health Outcomes Survey. Support Care Cancer 2017;25:2463–73. https:// 
-doi.org/10.1007/s00520-017-3653-4
-661. Ekels A, Oerlemans S, Schagen SB, Issa DE, Thielen N, Nijziel MR et al. The course of 
-self-perceived cognitive functioning among patients with lymphoma and the co- 
-occurrence with fatigue and psychological distress. J Cancer Surviv 2025;19:183–96. 
-https://doi.org/10.1007/s11764-023-01458-2
-662. Lange M, Joly F, Vardy J, Ahles T, Dubois M, Tron L, et al. Cancer-related cognitive im­
-pairment: an update on state of the art, detection, and management strategies in can­
-cer survivors. Ann Oncol 2019;30:1925–40. https://doi.org/10.1093/annonc/mdz410
-663. Deka R, Rose BS, Bryant AK, Sarkar RR, Nalawade V, McKay R, et al. Androgen depriv­
-ation therapy and depression in men with prostate cancer treated with definitive ra­
-diation therapy. Cancer 2019;125:1070–80. https://doi.org/10.1002/cncr.31982
-664. Perez EA. Safety profiles of tamoxifen and the aromatase inhibitors in adjuvant therapy 
-of hormone-responsive early breast cancer. Ann Oncol 2007;18:viii26–35. https://doi. 
-org/10.1093/annonc/mdm263
-665. Sung S, Min YH, Park SK, Lee SB. Hot flushes and sweating, sleep problems, joint and 
-muscular discomfort, and physical and mental exhaustion in breast cancer survivors 
-during the first 24 months of tamoxifen therapy: a prospective observational study. 
-Front Oncol 2022;12:844926. https://doi.org/10.3389/fonc.2022.844926
-666. Lee Meeuw Kjoe PR, Kieffer JM, Small BJ, Boogerd W, Schilder CM, van der Wall E, 
-et al. Effects of tamoxifen and exemestane on cognitive function in postmenopausal 
-patients with breast cancer. JNCI Cancer Spectr 2023;7:pkad022. https://doi.org/10. 
-1093/jncics/pkad022
-667. Park SK, Min YH. Fear of cancer recurrence in South Korean survivors of breast cancer 
-who have received adjuvant endocrine therapy: a cross-sectional study. Front Psychol 
-2023;14:1170077. https://doi.org/10.3389/fpsyg.2023.1170077
-668. van Londen GJ, Beckjord EB, Dew MA, Cooper KL, Davidson NE, Bovbjerg DH, et al. 
-Associations between adjuvant endocrine therapy and onset of physical and emotional 
-concerns among breast cancer survivors. Support Care Cancer 2014;22:937–45. https:// 
-doi.org/10.1007/s00520-013-2041-y
-669. Koch L, Bertram H, Eberle A, Holleczek B, Schmid-Höpfner S, Waldmann A, et al. Fear 
-of recurrence in long-term breast cancer survivors-still an issue. Results on prevalence, 
-determinants, and the association with quality of life and depression from the cancer 
-survivorship–a multi-regional population-based study. Psychooncology 2014;23: 
-547–54. https://doi.org/10.1002/pon.3452
-670. Davies A, Lum C, Raju R, Ansell E, Webber K, Segelov E. Anti-cancer therapy made 
-easier: a 25-year update. Intern Med J 2021;51:473–80. https://doi.org/10.1111/imj. 
-14878
-671. Mitchell JD, Cehic DA, Morgia M, Bergom C, Toohey J, Guerrero PA, et al. 
-Cardiovascular manifestations from therapeutic radiation: a multidisciplinary expert 
-consensus statement from the International Cardio-Oncology Society. JACC 
-CardioOncol 2021;3:360–80. https://doi.org/10.1016/j.jaccao.2021.06.003
-672. Corrigan KL, Reeve BB, Salsman JM, Siembida EJ, Smith GL, Swartz MC, et al. 
-Association of patient-reported health-related quality of life with physician-reported 
-toxicities in adolescents and young adults receiving radiation therapy for cancer. JCO 
-Oncol Pract 2023;19:610–9. https://doi.org/10.1200/OP.22.00852
-673. Kwon JY, Kopec J, Sutherland JM, Lambert LK, Anis AH, Sawatzky R. Patient-reported 
-mental health and well-being trajectories in oncology patients during radiation therapy: 
-an exploratory retrospective cohort analysis using the Ontario Cancer Registry. Qual 
-Life Res 2023;32:2899–909. https://doi.org/10.1007/s11136-023-03430-0
-674. Gilchrist SC, Barac A, Ades PA, Alfano CM, Franklin BA, Jones LW, et al. 
-Cardio-oncology rehabilitation to manage cardiovascular outcomes in cancer patients 
-and survivors: a scientific statement from the American Heart Association. Circulation 
-2019;139:e997–1012. https://doi.org/10.1161/CIR.0000000000000679
-675. Gevaert SA, Halvorsen S, Sinnaeve PR, Sambola A, Gulati G, Lancellotti P, et al. 
-Evaluation and management of cancer patients presenting with acute cardiovascular 
-disease: a Clinical Consensus Statement of the Acute CardioVascular Care 
-Association (ACVC) and the ESC council of Cardio-Oncology-part 2: acute heart fail­
-ure, acute myocardial diseases, acute venous thromboembolic diseases, and acute ar­
-rhythmias. Eur Heart J Acute Cardiovasc Care 2022;11:865–74. https://doi.org/10.1093/ 
-ehjacc/zuac107
-676. Williamson T, Moran C, Chirico D, Arena R, Ozemek C, Aggarwal S, et al. Cancer and 
-cardiovascular disease: the impact of cardiac rehabilitation and cardiorespiratory fit­
-ness on survival. Int J Cardiol 2021;343:139–45. https://doi.org/10.1016/j.ijcard.2021. 
-09.004
-677. Dolan LB, Barry D, Petrella T, Davey L, Minnes A, Yantzi A, et al. The cardiac rehabili­
-tation model improves fitness, quality of life, and depression in breast cancer survi­
-vors. J Cardiopulm Rehabil Prev 2018;38:246–52. https://doi.org/10.1097/HCR.
-
-
-<!-- PAGE 70 -->
-
-### Page 70
-
-678. Wilk M, Kepski J, Kepska J, Casselli S, Szmit S. Exercise interventions in metastatic can­
-cer disease: a literature review and a brief discussion on current and future perspec­
-tives. BMJ Support Palliat Care 2020;10:404–10. https://doi.org/10.1136/bmjspcare- 
-2020-002487
-679. Heywood R, McCarthy AL, Skinner TL. Efficacy of exercise interventions in patients 
-with advanced cancer: a systematic review. Arch Phys Med Rehabil 2018;99: 
-2595–620. https://doi.org/10.1016/j.apmr.2018.04.008
-680. Fradley MG, Alomar M, Kilpatrick MW, Shields B, Tran N, Best A, et al. Patient re­
-ported physical and mental health changes associated with a comprehensive cardio­
-vascular risk reduction program for women with breast cancer receiving potentially 
-cardiotoxic chemotherapy. Cardiooncology 2021;7:22. https://doi.org/10.1186/ 
-s40959-021-00107-w
-681. Enriquez A, Biagi J, Redfearn D, Boles U, Kamel D, Ali FS, et al. Increased incidence of 
-ventricular arrhythmias in patients with advanced cancer and implantable cardioverter- 
-defibrillators. JACC Clin Electrophysiol 2017;3:50–6. https://doi.org/10.1016/j.jacep.2016. 
-03.001
-682. Anker MS, Sanz AP, Zamorano JL, Mehra MR, Butler J, Riess H, et al. Advanced cancer 
-is also a heart failure syndrome: a hypothesis. Eur J Heart Fail 2021;23:140–4. https:// 
-doi.org/10.1002/ejhf.2071
-683. Zamorano JL, Lancellotti P, Rodriguez Muñoz D, Aboyans V, Asteggiano R, Galderisi M, 
-et al. 2016 ESC Position Paper on cancer treatments and cardiovascular toxicity devel­
-oped under the auspices of the ESC Committee for Practice Guidelines: The Task 
-Force for cancer treatments and cardiovascular toxicity of the European Society of 
-Cardiology (ESC). Eur Heart J 2016;37:2768–801. https://doi.org/10.1093/eurheartj/ 
-ehw211
-684. Shin J, Kober K, Yates P, Wong ML, Cooper BA, Paul SM, et al. Higher lifetime 
-stress and symptom burden contribute to the occurrence of shortness of 
-breath. Semin Oncol Nurs 2023;39:151471. https://doi.org/10.1016/j.soncn.2023. 
-151471
-685. Teng AE, Noor B, Ajijola OA, Yang EH. Chemotherapy and radiation-associated car­
-diac autonomic dysfunction. Curr Oncol Rep 2021;23:14. https://doi.org/10.1007/ 
-s11912-020-01013-7
-686. Coumbe BGT, Groarke JD. Cardiovascular autonomic dysfunction in patients with 
-cancer. Curr Cardiol Rep 2018;20:69. https://doi.org/10.1007/s11886-018-1010-y
-687. Lakoski SG, Jones LW, Krone RJ, Stein PK, Scott JM. Autonomic dysfunction in early 
-breast cancer: incidence, clinical importance, and underlying mechanisms. Am Heart J 
-2015;170:231–41. https://doi.org/10.1016/j.ahj.2015.05.014

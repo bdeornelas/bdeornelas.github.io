@@ -234,8 +234,6 @@
   - [21. Author information](#21-author-information) *(p. 72)*
   - [Appendix](#appendix) *(p. 73)*
     - [ESC Scientific Document Group](#esc-scientific-document-group) *(p. 73)*
-  - [References](#references) *(p. 74)*
-  - [References](#references) *(p. 74)*
 
 ---
 
@@ -736,7 +734,6 @@ techniques .....................................................................
 21. Author information ........................................................................................... 72 
 22. Appendix ................................................................................................................ 73 
 ESC Scientific Document Group ........................................................................ 73 
-23. References ............................................................................................................. 74 
 Tables of Recommendations 
 Recommendation Table 1 — Recommendations for clinical 
 evaluation of myocarditis and pericarditis (see Evidence Table 1) ....... 28 
@@ -1163,39 +1160,67 @@ require at least 75% agreement among voting members to be approved. Voting restr
 interests. 
 Table 1 Classes of recommendations  
 ©
-
+
+
 
 
 	
-
-
-
+
+
+
+
+
+
+
+
+
 
-
+
+
 	
-	
-
-
-
-
-
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
-
+
+
+
+
+
 
-
-	
+
+
+
+
+	
+
 
 
-
+
+
  
  	­
-
+
+
 	
 
 
 
-
+
+
 	
 
 	
@@ -1273,14 +1298,22 @@ Table 2 Levels of evidence
 
 
 
-
+
+
+
+
 	
-		
-	
+
+		
+
+	
+
 
-
+
+
 		
-							
+					
+		
 					
 ©
 
@@ -1295,30 +1328,42 @@ Table 2 Levels of evidence
 
 
 
-
+
+
 	
 
-
+
+
 
-
+
+
+
+
 
 
 
 
 
 
-
+
+
 
 
 
-
-
+
+
+
+
+
 	
 
-
+
+
+
 
 
-
+
+
 
 
 
@@ -1340,28 +1385,41 @@ Table 2 Levels of evidence
 
 
 
-
-
-
+
+
+
+
+
+
+
 
 	
 
 
 
-
+
+
 
-
+
+
 
-
+
+
+
 
 
 
 
-
+
+
 
- 
- 
- 
+
+ 
+
+
+ 
+
+ 
 
 
 
@@ -1372,26 +1430,42 @@ Table 2 Levels of evidence
 
 
 
-
+
+
 
 
 
-
+
+
+
  
 
 
 
 ­
-
+
+
 
 
-­
-
+
+­
+
+
+
+
+
 
-
+
+
+
+
+
 
-
-­­
+
+
+­­
+
+
 
 
 
@@ -1405,7 +1479,8 @@ Table 2 Levels of evidence
 
 
 
-
+
+
 
 
 
@@ -1449,7 +1524,8 @@ of multimodality imaging, allowing improved diagnostic accuracy and
 
 
 
-
+
+
 	
 
 
@@ -1458,7 +1534,8 @@ of multimodality imaging, allowing improved diagnostic accuracy and
 
 
 
-
+
+
 
 	
 
@@ -1678,7 +1755,8 @@ and are often underdiagnosed.
 
 
 
-
+
+
 
 
 
@@ -1802,7 +1880,9 @@ ESC Guidelines                                                                  
 
 
 
-
+
+
+
 
 
 	
@@ -1814,7 +1894,8 @@ ESC Guidelines                                                                  
 
 	
 
-
+
+
 		
 
 
@@ -1903,7 +1984,8 @@ ESC Guidelines                                                                  
 
  
 	
-	
+
+	
 
 
 
@@ -2285,21 +2367,32 @@ and complete resolution of ECG abnormalities in the short term can
 
 
 
-
+
+
+
+
 	
 
-
+
+
 
-
-
+
+
+
+
+
 
 	
 
-
+
+
+
 
 	
-
-
+
+
+
+
 
 Figure 8 Spectrum of myocarditis presentations and outcomes. LGE, late gadolinium enhancement; SCD, sudden cardiac death. Image size correlates 
 with presentation frequency (e.g. chest pain being the most common). Uncomplicated cases of myocarditis (about 75% of unselected cases) usually have 
@@ -3155,13 +3248,17 @@ assess its haemodynamic importance, as well as constrictive pathophysiology (Sup
 
 
 
-
+
+
 
 
-
+
+
 	
 
-
+
+
+
 
 
 
@@ -3169,10 +3266,13 @@ assess its haemodynamic importance, as well as constrictive pathophysiology (Sup
 
 
 
-
+
+
 	
 
-
+
+
+
 Figure 14 The different courses of inflammatory myopericardial syndrome and the interplay between genetic background inflammation and autoimmunity beyond the initial infectious trigger. IMPS, inflammatory myopericardial syndrome.  
 Table 10 Classification of pericardial effusion  
 Onset 
@@ -4827,7 +4927,8 @@ in patients with elevated myocardial biomarkers, and clinical criteria
 for AP, suggests predominant myocarditis with pericardial involvement,  
 
 
-
+
+
 
 
 
@@ -4843,7 +4944,8 @@ for AP, suggests predominant myocarditis with pericardial involvement,
 
 
 
-
+
+
 
 
 
@@ -6702,21 +6804,26 @@ enhancement for all patients with IMPS.674,675
 
 
 
-
+
+
 
 
 
 
 	
 
-
-
-
+
+
+
+
+
+
 
 
 	
 
-	
+
+	
 
 Figure 20 Multidisciplinary teams for inflammatory myopericardial syndrome. aFull team—tailored to the specific case.   
 ESC Guidelines                                                                                                                                                                                               67
@@ -7361,2225 +7468,3 @@ Eva Prescott (Denmark), Bianca Rocca (Italy), Xavier Rossello (Spain),
 Anna Sannino (Germany), Felix C. Tanner (Switzerland), Wojtek 
 Wojakowski (Poland), Katja Zeppenfeld (Netherlands) 
 Contributor either withdrew or was engaged in only a part of the review process: Gerhard Poelzl  (Austria) 
-23. References 
-1. Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, et al. 2015 ESC 
-Guidelines for the diagnosis and management of pericardial diseases: the task force for 
-the diagnosis and management of pericardial diseases of the European Society of 
-Cardiology (ESC) Endorsed by: the European Association for Cardio-Thoracic 
-Surgery (EACTS). Eur Heart J 2015;36:2921–64. https://doi.org/10.1093/eurheartj/ 
-ehv318 
-2. Adamopoulos S, Miliopoulos D, Karavidas A, Nikolaou M, Lazaros G, Gkouziouta A, 
-et al. HEllenic Registry on Myocarditis SyndromES on behalf of Hellenic Heart 
-Failure Association: the HERMES-HF registry. ESC Heart Fail 2020;7:3676–84.  
-https://doi.org/10.1002/ehf2.12894 
-3. Aquaro GD, Perfetti M, Camastra G, Monti L, Dellegrottaglie S, Moro C, et al. Cardiac 
-MR with late gadolinium enhancement in acute myocarditis with preserved systolic 
-function: ITAMY study. J Am Coll Cardiol 2017;70:1977–87. https://doi.org/10.1016/j. 
-jacc.2017.08.044 
-4. Imazio M, Brucato A, Barbieri A, Ferroni F, Maestroni S, Ligabue G, et al. Good prognosis for pericarditis with and without myocardial involvement: results from a multicenter, prospective cohort study. Circulation 2013;128:42–9. https://doi.org/10. 
-1161/CIRCULATIONAHA.113.001531 
-5. Puntmann VO, Carerj ML, Wieters I, Fahim M, Arendt C, Hoffmann J, et al. Outcomes 
-of cardiovascular magnetic resonance imaging in patients recently recovered from coronavirus disease 2019 (COVID-19). JAMA Cardiol 2020;5:1265–73. https://doi.org/10. 
-1001/jamacardio.2020.3557 
-6. Keren A, Asleh R, Birati EY, Ben Gal T, Arad M. Definition and diagnosis of acute myocarditis: a position statement of the Israel Heart Society. Isr Med Assoc J 2023;25: 
-519–24. 
-7. Montera MW, Marcondes-Braga FG, Simões MV, Moura LAZ, Fernandes F, Mangine S, 
-et al. Brazilian Society of Cardiology guideline on myocarditis—2022. Arq Bras Cardiol 
-2022;119:143–211. https://doi.org/10.36660/abc.20220412 
-8. Nagai T, Inomata T, Kohno T, Sato T, Tada A, Kubo T, et al. JCS 2023 guideline on the 
-diagnosis and treatment of myocarditis. Circ J 2023;87:674–754. https://doi.org/10. 
-1253/circj.CJ-22-0696 
-9. Writing Committee; Drazner MH, Bozkurt B, Cooper LT, Aggarwal NR, Basso C, et al. 
-2024 ACC expert consensus decision pathway on strategies and criteria for the diagnosis and management of myocarditis: a report of the American College of Cardiology 
-Solution Set Oversight Committee. J Am Coll Cardiol 2025;85:391–431. https://doi.org/ 
-10.1016/j.jacc.2024.10.080 
-10. Caforio ALP, Pankuweit S, Arbustini E, Basso C, Gimeno-Blanes J, Felix SB, et al. 
-Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the European Society of Cardiology Working Group 
-on Myocardial and Pericardial Diseases. Eur Heart J 2013;34:2636–48, 2648a–48d.  
-https://doi.org/10.1093/eurheartj/eht210 
-11. Pelliccia A, Sharma S, Gati S, Bäck M, Börjesson M, Caselli S, et al. 2020 ESC Guidelines 
-on sports cardiology and exercise in patients with cardiovascular disease. Eur Heart J 
-2021;42:17–96. https://doi.org/10.1093/eurheartj/ehaa605 
-12. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 
-heart failure. Eur Heart J 2021;42:3599–726. https://doi.org/10.1093/eurheartj/ 
-ehab368 
-13. Arbelo E, Protonotarios A, Gimeno JR, Arbustini E, Barriales-Villa R, Basso C, et al. 
-44:3503–626. https://doi.org/10.1093/eurheartj/ehad194 
-14. Law YM, Lal AK, Chen S, Čiháková D, Cooper LT, Deshpande S, et al. Diagnosis and 
-management of myocarditis in children: a scientific statement from the American 
-Heart Association. Circulation 2021;144:e123–35. https://doi.org/10.1161/CIR. 
-0000000000001001 
-15. Maisch B, Seferović PM, Ristić AD, Erbel R, Rienmüller R, Adler Y, et al. Guidelines on 
-the diagnosis and management of pericardial diseases executive summary: the task 
-force on the diagnosis and management of pericardial diseases of the European 
-Society of Cardiology. Eur Heart J 2004;25:587–610. https://doi.org/10.1016/j.ehj. 
-2004.02.002 
-16. Patriki D, Gresser E, Manka R, Emmert MY, Lüscher TF, Heidecker B. Approximation 
-of the incidence of myocarditis by systematic screening with cardiac magnetic resonance imaging. JACC Heart Fail 2018;6:573–9. https://doi.org/10.1016/j.jchf.2018.03.002 
-17. Fu M, Kontogeorgos S, Thunström E, Zverkova Sandström T, Kroon C, Bollano E, et al. 
-Trends in myocarditis incidence, complications and mortality in Sweden from 2000 to 
-2014. Sci Rep 2022;12:1810. https://doi.org/10.1038/s41598-022-05951-z 
-18. Roth GA, Mensah GA, Johnson CO, Addolorato G, Ammirati E, Baddour LM, et al. 
-Global burden of cardiovascular diseases and risk factors, 1990–2019: update from 
-the GBD 2019 study. J Am Coll Cardiol 2020;76:2982–3021. https://doi.org/10.1016/j. 
-jacc.2020.11.010 
-19. Global Burden of Disease Study 2013 Collaborators. Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases 
-and injuries in 188 countries, 1990–2013: a systematic analysis for the Global Burden 
-of Disease Study 2013. Lancet 2015;386:743–800. https://doi.org/10.1016/S0140- 
-6736(15)60692-4 
-20. Messroghli DR, Pickardt T, Fischer M, Opgen-Rhein B, Papakostas K, Böcker D, et al. 
-Toward evidence-based diagnosis of myocarditis in children and adolescents: rationale, 
-design, and first baseline data of MYKKE, a multicenter registry and study platform. Am 
-Heart J 2017;187:133–44. https://doi.org/10.1016/j.ahj.2017.02.027 
-21. Arola A, Pikkarainen E, Sipilä JO, Pykäri J, Rautava P, Kytö V. Occurrence and features 
-of childhood myocarditis: a nationwide study in Finland. J Am Heart Assoc 2017;6: 
-e005306. https://doi.org/10.1161/JAHA.116.005306 
-22. Imazio M, Cecchi E, Demichelis B, Chinaglia A, Ierna S, Demarie D, et al. 
-Myopericarditis versus viral or idiopathic acute pericarditis. Heart 2008;94:498–501.  
-https://doi.org/10.1136/hrt.2006.104067 
-23. Kytö V, Sipilä J, Rautava P. Clinical profile and influences on outcomes in patients hospitalized for acute pericarditis. Circulation 2014;130:1601–6. https://doi.org/10.1161/ 
-CIRCULATIONAHA.114.010376 
-24. Imazio M, Brucato A, Cemin R, Ferrua S, Maggiolini S, Beqaraj F, et al. A randomized 
-trial of colchicine for acute pericarditis. N Engl J Med 2013;369:1522–8. https://doi. 
-org/10.1056/NEJMoa1208536 
-25. Imazio M, Belli R, Brucato A, Cemin R, Ferrua S, Beqaraj F, et al. Efficacy and safety of 
-colchicine for treatment of multiple recurrences of pericarditis (CORP-2): a multicentre, double-blind, placebo-controlled, randomised trial. Lancet 2014;383:2232–7.  
-https://doi.org/10.1016/S0140-6736(13)62709-9 
-26. Charpentier S, Beaune S, Joly LM, Khoury A, Duchateau F-X, Briot R, et al. 
-Management of chest pain in the French emergency healthcare system: the prospective observational EPIDOULTHO study. Eur J Emerg Med 2018;25:404–10. https://doi. 
-org/10.1097/MEJ.0000000000000481 
-27. Sexson Tejtel SK, Munoz FM, Al-Ammouri I, Savorgnan F, Guggilla RK, Khuri-Bulos N, 
-et al. Myocarditis and pericarditis: case definition and guidelines for data collection, analysis, and presentation of immunization safety data. Vaccine 2022;40:1499–511. https:// 
-doi.org/10.1016/j.vaccine.2021.11.074 
-28. Ammirati E, Cipriani M, Moro C, Raineri C, Pini D, Sormani P, et al. Clinical presentation and outcome in a contemporary cohort of patients with acute myocarditis: 
-Multicenter Lombardy Registry. Circulation 2018;138:1088–99. https://doi.org/10. 
-1161/CIRCULATIONAHA.118.035319 
-29. Delgado V, Ajmone Marsan N, de Waha S, Bonaros N, Brida M, Burri H, et al. 2023 
-ESC Guidelines for the management of endocarditis. Eur Heart J 2023;44: 
-3948–4042. https://doi.org/10.1093/eurheartj/ehad193 
-30. Ferreira VM, Schulz-Menger J, Holmvang G, Kramer CM, Carbone I, Sechtem U, et al. 
-Cardiovascular magnetic resonance in nonischemic myocardial inflammation: expert 
-recommendations. J Am Coll Cardiol 2018;72:3158–76. https://doi.org/10.1016/j.jacc. 
-2018.09.072 
-31. Aretz HT. Myocarditis: the Dallas criteria. Hum Pathol 1987;18:619–24. https://doi.org/ 
-10.1016/s0046-8177(87)80363-5 
-32. Tschöpe C, Ammirati E, Bozkurt B, Caforio ALP, Cooper LT, Felix SB, et al. 
-Myocarditis and inflammatory cardiomyopathy: current evidence and future directions. Nat Rev Cardiol 2021;18:169–93. https://doi.org/10.1038/s41569-020-00435-x 
-33. Leone O, Veinot JP, Angelini A, Baandrup UT, Basso C, Berry G, et al. 2011 Consensus 
-statement on endomyocardial biopsy from the Association for European 
-Cardiovascular Pathology and the Society for Cardiovascular Pathology. Cardiovasc 
-Pathol 2012;21:245–74. https://doi.org/10.1016/j.carpath.2011.10.001 
-34. Caforio ALP, Giordani AS, Baritussio A, Marcolongo D, Vicenzetto C, Tarantini G, 
-et al. Long-term efficacy and safety of tailored immunosuppressive therapy in immune- 
-mediated biopsy-proven myocarditis: a propensity-weighted study. Eur J Heart Fail 
-2024;26:1175–85. https://doi.org/10.1002/ejhf.3220
-
-
-<!-- PAGE 75 -->
-
-### Page 75
-
-35. Imazio M, Squarotti GB, Andreis A, Agosti A, Millesimo M, Frea S, et al. Diagnostic and 
-prognostic role of the electrocardiogram in patients with pericarditis. Heart 2022;108: 
-1474–8. https://doi.org/10.1136/heartjnl-2021-320443 
-36. Imazio M, Brucato A, Maestroni S, Cumetti D, Dominelli A, Natale G, et al. Prevalence 
-of C-reactive protein elevation and time course of normalization in acute pericarditis: 
-implications for the diagnosis, therapy, and prognosis of pericarditis. Circulation 2011; 
-123:1092–7. https://doi.org/10.1161/CIRCULATIONAHA.110.986372 
-37. Pisacreta AM, Mascolo R, Nivuori M, Dominioni CC, Gabiati C, Trotta L, et al. Acute 
-pericarditis with pleuropulmonary involvement, fever and elevated C-reactive protein: 
-a systemic autoinflammatory disease? A cohort study. Eur J Intern Med 2023;113:45–8.  
-https://doi.org/10.1016/j.ejim.2023.03.034 
-38. Tombetti E, Casarin F, Bizzi E, Bezer S, Mascolo R, Pallini G, et al. Relapsing pericarditis: 
-peripheral blood neutrophilia, lymphopenia and high neutrophil-to-lymphocyte ratio 
-herald acute attacks, high-grade inflammation, multiserosal involvement, and predict 
-multiple recurrences. Int J Rheum Dis 2023;26:337–43. https://doi.org/10.1111/1756- 
-185X.14523 
-39. Ammirati E, Frigerio M, Adler ED, Basso C, Birnie DH, Brambatti M, et al. 
-Management of acute myocarditis and chronic inflammatory cardiomyopathy: an expert consensus document. Circ Heart Fail 2020;13:e007405. https://doi.org/10.1161/ 
-CIRCHEARTFAILURE.120.007405 
-40. Seidel F, Opgen-Rhein B, Rentzsch A, Boehne M, Wannenmacher B, Boecker D, et al. 
-Clinical characteristics and outcome of biopsy-proven myocarditis in children—results 
-of the German prospective multicentre registry ‘MYKKE’. Int J Cardiol 2022;357: 
-95–104. https://doi.org/10.1016/j.ijcard.2022.03.026 
-41. Kühl U, Pauschinger M, Noutsias M, Seeberg B, Bock T, Lassner D, et al. High prevalence of viral genomes and multiple viral infections in the myocardium of adults with 
-‘idiopathic’ left ventricular dysfunction. Circulation 2005;111:887–93. https://doi.org/ 
-10.1161/01.CIR.0000155616.07901.35 
-42. Ukimura A, Satomi H, Ooi Y, Kanzaki Y. Myocarditis associated with influenza A 
-H1N1pdm2009. Influenza Res Treat 2012;2012:351979. https://doi.org/10.1155/ 
-2012/351979 
-43. Lazarou E, Lazaros G, Antonopoulos AS, Imazio M, Vasileiou P, Karavidas A, et al. A 
-risk score for pericarditis recurrence. Eur J Clin Invest 2021;51:e13602. https://doi. 
-org/10.1111/eci.13602 
-44. Imazio M, Andreis A, Lubian M, Lazaros G, Lazarou E, Brucato A, et al. The Torino 
-Pericarditis Score: a new-risk stratification tool to predict complicated pericarditis. 
-Intern Emerg Med 2021;16:1921–6. https://doi.org/10.1007/s11739-021-02803-y 
-45. Lazaros G, Antonopoulos AS, Lazarou E, Vlachopoulos C, Vogiatzi G, Vassilopoulos D, 
-et al. Age- and sex-based differences in patients with acute pericarditis. Eur J Clin Invest 
-2021;51:e13392. https://doi.org/10.1111/eci.13392 
-46. Vecchié A, Chiabrando JG, Dell MS, Bonaventura A, Mauro AG, Wohlford G, et al. 
-Clinical presentation and outcomes of acute pericarditis in a large urban hospital in 
-the United States of America. Chest 2020;158:2556–67. https://doi.org/10.1016/j. 
-chest.2020.07.039 
-47. Gouriet F, Levy P-Y, Casalta J-P, Zandotti C, Collart F, Lepidi H, et al. Etiology of pericarditis in a prospective cohort of 1162 cases. Am J Med 2015;128:784.e1–e8. https:// 
-doi.org/10.1016/j.amjmed.2015.01.040 
-48. Mayosi BM, Wiysonge CS, Ntsekhe M, Volmink JA, Gumedze F, Maartens G, et al. 
-Clinical characteristics and initial management of patients with tuberculous pericarditis 
-in the HIV era: the Investigation of the Management of Pericarditis in Africa (IMPI 
-Africa) registry. BMC Infect Dis 2006;6:2. https://doi.org/10.1186/1471-2334-6-2 
-49. Conte E, Tamanini S, Bizzi E, Maestroni S, Cumetti D, Novembre ML, et al. 
-Post-cardiac injury syndrome and pericardial effusion recurrence after pericardial effusion drainage in chronic idiopathic pericardial effusion. Eur J Intern Med 2024;123: 
-132–7. https://doi.org/10.1016/j.ejim.2024.01.024 
-50. Peet CJ, Rowczenio D, Omoyinmi E, Papadopoulou C, Mapalo BRR, Wood MR, et al. 
-Pericarditis and autoinflammation: a clinical and genetic analysis of patients with idiopathic recurrent pericarditis and monogenic autoinflammatory diseases at a national 
-referral center. J Am Heart Assoc 2022;11:e024931. https://doi.org/10.1161/JAHA. 
-121.024931 
-51. Imazio M, Faletra F, Zucco J, Mio C, Carraro M, Gava AM, et al. Genetic variants in patients with recurrent pericarditis. J Cardiovasc Med (Hagerstown) 2024;25:799–804.  
-https://doi.org/10.2459/JCM.0000000000001669 
-52. Caforio ALP, Brucato A, Doria A, Brambilla G, Angelini A, Ghirardello A, et al. 
-Anti-heart and anti-intercalated disk autoantibodies: evidence for autoimmunity in 
-idiopathic recurrent acute pericarditis. Heart 2010;96:779–84. https://doi.org/10. 
-1136/hrt.2009.187138 
-53. Basso C. Myocarditis. N Engl J Med 2022;387:1488–500. https://doi.org/10.1056/ 
-NEJMra2114478 
-54. Ammirati E, Moslehi JJ. Diagnosis and treatment of acute myocarditis: a review. JAMA 
-2023;329:1098–113. https://doi.org/10.1001/jama.2023.3371 
-55. Younis A, Matetzky S, Mulla W, Masalha E, Afel Y, Chernomordik F, et al. Epidemiology 
-characteristics and outcome of patients with clinically diagnosed acute myocarditis. Am 
-J Med 2020;133:492–9. https://doi.org/10.1016/j.amjmed.2019.10.015 
-56. Ammirati E, Veronese G, Brambatti M, Merlo M, Cipriani M, Potena L, et al. Fulminant 
-versus acute nonfulminant myocarditis in patients with left ventricular systolic dysfunction. J Am Coll Cardiol 2019;74:299–311. https://doi.org/10.1016/j.jacc.2019.04.063 
-57. Huang F, Ammirati E, Ponnaiah M, Montero S, Raimbault V, Abrams D, et al. Fulminant 
-myocarditis proven by early biopsy and outcomes. Eur Heart J 2023;44:5110–24.  
-https://doi.org/10.1093/eurheartj/ehad707 
-58. Zeppenfeld K, Tfelt-Hansen J, de Riva M, Winkel BG, Behr ER, Blom NA, et al. 2022 
-ESC Guidelines for the management of patients with ventricular arrhythmias and 
-the prevention of sudden cardiac death: developed by the task force for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac 
-death of the European Society of Cardiology (ESC) Endorsed by the Association for 
-European Paediatric and Congenital Cardiology (AEPC). Eur Heart J 2022;43: 
-3997–4126. https://doi.org/10.1093/eurheartj/ehac262 
-59. Berg J, Kottwitz J, Baltensperger N, Kissel CK, Lovrinovic M, Mehra T, et al. Cardiac 
-magnetic resonance imaging in myocarditis reveals persistent disease activity despite 
-normalization of cardiac enzymes and inflammatory parameters at 3-month follow-up. 
-Circ Heart Fail 2017;10:e004262. https://doi.org/10.1161/CIRCHEARTFAILURE.117. 
-004262 
-60. Schwuchow-Thonke S, Göbel S, Emrich T, Schmitt VH, Fueting F, Klank C, et al. 
-Increased C reactive protein, cardiac troponin I and GLS are associated with myocardial inflammation in patients with non-ischemic heart failure. Sci Rep 2021;11:3008.  
-https://doi.org/10.1038/s41598-021-82592-8 
-61. Krumm P, Brendel JM, Klingel K, Müller KAL, Kübler J, Gräni C, et al. Using multiparametric cardiac magnetic resonance to phenotype and differentiate biopsy-proven 
-chronic from healed myocarditis and dilated cardiomyopathy. J Clin Med 2022;11: 
-5047. https://doi.org/10.3390/jcm11175047 
-62. Anzini M, Merlo M, Sabbadini G, Barbati G, Finocchiaro G, Pinamonti B, et al. 
-Long-term evolution and prognostic stratification of biopsy-proven active myocarditis. 
-Circulation 
-2013;128:2384–94. 
-https://doi.org/10.1161/CIRCULATIONAHA.113. 
-003092 
-63. Caforio ALP, Kaski JP, Gimeno JR, Elliott PM, Laroche C, Tavazzi L, et al. 
-Endomyocardial biopsy: safety and prognostic utility in paediatric and adult myocarditis 
-in the European Society of Cardiology EURObservational Research Programme 
-Cardiomyopathy and Myocarditis Long-Term Registry. Eur Heart J 2024;45: 
-2548–69. https://doi.org/10.1093/eurheartj/ehae169 
-64. Lopez-Ayala JM, Pastor-Quirante F, Gonzalez-Carrillo J, Lopez-Cuenca D, 
-Sanchez-Munoz JJ, Oliva-Sandoval MJ, et al. Genetics of myocarditis in arrhythmogenic 
-right ventricular dysplasia. Heart Rhythm 2015;12:766–73. https://doi.org/10.1016/j. 
-hrthm.2015.01.001 
-65. Collet J-P, Thiele H, Barbato E, Barthélémy O, Bauersachs J, Bhatt DL, et al. 2020 ESC 
-Guidelines for the management of acute coronary syndromes in patients presenting 
-without persistent ST-segment elevation. Eur Heart J 2021;42:1289–367. https://doi. 
-org/10.1093/eurheartj/ehaa575 
-66. Caforio ALP, Calabrese F, Angelini A, Tona F, Vinci A, Bottaro S, et al. A prospective 
-study of biopsy-proven myocarditis: prognostic relevance of clinical and aetiopathogenetic features at diagnosis. Eur Heart J 2007;28:1326–33. https://doi.org/10.1093/ 
-eurheartj/ehm076 
-67. Buiatti A, Merlo M, Pinamonti B, De Biasio M, Bussani R, Sinagra G. Clinical presentation and long-term follow-up of perimyocarditis. J Cardiovasc Med (Hagerstown) 2013; 
-14:235–41. https://doi.org/10.2459/JCM.0b013e328351da6e 
-68. Abdel-Aty H, Boyé P, Zagrosek A, Wassmuth R, Kumar A, Messroghli D, et al. 
-Diagnostic performance of cardiovascular magnetic resonance in patients with suspected acute myocarditis: comparison of different approaches. J Am Coll Cardiol 
-2005;45:1815–22. https://doi.org/10.1016/j.jacc.2004.11.069 
-69. Zagrosek A, Abdel-Aty H, Boyé P, Wassmuth R, Messroghli D, Utz W, et al. Cardiac 
-magnetic resonance monitors reversible and irreversible myocardial injury in myocarditis. JACC Cardiovasc Imaging 2009;2:131–8. https://doi.org/10.1016/j.jcmg.2008.09. 
-014 
-70. Gröschel J, Bhoyroo Y, Blaszczyk E, Trauzeddel RF, Viezzer D, Saad H, et al. Different 
-impacts on the heart after COVID-19 infection and vaccination: insights from cardiovascular magnetic resonance. Front Cardiovasc Med 2022;9:916922. https://doi.org/10. 
-3389/fcvm.2022.916922 
-71. Gentile P, Merlo M, Peretto G, Ammirati E, Sala S, Della Bella P, et al. Post-discharge 
-arrhythmic risk stratification of patients with acute myocarditis and life-threatening 
-ventricular tachyarrhythmias. Eur J Heart Fail 2021;23:2045–54. https://doi.org/10. 
-1002/ejhf.2288 
-72. Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, et al. 2023 ESC 
-Guidelines for the management of acute coronary syndromes. Eur Heart J 2023;44: 
-3720–826. https://doi.org/10.1093/eurheartj/ehad191 
-73. Baritussio A, Schiavo A, Basso C, Giordani AS, Cheng C-Y, Pontara E, et al. Predictors 
-of relapse, death or heart transplantation in myocarditis before the introduction of immunosuppression: negative prognostic impact of female gender, fulminant onset, lower ejection fraction and serum autoantibodies. Eur J Heart Fail 2022;24:1033–44.  
-https://doi.org/10.1002/ejhf.2496  
-ESC Guidelines                                                                                                                                                                                               75
-
-
-<!-- PAGE 76 -->
-
-### Page 76
-
-74. Ammirati E, Cipriani M, Lilliu M, Sormani P, Varrenti M, Raineri C, et al. Survival and left 
-ventricular function changes in fulminant versus nonfulminant acute myocarditis. 
-Circulation 2017;136:529–45. https://doi.org/10.1161/CIRCULATIONAHA.117.026386 
-75. Kondo T, Okumura T, Shibata N, Imaizumi T, Dohi K, Izawa H, et al. Differences in 
-prognosis and cardiac function according to required percutaneous mechanical circulatory support and histological findings in patients with fulminant myocarditis: insights 
-from the CHANGE PUMP 2 study. J Am Heart Assoc 2022;11:e023719. https://doi.org/ 
-10.1161/JAHA.121.023719 
-76. Peretto G, Sala S, Rizzo S, De Luca G, Campochiaro C, Sartorelli S, et al. Arrhythmias in 
-myocarditis: state of the art. Heart Rhythm 2019;16:793–801. https://doi.org/10.1016/j. 
-hrthm.2018.11.024 
-77. Imazio M, Lazaros G, Picardi E, Vasileiou P, Orlando F, Carraro M, et al. Incidence and 
-prognostic significance of new onset atrial fibrillation/flutter in acute pericarditis. Heart 
-2015;101:1463–7. https://doi.org/10.1136/heartjnl-2014-307398 
-78. Shah Z, Mohammed M, Vuddanda V, Ansari MW, Masoomi R, Gupta K. National 
-trends, gender, management, and outcomes of patients hospitalized for myocarditis. 
-Am J Cardiol 2019;124:131–6. https://doi.org/10.1016/j.amjcard.2019.03.036 
-79. Rosier L, Zouaghi A, Barré V, Martins R, Probst V, Marijon E, et al. High risk of sustained 
-ventricular arrhythmia recurrence after acute myocarditis. J Clin Med 2020;9:848.  
-https://doi.org/10.3390/jcm9030848 
-80. Birnie DH, Sauer WH, Bogun F, Cooper JM, Culver DA, Duvernoy CS, et al. HRS expert consensus statement on the diagnosis and management of arrhythmias associated 
-with cardiac sarcoidosis. Heart Rhythm 2014;11:1305–23. https://doi.org/10.1016/j. 
-hrthm.2014.03.043 
-81. Bobbio E, Hjalmarsson C, Björkenstam M, Polte CL, Oldfors A, Lindström U, et al. 
-Diagnosis, management, and outcome of cardiac sarcoidosis and giant cell myocarditis: 
-a Swedish single center experience. BMC Cardiovasc Disord 2022;22:192. https://doi. 
-org/10.1186/s12872-022-02639-0 
-82. Cooper LT, Berry GJ, Shabetai R. Idiopathic giant-cell myocarditis—natural history 
-and treatment. N Engl J Med 1997;336:1860–66. https://doi.org/10.1056/ 
-NEJM199706263362603 
-83. Peretto G, Sala S, Rizzo S, Palmisano A, Esposito A, De Cobelli F, et al. Ventricular arrhythmias in myocarditis: characterization and relationships with myocardial inflammation. J Am Coll Cardiol 2020;75:1046–57. https://doi.org/10.1016/j.jacc.2020.01.036 
-84. Peretto G, Sala S, Basso C, Rizzo S, Radinovic A, Frontera A, et al. Inflammation as a 
-predictor of recurrent ventricular tachycardia after ablation in patients with myocarditis. J Am Coll Cardiol 2020;76:1644–56. https://doi.org/10.1016/j.jacc.2020.08.012 
-85. van der Linde MR. Lyme carditis: clinical characteristics of 105 cases. Scand J Infect Dis 
-Suppl 1991;77:81–4. https://doi.org/10.3109/inf.1991.23.suppl-77.01 
-86. Glikson M, Nielsen JC, Kronborg MB, Michowitz Y, Auricchio A, Barbash IM, et al. 2021 
-ESC guidelines on cardiac pacing and cardiac resynchronization therapy: developed by 
-the Task Force on cardiac pacing and cardiac resynchronization therapy of the 
-European Society of Cardiology (ESC) With the special contribution of the 
-European Heart Rhythm Association (EHRA). Eur Heart J 2021;42:3427–520.  
-https://doi.org/10.1093/eurheartj/ehab364 
-87. Bhatia RT, Finocchiaro G, Westaby J, Chatrath N, Behr ER, Papadakis M, et al. 
-Myocarditis and sudden cardiac death in the community: clinical and pathological insights from a national registry in the United Kingdom. Circ Arrhythm Electrophysiol 
-2023;16:e012129. https://doi.org/10.1161/CIRCEP.123.012129 
-88. Lynge TH, Nielsen TS, Gregers Winkel B, Tfelt-Hansen J, Banner J. Sudden cardiac 
-death caused by myocarditis in persons aged 1–49 years: a nationwide study of 14  
-294 deaths in Denmark. Forensic Sci Res 2019;4:247–56. https://doi.org/10.1080/ 
-20961790.2019.1595352 
-89. Peretto G, Mazzone P, Paglino G, Marzi A, Tsitsinakis G, Rizzo S, et al. Continuous electrical monitoring in patients with arrhythmic myocarditis: insights from a referral center. J Clin Med 2021;10:5142. https://doi.org/10.3390/jcm10215142 
-90. Baritussio A, Cheng C-Y, Simeti G, Ocagli H, Lorenzoni G, Giordani AS, et al. CMR 
-predictors of favorable outcome in myocarditis: a single-center experience. J Clin 
-Med 2024;13:1229. https://doi.org/10.3390/jcm13051229 
-91. Ammirati E, Raimondi F, Piriou N, Sardo Infirri L, Mohiddin SA, Mazzanti A, et al. Acute 
-myocarditis associated with desmosomal gene variants. JACC Heart Fail 2022;10: 
-714–27. https://doi.org/10.1016/j.jchf.2022.06.013 
-92. Kontorovich AR, Tang Y, Patel N, Georgievskaya Z, Shadrina M, Williams N, et al. 
-Burden of cardiomyopathic genetic variation in lethal pediatric myocarditis. Circ 
-Genom Precis Med 2021;14:e003426. https://doi.org/10.1161/CIRCGEN.121.003426 
-93. Seidel F, Holtgrewe M, Al-Wakeel-Marquard N, Opgen-Rhein B, Dartsch J, Herbst C, 
-et al. Pathogenic variants associated with dilated cardiomyopathy predict outcome in 
-pediatric myocarditis. Circ Genom Precis Med 2021;14:e003250. https://doi.org/10. 
-1161/CIRCGEN.120.003250 
-94. Lota AS, Hazebroek MR, Theotokis P, Wassall R, Salmi S, Halliday BP, et al. Genetic 
-architecture of acute myocarditis and the overlap with inherited cardiomyopathy. 
-Circulation 2022;146:1123–34. https://doi.org/10.1161/CIRCULATIONAHA.121. 
-058457 
-95. Monda E, Bakalakos A, Cannie D, O’Mahony C, Syrris P, Kaski JP, et al. Prevalence of 
-pathogenic variants in cardiomyopathy-associated genes in acute myocarditis: a 
-systematic review and meta-analysis. JACC Heart Fail 2024;12:1101–11. https://doi. 
-org/10.1016/j.jchf.2024.02.012 
-96. Belkaya S, Kontorovich AR, Byun M, Mulero-Navarro S, Bajolle F, Cobat A, et al. 
-Autosomal recessive cardiomyopathy presenting as acute myocarditis. J Am Coll 
-Cardiol 2017;69:1653–65. https://doi.org/10.1016/j.jacc.2017.01.043 
-97. Smith ED, Lakdawala NK, Papoutsidakis N, Aubert G, Mazzanti A, McCanta AC, et al. 
-Desmoplakin cardiomyopathy, a fibrotic and inflammatory form of cardiomyopathy 
-distinct from typical dilated or arrhythmogenic right ventricular cardiomyopathy. 
-Circulation 2020;141:1872–84. https://doi.org/10.1161/CIRCULATIONAHA.119. 
-044934 
-98. Peretto G, De Luca G, Villatore A, Di Resta C, Sala S, Palmisano A, et al. Multimodal 
-detection and targeting of biopsy-proven myocardial inflammation in genetic cardiomyopathies: a pilot report. JACC Basic Transl Sci 2023;8:755–65. https://doi.org/10. 
-1016/j.jacbts.2023.02.018 
-99. Bariani R, Cipriani A, Rizzo S, Celeghin R, Bueno Marinas M, Giorgi B, et al. ‘Hot phase’ 
-clinical presentation in arrhythmogenic cardiomyopathy. Europace 2021;23:907–17.  
-https://doi.org/10.1093/europace/euaa343 
-100. Bariani R, Rigato I, Cipriani A, Bueno Marinas M, Celeghin R, Basso C, et al. 
-Myocarditis-like episodes in patients with arrhythmogenic cardiomyopathy: a systematic review on the so-called hot-phase of the disease. Biomolecules 2022;12:1324.  
-https://doi.org/10.3390/biom12091324 
-101. Bassetto G, Merlo M, Dal Ferro M, Setti M, Paldino A, Collesi C, et al. Apoptosis, a useful marker in the management of hot-phase cardiomyopathy? Eur J Heart Fail 2024;26: 
-590–7. https://doi.org/10.1002/ejhf.3173 
-102. Collini V, Siega Vignut L, Angriman F, Braidotti G, De Biasio M, Imazio M. Age-stratified 
-patterns in clinical presentation, treatment and outcomes in acute pericarditis: a retrospective cohort study. Heart 2024;110:1139–44. https://doi.org/10.1136/heartjnl- 
-2024-324214 
-103. Lazaros G, Antonopoulos AS, Imazio M, Solomou E, Lazarou E, Vassilopoulos D, et al. 
-Clinical significance of pleural effusions and association with outcome in patients hospitalized with a first episode of acute pericarditis. Intern Emerg Med 2019;14:745–51.  
-https://doi.org/10.1007/s11739-019-02041-3 
-104. Imazio M, Pivetta E, Andreis A, Serra C, Carbone F, Masoero M, et al. Incessant pericarditis as a risk factor for complicated pericarditis and hospital admission. Circulation 
-2021;143:401–2. https://doi.org/10.1161/CIRCULATIONAHA.120.051156 
-105. Imazio M, Cecchi E, Demichelis B, Ierna S, Demarie D, Ghisio A, et al. Indicators of 
-poor prognosis of acute pericarditis. Circulation 2007;115:2739–44. https://doi.org/ 
-10.1161/CIRCULATIONAHA.106.662114 
-106. Imazio M, Brucato A, Cumetti D, Brambilla G, Demichelis B, Ferro S, et al. 
-Corticosteroids for recurrent pericarditis: high versus low doses: a nonrandomized observation. Circulation 2008;118:667–71. https://doi.org/10.1161/CIRCULATIONAHA. 
-107.761064 
-107. Lazaros G, Antonopoulos AS, Vlachopoulos C, Oikonomou E, Karavidas A, 
-Chrysochoou C, et al. Predictors of switching from nonsteroidal anti-inflammatory 
-drugs to corticosteroids in patients with acute pericarditis and impact on clinical outcome. Hellenic J Cardiol 2019;60:357–63. https://doi.org/10.1016/j.hjc.2018.04.001 
-108. Melendo-Viu M, Marchán-Lopez Á, Guarch CJ-L, Roubín SR, Abu-Assi E, Meneses RT, 
-et al. A systematic review and meta-analysis of randomized controlled trials evaluating 
-pharmacologic therapies for acute and recurrent pericarditis. Trends Cardiovasc Med 
-2023;33:319–26. https://doi.org/10.1016/j.tcm.2022.02.001 
-109. Artom G, Koren-Morag N, Spodick DH, Brucato A, Guindo J, Bayes-de-Luna A, et al. 
-Pretreatment with corticosteroids attenuates the efficacy of colchicine in preventing 
-recurrent pericarditis: a multi-centre all-case analysis. Eur Heart J 2005;26:723–27.  
-https://doi.org/10.1093/eurheartj/ehi197 
-110. Klein AL, Wang TKM, Cremer PC, Abbate A, Adler Y, Asher C, et al. Pericardial diseases: international position statement on new concepts and advances in multimodality cardiac imaging. JACC Cardiovasc Imaging 2024;17:937–88. https://doi.org/10.1016/j. 
-jcmg.2024.04.010 
-111. Chiabrando JG, Bonaventura A, Vecchié A, Wohlford GF, Mauro AG, Jordan JH, et al. 
-Management of acute and recurrent pericarditis: JACC state-of-the-art review. J Am Coll 
-Cardiol 2020;75:76–92. https://doi.org/10.1016/j.jacc.2019.11.021 
-112. Cremer PC, Tariq MU, Karwa A, Alraies MC, Benatti R, Schuster A, et al. Quantitative 
-assessment of pericardial delayed hyperenhancement predicts clinical improvement in 
-patients with constrictive pericarditis treated with anti-inflammatory therapy. Circ 
-Cardiovasc Imaging 2015;8:e003125. https://doi.org/10.1161/CIRCIMAGING.114. 
-003125 
-113. Brucato A, Brambilla G, Moreo A, Alberti A, Munforti C, Ghirardello A, et al. 
-Long-term outcomes in difficult-to-treat patients with recurrent pericarditis. Am J 
-Cardiol 2006;98:267–71. https://doi.org/10.1016/j.amjcard.2006.01.086 
-114. Imazio M, Brucato A, Adler Y, Brambilla G, Artom G, Cecchi E, et al. Prognosis of idiopathic recurrent pericarditis as determined from previously published reports. Am J 
-Cardiol 2007;100:1026–8. https://doi.org/10.1016/j.amjcard.2007.04.047 
-115. Klein AL, Abbara S, Agler DA, Appleton CP, Asher CR, Hoit B, et al. American Society 
-of Echocardiography clinical recommendations for multimodality cardiovascular imaging of patients with pericardial disease: endorsed by the Society for 
-Cardiovascular Magnetic Resonance and Society of Cardiovascular Computed
-
-
-<!-- PAGE 77 -->
-
-### Page 77
-
-Tomography. J Am Soc Echocardiogr 2013;26:965–1012.e15. https://doi.org/10.1016/j. 
-echo.2013.06.023 
-116. Miranda WR, Newman DB, Sinak LJ, Espinosa RE, Anavekar NS, Goel K, et al. Pre- and 
-post-pericardiocentesis echo-Doppler features of effusive-constrictive pericarditis 
-compared with cardiac tamponade and constrictive pericarditis. Eur Heart J 
-Cardiovasc Imaging 2019;20:298–306. https://doi.org/10.1093/ehjci/jey081 
-117. Sagristà-Sauleda J, Angel J, Sánchez A, Permanyer-Miralda G, Soler-Soler J. 
-Effusive-constrictive pericarditis. N Engl J Med 2004;350:469–75. https://doi.org/10. 
-1056/NEJMoa035630 
-118. Ristić AD, Imazio M, Adler Y, Anastasakis A, Badano LP, Brucato A, et al. Triage strategy for urgent management of cardiac tamponade: a position statement of the 
-European Society of Cardiology Working Group on Myocardial and Pericardial 
-Diseases. Eur Heart J 2014;35:2279–84. https://doi.org/10.1093/eurheartj/ehu217 
-119. Talreja DR, Edwards WD, Danielson GK, Schaff HV, Tajik AJ, Tazelaar HD, et al. 
-Constrictive pericarditis in 26 patients with histologically normal pericardial thickness. 
-Circulation 2003;108:1852–7. https://doi.org/10.1161/01.CIR.0000087606.18453.FD 
-120. Sagristà-Sauleda J, Permanyer-Miralda G, Candell-Riera J, Angel J, Soler-Soler J. 
-Transient cardiac constriction: an unrecognized pattern of evolution in effusive acute 
-idiopathic pericarditis. Am J Cardiol 1987;59:961–6. https://doi.org/10.1016/0002- 
-9149(87)91134-9 
-121. Haley JH, Tajik AJ, Danielson GK, Schaff HV, Mulvagh SL, Oh JK. Transient constrictive 
-pericarditis: causes and natural history. J Am Coll Cardiol 2004;43:271–75. https://doi. 
-org/10.1016/j.jacc.2003.08.032 
-122. Sato K, Ayache A, Kumar A, Cremer PC, Griffin B, Popovic ZB, et al. Improvement in 
-left ventricular mechanics following medical treatment of constrictive pericarditis. 
-Heart 2021;107:828–35. https://doi.org/10.1136/heartjnl-2020-317304 
-123. Feng D, Glockner J, Kim K, Martinez M, Syed IS, Araoz P, et al. Cardiac magnetic resonance imaging pericardial late gadolinium enhancement and elevated inflammatory 
-markers can predict the reversibility of constrictive pericarditis after antiinflammatory 
-medical therapy: a pilot study. Circulation 2011;124:1830–7. https://doi.org/10.1161/ 
-CIRCULATIONAHA.111.026070 
-124. Cosyns B, Plein S, Nihoyanopoulos P, Smiseth O, Achenbach S, Andrade MJ, et al. 
-European Association of Cardiovascular Imaging (EACVI) position paper: multimodality imaging in pericardial disease. Eur Heart J Cardiovasc Imaging 2015;16:12–31. https:// 
-doi.org/10.1093/ehjci/jeu128 
-125. Lopalco G, Venerito V, Brucato A, Emmi G, Giacomelli R, Cauli A, et al. Anakinra effectiveness in refractory polyserositis: an Italian multicenter study. Joint Bone Spine 
-2022;89:105299. https://doi.org/10.1016/j.jbspin.2021.105299 
-126. Kilic A, Varkal MA, Durmus MS, Yildiz I, Yıldırım ZNY, Turunc G, et al. Relationship 
-between clinical findings and genetic mutations in patients with familial 
-Mediterranean fever. Pediatr Rheumatol Online J 2015;13:59. https://doi.org/10.1186/ 
-s12969-015-0057-1 
-127. Kumar S, Khubber S, Reyaldeen R, Agrawal A, Cremer PC, Imazio M, et al. Advances in 
-imaging and targeted therapies for recurrent pericarditis: a review. JAMA Cardiol 2022; 
-7:975–85. https://doi.org/10.1001/jamacardio.2022.2584 
-128. Habib G, Bucciarelli-Ducci C, Caforio ALP, Cardim N, Charron P, Cosyns B, et al. 
-Multimodality imaging in restrictive cardiomyopathies: an EACVI expert consensus 
-document in collaboration with the ‘Working group on myocardial and pericardial diseases’ of the European Society of Cardiology Endorsed by The Indian Academy of 
-Echocardiography. Eur Heart J Cardiovasc Imaging 2017;18:1090–121. https://doi.org/ 
-10.1093/ehjci/jex034 
-129. Imazio M, Pivetta E, Palacio Restrepo S, Sormani P, Pedrotti P, Quarta G, et al. 
-Usefulness of cardiac magnetic resonance for recurrent pericarditis. Am J Cardiol 
-2020;125:146–51. https://doi.org/10.1016/j.amjcard.2019.09.026 
-130. Imazio M, Demichelis B, Parrini I, Giuggia M, Cecchi E, Gaschino G, et al. Day-hospital 
-treatment of acute pericarditis: a management program for outpatient therapy. J Am 
-Coll Cardiol 2004;43:1042–46. https://doi.org/10.1016/j.jacc.2003.09.055 
-131. Chimenti C, Russo MA, Frustaci A. Immunosuppressive therapy in virus-negative inflammatory cardiomyopathy: 20-year follow-up of the TIMIC trial. Eur Heart J 2022; 
-43:3463–73. https://doi.org/10.1093/eurheartj/ehac348 
-132. Rao K, De Silva K, Sood A, Denniss AR, Hsu C-J. Predicting patients with troponin positive chest pain and unobstructed coronary arteries with electrocardiogram, troponin 
-kinetics and GRACE score. Heart Lung Circ 2022;31:1219–27. https://doi.org/10.1016/ 
-j.hlc.2022.05.040 
-133. De Lazzari M, Zorzi A, Baritussio A, Siciliano M, Migliore F, Susana A, et al. Relationship 
-between T-wave inversion and transmural myocardial edema as evidenced by cardiac 
-magnetic resonance in patients with clinically suspected acute myocarditis: clinical and 
-prognostic implications. J Electrocardiol 2016;49:587–95. https://doi.org/10.1016/j. 
-jelectrocard.2016.04.002 
-134. Nucifora G, Miani D, Di Chiara A, Piccoli G, Artico J, Puppato M, et al. Infarct-like acute 
-myocarditis: relation between electrocardiographic findings and myocardial damage as 
-assessed by cardiac magnetic resonance imaging. Clin Cardiol 2013;36:146–52. https:// 
-doi.org/10.1002/clc.22088 
-135. Wang Z, Wang Y, Lin H, Wang S, Cai X, Gao D. Early characteristics of fulminant myocarditis vs non-fulminant myocarditis: a meta-analysis. Medicine (Baltimore) 2019;98: 
-e14697. https://doi.org/10.1097/MD.0000000000014697 
-136. Ukena C, Mahfoud F, Kindermann I, Kandolf R, Kindermann M, Böhm M. Prognostic 
-electrocardiographic parameters in patients with suspected myocarditis. Eur J Heart 
-Fail 2011;13:398–405. https://doi.org/10.1093/eurjhf/hfq229 
-137. Jhamnani S, Fuisz A, Lindsay J. The spectrum of electrocardiographic manifestations of 
-acute myocarditis: an expanded understanding. J Electrocardiol 2014;47:941–7. https:// 
-doi.org/10.1016/j.jelectrocard.2014.07.018 
-138. Baritussio A, Cheng C-Y, Lorenzoni G, Basso C, Rizzo S, De Gaspari M, et al. A 
-machine-learning model for the prognostic role of C-reactive protein in myocarditis. 
-J Clin Med 2022;11:7068. https://doi.org/10.3390/jcm11237068 
-139. Lazaros G, Vlachakis PK, Theofilis P, Dasoula FE, Imazio M, Lazarou E, et al. D-dimer as 
-a diagnostic and prognostic plasma biomarker in patients with a first episode of acute 
-pericarditis. Eur J Intern Med 2023;19:2133–9. https://doi.org/10.1016/j.ejim.2023.06. 
-017 
-140. Mauro A, Bizzi E, Wu MA, Mascolo R, Chirico C, Conte E, et al. D-dimer and procalcitonin in patients with recurrent pericarditis: a prospective study. Intern Emerg Med 
-2024;19:2133–9. https://doi.org/10.1007/s11739-024-03712-6 
-141. Blanco-Domínguez R, Sánchez-Díaz R, de la Fuente H, Jiménez-Borreguero LJ, 
-Matesanz-Marín A, Relaño M, et al. A novel circulating microRNA for the detection 
-of acute myocarditis. N Engl J Med 2021;384:2014–27. https://doi.org/10.1056/ 
-NEJMoa2003608 
-142. Caforio ALP, De Luca G, Baritussio A, Seguso M, Gallo N, Bison E, et al. Serum organ- 
-specific anti-heart and anti-intercalated disk autoantibodies as new autoimmune markers 
-of cardiac involvement in systemic sclerosis: frequency, clinical and prognostic correlates. 
-Diagnostics (Basel) 2021;11:2165. https://doi.org/10.3390/diagnostics11112165 
-143. Coronado MJ, Bruno KA, Blauwet LA, Tschöpe C, Cunningham MW, Pankuweit S, 
-et al. Elevated sera sST2 is associated with heart failure in men ≤50 years old with myocarditis. J Am Heart Assoc 2019;8:e008968. https://doi.org/10.1161/JAHA.118.008968 
-144. Müller I, Vogl T, Kühl U, Krannich A, Banks A, Trippel T, et al. Serum alarmin S100A8/ 
-S100A9 levels and its potential role as biomarker in myocarditis. ESC Heart Fail 2020;7: 
-1442–51. https://doi.org/10.1002/ehf2.12760 
-145. Müller I, Vogl T, Pappritz K, Miteva K, Savvatis K, Rohde D, et al. Pathogenic role of the 
-damage-associated molecular patterns S100A8 and S100A9 in Coxsackievirus 
-B3-induced myocarditis. Circ Heart Fail 2017;10:e004125. https://doi.org/10.1161/ 
-CIRCHEARTFAILURE.117.004125 
-146. Ader F, Surget E, Charron P, Redheuil A, Zouaghi A, Maltret A, et al. Inherited cardiomyopathies revealed by clinically suspected myocarditis: highlights from genetic testing. 
-Circ Genom Precis Med 2020;13:e002744. https://doi.org/10.1161/CIRCGEN.119. 
-002744 
-147. Poller W, Haas J, Klingel K, Kühnisch J, Gast M, Kaya Z, et al. Familial recurrent myocarditis triggered by exercise in patients with a truncating variant of the desmoplakin 
-gene. J Am Heart Assoc 2020;9:e015289. https://doi.org/10.1161/JAHA.119.015289 
-148. Ollitrault P, Al Khoury M, Troadec Y, Calcagno Y, Champ-Rigot L, Ferchaud V, et al. 
-Recurrent acute myocarditis: an under-recognized clinical entity associated with the 
-later diagnosis of a genetic arrhythmogenic cardiomyopathy. Front Cardiovasc Med 
-2022;9:998883. https://doi.org/10.3389/fcvm.2022.998883 
-149. Piriou N, Marteau L, Kyndt F, Serfaty JM, Toquet C, Le Gloan L, et al. Familial screening 
-in case of acute myocarditis reveals inherited arrhythmogenic left ventricular cardiomyopathies. ESC Heart Fail 2020;7:1520–33. https://doi.org/10.1002/ehf2.12686 
-150. Artico J, Merlo M, Delcaro G, Cannatà A, Gentile P, De Angelis G, et al. Lymphocytic 
-myocarditis: a genetically predisposed disease? J Am Coll Cardiol 2020;75:3098–100.  
-https://doi.org/10.1016/j.jacc.2020.04.048 
-151. Verdonschot JAJ, Heymans SRB. Dilated cardiomyopathy: second hits knock-down the 
-heart. Eur Heart J 2024;45:500–1. https://doi.org/10.1093/eurheartj/ehad778 
-152. Cantarini L, Lucherini OM, Brucato A, Barone L, Cumetti D, Iacoponi F, et al. Clues to 
-detect tumor necrosis factor receptor-associated periodic syndrome (TRAPS) among 
-patients with idiopathic recurrent acute pericarditis: results of a multicentre study. Clin 
-Res Cardiol 2012;101:525–31. https://doi.org/10.1007/s00392-012-0422-8 
-153. Brucato A, Shinar Y, Brambilla G, Robbiolo L, Ferrioli G, Patrosso MC, et al. Idiopathic 
-recurrent acute pericarditis: familial Mediterranean fever mutations and disease evolution in a large cohort of Caucasian patients. Lupus 2005;14:670–4. https://doi.org/10. 
-1191/0961203305lu2197oa 
-154. Felker GM, Boehmer JP, Hruban RH, Hutchins GM, Kasper EK, Baughman KL, et al. 
-Echocardiographic findings in fulminant and acute myocarditis. J Am Coll Cardiol 
-2000;36:227–32. https://doi.org/10.1016/s0735-1097(00)00690-2 
-155. Pinamonti B, Alberti E, Cigalotto A, Dreas L, Salvi A, Silvestri F, et al. Echocardiographic 
-findings in myocarditis. Am J Cardiol 1988;62:285–91. https://doi.org/10.1016/0002- 
-9149(88)90226-3 
-156. Uppu SC, Shah A, Weigand J, Nielsen JC, Ko HH, Parness IA, et al. Two-dimensional 
-speckle-tracking-derived segmental peak systolic longitudinal strain identifies regional 
-myocardial involvement in patients with myocarditis and normal global left ventricular 
-systolic function. Pediatr Cardiol 2015;36:950–9. https://doi.org/10.1007/s00246-015- 
-1105-9 
-157. Sperlongano S, D’Amato A, Tagliamonte E, Russo V, Desiderio A, Ilardi F, et al. Acute 
-myocarditis: prognostic role of speckle tracking echocardiography and comparison 
-with cardiac magnetic resonance features. Heart Vessels 2022;37:121–31. https://doi. 
-org/10.1007/s00380-021-01893-0  
-ESC Guidelines                                                                                                                                                                                               77
-
-
-<!-- PAGE 78 -->
-
-### Page 78
-
-158. Ben-Joya D, Kaplan A, Baruch G, Rothschild E, Beer G, Banai S, et al. The prevalence of 
-abnormal right ventricle speckle strain in the setting of acute myocarditis and preserved left ventricle function. Int J Cardiovasc Imaging 2023;39:1231–8. https://doi. 
-org/10.1007/s10554-023-02829-7 
-159. Meindl C, Paulus M, Poschenrieder F, Hamer OW, Zeman F, Maier LS, et al. Left atrial 
-strain parameters derived by echocardiography are impaired in patients with acute 
-myocarditis and preserved systolic left ventricular function. Int J Cardiovasc Imaging 
-2023;39:1157–65. https://doi.org/10.1007/s10554-023-02827-9 
-160. Imazio M, Bobbio M, Cecchi E, Demarie D, Demichelis B, Pomari F, et al. Colchicine in 
-addition to conventional therapy for acute pericarditis: results of the COlchicine for 
-acute PEricarditis (COPE) trial. Circulation 2005;112:2012–6. https://doi.org/10. 
-1161/CIRCULATIONAHA.105.542738 
-161. Iles LM, Ellims AH, Llewellyn H, Hare JL, Kaye DM, McLean CA, et al. Histological validation of cardiac magnetic resonance analysis of regional and diffuse interstitial myocardial fibrosis. Eur Heart J Cardiovasc Imaging 2015;16:14–22. https://doi.org/10.1093/ 
-ehjci/jeu182 
-162. Miller CA, Naish JH, Bishop P, Coutts G, Clark D, Zhao S, et al. Comprehensive validation of cardiovascular magnetic resonance techniques for the assessment of myocardial extracellular volume. Circ Cardiovasc Imaging 2013;6:373–83. https://doi.org/10. 
-1161/CIRCIMAGING.112.000192 
-163. Voigt A, Elgeti T, Durmus T, Idiz ME, Butler C, Beling M, et al. Cardiac magnetic resonance imaging in dilated cardiomyopathy in adults—towards identification of myocardial inflammation. Eur Radiol 2011;21:925–35. https://doi.org/10.1007/s00330- 
-010-1985-2 
-164. Lurz P, Luecke C, Eitel I, Föhrenbach F, Frank C, Grothoff M, et al. Comprehensive cardiac magnetic resonance imaging in patients with suspected myocarditis: the 
-MyoRacer-Trial. J Am Coll Cardiol 2016;67:1800–11. https://doi.org/10.1016/j.jacc. 
-2016.02.013 
-165. Zurick AO, Bolen MA, Kwon DH, Tan CD, Popovic ZB, Rajeswaran J, et al. Pericardial 
-delayed hyperenhancement with CMR imaging in patients with constrictive pericarditis 
-undergoing surgical pericardiectomy: a case series with histopathological correlation. 
-JACC Cardiovasc Imaging 2011;4:1180–91. https://doi.org/10.1016/j.jcmg.2011.08.011 
-166. Kramer CM, Barkhausen J, Bucciarelli-Ducci C, Flamm SD, Kim RJ, Nagel E. 
-Standardized cardiovascular magnetic resonance imaging (CMR) protocols: 2020 update. J Cardiovasc Magn Reson 2020;22:17. https://doi.org/10.1186/s12968-020- 
-00607-1 
-167. Muehlberg F, Blaszczyk E, Will K, Wilczek S, Brederlau J, Schulz-Menger J. 
-Characterization of critically ill patients with septic shock and sepsis-associated cardiomyopathy using cardiovascular MRI. ESC Heart Fail 2022;9:2147–56. https://doi.org/10. 
-1002/ehf2.13938 
-168. Gröschel J, Ammann C, Zange L, Viezzer D, Forman C, Schmidt M, et al. Fast acquisition of left and right ventricular function parameters applying cardiovascular magnetic 
-resonance in clinical routine—validation of a 2-shot compressed sensing cine sequence. Scand Cardiovasc J 2022;56:266–75. https://doi.org/10.1080/14017431.2022. 
-2099010 
-169. Mileva N, Paolisso P, Gallinoro E, Fabbricatore D, Munhoz D, Bergamaschi L, et al. 
-Diagnostic and prognostic role of cardiac magnetic resonance in MINOCA: systematic 
-review and meta-analysis. JACC Cardiovasc Imaging 2023;16:376–89. https://doi.org/10. 
-1016/j.jcmg.2022.12.029 
-170. Machanahalli Balakrishna A, Ismayl M, Thandra A, Walters R, Ganesan V, Anugula D, 
-et al. Diagnostic value of cardiac magnetic resonance imaging and intracoronary optical 
-coherence tomography in patients with a working diagnosis of myocardial infarction 
-with non-obstructive coronary arteries—a systematic review and meta-analysis. 
-Curr Probl Cardiol 2023;48:101126. https://doi.org/10.1016/j.cpcardiol.2022.101126 
-171. Hausvater A, Smilowitz NR, Li B, Redel-Traub G, Quien M, Qian Y, et al. Myocarditis in 
-relation to angiographic findings in patients with provisional diagnoses of MINOCA. 
-JACC Cardiovasc Imaging 2020;13:1906–13. https://doi.org/10.1016/j.jcmg.2020.02.037 
-172. Tornvall P, Gerbaud E, Behaghel A, Chopard R, Collste O, Laraudogoitia E, et al. 
-Myocarditis or ‘true’ infarction by cardiac magnetic resonance in patients with a clinical 
-diagnosis of myocardial infarction without obstructive coronary disease: a 
-meta-analysis of individual patient data. Atherosclerosis 2015;241:87–91. https://doi. 
-org/10.1016/j.atherosclerosis.2015.04.816 
-173. Bohnen S, Radunski UK, Lund GK, Kandolf R, Stehning C, Schnackenburg B, et al. 
-Performance of T1 and T2 mapping cardiovascular magnetic resonance to detect active myocarditis in patients with recent-onset heart failure. Circ Cardiovasc Imaging 
-2015;8:e003073. https://doi.org/10.1161/CIRCIMAGING.114.003073 
-174. Khanna S, Amarasekera AT, Li C, Bhat A, Chen HHL, Gan GCH, et al. The utility of 
-cardiac magnetic resonance imaging in the diagnosis of adult patients with acute myocarditis: a systematic review and meta-analysis. Int J Cardiol 2022;363:225–39. https:// 
-doi.org/10.1016/j.ijcard.2022.06.047 
-175. Jia Z, Wang L, Jia Y, Liu J, Zhao H, Huo L, et al. Detection of acute myocarditis using T1 
-and T2 mapping cardiovascular magnetic resonance: a systematic review and 
-meta-analysis. J Appl Clin Med Phys 2021;22:239–48. https://doi.org/10.1002/acm2. 
-13365 
-176. Blissett S, Chocron Y, Kovacina B, Afilalo J. Diagnostic and prognostic value of cardiac 
-magnetic resonance in acute myocarditis: a systematic review and meta-analysis. Int J 
-Cardiovasc Imaging 2019;35:2221–9. https://doi.org/10.1007/s10554-019-01674-x 
-177. Pan JA, Lee YJ, Salerno M. Diagnostic performance of extracellular volume, native T1, 
-and T2 mapping versus Lake Louise criteria by cardiac magnetic resonance for detection of acute myocarditis: a meta-analysis. Circ Cardiovasc Imaging 2018;11:e007598.  
-https://doi.org/10.1161/CIRCIMAGING.118.007598 
-178. Wei S, Fu J, Chen L, Yu S. Performance of cardiac magnetic resonance imaging for diagnosis of myocarditis compared with endomyocardial biopsy: a meta-analysis. Med Sci 
-Monit 2017;23:3687–96. https://doi.org/10.12659/msm.902155 
-179. Greenwood JP, Maredia N, Younger JF, Brown JM, Nixon J, Everett CC, et al. 
-Cardiovascular magnetic resonance and single-photon emission computed tomography for diagnosis of coronary heart disease (CE-MARC): a prospective trial. 
-Lancet 2012;379:453–60. https://doi.org/10.1016/S0140-6736(11)61335-4 
-180. Greenwood JP, Ripley DP, Berry C, McCann GP, Plein S, Bucciarelli-Ducci C, et al. 
-Effect of care guided by cardiovascular magnetic resonance, myocardial perfusion scintigraphy, or NICE guidelines on subsequent unnecessary angiography rates: the 
-CE-MARC 2 randomized clinical trial. JAMA 2016;316:1051–60. https://doi.org/10. 
-1001/jama.2016.12680 
-181. Nagel E, Greenwood JP, McCann GP, Bettencourt N, Shah AM, Hussain ST, et al. 
-Magnetic resonance perfusion or fractional flow reserve in coronary disease. N Engl 
-J Med 2019;380:2418–28. https://doi.org/10.1056/NEJMoa1716734 
-182. Arai AE, Schulz-Menger J, Berman D, Mahrholdt H, Han Y, Bandettini WP, et al. 
-Gadobutrol-enhanced cardiac magnetic resonance imaging for detection of coronary 
-artery disease. J Am Coll Cardiol 2020;76:1536–47. https://doi.org/10.1016/j.jacc.2020. 
-07.060 
-183. Kwong RY, Ge Y, Steel K, Bingham S, Abdullah S, Fujikura K, et al. Cardiac magnetic 
-resonance stress perfusion imaging for evaluation of patients with chest pain. J Am 
-Coll Cardiol 2019;74:1741–55. https://doi.org/10.1016/j.jacc.2019.07.074 
-184. Bohm P, Scharhag J, Meyer T. Data from a nationwide registry on sports-related sudden cardiac deaths in Germany. Eur J Prev Cardiol 2016;23:649–56. https://doi.org/10. 
-1177/2047487315594087 
-185. Pelliccia A, Solberg EE, Papadakis M, Adami PE, Biffi A, Caselli S, et al. 
-Recommendations for participation in competitive and leisure time sport in athletes 
-with cardiomyopathies, myocarditis, and pericarditis: position statement of the 
-Sport Cardiology Section of the European Association of Preventive Cardiology 
-(EAPC). Eur Heart J 2019;40:19–33. https://doi.org/10.1093/eurheartj/ehy730 
-186. Maron BJ, Udelson JE, Bonow RO, Nishimura RA, Ackerman MJ, Estes NAM, et al. 
-Eligibility and disqualification recommendations for competitive athletes with cardiovascular abnormalities: Task Force 3: hypertrophic cardiomyopathy, arrhythmogenic right ventricular cardiomyopathy and other cardiomyopathies, and myocarditis: a scientific 
-statement from the American Heart Association and American College of Cardiology. 
-Circulation 2015;132:e273–80. https://doi.org/10.1161/CIR.0000000000000239 
-187. Sechtem U, Tscholakoff D, Higgins CB. MRI of the normal pericardium. AJR Am J 
-Roentgenol 1986;147:239–44. https://doi.org/10.2214/ajr.147.2.239 
-188. Stark DD, Higgins CB, Lanzer P, Lipton MJ, Schiller N, Crooks LE, et al. Magnetic resonance imaging of the pericardium: normal and pathologic findings. Radiology 1984; 
-150:469–74. https://doi.org/10.1148/radiology.150.2.6691103 
-189. Tscholakoff D, Sechtem U, de Geer G, Schmidt H, Higgins CB. Evaluation of pleural 
-and pericardial effusions by magnetic resonance imaging. Eur J Radiol 1987;7:169–74. 
-190. Power JA, Thompson DV, Rayarao G, Doyle M, Biederman RWW. Cardiac magnetic 
-resonance radiofrequency tissue tagging for diagnosis of constrictive pericarditis: a 
-proof of concept study. J Thorac Cardiovasc Surg 2016;151:1348–55. https://doi.org/ 
-10.1016/j.jtcvs.2015.12.035 
-191. Gastl M, Sokolska JM, Polacin M, Gotschy A, von Spiczak Brzezinski J, Alkadhi H, et al. 
-Parametric mapping CMR for the measurement of inflammatory reactions of the pericardium. Open Heart 2022;9:e001919. https://doi.org/10.1136/openhrt-2021-001919 
-192. Conte E, Agalbato C, Lauri G, Mushtaq S, Cia AD, Bonomi A, et al. Cardiac MRI after 
-first episode of acute pericarditis: a pilot study for better identification of high risk patients. Int J Cardiol 2022;354:63–7. https://doi.org/10.1016/j.ijcard.2022.03.007 
-193. Young PM, Glockner JF, Williamson EE, Morris MF, Araoz PA, Julsrud PR, et al. MR imaging findings in 76 consecutive surgically proven cases of pericardial disease with CT 
-and pathologic correlation. Int J Cardiovasc Imaging 2012;28:1099–109. https://doi.org/ 
-10.1007/s10554-011-9916-0 
-194. Taylor AM, Dymarkowski S, Verbeken EK, Bogaert J. Detection of pericardial inflammation with late-enhancement cardiac magnetic resonance imaging: initial results. Eur 
-Radiol 2006;16:569–74. https://doi.org/10.1007/s00330-005-0025-0 
-195. Knuuti J, Wijns W, Saraste A, Capodanno D, Barbato E, Funck-Brentano C, et al. 2019 
-ESC guidelines for the diagnosis and management of chronic coronary syndromes. Eur 
-Heart J 2020;41:407–77. https://doi.org/10.1093/eurheartj/ehz425 
-196. Maggiolini S, De Carlini CC, Ferri LA, Colombo GI, Gentile G, Meles E, et al. The role of 
-early contrast-enhanced chest computed tomography in the aetiological diagnosis of 
-patients presenting with cardiac tamponade or large pericardial effusion. Eur Heart J 
-Cardiovasc Imaging 2016;17:421–8. https://doi.org/10.1093/ehjci/jev225 
-197. Lee Y-H, Kim SM, Kim EK, Park S-J, Lee S-C, Park SW, et al. Pattern of pericardial calcification determines mid-term postoperative outcomes after pericardiectomy in
-
-
-<!-- PAGE 79 -->
-
-### Page 79
-
-chronic constrictive pericarditis. Int J Cardiol 2023;387:131133. https://doi.org/10. 
-1016/j.ijcard.2023.131133 
-198. Conte E, Agalbato C, Lauri G, Mushtaq S, Carollo C, Bonomi A, et al. Prevalence and 
-prognosis of pericardial effusion in patients affected by pectus excavatum: a case- 
-control study. Int J Cardiol 2021;344:179–83. https://doi.org/10.1016/j.ijcard.2021.10. 
-005 
-199. Bogaert J, Meyns B, Dymarkowski S, Sinnaeve P, Meuris B. Calcified constrictive pericarditis: prevalence, distribution patterns, and relationship to the myocardium. JACC 
-Cardiovasc Imaging 2016;9:1013–4. https://doi.org/10.1016/j.jcmg.2015.08.011 
-200. Azzu A, Morosin M, Antonopoulos AS, Capoccia M, Rosendahl U, Mohiaddin R. 
-Cardiac decompression by pericardiectomy for constrictive pericarditis: multimodality 
-imaging to identify patients at risk for prolonged inotropic support. J Cardiovasc Imaging 
-2021;29:361–72. https://doi.org/10.4250/jcvi.2020.0223 
-201. Peretto G, Busnardo E, Ferro P, Palmisano A, Vignale D, Esposito A, et al. Clinical applications of FDG-PET scan in arrhythmic myocarditis. JACC Cardiovasc Imaging 2022; 
-15:1771–80. https://doi.org/10.1016/j.jcmg.2022.02.029 
-202. Palmisano A, Vignale D, Peretto G, Busnardo E, Calcagno C, Campochiaro C, et al. 
-Hybrid FDG-PET/MR or FDG-PET/CT to detect disease activity in patients with persisting arrhythmias after myocarditis. JACC Cardiovasc Imaging 2021;14:288–92. https:// 
-doi.org/10.1016/j.jcmg.2020.03.009 
-203. Hanneman K, Kadoch M, Guo HH, Jamali M, Quon A, Iagaru A, et al. Initial experience with 
-simultaneous 18F-FDG PET/MRI in the evaluation of cardiac sarcoidosis and myocarditis. 
-Clin Nucl Med 2017;42:e328–34. https://doi.org/10.1097/RLU.0000000000001669 
-204. Chareonthaitawee P, Beanlands RS, Chen W, Dorbala S, Miller EJ, Murthy VL, et al. 
-Joint SNMMI-ASNC expert consensus document on the role of 18F-FDG PET/CT in 
-cardiac sarcoid detection and therapy monitoring. J Nucl Med 2017;58:1341–53.  
-https://doi.org/10.2967/jnumed.117.196287 
-205. Salomäki SP, Hohenthal U, Kemppainen J, Pirilä L, Saraste A. Visualization of pericarditis by fluorodeoxyglucose PET. Eur Heart J Cardiovasc Imaging 2014;15:291. https:// 
-doi.org/10.1093/ehjci/jet179 
-206. Nensa F, Kloth J, Tezgah E, Poeppel TD, Heusch P, Goebel J, et al. Feasibility of 
-FDG-PET in myocarditis: comparison to CMR using integrated PET/MRI. J Nucl 
-Cardiol 2018;25:785–94. https://doi.org/10.1007/s12350-016-0616-y 
-207. Basso C, Calabrese F, Angelini A, Carturan E, Thiene G. Classification and histological, 
-immunohistochemical, and molecular diagnosis of inflammatory myocardial disease. 
-Heart Fail Rev 2013;18:673–81. https://doi.org/10.1007/s10741-012-9355-6 
-208. Murphy L, McGuckin M, Giblin G, Keogh A, McGovern B, Fabre A, et al. The role of 
-endomyocardial biopsy in suspected myocarditis in the contemporary era: a 10-year 
-National Transplant Centre experience. Cardiovasc Pathol 2021;54:107366. https:// 
-doi.org/10.1016/j.carpath.2021.107366 
-209. Lu ZA, Aubry MC, Fallon JT, Fishbein MC, Giordano C, Klingel K, et al. Myocarditis and 
-endomyocardial biopsy: achieving consensus diagnosis on 100 cases. Cardiovasc Pathol 
-2023;62:107492. https://doi.org/10.1016/j.carpath.2022.107492 
-210. Seferović PM, Tsutsui H, McNamara DM, Ristić AD, Basso C, Bozkurt B, et al. Heart 
-Failure Association of the ESC, Heart Failure Society of America and Japanese Heart 
-Failure Society position statement on endomyocardial biopsy. Eur J Heart Fail 2021; 
-23:854–71. https://doi.org/10.1002/ejhf.2190 
-211. Yilmaz A, Kindermann I, Kindermann M, Mahfoud F, Ukena C, Athanasiadis A, et al. 
-Comparative evaluation of left and right ventricular endomyocardial biopsy: differences in complication rate and diagnostic performance. Circulation 2010;122:900–9.  
-https://doi.org/10.1161/CIRCULATIONAHA.109.924167 
-212. van der Boon R, den Dekker W, Meuwese CL, Lorusso R, von der Thüsen J, 
-Constantinescu AC, et al. Safety of endomyocardial biopsy in new-onset acute heart 
-failure requiring veno-arterial extracorporeal membrane oxygenation. Circ Heart Fail 
-2021;14:e008387. https://doi.org/10.1161/CIRCHEARTFAILURE.121.008387 
-213. Mueller GC, Michel-Behnke I, Knirsch W, Haas NA, Abdul-Khaliq H, Gitter R, et al. 
-Feasibility, safety and diagnostic impact of endomyocardial biopsies for the diagnosis 
-of myocardial disease in children and adolescents. EuroIntervention 2018;14: 
-1089–95. https://doi.org/10.4244/EIJ-D-18-00128 
-214. De Gaspari M, Larsen BT, d’Amati G, Kreutz K, Basso C, Michaud K, et al. Diagnosing 
-myocarditis in endomyocardial biopsies: survey of current practice. Cardiovasc Pathol 
-2023;64:107494. https://doi.org/10.1016/j.carpath.2022.107494 
-215. Gartshteyn Y, Tamargo M, Fleischer S, Kapoor T, Li J, Askanase A, et al. 
-Endomyocardial biopsies in the diagnosis of myocardial involvement in systemic lupus 
-erythematosus. Lupus 2020;29:199–204. https://doi.org/10.1177/0961203319897116 
-216. Heymans S, Lakdawala NK, Tschöpe C, Klingel K. Dilated cardiomyopathy: causes, mechanisms, and current and future treatment approaches. Lancet 2023;402:998–1011.  
-https://doi.org/10.1016/S0140-6736(23)01241-2 
-217. Kandolin R, Lehtonen J, Salmenkivi K, Räisänen-Sokolowski A, Lommi J, Kupari M. 
-Diagnosis, treatment, and outcome of giant-cell myocarditis in the era of combined 
-immunosuppression. 
-Circ 
-Heart 
-Fail 
-2013;6:15–22. 
-https://doi.org/10.1161/ 
-CIRCHEARTFAILURE.112.969261 
-218. Casella M, Dello Russo A, Bergonti M, Catto V, Conte E, Sommariva E, et al. Diagnostic 
-yield of electroanatomic voltage mapping in guiding endomyocardial biopsies. Circulation 
-2020;142:1249–60. https://doi.org/10.1161/CIRCULATIONAHA.120.046900 
-219. Casella M, Pizzamiglio F, Dello Russo A, Carbucicchio C, Al-Mohani G, Russo E, et al. 
-Feasibility of combined unipolar and bipolar voltage maps to improve sensitivity of endomyocardial biopsy. Circ Arrhythm Electrophysiol 2015;8:625–32. https://doi.org/10. 
-1161/CIRCEP.114.002216 
-220. Ezzeddine FM, Kapa S, Rosenbaum A, Blauwet L, Deshmukh AJ, AbouEzzeddine OF, 
-et al. Electrogram-guided endomyocardial biopsy yield in patients with suspected cardiac sarcoidosis and relation to outcomes. J Cardiovasc Electrophysiol 2021;32:2486–95.  
-https://doi.org/10.1111/jce.15191 
-221. Vaidya VR, Abudan AA, Vasudevan K, Shantha G, Cooper LT, Kapa S, et al. The efficacy 
-and safety of electroanatomic mapping-guided endomyocardial biopsy: a systematic 
-review. J Interv Card Electrophysiol 2018;53:63–71. https://doi.org/10.1007/s10840- 
-018-0410-7 
-222. Pelargonio G, Pinnacchio G, Narducci ML, Pieroni M, Perna F, Bencardino G, et al. long- 
-term arrhythmic risk assessment in biopsy-proven myocarditis. JACC Clin Electrophysiol 
-2020;6:574–82. https://doi.org/10.1016/j.jacep.2019.12.010 
-223. Aretz HT, Billingham ME, Edwards WD, Factor SM, Fallon JT, Fenoglio JJ, et al. 
-Myocarditis. A histopathologic definition and classification. Am J Cardiovasc Pathol 
-1987;1:3–14. 
-224. Schnitt SJ, Ciano PS, Schoen FJ. Quantitation of lymphocytes in endomyocardial biopsies: use and limitations of antibodies to leukocyte common antigen. Hum Pathol 1987; 
-18:796–800. https://doi.org/10.1016/s0046-8177(87)80053-9 
-225. Linder J, Cassling RS, Rogler WC, Wilson JE, Markin RS, Sears TD, et al. 
-Immunohistochemical characterization of lymphocytes in uninflamed ventricular myocardium. Implications for myocarditis. Arch Pathol Lab Med 1985;109:917–20. 
-226. Ohta-Ogo K, Sugano Y, Ogata S, Nakayama T, Komori T, Eguchi K, et al. Myocardial 
-T-lymphocytes as a prognostic risk-stratifying marker of dilated cardiomyopathy—results of the multicenter registry to investigate inflammatory cell infiltration in dilated 
-cardiomyopathy in tissues of endomyocardial biopsy (INDICATE study). Circ J 2022; 
-86:1092–101. https://doi.org/10.1253/circj.CJ-21-0529 
-227. Katzmann JL, Schlattmann P, Rigopoulos AG, Noutsias E, Bigalke B, Pauschinger M, 
-et al. Meta-analysis on the immunohistological detection of inflammatory cardiomyopathy in endomyocardial biopsies. Heart Fail Rev 2020;25:277–94. https://doi.org/10. 
-1007/s10741-019-09835-9 
-228. Pelzl L, Mantino S, Sauter M, Manuylova T, Vogel U, Klingel K. Lymphocytic myocarditis 
-in children with parvovirus B19 infection: pathological and molecular insights. 
-Biomedicines 2024;12:1909. https://doi.org/10.3390/biomedicines12081909 
-229. Stiermaier T, Föhrenbach F, Klingel K, Kandolf R, Boudriot E, Sandri M, et al. 
-Biventricular endomyocardial biopsy in patients with suspected myocarditis: feasibility, 
-complication rate and additional diagnostic value. Int J Cardiol 2017;230:364–70.  
-https://doi.org/10.1016/j.ijcard.2016.12.103 
-230. Mahfoud F, Gärtner B, Kindermann M, Ukena C, Gadomski K, Klingel K, et al. Virus 
-serology in patients with suspected myocarditis: utility or futility? Eur Heart J 2011; 
-32:897–903. https://doi.org/10.1093/eurheartj/ehq493 
-231. Heidecker B, Williams SH, Jain K, Oleynik A, Patriki D, Kottwitz J, et al. Virome sequencing in patients with myocarditis. Circ Heart Fail 2020;13:e007103. https://doi.org/10. 
-1161/CIRCHEARTFAILURE.120.007103 
-232. Maisch B, Rupp H, Ristic A, Pankuweit S. Pericardioscopy and epi- and pericardial biopsy—a new window to the heart improving etiological diagnoses and permitting targeted intrapericardial therapy. Heart Fail Rev 2013;18:317–28. https://doi.org/10.1007/ 
-s10741-013-9382-y 
-233. Ding Z, Yang M, Wang Y, Wu S, Qiu X, Liu Q. Retrospective analysis of 769 cases of 
-sudden cardiac death from 2006 to 2015: a forensic experience in China. Forensic Sci 
-Med Pathol 2017;13:336–41. https://doi.org/10.1007/s12024-017-9888-z 
-234. Vassalini M, Verzeletti A, Restori M, De Ferrari F. An autopsy study of sudden cardiac 
-death in persons aged 1–40 years in Brescia (Italy). J Cardiovasc Med (Hagerstown) 2016; 
-17:446–53. https://doi.org/10.2459/JCM.0000000000000234 
-235. Wu Y, Ai M, Bardeesi ASA, Zhang L, Wu Q, Yin K, et al. The forensic pathological analysis of sport-related sudden cardiac death in Southern China. Forensic Sci Res 2020;5: 
-47–54. https://doi.org/10.1080/20961790.2017.1319785 
-236. Wang H, Yao Q, Zhu S, Zhang G, Wang Z, Li Z, et al. The autopsy study of 553 cases of 
-sudden cardiac death in Chinese adults. Heart Vessels 2014;29:486–95. https://doi.org/ 
-10.1007/s00380-013-0388-0 
-237. Doolan A, Langlois N, Semsarian C. Causes of sudden cardiac death in young 
-Australians. Med J Aust 2004;180:110–2. https://doi.org/10.5694/j.1326-5377.2004. 
-tb05830.x 
-238. Harris KM, Mackey-Bojack S, Bennett M, Nwaudo D, Duncanson E, Maron BJ. Sudden 
-unexpected death due to myocarditis in young people, including athletes. Am J Cardiol 
-2021;143:131–4. https://doi.org/10.1016/j.amjcard.2020.12.028 
-239. Basso C, Aguilera B, Banner J, Cohle S, d’Amati G, de Gouveia RH, et al. Guidelines for 
-autopsy investigation of sudden cardiac death: 2017 update from the Association for 
-European Cardiovascular Pathology. Virchows Arch 2017;471:691–705. https://doi.org/ 
-10.1007/s00428-017-2221-0 
-240. Ekström K, Lehtonen J, Nordenswan H-K, Mäyränpää MI, Räisänen-Sokolowski A, 
-Kandolin R, et al. Sudden death in cardiac sarcoidosis: an analysis of nationwide clinical 
-and cause-of-death registries. Eur Heart J 2019;40:3121–8. https://doi.org/10.1093/ 
-eurheartj/ehz428  
-ESC Guidelines                                                                                                                                                                                               79
-
-
-<!-- PAGE 80 -->
-
-### Page 80
-
-241. Ackerman MJ, Priori SG, Willems S, Berul C, Brugada R, Calkins H, et al. HRS/EHRA 
-expert consensus statement on the state of genetic testing for the channelopathies 
-and cardiomyopathies. This document was developed as a partnership between the 
-Heart Rhythm Society (HRS) and the European Heart Rhythm Association (EHRA). 
-Heart Rhythm 2011;8:1308–39. https://doi.org/10.1016/j.hrthm.2011.05.020 
-242. Wilhelm M, Bolliger SA, Bartsch C, Fokstuen S, Gräni C, Martos V, et al. Sudden cardiac 
-death in forensic medicine—Swiss recommendations for a multidisciplinary approach. 
-Swiss Med Wkly 2015;145:w14129. https://doi.org/10.4414/smw.2015.14129 
-243. de Noronha SV, Behr ER, Papadakis M, Ohta-Ogo K, Banya W, Wells J, et al. The importance of specialist cardiac histopathological examination in the investigation of 
-young sudden cardiac deaths. Europace 2014;16:899–907. https://doi.org/10.1093/ 
-europace/eut329 
-244. De Gaspari M, Fedeli U, Saia M, Carturan E, Pilichou K, Corrado D, et al. Rate and cause 
-of sudden cardiac death in the young during the COVID-19 pandemic and vaccination. 
-Circulation 
-2023;148:2069–71. 
-https://doi.org/10.1161/CIRCULATIONAHA.123. 
-066270 
-245. du Long R, Fronczek J, Niessen HWM, van der Wal A, de Boer H. The histopathological spectrum of myocardial inflammation in relation to circumstance of death: a retrospective cohort study in clinical and forensic autopsies. Forensic Sci Res 2022;7:238–46.  
-https://doi.org/10.1080/20961790.2021.1989793 
-246. Li L, Zhang Y, Burke A, Xue A, Zhao Z, Fowler D, et al. Demographic, clinical and 
-pathological features of sudden deaths due to myocarditis: results from a state-wide 
-population-based autopsy study. Forensic Sci Int 2017;272:81–6. https://doi.org/10. 
-1016/j.forsciint.2016.12.037 
-247. Gulino SP, Burns K, Gunther WM, MacLeod H. Improving forensic pathologic investigation of sudden death in the young: tools, guidance, and methods of cardiovascular 
-dissection from the sudden death in the young case registry. Acad Forensic Pathol 
-2018;8:347–91. https://doi.org/10.1177/1925362118782077 
-248. Vrints C, Andreotti F, Koskinas KC, Rossello X, Adamo M, Ainslie J, et al. 2024 ESC 
-guidelines for the management of chronic coronary syndromes. Eur Heart J 2024; 
-45:3415–537. https://doi.org/10.1093/eurheartj/ehae177 
-249. Nowatzke J, Guedeney P, Palaskas N, Lehmann L, Ederhy S, Zhu H, et al. Coronary 
-artery disease and revascularization associated with immune checkpoint blocker myocarditis: report from an international registry. Eur J Cancer 2022;177:197–205. https:// 
-doi.org/10.1016/j.ejca.2022.07.018 
-250. Drobni ZD, Alvi RM, Taron J, Zafar A, Murphy SP, Rambarat PK, et al. Association between immune checkpoint inhibitors with cardiovascular events and atherosclerotic plaque. Circulation 2020;142:2299–311. https://doi.org/10.1161/CIRCULATIONAHA.120. 
-049981 
-251. Zöller B, Ji J, Sundquist J, Sundquist K. Risk of coronary heart disease in patients with 
-cancer: a nationwide follow-up study from Sweden. Eur J Cancer 2012;48:121–8.  
-https://doi.org/10.1016/j.ejca.2011.09.015 
-252. Jain CC, Miranda WR, El Sabbagh A, Nishimura RA. A simplified method for the diagnosis of constrictive pericarditis in the cardiac catheterization laboratory. JAMA Cardiol 
-2022;7:100–4. https://doi.org/10.1001/jamacardio.2021.3478 
-253. Casella M, Gasperetti A, Compagnucci P, Narducci ML, Pelargonio G, Catto V, et al. 
-Different phases of disease in lymphocytic myocarditis: clinical and electrophysiological 
-characteristics. JACC Clin Electrophysiol 2023;9:314–26. https://doi.org/10.1016/j.jacep. 
-2022.10.004 
-254. Hoogendoorn JC, Sramko M, Venlet J, Siontis KC, Kumar S, Singh R, et al. 
-Electroanatomical voltage mapping to distinguish right-sided cardiac sarcoidosis 
-from arrhythmogenic right ventricular cardiomyopathy. JACC Clin Electrophysiol 
-2020;6:696–707. https://doi.org/10.1016/j.jacep.2020.02.008 
-255. Peretto G, Sala S, Basso C, Della Bella P. Programmed ventricular stimulation in patients with active vs previous arrhythmic myocarditis. J Cardiovasc Electrophysiol 
-2020;31:692–701. https://doi.org/10.1111/jce.14374 
-256. Haanschoten DM, Adiyaman A, ‘t Hart NA, Jager PL, Elvan A. Value of 3D mapping- 
-guided endomyocardial biopsy in cardiac sarcoidosis: case series and narrative review 
-on the value of electro-anatomic mapping-guided endomyocardial biopsies. Eur J Clin 
-Invest 2021;51:e13497. https://doi.org/10.1111/eci.13497 
-257. Muser D, Santangeli P, Liang JJ, Castro SA, Magnani S, Hayashi T, et al. Characterization 
-of the electroanatomic substrate in cardiac sarcoidosis: correlation with imaging findings of scar and inflammation. JACC Clin Electrophysiol 2018;4:291–303. https://doi.org/ 
-10.1016/j.jacep.2017.09.175 
-258. Liang JJ, Hebl VB, DeSimone CV, Madhavan M, Nanda S, Kapa S, et al. Electrogram guidance: a method to increase the precision and diagnostic yield of endomyocardial biopsy 
-for suspected cardiac sarcoidosis and myocarditis. JACC Heart Fail 2014;2:466–73.  
-https://doi.org/10.1016/j.jchf.2014.03.015 
-259. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2023 
-Focused update of the 2021 ESC guidelines for the diagnosis and treatment of acute 
-and chronic heart failure. Eur Heart J 2023;44:3627–39. https://doi.org/10.1093/ 
-eurheartj/ehad195 
-260. Van Gelder IC, Rienstra M, Bunting KV, Casado-Arroyo R, Caso V, Crijns HJGM, et al. 
-Heart J 2024;45:3314–414. https://doi.org/10.1093/eurheartj/ehae176 
-261. Brugada J, Katritsis DG, Arbelo E, Arribas F, Bax JJ, Blomström-Lundqvist C, et al. 2019 
-ESC guidelines for the management of patients with supraventricular tachycardia. The 
-Task Force for the management of patients with supraventricular tachycardia of the 
-European Society of Cardiology (ESC). Eur Heart J 2020;41:655–720. https://doi.org/ 
-10.1093/eurheartj/ehz467 
-262. Berg J, Lovrinovic M, Baltensperger N, Kissel CK, Kottwitz J, Manka R, et al. 
-Non-steroidal anti-inflammatory drug use in acute myopericarditis: 12-month clinical 
-follow-up. Open Heart 2019;6:e000990. https://doi.org/10.1136/openhrt-2018-000990 
-263. Collini V, De Martino M, Andreis A, De Biasio M, Gaspard F, Paneva E, et al. Efficacy and 
-safety of colchicine for the treatment of myopericarditis. Heart 2024;110:735–9.  
-https://doi.org/10.1136/heartjnl-2023-323484 
-264. Kindermann I, Kindermann M, Kandolf R, Klingel K, Bültmann B, Müller T, et al. 
-Predictors of outcome in patients with suspected myocarditis. Circulation 2008;118: 
-639–48. https://doi.org/10.1161/CIRCULATIONAHA.108.769489 
-265. Chioncel O, Parissis J, Mebazaa A, Thiele H, Desch S, Bauersachs J, et al. Epidemiology, 
-pathophysiology and contemporary management of cardiogenic shock—a position 
-statement from the Heart Failure Association of the European Society of 
-Cardiology. Eur J Heart Fail 2020;22:1315–41. https://doi.org/10.1002/ejhf.1922 
-266. Heymans S, Van Linthout S, Kraus SM, Cooper LT, Ntusi NAB. Clinical characteristics 
-and mechanisms of acute myocarditis. Circ Res 2024;135:397–411. https://doi.org/10. 
-1161/CIRCRESAHA.124.324674 
-267. Pappritz K, Lin J, El-Shafeey M, Fechner H, Kühl U, Alogna A, et al. Colchicine prevents 
-disease progression in viral myocarditis via modulating the NLRP3 inflammasome in the 
-cardiosplenic axis. ESC Heart Fail 2022;9:925–41. https://doi.org/10.1002/ehf2.13845 
-268. Kerneis M, Cohen F, Combes A, Amoura Z, Pare C, Brugier D, et al. Rationale and design of the ARAMIS trial: anakinra versus placebo, a double blind randomized controlled trial for the treatment of acute myocarditis. Arch Cardiovasc Dis 2023;116: 
-460–6. https://doi.org/10.1016/j.acvd.2023.07.004 
-269. Li Y, Yu Y, Chen S, Liao Y, Du J. Corticosteroids and intravenous immunoglobulin in 
-pediatric myocarditis: a meta-analysis. Front Pediatr 2019;7:342. https://doi.org/10. 
-3389/fped.2019.00342 
-270. Chen HS, Wang W, Wu SN, Liu JP. Corticosteroids for viral myocarditis. Cochrane 
-Database Syst Rev 2013;2013:CD004471. https://doi.org/10.1002/14651858. 
-CD004471.pub3 
-271. Brambatti M, Matassini MV, Adler ED, Klingel K, Camici PG, Ammirati E. Eosinophilic 
-myocarditis: characteristics, treatment, and outcomes. J Am Coll Cardiol 2017;70: 
-2363–75. https://doi.org/10.1016/j.jacc.2017.09.023 
-272. Mason JW, O’Connell JB, Herskowitz A, Rose NR, McManus BM, Billingham ME, et al. 
-A clinical trial of immunosuppressive therapy for myocarditis. N Engl J Med 1995;333: 
-269–75. https://doi.org/10.1056/NEJM199508033330501 
-273. Schultheiss H-P, Piper C, Sowade O, Waagstein F, Kapp J-F, Wegscheider K, et al. 
-Betaferon in chronic viral cardiomyopathy (BICC) trial: effects of interferon-β treatment in patients with chronic viral cardiomyopathy. Clin Res Cardiol 2016;105: 
-763–73. https://doi.org/10.1007/s00392-016-0986-9 
-274. Imazio M, Andreis A, Agosti A, Piroli F, Avondo S, Casula M, et al. Usefulness of beta- 
-blockers to control symptoms in patients with pericarditis. Am J Cardiol 2021;146: 
-115–9. https://doi.org/10.1016/j.amjcard.2021.01.032 
-275. Avondo S, Andreis A, Casula M, Biondi-Zoccai G, Imazio M. Pharmacologic treatment 
-of acute and recurrent pericarditis: a systematic review and meta-analysis of controlled 
-clinical trials. Panminerva Med 2021;63:314–23. https://doi.org/10.23736/S0031-0808. 
-21.04263-4 
-276. Lutschinger LL, Rigopoulos AG, Schlattmann P, Matiakis M, Sedding D, Schulze PC, 
-et al. Meta-analysis for the value of colchicine for the therapy of pericarditis and of 
-postpericardiotomy syndrome. BMC Cardiovasc Disord 2019;19:207. https://doi.org/ 
-10.1186/s12872-019-1190-4 
-277. Li Y-L, Qiao S-B, Wang J-Y, Chen Y-M, Luo J, Zhang H-F. Colchicine in addition to conventional therapy for pericarditis recurrence: an update meta-analysis. Herz 2016;41: 
-630–8. https://doi.org/10.1007/s00059-016-4410-z 
-278. Papageorgiou N, Briasoulis A, Lazaros G, Imazio M, Tousoulis D. Colchicine for prevention and treatment of cardiac diseases: a meta-analysis. Cardiovasc Ther 2017;35: 
-10–18. https://doi.org/10.1111/1755-5922.12226 
-279. Scally B, Emberson JR, Spata E, Reith C, Davies K, Halls H, et al. Effects of gastroprotectant drugs for the prevention and treatment of peptic ulcer disease and its complications: a meta-analysis of randomised trials. Lancet Gastroenterol Hepatol 2018;3: 
-231–41. https://doi.org/10.1016/S2468-1253(18)30037-2 
-280. Humphrey MB, Russell L, Danila MI, Fink HA, Guyatt G, Cannon M, et al. 2022 
-American College of Rheumatology guideline for the prevention and treatment of 
-glucocorticoid-induced osteoporosis. Arthritis Rheumatol 2023;75:2088–102. https:// 
-doi.org/10.1002/art.42646 
-281. Sambola A, Roca Luque I, Mercé J, Alguersuari J, Francisco-Pascual J, García-Dorado D, 
-et al. Colchicine administered in the first episode of acute idiopathic pericarditis: a randomized multicenter open-label study. Rev Esp Cardiol (Engl Ed) 2019;72:709–16.  
-https://doi.org/10.1016/j.rec.2018.11.016 
-282. Imazio M, Andreis A, Piroli F, Lazaros G, Gattorno M, Lewinter M, et al. 
-Anti-interleukin 1 agents for the treatment of recurrent pericarditis: a systematic
-
-
-<!-- PAGE 81 -->
-
-### Page 81
-
-review and meta-analysis. Heart 2021;107:1240–5. https://doi.org/10.1136/heartjnl- 
-2020-318869 
-283. Klein AL, Imazio M, Cremer P, Brucato A, Abbate A, Fang F, et al. Phase 3 trial of 
-interleukin-1 trap rilonacept in recurrent pericarditis. N Engl J Med 2021;384:31–41.  
-https://doi.org/10.1056/NEJMoa2027892 
-284. Brucato A, Imazio M, Gattorno M, Lazaros G, Maestroni S, Carraro M, et al. Effect of 
-anakinra on recurrent pericarditis among patients with colchicine resistance and corticosteroid dependence: the AIRTRIP randomized clinical trial. JAMA 2016;316: 
-1906–12. https://doi.org/10.1001/jama.2016.15826 
-285. Brucato A, Wheeler A, Luis SA, Abbate A, Cremer PC, Zou L, et al. Transition to rilonacept monotherapy from oral therapies in patients with recurrent pericarditis. 
-Heart 2023;109:297–304. https://doi.org/10.1136/heartjnl-2022-321328 
-286. Collini V, Andreis A, De Biasio M, De Martino M, Isola M, Croatto N, et al. Efficacy of 
-colchicine in addition to anakinra in patients with recurrent pericarditis. Open Heart 
-2024;11:e002599. https://doi.org/10.1136/openhrt-2023-002599 
-287. Vianello F, Cinetto F, Cavraro M, Battisti A, Castelli M, Imbergamo S, et al. Azathioprine 
-in isolated recurrent pericarditis: a single centre experience. Int J Cardiol 2011;147: 
-477–8. https://doi.org/10.1016/j.ijcard.2011.01.027 
-288. Imazio M, Lazaros G, Picardi E, Vasileiou P, Carraro M, Tousoulis D, et al. Intravenous 
-human immunoglobulins for refractory recurrent pericarditis: a systematic review of 
-all published cases. J Cardiovasc Med (Hagerstown) 2016;17:263–9. https://doi.org/10. 
-2459/JCM.0000000000000260 
-289. Marcolongo R, Russo R, Laveder F, Noventa F, Agostini C. Immunosuppressive therapy prevents recurrent pericarditis. J Am Coll Cardiol 1995;26:1276–9. https://doi.org/ 
-10.1016/0735-1097(95)00302-9 
-290. Lazaros G, Antonopoulos AS, Antonatou K, Skendros P, Ritis K, Hadziyannis E, et al. 
-Hydroxychloroquine for colchicine-resistant glucocorticoid-dependent idiopathic recurrent pericarditis: a pilot observational prospective study. Int J Cardiol 2020;311: 
-77–82. https://doi.org/10.1016/j.ijcard.2020.03.069 
-291. Lotrionte M, Biondi-Zoccai G, Imazio M, Castagno D, Moretti C, Abbate A, et al. 
-International collaborative systematic review of controlled clinical trials on pharmacologic treatments for acute pericarditis and its recurrences. Am Heart J 2010;160: 
-662–70. https://doi.org/10.1016/j.ahj.2010.06.015 
-292. Horneffer PJ, Miller RH, Pearson TA, Rykiel MF, Reitz BA, Gardner TJ. The effective 
-treatment of postpericardiotomy syndrome after cardiac operations. A randomized 
-placebo-controlled trial. J Thorac Cardiovasc Surg 1990;100:292–6. https://doi.org/10. 
-1016/S0022-5223(19)35571-0 
-293. Atluri P, Ullery BW, MacArthur JW, Goldstone AB, Fairman AS, Hiesinger W, et al. 
-Rapid onset of fulminant myocarditis portends a favourable prognosis and the ability 
-to bridge mechanical circulatory support to recovery. Eur J Cardiothorac Surg 2013; 
-43:379–82. https://doi.org/10.1093/ejcts/ezs242 
-294. Montero S, Aissaoui N, Tadié J-M, Bizouarn P, Scherrer V, Persichini R, et al. Fulminant 
-giant-cell myocarditis on mechanical circulatory support: management and outcomes 
-of a French multicentre cohort. Int J Cardiol 2018;253:105–12. https://doi.org/10.1016/ 
-j.ijcard.2017.10.053 
-295. Bernhardt AM, Copeland H, Deswal A, Gluck J, Givertz MM; Task Force 1; et al. The 
-International Society for Heart and Lung Transplantation/Heart Failure Society of 
-America Guideline on Acute Mechanical Circulatory Support. J Heart Lung 
-Transplant 2023;42:e1–e64. https://doi.org/10.1016/j.healun.2022.10.028 
-296. Lorusso R, Shekar K, MacLaren G, Schmidt M, Pellegrino V, Meyns B, et al. ELSO interim 
-guidelines for venoarterial extracorporeal membrane oxygenation in adult cardiac patients. ASAIO J 2021;67:827–44. https://doi.org/10.1097/MAT.0000000000001510 
-297. Lorusso R, Centofanti P, Gelsomino S, Barili F, Di Mauro M, Orlando P, et al. 
-Venoarterial extracorporeal membrane oxygenation for acute fulminant myocarditis 
-in adult patients: a 5-year multi-institutional experience. Ann Thorac Surg 2016;101: 
-919–26. https://doi.org/10.1016/j.athoracsur.2015.08.014 
-298. Mirabel M, Luyt C-E, Leprince P, Trouillet J-L, Léger P, Pavie A, et al. Outcomes, long- 
-term quality of life, and psychologic assessment of fulminant myocarditis patients rescued by mechanical circulatory support. Crit Care Med 2011;39:1029–35. https://doi. 
-org/10.1097/CCM.0b013e31820ead45 
-299. Diddle JW, Almodovar MC, Rajagopal SK, Rycus PT, Thiagarajan RR. Extracorporeal 
-membrane oxygenation for the support of adults with acute myocarditis. Crit Care 
-Med 2015;43:1016–25. https://doi.org/10.1097/CCM.0000000000000920 
-300. Nunez JI, Grandin EW, Reyes-Castro T, Sabe M, Quintero P, Motiwala S, et al. 
-Outcomes with peripheral venoarterial extracorporeal membrane oxygenation for 
-suspected acute myocarditis: 10-year experience from the extracorporeal life support 
-organization registry. Circ Heart Fail 2023;16:e010152. https://doi.org/10.1161/ 
-CIRCHEARTFAILURE.122.010152 
-301. Strobbe A, Adriaenssens T, Bennett J, Dubois C, Desmet W, McCutcheon K, et al. 
-Etiology and long-term outcome of patients undergoing pericardiocentesis. J Am 
-Heart Assoc 2017;6:e007598. https://doi.org/10.1161/JAHA.117.007598 
-302. Maisch B, Ristić AD, Pankuweit S, Neubauer A, Moll R. Neoplastic pericardial effusion. 
-Efficacy and safety of intrapericardial treatment with cisplatin. Eur Heart J 2002;23: 
-1625–31. https://doi.org/10.1053/euhj.2002.3328 
-303. Martinoni A, Cipolla CM, Cardinale D, Civelli M, Lamantia G, Colleoni M, et al. 
-Long-term results of intrapericardial chemotherapeutic treatment of malignant 
-pericardial effusions with thiotepa. Chest 2004;126:1412–6. https://doi.org/10.1378/ 
-chest.126.5.1412 
-304. Colleoni M, Martinelli G, Beretta F, Marone C, Gallino A, Fontana M, et al. Intracavitary 
-chemotherapy with thiotepa in malignant pericardial effusions: an active and well- 
-tolerated regimen. J Clin Oncol 1998;16:2371–6. https://doi.org/10.1200/JCO.1998. 
-16.7.2371 
-305. Kunitoh H, Tamura T, Shibata T, Imai M, Nishiwaki Y, Nishio M, et al. A randomised 
-trial of intrapericardial bleomycin for malignant pericardial effusion with lung cancer 
-(JCOG9811). Br J Cancer 2009;100:464–9. https://doi.org/10.1038/sj.bjc.6604866 
-306. Shepherd FA, Morgan C, Evans WK, Ginsberg JF, Watt D, Murphy K. Medical management of malignant pericardial effusion by tetracycline sclerosis. Am J Cardiol 1987;60: 
-1161–6. https://doi.org/10.1016/0002-9149(87)90411-5 
-307. Beckmann E, Ismail I, Cebotari S, Busse A, Martens A, Shrestha M, et al. Right-sided 
-heart failure and extracorporeal life support in patients undergoing pericardiectomy 
-for constrictive pericarditis: a risk factor analysis for adverse outcome. Thorac 
-Cardiovasc Surg 2017;65:662–70. https://doi.org/10.1055/s-0036-1593817 
-308. Busch C, Penov K, Amorim PA, Garbade J, Davierwala P, Schuler GC, et al. Risk factors 
-for mortality after pericardiectomy for chronic constrictive pericarditis in a large 
-single-centre cohort. Eur J Cardiothorac Surg 2015;48:e110–6. https://doi.org/10. 
-1093/ejcts/ezv322 
-309. Vondran M, Rylski B, Berezowski M, Polycarpou A, Born F, Guenther S, et al. 
-Preemptive extracorporeal life support for surgical treatment of severe constrictive 
-pericarditis. Ann Thorac Surg 2019;108:1376–81. https://doi.org/10.1016/j.athoracsur. 
-2019.03.105 
-310. Saxena P, Joyce LD, Daly RC, Kushwaha SS, Schirger JA, Rosedahl J, et al. Cardiac transplantation for radiation-induced cardiomyopathy: the Mayo Clinic experience. Ann 
-Thorac Surg 2014;98:2115–21. https://doi.org/10.1016/j.athoracsur.2014.06.056 
-311. Al-Kazaz M, Klein AL, Oh JK, Crestanello JA, Cremer PC, Tong MZ, et al. Pericardial 
-diseases and best practices for pericardiectomy: JACC state-of-the-art review. J Am 
-Coll Cardiol 2024;84:561–80. https://doi.org/10.1016/j.jacc.2024.05.048 
-312. Vistarini N, Chen C, Mazine A, Bouchard D, Hebert Y, Carrier M, et al. Pericardiectomy 
-for constrictive pericarditis: 20 years of experience at the Montreal Heart Institute. Ann 
-Thorac Surg 2015;100:107–13. https://doi.org/10.1016/j.athoracsur.2015.02.054 
-313. Lee S, Lee J, Joo S, Park YK, Kim KM, Jung JC, et al. Impact of pericardial calcification on 
-early postoperative outcomes after pericardiectomy: a retrospective observational 
-study. J Cardiothorac Surg 2024;19:449. https://doi.org/10.1186/s13019-024-02842-4 
-314. Yamamoto N, Ohara K, Nie M, Torii S, Inoue N, Miyaji K. For what type of constrictive 
-pericarditis is the waffle procedure effective? Asian Cardiovasc Thorac Ann 2011;19: 
-115–8. https://doi.org/10.1177/0218492311399496 
-315. Matsuura K, Mogi K, Takahara Y. Off-pump waffle procedure using an ultrasonic scalpel for constrictive pericarditis. Eur J Cardiothorac Surg 2015;47:e220–2. https://doi.org/ 
-10.1093/ejcts/ezu554 
-316. Calderon-Rojas RD, Greason KL, King KS, Luis SA, Oh JK, Stulak JM, et al. Outcomes of 
-tricuspid valve operation at the time of pericardiectomy for constrictive pericarditis. 
-Ann Thorac Surg 2021;111:1252–7. https://doi.org/10.1016/j.athoracsur.2020.06.106 
-317. Li T-T, Cheng J. Clinical analysis of temporary pacemaker implantation in 13 children. 
-Transl Pediatr 2022;11:174–82. https://doi.org/10.21037/tp-21-586 
-318. Suarez K, Banchs JE. A review of temporary permanent pacemakers and a comparison 
-with conventional temporary pacemakers. J Innov Card Rhythm Manag 2019;10: 
-3652–61. https://doi.org/10.19102/icrm.2019.100506 
-319. Braun MU, Rauwolf T, Bock M, Kappert U, Boscheri A, Schnabel A, et al. Percutaneous 
-lead implantation connected to an external device in stimulation-dependent patients 
-with systemic infection—a prospective and controlled study. Pacing Clin 
-Electrophysiol 2006;29:875–9. https://doi.org/10.1111/j.1540-8159.2006.00454.x 
-320. Zei PC, Eckart RE, Epstein LM. Modified temporary cardiac pacing using transvenous 
-active fixation leads and external re-sterilized pulse generators. J Am Coll Cardiol 2006; 
-47:1487–9. https://doi.org/10.1016/j.jacc.2006.01.006 
-321. Chung MK, Patton KK, Lau C-P, Forno ARJD, Al-Khatib SM, Arora V, et al. 2023 HRS/ 
-APHRS/LAHRS guideline on cardiac physiologic pacing for the avoidance and mitigation of heart failure. Heart Rhythm 2023;20:e17–91. https://doi.org/10.1016/j.hrthm. 
-2023.03.1538 
-322. Casella M, Bergonti M, Narducci ML, Persampieri S, Gasperetti A, Conte E, et al. Prior 
-myocarditis and ventricular arrhythmias: the importance of scar pattern. Heart Rhythm 
-2021;18:589–96. https://doi.org/10.1016/j.hrthm.2020.12.016 
-323. Rav-Acha M, Shah K, Hasin T, Gumuser E, Tovia-Brodie O, Shauer A, et al. Incidence 
-and predictors for recurrence of ventricular arrhythmia presenting during acute myocarditis: a multicenter study. JACC Clin Electrophysiol 2024;10:1161–74. https://doi.org/ 
-10.1016/j.jacep.2024.02.027 
-324. Sasko B, Patschan D, Nordbeck P, Seidlmayer L, Andresen H, Jänsch M, et al. Secondary 
-prevention of potentially life-threatening arrhythmia using implantable cardioverter 
-defibrillators in patients with biopsy-proven viral myocarditis and preserved ejection 
-fraction. Cardiology 2021;146:213–21. https://doi.org/10.1159/000511120 
-325. Peretto G, Sala S, Carturan E, Rizzo S, Villatore A, De Luca G, et al. Clinical profiling and 
-outcomes of viral myocarditis manifesting with ventricular arrhythmias. Eur Heart J 
-Open 2023;3:oead132. https://doi.org/10.1093/ehjopen/oead132  
-ESC Guidelines                                                                                                                                                                                               81
-
-
-<!-- PAGE 82 -->
-
-### Page 82
-
-326. Ekström K, Lehtonen J, Kandolin R, Räisänen-Sokolowski A, Salmenkivi K, Kupari M. 
-Incidence, risk factors, and outcome of life-threatening ventricular arrhythmias in giant 
-cell myocarditis. Circ Arrhythm Electrophysiol 2016;9:e004559. https://doi.org/10.1161/ 
-CIRCEP.116.004559 
-327. Tscholl V, Wielander D, Kelch F, Stroux A, Attanasio P, Tschöpe C, et al. Benefit of a 
-wearable cardioverter defibrillator for detection and therapy of arrhythmias in patients with myocarditis. ESC Heart Fail 2021;8:2428–37. https://doi.org/10.1002/ehf2. 
-13353 
-328. Blaschke F, Lacour P, Dang PL, Parwani AS, Hohendanner F, Walter T, et al. Wearable 
-cardioverter-defibrillator: friend or foe in suspected myocarditis? ESC Heart Fail 2021; 
-8:2591–6. https://doi.org/10.1002/ehf2.13340 
-329. Wäßnig NK, Günther M, Quick S, Pfluecke C, Rottstädt F, Szymkiewicz SJ, 
-et al. Experience with the wearable cardioverter-defibrillator in patients at high risk 
-for sudden cardiac death. Circulation 2016;134:635–43. https://doi.org/10.1161/ 
-CIRCULATIONAHA.115.019124 
-330. El-Battrawy I, Koepsel K, Tenbrink D, Kovacs B, Dreher TC, Blockhaus C, et al. Use of 
-the wearable cardioverter-defibrillator among patients with myocarditis and reduced 
-ejection fraction or ventricular tachyarrhythmia: data from a multicenter registry. J Am 
-Heart Assoc 2023;12:e030615. https://doi.org/10.1161/JAHA.123.030615 
-331. Peretto G, Gulletta S, Slavich M, Campochiaro C, Vignale D, De Luca G, et al. Exercise 
-stress test late after arrhythmic versus nonarrhythmic presentation of myocarditis. 
-J Pers Med 2022;12:1702. https://doi.org/10.3390/jpm12101702 
-332. Yang F, Wang J, Li W, Xu Y, Wan K, Zeng R, et al. The prognostic value of late gadolinium enhancement in myocarditis and clinically suspected myocarditis: systematic review and meta-analysis. Eur Radiol 2020;30:2616–26. https://doi.org/10.1007/s00330- 
-019-06643-5 
-333. Georgiopoulos G, Figliozzi S, Sanguineti F, Aquaro GD, di Bella G, Stamatelopoulos K, 
-et al. Prognostic impact of late gadolinium enhancement by cardiovascular magnetic 
-resonance in myocarditis. Circ Cardiovasc Imaging 2021;14:e011492. https://doi.org/ 
-10.1161/CIRCIMAGING.120.011492 
-334. Schumm J, Greulich S, Wagner A, Grün S, Ong P, Bentz K, et al. Cardiovascular magnetic resonance risk stratification in patients with clinically suspected myocarditis. 
-J Cardiovasc Magn Reson 2014;16:14. https://doi.org/10.1186/1532-429X-16-14 
-335. Salamanca J, Díez-Villanueva P, Martínez P, Cecconi A, González de Marcos B, Reyes G, 
-et al. COVID-19 ‘fulminant myocarditis’ successfully treated with temporary mechanical circulatory support. JACC Cardiovasc Imaging 2020;13:2457–9. https://doi.org/10. 
-1016/j.jcmg.2020.05.003 
-336. Pavlicek V, Kindermann I, Wintrich J, Mahfoud F, Klingel K, Böhm M, et al. Ventricular 
-arrhythmias and myocardial inflammation: long-term follow-up of patients with suspected myocarditis. Int J Cardiol 2019;274:132–7. https://doi.org/10.1016/j.ijcard. 
-2018.07.142 
-337. Imazio M, Brucato A, Spodick DH, Adler Y. Prognosis of myopericarditis as determined from previously published reports. J Cardiovasc Med (Hagerstown) 2014;15: 
-835–9. https://doi.org/10.2459/JCM.0000000000000082 
-338. Castrichini M, Porcari A, Baggio C, Gagno G, Maione D, Barbati G, et al. Sex differences 
-in natural history of cardiovascular magnetic resonance- and biopsy-proven lymphocytic myocarditis. ESC Heart Fail 2022;9:4010–9. https://doi.org/10.1002/ehf2.14102 
-339. Grün S, Schumm J, Greulich S, Wagner A, Schneider S, Bruder O, et al. Long-term 
-follow-up of biopsy-proven viral myocarditis: predictors of mortality and incomplete 
-recovery. J Am Coll Cardiol 2012;59:1604–15. https://doi.org/10.1016/j.jacc.2012.01. 
-007 
-340. Ammirati E, Varrenti M, Sormani P, Bernasconi D, Moro C, Grosu A, et al. Long-term 
-prognostic performance of cardiac magnetic resonance imaging markers versus complicated clinical presentation after an acute myocarditis. Int J Cardiol 2024;417:132567.  
-https://doi.org/10.1016/j.ijcard.2024.132567 
-341. Greulich S, Seitz A, Müller KAL, Grün S, Ong P, Ebadi N, et al. Predictors of mortality in 
-patients with biopsy-proven viral myocarditis: 10-year outcome data. J Am Heart Assoc 
-2020;9:e015351. https://doi.org/10.1161/JAHA.119.015351 
-342. Mahrholdt H, Wagner A, Deluigi CC, Kispert E, Hager S, Meinhardt G, et al. 
-Presentation, patterns of myocardial damage, and clinical course of viral myocarditis. 
-Circulation 
-2006;114:1581–90. 
-https://doi.org/10.1161/CIRCULATIONAHA.105. 
-606509 
-343. Narducci ML, Pelargonio G, La Rosa G, Inzani F, d’Amati G, Novelli V, et al. Role of 
-extensive diagnostic workup in young athletes and nonathletes with complex ventricular arrhythmias. Heart Rhythm 2020;17:230–7. https://doi.org/10.1016/j.hrthm.2019. 
-08.022 
-344. Maleszewski JJ, Orellana VM, Hodge DO, Kuhl U, Schultheiss H-P, Cooper LT. 
-Long-term risk of recurrence, morbidity and mortality in giant cell myocarditis. Am J 
-Cardiol 2015;115:1733–8. https://doi.org/10.1016/j.amjcard.2015.03.023 
-345. Kim M-J, Jung HO, Kim H, Bae Y, Lee SY, Jeon DS. 10-Year survival outcome after clinically suspected acute myocarditis in adults: a nationwide study in the pre-COVID-19 
-era. PLoS One 2023;18:e0281296. https://doi.org/10.1371/journal.pone.0281296 
-346. Kytö V, Sipilä J, Rautava P. Rate and patient features associated with recurrence of 
-acute myocarditis. Eur J Intern Med 2014;25:946–50. https://doi.org/10.1016/j.ejim. 
-2014.11.001 
-347. Imazio M, Brucato A, Maestroni S, Cumetti D, Belli R, Trinchero R, et al. Risk of constrictive pericarditis after acute pericarditis. Circulation 2011;124:1270–5. https://doi. 
-org/10.1161/CIRCULATIONAHA.111.018580 
-348. Yesilyaprak A, Kumar AK, Agrawal A, Furqan MM, Verma BR, Syed AB, et al. Predicting 
-long-term clinical outcomes of patients with recurrent pericarditis. J Am Coll Cardiol 
-2024;84:1193–204. https://doi.org/10.1016/j.jacc.2024.05.072 
-349. Caforio ALP, Adler Y, Agostini C, Allanore Y, Anastasakis A, Arad M, et al. Diagnosis 
-and management of myocardial involvement in systemic immune-mediated diseases: a 
-position statement of the European Society of Cardiology Working Group on 
-Myocardial and Pericardial Disease. Eur Heart J 2017;38:2649–62. https://doi.org/10. 
-1093/eurheartj/ehx321 
-350. Cheng C-Y, Baritussio A, Giordani AS, Iliceto S, Marcolongo R, Caforio ALP. 
-Myocarditis in systemic immune-mediated diseases: prevalence, characteristics and 
-prognosis. A systematic review. Autoimmun Rev 2022;21:103037. https://doi.org/10. 
-1016/j.autrev.2022.103037 
-351. Mavrogeni S, Bratis K, Sfendouraki E, Papadopoulou E, Kolovou G. Myopericarditis, 
-as the first sign of rheumatoid arthritis relapse, evaluated by cardiac magnetic resonance. Inflamm Allergy Drug Targets 2013;12:206–11. https://doi.org/10.2174/ 
-1871528111312030008 
-352. Aringer M, Costenbader K, Daikh D, Brinks R, Mosca M, Ramsey-Goldman R, et al. 
-2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Arthritis Rheumatol 2019;71: 
-1400–12. https://doi.org/10.1002/art.40930 
-353. Jia E, Geng H, Liu Q, Xiao Y, Zhang Y, Xie J, et al. Cardiac manifestations of Han 
-Chinese patients with systemic lupus erythematosus: a retrospective study. Ir J Med 
-Sci 2019;188:801–6. https://doi.org/10.1007/s11845-018-1934-7 
-354. Tanwani J, Tselios K, Gladman DD, Su J, Urowitz MB. Lupus myocarditis: a single center 
-experience and a comparative analysis of observational cohort studies. Lupus 2018;27: 
-1296–302. https://doi.org/10.1177/0961203318770018 
-355. Thomas G, Cohen Aubart F, Chiche L, Haroche J, Hié M, Hervier B, et al. Lupus myocarditis: initial presentation and longterm outcomes in a multicentric series of 29 patients. J Rheumatol 2017;44:24–32. https://doi.org/10.3899/jrheum.160493 
-356. Mathian A, Mouries-Martin S, Dorgham K, Devilliers H, Yssel H, Garrido Castillo L, 
-et al. Ultrasensitive serum interferon-α quantification during SLE remission identifies 
-patients at risk for relapse. Ann Rheum Dis 2019;78:1669–76. https://doi.org/10. 
-1136/annrheumdis-2019-215571 
-357. Mathian A, Mouries-Martin S, Dorgham K, Devilliers H, Barnabei L, Ben Salah E, et al. 
-Monitoring disease activity in systemic lupus erythematosus with single-molecule array 
-digital enzyme-linked immunosorbent assay quantification of serum interferon-α. 
-Arthritis Rheumatol 2019;71:756–65. https://doi.org/10.1002/art.40792 
-358. du Toit R, Herbst PG, Ackerman C, Pecoraro AJ, Claassen D, Cyster HP, et al. 
-Outcome of clinical and subclinical myocardial injury in systemic lupus erythematosus—a prospective cohort study. Lupus 2021;30:256–68. https://doi.org/10.1177/ 
-0961203320976960 
-359. Hinojar R, Foote L, Sangle S, Marber M, Mayr M, Carr-White G, et al. Native T1 and T2 
-mapping by CMR in lupus myocarditis: disease recognition and response to treatment. 
-Int J Cardiol 2016;222:717–26. https://doi.org/10.1016/j.ijcard.2016.07.182 
-360. Sacré K, Brihaye B, Hyafil F, Serfaty J-M, Escoubet B, Zennaro M-C, et al. Asymptomatic 
-myocardial ischemic disease in antiphospholipid syndrome: a controlled cardiac magnetic resonance imaging study. Arthritis Rheum 2010;62:2093–100. https://doi.org/10. 
-1002/art.27488 
-361. Pineton de Chambrun M, Larcher R, Pène F, Argaud L, Mayaux J, Jamme M, et al. 
-In-hospital mortality-associated factors in patients with thrombotic antiphospholipid 
-syndrome requiring ICU admission. Chest 2020;157:1158–66. https://doi.org/10. 
-1016/j.chest.2019.11.010 
-362. Yong WC, Sanguankeo A, Upala S. Association between primary Sjogren’s syndrome, 
-arterial stiffness, and subclinical atherosclerosis: a systematic review and meta-analysis. 
-Clin Rheumatol 2019;38:447–55. https://doi.org/10.1007/s10067-018-4265-1 
-363. Lazzerini PE, Murthy Ginjupalli VK, Srivastava U, Bertolozzi I, Bacarelli MR, Verrengia 
-D, et al. Anti-Ro/SSA antibodies blocking calcium channels as a potentially reversible 
-cause of atrioventricular block in adults. JACC Clin Electrophysiol 2023;9:1631–48.  
-https://doi.org/10.1016/j.jacep.2023.03.007 
-364. Bruni C, Buch MH, Furst DE, De Luca G, Djokovic A, Dumitru RB, et al. Primary systemic sclerosis heart involvement: a systematic literature review and preliminary data- 
-driven, consensus-based WSF/HFA definition. J Scleroderma Relat Disord 2022;7:24–32.  
-https://doi.org/10.1177/23971983211053246 
-365. Krumm P, Mueller KAL, Klingel K, Kramer U, Horger MS, Zitzelsberger T, et al. 
-Cardiovascular magnetic resonance patterns of biopsy proven cardiac involvement 
-in systemic sclerosis. J Cardiovasc Magn Reson 2016;18:70. https://doi.org/10.1186/ 
-s12968-016-0289-3 
-366. De Luca G, Campochiaro C, De Santis M, Sartorelli S, Peretto G, Sala S, et al. Systemic 
-sclerosis myocarditis has unique clinical, histological and prognostic features: a comparative histological analysis. Rheumatology (Oxford) 2020;59:2523–33. https://doi. 
-org/10.1093/rheumatology/kez658 
-367. Ferri C, Valentini G, Cozzi F, Sebastiani M, Michelassi C, La Montagna G, et al. Systemic 
-sclerosis: demographic, clinical, and serologic features and survival in 1,012 Italian
-
-
-<!-- PAGE 83 -->
-
-### Page 83
-
-patients. Medicine (Baltimore) 2002;81:139–53. https://doi.org/10.1097/00005792- 
-200203000-00004 
-368. Bruni C, Buch MH, Djokovic A, De Luca G, Dumitru RB, Giollo A, et al. Consensus on 
-the assessment of systemic sclerosis-associated primary heart involvement: World 
-Scleroderma Foundation/Heart Failure Association guidance on screening, diagnosis, 
-and follow-up assessment. J Scleroderma Relat Disord 2023;8:169–82. https://doi.org/ 
-10.1177/23971983231163413 
-369. Fairley JL, Wicks I, Peters S, Day J. Defining cardiac involvement in idiopathic inflammatory myopathies: a systematic review. Rheumatology (Oxford) 2021;61:103–20. https:// 
-doi.org/10.1093/rheumatology/keab573 
-370. Dankó K, Ponyi A, Constantin T, Borgulya G, Szegedi G. Long-term survival of patients 
-with idiopathic inflammatory myopathies according to clinical features: a longitudinal 
-study of 162 cases. Medicine (Baltimore) 2004;83:35–42. https://doi.org/10.1097/01. 
-md.0000109755.65914.5e 
-371. Allanore Y, Vignaux O, Arnaud L, Puéchal X, Pavy S, Duboc D, et al. Effects of corticosteroids and immunosuppressors on idiopathic inflammatory myopathy related 
-myocarditis evaluated by magnetic resonance imaging. Ann Rheum Dis 2006;65: 
-249–52. https://doi.org/10.1136/ard.2005.038679 
-372. Zhang L, Wang G, Ma L, Zu N. Cardiac involvement in adult polymyositis or dermatomyositis: a systematic review. Clin Cardiol 2012;35:686–91. https://doi.org/10.1002/clc. 
-22026 
-373. Groh M, Masciocco G, Kirchner E, Kristen A, Pellegrini C, Varnous S, et al. Heart transplantation in patients with eosinophilic granulomatosis with polyangiitis (Churg– 
-Strauss syndrome). J Heart Lung Transplant 2014;33:842–50. https://doi.org/10.1016/ 
-j.healun.2014.02.023 
-374. Bojkova D, Wagner JUG, Shumliakivska M, Aslan GS, Saleem U, Hansen A, et al. 
-SARS-CoV-2 infects and induces cytotoxic effects in human cardiomyocytes. 
-Cardiovasc Res 2020;116:2207–15. https://doi.org/10.1093/cvr/cvaa267 
-375. Peretto G, Villatore A, Rizzo S, Esposito A, De Luca G, Palmisano A, et al. The spectrum of COVID-19-associated myocarditis: a patient-tailored multidisciplinary approach. J Clin Med 2021;10:1974. https://doi.org/10.3390/jcm10091974 
-376. Weckbach LT, Curta A, Bieber S, Kraechan A, Brado J, Hellmuth JC, et al. Myocardial 
-inflammation and dysfunction in COVID-19-associated myocardial injury. Circ 
-Cardiovasc Imaging 2021;14:e012220. https://doi.org/10.1161/CIRCIMAGING.120. 
-011713 
-377. Basso C, Leone O, Rizzo S, De Gaspari M, van der Wal A, Aubry M-C, et al. 
-Pathological features of COVID-19-associated myocardial injury: a multicentre cardiovascular pathology study. Eur Heart J 2020;41:3827–35. https://doi.org/10.1093/ 
-eurheartj/ehaa664 
-378. Halushka MK, Vander Heide RS. Myocarditis is rare in COVID-19 autopsies: cardiovascular findings across 277 postmortem examinations. Cardiovasc Pathol 2021;50: 
-107300. https://doi.org/10.1016/j.carpath.2020.107300 
-379. Lindner D, Fitzek A, Bräuninger H, Aleshcheva G, Edler C, Meissner K, et al. 
-Association of cardiac infection with SARS-CoV-2 in confirmed COVID-19 autopsy 
-cases. JAMA Cardiol 2020;5:1281–5. https://doi.org/10.1001/jamacardio.2020.3551 
-380. Aquaro GD, Licordari R, Todiere G, Ianni U, Dellegrotaglie S, Restivo L, et al. Incidence 
-of acute myocarditis and pericarditis during the coronavirus disease 2019 pandemic: 
-comparison with the prepandemic period. J Cardiovasc Med (Hagerstown) 2022;23: 
-447–53. https://doi.org/10.2459/JCM.0000000000001330 
-381. Boehmer TK, Kompaniyets L, Lavery AM, Hsu J, Ko JY, Yusuf H, et al. Association between COVID-19 and myocarditis using hospital-based administrative data—United 
-States, March 2020–January 2021. MMWR Morb Mortal Wkly Rep 2021;70:1228–32.  
-https://doi.org/10.15585/mmwr.mm7035e5 
-382. Daniels CJ, Rajpal S, Greenshields JT, Rosenthal GL, Chung EH, Terrin M, et al. 
-Prevalence of clinical and subclinical myocarditis in competitive athletes with recent 
-SARS-CoV-2 infection: results from the big ten COVID-19 cardiac registry. JAMA 
-Cardiol 2021;6:1078–87. https://doi.org/10.1001/jamacardio.2021.2065 
-383. Cavalli G, De Luca G, Campochiaro C, Della-Torre E, Ripa M, Canetti D, et al. 
-Interleukin-1 blockade with high-dose anakinra in patients with COVID-19, acute respiratory distress syndrome, and hyperinflammation: a retrospective cohort study. 
-Lancet Rheumatol 2020;2:e325–31. https://doi.org/10.1016/S2665-9913(20)30127-2 
-384. REMAP-CAP Investigators; Gordon AC, Mouncey PR, Al-Beidh F, Rowan KM, Nichol 
-AD, et al. Interleukin-6 receptor antagonists in critically ill patients with Covid-19. N 
-Engl J Med 2021;384:1491–502. https://doi.org/10.1056/NEJMoa2100433 
-385. Gupta S, Wang W, Hayek SS, Chan L, Mathews KS, Melamed ML, et al. Association 
-between early treatment with tocilizumab and mortality among critically ill patients 
-with COVID-19. JAMA Intern Med 2021;181:41–51. https://doi.org/10.1001/ 
-jamainternmed.2020.6252 
-386. Klingel K, Hohenadl C, Canu A, Albrecht M, Seemann M, Mall G, et al. Ongoing 
-enterovirus-induced myocarditis is associated with persistent heart muscle infection: 
-quantitative analysis of virus replication, tissue damage, and inflammation. Proc Natl 
-Acad Sci U S A 1992;89:314–8. https://doi.org/10.1073/pnas.89.1.314 
-387. Schowengerdt KO, Ni J, Denfield SW, Gajarski RJ, Bowles NE, Rosenthal G, et al. 
-Association of parvovirus B19 genome in children with myocarditis and cardiac allograft rejection: diagnosis using the polymerase chain reaction. Circulation 1997;96: 
-3549–54. https://doi.org/10.1161/01.cir.96.10.3549 
-388. Bock C-T, Klingel K, Kandolf R. Human parvovirus B19-associated myocarditis. N Engl J 
-Med 2010;362:1248–9. https://doi.org/10.1056/NEJMc0911362 
-389. Huang C-H, Vallejo JG, Kollias G, Mann DL. Role of the innate immune system in acute 
-viral myocarditis. Basic Res Cardiol 2009;104:228–37. https://doi.org/10.1007/s00395- 
-008-0765-5 
-390. Corsten MF, Papageorgiou A, Verhesen W, Carai P, Lindow M, Obad S, et al. 
-MicroRNA profiling identifies microRNA-155 as an adverse mediator of cardiac injury 
-and dysfunction during acute viral myocarditis. Circ Res 2012;111:415–25. https://doi. 
-org/10.1161/CIRCRESAHA.112.267443 
-391. Goldberg L, Tirosh-Wagner T, Vardi A, Abbas H, Pillar N, Shomron N, et al. Circulating 
-microRNAs: a potential biomarker for cardiac damage, inflammatory response, and 
-left ventricular function recovery in pediatric viral myocarditis. J Cardiovasc Transl 
-Res 2018;11:319–28. https://doi.org/10.1007/s12265-018-9814-0 
-392. Mueller KAL, Mueller II, Eppler D, Zuern CS, Seizer P, Kramer U, et al. Clinical and 
-histopathological features of patients with systemic sclerosis undergoing endomyocardial biopsy. PLoS One 2015;10:e0126707. https://doi.org/10.1371/journal.pone. 
-0126707 
-393. Wakafuji S, Okada R. Twenty year autopsy statistics of myocarditis incidence in Japan. 
-Jpn Circ J 1986;50:1288–93. https://doi.org/10.1253/jcj.50.1288 
-394. Vaideeswar P, Cooper LT. Giant cell myocarditis: clinical and pathological features in 
-an Indian population. Cardiovasc Pathol 2013;22:70–4. https://doi.org/10.1016/j. 
-carpath.2012.06.003 
-395. Caforio ALP, Angelini A, Blank M, Shani A, Kivity S, Goddard G, et al. Passive transfer of 
-affinity-purified anti-heart autoantibodies (AHA) from sera of patients with myocarditis induces experimental myocarditis in mice. Int J Cardiol 2015;179:166–77. https://doi. 
-org/10.1016/j.ijcard.2014.10.165 
-396. Kandolin R, Lehtonen J, Kupari M. Cardiac sarcoidosis and giant cell myocarditis as 
-causes of atrioventricular block in young and middle-aged adults. Circ Arrhythm 
-Electrophysiol 2011;4:303–9. https://doi.org/10.1161/CIRCEP.110.959254 
-397. Bozkurt B, Colvin M, Cook J, Cooper LT, Deswal A, Fonarow GC, et al. Current diagnostic and treatment strategies for specific dilated cardiomyopathies: a scientific statement from the American Heart Association. Circulation 2016;134:e579–e646. https:// 
-doi.org/10.1161/CIR.0000000000000455 
-398. Liu S, Zheng L, Shen L, Wu L, Yao Y. Clinical identification and characteristic analysis of 
-giant cell myocarditis in 12 cases. Front Cardiovasc Med 2021;8:649094. https://doi.org/ 
-10.3389/fcvm.2021.649094 
-399. Okura Y, Dec GW, Hare JM, Kodama M, Berry GJ, Tazelaar HD, et al. A clinical and 
-histopathologic comparison of cardiac sarcoidosis and idiopathic giant cell myocarditis. 
-J Am Coll Cardiol 2003;41:322–9. https://doi.org/10.1016/s0735-1097(02)02715-8 
-400. Berthelot-Richer M, O’Connor K, Bernier M, Trahan S, Couture C, Dubois M, et al. 
-When should we consider the diagnosis of giant cell myocarditis? Revisiting ‘classic’ 
-echocardiographic and clinical features of this rare pathology. Exp Clin Transplant 
-2014;12:565–8. https://doi.org/10.6002/ect.2013.0218 
-401. Ekström K, Lehtonen J, Kandolin R, Räisänen-Sokolowski A, Salmenkivi K, Kupari M. 
-Long-term outcome and its predictors in giant cell myocarditis. Eur J Heart Fail 
-2016;18:1452–8. https://doi.org/10.1002/ejhf.606 
-402. Cooper LT, Baughman KL, Feldman AM, Frustaci A, Jessup M, Kuhl U, et al. The role of 
-endomyocardial biopsy in the management of cardiovascular disease: a scientific statement from the American Heart Association, the American College of Cardiology, and 
-the European Society of Cardiology. Endorsed by the Heart Failure Society of America 
-and the Heart Failure Association of the European Society of Cardiology. J Am Coll 
-Cardiol 2007;50:1914–31. https://doi.org/10.1016/j.jacc.2007.09.008 
-403. Cooper LT, Hare JM, Tazelaar HD, Edwards WD, Starling RC, Deng MC, et al. 
-Usefulness of immunosuppression for giant cell myocarditis. Am J Cardiol 2008;102: 
-1535–9. https://doi.org/10.1016/j.amjcard.2008.07.041 
-404. Patel PM, Saxena A, Wood CT, O’Malley TJ, Maynes EJ, Entwistle JWC, et al. 
-Outcomes of mechanical circulatory support for giant cell myocarditis: a systematic 
-review. J Clin Med 2020;9:3905. https://doi.org/10.3390/jcm9123905 
-405. Bobbio E, Björkenstam M, Nwaru BI, Giallauria F, Hessman E, Bergh N, et al. Short- and 
-long-term outcomes after heart transplantation in cardiac sarcoidosis and giant-cell 
-myocarditis: a systematic review and meta-analysis. Clin Res Cardiol 2022;111: 
-125–40. https://doi.org/10.1007/s00392-021-01920-0 
-406. Baughman RP, Teirstein AS, Judson MA, Rossman MD, Yeager H, Bresnitz EA, et al. 
-Clinical characteristics of patients in a case control study of sarcoidosis. Am J Respir 
-Crit Care Med 2001;164:1885–9. https://doi.org/10.1164/ajrccm.164.10.2104046 
-407. Lehtonen J, Uusitalo V, Pöyhönen P, Mäyränpää MI, Kupari M. Cardiac sarcoidosis: 
-phenotypes, diagnosis, treatment, and prognosis. Eur Heart J 2023;44:1495–510.  
-https://doi.org/10.1093/eurheartj/ehad067 
-408. Okasha O, Kazmirczak F, Chen K-HA, Farzaneh-Far A, Shenoy C. Myocardial involvement in patients with histologically diagnosed cardiac sarcoidosis: a systematic review 
-and meta-analysis of gross pathological images from autopsy or cardiac transplantation 
-cases. J Am Heart Assoc 2019;8:e011253. https://doi.org/10.1161/JAHA.118.011253 
-409. Iwai K, Tachibana T, Takemura T, Matsui Y, Kitalchi M, Kawabata Y. Pathological studies on sarcoidosis autopsy. I. Epidemiological features of 320 cases in Japan. Acta Pathol 
-Jpn 1993;43:372–6. https://doi.org/10.1111/j.1440-1827.1993.tb01148.x  
-ESC Guidelines                                                                                                                                                                                               83
-
-
-<!-- PAGE 84 -->
-
-### Page 84
-
-410. Perry A, Vuitch F. Causes of death in patients with sarcoidosis. A morphologic study of 
-38 autopsies with clinicopathologic correlations. Arch Pathol Lab Med 1995;119: 
-167–72. 
-411. Philips B, Madhavan S, James CA, te Riele ASJM, Murray B, Tichnell C, et al. 
-Arrhythmogenic right ventricular dysplasia/cardiomyopathy and cardiac sarcoidosis: 
-distinguishing features when the diagnosis is unclear. Circ Arrhythm Electrophysiol 
-2014;7:230–6. https://doi.org/10.1161/CIRCEP.113.000932 
-412. Gasperetti A, Rossi VA, Chiodini A, Casella M, Costa S, Akdis D, et al. Differentiating 
-hereditary arrhythmogenic right ventricular cardiomyopathy from cardiac sarcoidosis 
-fulfilling 2010 ARVC task force criteria. Heart Rhythm 2021;18:231–8. https://doi.org/ 
-10.1016/j.hrthm.2020.09.015 
-413. Corrado D, Perazzolo Marra M, Zorzi A, Beffagna G, Cipriani A, Lazzari MD, et al. 
-Diagnosis of arrhythmogenic cardiomyopathy: the Padua criteria. Int J Cardiol 2020; 
-319:106–14. https://doi.org/10.1016/j.ijcard.2020.06.005 
-414. Bagwan IN, Hooper LVB, Sheppard MN. Cardiac sarcoidosis and sudden death. The 
-heart may look normal or mimic other cardiomyopathies. Virchows Arch 2011;458: 
-671–8. https://doi.org/10.1007/s00428-010-1003-8 
-415. Athwal PSS, Chhikara S, Ismail MF, Ismail K, Ogugua FM, Kazmirczak F, et al. 
-Cardiovascular magnetic resonance imaging phenotypes and long-term outcomes in 
-patients with suspected cardiac sarcoidosis. JAMA Cardiol 2022;7:1057–66. https:// 
-doi.org/10.1001/jamacardio.2022.2981 
-416. Azoulay L-D, Waintraub X, Haroche J, Amoura Z, Cohen Aubart F. Factors associated 
-with implantable cardioverter defibrillators appropriate therapy in cardiac sarcoidosis: 
-a meta-analysis. Sarcoidosis Vasc Diffuse Lung Dis 2020;37:17–23. https://doi.org/10. 
-36141/svdld.v37i1.8271 
-417. Sharma R, Kouranos V, Cooper LT, Metra M, Ristic A, Heidecker B, et al. Management 
-of cardiac sarcoidosis. Eur Heart J 2024;45:2697–726. https://doi.org/10.1093/ 
-eurheartj/ehae356 
-418. Selan JC, Michaelson M, Fanburg BL, Estes NAM. Evaluation and management of heart 
-rhythm disturbances due to cardiac sarcoidosis. Heart Lung Circ 2014;23:1100–9.  
-https://doi.org/10.1016/j.hlc.2014.07.065 
-419. Ardehali H, Howard DL, Hariri A, Qasim A, Hare JM, Baughman KL, et al. A positive 
-endomyocardial biopsy result for sarcoid is associated with poor prognosis in patients 
-with initially unexplained cardiomyopathy. Am Heart J 2005;150:459–63. https://doi. 
-org/10.1016/j.ahj.2004.10.006 
-420. Kouranos V, Tzelepis GE, Rapti A, Mavrogeni S, Aggeli K, Douskou M, et al. 
-Complementary role of CMR to conventional screening in the diagnosis and prognosis 
-of cardiac sarcoidosis. JACC Cardiovasc Imaging 2017;10:1437–47. https://doi.org/10. 
-1016/j.jcmg.2016.11.019 
-421. Adhaduk M, Paudel B, Khalid MU, Ashwath M, Mansour S, Liu K. Comparison of cardiac magnetic resonance imaging and fluorodeoxyglucose positron emission tomography in the assessment of cardiac sarcoidosis: meta-analysis and systematic review. 
-J Nucl Cardiol 2023;30:1574–87. https://doi.org/10.1007/s12350-022-03129-8 
-422. Orii M, Tanimoto T, Ota S, Takagi H, Tanaka R, Fujiwara J, et al. Diagnostic accuracy of 
-cardiac magnetic resonance imaging for cardiac sarcoidosis in complete heart block patients implanted with magnetic resonance-conditional pacemaker. J Cardiol 2020;76: 
-191–7. https://doi.org/10.1016/j.jjcc.2020.02.014 
-423. Stanton KM, Ganigara M, Corte P, Celermajer DS, McGuire MA, Torzillo PJ, et al. The 
-utility of cardiac magnetic resonance imaging in the diagnosis of cardiac sarcoidosis. 
-Heart Lung Circ 2017;26:1191–9. https://doi.org/10.1016/j.hlc.2017.02.021 
-424. Patel MR, Cawley PJ, Heitner JF, Klem I, Parker MA, Jaroudi WA, et al. Detection of 
-myocardial damage in patients with sarcoidosis. Circulation 2009;120:1969–77.  
-https://doi.org/10.1161/CIRCULATIONAHA.109.851352 
-425. Zhang J, Li Y, Xu Q, Xu B, Wang H. Cardiac magnetic resonance imaging for diagnosis 
-of cardiac sarcoidosis: a meta-analysis. Can Respir J 2018;2018:7457369. https://doi. 
-org/10.1155/2018/7457369 
-426. Youssef G, Leung E, Mylonas I, Nery P, Williams K, Wisenberg G, et al. The use of 
-18F-FDG PET in the diagnosis of cardiac sarcoidosis: a systematic review and metaanalysis including the Ontario experience. J Nucl Med 2012;53:241–8. https://doi.org/10. 
-2967/jnumed.111.090662 
-427. Dweck MR, Abgral R, Trivieri MG, Robson PM, Karakatsanis N, Mani V, et al. Hybrid 
-magnetic resonance imaging and positron emission tomography with fluorodeoxyglucose to diagnose active cardiac sarcoidosis. JACC Cardiovasc Imaging 2018;11:94–107.  
-https://doi.org/10.1016/j.jcmg.2017.02.021 
-428. Okumura W, Iwasaki T, Toyama T, Iso T, Arai M, Oriuchi N, et al. Usefulness of fasting 
-18F-FDG PET in identification of cardiac sarcoidosis. J Nucl Med 2004;45:1989–98.  
-https://doi.org/10.2967/jnumed.104.013352 
-429. Vita T, Okada DR, Veillet-Chowdhury M, Bravo PE, Mullins E, Hulten E, et al. 
-Complementary value of cardiac magnetic resonance imaging and positron emission 
-tomography/computed tomography in the assessment of cardiac sarcoidosis. Circ 
-Cardiovasc Imaging 2018;11:e007030. https://doi.org/10.1161/CIRCIMAGING.117. 
-007030 
-430. Agoston-Coldea L, Kouaho S, Sacre K, Dossier A, Escoubet B, Chillon S, et al. High 
-mass (>18 g) of late gadolinium enhancement on CMR imaging is associated with major cardiac events on long-term outcome in patients with biopsy-proven extracardiac 
-sarcoidosis. Int J Cardiol 2016;222:950–6. https://doi.org/10.1016/j.ijcard.2016.07.233 
-431. Greulich S, Deluigi CC, Gloekler S, Wahl A, Zürn C, Kramer U, et al. CMR imaging predicts death and other adverse events in suspected cardiac sarcoidosis. JACC Cardiovasc 
-Imaging 2013;6:501–11. https://doi.org/10.1016/j.jcmg.2012.10.021 
-432. Nadel J, Lancefield T, Voskoboinik A, Taylor AJ. Late gadolinium enhancement identified with cardiac magnetic resonance imaging in sarcoidosis patients is associated with 
-long-term ventricular arrhythmia and sudden cardiac death. Eur Heart J Cardiovasc 
-Imaging 2015;16:634–41. https://doi.org/10.1093/ehjci/jeu294 
-433. Murtagh G, Laffin LJ, Beshai JF, Maffessanti F, Bonham CA, Patel AV, et al. Prognosis of 
-myocardial damage in sarcoidosis patients with preserved left ventricular ejection fraction: risk stratification using cardiovascular magnetic resonance. Circ Cardiovasc Imaging 
-2016;9:e003738. https://doi.org/10.1161/CIRCIMAGING.115.003738 
-434. Coleman GC, Shaw PW, Balfour PC, Gonzalez JA, Kramer CM, Patel AR, et al. 
-Prognostic value of myocardial scarring on CMR in patients with cardiac sarcoidosis. 
-JACC Cardiovasc Imaging 2017;10:411–20. https://doi.org/10.1016/j.jcmg.2016.05.009 
-435. Smedema J-P, van Geuns R-J, Ector J, Heidbuchel H, Ainslie G, Crijns HJGM. Right ventricular involvement and the extent of left ventricular enhancement with magnetic resonance predict adverse outcome in pulmonary sarcoidosis. ESC Heart Fail 2018;5: 
-157–71. https://doi.org/10.1002/ehf2.12201 
-436. Velangi PS, Chen K-HA, Kazmirczak F, Okasha O, von Wald L, Roukoz H, et al. Right 
-ventricular abnormalities on cardiovascular magnetic resonance imaging in patients 
-with sarcoidosis. JACC Cardiovasc Imaging 2020;13:1395–405. https://doi.org/10. 
-1016/j.jcmg.2019.12.011 
-437. Greulich S, Kitterer D, Latus J, Aguor E, Steubing H, Kaesemann P, et al. 
-Comprehensive cardiovascular magnetic resonance assessment in patients with sarcoidosis and preserved left ventricular ejection fraction. Circ Cardiovasc Imaging 
-2016;9:e005022. https://doi.org/10.1161/CIRCIMAGING.116.005022 
-438. Puntmann VO, Isted A, Hinojar R, Foote L, Carr-White G, Nagel E. T1 and T2 mapping 
-in recognition of early cardiac involvement in systemic sarcoidosis. Radiology 2017;285: 
-63–72. https://doi.org/10.1148/radiol.2017162732 
-439. Crouser ED, Ruden E, Julian MW, Raman SV. Resolution of abnormal cardiac MRI T2 
-signal following immune suppression for cardiac sarcoidosis. J Investig Med 2016;64: 
-1148–50. https://doi.org/10.1136/jim-2016-000144 
-440. Greulich S, Gatidis S, Gräni C, Blankstein R, Glatthaar A, Mezger K, et al. Hybrid cardiac 
-magnetic resonance/fluorodeoxyglucose positron emission tomography to differentiate active from chronic cardiac sarcoidosis. JACC Cardiovasc Imaging 2022;15:445–56.  
-https://doi.org/10.1016/j.jcmg.2021.08.018 
-441. Crouser ED, Ono C, Tran T, He X, Raman SV. Improved detection of cardiac sarcoidosis using magnetic resonance with myocardial T2 mapping. Am J Respir Crit Care Med 
-2014;189:109–12. https://doi.org/10.1164/rccm.201309-1668LE 
-442. Cheung E, Ahmad S, Aitken M, Chan R, Iwanochko RM, Balter M, et al. Combined simultaneous FDG-PET/MRI with T1 and T2 mapping as an imaging biomarker for the 
-diagnosis and prognosis of suspected cardiac sarcoidosis. Eur J Hybrid Imaging 2021; 
-5:24. https://doi.org/10.1186/s41824-021-00119-w 
-443. Wicks EC, Menezes LJ, Barnes A, Mohiddin SA, Sekhri N, Porter JC, et al. Diagnostic 
-accuracy and prognostic value of simultaneous hybrid 18F-fluorodeoxyglucose positron emission tomography/magnetic resonance imaging in cardiac sarcoidosis. Eur 
-Heart J Cardiovasc Imaging 2018;19:757–67. https://doi.org/10.1093/ehjci/jex340 
-444. Aitken M, Davidson M, Chan MV, Urzua Fresno C, Vasquez LI, Huo YR, et al. 
-Prognostic value of cardiac MRI and FDG PET in cardiac sarcoidosis: a systematic review and meta-analysis. Radiology 2023;307:e222483. https://doi.org/10.1148/radiol. 
-222483 
-445. Mc Ardle BA, Birnie DH, Klein R, de Kemp RA, Leung E, Renaud J, et al. Is there an 
-association between clinical presentation and the location and extent of myocardial 
-involvement of cardiac sarcoidosis as assessed by 18F-fluorodoexyglucose positron 
-emission tomography? Circ Cardiovasc Imaging 2013;6:617–26. https://doi.org/10. 
-1161/CIRCIMAGING.112.000289 
-446. Muser D, Santangeli P, Castro SA, Liang JJ, Enriquez A, Werner TJ, et al. Prognostic role 
-of serial quantitative evaluation of 18F-fluorodeoxyglucose uptake by PET/CT in patients with cardiac sarcoidosis presenting with ventricular tachycardia. Eur J Nucl 
-Med Mol Imaging 2018;45:1394–404. https://doi.org/10.1007/s00259-018-4001-8 
-447. Ahmed AI, Abebe AT, Han Y, Alnabelsi T, Agrawal T, Kassi M, et al. The prognostic role 
-of cardiac positron emission tomography imaging in patients with sarcoidosis: a systematic review. J Nucl Cardiol 2021;28:1545–52. https://doi.org/10.1007/s12350-021- 
-02681-z 
-448. Flores RJ, Flaherty KR, Jin Z, Bokhari S. The prognostic value of quantitating and localizing F-18 FDG uptake in cardiac sarcoidosis. J Nucl Cardiol 2020;27:2003–10. https:// 
-doi.org/10.1007/s12350-018-01504-y 
-449. Sperry BW, Tamarappoo BK, Oldan JD, Javed O, Culver DA, Brunken R, et al. 
-Prognostic impact of extent, severity, and heterogeneity of abnormalities on 18F– 
-FDG PET scans for suspected cardiac sarcoidosis. JACC Cardiovasc Imaging 2018;11: 
-336–45. https://doi.org/10.1016/j.jcmg.2017.04.020 
-450. Osborne MT, Hulten EA, Singh A, Waller AH, Bittencourt MS, Stewart GC, et al. 
-Reduction in 18F-fluorodeoxyglucose uptake on serial cardiac positron emission tomography is associated with improved left ventricular ejection fraction in patients with 
-cardiac sarcoidosis. J Nucl Cardiol 2014;21:166–74. https://doi.org/10.1007/s12350- 
-013-9828-6
-
-
-<!-- PAGE 85 -->
-
-### Page 85
-
-451. Birnie D, Beanlands RSB, Nery P, Aaron SD, Culver DA, DeKemp RA, et al. Cardiac 
-sarcoidosis multi-center randomized controlled trial (CHASM CS- RCT). Am Heart J 
-2020;220:246–52. https://doi.org/10.1016/j.ahj.2019.10.003 
-452. Nordenswan H-K, Lehtonen J, Ekström K, Kandolin R, Simonen P, Mäyränpää M, et al. 
-Outcome of cardiac sarcoidosis presenting with high-grade atrioventricular block. Circ 
-Arrhythm 
-Electrophysiol 
-2018;11:e006145. 
-https://doi.org/10.1161/CIRCEP.117. 
-006145 
-453. Halawa A, Jain R, Turagam MK, Kusumoto FM, Woldu HG, Gautam S. Outcome of 
-implantable cardioverter defibrillator in cardiac sarcoidosis: a systematic review and 
-meta-analysis. J Interv Card Electrophysiol 2020;58:233–42. https://doi.org/10.1007/ 
-s10840-020-00705-1 
-454. Schuller JL, Zipse M, Crawford T, Bogun F, Beshai J, Patel AR, et al. Implantable cardioverter defibrillator therapy in patients with cardiac sarcoidosis. J Cardiovasc 
-Electrophysiol 2012;23:925–9. https://doi.org/10.1111/j.1540-8167.2012.02350.x 
-455. Betensky BP, Tschabrunn CM, Zado ES, Goldberg LR, Marchlinski FE, Garcia FC, et al. 
-Long-term follow-up of patients with cardiac sarcoidosis and implantable 
-cardioverter-defibrillators. Heart Rhythm 2012;9:884–91. https://doi.org/10.1016/j. 
-hrthm.2012.02.010 
-456. Franke KB, Marshall H, Kennewell P, Pham H-D, Tully PJ, Rattanakosit T, et al. Risk and 
-predictors of sudden death in cardiac sarcoidosis: a systematic review and 
-meta-analysis. Int J Cardiol 2021;328:130–40. https://doi.org/10.1016/j.ijcard.2020.11. 
-044 
-457. Mathijssen H, Bakker ALM, Balt JC, Akdim F, van Es HW, Veltkamp M, et al. Predictors 
-of appropriate implantable cardiac defibrillator therapy in cardiac sarcoidosis. J 
-Cardiovasc Electrophysiol 2022;33:1272–80. https://doi.org/10.1111/jce.15484 
-458. Crawford T, Mueller G, Sarsam S, Prasitdumrong H, Chaiyen N, Gu X, et al. Magnetic 
-resonance imaging for identifying patients with cardiac sarcoidosis and preserved or 
-mildly reduced left ventricular function at risk of ventricular arrhythmias. Circ 
-Arrhythm Electrophysiol 2014;7:1109–15. https://doi.org/10.1161/CIRCEP.113.000156 
-459. Shafee MA, Fukuda K, Wakayama Y, Nakano M, Kondo M, Hasebe Y, et al. Delayed 
-enhancement on cardiac magnetic resonance imaging is a poor prognostic factor in patients with cardiac sarcoidosis. J Cardiol 2012;60:448–53. https://doi.org/10.1016/j.jjcc. 
-2012.08.002 
-460. Mehta D, Mori N, Goldbarg SH, Lubitz S, Wisnivesky JP, Teirstein A. Primary prevention of sudden cardiac death in silent cardiac sarcoidosis: role of programmed ventricular stimulation. Circ Arrhythm Electrophysiol 2011;4:43–8. https://doi.org/10.1161/ 
-CIRCEP.110.958322 
-461. Okada DR, Smith J, Derakhshan A, Gowani Z, Zimmerman SL, Misra S, et al. 
-Electrophysiology study for risk stratification in patients with cardiac sarcoidosis and 
-abnormal cardiac imaging. Int J Cardiol Heart Vasc 2019;23:100342. https://doi.org/10. 
-1016/j.ijcha.2019.03.002 
-462. Adhaduk M, Paudel B, Liu K, Ashwath M, Giudici M. The role of electrophysiology 
-study in risk stratification of cardiac sarcoidosis patients: meta-analyses and systemic 
-review. Int J Cardiol 2022;349:55–61. https://doi.org/10.1016/j.ijcard.2021.11.061 
-463. Zipse MM, Tzou WS, Schuller JL, Aleong RG, Varosy PD, Tompkins C, et al. 
-Electrophysiologic testing for diagnostic evaluation and risk stratification in patients 
-with suspected cardiac sarcoidosis with preserved left and right ventricular systolic 
-function. J Cardiovasc Electrophysiol 2019;30:1939–48. https://doi.org/10.1111/jce. 
-14058 
-464. Tandon P, Mosleh T, Mustafa A, Miodownik H, Miller M, Morgenthau AS. Utility of 
-electrophysiologic testing for sudden death risk stratification in cardiac sarcoidosis patients with mildly impaired left ventricular function. Respir Med 2022;191:106712.  
-https://doi.org/10.1016/j.rmed.2021.106712 
-465. Blankstein R, Osborne M, Naya M, Waller A, Kim CK, Murthy VL, et al. Cardiac positron emission tomography enhances prognostic assessments of patients with suspected cardiac sarcoidosis. J Am Coll Cardiol 2014;63:329–36. https://doi.org/10. 
-1016/j.jacc.2013.09.022 
-466. Kron J, Sauer W, Schuller J, Bogun F, Crawford T, Sarsam S, et al. Efficacy and safety of 
-implantable cardiac defibrillators for treatment of ventricular arrhythmias in patients 
-with cardiac sarcoidosis. Europace 2013;15:347–54. https://doi.org/10.1093/europace/ 
-eus316 
-467. Stevenson A, Bray JJH, Tregidgo L, Ahmad M, Sharma A, Ng A, et al. Prognostic value of 
-late gadolinium enhancement detected on cardiac magnetic resonance in cardiac sarcoidosis. JACC Cardiovasc Imaging 2023;16:345–57. https://doi.org/10.1016/j.jcmg.2022. 
-10.018 
-468. Veronese G, Ammirati E, Brambatti M, Merlo M, Cipriani M, Potena L, et al. Viral genome search in myocardium of patients with fulminant myocarditis. Eur J Heart Fail 
-2020;22:1277–80. https://doi.org/10.1002/ejhf.1738 
-469. Sinagra G, Porcari A, Gentile P, Artico J, Fabris E, Bussani R, et al. Viral presence-guided 
-immunomodulation in lymphocytic myocarditis: an update. Eur J Heart Fail 2021;23: 
-211–6. https://doi.org/10.1002/ejhf.1969 
-470. Moimas S, Zacchigna S, Merlo M, Buiatti A, Anzini M, Dreas L, et al. Idiopathic dilated 
-cardiomyopathy and persistent viral infection: lack of association in a controlled study 
-using a quantitative assay. Heart Lung Circ 2012;21:787–93. https://doi.org/10.1016/j. 
-hlc.2012.07.013 
-471. Stewart GC, Lopez-Molina J, Gottumukkala RVSRK, Rosner GF, Anello MS, Hecht JL, 
-et al. Myocardial parvovirus B19 persistence: lack of association with clinicopathologic 
-phenotype in adults with heart failure. Circ Heart Fail 2011;4:71–8. https://doi.org/10. 
-1161/CIRCHEARTFAILURE.110.958249 
-472. Robinson J, Hartling L, Vandermeer B, Sebastianski M, Klassen TP. Intravenous immunoglobulin for presumed viral myocarditis in children and adults. Cochrane 
-Database Syst Rev 2020;8:CD004370. https://doi.org/10.1002/14651858.CD004370. 
-pub4 
-473. Kühl U, Pauschinger M, Schwimmbeck PL, Seeberg B, Lober C, Noutsias M, et al. 
-Interferon-β treatment eliminates cardiotropic viruses and improves left ventricular 
-function in patients with myocardial persistence of viral genomes and left ventricular dysfunction. Circulation 2003;107:2793–8. https://doi.org/10.1161/01.CIR.0000072766. 
-67150.51 
-474. Kühl U, Lassner D, von Schlippenbach J, Poller W, Schultheiss H-P. Interferon-beta improves survival in enterovirus-associated cardiomyopathy. J Am Coll Cardiol 2012;60: 
-1295–6. https://doi.org/10.1016/j.jacc.2012.06.026 
-475. Schultheiss H-P, Bock C-T, Aleshcheva G, Baumeier C, Poller W, Escher F. 
-Interferon-β suppresses transcriptionally active parvovirus B19 infection in viral cardiomyopathy: a subgroup analysis of the BICC-trial. Viruses 2022;14:444. https://doi. 
-org/10.3390/v14020444 
-476. Cobas M, Abbo L, Santos M, Baccini-Jauregui C, Pham S. Successful management of 
-fulminant influenza A subtype H1N1 myocarditis. BMJ Case Rep 2010;2010: 
-bcr0220102763. https://doi.org/10.1136/bcr.02.2010.2763 
-477. Baik SH, Jeong HS, Kim SJ, Yoon YK, Sohn JW, Kim MJ. A case of influenza associated 
-fulminant myocarditis successfully treated with intravenous peramivir. Infect 
-Chemother 2015;47:272–7. https://doi.org/10.3947/ic.2015.47.4.272 
-478. Jahns F-P, Ben-Hamouda N, Kirsch M, Roumy A, Liaudet L. Intravenous zanamivir for 
-influenza myocarditis and enteral malabsorption. Crit Care 2018;22:332. https://doi. 
-org/10.1186/s13054-018-2263-y 
-479. Mazzitelli M, Garofalo E, Bruni A, Barreca GS, Quirino A, Giancotti A, et al. Severe 
-myocarditis due to influenza A(H1N1)pdm09 viral infection in a young woman successfully treated with intravenous zanamivir: a case report. Clin Case Rep 2019;7: 
-2336–40. https://doi.org/10.1002/ccr3.2499 
-480. Yoshimizu N, Tominaga T, Ito T, Nishida Y, Wada Y, Sohmiya K, et al. Repetitive fulminant influenza myocarditis requiring the use of circulatory assist devices. Intern Med 
-2014;53:109–14. https://doi.org/10.2169/internalmedicine.53.1117 
-481. Khouzam RN, Parizianu C, Hafiz AM, Chawla S, Schwartz R. Fulminant myocarditis associated with novel H1N1 influenza A. Heart Lung 2011;40:566–8. https://doi.org/10. 
-1016/j.hrtlng.2011.01.004 
-482. Ito N, Sato M, Momoi N, Aoyagi Y, Endo K, Chishiki M, et al. Influenza A H1N1 
-pdm09-associated myocarditis during zanamivir therapy. Pediatr Int 2015;57:1172–4.  
-https://doi.org/10.1111/ped.12712 
-483. Pugliese A, Isnardi D, Saini A, Scarabelli T, Raddino R, Torre D. Impact of highly active 
-antiretroviral therapy in HIV-positive patients with cardiac involvement. J Infect 2000; 
-40:282–4. https://doi.org/10.1053/jinf.2000.0672 
-484. Steere AC, Batsford WP, Weinberg M, Alexander J, Berger HJ, Wolfson S, et al. Lyme 
-carditis: cardiac abnormalities of Lyme disease. Ann Intern Med 1980;93:8–16. https:// 
-doi.org/10.7326/0003-4819-93-1-8 
-485. Besant G, Wan D, Yeung C, Blakely C, Branscombe P, Suarez-Fuster L, et al. Suspicious 
-index in Lyme carditis: systematic review and proposed new risk score. Clin Cardiol 
-2018;41:1611–6. https://doi.org/10.1002/clc.23102 
-486. Lantos PM, Rumbaugh J, Bockenstedt LK, Falck-Ytter YT, Aguero-Rosenfeld ME, 
-Auwaerter PG, et al. Clinical Practice Guidelines by the Infectious Diseases Society 
-of America (IDSA), American Academy of Neurology (AAN), and American 
-College of Rheumatology (ACR): 2020 guidelines for the prevention, diagnosis, and 
-treatment of Lyme disease. Arthritis Care Res (Hoboken) 2021;73:1–9. https://doi.org/ 
-10.1002/acr.24495 
-487. Costello JM, Alexander ME, Greco KM, Perez-Atayde AR, Laussen PC. Lyme carditis in 
-children: presentation, predictive factors, and clinical course. Pediatrics 2009;123: 
-e835–841. https://doi.org/10.1542/peds.2008-3058 
-488. Nunes MCP, Badano LP, Marin-Neto JA, Edvardsen T, Fernández-Golfín C, 
-Bucciarelli-Ducci C, et al. Multimodality imaging evaluation of Chagas disease: an expert consensus of Brazilian Cardiovascular Imaging Department (DIC) and the 
-European Association of Cardiovascular Imaging (EACVI). Eur Heart J Cardiovasc 
-Imaging 2018;19:459–60. https://doi.org/10.1093/ehjci/jex154 
-489. Morillo CA, Marin-Neto JA, Avezum A, Sosa-Estani S, Rassi A, Rosas F, et al. 
-Randomized trial of benznidazole for chronic Chagas’ cardiomyopathy. N Engl J Med 
-2015;373:1295–306. https://doi.org/10.1056/NEJMoa1507574 
-490. Pérez-Molina JA, Pérez-Ayala A, Moreno S, Fernández-González MC, Zamora J, 
-López-Velez R. Use of benznidazole to treat chronic Chagas’ disease: a systematic review with a meta-analysis. J Antimicrob Chemother 2009;64:1139–47. https://doi.org/10. 
-1093/jac/dkp357 
-491. Viotti R, Vigliano C, Lococo B, Bertocchi G, Petti M, Alvarez MG, et al. Long-term cardiac outcomes of treating chronic Chagas disease with benznidazole versus no treatment: a nonrandomized trial. Ann Intern Med 2006;144:724–34. https://doi.org/10. 
-7326/0003-4819-144-10-200605160-00006  
-ESC Guidelines                                                                                                                                                                                               85
-
-
-<!-- PAGE 86 -->
-
-### Page 86
-
-492. Chadalawada S, Rassi A, Samara O, Monzon A, Gudapati D, Vargas Barahona L, et al. 
-Mortality risk in chronic Chagas cardiomyopathy: a systematic review and 
-meta-analysis. ESC Heart Fail 2021;8:5466–81. https://doi.org/10.1002/ehf2.13648 
-493. Carmo AAL, de Sousa MR, Agudelo JF, Boersma E, Rocha MOC, Ribeiro ALP, et al. 
-Implantable cardioverter-defibrillator in Chagas heart disease: a systematic review 
-and meta-analysis of observational studies. Int J Cardiol 2018;267:88–93. https://doi. 
-org/10.1016/j.ijcard.2018.05.091 
-494. Rassi FM, Minohara L, Rassi A, Correia LCL, Marin-Neto JA, Rassi A, et al. Systematic 
-review and meta-analysis of clinical outcome after implantable cardioverter- 
-defibrillator therapy in patients with Chagas heart disease. JACC Clin Electrophysiol 
-2019;5:1213–23. https://doi.org/10.1016/j.jacep.2019.07.003 
-495. Mahmood SS, Fradley MG, Cohen JV, Nohria A, Reynolds KL, Heinzerling LM, et al. 
-Myocarditis in patients treated with immune checkpoint inhibitors. J Am Coll Cardiol 
-2018;71:1755–64. https://doi.org/10.1016/j.jacc.2018.02.037 
-496. Salem J-E, Manouchehri A, Moey M, Lebrun-Vignes B, Bastarache L, Pariente A, et al. 
-Cardiovascular toxicities associated with immune checkpoint inhibitors: an observational, retrospective, pharmacovigilance study. Lancet Oncol 2018;19:1579–89.  
-https://doi.org/10.1016/S1470-2045(18)30608-9 
-497. Suzuki Y, Kaneko H, Tamura Y, Okada A, Fujiu K, Michihata N, et al. Cardiovascular 
-events after the initiation of immune checkpoint inhibitors. Heliyon 2023;9:e16373.  
-https://doi.org/10.1016/j.heliyon.2023.e16373 
-498. Nguyen LS, Cooper LT, Kerneis M, Funck-Brentano C, Silvain J, Brechot N, et al. 
-Systematic analysis of drug-associated myocarditis reported in the World Health 
-Organization pharmacovigilance database. Nat Commun 2022;13:25. https://doi.org/ 
-10.1038/s41467-021-27631-8 
-499. Liu M, Cheng X, Ni R, Zheng B, Huang S, Yang J. Cardiotoxicity of immune checkpoint 
-inhibitors: a frequency network meta-analysis. Front Immunol 2022;13:1006860.  
-https://doi.org/10.3389/fimmu.2022.1006860 
-500. Pradhan R, Nautiyal A, Singh S. Diagnosis of immune checkpoint inhibitor-associated 
-myocarditis: a systematic review. Int J Cardiol 2019;296:113–21. https://doi.org/10. 
-1016/j.ijcard.2019.07.025 
-501. Lyon AR, López-Fernández T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, et al. 
-European Hematology Association (EHA), the European Society for Therapeutic 
-Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society 
-(IC-OS). Eur Heart J 2022;43:4229–361. https://doi.org/10.1093/eurheartj/ehac244 
-502. Salem J-E, Bretagne M, Abbar B, Leonard-Louis S, Ederhy S, Redheuil A, et al. 
-Abatacept/ruxolitinib and screening for concomitant respiratory muscle failure to mitigate fatality of immune-checkpoint inhibitor myocarditis. Cancer Discov 2023;13: 
-1100–15. https://doi.org/10.1158/2159-8290.CD-22-1180 
-503. L’Orphelin J-M, Dollalille C, Akroun J, Alexandre J, Dompmartin A. Cardiovascular immunotoxicity associated with immune checkpoint inhibitors in metastatic melanoma. 
-Cancers (Basel) 2023;15:2170. https://doi.org/10.3390/cancers15072170 
-504. Tocchetti CG, Farmakis D, Koop Y, Andres MS, Couch LS, Formisano L, et al. 
-Cardiovascular toxicities of immune therapies for cancer—a scientific statement of 
-the Heart Failure Association (HFA) of the ESC and the ESC Council of 
-Cardio-Oncology. Eur J Heart Fail 2024;26:2055–76. https://doi.org/10.1002/ejhf.3340 
-505. Dolladille C, Ederhy S, Sassier M, Cautela J, Thuny F, Cohen AA, et al. Immune checkpoint inhibitor rechallenge after immune-related adverse events in patients with cancer. JAMA Oncol 2020;6:865–71. https://doi.org/10.1001/jamaoncol.2020.0726 
-506. Clapham E, Reutfors J, Linder M, Brandt L, Sundström J, Bodén R. The association between exposure to clozapine, olanzapine, and quetiapine and the outcomes perimyocarditis and heart failure: a population-based cohort study. Psychiatry Res 2023;326: 
-115336. https://doi.org/10.1016/j.psychres.2023.115336 
-507. Sandarsh S, Bishnoi RJ, Shashank RB, Miller BJ, Freudenreich O, McEvoy JP. Monitoring 
-for myocarditis during treatment initiation with clozapine. Acta Psychiatr Scand 2021; 
-144:194–200. https://doi.org/10.1111/acps.13328 
-508. Siskind D, Sidhu A, Cross J, Chua Y-T, Myles N, Cohen D, et al. Systematic review and 
-meta-analysis of rates of clozapine-associated myocarditis and cardiomyopathy. Aust N 
-Z J Psychiatry 2020;54:467–81. https://doi.org/10.1177/0004867419898760 
-509. Seree-aphinan C, Assanangkornchai N, Nilmoje T. Prolonged extracorporeal membrane oxygenation support in a patient with drug reaction with eosinophilia and systemic symptoms syndrome-associated fulminant myocarditis—a case report and 
-literature review. Heart Int 2020;14:112–7. https://doi.org/10.17925/HI.2020.14.2.112 
-510. Bonhoeffer J, Kohl K, Chen R, Duclos P, Heijbel H, Heininger U, et al. The Brighton 
-Collaboration: addressing the need for standardized case definitions of adverse events 
-following immunization (AEFI). Vaccine 2002;21:298–302. https://doi.org/10.1016/ 
-s0264-410x(02)00449-8 
-511. Engler RJM, Montgomery JR, Spooner CE, Nelson MR, Collins LC, Ryan MA, et al. 
-Myocarditis and pericarditis recovery following smallpox vaccine 2002–2016: a comparative observational cohort study in the military health system. PLoS One 2023;18: 
-e0283988. https://doi.org/10.1371/journal.pone.0283988 
-512. Parmar K, Subramanyam S, Del Rio-Pertuz G, Sethi P, Argueta-Sosa E. Cardiac adverse 
-events after vaccination—a systematic review. Vaccines (Basel) 2022;10:700. https:// 
-doi.org/10.3390/vaccines10050700 
-513. Thanjan MT, Ramaswamy P, Lai WW, Lytrivi ID. Acute myopericarditis after multiple 
-vaccinations in an adolescent: case report and review of the literature. Pediatrics 2007; 
-119:e1400–3. https://doi.org/10.1542/peds.2006-2605 
-514. Dilber E, Karagöz T, Aytemir K, Ozer S, Alehan D, Oto A, et al. Acute myocarditis associated with tetanus vaccination. Mayo Clin Proc 2003;78:1431–3. https://doi.org/10. 
-4065/78.11.1431-a 
-515. Boccara F, Benhaiem-Sigaux N, Cohen A. Acute myopericarditis after diphtheria, tetanus, and polio vaccination. Chest 2001;120:671–2. https://doi.org/10.1378/chest.120. 
-2.671 
-516. Barton M, Finkelstein Y, Opavsky MA, Ito S, Ho T, Ford-Jones LE, et al. Eosinophilic 
-myocarditis temporally associated with conjugate meningococcal C and hepatitis B 
-vaccines in children. Pediatr Infect Dis J 2008;27:831–5. https://doi.org/10.1097/INF. 
-0b013e31816ff7b2 
-517. Lu J, Zhang X, Xu H, Li Z. Inspiration to mRNA-based COVID-19 vaccination: serious 
-adverse case reports with hepatitis B vaccine in real-world. Front Pediatr 2022;10: 
-888686. https://doi.org/10.3389/fped.2022.888686 
-518. Nagano N, Yano T, Fujita Y, Koyama M, Hasegawa R, Nakata J, et al. Hemodynamic 
-collapse after influenza vaccination: a vaccine-induced fulminant myocarditis? Can J 
-Cardiol 2020;36:1554.e5–e7. https://doi.org/10.1016/j.cjca.2020.05.005 
-519. Jain SS, Anderson SA, Steele JM, Wilson HC, Muniz JC, Soslow JH, et al. Cardiac manifestations and outcomes of COVID-19 vaccine-associated myocarditis in the young in 
-the USA: longitudinal results from the Myocarditis After COVID Vaccination (MACiV) 
-multicenter study. EClinicalMedicine 2024;76:102809. https://doi.org/10.1016/j.eclinm. 
-2024.102809 
-520. Peretto G, Micaglio E, Ciconte G, Maia M, Luzzi M, Cariello M, et al. The ‘arrhythmic’ 
-presentation of peripartum cardiomyopathy: case series and critical review of the literature. Front Cardiovasc Med 2024;11:1362692. https://doi.org/10.3389/fcvm.2024. 
-1362692 
-521. Hoevelmann J, Engel ME, Muller E, Hohlfeld A, Böhm M, Sliwa K, et al. A global perspective on the management and outcomes of peripartum cardiomyopathy: a systematic 
-review and meta-analysis. Eur J Heart Fail 2022;24:1719–36. https://doi.org/10.1002/ 
-ejhf.2603 
-522. Gunderson EP, Croen LA, Chiang V, Yoshida CK, Walton D, Go AS. Epidemiology of 
-peripartum cardiomyopathy: incidence, predictors, and outcomes. Obstet Gynecol 
-2011;118:583–91. https://doi.org/10.1097/AOG.0b013e318229e6de 
-523. Karaye KM, Ishaq NA, Sa’idu H, Balarabe SA, Talle MA, Isa MS, et al. Incidence, clinical 
-characteristics, and risk factors of peripartum cardiomyopathy in Nigeria: results from 
-the PEACE Registry. ESC Heart Fail 2020;7:235–43. https://doi.org/10.1002/ehf2.12562 
-524. Goli R, Li J, Brandimarto J, Levine LD, Riis V, McAfee Q, et al. Genetic and phenotypic 
-landscape of peripartum cardiomyopathy. Circulation 2021;143:1852–62. https://doi. 
-org/10.1161/CIRCULATIONAHA.120.052395 
-525. Mallikethi-Reddy S, Akintoye E, Trehan N, Sharma S, Briasoulis A, Jagadeesh K, et al. 
-Burden of arrhythmias in peripartum cardiomyopathy: analysis of 9841 hospitalizations. Int J Cardiol 2017;235:114–7. https://doi.org/10.1016/j.ijcard.2017.02.084 
-526. Sliwa K, Hilfiker-Kleiner D, Petrie MC, Mebazaa A, Pieske B, Buchmann E, et al. Current 
-state of knowledge on aetiology, diagnosis, management, and therapy of peripartum 
-cardiomyopathy: a position statement from the Heart Failure Association of the 
-European Society of Cardiology Working Group on peripartum cardiomyopathy. 
-Eur J Heart Fail 2010;12:767–78. https://doi.org/10.1093/eurjhf/hfq120 
-527. Tanous D, Siu SC, Mason J, Greutmann M, Wald RM, Parker JD, et al. B-type natriuretic 
-peptide in pregnant women with heart disease. J Am Coll Cardiol 2010;56:1247–53.  
-https://doi.org/10.1016/j.jacc.2010.02.076 
-528. Esbrand FD, Zafar S, Panthangi V, Cyril Kurupp AR, Raju A, Luthra G, et al. Utility of 
-N-terminal (NT)-brain natriuretic peptide (proBNP) in the diagnosis and prognosis of 
-pregnancy associated cardiovascular conditions: a systematic review. Cureus 2022;14: 
-e32848. https://doi.org/10.7759/cureus.32848 
-529. Li W, Li H, Long Y. Clinical characteristics and long-term predictors of persistent left 
-ventricular systolic dysfunction in peripartum cardiomyopathy. Can J Cardiol 2016;32: 
-362–8. https://doi.org/10.1016/j.cjca.2015.07.733 
-530. Arora NP, Mahajan N, Mohamad T, Kottam A, Afonso LC, Danrad R, et al. Cardiac 
-magnetic resonance imaging in peripartum cardiomyopathy. Am J Med Sci 2014;347: 
-112–7. https://doi.org/10.1097/MAJ.0b013e31828155e3 
-531. Ordovas KG, Baldassarre LA, Bucciarelli-Ducci C, Carr J, Fernandes JL, Ferreira VM, 
-et al. Cardiovascular magnetic resonance in women with cardiovascular disease: position statement from the Society for Cardiovascular Magnetic Resonance (SCMR). J 
-Cardiovasc Magn Reson 2021;23:52. https://doi.org/10.1186/s12968-021-00746-z 
-532. Ray JG, Vermeulen MJ, Bharatha A, Montanera WJ, Park AL. Association between MRI 
-exposure during pregnancy and fetal and childhood outcomes. JAMA 2016;316: 
-952–61. https://doi.org/10.1001/jama.2016.12126 
-533. Schelbert EB, Elkayam U, Cooper LT, Givertz MM, Alexis JD, Briller J, et al. Myocardial 
-damage detected by late gadolinium enhancement cardiac magnetic resonance is uncommon in peripartum cardiomyopathy. J Am Heart Assoc 2017;6:e005472. https:// 
-doi.org/10.1161/JAHA.117.005472 
-534. Cooper LT, Mather PJ, Alexis JD, Pauly DF, Torre-Amione G, Wittstein IS, et al. 
-Myocardial recovery in peripartum cardiomyopathy: prospective comparison with
-
-
-<!-- PAGE 87 -->
-
-### Page 87
-
-recent onset cardiomyopathy in men and nonperipartum women. J Card Fail 2012;18: 
-28–33. https://doi.org/10.1016/j.cardfail.2011.09.009 
-535. McNamara DM, Elkayam U, Alharethi R, Damp J, Hsich E, Ewald G, et al. Clinical outcomes for peripartum cardiomyopathy in North America: results of the IPAC study 
-(investigations of pregnancy-associated cardiomyopathy). J Am Coll Cardiol 2015;66: 
-905–14. https://doi.org/10.1016/j.jacc.2015.06.1309 
-536. Biteker M, Özlek B, Özlek E, Çil C, Çelik O, Doğan V, et al. Predictors of early and delayed recovery in peripartum cardiomyopathy: a prospective study of 52 patients. J 
-Matern Fetal Neonatal Med 2020;33:390–7. https://doi.org/10.1080/14767058.2018. 
-1494146 
-537. Fett JD, Christie LG, Carraway RD, Murphy JG. Five-year prospective study of the incidence and prognosis of peripartum cardiomyopathy at a single institution. Mayo Clin 
-Proc 2005;80:1602–6. https://doi.org/10.4065/80.12.1602 
-538. Moulig V, Pfeffer TJ, Ricke-Hoch M, Schlothauer S, Koenig T, Schwab J, et al. Long-term 
-follow-up in peripartum cardiomyopathy patients with contemporary treatment: low 
-mortality, high cardiac recovery, but significant cardiovascular co-morbidities. Eur J 
-Heart Fail 2019;21:1534–42. https://doi.org/10.1002/ejhf.1624 
-539. Sliwa K, Azibani F, Baard J, Osman A, Zühlke L, Lachmann A, et al. Reducing late maternal death due to cardiovascular disease—a pragmatic pilot study. Int J Cardiol 2018; 
-272:70–6. https://doi.org/10.1016/j.ijcard.2018.07.140 
-540. Bauersachs J, Arrigo M, Hilfiker-Kleiner D, Veltmann C, Coats AJS, Crespo-Leiro MG, 
-et al. Current management of patients with severe acute peripartum cardiomyopathy: 
-practical guidance from the Heart Failure Association of the European Society of 
-Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail 2016;18: 
-1096–105. https://doi.org/10.1002/ejhf.586 
-541. Fu K, Zhang H, Chen N, Hu Y, Xiao J, Zhang X, et al. Risk factors for intracardiac 
-thrombus in peripartum cardiomyopathy: a retrospective study in China. ESC Heart 
-Fail 2023;10:148–58. https://doi.org/10.1002/ehf2.14158 
-542. Hilfiker-Kleiner D, Haghikia A, Berliner D, Vogel-Claussen J, Schwab J, Franke A, et al. 
-Bromocriptine for the treatment of peripartum cardiomyopathy: a multicentre randomized study. Eur Heart J 2017;38:2671–9. https://doi.org/10.1093/eurheartj/ehx355 
-543. Sliwa K, Blauwet L, Tibazarwa K, Libhaber E, Smedema J-P, Becker A, et al. Evaluation of 
-bromocriptine in the treatment of acute severe peripartum cardiomyopathy: a 
-proof-of-concept pilot study. Circulation 2010;121:1465–73. https://doi.org/10.1161/ 
-CIRCULATIONAHA.109.901496 
-544. Kumar A, Ravi R, Sivakumar RK, Chidambaram V, Majella MG, Sinha S, et al. Prolactin 
-inhibition in peripartum cardiomyopathy: systematic review and meta-analysis. Curr 
-Probl Cardiol 2023;48:101461. https://doi.org/10.1016/j.cpcardiol.2022.101461 
-545. Trongtorsak A, Kittipibul V, Mahabir S, Ibrahim M, Saint Croix GR, Hernandez GA, 
-et al. Effects of bromocriptine in peripartum cardiomyopathy: a systematic review 
-and meta-analysis. Heart Fail Rev 2022;27:533–43. https://doi.org/10.1007/s10741- 
-021-10185-8 
-546. Halliday BP, Wassall R, Lota AS, Khalique Z, Gregson J, Newsome S, et al. Withdrawal 
-of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF): an open-label, pilot, randomised trial. Lancet 2019;393: 
-61–73. https://doi.org/10.1016/S0140-6736(18)32484-X 
-547. Codsi E, Rose CH, Blauwet LA. Subsequent pregnancy outcomes in patients with peripartum cardiomyopathy. Obstet Gynecol 2018;131:322–7. https://doi.org/10.1097/ 
-AOG.0000000000002439 
-548. Meng M-L, Arendt KW, Banayan JM, Bradley EA, Vaught AJ, Hameed AB, et al. 
-Anesthetic care of the pregnant patient with cardiovascular disease: a scientific statement from the American Heart Association. Circulation 2023;147:e657–73. https://doi. 
-org/10.1161/CIR.0000000000001121 
-549. De Backer J, Haugaa K. 2025 ESC Guidelines for the management of cardiovascular 
-disease and pregnancy. Eur Heart J. 2011;32:3147–97. https://doi.org/10.1093/ 
-eurheartj/ehr218 
-550. Richardson P, McKenna W, Bristow M, Maisch B, Mautner B, O’Connell J, et al. Report 
-of the 1995 World Health Organization/International Society and Federation of 
-Cardiology Task Force on the definition and classification of cardiomyopathies. 
-Circulation 1996;93:841–2. https://doi.org/10.1161/01.cir.93.5.841 
-551. Frustaci A, Russo MA, Chimenti C. Randomized study on the efficacy of immunosuppressive therapy in patients with virus-negative inflammatory cardiomyopathy: the 
-TIMIC study. Eur Heart J 2009;30:1995–2002. https://doi.org/10.1093/eurheartj/ 
-ehp249 
-552. Escher F, Kühl U, Lassner D, Poller W, Westermann D, Pieske B, et al. Long-term outcome of patients with virus-negative chronic myocarditis or inflammatory cardiomyopathy after immunosuppressive therapy. Clin Res Cardiol 2016;105:1011–20.  
-https://doi.org/10.1007/s00392-016-1011-z 
-553. Merken J, Hazebroek M, Van Paassen P, Verdonschot J, Van Empel V, Knackstedt C, 
-et al. Immunosuppressive therapy improves both short- and long-term prognosis in 
-patients with virus-negative nonfulminant inflammatory cardiomyopathy. Circ Heart 
-Fail 2018;11:e004228. https://doi.org/10.1161/CIRCHEARTFAILURE.117.004228 
-554. De Luca G, Campochiaro C, Sartorelli S, Peretto G, Sala S, Palmisano A, et al. Efficacy 
-and safety of mycophenolate mofetil in patients with virus-negative lymphocytic myocarditis: a prospective cohort study. J Autoimmun 2020;106:102330. https://doi.org/10. 
-1016/j.jaut.2019.102330 
-555. Peretto G, Sala S, De Luca G, Marcolongo R, Campochiaro C, Sartorelli S, et al. 
-Immunosuppressive therapy and risk stratification of patients with myocarditis presenting with ventricular arrhythmias. JACC Clin Electrophysiol 2020;6:1221–34. https:// 
-doi.org/10.1016/j.jacep.2020.05.013 
-556. Reuter H, Burgess LJ, Doubell AF. Epidemiology of pericardial effusions at a large academic hospital in South Africa. Epidemiol Infect 2005;133:393–9. https://doi.org/10. 
-1017/s0950268804003577 
-557. Mayosi BM, Wiysonge CS, Ntsekhe M, Gumedze F, Volmink JA, Maartens G, et al. 
-Mortality in patients treated for tuberculous pericarditis in sub-Saharan Africa. S Afr 
-Med J 2008;98:36–40. 
-558. Mayosi BM, Burgess LJ, Doubell AF. Tuberculous pericarditis. Circulation 2005;112: 
-3608–16. https://doi.org/10.1161/CIRCULATIONAHA.105.543066 
-559. Isiguzo G, Du Bruyn E, Howlett P, Ntsekhe M. Diagnosis and management of tuberculous pericarditis: what is new? Curr Cardiol Rep 2020;22:2. https://doi.org/10.1007/ 
-s11886-020-1254-1 
-560. Ntsekhe M, Mayosi BM. Tuberculous pericarditis with and without HIV. Heart Fail Rev 
-2013;18:367–73. https://doi.org/10.1007/s10741-012-9310-6 
-561. Noubiap JJ, Agbor VN, Ndoadoumgue AL, Nkeck JR, Kamguia A, Nyaga UF, et al. 
-Epidemiology of pericardial diseases in Africa: a systematic scoping review. Heart 
-2019;105:180–8. https://doi.org/10.1136/heartjnl-2018-313922 
-562. Xie DL, Cheng B, Sheng Y, Jin J. Diagnostic accuracy of adenosine deaminase for tuberculous pericarditis: a meta-analysis. Eur Rev Med Pharmacol Sci 2015;19:4411–8. https:// 
-doi.org/10.18632/eurrev_2015_19_22_4411 
-563. Pandie S, Peter JG, Kerbelker ZS, Meldau R, Theron G, Govender U, et al. Diagnostic 
-accuracy of quantitative PCR (Xpert MTB/RIF) for tuberculous pericarditis compared 
-to adenosine deaminase and unstimulated interferon-γ in a high burden setting: a prospective study. BMC Med 2014;12:101. https://doi.org/10.1186/1741-7015-12-101 
-564. Yu G, Ye B, Chen D, Zhong F, Chen G, Yang J, et al. Comparison between the diagnostic validities of Xpert MTB/RIF and interferon-γ release assays for tuberculous pericarditis using pericardial tissue. PLoS One 2017;12:e0188704. https://doi.org/10.1371/ 
-journal.pone.0188704 
-565. Liu C, Cui Y-L, Ding C-M, Wu Y-H, Li H-L, Liu X-F, et al. Diagnostic accuracy of 
-interferon-gamma in pericardial effusions for tuberculous pericarditis: a meta-analysis. 
-J Thorac Dis 2018;10:854–60. https://doi.org/10.21037/jtd.2017.12.107 
-566. Cattamanchi A, Smith R, Steingart KR, Metcalfe JZ, Date A, Coleman C, et al. 
-Interferon-gamma release assays for the diagnosis of latent tuberculosis infection in 
-HIV-infected individuals: a systematic review and meta-analysis. J Acquir Immune 
-Defic Syndr 2011;56:230–38. https://doi.org/10.1097/QAI.0b013e31820b07ab 
-567. Wiysonge CS, Ntsekhe M, Thabane L, Volmink J, Majombozi D, Gumedze F, et al. 
-Interventions for treating tuberculous pericarditis. Cochrane Database Syst Rev 2017; 
-9:CD000526. https://doi.org/10.1002/14651858.CD000526.pub2 
-568. Pasipanodya JG, Mubanga M, Ntsekhe M, Pandie S, Magazi BT, Gumedze F, et al. 
-Tuberculous pericarditis is multibacillary and bacterial burden drives high mortality. 
-EBioMedicine 2015;2:1634–9. https://doi.org/10.1016/j.ebiom.2015.09.034 
-569. Mayosi BM, Ntsekhe M, Bosch J, Pandie S, Jung H, Gumedze F, et al. Prednisolone and 
-Mycobacterium indicus pranii in tuberculous pericarditis. N Engl J Med 2014;371: 
-1121–30. https://doi.org/10.1056/NEJMoa1407380 
-570. Reuter H, Burgess LJ, Louw VJ, Doubell AF. The management of tuberculous pericardial effusion: experience in 233 consecutive patients. Cardiovasc J S Afr 2007;18:20–5. 
-571. Strang JI, Kakaza HH, Gibson DG, Girling DJ, Nunn AJ, Fox W. Controlled trial of prednisolone as adjuvant in treatment of tuberculous constrictive pericarditis in Transkei. 
-Lancet 1987;2:1418–22. https://doi.org/10.1016/s0140-6736(87)91127-5 
-572. Strang JIG, Nunn AJ, Johnson DA, Casbard A, Gibson DG, Girling DJ. Management of 
-tuberculous constrictive pericarditis and tuberculous pericardial effusion in Transkei: results at 10 years follow-up. QJM 2004;97:525–35. https://doi.org/10.1093/qjmed/hch086 
-573. Cui H-B, Chen X-Y, Cui C-C, Shou X-L, Liu X, Yao X-W, et al. Prevention of pericardial constriction by transcatheter intrapericardial fibrinolysis with urokinase. Chin Med 
-Sci J 2005;20:5–10. https://doi.org/10.1016/j.chinmedsci.2005.01.002 
-574. Maisch B, Ristic A, Pankuweit S. Evaluation and management of pericardial effusion in 
-patients with neoplastic disease. Prog Cardiovasc Dis 2010;53:157–63. https://doi.org/ 
-10.1016/j.pcad.2010.06.003 
-575. Imazio M, Demichelis B, Parrini I, Favro E, Beqaraj F, Cecchi E, et al. Relation of acute 
-pericardial disease to malignancy. Am J Cardiol 2005;95:1393–4. https://doi.org/10. 
-1016/j.amjcard.2005.01.094 
-576. Pawlak Cieślik A, Szturmowicz M, Fijałkowska A, Gątarek J, Gralec R, 
-Błasińska-Przerwa K, et al. Diagnosis of malignant pericarditis: a single centre experience. Kardiol Pol 2012;70:1147–53. https://doi.org/10.33963/v.kp.79064 
-577. Karatolios K, Pankuweit S, Maisch B. Diagnostic value of biochemical biomarkers in malignant and non-malignant pericardial effusion. Heart Fail Rev 2013;18:337–44. https:// 
-doi.org/10.1007/s10741-012-9327-x 
-578. Wang K, Eblan MJ, Deal AM, Lipner M, Zagar TM, Wang Y, et al. Cardiac toxicity after 
-radiotherapy for stage III non-small-cell lung cancer: pooled analysis of dose-escalation 
-trials delivering 70 to 90 Gy. J Clin Oncol 2017;35:1387–94. https://doi.org/10.1200/ 
-JCO.2016.70.0229 
-579. Takata N, Kataoka M, Hamamoto Y, Tsuruoka S, Kanzaki H, Uwatsu K, et al. Risk factors for pericardial effusion after chemoradiotherapy for thoracic esophageal cancer-  
-ESC Guidelines                                                                                                                                                                                               87
-
-
-<!-- PAGE 88 -->
-
-### Page 88
-
-comparison of four-field technique and traditional two opposed fields technique. J 
-Radiat Res 2018;59:291–7. https://doi.org/10.1093/jrr/rry029 
-580. Gevaert SA, Halvorsen S, Sinnaeve PR, Sambola A, Gulati G, Lancellotti P, et al. 
-Evaluation and management of cancer patients presenting with acute cardiovascular 
-disease: a Consensus Document of the Acute CardioVascular Care (ACVC) association and the ESC Council of Cardio-Oncology—Part 1: acute coronary syndromes 
-and acute pericardial diseases. Eur Heart J Acute Cardiovasc Care 2021;10:947–59.  
-https://doi.org/10.1093/ehjacc/zuab056 
-581. Saab J, Hoda RS, Narula N, Hoda SA, Geraghty BE, Nasar A, et al. Diagnostic yield of 
-cytopathology in evaluating pericardial effusions: clinicopathologic analysis of 419 specimens. Cancer Cytopathol 2017;125:128–37. https://doi.org/10.1002/cncy.21790 
-582. Numico G, Cristofano A, Occelli M, Sicuro M, Mozzicafreddo A, Fea E, et al. Prolonged 
-drainage and intrapericardial bleomycin administration for cardiac tamponade secondary to cancer-related pericardial effusion. Medicine (Baltimore) 2016;95:e3273. https:// 
-doi.org/10.1097/MD.0000000000003273 
-583. Kim SR, Kim EK, Cho J, Chang S-A, Park S-J, Lee S-C, et al. Effect of anti-inflammatory 
-drugs on clinical outcomes in patients with malignant pericardial effusion. J Am Coll 
-Cardiol 2020;76:1551–61. https://doi.org/10.1016/j.jacc.2020.08.003 
-584. De Filippo O, Gatti P, Rettegno S, Iannaccone M, D’Ascenzo F, Lazaros G, et al. Is pericardial effusion a negative prognostic marker? Meta-analysis of outcomes of pericardial 
-effusion. J Cardiovasc Med (Hagerstown) 2019;20:39–45. https://doi.org/10.2459/JCM. 
-0000000000000720 
-585. Gatzoulis K, Archontakis S, Tsiachris D, Lazaros G, Apostolopoulos T, Zervopoulos G, 
-et al. Post-cardiac injury syndrome after permanent electronic cardiac device implantation. Incidence, presentation, management and long-term prognosis. Int J Cardiol 
-2014;174:163–4. https://doi.org/10.1016/j.ijcard.2014.03.170 
-586. Nakhla S, Mentias A, Rymer C, Hussein A, Wazni O, Rickard J, et al. Acute pericarditis 
-after atrial fibrillation ablation: incidence, characteristics, and risk factors. Heart Rhythm 
-2022;3:248–51. https://doi.org/10.1016/j.hroo.2022.02.008 
-587. Imazio M, Negro A, Belli R, Beqaraj F, Forno D, Giammaria M, et al. Frequency and 
-prognostic significance of pericarditis following acute myocardial infarction treated 
-by primary percutaneous coronary intervention. Am J Cardiol 2009;103:1525–9.  
-https://doi.org/10.1016/j.amjcard.2009.01.366 
-588. Figueras J, Juncal A, Carballo J, Cortadellas J, Soler JS. Nature and progression of pericardial effusion in patients with a first myocardial infarction: relationship to age and free 
-wall rupture. Am Heart J 2002;144:251–8. https://doi.org/10.1067/mhj.2002.123840 
-589. Figueras J, Barrabés JA, Serra V, Cortadellas J, Lidón R-M, Carrizo A, et al. Hospital 
-outcome of moderate to severe pericardial effusion complicating ST-elevation 
-acute myocardial infarction. Circulation 2010;122:1902–9. https://doi.org/10. 
-1161/CIRCULATIONAHA.109.934968 
-590. Mohanty S, Mohanty P, Kessler D, Gianni C, Baho KK, Morris T, et al. Impact of colchicine monotherapy on the risk of acute pericarditis following atrial fibrillation ablation. JACC Clin Electrophysiol 2023;9:1051–9. https://doi.org/10.1016/j.jacep.2023.01. 
-037 
-591. Lehto J, Kiviniemi T, Gunn J, Airaksinen J, Rautava P, Kytö V. Occurrence of postpericardiotomy syndrome: association with operation type and postoperative mortality 
-after open-heart operations. J Am Heart Assoc 2018;7:e010269. https://doi.org/10. 
-1161/JAHA.118.010269 
-592. Imazio M, Brucato A, Rovere ME, Gandino A, Cemin R, Ferrua S, et al. Contemporary 
-features, risk factors, and prognosis of the post-pericardiotomy syndrome. Am J Cardiol 
-2011;108:1183–7. https://doi.org/10.1016/j.amjcard.2011.06.025 
-593. Finkelstein Y, Shemesh J, Mahlab K, Abramov D, Bar-El Y, Sagie A, et al. Colchicine for 
-the prevention of postpericardiotomy syndrome. Herz 2002;27:791–4. https://doi.org/ 
-10.1007/s00059-002-2376-5 
-594. Imazio M, Trinchero R, Brucato A, Rovere ME, Gandino A, Cemin R, et al. COlchicine 
-for the Prevention of the Post-pericardiotomy Syndrome (COPPS): a multicentre, randomized, double-blind, placebo-controlled trial. Eur Heart J 2010;31:2749–54. https:// 
-doi.org/10.1093/eurheartj/ehq319 
-595. Imazio M, Brucato A, Ferrazzi P, Spodick DH, Adler Y. Postpericardiotomy syndrome: 
-a proposal for diagnostic criteria. J Cardiovasc Med (Hagerstown) 2013;14:351–3.  
-https://doi.org/10.2459/JCM.0b013e328353807d 
-596. Imazio M, Brucato A, Ferrazzi P, Pullara A, Adler Y, Barosi A, et al. Colchicine for prevention of postpericardiotomy syndrome and postoperative atrial fibrillation: the 
-COPPS-2 randomized clinical trial. JAMA 2014;312:1016–23. https://doi.org/10. 
-1001/jama.2014.11026 
-597. Gill PJ, Forbes K, Coe JY. The effect of short-term prophylactic acetylsalicylic acid on 
-the incidence of postpericardiotomy syndrome after surgical closure of atrial septal 
-defects. Pediatr Cardiol 2009;30:1061–7. https://doi.org/10.1007/s00246-009-9495-1 
-598. Mott AR, Fraser CD, Kusnoor AV, Giesecke NM, Reul GJ, Drescher KL, et al. The effect of short-term prophylactic methylprednisolone on the incidence and severity of 
-postpericardiotomy syndrome in children undergoing cardiac surgery with cardiopulmonary bypass. J Am Coll Cardiol 2001;37:1700–6. https://doi.org/10.1016/s0735- 
-1097(01)01223-2 
-599. Bunge JJH, van Osch D, Dieleman JM, Jacob KA, Kluin J, van Dijk D, et al. Dexamethasone 
-for the prevention of postpericardiotomy syndrome: a DExamethasone for Cardiac 
-Surgery substudy. Am Heart J 2014;168:126–31.e1. https://doi.org/10.1016/j.ahj.2014. 
-03.017 
-600. Imazio M, Brucato A, Markel G, Cemin R, Trinchero R, Spodick DH, et al. Meta-analysis 
-of randomized trials focusing on prevention of the postpericardiotomy syndrome. Am J 
-Cardiol 2011;108:575–9. https://doi.org/10.1016/j.amjcard.2011.03.087 
-601. Meurin P, Tabet JY, Thabut G, Cristofini P, Farrokhi T, Fischbach M, et al. Nonsteroidal 
-anti-inflammatory drug treatment for postoperative pericardial effusion: a multicenter 
-randomized, double-blind trial. Ann Intern Med 2010;152:137–43. https://doi.org/10. 
-7326/0003-4819-152-3-201002020-00004 
-602. Meurin P, Lelay-Kubas S, Pierre B, Pereira H, Pavy B, Iliou MC, et al. Colchicine for postoperative pericardial effusion: a multicentre, double-blind, randomised controlled trial. 
-Heart 2015;101:1711–6. https://doi.org/10.1136/heartjnl-2015-307827 
-603. Meurin P, Weber H, Renaud N, Larrazet F, Tabet JY, Demolis P, et al. Evolution of the 
-postoperative pericardial effusion after day 15: the problem of the late tamponade. 
-Chest 2004;125:2182–7. https://doi.org/10.1378/chest.125.6.2182 
-604. Andreis A, Imazio M, Giustetto C, Brucato A, Adler Y, De Ferrari GM. Anakinra for 
-constrictive pericarditis associated with incessant or recurrent pericarditis. Heart 
-2020;106:1561–5. https://doi.org/10.1136/heartjnl-2020-316898 
-605. Gattorno M, Hofer M, Federici S, Vanoni F, Bovis F, Aksentijevich I, et al. Classification 
-criteria for autoinflammatory recurrent fevers. Ann Rheum Dis 2019;78:1025–32.  
-https://doi.org/10.1136/annrheumdis-2019-215048 
-606. Sagristà-Sauleda J, Barrabés JA, Permanyer-Miralda G, Soler-Soler J. Purulent pericarditis: review of a 20-year experience in a general hospital. J Am Coll Cardiol 1993;22: 
-1661–5. https://doi.org/10.1016/0735-1097(93)90592-o 
-607. Rubin RH, Moellering RC. Clinical, microbiologic and therapeutic aspects of purulent 
-pericarditis. Am J Med 1975;59:68–78. https://doi.org/10.1016/0002-9343(75)90323-x 
-608. Brook I, Frazier EH. Microbiology of acute purulent pericarditis. A 12-year experience 
-in a military hospital. Arch Intern Med 1996;156:1857–60. https://doi.org/10.1001/ 
-archinte.1996.00440150113013 
-609. Wiyeh AB, Ochodo EA, Wiysonge CS, Kakia A, Awotedu AA, Ristic A, et al. A systematic review of the efficacy and safety of intrapericardial fibrinolysis in patients with pericardial effusion. Int J Cardiol 2018;250:223–8. https://doi.org/10.1016/j.ijcard.2017.10. 
-049 
-610. Augustin P, Desmard M, Mordant P, Lasocki S, Maury J-M, Heming N, et al. Clinical review: intrapericardial fibrinolysis in management of purulent pericarditis. Crit Care 
-2011;15:220. https://doi.org/10.1186/cc10022 
-611. Imazio M, Brucato A, Cemin R, Ferrua S, Belli R, Maestroni S, et al. Colchicine for recurrent pericarditis (CORP): a randomized trial. Ann Intern Med 2011;155:409–14.  
-https://doi.org/10.7326/0003-4819-155-7-201110040-00359 
-612. Vogiatzidis K, Zarogiannis SG, Aidonidis I, Solenov EI, Molyvdas P-A, Gourgoulianis KI, 
-et al. Physiology of pericardial fluid production and drainage. Front Physiol 2015;6:62.  
-https://doi.org/10.3389/fphys.2015.00062 
-613. Mitiku TY, Heidenreich PA. A small pericardial effusion is a marker of increased mortality. Am Heart J 2011;161:152–7. https://doi.org/10.1016/j.ahj.2010.10.007 
-614. Corey GR, Campbell PT, Van Trigt P, Kenney RT, O’Connor CM, Sheikh KH, et al. 
-Etiology of large pericardial effusions. Am J Med 1993;95:209–13. https://doi.org/10. 
-1016/0002-9343(93)90262-n 
-615. Sagristà-Sauleda J, Mercé J, Permanyer-Miralda G, Soler-Soler J. Clinical clues to the 
-causes of large pericardial effusions. Am J Med 2000;109:95–101. https://doi.org/10. 
-1016/s0002-9343(00)00459-9 
-616. Levy P-Y, Corey R, Berger P, Habib G, Bonnet J-L, Levy S, et al. Etiologic diagnosis of 
-204 pericardial effusions. Medicine (Baltimore) 2003;82:385–91. https://doi.org/10. 
-1097/01.md.0000101574.54295.73 
-617. Ma W, Liu J, Zeng Y, Chen S, Zheng Y, Ye S, et al. Causes of moderate to large pericardial effusion requiring pericardiocentesis in 140 Han Chinese patients. Herz 2012; 
-37:183–7. https://doi.org/10.1007/s00059-011-3428-5 
-618. Abdallah R, Atar S. Etiology and characteristics of large symptomatic pericardial effusion in a community hospital in the contemporary era. QJM 2014;107:363–8. https:// 
-doi.org/10.1093/qjmed/hct255 
-619. Roy CL, Minor MA, Brookhart MA, Choudhry NK. Does this patient with a pericardial 
-effusion have cardiac tamponade? JAMA 2007;297:1810–8. https://doi.org/10.1001/ 
-jama.297.16.1810 
-620. Cremer PC, Kumar A, Kontzias A, Tan CD, Rodriguez ER, Imazio M, et al. Complicated 
-pericarditis: understanding risk factors and pathophysiology to inform imaging and 
-treatment. J Am Coll Cardiol 2016;68:2311–28. https://doi.org/10.1016/j.jacc.2016.07. 
-785 
-621. Lazaros G, Antonopoulos AS, Lazarou E, Vlachopoulos C, Foukarakis E, Androulakis A, 
-et al. Long-term outcome of pericardial drainage in cases of chronic, large, hemodynamically insignificant, C-reactive protein negative, idiopathic pericardial effusions. 
-Am J Cardiol 2020;126:89–93. https://doi.org/10.1016/j.amjcard.2020.03.035 
-622. Lazaros G, Oikonomou V, Oikonomou E, Aznaouridis K, Vlachopoulos C, Vogiatzi G, 
-et al. Recurrence of pericardial effusion after pericardiocentesis: does catheter- 
-induced acute pericardial inflammation play a role? Am J Med Sci 2021;361:676–8.  
-https://doi.org/10.1016/j.amjms.2020.10.012
-
-
-<!-- PAGE 89 -->
-
-### Page 89
-
-623. Buoro S, Tombetti E, Ceriotti F, Simon C, Cugola D, Seghezzi M, et al. What is the normal composition of pericardial fluid? Heart 2021;107:1584–90. https://doi.org/10. 
-1136/heartjnl-2020-317966 
-624. Imazio M, Biondo A, Ricci D, Boffini M, Pivetta E, Brucato A, et al. Contemporary biochemical analysis of normal pericardial fluid. Heart 2020;106:541–4. https://doi.org/10. 
-1136/heartjnl-2018-314574 
-625. Imazio M, Lazaros G, Valenti A, De Carlini CC, Maggiolini S, Pivetta E, et al. Outcomes 
-of idiopathic chronic large pericardial effusion. Heart 2019;105:477–81. https://doi.org/ 
-10.1136/heartjnl-2018-313532 
-626. Fröhlich GM, Keller P, Schmid F, Wolfrum M, Osranek M, Falk C, et al. 
-Haemodynamically irrelevant pericardial effusion is associated with increased mortality 
-in patients with chronic heart failure. Eur Heart J 2013;34:1414–23. https://doi.org/10. 
-1093/eurheartj/eht006 
-627. Porta-Sánchez A, Sagristà-Sauleda J, Ferreira-González I, Torrents-Fernández A, 
-Roca-Luque I, García-Dorado D. Constrictive pericarditis: etiologic spectrum, patterns of clinical presentation, prognostic factors, and long-term follow-up. Rev Esp 
-Cardiol (Engl Ed) 2015;68:1092–100. https://doi.org/10.1016/j.rec.2014.12.018 
-628. Ling LH, Oh JK, Schaff HV, Danielson GK, Mahoney DW, Seward JB, et al. Constrictive 
-pericarditis in the modern era: evolving clinical spectrum and impact on outcome after 
-pericardiectomy. Circulation 1999;100:1380–6. https://doi.org/10.1161/01.cir.100.13.1380 
-629. Bertog SC, Thambidorai SK, Parakh K, Schoenhagen P, Ozduran V, Houghtaling PL, 
-et al. Constrictive pericarditis: etiology and cause-specific survival after pericardiectomy. J Am Coll Cardiol 2004;43:1445–52. https://doi.org/10.1016/j.jacc.2003.11.048 
-630. Mutyaba AK, Balkaran S, Cloete R, du Plessis N, Badri M, Brink J, et al. Constrictive pericarditis requiring pericardiectomy at Groote Schuur Hospital, Cape Town, South 
-Africa: causes and perioperative outcomes in the HIV era (1990–2012). J Thorac 
-Cardiovasc Surg 2014;148:3058–65.e1. https://doi.org/10.1016/j.jtcvs.2014.07.065 
-631. Yang J, Xiang W, He R, Zhang P. Tuberculous constrictive pericarditis: ‘armored heart’. 
-QJM 2024;117:679–80. https://doi.org/10.1093/qjmed/hcae101 
-632. Welch TD, Ling LH, Espinosa RE, Anavekar NS, Wiste HJ, Lahr BD, et al. 
-Echocardiographic diagnosis of constrictive pericarditis: Mayo Clinic criteria. Circ 
-Cardiovasc Imaging 2014;7:526–34. https://doi.org/10.1161/CIRCIMAGING.113.001613 
-633. Talreja DR, Nishimura RA, Oh JK, Holmes DR. Constrictive pericarditis in the modern 
-era: novel criteria for diagnosis in the cardiac catheterization laboratory. J Am Coll 
-Cardiol 2008;51:315–9. https://doi.org/10.1016/j.jacc.2007.09.039 
-634. Qamruddin S, Alkharabsheh SK, Sato K, Kumar A, Cremer PC, Chetrit M, et al. 
-Differentiating constriction from restriction (from the Mayo Clinic echocardiographic 
-criteria). Am J Cardiol 2019;124:932–8. https://doi.org/10.1016/j.amjcard.2019.06.002 
-635. Saito T, Fukushima S, Yamasaki T, Kawamoto N, Tadokoro N, Kakuta T, et al. 
-Pericardiectomy for constrictive pericarditis at a single Japanese center: 20 years of experience. Gen Thorac Cardiovasc Surg 2022;70:430–8. https://doi.org/10.1007/s11748- 
-021-01718-x 
-636. Choi MS, Jeong DS, Oh JK, Chang S-A, Park S-J, Chung S. Long-term results of radical 
-pericardiectomy for constrictive pericarditis in Korean population. J Cardiothorac Surg 
-2019;14:32. https://doi.org/10.1186/s13019-019-0845-7 
-637. George TJ, Arnaoutakis GJ, Beaty CA, Kilic A, Baumgartner WA, Conte JV. 
-Contemporary etiologies, risk factors, and outcomes after pericardiectomy. Ann 
-Thorac Surg 2012;94:445–51. https://doi.org/10.1016/j.athoracsur.2012.03.079 
-638. Tzani A, Doulamis IP, Tzoumas A, Avgerinos DV, Koudoumas D, Siasos G, et al. 
-Meta-analysis of population characteristics and outcomes of patients undergoing pericardiectomy for constrictive pericarditis. Am J Cardiol 2021;146:120–7. https://doi.org/ 
-10.1016/j.amjcard.2021.01.033 
-639. Faiza Z, Prakash A, Namburi N, Johnson B, Timsina L, Lee LS. Fifteen-year experience 
-with pericardiectomy at a tertiary referral center. J Cardiothorac Surg 2021;16:180.  
-https://doi.org/10.1186/s13019-021-01561-4 
-640. Gillaspie EA, Stulak JM, Daly RC, Greason KL, Joyce LD, Oh J, et al. A 20-year experience with isolated pericardiectomy: analysis of indications and outcomes. J Thorac 
-Cardiovasc Surg 2016;152:448–58. https://doi.org/10.1016/j.jtcvs.2016.03.098 
-641. Ntsekhe M, Shey Wiysonge C, Commerford PJ, Mayosi BM. The prevalence and outcome of effusive constrictive pericarditis: a systematic review of the literature. 
-Cardiovasc J Afr 2012;23:281–5. https://doi.org/10.5830/CVJA-2011-072 
-642. Thevathasan T, Kenny MA, Gaul AL, Paul J, Krause FJ, Lech S, et al. Sex and age characteristics in acute or chronic myocarditis. a descriptive, multicenter cohort study. 
-JACC Adv 2024;3:100857. https://doi.org/10.1016/j.jacadv.2024.100857 
-643. Kanaoka K, Onoue K, Terasaki S, Nakano T, Nakai M, Sumita Y, et al. Features and outcomes of histologically proven myocarditis with fulminant presentation. Circulation 
-2022;146:1425–33. https://doi.org/10.1161/CIRCULATIONAHA.121.058869 
-644. Conte E, Leoni O, Ammirati E, Imazio M, Brucato A. Incidence of myocarditis and pericarditis considered as separate clinical events over the years and post-SARS-CoV2 vaccination in adults and children. Eur J Intern Med 2023;115:140–2. https://doi.org/10. 
-1016/j.ejim.2023.06.002 
-645. Klugman D, Berger JT, Sable CA, He J, Khandelwal SG, Slonim AD. Pediatric patients 
-hospitalized with myocarditis: a multi-institutional analysis. Pediatr Cardiol 2010;31: 
-222–8. https://doi.org/10.1007/s00246-009-9589-9 
-646. Pitak B, Opgen-Rhein B, Schubert S, Reineker K, Wiegand G, Boecker D, et al. 
-Cardiovascular magnetic resonance in children with suspected myocarditis: current 
-practice and applicability of adult protocols. Cardiol Young 2022;32:1957–65. https:// 
-doi.org/10.1017/S1047951121005291 
-647. Peng DM, Kwiatkowski DM, Lasa JJ, Zhang W, Banerjee M, Mikesell K, et al. 
-Contemporary care and outcomes of critically-ill children with clinically diagnosed 
-myocarditis. J Card Fail 2023;30:350–8. https://doi.org/10.1016/j.cardfail.2023.04.010 
-648. Schubert S, Opgen-Rhein B, Boehne M, Weigelt A, Wagner R, Müller G, et al. Severe 
-heart failure and the need for mechanical circulatory support and heart transplantation 
-in pediatric patients with myocarditis: results from the prospective multicenter registry 
-‘MYKKE’. Pediatr Transplant 2019;23:e13548. https://doi.org/10.1111/petr.13548 
-649. Matsuura H, Ichida F, Saji T, Ogawa S, Waki K, Kaneko M, et al. Clinical features of acute 
-and fulminant myocarditis in children – 2nd Nationwide Survey by Japanese Society of 
-Pediatric Cardiology and Cardiac Surgery. Circ J 2016;80:2362–8. https://doi.org/10. 
-1253/circj.CJ-16-0234 
-650. Yao Q, Zhan S. Corticosteroid in anti-inflammatory treatment of pediatric acute myocarditis: a systematic review and meta-analysis. Ital J Pediatr 2023;49:30. https://doi.org/ 
-10.1186/s13052-023-01423-w 
-651. Camargo PR, Snitcowsky R, da Luz PL, Mazzieri R, Higuchi ML, Rati M, et al. Favorable 
-effects of immunosuppressive therapy in children with dilated cardiomyopathy and active myocarditis. Pediatr Cardiol 1995;16:61–8. https://doi.org/10.1007/BF00796819 
-652. Aziz KU, Patel N, Sadullah T, Tasneem H, Thawerani H, Talpur S. Acute viral myocarditis: role of immunosuppression: a prospective randomised study. Cardiol Young 2010; 
-20:509–15. https://doi.org/10.1017/S1047951110000594 
-653. Lin M-S, Tseng Y-H, Chen M-Y, Chung C-M, Tsai M-H, Wang P-C, et al. In-hospital and 
-post-discharge outcomes of pediatric acute myocarditis underwent after high-dose 
-steroid or intravenous immunoglobulin therapy. BMC Cardiovasc Disord 2019;19:10.  
-https://doi.org/10.1186/s12872-018-0981-3 
-654. Butts RJ, Boyle GJ, Deshpande SR, Gambetta K, Knecht KR, Prada-Ruiz CA, et al. 
-Characteristics of clinically diagnosed pediatric myocarditis in a contemporary multi- 
-center cohort. Pediatr Cardiol 2017;38:1175–82. https://doi.org/10.1007/s00246-017- 
-1638-1 
-655. Huang X, Sun Y, Su G, Li Y, Shuai X. Intravenous immunoglobulin therapy for acute 
-myocarditis in children and adults. Int Heart J 2019;60:359–65. https://doi.org/10. 
-1536/ihj.18-299 
-656. Imazio M, Brucato A, Pluymaekers N, Breda L, Calabri G, Cantarini L, et al. Recurrent 
-pericarditis in children and adolescents: a multicentre cohort study. J Cardiovasc Med 
-(Hagerstown) 2016;17:707–12. https://doi.org/10.2459/JCM.0000000000000300 
-657. Alsabri M, Elsayed SM, Elsnhory AB, Abouelmagd K, Ayyad M, Alqeeq BF, et al. Efficacy 
-and safety of colchicine in pediatric pericarditis: a systematic review and future directions. Pediatr Cardiol 2024; https://doi.org/10.1007/s00246-024-03606-6 
-658. Caorsi R, Insalaco A, Bovis F, Martini G, Cattalini M, Chinali M, et al. Pediatric recurrent 
-pericarditis: appropriateness of the standard of care and response to IL-1 blockade. J 
-Pediatr 2023;256:18–26.e8. https://doi.org/10.1016/j.jpeds.2022.11.034 
-659. Sunohara D, Motoki H, Saigusa T, Ebisawa S, Okada A, Ando H, et al. Biopsy detection 
-and clinical management of acute lymphocytic myocarditis in pregnancy. J Cardiol Cases 
-2019;20:164–7. https://doi.org/10.1016/j.jccase.2019.07.010 
-660. Veronese G, Nonini S, Cannata A, Aresta F, Olivieri G, Montrasio E, et al. Fulminant 
-lymphocytic myocarditis during pregnancy treated with temporary mechanical circulatory supports and aggressive immunosuppression. Circ Heart Fail 2022;15: 
-e009810. https://doi.org/10.1161/CIRCHEARTFAILURE.122.009810 
-661. Moore RC, Briery CM, Rose CH, Skelton TN, Martin JN. Lymphocytic myocarditis 
-presenting as nausea, vomiting, and hepatic dysfunction in the first trimester of pregnancy. Obstet Gynecol 2006;108:815–7. https://doi.org/10.1097/01.AOG.0000216016. 
-91685.52 
-662. Marceau A, McGinnis JM, Derakhshan F, Liu YA, Sathananthan G, Sosa Cazales AC, 
-et al. Interdisciplinary approach to an unusual case of myocarditis in pregnancy. CJC 
-Open 2019;1:103–5. https://doi.org/10.1016/j.cjco.2019.02.001 
-663. Movva R, Brown SB, Morris DL, Figueredo VM. Anakinra for myocarditis in juvenile 
-idiopathic arthritis. Tex Heart Inst J 2013;40:623–5. 
-664. Brucato A, Pluymaekers N, Tombetti E, Rampello S, Maestroni S, Lucianetti M, et al. 
-Management of idiopathic recurrent pericarditis during pregnancy. Int J Cardiol 2019; 
-282:60–5. https://doi.org/10.1016/j.ijcard.2019.02.003 
-665. Pouta AM, Räsänen JP, Airaksinen KE, Vuolteenaho OJ, Laatikainen TJ. Changes in maternal heart dimensions and plasma atrial natriuretic peptide levels in the early puerperium of normal and pre-eclamptic pregnancies. Br J Obstet Gynaecol 1996;103: 
-988–92. https://doi.org/10.1111/j.1471-0528.1996.tb09548.x 
-666. Regitz-Zagrosek V, Roos-Hesselink JW, Bauersachs J, Blomström-Lundqvist C, Cífková 
-R, De Bonis M, et al. 2018 ESC Guidelines for the management of cardiovascular diseases during pregnancy. Eur Heart J 2018;39:3165–241. https://doi.org/10.1093/ 
-eurheartj/ehy340 
-667. Schreiber K, Frishman M, Russell MD, Dey M, Flint J, Allen A, et al. British Society for 
-Rheumatology guideline on prescribing drugs in pregnancy and breastfeeding: comorbidity medications used in rheumatology practice. Rheumatology 2023;62: 
-e89–e104. https://doi.org/10.1093/rheumatology/keac552 
-668. Sammaritano LR, Bermas BL, Chakravarty EE, Chambers C, Clowse MEB, Lockshin 
-MD, et al. 2020 American College of Rheumatology Guideline for the management  
-ESC Guidelines                                                                                                                                                                                               89
-
-
-<!-- PAGE 90 -->
-
-### Page 90
-
-of reproductive health in rheumatic and musculoskeletal diseases. Arthritis Rheumatol 
-2020;72:529–56. https://doi.org/10.1002/art.41191 
-669. Götestam Skorpen C, Hoeltzenbein M, Tincani A, Fischer-Betz R, Elefant E, Chambers 
-C, et al. The EULAR points to consider for use of antirheumatic drugs before pregnancy, and during pregnancy and lactation. Ann Rheum Dis 2016;75:795–810. https:// 
-doi.org/10.1136/annrheumdis-2015-208840 
-670. Russell MD, Dey M, Flint J, Davie P, Allen A, Crossley A, et al. British Society for 
-Rheumatology guideline on prescribing drugs in pregnancy and breastfeeding: immunomodulatory anti-rheumatic drugs and corticosteroids. Rheumatology 2023;62: 
-e48–e88. https://doi.org/10.1093/rheumatology/keac551 
-671. Bizzi E, Cavaleri F, Mascolo R, Conte E, Maggiolini S, Decarlini CC, et al. Recurrent pericarditis in older adults: clinical and laboratory features and outcome. J Am Geriatr Soc 
-2024;72:3467–75. https://doi.org/10.1111/jgs.19150 
-672. Pasina L, Brucato AL, Falcone C, Cucchi E, Bresciani A, Sottocorno M, et al. Medication 
-non-adherence among elderly patients newly discharged and receiving polypharmacy. 
-Drugs Aging 2014;31:283–9. https://doi.org/10.1007/s40266-014-0163-7 
-673. Peretto G, De Luca G, Campochiaro C, Palmisano A, Busnardo E, Sartorelli S, et al. 
-Telemedicine in myocarditis: evolution of a mutidisciplinary ‘disease unit’ at the time 
-of COVID-19 pandemic. Am Heart J 2020;229:121–6. https://doi.org/10.1016/j.ahj. 
-2020.07.015 
-674. Aldajani A, Bérubé M, Mardigyan V. How and why to set up a pericardial disease clinic. 
-Can J Cardiol 2023;39:1149–51. https://doi.org/10.1016/j.cjca.2023.04.028 
-675. Mizia-Stec K, Charron P, Gimeno Blanes JR, Elliott P, Kaski JP, Maggioni AP, et al. 
-Current use of cardiac magnetic resonance in tertiary referral centres for the diagnosis 
-of cardiomyopathy: the ESC EORP cardiomyopathy/myocarditis registry. Eur Heart J 
-Cardiovasc Imaging 2021;22:781–9. https://doi.org/10.1093/ehjci/jeaa329 
-676. Kaski JP, Norrish G, Gimeno Blanes JR, Charron P, Elliott P, Tavazzi L, et al. 
-Cardiomyopathies in children and adolescents: aetiology, management, and outcomes 
-in the European Society of Cardiology EURObservational Research Programme 
-Cardiomyopathy and Myocarditis Registry. Eur Heart J 2024;45:1443–54. https://doi. 
-org/10.1093/eurheartj/ehae109
