@@ -32,8 +32,9 @@ prototypes/
 # Internal documentation (not for public repo)
 docs-internal/
 
-# Medical reference materials (large PDFs)
-references/
+# Medical reference materials (large PDFs and other files)
+references/*
+!references/esc-guidelines-md/
 
 # Development Python environments
 venv/
