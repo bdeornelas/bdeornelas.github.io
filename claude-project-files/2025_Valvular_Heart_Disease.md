@@ -162,8 +162,6 @@
   - [22. Data availability statement](#22-data-availability-statement) *(p. 76)*
   - [23. Author information](#23-author-information) *(p. 76)*
   - [Appendix](#appendix) *(p. 76)*
-  - [References](#references) *(p. 77)*
-  - [References](#references) *(p. 77)*
 
 ---
 
@@ -507,7 +505,6 @@ complications ..................................................................
 22. Data availability statement .............................................................................. 76 
 23. Author information ........................................................................................... 76 
 24. Appendix ................................................................................................................ 76 
-25. References ............................................................................................................. 77  
 ESC Guidelines                                                                                                                                                                                                 3
 
 
@@ -1067,15 +1064,19 @@ Evidence tables summarizing key information from relevant studies
 are generated to facilitate the formulation of recommendations, to 
 Table 1 Classes of recommendations  
 ©
-
+
+
+
 	
 
-	
+	
+
 
 
 	
 
-
+
+
 	
 	
 	
@@ -1086,29 +1087,39 @@ Table 1 Classes of recommendations
 
 	
 
-
+
+
 
-			
+
+
+			
 
  	
 
 ­	
 	
 
-	
+	
+
 
 
 
 
 	
 
-
+
+
 	
 
-		
-
+		
+
+
+
+
 
-
+
+
+
  
 	
 
@@ -1128,14 +1139,22 @@ Table 2 Levels of evidence
 
 
 
-
+
+
+
+
 	
-		
-	
+
+		
+
+	
+
 
-
+
+
 		
-							
+					
+		
 					
 ©
 ESC Guidelines                                                                                                                                                                                                 7
@@ -2141,13 +2160,16 @@ appropriate options for medical, interventional, and surgical
 treatment, using tools and techniques for shared decision-making. 
 
 
-
+
+
 
 
-
+
+
 
 
-	
+	
+
 	
 
 
@@ -2356,7 +2378,8 @@ of MV or TV anatomy], TOE has a central diagnostic role.50,51
 
 
 
-
+
+
 	
 
 
@@ -2369,11 +2392,13 @@ of MV or TV anatomy], TOE has a central diagnostic role.50,51
 
 
 
-
+
+
 
 
 
-
+
+
 
  
 
@@ -2504,12 +2529,14 @@ measured BNP or N-terminal pro-B-type natriuretic protein
 
 
 
-
+
+
 
 
 
 
-
+
+
 
 
 
@@ -2954,15 +2981,19 @@ sinuses of Valsalva, sinotubular junction, and ascending aorta.8,215,216
 The largest diameter is used to indicate the specific aortic phenotype: root phenotype, ascending phenotypes, and extended or 
 mixed forms (see Supplementary data online, Figure S1).8 The mechanism of AR and aortic diameters determine suitability for AV sparing or repair.217,218 
 
-
+
+
 
 
 	
-
-
+
+
+
+
 
 
-
+
+
 
 
 
@@ -2973,7 +3004,8 @@ mixed forms (see Supplementary data online, Figure S1).8 The mechanism of AR and
 
 
  
-
+
+
 
 
 
@@ -2998,14 +3030,17 @@ mixed forms (see Supplementary data online, Figure S1).8 The mechanism of AR and
  		
 
 ≥
-
+
+
 
 
-
+
+
 
 
 
-
+
+
 
 
 
@@ -3624,14 +3659,20 @@ Patients undergoing TAVI have quicker recoveries, shorter hospital
 
 
 
-
+
+
 
-	
+	
+
+
 
 
-
+
+
+
 
-
+
+
 
  
 	
@@ -3768,7 +3809,8 @@ PPM based on the predicted effective orifice area (EOA).436,438,468,469
 future TAV-in-SAV implantation.457 
 
 
-
+
+
 	
 
 
@@ -3795,7 +3837,8 @@ future TAV-in-SAV implantation.457
 
 
 
-
+
+
 
 
 
@@ -3808,9 +3851,11 @@ future TAV-in-SAV implantation.457
 
 
 ­­	
-­
+­
+
 
-
+
+
 
 
 
@@ -4039,13 +4084,18 @@ Cardiac computed tomography provides high-resolution anatomical
 details of the entire MV apparatus523,526 and increasingly plays a role in 
 MV intervention planning, particularly in the assessment of arterial access 
 for extracorporeal circulation and the presence of MV calcification in minimally invasive surgery,527 as well as the feasibility of transcatheter MV implantation (TMVI) based on annulus size and risk of LVOT obstruction.528 
-
+
+
 
 
-	
+	
+
 ≥7 mm (≥8 mm for biplane)
-		
- 
+	
+	
+
+
+ 
 ­­­
 ≥
 ≤60%
@@ -4068,11 +4118,14 @@ for extracorporeal circulation and the presence of MV calcification in minimally
 
 
 
-
+
+
 
 
-
-
+
+
+
+
 
 >
 	­
@@ -4080,9 +4133,12 @@ for extracorporeal circulation and the presence of MV calcification in minimally
 
 
 
-
-
-
+
+
+
+
+
+
  ≥40 mm2 (or ≥30 mm2 if elliptical regurgitant orifice area)  
 ≥≥ 
 ≥
@@ -4397,41 +4453,70 @@ management before an MV intervention according to HF guideline criteria (LVEF �
 
 
 
-≥
-	
-		
-
-	
-			
+≥
+
+
+	
+
+
+		
+
+
+
+
+
+	
+		
+	
  ­
 	
  ­
-
+
+
+
 
-		
-	
+
+		
+
+
+
+	
 	
-
+
+
+
+
 
-		
+	
+	
 
-	
+
+
+
+	
 
-
+
+
+
+
 
 
 	
 		
 
-	
+
+	
 
 
-
+
+
+
 
 
 
 	
-
+
+
 Figure 12 Most frequently used criteria for the diagnosis of atrial secondary mitral regurgitation. AO, aorta; AP, anteroposterior; HFpEF, heart failure 
 with preserved ejection fraction; LA, left atrium/left atrial; LAVI, left atrial volume index; LV, left ventricle/left ventricular; LVEF, left ventricular ejection 
 fraction; MA, mitral annulus; MR, mitral regurgitation; MV, mitral valve; SMR, secondary mitral regurgitation. aLV end-diastolic dimension of <56 mm in 
@@ -5063,7 +5148,8 @@ ESC Guidelines                                                                  
 
 
 
-
+
+
 
 	
 
@@ -5077,12 +5163,16 @@ ESC Guidelines                                                                  
 
 
 
-
-
+
+
+
+
 
  
-
-
+
+
+
+
 
 ­ 
 	
@@ -5093,23 +5183,31 @@ ESC Guidelines                                                                  
 
 
 
-
- 
+
+
+
+ 
 	
-	 
-	  
+	
+ 
+	 
+ 
 	
 
 ≤
- 
+
+ 
 	
-	 
-	  ­
+	
+ 
+	 
+ ­
 	
 
 ≤
 
-
+
+
 
 
 
@@ -5117,7 +5215,8 @@ ESC Guidelines                                                                  
 ≤
 	
 
-
+
+
 
 
 
@@ -5128,7 +5227,8 @@ ESC Guidelines                                                                  
 
  
 
-
+
+
 
 
 
@@ -5139,7 +5239,8 @@ ESC Guidelines                                                                  
 
 ≥
 	≥
-≥­
+
+≥­
 	
 
 ≥
@@ -5207,8 +5308,10 @@ the progression of TR or other outcomes in this category of patients
 
 
 
-
-
+
+
+
+
 
 	
 
@@ -6811,12 +6914,17 @@ Table S7).970
 
 
 
-
-	
-
+
+
+	
+
+
+
 
-	
-
+
+	
+
+
 
 
 
@@ -6874,32 +6982,57 @@ Table S7).970
 
 
 
-	
-
-	 ­
+
+	
+
+
+	
+
+ ­
 	
- ­
+
+ ­
  ­
-
+
+
+
+
+
+
 
-
-
+
+
+
+
+
+
 	
 
 	
 
-
-
+
+
+
+
+
 
 
-	
-	
+	
+
+
+	
 	
-
-	
+
+
+
+	
+
+
 ­
-	
-
+	
+
+
+
 Figure 22 The Pregnancy Heart Team model of care. AS, aortic stenosis; ECG, electrocardiogram; MS, mitral stenosis; TTE, transthoracic echocardiography; VHD, valvular heart disease.
 
 
@@ -7817,3573 +7950,3 @@ States of America), Korkut Bostanci (Türkiye), Filip Casselman
 States of America), Franca Melfi (Italy), Rafael Sadaba (Spain), Florian 
 Schoenhoff (Switzerland), Matthias Siepe (Switzerland), and Tanya 
 Warburton (United Kingdom) 
-25. References 
-1. Mack MJ, Leon MB, Thourani VH, Makkar R, Kodali SK, Russo M, et al. Transcatheter 
-aortic-valve replacement with a balloon-expandable valve in low-risk patients. N Engl J 
-Med 2019;380:1695–705. https://doi.org/10.1056/NEJMoa1814052 
-2. Mack MJ, Leon MB, Thourani VH, Pibarot P, Hahn RT, Genereux P, et al. Transcatheter 
-aortic-valve replacement in low-risk patients at five years. N Engl J Med 2023;389: 
-1949–960. https://doi.org/10.1056/NEJMoa2307447 
-3. Reardon MJ, Van Mieghem NM, Popma JJ, Kleiman NS, Sondergaard L, Mumtaz M, et al. 
-Surgical or transcatheter aortic-valve replacement in intermediate-risk patients. N Engl 
-J Med 2017;376:1321–31. https://doi.org/10.1056/NEJMoa1700456  
-ESC Guidelines                                                                                                                                                                                               77
-
-
-<!-- PAGE 78 -->
-
-### Page 78
-
-4. Forrest JK, Deeb GM, Yakubov SJ, Gada H, Mumtaz MA, Ramlawi B, et al. 4-Year outcomes of patients with aortic stenosis in the Evolut low risk trial. J Am Coll Cardiol 2023; 
-82:2163–65. https://doi.org/10.1016/j.jacc.2023.09.813 
-5. Delgado V, Ajmone Marsan N, de Waha S, Bonaros N, Brida M, Burri H, et al. 2023 
-ESC Guidelines for the management of endocarditis. Eur Heart J 2023;44: 
-3948–4042. https://doi.org/10.1093/eurheartj/ehad193 
-6. Vrints C, Andreotti F, Koskinas KC, Rossello X, Adamo M, Ainslie J, et al. 2024 ESC 
-Guidelines for the management of chronic coronary syndromes: developed by the 
-task force for the management of chronic coronary syndromes of the European 
-Society of Cardiology (ESC) Endorsed by the European Association for 
-Cardio-Thoracic Surgery (EACTS). Eur Heart J 2024;45:3415–537. https://doi.org/ 
-10.1093/eurheartj/ehae177 
-7. Van Gelder IC, Rienstra M, Bunting KV, Casado-Arroyo R, Caso V, Crijns H, et al. 2024 
-ESC Guidelines for the management of atrial fibrillation developed in collaboration 
-with the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J 
-2024;45:3314–414. https://doi.org/10.1093/eurheartj/ehae176 
-8. Mazzolai L, Teixido-Tura G, Lanzi S, Boc V, Bossone E, Brodmann M, et al. 2024 ESC 
-Guidelines for the management of peripheral arterial and aortic diseases. Eur Heart J 
-2024;45:3538–700. https://doi.org/10.1093/eurheartj/ehae179 
-9. Baumgartner H, De Backer J, Babu-Narayan SV, Budts W, Chessa M, Diller G-P, et al. 
-Force for the management of adult congenital heart disease of the European Society of 
-Cardiology (ESC). Endorsed by: Association for European Paediatric and Congenital 
-Cardiology (AEPC), International Society for Adult Congenital Heart Disease 
-(ISACHD). Eur Heart J 2020;42:563–645. https://doi.org/10.1093/eurheartj/ehaa554 
-10. Généreux P, Sharma RP, Cubeddu RJ, Aaron L, Abdelfattah OM, Koulogiannis KP, et al. 
-The mortality burden of untreated aortic stenosis. J Am Coll Cardiol 2023;82:2101–9.  
-https://doi.org/10.1016/j.jacc.2023.09.796 
-11. d’Arcy JL, Coffey S, Loudon MA, Kennedy A, Pearson-Stuttard J, Birks J, et al. 
-Large-scale community echocardiographic screening reveals a major burden of undiagnosed valvular heart disease in older people: the OxVALVE Population Cohort Study. 
-Eur Heart J 2016;37:3515–22. https://doi.org/10.1093/eurheartj/ehw229 
-12. Iung B, Delgado V, Rosenhek R, Price S, Prendergast B, Wendler O, et al. 
-Contemporary presentation and management of valvular heart disease: the 
-EURObservational research programme valvular heart disease II survey. Circulation 
-2019;140:1156–69. https://doi.org/10.1161/CIRCULATIONAHA.119.041080 
-13. Gaede L, Di Bartolomeo R, van der Kley F, Elsässer A, Iung B, Möllmann H. Aortic valve 
-stenosis: what do people know? A heart valve disease awareness survey of over 8,800 
-people aged 60 or over. EuroIntervention 2016;12:883–9. https://doi.org/10.4244/ 
-eijy16m06_02 
-14. Lancellotti P, Magne J, Dulgheru R, Clavel MA, Donal E, Vannan MA, et al. Outcomes of 
-patients with asymptomatic aortic stenosis followed up in heart valve clinics. JAMA 
-Cardiol 2018;3:1060–8. https://doi.org/10.1001/jamacardio.2018.3152 
-15. Lancellotti P, Rosenhek R, Pibarot P, Iung B, Otto CM, Tornos P, et al. ESC Working 
-Group on Valvular Heart Disease Position Paper—heart valve clinics: organization, 
-structure, and experiences. Eur Heart J 2013;34:1597–606. https://doi.org/10.1093/ 
-eurheartj/ehs443 
-16. Chambers JB, Prendergast B, Iung B, Rosenhek R, Zamorano JL, Pierard LA, et al. 
-Standards defining a ‘Heart Valve Centre’: ESC Working Group on Valvular Heart 
-Disease and European Association for Cardiothoracic Surgery Viewpoint. Eur Heart 
-J 2017;38:2177–83. https://doi.org/10.1093/eurheartj/ehx370 
-17. Nishimura RA, O’Gara PT, Bavaria JE, Brindis RG, Carroll JD, Kavinsky CJ, et al. 2019 
-AATS/ACC/ASE/SCAI/STS Expert Consensus Systems of Care document: a proposal 
-to optimize care for patients with valvular heart disease: a joint report of the American 
-Association for Thoracic Surgery, American College of Cardiology, American Society 
-of Echocardiography, Society for Cardiovascular Angiography and Interventions, and 
-Society of Thoracic Surgeons. J Am Coll Cardiol 2019;73:2609–35. https://doi.org/10. 
-1016/j.jacc.2018.10.007 
-18. Dreyfus G, Windecker S. How to shape the future of cardiology and cardiac surgery? 
-Eur Heart J 2020;41:3693–701. https://doi.org/10.1093/eurheartj/ehaa707 
-19. Vahanian A, Beyersdorf F, Praz F, Milojevic M, Baldus S, Bauersachs J, et al. 2021 ESC/ 
-EACTS Guidelines for the management of valvular heart disease. Eur Heart J 2022;43: 
-561–632. https://doi.org/10.1093/eurheartj/ehab395 
-20. Leonardi S, Capodanno D, Sousa-Uva M, Vrints C, Rex S, Guarracino F, et al. 
-Composition, structure, and function of heart teams: a joint position paper of the 
-ACVC, EAPCI, EACTS, and EACTA focused on the management of patients with 
-complex coronary artery disease requiring myocardial revascularization. Eur Heart J 
-Acute Cardiovasc Care 2021;10:83–93. https://doi.org/10.1093/ehjacc/zuaa013 
-21. Agricola E, Ancona F, Brochet E, Donal E, Dweck M, Faletra F, et al. The structural 
-heart disease interventional imager rationale, skills and training: a position paper of 
-the European Association of Cardiovascular Imaging. Eur Heart J Cardiovasc Imaging 
-2021;22:471–9. https://doi.org/10.1093/ehjci/jeab005 
-22. Hahn RT, Mahmood F, Kodali S, Lang R, Monaghan M, Gillam LD, et al. Core competencies in echocardiography for imaging structural heart disease interventions: an expert consensus statement. JACC Cardiovasc Imaging 2019;12:2560–70. https://doi.org/ 
-10.1016/j.jcmg.2019.10.008 
-23. Birkmeyer JD, Stukel TA, Siewers AE, Goodney PP, Wennberg DE, Lucas FL. Surgeon 
-volume and operative mortality in the United States. N Engl J Med 2003;349:2117–27.  
-https://doi.org/10.1056/NEJMsa035205 
-24. Khera R, Pandey A, Koshy T, Ayers C, Nallamothu BK, Das SR, et al. Role of hospital 
-volumes in identifying low-performing and high-performing aortic and mitral valve surgical centers in the United States. JAMA Cardiol 2017;2:1322–31. https://doi.org/10. 
-1001/jamacardio.2017.4003 
-25. Gammie JS, O’Brien SM, Griffith BP, Ferguson TB, Peterson ED. Influence of hospital 
-procedural volume on care process and mortality for patients undergoing elective surgery for mitral regurgitation. Circulation 2007;115:881–7. https://doi.org/10.1161/ 
-CIRCULATIONAHA.106.634436 
-26. Chikwe J, Toyoda N, Anyanwu AC, Itagaki S, Egorova NN, Boateng P, et al. Relation of 
-mitral valve surgery volume to repair rate, durability, and survival. J Am Coll Cardiol 
-2017;69:2397–406. https://doi.org/10.1016/j.jacc.2017.02.026 
-27. Chhatriwalla AK, Vemulapalli S, Szerlip M, Kodali S, Hahn RT, Saxon JT, et al. Operator 
-experience and outcomes of transcatheter mitral valve repair in the United States. J Am 
-Coll Cardiol 2019;74:2955–65. https://doi.org/10.1016/j.jacc.2019.09.014 
-28. Bonow RO, O’Gara PT, Adams DH, Badhwar V, Bavaria JE, Elmariah S, et al. 2019 
-AATS/ACC/SCAI/STS Expert Consensus Systems of Care document: operator and 
-institutional recommendations and requirements for transcatheter mitral valve intervention: a joint report of the American Association for Thoracic Surgery, the 
-American College of Cardiology, the Society for Cardiovascular Angiography and 
-Interventions, and The Society of Thoracic Surgeons. J Am Coll Cardiol 2020;76: 
-96–117. https://doi.org/10.1016/j.jacc.2019.12.002 
-29. Grayburn PA, Mack MJ, Manandhar P, Kosinski AS, Sannino A, Smith RL 2nd, et al. 
-Comparison of transcatheter edge-to-edge mitral valve repair for primary mitral regurgitation outcomes to hospital volumes of surgical mitral valve repair. Circ Cardiovasc Interv 
-2024;17:e013581. https://doi.org/10.1161/circinterventions.123.013581 
-30. Wild MG, Stolz L, Rosch S, Rudolph F, Goebel B, Köll B, et al. Transcatheter valve repair for tricuspid regurgitation: 1-year results from a large European real-world registry. J Am Coll Cardiol 2025;85:220–31. https://doi.org/10.1016/j.jacc.2024.10.068 
-31. Carroll JD, Vemulapalli S, Dai D, Matsouaka R, Blackstone E, Edwards F, et al. 
-Procedural experience for transcatheter aortic valve replacement and relation to outcomes: the STS/ACC TVT registry. J Am Coll Cardiol 2017;70:29–41. https://doi.org/10. 
-1016/j.jacc.2017.04.056 
-32. Mao J, Redberg RF, Carroll JD, Marinac-Dabic D, Laschinger J, Thourani V, et al. 
-Association between hospital surgical aortic valve replacement volume and transcatheter aortic valve replacement outcomes. JAMA Cardiol 2018;3:1070–8. https://doi.org/ 
-10.1001/jamacardio.2018.3562 
-33. Vemulapalli S, Carroll JD, Mack MJ, Li Z, Dai D, Kosinski AS, et al. Procedural volume 
-and outcomes for transcatheter aortic-valve replacement. N Engl J Med 2019;380: 
-2541–50. https://doi.org/10.1056/NEJMsa1901109 
-34. Edwards FH, Ferraris VA, Kurlansky PA, Lobdell KW, He X, O’Brien SM, et al. Failure 
-to rescue rates after coronary artery bypass grafting: an analysis from the Society of 
-Thoracic Surgeons adult cardiac surgery database. Ann Thorac Surg 2016;102: 
-458–64. https://doi.org/10.1016/j.athoracsur.2016.04.051 
-35. Wallen T, Habertheuer A, Bavaria JE, Hughes GC, Badhwar V, Jacobs JP, et al. Elective 
-aortic root replacement in North America: analysis of STS adult cardiac surgery database. Ann Thorac Surg 2019;107:1307–12. https://doi.org/10.1016/j.athoracsur.2018. 
-12.039 
-36. Geirsson A, Ahlsson A, Franco-Cereceda A, Fuglsang S, Gunn J, Hansson EC, et al. 
-Hospital volumes and later year of operation correlates with better outcomes in acute 
-Type A aortic dissection. Eur J Cardiothorac Surg 2018;53:276–81. https://doi.org/10. 
-1093/ejcts/ezx231 
-37. Gonzalez AA, Dimick JB, Birkmeyer JD, Ghaferi AA. Understanding the 
-volume-outcome effect in cardiovascular surgery: the role of failure to rescue. JAMA 
-Surg 2014;149:119–23. https://doi.org/10.1001/jamasurg.2013.3649 
-38. Wakeam E, Asafu-Adjei D, Ashley SW, Cooper Z, Weissman JS. The association of 
-intensivists with failure-to-rescue rates in outlier hospitals: results of a national survey 
-of intensive care unit organizational characteristics. J Crit Care 2014;29:930–5. https:// 
-doi.org/10.1016/j.jcrc.2014.06.010 
-39. Ward ST, Dimick JB, Zhang W, Campbell DA, Ghaferi AA. Association between hospital staffing models and failure to rescue. Ann Surg 2019;270:91–4. https://doi.org/10. 
-1097/sla.0000000000002744 
-40. Timmis A, Townsend N, Gale CP, Torbica A, Lettino M, Petersen SE, et al. European 
-Society of Cardiology: cardiovascular disease statistics 2019. Eur Heart J 2020;41: 
-12–85. https://doi.org/10.1093/eurheartj/ehz859 
-41. Ali N, Aktaa S, Younsi T, Beska B, Batra G, Blackman DJ, et al. European Society of 
-Cardiology quality indicators for the care and outcomes of adults undergoing transcatheter aortic valve implantation. Eur Heart J Qual Care Clin Outcomes 2024;10: 
-723–36. https://doi.org/10.1093/ehjqcco/qcae006 
-42. Messika-Zeitoun D, Baumgartner H, Burwash IG, Vahanian A, Bax J, Pibarot P, et al. 
-Unmet needs in valvular heart disease. Eur Heart J 2023;44:1862–73. https://doi.org/ 
-10.1093/eurheartj/ehad121
-
-
-<!-- PAGE 79 -->
-
-### Page 79
-
-43. van Dijk WB, Schuit E, van der Graaf R, Groenwold RHH, Laurijssen S, Casadei B, et al. 
-Applicability of European Society of Cardiology guidelines according to gross national 
-income. Eur Heart J 2022;44:598–607. https://doi.org/10.1093/eurheartj/ehac606 
-44. Sengupta PP, Kluin J, Lee SP, Oh JK, Smits A. The future of valvular heart disease assessment and therapy. Lancet 2024;403:1590–602. https://doi.org/10.1016/s0140- 
-6736(23)02754-x 
-45. Lancellotti P, Pibarot P, Chambers J, La Canna G, Pepi M, Dulgheru R, et al. 
-Multi-modality imaging assessment of native valvular regurgitation: an EACVI and 
-ESC council of valvular heart disease position paper. Eur Heart J Cardiovasc Imaging 
-2022;23:e171–232. https://doi.org/10.1093/ehjci/jeab253 
-46. Zoghbi WA, Adams D, Bonow RO, Enriquez-Sarano M, Foster E, Grayburn PA, et al. 
-Recommendations for noninvasive evaluation of native valvular regurgitation: a report 
-from the American Society of Echocardiography developed in collaboration with the 
-Society for Cardiovascular Magnetic Resonance. J Am Soc Echocardiogr 2017;30: 
-303–71. https://doi.org/10.1016/j.echo.2017.01.007 
-47. Popescu BA, Andrade MJ, Badano LP, Fox KF, Flachskampf FA, Lancellotti P, et al. 
-European Association of Echocardiography recommendations for training, competence, and quality improvement in echocardiography. Eur J Echocardiogr 2009;10: 
-893–905. https://doi.org/10.1093/ejechocard/jep151 
-48. Chambers JB, Garbi M, Nieman K, Myerson S, Pierard LA, Habib G, et al. 
-Appropriateness criteria for the use of cardiovascular imaging in heart valve disease 
-in adults: a European Association of Cardiovascular Imaging report of literature review 
-and current practice. Eur Heart J Cardiovasc Imaging 2017;18:489–98. https://doi.org/ 
-10.1093/ehjci/jew309 
-49. Agricola E, Ancona F, Bartel T, Brochet E, Dweck M, Faletra F, et al. Multimodality imaging for patient selection, procedural guidance, and follow-up of transcatheter interventions for structural heart disease: a consensus document of the EACVI Task Force 
-on Interventional Cardiovascular Imaging: part 1: access routes, transcatheter aortic 
-valve implantation, and transcatheter mitral valve interventions. Eur Heart J 
-Cardiovasc Imaging 2023;24:e209–68. https://doi.org/10.1093/ehjci/jead096 
-50. Zoghbi WA, Jone PN, Chamsi-Pasha MA, Chen T, Collins KA, Desai MY, et al. 
-Guidelines for the evaluation of prosthetic valve function with cardiovascular imaging: 
-a report from the American Society of Echocardiography developed in collaboration 
-with the Society for Cardiovascular Magnetic Resonance and the Society of 
-Cardiovascular Computed Tomography. J Am Soc Echocardiogr 2024;37:2–63.  
-https://doi.org/10.1016/j.echo.2023.10.004 
-51. Faletra FF, Agricola E, Flachskampf FA, Hahn R, Pepi M, Ajmone Marsan N, et al. 
-Three-dimensional transoesophageal echocardiography: how to use and when to 
-use—a clinical consensus statement from the European Association of 
-Cardiovascular Imaging of the European Society of Cardiology. Eur Heart J 
-Cardiovasc Imaging 2023;24:e119–97. https://doi.org/10.1093/ehjci/jead090 
-52. Picano E, Pibarot P, Lancellotti P, Monin JL, Bonow RO. The emerging role of exercise 
-testing and stress echocardiography in valvular heart disease. J Am Coll Cardiol 2009;54: 
-2251–60. https://doi.org/10.1016/j.jacc.2009.07.046 
-53. Genereux P, Pibarot P, Redfors B, Mack MJ, Makkar RR, Jaber WA, et al. Staging classification of aortic stenosis based on the extent of cardiac damage. Eur Heart J 2017;38: 
-3351–8. https://doi.org/10.1093/eurheartj/ehx381 
-54. Stolz L, Doldi PM, Orban M, Karam N, Puscas T, Wild MG, et al. Staging heart failure 
-patients with secondary mitral regurgitation undergoing transcatheter edge-to-edge 
-repair. JACC Cardiovasc Interv 2023;16:140–51. https://doi.org/10.1016/j.jcin.2022.10. 
-032 
-55. Dietz MF, Prihadi EA, van der Bijl P, Ajmone Marsan N, Delgado V, Bax JJ. Prognostic 
-implications of staging right heart failure in patients with significant secondary tricuspid 
-regurgitation. JACC Heart Fail 2020;8:627–36. https://doi.org/10.1016/j.jchf.2020.02. 
-008 
-56. Généreux P, Pibarot P, Redfors B, Bax JJ, Zhao Y, Makkar RR, et al. Evolution and prognostic impact of cardiac damage after aortic valve replacement. J Am Coll Cardiol 2022; 
-80:783–800. https://doi.org/10.1016/j.jacc.2022.05.006 
-57. Genereux P, Cohen DJ, Pibarot P, Redfors B, Bax JJ, Zhao Y, et al. Cardiac damage and 
-quality of life after aortic valve replacement in the PARTNER trials. J Am Coll Cardiol 
-2023;81:743–52. https://doi.org/10.1016/j.jacc.2022.11.059 
-58. Kwak S, Everett RJ, Treibel TA, Yang S, Hwang D, Ko T, et al. Markers of myocardial 
-damage predict mortality in patients with aortic stenosis. J Am Coll Cardiol 2021;78: 
-545–58. https://doi.org/10.1016/j.jacc.2021.05.047 
-59. Magne J, Cosyns B, Popescu BA, Carstensen HG, Dahl J, Desai MY, et al. Distribution 
-and prognostic significance of left ventricular global longitudinal strain in asymptomatic 
-significant aortic stenosis: an individual participant data meta-analysis. JACC Cardiovasc 
-Imaging 2019;12:84–92. https://doi.org/10.1016/j.jcmg.2018.11.005 
-60. Prihadi EA, van der Bijl P, Dietz M, Abou R, Vollema EM, Marsan NA, et al. Prognostic 
-implications of right ventricular free wall longitudinal strain in patients with significant 
-functional tricuspid regurgitation. Circ Cardiovasc Imaging 2019;12:e008666. https://doi. 
-org/10.1161/CIRCIMAGING.118.008666 
-61. Little SH, Rigolin VH, Garcia-Sayan E, Hahn RT, Hung J, Mackensen GB, et al. 
-Recommendations for special competency in echocardiographic guidance of structural 
-heart disease interventions: from the American Society of Echocardiography. J Am Soc 
-Echocardiogr 2023;36:350–65. https://doi.org/10.1016/j.echo.2023.01.014 
-62. Hahn RT, Saric M, Faletra FF, Garg R, Gillam LD, Horton K, et al. Recommended standards for the performance of transesophageal echocardiographic screening for structural heart intervention: from the American Society of Echocardiography. J Am Soc 
-Echocardiogr 2022;35:1–76. https://doi.org/10.1016/j.echo.2021.07.006 
-63. Nicoara A, Skubas N, Ad N, Finley A, Hahn RT, Mahmood F, et al. Guidelines for the 
-use of transesophageal echocardiography to assist with surgical decision-making in the 
-operating room: a surgery-based approach: from the American Society of 
-Echocardiography 
-in 
-collaboration 
-with 
-the 
-Society 
-of 
-Cardiovascular 
-Anesthesiologists and the Society of Thoracic Surgeons. J Am Soc Echocardiogr 2020; 
-33:692–734. https://doi.org/10.1016/j.echo.2020.03.002 
-64. Popescu BA, Stefanidis A, Fox KF, Cosyns B, Delgado V, Di Salvo GD, et al. Training, 
-competence, and quality improvement in echocardiography: the European Association 
-of Cardiovascular Imaging Recommendations: update 2020. Eur Heart J Cardiovasc 
-Imaging 2020;21:1305–19. https://doi.org/10.1093/ehjci/jeaa266 
-65. Iung B, Delgado V, Lazure P, Murray S, Sirnes PA, Rosenhek R, et al. Educational needs 
-and application of guidelines in the management of patients with mitral regurgitation. A 
-European mixed-methods study. Eur Heart J 2018;39:1295–303. https://doi.org/10. 
-1093/eurheartj/ehx763 
-66. Nashef SAM, Roques F, Sharples LD, Nilsson J, Smith C, Goldstone AR, et al. 
-EuroSCORE II. Eur J Cardiothorac Surg 2012;41:734–44; discussion 744–735. https:// 
-doi.org/10.1093/ejcts/ezs043 
-67. Ad N, Holmes SD, Patel J, Pritchard G, Shuman DJ, Halpin L. Comparison of 
-EuroSCORE II, original EuroSCORE, and the Society of Thoracic Surgeons Risk 
-Score in Cardiac Surgery Patients. Ann Thorac Surg 2016;102:573–9. https://doi.org/ 
-10.1016/j.athoracsur.2016.01.105 
-68. O’Brien SM, Shahian DM, Filardo G, Ferraris VA, Haan CK, Rich JB, et al. The Society of 
-Thoracic Surgeons 2008 cardiac surgery risk models: part 2—isolated valve surgery. 
-Ann Thorac Surg 2009;88:S23–42. https://doi.org/10.1016/j.athoracsur.2009.05.056 
-69. Duchnowski P, Hryniewiecki T, Kuśmierczyk M, Szymanski P. Performance of the 
-EuroSCORE II and the Society of Thoracic Surgeons score in patients undergoing aortic valve replacement for aortic stenosis. J Thorac Dis 2019;11:2076–81. https://doi.org/ 
-10.21037/jtd.2019.04.48 
-70. Provenchere S, Chevalier A, Ghodbane W, Bouleti C, Montravers P, Longrois D, et al. 
-Is the EuroSCORE II reliable to estimate operative mortality among octogenarians? 
-PLoS One 2017;12:e0187056. https://doi.org/10.1371/journal.pone.0187056 
-71. Taleb Bendiab T, Brusset A, Estagnasié P, Squara P, Nguyen LS. Performance of 
-EuroSCORE II and Society of Thoracic Surgeons risk scores in elderly patients undergoing aortic valve replacement surgery. Arch Cardiovasc Dis 2021;114:474–81. https:// 
-doi.org/10.1016/j.acvd.2020.12.004 
-72. Roques F, Michel P, Goldstone AR, Nashef SAM. The logistic EuroSCORE. Eur Heart J 
-2003;24:882–3. https://doi.org/10.1016/S0195-668X(02)00799-6 
-73. Al-Azizi K, Shih E, DiMaio JM, Squiers JJ, Moubarak G, Kluis A, et al. Assessment of TVT 
-and STS risk score performances in patients undergoing transcatheter aortic valve replacement. JSCAI 2023;2:100600. https://doi.org/10.1016/j.jscai.2023.100600 
-74. Compagnone M, Moretti C, Marcelli C, Taglieri N, Ghetti G, Corsini A, et al. Surgical 
-risk scores applied to transcatheter aortic valve implantation: friends or foes? 
-Short-term and long-term outcomes from a single-center registry. J Invasive Cardiol 
-2019;31:E282–88. 
-75. Tarantini G, Lefèvre T, Terkelsen CJ, Frerker C, Ohlmann P, Mojoli M, et al. One-year 
-outcomes of a European transcatheter aortic valve implantation cohort according to 
-surgical risk. Circ Cardiovasc Interv 2019;12:e006724. https://doi.org/10.1161/ 
-CIRCINTERVENTIONS.118.006724 
-76. Arnold SV, Reynolds MR, Lei Y, Magnuson EA, Kirtane AJ, Kodali SK, et al. Predictors of 
-poor outcomes after transcatheter aortic valve replacement: results from the 
-PARTNER (Placement of Aortic Transcatheter Valve) trial. Circulation 2014;129: 
-2682–90. https://doi.org/10.1161/circulationaha.113.007477 
-77. Edwards FH, Cohen DJ, O’Brien SM, Peterson ED, Mack MJ, Shahian DM, et al. 
-Development and validation of a risk prediction model for in-hospital mortality after 
-transcatheter aortic valve replacement. JAMA Cardiol 2016;1:46–52. https://doi.org/10. 
-1001/jamacardio.2015.0326 
-78. Iung B, Laouénan C, Himbert D, Eltchaninoff H, Chevreul K, Donzeau-Gouge P, et al. 
-Predictive factors of early mortality after transcatheter aortic valve implantation: individual risk assessment using a simple score. Heart 2014;100:1016–23. https://doi.org/ 
-10.1136/heartjnl-2013-305314 
-79. Arnold SV, Afilalo J, Spertus JA, Tang Y, Baron SJ, Jones PG, et al. Prediction of poor 
-outcome after transcatheter aortic valve replacement. J Am Coll Cardiol 2016;68: 
-1868–77. https://doi.org/10.1016/j.jacc.2016.07.762 
-80. Raposeiras-Roubin S, Adamo M, Freixa X, Arzamendi D, Benito-González T, 
-Montefusco A, et al. A score to assess mortality after percutaneous mitral valve repair. 
-J Am Coll Cardiol 2022;79:562–73. https://doi.org/10.1016/j.jacc.2021.11.041 
-81. Shah N, Madhavan MV, Gray WA, Brener SJ, Ahmad Y, Lindenfeld J, et al. Prediction of 
-death or HF hospitalization in patients with severe FMR: the COAPT risk score. JACC 
-Cardiovasc Interv 2022;15:1893–905. https://doi.org/10.1016/j.jcin.2022.08.005 
-82. Hausleiter J, Lachmann M, Stolz L, Bedogni F, Rubbio AP, Estévez-Loureiro R, et al. 
-Artificial intelligence-derived risk score for mortality in secondary mitral regurgitation  
-ESC Guidelines                                                                                                                                                                                               79
-
-
-<!-- PAGE 80 -->
-
-### Page 80
-
-treated by transcatheter edge-to-edge repair: the EuroSMR risk score. Eur Heart J 
-2024;45:922–36. https://doi.org/10.1093/eurheartj/ehad871 
-83. Adamo M, Rubbio AP, Zaccone G, Pighi M, Massussi M, Tomasoni D, et al. Prediction 
-of mortality and heart failure hospitalisations in patients undergoing M-TEER: external 
-validation of the COAPT risk score. EuroIntervention 2023;18:1408–17. https://doi.org/ 
-10.4244/EIJ-D-22-00992 
-84. Dreyfus J, Audureau E, Bohbot Y, Coisne A, Lavie-Badie Y, Bouchery M, et al. 
-TRI-SCORE: a new risk score for in-hospital mortality prediction after isolated tricuspid valve surgery. Eur Heart J 2022;43:654–62. https://doi.org/10.1093/eurheartj/ 
-ehab679 
-85. Dreyfus J, Bohbot Y, Coisne A, Lavie-Badie Y, Flagiello M, Bazire B, et al. Predictive value of the TRI-SCORE for in-hospital mortality after redo isolated tricuspid valve surgery. Heart 2023;109:951–8. https://doi.org/10.1136/heartjnl-2022-322167 
-86. Lantelme P, Aubry M, Peng JC, Riche B, Souteyrand G, Jaafar P, et al. Comorbidities 
-may offset expected improved survival after transcatheter aortic valve replacement. 
-Eur Heart J Open 2022;2:oeac029. https://doi.org/10.1093/ehjopen/oeac029 
-87. Piankova P, Afilalo J. Prevalence and prognostic implications of frailty in transcatheter aortic 
-valve replacement. Cardiol Clin 2020;38:75–87. https://doi.org/10.1016/j.ccl.2019.09.011 
-88. Kim DH, Afilalo J, Shi SM, Popma JJ, Khabbaz KR, Laham RJ, et al. Evaluation of changes 
-in functional status in the year after aortic valve replacement. JAMA Intern Med 2019; 
-179:383–91. https://doi.org/10.1001/jamainternmed.2018.6738 
-89. Scotti A, Coisne A, Granada JF, Driggin E, Madhavan MV, Zhou Z, et al. Impact of malnutrition in patients with heart failure and secondary mitral regurgitation: the COAPT 
-Trial. J Am Coll Cardiol 2023;82:128–38. https://doi.org/10.1016/j.jacc.2023.04.047 
-89a. Pagnesi M, Adamo M, Stolz L, Pancaldi E, Kresoja KP, von Stein J, et al. Malnutrition 
-and outcomes in patients with tricuspid regurgitation undergoing transcatheter 
-tricuspid valve repair. Eur J Heart Fail 2025. https://doi.org/10.1002/ejhf.3623. Epub 
-ahead of print. PMID: 39980251. 
-90. Sündermann SH, Bäck C, Bischoff-Ferrari HA, Dehbi HM, Szekely A, Völler H, et al. 
-Preinterventional frailty assessment in patients scheduled for cardiac surgery or transcatheter aortic valve implantation: a consensus statement of the European Association 
-for Cardio-Thoracic Surgery (EACTS) and the European Association of Preventive 
-Cardiology (EAPC) of the European Society of Cardiology (ESC). Eur J Cardiothorac 
-Surg 2023;64:ezad181. https://doi.org/10.1093/ejcts/ezad181 
-91. Richter D, Guasti L, Walker D, Lambrinou E, Lionis C, Abreu A, et al. Frailty in cardiology: definition, assessment and clinical implications for general cardiology. A consensus document of the Council for Cardiology Practice (CCP), Association for Acute 
-Cardio Vascular Care (ACVC), Association of Cardiovascular Nursing and Allied 
-Professions (ACNAP), European Association of Preventive Cardiology (EAPC), 
-European Heart Rhythm Association (EHRA), Council on Valvular Heart Diseases 
-(VHD), Council on Hypertension (CHT), Council of Cardio-Oncology (CCO), 
-Working Group (WG) Aorta and Peripheral Vascular Diseases, WG e-Cardiology, 
-WG Thrombosis, of the European Society of Cardiology, European Primary Care 
-Cardiology Society (EPCCS). Eur J Prev Cardiol 2022;29:216–27. https://doi.org/10. 
-1093/eurjpc/zwaa167 
-92. Kundi H, Popma JJ, Reynolds MR, Strom JB, Pinto DS, Valsdottir LR, et al. Frailty and 
-related outcomes in patients undergoing transcatheter valve therapies in a nationwide 
-cohort. Eur Heart J 2019;40:2231–9. https://doi.org/10.1093/eurheartj/ehz187 
-93. Brusco NK, Atkinson V, Woods J, Myles PS, Hodge A, Jones C, et al. Implementing 
-PROMS for elective surgery patients: feasibility, response rate, degree of recovery 
-and patient acceptability. J Patient Rep Outcomes 2022;6:73. https://doi.org/10.1186/ 
-s41687-022-00483-6 
-94. Arnold SV, Spertus JA, Lei Y, Allen KB, Chhatriwalla AK, Leon MB, et al. Use of the Kansas 
-City Cardiomyopathy Questionnaire for monitoring health status in patients with aortic 
-stenosis. Circ Heart Fail 2013;6:61–7. https://doi.org/10.1161/circheartfailure.112.970053 
-95. Arnold SV, Spertus JA, Gosch K, Dunlay SM, Olds DM, Jones PG, et al. Validation of the 
-Kansas City Cardiomyopathy Questionnaire in patients with tricuspid regurgitation. 
-JAMA Cardiol 2025;10:117–25 https://doi.org/10.1001/jamacardio.2024.4266 
-96. Clavel MA, Tribouilloy C, Vanoverschelde JL, Pizarro R, Suri RM, Szymanski C, et al. 
-Association of B-type natriuretic peptide with survival in patients with degenerative 
-mitral regurgitation. J Am Coll Cardiol 2016;68:1297–307. https://doi.org/10.1016/j. 
-jacc.2016.06.047 
-97. Clavel MA, Malouf J, Michelena HI, Suri RM, Jaffe AS, Mahoney DW, et al. B-type natriuretic peptide clinical activation in aortic stenosis: impact on long-term survival. J Am 
-Coll Cardiol 2014;63:2016–25. https://doi.org/10.1016/j.jacc.2014.02.581 
-98. Zhang B, Xu H, Zhang H, Liu Q, Ye Y, Hao J, et al. Prognostic value of N-terminal pro– 
-B-type natriuretic peptide in elderly patients with valvular heart disease. J Am Coll 
-Cardiol 2020;75:1659–72. https://doi.org/10.1016/j.jacc.2020.02.031 
-99. Lindman BR, Breyley JG, Schilling JD, Vatterott AM, Zajarias A, Maniar HS, et al. 
-Prognostic utility of novel biomarkers of cardiovascular stress in patients with aortic 
-stenosis undergoing valve replacement. Heart 2015;101:1382–8. https://doi.org/10. 
-1136/heartjnl-2015-307742 
-100. Lindman BR, Clavel MA, Abu-Alhayja’a R, Cote N, Dagenais F, Novak E, et al. 
-Multimarker approach to identify patients with higher mortality and rehospitalization 
-rate after surgical aortic valve replacement for aortic stenosis. JACC Cardiovasc Interv 
-2018;11:2172–81. https://doi.org/10.1016/j.jcin.2018.07.039 
-101. Henri C, Piérard LA, Lancellotti P, Mongeon F-P, Pibarot P, Basmadjian AJ. Exercise 
-testing and stress imaging in valvular heart disease. Can J Cardiol 2014;30:1012–26.  
-https://doi.org/10.1016/j.cjca.2014.03.013 
-102. Das P, Rimington H, Chambers J. Exercise testing to stratify risk in aortic stenosis. Eur 
-Heart J 2005;26:1309–13. https://doi.org/10.1093/eurheartj/ehi250 
-103. Redfors B, Pibarot P, Gillam LD, Burkhoff D, Bax JJ, Lindman BR, et al. Stress testing in 
-asymptomatic aortic stenosis. Circulation 2017;135:1956–76. https://doi.org/10.1161/ 
-CIRCULATIONAHA.116.025457 
-104. Lund O, Nielsen TT, Emmertsen K, Flø C, Rasmussen B, Jensen FT, et al. Mortality and 
-worsening of prognostic profile during waiting time for valve replacement in aortic 
-stenosis. Thorac Cardiovasc Surg 1996;44:289–95. https://doi.org/10.1055/s-2007- 
-1012039 
-105. Guazzi M, Arena R, Halle M, Piepoli MF, Myers J, Lavie CJ. 2016 focused update: clinical 
-recommendations for cardiopulmonary exercise testing data assessment in specific patient populations. Eur Heart J 2018;39:1144–61. https://doi.org/10.1093/eurheartj/ 
-ehw180 
-106. Hoedemakers S, Pugliese NR, Stassen J, Vanoppen A, Claessens J, Gojevic T, et al. 
-mPAP/CO slope and oxygen uptake add prognostic value in aortic stenosis. 
-Circulation 
-2024;149:1172–82. 
-https://doi.org/10.1161/CIRCULATIONAHA.123. 
-067130 
-107. Lancellotti P, Dulgheru R, Go YY, Sugimoto T, Marchetta S, Oury C, et al. Stress echocardiography in patients with native valvular heart disease. Heart 2018;104:807–13.  
-https://doi.org/10.1136/heartjnl-2017-311682 
-108. Gentry JL III, Phelan D, Desai MY, Griffin BP. The role of stress echocardiography in 
-valvular heart disease: a current appraisal. Cardiology 2017;137:137–50. https://doi. 
-org/10.1159/000460274 
-109. Lancellotti P, Magne J. Stress echocardiography in regurgitant valve disease. Circ 
-Cardiovasc Imaging 2013;6:840–9. https://doi.org/10.1161/CIRCIMAGING.113.000474 
-110. Lancellotti P, Magne J, Donal E, O’Connor K, Dulgheru R, Rosca M, et al. Determinants 
-and prognostic significance of exercise pulmonary hypertension in asymptomatic severe 
-aortic 
-stenosis. 
-Circulation 
-2012;126:851–9. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.111.088427 
-111. Coisne A, Aghezzaf S, Galli E, Mouton S, Richardson M, Dubois D, et al. Prognostic values of exercise echocardiography and cardiopulmonary exercise testing in patients 
-with primary mitral regurgitation. Eur Heart J Cardiovasc Imaging 2022;23:1552–61.  
-https://doi.org/10.1093/ehjci/jeab231 
-112. Saeed S, Rajani R, Seifert R, Parkin D, Chambers JB. Exercise testing in patients with 
-asymptomatic moderate or severe aortic stenosis. Heart 2018;104:1836–42. https:// 
-doi.org/10.1136/heartjnl-2018-312939 
-113. Saeed S, Chambers JB. Exercise testing in aortic stenosis: safety, tolerability, clinical 
-benefits and prognostic value. J Clin Med 2022;11:4983. https://doi.org/10.3390/ 
-jcm11174983 
-114. Scarsini R, Pesarini G, Zivelonghi C, Piccoli A, Ferrero V, Lunardi M, et al. Physiologic 
-evaluation of coronary lesions using instantaneous wave-free ratio (iFR) in patients 
-with severe aortic stenosis undergoing transcatheter aortic valve implantation. 
-EuroIntervention 2018;13:1512–9. https://doi.org/10.4244/EIJ-D-17-00542 
-115. Pesarini G, Scarsini R, Zivelonghi C, Piccoli A, Gambaro A, Gottin L, et al. Functional 
-assessment of coronary artery disease in patients undergoing transcatheter aortic 
-valve implantation: influence of pressure overload on the evaluation of lesions severity. 
-Circ Cardiovasc Interv 2016;9:e004088. https://doi.org/10.1161/circinterventions.116. 
-004088 
-116. Ahmad Y, Götberg M, Cook C, Howard JP, Malik I, Mikhail G, et al. Coronary hemodynamics in patients with severe aortic stenosis and coronary artery disease undergoing transcatheter aortic valve replacement: implications for clinical indices of coronary 
-stenosis severity. JACC Cardiovasc Interv 2018;11:2019–31. https://doi.org/10.1016/j. 
-jcin.2018.07.019 
-117. Ardehali A, Segal J, Cheitlin MD. Coronary blood flow reserve in acute aortic regurgitation. 
-J 
-Am 
-Coll 
-Cardiol 
-1995;25:1387–92. 
-https://doi.org/10.1016/0735- 
-1097(95)00018-Y 
-118. Akasaka T, Yoshida K, Hozumi T, Takagi T, Kaji S, Kawamoto T, et al. Restricted coronary flow reserve in patients with mitral regurgitation improves after mitral reconstructive surgery. J Am Coll Cardiol 1998;32:1923–30. https://doi.org/10.1016/S0735- 
-1097(98)00490-2 
-119. D’Alto M, Dimopoulos K, Coghlan JG, Kovacs G, Rosenkranz S, Naeije R. Right heart 
-catheterization for the diagnosis of pulmonary hypertension: controversies and practical issues. Heart Fail Clin 2018;14:467–77. https://doi.org/10.1016/j.hfc.2018.03.011 
-120. Lindman BR, Arnold SV, Bagur R, Clarke L, Coylewright M, Evans F, et al. Priorities for 
-patient-centered research in valvular heart disease: a report from the National Heart, 
-Lung, and Blood Institute Working Group. J Am Heart Assoc 2020;9:e015975. https:// 
-doi.org/10.1161/JAHA.119.015975 
-121. Dharmarajan K, Foster J, Coylewright M, Green P, Vavalle JP, Faheem O, et al. The 
-medically managed patient with severe symptomatic aortic stenosis in the TAVR 
-era: patient characteristics, reasons for medical management, and quality of shared decision making at heart valve treatment centers. PLoS One 2017;12:e0175926. https:// 
-doi.org/10.1371/journal.pone.0175926
-
-
-<!-- PAGE 81 -->
-
-### Page 81
-
-122. Ren X, Liu K, Zhang H, Meng Y, Li H, Sun X, et al. Coronary evaluation before heart 
-valvular surgery by using coronary computed tomographic angiography versus invasive 
-coronary angiography. J Am Heart Assoc 2021;10:e019531. https://doi.org/10.1161/ 
-jaha.120.019531 
-123. Opolski MP, Staruch AD, Jakubczyk M, Min James K, Gransar H, Staruch M, et al. CT 
-angiography for the detection of coronary artery stenoses in patients referred for cardiac valve surgery. JACC Cardiovasc Imaging 2016;9:1059–70. https://doi.org/10.1016/j. 
-jcmg.2015.09.028 
-124. Meijboom Willem B, Mollet Nico R, Van Mieghem Carlos AG, Kluin J, Weustink Annick 
-C, Pugliese F, et al. Pre-operative computed tomography coronary angiography to detect significant coronary artery disease in patients referred for cardiac valve surgery. J 
-Am Coll Cardiol 2006;48:1658–65. https://doi.org/10.1016/j.jacc.2006.06.054 
-125. Gatti M, Gallone G, Poggi V, Bruno F, Serafini A, Depaoli A, et al. Diagnostic accuracy of 
-coronary computed tomography angiography for the evaluation of obstructive coronary artery disease in patients referred for transcatheter aortic valve implantation: a systematic review and meta-analysis. Eur Radiol 2022;32:5189–200. https://doi.org/10. 
-1007/s00330-022-08603-y 
-126. Diller GP, Gerwing M, Boroni Grazioli S, De-Torres-Alba F, Radke RM, Vormbrock J, 
-et al. Utility of coronary computed tomography angiography in patients undergoing 
-transcatheter aortic valve implantation: a meta-analysis and meta-regression based 
-on published data from 7458 patients. J Clin Med 2024;13:631. https://doi.org/10. 
-3390/jcm13020631 
-127. Kondoleon NP, Layoun H, Spilias N, Sipko J, Kanaan C, Harb S, et al. Effectiveness of 
-pre-TAVR CTA as a screening tool for significant CAD before TAVR. JACC Cardiovasc 
-Interv 2023;16:1990–2000. https://doi.org/10.1016/j.jcin.2023.05.030 
-128. Malebranche D, Hoffner MKM, Huber AT, Cicovic A, Spano G, Bernhard B, et al. 
-Diagnostic performance of quantitative coronary artery disease assessment using 
-computed tomography in patients with aortic stenosis undergoing transcatheter 
-aortic-valve implantation. BMC Cardiovasc Disord 2022;22:178. https://doi.org/10. 
-1186/s12872-022-02623-8 
-129. Chieffo A, Giustino G, Spagnolo P, Panoulas VF, Montorfano M, Latib A, et al. Routine 
-screening of coronary artery disease with computed tomographic coronary angiography in place of invasive coronary angiography in patients undergoing transcatheter 
-aortic valve replacement. Circ Cardiovasc Interv 2015;8:e002025. https://doi.org/10. 
-1161/circinterventions.114.002025 
-130. Patel KP, Michail M, Treibel TA, Rathod K, Jones DA, Ozkor M, et al. Coronary revascularization in patients undergoing aortic valve replacement for severe aortic stenosis. 
-JACC Cardiovasc Interv 2021;14:2083–96. https://doi.org/10.1016/j.jcin.2021.07.058 
-131. Miyagawa S, Masai T, Fukuda H, Yamauchi T, Iwakura K, Itoh H, et al. Coronary microcirculatory dysfunction in aortic stenosis: myocardial contrast echocardiography study. 
-Ann Thorac Surg 2009;87:715–9. https://doi.org/10.1016/j.athoracsur.2008.11.078 
-132. Beach JM, Mihaljevic T, Svensson LG, Rajeswaran J, Marwick T, Griffin B, et al. Coronary 
-artery disease and outcomes of aortic valve replacement for severe aortic stenosis. J 
-Am Coll Cardiol 2013;61:837–48. https://doi.org/10.1016/j.jacc.2012.10.049 
-133. Thalji NM, Suri RM, Daly RC, Greason KL, Dearani JA, Stulak JM, et al. The prognostic 
-impact of concomitant coronary artery bypass grafting during aortic valve surgery: implications for revascularization in the transcatheter era. J Thorac Cardiovasc Surg 2015; 
-149:451–60. https://doi.org/10.1016/j.jtcvs.2014.08.073 
-134. Lønborg J, Jabbari R, Sabbah M, Veien KT, Niemelä M, Freeman P, et al. PCI in patients 
-undergoing transcatheter aortic-valve implantation. N Engl J Med 2024;391:2189–200.  
-https://doi.org/10.1056/NEJMoa2401513 
-135. Patterson T, Clayton T, Dodd M, Khawaja Z, Morice MC, Wilson K, et al. 
-ACTIVATION (PercutAneous Coronary inTervention prIor to transcatheter aortic 
-VAlve implantaTION): a randomized clinical trial. JACC Cardiovasc Interv 2021;14: 
-1965–74. https://doi.org/10.1016/j.jcin.2021.06.041 
-136. Okuno T, Demirel C, Tomii D, Heg D, Häner J, Siontis GCM, et al. Long-term risk of 
-unplanned percutaneous coronary intervention after transcatheter aortic valve replacement. EuroIntervention 2022;18:797–803. https://doi.org/10.4244/eij-d-22-00342 
-137. Persits I, Layoun H, Kondoleon NP, Spilias N, Badwan O, Sipko J, et al. Impact of untreated chronic obstructive coronary artery disease on outcomes after transcatheter 
-aortic valve replacement. Eur Heart J 2024;45:1890–900. https://doi.org/10.1093/ 
-eurheartj/ehae019 
-138. Ogami T, Kliner DE, Toma C, Sanon S, Smith AJC, Serna-Gallegos D, et al. Acute coronary syndrome after transcatheter aortic valve implantation (results from over 
-40,000 patients). Am J Cardiol 2023;193:126–32. https://doi.org/10.1016/j.amjcard. 
-2023.02.003 
-139. Mentias A, Desai MY, Saad M, Horwitz PA, Rossen JD, Panaich S, et al. Incidence and 
-outcomes of acute coronary syndrome after transcatheter aortic valve replacement. 
-JACC Cardiovasc Interv 2020;13:938–50. https://doi.org/10.1016/j.jcin.2019.11.027 
-140. Yassen M, Moustafa A, Venkataramany B, Schodowski E, Royfman R, Eltahawy E. 
-Clinical outcomes of transcatheter aortic valve replacement with and without percutaneous coronary intervention—an updated meta-analysis and systematic review. Curr 
-Probl Cardiol 2023;48:101980. https://doi.org/10.1016/j.cpcardiol.2023.101980 
-141. Altibi AM, Ghanem F, Hammad F, Patel J, Song HK, Golwala H, et al. Clinical outcomes 
-of revascularization with percutaneous coronary intervention prior to transcatheter 
-aortic valve replacement: a comprehensive meta-analysis. Curr Probl Cardiol 2022;47: 
-101339. https://doi.org/10.1016/j.cpcardiol.2022.101339 
-142. Tomii D, Pilgrim T, Borger MA, De Backer O, Lanz J, Reineke D, et al. Aortic stenosis 
-and coronary artery disease: decision-making between surgical and transcatheter management. Circulation 2024;150:2046–69. https://doi.org/10.1161/circulationaha.124. 
-070502 
-143. Tarantini G, Tang G, Nai Fovino L, Blackman D, Van Mieghem NM, Kim WK, et al. 
-Management of coronary artery disease in patients undergoing transcatheter aortic 
-valve implantation. A clinical consensus statement from the European Association of 
-Percutaneous Cardiovascular Interventions in collaboration with the ESC Working 
-Group on Cardiovascular Surgery. EuroIntervention 2023;19:37–52. https://doi.org/ 
-10.4244/eij-d-22-00958 
-144. Barbanti M, Costa G, Picci A, Criscione E, Reddavid C, Valvo R, et al. Coronary cannulation after transcatheter aortic valve replacement: the RE-ACCESS study. JACC 
-Cardiovasc Interv 2020;13:2542–55. https://doi.org/10.1016/j.jcin.2020.07.006 
-145. Costa G, Sammartino S, Strazzieri O, Motta S, Frittitta V, Dipietro E, et al. Coronary 
-cannulation following TAVR using self-expanding devices with commissural alignment: 
-the RE-ACCESS 2 study. JACC Cardiovasc Interv 2024;17:727–37. https://doi.org/10. 
-1016/j.jcin.2023.12.015 
-146. Tang GHL, Amat-Santos IJ, Backer OD, Avvedimento M, Redondo A, Barbanti M, et al. 
-Rationale, definitions, techniques, and outcomes of commissural alignment in TAVR. 
-JACC Cardiovasc Interv 2022;15:1497–518. https://doi.org/10.1016/j.jcin.2022.06.001 
-147. Campwala SZ, Bansal RC, Wang N, Razzouk A, Pai RG. Factors affecting regression of 
-mitral regurgitation following isolated coronary artery bypass surgery. Eur J 
-Cardiothorac Surg 2005;28:783–7. https://doi.org/10.1016/j.ejcts.2005.10.010 
-148. Castleberry AW, Williams JB, Daneshmand MA, Honeycutt E, Shaw LK, Samad Z, et al. 
-Surgical revascularization is associated with maximal survival in patients with ischemic 
-mitral regurgitation: a 20-year experience. Circulation 2014;129:2547–56. https://doi. 
-org/10.1161/CIRCULATIONAHA.113.005223 
-149. Samad Z, Shaw LK, Phelan M, Ersboll M, Risum N, Al-Khalidi HR, et al. Management and 
-outcomes in patients with moderate or severe functional mitral regurgitation and severe left ventricular dysfunction. Eur Heart J 2015;36:2733–41. https://doi.org/10.1093/ 
-eurheartj/ehv343 
-150. Yousefzai R, Bajaj N, Krishnaswamy A, Goel SS, Agarwal S, Aksoy O, et al. Outcomes of 
-patients with ischemic mitral regurgitation undergoing percutaneous coronary intervention. Am J Cardiol 2014;114:1011–7. https://doi.org/10.1016/j.amjcard.2014.07.012 
-151. Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, et al. 2023 ESC 
-Guidelines for the management of acute coronary syndromes. Eur Heart J 2023;44: 
-3720–826. https://doi.org/10.1093/eurheartj/ehad191 
-152. Thomas KL, Jackson LR 2nd, Shrader P, Ansell J, Fonarow GC, Gersh B, et al. 
-Prevalence, characteristics, and outcomes of valvular heart disease in patients with atrial fibrillation: insights from the ORBIT-AF (outcomes registry for better informed 
-treatment for atrial fibrillation). J Am Heart Assoc 2017;6:e006475. https://doi.org/10. 
-1161/jaha.117.006475 
-153. Naser JA, Castrichini M, Ibrahim HH, Scott CG, Lin G, Lee E, et al. Secondary tricuspid 
-regurgitation: incidence, types, and outcomes in atrial fibrillation vs. sinus rhythm. Eur 
-Heart J 2024;45:2878–90. https://doi.org/10.1093/eurheartj/ehae346 
-154. Naser JA, Pislaru C, Roslan A, Ciobanu AO, Jouni H, Nkomo VT, et al. Unfavorable 
-tricuspid annulus dynamics: a novel concept to explain development of tricuspid regurgitation in atrial fibrillation. J Am Soc Echocardiogr 2022;35:664–6. https://doi.org/10. 
-1016/j.echo.2022.02.009 
-155. Vinereanu D, Wang A, Mulder H, Lopes RD, Jansky P, Lewis BS, et al. Outcomes in 
-anticoagulated patients with atrial fibrillation and with mitral or aortic valve disease. 
-Heart 2018;104:1292–9. https://doi.org/10.1136/heartjnl-2017-312272 
-156. Avezum A, Lopes RD, Schulte PJ, Lanas F, Gersh BJ, Hanna M, et al. Apixaban in comparison with warfarin in patients with atrial fibrillation and valvular heart disease: findings from the Apixaban for Reduction in Stroke and Other Thromboembolic Events in 
-Atrial Fibrillation (ARISTOTLE) trial. Circulation 2015;132:624–32. https://doi.org/10. 
-1161/CIRCULATIONAHA.114.014807 
-157. Ezekowitz MD, Nagarakanti R, Noack H, Brueckmann M, Litherland C, Jacobs M, et al. 
-Comparison of dabigatran and warfarin in patients with atrial fibrillation and valvular 
-heart disease: the RE-LY trial (randomized evaluation of long-term anticoagulant therapy). Circulation 2016;134:589–98. https://doi.org/10.1161/CIRCULATIONAHA.115. 
-020950 
-158. De Caterina R, Renda G, Carnicelli AP, Nordio F, Trevisan M, Mercuri MF, et al. 
-Valvular heart disease patients on edoxaban or warfarin in the ENGAGE AF-TIMI 
-48 trial. J Am Coll Cardiol 2017;69:1372–82. https://doi.org/10.1016/j.jacc.2016.12.031 
-159. Breithardt G, Baumgartner H, Berkowitz SD, Hellkamp AS, Piccini JP, Stevens SR, et al. 
-Clinical characteristics and outcomes with rivaroxaban vs. warfarin in patients with 
-non-valvular atrial fibrillation but underlying native mitral and aortic valve disease participating in the ROCKET AF trial. Eur Heart J 2014;35:3377–85. https://doi.org/10. 
-1093/eurheartj/ehu305 
-160. Whitlock RP, Belley-Cote EP, Paparella D, Healey JS, Brady K, Sharma M, et al. Left atrial appendage occlusion during cardiac surgery to prevent stroke. N Engl J Med 2021; 
-384:2081–91. https://doi.org/10.1056/NEJMoa2101897  
-ESC Guidelines                                                                                                                                                                                               81
-
-
-<!-- PAGE 82 -->
-
-### Page 82
-
-### 161 Martín Gutiérrez E, Castaño M, Gualis J, Martinez-Comendador JM, Maiorano P,
-
-Castillo L, et al. Beneficial effect of left atrial appendage closure during cardiac surgery: 
-a meta-analysis of 280 585 patients. Eur J Cardiothorac Surg 2020;57:252–62. https://doi. 
-org/10.1093/ejcts/ezz289 
-162. Connolly SJ, Healey JS, Belley-Cote EP, Balasubramanian K, Paparella D, Brady K, et al. 
-Oral anticoagulation use and left atrial appendage occlusion in LAAOS III. Circulation 
-2023;148:1298–304. https://doi.org/10.1161/CIRCULATIONAHA.122.060315 
-163. Kapadia SR, Krishnaswamy A, Whisenant B, Potluri S, Iyer V, Aragon J, et al. 
-Concomitant left atrial appendage occlusion and transcatheter aortic valve replacement among patients with atrial fibrillation. Circulation 2024;149:734–43. https://doi. 
-org/10.1161/circulationaha.123.067312 
-164. Dawwas GK, Dietrich E, Cuker A, Barnes GD, Leonard CE, Lewis JD. Effectiveness and 
-safety of direct oral anticoagulants versus warfarin in patients with valvular atrial fibrillation: a population-based cohort study. Ann Intern Med 2021;174:910–9. https://doi. 
-org/10.7326/m20-6194 
-165. Connolly SJ, Karthikeyan G, Ntsekhe M, Haileamlak A, El Sayed A, El Ghamrawy A, 
-et al. Rivaroxaban in rheumatic heart disease-associated atrial fibrillation. N Engl J 
-Med 2022;387:978–88. https://doi.org/10.1056/NEJMoa2209051 
-166. Rankin JS, Grau-Sepulveda MV, Ad N, Damiano RJ Jr, Gillinov AM, Brennan JM, et al. 
-Associations between surgical ablation and operative mortality after mitral valve procedures. Ann Thorac Surg 2018;105:1790–6. https://doi.org/10.1016/j.athoracsur.2017. 
-12.035 
-167. Badhwar V, Rankin JS, Ad N, Grau-Sepulveda M, Damiano RJ, Gillinov AM, et al. 
-Surgical ablation of atrial fibrillation in the United States: trends and propensity 
-matched outcomes. Ann Thorac Surg 2017;104:493–500. https://doi.org/10.1016/j. 
-athoracsur.2017.05.016 
-168. Gillinov AM, Gelijns AC, Parides MK, DeRose JJ Jr, Moskowitz AJ, Voisine P, et al. 
-Surgical ablation of atrial fibrillation during mitral-valve surgery. N Engl J Med 2015; 
-372:1399–409. https://doi.org/10.1056/NEJMoa1500528 
-169. Huffman MD, Karmali KN, Berendsen MA, Andrei AC, Kruse J, McCarthy PM, et al. 
-Concomitant atrial fibrillation surgery for people undergoing cardiac surgery. 
-Cochrane Database Syst Rev 2016;2016:CD011814. https://doi.org/10.1002/ 
-14651858.CD011814.pub2 
-170. Wang H, Han J, Wang Z, Yin Z, Liu Z, Jin Y, et al. A prospective randomized trial of the 
-cut-and-sew Maze procedure in patients undergoing surgery for rheumatic mitral valve 
-disease. J Thorac Cardiovasc Surg 2018;155:608–17. https://doi.org/10.1016/j.jtcvs.2017. 
-07.084 
-171. Lawrance CP, Henn MC, Miller JR, Sinn LA, Schuessler RB, Maniar HS, et al. A minimally 
-invasive Cox maze IV procedure is as effective as sternotomy while decreasing major 
-morbidity and hospital stay. J Thorac Cardiovasc Surg 2014;148:955–61; discussion 
-962–952. https://doi.org/10.1016/j.jtcvs.2014.05.064 
-172. Cheng DC, Ad N, Martin J, Berglin EE, Chang BC, Doukas G, et al. Surgical ablation for 
-atrial fibrillation in cardiac surgery: a meta-analysis and systematic review. Innovations 
-(Phila) 2010;5:84–96. https://doi.org/10.1097/IMI.0b013e3181d9199b 
-173. McClure GR, Belley-Cote EP, Jaffer IH, Dvirnik N, An KR, Fortin G, et al. Surgical ablation of atrial fibrillation: a systematic review and meta-analysis of randomized controlled trials. Europace 2018;20:1442–50. https://doi.org/10.1093/europace/eux336 
-174. Yoo JS, Kim JB, Ro SK, Jung Y, Jung SH, Choo SJ, et al. Impact of concomitant surgical 
-atrial fibrillation ablation in patients undergoing aortic valve replacement. Circ J 2014; 
-78:1364–71. https://doi.org/10.1253/circj.cj-13-1533 
-175. Malaisrie SC, Lee R, Kruse J, Lapin B, Wang EC, Bonow RO, et al. Atrial fibrillation ablation in patients undergoing aortic valve replacement. J Heart Valve Dis 2012;21: 
-350–7. 
-176. Gujral DM, Lloyd G, Bhattacharyya S. Radiation-induced valvular heart disease. Heart 
-2016;102:269–76. https://doi.org/10.1136/heartjnl-2015-308765 
-177. Lee C, Hahn RT. Valvular heart disease associated with radiation therapy: a contemporary review. Struct Heart 2023;7:100104. https://doi.org/10.1016/j.shj.2022.100104 
-178. Lancellotti P, Nkomo VT, Badano LP, Bergler-Klein J, Bogaert J, Davin L, et al. Expert 
-consensus for multi-modality imaging evaluation of cardiovascular complications of 
-radiotherapy in adults: a report from the European Association of Cardiovascular 
-Imaging and the American Society of Echocardiography. J Am Soc Echocardiogr 2013; 
-26:1013–32. https://doi.org/10.1016/j.echo.2013.07.005 
-179. Wu W, Masri A, Popovic ZB, Smedira NG, Lytle BW, Marwick TH, et al. Long-term 
-survival of patients with radiation heart disease undergoing cardiac surgery: a cohort 
-study. Circulation 2013;127:1476–85. https://doi.org/10.1161/CIRCULATIONAHA. 
-113.001435 
-180. Donnellan E, Masri A, Johnston DR, Pettersson GB, Rodriguez LL, Popovic ZB, et al. 
-Long-term outcomes of patients with mediastinal radiation-associated severe aortic 
-stenosis and subsequent surgical aortic valve replacement: a matched cohort study. J 
-Am Heart Assoc 2017;6:e005396. https://doi.org/10.1161/JAHA.116.005396 
-181. Donnellan E, Alashi A, Johnston DR, Gillinov AM, Pettersson GB, Svensson LG, et al. 
-Outcomes of patients with mediastinal radiation-associated mitral valve disease undergoing cardiac surgery. Circulation 2019;140:1288–90. https://doi.org/10.1161/ 
-CIRCULATIONAHA.119.040546 
-182. Lyon AR, López-Fernández T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, et al. 
-European Hematology Association (EHA), the European Society for Therapeutic 
-Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society 
-(IC-OS). Eur Heart J 2022;43:4229–361. https://doi.org/10.1093/eurheartj/ehac244 
-183. Yazdchi F, Hirji SA, Nohria A, Percy E, Harloff M, Malarczyk A, et al. Transcatheter 
-compared with surgical aortic valve replacement in patients with previous chest- 
-directed radiation therapy. JACC CardioOncol 2021;3:397–407. https://doi.org/10. 
-1016/j.jaccao.2021.07.005 
-184. Zafar MR, Mustafa SF, Miller TW, Alkhawlani T, Sharma UC. Outcomes after transcatheter aortic valve replacement in cancer survivors with prior chest radiation therapy: a systematic review and meta-analysis. Cardiooncology 2020;6:8. https://doi.org/10. 
-1186/s40959-020-00062-y 
-185. Ullah W, Thalambedu N, Zahid S, Muhammadzai Hamza Zahid U, Sandhyavenu H, 
-Kumar A, et al. Trends and outcomes of TAVI and SAVR in cancer and noncancer patients. JACC Adv 2023;2:100167. https://doi.org/10.1016/j.jacadv.2022.100167 
-186. Lind A, Totzeck M, Mahabadi AA, Janosi RA, El Gabry M, Ruhparwar A, et al. Impact of 
-cancer in patients undergoing transcatheter aortic valve replacement: a single-center 
-study. JACC CardioOncol 2020;2:735–43. https://doi.org/10.1016/j.jaccao.2020.11.008 
-187. Yadgir S, Johnson CO, Aboyans V, Adebayo OM, Adedoyin RA, Afarideh M, et al. 
-Global, regional, and national burden of calcific aortic valve and degenerative mitral 
-valve diseases, 1990–2017. Circulation 2020;141:1670–80. https://doi.org/10.1161/ 
-CIRCULATIONAHA.119.043391 
-188. Rwebembera J, Marangou J, Mwita JC, Mocumbi AO, Mota C, Okello E, et al. 2023 
-World Heart Federation guidelines for the echocardiographic diagnosis of rheumatic 
-heart disease. Nat Rev Cardiol 2023;21:250–63. https://doi.org/10.1038/s41569-023- 
-00940-9 
-189. Karki P, Uranw S, Bastola S, Mahato R, Shrestha NR, Sherpa K, et al. Effectiveness of 
-systematic echocardiographic screening for rheumatic heart disease in Nepalese 
-schoolchildren: a cluster randomized clinical trial. JAMA Cardiol 2021;6:420–26.  
-https://doi.org/10.1001/jamacardio.2020.7050 
-190. Beaton A, Okello E, Rwebembera J, Grobler A, Engelman D, Alepere J, et al. Secondary 
-antibiotic prophylaxis for latent rheumatic heart disease. N Engl J Med 2022;386: 
-230–40. https://doi.org/10.1056/NEJMoa2102074 
-191. Kumar RK, Antunes MJ, Beaton A, Mirabel M, Nkomo VT, Okello E, et al. 
-Contemporary diagnosis and management of rheumatic heart disease: implications 
-for closing the gap: a scientific statement from the American Heart Association. 
-Circulation 2020;142:e337–57. https://doi.org/10.1161/cir.0000000000000921 
-192. World Health Organization. WHO Guideline on the Prevention and Diagnosis of 
-Rheumatic Fever and Rheumatic Heart Disease. https://www.who.int/publications/i/ 
-item/9789240100077 (28 March 2025, date last accessed). 
-193. Chioncel O, Adamo M, Nikolaou M, Parissis J, Mebazaa A, Yilmaz MB, et al. Acute heart 
-failure and valvular heart disease: a scientific statement of the Heart Failure 
-Association, the Association for Acute CardioVascular Care and the European 
-Association of Percutaneous Cardiovascular Interventions of the European Society 
-of Cardiology. Eur J Heart Fail 2023;25:1025–48. https://doi.org/10.1002/ejhf.2918 
-194. Lüsebrink E, Lanz H, Kellnar A, Karam N, Kapadia S, Makkar R, et al. (December 11, 
-2024) Management of acute decompensated valvular heart disease. Eur J Heart Fail,  
-https://doi.org/10.1002/ejhf.3549 
-195. Kolte D, Khera S, Vemulapalli S, Dai D, Heo S, Goldsweig AM, et al. Outcomes following urgent/emergent transcatheter aortic valve replacement: insights from the STS/ 
-ACC TVT registry. JACC Cardiovasc Interv 2018;11:1175–85. https://doi.org/10.1016/ 
-j.jcin.2018.03.002 
-196. Elbadawi A, Elgendy IY, Mentias A, Saad M, Mohamed AH, Choudhry MW, et al. 
-Outcomes of urgent versus nonurgent transcatheter aortic valve replacement. 
-Catheter Cardiovasc Interv 2020;96:189–95. https://doi.org/10.1002/ccd.28563 
-197. Masha L, Vemulapalli S, Manandhar P, Balan P, Shah P, Kosinski AS, et al. Demographics, 
-procedural characteristics, and clinical outcomes when cardiogenic shock precedes 
-TAVR in the United States. JACC Cardiovasc Interv 2020;13:1314–25. https://doi.org/ 
-10.1016/j.jcin.2020.02.033 
-198. Goel K, Shah P, Jones BM, Korngold E, Bhardwaj A, Kar B, et al. Outcomes of transcatheter aortic valve replacement in patients with cardiogenic shock. Eur Heart J 
-2023;44:3181–95. https://doi.org/10.1093/eurheartj/ehad387 
-199. Buchwald AB, Meyer T, Scholz K, Schorn B, Unterberg C. Efficacy of balloon valvuloplasty in patients with critical aortic stenosis and cardiogenic shock—the role of shock 
-duration. Clin Cardiol 2001;24:214–8. https://doi.org/10.1002/clc.4960240308 
-200. Moreno PR, Jang IK, Newell JB, Block PC, Palacios IF. The role of percutaneous aortic 
-balloon valvuloplasty in patients with cardiogenic shock and critical aortic stenosis. J Am 
-Coll Cardiol 1994;23:1071–5. https://doi.org/10.1016/0735-1097(94)90592-4 
-201. Llah ST, Sharif S, Ullah S, Sheikh SA, Shah MA, Shafi OM, et al. TAVR vs balloon aortic 
-valvotomy for severe aortic stenosis and cardiogenic shock: an insight from the national inpatient sample database. Cardiovasc Revasc Med 2023;55:1–7. https://doi.org/10. 
-1016/j.carrev.2023.05.006 
-202. Tang GHL, Estevez-Loureiro R, Yu Y, Prillinger JB, Zaid S, Psotka MA. Survival following 
-edge-to-edge transcatheter mitral valve repair in patients with cardiogenic shock: a nationwide analysis. J Am Heart Assoc 2021;10:e019882. https://doi.org/10.1161/jaha.120. 
-019882
-
-
-<!-- PAGE 83 -->
-
-### Page 83
-
-### 203 Haberman D, Estevez-Loureiro R, Benito-Gonzalez T, Denti P, Arzamendi D, Adamo
-
-M, et al. Conservative, surgical, and percutaneous treatment for mitral regurgitation 
-shortly after acute myocardial infarction. Eur Heart J 2021;43:641–50. https://doi. 
-org/10.1093/eurheartj/ehab496 
-204. Hill L, Prager Geller T, Baruah R, Beattie JM, Boyne J, de Stoutz N, et al. Integration of a 
-palliative approach into heart failure care: a European Society of Cardiology Heart 
-Failure Association position paper. Eur J Heart Fail 2020;22:2327–39. https://doi.org/ 
-10.1002/ejhf.1994 
-205. Kyriakou M, Middleton N, Ktisti S, Philippou K, Lambrinou E. Supportive care interventions to promote health-related quality of life in patients living with heart failure: a systematic review and meta-analysis. Heart Lung Circ 2020;29:1633–47. https://doi.org/10. 
-1016/j.hlc.2020.04.019 
-206. Fendler TJ, Swetz KM, Allen LA. Team-based palliative and end-of-life care for heart 
-failure. Heart Fail Clin 2015;11:479–98. https://doi.org/10.1016/j.hfc.2015.03.010 
-207. Brännström M, Boman K. Effects of person-centred and integrated chronic heart failure and palliative home care. PREFER: a randomized controlled study. Eur J Heart Fail 
-2014;16:1142–51. https://doi.org/10.1002/ejhf.151 
-208. Singh JP, Evans JC, Levy D, Larson MG, Freed LA, Fuller DL, et al. Prevalence and clinical 
-determinants of mitral, tricuspid, and aortic regurgitation (the Framingham Heart 
-Study). Am J Cardiol 1999;83:897–902. https://doi.org/10.1016/s0002-9149(98) 
-01064-9 
-209. Lee JKT, Franzone A, Lanz J, Siontis GCM, Stortecky S, Gräni C, et al. Early detection of 
-subclinical myocardial damage in chronic aortic regurgitation and strategies for timely 
-treatment of asymptomatic patients. Circulation 2018;137:184–96. https://doi.org/10. 
-1161/circulationaha.117.029858 
-210. Alashi A, Khullar T, Mentias A, Gillinov AM, Roselli EE, Svensson LG, et al. Long-term 
-outcomes after aortic valve surgery in patients with asymptomatic chronic aortic regurgitation and preserved LVEF: impact of baseline and follow-up global longitudinal 
-strain. JACC Cardiovasc Imaging 2020;13:12–21. https://doi.org/10.1016/j.jcmg.2018. 
-12.021 
-211. deCampos D, Teixeira R, Saleiro C, Botelho A, Gonçalve L. Global longitudinal strain in 
-chronic asymptomatic aortic regurgitation: systematic review. Echo Res Pract 2020;7: 
-39–48. https://doi.org/10.1530/erp-20-0024 
-212. Lee SY, Park SJ, Kim EK, Chang SA, Lee SC, Ahn JH, et al. Predictive value of exercise 
-stress echocardiography in asymptomatic patients with severe aortic regurgitation and 
-preserved left ventricular systolic function without LV dilatation. Int J Cardiovasc 
-Imaging 2019;35:1241–7. https://doi.org/10.1007/s10554-019-01565-1 
-213. Pizarro R, Bazzino OO, Oberti PF, Falconi ML, Arias AM, Krauss JG, et al. Prospective 
-validation of the prognostic usefulness of B-type natriuretic peptide in asymptomatic 
-patients with chronic severe aortic regurgitation. J Am Coll Cardiol 2011;58:1705–14.  
-https://doi.org/10.1016/j.jacc.2011.07.016 
-214. Kočková R, Línková H, Hlubocká Z, Mědílek K, Tuna M, Vojáček J, et al. Multiparametric 
-strategy to predict early disease decompensation in asymptomatic severe aortic regurgitation. Circ Cardiovasc Imaging 2022;15:e014901. https://doi.org/10.1161/circimaging. 
-122.014901 
-215. Goldstein SA, Evangelista A, Abbara S, Arai A, Asch FM, Badano LP, et al. Multimodality 
-imaging of diseases of the thoracic aorta in adults: from the American Society of 
-Echocardiography and the European Association of Cardiovascular Imaging: endorsed 
-by the Society of Cardiovascular Computed Tomography and Society for 
-Cardiovascular Magnetic Resonance. J Am Soc Echocardiogr 2015;28:119–82. https:// 
-doi.org/10.1016/j.echo.2014.11.015 
-216. Czerny M, Grabenwöger M, Berger T, Aboyans V, Della Corte A, Chen EP, et al. 
-EACTS/STS Guidelines for diagnosing and treating acute and chronic syndromes of 
-the aortic organ. Eur J Cardiothorac Surg 2024;65:ezad426. https://doi.org/10.1093/ 
-ejcts/ezad426 
-217. le Polain de Waroux JB, Pouleur AC, Goffinet C, Vancraeynest D, Van Dyck M, Robert 
-A, et al. Functional anatomy of aortic regurgitation: accuracy, prediction of surgical repairability, and outcome implications of transesophageal echocardiography. Circulation 
-2007;116:I264–9. https://doi.org/10.1161/CIRCULATIONAHA.106.680074 
-218. Lansac E, Di Centa I, Raoux F, Al Attar N, Acar C, Joudinaud T, et al. A lesional classification to standardize surgical management of aortic insufficiency towards valve repair. Eur J Cardiothorac Surg 2008;33:872–8; discussion 878–880. https://doi.org/10. 
-1016/j.ejcts.2007.12.033 
-219. Michelena HI, Della Corte A, Evangelista A, Maleszewski JJ, Edwards WD, Roman MJ, 
-et al. International consensus statement on nomenclature and classification of the congenital bicuspid aortic valve and its aortopathy, for clinical, surgical, interventional and 
-research purposes. Eur J Cardiothorac Surg 2021;60:448–76. https://doi.org/10.1093/ 
-ejcts/ezab038 
-220. Ehrlich T, de Kerchove L, Vojacek J, Boodhwani M, El-Hamamsy I, De Paulis R, et al. 
-State-of-the art bicuspid aortic valve repair in 2020. Prog Cardiovasc Dis 2020;63: 
-457–64. https://doi.org/10.1016/j.pcad.2020.04.010 
-221. Evangelista Masip A, Galian-Gay L, Guala A, Lopez-Sainz A, Teixido-Turà G, Ruiz 
-Muñoz A, et al. Unraveling bicuspid aortic valve enigmas by multimodality imaging: clinical implications. J Clin Med 2022;11:456. https://doi.org/10.3390/jcm11020456 
-222. Elder DHJ, Wei L, Szwejkowski BR, Libianto R, Nadir A, Pauriah M, et al. The impact of 
-renin-angiotensin-aldosterone system blockade on heart failure outcomes and 
-mortality in patients identified to have aortic regurgitation: a large population cohort 
-study. J Am Coll Cardiol 2011;58:2084–91. https://doi.org/10.1016/j.jacc.2011.07.043 
-223. Seferovic PM, Ponikowski P, Anker SD, Bauersachs J, Chioncel O, Cleland JGF, et al. 
-Clinical practice update on heart failure 2019: pharmacotherapy, procedures, devices 
-and patient management. An expert consensus meeting report of the Heart Failure 
-Association of the European Society of Cardiology. Eur J Heart Fail 2019;21: 
-1169–86. https://doi.org/10.1002/ejhf.1531 
-224. Chaliki HP, Mohty D, Avierinos JF, Scott CG, Schaff HV, Tajik AJ, et al. Outcomes after 
-aortic valve replacement in patients with severe aortic regurgitation and markedly reduced left ventricular function. Circulation 2002;106:2687–93. https://doi.org/10.1161/ 
-01.cir.0000038498.59829.38 
-225. Kaneko T, Ejiofor JI, Neely RC, McGurk S, Ivkovic V, Stevenson LW, et al. Aortic regurgitation with markedly reduced left ventricular function is not a contraindication 
-for aortic valve replacement. Ann Thorac Surg 2016;102:41–7. https://doi.org/10. 
-1016/j.athoracsur.2015.12.068 
-226. Tornos P, Sambola A, Permanyer-Miralda G, Evangelista A, Gomez Z, Soler-Soler J. 
-Long-term outcome of surgically treated aortic regurgitation: influence of guideline adherence toward early surgery. J Am Coll Cardiol 2006;47:1012–7. https://doi.org/10. 
-1016/j.jacc.2005.10.049 
-227. Klodas E, Enriquez-Sarano M, Tajik AJ, Mullany CJ, Bailey KR, Seward JB. Optimizing 
-timing of surgical correction in patients with severe aortic regurgitation: role of symptoms. J Am Coll Cardiol 1997;30:746–52. https://doi.org/10.1016/s0735-1097(97) 
-00205-2 
-228. Dujardin KS, Enriquez-Sarano M, Schaff HV, Bailey KR, Seward JB, Tajik AJ. Mortality 
-and morbidity of aortic regurgitation in clinical practice. A long-term follow-up study. 
-Circulation 1999;99:1851–7. https://doi.org/10.1161/01.cir.99.14.1851 
-229. Fiedler AG, Bhambhani V, Laikhter E, Picard MH, Wasfy MM, Tolis G, et al. Aortic valve 
-replacement associated with survival in severe regurgitation and low ejection fraction. 
-Heart 2018;104:835–40. https://doi.org/10.1136/heartjnl-2017-312024 
-230. Tribouilloy CM, Enriquez-Sarano M, Schaff HV, Orszulak TA, Fett SL, Bailey KR, et al. 
-Excess mortality due to coronary artery disease after valve surgery. Secular trends in 
-valvular regurgitation and effect of internal mammary artery bypass. Circulation 1998; 
-98:II108–15. 
-231. Forman R, Firth BG, Barnard MS. Prognostic significance of preoperative left ventricular ejection fraction and valve lesion in patients with aortic valve replacement. Am J 
-Cardiol 1980;45:1120–5. https://doi.org/10.1016/0002-9149(80)90468-3 
-232. Bonow RO, Lakatos E, Maron BJ, Epstein SE. Serial long-term assessment of the natural 
-history of asymptomatic patients with chronic aortic regurgitation and normal left ventricular systolic function. Circulation 1991;84:1625–35. https://doi.org/10.1161/01.cir. 
-84.4.1625 
-233. Bhudia SK, McCarthy PM, Kumpati GS, Helou J, Hoercher KJ, Rajeswaran J, et al. 
-Improved outcomes after aortic valve surgery for chronic aortic regurgitation with severe left ventricular dysfunction. J Am Coll Cardiol 2007;49:1465–71. https://doi.org/10. 
-1016/j.jacc.2007.01.026 
-234. Sambola A, Tornos P, Ferreira-Gonzalez I, Evangelista A. Prognostic value of preoperative indexed end-systolic left ventricle diameter in the outcome after surgery in patients with chronic aortic regurgitation. Am Heart J 2008;155:1114–20. https://doi. 
-org/10.1016/j.ahj.2007.12.025 
-235. Yang LT, Michelena HI, Scott CG, Enriquez-Sarano M, Pislaru SV, Schaff HV, et al. 
-Outcomes in chronic hemodynamically significant aortic regurgitation and limitations 
-of current guidelines. J Am Coll Cardiol 2019;73:1741–52. https://doi.org/10.1016/j.jacc. 
-2019.01.024 
-236. Mentias A, Feng K, Alashi A, Rodriguez LL, Gillinov AM, Johnston DR, et al. Long-term 
-outcomes in patients with aortic regurgitation and preserved left ventricular ejection 
-fraction. J Am Coll Cardiol 2016;68:2144–53. https://doi.org/10.1016/j.jacc.2016.08.045 
-237. de Meester C, Gerber BL, Vancraeynest D, Pouleur AC, Noirhomme P, Pasquet A, 
-et al. Do guideline-based indications result in an outcome penalty for patients with severe aortic regurgitation? JACC Cardiovasc Imaging 2019;12:2126–38. https://doi.org/ 
-10.1016/j.jcmg.2018.11.022 
-238. Yang LT, Anand V, Zambito EI, Pellikka PA, Scott CG, Thapa P, et al. Association of 
-echocardiographic left ventricular end-systolic volume and volume-derived ejection 
-fraction with outcome in asymptomatic chronic aortic regurgitation. JAMA Cardiol 
-2021;6:189–98. https://doi.org/10.1001/jamacardio.2020.5268 
-239. Yang LT, Lee CC, Su CH, Amano M, Nabeshima Y, Kitano T, et al. Analysis of left ventricular indexes and mortality among Asian adults with hemodynamically significant 
-chronic aortic regurgitation. JAMA Netw Open 2023;6:e234632. https://doi.org/10. 
-1001/jamanetworkopen.2023.4632 
-240. Hashimoto G, Enriquez-Sarano M, Stanberry LI, Oh F, Wang M, Acosta K, et al. 
-Association of left ventricular remodeling assessment by cardiac magnetic resonance 
-with outcomes in patients with chronic aortic regurgitation. JAMA Cardiol 2022;7: 
-924–33. https://doi.org/10.1001/jamacardio.2022.2108 
-241. Malahfji M, Crudo V, Kaolawanich Y, Nguyen DT, Telmesani A, Saeed M, et al. Influence 
-of cardiac remodeling on clinical outcomes in patients with aortic regurgitation. J Am 
-Coll Cardiol 2023;81:1885–98. https://doi.org/10.1016/j.jacc.2023.03.001 
-242. Vermes E, Iacuzio L, Levy F, Bohbot Y, Renard C, Gerber B, et al. Role of cardiovascular 
-magnetic resonance in native valvular regurgitation: a comprehensive review of  
-ESC Guidelines                                                                                                                                                                                               83
-
-
-<!-- PAGE 84 -->
-
-### Page 84
-
-protocols, grading of severity, and prediction of valve surgery. Front Cardiovasc Med 
-2022;9:881141. https://doi.org/10.3389/fcvm.2022.881141 
-243. Flynn CD, Tian DH, Wilson-Smith A, David T, Matalanis G, Misfeld M, et al. Systematic 
-review and meta-analysis of surgical outcomes in Marfan patients undergoing aortic 
-root surgery by composite-valve graft or valve sparing root replacement. Ann 
-Cardiothorac Surg 2017;6:570–81. https://doi.org/10.21037/acs.2017.11.06 
-244. Chauvette V, Kluin J, de Kerchove L, El Khoury G, Schäfers HJ, Lansac E, et al. 
-Outcomes of valve-sparing surgery in heritable aortic disorders: results from the 
-AVIATOR registry. Eur J Cardiothorac Surg 2022;62:ezac366. https://doi.org/10.1093/ 
-ejcts/ezac366 
-245. Wilson-Smith AR, Wilson-Smith CJ, Strode Smith J, Ng D, Muston BT, Eranki A, et al. 
-The outcomes of three decades of the David and Yacoub procedures in bicuspid aortic 
-valve patients—a systematic review and meta-analysis. Ann Cardiothorac Surg 2023;12: 
-286–94. https://doi.org/10.21037/acs-2023-avs2-19 
-246. Zuo Y, Tan R, Qin C. Outcomes of valve-sparing aortic root replacement in patients 
-with bicuspid aortic valve and tricuspid aortic valve: a systematic review and 
-meta-analysis. J Cardiothorac Surg 2023;18:206. https://doi.org/10.1186/s13019-023- 
-02329-8 
-247. Mastrobuoni S, Govers PJ, Veen KM, Jahanyar J, van Saane S, Segreto A, et al. 
-Valve-sparing aortic root replacement using the reimplantation (David) technique: a 
-systematic review and meta-analysis on survival and clinical outcome. Ann 
-Cardiothorac Surg 2023;12:149–58. https://doi.org/10.21037/acs-2023-avs1-0038 
-248. Aicher D, Fries R, Rodionycheva S, Schmidt K, Langer F, Schafers HJ. Aortic valve repair 
-leads to a low incidence of valve-related complications. Eur J Cardiothorac Surg 2010;37: 
-127–32. https://doi.org/10.1016/j.ejcts.2009.06.021 
-249. de Meester C, Pasquet A, Gerber BL, Vancraeynest D, Noirhomme P, El Khoury G, 
-et al. Valve repair improves the outcome of surgery for chronic severe aortic regurgitation: a propensity score analysis. J Thorac Cardiovasc Surg 2014;148:1913–20. https:// 
-doi.org/10.1016/j.jtcvs.2014.02.010 
-250. Klotz S, Stock S, Sievers HH, Diwoky M, Petersen M, Stierle U, et al. Survival and reoperation pattern after 20 years of experience with aortic valve-sparing root replacement in patients with tricuspid and bicuspid valves. J Thorac Cardiovasc Surg 2018;155: 
-1403–11.e1401. https://doi.org/10.1016/j.jtcvs.2017.12.039 
-251. Elbatarny M, Tam DY, Edelman JJ, Rocha RV, Chu MWA, Peterson MD, et al. 
-Valve-sparing root replacement versus composite valve grafting in aortic root dilation: 
-a meta-analysis. Ann Thorac Surg 2020;110:296–306. https://doi.org/10.1016/j. 
-athoracsur.2019.11.054 
-252. Leontyev S, Schamberger L, Davierwala PM, Von Aspern K, Etz C, Lehmann S, et al. 
-Early and late results after David vs Bentall procedure: a propensity matched analysis. 
-Ann Thorac Surg 2019;110:120–6. https://doi.org/10.1016/j.athoracsur.2019.10.020 
-253. Mastrobuoni S, de Kerchove L, Navarra E, Watremez C, Vancraeynest D, Rubay J, et al. 
-Long-term experience with valve-sparing reimplantation technique for the treatment 
-of aortic aneurysm and aortic regurgitation. J Thorac Cardiovasc Surg 2019;158:14–23.  
-https://doi.org/10.1016/j.jtcvs.2018.10.155 
-254. Lansac E, Di Centa I, Sleilaty G, Lejeune S, Khelil N, Berrebi A, et al. Long-term results 
-of external aortic ring annuloplasty for aortic valve repair. Eur J Cardiothorac Surg 2016; 
-50:350–60. https://doi.org/10.1093/ejcts/ezw070 
-255. Lee H, Cho YH, Sung K, Kim WS, Park KH, Jeong DS, et al. Clinical outcomes of root 
-reimplantation and Bentall procedure: propensity score matching analysis. Ann Thorac 
-Surg 2018;106:539–47. https://doi.org/10.1016/j.athoracsur.2018.02.057 
-256. Norton EL, Patel PM, Levine D, Wei JW, Binongo JN, Leshnower BG, et al. Bentall versus valve-sparing aortic root replacement for root pathology with moderate-to-severe 
-aortic insufficiency: a propensity-matched analysis. Eur J Cardiothorac Surg 2023;64: 
-ezad231. https://doi.org/10.1093/ejcts/ezad231 
-257. Arabkhani B, Klautz RJM, de Heer F, De Kerchove L, El Khoury G, Lansac E, et al. A 
-multicentre, propensity score matched analysis comparing a valve-sparing approach 
-to valve replacement in aortic root aneurysm: insight from the AVIATOR database. 
-Eur J Cardiothorac Surg 2023;63:ezac514. https://doi.org/10.1093/ejcts/ezac514 
-258. Levine D, Patel P, Zhao Y, Chung M, Singh S, Childress P, et al. Valve-sparing aortic root 
-replacement versus composite valve graft with bioprosthesis in patients under age 50. J 
-Thorac Cardiovasc Surg 2023;168:992–1002.e1. https://doi.org/10.1016/j.jtcvs.2023.07. 
-016 
-259. Schneider U, Hofmann C, Schöpe J, Niewald AK, Giebels C, Karliova I, et al. Long-term 
-results of differentiated anatomic reconstruction of bicuspid aortic valves. JAMA Cardiol 
-2020;5:1366–73. https://doi.org/10.1001/jamacardio.2020.3749 
-260. Mazine A, Rocha RV, El-Hamamsy I, Ouzounian M, Yanagawa B, Bhatt DL, et al. Ross 
-procedure vs mechanical aortic valve replacement in adults: a systematic review and 
-meta-analysis. JAMA Cardiol 2018;3:978–87. https://doi.org/10.1001/jamacardio.2018. 
-2946 
-261. Takkenberg JJM, Klieverik LMA, Schoof PH, van Suylen RJ, van Herwerden LA, 
-Zondervan PE, et al. The Ross procedure: a systematic review and meta-analysis. 
-Circulation 
-2009;119:222–8. 
-https://doi.org/10.1161/CIRCULATIONAHA.107. 
-726349 
-262. Yokoyama Y, Kuno T, Toyoda N, Fujisaki T, Takagi H, Itagaki S, et al. Ross procedure 
-versus mechanical versus bioprosthetic aortic valve replacement: a network 
-meta-analysis. J Am Heart Assoc 2023;12:e8066. https://doi.org/10.1161/jaha.122. 
-027715 
-263. El-Hamamsy I, Toyoda N, Itagaki S, Stelzer P, Varghese R, Williams EE, et al. 
-Propensity-matched comparison of the Ross procedure and prosthetic aortic valve replacement in adults. J Am Coll Cardiol 2022;79:805–15. https://doi.org/10.1016/j.jacc. 
-2021.11.057 
-264. Sawaya FJ, Deutsch MA, Seiffert M, Yoon SH, Codner P, Wickramarachchi U, et al. 
-Safety and efficacy of transcatheter aortic valve replacement in the treatment of 
-pure aortic regurgitation in native valves and failing surgical bioprostheses: results 
-from an international registry study. JACC Cardiovasc Interv 2017;10:1048–56. https:// 
-doi.org/10.1016/j.jcin.2017.03.004 
-265. Yoon SH, Schmidt T, Bleiziffer S, Schofer N, Fiorina C, Munoz-Garcia AJ, et al. 
-Transcatheter aortic valve replacement in pure native aortic valve regurgitation. J 
-Am Coll Cardiol 2017;70:2752–63. https://doi.org/10.1016/j.jacc.2017.10.006 
-266. Poletti E, De Backer O, Scotti A, Costa G, Bruno F, Fiorina C, et al. Transcatheter aortic valve replacement for pure native aortic valve regurgitation: the PANTHEON international project. JACC Cardiovasc Interv 2023;16:1974–85. https://doi.org/10.1016/j.jcin. 
-2023.07.026 
-267. Garcia S, Ye J, Webb J, Reardon M, Kleiman N, Goel S, et al. Transcatheter treatment 
-of native aortic valve regurgitation: the North American experience with a novel device. JACC Cardiovasc Interv 2023;16:1953–60. https://doi.org/10.1016/j.jcin.2023.05. 
-018 
-268. Adam M, Tamm AR, Wienemann H, Unbehaun A, Klein C, Arnold M, et al. 
-Transcatheter aortic valve replacement for isolated aortic regurgitation using a new 
-self-expanding TAVR system. JACC Cardiovasc Interv 2023;16:1965–73. https://doi. 
-org/10.1016/j.jcin.2023.07.038 
-269. Vahl TP, Thourani VH, Makkar RR, Hamid N, Khalique OK, Daniels D, et al. 
-Transcatheter aortic valve implantation in patients with high-risk symptomatic native 
-aortic regurgitation (ALIGN-AR): a prospective, multicentre, single-arm study. Lancet 
-2024;403:1451–9. https://doi.org/10.1016/s0140-6736(23)02806-4 
-270. Borger MA, Preston M, Ivanov J, Fedak PW, Davierwala P, Armstrong S, et al. Should 
-the ascending aorta be replaced more frequently in patients with bicuspid aortic valve 
-disease? J Thorac Cardiovasc Surg 2004;128:677–83. https://doi.org/10.1016/j.jtcvs. 
-2004.07.009 
-271. Coady MA, Rizzo JA, Hammond GL, Mandapati D, Darr U, Kopf GS, et al. What is the 
-appropriate size criterion for resection of thoracic aortic aneurysms? J Thorac 
-Cardiovasc Surg 1997;113:476–91; discussion 489–491. https://doi.org/10.1016/ 
-S0022-5223(97)70360-X 
-272. Davies RR, Goldstein LJ, Coady MA, Tittle SL, Rizzo JA, Kopf GS, et al. Yearly rupture 
-or dissection rates for thoracic aortic aneurysms: simple prediction based on size. Ann 
-Thorac Surg 2002;73:17–27; discussion 27–18. https://doi.org/10.1016/s0003- 
-4975(01)03236-2 
-273. Zafar MA, Li Y, Rizzo JA, Charilaou P, Saeyeldin A, Velasquez CA, et al. Height alone, 
-rather than body surface area, suffices for risk estimation in ascending aortic aneurysm. 
-J Thorac Cardiovasc Surg 2018;155:1938–50. https://doi.org/10.1016/j.jtcvs.2017.10.140 
-274. Popović ZB, Desai MY, Griffin BP. Decision making with imaging in asymptomatic aortic regurgitation. JACC Cardiovasc Imaging 2018;11:1499–513. https://doi.org/10.1016/j. 
-jcmg.2018.05.027 
-275. Evangelista A, Sitges M, Jondeau G, Nijveldt R, Pepi M, Cuellar H, et al. Multimodality 
-imaging in thoracic aortic diseases: a clinical consensus statement from the European 
-Association of Cardiovascular Imaging and the European Society of Cardiology working group on aorta and peripheral vascular diseases. Eur Heart J Cardiovasc Imaging 
-2023;24:e65–85. https://doi.org/10.1093/ehjci/jead024 
-276. Weisenberg D, Omelchenko A, Shapira Y, Vaturi M, Monakier D, Bental T, et al. 
-Mid-term echocardiographic progression of patients with moderate aortic regurgitation: implications for aortic valve surgery. J Heart Valve Dis 2013;22:192–4. 
-277. Budts W, Pieles GE, Roos-Hesselink JW, Sanz de la Garza M, D’Ascenzi F, 
-Giannakoulas G, et al. Recommendations for participation in competitive sport in adolescent and adult athletes with Congenital Heart Disease (CHD): position statement of 
-the Sports Cardiology & Exercise Section of the European Association of Preventive 
-Cardiology (EAPC), the European Society of Cardiology (ESC) Working Group on 
-Adult Congenital Heart Disease and the Sports Cardiology, Physical Activity and 
-Prevention Working Group of the Association for European Paediatric and 
-Congenital Cardiology (AEPC). Eur Heart J 2020;41:4191–9. https://doi.org/10.1093/ 
-eurheartj/ehaa501 
-278. Robertson EN, van der Linde D, Sherrah AG, Vallely MP, Wilson M, Bannon PG, et al. 
-Familial non-syndromal thoracic aortic aneurysms and dissections—incidence and 
-family screening outcomes. Int J Cardiol 2016;220:43–51. https://doi.org/10.1016/j. 
-ijcard.2016.06.086 
-279. Bray JJH, Freer R, Pitcher A, Kharbanda R. Family screening for bicuspid aortic valve and 
-aortic dilatation: a meta-analysis. Eur Heart J 2023;44:3152–64. https://doi.org/10.1093/ 
-eurheartj/ehad320 
-280. Roberts WC, Ko JM. Frequency by decades of unicuspid, bicuspid, and tricuspid aortic 
-valves in adults having isolated aortic valve replacement for aortic stenosis, with or 
-without associated aortic regurgitation. Circulation 2005;111:920–5. https://doi.org/ 
-10.1161/01.Cir.0000155623.48408.C5
-
-
-<!-- PAGE 85 -->
-
-### Page 85
-
-281. Verma S, Siu SC. Aortic dilatation in patients with bicuspid aortic valve. N Engl J Med 
-2014;370:1920–9. https://doi.org/10.1056/NEJMra1207059 
-282. Zühlke L, Engel ME, Karthikeyan G, Rangarajan S, Mackie P, Cupido B, et al. 
-Characteristics, complications, and gaps in evidence-based interventions in rheumatic 
-heart disease: the Global Rheumatic Heart Disease Registry (the REMEDY study). Eur 
-Heart J 2015;36:1115–22a. https://doi.org/10.1093/eurheartj/ehu449 
-283. Willner N, Prosperi-Porta G, Lau L, Nam Fu AY, Boczar K, Poulin A, et al. Aortic stenosis progression: a systematic review and meta-analysis. JACC Cardiovasc Imaging 2023; 
-16:314–28. https://doi.org/10.1016/j.jcmg.2022.10.009 
-284. Dweck MR, Loganath K, Bing R, Treibel TA, McCann GP, Newby DE, et al. 
-Multi-modality imaging in aortic stenosis: an EACVI clinical consensus document. Eur 
-Heart J Cardiovasc Imaging 2023;24:1430–43. https://doi.org/10.1093/ehjci/jead153 
-285. Jaiswal V, Agrawal V, Khulbe Y, Hanif M, Huang H, Hameed M, et al. Cardiac amyloidosis and aortic stenosis: a state-of-the-art review. Eur Heart J Open 2023;3:oead106.  
-https://doi.org/10.1093/ehjopen/oead106 
-286. Desai MY, Alashi A, Popovic ZB, Wierup P, Griffin BP, Thamilarasan M, et al. 
-Outcomes in patients with obstructive hypertrophic cardiomyopathy and concomitant aortic stenosis undergoing surgical myectomy and aortic valve replacement. J 
-Am Heart Assoc 2021;10:e018435. https://doi.org/10.1161/JAHA.120.018435 
-287. Baumgartner H, Hung J, Bermejo J, Chambers JB, Edvardsen T, Goldstein S, et al. 
-Recommendations on the echocardiographic assessment of aortic valve stenosis: a focused update from the European Association of Cardiovascular Imaging and the 
-American Society of Echocardiography. J Am Soc Echocardiogr 2017;30:372–92.  
-https://doi.org/10.1016/j.echo.2017.02.009 
-288. Rusinaru D, Bohbot Y, Djelaili F, Delpierre Q, Altes A, Serbout S, et al. Normative reference values of cardiac output by pulsed-wave Doppler echocardiography in adults. 
-Am J Cardiol 2021;140:128–33. https://doi.org/10.1016/j.amjcard.2020.10.046 
-289. Annabi MS, Touboul E, Dahou A, Burwash IG, Bergler-Klein J, Enriquez-Sarano M, et al. 
-Dobutamine stress echocardiography for management of low-flow, low-gradient aortic stenosis. J Am Coll Cardiol 2018;71:475–85. https://doi.org/10.1016/j.jacc.2017.11. 
-052 
-290. Clavel MA, Burwash IG, Mundigler G, Dumesnil JG, Baumgartner H, Bergler-Klein J, 
-et al. Validation of conventional and simplified methods to calculate projected valve 
-area at normal flow rate in patients with low flow, low gradient aortic stenosis: the 
-multicenter TOPAS (True or Pseudo Severe Aortic Stenosis) study. J Am Soc 
-Echocardiogr 2010;23:380–6. https://doi.org/10.1016/j.echo.2010.02.002 
-291. Ash J, Sandhu GS, Arriola-Montenegro J, Agakishiev D, Clavel MA, Pibarot P, et al. 
-Performance of computed tomographic angiography-based aortic valve area for assessment of aortic stenosis. J Am Heart Assoc 2023;12:e029973. https://doi.org/10. 
-1161/jaha.123.029973 
-292. Guzzetti E, Poulin A, Annabi MS, Zhang B, Kalavrouziotis D, Couture C, et al. 
-Transvalvular flow, sex, and survival after valve replacement surgery in patients with 
-severe aortic stenosis. J Am Coll Cardiol 2020;75:1897–909. https://doi.org/10.1016/j. 
-jacc.2020.02.065 
-293. Mehrotra P, Jansen K, Flynn AW, Tan TC, Elmariah S, Picard MH, et al. Differential left 
-ventricular remodelling and longitudinal function distinguishes low flow from normal- 
-flow preserved ejection fraction low-gradient severe aortic stenosis. Eur Heart J 2013; 
-34:1906–14. https://doi.org/10.1093/eurheartj/eht094 
-294. Tribouilloy C, Rusinaru D, Marechaux S, Castel AL, Debry N, Maizel J, et al. 
-Low-gradient, low-flow severe aortic stenosis with preserved left ventricular ejection 
-fraction: characteristics, outcome, and implications for surgery. J Am Coll Cardiol 2015; 
-65:55–66. https://doi.org/10.1016/j.jacc.2014.09.080 
-295. Jander N, Minners J, Holme I, Gerdts E, Boman K, Brudi P, et al. Outcome of patients 
-with low-gradient “severe” aortic stenosis and preserved ejection fraction. Circulation 
-2011;123:887–95. https://doi.org/10.1161/CIRCULATIONAHA.110.983510 
-296. Bohbot Y, Kubala M, Rusinaru D, Maréchaux S, Vanoverschelde JL, Tribouilloy C. 
-Survival and management of patients with discordant high-gradient aortic stenosis: a 
-propensity-matched study. JACC Cardiovasc Imaging 2021;14:1672–4. https://doi.org/ 
-10.1016/j.jcmg.2021.02.010 
-297. Unger P, Powers A, Le Nezet E, Lacasse-Rioux E, Galloo X, Clavel MA. Prevalence and 
-outcomes of patients with discordant high-gradient aortic stenosis. J Am Coll Cardiol 
-2024;83:1109–19. https://doi.org/10.1016/j.jacc.2024.01.025 
-298. Ito S, Oh JK, Michelena HI, Egbe AC, Connolly HM, Pellikka PA, et al. High-gradient 
-aortic stenosis with valve area >1.0 cm2: the “forgotten” discordant hemodynamic 
-phenotype. JACC Cardiovasc Imaging 2025;18:166–76. https://doi.org/10.1016/j.jcmg. 
-2024.07.025 
-299. Ribeiro HB, Lerakis S, Gilard M, Cavalcante JL, Makkar R, Herrmann HC, et al. 
-Transcatheter aortic valve replacement in patients with low-flow, low-gradient aortic 
-stenosis: the TOPAS-TAVI registry. J Am Coll Cardiol 2018;71:1297–308. https://doi. 
-org/10.1016/j.jacc.2018.01.054 
-300. Clavel MA, Pibarot P, Messika-Zeitoun D, Capoulade R, Malouf J, Aggarval S, et al. 
-Impact of aortic valve calcification, as measured by MDCT, on survival in patients 
-with aortic stenosis: results of an international registry study. J Am Coll Cardiol 2014; 
-64:1202–13. https://doi.org/10.1016/j.jacc.2014.05.066 
-301. Tastet L, Enriquez-Sarano M, Capoulade R, Malouf J, Araoz PA, Shen M, et al. Impact of 
-aortic valve calcification and sex on hemodynamic progression and clinical outcomes in 
-AS. J Am Coll Cardiol 2017;69:2096–8. https://doi.org/10.1016/j.jacc.2017.02.037 
-302. Clavel MA, Messika-Zeitoun D, Pibarot P, Aggarwal SR, Malouf J, Araoz PA, et al. The 
-complex nature of discordant severe calcified aortic valve disease grading: new insights 
-from combined Doppler echocardiographic and computed tomographic study. J Am 
-Coll Cardiol 2013;62:2329–38. https://doi.org/10.1016/j.jacc.2013.08.1621 
-303. Pawade T, Clavel MA, Tribouilloy C, Dreyfus J, Mathieu T, Tastet L, et al. Computed 
-tomography aortic valve calcium scoring in patients with aortic stenosis. Circ Cardiovasc 
-Imaging 2018;11:e007146. https://doi.org/10.1161/CIRCIMAGING.117.007146 
-304. Shen M, Oh JK, Guzzetti E, Singh GK, Pawade T, Tastet L, et al. Computed tomography 
-aortic valve calcium scoring in patients with bicuspid aortic valve stenosis. Struct Heart 
-2022;6:100027. https://doi.org/10.1016/j.shj.2022.100027 
-305. Shen M, Tastet L, Capoulade R, Larose É, Bédard É, Arsenault M, et al. Effect of age and 
-aortic valve anatomy on calcification and haemodynamic severity of aortic stenosis. 
-Heart 2017;103:32–9. https://doi.org/10.1136/heartjnl-2016-309665 
-306. Wanchaitanawong W, Kanjanavanit R, Srisuwan T, Wongcharoen W, Phrommintikul 
-A. Diagnostic role of aortic valve calcium scoring in various etiologies of aortic stenosis. 
-Sci Rep 2023;13:8019. https://doi.org/10.1038/s41598-023-34118-7 
-307. Ye Z, Clavel MA, Foley TA, Pibarot P, Enriquez-Sarano M, Michelena HI. Computed 
-tomography calcium scoring in aortic stenosis: bicuspid versus tricuspid morphology. 
-Heart 2024;110:594–602. https://doi.org/10.1136/heartjnl-2023-323281 
-308. Maznyczka A, Tomii D, Angellotti D, Baekke PS, Nakase M, Samim D, et al. Fibrotic vs 
-calcific aortic stenosis: characteristics and outcomes in patients undergoing transcatheter aortic valve replacement. JACC Cardiovasc Interv 2024;17:2969–71. https://doi.org/ 
-10.1016/j.jcin.2024.09.041 
-309. Rusinaru D, Malaquin D, Marechaux S, Debry N, Tribouilloy C. Relation of dimensionless index to long-term outcome in aortic stenosis with preserved LVEF. JACC 
-Cardiovasc Imaging 2015;8:766–75. https://doi.org/10.1016/j.jcmg.2015.01.023 
-310. Thellier N, Altes A, Rietz M, Menet A, Layec J, Outteryck F, et al. Additive prognostic 
-value of left ventricular dispersion and deformation in patients with severe aortic stenosis. JACC Cardiovasc Imaging 2023;17:235–45. https://doi.org/10.1016/j.jcmg.2023.09. 
-010 
-311. Vollema EM, Amanullah MR, Prihadi EA, Ng ACT, van der Bijl P, Sin YK, et al. 
-Incremental value of left ventricular global longitudinal strain in a newly proposed staging classification based on cardiac damage in patients with severe aortic stenosis. Eur 
-Heart J Cardiovasc Imaging 2020;21:1248–58. https://doi.org/10.1093/ehjci/jeaa220 
-312. Ternacle J, Bodez D, Guellich A, Audureau E, Rappeneau S, Lim P, et al. Causes and 
-consequences of longitudinal LV dysfunction assessed by 2D strain echocardiography 
-in cardiac amyloidosis. JACC Cardiovasc Imaging 2016;9:126–38. https://doi.org/10. 
-1016/j.jcmg.2015.05.014 
-313. Harada K, Saitoh T, Tanaka J, Shibayama K, Berdejo J, Shiota T. Valvuloarterial impedance, but not aortic stenosis severity, predicts syncope in patients with aortic stenosis. 
-Circ Cardiovasc Imaging 2013;6:1024–31. https://doi.org/10.1161/circimaging.113. 
-000584 
-314. Hachicha Z, Dumesnil JG, Pibarot P. Usefulness of the valvuloarterial impedance to 
-predict adverse outcome in asymptomatic aortic stenosis. J Am Coll Cardiol 2009;54: 
-1003–11. https://doi.org/10.1016/j.jacc.2009.04.079 
-315. Pibarot P, Salaun E, Dahou A, Avenatti E, Guzzetti E, Annabi MS, et al. 
-Echocardiographic results of transcatheter versus surgical aortic valve replacement 
-in low-risk patients: the PARTNER 3 trial. Circulation 2020;141:1527–37. https://doi. 
-org/10.1161/circulationaha.119.044574 
-316. Zamorano JL, Badano LP, Bruce C, Chan KL, Goncalves A, Hahn RT, et al. EAE/ASE 
-recommendations for the use of echocardiography in new transcatheter interventions 
-for valvular heart disease. Eur Heart J 2011;32:2189–214. https://doi.org/10.1093/ 
-eurheartj/ehr259 
-317. Bergler-Klein J, Klaar U, Heger M, Rosenhek R, Mundigler G, Gabriel H, et al. 
-Natriuretic peptides predict symptom-free survival and postoperative outcome in severe aortic stenosis. Circulation 2004;109:2302–8. https://doi.org/10.1161/01.CIR. 
-0000126825.50903.18 
-318. Rafique AM, Biner S, Ray I, Forrester JS, Tolstrup K, Siegel RJ. Meta-analysis of prognostic value of stress testing in patients with asymptomatic severe aortic stenosis. Am J 
-Cardiol 2009;104:972–7. https://doi.org/10.1016/j.amjcard.2009.05.044 
-319. Lancellotti P, Lebois F, Simon M, Tombeux C, Chauvel C, Pierard LA. Prognostic importance of quantitative exercise Doppler echocardiography in asymptomatic valvular 
-aortic stenosis. Circulation 2005;112:I377–82. https://doi.org/10.1161/circulationaha. 
-104.523274 
-320. Le VD, Jensen GV, Kjøller-Hansen L. Prognostic usefulness of cardiopulmonary exercise testing for managing patients with severe aortic stenosis. Am J Cardiol 2017;120: 
-844–9. https://doi.org/10.1016/j.amjcard.2017.05.047 
-321. Hoedemakers S, Verwerft J, Reddy YNV, Delvaux R, Stroobants S, Jogani S, et al. 
-Cardiac dysfunction rather than aortic valve stenosis severity drives exercise intolerance and adverse hemodynamics. Eur Heart J Cardiovasc Imaging 2023;25:302–12.  
-https://doi.org/10.1093/ehjci/jead276  
-ESC Guidelines                                                                                                                                                                                               85
-
-
-<!-- PAGE 86 -->
-
-### Page 86
-
-322. Bing R, Cavalcante JL, Everett RJ, Clavel MA, Newby DE, Dweck MR. Imaging and impact of myocardial fibrosis in aortic stenosis. JACC Cardiovasc Imaging 2019;12:283–96.  
-https://doi.org/10.1016/j.jcmg.2018.11.026 
-323. Everett RJ, Treibel TA, Fukui M, Lee H, Rigolli M, Singh A, et al. Extracellular myocardial 
-volume in patients with aortic stenosis. J Am Coll Cardiol 2020;75:304–16. https://doi. 
-org/10.1016/j.jacc.2019.11.032 
-324. Thornton GD, Vassiliou VS, Musa TA, Aziminia N, Craig N, Dattani A, et al. Myocardial 
-scar and remodelling predict long-term mortality in severe aortic stenosis beyond 10 
-years. Eur Heart J 2024;45:2019–22. https://doi.org/10.1093/eurheartj/ehae067 
-325. Nitsche C, Scully PR, Patel KP, Kammerlander AA, Koschutnik M, Dona C, et al. 
-Prevalence and outcomes of concomitant aortic stenosis and cardiac amyloidosis. J 
-Am Coll Cardiol 2021;77:128–39. https://doi.org/10.1016/j.jacc.2020.11.006 
-326. Maurer MS, Bokhari S, Damy T, Dorbala S, Drachman BM, Fontana M, et al. Expert 
-consensus recommendations for the suspicion and diagnosis of transthyretin cardiac 
-amyloidosis. Circ Heart Fail 2019;12:e006075. https://doi.org/10.1161/circheartfailure. 
-119.006075 
-327. Cannata F, Chiarito M, Pinto G, Villaschi A, Sanz-Sánchez J, Fazzari F, et al. 
-Transcatheter aortic valve replacement in aortic stenosis and cardiac amyloidosis: a 
-systematic review and meta-analysis. ESC Heart Fail 2022;9:3188–97. https://doi.org/ 
-10.1002/ehf2.13876 
-328. Blanke P, Weir-McCall JR, Achenbach S, Delgado V, Hausleiter J, Jilaihawi H, et al. 
-Computed tomography imaging in the context of Transcatheter Aortic Valve 
-Implantation (TAVI)/Transcatheter Aortic Valve Replacement (TAVR). JACC 
-Cardiovasc Imaging 2019;12:1–24. https://doi.org/10.1016/j.jcmg.2018.12.003 
-329. Khan JM, Kamioka N, Lisko JC, Perdoncin E, Zhang C, Maini A, et al. Coronary obstruction from TAVR in native aortic stenosis: development and validation of multivariate 
-prediction model. JACC Cardiovasc Interv 2023;16:415–25. https://doi.org/10.1016/j. 
-jcin.2022.11.018 
-330. Reindl M, Lechner I, Holzknecht M, Tiller C, Fink P, Oberhollenzer F, et al. Cardiac magnetic resonance imaging versus computed tomography to guide transcatheter aortic 
-valve replacement: a randomized, open-label, noninferiority trial. Circulation 2023; 
-148:1220–30. https://doi.org/10.1161/CIRCULATIONAHA.123.066498 
-331. Gleitman S, Elbaz-Greener G, Ghanim D, Kusniec F, Rabin A, Sudarsky D, et al. Similar 
-procedural success of transcutaneous aortic valve replacement with prosthesis valve 
-sizing by either three-dimensional transesophageal echocardiography modeling or 
-computed tomography. J Am Soc Echocardiogr 2020;33:1149–51. https://doi.org/10. 
-1016/j.echo.2020.05.026 
-332. Rossebø AB, Pedersen TR, Boman K, Brudi P, Chambers JB, Egstrup K, et al. Intensive 
-lipid lowering with simvastatin and ezetimibe in aortic stenosis. N Engl J Med 2008;359: 
-1343–56. https://doi.org/10.1056/NEJMoa0804602 
-333. Cowell SJ, Newby DE, Prescott RJ, Bloomfield P, Reid J, Northridge DB, et al. A randomized trial of intensive lipid-lowering therapy in calcific aortic stenosis. N Engl J Med 
-2005;352:2389–97. https://doi.org/10.1056/NEJMoa043876 
-334. Chan KL, Teo K, Dumesnil JG, Ni A, Tam J. Effect of lipid lowering with rosuvastatin on 
-progression of aortic stenosis: results of the aortic stenosis progression observation: 
-measuring effects of rosuvastatin (ASTRONOMER) trial. Circulation 2010;121: 
-306–14. https://doi.org/10.1161/CIRCULATIONAHA.109.900027 
-335. Pawade TA, Doris MK, Bing R, White AC, Forsyth L, Evans E, et al. Effect of denosumab 
-or alendronic acid on the progression of aortic stenosis: a double-blind randomized 
-controlled trial. Circulation 2021;143:2418–27. https://doi.org/10.1161/CIRCU 
-LATIONAHA.121.053708 
-336. Diederichsen ACP, Lindholt JS, Möller S, Øvrehus KA, Auscher S, Lambrechtsen J, et al. 
-Vitamin K2 and D in patients with aortic valve calcification: a randomized double- 
-blinded 
-clinical 
-trial. 
-Circulation 
-2022;145:1387–97. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.121.057008 
-337. McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, Ceconi C, et al. 2024 
-ESC Guidelines for the management of elevated blood pressure and hypertension. Eur 
-Heart J 2024;45:3912–4018. https://doi.org/10.1093/eurheartj/ehae178 
-338. Visseren FLJ, Mach F, Smulders YM, Carballo D, Koskinas KC, Bäck M, et al. 2021 ESC 
-Guidelines on cardiovascular disease prevention in clinical practice. Eur Heart J 2021; 
-42:3227–337. https://doi.org/10.1093/eurheartj/ehab484 
-339. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2021 
-ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: developed by the Task Force for the diagnosis and treatment of acute and chronic heart 
-failure of the European Society of Cardiology (ESC) with the special contribution of 
-the Heart Failure Association (HFA) of the ESC. Eur Heart J 2021;42:3599–726.  
-https://doi.org/10.1093/eurheartj/ehab368 
-340. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2023 
-Focused update of the 2021 ESC Guidelines for the diagnosis and treatment of acute 
-and chronic heart failure: developed by the Task Force for the diagnosis and treatment 
-of acute and chronic heart failure of the European Society of Cardiology (ESC) with 
-the special contribution of the Heart Failure Association (HFA) of the ESC. Eur 
-Heart J 2023;44:3627–39. https://doi.org/10.1093/eurheartj/ehad195 
-341. Monin JL, Quéré JP, Monchi M, Petit H, Baleynaud S, Chauvel C, et al. Low-gradient 
-aortic stenosis: operative risk stratification and predictors for long-term outcome: a 
-multicenter study using dobutamine stress hemodynamics. Circulation 2003;108: 
-319–24. https://doi.org/10.1161/01.CIR.0000079171.43055.46 
-342. Tribouilloy C, Levy F, Rusinaru D, Gueret P, Petit-Eisenmann H, Baleynaud S, et al. 
-Outcome after aortic valve replacement for low-flow/low-gradient aortic stenosis 
-without contractile reserve on dobutamine stress echocardiography. J Am Coll 
-Cardiol 2009;53:1865–73. https://doi.org/10.1016/j.jacc.2009.02.026 
-343. Quere JP, Monin JL, Levy F, Petit H, Baleynaud S, Chauvel C, et al. Influence of preoperative left ventricular contractile reserve on postoperative ejection fraction in low- 
-gradient aortic stenosis. Circulation 2006;113:1738–44. https://doi.org/10.1161/ 
-circulationaha.105.568824 
-344. Fougeres E, Tribouilloy C, Monchi M, Petit-Eisenmann H, Baleynaud S, Pasquet A, et al. 
-Outcomes of pseudo-severe aortic stenosis under conservative treatment. Eur Heart J 
-2012;33:2426–33. https://doi.org/10.1093/eurheartj/ehs176 
-345. Levy F, Laurent M, Monin JL, Maillet JM, Pasquet A, Le Tourneau T, et al. Aortic valve 
-replacement for low-flow/low-gradient aortic stenosis operative risk stratification and 
-long-term outcome: a European multicenter study. J Am Coll Cardiol 2008;51:1466–72.  
-https://doi.org/10.1016/j.jacc.2007.10.067 
-346. Maes F, Lerakis S, Barbosa Ribeiro H, Gilard M, Cavalcante JL, Makkar R, et al. 
-Outcomes from transcatheter aortic valve replacement in patients with low-flow, low- 
-gradient aortic stenosis and left ventricular ejection fraction less than 30%: a substudy 
-from the TOPAS-TAVI registry. JAMA Cardiol 2019;4:64–70. https://doi.org/10.1001/ 
-jamacardio.2018.4320 
-347. Sato K, Sankaramangalam K, Kandregula K, Bullen JA, Kapadia SR, Krishnaswamy A, 
-et al. Contemporary outcomes in low-gradient aortic stenosis patients who underwent dobutamine stress echocardiography. J Am Heart Assoc 2019;8:e011168.  
-https://doi.org/10.1161/JAHA.118.011168 
-348. Ueyama H, Kuno T, Harrington M, Takagi H, Krishnamoorthy P, Sharma SK, et al. 
-Impact of surgical and transcatheter aortic valve replacement in low-gradient aortic 
-stenosis: a meta-analysis. JACC Cardiovasc Interv 2021;14:1481–92. https://doi.org/10. 
-1016/j.jcin.2021.04.038 
-349. Clavel MA, Dumesnil JG, Capoulade R, Mathieu P, Senechal M, Pibarot P. Outcome of 
-patients with aortic stenosis, small valve area, and low-flow, low-gradient despite preserved left ventricular ejection fraction. J Am Coll Cardiol 2012;60:1259–67. https://doi. 
-org/10.1016/j.jacc.2011.12.054 
-350. Chadha G, Bohbot Y, Rusinaru D, Marechaux S, Tribouilloy C. Outcome of normal- 
-flow low-gradient severe aortic stenosis with preserved left ventricular ejection fraction: a propensity-matched study. J Am Heart Assoc 2019;8:e012301. https://doi.org/10. 
-1161/JAHA.119.012301 
-351. Pellikka PA, Sarano ME, Nishimura RA, Malouf JF, Bailey KR, Scott CG, et al. Outcome 
-of 622 adults with asymptomatic, hemodynamically significant aortic stenosis during 
-prolonged 
-follow-up. 
-Circulation 
-2005;111:3290–5. 
-https://doi.org/10.1161/ 
-circulationaha.104.495903 
-352. Heuvelman HJ, van Geldorp MW, Kappetein AP, Geleijnse ML, Galema TW, Bogers AJ, 
-et al. Clinical course of patients diagnosed with severe aortic stenosis in the Rotterdam 
-area: insights from the AVARIJN study. Neth Heart J 2012;20:487–93. https://doi.org/ 
-10.1007/s12471-012-0309-3 
-353. Otto CM, Burwash IG, Legget ME, Munt BI, Fujioka M, Healy NL, et al. Prospective 
-study of asymptomatic valvular aortic stenosis. Clinical, echocardiographic, and exercise predictors of outcome. Circulation 1997;95:2262–70. https://doi.org/10.1161/01. 
-cir.95.9.2262 
-354. Bohbot Y, de Meester de Ravenstein C, Chadha G, Rusinaru D, Belkhir K, Trouillet C, 
-et al. Relationship between left ventricular ejection fraction and mortality in asymptomatic and minimally symptomatic patients with severe aortic stenosis. JACC 
-Cardiovasc Imaging 2019;12:38–48. https://doi.org/10.1016/j.jcmg.2018.07.029 
-355. Capoulade R, Le Ven F, Clavel MA, Dumesnil JG, Dahou A, Thebault C, et al. 
-Echocardiographic predictors of outcomes in adults with aortic stenosis. Heart 
-2016;102:934–42. https://doi.org/10.1136/heartjnl-2015-308742 
-356. Dahl JS, Eleid MF, Michelena HI, Scott CG, Suri RM, Schaff HV, et al. Effect of left ventricular ejection fraction on postoperative outcome in patients with severe aortic stenosis undergoing aortic valve replacement. Circ Cardiovasc Imaging 2015;8:e002917.  
-https://doi.org/10.1161/CIRCIMAGING.114.002917 
-357. Taniguchi T, Morimoto T, Shiomi H, Ando K, Kanamori N, Murata K, et al. Prognostic 
-impact of left ventricular ejection fraction in patients with severe aortic stenosis. JACC 
-Cardiovasc Interv 2018;11:145–57. https://doi.org/10.1016/j.jcin.2017.08.036 
-358. Ito S, Miranda WR, Nkomo VT, Connolly HM, Pislaru SV, Greason KL, et al. Reduced 
-left ventricular ejection fraction in patients with aortic stenosis. J Am Coll Cardiol 2018; 
-71:1313–21. https://doi.org/10.1016/j.jacc.2018.01.045 
-359. De Azevedo D, Boute M, Tribouilloy C, Maréchaux S, Pouleur AC, Bohbot Y, et al. 
-Quantifying the survival loss linked to late therapeutic indication in high-gradient severe aortic stenosis. JACC Adv 2024;3:100830. https://doi.org/10.1016/j.jacadv.2024. 
-100830 
-360. Généreux P, Schwartz A, Oldemeyer JB, Pibarot P, Cohen DJ, Blanke P, et al. 
-Transcatheter aortic-valve replacement for asymptomatic severe aortic stenosis. N 
-Engl J Med 2024;392:217–27. https://doi.org/10.1056/NEJMoa2405880 
-361. Loganath K, Craig NJ, Everett RJ, Bing R, Tsampasian V, Molek P, et al. Early intervention in patients with asymptomatic severe aortic stenosis and myocardial fibrosis: the
-
-
-<!-- PAGE 87 -->
-
-### Page 87
-
-EVOLVED randomized clinical trial. JAMA 2024;333:213–21. https://doi.org/10.1001/ 
-jama.2024.22730 
-362. Kang DH, Park SJ, Lee SA, Lee S, Kim DH, Kim HK, et al. Early surgery or conservative 
-care for asymptomatic aortic stenosis. N Engl J Med 2020;382:111–9. https://doi.org/ 
-10.1056/NEJMoa1912846 
-363. Banovic M, Putnik S, Penicka M, Doros G, Deja MA, Kockova R, et al. Aortic valve replacement versus conservative treatment in asymptomatic severe aortic stenosis: the 
-AVATAR 
-Trial. 
-Circulation 
-2022;145:648–58. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.121.057639 
-364. Rosenhek R, Binder T, Porenta G, Lang I, Christ G, Schemper M, et al. Predictors of 
-outcome in severe, asymptomatic aortic stenosis. N Engl J Med 2000;343:611–7.  
-https://doi.org/10.1056/NEJM200008313430903 
-365. Nakatsuma K, Taniguchi T, Morimoto T, Shiomi H, Ando K, Kanamori N, et al. B-type 
-natriuretic peptide in patients with asymptomatic severe aortic stenosis. Heart 2019; 
-105:384–90. https://doi.org/10.1136/heartjnl-2018-313746 
-366. Parikh V, Kim C, Siegel RJ, Arsanjani R, Rader F. Natriuretic peptides for risk stratification of patients with valvular aortic stenosis. Circ Heart Fail 2015;8:373–80. https://doi. 
-org/10.1161/CIRCHEARTFAILURE.114.001649 
-367. Banovic M, Putnik S, Da Costa BR, Penicka M, Deja MA, Kotrc M, et al. Aortic valve 
-replacement versus conservative treatment in asymptomatic severe aortic stenosis: 
-long-term follow-up of the AVATAR trial. Eur Heart J 2024;45:4526–35. https://doi. 
-org/10.1093/eurheartj/ehae585 
-368. Généreux P, Banovic M, Kang DH, Giustino G, Prendergast BD, Lindman BR, et al. 
-Aortic valve replacement vs clinical surveillance in asymptomatic severe aortic stenosis: 
-a systematic review and meta-analysis. J Am Coll Cardiol 2024;85:912–22. https://doi. 
-org/10.1016/j.jacc.2024.11.006 
-369. Smith WTI, Ferguson TBJ, Ryan T, Landolfo CK, Peterson ED. Should coronary artery 
-bypass graft surgery patients with mild or moderate aortic stenosis undergo concomitant aortic valve replacement? A decision analysis approach to the surgical dilemma. J 
-Am Coll Cardiol 2004;44:1241–7. https://doi.org/10.1016/j.jacc.2004.06.031 
-370. Jean G, Van Mieghem NM, Gegenava T, van Gils L, Bernard J, Geleijnse ML, et al. 
-Moderate aortic stenosis in patients with heart failure and reduced ejection fraction. 
-J Am Coll Cardiol 2021;77:2796–803. https://doi.org/10.1016/j.jacc.2021.04.014 
-371. Jacquemyn X, Strom JB, Strange G, Playford D, Stewart S, Kutty S, et al. Moderate aortic valve stenosis is associated with increased mortality rate and lifetime loss: systematic review and meta-analysis of reconstructed time-to-event data of 409 680 patients. 
-J Am Heart Assoc 2024;13:e033872. https://doi.org/10.1161/jaha.123.033872 
-372. Amanullah MR, Pio SM, Ng ACT, Sin KYK, Marsan NA, Ding ZP, et al. Prognostic implications of associated cardiac abnormalities detected on echocardiography in patients with moderate aortic stenosis. JACC Cardiovasc Imaging 2021;14:1724–37.  
-https://doi.org/10.1016/j.jcmg.2021.04.009 
-373. Van Mieghem NM, Elmariah S, Spitzer E, Pibarot P, Nazif TM, Bax JJ, et al. 
-Transcatheter aortic valve replacement in patients with systolic heart failure and moderate aortic stenosis: TAVR UNLOAD. J Am Coll Cardiol 2024;85:878–90. https://doi. 
-org/10.1016/j.jacc.2024.10.070 
-374. Graversen PL, Butt JH, Østergaard L, Jensen AD, Warming PE, Strange JE, et al. 
-Changes in aortic valve replacement procedures in Denmark from 2008 to 2020. 
-Heart 2023;109:557–63. https://doi.org/10.1136/heartjnl-2022-321594 
-375. Johnston DR, Soltesz EG, Vakil N, Rajeswaran J, Roselli EE, Sabik JF 3rd, et al. Long-term 
-durability of bioprosthetic aortic valves: implications from 12,569 implants. Ann Thorac 
-Surg 2015;99:1239–47. https://doi.org/10.1016/j.athoracsur.2014.10.070 
-376. Goldstone AB, Chiu P, Baiocchi M, Lingala B, Patrick WL, Fischbein MP, et al. 
-Mechanical or biologic prostheses for aortic-valve and mitral-valve replacement. N 
-Engl J Med 2017;377:1847–57. https://doi.org/10.1056/NEJMoa1613792 
-377. Mazine A, David TE, Stoklosa K, Chung J, Lafreniere-Roula M, Ouzounian M. Improved 
-outcomes following the Ross procedure compared with bioprosthetic aortic valve replacement. J Am Coll Cardiol 2022;79:993–1005. https://doi.org/10.1016/j.jacc.2021.12. 
-026 
-378. Notenboom ML, Melina G, Veen KM, De Robertis F, Coppola G, De Siena P, et al. 
-Long-term clinical and echocardiographic outcomes following the Ross procedure: a 
-post hoc analysis of a randomized clinical trial. JAMA Cardiology 2023;9:6–14. https:// 
-doi.org/10.1001/jamacardio.2023.4090 
-379. Alkhouli M, Zack CJ, Sarraf M, Bashir R, Nishimura RA, Eleid MF, et al. Morbidity and 
-mortality associated with balloon aortic valvuloplasty: a national perspective. Circ 
-Cardiovasc Interv 2017;10:e004481. https://doi.org/10.1161/CIRCINTERVENTIONS. 
-116.004481 
-380. Sharma T, Krishnan AM, Lahoud R, Polomsky M, Dauerman HL. National trends in 
-TAVR and SAVR for patients with severe isolated aortic stenosis. J Am Coll Cardiol 
-2022;80:2054–6. https://doi.org/10.1016/j.jacc.2022.08.787 
-381. Gaede L, Blumenstein J, Eckel C, Grothusen C, Tiyerili V, Sötemann D, et al. 
-Transcatheter-based aortic valve replacement vs. isolated surgical aortic valve replacement in 2020. Clin Res Cardiol 2022;111:924–33. https://doi.org/10.1007/s00392-022- 
-02006-1 
-382. Nguyen V, Willner N, Eltchaninoff H, Burwash IG, Michel M, Durand E, et al. Trends in 
-aortic valve replacement for aortic stenosis: a French nationwide study. Eur Heart J 
-2022;43:666–79. https://doi.org/10.1093/eurheartj/ehab773 
-383. Mori M, Gupta A, Wang Y, Vahl T, Nazif T, Kirtane AJ, et al. Trends in transcatheter 
-and surgical aortic valve replacement among older adults in the United States. J Am Coll 
-Cardiol 2021;78:2161–72. https://doi.org/10.1016/j.jacc.2021.09.855 
-384. Pilgrim T, Windecker S. Expansion of transcatheter aortic valve implantation: new indications and socio-economic considerations. Eur Heart J 2018;39:2643–45. https:// 
-doi.org/10.1093/eurheartj/ehy228 
-385. Durko AP, Osnabrugge RL, Van Mieghem NM, Milojevic M, Mylotte D, Nkomo VT, 
-et al. Annual number of candidates for transcatheter aortic valve implantation per 
-country: current estimates and future projections. Eur Heart J 2018;39:2635–42.  
-https://doi.org/10.1093/eurheartj/ehy107 
-386. Barbato E, Noc M, Baumbach A, Dudek D, Bunc M, Skalidis E, et al. Mapping interventional cardiology in Europe: the European Association of Percutaneous Cardiovascular 
-Interventions (EAPCI) Atlas project. Eur Heart J 2020;41:2579–88. https://doi.org/10. 
-1093/eurheartj/ehaa475 
-387. Benfari G, Essayagh B, Michelena HI, Ye Z, Inojosa JM, Ribichini FL, et al. Severe aortic 
-stenosis: secular trends of incidence and outcomes. Eur Heart J 2024;45:1877–86.  
-https://doi.org/10.1093/eurheartj/ehad887 
-388. Leon MB, Smith CR, Mack M, Miller DC, Moses JW, Svensson LG, et al. Transcatheter 
-aortic-valve implantation for aortic stenosis in patients who cannot undergo surgery. N 
-Engl J Med 2010;363:1597–607. https://doi.org/10.1056/NEJMoa1008232 
-389. Gleason TG, Reardon MJ, Popma JJ, Deeb GM, Yakubov SJ, Lee JS, et al. 5-Year outcomes of self-expanding transcatheter versus surgical aortic valve replacement in high- 
-risk patients. J Am Coll Cardiol 2018;72:2687–96. https://doi.org/10.1016/j.jacc.2018.08. 
-2146 
-390. Mack MJ, Leon MB, Smith CR, Miller DC, Moses JW, Tuzcu EM, et al. 5-Year outcomes 
-of transcatheter aortic valve replacement or surgical aortic valve replacement for high 
-surgical risk patients with aortic stenosis (PARTNER 1): a randomised controlled trial. 
-Lancet 2015;385:2477–84. https://doi.org/10.1016/S0140-6736(15)60308-7 
-391. Smith CR, Leon MB, Mack MJ, Miller DC, Moses JW, Svensson LG, et al. Transcatheter 
-versus surgical aortic-valve replacement in high-risk patients. N Engl J Med 2011;364: 
-2187–98. https://doi.org/10.1056/NEJMoa1103510 
-392. Leon MB, Smith CR, Mack MJ, Makkar RR, Svensson LG, Kodali SK, et al. Transcatheter 
-or surgical aortic-valve replacement in intermediate-risk patients. N Engl J Med 2016; 
-374:1609–20. https://doi.org/10.1056/NEJMoa1514616 
-393. Toff WD, Hildick-Smith D, Kovac J, Mullen MJ, Wendler O, Mansouri A, et al. Effect of 
-transcatheter aortic valve implantation vs surgical aortic valve replacement on all-cause 
-mortality in patients with aortic stenosis: a randomized clinical trial. JAMA 2022;327: 
-1875–87. https://doi.org/10.1001/jama.2022.5776 
-394. Popma JJ, Deeb GM, Yakubov SJ, Mumtaz M, Gada H, O’Hair D, et al. Transcatheter 
-aortic-valve replacement with a self-expanding valve in low-risk patients. N Engl J 
-Med 2019;380:1706–15. https://doi.org/10.1056/NEJMoa1816885 
-395. Blankenberg S, Seiffert M, Vonthein R, Baumgartner H, Bleiziffer S, Borger MA, et al. 
-Transcatheter or surgical treatment of aortic-valve stenosis. N Engl J Med 2024;390: 
-1572–83. https://doi.org/10.1056/NEJMoa2400685 
-396. Makkar RR, Thourani VH, Mack MJ, Kodali SK, Kapadia S, Webb JG, et al. Five-year outcomes of transcatheter or surgical aortic-valve replacement. N Engl J Med 2020;382: 
-799–809. https://doi.org/10.1056/NEJMoa1910555 
-397. Van Mieghem NM, Deeb GM, Søndergaard L, Grube E, Windecker S, Gada H, et al. 
-Self-expanding transcatheter vs surgical aortic valve replacement in intermediate-risk 
-patients: 5-year outcomes of the SURTAVI randomized clinical trial. JAMA Cardiol 
-2022;7:1000–8. https://doi.org/10.1001/jamacardio.2022.2695 
-398. Thyregod HGH, Jørgensen TH, Ihlemann N, Steinbrüchel DA, Nissen H, Kjeldsen BJ, 
-et al. Transcatheter or surgical aortic valve implantation: 10-year outcomes of the 
-NOTION trial. Eur Heart J 2024;45:1116–24. https://doi.org/10.1093/eurheartj/ 
-ehae043 
-399. Ahmad Y, Howard JP, Arnold AD, Madhavan MV, Cook CM, Alu M, et al. 
-Transcatheter versus surgical aortic valve replacement in lower-risk and higher-risk patients: a meta-analysis of randomized trials. Eur Heart J 2023;44:836–52. https://doi. 
-org/10.1093/eurheartj/ehac642 
-400. Barili F, Brophy JM, Ronco D, Myers PO, Uva MS, Almeida RMS, et al. Risk of bias in 
-randomized clinical trials comparing transcatheter and surgical aortic valve replacement: a systematic review and meta-analysis. JAMA Netw Open 2023;6:e2249321.  
-https://doi.org/10.1001/jamanetworkopen.2022.49321 
-401. Siontis GCM, Overtchouk P, Cahill TJ, Modine T, Prendergast B, Praz F, et al. 
-Transcatheter aortic valve implantation vs. surgical aortic valve replacement for treatment of symptomatic severe aortic stenosis: an updated meta-analysis. Eur Heart J 
-2019;40:3143–53. https://doi.org/10.1093/eurheartj/ehz275 
-402. Pibarot P, Hahn RT, Weissman NJ, Arsenault M, Beaudoin J, Bernier M, et al. 
-Association of paravalvular regurgitation with 1-year outcomes after transcatheter 
-aortic valve replacement with the SAPIEN 3 valve. JAMA Cardiol 2017;2:1208–16.  
-https://doi.org/10.1001/jamacardio.2017.3425 
-403. Kodali S, Pibarot P, Douglas PS, Williams M, Xu K, Thourani V, et al. Paravalvular regurgitation after transcatheter aortic valve replacement with the Edwards sapien valve 
-in the PARTNER trial: characterizing patients and impact on outcomes. Eur Heart J 
-2015;36:449–56. https://doi.org/10.1093/eurheartj/ehu384  
-ESC Guidelines                                                                                                                                                                                               87
-
-
-<!-- PAGE 88 -->
-
-### Page 88
-
-404. Lerman TT, Levi A, Kornowski R. Meta-analysis of short- and long-term clinical outcomes of the self-expanding Evolut R/pro valve versus the balloon-expandable 
-Sapien 3 valve for transcatheter aortic valve implantation. Int J Cardiol 2023;371: 
-100–8. https://doi.org/10.1016/j.ijcard.2022.09.035 
-405. Faroux L, Chen S, Muntané-Carol G, Regueiro A, Philippon F, Sondergaard L, et al. 
-Clinical impact of conduction disturbances in transcatheter aortic valve replacement 
-recipients: a systematic review and meta-analysis. Eur Heart J 2020;41:2771–81.  
-https://doi.org/10.1093/eurheartj/ehz924 
-406. Greason KL, Lahr BD, Stulak JM, Cha YM, Rea RF, Schaff HV, et al. Long-term mortality 
-effect of early pacemaker implantation after surgical aortic valve replacement. Ann 
-Thorac Surg 2017;104:1259–64. https://doi.org/10.1016/j.athoracsur.2017.01.083 
-407. Rück A, Saleh N, Glaser N. Outcomes following permanent pacemaker implantation 
-after transcatheter aortic valve replacement: SWEDEHEART observational study. 
-JACC Cardiovasc Interv 2021;14:2173–81. https://doi.org/10.1016/j.jcin.2021.07.043 
-408. Baron SJ, Wang K, House JA, Magnuson EA, Reynolds MR, Makkar R, et al. 
-Cost-effectiveness of transcatheter versus surgical aortic valve replacement in patients 
-with severe aortic stenosis at intermediate risk. Circulation 2019;139:877–88. https:// 
-doi.org/10.1161/CIRCULATIONAHA.118.035236 
-409. Tam DY, Azizi PM, Fremes SE, Chikwe J, Gaudino M, Wijeysundera HC. The cost- 
-effectiveness of transcatheter aortic valve replacement in low surgical risk patients 
-with severe aortic stenosis. Eur Heart J Qual Care Clin Outcomes 2021;7:556–63.  
-https://doi.org/10.1093/ehjqcco/qcaa058 
-410. Pibarot P, Ternacle J, Jaber WA, Salaun E, Dahou A, Asch FM, et al. Structural deterioration of transcatheter versus surgical aortic valve bioprostheses in the PARTNER-2 
-trial. J Am Coll Cardiol 2020;76:1830–43. https://doi.org/10.1016/j.jacc.2020.08.049 
-411. Fatima B, Mohananey D, Khan FW, Jobanputra Y, Tummala R, Banerjee K, et al. 
-Durability data for bioprosthetic surgical aortic valve: a systematic review. JAMA 
-Cardiol 2019;4:71–80. https://doi.org/10.1001/jamacardio.2018.4045 
-412. Kedhi E, Hermanides RS, Dambrink JE, Singh SK, Ten Berg JM, van Ginkel D, et al. 
-TransCatheter aortic valve implantation and fractional flow reserve-guided percutaneous coronary intervention versus conventional surgical aortic valve replacement and 
-coronary bypass grafting for treatment of patients with aortic valve stenosis and complex or multivessel coronary disease (TCW): an international, multicentre, prospective, open-label, non-inferiority, randomised controlled trial. Lancet 2025;404: 
-2593–602. https://doi.org/10.1016/s0140-6736(24)02100-7 
-413. Martinsson A, Nielsen SJ, Milojevic M, Redfors B, Omerovic E, Tonnessen T, et al. Life 
-expectancy after surgical aortic valve replacement. J Am Coll Cardiol 2021;78:2147–57.  
-https://doi.org/10.1016/j.jacc.2021.09.861 
-414. Glaser N, Persson M, Jackson V, Holzmann MJ, Franco-Cereceda A, Sartipy U. Loss in 
-life expectancy after surgical aortic valve replacement: SWEDEHEART study. J Am Coll 
-Cardiol 2019;74:26–33. https://doi.org/10.1016/j.jacc.2019.04.053 
-415. Attinger-Toller A, Ferrari E, Tueller D, Templin C, Muller O, Nietlispach F, et al. 
-Age-related outcomes after transcatheter aortic valve replacement: insights from 
-the SwissTAVI registry. JACC Cardiovasc Interv 2021;14:952–60. https://doi.org/10. 
-1016/j.jcin.2021.01.042 
-416. Jørgensen TH, Thyregod HGH, Savontaus M, Willemen Y, Bleie Ø, Tang M, et al. 
-Transcatheter aortic valve implantation in low-risk tricuspid or bicuspid aortic stenosis: the NOTION-2 trial. Eur Heart J 2024;45:3804–14. https://doi.org/10.1093/ 
-eurheartj/ehae331 
-417. Dahle TG, Kaneko T, McCabe JM. Outcomes following subclavian and axillary artery 
-access for transcatheter aortic valve replacement: Society of the Thoracic Surgeons/ 
-American College of Cardiology TVT registry report. JACC Cardiovasc Interv 2019; 
-12:662–9. https://doi.org/10.1016/j.jcin.2019.01.219 
-418. Gleason TG, Schindler JT, Hagberg RC, Deeb GM, Adams DH, Conte JV, et al. 
-Subclavian/axillary access for self-expanding transcatheter aortic valve replacement 
-renders equivalent outcomes as transfemoral. Ann Thorac Surg 2018;105:477–83.  
-https://doi.org/10.1016/j.athoracsur.2017.07.017 
-419. Kirker E, Korngold E, Hodson RW, Jones BM, McKay R, Cheema M, et al. Transcarotid 
-versus subclavian/axillary access for transcatheter aortic valve replacement with 
-SAPIEN 3. Ann Thorac Surg 2020;110:1892–7. https://doi.org/10.1016/j.athoracsur. 
-2020.05.141 
-420. Debry N, Trimech TR, Gandet T, Vincent F, Hysi I, Delhaye C, et al. Transaxillary compared with transcarotid access for TAVR: a propensity-matched comparison from a 
-French multicentre registry. EuroIntervention 2020;16:842–9. https://doi.org/10.4244/ 
-eij-d-20-00117 
-421. Beurtheret S, Karam N, Resseguier N, Houel R, Modine T, Folliguet T, et al. Femoral 
-versus nonfemoral peripheral access for transcatheter aortic valve replacement. J Am 
-Coll Cardiol 2019;74:2728–39. https://doi.org/10.1016/j.jacc.2019.09.054 
-422. Greenbaum AB, Babaliaros VC, Chen MY, Stine AM, Rogers T, O’Neill WW, et al. 
-Transcaval access and closure for transcatheter aortic valve replacement: a prospective investigation. J Am Coll Cardiol 2017;69:511–21. https://doi.org/10.1016/j.jacc.2016. 
-10.024 
-423. Lederman RJ, Babaliaros VC, Lisko JC, Rogers T, Mahoney P, Foerst JR, et al. Transcaval 
-versus transaxillary TAVR in contemporary practice: a propensity-weighted analysis. 
-JACC Cardiovasc Interv 2022;15:965–75. https://doi.org/10.1016/j.jcin.2022.03.014 
-424. Okuno T, Asami M, Heg D, Lanz J, Praz F, Hagemeyer D, et al. Impact of left ventricular 
-outflow tract calcification on procedural outcomes after transcatheter aortic valve replacement. JACC Cardiovasc Interv 2020;13:1789–99. https://doi.org/10.1016/j.jcin. 
-2020.04.015 
-425. Barbanti M, Yang TH, Rodès Cabau J, Tamburino C, Wood DA, Jilaihawi H, et al. 
-Anatomical and procedural features associated with aortic root rupture during 
-balloon-expandable transcatheter aortic valve replacement. Circulation 2013;128: 
-244–53. https://doi.org/10.1161/circulationaha.113.002947 
-426. Kirmani BH, Jones SG, Muir A, Malaisrie SC, Chung DA, Williams RJ, et al. Limited versus full sternotomy for aortic valve replacement. Cochrane Database Syst Rev 2023;12: 
-CD011793. https://doi.org/10.1002/14651858.CD011793.pub3 
-427. Paparella D, Malvindi PG, Santarpino G, Moscarelli M, Guida P, Fattouch K, et al. Full 
-sternotomy and minimal access approaches for surgical aortic valve replacement: a 
-multicentre propensity-matched study. Eur J Cardiothorac Surg 2020;57:709–16.  
-https://doi.org/10.1093/ejcts/ezz286 
-428. Vincent F, Ternacle J, Denimal T, Shen M, Redfors B, Delhaye C, et al. Transcatheter 
-aortic valve replacement in bicuspid aortic valve stenosis. Circulation 2021;143: 
-1043–61. https://doi.org/10.1161/CIRCULATIONAHA.120.048048 
-429. Alperi A, Voisine P, Kalavrouziotis D, Dumont E, Dagenais F, Perron J, et al. Aortic 
-valve replacement in low-risk patients with severe aortic stenosis outside randomized 
-trials. J Am Coll Cardiol 2021;77:111–23. https://doi.org/10.1016/j.jacc.2020.10.056 
-430. Makkar RR, Yoon SH, Leon MB, Chakravarty T, Rinaldi M, Shah PB, et al. Association 
-between transcatheter aortic valve replacement for bicuspid vs tricuspid aortic stenosis and mortality or stroke. JAMA 2019;321:2193–202. https://doi.org/10.1001/jama. 
-2019.7108 
-431. Halim SA, Edwards FH, Dai D, Li Z, Mack MJ, Holmes DR, et al. Outcomes of transcatheter aortic valve replacement in patients with bicuspid aortic valve disease: a report from the Society of Thoracic Surgeons/American College of Cardiology 
-Transcatheter Valve Therapy Registry. Circulation 2020;141:1071–9. https://doi.org/ 
-10.1161/CIRCULATIONAHA.119.040333 
-432. Forrest JK, Kaple RK, Ramlawi B, Gleason TG, Meduri CU, Yakubov SJ, et al. 
-Transcatheter aortic valve replacement in bicuspid versus tricuspid aortic valves 
-from the STS/ACC TVT registry. JACC Cardiovasc Interv 2020;13:1749–59. https:// 
-doi.org/10.1016/j.jcin.2020.03.022 
-433. Montalto C, Sticchi A, Crimi G, Laricchia A, Khokhar AA, Giannini F, et al. Outcomes 
-after transcatheter aortic valve replacement in bicuspid versus tricuspid anatomy: a 
-systematic review and meta-analysis. JACC Cardiovasc Interv 2021;14:2144–55.  
-https://doi.org/10.1016/j.jcin.2021.07.052 
-434. Yoon SH, Bleiziffer S, De Backer O, Delgado V, Arai T, Ziegelmueller J, et al. Outcomes 
-in transcatheter aortic valve replacement for bicuspid versus tricuspid aortic valve 
-stenosis. J Am Coll Cardiol 2017;69:2579–89. https://doi.org/10.1016/j.jacc.2017.03.017 
-435. Jilaihawi H, Chen M, Webb J, Himbert D, Ruiz CE, Rodés-Cabau J, et al. A bicuspid aortic valve imaging classification for the TAVR era. JACC Cardiovasc Imaging 2016;9: 
-1145–58. https://doi.org/10.1016/j.jcmg.2015.12.022 
-436. Sá MPBO, Zhigalov K, Cavalcanti LRP, Escorel Neto AC, Rayol SC, Weymann A, et al. 
-Impact of aortic annulus enlargement on the outcomes of aortic valve replacement: a 
-meta-analysis. Semin Thorac Cardiovasc Surg 2021;33:316–25. https://doi.org/10.1053/j. 
-semtcvs.2020.06.046 
-437. Head SJ, Reardon MJ, Deeb GM, Van Mieghem NM, Popma JJ, Gleason TG, et al. 
-Computed tomography-based indexed aortic annulus size to predict prosthesis- 
-patient mismatch. Circ Cardiovasc Interv 2019;12:e007396. https://doi.org/10.1161/ 
-circinterventions.118.007396 
-438. Herrmann HC, Mehran R, Blackman DJ, Bailey S, Möllmann H, Abdel-Wahab M, et al. 
-Self-expanding or balloon-expandable TAVR in patients with a small aortic annulus. N 
-Engl J Med 2024;390:1959–71. https://doi.org/10.1056/NEJMoa2312573 
-439. Yokoyama Y, Kuno T, Zaid S, Kaneko T, Takagi H, Tang GHL, et al. Surgical explantation of transcatheter aortic bioprosthesis: a systematic review and meta-analysis. 
-JTCVS Open 2021;8:207–27. https://doi.org/10.1016/j.xjon.2021.09.023 
-440. Marin-Cuartas M, Tang GHL, Kiefer P, Fukuhara S, Lange R, Harrington KB, et al. 
-Transcatheter heart valve explant with infective endocarditis-associated prosthesis 
-failure and outcomes: the EXPLANT-TAVR international registry. Eur Heart J 2024; 
-45:2519–32. https://doi.org/10.1093/eurheartj/ehae292 
-441. Hirji SA, Percy ED, McGurk S, Malarczyk A, Harloff MT, Yazdchi F, et al. Incidence, 
-characteristics, predictors, and outcomes of surgical explantation after transcatheter 
-aortic valve replacement. J Am Coll Cardiol 2020;76:1848–59. https://doi.org/10.1016/ 
-j.jacc.2020.08.048 
-442. Jawitz OK, Gulack BC, Grau-Sepulveda MV, Matsouaka RA, Mack MJ, Holmes DR Jr, 
-et al. Reoperation after transcatheter aortic valve replacement: an analysis of the 
-Society of Thoracic Surgeons database. JACC Cardiovasc Interv 2020;13:1515–25.  
-https://doi.org/10.1016/j.jcin.2020.04.029 
-443. Hawkins RB, Deeb GM, Sukul D, Patel HJ, Gualano SK, Chetcuti SJ, et al. Redo surgical 
-aortic valve replacement after prior transcatheter versus surgical aortic valve replacement. JACC Cardiovasc Interv 2023;16:942–53. https://doi.org/10.1016/j.jcin.2023.03. 
-015 
-444. Bapat VN, Zaid S, Fukuhara S, Saha S, Vitanova K, Kiefer P, et al. Surgical explantation 
-after TAVR failure: mid-term outcomes from the EXPLANT-TAVR international
-
-
-<!-- PAGE 89 -->
-
-### Page 89
-
-registry. JACC Cardiovasc Interv 2021;14:1978–91. https://doi.org/10.1016/j.jcin.2021. 
-07.015 
-445. Bowdish ME, Habib RH, Kaneko T, Thourani VH, Badhwar V. Cardiac surgery after 
-transcatheter aortic valve replacement: trends and outcomes. Ann Thorac Surg 2024; 
-118:155–62. https://doi.org/10.1016/j.athoracsur.2024.03.024 
-446. Landes U, Webb JG, De Backer O, Sondergaard L, Abdel-Wahab M, Crusius L, et al. 
-Repeat transcatheter aortic valve replacement for transcatheter prosthesis dysfunction. J Am Coll Cardiol 2020;75:1882–93. https://doi.org/10.1016/j.jacc.2020.02.051 
-447. Tam DY, Dharma C, Rocha RV, Ouzounian M, Wijeysundera HC, Austin PC, et al. 
-Transcatheter ViV versus redo surgical AVR for the management of failed biological 
-prosthesis: early and late outcomes in a propensity-matched cohort. JACC Cardiovasc 
-Interv 2020;13:765–74. https://doi.org/10.1016/j.jcin.2019.10.030 
-448. Sá MBPO, Van den Eynde J, Simonato M, Cavalcanti LRP, Doulamis IP, Weixler V, et al. 
-Valve-in-valve transcatheter aortic valve replacement versus redo surgical aortic valve 
-replacement: an updated meta-analysis. JACC Cardiovasc Interv 2021;14:211–20. https:// 
-doi.org/10.1016/j.jcin.2020.10.020 
-449. Percy ED, Harloff MT, Hirji S, McGurk S, Yazdchi F, Newell P, et al. Nationally representative repeat transcatheter aortic valve replacement outcomes: report from the 
-centers for Medicare and Medicaid services. JACC Cardiovasc Interv 2021;14: 
-1717–26. https://doi.org/10.1016/j.jcin.2021.06.011 
-450. Makkar RR, Kapadia S, Chakravarty T, Cubeddu RJ, Kaneko T, Mahoney P, et al. 
-Outcomes of repeat transcatheter aortic valve replacement with balloon-expandable 
-valves: a registry study. Lancet 2023;402:1529–40. https://doi.org/10.1016/s0140- 
-6736(23)01636-7 
-451. Deharo P, Bisson A, Herbert J, Lacour T, Etienne CS, Porto A, et al. Transcatheter 
-valve-in-valve aortic valve replacement as an alternative to surgical re-replacement. J 
-Am Coll Cardiol 2020;76:489–99. https://doi.org/10.1016/j.jacc.2020.06.010 
-452. Dismorr M, Glaser N, Franco-Cereceda A, Sartipy U. Effect of prosthesis-patient mismatch on long-term clinical outcomes after bioprosthetic aortic valve replacement. J 
-Am Coll Cardiol 2023;81:964–75. https://doi.org/10.1016/j.jacc.2022.12.023 
-453. Head SJ, Mokhles MM, Osnabrugge RL, Pibarot P, Mack MJ, Takkenberg JJ, et al. The 
-impact of prosthesis-patient mismatch on long-term survival after aortic valve replacement: a systematic review and meta-analysis of 34 observational studies comprising 27 
-186 patients with 133 141 patient-years. Eur Heart J 2012;33:1518–29. https://doi.org/ 
-10.1093/eurheartj/ehs003 
-454. Herrmann HC, Daneshvar SA, Fonarow GC, Stebbins A, Vemulapalli S, Desai ND, 
-et al. Prosthesis–patient mismatch in patients undergoing transcatheter aortic valve replacement: from the STS/ACC TVT registry. J Am Coll Cardiol 2018;72:2701–11.  
-https://doi.org/10.1016/j.jacc.2018.09.001 
-455. Ternacle J, Pibarot P, Herrmann HC, Kodali S, Leipsic J, Blanke P, et al. 
-Prosthesis-patient mismatch after aortic valve replacement in the PARTNER 2 trial 
-and registry. JACC Cardiovasc Interv 2021;14:1466–77. https://doi.org/10.1016/j.jcin. 
-2021.03.069 
-456. Akodad M, Sellers S, Landes U, Meier D, Tang Gilbert HL, Gada H, et al. 
-Balloon-expandable valve for treatment of Evolut valve failure. JACC Cardiovasc Interv 
-2022;15:368–77. https://doi.org/10.1016/j.jcin.2021.12.021 
-457. Ribeiro HB, Rodés-Cabau J, Blanke P, Leipsic J, Kwan Park J, Bapat V, et al. Incidence, 
-predictors, and clinical outcomes of coronary obstruction following transcatheter aortic valve replacement for degenerative bioprosthetic surgical valves: insights from the 
-VIVID registry. Eur Heart J 2018;39:687–95. https://doi.org/10.1093/eurheartj/ehx455 
-458. Ochiai T, Oakley L, Sekhon N, Komatsu I, Flint N, Kaewkes D, et al. Risk of coronary 
-obstruction due to sinus sequestration in redo transcatheter aortic valve replacement. 
-JACC Cardiovasc Interv 2020;13:2617–27. https://doi.org/10.1016/j.jcin.2020.09.022 
-459. Akodad M, Sellers S, Gulsin GS, Tzimas G, Landes U, Chatfield Andrew G, et al. Leaflet 
-and neoskirt height in transcatheter heart valves. JACC Cardiovasc Interv 2021;14: 
-2298–300. https://doi.org/10.1016/j.jcin.2021.07.034 
-460. Tang GH, Spencer J, Rogers T, Grubb KJ, Gleason P, Gada H, et al. Feasibility of coronary access following redo-TAVR for Evolut failure: a computed tomography simulation study. Circ Cardiovasc Interv 2023;16:e013238. https://doi.org/10.1161/ 
-CIRCINTERVENTIONS.123.013238 
-461. De Backer O, Landes U, Fuchs A, Yoon SH, Mathiassen ON, Sedaghat A, et al. 
-Coronary access after TAVR-in-TAVR as evaluated by multidetector computed tomography. JACC Cardiovasc Interv 2020;13:2528–38. https://doi.org/10.1016/j.jcin.2020. 
-06.016 
-462. Fukui M, Okada A, Thao KR, Burns MR, Koike H, Wang C, et al. Feasibility of redo- 
-transcatheter aortic valve replacement in Sapien valves based on in vivo computed 
-tomography assessment. Circ Cardiovasc Interv 2023;16:e013497. https://doi.org/10. 
-1161/CIRCINTERVENTIONS.123.013497 
-463. Chhatriwalla AK, Allen KB, Depta JP, Rodriguez E, Thourani VH, Whisenant BK, et al. 
-Outcomes of bioprosthetic valve fracture in patients undergoing valve-in-valve TAVR. 
-JACC Cardiovasc Interv 2023;16:530–9. https://doi.org/10.1016/j.jcin.2022.12.019 
-464. Khan JM, Babaliaros VC, Greenbaum AB, Spies C, Daniels D, Depta JP, et al. Preventing 
-coronary obstruction during transcatheter aortic valve replacement: results from the 
-multicenter international BASILICA registry. JACC Cardiovasc Interv 2021;14:941–8.  
-https://doi.org/10.1016/j.jcin.2021.02.035 
-465. Jørgensen TH, Thyregod HGH, Ihlemann N, Nissen H, Petursson P, Kjeldsen BJ, et al. 
-Eight-year outcomes for patients with aortic valve stenosis at low surgical risk randomized to transcatheter vs. surgical aortic valve replacement. Eur Heart J 2021;42: 
-2912–9. https://doi.org/10.1093/eurheartj/ehab375 
-466. O’Hair D, Yakubov SJ, Grubb KJ, Oh JK, Ito S, Deeb GM, et al. Structural valve deterioration after self-expanding transcatheter or surgical aortic valve implantation in patients at intermediate or high risk. JAMA Cardiol 2023;8:111–9. https://doi.org/10. 
-1001/jamacardio.2022.4627 
-467. Rodriguez-Gabella T, Voisine P, Puri R, Pibarot P, Rodés-Cabau J. Aortic bioprosthetic 
-valve durability: incidence, mechanisms, predictors, and management of surgical and 
-transcatheter valve degeneration. J Am Coll Cardiol 2017;70:1013–28. https://doi.org/ 
-10.1016/j.jacc.2017.07.715 
-468. Pibarot P, Magne J, Leipsic J, Cote N, Blanke P, Thourani VH, et al. Imaging for predicting and assessing prosthesis-patient mismatch after aortic valve replacement. JACC 
-Cardiovasc Imaging 2019;12:149–62. https://doi.org/10.1016/j.jcmg.2018.10.020 
-469. Freitas-Ferraz Afonso B, Tirado-Conte G, Dagenais F, Ruel M, Al-Atassi T, Dumont E, 
-et al. Aortic stenosis and small aortic annulus. Circulation 2019;139:2685–702. https:// 
-doi.org/10.1161/CIRCULATIONAHA.118.038408 
-470. Tang GHL, Zaid S, Fuchs A, Yamabe T, Yazdchi F, Gupta E, et al. Alignment of transcatheter aortic-valve neo-commissures (ALIGN TAVR): impact on final valve orientation and coronary artery overlap. JACC Cardiovasc Interv 2020;13:1030–42. https://doi. 
-org/10.1016/j.jcin.2020.02.005 
-471. Kapadia SR, Leon MB, Makkar RR, Tuzcu EM, Svensson LG, Kodali S, et al. 5-Year outcomes of transcatheter aortic valve replacement compared with standard treatment 
-for patients with inoperable aortic stenosis (PARTNER 1): a randomised controlled 
-trial. Lancet 2015;385:2485–91. https://doi.org/10.1016/S0140-6736(15)60290-2 
-472. Makkar RR, Fontana GP, Jilaihawi H, Kapadia S, Pichard AD, Douglas PS, et al. 
-Transcatheter aortic-valve replacement for inoperable severe aortic stenosis. N Engl 
-J Med 2012;366:1696–704. https://doi.org/10.1056/NEJMoa1202277 
-473. Turina J, Hess O, Sepulcri F, Krayenbuehl HP. Spontaneous course of aortic valve disease. Eur Heart J 1987;8:471–83. https://doi.org/10.1093/oxfordjournals.eurheartj. 
-a062307 
-474. Pellikka PA, Nishimura RA, Bailey KR, Tajik AJ. The natural history of adults with 
-asymptomatic, hemodynamically significant aortic stenosis. J Am Coll Cardiol 1990;15: 
-1012–7. https://doi.org/10.1016/0735-1097(90)90234-g 
-475. Mangner N, Stachel G, Woitek F, Haussig S, Schlotter F, Hollriegel R, et al. Predictors of 
-mortality and symptomatic outcome of patients with low-flow severe aortic stenosis 
-undergoing transcatheter aortic valve replacement. J Am Heart Assoc 2018;7:e007977.  
-https://doi.org/10.1161/JAHA.117.007977 
-476. Eleid MF, Padang R, Al-Hijji M, Pislaru SV, Greason KL, Maltais S, et al. Hemodynamic 
-response in low-flow low-gradient aortic stenosis with preserved ejection fraction 
-after TAVR. J Am Coll Cardiol 2019;73:1731–2. https://doi.org/10.1016/j.jacc.2019.01. 
-034 
-477. Rusinaru D, Bohbot Y, Ringle A, Marechaux S, Diouf M, Tribouilloy C. Impact of low 
-stroke volume on mortality in patients with severe aortic stenosis and preserved left 
-ventricular ejection fraction. Eur Heart J 2018;39:1992–9. https://doi.org/10.1093/ 
-eurheartj/ehy123 
-478. Zheng Q, Djohan AH, Lim E, Ding ZP, Ling LH, Shi L, et al. Effects of aortic valve replacement on severe aortic stenosis and preserved systolic function: systematic review 
-and network meta-analysis. Sci Rep 2017;7:5092. https://doi.org/10.1038/s41598-017- 
-05021-9 
-479. Salaun E, Clavel MA, Hahn RT, Jaber WA, Asch FM, Rodriguez L, et al. Outcome of 
-flow-gradient patterns of aortic stenosis after aortic valve replacement: an analysis 
-of the PARTNER 2 trial and registry. Circ Cardiovasc Interv 2020;13:e008792. https:// 
-doi.org/10.1161/CIRCINTERVENTIONS.119.008792 
-480. Annabi MS, Côté N, Dahou A, Bartko PE, Bergler-Klein J, Burwash IG, et al. 
-Comparison of early surgical or transcatheter aortic valve replacement versus conservative management in low-flow, low-gradient aortic stenosis using inverse probability 
-of treatment weighting: results from the TOPAS prospective observational cohort 
-study. J Am Heart Assoc 2020;9:e017870. https://doi.org/10.1161/jaha.120.017870 
-481. Mosleh W, Amer MR, Ding Y, Megaly M, Mather JF, McMahon S, et al. Benefit of transcatheter aortic valve replacement in patients with paradoxical low-flow low-gradient 
-versus high-gradient aortic stenosis and preserved left ventricular function. Circ 
-Cardiovasc Interv 2021;14:e010042. https://doi.org/10.1161/circinterventions.120. 
-010042 
-482. Bohbot Y, Kowalski C, Rusinaru D, Ringle A, Marechaux S, Tribouilloy C. Impact of 
-mean transaortic pressure gradient on long-term outcome in patients with severe aortic stenosis and preserved left ventricular ejection fraction. J Am Heart Assoc 2017;6: 
-e005850. https://doi.org/10.1161/JAHA.117.005850 
-483. Costa GNF, Cardoso JFL, Oliveiros B, Gonçalves L, Teixeira R. Early surgical intervention versus conservative management of asymptomatic severe aortic stenosis: a systematic review and meta-analysis. Heart 2023;109:314–21. https://doi.org/10.1136/ 
-heartjnl-2022-321411 
-484. Bohbot Y, Rusinaru D, Delpierre Q, Marechaux S, Tribouilloy C. Risk stratification of 
-severe aortic stenosis with preserved left ventricular ejection fraction using peak aortic  
-ESC Guidelines                                                                                                                                                                                               89
-
-
-<!-- PAGE 90 -->
-
-### Page 90
-
-jet velocity: an outcome study. Circ Cardiovasc Imaging 2017;10:e006760. https://doi. 
-org/10.1161/CIRCIMAGING.117.006760 
-485. Adams DH, Popma JJ, Reardon MJ. Transcatheter aortic-valve replacement with a self- 
-expanding prosthesis. N Engl J Med 2014;371:967–8. https://doi.org/10.1056/ 
-NEJMc1408396 
-486. Thyregod HGH, Steinbrüchel DA, Ihlemann N, Nissen H, Kjeldsen BJ, Petursson P, 
-et al. Transcatheter versus surgical aortic valve replacement in patients with severe 
-aortic valve stenosis: 1-year results from the all-comers NOTION randomized clinical 
-trial. J Am Coll Cardiol 2015;65:2184–94. https://doi.org/10.1016/j.jacc.2015.03.014 
-487. Thourani VH, Suri RM, Gunter RL, Sheng S, O’Brien SM, Ailawadi G, et al. 
-Contemporary real-world outcomes of surgical aortic valve replacement in 141,905 
-low-risk, intermediate-risk, and high-risk patients. Ann Thorac Surg 2015;99:55–61.  
-https://doi.org/10.1016/j.athoracsur.2014.06.050 
-488. Thourani VH, Kodali S, Makkar RR, Herrmann HC, Williams M, Babaliaros V, et al. 
-Transcatheter aortic valve replacement versus surgical valve replacement in 
-intermediate-risk patients: a propensity score analysis. Lancet 2016;387:2218–25.  
-https://doi.org/10.1016/s0140-6736(16)30073-3 
-489. Coylewright M, Grubb KJ, Arnold SV, Batchelor W, Dhoble A, Horne A Jr, et al. 
-Outcomes of balloon-expandable transcatheter aortic valve replacement in younger 
-patients in the low-risk era. JAMA Cardiol 2025;10:127–35. https://doi.org/10.1001/ 
-jamacardio.2024.4237 
-490. Ullah W, DiMeglio M, Sana MK, Muhammadzai HZU, Kochar K, Zahid S, et al. 
-Outcomes after transcatheter aortic valve implantation in patients excluded from clinical trials. JACC Adv 2023;2:100271. https://doi.org/10.1016/j.jacadv.2023.100271 
-491. Reents W, Barth S, Griese DP, Winkler S, Babin-Ebell J, Kerber S, et al. Transfemoral 
-versus transapical transcatheter aortic valve implantation: a single-centre experience. 
-Eur J Cardiothorac Surg 2019;55:744–50. https://doi.org/10.1093/ejcts/ezy363 
-492. Allen KB, Chhatriwalla AK, Cohen D, Saxon J, Hawa Z, Kennedy KF, et al. Transcarotid 
-versus transapical and transaortic access for transcatheter aortic valve replacement. 
-Ann Thorac Surg 2019;108:715–22. https://doi.org/10.1016/j.athoracsur.2019.02.007 
-493. Overtchouk P, Folliguet T, Pinaud F, Fouquet O, Pernot M, Bonnet G, et al. 
-Transcarotid approach for transcatheter aortic valve replacement with the Sapien 3 
-prosthesis. JACC Cardiovasc Interv 2019;12:413–9. https://doi.org/10.1016/j.jcin.2018. 
-11.014 
-494. Kumar N, Khera R, Fonarow GC, Bhatt DL. Comparison of outcomes of transfemoral 
-versus transapical approach for transcatheter aortic valve implantation. Am J Cardiol 
-2018;122:1520–6. https://doi.org/10.1016/j.amjcard.2018.07.025 
-495. van Wely M, van Nieuwkerk AC, Rooijakkers M, van der Wulp K, Gehlmann H, 
-Verkroost M, et al. Transaxillary versus transfemoral access as default access in 
-TAVI: a propensity matched analysis. Int J Cardiol 2024;394:131353. https://doi.org/ 
-10.1016/j.ijcard.2023.131353 
-496. Allen KB, Watson D, Vora AN, Mahoney P, Chhatriwalla AK, Schwartz JG, et al. 
-Transcarotid versus transaxillary access for transcatheter aortic valve replacement 
-with a self-expanding valve: a propensity-matched analysis. JTCVS Tech 2023;21: 
-45–55. https://doi.org/10.1016/j.xjtc.2023.07.019 
-497. Salihu A, Ferlay C, Kirsch M, Shah PB, Skali H, Fournier S, et al. Outcomes and safety of 
-transcaval transcatheter aortic valve replacement: a systematic review and 
-meta-analysis. Can J Cardiol 2024;40:2054–62. https://doi.org/10.1016/j.cjca.2024.05. 
-016 
-498. Abraham B, Sous M, Sedhom R, Megaly M, Roman S, Sweeney J, et al. Meta-analysis on 
-transcarotid versus transfemoral and other alternate accesses for transcatheter aortic 
-valve implantation. Am J Cardiol 2023;192:196–205. https://doi.org/10.1016/j.amjcard. 
-2023.01.023 
-499. Williams MR, Jilaihawi H, Makkar R, O’Neill WW, Guyton R, Malaisrie SC, et al. The 
-PARTNER 3 bicuspid registry for transcatheter aortic valve replacement in 
-low-surgical-risk patients. JACC Cardiovasc Interv 2022;15:523–32. https://doi.org/10. 
-1016/j.jcin.2022.01.279 
-500. Waksman R, Craig PE, Torguson R, Asch FM, Weissman G, Ruiz D, et al. Transcatheter 
-aortic valve replacement in low-risk patients with symptomatic severe bicuspid aortic 
-valve stenosis. JACC Cardiovasc Interv 2020;13:1019–27. https://doi.org/10.1016/j.jcin. 
-2020.02.008 
-501. Elbadawi A, Saad M, Elgendy IY, Barssoum K, Omer MA, Soliman A, et al. Temporal 
-trends and outcomes of transcatheter versus surgical aortic valve replacement for bicuspid aortic valve stenosis. JACC Cardiovasc Interv 2019;12:1811–22. https://doi.org/ 
-10.1016/j.jcin.2019.06.037 
-502. Tchétché D, Ziviello F, De Biase C, De Backer O, Hovasse T, Leroux L, et al. 
-Transcatheter aortic valve implantation with the Evolut platform for bicuspid aortic 
-valve stenosis: the international, multicentre, prospective BIVOLUTX registry. 
-EuroIntervention 2023;19:502–11. https://doi.org/10.4244/eij-d-23-00021 
-503. Yang L-T, Boler A, Medina-Inojosa Jose R, Scott Christopher G, Maurer Matthew J, 
-Eleid Mackram F, et al. Aortic stenosis progression, cardiac damage, and survival. 
-JACC Cardiovasc Imaging 2021;14:1113–26. https://doi.org/10.1016/j.jcmg.2021.01.017 
-504. Strange G, Stewart S, Celermajer D, Prior D, Scalia GM, Marwick T, et al. Poor long- 
-term survival in patients with moderate aortic stenosis. J Am Coll Cardiol 2019;74: 
-1851–63. https://doi.org/10.1016/j.jacc.2019.08.004 
-505. Samad Z, Vora AN, Dunning A, Schulte PJ, Shaw LK, Al-Enezi F, et al. Aortic valve surgery and survival in patients with moderate or severe aortic stenosis and left ventricular dysfunction. Eur Heart J 2016;37:2276–86. https://doi.org/10.1093/eurheartj/ 
-ehv701 
-506. Oz A, Tsoumas I, Lampropoulos K, Xanthos T, Karpettas N, Papadopoulos D. Cardiac 
-rehabilitation after TAVI—a systematic review and meta-analysis. Curr Probl Cardiol 
-2023;48:101531. https://doi.org/10.1016/j.cpcardiol.2022.101531 
-507. Monteagudo Ruiz JM, Galderisi M, Buonauro A, Badano L, Aruta P, Swaans MJ, et al. 
-Overview of mitral regurgitation in Europe: results from the European Registry of mitral regurgitation (EuMiClip). Eur Heart J Cardiovasc Imaging 2018;19:503–7. https://doi. 
-org/10.1093/ehjci/jey011 
-508. Nalliah CJ, Mahajan R, Elliott AD, Haqqani H, Lau DH, Vohra JK, et al. Mitral valve prolapse and sudden cardiac death: a systematic review and meta-analysis. Heart 2019; 
-105:144–51. https://doi.org/10.1136/heartjnl-2017-312932 
-509. Van der Bijl P, Stassen J, Haugaa KH, Essayagh B, Basso C, Thiene G, et al. Mitral annular 
-disjunction in the context of mitral valve prolapse: identifying the at-risk patient. JACC 
-Cardiovasc Imaging 2024;17:1229–45. https://doi.org/10.1016/j.jcmg.2024.03.006 
-510. Antoine C, Benfari G, Michelena HI, Maalouf JF, Nkomo VT, Thapa P, et al. Clinical outcome of degenerative mitral regurgitation. Circulation 2018;138:1317–26. https://doi. 
-org/10.1161/CIRCULATIONAHA.117.033173 
-511. Enriquez-Sarano M, Avierinos JF, Messika-Zeitoun D, Detaint D, Capps M, Nkomo V, 
-et al. Quantitative determinants of the outcome of asymptomatic mitral regurgitation. 
-N Engl J Med 2005;352:875–83. https://doi.org/10.1056/NEJMoa041451 
-512. O’Gara PT, Grayburn PA, Badhwar V, Afonso LC, Carroll JD, Elmariah S, et al. 2017 
-ACC Expert Consensus Decision Pathway on the management of mitral regurgitation: 
-a report of the American College of Cardiology Task Force on Expert Consensus 
-Decision Pathways. J Am Coll Cardiol 2017;70:2421–49. https://doi.org/10.1016/j.jacc. 
-2017.09.019 
-513. Dziadzko V, Dziadzko M, Medina-Inojosa JR, Benfari G, Michelena HI, Crestanello JA, 
-et al. Causes and mechanisms of isolated mitral regurgitation in the community: clinical 
-context and outcome. Eur Heart J 2019;40:2194–202. https://doi.org/10.1093/ 
-eurheartj/ehz314 
-514. Samad Z, Shaw LK, Phelan M, Glower DD, Ersboll M, Toptine JH, et al. Long-term outcomes of mitral regurgitation by type and severity. Am Heart J 2018;203:39–48. https:// 
-doi.org/10.1016/j.ahj.2018.05.001 
-515. Bakkestrom R, Banke A, Christensen NL, Pecini R, Irmukhamedov A, Andersen M, 
-et al. Hemodynamic characteristics in significant symptomatic and asymptomatic primary mitral valve regurgitation at rest and during exercise. Circ Cardiovasc Imaging 
-2018;11:e007171. https://doi.org/10.1161/CIRCIMAGING.117.007171 
-516. Utsunomiya H, Hidaka T, Susawa H, Izumi K, Harada Y, Kinoshita M, et al. 
-Exercise-stress echocardiography and effort intolerance in asymptomatic/minimally 
-symptomatic patients with degenerative mitral regurgitation combined invasive- 
-noninvasive hemodynamic monitoring. Circ Cardiovasc Imaging 2018;11:e007282.  
-https://doi.org/10.1161/CIRCIMAGING.117.007282 
-517. Butcher SC, Essayagh B, Steyerberg EW, Benfari G, Antoine C, Grigioni F, et al. Factors 
-influencing post-surgical survival in degenerative mitral regurgitation. Eur Heart J 2023; 
-44:871–81. https://doi.org/10.1093/eurheartj/ehad004 
-518. Grigioni F, Clavel MA, Vanoverschelde JL, Tribouilloy C, Pizarro R, Huebner M, et al. 
-The MIDA mortality risk score: development and external validation of a prognostic 
-model for early and late death in degenerative mitral regurgitation. Eur Heart J 2018; 
-39:1281–91. https://doi.org/10.1093/eurheartj/ehx465 
-519. Del Rio-Pertuz G, Nugent K, Argueta-Sosa E. Right heart catheterization in clinical 
-practice: a review of basic physiology and important issues relevant to interpretation. 
-Am J Cardiovasc Dis 2023;13:122–37. 
-520. Mentias A, Patel K, Patel H, Gillinov AM, Rodriguez LL, Svensson LG, et al. Prognostic 
-utility of brain natriuretic peptide in asymptomatic patients with significant mitral regurgitation and preserved left ventricular ejection fraction. Am J Cardiol 2016;117: 
-258–63. https://doi.org/10.1016/j.amjcard.2015.10.040 
-521. Cawley PJ, Hamilton-Craig C, Owens DS, Krieger EV, Strugnell WE, Mitsumori L, et al. 
-Prospective comparison of valve regurgitation quantitation by cardiac magnetic resonance imaging and transthoracic echocardiography. Circ Cardiovasc Imaging 2013;6: 
-48–57. https://doi.org/10.1161/CIRCIMAGING.112.975623 
-522. Penicka M, Vecera J, Mirica DC, Kotrc M, Kockova R, Van Camp G. Prognostic implications of magnetic resonance-derived quantification in asymptomatic patients with organic mitral regurgitation: comparison with Doppler echocardiography-derived 
-integrative 
-approach. 
-Circulation 
-2018;137:1349–60. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.117.029332 
-523. Naoum C, Blanke P, Cavalcante JL, Leipsic J. Cardiac computed tomography and magnetic resonance imaging in the evaluation of mitral and tricuspid valve disease. Circ 
-Cardiovasc Imaging 2017;10:e005331. https://doi.org/10.1161/CIRCIMAGING.116. 
-005331 
-524. Kitkungvan D, Nabi F, Kim RJ, Bonow RO, Khan MA, Xu J, et al. Myocardial fibrosis in 
-patients with primary mitral regurgitation with and without prolapse. J Am Coll Cardiol 
-2018;72:823–34. https://doi.org/10.1016/j.jacc.2018.06.048
-
-
-<!-- PAGE 91 -->
-
-### Page 91
-
-525. Garg P, Swift AJ, Zhong L, Carlhall CJ, Ebbers T, Westenberg J, et al. Assessment of 
-mitral valve regurgitation by cardiovascular magnetic resonance imaging. Nat Rev 
-Cardiol 2020;17:298–312. https://doi.org/10.1038/s41569-019-0305-z 
-526. Feuchtner GM, Alkadhi H, Karlo C, Sarwar A, Meier A, Dichtl W, et al. Cardiac CT 
-angiography for the diagnosis of mitral valve prolapse: comparison with echocardiography. Radiology 2010;254:374–83. https://doi.org/10.1148/radiol.2541090393 
-527. Gollmann-Tepeköylü C, Nägele F, Höfer D, Holfeld J, Hirsch J, Oezpeker CU, et al. A 
-qualitative improvement program for minimally invasive mitral surgery: technical advancements ameliorate outcome and operative times. Interdiscip Cardiovasc Thorac 
-Surg 2023;36:ivad030. https://doi.org/10.1093/icvts/ivad030 
-528. Tarzia P, Ciampi P, Lanza O, Canali E, Canestrelli S, Calò L. Multi-modality imaging for 
-pre-procedural planning of transcatheter mitral valve interventions. Eur Heart J Suppl 
-2023;25:C205–11. https://doi.org/10.1093/eurheartjsupp/suad021 
-529. Eleid MF, Foley TA, Said SM, Pislaru SV, Rihal CS. Severe mitral annular calcification: 
-multimodality imaging for therapeutic strategies and interventions. JACC Cardiovasc 
-Imaging 2016;9:1318–37. https://doi.org/10.1016/j.jcmg.2016.09.001 
-530. Roselli C, Yu M, Nauffal V, Georges A, Yang Q, Love K, et al. Genome-wide association 
-study reveals novel genetic loci: a new polygenic risk score for mitral valve prolapse. Eur 
-Heart J 2022;43:1668–80. https://doi.org/10.1093/eurheartj/ehac049 
-531. Badhwar V, Chikwe J, Gillinov AM, Vemulapalli S, O’Gara PT, Mehaffey JH, et al. Risk of 
-surgical mitral valve repair for primary mitral regurgitation. J Am Coll Cardiol 2023;81: 
-636–48. https://doi.org/10.1016/j.jacc.2022.11.017 
-532. Lazam S, Vanoverschelde JL, Tribouilloy C, Grigioni F, Suri RM, Avierinos JF, et al. 
-Twenty-year outcome after mitral repair versus replacement for severe degenerative 
-mitral regurgitation: analysis of a large, prospective, multicenter, international registry. 
-Circulation 
-2017;135:410–22. 
-https://doi.org/10.1161/CIRCULATIONAHA.116. 
-023340 
-533. David TE, David CM, Tsang W, Lafreniere-Roula M, Manlhiot C. Long-term results of 
-mitral valve repair for regurgitation due to leaflet prolapse. J Am Coll Cardiol 2019;74: 
-1044–53. https://doi.org/10.1016/j.jacc.2019.06.052 
-534. Deja MA, Malinowski M, Widenka K, Stozynski N, Bartus K, Kapelak B, et al. 
-Comparison of repair vs replacement in calcific and rheumatic mitral disease. Ann 
-Thorac Surg 2023;116:954–61. https://doi.org/10.1016/j.athoracsur.2023.04.048 
-535. Brescia AA, Watt TMF, Murray SL, Rosenbloom LM, Kleeman KC, Allgeyer H, et al. 
-Rheumatic mitral valve repair or replacement in the valve-in-valve era. J Thorac 
-Cardiovasc Surg 2022;163:591–602.e1. https://doi.org/10.1016/j.jtcvs.2020.04.118 
-536. Chen SW, Chen CY, Chien-Chia Wu V, Chou AH, Cheng YT, Chang SH, et al. Mitral 
-valve repair versus replacement in patients with rheumatic heart disease. J Thorac 
-Cardiovasc Surg 2022;164:57–67.e11. https://doi.org/10.1016/j.jtcvs.2020.07.117 
-537. Yun KL, Sintek CF, Miller DC, Pfeffer TA, Kochamba GS, Khonsari S, et al. Randomized 
-trial comparing partial versus complete chordal-sparing mitral valve replacement: effects on left ventricular volume and function. J Thorac Cardiovasc Surg 2002;123: 
-707–14. https://doi.org/10.1067/mtc.2002.121048 
-538. Makkar RR, Chikwe J, Chakravarty T, Chen Q, O’Gara PT, Gillinov M, et al. 
-Transcatheter mitral valve repair for degenerative mitral regurgitation. JAMA 2023; 
-329:1778–88. https://doi.org/10.1001/jama.2023.7089 
-539. von Bardeleben RS, Mahoney P, Morse MA, Price MJ, Denti P, Maisano F, et al. 1-Year 
-outcomes with fourth-generation mitral valve transcatheter edge-to-edge repair from 
-the EXPAND G4 study. JACC Cardiovasc Interv 2023;16:2600–10. https://doi.org/10. 
-1016/j.jcin.2023.09.029 
-540. Zahr F, Smith RL, Gillam LD, Chadderdon S, Makkar R, von Bardeleben RS, et al. 
-One-year outcomes from the CLASP IID randomized trial for degenerative mitral regurgitation. JACC Cardiovasc Interv 2023;15:2803–16. https://doi.org/10.1016/j.jcin. 
-2023.10.002 
-541. Kaneko T, Hirji S, Zaid S, Lange R, Kempfert J, Conradi L, et al. Mitral valve surgery after 
-transcatheter edge-to-edge repair: mid-term outcomes from the CUTTING-EDGE 
-international registry. JACC Cardiovasc Interv 2021;14:2010–21. https://doi.org/10. 
-1016/j.jcin.2021.07.029 
-542. Wild MG, Kreidel F, Hell MM, Praz F, Mach M, Adam M, et al. Transapical mitral valve 
-implantation for treatment of symptomatic mitral valve disease: a real-world multicentre experience. Eur J Heart Fail 2022;24:899–907. https://doi.org/10.1002/ejhf.2434 
-543. Ludwig S, Perrin N, Coisne A, Ben Ali W, Weimann J, Duncan A, et al. Clinical outcomes of transcatheter mitral valve replacement: two-year results of the 
-CHOICE-MI Registry. EuroIntervention 2023;19:512–25. https://doi.org/10.4244/EIJ- 
-D-22-01037 
-544. Suri RM, Vanoverschelde JL, Grigioni F, Schaff HV, Tribouilloy C, Avierinos J-F, et al. 
-Association between early surgical intervention vs watchful waiting and outcomes 
-for mitral regurgitation due to flail mitral valve leaflets. JAMA 2013;310:609–16.  
-https://doi.org/10.1001/jama.2013.8643 
-545. Tribouilloy C, Grigioni F, Avierinos JF, Barbieri A, Rusinaru D, Szymanski C, et al. 
-Survival implication of left ventricular end-systolic diameter in mitral regurgitation 
-due to flail leaflets a long-term follow-up multicenter study. J Am Coll Cardiol 2009; 
-54:1961–68. https://doi.org/10.1016/j.jacc.2009.06.047 
-546. Tribouilloy C, Rusinaru D, Grigioni F, Avierinos JF, Vanoverschelde JL, Benfari G, et al. 
-Indexing left ventricular end-systolic dimension to body size: association with mortality 
-in patients with degenerative mitral regurgitation. Eur J Heart Fail 2024;26:2563–9.  
-https://doi.org/10.1002/ejhf.3393 
-547. Essayagh B, Antoine C, Benfari G, Messika-Zeitoun D, Michelena H, Le Tourneau T, 
-et al. Prognostic implications of left atrial enlargement in degenerative mitral regurgitation. J Am Coll Cardiol 2019;74:858–70. https://doi.org/10.1016/j.jacc.2019.06.032 
-548. Abadie BQ, Cremer PC, Vakamudi S, Gillinov AM, Svensson LG, Cho L. Sex-specific 
-prognosis of left ventricular size and function following repair of degenerative mitral 
-regurgitation. J Am Coll Cardiol 2024;83:303–12. https://doi.org/10.1016/j.jacc.2023. 
-10.033 
-549. Dejgaard LA, Skjolsvik ET, Lie OH, Ribe M, Stokke MK, Hegbom F, et al. The mitral 
-annulus disjunction arrhythmic syndrome. J Am Coll Cardiol 2018;72:1600–9. https:// 
-doi.org/10.1016/j.jacc.2018.07.070 
-550. Essayagh B, Sabbag A, Antoine C, Benfari G, Batista R, Yang LT, et al. The mitral annular 
-disjunction of mitral valve prolapse: presentation and outcome. JACC Cardiovasc 
-Imaging 2021;14:2073–87. https://doi.org/10.1016/j.jcmg.2021.04.029 
-551. Essayagh B, Sabbag A, Antoine C, Benfari G, Yang LT, Maalouf J, et al. Presentation and 
-outcome of arrhythmic mitral valve prolapse. J Am Coll Cardiol 2020;76:637–49. https:// 
-doi.org/10.1016/j.jacc.2020.06.029 
-552. Weiner MM, Boateng P, Pandis D, Miller MA, Adams DH. Impact of mitral valve repair 
-on the Pickelhaube sign. Eur Heart J 2019;40:2267. https://doi.org/10.1093/eurheartj/ 
-ehy458 
-553. Pandis D, David N, Ei-Eshmawi A, Miller MA, Boateng P, Costa AC, et al. Noncomplex 
-ventricular arrhythmia associated with greater freedom from recurrent ectopy at 1 
-year after mitral repair surgery. JTCVS Open 2024;19:94–113. https://doi.org/10. 
-1016/j.xjon.2024.04.005 
-554. Bonaros N, Hoefer D, Oezpeker C, Gollmann-Tepekoylu C, Holfeld J, Dumfarth J, 
-et al. Predictors of safety and success in minimally invasive surgery for degenerative mitral disease. Eur J Cardiothorac Surg 2022;61:637–44. https://doi.org/10.1093/ejcts/ 
-ezab438 
-555. Berretta P, Kempfert J, Van Praet F, Salvador L, Lamelas J, Nguyen TC, et al. 
-Risk-related clinical outcomes after minimally invasive mitral valve surgery: insights 
-from the Mini-Mitral International Registry. Eur J Cardiothorac Surg 2023;63:ezad090.  
-https://doi.org/10.1093/ejcts/ezad090 
-556. Pfannmueller B, Misfeld M, Verevkin A, Garbade J, Holzhey DM, Davierwala P, et al. 
-Loop neochord versus leaflet resection techniques for minimally invasive mitral valve 
-repair: long-term results. Eur J Cardiothorac Surg 2021;59:180–6. https://doi.org/10. 
-1093/ejcts/ezaa255 
-557. Akowuah EF, Maier RH, Hancock HC, Kharatikoopaei E, Vale L, Fernandez-Garcia C, 
-et al. Minithoracotomy vs conventional sternotomy for mitral valve repair: a randomized clinical trial. JAMA 2023;329:1957–66. https://doi.org/10.1001/jama.2023.7800 
-558. Olsthoorn JR, Heuts S, Houterman S, Maessen JG, Sardari Nia P. Effect of minimally 
-invasive mitral valve surgery compared to sternotomy on short- and long-term outcomes: a retrospective multicentre interventional cohort study based on 
-Netherlands Heart Registration. Eur J Cardiothorac Surg 2022;61:1099–106. https:// 
-doi.org/10.1093/ejcts/ezab507 
-559. Lang M, Vitanova K, Voss B, Feirer N, Rheude T, Krane M, et al. Beyond the 10-year 
-horizon: mitral valve repair solely with chordal replacement and annuloplasty. Ann 
-Thorac Surg 2023;115:96–103. https://doi.org/10.1016/j.athoracsur.2022.05.036 
-560. Newell P, Percy E, Hirji S, Harloff M, McGurk S, Malarczyk A, et al. Outcomes of mitral 
-valve repair among high- and low-volume surgeons within a high-volume institution. 
-Ann Thorac Surg 2023;115:412–19. https://doi.org/10.1016/j.athoracsur.2022.05.057 
-561. Rosenhek R, Rader F, Klaar U, Gabriel H, Krejc M, Kalbeck D, et al. Outcome of watchful waiting in asymptomatic severe mitral regurgitation. Circulation 2006;113:2238–44.  
-https://doi.org/10.1161/CIRCULATIONAHA.105.599175 
-562. Grigioni F, Benfari G, Vanoverschelde JL, Tribouilloy C, Avierinos JF, Bursi F, et al. 
-Long-term implications of atrial fibrillation in patients with degenerative mitral regurgitation. J Am Coll Cardiol 2019;73:264–74. https://doi.org/10.1016/j.jacc.2018.10.067 
-563. Ratwatte S, Strange G, Playford D, Stewart S, Celermajer DS. Prevalence of pulmonary 
-hypertension in mitral regurgitation and its influence on outcomes. Open Heart 2023; 
-10:e002268. https://doi.org/10.1136/openhrt-2023-002268 
-564. Essayagh B, Antoine C, Benfari G, Maalouf J, Michelena HI, Crestanello JA, et al. 
-Functional tricuspid regurgitation of degenerative mitral valve disease: a crucial determinant of survival. Eur Heart J 2020;41:1918–29. https://doi.org/10.1093/eurheartj/ 
-ehaa192 
-565. Essayagh B, Benfari G, Antoine C, Grigioni F, Le Tourneau T, Roussel JC, et al. The 
-MIDA-Q mortality risk score: a quantitative prognostic tool for the mitral valve prolapse spectrum. Circulation 2023;147:798–811. https://doi.org/10.1161/CIRCULA 
-TIONAHA.122.062612 
-566. Benfari G, Sorajja P, Pedrazzini G, Taramasso M, Gavazzoni M, Biasco L, et al. 
-Association of transcatheter edge-to-edge repair with improved survival in older patients with severe, symptomatic degenerative mitral regurgitation. Eur Heart J 2022; 
-43:1626–35. https://doi.org/10.1093/eurheartj/ehab910 
-567. Speziale G, Nasso G, Esposito G, Conte M, Greco E, Fattouch K, et al. Results of mitral 
-valve repair for Barlow disease (bileaflet prolapse) via right minithoracotomy versus 
-conventional median sternotomy: a randomized trial. J Thorac Cardiovasc Surg 2011; 
-142:77–83. https://doi.org/10.1016/j.jtcvs.2010.08.033  
-ESC Guidelines                                                                                                                                                                                               91
-
-
-<!-- PAGE 92 -->
-
-### Page 92
-
-568. Zilberszac R, Heinze G, Binder T, Laufer G, Gabriel H, Rosenhek R. Long-term outcome of active surveillance in severe but asymptomatic primary mitral regurgitation. 
-JACC Cardiovasc Imaging 2018;11:1213–21. https://doi.org/10.1016/j.jcmg.2018.05.014 
-569. Sengupta A, Yazdchi F, Alexis SL, Percy E, Premkumar A, Hirji S, et al. Reoperative mitral surgery versus transcatheter mitral valve replacement: a systematic review. J Am 
-Heart Assoc 2021;10:e019854. https://doi.org/10.1161/JAHA.120.019854 
-570. Simonato M, Whisenant B, Ribeiro HB, Webb JG, Kornowski R, Guerrero M, et al. 
-Transcatheter mitral valve replacement after surgical repair or replacement: comprehensive midterm evaluation of valve-in-valve and valve-in-ring implantation from the 
-VIVID 
-registry. 
-Circulation 
-2021;143:104–16. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.120.049088 
-571. Sugiura A, Kavsur R, Spieker M, Iliadis C, Goto T, Öztürk C, et al. Recurrent mitral regurgitation after MitraClip: predictive factors, morphology, and clinical implication. Circ 
-Cardiovasc Interv 2022;15:e010895. https://doi.org/10.1161/CIRCINTERVENTIONS. 
-121.010895 
-572. Zaid S, Avvedimento M, Vitanova K, Akansel S, Bhadra OD, Ascione G, et al. Impact of 
-mitral regurgitation etiology on mitral surgery after transcatheter edge-to-edge repair: 
-from the CUTTING-EDGE registry. JACC Cardiovasc Interv 2023;16:1176–88. https:// 
-doi.org/10.1016/j.jcin.2023.02.029 
-573. Bartkowiak J, Reineke D, Tomii D, Brugger N, Pilgrim T, Terbeck S, et al. Electrosurgical 
-laceration and stabilization of MitraClip followed by valve implantation for iatrogenic 
-mitral stenosis. JACC Cardiovasc Interv 2022;15:110–12. https://doi.org/10.1016/j.jcin. 
-2021.10.011 
-574. Lisko JC, Greenbaum AB, Guyton RA, Kamioka N, Grubb KJ, Gleason PT, et al. 
-Electrosurgical detachment of MitraClips from the anterior mitral leaflet prior to 
-transcatheter mitral valve implantation. JACC Cardiovasc Interv 2020;13:2361–70.  
-https://doi.org/10.1016/j.jcin.2020.06.047 
-575. Huang AL, Dal-Bianco JP, Levine RA, Hung JW. Secondary mitral regurgitation: cardiac 
-remodeling, diagnosis, and management. Struct Heart 2022;7:100129. https://doi.org/ 
-10.1016/j.shj.2022.100129 
-576. Bartko PE, Heitzinger G, Pavo N, Heitzinger M, Spinka G, Prausmüller S, et al. Burden, 
-treatment use, and outcome of secondary mitral regurgitation across the spectrum of 
-heart failure: observational cohort study. BMJ 2021;373:n1421. https://doi.org/10. 
-1136/bmj.n1421 
-577. Deferm S, Bertrand PB, Verbrugge FH, Verhaert D, Rega F, Thomas JD, et al. Atrial 
-functional mitral regurgitation: JACC review topic of the week. J Am Coll Cardiol 
-2019;73:2465–76. https://doi.org/10.1016/j.jacc.2019.02.061 
-578. Mori M, Zogg CK, Amabile A, Fereydooni S, Agarwal R, Weininger G, et al. Impact of 
-secondary mitral regurgitation on survival in atrial and ventricular dysfunction. PLoS 
-One 2022;17:e0277385. https://doi.org/10.1371/journal.pone.0277385 
-579. Moonen A, Ng MKC, Playford D, Strange G, Scalia GM, Celermajer DS. Atrial functional mitral regurgitation: prevalence, characteristics and outcomes from the National 
-Echo Database of Australia. Open Heart 2023;10:e002180. https://doi.org/10.1136/ 
-openhrt-2022-002180 
-580. Okamoto C, Okada A, Nishimura K, Moriuchi K, Amano M, Takahama H, et al. 
-Prognostic comparison of atrial and ventricular functional mitral regurgitation. Open 
-Heart 2021;8:e001574. https://doi.org/10.1136/openhrt-2021-001574 
-581. Farhan S, Silbiger JJ, Halperin JL, Zhang L, Dukkipati SR, Vogel B, et al. Pathophysiology, 
-echocardiographic diagnosis, and treatment of atrial functional mitral regurgitation: 
-JACC state-of-the-art review. J Am Coll Cardiol 2022;80:2314–30. https://doi.org/10. 
-1016/j.jacc.2022.09.046 
-582. Naser JA, Michelena HI, Lin G, Scott CG, Lee E, Kennedy AM, et al. Incidence, risk factors, and outcomes of atrial functional mitral regurgitation in patients with atrial fibrillation or sinus rhythm. Eur Heart J Cardiovasc Imaging 2023;24:1450–7. https://doi.org/ 
-10.1093/ehjci/jead199 
-583. Stone GW, Lindenfeld J, Abraham WT, Kar S, Lim DS, Mishell JM, et al. Transcatheter 
-mitral-valve repair in patients with heart failure. N Engl J Med 2018;379:2307–18.  
-https://doi.org/10.1056/NEJMoa1806640 
-584. Stone GW, Abraham WT, Lindenfeld J, Kar S, Grayburn PA, Lim DS, et al. Five-year 
-follow-up after transcatheter repair of secondary mitral regurgitation. N Engl J Med 
-2023;388:2037–48. https://doi.org/10.1056/NEJMoa2300213 
-585. Cavalcante JL, Kusunose K, Obuchowski NA, Jellis C, Griffin BP, Flamm SD, et al. 
-Prognostic impact of ischemic mitral regurgitation severity and myocardial infarct 
-quantification by cardiovascular magnetic resonance. JACC Cardiovasc Imaging 2020; 
-13:1489–501. https://doi.org/10.1016/j.jcmg.2019.11.008 
-586. Kim K, Kitai T, Kaji S, Pak M, Toyota T, Sasaki Y, et al. Outcomes and predictors of 
-cardiac events in medically treated patients with atrial functional mitral regurgitation. 
-Int J Cardiol 2020;316:195–202. https://doi.org/10.1016/j.ijcard.2020.06.042 
-587. Mesi O, Gad MM, Crane AD, Ramchand J, Puri R, Layoun H, et al. Severe atrial functional mitral regurgitation: clinical and echocardiographic characteristics, management 
-and outcomes. JACC Cardiovasc Imaging 2021;14:797–808. https://doi.org/10.1016/j. 
-jcmg.2021.02.008 
-588. Doldi P, Stolz L, Orban M, Karam N, Praz F, Kalbacher D, et al. Transcatheter mitral 
-valve repair in patients with atrial functional mitral regurgitation. JACC Cardiovasc 
-Imaging 2022;15:1843–51. https://doi.org/10.1016/j.jcmg.2022.05.009 
-589. Masiero G, Montonati C, Rubbio AP, Adamo M, Grasso C, Denti P, et al. Impact of 
-transcatheter edge-to-edge mitral valve repair on atrial functional mitral regurgitation 
-from the GIOTTO registry. Am J Cardiol 2024;211:219–27. https://doi.org/10.1016/j. 
-amjcard.2023.11.007 
-590. Yoon SH, Makar M, Kar S, Chakravarty T, Oakley L, Sekhon N, et al. Outcomes after 
-transcatheter edge-to-edge mitral valve repair according to mitral regurgitation etiology and cardiac remodeling. JACC Cardiovasc Interv 2022;15:1711–22. https://doi. 
-org/10.1016/j.jcin.2022.07.004 
-591. Chen QF, Zhou X, Katsouras CS, Ni C, Zhu H, Liu C, et al. Atrial and ventricular functional mitral regurgitation: prevalence, characteristics, outcomes, and disease progression. Eur Heart J Cardiovasc Imaging 2024;26:545–56. https://doi.org/10.1093/ehjci/ 
-jeae309 
-592. von Stein P, von Stein J, Hohmann C, Wienemann H, Guthoff H, Körber MI, et al. Atrial 
-functional mitral regurgitation subtypes undergoing transcatheter edge-to-edge repair: 
-suboptimal outcomes in atriogenic hamstringing. JACC Cardiovasc Imaging 2025;18: 
-16–29. https://doi.org/10.1016/j.jcmg.2024.06.019 
-593. Rosano GMC, Moura B, Metra M, Böhm M, Bauersachs J, Ben Gal T, et al. Patient profiling in heart failure for tailoring medical therapy. A consensus document of the Heart 
-Failure Association of the European Society of Cardiology. Eur J Heart Fail 2021;23: 
-872–81. https://doi.org/10.1002/ejhf.2206 
-594. Mebazaa A, Davison B, Chioncel O, Cohen-Solal A, Diaz R, Filippatos G, et al. Safety, 
-tolerability and efficacy of up-titration of guideline-directed medical therapies for acute 
-heart failure (STRONG-HF): a multinational, open-label, randomised, trial. Lancet 
-2022;400:1938–52. https://doi.org/10.1016/s0140-6736(22)02076-1 
-595. Spinka G, Bartko PE, Heitzinger G, Prausmuller S, Winter MP, Arfsten H, et al. 
-Guideline directed medical therapy and reduction of secondary mitral regurgitation. 
-Eur Heart J Cardiovasc Imaging 2022;23:755–64. https://doi.org/10.1093/ehjci/jeac068 
-596. Pagnesi M, Adamo M, Sama IE, Anker SD, Cleland JG, Dickstein K, et al. Clinical impact 
-of changes in mitral regurgitation severity after medical therapy optimization in heart 
-failure. Clin Res Cardiol 2022;111:912–23. https://doi.org/10.1007/s00392-022-01991- 
-7 
-597. Di Biase L, Auricchio A, Mohanty P, Bai R, Kautzner J, Pieragnoli P, et al. Impact of cardiac resynchronization therapy on the severity of mitral regurgitation. Europace 2011; 
-13:829–38. https://doi.org/10.1093/europace/eur047 
-598. Glikson M, Nielsen JC, Kronborg MB, Michowitz Y, Auricchio A, Barbash IM, et al. 2021 
-ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. Eur Heart J 
-2021;42:3427–520. https://doi.org/10.1093/eurheartj/ehab364 
-599. Michalski B, Stankovic I, Pagourelias E, Ciarka A, Aarones M, Winter S, et al. 
-Relationship of mechanical dyssynchrony and LV remodeling with improvement of mitral regurgitation after CRT. JACC Cardiovasc Imaging 2022;15:212–20. https://doi.org/ 
-10.1016/j.jcmg.2021.08.010 
-600. Ypenburg C, Lancellotti P, Tops LF, Bleeker GB, Holman ER, Pierard LA, et al. Acute 
-effects of initiation and withdrawal of cardiac resynchronization therapy on papillary 
-muscle dyssynchrony and mitral regurgitation. J Am Coll Cardiol 2007;50:2071–7.  
-https://doi.org/10.1016/j.jacc.2007.08.019 
-601. Obadia JF, Messika-Zeitoun D, Leurent G, Iung B, Bonnet G, Piriou N, et al. 
-Percutaneous repair or medical treatment for secondary mitral regurgitation. N Engl 
-J Med 2018;379:2297–306. https://doi.org/10.1056/NEJMoa1805374 
-602. Iung B, Armoiry X, Vahanian A, Boutitie F, Mewton N, Trochu JN, et al. Percutaneous 
-repair or medical treatment for secondary mitral regurgitation: outcomes at 2 years. 
-Eur J Heart Fail 2019;21:1619–27. https://doi.org/10.1002/EJHF.1616 
-603. Grayburn PA, Sannino A, Packer M. Proportionate and disproportionate functional 
-mitral regurgitation: a new conceptual framework that reconciles the results of the 
-MITRA-FR and COAPT trials. JACC Cardiovasc Imaging 2019;12:353–62. https://doi. 
-org/10.1016/j.jcmg.2018.11.006 
-604. Senni M, Adamo M, Metra M, Alfieri O, Vahanian A. Treatment of functional mitral regurgitation in chronic heart failure: can we get a ‘proof of concept’ from the MITRA-FR 
-and COAPT trials? Eur J Heart Fail 2019;21:852–61. https://doi.org/10.1002/EJHF.1491 
-605. Pibarot P, Delgado V, Bax JJ. MITRA-FR vs. COAPT: lessons from two trials with diametrically opposed results. Eur Heart J Cardiovasc Imaging 2019;20:620–24. https://doi. 
-org/10.1093/ehjci/jez073 
-606. Anker SD, Friede T, von Bardeleben RS, Butler J, Khan MS, Diek M, et al. Transcatheter 
-valve repair in heart failure with moderate to severe mitral regurgitation. N Engl J Med 
-2024;391:1799–809. https://doi.org/10.1056/NEJMoa2314328 
-607. Anker MS, Porthun J, Bonnet G, Schulze PC, Rassaf T, Landmesser U. Percutaneous 
-transcatheter edge-to-edge repair for functional mitral regurgitation in heart failure: 
-a meta-analysis of 3 randomized controlled trials. J Am Coll Cardiol 2024;84: 
-2364–68. https://doi.org/10.1016/j.jacc.2024.08.026 
-608. Koell B, Orban M, Weimann J, Kassar M, Karam N, Neuss M, et al. Outcomes stratified 
-by adapted inclusion criteria after mitral edge-to-edge repair. J Am Coll Cardiol 2021;78: 
-2408–21. https://doi.org/10.1016/j.jacc.2021.10.011 
-609. Scotti A, Latib A, Rubbio AP, Testa L, Adamo M, Denti P, et al. Derivation and validation of a clinical risk score for COAPT-ineligible patients who underwent transcatheter edge-to-edge repair. Am J Cardiol 2023;186:100–8. https://doi.org/10.1016/j. 
-amjcard.2022.10.024
-
-
-<!-- PAGE 93 -->
-
-### Page 93
-
-### 610 Godino C, Munafò A, Scotti A, Estevez-Loureiro R, Portoles Hernandez A, Arzamendi
-
-D, et al. MitraClip in secondary mitral regurgitation as a bridge to heart transplantation: 
-1-year outcomes from the International MitraBridge registry. J Heart Lung Transplant 
-2020;39:1353–62. https://doi.org/10.1016/j.healun.2020.09.005 
-611. Ailawadi G, Lim DS, Mack MJ, Trento A, Kar S, Grayburn PA, et al. One-year outcomes 
-after MitraClip for functional mitral regurgitation. Circulation 2019;139:37–47. https:// 
-doi.org/10.1161/CIRCULATIONAHA.117.031733 
-612. Goel K, Lindenfeld J, Makkar R, Naik H, Atmakuri S, Mahoney P, et al. Transcatheter 
-edge-to-edge repair in 5,000 patients with secondary mitral regurgitation: COAPT 
-post-approval study. J Am Coll Cardiol 2023;82:1281–97. https://doi.org/10.1016/j. 
-jacc.2023.07.015 
-613. Adamo M, Tomasoni D, Stolz L, Stocker TJ, Pancaldi E, Koell B, et al. Impact of transcatheter edge-to-edge mitral valve repair on guideline-directed medical therapy uptitration. JACC Cardiovasc Interv 2023;16:896–905. https://doi.org/10.1016/j.jcin.2023.01. 
-362 
-614. Witte KK, Lipiecki J, Siminiak T, Meredith IT, Malkin CJ, Goldberg SL, et al. The 
-REDUCE FMR trial: a randomized sham-controlled study of percutaneous mitral annuloplasty in functional mitral regurgitation. JACC Heart Fail 2019;7:945–55. https:// 
-doi.org/10.1016/j.jchf.2019.06.011 
-615. Anker SD, Starling RC, Khan MS, Friede T, Filippatos G, Lindenfeld J, et al. 
-Percutaneous mitral valve annuloplasty in patients with secondary mitral regurgitation 
-and severe left ventricular enlargement. JACC Heart Fail 2021;9:453–62. https://doi.org/ 
-10.1016/j.jchf.2021.03.002 
-616. Wu AH, Aaronson KD, Bolling SF, Pagani FD, Welch K, Koelling TM. Impact of mitral 
-valve annuloplasty on mortality risk in patients with mitral regurgitation and left ventricular systolic dysfunction. J Am Coll Cardiol 2005;45:381–7. https://doi.org/10.1016/j. 
-jacc.2004.09.073 
-617. Baldus S, Doenst T, Pfister R, Gummert J, Kessler M, Boekstegers P, et al. 
-Transcatheter repair versus mitral-valve surgery for secondary mitral regurgitation. 
-N Engl J Med 2024;391:1787–98. https://doi.org/10.1056/NEJMoa2408739 
-618. Acker MA, Parides MK, Perrault LP, Moskowitz AJ, Gelijns AC, Voisine P, et al. 
-Mitral-valve repair versus replacement for severe ischemic mitral regurgitation. N 
-Engl J Med 2014;370:23–32. https://doi.org/10.1056/NEJMoa1312808 
-619. von Stumm M, Dudde F, Holst T, Sequeira-Gross T, Pausch J, Muller L, et al. Predicting 
-clinical outcome by indexed mitral valve tenting in functional mitral valve regurgitation. 
-Open Heart 2021;8:e001483. https://doi.org/10.1136/openhrt-2020-001483 
-620. Girdauskas E, Pausch J, Reichenspurner H, Kempfert J, Kuntze T, Owais T, et al. 
-Subannular repair for functional mitral regurgitation with reduced systolic ventricle 
-function: rationale and design of REFORM-MR registry. J Cardiothorac Surg 2022;17: 
-343. https://doi.org/10.1186/s13019-022-02045-9 
-621. Pausch J, Sequeira Gross T, Müller L, von Stumm M, Kloth B, Reichenspurner H, et al. 
-Subannular repair for functional mitral regurgitation type IIIb in patients with ischaemic 
-versus dilated cardiomyopathy. Eur J Cardiothorac Surg 2021;60:122–30. https://doi.org/ 
-10.1093/ejcts/ezab048 
-622. Kopjar T, Gasparovic H, Mestres CA, Milicic D, Biocina B. Meta-analysis of concomitant mitral valve repair and coronary artery bypass surgery versus isolated coronary 
-artery bypass surgery in patients with moderate ischaemic mitral regurgitation. Eur J 
-Cardiothorac Surg 2016;50:212–22. https://doi.org/10.1093/ejcts/ezw022 
-623. Altarabsheh SE, Deo SV, Dunlay SM, Erwin PJ, Obeidat YM, Navale S, et al. 
-Meta-analysis of usefulness of concomitant mitral valve repair or replacement for 
-moderate ischemic mitral regurgitation with coronary artery bypass grafting. Am J 
-Cardiol 2017;119:734–41. https://doi.org/10.1016/j.amjcard.2016.11.024 
-624. Michler RE, Smith PK, Parides MK, Ailawadi G, Thourani V, Moskowitz AJ, et al. 
-Two-year outcomes of surgical treatment of moderate ischemic mitral regurgitation. 
-N Engl J Med 2016;374:1932–41. https://doi.org/10.1056/NEJMoa1602003 
-625. Vaduganathan M, Docherty KF, Claggett BL, Jhund PS, de Boer RA, Hernandez AF, 
-et al. SGLT-2 inhibitors in patients with heart failure: a comprehensive meta-analysis 
-of five randomised controlled trials. Lancet 2022;400:757–67. https://doi.org/10. 
-1016/S0140-6736(22)01429-5 
-626. Soulat-Dufour L, Lang S, Addetia K, Ederhy S, Adavane-Scheuble S, Chauvet-Droit M, 
-et al. Restoring sinus rhythm reverses cardiac remodeling and reduces valvular regurgitation in patients with atrial fibrillation. J Am Coll Cardiol 2022;79:951–61. https://doi. 
-org/10.1016/j.jacc.2021.12.029 
-627. Kagiyama N, Kaneko T, Amano M, Sato Y, Ohno Y, Obokata M, et al. Clinical outcomes 
-of mitral valve surgery in atrial functional mitral regurgitation in the REVEAL-AFMR 
-registry. 
-JAMA 
-Netw 
-Open 
-2024;7:e2428032. 
-https://doi.org/10.1001/ 
-jamanetworkopen.2024.28032 
-628. Wagner CM, Brescia AA, Watt TMF, Bergquist C, Rosenbloom LM, Ceniza NN, et al. 
-Surgical strategy and outcomes for atrial functional mitral regurgitation: all functional 
-mitral regurgitation is not the same! J Thorac Cardiovasc Surg 2024;167:647–55. https:// 
-doi.org/10.1016/j.jtcvs.2022.02.056 
-629. Balogh Z, Mizukami T, Bartunek J, Collet C, Beles M, Albano M, et al. Mitral valve repair 
-of atrial functional mitral regurgitation in heart failure with preserved ejection fraction. 
-J Clin Med 2020;9:3432. https://doi.org/10.3390/jcm9113432 
-630. Ye Q, Li Y, Zhang W, Zhao Y, Zhao C, Li Z, et al. Catheter ablation or surgical therapy 
-in severe atrial functional mitral regurgitation caused by long-standing persistent atrial 
-fibrillation-propensity score analysis. J Am Heart Assoc 2024;13:e035695. https://doi. 
-org/10.1161/jaha.124.035695 
-631. Chen J, Wang Y, Lv M, Yang Z, Zhu S, Wei L, et al. Mitral valve repair and surgical ablation for atrial functional mitral regurgitation. Ann Transl Med 2020;8:1420. https://doi. 
-org/10.21037/atm-20-2958 
-632. Benito-González T, Carrasco-Chinchilla F, Estévez-Loureiro R, Pascual I, Arzamendi D, 
-Garrote-Coloma C, et al. Clinical and echocardiographic outcomes of transcatheter 
-mitral valve repair in atrial functional mitral regurgitation. Int J Cardiol 2021;345: 
-29–35. https://doi.org/10.1016/j.ijcard.2021.09.056 
-633. Popolo Rubbio A, Testa L, Grasso C, Sisinni A, Tusa M, Agricola E, et al. Transcatheter 
-edge-to-edge mitral valve repair in atrial functional mitral regurgitation: insights from 
-the multi-center MITRA-TUNE registry. Int J Cardiol 2022;349:39–45. https://doi. 
-org/10.1016/j.ijcard.2021.11.027 
-634. Rudolph F, Geyer M, Baldus S, De Luca VM, Doenst T, Pfister R, et al. Transcatheter 
-repair versus surgery for atrial versus ventricular functional mitral regurgitation: a post 
-hoc analysis of the MATTERHORN trial. Circulation 2024;151:418–20. https://doi.org/ 
-10.1161/circulationaha.124.072648 
-635. Tanaka T, Sugiura A, Vogelhuber J, Öztürk C, Böhm L, Wilde N, et al. Outcomes of 
-transcatheter edge-to-edge repair for atrial functional mitral regurgitation. 
-EuroIntervention 2024;20:e250–60. https://doi.org/10.4244/eij-d-23-00819 
-636. Gemelli M, Gallo M, Addonizio M, Van den Eynde J, Pradegan N, Danesi TH, et al. 
-Surgical ablation for atrial fibrillation during mitral valve surgery: a systematic review 
-and meta-analysis of randomized controlled trials. Am J Cardiol 2023;209:104–13.  
-https://doi.org/10.1016/j.amjcard.2023.09.088 
-637. Suwalski P, Kowalewski M, Jasiński M, Staromlynski J, Zembala M, Widenka K, et al. 
-Survival after surgical ablation for atrial fibrillation in mitral valve surgery: analysis 
-from the Polish National Registry of Cardiac Surgery Procedures (KROK). J 
-Thorac Cardiovasc Surg 2019;157:1007–18.e1004. https://doi.org/10.1016/j.jtcvs. 
-2018.07.099 
-638. Hamada S, Ueyama H, Aikawa T, Kampaktsis PN, Misumida N, Takagi H, et al. 
-Outcomes of transcatheter edge-to-edge repair for atrial functional mitral regurgitation: a meta-analysis of observational studies. Catheter Cardiovasc Interv 2023;102: 
-751–60. https://doi.org/10.1002/ccd.30806 
-639. Sodhi N, Asch FM, Ruf T, Petrescu A, von Bardeleben S, Lim DS, et al. Clinical outcomes with transcatheter edge-to-edge repair in atrial functional MR from the 
-EXPAND study. JACC Cardiovasc Interv 2022;15:1723–30. https://doi.org/10.1016/j. 
-jcin.2022.07.023 
-640. Deja MA, Grayburn PA, Sun B, Rao V, She L, Krejca M, et al. Influence of mitral regurgitation repair on survival in the surgical treatment for ischemic heart failure trial. 
-Circulation 
-2012;125:2639–48. 
-https://doi.org/10.1161/CIRCULATIONAHA.111. 
-072256 
-641. Chan KM, Punjabi PP, Flather M, Wage R, Symmonds K, Roussin I, et al. Coronary artery bypass surgery with or without mitral valve annuloplasty in moderate functional 
-ischemic mitral regurgitation: final results of the Randomized Ischemic Mitral 
-Evaluation (RIME) trial. Circulation 2012;126:2502–10. https://doi.org/10.1161/ 
-circulationaha.112.143818 
-642. Virk SA, Tian DH, Sriravindrarajah A, Dunn D, Wolfenden HD, Suri RM, et al. 
-Mitral valve surgery and coronary artery bypass grafting for moderate-to-severe 
-ischemic mitral regurgitation: meta-analysis of clinical and echocardiographic outcomes. J Thorac Cardiovasc Surg 2017;154:127–36. https://doi.org/10.1016/j.jtcvs. 
-2017.03.039 
-643. Adamo M, Fiorelli F, Melica B, D’Ortona R, Lupi L, Giannini C, et al. COAPT-like profile 
-predicts long-term outcomes in patients with secondary mitral regurgitation undergoing MitraClip implantation. JACC Cardiovasc Interv 2021;14:15–25. https://doi.org/10. 
-1016/J.JCIN.2020.09.050 
-644. Coffey S, Roberts-Thomson R, Brown A, Carapetis J, Chen M, Enriquez-Sarano M, 
-et al. Global epidemiology of valvular heart disease. Nat Rev Cardiol 2021;18:853–64.  
-https://doi.org/10.1038/s41569-021-00570-z 
-645. Kingue S, Ba SA, Balde D, Diarra MB, Anzouan-Kacou JB, Anisubia B, et al. The 
-VALVAFRIC study: a registry of rheumatic heart disease in Western and Central 
-Africa. Arch Cardiovasc Dis 2016;109:321–9. https://doi.org/10.1016/j.acvd.2015. 
-12.004 
-646. Timmis A, Vardas P, Townsend N, Torbica A, Katus H, De Smedt D, et al. European 
-Society of Cardiology: cardiovascular disease statistics 2021. Eur Heart J 2022;43: 
-716–99. https://doi.org/10.1093/eurheartj/ehab892 
-647. Churchill TW, Yucel E, Deferm S, Levine RA, Hung J, Bertrand PB. Mitral valve dysfunction in patients with annular calcification: JACC review topic of the week. J Am Coll 
-Cardiol 2022;80:739–51. https://doi.org/10.1016/j.jacc.2022.05.032 
-648. Andell P, Li X, Martinsson A, Andersson C, Stagmo M, Zoller B, et al. Epidemiology of 
-valvular heart disease in a Swedish nationwide hospital-based register study. Heart 
-2017;103:1696–703. https://doi.org/10.1136/heartjnl-2016-310894 
-649. Baumgartner H, Hung J, Bermejo J, Chambers JB, Evangelista A, Griffin BP, et al. 
-Echocardiographic assessment of valve stenosis: EAE/ASE recommendations for clinical practice. J Am Soc Echocardiogr 2009;22:1–23; quiz 101–102. https://doi.org/10. 
-1016/j.echo.2008.11.029  
-ESC Guidelines                                                                                                                                                                                               93
-
-
-<!-- PAGE 94 -->
-
-### Page 94
-
-650. Otto CM, Davis KB, Reid CL, Slater JN, Kronzon I, Kisslo KB, et al. Relation between 
-pulmonary artery pressure and mitral stenosis severity in patients undergoing balloon 
-mitral commissurotomy. Am J Cardiol 1993;71:874–8. https://doi.org/10.1016/0002- 
-9149(93)90844-3 
-651. Bouleti C, Iung B, Laouenan C, Himbert D, Brochet E, Messika-Zeitoun D, et al. Late 
-results of percutaneous mitral commissurotomy up to 20 years: development and validation of a risk score predicting late functional results from a series of 912 patients. 
-Circulation 
-2012;125:2119–27. 
-https://doi.org/10.1161/CIRCULATIONAHA.111. 
-055905 
-652. Nunes MC, Tan TC, Elmariah S, do Lago R, Margey R, Cruz-Gonzalez I, et al. The echo 
-score revisited: impact of incorporating commissural morphology and leaflet displacement to the prediction of outcome for patients undergoing percutaneous mitral valvuloplasty. Circulation 2014;129:886–95. https://doi.org/10.1161/CIRCULATION 
-AHA.113.001252 
-653. Wilkins GT, Weyman AE, Abascal VM, Block PC, Palacios IF. Percutaneous balloon 
-dilatation of the mitral valve: an analysis of echocardiographic variables related to outcome and the mechanism of dilatation. Br Heart J 1988;60:299–308. https://doi.org/10. 
-1136/hrt.60.4.299 
-654. Lancellotti P, Pellikka PA, Budts W, Chaudhry FA, Donal E, Dulgheru R, et al. The clinical use of stress echocardiography in non-ischaemic heart disease: recommendations 
-from the European Association of Cardiovascular Imaging and the American Society of 
-Echocardiography. Eur Heart J Cardiovasc Imaging 2016;17:1191–229. https://doi.org/ 
-10.1093/ehjci/jew190 
-655. Brochet E, Détaint D, Fondard O, Tazi-Mezalek A, Messika-Zeitoun D, Iung B, et al. 
-Early hemodynamic changes versus peak values: what is more useful to predict occurrence of dyspnea during stress echocardiography in patients with asymptomatic mitral 
-stenosis? J Am Soc Echocardiogr 2011;24:392–8. https://doi.org/10.1016/j.echo.2011.01. 
-006 
-656. Al Rawahi MN, Al-Maqbali JS, Al Noumani J, Al Alawi AM, Essebag V. Novel oral anticoagulants in patients with atrial fibrillation and moderate to severe mitral stenosis: a 
-systematic review. Cureus 2023;15:e33222. https://doi.org/10.7759/cureus.33222 
-657. Kim JY, Kim SH, Myong JP, Kim YR, Kim TS, Kim JH, et al. Outcomes of direct oral anticoagulants in patients with mitral stenosis. J Am Coll Cardiol 2019;73:1123–31. https:// 
-doi.org/10.1016/j.jacc.2018.12.047 
-658. Vilvanathan VK, Srinivas Prabhavathi Bhat BC, Nanjappa MC, Pandian B, Bagi V, Kasturi 
-S, et al. A randomized placebo-controlled trial with amiodarone for persistent atrial 
-fibrillation in rheumatic mitral stenosis after successful balloon mitral valvuloplasty. 
-Indian Heart J 2016;68:671–7. https://doi.org/10.1016/j.ihj.2016.02.013 
-659. Sharma G, Anantha Krishnan R, Bohra V, Ramakrishnan S, Naik N, Seth S, et al. 
-Evaluation of early direct current cardioversion for maintenance of sinus rhythm in 
-rheumatic atrial fibrillation following successful balloon mitral valvotomy. Indian 
-Heart J 2016;68:486–92. https://doi.org/10.1016/j.ihj.2015.11.013 
-660. Keenan NG, Cueff C, Cimadevilla C, Brochet E, Lepage L, Detaint D, et al. Usefulness 
-of left atrial volume versus diameter to assess thromboembolic risk in mitral stenosis. 
-Am J Cardiol 2010;106:1152–6. https://doi.org/10.1016/j.amjcard.2010.06.024 
-661. Badheka AO, Shah N, Ghatak A, Patel NJ, Chothani A, Mehta K, et al. Balloon mitral 
-valvuloplasty in the United States: a 13-year perspective. Am J Med 2014;127: 
-1126.e1121–1126.e1112. https://doi.org/10.1016/j.amjmed.2014.05.015 
-662. Tomai F, Gaspardone A, Versaci F, Ghini AS, Altamura L, De Luca L, et al. Twenty year 
-follow-up after successful percutaneous balloon mitral valvuloplasty in a large contemporary series of patients with mitral stenosis. Int J Cardiol 2014;177:881–5. https://doi. 
-org/10.1016/j.ijcard.2014.10.040 
-663. Bouleti C, Iung B, Himbert D, Messika-Zeitoun D, Brochet E, Garbarz E, et al. 
-Relationship between valve calcification and long-term results of percutaneous mitral 
-commissurotomy for rheumatic mitral stenosis. Circ Cardiovasc Interv 2014;7:381–9.  
-https://doi.org/10.1161/CIRCINTERVENTIONS.113.000858 
-664. Bouleti C, Iung B, Himbert D, Brochet E, Messika-Zeitoun D, Detaint D, et al. 
-Reinterventions after percutaneous mitral commissurotomy during long-term follow- 
-up, up to 20 years: the role of repeat percutaneous mitral commissurotomy. Eur Heart 
-J 2013;34:1923–30. https://doi.org/10.1093/eurheartj/eht097 
-665. Desnos C, Iung B, Himbert D, Ducrocq G, Urena M, Cormier B, et al. Temporal trends 
-on percutaneous mitral commissurotomy: 30 years of experience. J Am Heart Assoc 
-2019;8:e012031. https://doi.org/10.1161/JAHA.119.012031 
-666. Ambari AM, Setianto B, Santoso A, Dwiputra B, Radi B, Alkatiri AA, et al. Survival analysis of patients with rheumatic MS after PBMV compared with MVS in a 
-low-to-middle-income country. Neth Heart J 2019;27:559–64. https://doi.org/10. 
-1007/s12471-019-01315-x 
-667. Song H, Kang DH, Kim JH, Park KM, Song JM, Choi KJ, et al. Percutaneous mitral valvuloplasty versus surgical treatment in mitral stenosis with severe tricuspid regurgitation. Circulation 2007;116:I246–50. https://doi.org/10.1161/CIRCULATIONAHA.107. 
-678151 
-668. Soesanto AM, Roeswita D, Atmosudigdo IS, Adiarto S, Sahara E. Clinical and hemodynamic factors associated with low gradient severe rheumatic mitral stenosis. Int J 
-Angiol 2022;32:43–7. https://doi.org/10.1055/s-0042-1751231 
-669. El Sabbagh A, Reddy YNV, Barros-Gomes S, Borlaug BA, Miranda WR, Pislaru SV, et al. 
-Low-gradient severe mitral stenosis: hemodynamic profiles, clinical characteristics, and 
-outcomes. J Am Heart Assoc 2019;8:e010736. https://doi.org/10.1161/JAHA.118. 
-010736 
-670. Okura H, Nakada Y, Nogi M, Ishihara S, Okamura A, Okayama S, et al. Prevalence of 
-mitral annular calcification and its association with mitral valvular disease. 
-Echocardiography 2021;38:1907–12. https://doi.org/10.1111/echo.15236 
-671. Kato N, Padang R, Scott CG, Guerrero M, Pislaru SV, Pellikka PA. The natural history 
-of severe calcific mitral stenosis. J Am Coll Cardiol 2020;75:3048–57. https://doi.org/10. 
-1016/j.jacc.2020.04.049 
-672. Chehab O, Roberts-Thomson R, Bivona A, Gill H, Patterson T, Pursnani A, et al. 
-Management of patients with severe mitral annular calcification: JACC state-of-the-art 
-review. J Am Coll Cardiol 2022;80:722–38. https://doi.org/10.1016/j.jacc.2022.06.009 
-673. Okuno T, Brugger N, Asami M, Heg D, Siontis GCM, Winkel MG, et al. Clinical impact 
-of mitral calcium volume in patients undergoing transcatheter aortic valve implantation. J Cardiovasc Comput Tomogr 2021;15:356–65. https://doi.org/10.1016/j.jcct. 
-2020.10.003 
-674. Bertrand PB, Churchill TW, Yucel E, Namasivayam M, Bernard S, Nagata Y, et al. 
-Prognostic importance of the transmitral pressure gradient in mitral annular calcification with associated mitral valve dysfunction. Eur Heart J 2020;41:4321–8. https://doi. 
-org/10.1093/eurheartj/ehaa819 
-675. Urena M, Himbert D, Brochet E, Carrasco JL, Iung B, Nataf P, et al. Transseptal transcatheter mitral valve replacement using balloon-expandable transcatheter heart valves: 
-a step-by-step approach. JACC Cardiovasc Interv 2017;10:1905–19. https://doi.org/10. 
-1016/j.jcin.2017.06.069 
-676. Guerrero ME, Grayburn P, Smith RLI, Sorajja P, Wang DD, Ahmad Y, et al. Diagnosis, 
-classification, and management strategies for mitral annular calcification. JACC 
-Cardiovasc Interv 2023;16:2195–210. https://doi.org/10.1016/j.jcin.2023.06.044 
-677. Uchimuro T, Fukui T, Shimizu A, Takanashi S. Mitral valve surgery in patients with severe mitral annular calcification. Ann Thorac Surg 2016;101:889–95. https://doi.org/10. 
-1016/j.athoracsur.2015.08.071 
-678. Fukui M, Cavalcante JL, Ahmed A, Bae R, Bapat VN, Gössl M, et al. Clinical outcomes of 
-mitral valve disease with mitral annular calcification. Am J Cardiol 2022;174:107–13.  
-https://doi.org/10.1016/j.amjcard.2022.03.041 
-679. Kato N, Pellikka PA, Scott CG, Lee AT, Jain V, Eleid MF, et al. Impact of mitral intervention on outcomes of patients with mitral valve dysfunction and annulus calcification. 
-Catheter Cardiovasc Interv 2022;99:1807–16. https://doi.org/10.1002/ccd.30093 
-680. Brener MI, Hamandi M, Hong E, Pizano A, Harloff MT, Garner EF, et al. Early outcomes 
-following transatrial transcatheter mitral valve replacement in patients with severe mitral annular calcification. J Thorac Cardiovasc Surg 2024;167:1263–1275.e3. https://doi. 
-org/10.1016/j.jtcvs.2022.07.038 
-681. Guerrero ME, Eleid MF, Wang DD, Pursnani A, Kodali SK, George I, et al. 5-Year prospective evaluation of mitral valve-in-valve, valve-in-ring, and valve-in-MAC outcomes: 
-MITRAL trial final results. JACC Cardiovasc Interv 2023;16:2211–27. https://doi.org/10. 
-1016/j.jcin.2023.06.041 
-682. Topilsky Y, Maltais S, Medina Inojosa J, Oguz D, Michelena H, Maalouf J, et al. Burden of 
-tricuspid regurgitation in patients diagnosed in the community setting. JACC Cardiovasc 
-Imaging 2019;12:433–42. https://doi.org/10.1016/j.jcmg.2018.06.014 
-683. Chorin E, Rozenbaum Z, Topilsky Y, Konigstein M, Ziv-Baran T, Richert E, et al. 
-Tricuspid regurgitation and long-term clinical outcomes. Eur Heart J Cardiovasc 
-Imaging 2020;21:157–65. https://doi.org/10.1093/ehjci/jez216 
-684. Topilsky Y, Inojosa JM, Benfari G, Vaturi O, Maltais S, Michelena H, et al. Clinical presentation and outcome of tricuspid regurgitation in patients with systolic dysfunction. 
-Eur Heart J 2018;39:3584–92. https://doi.org/10.1093/eurheartj/ehy434 
-685. Kadri AN, Menon V, Sammour YM, Gajulapalli RD, Meenakshisundaram C, Nusairat L, 
-et al. Outcomes of patients with severe tricuspid regurgitation and congestive heart 
-failure. Heart 2019;105:1813–7. https://doi.org/10.1136/heartjnl-2019-315004 
-686. Dreyfus J, Ghalem N, Garbarz E, Cimadevilla C, Nataf P, Vahanian A, et al. Timing of 
-referral of patients with severe isolated tricuspid valve regurgitation to surgeons 
-(from a French nationwide database). Am J Cardiol 2018;122:323–6. https://doi.org/ 
-10.1016/j.amjcard.2018.04.003 
-687. Hoke U, Auger D, Thijssen J, Wolterbeek R, van der Velde ET, Holman ER, et al. 
-Significant lead-induced tricuspid regurgitation is associated with poor prognosis at 
-long-term follow-up. Heart 2014;100:960–8. https://doi.org/10.1136/heartjnl-2013- 
-304673 
-688. Andreas M, Burri H, Praz F, Soliman O, Badano L, Barreiro M, et al. Tricuspid valve disease and cardiac implantable electronic devices. Eur Heart J 2024;45:346–65. https:// 
-doi.org/10.1093/eurheartj/ehad783 
-689. Praz F, Muraru D, Kreidel F, Lurz P, Hahn RT, Delgado V, et al. Transcatheter treatment for tricuspid valve disease. EuroIntervention 2021;17:791–808. https://doi.org/ 
-10.4244/EIJ-D-21-00695 
-690. Song H, Kim MJ, Chung CH, Choo SJ, Song MG, Song JM, et al. Factors associated with 
-development of late significant tricuspid regurgitation after successful left-sided valve 
-surgery. Heart 2009;95:931–6. https://doi.org/10.1136/hrt.2008.152793 
-691. Galloo X, Dietz MF, Fortuni F, Prihadi EA, Cosyns B, Delgado V, et al. Prognostic implications of atrial vs. ventricular functional tricuspid regurgitation. Eur Heart J 
-Cardiovasc Imaging 2023;24:733–41. https://doi.org/10.1093/ehjci/jead016
-
-
-<!-- PAGE 95 -->
-
-### Page 95
-
-692. Schlotter F, Dietz MF, Stolz L, Kresoja KP, Besler C, Sannino A, et al. Atrial functional 
-tricuspid regurgitation: novel definition and impact on prognosis. Circ Cardiovasc Interv 
-2022;15:e011958. https://doi.org/10.1161/CIRCINTERVENTIONS.122.011958 
-693. Adamo M, Chioncel O, Pagnesi M, Bayes-Genis A, Abdelhamid M, Anker SD, et al. 
-Epidemiology, pathophysiology, diagnosis and management of chronic right-sided 
-heart failure and tricuspid regurgitation. A clinical consensus statement of the Heart 
-Failure Association (HFA) and the European Association of Percutaneous 
-Cardiovascular Interventions (EAPCI) of the ESC. Eur J Heart Fail 2024;26:18–33.  
-https://doi.org/10.1002/ejhf.3106 
-694. Fortuni F, Dietz MF, Prihadi EA, van der Bijl P, De Ferrari GM, Knuuti J, et al. Prognostic 
-implications of a novel algorithm to grade secondary tricuspid regurgitation. JACC 
-Cardiovasc Imaging 2021;14:1085–95. https://doi.org/10.1016/j.jcmg.2020.12.011 
-695. Peri Y, Sadeh B, Sherez C, Hochstadt A, Biner S, Aviram G, et al. Quantitative assessment of effective regurgitant orifice: impact on risk stratification, and cut-off for severe 
-and torrential tricuspid regurgitation grade. Eur Heart J Cardiovasc Imaging 2020;21: 
-768–76. https://doi.org/10.1093/ehjci/jez267 
-696. Dreyfus J, Galloo X, Taramasso M, Heitzinger G, Benfari G, Kresoja KP, et al. 
-TRI-SCORE and benefit of intervention in patients with severe tricuspid regurgitation. 
-Eur Heart J 2024;45:586–97. https://doi.org/10.1093/eurheartj/ehad585 
-697. Hahn RT, Lawlor MK, Davidson CJ, Badhwar V, Sannino A, Spitzer E, et al. Tricuspid 
-Valve Academic Research Consortium definitions for tricuspid regurgitation and trial 
-endpoints. Eur Heart J 2023;44:4508–32. https://doi.org/10.1093/eurheartj/ehad653 
-698. Petersen SE, Khanji MY, Plein S, Lancellotti P, Bucciarelli-Ducci C. European 
-Association of Cardiovascular Imaging expert consensus paper: a comprehensive review of cardiovascular magnetic resonance normal values of cardiac chamber size 
-and aortic root in adults and recommendations for grading severity. Eur Heart J 
-Cardiovasc Imaging 2019;20:1321–31. https://doi.org/10.1093/ehjci/jez232 
-699. Kawel-Boehm N, Hetzel SJ, Ambale-Venkatesh B, Captur G, Francois CJ, 
-Jerosch-Herold M, et al. Reference ranges (“normal values”) for cardiovascular magnetic resonance (CMR) in adults and children: 2020 update. J Cardiovasc Magn Reson 
-2020;22:87. https://doi.org/10.1186/s12968-020-00683-3 
-700. Lang RM, Badano LP, Mor-Avi V, Afilalo J, Armstrong A, Ernande L, et al. 
-Recommendations for cardiac chamber quantification by echocardiography in adults: 
-an update from the American Society of Echocardiography and the European 
-Association of Cardiovascular Imaging. Eur Heart J Cardiovasc Imaging 2015;16: 
-233–70. https://doi.org/10.1093/ehjci/jev014 
-701. Addetia K, Miyoshi T, Citro R, Daimon M, Gutierrez Fajardo P, Kasliwal RR, et al. 
-Two-dimensional echocardiographic right ventricular size and systolic function measurements stratified by sex, age, and ethnicity: results of the World Alliance of 
-Societies of Echocardiography study. J Am Soc Echocardiogr 2021;34:1148–1157.e1.  
-https://doi.org/10.1016/j.echo.2021.06.013 
-702. Addetia K, Miyoshi T, Amuthan V, Citro R, Daimon M, Gutierrez Fajardo P, et al. 
-Normal values of three-dimensional right ventricular size and function measurements: 
-results of the World Alliance Societies of Echocardiography study. J Am Soc 
-Echocardiogr 2023;36:858–866.e1. https://doi.org/10.1016/j.echo.2023.04.011 
-703. Dietz MF, Prihadi EA, van der Bijl P, Goedemans L, Mertens BJA, Gursoy E, et al. 
-Prognostic implications of right ventricular remodeling and function in patients with 
-significant secondary tricuspid regurgitation. Circulation 2019;140:836–45. https:// 
-doi.org/10.1161/CIRCULATIONAHA.119.039630 
-704. Eriksen-Volnes T, Grue JF, Hellum Olaisen S, Letnes JM, Nes B, Løvstakken L, et al. 
-Normalized echocardiographic values from guideline-directed dedicated views for cardiac dimensions and left ventricular function. JACC Cardiovasc Imaging 2023;16: 
-1501–15. https://doi.org/10.1016/j.jcmg.2022.12.020 
-705. Lurz P, Orban M, Besler C, Braun D, Schlotter F, Noack T, et al. Clinical characteristics, 
-diagnosis, and risk stratification of pulmonary hypertension in severe tricuspid regurgitation and implications for transcatheter tricuspid valve repair. Eur Heart J 2020;41: 
-2785–95. https://doi.org/10.1093/eurheartj/ehaa138 
-706. Stocker TJ, Hertell H, Orban M, Braun D, Rommel KP, Ruf T, et al. Cardiopulmonary 
-hemodynamic profile predicts mortality after transcatheter tricuspid valve repair in 
-chronic heart failure. JACC Cardiovasc Interv 2021;14:29–38. https://doi.org/10.1016/j. 
-jcin.2020.09.033 
-707. Brener MI, Lurz P, Hausleiter J, Rodés-Cabau J, Fam N, Kodali SK, et al. Right 
-ventricular-pulmonary arterial coupling and afterload reserve in patients undergoing 
-transcatheter tricuspid valve repair. J Am Coll Cardiol 2022;79:448–61. https://doi. 
-org/10.1016/j.jacc.2021.11.031 
-708. Stolz L, Weckbach LT, Karam N, Kalbacher D, Praz F, Lurz P, et al. Invasive right ventricular to pulmonary artery coupling in patients undergoing transcatheter 
-edge-to-edge tricuspid valve repair. JACC Cardiovasc Imaging 2023;16:564–6. https:// 
-doi.org/10.1016/j.jcmg.2022.10.004 
-709. Dreyfus J, Juarez-Casso F, Sala A, Carnero-Alcazar M, Eixerés-Esteve A, Bohbot Y, et al. 
-Benefit of isolated surgical valve repair or replacement for functional tricuspid regurgitation and long-term outcomes stratified by the TRI-SCORE. Eur Heart J 2024;45: 
-4512–22. https://doi.org/10.1093/eurheartj/ehae578 
-710. Thourani VH, Bonnell L, Wyler von Ballmoos MC, Mehaffey JH, Bowdish M, Kurlansky 
-P, et al. Outcomes of isolated tricuspid valve surgery: a Society of Thoracic Surgeons 
-analysis and risk model. Ann Thorac Surg 2024;118:873–81. https://doi.org/10.1016/j. 
-athoracsur.2024.04.014 
-711. Anguita-Gámez M, Giraldo MA, Nombela-Franco L, Eixeres Esteve A, Cuerpo G, 
-Lopez-Menendez J, et al. Validation of the TRI-SCORE in patients undergoing surgery 
-for isolated tricuspid regurgitation. Heart 2023;109:1401–6. https://doi.org/10.1136/ 
-heartjnl-2022-322067 
-712. Nassif ME, Qintar M, Windsor SL, Jermyn R, Shavelle DM, Tang F, et al. Empagliflozin 
-effects on pulmonary artery pressure in patients with heart failure: results from the 
-EMBRACE-HF 
-trial. 
-Circulation 
-2021;143:1673–86. 
-https://doi.org/10.1161/ 
-circulationaha.120.052503 
-713. Sorajja P, Whisenant B, Hamid N, Naik H, Makkar R, Tadros P, et al. Transcatheter repair for patients with tricuspid regurgitation. N Engl J Med 2023;388:1833–42. https:// 
-doi.org/10.1056/NEJMoa2300525 
-714. Dreyfus J, Flagiello M, Bazire B, Eggenspieler F, Viau F, Riant E, et al. Isolated tricuspid 
-valve surgery: impact of aetiology and clinical presentation on outcomes. Eur Heart J 
-2020;41:4304–17. https://doi.org/10.1093/eurheartj/ehaa643 
-715. Scotti A, Sturla M, Granada JF, Kodali SK, Coisne A, Mangieri A, et al. Outcomes of isolated tricuspid valve replacement: a systematic review and meta-analysis of 5,316 patients from 35 studies. EuroIntervention 2022;18:840–51. https://doi.org/10.4244/EIJ-D- 
-22-00442 
-716. Chen Q, Bowdish ME, Malas J, Roach A, Gill G, Rowe G, et al. Isolated tricuspid operations: the Society of Thoracic Surgeons adult cardiac surgery database analysis. Ann 
-Thorac Surg 2023;115:1162–70. https://doi.org/10.1016/j.athoracsur.2022.12.041 
-717. Hahn RT, Wilkoff BL, Kodali S, Birgersdotter-Green UM, Ailawadi G, Addetia K, et al. 
-Managing implanted cardiac electronic devices in patients with severe tricuspid regurgitation: JACC state-of-the-art review. J Am Coll Cardiol 2024;83:2002–14. https://doi. 
-org/10.1016/j.jacc.2024.02.045 
-718. Taramasso M, Gavazzoni M, Pozzoli A, Dreyfus GD, Bolling SF, George I, et al. 
-Tricuspid regurgitation: predicting the need for intervention, procedural success, 
-and recurrence of disease. JACC Cardiovasc Imaging 2019;12:605–21. https://doi.org/ 
-10.1016/j.jcmg.2018.11.034 
-719. Bannehr M, Edlinger CR, Kahn U, Liebchen J, Okamoto M, Hähnel V, et al. Natural 
-course of tricuspid regurgitation and prognostic implications. Open Heart 2021;8: 
-e001529. https://doi.org/10.1136/openhrt-2020-001529 
-720. Park SJ, Oh JK, Kim SO, Lee SA, Kim HJ, Lee S, et al. Determinants of clinical outcomes 
-of surgery for isolated severe tricuspid regurgitation. Heart 2021;107:403–10. https:// 
-doi.org/10.1136/heartjnl-2020-317715 
-721. McCarthy PM, Bhudia SK, Rajeswaran J, Hoercher KJ, Lytle BW, Cosgrove DM, et al. 
-Tricuspid valve repair: durability and risk factors for failure. J Thorac Cardiovasc Surg 
-2004;127:674–85. https://doi.org/10.1016/j.jtcvs.2003.11.019 
-722. Kwak JJ, Kim YJ, Kim MK, Kim HK, Park JS, Kim KH, et al. Development of tricuspid 
-regurgitation late after left-sided valve surgery: a single-center experience with long- 
-term echocardiographic examinations. Am Heart J 2008;155:732–7. https://doi.org/ 
-10.1016/j.ahj.2007.11.010 
-723. Dreyfus GD, Corbi PJ, Chan KM, Bahrami T. Secondary tricuspid regurgitation or dilatation: which should be the criteria for surgical repair? Ann Thorac Surg 2005;79: 
-127–32. https://doi.org/10.1016/j.athoracsur.2004.06.057 
-724. Dreyfus GD, Essayagh B, Benfari G, Dulguerov F, Haley SR, Dommerc C, et al. 
-Outcome of consistent guideline-based tricuspid management in patients undergoing 
-degenerative mitral regurgitation correction. JTCVS Open 2021;7:125–38. https://doi. 
-org/10.1016/j.xjon.2021.07.010 
-725. Gammie JS, Chu MWA, Falk V, Overbey JR, Moskowitz AJ, Gillinov M, et al. 
-Concomitant tricuspid repair in patients with degenerative mitral regurgitation. N 
-Engl J Med 2022;386:327–39. https://doi.org/10.1056/NEJMoa2115961 
-726. Pettinari M, De Kerchove L, Lazam S, Pasquet A, Gerber B, Vanoverschelde JL, et al. 
-Mid-term results of a randomized trial of tricuspid annuloplasty for less-than-severe 
-functional tricuspid regurgitation at the time of mitral valve surgery. Eur J 
-Cardiothorac Surg 2019;55:851–8. https://doi.org/10.1093/ejcts/ezy378 
-727. Ailawadi G, Voisine P, Raymond S, Gelijns AC, Moskowitz AJ, Falk V, et al. Pacemaker 
-implantation associated with tricuspid repair in the setting of mitral valve surgery: insights from a Cardiothoracic Surgical Trials Network randomized trial. J Thorac 
-Cardiovasc Surg 2022;167:2104–16.e5. https://doi.org/10.1016/j.jtcvs.2022.11.031 
-728. Ragnarsson S, Taha A, Nielsen SJ, Amabile A, Geirsson A, Krane M, et al. Pacemaker 
-implantation following tricuspid valve annuloplasty. JTCVS Open 2023;16:276–89.  
-https://doi.org/10.1016/j.xjon.2023.08.017 
-729. Iribarne A, Alabbadi SH, Moskowitz AJ, Ailawadi G, Badhwar V, Gillinov M, et al. 
-Permanent pacemaker implantation and long-term outcomes of patients undergoing 
-concomitant mitral and tricuspid valve surgery. J Am Coll Cardiol 2024;83:1656–68.  
-https://doi.org/10.1016/j.jacc.2024.02.042 
-730. Kassab J, Harb SC, Desai MY, Gillinov AM, Layoun H, El Dahdah J, et al. Incidence, risk 
-factors, and outcomes associated with permanent pacemaker implantation following 
-tricuspid valve surgery. J Am Heart Assoc 2024;13:e032760. https://doi.org/10.1161/ 
-jaha.123.032760 
-731. Chikwe J, Itagaki S, Anyanwu A, Adams DH. Impact of concomitant tricuspid annuloplasty on tricuspid regurgitation, right ventricular function, and pulmonary artery  
-ESC Guidelines                                                                                                                                                                                               95
-
-
-<!-- PAGE 96 -->
-
-### Page 96
-
-hypertension after repair of mitral valve prolapse. J Am Coll Cardiol 2015;65:1931–8.  
-https://doi.org/10.1016/j.jacc.2015.01.059 
-732. Chang JD, Manning WJ, Ebrille E, Zimetbaum PJ. Tricuspid valve dysfunction following 
-pacemaker or cardioverter-defibrillator implantation. J Am Coll Cardiol 2017;69: 
-2331–41. https://doi.org/10.1016/j.jacc.2017.02.055 
-733. von Bardeleben RS, Lurz P, Sorajja P, Ruf T, Hausleiter J, Sitges M, et al. Two-year outcomes for tricuspid repair with a transcatheter edge-to-edge valve repair from the 
-transatlantic TRILUMINATE trial. Circ Cardiovasc Interv 2023;16:e012888. https://doi. 
-org/10.1161/CIRCINTERVENTIONS.122.012888 
-734. Lurz P, Besler C, Schmitz T, Bekeredjian R, Nickenig G, Möllmann H, et al. Short-term 
-outcomes of tricuspid edge-to-edge repair in clinical practice. J Am Coll Cardiol 2023;82: 
-281–91. https://doi.org/10.1016/j.jacc.2023.05.008 
-735. Kodali SK, Hahn RT, Davidson CJ, Narang A, Greenbaum A, Gleason P, et al. 1-Year 
-outcomes of transcatheter tricuspid valve repair. J Am Coll Cardiol 2023;81:1766–76.  
-https://doi.org/10.1016/j.jacc.2023.02.049 
-736. Kar S, Makkar RR, Whisenant BK, Hamid N, Naik H, Tadros P, et al. (March 30, 2025) 
-Two-year outcomes of transcatheter edge-to-edge repair for severe tricuspid regurgitation: the TRILUMINATE pivotal randomized trial. Circulation, https://doi.org/10. 
-1161/CIRCULATIONAHA.125.074536 
-737. Donal E, Dreyfus J, Leurent G, Coisne A, Leroux PY, Ganivet A, et al. Transcatheter 
-edge-to-edge repair for severe isolated tricuspid regurgitation: the Tri.Fr randomized 
-clinical trial. JAMA 2025;333:124–32. https://doi.org/10.1001/jama.2024.21189 
-738. Hahn RT, Makkar R, Thourani VH, Makar M, Sharma RP, Haeffele C, et al. 
-Transcatheter valve replacement in severe tricuspid regurgitation. N Engl J Med 
-2024;392:115–26. https://doi.org/10.1056/NEJMoa2401918 
-739. Park SJ, Gentry JLI, Varma N, Wazni O, Tarakji KG, Mehta A, et al. Transvenous extraction of pacemaker and defibrillator leads and the risk of tricuspid valve regurgitation. 
-JACC Clin Electrophysiol 2018;4:1421–8. https://doi.org/10.1016/j.jacep.2018.07.011 
-740. Aboulhosn J, Cabalka AK, Levi DS, Himbert D, Testa L, Latib A, et al. Transcatheter 
-valve-in-ring implantation for the treatment of residual or recurrent tricuspid valve 
-dysfunction after prior surgical repair. JACC Cardiovasc Interv 2017;10:53–63. https:// 
-doi.org/10.1016/j.jcin.2016.10.036 
-741. Chen S, Dershowitz L, George I. Transcatheter valve implantation for degenerated tricuspid bioprosthesis and failed tricuspid ring. Ann Cardiothorac Surg 2021;10:651–7.  
-https://doi.org/10.21037/acs-2021-tviv-11 
-742. Rao VN, Giczewska A, Chiswell K, Felker GM, Wang A, Glower DD, et al. Long-term 
-outcomes of phenoclusters in severe tricuspid regurgitation. Eur Heart J 2023;44: 
-1910–23. https://doi.org/10.1093/eurheartj/ehad133 
-743. Van de Veire NR, Braun J, Delgado V, Versteegh MI, Dion RA, Klautz RJ, et al. Tricuspid 
-annuloplasty prevents right ventricular dilatation and progression of tricuspid regurgitation in patients with tricuspid annular dilatation undergoing mitral valve repair. J 
-Thorac Cardiovasc Surg 2011;141:1431–9. https://doi.org/10.1016/j.jtcvs.2010.05.050 
-744. Brescia AA, Ward ST, Watt TMF, Rosenbloom LM, Baker M, Khan S, et al. Outcomes 
-of guideline-directed concomitant annuloplasty for functional tricuspid regurgitation. 
-Ann Thorac Surg 2020;109:1227–32. https://doi.org/10.1016/j.athoracsur.2019.07.035 
-745. Hamandi M, Smith RL, Ryan WH, Grayburn PA, Vasudevan A, George TJ, et al. 
-Outcomes of isolated tricuspid valve surgery have improved in the modern era. Ann 
-Thorac Surg 2019;108:11–5. https://doi.org/10.1016/j.athoracsur.2019.03.004 
-746. Russo M, Di Mauro M, Saitto G, Lio A, Berretta P, Taramasso M, et al. Outcome of 
-patients undergoing isolated tricuspid repair or replacement surgery. Eur J 
-Cardiothorac Surg 2022;62:ezac230. https://doi.org/10.1093/ejcts/ezac230 
-747. Abdelbar A, Kenawy A, Zacharias J. Minimally invasive tricuspid valve surgery. J Thorac 
-Dis 2021;13:1982–92. https://doi.org/10.21037/jtd-20-1331 
-748. Taramasso M, Benfari G, van der Bijl P, Alessandrini H, Attinger-Toller A, Biasco L, et al. 
-Transcatheter versus medical treatment of patients with symptomatic severe tricuspid 
-regurgitation. J Am Coll Cardiol 2019;74:2998–3008. https://doi.org/10.1016/j.jacc.2019. 
-09.028 
-749. Kodali S, Hahn RT, Makkar R, Makar M, Davidson CJ, Puthumana JJ, et al. Transfemoral 
-tricuspid valve replacement and one-year outcomes: the TRISCEND study. Eur Heart J 
-2023;44:4862–73. https://doi.org/10.1093/eurheartj/ehad667 
-750. Donal E, Sitges M, Panis V, Schueler R, Lapp H, Moellmann H, et al. Characterization of 
-tricuspid valve anatomy and coaptation gap in subjects receiving tricuspid transcatheter edge-to-edge repair: observations from the bRIGHT TriClip study. J Am Soc 
-Echocardiogr 2024;37:397–404. https://doi.org/10.1016/j.echo.2023.12.002 
-751. Wild MG, Löw K, Rosch S, Gercek M, Higuchi S, Massberg S, et al. Multicenter experience with the transcatheter leaflet repair system for symptomatic tricuspid regurgitation. JACC Cardiovasc Interv 2022;15:1352–63. https://doi.org/10.1016/j.jcin.2022.05. 
-041 
-752. Sarralde JA, Bernal JM, Llorca J, Pontón A, Diez-Solorzano L, Giménez-Rico JR, et al. 
-Repair of rheumatic tricuspid valve disease: predictors of very long-term mortality 
-and reoperation. Ann Thorac Surg 2010;90:503–8. https://doi.org/10.1016/j. 
-athoracsur.2010.03.105 
-753. Saran N, Dearani JA, Said SM, Greason KL, Pochettino A, Stulak JM, et al. Long-term 
-outcomes of patients undergoing tricuspid valve surgery. Eur J Cardiothorac Surg 
-2019;56:950–8. https://doi.org/10.1093/ejcts/ezz081 
-754. McElhinney DB, Cabalka AK, Aboulhosn JA, Eicken A, Boudjemline Y, Schubert S, et al. 
-Transcatheter tricuspid valve-in-valve implantation for the treatment of dysfunctional 
-surgical bioprosthetic valves: an international, multicenter registry study. Circulation 
-2016;133:1582–93. https://doi.org/10.1161/CIRCULATIONAHA.115.019353 
-755. Pereyra M, Farina JM, Chao CJ, Ayoub C, Arsanjani R. Percutaneous transcatheter pulmonary and tricuspid valve replacements in a patient with carcinoid heart disease. Eur 
-Heart J Case Rep 2023;7:ytad511. https://doi.org/10.1093/ehjcr/ytad511 
-756. Connolly HM, Schaff HV, Abel MD, Rubin J, Askew JW, Li Z, et al. Early and late outcomes of surgical treatment in carcinoid heart disease. J Am Coll Cardiol 2015;66: 
-2189–96. https://doi.org/10.1016/j.jacc.2015.09.014 
-757. Yunoki K, Naruko T, Itoh A, Ohashi J, Fujimoto K, Shirai N, et al. Percutaneous transcatheter balloon valvuloplasty for bioprosthetic tricuspid valve stenosis. Circulation 
-2006;114:e558–9. https://doi.org/10.1161/CIRCULATIONAHA.106.618611 
-758. Tribouilloy C, Bohbot Y, Kubala M, Ruschitzka F, Popescu B, Wendler O, et al. 
-Characteristics, management, and outcomes of patients with multiple native valvular 
-heart disease: a substudy of the EURObservational Research Programme Valvular 
-Heart Disease II Survey. Eur Heart J 2022;43:2756–66. https://doi.org/10.1093/ 
-eurheartj/ehac209 
-759. Iung B, Baron G, Tornos P, Gohlke-Bärwolf C, Butchart EG, Vahanian A. Valvular heart 
-disease in the community: a European experience. Curr Probl Cardiol 2007;32:609–61.  
-https://doi.org/10.1016/j.cpcardiol.2007.07.002 
-760. Cutter DJ, Schaapveld M, Darby SC, Hauptmann M, van Nimwegen FA, Krol AD, et al. 
-Risk of valvular heart disease after treatment for Hodgkin lymphoma. J Natl Cancer Inst 
-2015;107:djv008. https://doi.org/10.1093/jnci/djv008 
-761. Unger P, Pibarot P, Tribouilloy C, Lancellotti P, Maisano F, Iung B, et al. Multiple and 
-mixed valvular heart diseases. Circ Cardiovasc Imaging 2018;11:e007862. https://doi. 
-org/10.1161/CIRCIMAGING.118.007862 
-762. Ajmone Marsan N, Delgado V, Shah DJ, Pellikka P, Bax JJ, Treibel T, et al. Valvular heart 
-disease: shifting the focus to the myocardium. Eur Heart J 2023;44:28–40. https://doi. 
-org/10.1093/eurheartj/ehac504 
-763. de Marchi SF, Windecker S, Aeschbacher BC, Seiler C. Influence of left ventricular relaxation on the pressure half time of aortic regurgitation. Heart 1999;82:607–13.  
-https://doi.org/10.1136/hrt.82.5.607 
-764. Unger P, Tribouilloy C. Aortic stenosis with other concomitant valvular disease: aortic 
-regurgitation, mitral regurgitation, mitral stenosis, or tricuspid regurgitation. Cardiol 
-Clin 2020;38:33–46. https://doi.org/10.1016/j.ccl.2019.09.002 
-765. Unger P, Clavel M-A. Mixed aortic valve disease: a diagnostic challenge, a prognostic 
-threat. Structural Heart 2020;4:468–74. https://doi.org/10.1080/24748706.2020. 
-1817643 
-766. Flachskampf FA, Weyman AE, Gillam L, Liu CM, Abascal VM, Thomas JD. Aortic regurgitation shortens Doppler pressure half-time in mitral stenosis: clinical evidence, in vitro simulation and theoretic analysis. J Am Coll Cardiol 1990;16:396–404. https://doi. 
-org/10.1016/0735-1097(90)90592-d 
-767. Tribouilloy C, Shen WF, Rey JL, Adam MC, Lesbre JP. Mitral to aortic velocity-time integral ratio: a non-geometric pulsed-Doppler regurgitant index in isolated pure mitral 
-regurgitation. Eur Heart J 1994;15:1335–9. https://doi.org/10.1093/oxfordjournals. 
-eurheartj.a060390 
-768. Benfari G, Clavel M-A, Nistri S, Maffeis C, Vassanelli C, Enriquez-Sarano M, et al. 
-Concomitant mitral regurgitation and aortic stenosis: one step further to low-flow 
-preserved ejection fraction aortic stenosis. Eur Heart J Cardiovasc Imaging 2018;19: 
-569–73. https://doi.org/10.1093/ehjci/jex172 
-769. Mohan JC, Mukherjee S, Kumar A, Arora R, Patel AR, Pandian NG. Does chronic mitral 
-regurgitation influence Doppler pressure half-time–derived calculation of the mitral 
-valve area in patients with mitral stenosis? Am Heart J 2004;148:703–9. https://doi. 
-org/10.1016/j.ahj.2003.12.043 
-770. Hauge SW, Estensen ME, Persson R, Abebe S, Mekonnen D, Nega B, et al. The importance of concomitant mitral regurgitation for estimates of mitral valve area by pressure 
-half time in patients with chronic rheumatic heart disease. Int J Cardiol 2024;398: 
-131600. https://doi.org/10.1016/j.ijcard.2023.131600 
-771. Dahou A, Magne J, Clavel MA, Capoulade R, Bartko PE, Bergler-Klein J, et al. Tricuspid 
-regurgitation is associated with increased risk of mortality in patients with low-flow 
-low-gradient aortic stenosis and reduced ejection fraction: results of the multicenter 
-TOPAS study (True or Pseudo-Severe Aortic Stenosis). JACC Cardiovasc Interv 2015; 
-8:588–96. https://doi.org/10.1016/j.jcin.2014.08.019 
-772. Shiran A, Sagie A. Tricuspid regurgitation in mitral valve disease: incidence, prognostic 
-implications, mechanism, and management. J Am Coll Cardiol 2009;53:401–8. https:// 
-doi.org/10.1016/j.jacc.2008.09.048 
-773. Naeije R, Badagliacca R. The overloaded right heart and ventricular interdependence. 
-Cardiovasc Res 2017;113:1474–85. https://doi.org/10.1093/cvr/cvx160 
-774. Furukawa A, Abe Y, Ito K, Hosogi S, Yamamoto K, Ito H. Mechanisms of changes in 
-functional mitral regurgitation by preload alterations. J Cardiol 2018;71:570–6.  
-https://doi.org/10.1016/j.jjcc.2017.12.005 
-775. Wunderlich NC, Beigel R, Siegel RJ. Management of mitral stenosis using 2D and 3D 
-echo-Doppler imaging. JACC Cardiovasc Imaging 2013;6:1191–205. https://doi.org/10. 
-1016/j.jcmg.2013.07.008
-
-
-<!-- PAGE 97 -->
-
-### Page 97
-
-776. Cho IJ, Lee SE, Jeong H, Chang HJ. Determinants of clinical outcomes in patients with 
-mixed mitral valve disease. Echocardiography 2020;37:1164–70. https://doi.org/10. 
-1111/echo.14673 
-777. Pawade T, Sheth T, Guzzetti E, Dweck Marc R, Clavel M-A. Why and how to measure 
-aortic valve calcification in patients with aortic stenosis. JACC Cardiovasc Imaging 2019; 
-12:1835–48. https://doi.org/10.1016/j.jcmg.2019.01.045 
-779. Bandera F, Generati G, Pellegrino M, Garatti A, Labate V, Alfonzetti E, et al. Mitral regurgitation in heart failure: insights from CPET combined with exercise echocardiography. Eur Heart J Cardiovasc Imaging 2017;18:296–303. https://doi.org/10.1093/ehjci/ 
-jew096 
-780. Bissessor N, Shanahan L, Wee YS, Stewart R, Lowe B, Kerr A, et al. The role of natriuretic peptides in patients with chronic complex (mixed or multiple) heart valve disease. Congest Heart Fail 2010;16:50–4. https://doi.org/10.1111/j.1751-7133.2009. 
-00132.x 
-781. Myerson SG. CMR in evaluating valvular heart disease: diagnosis, severity, and outcomes. JACC Cardiovasc Imaging 2021;14:2020–32. https://doi.org/10.1016/j.jcmg. 
-2020.09.029 
-782. Grafton G, Cascino TM, Perry D, Ashur C, Koelling TM. Resting oxygen consumption 
-and heart failure: importance of measurement for determination of cardiac output 
-with the use of the Fick principle. J Card Fail 2020;26:664–72. https://doi.org/10. 
-1016/j.cardfail.2019.02.004 
-783. Singh AD, Mian A, Devasenapathy N, Guyatt G, Karthikeyan G. Percutaneous mitral 
-commissurotomy versus surgical commissurotomy for rheumatic mitral stenosis: a 
-systematic review and meta-analysis of randomised controlled trials. Heart 2020; 
-106:1094–101. https://doi.org/10.1136/heartjnl-2019-315906 
-784. Winter MP, Bartko PE, Krickl A, Gatterer C, Donà C, Nitsche C, et al. Adaptive development of concomitant secondary mitral and tricuspid regurgitation after transcatheter aortic valve replacement. Eur Heart J Cardiovasc Imaging 2021;22:1045–53.  
-https://doi.org/10.1093/ehjci/jeaa106 
-785. Khan F, Okuno T, Malebranche D, Lanz J, Praz F, Stortecky S, et al. Transcatheter aortic 
-valve replacement in patients with multivalvular heart disease. JACC Cardiovasc Interv 
-2020;13:1503–14. https://doi.org/10.1016/j.jcin.2020.03.052 
-786. Adamo M, Pagnesi M, Ghizzoni G, Estévez-Loureiro R, Raposeiras-Roubin S, Tomasoni 
-D, et al. Evolution of tricuspid regurgitation after transcatheter edge-to-edge mitral 
-valve repair for secondary mitral regurgitation and its impact on mortality. Eur J 
-Heart Fail 2022;24:2175–84. https://doi.org/10.1002/ejhf.2637 
-787. Kavsur R, Iliadis C, Spieker M, Brachtendorf BM, Tiyerili V, Metze C, et al. Predictors 
-and prognostic relevance of tricuspid alterations in patients undergoing transcatheter 
-edge-to-edge mitral valve repair. EuroIntervention 2021;17:827–34. https://doi.org/10. 
-4244/eij-d-20-01094 
-788. Mehr M, Karam N, Taramasso M, Ouarrak T, Schneider S, Lurz P, et al. Combined tricuspid and mitral versus isolated mitral valve repair for severe MR and TR: an analysis 
-from the TriValve and TRAMI registries. JACC Cardiovasc Interv 2020;13:543–50.  
-https://doi.org/10.1016/j.jcin.2019.10.023 
-789. Besler C, Blazek S, Rommel KP, Noack T, von Roeder M, Luecke C, et al. Combined 
-mitral and tricuspid versus isolated mitral valve transcatheter edge-to-edge repair in 
-patients with symptomatic valve regurgitation at high surgical risk. JACC Cardiovasc 
-Interv 2018;11:1142–51. https://doi.org/10.1016/j.jcin.2018.04.010 
-790. Egbe AC, Luis SA, Padang R, Warnes CA. Outcomes in moderate mixed aortic valve 
-disease: is it time for a paradigm shift? J Am Coll Cardiol 2016;67:2321–9. https://doi.org/ 
-10.1016/j.jacc.2016.03.509 
-791. Egbe AC, Poterucha JT, Warnes CA. Mixed aortic valve disease: midterm outcome and 
-predictors of adverse events. Eur Heart J 2016;37:2671–8. https://doi.org/10.1093/ 
-eurheartj/ehw079 
-792. Zilberszac R, Gabriel H, Schemper M, Zahler D, Czerny M, Maurer G, et al. Outcome 
-of combined stenotic and regurgitant aortic valve disease. J Am Coll Cardiol 2013;61: 
-1489–95. https://doi.org/10.1016/j.jacc.2012.11.070 
-793. Isaza N, Desai MY, Kapadia SR, Krishnaswamy A, Rodriguez LL, Grimm RA, et al. 
-Long-term outcomes in patients with mixed aortic valve disease and preserved left 
-ventricular ejection fraction. J Am Heart Assoc 2020;9:e014591. https://doi.org/10. 
-1161/jaha.119.014591 
-794. Saijo Y, Isaza N, Conic JZ, Desai MY, Johnston D, Roselli EE, et al. Left ventricular longitudinal strain in characterization and outcome assessment of mixed aortic valve disease phenotypes. JACC Cardiovasc Imaging 2021;14:1324–34. https://doi.org/10.1016/j. 
-jcmg.2021.01.020 
-795. Bernard J, Jean G, Bienjonetti-Boudreau D, Jacques F, Tastet L, Salaun E, et al. 
-Prognostic utility of N-terminal pro B-type natriuretic peptide ratio in mixed aortic 
-valve disease. Open Heart 2023;10:e002361. https://doi.org/10.1136/openhrt-2023- 
-002361 
-796. Onishi H, Naganuma T, Izumo M, Ouchi T, Yuki H, Mitomo S, et al. Prognostic relevance of B-type natriuretic peptide in patients with moderate mixed aortic valve disease. ESC Heart Fail 2022;9:2474–83. https://doi.org/10.1002/ehf2.13946 
-797. Carpentier AF, Pellerin M, Fuzellier JF, Relland JY. Extensive calcification of the 
-mitral valve anulus: pathology and surgical management. J Thorac Cardiovasc Surg 
-1996;111:718–29; discussion 729–730. https://doi.org/10.1016/s0022-5223(96) 
-70332-x 
-798. World Health Organization. Life Expectancy at Birth. https://www.who.int/ 
-data/gho/indicator-metadata-registry/imr-details/3131 (28 March 2025, date 
-last accessed). 
-799. Johansson I, Benz AP, Kovalova T, Balasubramanian K, Fukakusa B, Lynn MJ, et al. 
-Outcomes of patients with a mechanical heart valve and poor anticoagulation control 
-on warfarin. Thromb Haemost 2024;124:613–24. https://doi.org/10.1055/s-0043- 
-1777827 
-800. Persson M, Glaser N, Nilsson J, Friberg O, Franco-Cereceda A, Sartipy U. Comparison 
-of long-term performance of bioprosthetic aortic valves in Sweden from 2003 to 2018. 
-JAMA Netw Open 2022;5:e220962. https://doi.org/10.1001/jamanetworkopen.2022. 
-0962 
-801. Jiang Y, Wang S, Bian J, Chen S, Shao Y. Mechanical versus bioprosthetic aortic valve 
-replacement in middle-aged adults: a systematic review and meta-analysis. J 
-Cardiovasc Dev Dis 2023;10:90. https://doi.org/10.3390/jcdd10020090 
-802. Kim MS, Kim HR, Lee SH, Lee S, Joo HC. Aortic valve replacement in patients aged 50 
-to 69 years: analysis using Korean National Big Data. J Card Surg 2022;37:3623–30.  
-https://doi.org/10.1111/jocs.16908 
-803. Vogt F, Santarpino G, Fujita B, Frerker C, Bauer T, Beckmann A, et al. Surgical aortic 
-valve replacement in patients aged 50–69 years—insights from the German Aortic 
-Valve Registry (GARY). Eur J Cardiothorac Surg 2022;62:ezac286. https://doi.org/10. 
-1093/ejcts/ezac286 
-804. Glaser N, Jackson V, Holzmann MJ, Franco-Cereceda A, Sartipy U. Aortic valve replacement with mechanical vs. biological prostheses in patients aged 50–69 years. 
-Eur Heart J 2016;37:2658–67. https://doi.org/10.1093/eurheartj/ehv580 
-805. Kiyose AT, Suzumura EA, Laranjeira L, Buehler AM, Santo JAE, Berwanger O, et al. 
-Comparison of biological and mechanical prostheses for heart valve surgery: a systematic review of randomized controlled trials. Arq Bras Cardiol 2019;112:292–301. https:// 
-doi.org/10.5935/abc.20180272 
-806. Bouhout I, Ghoneim A, Poirier N, Cartier R, Demers P, Perrault LP, et al. Impact of the 
-learning curve on early outcomes following the Ross procedure. Can J Cardiol 2017;33: 
-493–500. https://doi.org/10.1016/j.cjca.2016.11.014 
-807. Tasoudis PT, Varvoglis DN, Vitkos E, Mylonas KS, Sá MP, Ikonomidis JS, et al. 
-Mechanical versus bioprosthetic valve for aortic valve replacement: systematic review 
-and meta-analysis of reconstructed individual participant data. Eur J Cardiothorac Surg 
-2022;62:ezac268. https://doi.org/10.1093/ejcts/ezac268 
-808. Leviner DB, Witberg G, Levi A, Landes U, Schwartz N, Shiran A, et al. Mechanical vs 
-bioprosthetic aortic valve replacement in patients younger than 70 years of age: a hazard ratio meta-analysis. Can J Cardiol 2022;38:355–64. https://doi.org/10.1016/j.cjca. 
-2021.12.008 
-809. Yu J, Qiao E, Wang W. Mechanical or biologic prostheses for mitral valve replacement: 
-a systematic review and meta-analysis. Clin Cardiol 2022;45:701–16. https://doi.org/10. 
-1002/clc.23854 
-810. Yanagawa B, Lee J, Ouzounian M, Bagai A, Cheema A, Verma S, et al. Mitral valve prosthesis choice in patients <70 years: a systematic review and meta-analysis of 20 219 
-patients. J Card Surg 2020;35:818–25. https://doi.org/10.1111/jocs.14478 
-811. Ahmed A, Awad AK, Varghese KS, Sehgal VS, Hisham K, George J, et al. Bioprosthetic 
-versus mechanical valves for mitral valve replacement in patients <70 years: an updated pairwise meta-analysis. Gen Thorac Cardiovasc Surg 2024;72:95–103. https:// 
-doi.org/10.1007/s11748-023-01956-1 
-812. Capodanno D, Petronio AS, Prendergast B, Eltchaninoff H, Vahanian A, 
-Modine T, et al. Standardized definitions of structural deterioration and valve 
-failure in assessing long-term durability of transcatheter and surgical aortic 
-bioprosthetic valves: a consensus statement from the European Association 
-of Percutaneous Cardiovascular Interventions (EAPCI) endorsed by the 
-European Society of Cardiology (ESC) and the European Association for 
-Cardio-Thoracic Surgery (EACTS). Eur Heart J 2017;38:3382–90. https://doi. 
-org/10.1093/eurheartj/ehx303 
-813. Meskin M, Dimasi A, Votta E, Jaworek M, Fusini L, Muratori M, et al. A novel multiparametric score for the detection and grading of prosthetic mitral valve obstruction in 
-cases with different disc motion abnormalities. Ultrasound Med Biol 2019;45: 
-1708–20. https://doi.org/10.1016/j.ultrasmedbio.2019.03.011 
-814. Passaglia LG, de Barros GM, de Sousa MR. Early postoperative bridging anticoagulation after mechanical heart valve replacement: a systematic review and 
-meta-analysis. J Thromb Haemost 2015;13:1557–67. https://doi.org/10.1111/jth. 
-13047 
-815. Li BX, Liu SD, Qi L, Sun S, Sun W, Li YM, et al. Comparison of different bridging anticoagulation therapies used after mechanical heart valve replacement in Chinese patients 
-—a prospective cohort study. J Cardiothorac Surg 2020;15:40. https://doi.org/10.1186/ 
-s13019-020-1084-7 
-816. Tao E, Luo YL, Tao Z, Wan L. A meta-analysis of bridging anticoagulation between low 
-molecular weight heparin and heparin. Medicine (Baltimore) 2020;99:e18729. https:// 
-doi.org/10.1097/MD.0000000000018729 
-817. Baudet EM, Puel V, McBride JT, Grimaud JP, Roques F, Clerc F, et al. Long-term results 
-of valve replacement with the St. Jude Medical prosthesis. J Thorac Cardiovasc Surg 1995; 
-109:858–70. https://doi.org/10.1016/s0022-5223(95)70309-8  
-ESC Guidelines                                                                                                                                                                                               97
-
-
-<!-- PAGE 98 -->
-
-### Page 98
-
-818. Massel DR, Little SH. Antiplatelet and anticoagulation for patients with prosthetic 
-heart valves. Cochrane Database Syst Rev 2013;2013:CD003464. https://doi.org/10. 
-1002/14651858.CD003464.pub2 
-819. Torella M, Torella D, Chiodini P, Franciulli M, Romano G, De Santo L, et al. LOWERing 
-the INtensity of oral anticoaGulant therapy in patients with bileaflet mechanical aortic 
-valve replacement: results from the “LOWERING-IT” Trial. Am Heart J 2010;160: 
-171–8. https://doi.org/10.1016/j.ahj.2010.05.005 
-820. Connolly SJ, Pogue J, Eikelboom J, Flaker G, Commerford P, Franzosi MG, et al. Benefit 
-of oral anticoagulant over antiplatelet therapy in atrial fibrillation depends on the quality of international normalized ratio control achieved by centers and countries as measured by time in therapeutic range. Circulation 2008;118:2029–37. https://doi.org/10. 
-1161/CIRCULATIONAHA.107.750000 
-821. Eikelboom JW, Connolly SJ, Brueckmann M, Granger CB, Kappetein AP, Mack MJ, et al. 
-Dabigatran versus warfarin in patients with mechanical heart valves. N Engl J Med 2013; 
-369:1206–14. https://doi.org/10.1056/NEJMoa1300615 
-822. Puskas JD, Gerdisch M, Nichols D, Fermin L, Rhenman B, Kapoor D, et al. 
-Anticoagulation and antiplatelet strategies after On-X mechanical aortic valve replacement. J Am Coll Cardiol 2018;71:2717–26. https://doi.org/10.1016/j.jacc.2018.03.535 
-823. Schlitt A, von Bardeleben RS, Ehrlich A, Eimermacher A, Peetz D, Dahm M, et al. 
-Clopidogrel and aspirin in the prevention of thromboembolic complications after 
-mechanical aortic valve replacement (CAPTA). Thromb Res 2003;109:131–35.  
-https://doi.org/10.1016/s0049-3848(03)00143-9 
-824. Wang TY, Svensson LG, Wen J, Vekstein A, Gerdisch M, Rao VU, et al. Apixaban or 
-warfarin in patients with an On-X mechanical aortic valve. NEJM Evid 2023;2: 
-EVIDoa2300067. https://doi.org/10.1056/EVIDoa2300067 
-825. Wang M, Zeraatkar D, Obeda M, Lee M, Garcia C, Nguyen L, et al. Drug–drug interactions with warfarin: a systematic review and meta-analysis. Br J Clin Pharmacol 2021; 
-87:4051–100. https://doi.org/10.1111/bcp.14833 
-826. Tan CSS, Lee SWH. Warfarin and food, herbal or dietary supplement interactions: a 
-systematic review. Br J Clin Pharmacol 2021;87:352–74. https://doi.org/10.1111/bcp. 
-14404 
-827. Heneghan CJ, Garcia-Alamino JM, Spencer EA, Ward AM, Perera R, Bankhead C, et al. 
-Self-monitoring and self-management of oral anticoagulation. Cochrane Database Syst 
-Rev 2016;7:CD003839. https://doi.org/10.1002/14651858.CD003839.pub3 
-828. Khouja C, Brunton G, Richardson M, Stokes G, Blanchard L, Burchett H, et al. Oral 
-anticoagulants: a systematic overview of reviews on efficacy and safety, genotyping, 
-self-monitoring, and stakeholder experiences. Syst Rev 2022;11:232. https://doi.org/ 
-10.1186/s13643-022-02098-w 
-829. Park YK, Lee MJ, Kim JH, Lee JS, Park RW, Kim GM, et al. Genetic and non-genetic factors affecting the quality of anticoagulation control and vascular events in atrial fibrillation. J Stroke Cerebrovasc Dis 2017;26:1383–90. https://doi.org/10.1016/j. 
-jstrokecerebrovasdis.2017.02.022 
-830. Praxedes MFDS, Silva JLPD, Cruz AJAD, Viana CC, Barbosa HC, Guimaraes NS, et al. 
-Assessment of the relationship between the level of patient knowledge on warfarin 
-therapy and the quality of oral anticoagulation: a systematic review and meta-analysis. 
-PLoS One 2023;18:e0289836. https://doi.org/10.1371/journal.pone.0289836 
-831. Marx N, Federici M, Schütt K, Muller-Wieland D, Ajjan RA, Antunes MJ, et al. 2023 ESC 
-Guidelines for the management of cardiovascular disease in patients with diabetes. Eur 
-Heart J 2023;44:4043–140. https://doi.org/10.1093/eurheartj/ehad192 
-832. Meurin P, Tabet JY, Weber H, Renaud N, Ben Driss A. Low-molecular-weight heparin 
-as a bridging anticoagulant early after mechanical heart valve replacement. Circulation 
-2006;113:564–9. https://doi.org/10.1161/circulationaha.105.575571 
-833. Ferreira I, Dos L, Tornos P, Nicolau I, Permanyer-Miralda G, Soler-Soler J. Experience 
-with enoxaparin in patients with mechanical heart valves who must withhold acenocumarol. Heart 2003;89:527–30. https://doi.org/10.1136/heart.89.5.527 
-834. Caldeira D, David C, Santos AT, Costa J, Pinto FJ, Ferreira JJ. Efficacy and safety of low 
-molecular weight heparin in patients with mechanical heart valves: systematic review 
-and meta-analysis. J Thromb Haemost 2014;12:650–9. https://doi.org/10.1111/jth. 
-12544 
-835. Pengo V, Palareti G, Cucchini U, Molinatti M, Del Bono R, Baudo F, et al. Low-intensity 
-oral anticoagulant plus low-dose aspirin during the first six months versus 
-standard-intensity oral anticoagulant therapy after mechanical heart valve replacement: a pilot study of low-intensity warfarin and aspirin in cardiac prostheses 
-(LIWACAP). Clin Appl Thromb Hemost 2007;13:241–8. https://doi.org/10.1177/ 
-1076029607302544 
-836. Meschengieser SS, Fondevila CG, Frontroth J, Santarelli MT, Lazzari MA. Low-intensity 
-oral anticoagulation plus low-dose aspirin versus high-intensity oral anticoagulation 
-alone: a randomized trial in patients with mechanical prosthetic heart valves. J 
-Thorac 
-Cardiovasc 
-Surg 
-1997;113:910–6. 
-https://doi.org/10.1016/s0022- 
-5223(97)70264-2 
-837. Puskas J, Gerdisch M, Nichols D, Quinn R, Anderson C, Rhenman B, et al. Reduced 
-anticoagulation after mechanical aortic valve replacement: interim results from the 
-prospective randomized On-X valve anticoagulation clinical trial randomized Food 
-and Drug Administration investigational device exemption trial. J Thorac Cardiovasc 
-Surg 2014;147:1202–10; discussion 1210–1201. https://doi.org/10.1016/j.jtcvs.2014. 
-01.004 
-838. Hanigan S, Kong X, Haymart B, Kline-Rogers E, Kaatz S, Krol G, et al. Standard versus 
-higher intensity anticoagulation for patients with mechanical aortic valve replacement 
-and additional risk factors for thromboembolism. Am J Cardiol 2021;159:100–6. https:// 
-doi.org/10.1016/j.amjcard.2021.08.023 
-839. Ray WA, Chung CP, Murray KT, Smalley WE, Daugherty JR, Dupont WD, et al. 
-Association of proton pump inhibitors with reduced risk of warfarin-related serious 
-upper gastrointestinal bleeding. Gastroenterology 2016;151:1105–12.e1110. https:// 
-doi.org/10.1053/j.gastro.2016.08.054 
-840. Kurlander JE, Barnes GD, Fisher A, Gonzalez JJ, Helminski D, Saini SD, et al. Association 
-of antisecretory drugs with upper gastrointestinal bleeding in patients using oral anticoagulants: a systematic review and meta-analysis. Am J Med 2022;135:1231–43.e1238.  
-https://doi.org/10.1016/j.amjmed.2022.05.031 
-841. Crowther MA, Ageno W, Garcia D, Wang L, Witt DM, Clark NP, et al. Oral vitamin K 
-versus placebo to correct excessive anticoagulation in patients receiving warfarin: a 
-randomized trial. Ann Intern Med 2009;150:293–300. https://doi.org/10.7326/0003- 
-4819-150-5-200903030-00005 
-842. Khatib R, Ludwikowska M, Witt DM, Ansell J, Clark NP, Holbrook A, et al. Vitamin K 
-for reversal of excessive vitamin K antagonist anticoagulation: a systematic review and 
-meta-analysis. Blood Adv 2019;3:789–96. https://doi.org/10.1182/bloodadvances. 
-2018025163 
-843. Gunther KE, Conway G, Leibach L, Crowther MA. Low-dose oral vitamin K is safe and 
-effective for outpatient management of patients with an INR>10. Thromb Res 2004; 
-113:205–9. https://doi.org/10.1016/j.thromres.2004.03.004 
-844. Schulman S, Kearon C, Subcommittee on Control of Anticoagulation of the Scientific 
-and Standardization Committee of the International Society on Thrombosis and 
-Haemostasis. Definition of major bleeding in clinical investigations of antihemostatic 
-medicinal products in non-surgical patients. J Thromb Haemost 2005;3:692–4. https:// 
-doi.org/10.1111/j.1538-7836.2005.01204.x 
-845. Brekelmans MPA, van Ginkel K, Daams JG, Hutten BA, Middeldorp S, Coppens M. 
-Benefits and harms of 4-factor prothrombin complex concentrate for reversal of vitamin K antagonist associated bleeding: a systematic review and meta-analysis. J Thromb 
-Thrombolysis 2017;44:118–29. https://doi.org/10.1007/s11239-017-1506-0 
-846. Chai-Adisaksopha C, Hillis C, Siegal DM, Movilla R, Heddle N, Iorio A, et al. 
-Prothrombin complex concentrates versus fresh frozen plasma for warfarin reversal. 
-A systematic review and meta-analysis. Thromb Haemost 2016;116:879–90. https://doi. 
-org/10.1160/TH16-04-0266 
-847. Hood C, Goldstein JN, Milling TJ, Refaai MA, Bajcic P, Goldstein B, et al. INR and vitamin K-dependent factor levels after vitamin K antagonist reversal with 4F-PCC or plasma. Blood Adv 2023;7:2206–13. https://doi.org/10.1182/bloodadvances.2022009015 
-848. Sarode R, Milling TJJ, Refaai MA, Mangione A, Schneider A, Durn BL, et al. Efficacy and 
-safety of a 4-factor prothrombin complex concentrate in patients on vitamin K antagonists presenting with major bleeding: a randomized, plasma-controlled, phase IIIb 
-study. Circulation 2013;128:1234–43. https://doi.org/10.1161/CIRCULATIONAHA. 
-113.002283 
-849. Erdoes G, Koster A, Ortmann E, Meesters MI, Bolliger D, Baryshnikova E, et al. A 
-European consensus statement on the use of four-factor prothrombin complex concentrate for cardiac and non-cardiac surgical patients. Anaesthesia 2021;76:381–92.  
-https://doi.org/10.1111/anae.15181 
-850. Eichinger S. Reversing vitamin K antagonists: making the old new again. Hematology Am 
-Soc Hematol Educ Program 2016;2016:605–11. https://doi.org/10.1182/asheducation- 
-2016.1.605 
-851. Birnie DH, Healey JS, Wells GA, Verma A, Tang AS, Krahn AD, et al. Pacemaker or 
-defibrillator surgery without interruption of anticoagulation. N Engl J Med 2013;368: 
-2084–93. https://doi.org/10.1056/NEJMoa1302946 
-852. Di Biase L, Burkhardt JD, Santangeli P, Mohanty P, Sanchez JE, Horton R, et al. 
-Periprocedural stroke and bleeding complications in patients undergoing catheter ablation of atrial fibrillation with different anticoagulation management: results from the 
-Role of Coumadin in Preventing Thromboembolism in Atrial Fibrillation (AF) Patients 
-Undergoing Catheter Ablation (COMPARE) randomized trial. Circulation 2014;129: 
-2638–44. https://doi.org/10.1161/CIRCULATIONAHA.113.006426 
-853. Engelen ET, Schutgens RE, Mauser-Bunschoten EP, van Es RJJ, van Galen KPM. 
-Antifibrinolytic therapy for preventing oral bleeding in people on anticoagulants undergoing minor oral surgery or dental extractions. Cochrane Database Syst Rev 2018;7: 
-CD012293. https://doi.org/10.1002/14651858.CD012293.pub2 
-854. Ghanbari H, Phard WS, Al-Ameri H, Latchamsetty R, Jongnarngsin K, Crawford T, 
-et al. Meta-analysis of safety and efficacy of uninterrupted warfarin compared to 
-heparin-based bridging therapy during implantation of cardiac rhythm devices. Am J 
-Cardiol 2012;110:1482–8. https://doi.org/10.1016/j.amjcard.2012.06.057 
-855. Makuloluwa AK, Tiew S, Briggs M. Peri-operative management of ophthalmic patients 
-on anti-thrombotic agents: a literature review. Eye (Lond) 2019;33:1044–59. https:// 
-doi.org/10.1038/s41433-019-0382-6 
-856. Nagata N, Yasunaga H, Matsui H, Fushimi K, Watanabe K, Akiyama J, et al. Therapeutic 
-endoscopy-related GI bleeding and thromboembolic events in patients using warfarin 
-or direct oral anticoagulants: results from a large nationwide database analysis. Gut 
-2018;67:1805–12. https://doi.org/10.1136/gutjnl-2017-313999
-
-
-<!-- PAGE 99 -->
-
-### Page 99
-
-857. Dohler I, Roder D, Schlesinger T, Nassen CA, Germer CT, Wiegering A, et al. 
-Risk-adjusted perioperative bridging anticoagulation reduces bleeding complications 
-without increasing thromboembolic events in general and visceral surgery. BMC 
-Anesthesiol 2023;23:56. https://doi.org/10.1186/s12871-023-02017-z 
-858. Shah S, Nayfeh T, Hasan B, Urtecho M, Firwana M, Saadi S, et al. Perioperative management of vitamin K antagonists and direct oral anticoagulants: a systematic review 
-and meta-analysis. Chest 2023;163:1245–57. https://doi.org/10.1016/j.chest.2022.11. 
-032 
-859. Gigante B, Tamargo J, Agewall S, Atar D, Ten Berg J, Campo G, et al. Update on antithrombotic therapy and body mass: a clinical consensus statement of the 
-European 
-Society 
-of 
-Cardiology 
-Working 
-Group 
-on 
-Cardiovascular 
-Pharmacotherapy and the European Society of Cardiology Working Group on 
-Thrombosis. Eur Heart J Cardiovasc Pharmacother 2024;10:614–45. https://doi.org/10. 
-1093/ehjcvp/pvae064 
-860. Jeppsson A, Rocca B, Hansson EC, Gudbjartsson T, James S, Kaski JK, et al. 2024 
-EACTS Guidelines on perioperative medication in adult cardiac surgery. Eur J 
-Cardiothorac Surg 2024;67:ezae355. https://doi.org/10.1093/ejcts/ezae355 
-861. Kovacs MJ, Wells PS, Anderson DR, Lazo-Langner A, Kearon C, Bates SM, et al. 
-Postoperative low molecular weight heparin bridging treatment for patients at high 
-risk of arterial thromboembolism (PERIOP2): double blind randomised controlled 
-trial. BMJ 2021;373:n1205. https://doi.org/10.1136/bmj.n1205 
-862. Kuo HC, Liu FL, Chen JT, Cherng YG, Tam KW, Tai YH. Thromboembolic and bleeding risk of periprocedural bridging anticoagulation: a systematic review and 
-meta-analysis. Clin Cardiol 2020;43:441–9. https://doi.org/10.1002/clc.23336 
-863. Siegal D, Yudin J, Kaatz S, Douketis JD, Lim W, Spyropoulos AC. Periprocedural heparin bridging in patients receiving vitamin K antagonists: systematic review and 
-meta-analysis of bleeding and thromboembolic rates. Circulation 2012;126:1630–9.  
-https://doi.org/10.1161/CIRCULATIONAHA.112.105221 
-864. Yong JW, Yang LX, Ohene BE, Zhou YJ, Wang ZJ. Periprocedural heparin bridging in 
-patients receiving oral anticoagulation: a systematic review and meta-analysis. BMC 
-Cardiovasc Disord 2017;17:295. https://doi.org/10.1186/s12872-017-0719-7 
-865. Brennan JM, Edwards FH, Zhao Y, O’Brien S, Booth ME, Dokholyan RS, et al. Early anticoagulation of bioprosthetic aortic valves in older patients: results from the Society of 
-Thoracic Surgeons Adult Cardiac Surgery National Database. J Am Coll Cardiol 2012; 
-60:971–7. https://doi.org/10.1016/j.jacc.2012.05.029 
-866. Rafiq S, Steinbrüchel DA, Lilleør NB, Moller CH, Lund JT, Thiis JJ, et al. Antithrombotic 
-therapy after bioprosthetic aortic valve implantation: warfarin versus aspirin, a randomized controlled trial. Thromb Res 2017;150:104–10. https://doi.org/10.1016/j. 
-thromres.2016.11.021 
-867. Butnaru A, Shaheen J, Tzivoni D, Tauber R, Bitran D, Silberman S. Diagnosis and treatment of early bioprosthetic malfunction in the mitral valve position due to thrombus 
-formation. Am J Cardiol 2013;112:1439–44. https://doi.org/10.1016/j.amjcard.2013.06. 
-014 
-868. Russo A, Grigioni F, Avierinos JF, Freeman WK, Suri R, Michelena H, et al. 
-Thromboembolic complications after surgical correction of mitral regurgitation incidence, predictors, and clinical implications. J Am Coll Cardiol 2008;51:1203–11.  
-https://doi.org/10.1016/j.jacc.2007.10.058 
-869. Dangas GD, Tijssen JGP, Wöhrle J, Sondergaard L, Gilard M, Mollmann H, et al. A controlled trial of rivaroxaban after transcatheter aortic-valve replacement. N Engl J Med 
-2020;382:120–9. https://doi.org/10.1056/NEJMoa1911425 
-870. Alkhalil M, Edwards R, Puri R, Kalra A, Zaman A, Das R. Aspirin versus dual antiplatelet 
-therapy in patients undergoing trans-catheter aortic valve implantation, updated 
-meta-analysis. Cardiovasc Drugs Ther 2022;36:279–83. https://doi.org/10.1007/ 
-s10557-021-07146-6 
-871. El Bèze N, Himbert D, Suc G, Brochet E, Ajzenberg N, Cailliau A, et al. Comparison of 
-direct oral anticoagulants vs vitamin K antagonists after transcatheter mitral valve replacement. J Am Coll Cardiol 2024;83:334–46. https://doi.org/10.1016/j.jacc.2023.10. 
-031 
-872. Carnicelli AP, De Caterina R, Halperin JL, Renda G, Ruff CT, Trevisan M, et al. 
-Edoxaban for the prevention of thromboembolism in patients with atrial fibrillation 
-and bioprosthetic valves. Circulation 2017;135:1273–5. https://doi.org/10.1161/ 
-CIRCULATIONAHA.116.026714 
-873. Guimarães HP, Lopes RD, de Barros E Silva PGM, Liporace IL, Sampaio RO, 
-Tarasoutchi F, et al. Rivaroxaban in patients with atrial fibrillation and a bioprosthetic 
-mitral valve. N Engl J Med 2020;383:2117–26. https://doi.org/10.1056/NEJM 
-oa2029603 
-874. Philippart R, Brunet-Bernard A, Clementy N, Bourguignon T, Mirza A, Angoulvant D, 
-et al. Oral anticoagulation, stroke and thromboembolism in patients with atrial fibrillation and valve bioprosthesis. The Loire Valley Atrial Fibrillation Project. Thromb 
-Haemost 2016;115:1056–63. https://doi.org/10.1160/TH16-01-0007 
-875. Shim CY, Seo J, Kim YJ, Lee SH, De Caterina R, Lee S, et al. Efficacy and safety of edoxaban in patients early after surgical bioprosthetic valve implantation or valve repair: a 
-randomized clinical trial. J Thorac Cardiovasc Surg 2023;165:58–67.e54. https://doi.org/ 
-10.1016/j.jtcvs.2021.01.127 
-876. Siontis KC, Yao X, Gersh BJ, Noseworthy PA. Direct oral anticoagulants in patients 
-with atrial fibrillation and valvular heart disease other than significant mitral stenosis 
-and mechanical valves: a meta-analysis. Circulation 2017;135:714–6. https://doi.org/ 
-10.1161/CIRCULATIONAHA.116.026793 
-877. Suppah M, Kamal A, Saadoun R, Baradeiya AMA, Abraham B, Alsidawi S, et al. An 
-evidence-based approach to anticoagulation therapy comparing direct oral anticoagulants and vitamin K antagonists in patients with atrial fibrillation and bioprosthetic 
-valves: a systematic review, meta-analysis, and network meta-analysis. Am J Cardiol 
-2023;206:132–50. https://doi.org/10.1016/j.amjcard.2023.07.141 
-878. Nijenhuis VJ, Brouwer J, Delewi R, Hermanides RS, Holvoet W, Dubois CLF, et al. 
-Anticoagulation with or without clopidogrel after transcatheter aortic-valve implantation. N Engl J Med 2020;382:1696–707. https://doi.org/10.1056/NEJMoa1915152 
-879. Van Mieghem NM, Unverdorben M, Hengstenberg C, Mollmann H, Mehran R, 
-Lopez-Otero D, et al. Edoxaban versus vitamin K antagonist for atrial fibrillation after 
-TAVR. N Engl J Med 2021;385:2150–60. https://doi.org/10.1056/NEJMoa2111016 
-880. Collet JP, Van Belle E, Thiele H, Berti S, Lhermusier T, Manigold T, et al. Apixaban vs. 
-standard of care after transcatheter aortic valve implantation: the ATLANTIS trial. Eur 
-Heart J 2022;43:2783–97. https://doi.org/10.1093/eurheartj/ehac242 
-881. Brouwer J, Nijenhuis VJ, Delewi R, Hermanides RS, Holvoet W, Dubois CLF, et al. 
-Aspirin with or without clopidogrel after transcatheter aortic-valve implantation. N 
-Engl J Med 2020;383:1447–57. https://doi.org/10.1056/NEJMoa2017815 
-882. Maes F, Stabile E, Ussia GP, Tamburino C, Pucciarelli A, Masson JB, et al. Meta-analysis 
-comparing single versus dual antiplatelet therapy following transcatheter aortic valve 
-implantation. Am J Cardiol 2018;122:310–5. https://doi.org/10.1016/j.amjcard.2018. 
-04.006 
-883. Rodés-Cabau J, Masson JB, Welsh RC, Garcia Del Blanco B, Pelletier M, Webb JG, et al. 
-Aspirin versus aspirin plus clopidogrel as antithrombotic treatment following transcatheter aortic valve replacement with a balloon-expandable valve: the ARTE 
-(Aspirin Versus Aspirin + Clopidogrel Following Transcatheter Aortic Valve 
-Implantation) randomized clinical trial. JACC Cardiovasc Interv 2017;10:1357–65.  
-https://doi.org/10.1016/j.jcin.2017.04.014 
-884. Meurin P, Tabet JY, Iliou MC, Pierre B, Corone S, Cristofini P, et al. Thromboembolic 
-events early after mitral valve repair: incidence and predictive factors. Int J Cardiol 2008; 
-126:45–52. https://doi.org/10.1016/j.ijcard.2007.03.115 
-885. van der Wall SJ, Olsthoorn JR, Heuts S, Klautz RJM, Tomsic A, Jansen EK, et al. 
-Antithrombotic therapy after mitral valve repair: VKA or aspirin? J Thromb 
-Thrombolysis 2018;46:473–81. https://doi.org/10.1007/s11239-018-1724-0 
-886. Mazur PK, Arghami A, Macielak SA, Nei SD, Viehman JK, King KS, et al. Apixaban for 
-anticoagulation after robotic mitral valve repair. Ann Thorac Surg 2023;115:966–73.  
-https://doi.org/10.1016/j.athoracsur.2022.07.045 
-887. Paparella D, Di Mauro M, Bitton Worms K, Bolotin G, Russo C, Trunfio S, et al. 
-Antiplatelet versus oral anticoagulant therapy as antithrombotic prophylaxis after mitral valve repair. J Thorac Cardiovasc Surg 2016;151:1302–8.e1301. https://doi.org/10. 
-1016/j.jtcvs.2015.12.036 
-888. Trevis J, Akowuah E. Which antithrombotic strategy provides the best outcomes after 
-mitral valve repair in patients who remain in sinus rhythm? Interact Cardiovasc Thorac 
-Surg 2022;35:ivac085. https://doi.org/10.1093/icvts/ivac085 
-889. Moser N, Omar MA, Koshman SL, Lin M, Youngson E, Kent W, et al. Direct oral anticoagulants for atrial fibrillation in early postoperative valve repair or bioprosthetic replacement. J Thorac Cardiovasc Surg 2023;168:523–32.e3. https://doi.org/10.1016/j. 
-jtcvs.2023.03.004 
-890. Mentias A, Saad M, Michael M, Nakhla S, Menon V, Harb S, et al. Direct oral anticoagulants versus warfarin in patients with atrial fibrillation and valve replacement or repair. J Am Heart Assoc 2022;11:e026666. https://doi.org/10.1161/jaha.122.026666 
-891. Philippart R, Brunet-Bernard A, Clementy N, Bourguignon T, Mirza A, Babuty D, et al. 
-Prognostic value of CHA2DS2-VASc score in patients with ‘non-valvular atrial fibrillation’ and valvular heart disease: the Loire Valley Atrial Fibrillation Project. Eur Heart J 
-2015;36:1822–30. https://doi.org/10.1093/eurheartj/ehv163 
-892. Jochheim D, Barbanti M, Capretti G, Stefanini GG, Hapfelmeier A, Zadrozny M, et al. 
-Oral anticoagulant type and outcomes after transcatheter aortic valve replacement. 
-JACC Cardiovasc Interv 2019;12:1566–76. https://doi.org/10.1016/j.jcin.2019.03.003 
-893. Didier R, Lhermusier T, Auffret V, Eltchaninoff H, Le Breton H, Cayla G, et al. TAVR 
-patients requiring anticoagulation: direct oral anticoagulant or vitamin K antagonist? 
-JACC Cardiovasc Interv 2021;14:1704–13. https://doi.org/10.1016/j.jcin.2021.05.025 
-894. Tanawuttiwat T, Stebbins A, Marquis-Gravel G, Vemulapalli S, Kosinski AS, Cheng A. 
-Use of direct oral anticoagulant and outcomes in patients with atrial fibrillation after 
-transcatheter aortic valve replacement: insights from the STS/ACC TVT registry. J 
-Am Heart Assoc 2022;11:e023561. https://doi.org/10.1161/jaha.121.023561 
-895. VARC-3 Writing Committee; Généreux P, Piazza N, Alu MC, Nazif T, Hahn RT, et al. 
-Valve academic research consortium 3: updated endpoint definitions for aortic valve 
-clinical research. J Am Coll Cardiol 2021;77:2717–46. https://doi.org/10.1016/j.jacc. 
-2021.02.038 
-896. Pibarot P, Herrmann HC, Wu C, Hahn RT, Otto CM, Abbas AE, et al. Standardized 
-definitions for bioprosthetic valve dysfunction following aortic or mitral valve replacement: JACC state-of-the-art review. J Am Coll Cardiol 2022;80:545–61. https://doi.org/ 
-10.1016/j.jacc.2022.06.002 
-897. Kaneko T, Bapat VN, Alakhtar AM, Zaid S, George I, Grubb KJ, et al. Transcatheter 
-heart valve explantation for transcatheter aortic valve replacement failure: a Heart  
-ESC Guidelines                                                                                                                                                                                               99
-
-
-<!-- PAGE 100 -->
-
-### Page 100
-
-Valve Collaboratory expert consensus document on operative techniques. J Thorac 
-Cardiovasc Surg 2024;169:878–89. https://doi.org/10.1016/j.jtcvs.2024.04.025 
-898. Bleiziffer S, Rudolph TK. Patient prosthesis mismatch after SAVR and TAVR. Front 
-Cardiovasc Med 2022;9:761917. https://doi.org/10.3389/fcvm.2022.761917 
-899. Hirji SA, Percy ED, Zogg CK, Malarczyk A, Harloff MT, Yazdchi F, et al. Comparison of 
-in-hospital outcomes and readmissions for valve-in-valve transcatheter aortic valve replacement vs. reoperative surgical aortic valve replacement: a contemporary assessment of real-world outcomes. Eur Heart J 2020;41:2747–55. https://doi.org/10.1093/ 
-eurheartj/ehaa252 
-900. Tam DY, Vo TX, Wijeysundera HC, Dvir D, Friedrich JO, Fremes SE. Transcatheter 
-valve-in-valve versus redo surgical aortic valve replacement for the treatment of degenerated bioprosthetic aortic valve: a systematic review and meta-analysis. Catheter 
-Cardiovasc Interv 2018;92:1404–11. https://doi.org/10.1002/ccd.27686 
-901. Bleiziffer S, Simonato M, Webb JG, Rodes-Cabau J, Pibarot P, Kornowski R, et al. 
-Long-term outcomes after transcatheter aortic valve implantation in failed bioprosthetic valves. Eur Heart J 2020;41:2731–42. https://doi.org/10.1093/eurheartj/ehaa544 
-902. Guerrero M, Vemulapalli S, Xiang Q, Wang DD, Eleid M, Cabalka AK, et al. Thirty-day 
-outcomes of transcatheter mitral valve replacement for degenerated mitral bioprostheses (valve-in-valve), failed surgical rings (valve-in-ring), and native valve with severe mitral annular calcification (valve-in-mitral annular calcification) in the United States: data 
-from the Society of Thoracic Surgeons/American College of Cardiology/Transcatheter 
-Valve Therapy Registry. Circ Cardiovasc Interv 2020;13:e008425. https://doi.org/10. 
-1161/CIRCINTERVENTIONS.119.008425 
-903. Eleid MF, Whisenant BK, Cabalka AK, Williams MR, Nejjari M, Attias D, et al. Early outcomes of percutaneous transvenous transseptal transcatheter valve implantation in 
-failed bioprosthetic mitral valves, ring annuloplasty, and severe mitral annular calcification. JACC Cardiovasc Interv 2017;10:1932–42. https://doi.org/10.1016/j.jcin.2017.08. 
-014 
-904. Little SH, Bapat V, Blanke P, Guerrero M, Rajagopal V, Siegel R. Imaging guidance for 
-transcatheter mitral valve intervention on prosthetic valves, rings, and annular calcification. JACC Cardiovasc Imaging 2021;14:22–40. https://doi.org/10.1016/j.jcmg.2019.10. 
-027 
-905. Fallon JM, DeSimone JP, Brennan JM, O’Brien S, Thibault DP, DiScipio AW, et al. The 
-incidence and consequence of prosthesis-patient mismatch after surgical aortic valve 
-replacement. Ann Thorac Surg 2018;106:14–22. https://doi.org/10.1016/j.athoracsur. 
-2018.01.090 
-906. Flameng W, Herregods MC, Vercalsteren M, Herijgers P, Bogaerts K, Meuris B. 
-Prosthesis-patient mismatch predicts structural valve degeneration in bioprosthetic 
-heart 
-valves. 
-Circulation 
-2010;121:2123–9. 
-https://doi.org/10.1161/ 
-CIRCULATIONAHA.109.901272 
-907. Zorn GLI, Little SH, Tadros P, Deeb GM, Gleason TG, Heiser J, et al. Prosthesis–patient mismatch in high-risk patients with severe aortic stenosis: a randomized trial of 
-a self-expanding prosthesis. J Thorac Cardiovasc Surg 2016;151:1014–23.e3, 
-1023.e1011–1013. https://doi.org/10.1016/j.jtcvs.2015.10.070 
-908. Thourani VH, Abbas AE, Ternacle J, Hahn RT, Makkar R, Kodali SK, et al. 
-Patient-prosthesis mismatch after surgical aortic valve replacement: analysis of the 
-PARTNER trials. Ann Thorac Surg 2024;117:1164–71. https://doi.org/10.1016/j. 
-athoracsur.2024.01.023 
-909. Tomii D, Okuno T, Heg D, Nakase M, Lanz J, Praz F, et al. Long-term outcomes of measured and predicted prosthesis-patient mismatch following transcatheter aortic valve 
-replacement. EuroIntervention 2023;19:746–56. https://doi.org/10.4244/eij-d-23- 
-00456 
-910. Vriesendorp MD, De Lind Van Wijngaarden RAF, Head SJ, Kappetein AP, Hickey GL, 
-Rao V, et al. The fallacy of indexed effective orifice area charts to predict prosthesis– 
-patient mismatch after prosthesis implantation. Eur Heart J Cardiovasc Imaging 2020;21: 
-1116–22. https://doi.org/10.1093/ehjci/jeaa044 
-911. Sorajja P, Bae R, Lesser JA, Pedersen WA. Percutaneous repair of paravalvular prosthetic regurgitation: patient selection, techniques and outcomes. Heart 2015;101: 
-665–73. https://doi.org/10.1136/heartjnl-2014-306270 
-912. Ruiz CE, Hahn RT, Berrebi A, Borer JS, Cutlip DE, Fontana G, et al. Clinical trial principles and endpoint definitions for paravalvular leaks in surgical prosthesis. Eur Heart J 
-2018;39:1224–45. https://doi.org/10.1093/eurheartj/ehx211 
-913. Laplace G, Lafitte S, Labèque JN, Perron JM, Baudet E, Deville C, et al. Clinical significance of early thrombosis after prosthetic mitral valve replacement: a postoperative 
-monocentric study of 680 patients. J Am Coll Cardiol 2004;43:1283–90. https://doi. 
-org/10.1016/j.jacc.2003.09.064 
-914. Symersky P, Budde RPJ, de Mol BAJM, Prokop M. Comparison of multidetector-row 
-computed tomography to echocardiography and fluoroscopy for evaluation of patients with mechanical prosthetic valve obstruction. Am J Cardiol 2009;104:1128–34.  
-https://doi.org/10.1016/j.amjcard.2009.05.061 
-915. Egbe AC, Pislaru SV, Pellikka PA, Poterucha JT, Schaff HV, Maleszewski JJ, et al. 
-Bioprosthetic valve thrombosis versus structural failure: clinical and echocardiographic 
-predictors. J Am Coll Cardiol 2015;66:2285–94. https://doi.org/10.1016/j.jacc.2015.09. 
-022 
-916. Rheude T, Pellegrini C, Stortecky S, Marwan M, Xhepa E, Ammon F, et al. Meta-analysis 
-of bioprosthetic valve thrombosis after transcatheter aortic valve implantation. Am J 
-Cardiol 2021;138:92–9. https://doi.org/10.1016/j.amjcard.2020.10.018 
-917. Blanke P, Leipsic JA, Popma JJ, Yakubov SJ, Deeb GM, Gada H, et al. Bioprosthetic aortic valve leaflet thickening in the Evolut Low Risk sub-study. J Am Coll Cardiol 2020;75: 
-2430–42. https://doi.org/10.1016/j.jacc.2020.03.022 
-918. Chakravarty T, Sondergaard L, Friedman J, De Backer O, Berman D, Kofoed KF, et al. 
-Subclinical leaflet thrombosis in surgical and transcatheter bioprosthetic aortic valves: 
-an observational study. Lancet 2017;389:2383–92. https://doi.org/10.1016/S0140- 
-6736(17)30757-2 
-919. Makkar RR, Blanke P, Leipsic J, Thourani V, Chakravarty T, Brown D, et al. Subclinical 
-leaflet thrombosis in transcatheter and surgical bioprosthetic valves: PARTNER 3 cardiac computed tomography substudy. J Am Coll Cardiol 2020;75:3003–15. https://doi. 
-org/10.1016/j.jacc.2020.04.043 
-920. De Backer O, Dangas GD, Jilaihawi H, Leipsic JA, Terkelsen CJ, Makkar R, et al. 
-Reduced leaflet motion after transcatheter aortic-valve replacement. N Engl J Med 
-2020;382:130–9. https://doi.org/10.1056/NEJMoa1911426 
-921. Montalescot G, Redheuil A, Vincent F, Desch S, De Benedictis M, Eltchaninoff H, et al. 
-Apixaban and valve thrombosis after transcatheter aortic valve replacement: the 
-ATLANTIS-4D-CT randomized clinical trial substudy. JACC Cardiovasc Interv 2022; 
-15:1794–804. https://doi.org/10.1016/j.jcin.2022.07.014 
-922. Ruile P, Jander N, Blanke P, Schoechlin S, Reinöhl J, Gick M, et al. Course of early subclinical leaflet thrombosis after transcatheter aortic valve implantation with or without 
-oral anticoagulation. Clin Res Cardiol 2017;106:85–95. https://doi.org/10.1007/s00392- 
-016-1052-3 
-923. Günduz S, Özkan M, Kalçik M, Gürsoy OM, Astarcioglu MA, Karakoyun S, et al. 
-Sixty-four-section cardiac computed tomography in mechanical prosthetic heart valve 
-dysfunction: thrombus or pannus. Circ Cardiovasc Imaging 2015;8:e003246. https://doi. 
-org/10.1161/CIRCIMAGING.115.003246 
-924. Lancellotti P, Pibarot P, Chambers J, Edvardsen T, Delgado V, Dulgheru R, et al. 
-Recommendations for the imaging assessment of prosthetic heart valves: a report 
-from the European Association of Cardiovascular Imaging endorsed by the Chinese 
-Society of Echocardiography, the Inter-American Society of Echocardiography, and 
-the Brazilian Department of Cardiovascular Imaging. Eur Heart J Cardiovasc Imaging 
-2016;17:589–90. https://doi.org/10.1093/ehjci/jew025 
-925. Tanis W, Habets J, van den Brink RBA, Symersky P, Budde RP, Chamuleau SA. 
-Differentiation of thrombus from pannus as the cause of acquired mechanical prosthetic heart valve obstruction by non-invasive imaging: a review of the literature. Eur 
-Heart J Cardiovasc Imaging 2014;15:119–29. https://doi.org/10.1093/ehjci/jet127 
-926. Karthikeyan G, Senguttuvan NB, Joseph J, Devasenapathy N, Bahl VK, Airan B. Urgent 
-surgery compared with fibrinolytic therapy for the treatment of left-sided prosthetic 
-heart valve thrombosis: a systematic review and meta-analysis of observational studies. 
-Eur Heart J 2013;34:1557–66. https://doi.org/10.1093/eurheartj/ehs486 
-927. Castilho FM, De Sousa MR, Mendonca AL, Ribeiro AL, Caceres-Loriga FM. 
-Thrombolytic therapy or surgery for valve prosthesis thrombosis: systematic review 
-and meta-analysis. J Thromb Haemost 2014;12:1218–28. https://doi.org/10.1111/jth. 
-12577 
-928. Chopard R, Vidoni C, Besutti M, Ismail M, Ecarnot F, Favoulet B, et al. Surgery versus 
-thrombolytic therapy for the management of left-sided prosthetic valve thrombosis 
-without hemodynamic compromise: a systematic review and meta-analysis. J Am 
-Heart Assoc 2024;13:e035143. https://doi.org/10.1161/jaha.124.035143 
-929. Özkan M, Günduz S, Güner A, Kalcik M, Gursoy MO, Uygur B, et al. Thrombolysis or 
-surgery in patients with obstructive mechanical valve thrombosis: the multicenter 
-HATTUSHA study. J Am Coll Cardiol 2022;79:977–89. https://doi.org/10.1016/j.jacc. 
-2021.12.027 
-930. Özkan M, Günduz S, Gürsoy OM, Karakoyun S, Astarcioglu MA, Kalcik M, et al. 
-Ultraslow thrombolytic therapy: a novel strategy in the management of PROsthetic 
-MEchanical valve thrombosis and the prEdictors of outcomE: the ultra-slow 
-PROMETEE trial. Am Heart J 2015;170:409–18. https://doi.org/10.1016/j.ahj.2015.04. 
-025 
-931. Sadeghipour P, Saedi S, Saneei L, Rafiee F, Yoosefi S, Parsaee M, et al. Fast vs. ultraslow 
-thrombolytic infusion regimens in patients with obstructive mechanical prosthetic 
-valve thrombosis: a pilot randomized clinical trial. Eur Heart J Cardiovasc 
-Pharmacother 2022;8:668–76. https://doi.org/10.1093/ehjcvp/pvab083 
-931a. Karthikeyan G, Rajashekar P, Devasenapathy N, Biswas S, Kidambi B, Singal A, et al. 
-Urgent surgery vs fibrinolytic therapy for left-sided prosthetic valve thrombosis: a 
-randomized trial. Eur Heart J 2025:ehaf391. https://doi.org/10.1093/eurheartj/ehaf391 
-932. Bemurat LR, Laffort PR, Deville CJ, Roques XG, Baudet EM, Roudaut RP. Management 
-of nonobstructive thrombosis of prosthetic mitral valve in asymptomatic patients in 
-the early postoperative period: a study in 20 patients. Echocardiography 1999;16: 
-339–46. https://doi.org/10.1111/j.1540-8175.1999.tb00823.x 
-933. Mutuberría-Urdaniz M, Rodríguez-Palomares JF, Ferreira I, Bañeras J, Teixidó G, 
-Gutiérrez L, et al. Non-obstructive prosthetic heart valve thrombosis (NOPVT): really 
-a benign entity? Int J Cardiol 2015;197:16–22. https://doi.org/10.1016/j.ijcard.2015.06. 
-021
-
-
-<!-- PAGE 101 -->
-
-### Page 101
-
-934. Egbe AC, Connolly HM, Pellikka PA, Schaff HV, Hanna R, Maleszewski JJ, et al. 
-Outcomes of warfarin therapy for bioprosthetic valve thrombosis of surgically implanted valves: a prospective study. JACC Cardiovasc Interv 2017;10:379–87. https:// 
-doi.org/10.1016/j.jcin.2016.11.027 
-935. Jose J, Sulimov DS, El-Mawardy M, Sato T, Allali A, Holy EW, et al. Clinical bioprosthetic 
-heart valve thrombosis after transcatheter aortic valve replacement: incidence, characteristics, and treatment outcomes. JACC Cardiovasc Interv 2017;10:686–97. https:// 
-doi.org/10.1016/j.jcin.2017.01.045 
-936. Petrescu I, Egbe AC, Ionescu F, Nkomo VT, Greason KL, Pislaru C, et al. Long-term 
-outcomes of anticoagulation for bioprosthetic valve thrombosis. J Am Coll Cardiol 
-2020;75:857–66. https://doi.org/10.1016/j.jacc.2019.12.037 
-937. Pislaru SV, Hussain I, Pellikka PA, Maleszewski JJ, Hanna RD, Schaff HV, et al. 
-Misconceptions, diagnostic challenges and treatment opportunities in bioprosthetic 
-valve thrombosis: lessons from a case series. Eur J Cardiothorac Surg 2015;47: 
-725–32. https://doi.org/10.1093/ejcts/ezu201 
-938. Puri R, Auffret V, Rodés-Cabau J. Bioprosthetic valve thrombosis. J Am Coll Cardiol 
-2017;69:2193–211. https://doi.org/10.1016/j.jacc.2017.02.051 
-939. Sellers SL, Turner CT, Sathananthan J, Cartlidge TRG, Sin F, Bouchareb R, et al. 
-Transcatheter aortic heart valves: histological analysis providing insight to leaflet thickening and structural valve degeneration. JACC Cardiovasc Imaging 2019;12:135–45.  
-https://doi.org/10.1016/j.jcmg.2018.06.028 
-940. Alkhouli M, Rihal CS, Zack CJ, Eleid MF, Maor E, Sarraf M, et al. Transcatheter and surgical management of mitral paravalvular leak: long-term outcomes. JACC Cardiovasc 
-Interv 2017;10:1946–56. https://doi.org/10.1016/j.jcin.2017.07.046 
-941. Dvir D, Webb JG, Bleiziffer S, Pasic M, Waksman R, Kodali S, et al. Transcatheter aortic 
-valve implantation in failed bioprosthetic surgical valves. JAMA 2014;312:162–70.  
-https://doi.org/10.1001/jama.2014.7246 
-942. Yoon SH, Whisenant BK, Bleiziffer S, Delgado V, Dhoble A, Schofer N, et al. Outcomes 
-of transcatheter mitral valve replacement for degenerated bioprostheses, failed annuloplasty rings, and mitral annular calcification. Eur Heart J 2019;40:441–51. https://doi. 
-org/10.1093/eurheartj/ehy590 
-943. Whisenant B, Kapadia SR, Eleid MF, Kodali SK, McCabe JM, Krishnaswamy A, et al. 
-One-year outcomes of mitral valve-in-valve using the SAPIEN 3 transcatheter heart 
-valve. JAMA Cardiol 2020;5:1245–52. https://doi.org/10.1001/jamacardio.2020.2974 
-944. McElhinney DB, Aboulhosn JA, Dvir D, Whisenant B, Zhang Y, Eicken A, et al. 
-Mid-term valve-related outcomes after transcatheter tricuspid valve-in-valve or 
-valve-in-ring replacement. J Am Coll Cardiol 2019;73:148–57. https://doi.org/10.1016/ 
-j.jacc.2018.10.051 
-945. Muratori M, Montorsi P, Teruzzi G, Celeste F, Doria E, Alamanni F, et al. Feasibility and 
-diagnostic accuracy of quantitative assessment of mechanical prostheses leaflet motion 
-by transthoracic and transesophageal echocardiography in suspected prosthetic valve 
-dysfunction. Am J Cardiol 2006;97:94–100. https://doi.org/10.1016/j.amjcard.2005.07. 
-112 
-946. Barbetseas J, Nagueh SF, Pitsavos C, Toutouzas PK, Quiñones MA, Zoghbi WA. 
-Differentiating thrombus from pannus formation in obstructed mechanical prosthetic 
-valves: an evaluation of clinical, transthoracic and transesophageal echocardiographic 
-parameters. J Am Coll Cardiol 1998;32:1410–7. https://doi.org/10.1016/s0735- 
-1097(98)00385-4 
-947. Suchá D, Symersky P, Vonken EJPA, Provoost E, Chamuleau SA, Budde RP. 
-Multidetector-row computed tomography allows accurate measurement of mechanical prosthetic heart valve leaflet closing angles compared with fluoroscopy. J Comput 
-Assist Tomogr 2014;38:451–6. https://doi.org/10.1097/RCT.0b013e3182ab5f15 
-948. Daniel WG, Mügge A, Grote J, Hausmann D, Nikutta P, Laas J, et al. Comparison of 
-transthoracic and transesophageal echocardiography for detection of abnormalities 
-of prosthetic and bioprosthetic valves in the mitral and aortic positions. Am J Cardiol 
-1993;71:210–5. https://doi.org/10.1016/0002-9149(93)90740-4 
-949. Özkan M, Çakal B, Karakoyun S, Gürsoy OM, Çevik C, Kalçık M, et al. Thrombolytic 
-therapy for the treatment of prosthetic heart valve thrombosis in pregnancy with low- 
-dose, slow infusion of tissue-type plasminogen activator. Circulation 2013;128:532–40.  
-https://doi.org/10.1161/circulationaha.113.001145 
-950. Taherkhani M, Hashemi SR, Hekmat M, Safi M, Taherkhani A, Movahed MR. 
-Thrombolytic therapy for right-sided mechanical pulmonic and tricuspid valves: the largest survival analysis to date. Tex Heart Inst J 2015;42:543–7. https://doi.org/10.14503/ 
-THIJ-14-4659 
-951. Roudaut R, Roques X, Lafitte S, Choukroun E, Laborde N, Madona F, et al. Surgery for 
-prosthetic valve obstruction. A single center study of 136 patients. Eur J Cardiothorac 
-Surg 2003;24:868–72. https://doi.org/10.1016/s1010-7940(03)00568-2 
-952. Nishanth KR, Shankar M, Srinivasa KH, Manjunath CN, Ravindranath KS. Fibrinolysis in 
-left-sided mechanical prosthetic valve thrombosis with high INR. Eur Heart J Acute 
-Cardiovasc Care 2020;9:S58–62. https://doi.org/10.1177/2048872619846329 
-953. Separham A, Ghaffari S, Aslanabadi N, Sohrabi B, Ghojazadeh M, Anamzadeh E, et al. 
-Prosthetic valve thrombosis. J Card Surg 2015;30:246–50. https://doi.org/10.1111/jocs. 
-12510 
-954. Farzaneh K, Mortazavi SH, Oraii A, Abbasi K, Salehi Omran A, Ahmadi Tafti SH, et al. 
-Safety of thrombolytic therapy in patients with prosthetic heart valve thrombosis who 
-have high international normalized ratio levels. J Card Surg 2020;35:2522–8. https://doi. 
-org/10.1111/jocs.14777 
-955. Jander N, Kienzle RP, Kayser G, Neumann FJ, Gohlke-Baerwolf C, Minners J. 
-Usefulness of phenprocoumon for the treatment of obstructing thrombus in bioprostheses in the aortic valve position. Am J Cardiol 2012;109:257–62. https://doi. 
-org/10.1016/j.amjcard.2011.08.038 
-956. Oliver JM, Gallego P, Gonzalez A, Dominguez FJ, Gamallo C, Mesa JM. Bioprosthetic 
-mitral valve thrombosis: clinical profile, transesophageal echocardiographic features, 
-and follow-up after anticoagulant therapy. J Am Soc Echocardiogr 1996;9:691–9.  
-https://doi.org/10.1016/s0894-7317(96)90066-8 
-957. Agarwal S, Rajamanickam A, Bajaj NS, Griffin BP, Catacutan T, Svensson LG, et al. 
-Impact of aortic stenosis on postoperative outcomes after noncardiac surgeries. Circ 
-Cardiovasc 
-Qual 
-Outcomes 
-2013;6:193–200. 
-https://doi.org/10.1161/CIRC 
-OUTCOMES.111.000091 
-958. Taniguchi T, Morimoto T, Shiomi H, Ando K, Shirai S, Kanamori N, et al. Elective non- 
-cardiac surgery in patients with severe aortic stenosis — observations from the 
-CURRENT AS registry. Circ J 2020;84:1173–82. https://doi.org/10.1253/circj.CJ-20- 
-0026 
-959. Luis SA, Dohaei A, Chandrashekar P, Scott CG, Padang R, Lokineni S, et al. Impact of 
-aortic valve replacement for severe aortic stenosis on perioperative outcomes following major noncardiac surgery. Mayo Clin Proc 2020;95:727–37. https://doi.org/10.1016/ 
-j.mayocp.2019.10.038 
-960. Halvorsen S, Mehilli J, Cassese S, Hall TS, Abdelhamid M, Barbato E, et al. 2022 ESC 
-Guidelines on cardiovascular assessment and management of patients undergoing non- 
-cardiac surgery. Eur Heart J 2022;43:3826–924. https://doi.org/10.1093/eurheartj/ 
-ehac270 
-961. Okuno T, Demirel C, Tomii D, Erdoes G, Heg D, Lanz J, et al. Risk and timing of noncardiac surgery after transcatheter aortic valve implantation. JAMA Netw Open 2022;5: 
-e2220689. https://doi.org/10.1001/jamanetworkopen.2022.20689 
-962. Tashiro T, Pislaru SV, Blustin JM, Nkomo VT, Abel MD, Scott CG, et al. Perioperative 
-risk of major non-cardiac surgery in patients with severe aortic stenosis: a reappraisal 
-in contemporary practice. Eur Heart J 2014;35:2372–81. https://doi.org/10.1093/ 
-eurheartj/ehu044 
-963. Okuno T, Yahagi K, Horiuchi Y, Sato Y, Tanaka T, Koseki K, et al. The role of transcatheter aortic valve replacement in the patients with severe aortic stenosis requiring major non-cardiac surgery. Cardiovasc Interv Ther 2019;34:345–51. https://doi.org/10. 
-1007/s12928-019-00575-z 
-964. Calleja AM, Dommaraju S, Gaddam R, Cha S, Khandheria BK, Chaliki HP. Cardiac risk 
-in patients aged >75 years with asymptomatic, severe aortic stenosis undergoing noncardiac surgery. Am J Cardiol 2010;105:1159–63. https://doi.org/10.1016/j.amjcard. 
-2009.12.019 
-965. Sohrabi B, Kazemi B, Mehryar A, Teimouri-Dereshki A, Toufan M, Aslanabadi N. 
-Correlation between pulmonary artery pressure measured by echocardiography 
-and right heart catheterization in patients with rheumatic mitral valve stenosis (a prospective study). Echocardiography 2016;33:7–13. https://doi.org/10.1111/echo.13000 
-966. Smilowitz NR, Armanious A, Bangalore S, Ramakrishna H, Berger JS. Cardiovascular 
-outcomes of patients with pulmonary hypertension undergoing noncardiac surgery. 
-Am J Cardiol 2019;123:1532–7. https://doi.org/10.1016/j.amjcard.2019.02.006 
-967. Bajaj NS, Agarwal S, Rajamanickam A, Parashar A, Poddar KL, Griffin BP, et al. Impact of 
-severe mitral regurgitation on postoperative outcomes after noncardiac surgery. Am J 
-Med 2013;126:529–35. https://doi.org/10.1016/j.amjmed.2012.12.005 
-968. Regitz-Zagrosek V, Roos-Hesselink JW, Bauersachs J, Blomstrom-Lundqvist C, Cifkova 
-R, De Bonis M, et al. 2018 ESC Guidelines for the management of cardiovascular diseases during pregnancy. Eur Heart J 2018;39:3165–241. https://doi.org/10.1093/ 
-eurheartj/ehy340 
-969. Roos-Hesselink J, Baris L, Johnson M, De Backer J, Otto C, Marelli A, et al. Pregnancy 
-outcomes in women with cardiovascular disease: evolving trends over 10 years in the 
-ESC Registry Of Pregnancy And Cardiac disease (ROPAC). Eur Heart J 2019;40: 
-3848–55. https://doi.org/10.1093/eurheartj/ehz136 
-970. Pande SN, Yavana Suriya J, Ganapathy S, Pillai AA, Satheesh S, Mondal N, et al. 
-Validation of risk stratification for cardiac events in pregnant women with valvular 
-heart disease. J Am Coll Cardiol 2023;82:1395–406. https://doi.org/10.1016/j.jacc. 
-2023.07.023 
-971. van Hagen IM, Thorne SA, Taha N, Youssef G, Elnagar A, Gabriel H, et al. Pregnancy 
-outcomes in women with rheumatic mitral valve disease: results from the Registry of 
-Pregnancy and Cardiac Disease. Circulation 2018;137:806–16. https://doi.org/10.1161/ 
-CIRCULATIONAHA.117.032561 
-972. Orwat S, Diller GP, van Hagen IM, Schmidt R, Tobler D, Greutmann M, et al. Risk of 
-pregnancy in moderate and severe aortic stenosis: from the multinational ROPAC 
-registry. J Am Coll Cardiol 2016;68:1727–37. https://doi.org/10.1016/j.jacc.2016.07.750 
-973. Meijboom LJ, Vos FE, Timmermans J, Boers GH, Zwinderman AH, Mulder BJ. 
-Pregnancy and aortic root growth in the Marfan syndrome: a prospective study. Eur 
-Heart J 2005;26:914–20. https://doi.org/10.1093/eurheartj/ehi103 
-974. McKellar SH, MacDonald RJ, Michelena HI, Connolly HM, Sundt TMI. Frequency of cardiovascular events in women with a congenitally bicuspid aortic valve in a single  
-ESC Guidelines                                                                                                                                                                                            101
-
-
-<!-- PAGE 102 -->
-
-### Page 102
-
-community and effect of pregnancy on events. Am J Cardiol 2011;107:96–9. https://doi. 
-org/10.1016/j.amjcard.2010.08.061 
-975. Wichert-Schmitt B, Grewal J, Malinowski AK, Pfaller B, Losenno KL, Kiess MC, et al. 
-Outcomes of pregnancy in women with bioprosthetic heart valves with or without 
-valve dysfunction. J Am Coll Cardiol 2022;80:2014–24. https://doi.org/10.1016/j.jacc. 
-2022.09.019 
-976. van Hagen IM, Roos-Hesselink JW, Ruys TPE, Merz WM, Goland S, Gabriel H, et al. 
-Pregnancy in women with a mechanical heart valve: data of the European Society of 
-Cardiology Registry of Pregnancy and Cardiac Disease (ROPAC). Circulation 2015; 
-132:132–42. https://doi.org/10.1161/CIRCULATIONAHA.115.015242 
-977. Pfaller B, Dave Javier A, Grewal J, Gabarin N, Colman J, Kiess M, et al. Risk associated 
-with valvular regurgitation during pregnancy. J Am Coll Cardiol 2021;77:2656–64.  
-https://doi.org/10.1016/j.jacc.2021.03.327 
-978. Hameed A, Karaalp IS, Tummala PP, Wani OR, Canetti M, Akhter MW, et al. The effect 
-of valvular heart disease on maternal and fetal outcome of pregnancy. J Am Coll Cardiol 
-2001;37:893–9. https://doi.org/10.1016/s0735-1097(00)01198-0 
-979. Hoover E, Corlin T, Lohr J, Sabol B, Yamamura Y, Jacobs K, et al. TAVR beyond fetal 
-viability: an alternative to preterm delivery in symptomatic severe aortic stenosis. JACC 
-Case Rep 2023;27:102104. https://doi.org/10.1016/j.jaccas.2023.102104 
-980. Sajja A, Dassanayake M, Morales IA, Wenger NK, Smith C, Xie J, et al. Valve-in-valve 
-transcatheter aortic valve replacement during second trimester of pregnancy. JACC 
-Case Rep 2023;27:102074. https://doi.org/10.1016/j.jaccas.2023.102074 
-981. D’Souza R, Ostro J, Shah PS, Silversides CK, Malinowski A, Murphy KE, et al. 
-Anticoagulation for pregnant women with mechanical heart valves: a systematic review 
-and meta-analysis. Eur Heart J 2017;38:1509–16. https://doi.org/10.1093/eurheartj/ 
-ehx032 
-982. Fuchs A, Urena M, Chong-Nguyen C, Kikoine J, Brochet E, Abtan J, et al. Valve-in-valve 
-and valve-in-ring transcatheter mitral valve implantation in young women contemplating pregnancy. Circ Cardiovasc Interv 2020;13:e009579. https://doi.org/10.1161/ 
-CIRCINTERVENTIONS.120.009579 
-983. Mascherbauer J, Kammerlander A, Nitsche C, Bax J, Delgado V, Evangelista A, et al. 
-Sex-related differences in severe native valvular heart disease: the ESC-EORP 
-Valvular Heart Disease II survey. Eur Heart J 2024;45:3818–33. https://doi.org/10. 
-1093/eurheartj/ehae523 
-984. Cote N, Clavel MA. Sex differences in the pathophysiology, diagnosis, and management of aortic stenosis. Cardiol Clin 2020;38:129–38. https://doi.org/10.1016/j.ccl. 
-2019.09.008 
-985. Habib G, Erba PA, Iung B, Donal E, Cosyns B, Laroche C, et al. Clinical presentation, 
-aetiology and outcome of infective endocarditis. Results of the ESC-EORP 
-EURO-ENDO (European infective endocarditis) registry: a prospective cohort study. 
-Eur Heart J 2019;40:3222–32. https://doi.org/10.1093/eurheartj/ehz620 
-986. Avierinos JF, Inamo J, Grigioni F, Gersh B, Shub C, Enriquez-Sarano M. Sex differences 
-in morphology and outcomes of mitral valve prolapse. Ann Intern Med 2008;149: 
-787–95. https://doi.org/10.7326/0003-4819-149-11-200812020-00003 
-987. Brown JM, O’Brien SM, Wu C, Sikora JA, Griffith BP, Gammie JS. Isolated aortic valve 
-replacement in North America comprising 108,687 patients in 10 years: changes in 
-risks, valve types, and outcomes in the Society of Thoracic Surgeons National 
-Database. J Thorac Cardiovasc Surg 2009;137:82–90. https://doi.org/10.1016/j.jtcvs. 
-2008.08.015 
-988. O’Brien SM, Feng L, He X, Xian Y, Jacobs JP, Badhwar V, et al. The Society of Thoracic 
-Surgeons 2018 adult cardiac surgery risk models: part 2—statistical methods and results. Ann Thorac Surg 2018;105:1419–28. https://doi.org/10.1016/j.athoracsur.2018. 
-03.003 
-989. Shan Y, Pellikka PA. Aortic stenosis in women. Heart 2020;106:970–6. https://doi.org/ 
-10.1136/heartjnl-2019-315407 
-990. Voisine M, Hervault M, Shen M, Boilard AJ, Filion B, Rosa M, et al. Age, sex, and valve 
-phenotype differences in fibro-calcific remodeling of calcified aortic valve. J Am Heart 
-Assoc 2020;9:e015610. https://doi.org/10.1161/JAHA.119.015610 
-991. Capoulade R, Clavel MA, Le Ven F, Dahou A, Thebault C, Tastet L, et al. Impact of left 
-ventricular remodelling patterns on outcomes in patients with aortic stenosis. Eur 
-Heart J Cardiovasc Imaging 2017;18:1378–87. https://doi.org/10.1093/ehjci/jew288 
-992. Simard L, Côté N, Dagenais F, Mathieu P, Couture C, Trahan S, et al. Sex-related discordance between aortic valve calcification and hemodynamic severity of aortic stenosis: is valvular fibrosis the explanation? Circ Res 2017;120:681–91. https://doi.org/10. 
-1161/CIRCRESAHA.116.309306 
-993. Bienjonetti-Boudreau D, Fleury MA, Voisine M, Paquin A, Chouinard I, Tailleur M, et al. 
-Impact of sex on the management and outcome of aortic stenosis patients. Eur Heart J 
-2021;42:2683–91. https://doi.org/10.1093/eurheartj/ehab242 
-994. Tribouilloy C, Bohbot Y, Rusinaru D, Belkhir K, Diouf M, Altes A, et al. Excess mortality 
-and undertreatment of women with severe aortic stenosis. J Am Heart Assoc 2021;10: 
-e018816. https://doi.org/10.1161/JAHA.120.018816 
-995. Hartzell M, Malhotra R, Yared K, Rosenfield HR, Walker JD, Wood MJ. Effect of gender 
-on treatment and outcomes in severe aortic stenosis. Am J Cardiol 2011;107:1681–6.  
-https://doi.org/10.1016/j.amjcard.2011.01.059 
-996. Lowenstern A, Sheridan P, Wang TY, Boero I, Vemulapalli S, Thourani VH, et al. Sex 
-disparities in patients with symptomatic severe aortic stenosis. Am Heart J 2021;237: 
-116–26. https://doi.org/10.1016/j.ahj.2021.01.021 
-997. Onorati F, D’Errigo P, Barbanti M, Rosato S, Covello RD, Maraschini A, et al. Different 
-impact of sex on baseline characteristics and major periprocedural outcomes of transcatheter and surgical aortic valve interventions: results of the multicenter Italian 
-OBSERVANT registry. J Thorac Cardiovasc Surg 2014;147:1529–39. https://doi.org/ 
-10.1016/j.jtcvs.2013.05.039 
-998. Tchetche D, Pibarot P, Bax JJ, Bonaros N, Windecker S, Dumonteil N, et al. 
-Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial. Eur 
-Heart J 2025:ehaf133. https://doi.org/10.1093/eurheartj/ehaf133 
-999. Saad M, Nairooz R, Pothineni NVK, Almomani A, Kovelamudi S, Sardar P, et al. 
-Long-term outcomes with transcatheter aortic valve replacement in women compared with men: evidence from a meta-analysis. JACC Cardiovasc Interv 2018;11: 
-24–35. https://doi.org/10.1016/j.jcin.2017.08.015 
-1000. Akintoye E, Saijo Y, Braghieri L, Badwan O, Patel H, Dabbagh MM, et al. Impact of age 
-and sex on left ventricular remodeling in patients with aortic regurgitation. J Am Coll 
-Cardiol 2023;81:1474–87. https://doi.org/10.1016/j.jacc.2023.02.037 
-1001. Kammerlander AA, Donà C, Nitsche C, Koschutnik M, Zafar A, Eslami P, et al. Sex 
-differences in left ventricular remodeling and outcomes in chronic aortic regurgitation. J Clin Med 2020;9:4100. https://doi.org/10.3390/jcm9124100 
-1002. Basso C, Iliceto S, Thiene G, Perazzolo Marra M. Mitral valve prolapse, ventricular arrhythmias, and sudden death. Circulation 2019;140:952–64. https://doi.org/10.1161/ 
-CIRCULATIONAHA.118.034075 
-1003. Stolfo D, Uijl A, Vedin O, Stromberg A, Faxen UL, Rosano GMC, et al. Sex-based differences in heart failure across the ejection fraction spectrum: phenotyping, and 
-prognostic and therapeutic implications. JACC Heart Fail 2019;7:505–15. https://doi. 
-org/10.1016/j.jchf.2019.03.011 
-1004. El Sabbagh A, Al-Hijji M, Wang DD, Eleid M, Urena M, Himbert D, et al. Predictors of 
-left ventricular outflow tract obstruction after transcatheter mitral valve replacement 
-in severe mitral annular calcification: an analysis of the Transcatheter Mitral Valve 
-Replacement in Mitral Annular Calcification Global Registry. Circ Cardiovasc Interv 
-2021;14:e010854. https://doi.org/10.1161/CIRCINTERVENTIONS.121.010854 
-1005. Willner N, Burwash IG, Beauchesne L, Chan V, Vulesevic B, Ascah K, et al. Natural 
-history of mitral annular calcification and calcific mitral valve disease. J Am Soc 
-Echocardiogr 2022;35:925–32. https://doi.org/10.1016/j.echo.2022.05.007 
-1006. Offen S, Playford D, Strange G, Stewart S, Celermajer DS. Adverse prognostic impact 
-of even mild or moderate tricuspid regurgitation: insights from the National 
-Echocardiography Database of Australia. J Am Soc Echocardiogr 2022;35:810–17.  
-https://doi.org/10.1016/j.echo.2022.04.003 
-1007. Mutlak D, Khalil J, Lessick J, Kehat I, Agmon Y, Aronson D. Risk factors for the development of functional tricuspid regurgitation and their population-attributable fractions. JACC Cardiovasc Imaging 2020;13:1643–51. https://doi.org/10.1016/j.jcmg. 
-2020.01.015 
-1008. Prihadi EA, van der Bijl P, Gursoy E, Abou R, Mara Vollema E, Hahn RT, et al. 
-Development of significant tricuspid regurgitation over time and prognostic implications: new insights into natural history. Eur Heart J 2018;39:3574–81. https://doi.org/ 
-10.1093/eurheartj/ehy352 
-1009. Beale AL, Nanayakkara S, Segan L, Mariani JA, Maeder MT, van Empel V, et al. Sex differences in heart failure with preserved ejection fraction pathophysiology: a detailed 
-invasive hemodynamic and echocardiographic analysis. JACC Heart Fail 2019;7: 
-239–49. https://doi.org/10.1016/j.jchf.2019.01.004 
-1010. Dietz MF, Prihadi EA, van der Bijl P, Fortuni F, Marques AI, Ajmone Marsan N, et al. 
-Sex-specific differences in etiology and prognosis in patients with significant tricuspid 
-regurgitation. Am J Cardiol 2021;147:109–15. https://doi.org/10.1016/j.amjcard.2021. 
-02.016 
-1011. Pfannmueller B, Eifert S, Seeburger J, Misfeld M, Borger M, Mende M, et al. 
-Gender-dependent differences in patients undergoing tricuspid valve surgery. 
-Thorac Cardiovasc Surg 2013;61:37–41. https://doi.org/10.1055/s-0032-1324406 
-1012. Fortmeier V, Lachmann M, Körber MI, Unterhuber M, Schober AR, Stolz L, et al. 
-Sex-related differences in clinical characteristics and outcome prediction among patients undergoing transcatheter tricuspid valve intervention. JACC Cardiovasc Interv 
-2023;16:909–23. https://doi.org/10.1016/j.jcin.2023.01.378 
-1013. Scotti A, Coisne A, Taramasso M, Granada JF, Ludwig S, Rodes-Cabau J, et al. 
-Sex-related characteristics and short-term outcomes of patients undergoing transcatheter tricuspid valve intervention for tricuspid regurgitation. Eur Heart J 2023; 
-44:822–32. https://doi.org/10.1093/eurheartj/ehac735
