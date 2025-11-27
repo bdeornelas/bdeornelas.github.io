@@ -120,13 +120,13 @@ class ESCChatbot {
         let tocMatches = this.searchTOC(question);
         console.log('TOC matches:', tocMatches);
 
-        // Phase 1b: If TOC search yields weak results, do direct content search
-        if (tocMatches.length < 2 || tocMatches[0]?.score < 2) {
-            const directMatches = await this.searchContentDirectly(question);
-            if (directMatches.length > 0) {
-                tocMatches = [...tocMatches, ...directMatches].slice(0, 5);
-                console.log('Added direct content matches:', directMatches.length);
-            }
+        // Phase 1b: ALWAYS do direct content search for specific terms (drugs, values)
+        // TOC only has section headers, not detailed content locations
+        const directMatches = await this.searchContentDirectly(question);
+        if (directMatches.length > 0) {
+            // Prioritize direct matches (they find actual content, not just section headers)
+            tocMatches = [...directMatches, ...tocMatches].slice(0, 5);
+            console.log('Direct content matches:', directMatches.length);
         }
 
         // Phase 2: READ - Extract actual content from MD files
@@ -142,6 +142,7 @@ class ESCChatbot {
 
     async searchContentDirectly(question) {
         const keywords = this.extractKeywords(question);
+        const questionWords = question.toLowerCase().split(/\s+/).filter(w => w.length > 4);
         const matches = [];
         const years = ['2024', '2023', '2025', '2022', '2021', '2020'];
 
@@ -149,12 +150,24 @@ class ESCChatbot {
             const lines = await this.loadGuidelineFile(year);
             if (!lines) continue;
 
-            // Search for keyword matches in content
-            for (let i = 0; i < lines.length; i += 50) {
-                const chunk = lines.slice(i, i + 100).join(' ').toLowerCase();
-                const matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
+            let bestMatch = null;
+            let bestScore = 0;
 
-                if (matchScore >= 2) {
+            // Search for keyword matches in content
+            for (let i = 0; i < lines.length; i += 30) {
+                const chunk = lines.slice(i, i + 80).join(' ').toLowerCase();
+
+                // Count keyword matches
+                let matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
+
+                // Bonus for exact question words (like drug names)
+                questionWords.forEach(word => {
+                    if (chunk.includes(word)) matchScore += 2;
+                });
+
+                if (matchScore > bestScore) {
+                    bestScore = matchScore;
+
                     // Find the nearest page marker
                     let page = null;
                     for (let j = i; j >= Math.max(0, i - 50); j--) {
@@ -165,17 +178,19 @@ class ESCChatbot {
                         }
                     }
 
-                    matches.push({
+                    bestMatch = {
                         tocLine: `Direct match in ESC_${year}.md`,
                         year: year,
                         startLine: i + 1,
                         page: page,
                         score: matchScore
-                    });
-
-                    // Only take first good match per year
-                    break;
+                    };
                 }
+            }
+
+            // Only add if we found a reasonably good match
+            if (bestMatch && bestScore >= 3) {
+                matches.push(bestMatch);
             }
         }
 
