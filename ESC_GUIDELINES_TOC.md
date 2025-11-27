@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: /ESC_GUIDELINES_TOC.md
+---
 # Indice Linee Guida ESC (2020-2025)
 
 *Generato automaticamente il 27/11/2025 alle 09:00*
