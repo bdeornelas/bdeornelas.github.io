@@ -48,6 +48,30 @@ class ESCChatbot {
         await this.loadTOC();
         this.setupEventListeners();
         this.enableChatbot();
+        // Preload all guideline files in background for instant access
+        this.preloadAllGuidelines();
+    }
+
+    async preloadAllGuidelines() {
+        console.log('Preloading all guidelines in background...');
+        const statusBadge = document.getElementById('status-badge');
+
+        let loaded = 0;
+        const total = this.guidelineFiles.length;
+
+        // Load in parallel batches of 5 to avoid overwhelming the browser
+        for (let i = 0; i < this.guidelineFiles.length; i += 5) {
+            const batch = this.guidelineFiles.slice(i, i + 5);
+            await Promise.all(batch.map(async (filename) => {
+                await this.loadGuidelineFile(filename);
+                loaded++;
+                statusBadge.innerHTML = `<span class="badge-dot"></span> Caricamento ${loaded}/${total}`;
+            }));
+        }
+
+        console.log(`✓ All ${total} guidelines preloaded`);
+        statusBadge.innerHTML = '<span class="badge-dot"></span> Pronto (cache completa)';
+        statusBadge.className = 'badge badge-success';
     }
 
     async loadTOC() {
