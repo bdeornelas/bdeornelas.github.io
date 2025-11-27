@@ -233,26 +233,27 @@ class ESCChatbot {
             if (matchScore === 0) continue;
 
             // Extract year from context (look backwards for year/section header)
+            // Priority: **File:** > anchor name > year header
             let year = null;
+            let foundAnchor = null;
             for (let j = i; j >= Math.max(0, i - 100); j--) {
-                // Match: ### <a name="2023-cardiomyopathies"></a>
-                const anchorMatch = lines[j].match(/###.*<a name="(202[0-5])-/);
-                if (anchorMatch) {
-                    year = anchorMatch[1];
-                    break;
-                }
-                // Match: ### 2023 or ## 2023
-                const yearMatch = lines[j].match(/^##+ (202[0-5])/);
-                if (yearMatch) {
-                    year = yearMatch[1];
-                    break;
-                }
-                // Match: **File:** `2023_Cardiomyopathies.pdf`
+                // Highest priority: **File:** `2023_Cardiomyopathies.pdf`
                 const fileMatch = lines[j].match(/\*\*File:\*\*.*`(202[0-5])_/);
                 if (fileMatch) {
                     year = fileMatch[1];
                     break;
                 }
+                // Second priority: ### <a name="2023-cardiomyopathies"></a>
+                if (!foundAnchor) {
+                    const anchorMatch = lines[j].match(/###.*<a name="(202[0-5])-/);
+                    if (anchorMatch) {
+                        foundAnchor = anchorMatch[1];
+                    }
+                }
+            }
+            // Use anchor if no file match found
+            if (!year && foundAnchor) {
+                year = foundAnchor;
             }
 
             // Extract line number from TOC entry: *(p. X, LNNN)*
