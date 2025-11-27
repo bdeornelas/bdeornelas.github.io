@@ -4,10 +4,8 @@
 
 class ESCChatbot {
     constructor() {
-        // Hardcoded API key for personal use
-        this.apiKey = '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';
+        // API key is stored securely in Vercel environment variables
         this.model = 'anthropic/claude-3.5-sonnet';
-        this.streamEnabled = false;
         this.tocData = null;
 
         this.init();
@@ -290,13 +288,11 @@ Please provide your answer now.`;
     }
 
     async callOpenRouter(systemPrompt, userPrompt) {
-        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        // Call our secure backend API (API key stored in Vercel env vars)
+        const response = await fetch('/api/chat', {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer ${this.apiKey}`,
-                'Content-Type': 'application/json',
-                'HTTP-Referer': window.location.origin,
-                'X-Title': 'ESC Guidelines Chatbot'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 model: this.model,
@@ -309,9 +305,7 @@ Please provide your answer now.`;
                         role: 'user',
                         content: userPrompt
                     }
-                ],
-                temperature: 0.3, // Lower temperature for more factual responses
-                max_tokens: 2000,
+                ]
             })
         });
 
