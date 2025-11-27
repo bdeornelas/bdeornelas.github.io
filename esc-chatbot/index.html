@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESC Guidelines AI Assistant</title>
+    <meta name="description" content="Assistente AI per interrogare le Linee Guida ESC con citazioni automatiche">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>
+                    <svg class="logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    ESC Guidelines Assistant
+                </h1>
+                <p class="subtitle">Interroga le Linee Guida ESC con citazioni automatiche</p>
+            </div>
+            <div class="header-info">
+                <span class="badge badge-success" id="status-badge">
+                    <span class="badge-dot"></span>
+                    Pronto
+                </span>
+                <span class="guidelines-count" id="guidelines-count">50+ Guidelines 2020-2025</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Sidebar with Examples -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Esempi di Domande</h3>
+                    <div class="example-questions">
+                        <button class="example-btn" data-question="Si deve fare TAC se uno ha 45mm di aortic root?">
+                            <span class="example-icon">🫀</span>
+                            <span class="example-text">TAC per aortic root 45mm?</span>
+                        </button>
+                        <button class="example-btn" data-question="Quali sono i criteri ESC per stenosi aortica severa?">
+                            <span class="example-icon">🩺</span>
+                            <span class="example-text">Criteri stenosi aortica severa</span>
+                        </button>
+                        <button class="example-btn" data-question="A che diametro si opera l'aneurisma dell'aorta ascendente?">
+                            <span class="example-icon">⚕️</span>
+                            <span class="example-text">Soglia chirurgica aneurisma aorta</span>
+                        </button>
+                        <button class="example-btn" data-question="Quando iniziare anticoagulante in fibrillazione atriale?">
+                            <span class="example-icon">💊</span>
+                            <span class="example-text">Anticoagulazione in FA</span>
+                        </button>
+                        <button class="example-btn" data-question="Target pressorio per paziente diabetico secondo ESC 2024?">
+                            <span class="example-icon">📊</span>
+                            <span class="example-text">Target PA in diabete</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Linee Guida Disponibili</h3>
+                    <div class="guidelines-list">
+                        <details open>
+                            <summary>2024 (4 guidelines)</summary>
+                            <ul>
+                                <li>Atrial Fibrillation</li>
+                                <li>Chronic Coronary Syndromes</li>
+                                <li>Hypertension</li>
+                                <li>Peripheral Arterial & Aortic</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>2023 (4 guidelines)</summary>
+                            <ul>
+                                <li>Acute Coronary Syndromes</li>
+                                <li>Cardiomyopathies</li>
+                                <li>CVD & Diabetes</li>
+                                <li>Endocarditis</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>2022 (4 guidelines)</summary>
+                            <ul>
+                                <li>Cardio-oncology</li>
+                                <li>Valvular Heart Disease</li>
+                                <li>Pulmonary Hypertension</li>
+                                <li>Ventricular Arrhythmias</li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Come Funziona</h3>
+                    <ol class="how-it-works">
+                        <li>
+                            <strong>Locate</strong>
+                            <span>Cerca nel TOC il PDF corretto</span>
+                        </li>
+                        <li>
+                            <strong>Read</strong>
+                            <span>Legge le sezioni rilevanti</span>
+                        </li>
+                        <li>
+                            <strong>Cite</strong>
+                            <span>Risponde con citazioni esatte</span>
+                        </li>
+                    </ol>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <div class="chat-container">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message assistant-message welcome-message">
+                        <div class="message-avatar">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-header">
+                                <span class="message-author">ESC Assistant</span>
+                            </div>
+                            <div class="message-text">
+                                <p>👋 Benvenuto! Sono il tuo assistente per le <strong>Linee Guida ESC</strong>.</p>
+                                <p>Puoi farmi domande cliniche cardiovascolari e ti risponderò citando esattamente dalle linee guida ESC ufficiali (2020-2025).</p>
+                                <p><strong>Prova con gli esempi qui a sinistra</strong> o scrivi la tua domanda!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="chat-input-container">
+                    <div class="api-key-notice" id="api-key-notice">
+                        ⚠️ <strong>Configurazione richiesta:</strong>
+                        <a href="#" id="show-settings">Inserisci la tua OpenRouter API key</a>
+                    </div>
+                    <form class="chat-input-form" id="chat-form">
+                        <textarea
+                            class="chat-input"
+                            id="chat-input"
+                            placeholder="Fai una domanda sulle linee guida ESC..."
+                            rows="1"
+                            disabled
+                        ></textarea>
+                        <button type="submit" class="send-button" id="send-button" disabled>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="input-hint">
+                        Shift + Enter per nuova linea • Enter per inviare
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div class="modal" id="settings-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Configurazione</h2>
+                    <button class="modal-close" id="close-settings">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="api-key-input">
+                            OpenRouter API Key
+                            <a href="https://openrouter.ai/keys" target="_blank" class="help-link">
+                                (Ottieni qui)
+                            </a>
+                        </label>
+                        <input
+                            type="password"
+                            id="api-key-input"
+                            class="form-control"
+                            placeholder="sk-or-v1-..."
+                        >
+                        <small class="form-text">
+                            La tua API key non viene salvata sui server, rimane solo nel tuo browser.
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="model-select">Modello</label>
+                        <select id="model-select" class="form-control">
+                            <option value="anthropic/claude-3.5-sonnet" selected>Claude 3.5 Sonnet (Raccomandato)</option>
+                            <option value="anthropic/claude-3-opus">Claude 3 Opus</option>
+                            <option value="openai/gpt-4-turbo">GPT-4 Turbo</option>
+                            <option value="openai/gpt-4o">GPT-4o</option>
+                            <option value="google/gemini-pro-1.5">Gemini 1.5 Pro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="stream-responses">
+                            Stream responses (risposta in tempo reale)
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="cancel-settings">Annulla</button>
+                    <button class="btn btn-primary" id="save-settings">Salva</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
