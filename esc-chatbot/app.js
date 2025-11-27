@@ -198,18 +198,25 @@ class ESCChatbot {
             const matchScore = keywords.filter(kw => lineLower.includes(kw)).length;
             if (matchScore === 0) continue;
 
-            // Extract year from context (look backwards for year header)
+            // Extract year from context (look backwards for year/section header)
             let year = null;
-            for (let j = i; j >= Math.max(0, i - 50); j--) {
-                const yearMatch = lines[j].match(/^### (\d{4})/);
+            for (let j = i; j >= Math.max(0, i - 100); j--) {
+                // Match: ### <a name="2023-cardiomyopathies"></a>
+                const anchorMatch = lines[j].match(/###.*<a name="(202[0-5])-/);
+                if (anchorMatch) {
+                    year = anchorMatch[1];
+                    break;
+                }
+                // Match: ### 2023 or ## 2023
+                const yearMatch = lines[j].match(/^##+ (202[0-5])/);
                 if (yearMatch) {
                     year = yearMatch[1];
                     break;
                 }
-                // Also check for year in the line itself
-                const inlineYear = lines[j].match(/\b(202[0-5])\b/);
-                if (inlineYear) {
-                    year = inlineYear[1];
+                // Match: **File:** `2023_Cardiomyopathies.pdf`
+                const fileMatch = lines[j].match(/\*\*File:\*\*.*`(202[0-5])_/);
+                if (fileMatch) {
+                    year = fileMatch[1];
                     break;
                 }
             }
