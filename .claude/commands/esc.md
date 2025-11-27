@@ -70,9 +70,16 @@ Execute these 3 phases sequentially to answer the clinical question above:
    - **Tables** with comparative data
 4. Capture **EXACT QUOTES** for citation (no paraphrasing)
 
+**CRITICAL VALIDATION RULE**:
+⚠️ **NEVER separate a quote from its topic!** Each quote must be tagged with its subject:
+- ❌ WRONG: Quote about statins under "Antiaggreganti" section
+- ✅ RIGHT: Quote about statins under "Statine" section
+- Before writing each section, RE-READ the quote to verify it matches the topic header
+
 **Output from Phase 2**:
 ```
 📖 READ:
+- Topic: [What this quote is about - e.g., "lipid-lowering", "antiplatelet", "beta-blockers"]
 - Recommendation: "[exact quote from guideline]"
 - Class: [I/IIa/IIb/III]
 - Level: [A/B/C]
@@ -159,6 +166,10 @@ Before delivering the answer, verify:
 - [ ] **Line numbers (L) were used for fast Read access**
 - [ ] Correct Markdown file was identified and read from `references/esc-guidelines-md/`
 - [ ] Exact quotes were extracted (not paraphrased)
+- [ ] **⚠️ TOPIC-QUOTE MATCH: Each quote is placed under the correct topic header**
+  - Re-read each quote before placing it
+  - A quote about "statin therapy" goes under Statins, NOT Antiplatelets
+  - A quote about "P2Y12 inhibitors" goes under Antiplatelets, NOT Statins
 - [ ] Recommendation Class and Level are included
 - [ ] Page numbers are accurate
 - [ ] Clinical thresholds/values are specified
