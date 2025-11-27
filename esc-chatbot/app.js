@@ -260,11 +260,12 @@ class ESCChatbot {
 **Page**: [page number]
 
 **AVAILABLE GUIDELINES (2020-2025):**
+- 2025: Dyslipidaemias Update, Mental Health & CVD, Myocarditis & Pericarditis, Pregnancy & CVD, Valvular Heart Disease
 - 2024: Atrial Fibrillation, Chronic Coronary Syndromes, Hypertension, Peripheral Arterial & Aortic
-- 2023: Acute Coronary Syndromes, Cardiomyopathies, CVD & Diabetes, Endocarditis
-- 2022: Cardio-oncology, Valvular Heart Disease, Pulmonary Hypertension, Ventricular Arrhythmias
-- 2021: Heart Failure, Pacing & CRT, Prevention
-- 2020: Adult Congenital Heart Disease, Sports Cardiology
+- 2023: Acute Coronary Syndromes, Cardiomyopathies, CVD & Diabetes, Endocarditis, Heart Failure Update
+- 2022: Cardio-oncology, Non-Cardiac Surgery, Pulmonary Hypertension, Ventricular Arrhythmias & SCD
+- 2021: CVD Prevention, Cardiac Pacing & CRT, Heart Failure, Valvular Heart Disease
+- 2020: ACS NSTE, Adult Congenital Heart Disease, Atrial Fibrillation, Sports Cardiology
 
 **IMPORTANT**:
 - If you don't have access to the exact PDF content, indicate that the answer is based on general ESC guideline knowledge and recommend verifying in the official PDF
