@@ -291,6 +291,37 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
         .options-row { display:flex; gap:20px; align-items:center; flex-wrap:wrap; }
+
+        /* Tree menu styles for HT scenario */
+        .ht-tree-menu { position: relative; }
+        .ht-tree-menu ul { list-style: none; margin: 0; padding: 0; }
+        .ht-menu-level-1 { display: flex; gap: 8px; flex-wrap: wrap; }
+        .ht-menu-level-1 > li { position: relative; }
+        .ht-menu-item, .ht-tree-menu a {
+            display: block; padding: 8px 14px; background: var(--surface-color);
+            border: 1px solid var(--border-color); border-radius: 6px;
+            color: var(--text-color); text-decoration: none; font-size: 0.9em;
+            cursor: pointer; white-space: nowrap; transition: all 0.15s;
+        }
+        .ht-menu-item:hover, .ht-tree-menu a:hover {
+            background: var(--primary-color); color: white; border-color: var(--primary-color);
+        }
+        .ht-submenu {
+            display: none; position: absolute; left: 100%; top: 0;
+            background: var(--background-color); border: 1px solid var(--border-color);
+            border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            min-width: 180px; z-index: 100; padding: 4px;
+        }
+        .ht-menu-level-1 > li > .ht-submenu { left: 0; top: 100%; margin-top: 4px; }
+        .ht-submenu li { position: relative; }
+        .ht-submenu .ht-menu-item, .ht-submenu a {
+            border: none; border-radius: 4px; margin: 2px 0;
+        }
+        .ht-has-submenu:hover > .ht-submenu { display: block; }
+        .ht-selected-path {
+            margin-top: 8px; padding: 8px 12px; background: var(--success-color);
+            color: white; border-radius: 6px; font-size: 0.85em;
+        }
     </style>
     <script>
         let aggiungereConsigliLipidi = false;
@@ -991,83 +1022,47 @@ Trigliceridi: `;
             }
         }
 
-        // Reset all cascading dropdowns for HT scenario
+        // Reset HT scenario
         function resetHtCascade() {
-            document.getElementById('ht-esami').value = '';
-            document.getElementById('ht-ldl').value = '';
-            document.getElementById('ht-diabete').value = '';
-            document.getElementById('ht-rischio').value = '';
-            document.getElementById('ht-ldl-container').style.display = 'none';
-            document.getElementById('ht-diabete-container').style.display = 'none';
-            document.getElementById('ht-rischio-container').style.display = 'none';
+            htGeneratedText = '';
             document.getElementById('ht-testo-generato').style.display = 'none';
+            const selectedPath = document.getElementById('ht-selected-path');
+            if (selectedPath) selectedPath.remove();
         }
 
-        // Update cascading dropdowns visibility based on selections
-        function updateHtCascade() {
-            const esami = document.getElementById('ht-esami').value;
-            const ldl = document.getElementById('ht-ldl').value;
-            const diabete = document.getElementById('ht-diabete').value;
-            const rischio = document.getElementById('ht-rischio').value;
+        // Select scenario from tree menu and store text in memory
+        function selectHtScenario(esami, ldl, diabete, rischio) {
+            // Generate text
+            const testo = generateHtTextByScenario(esami, ldl, diabete, rischio);
 
-            // Show/hide LDL dropdown based on esami selection
-            const ldlContainer = document.getElementById('ht-ldl-container');
-            const diabeteContainer = document.getElementById('ht-diabete-container');
-            const rischioContainer = document.getElementById('ht-rischio-container');
+            // Store in memory for compilaVisita
+            htGeneratedText = testo;
 
-            if (esami === 'disponibili') {
-                ldlContainer.style.display = 'block';
-            } else {
-                ldlContainer.style.display = 'none';
-                document.getElementById('ht-ldl').value = '';
+            // Show selected path
+            const cascade = document.getElementById('primo-ht-cascade');
+            let pathDiv = document.getElementById('ht-selected-path');
+            if (!pathDiv) {
+                pathDiv = document.createElement('div');
+                pathDiv.id = 'ht-selected-path';
+                pathDiv.className = 'ht-selected-path';
+                cascade.insertBefore(pathDiv, cascade.querySelector('.ht-tree-menu').nextSibling);
             }
 
-            // Show diabete if esami selected (disponibili or non-disponibili)
-            if (esami) {
-                diabeteContainer.style.display = 'block';
-            } else {
-                diabeteContainer.style.display = 'none';
-                document.getElementById('ht-diabete').value = '';
-            }
+            // Build path description
+            const esamiLabel = esami === 'disponibili' ? 'Esami disponibili' : 'Esami non disponibili';
+            const ldlLabel = ldl ? (ldl === 'normale' ? 'LDL normale' : ldl === 'elevato' ? 'LDL elevato' : 'LDL molto elevato') : '';
+            const diabeteLabel = diabete === 'si' ? 'Diabete' : 'No diabete';
+            const rischioLabel = rischio.charAt(0).toUpperCase() + rischio.slice(1).replace('-', ' ');
 
-            // Show rischio if diabete selected
-            if (diabete) {
-                rischioContainer.style.display = 'block';
-            } else {
-                rischioContainer.style.display = 'none';
-                document.getElementById('ht-rischio').value = '';
-            }
+            const pathParts = [esamiLabel];
+            if (ldlLabel) pathParts.push(ldlLabel);
+            pathParts.push(diabeteLabel, 'Rischio ' + rischioLabel);
 
-            // Generate text when all required fields are filled
-            generateHtText();
-        }
+            pathDiv.innerHTML = '<strong>Selezionato:</strong> ' + pathParts.join(' > ');
 
-        // ESC-compliant text templates for all scenarios
-        function generateHtText() {
-            const esami = document.getElementById('ht-esami').value;
-            const ldl = document.getElementById('ht-ldl').value;
-            const diabete = document.getElementById('ht-diabete').value;
-            const rischio = document.getElementById('ht-rischio').value;
-
+            // Show preview
             const testoContainer = document.getElementById('ht-testo-generato');
             const testoPreview = document.getElementById('ht-testo-preview');
-
-            // Check if minimum required fields are filled
-            let canGenerate = false;
-            if (esami === 'non-disponibili' && diabete && rischio) {
-                canGenerate = true;
-            } else if (esami === 'disponibili' && ldl && diabete && rischio) {
-                canGenerate = true;
-            }
-
-            if (!canGenerate) {
-                testoContainer.style.display = 'none';
-                return;
-            }
-
-            // Generate the text based on the combination
-            let testo = generateHtTextByScenario(esami, ldl, diabete, rischio);
-
             testoPreview.textContent = testo;
             testoContainer.style.display = 'block';
         }
@@ -1076,7 +1071,7 @@ Trigliceridi: `;
             let testo = '';
 
             // Base text for first-time hypertension finding
-            const baseHt = `Primo riscontro di valori pressori elevati. Per confermare la diagnosi di ipertensione arteriosa, si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). In caso di conferma, l'obiettivo terapeutico sarà raggiungere valori di 120-129/70-79 mmHg. Si programma ecocardiogramma color Doppler ed ecocolorDoppler dei tronchi sovraortici per la valutazione del danno d'organo.`;
+            const baseHt = `Primo riscontro di valori pressori elevati. Per confermare la diagnosi di ipertensione arteriosa, si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). In caso di conferma, l'obiettivo terapeutico sarà raggiungere valori di 120-129/70-79 mmHg. Si richiede ecocardiogramma color Doppler ed ecocolorDoppler dei tronchi sovraortici per la valutazione del danno d'organo.`;
 
             // Text for labs not available
             if (esami === 'non-disponibili') {
@@ -1428,45 +1423,109 @@ Trigliceridi: `;
                 </select>
             </div>
 
-            <!-- Cascading dropdowns for "Primo riscontro ipertensione" -->
-            <div id="primo-ht-cascade" style="display: none; margin-top: 12px; padding: 12px; background: var(--surface-color); border-radius: 8px; border: 1px solid var(--border-color);">
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px;">
-                    <div class="form-group" style="margin-bottom: 0;">
-                        <label for="ht-esami">Esami ematochimici</label>
-                        <select id="ht-esami" onchange="updateHtCascade()">
-                            <option value="">-- Seleziona --</option>
-                            <option value="disponibili">Disponibili</option>
-                            <option value="non-disponibili">Non disponibili</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="ht-ldl-container" style="display: none; margin-bottom: 0;">
-                        <label for="ht-ldl">Livello LDL</label>
-                        <select id="ht-ldl" onchange="updateHtCascade()">
-                            <option value="">-- Seleziona --</option>
-                            <option value="normale">&lt; 116 mg/dL (Normale)</option>
-                            <option value="elevato">116-190 mg/dL (Elevato)</option>
-                            <option value="molto-elevato">&gt; 190 mg/dL (Molto elevato)</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="ht-diabete-container" style="display: none; margin-bottom: 0;">
-                        <label for="ht-diabete">Diabete</label>
-                        <select id="ht-diabete" onchange="updateHtCascade()">
-                            <option value="">-- Seleziona --</option>
-                            <option value="no">No</option>
-                            <option value="si">Si</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="ht-rischio-container" style="display: none; margin-bottom: 0;">
-                        <label for="ht-rischio">Rischio CV</label>
-                        <select id="ht-rischio" onchange="updateHtCascade()">
-                            <option value="">-- Seleziona --</option>
-                            <option value="basso">Basso (&lt;2%)</option>
-                            <option value="moderato">Moderato (2-5%)</option>
-                            <option value="alto">Alto (5-10%)</option>
-                            <option value="molto-alto">Molto alto (&gt;10%)</option>
-                        </select>
-                    </div>
-                </div>
+            <!-- Tree menu for "Primo riscontro ipertensione" -->
+            <div id="primo-ht-cascade" style="display: none; margin-top: 12px;">
+                <nav class="ht-tree-menu">
+                    <ul class="ht-menu-level-1">
+                        <li class="ht-has-submenu">
+                            <span class="ht-menu-item">Esami disponibili &rarr;</span>
+                            <ul class="ht-submenu">
+                                <li class="ht-has-submenu">
+                                    <span class="ht-menu-item">LDL &lt; 116 (Normale) &rarr;</span>
+                                    <ul class="ht-submenu">
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">No diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','no','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','no','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','no','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','no','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">Diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','si','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','si','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','si','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','normale','si','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ht-has-submenu">
+                                    <span class="ht-menu-item">LDL 116-190 (Elevato) &rarr;</span>
+                                    <ul class="ht-submenu">
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">No diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','no','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','no','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','no','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','no','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">Diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','si','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','si','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','si','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','elevato','si','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ht-has-submenu">
+                                    <span class="ht-menu-item">LDL &gt; 190 (Molto elevato) &rarr;</span>
+                                    <ul class="ht-submenu">
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">No diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','no','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','no','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','no','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','no','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="ht-has-submenu">
+                                            <span class="ht-menu-item">Diabete &rarr;</span>
+                                            <ul class="ht-submenu">
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','si','basso'); return false;">Rischio Basso</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','si','moderato'); return false;">Rischio Moderato</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','si','alto'); return false;">Rischio Alto</a></li>
+                                                <li><a href="#" onclick="selectHtScenario('disponibili','molto-elevato','si','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="ht-has-submenu">
+                            <span class="ht-menu-item">Esami non disponibili &rarr;</span>
+                            <ul class="ht-submenu">
+                                <li class="ht-has-submenu">
+                                    <span class="ht-menu-item">No diabete &rarr;</span>
+                                    <ul class="ht-submenu">
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','no','basso'); return false;">Rischio Basso</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','no','moderato'); return false;">Rischio Moderato</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','no','alto'); return false;">Rischio Alto</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','no','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                    </ul>
+                                </li>
+                                <li class="ht-has-submenu">
+                                    <span class="ht-menu-item">Diabete &rarr;</span>
+                                    <ul class="ht-submenu">
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','si','basso'); return false;">Rischio Basso</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','si','moderato'); return false;">Rischio Moderato</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','si','alto'); return false;">Rischio Alto</a></li>
+                                        <li><a href="#" onclick="selectHtScenario('non-disponibili','','si','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
                 <div id="ht-testo-generato" style="margin-top: 12px; padding: 10px; background: var(--background-color); border-radius: 6px; display: none;">
                     <label style="font-weight: 600; font-size: 0.85em; color: var(--text-muted);">Testo generato:</label>
                     <div id="ht-testo-preview" style="margin-top: 6px; font-size: 0.9em; line-height: 1.5; white-space: pre-wrap;"></div>
