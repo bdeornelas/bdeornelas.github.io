@@ -1,15 +1,17 @@
 ---
 ---
 // ============================================
-// ESC Guidelines Chatbot - RAG Implementation
+// ESC Guidelines Chatbot - RAG with 2-LLM Architecture
+// LLM 1: Searches TOC and identifies relevant sections
+// LLM 2: Generates response from extracted content
 // ============================================
 
 class ESCChatbot {
     constructor() {
-        this.model = 'anthropic/claude-3.5-sonnet';
+        this.model = 'anthropic/claude-sonnet-4'; // Claude Sonnet 4.5
         this.tocData = null;
         this.guidelinesCache = {}; // Cache for loaded guideline files
-        // All available guideline files (separate, not merged)
+        // All available guideline files
         this.guidelineFiles = [
             '2020_ACS_NSTE',
             '2020_Adult_Congenital_Heart_Disease',
@@ -52,7 +54,7 @@ class ESCChatbot {
         try {
             const response = await fetch('/ESC_GUIDELINES_TOC.md');
             this.tocData = await response.text();
-            console.log('TOC loaded successfully');
+            console.log('TOC loaded successfully, length:', this.tocData.length);
         } catch (error) {
             console.error('Error loading TOC:', error);
         }
@@ -66,9 +68,9 @@ class ESCChatbot {
             const response = await fetch(`/claude-project-files/${filename}.md`);
             if (!response.ok) throw new Error(`File not found: ${filename}`);
             const content = await response.text();
-            this.guidelinesCache[filename] = content.split('\n');
-            console.log(`Loaded ${filename}.md (${this.guidelinesCache[filename].length} lines)`);
-            return this.guidelinesCache[filename];
+            this.guidelinesCache[filename] = content;
+            console.log(`Loaded ${filename}.md (${content.length} chars)`);
+            return content;
         } catch (error) {
             console.error(`Error loading ${filename}.md:`, error);
             return null;
@@ -146,351 +148,161 @@ class ESCChatbot {
     }
 
     async queryESCGuidelines(question) {
-        // Phase 1: LOCATE - Find relevant sections in TOC
-        let tocMatches = this.searchTOC(question);
-        console.log('TOC matches:', tocMatches);
+        console.log('=== Starting 2-LLM RAG query ===');
+        console.log('Question:', question);
 
-        // Phase 1b: ALWAYS do direct content search for specific terms (drugs, values)
-        // TOC only has section headers, not detailed content locations
-        const directMatches = await this.searchContentDirectly(question);
-        if (directMatches.length > 0) {
-            // Prioritize direct matches (they find actual content, not just section headers)
-            tocMatches = [...directMatches, ...tocMatches].slice(0, 5);
-            console.log('Direct content matches:', directMatches.length);
+        // ========================================
+        // PHASE 1: LLM searches TOC to find relevant sections
+        // ========================================
+        console.log('Phase 1: LLM searching TOC...');
+        this.updateLoadingMessage('Analizzo la domanda e cerco nelle linee guida...');
+
+        const searchResult = await this.llmSearchTOC(question);
+        console.log('LLM search result:', searchResult);
+
+        if (!searchResult.files || searchResult.files.length === 0) {
+            return "Non ho trovato sezioni rilevanti nelle linee guida ESC per questa domanda. Prova a riformulare la domanda con termini più specifici.";
         }
 
-        // Phase 2: READ - Extract actual content from MD files
-        const extractedContent = await this.extractContent(tocMatches);
+        // ========================================
+        // PHASE 2: Load identified files and extract content
+        // ========================================
+        console.log('Phase 2: Loading files:', searchResult.files);
+        this.updateLoadingMessage('Estraggo il contenuto rilevante...');
+
+        let extractedContent = '';
+        for (const fileInfo of searchResult.files) {
+            const content = await this.loadGuidelineFile(fileInfo.filename);
+            if (content) {
+                // Extract relevant section based on search terms
+                const section = this.extractRelevantSection(content, fileInfo.searchTerms || [question], fileInfo.filename);
+                if (section) {
+                    extractedContent += `\n\n--- FROM: ${fileInfo.filename}.md ---\n${section}`;
+                }
+            }
+        }
+
+        if (!extractedContent) {
+            return "Ho identificato le linee guida rilevanti ma non sono riuscito a estrarre il contenuto. Riprova.";
+        }
+
+        // Limit content to avoid token limits
+        if (extractedContent.length > 20000) {
+            extractedContent = extractedContent.substring(0, 20000) + '\n\n[...contenuto troncato...]';
+        }
+
         console.log('Extracted content length:', extractedContent.length);
 
-        // Phase 3: CITE - Query LLM with real content
-        const systemPrompt = this.buildSystemPrompt();
-        const userPrompt = this.buildUserPrompt(question, extractedContent, tocMatches);
+        // ========================================
+        // PHASE 3: LLM generates response from extracted content
+        // ========================================
+        console.log('Phase 3: LLM generating response...');
+        this.updateLoadingMessage('Genero la risposta...');
 
-        return await this.callOpenRouter(systemPrompt, userPrompt);
+        const response = await this.llmGenerateResponse(question, extractedContent, searchResult);
+        return response;
     }
 
-    async searchContentDirectly(question) {
-        const keywords = this.extractKeywords(question);
-        const questionWords = question.toLowerCase().split(/\s+/).filter(w => w.length > 4);
-        const matches = [];
+    async llmSearchTOC(question) {
+        const systemPrompt = `Sei un sistema di ricerca per le Linee Guida ESC (European Society of Cardiology).
 
-        console.log('Direct search keywords:', keywords);
-        console.log('Question words:', questionWords);
+Il tuo compito è analizzare la domanda dell'utente e identificare quali file delle linee guida contengono informazioni rilevanti.
 
-        // Prioritize files based on question content
-        const prioritizedFiles = this.prioritizeFiles(keywords, questionWords);
-        console.log('Prioritized files:', prioritizedFiles.slice(0, 5).map(f => f.file));
+FILE DISPONIBILI:
+${this.guidelineFiles.map(f => `- ${f}.md`).join('\n')}
 
-        for (const { file, priority } of prioritizedFiles) {
-            try {
-                console.log(`Searching ${file}...`);
-                const lines = await this.loadGuidelineFile(file);
-                if (!lines || lines.length === 0) {
-                    console.log(`Failed to load ${file}`);
-                    continue;
+ISTRUZIONI:
+1. Analizza la domanda e identifica l'argomento principale
+2. Identifica i file più rilevanti (massimo 3)
+3. Per ogni file, indica i termini chiave da cercare
+
+RISPONDI SOLO con JSON valido in questo formato:
+{
+  "reasoning": "breve spiegazione della scelta",
+  "files": [
+    {"filename": "NOME_FILE_SENZA_ESTENSIONE", "searchTerms": ["termine1", "termine2"]}
+  ]
+}
+
+ESEMPI:
+- "mavacamten" → 2023_Cardiomyopathies (farmaco per HCM)
+- "fibrillazione atriale" → 2024_Atrial_Fibrillation (più recente)
+- "scompenso cardiaco" → 2021_Heart_Failure, 2023_Heart_Failure_Update`;
+
+        const userPrompt = `DOMANDA: ${question}
+
+TOC DELLE LINEE GUIDA:
+${this.tocData.substring(0, 30000)}
+
+Identifica i file rilevanti e rispondi SOLO con JSON valido.`;
+
+        try {
+            const response = await this.callOpenRouter(systemPrompt, userPrompt, 1000);
+
+            // Parse JSON from response
+            const jsonMatch = response.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                const parsed = JSON.parse(jsonMatch[0]);
+                console.log('Parsed search result:', parsed);
+                return parsed;
+            }
+        } catch (error) {
+            console.error('Error in LLM search:', error);
+        }
+
+        // Fallback: return empty
+        return { files: [] };
+    }
+
+    extractRelevantSection(content, searchTerms, filename) {
+        const lines = content.split('\n');
+        const contentLower = content.toLowerCase();
+
+        // Find the best starting position based on search terms
+        let bestPosition = 0;
+        let bestScore = 0;
+
+        for (const term of searchTerms) {
+            const termLower = term.toLowerCase();
+            let pos = contentLower.indexOf(termLower);
+
+            while (pos !== -1) {
+                // Score based on context (prefer starts of sections)
+                let score = 1;
+                const nearbyContent = content.substring(Math.max(0, pos - 200), pos + 500).toLowerCase();
+
+                // Bonus for being near recommendation markers
+                if (nearbyContent.includes('class i') || nearbyContent.includes('class ii') || nearbyContent.includes('level')) {
+                    score += 5;
                 }
-                console.log(`Loaded ${file}: ${lines.length} lines`);
-
-                // Quick search for exact question words in the raw content
-                const rawContent = lines.join('\n').toLowerCase();
-                let startSearchLine = 0;
-                let foundTerm = null;
-
-                // Find the first occurrence of any long question word
-                for (const word of questionWords) {
-                    if (word.length >= 6) {
-                        const idx = rawContent.indexOf(word);
-                        if (idx !== -1) {
-                            startSearchLine = rawContent.substring(0, idx).split('\n').length - 1;
-                            foundTerm = word;
-                            console.log(`Found "${word}" at line ${startSearchLine} in ${file}`);
-                            break;
-                        }
-                    }
-                }
-
-                // If we found a specific term, search around that area
-                const searchStart = Math.max(0, startSearchLine - 50);
-                const searchEnd = Math.min(lines.length, startSearchLine + 200);
-
-                let bestMatch = null;
-                let bestScore = 0;
-
-                for (let i = searchStart; i < searchEnd; i += 20) {
-                    const chunk = lines.slice(i, i + 60).join(' ').toLowerCase();
-
-                    let matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
-                    questionWords.forEach(word => {
-                        if (chunk.includes(word)) matchScore += 3;
-                    });
-                    // Bonus for files that matched by name priority
-                    matchScore += priority;
-
-                    if (matchScore > bestScore) {
-                        bestScore = matchScore;
-                        let page = null;
-                        for (let j = i; j >= Math.max(0, i - 50); j--) {
-                            const pageMatch = lines[j].match(/^### Page (\d+)/);
-                            if (pageMatch) {
-                                page = parseInt(pageMatch[1]);
-                                break;
-                            }
-                        }
-                        const year = file.substring(0, 4);
-                        bestMatch = {
-                            tocLine: `Direct match in ${file}.md`,
-                            filename: file,
-                            year: year,
-                            startLine: i + 1,
-                            page: page,
-                            score: matchScore
-                        };
-                    }
+                if (nearbyContent.includes('recommendation')) {
+                    score += 3;
                 }
 
-                if (bestMatch && bestScore >= 4) {
-                    console.log(`Found match in ${file}: line ${bestMatch.startLine}, score ${bestScore}`);
-                    matches.push(bestMatch);
-                    // If we found an excellent match in a prioritized file, stop
-                    if (bestScore >= 10 && foundTerm) {
-                        console.log('Found excellent match with search term, stopping');
-                        break;
-                    }
-                } else {
-                    console.log(`No good match in ${file}, best score: ${bestScore}`);
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestPosition = pos;
                 }
 
-                // Limit search to top 8 files max
-                if (matches.length >= 3) break;
-            } catch (error) {
-                console.error(`Error searching ${file}:`, error);
+                pos = contentLower.indexOf(termLower, pos + 1);
             }
         }
 
-        console.log('Direct search results:', matches.length);
-        matches.sort((a, b) => b.score - a.score);
-        return matches.slice(0, 3);
+        // Extract ~300 lines around the best position
+        const charPosition = bestPosition;
+        let lineNumber = content.substring(0, charPosition).split('\n').length - 1;
+
+        const startLine = Math.max(0, lineNumber - 50);
+        const endLine = Math.min(lines.length, lineNumber + 250);
+
+        const section = lines.slice(startLine, endLine).join('\n');
+        console.log(`Extracted from ${filename}: lines ${startLine}-${endLine}, ${section.length} chars`);
+
+        return section;
     }
 
-    prioritizeFiles(keywords, questionWords) {
-        // Map keywords to relevant guideline files
-        const fileKeywords = {
-            '2023_Cardiomyopathies': ['cardiomyopathy', 'hcm', 'dcm', 'hypertrophic', 'mavacamten', 'aficamten', 'obstructive'],
-            '2023_Cardiomyopathies_Supplementary': ['cardiomyopathy', 'hcm', 'dcm', 'hypertrophic'],
-            '2024_Atrial_Fibrillation': ['fibrillation', 'af', 'afib', 'anticoagul', 'ablation', 'rhythm'],
-            '2020_Atrial_Fibrillation': ['fibrillation', 'af', 'afib', 'anticoagul'],
-            '2021_Heart_Failure': ['heart failure', 'hf', 'ejection', 'lvef', 'hfref', 'hfpef', 'sacubitril'],
-            '2023_Heart_Failure_Update': ['heart failure', 'hf', 'sglt2', 'empagliflozin', 'dapagliflozin'],
-            '2023_Acute_Coronary_Syndromes': ['acs', 'stemi', 'nstemi', 'infarction', 'troponin', 'pci'],
-            '2024_Chronic_Coronary_Syndromes': ['ccs', 'angina', 'coronary', 'stent', 'cabg'],
-            '2021_Valvular_Heart_Disease': ['valve', 'stenosis', 'regurgitation', 'mitral', 'aortic', 'tricuspid'],
-            '2025_Valvular_Heart_Disease': ['valve', 'stenosis', 'regurgitation', 'mitral', 'aortic', 'tavi', 'tavr'],
-            '2024_Hypertension': ['hypertension', 'blood pressure', 'arterial', 'antihypertensive'],
-            '2023_Endocarditis': ['endocarditis', 'infective', 'vegetation'],
-            '2023_CVD_Diabetes': ['diabetes', 'glycemic', 'sglt2', 'glp1'],
-            '2022_Pulmonary_Hypertension': ['pulmonary hypertension', 'ph', 'pah'],
-            '2022_Ventricular_Arrhythmias_SCD': ['arrhythmia', 'vt', 'vf', 'sudden death', 'icd', 'defibrillator'],
-            '2021_Cardiac_Pacing_CRT': ['pacemaker', 'pacing', 'crt', 'bradycardia', 'av block'],
-            '2024_Peripheral_Arterial_Aortic': ['aorta', 'aneurysm', 'dissection', 'peripheral', 'claudication'],
-            '2025_Myocarditis_Pericarditis': ['myocarditis', 'pericarditis', 'pericardial'],
-            '2025_Pregnancy_CVD': ['pregnancy', 'pregnant', 'gestational'],
-            '2022_Non_Cardiac_Surgery': ['surgery', 'perioperative', 'non-cardiac'],
-            '2022_Cardio_Oncology': ['cardio-oncology', 'chemotherapy', 'cancer', 'anthracycline'],
-            '2021_CVD_Prevention': ['prevention', 'risk', 'score', 'lipid', 'statin'],
-            '2025_Dyslipidaemias_Update': ['cholesterol', 'ldl', 'lipid', 'statin', 'pcsk9'],
-            '2020_Sports_Cardiology': ['sport', 'athlete', 'exercise'],
-            '2020_Adult_Congenital_Heart_Disease': ['congenital', 'achd', 'shunt'],
-            '2025_Mental_Health_CVD': ['mental', 'depression', 'anxiety', 'psychological'],
-            '2020_ACS_NSTE': ['nstemi', 'nste-acs', 'unstable angina']
-        };
-
-        const allKeywords = [...keywords, ...questionWords].map(k => k.toLowerCase());
-
-        return this.guidelineFiles.map(file => {
-            let priority = 0;
-            const fileKws = fileKeywords[file] || [];
-
-            // Check how many keywords match this file's topics
-            for (const kw of allKeywords) {
-                if (fileKws.some(fkw => kw.includes(fkw) || fkw.includes(kw))) {
-                    priority += 5;
-                }
-                // Also check if keyword appears in filename
-                if (file.toLowerCase().includes(kw)) {
-                    priority += 3;
-                }
-            }
-
-            // Prefer newer guidelines
-            const year = parseInt(file.substring(0, 4));
-            priority += (year - 2020) * 0.5;
-
-            return { file, priority };
-        }).sort((a, b) => b.priority - a.priority);
-    }
-
-    searchTOC(question) {
-        if (!this.tocData) return [];
-
-        const keywords = this.extractKeywords(question);
-        const lines = this.tocData.split('\n');
-        const matches = [];
-
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            const lineLower = line.toLowerCase();
-
-            // Check if line matches any keyword
-            const matchScore = keywords.filter(kw => lineLower.includes(kw)).length;
-            if (matchScore === 0) continue;
-
-            // Extract year from context (look backwards for year/section header)
-            // Priority: **File:** > anchor name > year header
-            let year = null;
-            let foundAnchor = null;
-            for (let j = i; j >= Math.max(0, i - 100); j--) {
-                // Highest priority: **File:** `2023_Cardiomyopathies.pdf`
-                const fileMatch = lines[j].match(/\*\*File:\*\*.*`(202[0-5])_/);
-                if (fileMatch) {
-                    year = fileMatch[1];
-                    break;
-                }
-                // Second priority: ### <a name="2023-cardiomyopathies"></a>
-                if (!foundAnchor) {
-                    const anchorMatch = lines[j].match(/###.*<a name="(202[0-5])-/);
-                    if (anchorMatch) {
-                        foundAnchor = anchorMatch[1];
-                    }
-                }
-            }
-            // Use anchor if no file match found
-            if (!year && foundAnchor) {
-                year = foundAnchor;
-            }
-
-            // Extract line number from TOC entry: *(p. X, LNNN)*
-            const lineNumMatch = line.match(/\*\(p\.\s*\d+,?\s*L(\d+)\)\*/);
-            const pageMatch = line.match(/\*\(p\.\s*(\d+)/);
-
-            if (lineNumMatch && year) {
-                matches.push({
-                    tocLine: line.trim(),
-                    year: year,
-                    startLine: parseInt(lineNumMatch[1]),
-                    page: pageMatch ? parseInt(pageMatch[1]) : null,
-                    score: matchScore
-                });
-            }
-        }
-
-        // Sort by score and take top matches
-        matches.sort((a, b) => b.score - a.score);
-        return matches.slice(0, 5); // Top 5 most relevant sections
-    }
-
-    async extractContent(tocMatches) {
-        if (tocMatches.length === 0) return '';
-
-        const contentParts = [];
-        const filesToLoad = [...new Set(tocMatches.map(m => m.filename || `ESC_${m.year}`))];
-
-        // Load all needed files
-        for (const file of filesToLoad) {
-            await this.loadGuidelineFile(file);
-        }
-
-        for (const match of tocMatches) {
-            const cacheKey = match.filename || `ESC_${match.year}`;
-            const lines = this.guidelinesCache[cacheKey];
-            if (!lines) continue;
-
-            // Find the next section's start line to know where to stop
-            const nextMatch = tocMatches.find(m =>
-                (m.filename || m.year) === (match.filename || match.year) && m.startLine > match.startLine
-            );
-            const endLine = nextMatch ? nextMatch.startLine : match.startLine + 200;
-
-            // Extract content (limit to ~150 lines per section)
-            const startIdx = Math.max(0, match.startLine - 1);
-            const endIdx = Math.min(lines.length, startIdx + 150, endLine);
-            const sectionContent = lines.slice(startIdx, endIdx).join('\n');
-
-            const filename = match.filename || `ESC_${match.year}`;
-            contentParts.push(`\n--- FROM: ${filename}.md (Line ${match.startLine}, Page ${match.page}) ---\n${sectionContent}`);
-        }
-
-        // Limit total content to avoid token limits
-        const combined = contentParts.join('\n\n');
-        if (combined.length > 15000) {
-            return combined.substring(0, 15000) + '\n\n[...contenuto troncato per limiti di lunghezza...]';
-        }
-        return combined;
-    }
-
-    extractKeywords(question) {
-        const termMap = {
-            // Anatomia e condizioni
-            'aorta': ['aorta', 'aortic', 'ascending', 'root'],
-            'fibrillazione atriale': ['atrial fibrillation', 'af', 'fibrillation', 'afib'],
-            'stenosi': ['stenosis', 'stenotic', 'severe'],
-            'insufficienza': ['insufficiency', 'regurgitation'],
-            'scompenso': ['heart failure', 'hf', 'failure'],
-            'ipertensione': ['hypertension', 'blood pressure', 'arterial'],
-            'diabete': ['diabetes', 'glycemic', 'diabetic'],
-            'anticoagulante': ['anticoagul', 'warfarin', 'doac', 'oac'],
-            'tac': ['ct', 'computed tomography', 'imaging'],
-            'eco': ['echo', 'echocardiograph'],
-            'chirurgia': ['surgery', 'surgical', 'intervention'],
-            'valvola': ['valve', 'valvular', 'mitral', 'aortic', 'tricuspid'],
-            'coronar': ['coronary', 'cad', 'acs', 'stemi', 'nstemi'],
-            'aritmia': ['arrhythmia', 'rhythm', 'tachycardia', 'bradycardia'],
-            'pacemaker': ['pacing', 'crt', 'icd', 'device'],
-            'endocardite': ['endocarditis', 'infective'],
-            'cardiomiopatia': ['cardiomyopathy', 'hcm', 'dcm'],
-            'ipertensione polmonare': ['pulmonary hypertension', 'ph'],
-            // Farmaci -> condizioni correlate
-            'mavacamten': ['mavacamten', 'cardiomyopathy', 'hcm', 'hypertrophic', 'obstructive'],
-            'aficamten': ['aficamten', 'cardiomyopathy', 'hcm', 'hypertrophic'],
-            'empagliflozin': ['empagliflozin', 'sglt2', 'heart failure', 'diabetes'],
-            'dapagliflozin': ['dapagliflozin', 'sglt2', 'heart failure', 'diabetes'],
-            'sacubitril': ['sacubitril', 'arni', 'heart failure', 'hfref'],
-            'valsartan': ['valsartan', 'arni', 'heart failure'],
-            'entresto': ['entresto', 'sacubitril', 'arni', 'heart failure'],
-            'rivaroxaban': ['rivaroxaban', 'anticoagul', 'doac', 'fibrillation'],
-            'apixaban': ['apixaban', 'anticoagul', 'doac', 'fibrillation'],
-            'edoxaban': ['edoxaban', 'anticoagul', 'doac', 'fibrillation'],
-            'dabigatran': ['dabigatran', 'anticoagul', 'doac', 'fibrillation'],
-            'betabloccante': ['beta-blocker', 'metoprolol', 'bisoprolol', 'carvedilol'],
-            'statina': ['statin', 'atorvastatin', 'rosuvastatin', 'cholesterol'],
-            'ace inibitore': ['ace inhibitor', 'ramipril', 'enalapril', 'lisinopril'],
-            'sartano': ['arb', 'losartan', 'valsartan', 'candesartan'],
-        };
-
-        const keywords = new Set();
-        const questionLower = question.toLowerCase();
-
-        // Add words > 3 chars
-        questionLower.split(/\s+/).forEach(word => {
-            if (word.length > 3) keywords.add(word.replace(/[?.,!]/g, ''));
-        });
-
-        // Add mapped terms
-        Object.entries(termMap).forEach(([italian, english]) => {
-            if (questionLower.includes(italian)) {
-                english.forEach(term => keywords.add(term));
-            }
-        });
-
-        // Numbers (for thresholds like 45mm, 50%)
-        const numbers = question.match(/\d+/g);
-        if (numbers) numbers.forEach(n => keywords.add(n));
-
-        return Array.from(keywords);
-    }
-
-    buildSystemPrompt() {
-        return `Sei un assistente esperto per le Linee Guida ESC (European Society of Cardiology).
+    async llmGenerateResponse(question, extractedContent, searchResult) {
+        const systemPrompt = `Sei un assistente esperto per le Linee Guida ESC (European Society of Cardiology).
 
 **ISTRUZIONI CRITICHE:**
 
@@ -515,28 +327,28 @@ Ti viene fornito il CONTENUTO REALE estratto dalle linee guida ESC. Usa SOLO que
 
 ## Fonte
 **Linea Guida**: [anno e titolo]
-**Pagina**: [numero]
 
 **IMPORTANTE**: Rispondi SEMPRE in italiano. Se il contenuto fornito non contiene informazioni sufficienti, indicalo chiaramente.`;
-    }
 
-    buildUserPrompt(question, extractedContent, tocMatches) {
-        const tocSummary = tocMatches.map(m => `- ${m.tocLine} (${m.year}, p.${m.page})`).join('\n');
-
-        return `**DOMANDA CLINICA:**
+        const userPrompt = `**DOMANDA CLINICA:**
 ${question}
 
-**SEZIONI TROVATE NEL TOC:**
-${tocSummary || 'Nessuna sezione specifica trovata'}
+**FILE IDENTIFICATI:**
+${searchResult.files.map(f => f.filename).join(', ')}
+
+**RAGIONAMENTO DELLA RICERCA:**
+${searchResult.reasoning || 'N/A'}
 
 **CONTENUTO ESTRATTO DALLE LINEE GUIDA ESC:**
-${extractedContent || 'Nessun contenuto disponibile. Rispondi indicando che le informazioni richieste non sono state trovate nelle linee guida caricate.'}
+${extractedContent}
 
 ---
 Rispondi alla domanda usando ESCLUSIVAMENTE il contenuto sopra. Cita esattamente dal testo.`;
+
+        return await this.callOpenRouter(systemPrompt, userPrompt, 2500);
     }
 
-    async callOpenRouter(systemPrompt, userPrompt) {
+    async callOpenRouter(systemPrompt, userPrompt, maxTokens = 2500) {
         const response = await fetch('/api/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -547,7 +359,7 @@ Rispondi alla domanda usando ESCLUSIVAMENTE il contenuto sopra. Cita esattamente
                     { role: 'user', content: userPrompt }
                 ],
                 temperature: 0.2,
-                max_tokens: 2500
+                max_tokens: maxTokens
             })
         });
 
@@ -558,6 +370,13 @@ Rispondi alla domanda usando ESCLUSIVAMENTE il contenuto sopra. Cita esattamente
 
         const data = await response.json();
         return data.choices[0].message.content;
+    }
+
+    updateLoadingMessage(text) {
+        const loadingMsg = document.querySelector('.loading-message .message-text span');
+        if (loadingMsg) {
+            loadingMsg.textContent = text;
+        }
     }
 
     addMessage(content, role) {
