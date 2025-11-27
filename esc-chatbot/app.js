@@ -65,7 +65,8 @@ class ESCChatbot {
             return this.guidelinesCache[filename];
         }
         try {
-            const response = await fetch(`/claude-project-files/${filename}.md`);
+            // Use individual guideline files from references folder (like /esc command does)
+            const response = await fetch(`/references/esc-guidelines-md/${filename}.md`);
             if (!response.ok) throw new Error(`File not found: ${filename}`);
             const content = await response.text();
             this.guidelinesCache[filename] = content;
@@ -174,10 +175,18 @@ class ESCChatbot {
         for (const fileInfo of searchResult.files) {
             const content = await this.loadGuidelineFile(fileInfo.filename);
             if (content) {
-                // Extract relevant section based on search terms
-                const section = this.extractRelevantSection(content, fileInfo.searchTerms || [question], fileInfo.filename);
+                // Extract relevant section using LINE NUMBER (like /esc does)
+                const section = this.extractRelevantSection(
+                    content,
+                    fileInfo.searchTerms || [question],
+                    fileInfo.filename,
+                    fileInfo.lineNumber || 0  // Pass line number for precise extraction
+                );
                 if (section) {
-                    extractedContent += `\n\n--- FROM: ${fileInfo.filename}.md ---\n${section}`;
+                    const sourceInfo = fileInfo.lineNumber
+                        ? `Section ${fileInfo.section || 'N/A'}, p.${fileInfo.page || 'N/A'}, L${fileInfo.lineNumber}`
+                        : fileInfo.filename;
+                    extractedContent += `\n\n--- FROM: ${fileInfo.filename}.md (${sourceInfo}) ---\n${section}`;
                 }
             }
         }
@@ -204,46 +213,67 @@ class ESCChatbot {
     }
 
     async llmSearchTOC(question) {
-        const systemPrompt = `Sei un sistema di ricerca per le Linee Guida ESC (European Society of Cardiology).
+        // This is the key improvement: LLM extracts LINE NUMBERS from TOC (like /esc does)
+        const systemPrompt = `Sei un sistema di ricerca per le Linee Guida ESC. Devi trovare le sezioni esatte nel TOC.
 
-Il tuo compito è analizzare la domanda dell'utente e identificare quali file delle linee guida contengono informazioni rilevanti.
+ISTRUZIONI CRITICHE:
+1. Analizza la domanda e cerca nel TOC le sezioni rilevanti
+2. ESTRAI IL NUMERO DI LINEA (L####) da ogni voce del TOC - QUESTO È FONDAMENTALE
+3. Il formato TOC è: "Sezione Titolo *(p. XX, LNNNN)*" dove LNNNN è il numero di linea
 
 FILE DISPONIBILI:
 ${this.guidelineFiles.map(f => `- ${f}.md`).join('\n')}
 
-ISTRUZIONI:
-1. Analizza la domanda e identifica l'argomento principale
-2. Identifica i file più rilevanti (massimo 3)
-3. Per ogni file, indica i termini chiave da cercare
-
 RISPONDI SOLO con JSON valido in questo formato:
 {
   "reasoning": "breve spiegazione della scelta",
-  "files": [
-    {"filename": "NOME_FILE_SENZA_ESTENSIONE", "searchTerms": ["termine1", "termine2"]}
+  "sections": [
+    {
+      "filename": "NOME_FILE_SENZA_ESTENSIONE",
+      "section": "Numero e titolo sezione",
+      "page": 123,
+      "lineNumber": 7414,
+      "relevance": "perché questa sezione è rilevante"
+    }
   ]
 }
 
-ESEMPI:
-- "mavacamten" → 2023_Cardiomyopathies (farmaco per HCM)
-- "fibrillazione atriale" → 2024_Atrial_Fibrillation (più recente)
-- "scompenso cardiaco" → 2021_Heart_Failure, 2023_Heart_Failure_Update`;
+ESEMPIO di voce TOC:
+"9.2.2.4 Aortic root and ascending aortic disease *(p. 67, L7414)*"
+→ filename: "2024_Peripheral_Arterial_Aortic", section: "9.2.2.4", page: 67, lineNumber: 7414
 
-        const userPrompt = `DOMANDA: ${question}
+⚠️ IMPORTANTE:
+- Cerca SEMPRE il numero L#### nel TOC e includilo nel JSON
+- Se non trovi L####, usa lineNumber: 0 e il sistema cercherà con keywords
+- Massimo 3 sezioni per risposta`;
 
-TOC DELLE LINEE GUIDA:
-${this.tocData.substring(0, 30000)}
+        const userPrompt = `DOMANDA CLINICA: ${question}
 
-Identifica i file rilevanti e rispondi SOLO con JSON valido.`;
+TOC COMPLETO DELLE LINEE GUIDA ESC:
+${this.tocData.substring(0, 40000)}
+
+Trova le sezioni rilevanti, ESTRAI I NUMERI DI LINEA (L####), e rispondi con JSON.`;
 
         try {
-            const response = await this.callOpenRouter(systemPrompt, userPrompt, 1000);
+            const response = await this.callOpenRouter(systemPrompt, userPrompt, 1500);
+            console.log('Raw LLM search response:', response);
 
             // Parse JSON from response
             const jsonMatch = response.match(/\{[\s\S]*\}/);
             if (jsonMatch) {
                 const parsed = JSON.parse(jsonMatch[0]);
                 console.log('Parsed search result:', parsed);
+
+                // Convert to expected format with lineNumber support
+                if (parsed.sections) {
+                    parsed.files = parsed.sections.map(s => ({
+                        filename: s.filename,
+                        lineNumber: s.lineNumber || 0,
+                        section: s.section,
+                        page: s.page,
+                        searchTerms: [s.section, question.split(' ').slice(0, 3).join(' ')]
+                    }));
+                }
                 return parsed;
             }
         } catch (error) {
@@ -251,14 +281,28 @@ Identifica i file rilevanti e rispondi SOLO con JSON valido.`;
         }
 
         // Fallback: return empty
-        return { files: [] };
+        return { files: [], sections: [] };
     }
 
-    extractRelevantSection(content, searchTerms, filename) {
+    extractRelevantSection(content, searchTerms, filename, lineNumber = 0) {
         const lines = content.split('\n');
+
+        // KEY IMPROVEMENT: Use line number directly if provided (like /esc does)
+        if (lineNumber > 0) {
+            // Direct extraction using line number from TOC - PRECISE like /esc
+            const startLine = Math.max(0, lineNumber - 1); // TOC uses 1-based line numbers
+            const endLine = Math.min(lines.length, startLine + 150);
+
+            const section = lines.slice(startLine, endLine).join('\n');
+            console.log(`✓ PRECISE extraction from ${filename}: lines ${startLine + 1}-${endLine} (L${lineNumber}), ${section.length} chars`);
+
+            return section;
+        }
+
+        // Fallback: keyword search (less precise, used when line number not found)
+        console.log(`⚠ Fallback: keyword search for ${filename}`);
         const contentLower = content.toLowerCase();
 
-        // Find the best starting position based on search terms
         let bestPosition = 0;
         let bestScore = 0;
 
@@ -267,11 +311,9 @@ Identifica i file rilevanti e rispondi SOLO con JSON valido.`;
             let pos = contentLower.indexOf(termLower);
 
             while (pos !== -1) {
-                // Score based on context (prefer starts of sections)
                 let score = 1;
                 const nearbyContent = content.substring(Math.max(0, pos - 200), pos + 500).toLowerCase();
 
-                // Bonus for being near recommendation markers
                 if (nearbyContent.includes('class i') || nearbyContent.includes('class ii') || nearbyContent.includes('level')) {
                     score += 5;
                 }
@@ -288,62 +330,76 @@ Identifica i file rilevanti e rispondi SOLO con JSON valido.`;
             }
         }
 
-        // Extract ~300 lines around the best position
         const charPosition = bestPosition;
-        let lineNumber = content.substring(0, charPosition).split('\n').length - 1;
+        let foundLine = content.substring(0, charPosition).split('\n').length - 1;
 
-        const startLine = Math.max(0, lineNumber - 50);
-        const endLine = Math.min(lines.length, lineNumber + 250);
+        const startLine = Math.max(0, foundLine - 20);
+        const endLine = Math.min(lines.length, foundLine + 130);
 
         const section = lines.slice(startLine, endLine).join('\n');
-        console.log(`Extracted from ${filename}: lines ${startLine}-${endLine}, ${section.length} chars`);
+        console.log(`Fallback extracted from ${filename}: lines ${startLine}-${endLine}, ${section.length} chars`);
 
         return section;
     }
 
     async llmGenerateResponse(question, extractedContent, searchResult) {
+        // Build section info for prompt
+        const sectionInfo = searchResult.files.map(f =>
+            f.lineNumber
+                ? `- ${f.filename}.md, Sezione ${f.section || 'N/A'}, p.${f.page || 'N/A'}, L${f.lineNumber}`
+                : `- ${f.filename}.md`
+        ).join('\n');
+
         const systemPrompt = `Sei un assistente esperto per le Linee Guida ESC (European Society of Cardiology).
 
-**ISTRUZIONI CRITICHE:**
+**ISTRUZIONI CRITICHE - WORKFLOW LOCATE → READ → CITE:**
 
-Ti viene fornito il CONTENUTO REALE estratto dalle linee guida ESC. Usa SOLO questo contenuto per rispondere.
+Ti viene fornito il CONTENUTO REALE estratto dalle linee guida ESC con numeri di linea precisi.
+Usa SOLO questo contenuto per rispondere. Non inventare nulla.
 
-1. **Cita esattamente**: Usa citazioni dirette dal testo fornito
-2. **Indica classe e livello**: Classe di Raccomandazione (I/IIa/IIb/III) e Livello di Evidenza (A/B/C)
-3. **Specifica la fonte**: Anno, sezione, pagina
+**REGOLE PER LE CITAZIONI:**
+1. **Copia esattamente** il testo dal contenuto fornito - usa virgolette
+2. **Indica sempre Classe e Livello**: Class I/IIa/IIb/III, Level A/B/C
+3. **Verifica topic-quote match**: la citazione deve corrispondere all'argomento discusso
+4. **Includi la fonte esatta**: filename, sezione, pagina, numero di linea (L####)
 
-**FORMATO RISPOSTA:**
+**FORMATO RISPOSTA RICHIESTO:**
 
 ## Raccomandazione ESC
 
-**[Classe X, Livello Y]**: [Sintesi]
+**[Classe X, Livello Y]**: [Sintesi in italiano]
 
-> "[Citazione esatta dal testo]"
+> "[Citazione ESATTA dal testo fornito, in inglese se così nel documento]"
 
-## Dettagli Clinici
-- **Criteri/Soglie**: [valori specifici]
-- **Indicazioni**: [quando applicare]
-- **Follow-up**: [intervalli di sorveglianza]
+## Contesto Clinico
+- **Soglia/Criterio**: [valore specifico se presente]
+- **Indicazione**: [quando applicare]
+- **Follow-up**: [intervallo se specificato]
 
 ## Fonte
-**Linea Guida**: [anno e titolo]
+**Guideline**: [anno_nome_guideline].md
+**Sezione**: [numero e titolo]
+**Pagina**: [numero]
 
-**IMPORTANTE**: Rispondi SEMPRE in italiano. Se il contenuto fornito non contiene informazioni sufficienti, indicalo chiaramente.`;
+**⚠️ REGOLA CRITICA**: MAI separare una citazione dal suo argomento.
+Ogni quote DEVE essere sotto l'intestazione corretta.
+
+Rispondi SEMPRE in italiano, ma mantieni le citazioni nella lingua originale del documento.`;
 
         const userPrompt = `**DOMANDA CLINICA:**
 ${question}
 
-**FILE IDENTIFICATI:**
-${searchResult.files.map(f => f.filename).join(', ')}
+**SEZIONI IDENTIFICATE:**
+${sectionInfo}
 
-**RAGIONAMENTO DELLA RICERCA:**
+**RAGIONAMENTO:**
 ${searchResult.reasoning || 'N/A'}
 
-**CONTENUTO ESTRATTO DALLE LINEE GUIDA ESC:**
+**CONTENUTO ESTRATTO (con numeri di linea):**
 ${extractedContent}
 
 ---
-Rispondi alla domanda usando ESCLUSIVAMENTE il contenuto sopra. Cita esattamente dal testo.`;
+Rispondi usando SOLO il contenuto sopra. Cita ESATTAMENTE dal testo. Indica la fonte precisa.`;
 
         return await this.callOpenRouter(systemPrompt, userPrompt, 2500);
     }
