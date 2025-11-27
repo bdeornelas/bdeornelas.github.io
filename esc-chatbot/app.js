@@ -217,9 +217,18 @@ class ESCChatbot {
         const systemPrompt = `Sei un sistema di ricerca per le Linee Guida ESC. Devi trovare le sezioni esatte nel TOC.
 
 ISTRUZIONI CRITICHE:
-1. Analizza la domanda e cerca nel TOC le sezioni rilevanti
-2. ESTRAI IL NUMERO DI LINEA (L####) da ogni voce del TOC - QUESTO È FONDAMENTALE
-3. Il formato TOC è: "Sezione Titolo *(p. XX, LNNNN)*" dove LNNNN è il numero di linea
+1. Analizza la domanda e identifica l'ARGOMENTO CLINICO (non solo il termine esatto)
+2. Cerca nel TOC le sezioni rilevanti per quell'argomento
+3. ESTRAI IL NUMERO DI LINEA (L####) da ogni voce del TOC
+4. Il formato TOC è: "Sezione Titolo *(p. XX, LNNNN)*" dove LNNNN è il numero di linea
+
+⚠️ MAPPING FARMACI → GUIDELINES (usa questa conoscenza clinica!):
+- Mavacamten, aficamten → 2023_Cardiomyopathies (sezione HCM/LVOTO)
+- SGLT2i, dapagliflozin, empagliflozin → 2021_Heart_Failure, 2023_Heart_Failure_Update
+- DOAC, rivaroxaban, apixaban → 2024_Atrial_Fibrillation
+- PCSK9i, evolocumab, alirocumab → 2025_Dyslipidaemias_Update
+- Sacubitril/valsartan → 2021_Heart_Failure
+- Amiodarone, dronedarone → 2024_Atrial_Fibrillation, 2022_Ventricular_Arrhythmias_SCD
 
 FILE DISPONIBILI:
 ${this.guidelineFiles.map(f => `- ${f}.md`).join('\n')}
@@ -238,12 +247,19 @@ RISPONDI SOLO con JSON valido in questo formato:
   ]
 }
 
-ESEMPIO di voce TOC:
+ESEMPIO 1 - Termine nel TOC:
 "9.2.2.4 Aortic root and ascending aortic disease *(p. 67, L7414)*"
 → filename: "2024_Peripheral_Arterial_Aortic", section: "9.2.2.4", page: 67, lineNumber: 7414
 
+ESEMPIO 2 - Farmaco NON nel TOC:
+Domanda: "mavacamten raccomandazione?"
+→ Mavacamten è un inibitore della miosina cardiaca per HCM
+→ Cerca nel TOC: "hypertrophic cardiomyopathy", "HCM", "LVOTO", "obstructive"
+→ File: 2023_Cardiomyopathies
+
 ⚠️ IMPORTANTE:
-- Cerca SEMPRE il numero L#### nel TOC e includilo nel JSON
+- Se il termine esatto non è nel TOC, usa la tua conoscenza clinica per trovare la sezione giusta
+- Cerca sinonimi e termini correlati (es: "mavacamten" → cerca "HCM", "LVOTO", "obstructive")
 - Se non trovi L####, usa lineNumber: 0 e il sistema cercherà con keywords
 - Massimo 3 sezioni per risposta`;
 
@@ -266,12 +282,18 @@ Trova le sezioni rilevanti, ESTRAI I NUMERI DI LINEA (L####), e rispondi con JSO
 
                 // Convert to expected format with lineNumber support
                 if (parsed.sections) {
+                    // Extract key terms from question for fallback search
+                    const questionTerms = question.toLowerCase()
+                        .split(/\s+/)
+                        .filter(t => t.length > 3 && !['qual', 'quale', 'quali', 'come', 'cosa', 'della', 'delle', 'dello'].includes(t));
+
                     parsed.files = parsed.sections.map(s => ({
                         filename: s.filename,
                         lineNumber: s.lineNumber || 0,
                         section: s.section,
                         page: s.page,
-                        searchTerms: [s.section, question.split(' ').slice(0, 3).join(' ')]
+                        // Include drug name + clinical terms for better fallback search
+                        searchTerms: [s.section, ...questionTerms].filter(Boolean).slice(0, 5)
                     }));
                 }
                 return parsed;
