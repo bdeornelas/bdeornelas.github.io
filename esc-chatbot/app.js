@@ -311,11 +311,46 @@ class ESCChatbot {
     }
 
     findFilenameForLine(lines, lineIndex) {
-        // Look backwards for ## GUIDELINE_NAME header
+        // Look backwards for guideline title line like:
+        // "- 2023 ESC Guidelines for the management of cardiomyopathies *(p. 1, L222)*"
         for (let i = lineIndex; i >= 0; i--) {
-            const match = lines[i].match(/^##\s+(20\d{2}_[A-Za-z_]+)/);
+            const line = lines[i];
+            // Match guideline title pattern
+            const match = line.match(/^-\s+(20\d{2})\s+ESC\s+Guidelines?\s+.*?(\w+)\s+\*\(p\./i);
             if (match) {
-                return match[1];
+                const year = match[1];
+                // Map guideline title to filename
+                const titleLower = line.toLowerCase();
+
+                if (titleLower.includes('cardiomyopath')) return '2023_Cardiomyopathies';
+                if (titleLower.includes('heart failure') && titleLower.includes('update')) return '2023_Heart_Failure_Update';
+                if (titleLower.includes('heart failure')) return '2021_Heart_Failure';
+                if (titleLower.includes('atrial fibrillation') && year === '2024') return '2024_Atrial_Fibrillation';
+                if (titleLower.includes('atrial fibrillation')) return '2020_Atrial_Fibrillation';
+                if (titleLower.includes('peripheral') || titleLower.includes('aortic disease')) return '2024_Peripheral_Arterial_Aortic';
+                if (titleLower.includes('valvular') && year === '2025') return '2025_Valvular_Heart_Disease';
+                if (titleLower.includes('valvular')) return '2021_Valvular_Heart_Disease';
+                if (titleLower.includes('pacing') || titleLower.includes('crt')) return '2021_Cardiac_Pacing_CRT';
+                if (titleLower.includes('hypertension')) return '2024_Hypertension';
+                if (titleLower.includes('chronic coronary')) return '2024_Chronic_Coronary_Syndromes';
+                if (titleLower.includes('acute coronary')) return '2023_Acute_Coronary_Syndromes';
+                if (titleLower.includes('nste-acs') || titleLower.includes('nstemi')) return '2020_ACS_NSTE';
+                if (titleLower.includes('diabetes')) return '2023_CVD_Diabetes';
+                if (titleLower.includes('endocarditis')) return '2023_Endocarditis';
+                if (titleLower.includes('ventricular arrhythmia') || titleLower.includes('sudden cardiac')) return '2022_Ventricular_Arrhythmias_SCD';
+                if (titleLower.includes('pulmonary hypertension')) return '2022_Pulmonary_Hypertension';
+                if (titleLower.includes('cardio-oncology')) return '2022_Cardio_Oncology';
+                if (titleLower.includes('non-cardiac surgery')) return '2022_Non_Cardiac_Surgery';
+                if (titleLower.includes('prevention')) return '2021_CVD_Prevention';
+                if (titleLower.includes('sports')) return '2020_Sports_Cardiology';
+                if (titleLower.includes('congenital')) return '2020_Adult_Congenital_Heart_Disease';
+                if (titleLower.includes('dyslipidaemia')) return '2025_Dyslipidaemias_Update';
+                if (titleLower.includes('pregnancy')) return '2025_Pregnancy_CVD';
+                if (titleLower.includes('myocarditis') || titleLower.includes('pericarditis')) return '2025_Myocarditis_Pericarditis';
+                if (titleLower.includes('mental health')) return '2025_Mental_Health_CVD';
+
+                // Generic fallback based on year
+                return null;
             }
         }
         return null;
