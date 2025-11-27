@@ -144,71 +144,85 @@ class ESCChatbot {
         const keywords = this.extractKeywords(question);
         const questionWords = question.toLowerCase().split(/\s+/).filter(w => w.length > 4);
         const matches = [];
-        // Prioritize years based on common topics
         const years = ['2023', '2024', '2025', '2022', '2021', '2020'];
 
         console.log('Direct search keywords:', keywords);
         console.log('Question words:', questionWords);
 
         for (const year of years) {
-            console.log(`Searching ESC_${year}...`);
-            const lines = await this.loadGuidelineFile(year);
-            if (!lines) {
-                console.log(`Failed to load ESC_${year}`);
-                continue;
-            }
-            console.log(`Loaded ESC_${year}: ${lines.length} lines`);
+            try {
+                console.log(`Searching ESC_${year}...`);
+                const lines = await this.loadGuidelineFile(year);
+                if (!lines || lines.length === 0) {
+                    console.log(`Failed to load ESC_${year}`);
+                    continue;
+                }
+                console.log(`Loaded ESC_${year}: ${lines.length} lines`);
 
-            let bestMatch = null;
-            let bestScore = 0;
+                // First, quick search for exact question words in the raw content
+                const rawContent = lines.join('\n').toLowerCase();
+                let startSearchLine = 0;
 
-            // Search for keyword matches in content
-            for (let i = 0; i < lines.length; i += 30) {
-                const chunk = lines.slice(i, i + 80).join(' ').toLowerCase();
-
-                // Count keyword matches
-                let matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
-
-                // Bonus for exact question words (like drug names)
-                questionWords.forEach(word => {
-                    if (chunk.includes(word)) matchScore += 2;
-                });
-
-                if (matchScore > bestScore) {
-                    bestScore = matchScore;
-
-                    // Find the nearest page marker
-                    let page = null;
-                    for (let j = i; j >= Math.max(0, i - 50); j--) {
-                        const pageMatch = lines[j].match(/^### Page (\d+)/);
-                        if (pageMatch) {
-                            page = parseInt(pageMatch[1]);
+                // Find the first occurrence of any long question word
+                for (const word of questionWords) {
+                    if (word.length >= 6) { // Only search for longer words like drug names
+                        const idx = rawContent.indexOf(word);
+                        if (idx !== -1) {
+                            // Count newlines to find line number
+                            startSearchLine = rawContent.substring(0, idx).split('\n').length - 1;
+                            console.log(`Found "${word}" around line ${startSearchLine}`);
                             break;
                         }
                     }
-
-                    bestMatch = {
-                        tocLine: `Direct match in ESC_${year}.md`,
-                        year: year,
-                        startLine: i + 1,
-                        page: page,
-                        score: matchScore
-                    };
                 }
-            }
 
-            // Only add if we found a reasonably good match
-            if (bestMatch && bestScore >= 3) {
-                console.log(`Found match in ${year}: line ${bestMatch.startLine}, score ${bestScore}`);
-                matches.push(bestMatch);
-            } else {
-                console.log(`No good match in ${year}, best score: ${bestScore}`);
-            }
+                // If we found a specific term, search around that area
+                const searchStart = Math.max(0, startSearchLine - 50);
+                const searchEnd = Math.min(lines.length, startSearchLine + 200);
 
-            // Early exit if we find a very good match
-            if (bestScore >= 6) {
-                console.log('Found excellent match, stopping search');
-                break;
+                let bestMatch = null;
+                let bestScore = 0;
+
+                for (let i = searchStart; i < searchEnd; i += 20) {
+                    const chunk = lines.slice(i, i + 60).join(' ').toLowerCase();
+
+                    let matchScore = keywords.filter(kw => chunk.includes(kw.toLowerCase())).length;
+                    questionWords.forEach(word => {
+                        if (chunk.includes(word)) matchScore += 3;
+                    });
+
+                    if (matchScore > bestScore) {
+                        bestScore = matchScore;
+                        let page = null;
+                        for (let j = i; j >= Math.max(0, i - 50); j--) {
+                            const pageMatch = lines[j].match(/^### Page (\d+)/);
+                            if (pageMatch) {
+                                page = parseInt(pageMatch[1]);
+                                break;
+                            }
+                        }
+                        bestMatch = {
+                            tocLine: `Direct match in ESC_${year}.md`,
+                            year: year,
+                            startLine: i + 1,
+                            page: page,
+                            score: matchScore
+                        };
+                    }
+                }
+
+                if (bestMatch && bestScore >= 4) {
+                    console.log(`Found match in ${year}: line ${bestMatch.startLine}, score ${bestScore}`);
+                    matches.push(bestMatch);
+                    if (bestScore >= 8) {
+                        console.log('Found excellent match, stopping search');
+                        break;
+                    }
+                } else {
+                    console.log(`No good match in ${year}, best score: ${bestScore}`);
+                }
+            } catch (error) {
+                console.error(`Error searching ${year}:`, error);
             }
         }
 
