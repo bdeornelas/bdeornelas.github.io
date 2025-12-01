@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "scenari_base": {
+    "terapia": {
+      "nome": "Confermare terapia in atto",
+      "testo": "Continuare la terapia in atto praticata."
+    },
+    "angio-tc": {
+      "nome": "Angio-TC coronarica",
+      "testo": "Utile eseguire angio-TC coronarica."
+    },
+    "holter": {
+      "nome": "ECG-Holter 24h",
+      "testo": "Utile eseguire ECG-Holter delle 24h."
+    },
+    "eco": {
+      "nome": "EcocolorDoppler cardiaco",
+      "testo": "Utile eseguire EcocolorDoppler cardiaco."
+    },
+    "imaging": {
+      "nome": "Test imaging da stress",
+      "testo": "Utile eseguire test di imaging non invasivo (ecocardiogramma da stress, scintigrafia miocardica, risonanza magnetica cardiaca da stress)."
+    },
+    "ematochimici": {
+      "nome": "Esami ematochimici",
+      "testo": "Utile eseguire esami ematochimici completi."
+    },
+    "no-accertamenti": {
+      "nome": "Nessun ulteriore accertamento",
+      "testo": "In atto non necessari ulteriori accertamenti."
+    },
+    "ipertensione-secondaria": {
+      "nome": "Ipertensione secondaria",
+      "testo": "Si richiedono esami ematochimici comprensivi di Creatinina, Potassio, Sodio, TSH, rapporto Aldosterone/Renina (ARR). Esame urine completo con rapporto Albumina/Creatinina (ACR). EcoDoppler delle Arterie Renali."
+    }
+  },
+  "templates": {
+    "primo_riscontro_ht": {
+      "nome": "Primo riscontro ipertensione",
+      "base": "Primo riscontro di valori pressori elevati. Si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). I risultati del monitoraggio potranno essere inviati all'indirizzo email benjamin.deornelas@santagostino.it per la valutazione.",
+      "esami_da_richiedere": "Si richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH.",
+      "esami_in_attesa": "Si resta in attesa dell'esito degli esami ematochimici già eseguiti."
+    },
+    "ldl": {
+      "nome": "LDL elevato",
+      "intro_elevato": "Primo riscontro di colesterolo LDL (colesterolo \"cattivo\") elevato.",
+      "intro_molto_elevato": "Primo riscontro di colesterolo LDL significativamente elevato (superiore a 190 mg/dL). Valori così elevati richiedono un approfondimento per escludere l'ipercolesterolemia familiare, una condizione genetica che causa colesterolo alto e aumenta il rischio di malattie cardiovascolari.",
+      "screening_fh": "Si consiglia:\n- Visita specialistica per valutazione dell'ipercolesterolemia familiare\n- Anamnesi familiare per eventi cardiovascolari precoci (infarto o ictus prima dei 55 anni negli uomini, prima dei 65 anni nelle donne)\n- Ricerca di segni clinici (xantomi tendinei, arco corneale)",
+      "rischio_basso": "In considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 116 mg/dL.",
+      "rischio_moderato": "In considerazione del profilo di rischio cardiovascolare moderato, si consiglia l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL.",
+      "rischio_alto": "In considerazione del profilo di rischio cardiovascolare alto, l'obiettivo è raggiungere un valore di LDL inferiore a 70 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale. È importante adottare anche un'alimentazione cardioprotettiva.",
+      "rischio_molto_alto": "In considerazione del profilo di rischio cardiovascolare molto alto, l'obiettivo è raggiungere un valore di LDL inferiore a 55 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale. È importante adottare anche un'alimentazione cardioprotettiva.",
+      "controllo_4_6_settimane": "Si consiglia un controllo del profilo lipidico dopo 4-6 settimane per verificare il raggiungimento dell'obiettivo.",
+      "controllo_lifestyle": "Si consiglia un controllo del profilo lipidico dopo 4-6 settimane per valutare l'efficacia delle modifiche dello stile di vita.",
+      "consigli_alimentari": "Per ridurre il colesterolo, si raccomandano le seguenti indicazioni:\n- Limitare i grassi saturi (burro, formaggi grassi, carni rosse, insaccati, fritture) a meno del 10% delle calorie totali, preferendo olio extravergine d'oliva.\n- Evitare i grassi trans (margarine, prodotti da forno industriali, snack confezionati).\n- Aumentare il consumo di fibre solubili (avena, orzo, legumi, frutta con buccia) che aiutano a ridurre l'assorbimento del colesterolo.\n- Consumare pesce ricco di omega-3 (salmone, sgombro, sardine) almeno 2 volte a settimana.\n- Includere una porzione giornaliera di frutta secca (30g di noci, mandorle).\n- Consumare almeno 200g di verdura e 200g di frutta fresca al giorno.\n- Preferire cereali integrali a quelli raffinati.\n- Attività fisica aerobica regolare: almeno 150-300 minuti alla settimana di intensità moderata (camminata veloce, nuoto, bicicletta).\n- In caso di sovrappeso, anche una riduzione del 5-10% del peso corporeo può migliorare significativamente il profilo lipidico.\n- Evitare il fumo di sigaretta, che peggiora il profilo lipidico e aumenta il rischio cardiovascolare."
+    }
+  },
+  "consigli_lipidi": {
+    "nome": "Consigli Lipidi",
+    "intro": "Profilo lipidico non ottimale.\nPer favorire la riduzione del colesterolo LDL (valori desiderati < 116 mg/dL), è consigliabile seguire alcune semplici indicazioni nutrizionali:",
+    "alimenti_privilegiare": {
+      "titolo": "Alimenti da Privilegiare nella Dieta Quotidiana:",
+      "verdura": "Consumare porzioni abbondanti ad ogni pasto, variando i tipi e i colori. Sia fresca che surgelata al naturale sono valide scelte.",
+      "frutta": "Includere regolarmente frutta fresca di stagione, importante fonte di vitamine, minerali e fibre.",
+      "cereali_integrali": "Preferire sistematicamente le versioni integrali di pane, pasta, riso. Includere anche avena, orzo, farro per massimizzare l'apporto di fibre benefiche.",
+      "legumi": "Inserire frequentemente lenticchie, ceci, fagioli, piselli. Sono un'ottima fonte di proteine vegetali e fibre che aiutano a controllare il colesterolo.",
+      "pesce": "Consumare pesce 2-3 volte a settimana, privilegiando varietà ricche di Omega-3 (come salmone, sgombro, sardine, acciughe).",
+      "frutta_secca": "Una piccola quantità giornaliera (es. 30g) di noci, mandorle, nocciole o semi (lino, chia, zucca) apporta grassi sani e fibre (attenzione alle calorie).",
+      "grassi_sani": "Utilizzare Olio Extravergine d'Oliva come condimento principale, preferibilmente a crudo. Altri oli vegetali (es. canola) possono essere usati con moderazione per cucinare. Avocado e olive sono altre buone fonti.",
+      "proteine_magre": "Alternare il pesce con pollame senza pelle (pollo, tacchino) e le già citate proteine vegetali (legumi).",
+      "latticini": "Se consumati, scegliere versioni a basso contenuto di grassi come yogurt bianco naturale non zuccherato o latte parzialmente scremato.",
+      "bevande": "L'acqua è la bevanda principale. Tè verde e tisane non zuccherate sono valide alternative."
+    },
+    "alimenti_limitare": {
+      "titolo": "Alimenti da Limitare Significativamente o Evitare:",
+      "grassi_saturi": "Ridurre il consumo di burro, panna, strutto, formaggi grassi e stagionati, oli tropicali (palma, cocco).",
+      "grassi_trans": "Evitare prodotti contenenti \"grassi (parzialmente) idrogenati\" (controllare attentamente le etichette di prodotti da forno industriali, snack, margarine).",
+      "carni_rosse": "Limitarne il consumo (manzo, maiale) a non più di 1-2 volte a settimana.",
+      "carni_lavorate": "Evitare o consumare solo eccezionalmente insaccati, salumi, wurstel, bacon.",
+      "ultra_processati": "Ridurre al minimo cibi pronti, snack confezionati, patatine, merendine, fast food. Sono spesso ricchi di grassi non sani, zuccheri aggiunti e sale.",
+      "zuccheri": "Limitarne fortemente dolci, dessert, biscotti. Eliminare bevande zuccherate (bibite gassate, succhi di frutta industriali, tè freddi zuccherati). Preferire sempre il frutto intero ai succhi, anche se 100% frutta.",
+      "fritti": "Evitare la frittura come metodo di cottura abituale.",
+      "alcol": "Limitarne fortemente il consumo o, preferibilmente, evitarlo."
+    },
+    "consigli_pratici": {
+      "titolo": "Consigli Pratici Quotidiani:",
+      "cottura": "Privilegiare cotture semplici (vapore, griglia, forno, bollitura) che richiedono pochi grassi aggiunti.",
+      "fibre": "Assicurare un adeguato consumo di fibre attraverso verdura, frutta, legumi e cereali integrali in ogni pasto.",
+      "etichette": "Prendere l'abitudine di controllare le informazioni nutrizionali, in particolare il contenuto di grassi saturi, zuccheri e sodio (sale).",
+      "porzioni": "Prestare attenzione alle quantità consumate, anche per gli alimenti sani.",
+      "stile_vita": "Ricordare che la dieta è più efficace se inserita in uno stile di vita che comprende attività fisica regolare e il mantenimento di un peso corporeo sano."
+    }
+  },
+  "config": {
+    "email_contatto": "benjamin.deornelas@santagostino.it",
+    "target_ldl": {
+      "basso": 116,
+      "moderato": 100,
+      "alto": 70,
+      "molto_alto": 55
+    },
+    "score2_soglie": {
+      "under_50": {
+        "basso": 2.5,
+        "moderato": 7.5,
+        "alto": 10
+      },
+      "over_50": {
+        "basso": 5,
+        "moderato": 10,
+        "alto": 15
+      }
+    }
+  }
+}
