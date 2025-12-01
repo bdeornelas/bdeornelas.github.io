@@ -528,6 +528,36 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             return parseFloat(calibrated_risk_percent);
         }
 
+        // Converte percentuale SCORE2 in categoria di rischio CV secondo ESC 2021
+        function getRiskCategoryFromScore2(score, age) {
+            if (score === null || isNaN(score)) return null;
+
+            if (age < 50) {
+                if (score < 2.5) return 'basso';
+                if (score < 7.5) return 'moderato';
+                if (score < 10) return 'alto';
+                return 'molto-alto';
+            } else {
+                // età 50-69 (SCORE2) o ≥70 (SCORE2-OP con stesse soglie semplificate)
+                if (score < 5) return 'basso';
+                if (score < 10) return 'moderato';
+                if (score < 15) return 'alto';
+                return 'molto-alto';
+            }
+        }
+
+        // Restituisce il target LDL in base alla categoria di rischio e presenza di diabete
+        function getLdlTarget(riskCategory, hasDiabetes) {
+            if (hasDiabetes) return 55; // Diabete con danno d'organo = molto alto rischio
+            switch (riskCategory) {
+                case 'molto-alto': return 55;
+                case 'alto': return 70;
+                case 'moderato': return 100;
+                case 'basso':
+                default: return 116;
+            }
+        }
+
         // === Parsing PAO e commento SOLO per ipertensione (grado 1–3 o ISH) ===
         function parseBPString(paoStr) {
             if (!paoStr) return { sbp: NaN, dbp: NaN };
@@ -716,6 +746,10 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             const scenarioSelect = document.getElementById('scenario-select');
             if (scenarioSelect.value === 'primo-riscontro-ht' && htGeneratedText) {
                 conclusioniRaw = htGeneratedText;
+            } else if ((scenarioSelect.value === 'primo-riscontro-ldl' || scenarioSelect.value === 'ldl-elevato-auto' || scenarioSelect.value === 'ldl-normale') && ldlGeneratedText) {
+                conclusioniRaw = ldlGeneratedText;
+            } else if (scenarioSelect.value === 'primo-riscontro-pvc' && pvcGeneratedText) {
+                conclusioniRaw = pvcGeneratedText;
             } else if (consigliSelezionati.length > 0) {
                 conclusioniRaw = consigliSelezionati.join(". ") + ".";
             } else {
@@ -1028,6 +1062,7 @@ Trigliceridi: `;
         function selectScenario(value) {
             selectedScenarioValue = value;
             htGeneratedText = ''; // Reset HT text
+            pvcGeneratedText = ''; // Reset PVC text
 
             const labels = {
                 'terapia': 'Confermare terapia in atto',
@@ -1117,66 +1152,197 @@ Trigliceridi: `;
         // Reset scenario
         function resetHtCascade() {
             htGeneratedText = '';
+            pvcGeneratedText = '';
+            ldlGeneratedText = '';
             selectedScenarioValue = '';
             selectedScenarioLabel = '';
             document.getElementById('scenario-selected').style.display = 'none';
         }
 
+        // LDL Scenario Functions
+        let ldlGeneratedText = '';
+
+        function selectLdlScenario(ldlLevel, rischio) {
+            selectedScenarioValue = 'primo-riscontro-ldl';
+            document.getElementById('scenario-select').value = 'primo-riscontro-ldl';
+
+            // Reset checkboxes
+            aggiungereConsigliLipidi = false;
+
+            // Generate text and store
+            const testo = generateLdlScenarioText(ldlLevel, rischio);
+            ldlGeneratedText = testo;
+
+            // Build path
+            const ldlLabel = ldlLevel === 'elevato' ? 'LDL 116-190 mg/dL' : 'LDL > 190 mg/dL';
+            const rischioLabel = 'Rischio ' + rischio.charAt(0).toUpperCase() + rischio.slice(1).replace('-', ' ');
+            const pathParts = ['Primo riscontro LDL elevato', ldlLabel, rischioLabel];
+
+            // Show badge
+            const badge = document.getElementById('scenario-selected');
+            badge.innerHTML = '<strong>Selezionato:</strong> ' + pathParts.join(' > ');
+            badge.style.display = 'block';
+
+            selectedScenarioLabel = pathParts.join(' > ');
+        }
+
+        function generateLdlScenarioText(ldlLevel, rischio) {
+            let testo = '';
+
+            if (ldlLevel === 'molto-elevato') {
+                // LDL > 190 mg/dL - automatic high risk, screen for FH
+                testo = `Primo riscontro di colesterolo LDL significativamente elevato (superiore a 190 mg/dL). Valori così elevati richiedono un approfondimento per escludere l'ipercolesterolemia familiare, una condizione genetica che causa colesterolo alto e aumenta il rischio di malattie cardiovascolari.`;
+                testo += `\n\nSi consiglia:\n- Visita specialistica per valutazione dell'ipercolesterolemia familiare\n- Anamnesi familiare per eventi cardiovascolari precoci (infarto o ictus prima dei 55 anni negli uomini, prima dei 65 anni nelle donne)\n- Ricerca di segni clinici (xantomi tendinei, arco corneale)`;
+
+                if (rischio === 'molto-alto') {
+                    testo += `\n\nL'obiettivo è raggiungere un valore di colesterolo LDL inferiore a 55 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale.`;
+                } else {
+                    testo += `\n\nL'obiettivo è raggiungere un valore di colesterolo LDL inferiore a 70 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale.`;
+                }
+
+                testo += `\n\nSi consiglia controllo del profilo lipidico dopo 4-6 settimane per verificare il raggiungimento dell'obiettivo.`;
+                testo += generateLdlLifestyleAdvice();
+
+            } else {
+                // LDL 116-190 mg/dL
+                testo = `Primo riscontro di colesterolo LDL (colesterolo "cattivo") elevato.`;
+
+                if (rischio === 'basso') {
+                    testo += `\n\nIn considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 116 mg/dL.`;
+                    testo += `\n\nSi consiglia un controllo del profilo lipidico dopo 4-6 settimane per valutare l'efficacia delle modifiche dello stile di vita.`;
+                } else if (rischio === 'moderato') {
+                    testo += `\n\nIn considerazione del profilo di rischio cardiovascolare moderato, si consiglia l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL.`;
+                    testo += `\n\nSi consiglia un controllo del profilo lipidico dopo 4-6 settimane per valutare i risultati e decidere se sia necessario un ulteriore intervento.`;
+                } else if (rischio === 'alto') {
+                    testo += `\n\nIn considerazione del profilo di rischio cardiovascolare alto, l'obiettivo è raggiungere un valore di LDL inferiore a 70 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale. È importante adottare anche un'alimentazione cardioprotettiva.`;
+                    testo += `\n\nSi consiglia un controllo del profilo lipidico dopo 4-6 settimane per verificare il raggiungimento dell'obiettivo.`;
+                } else if (rischio === 'molto-alto') {
+                    testo += `\n\nIn considerazione del profilo di rischio cardiovascolare molto alto, l'obiettivo è raggiungere un valore di LDL inferiore a 55 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale. È importante adottare anche un'alimentazione cardioprotettiva.`;
+                    testo += `\n\nSi consiglia un controllo del profilo lipidico dopo 4-6 settimane per verificare il raggiungimento dell'obiettivo.`;
+                }
+
+                testo += generateLdlLifestyleAdvice();
+            }
+
+            return testo;
+        }
+
+        function generateLdlLifestyleAdvice() {
+            let testo = `\n\nPer ridurre il colesterolo, si raccomandano le seguenti indicazioni:\n`;
+            testo += `- Limitare i grassi saturi (burro, formaggi grassi, carni rosse, insaccati, fritture) a meno del 10% delle calorie totali, preferendo olio extravergine d'oliva.\n`;
+            testo += `- Evitare i grassi trans (margarine, prodotti da forno industriali, snack confezionati).\n`;
+            testo += `- Aumentare il consumo di fibre solubili (avena, orzo, legumi, frutta con buccia) che aiutano a ridurre l'assorbimento del colesterolo.\n`;
+            testo += `- Consumare pesce ricco di omega-3 (salmone, sgombro, sardine) almeno 2 volte a settimana.\n`;
+            testo += `- Includere una porzione giornaliera di frutta secca (30g di noci, mandorle).\n`;
+            testo += `- Consumare almeno 200g di verdura e 200g di frutta fresca al giorno.\n`;
+            testo += `- Preferire cereali integrali a quelli raffinati.\n`;
+            testo += `- Attività fisica aerobica regolare: almeno 150-300 minuti alla settimana di intensità moderata (camminata veloce, nuoto, bicicletta).\n`;
+            testo += `- In caso di sovrappeso, anche una riduzione del 5-10% del peso corporeo può migliorare significativamente il profilo lipidico.\n`;
+            testo += `- Evitare il fumo di sigaretta, che peggiora il profilo lipidico e aumenta il rischio cardiovascolare.`;
+
+            return testo;
+        }
+
+        // Scenario LDL con calcolo automatico del rischio da SCORE2
+        function selectLdlAutoScenario() {
+            // Leggi LDL calcolato
+            const ldlInput = document.getElementById('ldl-calculated');
+            const ldlValue = parseFloat(ldlInput.value);
+
+            if (isNaN(ldlValue) || ldlValue <= 0) {
+                alert('Inserire prima i valori del profilo lipidico (Colesterolo Totale, HDL, Trigliceridi) per calcolare il LDL.');
+                return;
+            }
+
+            // Determina livello LDL
+            let ldlLevel;
+            if (ldlValue < 116) {
+                // LDL normale - nessuna raccomandazione specifica necessaria
+                ldlGeneratedText = `Il colesterolo LDL (colesterolo "cattivo") risulta nei limiti della norma (${ldlValue.toFixed(0)} mg/dL). Si consiglia di mantenere uno stile di vita sano e controlli periodici del profilo lipidico.`;
+                selectedScenarioValue = 'ldl-normale';
+                document.getElementById('scenario-select').value = 'ldl-normale';
+
+                const badge = document.getElementById('scenario-selected');
+                badge.innerHTML = '<strong>Selezionato:</strong> LDL nella norma';
+                badge.style.display = 'block';
+                selectedScenarioLabel = 'LDL nella norma';
+                return;
+            } else if (ldlValue <= 190) {
+                ldlLevel = 'elevato';
+            } else {
+                ldlLevel = 'molto-elevato';
+            }
+
+            // Leggi età per SCORE2
+            const ageInput = document.getElementById('age');
+            const age = parseInt(ageInput.value, 10);
+
+            // Controlla diabete
+            const diabeteCheckbox = document.getElementById('diabete');
+            const hasDiabetes = diabeteCheckbox && diabeteCheckbox.checked;
+
+            // Calcola SCORE2 se possibile (età 40-69)
+            let riskCategory = null;
+            if (age >= 40 && age <= 69) {
+                const score2Result = calculateScore2();
+                if (score2Result !== null && !isNaN(score2Result)) {
+                    riskCategory = getRiskCategoryFromScore2(score2Result, age);
+                }
+            }
+
+            // Se diabete, automaticamente alto/molto alto rischio
+            if (hasDiabetes) {
+                riskCategory = 'molto-alto';
+            }
+
+            // Se non si può calcolare il rischio, chiedi selezione manuale
+            if (!riskCategory) {
+                alert('Non è possibile calcolare automaticamente il rischio cardiovascolare (SCORE2 richiede età 40-69 e profilo lipidico completo). Selezionare manualmente il profilo di rischio dal menu.');
+                return;
+            }
+
+            // Genera testo usando la funzione esistente
+            const testo = generateLdlScenarioText(ldlLevel, riskCategory);
+            ldlGeneratedText = testo;
+
+            selectedScenarioValue = 'ldl-elevato-auto';
+            document.getElementById('scenario-select').value = 'ldl-elevato-auto';
+
+            // Build path
+            const ldlLabel = ldlLevel === 'elevato' ? `LDL ${ldlValue.toFixed(0)} mg/dL (116-190)` : `LDL ${ldlValue.toFixed(0)} mg/dL (>190)`;
+            const rischioLabel = 'Rischio ' + riskCategory.charAt(0).toUpperCase() + riskCategory.slice(1).replace('-', ' ');
+            const pathParts = ['LDL elevato', ldlLabel, rischioLabel];
+
+            // Show badge
+            const badge = document.getElementById('scenario-selected');
+            badge.innerHTML = '<strong>Selezionato:</strong> ' + pathParts.join(' > ');
+            badge.style.display = 'block';
+
+            selectedScenarioLabel = pathParts.join(' > ');
+        }
+
         function generateHtTextByScenario(esami, ldl, diabete, rischio) {
             let testo = '';
 
-            // Base text for first-time hypertension finding
-            const baseHt = `Primo riscontro di valori pressori elevati. Per confermare la diagnosi di ipertensione arteriosa, si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). I risultati del monitoraggio potranno essere inviati all'indirizzo email benjamin.deornelas@santagostino.it per la valutazione. In caso di conferma, l'obiettivo terapeutico sarà raggiungere valori di 120-129/70-79 mmHg. Si richiede ecocardiogramma color Doppler ed ecocolorDoppler dei tronchi sovraortici per la valutazione del danno d'organo.`;
+            // Base text for first-time elevated BP finding - MINIMAL, just request confirmation
+            const baseHt = `Primo riscontro di valori pressori elevati. Si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). I risultati del monitoraggio potranno essere inviati all'indirizzo email benjamin.deornelas@santagostino.it per la valutazione.`;
 
-            // Text for labs to be ordered - can't calculate SCORE2
+            // Text for labs to be ordered
             if (esami === 'da-richiedere') {
-                testo = baseHt + `\n\nSi richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH. Questi esami permetteranno di calcolare il rischio cardiovascolare (SCORE2) e definire i target terapeutici appropriati.`;
-
-                if (diabete === 'si') {
-                    testo += `\n\nIn considerazione della presenza di diabete, il paziente presenta un rischio cardiovascolare intrinsecamente elevato. Indipendentemente dal calcolo SCORE2, l'obiettivo di colesterolo LDL deve essere inferiore a 70 mg/dL con riduzione di almeno il 50% rispetto al valore basale. Si consiglia di avviare terapia con statina ad alta intensità e di verificare il raggiungimento del target lipidico con un controllo degli esami dopo 4-6 settimane dall'inizio della terapia.`;
-                } else {
-                    testo += `\n\nAlla ricezione degli esami sarà possibile calcolare il rischio cardiovascolare e valutare l'eventuale necessità di terapia ipolipemizzante.`;
-                }
-
-                testo += generateLifestyleAdvice(diabete, '');
+                testo = baseHt;
+                testo += `\n\nSi richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH.`;
                 return testo;
             }
 
             // Text for labs already done but waiting for results
             if (esami === 'in-attesa') {
-                testo = baseHt + `\n\nSi resta in attesa dell'esito degli esami ematochimici già eseguiti. Una volta disponibili, sarà possibile calcolare il rischio cardiovascolare (SCORE2) e definire i target terapeutici appropriati.`;
-
-                if (diabete === 'si') {
-                    testo += `\n\nIn considerazione della presenza di diabete, il paziente presenta un rischio cardiovascolare intrinsecamente elevato. Indipendentemente dal calcolo SCORE2, l'obiettivo di colesterolo LDL deve essere inferiore a 70 mg/dL con riduzione di almeno il 50% rispetto al valore basale. Si consiglia di avviare terapia con statina ad alta intensità e di verificare il raggiungimento del target lipidico con un controllo degli esami dopo 4-6 settimane dall'inizio della terapia.`;
-                } else {
-                    testo += `\n\nAlla ricezione degli esami sarà possibile calcolare il rischio cardiovascolare e valutare l'eventuale necessità di terapia ipolipemizzante.`;
-                }
-
-                testo += generateLifestyleAdvice(diabete, '');
+                testo = baseHt;
+                testo += `\n\nSi resta in attesa dell'esito degli esami ematochimici già eseguiti.`;
                 return testo;
             }
 
-            // Text for labs available
+            // Text for labs available - still need BP confirmation first
             testo = baseHt;
-
-            // LDL management based on level and risk
-            if (ldl === 'normale') {
-                testo += `\n\nIl profilo lipidico risulta nei limiti di norma.`;
-                if (rischio === 'alto' || rischio === 'molto-alto' || diabete === 'si') {
-                    testo += ` Tuttavia, dato il profilo di rischio cardiovascolare, è opportuno mantenere uno stile di vita sano e rivalutare periodicamente l'assetto lipidico.`;
-                }
-            } else if (ldl === 'elevato') {
-                testo += generateLdlElevatoText(diabete, rischio);
-            } else if (ldl === 'molto-elevato') {
-                testo += generateLdlMoltoElevatoText(diabete, rischio);
-            }
-
-            // Diabetes-specific recommendations
-            if (diabete === 'si') {
-                testo += `\n\nIn presenza di diabete, si raccomanda un controllo glicemico ottimale (HbA1c target individualizzato secondo le linee guida), insieme al monitoraggio regolare della funzione renale e della microalbuminuria.`;
-            }
-
-            testo += generateLifestyleAdvice(diabete, rischio);
 
             return testo;
         }
@@ -1187,13 +1353,13 @@ Trigliceridi: `;
             if (diabete === 'si' || rischio === 'alto' || rischio === 'molto-alto') {
                 // High/very high risk or diabetic: drug + lifestyle together
                 const target = (rischio === 'molto-alto' || diabete === 'si') ? '55' : '70';
-                testo = `\n\nIl colesterolo LDL risulta al di sopra del target raccomandato per il profilo di rischio cardiovascolare del paziente. Si consiglia di avviare terapia con statina ad alta intensità con l'obiettivo di raggiungere un valore di LDL inferiore a ${target} mg/dL e una riduzione di almeno il 50% rispetto al valore basale. Contestualmente si raccomanda l'adozione di un'alimentazione cardioprotettiva. Si programma un controllo del profilo lipidico dopo 4-6 settimane dall'inizio della terapia per verificare il raggiungimento del target.`;
+                testo = `\n\nIl colesterolo LDL (colesterolo "cattivo") risulta al di sopra dei valori desiderabili per il profilo di rischio cardiovascolare. L'obiettivo è raggiungere un valore di LDL inferiore a ${target} mg/dL e una riduzione di almeno il 50% rispetto al valore attuale. È importante anche adottare un'alimentazione cardioprotettiva. Si consiglia un controllo del profilo lipidico dopo 4-6 settimane per verificare il raggiungimento dell'obiettivo.`;
             } else if (rischio === 'moderato') {
                 // Moderate risk: lifestyle first, consider drug if uncontrolled
-                testo = `\n\nIl colesterolo LDL risulta lievemente elevato. In considerazione del profilo di rischio cardiovascolare moderato, si consiglia in prima istanza l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL. Si programma un controllo del profilo lipidico dopo 4-6 settimane per rivalutare la necessità di integrare con terapia farmacologica qualora le modifiche dello stile di vita non fossero sufficienti.`;
+                testo = `\n\nIl colesterolo LDL (colesterolo "cattivo") risulta lievemente elevato. In considerazione del profilo di rischio cardiovascolare, si consiglia in prima istanza l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL. Si consiglia un controllo del profilo lipidico dopo 4-6 settimane per valutare i risultati.`;
             } else {
                 // Low risk: lifestyle only
-                testo = `\n\nIl colesterolo LDL risulta lievemente elevato. In considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita con particolare attenzione all'alimentazione. Non vi è indicazione attuale a terapia farmacologica ipolipemizzante. Si consiglia controllo periodico del profilo lipidico.`;
+                testo = `\n\nIl colesterolo LDL (colesterolo "cattivo") risulta lievemente elevato. In considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita con particolare attenzione all'alimentazione. L'obiettivo è mantenere un valore di LDL inferiore a 116 mg/dL. Si consiglia un controllo periodico del profilo lipidico.`;
             }
 
             return testo;
@@ -1203,7 +1369,7 @@ Trigliceridi: `;
             let testo = '';
             const target = (rischio === 'molto-alto' || diabete === 'si') ? '55' : (rischio === 'alto' ? '70' : '100');
 
-            testo = `\n\nIl colesterolo LDL risulta significativamente elevato (superiore a 190 mg/dL). Indipendentemente dal profilo di rischio calcolato, valori così elevati richiedono un approfondimento diagnostico per escludere forme di ipercolesterolemia familiare. Si consiglia di avviare terapia con statina ad alta intensità, eventualmente in associazione con ezetimibe se necessario per raggiungere il target di LDL inferiore a ${target} mg/dL. Contestualmente si raccomanda l'adozione di un'alimentazione cardioprotettiva. Si programma un controllo del profilo lipidico dopo 4-6 settimane dall'inizio della terapia.`;
+            testo = `\n\nIl colesterolo LDL (colesterolo "cattivo") risulta significativamente elevato (superiore a 190 mg/dL). Valori così elevati richiedono un approfondimento diagnostico per escludere forme di ipercolesterolemia familiare (una condizione genetica che causa colesterolo alto). L'obiettivo terapeutico è raggiungere un valore di LDL inferiore a ${target} mg/dL. È importante anche adottare un'alimentazione cardioprotettiva. Si consiglia un controllo del profilo lipidico dopo 4-6 settimane.`;
 
             return testo;
         }
@@ -1215,11 +1381,13 @@ Trigliceridi: `;
             testo += `- Limitare la carne rossa a massimo 350-500g alla settimana ed evitare carni lavorate (insaccati, salumi).\n`;
             testo += `- Includere una porzione giornaliera di frutta secca (30g di noci, mandorle).\n`;
             testo += `- Apporto di fibre di 30-45g al giorno.\n`;
-            testo += `- Limitare il consumo di sale a meno di 5g al giorno.\n`;
-            testo += `- Attività fisica aerobica regolare: almeno 150-300 minuti alla settimana di intensità moderata (camminata veloce, nuoto, bicicletta).\n`;
-            testo += `- Mantenere un peso corporeo sano (indice di massa corporea 20-25 kg/m2).\n`;
-            testo += `- Evitare il fumo di sigaretta.\n`;
-            testo += `- Moderare il consumo di alcol (se presente).`;
+            testo += `- Limitare il consumo di sale a meno di 5g al giorno (circa un cucchiaino raso). Evitare di aggiungere sale a tavola e limitare alimenti confezionati ricchi di sodio.\n`;
+            testo += `- Attività fisica aerobica regolare: almeno 150-300 minuti alla settimana di intensità moderata (camminata veloce, nuoto, bicicletta), distribuiti su almeno 5 giorni. Se possibile, aggiungere 2-3 sessioni settimanali di esercizi di rinforzo muscolare leggero.\n`;
+            testo += `- Mantenere un peso corporeo sano (indice di massa corporea 20-25 kg/m2). In caso di sovrappeso, anche una riduzione del 5-10% del peso corporeo può portare benefici significativi sulla pressione arteriosa.\n`;
+            testo += `- Evitare completamente il fumo di sigaretta. Il fumo è uno dei principali fattori di rischio cardiovascolare.\n`;
+            testo += `- Limitare il consumo di alcol (massimo 1-2 bicchieri di vino al giorno per gli uomini, 1 per le donne). L'ideale sarebbe evitare del tutto le bevande alcoliche.\n`;
+            testo += `- Evitare bevande zuccherate e energy drink.\n`;
+            testo += `- Gestire lo stress attraverso tecniche di rilassamento, sonno regolare (7-8 ore per notte) e attività piacevoli.`;
 
             return testo;
         }
@@ -1236,6 +1404,85 @@ Trigliceridi: `;
             notification.style.cssText = 'position: fixed; bottom: 20px; right: 20px; background: var(--success-color); color: white; padding: 12px 20px; border-radius: 6px; z-index: 1000;';
             document.body.appendChild(notification);
             setTimeout(() => notification.remove(), 2000);
+        }
+
+        // ===== PVC (EXTRASISTOLE VENTRICOLARI) SCENARIO FUNCTIONS =====
+        // Based on ESC 2022 Guidelines for Ventricular Arrhythmias and SCD Prevention
+        let pvcGeneratedText = '';
+
+        function selectPvcScenario(esamiDisponibili) {
+            selectedScenarioValue = 'primo-riscontro-pvc';
+            document.getElementById('scenario-select').value = 'primo-riscontro-pvc';
+
+            // Generate text based on available tests
+            const testo = generatePvcScenarioText(esamiDisponibili);
+            pvcGeneratedText = testo;
+
+            // Build path for badge
+            let esamiLabel;
+            if (esamiDisponibili === 'holter-eco') {
+                esamiLabel = 'Holter + Eco disponibili';
+            } else if (esamiDisponibili === 'solo-holter') {
+                esamiLabel = 'Solo Holter disponibile';
+            } else {
+                esamiLabel = 'Nessun esame disponibile';
+            }
+
+            const pathParts = ['Primo riscontro extrasistole ventricolari', esamiLabel];
+
+            // Show badge
+            const badge = document.getElementById('scenario-selected');
+            badge.innerHTML = '<strong>Selezionato:</strong> ' + pathParts.join(' > ');
+            badge.style.display = 'block';
+
+            selectedScenarioLabel = pathParts.join(' > ');
+        }
+
+        function generatePvcScenarioText(esamiDisponibili) {
+            let testo = '';
+
+            // Common intro for all scenarios
+            const introBase = `Primo riscontro di extrasistole ventricolari (battiti cardiaci anticipati che originano dai ventricoli).`;
+
+            if (esamiDisponibili === 'holter-eco') {
+                // Both Holter and Echo available
+                testo = introBase;
+                testo += `\n\nDagli esami disponibili:\n`;
+                testo += `- L'ECG-Holter ha permesso di quantificare il carico di extrasistole nelle 24 ore\n`;
+                testo += `- L'ecocardiogramma ha valutato la struttura e la funzione cardiaca`;
+                testo += `\n\nIn assenza di cardiopatia strutturale all'ecocardiogramma e con morfologia tipica delle extrasistole (origine dal tratto di efflusso del ventricolo destro o dai fascicoli sinistri), l'aritmia è verosimilmente idiopatica, con prognosi generalmente benigna.`;
+                testo += `\n\nRaccomandazioni secondo le linee guida ESC 2022:\n`;
+                testo += `- In caso di carico extrasistolico >10%: è indicato un controllo periodico della funzione ventricolare sinistra (ecocardiogramma di follow-up)\n`;
+                testo += `- In caso di carico extrasistolico >20% o sintomi significativi: considerare trattamento farmacologico (beta-bloccanti, calcio-antagonisti) o ablazione transcatetere\n`;
+                testo += `- Se la presentazione clinica o la morfologia ECG non sono tipiche per origine idiopatica, è opportuno considerare una risonanza magnetica cardiaca per escludere cardiopatie strutturali occulte`;
+                testo += `\n\nSe i sintomi sono lievi e il carico extrasistolico è <10%, non è necessario alcun trattamento specifico. Si consiglia comunque di evitare fattori scatenanti come caffeina, alcol e stress.`;
+
+            } else if (esamiDisponibili === 'solo-holter') {
+                // Only Holter available
+                testo = introBase;
+                testo += `\n\nL'ECG-Holter ha permesso di quantificare il carico di extrasistole nelle 24 ore.`;
+                testo += `\n\nSecondo le linee guida ESC 2022, è raccomandata l'esecuzione di un ecocardiogramma come valutazione di primo livello per escludere cardiopatie strutturali sottostanti (Classe I, Livello C).`;
+                testo += `\n\nUlteriori raccomandazioni basate sulle linee guida:\n`;
+                testo += `- In caso di carico extrasistolico >10%: è indicato un controllo periodico della funzione ventricolare sinistra\n`;
+                testo += `- Se la presentazione clinica o la morfologia ECG non sono tipiche per origine idiopatica (es. morfologia non compatibile con origine dal tratto di efflusso destro o fascicolare, età avanzata, tachicardia ventricolare sostenuta), considerare anche risonanza magnetica cardiaca`;
+                testo += `\n\nSi consiglia di evitare fattori scatenanti come caffeina, alcol e stress eccessivo.`;
+
+            } else {
+                // No tests available
+                testo = introBase;
+                testo += `\n\nSecondo le linee guida ESC 2022 per la gestione dei pazienti con aritmie ventricolari, in caso di primo riscontro di extrasistole ventricolari in pazienti senza cardiopatia nota, è raccomandata la seguente valutazione diagnostica di primo livello (Classe I, Livello C):\n`;
+                testo += `- ECG a 12 derivazioni a riposo\n`;
+                testo += `- Ecocardiogramma transtoracico per escludere cardiopatie strutturali\n`;
+                testo += `- ECG-Holter 24 ore per quantificare il carico extrasistolico e caratterizzare l'aritmia`;
+                testo += `\n\nQuesta valutazione è fondamentale per:\n`;
+                testo += `- Escludere cardiopatie strutturali sottostanti\n`;
+                testo += `- Quantificare il carico di extrasistole (burden)\n`;
+                testo += `- Valutare la morfologia delle extrasistole (origine idiopatica vs sospetta cardiopatia)\n`;
+                testo += `- Stratificare il rischio e impostare un appropriato follow-up`;
+                testo += `\n\nNel frattempo, si consiglia di evitare fattori scatenanti come caffeina in eccesso, alcol e stress eccessivo.`;
+            }
+
+            return testo;
         }
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -1487,6 +1734,7 @@ Trigliceridi: `;
                     <li><a href="#" onclick="selectScenario('ematochimici'); return false;">Esami ematochimici</a></li>
                     <li><a href="#" onclick="selectScenario('no-accertamenti'); return false;">Nessun ulteriore accertamento</a></li>
                     <li><a href="#" onclick="selectScenario('lipidi'); return false;">Consigli Lipidi</a></li>
+                    <li><a href="#" onclick="selectLdlAutoScenario(); return false;">LDL elevato (auto da SCORE2)</a></li>
                     <li><a href="#" onclick="selectScenario('ipertensione'); return false;">Ipertensione secondaria</a></li>
                     <li><a href="#" onclick="selectScenario('contatto'); return false;">Info Contatto</a></li>
                     <li class="has-submenu">
@@ -1582,6 +1830,37 @@ Trigliceridi: `;
                             </li>
                         </ul>
                     </li>
+                    <li class="has-submenu">
+                        <span class="menu-parent">Primo riscontro LDL elevato &rarr;</span>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <span class="menu-parent">LDL 116-190 mg/dL &rarr;</span>
+                                <ul class="submenu">
+                                    <li><a href="#" onclick="selectLdlScenario('elevato','basso'); return false;">Rischio Basso</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('elevato','moderato'); return false;">Rischio Moderato</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('elevato','alto'); return false;">Rischio Alto</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('elevato','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <span class="menu-parent">LDL &gt; 190 mg/dL &rarr;</span>
+                                <ul class="submenu">
+                                    <li><a href="#" onclick="selectLdlScenario('molto-elevato','basso'); return false;">Rischio Basso</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('molto-elevato','moderato'); return false;">Rischio Moderato</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('molto-elevato','alto'); return false;">Rischio Alto</a></li>
+                                    <li><a href="#" onclick="selectLdlScenario('molto-elevato','molto-alto'); return false;">Rischio Molto Alto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <span class="menu-parent">Primo riscontro extrasistole ventricolari &rarr;</span>
+                        <ul class="submenu">
+                            <li><a href="#" onclick="selectPvcScenario('holter-eco'); return false;">Holter + Ecocardiogramma disponibili</a></li>
+                            <li><a href="#" onclick="selectPvcScenario('solo-holter'); return false;">Solo Holter disponibile</a></li>
+                            <li><a href="#" onclick="selectPvcScenario('nessuno'); return false;">Nessun esame disponibile</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <div id="scenario-selected" class="scenario-selected-badge" style="display: none;"></div>
@@ -1600,6 +1879,8 @@ Trigliceridi: `;
                 <option value="ipertensione">ipertensione</option>
                 <option value="contatto">contatto</option>
                 <option value="primo-riscontro-ht">primo-riscontro-ht</option>
+                <option value="primo-riscontro-ldl">primo-riscontro-ldl</option>
+                <option value="primo-riscontro-pvc">primo-riscontro-pvc</option>
             </select>
 
             <!-- Hidden checkboxes to maintain compatibility with existing code -->
