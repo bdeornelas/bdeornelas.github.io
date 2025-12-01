@@ -1094,7 +1094,7 @@ Trigliceridi: `;
             htGeneratedText = testo;
 
             // Build path
-            const esamiLabel = esami === 'disponibili' ? 'Esami disponibili' : 'Esami non disponibili';
+            const esamiLabel = esami === 'disponibili' ? 'Esami disponibili' : (esami === 'da-richiedere' ? 'Esami da richiedere' : 'Esami in attesa di esito');
             const ldlLabel = ldl ? (ldl === 'normale' ? 'LDL < 116' : ldl === 'elevato' ? 'LDL 116-190' : 'LDL > 190') : '';
             const diabeteLabel = diabete === 'si' ? 'Diabete' : 'No diabete';
 
@@ -1128,9 +1128,23 @@ Trigliceridi: `;
             // Base text for first-time hypertension finding
             const baseHt = `Primo riscontro di valori pressori elevati. Per confermare la diagnosi di ipertensione arteriosa, si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). In caso di conferma, l'obiettivo terapeutico sarà raggiungere valori di 120-129/70-79 mmHg. Si richiede ecocardiogramma color Doppler ed ecocolorDoppler dei tronchi sovraortici per la valutazione del danno d'organo.`;
 
-            // Text for labs not available - can't calculate SCORE2
-            if (esami === 'non-disponibili') {
+            // Text for labs to be ordered - can't calculate SCORE2
+            if (esami === 'da-richiedere') {
                 testo = baseHt + `\n\nSi richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH. Questi esami permetteranno di calcolare il rischio cardiovascolare (SCORE2) e definire i target terapeutici appropriati.`;
+
+                if (diabete === 'si') {
+                    testo += `\n\nIn considerazione della presenza di diabete, il paziente presenta un rischio cardiovascolare intrinsecamente elevato. Indipendentemente dal calcolo SCORE2, l'obiettivo di colesterolo LDL deve essere inferiore a 70 mg/dL con riduzione di almeno il 50% rispetto al valore basale. Si consiglia di avviare terapia con statina ad alta intensità e di verificare il raggiungimento del target lipidico con un controllo degli esami dopo 4-6 settimane dall'inizio della terapia.`;
+                } else {
+                    testo += `\n\nAlla ricezione degli esami sarà possibile calcolare il rischio cardiovascolare e valutare l'eventuale necessità di terapia ipolipemizzante.`;
+                }
+
+                testo += generateLifestyleAdvice(diabete, '');
+                return testo;
+            }
+
+            // Text for labs already done but waiting for results
+            if (esami === 'in-attesa') {
+                testo = baseHt + `\n\nSi resta in attesa dell'esito degli esami ematochimici già eseguiti. Una volta disponibili, sarà possibile calcolare il rischio cardiovascolare (SCORE2) e definire i target terapeutici appropriati.`;
 
                 if (diabete === 'si') {
                     testo += `\n\nIn considerazione della presenza di diabete, il paziente presenta un rischio cardiovascolare intrinsecamente elevato. Indipendentemente dal calcolo SCORE2, l'obiettivo di colesterolo LDL deve essere inferiore a 70 mg/dL con riduzione di almeno il 50% rispetto al valore basale. Si consiglia di avviare terapia con statina ad alta intensità e di verificare il raggiungimento del target lipidico con un controllo degli esami dopo 4-6 settimane dall'inizio della terapia.`;
@@ -1553,10 +1567,17 @@ Trigliceridi: `;
                                 </ul>
                             </li>
                             <li class="has-submenu">
-                                <span class="menu-parent">Esami non disponibili &rarr;</span>
+                                <span class="menu-parent">Esami da richiedere &rarr;</span>
                                 <ul class="submenu">
-                                    <li><a href="#" onclick="selectHtScenario('non-disponibili','','no',''); return false;">No diabete</a></li>
-                                    <li><a href="#" onclick="selectHtScenario('non-disponibili','','si',''); return false;">Diabete</a></li>
+                                    <li><a href="#" onclick="selectHtScenario('da-richiedere','','no',''); return false;">No diabete</a></li>
+                                    <li><a href="#" onclick="selectHtScenario('da-richiedere','','si',''); return false;">Diabete</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <span class="menu-parent">Esami in attesa di esito &rarr;</span>
+                                <ul class="submenu">
+                                    <li><a href="#" onclick="selectHtScenario('in-attesa','','no',''); return false;">No diabete</a></li>
+                                    <li><a href="#" onclick="selectHtScenario('in-attesa','','si',''); return false;">Diabete</a></li>
                                 </ul>
                             </li>
                         </ul>
