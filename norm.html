@@ -360,6 +360,27 @@
         .status-msg { padding: 8px; border-radius: 4px; margin-top: 10px; font-size: 13px; }
         .status-msg.success { background: #d1e7dd; color: #0f5132; }
         .status-msg.error { background: #f8d7da; color: #842029; }
+        /* Cascading scenarios tree view */
+        .scenario-tree { margin-left: 0; }
+        .scenario-tree-item { border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 12px; background: #fff; }
+        .scenario-tree-header { padding: 12px; background: #e8f4fd; border-radius: 8px 8px 0 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .scenario-tree-header h4 { margin: 0; font-size: 14px; color: #0d47a1; }
+        .scenario-tree-header .badge { background: #0d6efd; color: white; font-size: 11px; padding: 2px 8px; border-radius: 12px; }
+        .scenario-tree-body { display: none; padding: 12px; border-top: 1px solid #e0e0e0; }
+        .scenario-tree-item.expanded .scenario-tree-body { display: block; }
+        .tree-level { margin: 10px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; }
+        .tree-level-header { font-weight: 600; font-size: 13px; color: #495057; margin-bottom: 8px; }
+        .tree-options { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tree-option { background: #e9ecef; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+        .tree-texts { margin-top: 12px; }
+        .tree-text-item { margin: 8px 0; }
+        .tree-text-item label { font-size: 12px; font-weight: 600; color: #6c757d; }
+        .tree-text-item textarea { width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ced4da; border-radius: 4px; font-size: 12px; resize: vertical; box-sizing: border-box; }
+        .editor-tabs { display: flex; gap: 0; margin-bottom: 15px; border-bottom: 2px solid #dee2e6; }
+        .editor-tab { padding: 10px 20px; background: #f8f9fa; border: none; cursor: pointer; font-size: 13px; border-radius: 6px 6px 0 0; margin-bottom: -2px; }
+        .editor-tab.active { background: #0d6efd; color: white; border-bottom: 2px solid #0d6efd; }
+        .editor-tab-content { display: none; }
+        .editor-tab-content.active { display: block; }
     </style>
     <script>
         let aggiungereConsigliLipidi = false;
@@ -2111,26 +2132,136 @@ Trigliceridi: `;
             }
         }
 
+        let currentEditorTab = 'base';
+
+        function switchEditorTab(tab) {
+            currentEditorTab = tab;
+            document.querySelectorAll('.editor-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.editor-tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelector(`.editor-tab[data-tab="${tab}"]`).classList.add('active');
+            document.getElementById(`tab-${tab}`).classList.add('active');
+        }
+
         function renderScenariList() {
             const listEl = document.getElementById('scenari-list');
-            if (!scenariData || !scenariData.scenari_base) {
+            if (!scenariData) {
                 listEl.innerHTML = '<p>Nessuno scenario trovato</p>';
                 return;
             }
 
-            let html = '<h3 style="font-size:14px;margin:15px 0 10px;">Scenari Base</h3>';
-            for (const [key, scenario] of Object.entries(scenariData.scenari_base)) {
-                html += renderScenarioItem(key, scenario, 'scenari_base');
+            let html = `
+                <div class="editor-tabs">
+                    <button class="editor-tab active" data-tab="base" onclick="switchEditorTab('base')">Scenari Base</button>
+                    <button class="editor-tab" data-tab="concatenati" onclick="switchEditorTab('concatenati')">Scenari Concatenati</button>
+                </div>
+                <div id="tab-base" class="editor-tab-content active">
+            `;
+
+            // Render scenari_base
+            if (scenariData.scenari_base) {
+                for (const [key, scenario] of Object.entries(scenariData.scenari_base)) {
+                    html += renderScenarioItem(key, scenario, 'scenari_base');
+                }
             }
+
+            html += `</div><div id="tab-concatenati" class="editor-tab-content">`;
+
+            // Render scenari_concatenati
+            if (scenariData.scenari_concatenati) {
+                html += '<div class="scenario-tree">';
+                for (const [key, scenario] of Object.entries(scenariData.scenari_concatenati)) {
+                    html += renderCascadingScenario(key, scenario);
+                }
+                html += '</div>';
+            } else {
+                html += '<p style="color:#666;">Nessuno scenario concatenato presente.</p>';
+            }
+
+            html += '</div>';
 
             listEl.innerHTML = html;
 
-            // Add click handlers
+            // Add click handlers for base scenarios
             document.querySelectorAll('.scenario-header').forEach(header => {
                 header.addEventListener('click', () => {
                     header.closest('.scenario-item').classList.toggle('expanded');
                 });
             });
+
+            // Add click handlers for cascading scenarios
+            document.querySelectorAll('.scenario-tree-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    header.closest('.scenario-tree-item').classList.toggle('expanded');
+                });
+            });
+        }
+
+        function renderCascadingScenario(key, scenario) {
+            const numLevels = scenario.livelli ? scenario.livelli.length : 0;
+            const numTexts = scenario.testi ? Object.keys(scenario.testi).length : 0;
+
+            let html = `
+                <div class="scenario-tree-item" data-key="${key}">
+                    <div class="scenario-tree-header">
+                        <h4>${scenario.nome || key}</h4>
+                        <span class="badge">${numLevels} livelli, ${numTexts} testi</span>
+                    </div>
+                    <div class="scenario-tree-body">
+                        <div style="margin-bottom:10px;">
+                            <label style="font-size:12px;font-weight:600;">Descrizione</label>
+                            <input type="text" value="${scenario.descrizione || ''}"
+                                   onchange="updateCascadingField('${key}', 'descrizione', this.value)"
+                                   style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;font-size:12px;">
+                        </div>
+            `;
+
+            // Render levels
+            if (scenario.livelli && scenario.livelli.length > 0) {
+                html += '<div style="margin-bottom:12px;"><strong style="font-size:13px;">Livelli del menu:</strong></div>';
+                scenario.livelli.forEach((level, idx) => {
+                    const options = Array.isArray(level.opzioni)
+                        ? level.opzioni.map(o => typeof o === 'object' ? o.label : o).join(', ')
+                        : '';
+                    html += `
+                        <div class="tree-level">
+                            <div class="tree-level-header">${idx + 1}. ${level.label} (${level.id})</div>
+                            <div class="tree-options">
+                                ${(Array.isArray(level.opzioni) ? level.opzioni : []).map(o => {
+                                    const label = typeof o === 'object' ? o.label : o;
+                                    return `<span class="tree-option">${label}</span>`;
+                                }).join('')}
+                            </div>
+                            ${level.condizione ? `<div style="font-size:11px;color:#6c757d;margin-top:6px;">Condizione: ${level.condizione}</div>` : ''}
+                        </div>
+                    `;
+                });
+            }
+
+            // Render texts
+            if (scenario.testi && Object.keys(scenario.testi).length > 0) {
+                html += '<div class="tree-texts"><strong style="font-size:13px;">Testi:</strong>';
+                for (const [textKey, textValue] of Object.entries(scenario.testi)) {
+                    html += `
+                        <div class="tree-text-item">
+                            <label>${textKey}</label>
+                            <textarea onchange="updateCascadingText('${key}', '${textKey}', this.value)">${textValue}</textarea>
+                        </div>
+                    `;
+                }
+                html += '</div>';
+            }
+
+            html += `
+                        <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e0e0e0;">
+                            <button class="btn-add" onclick="addLevelToScenario('${key}')" style="font-size:12px;padding:4px 10px;">+ Aggiungi Livello</button>
+                            <button class="btn-add" onclick="addTextToScenario('${key}')" style="font-size:12px;padding:4px 10px;margin-left:6px;">+ Aggiungi Testo</button>
+                            <button class="btn-delete" onclick="deleteCascadingScenario('${key}')" style="margin-left:6px;">Elimina Scenario</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            return html;
         }
 
         function renderScenarioItem(key, scenario, category) {
@@ -2164,6 +2295,70 @@ Trigliceridi: `;
             }
         }
 
+        function updateCascadingField(key, field, value) {
+            if (scenariData.scenari_concatenati && scenariData.scenari_concatenati[key]) {
+                scenariData.scenari_concatenati[key][field] = value;
+            }
+        }
+
+        function updateCascadingText(scenarioKey, textKey, value) {
+            if (scenariData.scenari_concatenati && scenariData.scenari_concatenati[scenarioKey]) {
+                if (!scenariData.scenari_concatenati[scenarioKey].testi) {
+                    scenariData.scenari_concatenati[scenarioKey].testi = {};
+                }
+                scenariData.scenari_concatenati[scenarioKey].testi[textKey] = value;
+            }
+        }
+
+        function addLevelToScenario(scenarioKey) {
+            const id = prompt('ID del livello (es: "esami", "rischio"):');
+            if (!id) return;
+            const label = prompt('Label del livello (es: "Stato esami", "Rischio CV"):');
+            if (!label) return;
+            const opzioniStr = prompt('Opzioni separate da virgola (es: "basso,moderato,alto"):');
+            if (!opzioniStr) return;
+
+            const opzioni = opzioniStr.split(',').map(o => o.trim());
+
+            if (!scenariData.scenari_concatenati[scenarioKey].livelli) {
+                scenariData.scenari_concatenati[scenarioKey].livelli = [];
+            }
+            scenariData.scenari_concatenati[scenarioKey].livelli.push({ id, label, opzioni });
+            renderScenariList();
+            switchEditorTab('concatenati');
+
+            // Re-expand the item
+            setTimeout(() => {
+                const item = document.querySelector(`.scenario-tree-item[data-key="${scenarioKey}"]`);
+                if (item) item.classList.add('expanded');
+            }, 100);
+        }
+
+        function addTextToScenario(scenarioKey) {
+            const textKey = prompt('Chiave del testo (es: "base", "rischio_alto"):');
+            if (!textKey) return;
+
+            if (!scenariData.scenari_concatenati[scenarioKey].testi) {
+                scenariData.scenari_concatenati[scenarioKey].testi = {};
+            }
+            scenariData.scenari_concatenati[scenarioKey].testi[textKey] = '';
+            renderScenariList();
+            switchEditorTab('concatenati');
+
+            setTimeout(() => {
+                const item = document.querySelector(`.scenario-tree-item[data-key="${scenarioKey}"]`);
+                if (item) item.classList.add('expanded');
+            }, 100);
+        }
+
+        function deleteCascadingScenario(key) {
+            if (confirm(`Eliminare lo scenario concatenato "${key}"?`)) {
+                delete scenariData.scenari_concatenati[key];
+                renderScenariList();
+                switchEditorTab('concatenati');
+            }
+        }
+
         function deleteScenario(key, category) {
             if (confirm(`Eliminare lo scenario "${key}"?`)) {
                 delete scenariData[category][key];
@@ -2172,6 +2367,11 @@ Trigliceridi: `;
         }
 
         function addNewScenario() {
+            if (currentEditorTab === 'concatenati') {
+                addNewCascadingScenario();
+                return;
+            }
+
             const id = prompt('ID del nuovo scenario (es: "nuovo-esame"):');
             if (!id) return;
             const nome = prompt('Nome visualizzato:');
@@ -2184,6 +2384,30 @@ Trigliceridi: `;
             // Expand the new item
             setTimeout(() => {
                 const newItem = document.querySelector(`.scenario-item[data-key="${id}"]`);
+                if (newItem) newItem.classList.add('expanded');
+            }, 100);
+        }
+
+        function addNewCascadingScenario() {
+            const id = prompt('ID dello scenario concatenato (es: "nuovo-scenario-complesso"):');
+            if (!id) return;
+            const nome = prompt('Nome visualizzato:');
+            if (!nome) return;
+            const descrizione = prompt('Descrizione breve:');
+
+            if (!scenariData.scenari_concatenati) scenariData.scenari_concatenati = {};
+            scenariData.scenari_concatenati[id] = {
+                nome: nome,
+                descrizione: descrizione || '',
+                funzione: `select${id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('')}`,
+                livelli: [],
+                testi: {}
+            };
+            renderScenariList();
+            switchEditorTab('concatenati');
+
+            setTimeout(() => {
+                const newItem = document.querySelector(`.scenario-tree-item[data-key="${id}"]`);
                 if (newItem) newItem.classList.add('expanded');
             }, 100);
         }

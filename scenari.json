@@ -91,6 +91,61 @@
       "stile_vita": "Ricordare che la dieta è più efficace se inserita in uno stile di vita che comprende attività fisica regolare e il mantenimento di un peso corporeo sano."
     }
   },
+  "scenari_concatenati": {
+    "primo-riscontro-ht": {
+      "nome": "Primo riscontro ipertensione",
+      "descrizione": "Scenario per primo riscontro di valori pressori elevati",
+      "funzione": "selectHtScenario",
+      "livelli": [
+        {"id": "esami", "label": "Stato esami", "opzioni": ["disponibili", "da-richiedere", "in-attesa"]},
+        {"id": "ldl", "label": "Livello LDL", "opzioni": ["normale", "elevato", "molto-elevato"], "condizione": "esami === 'disponibili'"},
+        {"id": "diabete", "label": "Diabete", "opzioni": ["no", "si"]},
+        {"id": "rischio", "label": "Rischio CV", "opzioni": ["basso", "moderato", "alto", "molto-alto"], "condizione": "esami === 'disponibili'"}
+      ],
+      "testi": {
+        "base": "Primo riscontro di valori pressori elevati. Si consiglia monitoraggio pressorio domiciliare per 7 giorni (2 misurazioni mattina e sera) oppure monitoraggio pressorio delle 24 ore (ABPM). I risultati del monitoraggio potranno essere inviati all'indirizzo email benjamin.deornelas@santagostino.it per la valutazione.",
+        "esami_da_richiedere": "Si richiede l'esecuzione di esami ematochimici comprensivi di: creatinina con calcolo del filtrato glomerulare (eGFR), rapporto albumina/creatinina urinaria (UACR), profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi), glicemia a digiuno, emoglobina glicata (HbA1c), sodio, potassio e TSH.",
+        "esami_in_attesa": "Si resta in attesa dell'esito degli esami ematochimici già eseguiti."
+      }
+    },
+    "primo-riscontro-ldl": {
+      "nome": "Primo riscontro LDL elevato",
+      "descrizione": "Scenario per primo riscontro di colesterolo LDL elevato",
+      "funzione": "selectLdlScenario",
+      "livelli": [
+        {"id": "ldlLevel", "label": "Livello LDL", "opzioni": [
+          {"value": "elevato", "label": "LDL 116-190 mg/dL"},
+          {"value": "molto-elevato", "label": "LDL > 190 mg/dL"}
+        ]},
+        {"id": "rischio", "label": "Rischio CV", "opzioni": ["basso", "moderato", "alto", "molto-alto"]}
+      ],
+      "testi": {
+        "intro_elevato": "Primo riscontro di colesterolo LDL (colesterolo \"cattivo\") elevato.",
+        "intro_molto_elevato": "Primo riscontro di colesterolo LDL significativamente elevato (superiore a 190 mg/dL). Valori così elevati richiedono un approfondimento per escludere l'ipercolesterolemia familiare.",
+        "rischio_basso": "In considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita. L'obiettivo è raggiungere un valore di LDL inferiore a 116 mg/dL.",
+        "rischio_moderato": "In considerazione del profilo di rischio cardiovascolare moderato, si consiglia l'adozione di modifiche dello stile di vita. L'obiettivo è raggiungere un valore di LDL inferiore a 100 mg/dL.",
+        "rischio_alto": "In considerazione del profilo di rischio cardiovascolare alto, l'obiettivo è raggiungere un valore di LDL inferiore a 70 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale.",
+        "rischio_molto_alto": "In considerazione del profilo di rischio cardiovascolare molto alto, l'obiettivo è raggiungere un valore di LDL inferiore a 55 mg/dL, con una riduzione di almeno il 50% rispetto al valore attuale."
+      }
+    },
+    "primo-riscontro-pvc": {
+      "nome": "Primo riscontro extrasistole ventricolari",
+      "descrizione": "Scenario per primo riscontro di PVC/extrasistole ventricolari",
+      "funzione": "selectPvcScenario",
+      "livelli": [
+        {"id": "esamiDisponibili", "label": "Esami disponibili", "opzioni": [
+          {"value": "holter-eco", "label": "Holter + Ecocardiogramma disponibili"},
+          {"value": "solo-holter", "label": "Solo Holter disponibile"},
+          {"value": "nessuno", "label": "Nessun esame disponibile"}
+        ]}
+      ],
+      "testi": {
+        "holter_eco": "Riscontro di extrasistole ventricolari in assenza di cardiopatia strutturale, a prognosi benigna.\n\nSi consiglia:\n- ECG da sforzo\n- Limitare il consumo di caffeina\n- Moderare il consumo di alcol\n- Gestire lo stress\n- In caso di carico extrasistolico >10%: controllo ecocardiografico a 6-12 mesi",
+        "solo_holter": "Riscontro di extrasistole ventricolari.\n\nSi consiglia:\n- Ecocardiogramma transtoracico\n- ECG da sforzo\n- Limitare caffeina e alcol\n- Rivalutazione cardiologica con esito degli accertamenti",
+        "nessuno": "Riscontro di extrasistole ventricolari.\n\nSi consiglia:\n- Ecocardiogramma transtoracico\n- ECG-Holter 24h\n- ECG da sforzo\n- Rivalutazione cardiologica con esito degli accertamenti"
+      }
+    }
+  },
   "config": {
     "email_contatto": "benjamin.deornelas@santagostino.it",
     "target_ldl": {
