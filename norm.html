@@ -320,6 +320,46 @@
             margin-top: 10px; padding: 10px 14px; background: #198754;
             color: #ffffff; border-radius: 6px; font-size: 0.9em;
         }
+
+        /* Editor Scenari */
+        #scenari-editor-toggle {
+            position: fixed; bottom: 20px; right: 20px; z-index: 1000;
+            background: #6c757d; color: white; border: none; padding: 10px 15px;
+            border-radius: 50px; cursor: pointer; font-size: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        #scenari-editor-toggle:hover { background: #5a6268; }
+        #scenari-editor-panel {
+            display: none; position: fixed; top: 0; right: 0; width: 500px; height: 100vh;
+            background: white; box-shadow: -5px 0 20px rgba(0,0,0,0.2); z-index: 1001;
+            overflow-y: auto; padding: 20px;
+        }
+        #scenari-editor-panel.open { display: block; }
+        #scenari-editor-panel h2 { margin-top: 0; display: flex; justify-content: space-between; align-items: center; }
+        #scenari-editor-panel .close-btn { background: none; border: none; font-size: 24px; cursor: pointer; }
+        .scenario-item { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+        .scenario-item.expanded { background: #f8f9fa; }
+        .scenario-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+        .scenario-header h4 { margin: 0; font-size: 14px; }
+        .scenario-content { display: none; margin-top: 12px; }
+        .scenario-item.expanded .scenario-content { display: block; }
+        .scenario-content label { display: block; font-size: 12px; font-weight: 600; margin-top: 8px; }
+        .scenario-content input, .scenario-content textarea {
+            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 13px; box-sizing: border-box;
+        }
+        .scenario-content textarea { min-height: 100px; resize: vertical; }
+        .editor-actions { margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; }
+        .editor-actions button { padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; }
+        .btn-save { background: #198754; color: white; }
+        .btn-save:hover { background: #157347; }
+        .btn-add { background: #0d6efd; color: white; }
+        .btn-add:hover { background: #0b5ed7; }
+        .btn-delete { background: #dc3545; color: white; font-size: 12px; padding: 4px 8px; }
+        .github-token-section { background: #fff3cd; padding: 12px; border-radius: 6px; margin-bottom: 15px; font-size: 13px; }
+        .github-token-section input { margin-top: 5px; }
+        .status-msg { padding: 8px; border-radius: 4px; margin-top: 10px; font-size: 13px; }
+        .status-msg.success { background: #d1e7dd; color: #0f5132; }
+        .status-msg.error { background: #f8d7da; color: #842029; }
     </style>
     <script>
         let aggiungereConsigliLipidi = false;
@@ -1441,45 +1481,36 @@ Trigliceridi: `;
         function generatePvcScenarioText(esamiDisponibili) {
             let testo = '';
 
-            // Common intro for all scenarios
-            const introBase = `Primo riscontro di extrasistole ventricolari (battiti cardiaci anticipati che originano dai ventricoli).`;
+            // Common lifestyle advice based on ESC guidelines (triggers for arrhythmias)
+            const lifestyleAdvice = `- Limitare il consumo di caffeina (caffè, tè, energy drink)\n- Moderare il consumo di alcol (evitare il binge drinking)\n- Gestire lo stress (sonno regolare, attività fisica moderata, tecniche di rilassamento)\n- Evitare sostanze stimolanti`;
 
             if (esamiDisponibili === 'holter-eco') {
                 // Both Holter and Echo available
-                testo = introBase;
-                testo += `\n\nDagli esami disponibili:\n`;
-                testo += `- L'ECG-Holter ha permesso di quantificare il carico di extrasistole nelle 24 ore\n`;
-                testo += `- L'ecocardiogramma ha valutato la struttura e la funzione cardiaca`;
-                testo += `\n\nIn assenza di cardiopatia strutturale all'ecocardiogramma e con morfologia tipica delle extrasistole (origine dal tratto di efflusso del ventricolo destro o dai fascicoli sinistri), l'aritmia è verosimilmente idiopatica, con prognosi generalmente benigna.`;
-                testo += `\n\nRaccomandazioni secondo le linee guida ESC 2022:\n`;
-                testo += `- In caso di carico extrasistolico >10%: è indicato un controllo periodico della funzione ventricolare sinistra (ecocardiogramma di follow-up)\n`;
-                testo += `- In caso di carico extrasistolico >20% o sintomi significativi: considerare trattamento farmacologico (beta-bloccanti, calcio-antagonisti) o ablazione transcatetere\n`;
-                testo += `- Se la presentazione clinica o la morfologia ECG non sono tipiche per origine idiopatica, è opportuno considerare una risonanza magnetica cardiaca per escludere cardiopatie strutturali occulte`;
-                testo += `\n\nSe i sintomi sono lievi e il carico extrasistolico è <10%, non è necessario alcun trattamento specifico. Si consiglia comunque di evitare fattori scatenanti come caffeina, alcol e stress.`;
+                testo = `Riscontro di extrasistole ventricolari in assenza di cardiopatia strutturale, a prognosi benigna.`;
+                testo += `\n\nSi consiglia:\n`;
+                testo += `- ECG da sforzo\n`;
+                testo += lifestyleAdvice + `\n`;
+                testo += `- In caso di carico extrasistolico >10%: controllo ecocardiografico a 6-12 mesi\n`;
+                testo += `- In caso di sintomi significativi: rivalutazione cardiologica`;
 
             } else if (esamiDisponibili === 'solo-holter') {
                 // Only Holter available
-                testo = introBase;
-                testo += `\n\nL'ECG-Holter ha permesso di quantificare il carico di extrasistole nelle 24 ore.`;
-                testo += `\n\nSecondo le linee guida ESC 2022, è raccomandata l'esecuzione di un ecocardiogramma come valutazione di primo livello per escludere cardiopatie strutturali sottostanti (Classe I, Livello C).`;
-                testo += `\n\nUlteriori raccomandazioni basate sulle linee guida:\n`;
-                testo += `- In caso di carico extrasistolico >10%: è indicato un controllo periodico della funzione ventricolare sinistra\n`;
-                testo += `- Se la presentazione clinica o la morfologia ECG non sono tipiche per origine idiopatica (es. morfologia non compatibile con origine dal tratto di efflusso destro o fascicolare, età avanzata, tachicardia ventricolare sostenuta), considerare anche risonanza magnetica cardiaca`;
-                testo += `\n\nSi consiglia di evitare fattori scatenanti come caffeina, alcol e stress eccessivo.`;
+                testo = `Riscontro di extrasistole ventricolari.`;
+                testo += `\n\nSi consiglia:\n`;
+                testo += `- Ecocardiogramma transtoracico\n`;
+                testo += `- ECG da sforzo\n`;
+                testo += lifestyleAdvice + `\n`;
+                testo += `- Rivalutazione cardiologica con esito degli accertamenti`;
 
             } else {
                 // No tests available
-                testo = introBase;
-                testo += `\n\nSecondo le linee guida ESC 2022 per la gestione dei pazienti con aritmie ventricolari, in caso di primo riscontro di extrasistole ventricolari in pazienti senza cardiopatia nota, è raccomandata la seguente valutazione diagnostica di primo livello (Classe I, Livello C):\n`;
-                testo += `- ECG a 12 derivazioni a riposo\n`;
-                testo += `- Ecocardiogramma transtoracico per escludere cardiopatie strutturali\n`;
-                testo += `- ECG-Holter 24 ore per quantificare il carico extrasistolico e caratterizzare l'aritmia`;
-                testo += `\n\nQuesta valutazione è fondamentale per:\n`;
-                testo += `- Escludere cardiopatie strutturali sottostanti\n`;
-                testo += `- Quantificare il carico di extrasistole (burden)\n`;
-                testo += `- Valutare la morfologia delle extrasistole (origine idiopatica vs sospetta cardiopatia)\n`;
-                testo += `- Stratificare il rischio e impostare un appropriato follow-up`;
-                testo += `\n\nNel frattempo, si consiglia di evitare fattori scatenanti come caffeina in eccesso, alcol e stress eccessivo.`;
+                testo = `Riscontro di extrasistole ventricolari.`;
+                testo += `\n\nSi consiglia:\n`;
+                testo += `- Ecocardiogramma transtoracico\n`;
+                testo += `- ECG-Holter 24 ore\n`;
+                testo += `- ECG da sforzo\n`;
+                testo += lifestyleAdvice + `\n`;
+                testo += `- Rivalutazione cardiologica con esito degli accertamenti`;
             }
 
             return testo;
@@ -1971,5 +2002,232 @@ Trigliceridi: `;
         </div>
 
     </div><!-- End container -->
+
+    <!-- Editor Scenari Toggle Button -->
+    <button id="scenari-editor-toggle" onclick="toggleScenariEditor()">Editor Scenari</button>
+
+    <!-- Editor Scenari Panel -->
+    <div id="scenari-editor-panel">
+        <h2>
+            <span>Editor Scenari</span>
+            <button class="close-btn" onclick="toggleScenariEditor()">&times;</button>
+        </h2>
+
+        <div class="github-token-section">
+            <strong>GitHub Token</strong> (per salvare le modifiche)
+            <input type="password" id="github-token" placeholder="ghp_xxxxxxxxxxxx">
+            <small style="display:block;margin-top:5px;">
+                <a href="https://github.com/settings/tokens/new?scopes=repo&description=Scenari%20Editor" target="_blank">Crea token</a> con permesso "repo"
+            </small>
+        </div>
+
+        <div id="scenari-list">
+            <!-- Scenari caricati dinamicamente -->
+            <p style="color:#666;">Caricamento scenari...</p>
+        </div>
+
+        <div class="editor-actions">
+            <button class="btn-add" onclick="addNewScenario()">+ Aggiungi Scenario</button>
+            <button class="btn-save" onclick="saveScenariToGitHub()">Salva su GitHub</button>
+        </div>
+
+        <div id="editor-status"></div>
+    </div>
+
+    <script>
+        // ===== EDITOR SCENARI =====
+        let scenariData = null;
+        let scenariSha = null;
+        const REPO_OWNER = 'bdeornelas';
+        const REPO_NAME = 'bdeornelas.github.io';
+        const FILE_PATH = 'scenari.json';
+
+        function toggleScenariEditor() {
+            const panel = document.getElementById('scenari-editor-panel');
+            panel.classList.toggle('open');
+            if (panel.classList.contains('open') && !scenariData) {
+                loadScenari();
+            }
+        }
+
+        async function loadScenari() {
+            const listEl = document.getElementById('scenari-list');
+            try {
+                // Load from GitHub API to get SHA
+                const token = localStorage.getItem('github-token');
+                let response;
+                if (token) {
+                    response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                        headers: { 'Authorization': `token ${token}` }
+                    });
+                } else {
+                    // Fallback to direct file load
+                    response = await fetch('scenari.json');
+                    const data = await response.json();
+                    scenariData = data;
+                    renderScenariList();
+                    return;
+                }
+
+                if (response.ok) {
+                    const fileData = await response.json();
+                    scenariSha = fileData.sha;
+                    scenariData = JSON.parse(atob(fileData.content));
+                    renderScenariList();
+                } else {
+                    // Try direct load
+                    const directResponse = await fetch('scenari.json');
+                    scenariData = await directResponse.json();
+                    renderScenariList();
+                }
+            } catch (err) {
+                listEl.innerHTML = `<p style="color:red;">Errore: ${err.message}</p>`;
+            }
+        }
+
+        function renderScenariList() {
+            const listEl = document.getElementById('scenari-list');
+            if (!scenariData || !scenariData.scenari_base) {
+                listEl.innerHTML = '<p>Nessuno scenario trovato</p>';
+                return;
+            }
+
+            let html = '<h3 style="font-size:14px;margin:15px 0 10px;">Scenari Base</h3>';
+            for (const [key, scenario] of Object.entries(scenariData.scenari_base)) {
+                html += renderScenarioItem(key, scenario, 'scenari_base');
+            }
+
+            listEl.innerHTML = html;
+
+            // Add click handlers
+            document.querySelectorAll('.scenario-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    header.closest('.scenario-item').classList.toggle('expanded');
+                });
+            });
+        }
+
+        function renderScenarioItem(key, scenario, category) {
+            return `
+                <div class="scenario-item" data-key="${key}" data-category="${category}">
+                    <div class="scenario-header">
+                        <h4>${scenario.nome || key}</h4>
+                        <span style="color:#666;font-size:12px;">▼</span>
+                    </div>
+                    <div class="scenario-content">
+                        <label>ID (chiave)</label>
+                        <input type="text" value="${key}" data-field="key" readonly style="background:#eee;">
+                        <label>Nome</label>
+                        <input type="text" value="${scenario.nome || ''}" data-field="nome" onchange="updateScenario(this)">
+                        <label>Testo</label>
+                        <textarea data-field="testo" onchange="updateScenario(this)">${scenario.testo || ''}</textarea>
+                        <button class="btn-delete" onclick="deleteScenario('${key}', '${category}')" style="margin-top:10px;">Elimina</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateScenario(el) {
+            const item = el.closest('.scenario-item');
+            const key = item.dataset.key;
+            const category = item.dataset.category;
+            const field = el.dataset.field;
+
+            if (scenariData[category] && scenariData[category][key]) {
+                scenariData[category][key][field] = el.value;
+            }
+        }
+
+        function deleteScenario(key, category) {
+            if (confirm(`Eliminare lo scenario "${key}"?`)) {
+                delete scenariData[category][key];
+                renderScenariList();
+            }
+        }
+
+        function addNewScenario() {
+            const id = prompt('ID del nuovo scenario (es: "nuovo-esame"):');
+            if (!id) return;
+            const nome = prompt('Nome visualizzato:');
+            if (!nome) return;
+
+            if (!scenariData.scenari_base) scenariData.scenari_base = {};
+            scenariData.scenari_base[id] = { nome: nome, testo: '' };
+            renderScenariList();
+
+            // Expand the new item
+            setTimeout(() => {
+                const newItem = document.querySelector(`.scenario-item[data-key="${id}"]`);
+                if (newItem) newItem.classList.add('expanded');
+            }, 100);
+        }
+
+        async function saveScenariToGitHub() {
+            const statusEl = document.getElementById('editor-status');
+            const tokenInput = document.getElementById('github-token');
+            let token = tokenInput.value.trim();
+
+            if (!token) {
+                token = localStorage.getItem('github-token');
+            } else {
+                localStorage.setItem('github-token', token);
+            }
+
+            if (!token) {
+                statusEl.innerHTML = '<div class="status-msg error">Inserire il GitHub token</div>';
+                return;
+            }
+
+            statusEl.innerHTML = '<div class="status-msg">Salvataggio in corso...</div>';
+
+            try {
+                // Get current SHA if we don't have it
+                if (!scenariSha) {
+                    const shaResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                        headers: { 'Authorization': `token ${token}` }
+                    });
+                    if (shaResponse.ok) {
+                        const shaData = await shaResponse.json();
+                        scenariSha = shaData.sha;
+                    }
+                }
+
+                const content = btoa(unescape(encodeURIComponent(JSON.stringify(scenariData, null, 2))));
+
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'Update scenari.json from web editor',
+                        content: content,
+                        sha: scenariSha
+                    })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    scenariSha = result.content.sha;
+                    statusEl.innerHTML = '<div class="status-msg success">Salvato con successo!</div>';
+                    setTimeout(() => { statusEl.innerHTML = ''; }, 3000);
+                } else {
+                    const err = await response.json();
+                    statusEl.innerHTML = `<div class="status-msg error">Errore: ${err.message}</div>`;
+                }
+            } catch (err) {
+                statusEl.innerHTML = `<div class="status-msg error">Errore: ${err.message}</div>`;
+            }
+        }
+
+        // Load saved token on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedToken = localStorage.getItem('github-token');
+            if (savedToken) {
+                document.getElementById('github-token').value = savedToken;
+            }
+        });
+    </script>
 </body>
 </html>
