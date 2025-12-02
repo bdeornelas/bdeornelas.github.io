@@ -35,6 +35,8 @@ docs-internal/
 # Medical reference materials (large PDFs and other files)
 references/*
 !references/esc-guidelines-md/
+!references/esc-consensus-md/
+references/esc-consensus-md/*.pdf
 
 # Development Python environments
 venv/
