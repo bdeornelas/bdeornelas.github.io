@@ -321,66 +321,105 @@
             color: #ffffff; border-radius: 6px; font-size: 0.9em;
         }
 
-        /* Editor Scenari */
+        /* Editor Scenari - Full Modal */
         #scenari-editor-toggle {
             position: fixed; bottom: 20px; right: 20px; z-index: 1000;
-            background: #6c757d; color: white; border: none; padding: 10px 15px;
-            border-radius: 50px; cursor: pointer; font-size: 14px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            background: #0d6efd; color: white; border: none; padding: 12px 20px;
+            border-radius: 50px; cursor: pointer; font-size: 14px; font-weight: 600;
+            box-shadow: 0 4px 15px rgba(13,110,253,0.4);
         }
-        #scenari-editor-toggle:hover { background: #5a6268; }
+        #scenari-editor-toggle:hover { background: #0b5ed7; transform: scale(1.05); }
+        #scenari-editor-overlay {
+            display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.5); z-index: 1000;
+        }
+        #scenari-editor-overlay.open { display: block; }
         #scenari-editor-panel {
-            display: none; position: fixed; top: 0; right: 0; width: 500px; height: 100vh;
-            background: white; box-shadow: -5px 0 20px rgba(0,0,0,0.2); z-index: 1001;
-            overflow-y: auto; padding: 20px;
+            display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 95vw; max-width: 1400px; height: 90vh;
+            background: white; box-shadow: 0 25px 80px rgba(0,0,0,0.3); z-index: 1001;
+            border-radius: 16px; overflow: hidden;
         }
-        #scenari-editor-panel.open { display: block; }
-        #scenari-editor-panel h2 { margin-top: 0; display: flex; justify-content: space-between; align-items: center; }
-        #scenari-editor-panel .close-btn { background: none; border: none; font-size: 24px; cursor: pointer; }
-        .scenario-item { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
-        .scenario-item.expanded { background: #f8f9fa; }
-        .scenario-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
-        .scenario-header h4 { margin: 0; font-size: 14px; }
-        .scenario-content { display: none; margin-top: 12px; }
+        #scenari-editor-panel.open { display: flex; flex-direction: column; }
+        .editor-header {
+            background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+            color: white; padding: 20px 30px; display: flex; justify-content: space-between; align-items: center;
+        }
+        .editor-header h2 { margin: 0; font-size: 1.5em; font-weight: 600; }
+        .editor-header .close-btn { background: rgba(255,255,255,0.2); border: none; color: white; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 24px; display: flex; align-items: center; justify-content: center; }
+        .editor-header .close-btn:hover { background: rgba(255,255,255,0.3); }
+        .editor-body { flex: 1; display: flex; overflow: hidden; }
+        .editor-sidebar { width: 280px; background: #f8f9fa; border-right: 1px solid #dee2e6; padding: 20px; overflow-y: auto; }
+        .editor-main { flex: 1; padding: 25px; overflow-y: auto; }
+        .editor-tabs { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+        .editor-tab { padding: 14px 18px; background: white; border: 1px solid #dee2e6; border-radius: 10px; cursor: pointer; font-size: 14px; text-align: left; transition: all 0.2s; }
+        .editor-tab:hover { border-color: #0d6efd; background: #f0f7ff; }
+        .editor-tab.active { background: #0d6efd; color: white; border-color: #0d6efd; font-weight: 600; }
+        .editor-tab-content { display: none; }
+        .editor-tab-content.active { display: block; }
+        .scenario-item { border: 1px solid #e0e0e0; border-radius: 12px; margin-bottom: 15px; background: white; overflow: hidden; }
+        .scenario-item.expanded { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .scenario-header { padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #fafbfc; border-bottom: 1px solid transparent; }
+        .scenario-item.expanded .scenario-header { border-bottom-color: #e0e0e0; background: #f0f7ff; }
+        .scenario-header h4 { margin: 0; font-size: 15px; font-weight: 600; }
+        .scenario-content { display: none; padding: 20px; }
         .scenario-item.expanded .scenario-content { display: block; }
-        .scenario-content label { display: block; font-size: 12px; font-weight: 600; margin-top: 8px; }
-        .scenario-content input, .scenario-content textarea {
-            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 13px; box-sizing: border-box;
-        }
-        .scenario-content textarea { min-height: 100px; resize: vertical; }
-        .editor-actions { margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap; }
-        .editor-actions button { padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; }
+        .scenario-content label { display: block; font-size: 13px; font-weight: 600; margin: 12px 0 6px; color: #495057; }
+        .scenario-content input, .scenario-content textarea { width: 100%; padding: 12px; border: 1px solid #ced4da; border-radius: 8px; font-size: 14px; box-sizing: border-box; }
+        .scenario-content input:focus, .scenario-content textarea:focus { border-color: #0d6efd; outline: none; box-shadow: 0 0 0 3px rgba(13,110,253,0.15); }
+        .scenario-content textarea { min-height: 120px; resize: vertical; font-family: inherit; }
+        .editor-actions { padding: 20px 30px; background: #f8f9fa; border-top: 1px solid #dee2e6; display: flex; gap: 12px; justify-content: flex-end; }
+        .editor-actions button { padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; }
         .btn-save { background: #198754; color: white; }
         .btn-save:hover { background: #157347; }
         .btn-add { background: #0d6efd; color: white; }
         .btn-add:hover { background: #0b5ed7; }
-        .btn-delete { background: #dc3545; color: white; font-size: 12px; padding: 4px 8px; }
-        .github-token-section { background: #fff3cd; padding: 12px; border-radius: 6px; margin-bottom: 15px; font-size: 13px; }
-        .github-token-section input { margin-top: 5px; }
-        .status-msg { padding: 8px; border-radius: 4px; margin-top: 10px; font-size: 13px; }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-delete { background: #dc3545; color: white; }
+        .github-token-section { background: linear-gradient(135deg, #fff3cd 0%, #ffe69c 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+        .github-token-section input { margin-top: 8px; padding: 12px; border-radius: 8px; }
+        .status-msg { padding: 12px 16px; border-radius: 8px; margin-top: 15px; font-size: 14px; }
         .status-msg.success { background: #d1e7dd; color: #0f5132; }
         .status-msg.error { background: #f8d7da; color: #842029; }
-        /* Cascading scenarios tree view */
-        .scenario-tree { margin-left: 0; }
-        .scenario-tree-item { border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 12px; background: #fff; }
-        .scenario-tree-header { padding: 12px; background: #e8f4fd; border-radius: 8px 8px 0 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
-        .scenario-tree-header h4 { margin: 0; font-size: 14px; color: #0d47a1; }
-        .scenario-tree-header .badge { background: #0d6efd; color: white; font-size: 11px; padding: 2px 8px; border-radius: 12px; }
-        .scenario-tree-body { display: none; padding: 12px; border-top: 1px solid #e0e0e0; }
-        .scenario-tree-item.expanded .scenario-tree-body { display: block; }
-        .tree-level { margin: 10px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; }
-        .tree-level-header { font-weight: 600; font-size: 13px; color: #495057; margin-bottom: 8px; }
-        .tree-options { display: flex; flex-wrap: wrap; gap: 6px; }
-        .tree-option { background: #e9ecef; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
-        .tree-texts { margin-top: 12px; }
-        .tree-text-item { margin: 8px 0; }
-        .tree-text-item label { font-size: 12px; font-weight: 600; color: #6c757d; }
-        .tree-text-item textarea { width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ced4da; border-radius: 4px; font-size: 12px; resize: vertical; box-sizing: border-box; }
-        .editor-tabs { display: flex; gap: 0; margin-bottom: 15px; border-bottom: 2px solid #dee2e6; }
-        .editor-tab { padding: 10px 20px; background: #f8f9fa; border: none; cursor: pointer; font-size: 13px; border-radius: 6px 6px 0 0; margin-bottom: -2px; }
-        .editor-tab.active { background: #0d6efd; color: white; border-bottom: 2px solid #0d6efd; }
-        .editor-tab-content { display: none; }
-        .editor-tab-content.active { display: block; }
+        /* Tree Builder for Cascading Scenarios */
+        .tree-builder { background: #f8f9fa; border-radius: 12px; padding: 20px; margin-top: 15px; }
+        .tree-node { margin-left: 24px; border-left: 2px solid #dee2e6; padding-left: 16px; margin-top: 8px; }
+        .tree-node-root { margin-left: 0; border-left: none; padding-left: 0; }
+        .tree-node-item { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
+        .tree-node-item.branch { background: #e8f4fd; border-color: #b6d4fe; }
+        .tree-node-item.leaf { background: #d1e7dd; border-color: #a3cfbb; }
+        .tree-node-label { flex: 1; font-weight: 500; }
+        .tree-node-type { font-size: 11px; padding: 3px 8px; border-radius: 4px; background: #6c757d; color: white; }
+        .tree-node-item.branch .tree-node-type { background: #0d6efd; }
+        .tree-node-item.leaf .tree-node-type { background: #198754; }
+        .tree-node-actions { display: flex; gap: 6px; }
+        .tree-node-actions button { padding: 4px 8px; font-size: 12px; border: none; border-radius: 4px; cursor: pointer; }
+        .tree-add-btn { background: #0d6efd; color: white; padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-top: 10px; }
+        .tree-add-btn:hover { background: #0b5ed7; }
+        .cascading-scenario { border: 1px solid #e0e0e0; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+        .cascading-header { padding: 16px 20px; background: linear-gradient(135deg, #e8f4fd 0%, #cfe2ff 100%); cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .cascading-header h4 { margin: 0; color: #0d47a1; font-size: 16px; }
+        .cascading-body { display: none; padding: 20px; }
+        .cascading-scenario.expanded .cascading-body { display: block; }
+        .cascading-info { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .cascading-info input { padding: 10px 12px; border: 1px solid #ced4da; border-radius: 6px; }
+        .tree-preview { background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 8px; font-family: monospace; font-size: 12px; max-height: 300px; overflow: auto; white-space: pre; }
+        /* Tree Builder Node Styles */
+        .tree-node { background: white; border: 1px solid #dee2e6; border-radius: 10px; margin-bottom: 12px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+        .tree-node-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-bottom: 1px solid #dee2e6; }
+        .tree-node-drag { color: #90a4ae; cursor: grab; font-size: 16px; }
+        .tree-node-header strong { flex: 1; color: #1565c0; font-size: 14px; }
+        .tree-node-delete { background: #f44336; color: white; border: none; border-radius: 50%; width: 24px; height: 24px; cursor: pointer; font-size: 16px; line-height: 1; transition: background 0.2s; }
+        .tree-node-delete:hover { background: #d32f2f; }
+        .tree-node-content { padding: 16px; }
+        .tree-node-row { margin-bottom: 12px; }
+        .tree-node-row label { display: block; font-size: 12px; font-weight: 600; color: #546e7a; margin-bottom: 4px; }
+        .tree-node-row input { width: 100%; padding: 10px 12px; border: 1px solid #cfd8dc; border-radius: 6px; font-size: 13px; transition: border-color 0.2s, box-shadow 0.2s; }
+        .tree-node-row input:focus { border-color: #1976d2; box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.15); outline: none; }
+        .tree-texts-container { margin-top: 16px; padding-top: 16px; border-top: 1px dashed #cfd8dc; }
+        .tree-text-entry { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+        .tree-text-entry textarea { width: 100%; padding: 10px; border: 1px solid #cfd8dc; border-radius: 6px; font-size: 13px; resize: vertical; min-height: 80px; }
+        .tree-text-entry textarea:focus { border-color: #1976d2; box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.15); outline: none; }
     </style>
     <script>
         let aggiungereConsigliLipidi = false;
@@ -2027,33 +2066,94 @@ Trigliceridi: `;
     <!-- Editor Scenari Toggle Button -->
     <button id="scenari-editor-toggle" onclick="toggleScenariEditor()">Editor Scenari</button>
 
-    <!-- Editor Scenari Panel -->
+    <!-- Editor Overlay -->
+    <div id="scenari-editor-overlay" onclick="toggleScenariEditor()"></div>
+
+    <!-- Editor Scenari Panel - Full Modal -->
     <div id="scenari-editor-panel">
-        <h2>
-            <span>Editor Scenari</span>
+        <div class="editor-header">
+            <h2>Editor Scenari Clinici</h2>
             <button class="close-btn" onclick="toggleScenariEditor()">&times;</button>
-        </h2>
-
-        <div class="github-token-section" id="password-section">
-            <strong>Password Editor</strong>
-            <input type="password" id="editor-password" placeholder="Inserisci password">
-            <button onclick="unlockEditor()" style="margin-top:5px;padding:5px 10px;">Sblocca</button>
-        </div>
-        <div class="github-token-section" id="unlocked-section" style="display:none;background:#d1e7dd;">
-            <strong style="color:#0f5132;">Editor sbloccato</strong>
         </div>
 
-        <div id="scenari-list">
-            <!-- Scenari caricati dinamicamente -->
-            <p style="color:#666;">Caricamento scenari...</p>
+        <div class="editor-body">
+            <div class="editor-sidebar">
+                <div class="github-token-section" id="password-section">
+                    <strong>Password Editor</strong>
+                    <input type="password" id="editor-password" placeholder="Inserisci password" style="width:100%;">
+                    <button onclick="unlockEditor()" class="btn-add" style="width:100%;margin-top:10px;">Sblocca Editor</button>
+                </div>
+                <div class="github-token-section" id="unlocked-section" style="display:none;background:linear-gradient(135deg, #d1e7dd 0%, #a3cfbb 100%);">
+                    <strong style="color:#0f5132;">Editor Sbloccato</strong>
+                </div>
+
+                <div class="editor-tabs">
+                    <button class="editor-tab active" data-tab="base" onclick="switchEditorTab('base')">
+                        Scenari Base
+                    </button>
+                    <button class="editor-tab" data-tab="concatenati" onclick="switchEditorTab('concatenati')">
+                        Scenari Concatenati
+                    </button>
+                    <button class="editor-tab" data-tab="tree-builder" onclick="switchEditorTab('tree-builder')">
+                        Tree Builder
+                    </button>
+                </div>
+
+                <div id="editor-status"></div>
+            </div>
+
+            <div class="editor-main">
+                <div id="tab-base" class="editor-tab-content active">
+                    <h3 style="margin-top:0;margin-bottom:20px;color:#495057;">Scenari Base (click singolo)</h3>
+                    <div id="scenari-base-list">
+                        <p style="color:#666;">Sblocca l'editor per caricare gli scenari...</p>
+                    </div>
+                </div>
+
+                <div id="tab-concatenati" class="editor-tab-content">
+                    <h3 style="margin-top:0;margin-bottom:20px;color:#495057;">Scenari Concatenati (menu a cascata)</h3>
+                    <div id="scenari-concatenati-list">
+                        <p style="color:#666;">Sblocca l'editor per caricare gli scenari...</p>
+                    </div>
+                </div>
+
+                <div id="tab-tree-builder" class="editor-tab-content">
+                    <h3 style="margin-top:0;margin-bottom:20px;color:#495057;">Tree Builder - Crea Nuovo Menu Concatenato</h3>
+                    <div id="tree-builder-container">
+                        <div class="cascading-info">
+                            <div>
+                                <label style="font-size:13px;font-weight:600;display:block;margin-bottom:6px;">ID Scenario</label>
+                                <input type="text" id="new-tree-id" placeholder="es: primo-riscontro-nuovo" style="width:100%;">
+                            </div>
+                            <div>
+                                <label style="font-size:13px;font-weight:600;display:block;margin-bottom:6px;">Nome Visualizzato</label>
+                                <input type="text" id="new-tree-nome" placeholder="es: Primo riscontro nuovo scenario" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="tree-builder">
+                            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;">
+                                <strong>Struttura Menu</strong>
+                                <button class="tree-add-btn" onclick="addTreeRootNode()">+ Aggiungi Nodo Root</button>
+                            </div>
+                            <div id="tree-nodes-container" class="tree-node-root">
+                                <p style="color:#666;font-style:italic;">Clicca "Aggiungi Nodo Root" per iniziare a costruire il menu.</p>
+                            </div>
+                        </div>
+                        <div style="margin-top:20px;">
+                            <strong style="display:block;margin-bottom:10px;">Anteprima JSON</strong>
+                            <div id="tree-json-preview" class="tree-preview">{ }</div>
+                        </div>
+                        <button class="btn-add" onclick="saveNewTreeScenario()" style="margin-top:15px;">Salva Nuovo Scenario Concatenato</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="editor-actions">
+            <button class="btn-secondary" onclick="toggleScenariEditor()">Chiudi</button>
             <button class="btn-add" onclick="addNewScenario()">+ Aggiungi Scenario</button>
             <button class="btn-save" onclick="saveScenariToGitHub()">Salva su GitHub</button>
         </div>
-
-        <div id="editor-status"></div>
     </div>
 
     <script>
@@ -2092,15 +2192,19 @@ Trigliceridi: `;
 
         function toggleScenariEditor() {
             const panel = document.getElementById('scenari-editor-panel');
+            const overlay = document.getElementById('scenari-editor-overlay');
             panel.classList.toggle('open');
+            overlay.classList.toggle('open');
             if (panel.classList.contains('open') && !scenariData) {
                 loadScenari();
             }
         }
 
         async function loadScenari() {
-            const listEl = document.getElementById('scenari-list');
+            const statusEl = document.getElementById('editor-status');
             try {
+                statusEl.innerHTML = '<p style="color:#666;">Caricamento scenari...</p>';
+
                 // Load from GitHub API to get SHA
                 let response;
                 if (editorToken) {
@@ -2113,6 +2217,7 @@ Trigliceridi: `;
                     const data = await response.json();
                     scenariData = data;
                     renderScenariList();
+                    statusEl.innerHTML = '<p style="color:#28a745;">Scenari caricati (locale)</p>';
                     return;
                 }
 
@@ -2121,14 +2226,16 @@ Trigliceridi: `;
                     scenariSha = fileData.sha;
                     scenariData = JSON.parse(atob(fileData.content));
                     renderScenariList();
+                    statusEl.innerHTML = '<p style="color:#28a745;">Scenari caricati da GitHub</p>';
                 } else {
                     // Try direct load
                     const directResponse = await fetch('scenari.json');
                     scenariData = await directResponse.json();
                     renderScenariList();
+                    statusEl.innerHTML = '<p style="color:#28a745;">Scenari caricati (locale)</p>';
                 }
             } catch (err) {
-                listEl.innerHTML = `<p style="color:red;">Errore: ${err.message}</p>`;
+                statusEl.innerHTML = `<p style="color:red;">Errore: ${err.message}</p>`;
             }
         }
 
@@ -2143,43 +2250,38 @@ Trigliceridi: `;
         }
 
         function renderScenariList() {
-            const listEl = document.getElementById('scenari-list');
+            const baseListEl = document.getElementById('scenari-base-list');
+            const concatenatiListEl = document.getElementById('scenari-concatenati-list');
+
             if (!scenariData) {
-                listEl.innerHTML = '<p>Nessuno scenario trovato</p>';
+                baseListEl.innerHTML = '<p>Nessuno scenario trovato</p>';
+                concatenatiListEl.innerHTML = '<p>Nessuno scenario trovato</p>';
                 return;
             }
 
-            let html = `
-                <div class="editor-tabs">
-                    <button class="editor-tab active" data-tab="base" onclick="switchEditorTab('base')">Scenari Base</button>
-                    <button class="editor-tab" data-tab="concatenati" onclick="switchEditorTab('concatenati')">Scenari Concatenati</button>
-                </div>
-                <div id="tab-base" class="editor-tab-content active">
-            `;
-
             // Render scenari_base
-            if (scenariData.scenari_base) {
+            let baseHtml = '';
+            if (scenariData.scenari_base && Object.keys(scenariData.scenari_base).length > 0) {
                 for (const [key, scenario] of Object.entries(scenariData.scenari_base)) {
-                    html += renderScenarioItem(key, scenario, 'scenari_base');
+                    baseHtml += renderScenarioItem(key, scenario, 'scenari_base');
                 }
+            } else {
+                baseHtml = '<p style="color:#666;">Nessuno scenario base presente.</p>';
             }
-
-            html += `</div><div id="tab-concatenati" class="editor-tab-content">`;
+            baseListEl.innerHTML = baseHtml;
 
             // Render scenari_concatenati
-            if (scenariData.scenari_concatenati) {
-                html += '<div class="scenario-tree">';
+            let concatenatiHtml = '';
+            if (scenariData.scenari_concatenati && Object.keys(scenariData.scenari_concatenati).length > 0) {
+                concatenatiHtml = '<div class="scenario-tree">';
                 for (const [key, scenario] of Object.entries(scenariData.scenari_concatenati)) {
-                    html += renderCascadingScenario(key, scenario);
+                    concatenatiHtml += renderCascadingScenario(key, scenario);
                 }
-                html += '</div>';
+                concatenatiHtml += '</div>';
             } else {
-                html += '<p style="color:#666;">Nessuno scenario concatenato presente.</p>';
+                concatenatiHtml = '<p style="color:#666;">Nessuno scenario concatenato presente.</p>';
             }
-
-            html += '</div>';
-
-            listEl.innerHTML = html;
+            concatenatiListEl.innerHTML = concatenatiHtml;
 
             // Add click handlers for base scenarios
             document.querySelectorAll('.scenario-header').forEach(header => {
@@ -2462,6 +2564,194 @@ Trigliceridi: `;
                 statusEl.innerHTML = `<div class="status-msg error">Errore: ${err.message}</div>`;
             }
         }
+
+        // ===== TREE BUILDER =====
+        let treeBuilderData = {
+            livelli: [],
+            testi: {}
+        };
+        let treeNodeCounter = 0;
+
+        function addTreeRootNode() {
+            treeNodeCounter++;
+            const nodeId = `level-${treeNodeCounter}`;
+
+            const container = document.getElementById('tree-nodes-container');
+            // Clear placeholder text if present
+            if (container.querySelector('p')) {
+                container.innerHTML = '';
+            }
+
+            const nodeHtml = `
+                <div class="tree-node" data-node-id="${nodeId}">
+                    <div class="tree-node-header">
+                        <span class="tree-node-drag">&#9776;</span>
+                        <strong>Livello ${treeBuilderData.livelli.length + 1}</strong>
+                        <button class="tree-node-delete" onclick="deleteTreeNode('${nodeId}')">&times;</button>
+                    </div>
+                    <div class="tree-node-content">
+                        <div class="tree-node-row">
+                            <label>ID Livello</label>
+                            <input type="text" class="tree-level-id" placeholder="es: esami, rischio, diabete" onchange="updateTreePreview()">
+                        </div>
+                        <div class="tree-node-row">
+                            <label>Label</label>
+                            <input type="text" class="tree-level-label" placeholder="es: Stato esami, Rischio CV" onchange="updateTreePreview()">
+                        </div>
+                        <div class="tree-node-row">
+                            <label>Opzioni (separate da virgola)</label>
+                            <input type="text" class="tree-level-options" placeholder="es: basso, moderato, alto, molto-alto" onchange="updateTreePreview()">
+                        </div>
+                        <div class="tree-node-row">
+                            <label>Condizione (opzionale, JS)</label>
+                            <input type="text" class="tree-level-condition" placeholder="es: esami === 'disponibili'" onchange="updateTreePreview()">
+                        </div>
+                        <div class="tree-texts-container">
+                            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+                                <label style="margin:0;">Testi per questo livello</label>
+                                <button class="tree-add-btn" onclick="addTreeText('${nodeId}')" style="font-size:11px;padding:2px 8px;">+ Testo</button>
+                            </div>
+                            <div class="tree-text-list"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', nodeHtml);
+            updateTreePreview();
+        }
+
+        function addTreeText(nodeId) {
+            const node = document.querySelector(`.tree-node[data-node-id="${nodeId}"]`);
+            const textList = node.querySelector('.tree-text-list');
+
+            const textKey = prompt('Chiave del testo (es: "base", "esami_disponibili_rischio_alto"):');
+            if (!textKey) return;
+
+            const textHtml = `
+                <div class="tree-text-entry" data-text-key="${textKey}">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <strong style="font-size:11px;">${textKey}</strong>
+                        <button onclick="this.closest('.tree-text-entry').remove();updateTreePreview();" style="background:none;border:none;color:#dc3545;cursor:pointer;font-size:14px;">&times;</button>
+                    </div>
+                    <textarea class="tree-text-value" placeholder="Testo del messaggio..." rows="3" onchange="updateTreePreview()"></textarea>
+                </div>
+            `;
+            textList.insertAdjacentHTML('beforeend', textHtml);
+        }
+
+        function deleteTreeNode(nodeId) {
+            if (confirm('Eliminare questo livello?')) {
+                const node = document.querySelector(`.tree-node[data-node-id="${nodeId}"]`);
+                node.remove();
+                updateTreePreview();
+                // Re-number remaining levels
+                document.querySelectorAll('.tree-node').forEach((n, idx) => {
+                    n.querySelector('.tree-node-header strong').textContent = `Livello ${idx + 1}`;
+                });
+            }
+        }
+
+        function updateTreePreview() {
+            const livelli = [];
+            const testi = {};
+
+            document.querySelectorAll('#tree-nodes-container .tree-node').forEach(node => {
+                const id = node.querySelector('.tree-level-id').value.trim();
+                const label = node.querySelector('.tree-level-label').value.trim();
+                const optionsStr = node.querySelector('.tree-level-options').value.trim();
+                const condition = node.querySelector('.tree-level-condition').value.trim();
+
+                if (id && label) {
+                    const level = {
+                        id: id,
+                        label: label,
+                        opzioni: optionsStr ? optionsStr.split(',').map(o => o.trim()) : []
+                    };
+                    if (condition) level.condizione = condition;
+                    livelli.push(level);
+                }
+
+                // Collect texts from this node
+                node.querySelectorAll('.tree-text-entry').forEach(entry => {
+                    const textKey = entry.dataset.textKey;
+                    const textValue = entry.querySelector('.tree-text-value').value;
+                    if (textKey) {
+                        testi[textKey] = textValue;
+                    }
+                });
+            });
+
+            treeBuilderData.livelli = livelli;
+            treeBuilderData.testi = testi;
+
+            // Update JSON preview
+            const preview = {
+                nome: document.getElementById('new-tree-nome').value || '(nome)',
+                livelli: livelli,
+                testi: testi
+            };
+            document.getElementById('tree-json-preview').textContent = JSON.stringify(preview, null, 2);
+        }
+
+        function saveNewTreeScenario() {
+            const id = document.getElementById('new-tree-id').value.trim();
+            const nome = document.getElementById('new-tree-nome').value.trim();
+
+            if (!id) {
+                alert('Inserire un ID per lo scenario');
+                return;
+            }
+            if (!nome) {
+                alert('Inserire un nome per lo scenario');
+                return;
+            }
+            if (treeBuilderData.livelli.length === 0) {
+                alert('Aggiungere almeno un livello al menu');
+                return;
+            }
+
+            // Generate function name
+            const funzione = `select${id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('')}`;
+
+            if (!scenariData.scenari_concatenati) {
+                scenariData.scenari_concatenati = {};
+            }
+
+            scenariData.scenari_concatenati[id] = {
+                nome: nome,
+                funzione: funzione,
+                livelli: JSON.parse(JSON.stringify(treeBuilderData.livelli)),
+                testi: JSON.parse(JSON.stringify(treeBuilderData.testi))
+            };
+
+            // Clear tree builder
+            document.getElementById('new-tree-id').value = '';
+            document.getElementById('new-tree-nome').value = '';
+            document.getElementById('tree-nodes-container').innerHTML = '<p style="color:#666;font-style:italic;">Clicca "Aggiungi Nodo Root" per iniziare a costruire il menu.</p>';
+            document.getElementById('tree-json-preview').textContent = '{ }';
+            treeBuilderData = { livelli: [], testi: {} };
+            treeNodeCounter = 0;
+
+            // Render and switch tab
+            renderScenariList();
+            switchEditorTab('concatenati');
+
+            // Expand the new item
+            setTimeout(() => {
+                const newItem = document.querySelector(`.scenario-tree-item[data-key="${id}"]`);
+                if (newItem) newItem.classList.add('expanded');
+            }, 100);
+
+            alert(`Scenario "${nome}" creato! Ricorda di salvare su GitHub.`);
+        }
+
+        // Update preview when name/id changes
+        document.addEventListener('DOMContentLoaded', () => {
+            const idInput = document.getElementById('new-tree-id');
+            const nomeInput = document.getElementById('new-tree-nome');
+            if (idInput) idInput.addEventListener('input', updateTreePreview);
+            if (nomeInput) nomeInput.addEventListener('input', updateTreePreview);
+        });
 
     </script>
 </body>
