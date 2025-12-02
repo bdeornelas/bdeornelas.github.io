@@ -6,7 +6,7 @@ permalink: /ESC_GUIDELINES_TOC.md
 
 *Generato automaticamente il 27/11/2025 alle 09:00*
 
-Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC**.
+Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC** + **3 Consensus Documents**.
 
 ---
 
@@ -50,6 +50,11 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Adult Congenital Heart Disease](#2020-adult-congenital-heart-disease)
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
+
+### Consensus Documents (NEW)
+- [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
+- [2023 Worsening Heart Failure (HFA)](#consensus-2023-worsening-hf)
+- [2023 Arrhythmias in Frailty (EHRA)](#consensus-2023-arrhythmias-frailty)
 
 ---
 
@@ -4665,8 +4670,81 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 
 ---
 
+## Consensus Documents
+
+### <a name="consensus-2024-obesity-cvd"></a>2024 Obesity and Cardiovascular Disease
+
+**File:** `references/esc-consensus-md/2024_Obesity_CVD.md`
+
+**Citation:** Koskinas KC, Van Craenenbroeck EM, et al. Obesity and cardiovascular disease: an ESC clinical consensus statement. Eur Heart J. 2024;45(38):4063-4098.
+
+- 1. Introduction *(L1)*
+- 2. Epidemiology and aetiology of obesity *(L200)*
+- 3. Interplay between obesity and cardiovascular risk factors *(L400)*
+- 4. Obesity and cardiac conditions *(L600)*
+  - 4.1. Atherosclerotic cardiovascular disease *(L620)*
+  - 4.2. Heart failure *(L700)*
+  - 4.3. Atrial fibrillation *(L800)*
+  - 4.4. Sudden cardiac death *(L900)*
+- 5. Clinical management of patients with cardiac disease and obesity *(L1000)*
+- 6. Weight loss strategies *(L1200)*
+  - 6.1. Lifestyle interventions *(L1220)*
+  - 6.2. Pharmacological treatment *(L1400)*
+  - 6.3. Bariatric surgery *(L1600)*
+- 7. Conclusions *(L1900)*
+- References *(L2000)*
+
+---
+
+### <a name="consensus-2023-worsening-hf"></a>2023 Worsening of Chronic Heart Failure (HFA)
+
+**File:** `references/esc-consensus-md/2023_Worsening_HF.md`
+
+**Citation:** Metra M, et al. Worsening of chronic heart failure: definition, epidemiology, management and prevention. A clinical consensus statement by the Heart Failure Association of the ESC. Eur J Heart Fail. 2023;25(6):776-791.
+
+- 1. Introduction *(L1)*
+- 2. Definition of worsening heart failure *(L100)*
+- 3. Epidemiology *(L200)*
+- 4. Pathophysiology *(L300)*
+- 5. Clinical presentation *(L400)*
+- 6. Management *(L500)*
+  - 6.1. Diuretic therapy *(L520)*
+  - 6.2. Guideline-recommended medical therapy *(L600)*
+  - 6.3. Device therapy *(L700)*
+- 7. Prevention *(L800)*
+- 8. Conclusions *(L1000)*
+- References *(L1050)*
+
+---
+
+### <a name="consensus-2023-arrhythmias-frailty"></a>2023 Arrhythmias in Frailty Syndrome (EHRA)
+
+**File:** `references/esc-consensus-md/2023_Arrhythmias_Frailty_EHRA.md`
+
+**Citation:** Savelieva I, Fumagalli S, et al. EHRA expert consensus document on the management of arrhythmias in frailty syndrome. Europace. 2023;25(4):1249-1276.
+
+- 1. Introduction *(L1)*
+- 2. Biology of frailty *(L150)*
+- 3. Methods of assessing frailty *(L300)*
+  - 3.1. Clinical Frailty Scale *(L320)*
+  - 3.2. FRAIL scale *(L350)*
+  - 3.3. Fried phenotype *(L380)*
+- 4. Atrial fibrillation in frail patients *(L500)*
+  - 4.1. Anticoagulation *(L520)*
+  - 4.2. Rate vs rhythm control *(L650)*
+  - 4.3. Catheter ablation *(L750)*
+- 5. Bradyarrhythmias and pacing *(L900)*
+- 6. Ventricular arrhythmias and ICDs *(L1100)*
+- 7. Cardiac implantable electronic devices *(L1300)*
+- 8. End-of-life considerations *(L1500)*
+- 9. Conclusions *(L1700)*
+- References *(L1800)*
+
+---
+
 ## Note
 
 - I numeri di pagina si riferiscono alla numerazione interna del PDF
 - Le linee guida ESC sono proprietà della European Society of Cardiology
+- I Consensus Documents sono nella cartella `references/esc-consensus-md/`
 - Questo documento è generato automaticamente a scopo di consultazione interna
