@@ -51,12 +51,13 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (8)
+### Consensus Documents (9)
 - [2025 Conduction System Pacing (ESC/EHRA)](#consensus-2025-csp)
 - [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
 - [2024 AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS)](#consensus-2024-af-ablation)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
 - [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
+- [2023 NT-proBNP Practical Algorithms (HFA)](#consensus-2023-nt-probnp)
 - [2023 HF and Stroke Interaction](#consensus-2023-hf-stroke)
 - [2023 Worsening Heart Failure (HFA)](#consensus-2023-worsening-hf)
 - [2023 Arrhythmias in Frailty (EHRA)](#consensus-2023-arrhythmias-frailty)
@@ -4854,6 +4855,24 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 8. Surgical treatment *(L850)*
 - 9. Patient selection *(L950)*
 - References *(L1050)*
+
+---
+
+### <a name="consensus-2023-nt-probnp"></a>2023 NT-proBNP Practical Algorithms (HFA)
+
+**File:** `references/esc-consensus-md/2023_NT-proBNP_Algorithms.md`
+
+**Citation:** Bayes-Genis A, et al. Practical algorithms for early diagnosis of heart failure and heart stress using NT-proBNP: A clinical consensus statement from the Heart Failure Association of the ESC. Eur J Heart Fail. 2023;25:1891-1898.
+
+- Introduction *(L1)*
+- FIND-HF acronym *(L50)*
+- NT-proBNP cut-points for ruling out acute HF *(L100)*
+- NT-proBNP cut-points for ruling in acute HF *(L150)*
+- De novo HF diagnosis in outpatient setting *(L200)*
+- Heart stress concept *(L300)*
+- NT-proBNP in asymptomatic patients with risk factors *(L350)*
+- Clinical recommendations *(L450)*
+- References *(L550)*
 
 ---
 
