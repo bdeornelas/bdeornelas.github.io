@@ -6,7 +6,7 @@ permalink: /ESC_GUIDELINES_TOC.md
 
 *Generato automaticamente il 27/11/2025 alle 09:00*
 
-Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC** + **3 Consensus Documents**.
+Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC** + **7 Consensus Documents**.
 
 ---
 
@@ -51,7 +51,8 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (6)
+### Consensus Documents (7)
+- [2025 Conduction System Pacing (ESC/EHRA)](#consensus-2025-csp)
 - [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
 - [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
@@ -4742,6 +4743,41 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 8. End-of-life considerations *(L1500)*
 - 9. Conclusions *(L1700)*
 - References *(L1800)*
+
+---
+
+### <a name="consensus-2025-csp"></a>2025 Conduction System Pacing (ESC/EHRA)
+
+**File:** `references/esc-consensus-md/2025_Conduction_System_Pacing.md`
+
+**Citation:** Glikson M, Burri H, et al. ESC Clinical Consensus Statement on Indications for Conduction System Pacing. Europace. 2025;27(4):euaf050. doi:10.1093/europace/euaf050
+
+- Preamble *(L140)*
+- Definition of categories of advice and areas of uncertainty *(L203)*
+- Scientific background—an update *(L227)*
+- Differences between conduction system pacing methods *(L237)*
+- His bundle pacing vs. left bundle branch area pacing *(L260)*
+  - Criteria for His bundle capture *(L350)*
+  - Criteria for left bundle branch area pacing *(L400)*
+  - Success rates, procedural outcomes, and complications *(L450)*
+- CSP for AV block with LVEF > 40% *(L500)*
+- CSP for AV block in reduced LVEF (≤40%) *(L700)*
+- CSP in atrioventricular node ablation *(L900)*
+- CSP in sinus node dysfunction *(L1100)*
+- CSP for heart failure without bradycardia pacing indication *(L1200)*
+  - His bundle pacing *(L1200)*
+  - Left bundle branch area pacing *(L1300)*
+  - CSP in non-LBBP patients *(L1350)*
+  - CSP in patients with LVEF 36–50% *(L1400)*
+  - CSP-CRT in non-responders to BiV-CRT *(L1500)*
+  - Clinical implications *(L1550)*
+- Delineation and rationale *(L1600)*
+- Published data and practical considerations *(L1650)*
+- Upgrade to conduction system pacing *(L1700)*
+- Patient education and shared decision-making *(L1800)*
+- Future perspectives *(L1850)*
+- Conclusions *(L1900)*
+- References *(L1950)*
 
 ---
 
