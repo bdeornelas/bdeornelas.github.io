@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenari Clinici - Prevenzione Cardiovascolare ESC</title>
+    <style>
+        :root {
+            --primary-color: #2c5aa0;
+            --secondary-color: #f8f9fa;
+            --accent-color: #007bff;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --info-color: #17a2b8;
+            --light-gray: #f4f4f4;
+            --border-color: #dee2e6;
+            --text-color: #333;
+            --text-muted: #6c757d;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0;
+            background-color: #fff;
+            box-shadow: var(--shadow-lg);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .nav-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            background: #f8f9fa;
+            border-bottom: 2px solid var(--border-color);
+            padding: 0 20px;
+            gap: 5px;
+        }
+
+        .nav-tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            font-size: 0.9em;
+            font-weight: 500;
+            color: var(--text-muted);
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+            margin-bottom: -2px;
+        }
+
+        .nav-tab:hover {
+            color: var(--primary-color);
+            background: rgba(44, 90, 160, 0.05);
+        }
+
+        .nav-tab.active {
+            color: var(--primary-color);
+            border-bottom-color: var(--primary-color);
+            background: white;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .section-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .section-body {
+            padding: 20px;
+        }
+
+        .scenario-box {
+            background: #f8f9fa;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .scenario-box h4 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+        }
+
+        .recommendation-box {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border: 1px solid var(--success-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .recommendation-box.class-i {
+            border-left: 5px solid var(--success-color);
+        }
+
+        .recommendation-box.class-iia {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-color: var(--warning-color);
+            border-left: 5px solid var(--warning-color);
+        }
+
+        .recommendation-box.class-iib {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-color: var(--info-color);
+            border-left: 5px solid var(--info-color);
+        }
+
+        .recommendation-box.class-iii {
+            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+            border-color: var(--danger-color);
+            border-left: 5px solid var(--danger-color);
+        }
+
+        .class-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .class-badge.i { background: var(--success-color); color: white; }
+        .class-badge.iia { background: var(--warning-color); color: #333; }
+        .class-badge.iib { background: var(--info-color); color: white; }
+        .class-badge.iii { background: var(--danger-color); color: white; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        tr:hover {
+            background: #e9ecef;
+        }
+
+        .risk-very-high { background: #ffcdd2 !important; }
+        .risk-high { background: #ffe0b2 !important; }
+        .risk-moderate { background: #fff9c4 !important; }
+        .risk-low { background: #c8e6c9 !important; }
+
+        .target-box {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin: 5px;
+        }
+
+        .info-alert {
+            background: #e3f2fd;
+            border: 1px solid var(--info-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .warning-alert {
+            background: #fff3e0;
+            border: 1px solid var(--warning-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .source-citation {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 10px 15px;
+            margin-top: 20px;
+            font-size: 0.85em;
+            color: var(--text-muted);
+        }
+
+        .source-citation a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .source-citation a:hover {
+            text-decoration: underline;
+        }
+
+        .flowchart {
+            background: #f8f9fa;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .flowchart-step {
+            display: inline-block;
+            background: white;
+            border: 2px solid var(--primary-color);
+            border-radius: 8px;
+            padding: 15px 25px;
+            margin: 10px;
+            font-weight: 500;
+        }
+
+        .flowchart-arrow {
+            display: inline-block;
+            font-size: 1.5em;
+            color: var(--primary-color);
+            margin: 0 10px;
+        }
+
+        .drug-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .drug-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .drug-info h5 {
+            margin: 0 0 5px 0;
+            color: var(--primary-color);
+        }
+
+        .drug-info p {
+            margin: 0;
+            font-size: 0.9em;
+            color: var(--text-muted);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+            .nav-tabs {
+                flex-direction: column;
+            }
+            .nav-tab {
+                border-bottom: none;
+                border-left: 3px solid transparent;
+            }
+            .nav-tab.active {
+                border-left-color: var(--primary-color);
+            }
+        }
+
+        .highlight {
+            background: yellow;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checklist li:before {
+            content: "\2713";
+            color: var(--success-color);
+            font-weight: bold;
+        }
+
+        .print-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            font-weight: 600;
+            z-index: 1000;
+        }
+
+        .print-btn:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        @media print {
+            .print-btn, .nav-tabs { display: none; }
+            .tab-content { display: block !important; page-break-inside: avoid; }
+            .container { box-shadow: none; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Scenari Clinici - Prevenzione Cardiovascolare</h1>
+            <p>Guida pratica basata sulle Linee Guida ESC 2021-2025</p>
+        </div>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('rischio')">1. Rischio CV</button>
+            <button class="nav-tab" onclick="showTab('pressione')">2. Pressione Arteriosa</button>
+            <button class="nav-tab" onclick="showTab('lipidi')">3. Dislipidemia</button>
+            <button class="nav-tab" onclick="showTab('diabete')">4. Diabete</button>
+            <button class="nav-tab" onclick="showTab('lifestyle')">5. Stile di Vita</button>
+            <button class="nav-tab" onclick="showTab('speciali')">6. Scenari Speciali</button>
+            <button class="nav-tab" onclick="showTab('screening')">7. Screening</button>
+            <button class="nav-tab" onclick="showTab('followup')">8. Follow-up</button>
+        </div>
+
+        <div class="content">
+            <!-- TAB 1: RISCHIO CV -->
+            <div id="rischio" class="tab-content active">
+                <div class="section-card">
+                    <div class="section-header">1. Valutazione del Rischio Cardiovascolare</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Scenario 1.1: Paziente Apparentemente Sano (40-69 anni)</h4>
+                            <p><strong>Strumento:</strong> SCORE2</p>
+                            <table>
+                                <tr>
+                                    <th>Rischio 10 anni</th>
+                                    <th>Categoria</th>
+                                    <th>Azione</th>
+                                </tr>
+                                <tr class="risk-low">
+                                    <td>&lt;2%</td>
+                                    <td>Basso</td>
+                                    <td>Consigli lifestyle</td>
+                                </tr>
+                                <tr class="risk-moderate">
+                                    <td>2 - &lt;10%</td>
+                                    <td>Moderato</td>
+                                    <td>Lifestyle + valutare farmaci se LDL elevato</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>10 - &lt;20%</td>
+                                    <td>Alto</td>
+                                    <td>Lifestyle + farmaci</td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>&ge;20%</td>
+                                    <td>Molto Alto</td>
+                                    <td>Trattamento intensivo</td>
+                                </tr>
+                            </table>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I</span>
+                                <span class="class-badge" style="background:#6c757d;color:white;">Livello B</span>
+                                <p style="margin:10px 0 0 0;">SCORE2 raccomandato per la stima del rischio a 10 anni di eventi CV fatali e non fatali.</p>
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 1.2: Paziente Anziano (&ge;70 anni)</h4>
+                            <p><strong>Strumento:</strong> SCORE2-OP (con aggiustamento per mortalita competitiva)</p>
+                            <table>
+                                <tr>
+                                    <th>Rischio 10 anni</th>
+                                    <th>Categoria</th>
+                                </tr>
+                                <tr class="risk-moderate">
+                                    <td>&lt;7.5%</td>
+                                    <td>Basso-Moderato</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>7.5 - &lt;15%</td>
+                                    <td>Alto</td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>&ge;15%</td>
+                                    <td>Molto Alto</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 1.3: Paziente con Diabete Tipo 2 (&ge;40 anni)</h4>
+                            <p><strong>Strumento:</strong> SCORE2-Diabetes</p>
+                            <table>
+                                <tr>
+                                    <th>Condizione</th>
+                                    <th>Categoria Rischio</th>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>ASCVD documentata O TOD severo</td>
+                                    <td><strong>Molto Alto (automatico)</strong></td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>SCORE2-Diabetes &ge;20%</td>
+                                    <td>Molto Alto</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>SCORE2-Diabetes 10 - &lt;20%</td>
+                                    <td>Alto</td>
+                                </tr>
+                                <tr class="risk-moderate">
+                                    <td>SCORE2-Diabetes 5 - &lt;10%</td>
+                                    <td>Moderato</td>
+                                </tr>
+                                <tr class="risk-low">
+                                    <td>SCORE2-Diabetes &lt;5%</td>
+                                    <td>Basso</td>
+                                </tr>
+                            </table>
+                            <div class="info-alert">
+                                <strong>TOD Severo nel diabete:</strong>
+                                <ul style="margin:5px 0 0 0;">
+                                    <li>eGFR &lt;45 mL/min/1.73m<sup>2</sup></li>
+                                    <li>eGFR 45-59 + microalbuminuria (UACR 30-300 mg/g)</li>
+                                    <li>Proteinuria (UACR &gt;300 mg/g)</li>
+                                    <li>Malattia microvascolare in &ge;3 sedi</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonti:</strong> 2021_CVD_Prevention.md (p.22-23), 2025_Dyslipidaemias_Update.md (p.6-8), 2023_CVD_Diabetes.md (p.18-19)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: PRESSIONE ARTERIOSA -->
+            <div id="pressione" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">2. Gestione della Pressione Arteriosa</div>
+                    <div class="section-body">
+
+                        <h3>Classificazione PA (ESC 2024)</h3>
+                        <table>
+                            <tr>
+                                <th>Categoria</th>
+                                <th>Office BP</th>
+                                <th>HBPM</th>
+                                <th>ABPM diurno</th>
+                            </tr>
+                            <tr class="risk-low">
+                                <td><strong>PA Non Elevata</strong></td>
+                                <td>&lt;120/70 mmHg</td>
+                                <td>&lt;120/70 mmHg</td>
+                                <td>&lt;120/70 mmHg</td>
+                            </tr>
+                            <tr class="risk-moderate">
+                                <td><strong>PA Elevata</strong></td>
+                                <td>120-139 / 70-89 mmHg</td>
+                                <td>120-134 / 70-84 mmHg</td>
+                                <td>120-134 / 70-84 mmHg</td>
+                            </tr>
+                            <tr class="risk-high">
+                                <td><strong>Ipertensione</strong></td>
+                                <td>&ge;140/90 mmHg</td>
+                                <td>&ge;135/85 mmHg</td>
+                                <td>&ge;135/85 mmHg</td>
+                            </tr>
+                        </table>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 2.1: PA Normale (&lt;120/70 mmHg)</h4>
+                            <p><strong>Azione:</strong> Consigliare stile di vita sano</p>
+                            <p><strong>Follow-up:</strong> Rivalutare ogni 3-5 anni</p>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 2.2: PA Elevata (120-139/70-89 mmHg)</h4>
+                            <p><strong>Azione:</strong> Stratificare rischio CV</p>
+                            <div class="grid-2">
+                                <div class="recommendation-box class-i">
+                                    <strong>Se rischio &ge;10% O condizioni ad alto rischio:</strong>
+                                    <p>Trattamento farmacologico raccomandato</p>
+                                </div>
+                                <div class="recommendation-box class-iia">
+                                    <strong>Se rischio &lt;10%:</strong>
+                                    <p>Lifestyle per 3-6 mesi, poi rivalutare</p>
+                                </div>
+                            </div>
+                            <div class="info-alert">
+                                <strong>Condizioni ad alto rischio (trattare sempre):</strong>
+                                CKD moderata-severa, CVD documentata, HMOD, Diabete, Ipercolesterolemia familiare
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 2.3: Ipertensione (&ge;140/90 mmHg)</h4>
+                            <p><strong>Azione:</strong> Lifestyle + trattamento farmacologico immediato</p>
+
+                            <h5>Target PA per popolazione:</h5>
+                            <table>
+                                <tr>
+                                    <th>Popolazione</th>
+                                    <th>Target Sistolica</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td>Generale</td>
+                                    <td><span class="target-box">120-129 mmHg</span></td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Anziani / Fragili</td>
+                                    <td><span class="target-box">130-139 mmHg</span></td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Diabetici</td>
+                                    <td><span class="target-box">120-129 mmHg</span> (se tollerato)</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Post-ictus/TIA</td>
+                                    <td><span class="target-box">120-130 mmHg</span></td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 2.4: Algoritmo Terapeutico</h4>
+                            <div class="flowchart">
+                                <div class="flowchart-step">Step 1<br><small>ACEi/ARB + CCB o Diuretico</small></div>
+                                <span class="flowchart-arrow">&rarr;</span>
+                                <div class="flowchart-step">Step 2<br><small>ACEi/ARB + CCB + Diuretico</small></div>
+                                <span class="flowchart-arrow">&rarr;</span>
+                                <div class="flowchart-step">Step 3<br><small>+ Spironolattone o altro</small></div>
+                            </div>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I</span>
+                                <p>Raccomandato iniziare con combinazione a dose fissa (single-pill combination) per migliorare aderenza.</p>
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonte:</strong> 2024_Hypertension.md (p.25-29, p.42-45)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: LIPIDI -->
+            <div id="lipidi" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">3. Gestione della Dislipidemia</div>
+                    <div class="section-body">
+
+                        <h3>Target LDL-C per Categoria di Rischio</h3>
+                        <table>
+                            <tr>
+                                <th>Categoria Rischio</th>
+                                <th>Target LDL-C</th>
+                                <th>Classe</th>
+                            </tr>
+                            <tr class="risk-low">
+                                <td>Basso (SCORE2 &lt;2%)</td>
+                                <td><span class="target-box">&lt;3.0 mmol/L (&lt;116 mg/dL)</span></td>
+                                <td><span class="class-badge iib">IIb</span></td>
+                            </tr>
+                            <tr class="risk-moderate">
+                                <td>Moderato (SCORE2 2-&lt;10%)</td>
+                                <td><span class="target-box">&lt;2.6 mmol/L (&lt;100 mg/dL)</span></td>
+                                <td><span class="class-badge iia">IIa</span></td>
+                            </tr>
+                            <tr class="risk-high">
+                                <td>Alto (SCORE2 10-&lt;20%)</td>
+                                <td><span class="target-box">&lt;1.8 mmol/L (&lt;70 mg/dL)</span> + &ge;50% riduzione</td>
+                                <td><span class="class-badge i">I</span></td>
+                            </tr>
+                            <tr class="risk-very-high">
+                                <td>Molto Alto (SCORE2 &ge;20% o ASCVD)</td>
+                                <td><span class="target-box">&lt;1.4 mmol/L (&lt;55 mg/dL)</span> + &ge;50% riduzione</td>
+                                <td><span class="class-badge i">I</span></td>
+                            </tr>
+                            <tr class="risk-very-high">
+                                <td>Molto Alto + evento ricorrente</td>
+                                <td><span class="target-box">&lt;1.0 mmol/L (&lt;40 mg/dL)</span></td>
+                                <td><span class="class-badge iib">IIb</span></td>
+                            </tr>
+                        </table>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 3.1: Algoritmo Terapeutico Step-by-Step</h4>
+                            <div class="flowchart">
+                                <div class="flowchart-step" style="background:#c8e6c9;">
+                                    <strong>STEP 1</strong><br>
+                                    Statina alta intensita<br>
+                                    <small>Atorva 40-80mg o Rosuva 20-40mg</small>
+                                </div>
+                                <span class="flowchart-arrow">&rarr;</span>
+                                <div class="flowchart-step" style="background:#fff9c4;">
+                                    <strong>STEP 2</strong><br>
+                                    + Ezetimibe 10mg<br>
+                                    <small>Se non a target</small>
+                                </div>
+                                <span class="flowchart-arrow">&rarr;</span>
+                                <div class="flowchart-step" style="background:#ffcdd2;">
+                                    <strong>STEP 3</strong><br>
+                                    + PCSK9i o Bempedoico<br>
+                                    <small>Se ancora non a target</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 3.2: Farmaci Disponibili</h4>
+                            <div class="grid-2">
+                                <div class="drug-card">
+                                    <div class="drug-icon">S</div>
+                                    <div class="drug-info">
+                                        <h5>Statine Alta Intensita</h5>
+                                        <p>Atorvastatina 40-80mg, Rosuvastatina 20-40mg</p>
+                                        <p><strong>Riduzione LDL:</strong> 50-55%</p>
+                                    </div>
+                                </div>
+                                <div class="drug-card">
+                                    <div class="drug-icon">E</div>
+                                    <div class="drug-info">
+                                        <h5>Ezetimibe</h5>
+                                        <p>10 mg/die</p>
+                                        <p><strong>Riduzione LDL aggiuntiva:</strong> 15-20%</p>
+                                    </div>
+                                </div>
+                                <div class="drug-card">
+                                    <div class="drug-icon">P</div>
+                                    <div class="drug-info">
+                                        <h5>PCSK9 Inibitori</h5>
+                                        <p>Alirocumab, Evolocumab</p>
+                                        <p><strong>Riduzione LDL aggiuntiva:</strong> 50-60%</p>
+                                    </div>
+                                </div>
+                                <div class="drug-card">
+                                    <div class="drug-icon">B</div>
+                                    <div class="drug-info">
+                                        <h5>Acido Bempedoico</h5>
+                                        <p>180 mg/die (utile se intolleranza statine)</p>
+                                        <p><strong>Riduzione LDL:</strong> 18-23%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 3.3: Intolleranza alle Statine</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I</span>
+                                <ol style="margin:10px 0 0 0;">
+                                    <li>Provare statina alternativa a dose ridotta</li>
+                                    <li>Se fallisce: <strong>Ezetimibe + Acido Bempedoico</strong></li>
+                                    <li>Considerare PCSK9 inibitori se molto alto rischio</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonte:</strong> 2025_Dyslipidaemias_Update.md (p.6-12), 2021_CVD_Prevention.md (p.49-51)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: DIABETE -->
+            <div id="diabete" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">4. Gestione del Diabete Tipo 2</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Scenario 4.1: DMT2 con ASCVD Documentata</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <p><strong>"In patients with T2DM and ASCVD, treatment with GLP-1 RAs and/or SGLT2 inhibitors is recommended to reduce CV risk, independent of glucose control."</strong></p>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>Farmaco</th>
+                                    <th>Esempi</th>
+                                    <th>Beneficio CV</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>GLP-1 RA</strong></td>
+                                    <td>Semaglutide, Liraglutide, Dulaglutide</td>
+                                    <td>Riduzione MACE</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>SGLT2i</strong></td>
+                                    <td>Empagliflozin, Dapagliflozin, Canagliflozin</td>
+                                    <td>Riduzione MACE + HF + CKD</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 4.2: DMT2 con Scompenso Cardiaco</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <p><strong>SGLT2 inibitore raccomandato</strong> (indipendentemente da HbA1c e LVEF)</p>
+                            </div>
+                            <div class="warning-alert">
+                                <strong>Farmaci da EVITARE nello scompenso:</strong>
+                                <ul style="margin:5px 0 0 0;">
+                                    <li>Pioglitazone (ritenzione idrica)</li>
+                                    <li>Saxagliptin (aumento rischio HF)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 4.3: DMT2 con CKD</h4>
+                            <table>
+                                <tr>
+                                    <th>eGFR</th>
+                                    <th>Raccomandazione</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td>25-60 mL/min/1.73m<sup>2</sup></td>
+                                    <td>SGLT2i + Finerenone (se albuminuria)</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Albuminuria &ge;30 mg/g</td>
+                                    <td>SGLT2i prioritario</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 4.4: Target Glicemici</h4>
+                            <table>
+                                <tr>
+                                    <th>Popolazione</th>
+                                    <th>Target HbA1c</th>
+                                </tr>
+                                <tr>
+                                    <td>Generale</td>
+                                    <td><span class="target-box">&lt;7.0% (&lt;53 mmol/mol)</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Anziani / Fragili / Comorbidita</td>
+                                    <td><span class="target-box">&lt;8.0% (&lt;64 mmol/mol)</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Gravidanza</td>
+                                    <td><span class="target-box">&lt;6.5% (&lt;48 mmol/mol)</span></td>
+                                </tr>
+                            </table>
+                            <div class="info-alert">
+                                <strong>Nota:</strong> I benefici CV di GLP-1 RA e SGLT2i sono <strong>indipendenti dal controllo glicemico</strong>. Prescriverli anche se HbA1c a target!
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonte:</strong> 2023_CVD_Diabetes.md (p.18-28, p.42-51)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: LIFESTYLE -->
+            <div id="lifestyle" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">5. Gestione dello Stile di Vita</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Scenario 5.1: Attivita Fisica</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <table>
+                                    <tr>
+                                        <th>Tipo</th>
+                                        <th>Raccomandazione</th>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Aerobica moderata</strong></td>
+                                        <td>150-300 min/settimana</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Aerobica vigorosa</strong></td>
+                                        <td>75-150 min/settimana</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Resistenza</strong></td>
+                                        <td>&ge;2 giorni/settimana</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Sedentarieta</strong></td>
+                                        <td>Ridurre il piu possibile</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="info-alert">
+                                <strong>Intensita moderata:</strong> Camminata veloce (4.5-6 km/h), ciclismo leggero, nuoto leggero, giardinaggio<br>
+                                <strong>Intensita vigorosa:</strong> Corsa, ciclismo &gt;15 km/h, nuoto vasca, tennis singolo
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 5.2: Alimentazione - Dieta Mediterranea</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <p><strong>"A Mediterranean or similar diet is recommended to lower risk of CVD."</strong></p>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>Componente</th>
+                                    <th>Raccomandazione</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td>Grassi saturi</td>
+                                    <td>&lt;10% energia, sostituire con PUFA/MUFA</td>
+                                    <td><span class="class-badge i">I, A</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Sale</td>
+                                    <td>&lt;5 g/giorno</td>
+                                    <td><span class="class-badge i">I, A</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Fibre</td>
+                                    <td>30-45 g/giorno da cereali integrali</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Frutta e verdura</td>
+                                    <td>&ge;200g ciascuno/giorno (2-3 porzioni)</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Pesce</td>
+                                    <td>&ge;1-2 volte/settimana (preferibilmente grasso)</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Carne rossa</td>
+                                    <td>Max 350-500 g/settimana, minimizzare processata</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Noci</td>
+                                    <td>30 g/giorno non salate</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Alcol</td>
+                                    <td>Max 100 g/settimana (circa 10 drink)</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Bevande zuccherate</td>
+                                    <td>Evitare</td>
+                                    <td><span class="class-badge i">I, B</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 5.3: Cessazione Fumo</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <p><strong>"All smoking of tobacco should be stopped, as tobacco use is strongly and independently causal of ASCVD."</strong></p>
+                            </div>
+                            <h5>Supporto farmacologico (Classe IIa, Livello A):</h5>
+                            <div class="grid-3">
+                                <div class="drug-card">
+                                    <div class="drug-info">
+                                        <h5>NRT</h5>
+                                        <p>Cerotti, gomme, spray nasale, inalatore</p>
+                                    </div>
+                                </div>
+                                <div class="drug-card">
+                                    <div class="drug-info">
+                                        <h5>Vareniclina</h5>
+                                        <p>1 mg bid - piu efficace</p>
+                                    </div>
+                                </div>
+                                <div class="drug-card">
+                                    <div class="drug-info">
+                                        <h5>Bupropione</h5>
+                                        <p>150-300 mg/die</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-alert">
+                                <strong>Nota:</strong> Cessazione raccomandata anche se causa aumento di peso (5 kg in media). Il beneficio CV supera il rischio dell'aumento ponderale.
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 5.4: Sovrappeso e Obesita</h4>
+                            <table>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Categoria</th>
+                                    <th>Azione</th>
+                                </tr>
+                                <tr>
+                                    <td>25-29.9</td>
+                                    <td>Sovrappeso</td>
+                                    <td>Lifestyle intensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>30-34.9</td>
+                                    <td>Obesita Classe I</td>
+                                    <td>Lifestyle + considera farmaci (orlistat, GLP-1 RA)</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>&ge;35</td>
+                                    <td>Obesita Classe II-III</td>
+                                    <td>Considera chirurgia bariatrica</td>
+                                </tr>
+                            </table>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello A</span>
+                                <p><strong>Target:</strong> Perdita peso &ge;5-10% dal basale migliora PA, lipidi e controllo glicemico.</p>
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonte:</strong> 2021_CVD_Prevention.md (p.42-49)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 6: SCENARI SPECIALI -->
+            <div id="speciali" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">6. Scenari Speciali</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.1: Screening Fibrillazione Atriale</h4>
+                            <table>
+                                <tr>
+                                    <th>Eta</th>
+                                    <th>Metodo Screening</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td>&ge;65 anni</td>
+                                    <td>Palpazione polso occasionale</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td>&ge;75 anni O alto rischio</td>
+                                    <td>Screening ECG sistematico</td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.2: Donna con Storia Ostetrica Complicata</h4>
+                            <p>I seguenti fattori aumentano il rischio CV e vanno considerati come <strong>modificatori di rischio</strong> per upclassificare:</p>
+                            <table>
+                                <tr>
+                                    <th>Condizione</th>
+                                    <th>Aumento Rischio Relativo</th>
+                                </tr>
+                                <tr>
+                                    <td>Preeclampsia</td>
+                                    <td>~2x</td>
+                                </tr>
+                                <tr>
+                                    <td>Ipertensione gestazionale</td>
+                                    <td>~2x</td>
+                                </tr>
+                                <tr>
+                                    <td>Diabete gestazionale</td>
+                                    <td>~2x</td>
+                                </tr>
+                                <tr>
+                                    <td>Parto pretermine</td>
+                                    <td>~1.4x</td>
+                                </tr>
+                                <tr>
+                                    <td>Aborti ricorrenti</td>
+                                    <td>~1.4x</td>
+                                </tr>
+                                <tr>
+                                    <td>Stillbirth</td>
+                                    <td>~1.4x</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.3: Malattia Renale Cronica</h4>
+                            <table>
+                                <tr>
+                                    <th>Stadio CKD</th>
+                                    <th>eGFR (mL/min/1.73m<sup>2</sup>)</th>
+                                    <th>Categoria Rischio CV</th>
+                                </tr>
+                                <tr class="risk-moderate">
+                                    <td>G3a</td>
+                                    <td>45-59</td>
+                                    <td>Alto</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>G3b</td>
+                                    <td>30-44</td>
+                                    <td>Alto</td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>G4-5</td>
+                                    <td>&lt;30</td>
+                                    <td>Molto Alto</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.4: Malattie Infiammatorie Croniche</h4>
+                            <p>Condizioni che aumentano rischio CV:</p>
+                            <ul class="checklist">
+                                <li>Artrite reumatoide</li>
+                                <li>Lupus eritematoso sistemico</li>
+                                <li>Psoriasi</li>
+                                <li>Malattie infiammatorie intestinali</li>
+                                <li>HIV</li>
+                            </ul>
+                            <div class="info-alert">
+                                <strong>Azione:</strong> Considerare moltiplicatore 1.5x per SCORE2 o usare come modificatore di rischio per upclassificare.
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.5: Disfunzione Erettile</h4>
+                            <div class="info-alert">
+                                Considerare come <strong>marker precoce di aterosclerosi</strong>. Valutare attentamente tutti i fattori di rischio CV.
+                            </div>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Scenario 6.6: Salute Mentale</h4>
+                            <div class="recommendation-box class-i">
+                                <span class="class-badge i">Classe I, Livello B</span>
+                                <p>"In ASCVD patients with mental disorders, evidence-based mental healthcare and interdisciplinary cooperation are recommended."</p>
+                            </div>
+                            <div class="warning-alert">
+                                <strong>Attenzione:</strong> Depressione, ansia e stress aumentano rischio CV e riducono aderenza terapeutica.
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonti:</strong> 2024_Hypertension.md (p.28), 2021_CVD_Prevention.md (p.47), 2024_Atrial_Fibrillation.md
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 7: SCREENING -->
+            <div id="screening" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">7. Esami di Screening</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Panel Base per Tutti i Pazienti</h4>
+                            <table>
+                                <tr>
+                                    <th>Esame</th>
+                                    <th>Indicazione</th>
+                                    <th>Frequenza</th>
+                                </tr>
+                                <tr>
+                                    <td>Glicemia a digiuno / HbA1c</td>
+                                    <td>Screening diabete</td>
+                                    <td>Ogni 3 anni; annuale se fattori rischio</td>
+                                </tr>
+                                <tr>
+                                    <td>Profilo lipidico completo</td>
+                                    <td>CT, LDL, HDL, TG</td>
+                                    <td>Ogni 3-5 anni; piu frequente se elevato</td>
+                                </tr>
+                                <tr>
+                                    <td>Creatinina + eGFR</td>
+                                    <td>Funzione renale</td>
+                                    <td>Annuale se ipertensione/diabete</td>
+                                </tr>
+                                <tr>
+                                    <td>UACR (albuminuria)</td>
+                                    <td>Danno renale precoce</td>
+                                    <td>Annuale se diabete/ipertensione</td>
+                                </tr>
+                                <tr>
+                                    <td>ECG</td>
+                                    <td>Screening aritmie, IVS</td>
+                                    <td>Basale; poi se indicato</td>
+                                </tr>
+                                <tr>
+                                    <td>Emocromo, elettroliti</td>
+                                    <td>Basale</td>
+                                    <td>Basale; poi se indicato</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Esami Aggiuntivi per Stratificazione del Rischio</h4>
+                            <table>
+                                <tr>
+                                    <th>Esame</th>
+                                    <th>Quando Considerare</th>
+                                    <th>Classe</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>Calcio coronarico (CAC)</strong></td>
+                                    <td>Rischio intermedio, decisione dubbia, asintomatici</td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Eco-TSA (carotidi/femorali)</strong></td>
+                                    <td>Rischio intermedio, ricerca placche</td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>ABI (indice caviglia-braccio)</strong></td>
+                                    <td>Sospetto PAD, claudicatio</td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ecocardiogramma</strong></td>
+                                    <td>Ipertensione, dispnea, soffio, sospetto HF</td>
+                                    <td><span class="class-badge i">I</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Lp(a)</strong></td>
+                                    <td>Storia familiare CVD precoce, FH, rischio intermedio</td>
+                                    <td><span class="class-badge iia">IIa</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>hs-CRP</strong></td>
+                                    <td>Rischio intermedio, modificatore di rischio</td>
+                                    <td><span class="class-badge iib">IIb</span></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="info-alert">
+                            <strong>CAC Score - Interpretazione:</strong>
+                            <ul style="margin:5px 0 0 0;">
+                                <li><strong>0:</strong> Rischio molto basso - può rassicurare e ritardare statine</li>
+                                <li><strong>1-99:</strong> Placche presenti - considerare statina</li>
+                                <li><strong>100-299:</strong> Aterosclerosi moderata - statina raccomandata</li>
+                                <li><strong>&ge;300:</strong> Aterosclerosi estesa - trattamento intensivo come prevenzione secondaria</li>
+                            </ul>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonti:</strong> 2021_CVD_Prevention.md, 2025_Dyslipidaemias_Update.md (p.7-8)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 8: FOLLOW-UP -->
+            <div id="followup" class="tab-content">
+                <div class="section-card">
+                    <div class="section-header">8. Follow-up e Monitoraggio</div>
+                    <div class="section-body">
+
+                        <div class="scenario-box">
+                            <h4>Frequenza dei Controlli per Categoria di Rischio</h4>
+                            <table>
+                                <tr>
+                                    <th>Categoria Rischio</th>
+                                    <th>Frequenza Controlli</th>
+                                </tr>
+                                <tr class="risk-low">
+                                    <td>Basso</td>
+                                    <td>Ogni 3-5 anni</td>
+                                </tr>
+                                <tr class="risk-moderate">
+                                    <td>Moderato</td>
+                                    <td>Annuale</td>
+                                </tr>
+                                <tr class="risk-high">
+                                    <td>Alto</td>
+                                    <td>Ogni 3-6 mesi inizialmente, poi annuale</td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>Molto Alto / ASCVD</td>
+                                    <td>Ogni 3-6 mesi inizialmente, poi ogni 6-12 mesi</td>
+                                </tr>
+                                <tr class="risk-very-high">
+                                    <td>Post-evento acuto</td>
+                                    <td>Ogni 1-3 mesi nel primo anno</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Cosa Monitorare ad Ogni Visita</h4>
+                            <ul class="checklist">
+                                <li>Pressione arteriosa</li>
+                                <li>Peso / BMI / circonferenza vita</li>
+                                <li>Aderenza terapeutica</li>
+                                <li>Effetti collaterali farmaci</li>
+                                <li>Stato del fumo</li>
+                                <li>Attivita fisica</li>
+                                <li>Sintomi CV (dispnea, dolore toracico, palpitazioni)</li>
+                            </ul>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Controlli Laboratoristici</h4>
+                            <table>
+                                <tr>
+                                    <th>Parametro</th>
+                                    <th>Quando Ricontrollare</th>
+                                </tr>
+                                <tr>
+                                    <td>Profilo lipidico</td>
+                                    <td>8-12 settimane dopo inizio/modifica terapia, poi annuale</td>
+                                </tr>
+                                <tr>
+                                    <td>HbA1c (diabetici)</td>
+                                    <td>Ogni 3-6 mesi</td>
+                                </tr>
+                                <tr>
+                                    <td>Creatinina/eGFR</td>
+                                    <td>1-2 settimane dopo ACEi/ARB, poi ogni 6-12 mesi</td>
+                                </tr>
+                                <tr>
+                                    <td>Potassio</td>
+                                    <td>1-2 settimane dopo ACEi/ARB/diuretici, poi ogni 6-12 mesi</td>
+                                </tr>
+                                <tr>
+                                    <td>Transaminasi</td>
+                                    <td>Basale prima statine; solo se sintomi</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="scenario-box">
+                            <h4>Comunicazione del Rischio al Paziente</h4>
+                            <div class="grid-2">
+                                <div class="recommendation-box class-i">
+                                    <strong>Paziente Motivato:</strong>
+                                    <ul style="margin:5px 0 0 0;">
+                                        <li>Usare strumenti visivi (grafici SCORE2)</li>
+                                        <li>Mostrare beneficio lifetime</li>
+                                        <li>Decisione condivisa</li>
+                                    </ul>
+                                </div>
+                                <div class="recommendation-box class-iia">
+                                    <strong>Paziente Non Aderente:</strong>
+                                    <ul style="margin:5px 0 0 0;">
+                                        <li>Approccio motivazionale (OARS)</li>
+                                        <li>Obiettivi SMART</li>
+                                        <li>Single-pill combinations</li>
+                                        <li>Coinvolgere familiari</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="source-citation">
+                            <strong>Fonti:</strong> 2021_CVD_Prevention.md (p.42), 2024_Hypertension.md
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Stampa Guida</button>
+
+    <script>
+        function showTab(tabId) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-tab').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected tab
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
