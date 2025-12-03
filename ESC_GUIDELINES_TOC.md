@@ -51,12 +51,13 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (9)
+### Consensus Documents (10)
 - [2025 Conduction System Pacing (ESC/EHRA)](#consensus-2025-csp)
 - [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
 - [2024 AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS)](#consensus-2024-af-ablation)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
 - [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
+- [2023 Imaging in CIEDs Part 1 (EACVI/EHRA)](#consensus-2023-imaging-cieds)
 - [2023 NT-proBNP Practical Algorithms (HFA)](#consensus-2023-nt-probnp)
 - [2023 HF and Stroke Interaction](#consensus-2023-hf-stroke)
 - [2023 Worsening Heart Failure (HFA)](#consensus-2023-worsening-hf)
@@ -4855,6 +4856,28 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 8. Surgical treatment *(L850)*
 - 9. Patient selection *(L950)*
 - References *(L1050)*
+
+---
+
+### <a name="consensus-2023-imaging-cieds"></a>2023 Imaging in CIEDs Part 1 (EACVI/EHRA)
+
+**File:** `references/esc-consensus-md/2023_Imaging_CIEDs_Part1.md`
+
+**Citation:** Stankovic I, et al. Imaging in patients with cardiovascular implantable electronic devices – Part 1: Imaging before and during device implantation. A clinical consensus statement of the EACVI and EHRA of the ESC. Eur Heart J Cardiovasc Imaging. 2024;25(1):e1-e32.
+
+- 1. Introduction *(L1)*
+- 2. Imaging before device implantation *(L200)*
+  - 2.1 Echocardiography *(L250)*
+  - 2.2 Cardiac CT *(L400)*
+  - 2.3 Cardiac MRI *(L550)*
+- 3. Imaging during device implantation *(L700)*
+  - 3.1 Fluoroscopy guidance *(L750)*
+  - 3.2 Echocardiography guidance *(L900)*
+- 4. Patient selection for CRT *(L1100)*
+- 5. Leadless pacemakers *(L1400)*
+- 6. His bundle and left bundle pacing *(L1600)*
+- 7. Conclusions *(L2000)*
+- References *(L2200)*
 
 ---
 
