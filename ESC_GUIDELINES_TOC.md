@@ -51,8 +51,11 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (NEW)
+### Consensus Documents (6)
+- [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
+- [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
+- [2023 HF and Stroke Interaction](#consensus-2023-hf-stroke)
 - [2023 Worsening Heart Failure (HFA)](#consensus-2023-worsening-hf)
 - [2023 Arrhythmias in Frailty (EHRA)](#consensus-2023-arrhythmias-frailty)
 
@@ -4739,6 +4742,62 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 8. End-of-life considerations *(L1500)*
 - 9. Conclusions *(L1700)*
 - References *(L1800)*
+
+---
+
+### <a name="consensus-2025-vaccination"></a>2025 Vaccination as CV Prevention
+
+**File:** `references/esc-consensus-md/2025_Vaccination_CV_Prevention.md`
+
+**Citation:** ESC Clinical Consensus Statement. Vaccination as a new form of cardiovascular prevention. Eur Heart J. 2025;46(36):3518-3531.
+
+- 1. Introduction *(L1)*
+- 2. Vaccination and cardiovascular disease *(L100)*
+- 3. Influenza vaccination *(L200)*
+- 4. COVID-19 vaccination *(L350)*
+- 5. RSV vaccination *(L450)*
+- 6. Herpes zoster vaccination *(L550)*
+- 7. Special populations *(L650)*
+- 8. Practical recommendations *(L800)*
+- References *(L900)*
+
+---
+
+### <a name="consensus-2024-right-hf-tr"></a>2024 Right Heart Failure and Tricuspid Regurgitation (HFA/EAPCI)
+
+**File:** `references/esc-consensus-md/2024_Right_HF_TR.md`
+
+**Citation:** Adamo M, et al. Epidemiology, pathophysiology, diagnosis and management of chronic right-sided heart failure and tricuspid regurgitation. Eur J Heart Fail. 2024;26:18-33.
+
+- 1. Introduction *(L1)*
+- 2. Epidemiology *(L100)*
+- 3. Pathophysiology *(L200)*
+- 4. Diagnosis *(L350)*
+- 5. Imaging *(L450)*
+- 6. Medical treatment *(L550)*
+- 7. Transcatheter interventions *(L700)*
+- 8. Surgical treatment *(L850)*
+- 9. Patient selection *(L950)*
+- References *(L1050)*
+
+---
+
+### <a name="consensus-2023-hf-stroke"></a>2023 Heart Failure and Stroke Interaction
+
+**File:** `references/esc-consensus-md/2023_HF_Stroke_Interaction.md`
+
+**Citation:** Doehner W, et al. Interaction of heart failure and stroke: A clinical consensus statement of the ESC Council on Stroke, the HFA and the ESC Working Group on Thrombosis. Eur J Heart Fail. 2023;25(12):2107-2129.
+
+- 1. Introduction *(L1)*
+- 2. Epidemiology *(L100)*
+- 3. Pathophysiology of heart-brain interaction *(L250)*
+- 4. HF patients with stroke risk *(L400)*
+- 5. Anticoagulation in HF *(L550)*
+- 6. Stroke patients with HF risk *(L750)*
+- 7. Acute management *(L900)*
+- 8. Rehabilitation *(L1100)*
+- 9. Prevention strategies *(L1300)*
+- References *(L1450)*
 
 ---
 
