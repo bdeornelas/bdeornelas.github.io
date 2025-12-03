@@ -5,20 +5,20 @@
 ### 2024-2025
 | Documento | Anno | Fonte | Status |
 |-----------|------|-------|--------|
-| Obesity and Cardiovascular Disease | 2024 | EHJ | [ ] |
-| AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS) | 2024 | Europace | [ ] |
-| Conduction System Pacing | 2025 | Europace | [ ] |
-| Vaccination as CV Prevention | 2025 | EHJ | [ ] |
+| Obesity and Cardiovascular Disease | 2024 | EHJ | [x] AGGIUNTO |
+| AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS) | 2024 | Europace | [ ] (paywall) |
+| Conduction System Pacing | 2025 | Europace | [x] AGGIUNTO |
+| Vaccination as CV Prevention | 2025 | EHJ | [x] AGGIUNTO |
 | Non-amyloid TTR Cardiac Amyloidosis (HFA) | 2025 | EHJ | [ ] |
 
 ### 2023
 | Documento | Anno | Fonte | Status |
 |-----------|------|-------|--------|
-| Arrhythmias in Frailty Syndrome (EHRA) | 2023 | Europace | [ ] |
-| Worsening of Chronic Heart Failure (HFA) | 2023 | EHJ-HF | [ ] |
-| HF and Stroke Interaction | 2023 | EHJ | [ ] |
-| NT-proBNP Practical Algorithms (HFA) | 2023 | EHJ-HF | [ ] |
-| Right-sided HF and Tricuspid Regurgitation | 2023 | EHJ | [ ] |
+| Arrhythmias in Frailty Syndrome (EHRA) | 2023 | Europace | [x] AGGIUNTO |
+| Worsening of Chronic Heart Failure (HFA) | 2023 | EHJ-HF | [x] AGGIUNTO |
+| HF and Stroke Interaction | 2023 | EHJ | [x] AGGIUNTO |
+| NT-proBNP Practical Algorithms (HFA) | 2023 | EHJ-HF | [ ] (paywall) |
+| Right-sided HF and Tricuspid Regurgitation | 2023 | EHJ | [x] AGGIUNTO |
 
 ## PRIORITA' MEDIA (imaging/procedure)
 
