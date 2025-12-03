@@ -806,6 +806,8 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             const anamnesiRemotaText = formatText(anamnesiRemotaRaw || "Priva di rilievi significativi", indent);
             const anamnesiCvRaw = document.getElementById("anamnesi-cv").value;
             const anamnesiCvText = formatText(anamnesiCvRaw || "Non riferisce precedenti eventi cardiovascolari", indent);
+            const anamnesiProssimaRaw = document.getElementById("anamnesi-prossima").value.trim();
+            const anamnesiProssimaText = anamnesiProssimaRaw ? formatText(anamnesiProssimaRaw, indent) : "";
             let terapia = [];
             for (let i = 1; i <= 7; i++) {
                 const farmaco = document.getElementById(`farmaco${i}`).value.trim();
@@ -897,6 +899,7 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 formatSection("ANAMNESI FAMILIARE", anamnesiFamiliareText, indent, sectionSeparator),
                 formatSection("ANAMNESI PATOLOGICA REMOTA", anamnesiRemotaText, indent, sectionSeparator),
                 formatSection("ANAMNESI CARDIOVASCOLARE", anamnesiCvText, indent, sectionSeparator),
+                formatSection("ANAMNESI PATOLOGICA PROSSIMA", anamnesiProssimaText, indent, sectionSeparator),
                 formatSection("TERAPIA IN ATTO", terapiaText, indent, sectionSeparator),
                 formatSection("SINTOMATOLOGIA RIFERITA", sintomatologiaText, indent, sectionSeparator),
                 formatSection("ESAME OBIETTIVO", eoText, indent, sectionSeparator),
@@ -1761,6 +1764,10 @@ Trigliceridi: `;
                 <div>
                     <label for="anamnesi-cv">Cardiovascolare</label>
                     <textarea id="anamnesi-cv" name="anamnesi-cv" rows="1" placeholder="Anamnesi cardiovascolare">Non riferisce precedenti eventi cardiovascolari</textarea>
+                </div>
+                <div>
+                    <label for="anamnesi-prossima">Patologica Prossima</label>
+                    <textarea id="anamnesi-prossima" name="anamnesi-prossima" rows="1" placeholder="Anamnesi patologica prossima (opzionale)"></textarea>
                 </div>
             </div>
         </div>
