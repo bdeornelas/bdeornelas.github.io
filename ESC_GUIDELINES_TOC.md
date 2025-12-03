@@ -6,7 +6,7 @@ permalink: /ESC_GUIDELINES_TOC.md
 
 *Generato automaticamente il 27/11/2025 alle 09:00*
 
-Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC** + **7 Consensus Documents**.
+Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida ESC** + **8 Consensus Documents**.
 
 ---
 
@@ -51,9 +51,10 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (7)
+### Consensus Documents (8)
 - [2025 Conduction System Pacing (ESC/EHRA)](#consensus-2025-csp)
 - [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
+- [2024 AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS)](#consensus-2024-af-ablation)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
 - [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
 - [2023 HF and Stroke Interaction](#consensus-2023-hf-stroke)
@@ -4796,6 +4797,44 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 7. Special populations *(L650)*
 - 8. Practical recommendations *(L800)*
 - References *(L900)*
+
+---
+
+### <a name="consensus-2024-af-ablation"></a>2024 AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS)
+
+**File:** `references/esc-consensus-md/2024_AF_Ablation_EHRA.md`
+
+**Citation:** Tzeis S, Gerstenfeld EP, et al. 2024 EHRA/HRS/APHRS/LAHRS expert consensus statement on catheter and surgical ablation of atrial fibrillation. Europace. 2024;26(4):euae043. doi:10.1093/europace/euae043
+
+- 1. Introduction *(L95)*
+  - 1.1. Preamble *(L96)*
+  - 1.2. Organization of the writing committee *(L97)*
+  - 1.3. Methods *(L98)*
+  - 1.4. Document review and approval *(L99)*
+  - 1.5. Scope of the document *(L100)*
+- 2. Classification—atrial fibrillation pathophysiology *(L101)*
+  - 2.1. Definitions *(L102)*
+  - 2.2. Classifications *(L103)*
+  - 2.3. Natural history of AF and AF progression *(L105)*
+  - 2.4. Pathophysiology of atrial fibrillation *(L106)*
+- 3. Anatomical considerations *(L121)*
+- 4. Indications for catheter ablation *(L146)*
+  - 4.1. Catheter ablation in patients with AF-related symptoms *(L146)*
+  - 4.2. Catheter ablation in patients with AF and heart failure *(L146)*
+  - 4.3. Catheter ablation in patients without AF-related symptoms *(L146)*
+  - 4.4. Patients with AF and coexistent rhythm disorders *(L146)*
+  - 4.5. AF with other risk factors or diseases *(L146)*
+- 5. AF risk factors and preprocedural management *(L146)*
+- 6. Mapping and ablation tools *(L146)*
+- 7. Intraprocedural management *(L146)*
+- 8. Ablation strategies *(L146)*
+- 9. Postprocedural management *(L146)*
+- 10. Complications *(L146)*
+- 11. Surgical AF ablation *(L146)*
+- 12. Follow-up and outcomes *(L146)*
+- 13. Special patient populations *(L146)*
+- 14. Training and quality assurance *(L146)*
+- References *(L8000)*
 
 ---
 
