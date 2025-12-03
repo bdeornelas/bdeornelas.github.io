@@ -17,7 +17,7 @@
 | Arrhythmias in Frailty Syndrome (EHRA) | 2023 | Europace | [x] AGGIUNTO |
 | Worsening of Chronic Heart Failure (HFA) | 2023 | EHJ-HF | [x] AGGIUNTO |
 | HF and Stroke Interaction | 2023 | EHJ | [x] AGGIUNTO |
-| NT-proBNP Practical Algorithms (HFA) | 2023 | EHJ-HF | [ ] (paywall) |
+| NT-proBNP Practical Algorithms (HFA) | 2023 | EHJ-HF | [x] AGGIUNTO |
 | Right-sided HF and Tricuspid Regurgitation | 2023 | EHJ | [x] AGGIUNTO |
 
 ## PRIORITA' MEDIA (imaging/procedure)
