@@ -51,12 +51,13 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - [Atrial Fibrillation](#2020-atrial-fibrillation)
 - [Sports Cardiology](#2020-sports-cardiology)
 
-### Consensus Documents (10)
+### Consensus Documents (11)
 - [2025 Conduction System Pacing (ESC/EHRA)](#consensus-2025-csp)
 - [2025 Vaccination as CV Prevention](#consensus-2025-vaccination)
 - [2024 AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS)](#consensus-2024-af-ablation)
 - [2024 Obesity and CVD](#consensus-2024-obesity-cvd)
 - [2024 Right HF and Tricuspid Regurgitation](#consensus-2024-right-hf-tr)
+- [2023 Multi-modality Imaging Aortic Stenosis (EACVI)](#consensus-2023-imaging-as)
 - [2023 Imaging in CIEDs Part 1 (EACVI/EHRA)](#consensus-2023-imaging-cieds)
 - [2023 NT-proBNP Practical Algorithms (HFA)](#consensus-2023-nt-probnp)
 - [2023 HF and Stroke Interaction](#consensus-2023-hf-stroke)
@@ -4856,6 +4857,29 @@ Questo documento contiene i Table of Contents (TOC) estratti da **27 linee guida
 - 8. Surgical treatment *(L850)*
 - 9. Patient selection *(L950)*
 - References *(L1050)*
+
+---
+
+### <a name="consensus-2023-imaging-as"></a>2023 Multi-modality Imaging Aortic Stenosis (EACVI)
+
+**File:** `references/esc-consensus-md/2023_Imaging_Aortic_Stenosis.md`
+
+**Citation:** Dweck MR, et al. Multi-modality imaging in aortic stenosis: an EACVI clinical consensus document. Eur Heart J Cardiovasc Imaging. 2023;24(11):1430-1443.
+
+- Introduction *(L1)*
+- Echocardiography in aortic stenosis *(L100)*
+  - Grading severity *(L150)*
+  - Discordant findings *(L200)*
+  - Low-flow, low-gradient AS *(L250)*
+- Computed tomography *(L350)*
+  - Aortic valve calcium scoring *(L400)*
+  - TAVI planning *(L500)*
+- Cardiac magnetic resonance *(L550)*
+  - Myocardial fibrosis assessment *(L600)*
+  - LV remodeling *(L650)*
+- Integrated multi-modality approach *(L700)*
+- Future directions *(L750)*
+- References *(L800)*
 
 ---
 
