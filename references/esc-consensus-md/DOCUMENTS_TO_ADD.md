@@ -6,7 +6,7 @@
 | Documento | Anno | Fonte | Status |
 |-----------|------|-------|--------|
 | Obesity and Cardiovascular Disease | 2024 | EHJ | [x] AGGIUNTO |
-| AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS) | 2024 | Europace | [ ] (paywall) |
+| AF Catheter/Surgical Ablation (EHRA/HRS/APHRS/LAHRS) | 2024 | Europace | [x] AGGIUNTO |
 | Conduction System Pacing | 2025 | Europace | [x] AGGIUNTO |
 | Vaccination as CV Prevention | 2025 | EHJ | [x] AGGIUNTO |
 | Non-amyloid TTR Cardiac Amyloidosis (HFA) | 2025 | EHJ | [ ] |
