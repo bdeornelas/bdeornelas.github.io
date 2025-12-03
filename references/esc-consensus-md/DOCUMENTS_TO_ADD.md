@@ -25,7 +25,7 @@
 | Documento | Anno | Fonte | Status |
 |-----------|------|-------|--------|
 | Multi-modality Imaging Aortic Stenosis (EACVI) | 2023 | EHJ-CI | [ ] |
-| Imaging in CIEDs Part 1 (EACVI/EHRA) | 2023 | EHJ-CI | [ ] |
+| Imaging in CIEDs Part 1 (EACVI/EHRA) | 2023 | EHJ-CI | [x] AGGIUNTO |
 | Hybrid CV Imaging (EANM/EACVI) | 2024 | EJNMMI | [ ] |
 | Multi-modality Imaging Valvular Regurgitation | 2022 | EHJ-CI | [ ] |
 | Multi-modality Imaging HFpEF | 2022 | EHJ-CI | [ ] |
