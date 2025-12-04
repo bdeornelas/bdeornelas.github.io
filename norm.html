@@ -1695,6 +1695,21 @@ Trigliceridi: `;
                     }
                 });
             });
+
+            // Aggiorna testo anamnesi prossima in base al sesso
+            const anamnesiProssimaTextarea = document.getElementById("anamnesi-prossima");
+            const anamnesiProssimaMale = "Paziente giunto alla nostra osservazione per controllo cardiologico di routine. Non riferisce dolore toracico, dispnea, cardiopalmo, lipotimie né sincopi.";
+            const anamnesiProssimaFemale = "Paziente giunta alla nostra osservazione per controllo cardiologico di routine. Non riferisce dolore toracico, dispnea, cardiopalmo, lipotimie né sincopi.";
+
+            document.querySelectorAll('input[name="sex"]').forEach(radio => {
+                radio.addEventListener("change", (e) => {
+                    const currentText = anamnesiProssimaTextarea.value.trim();
+                    // Aggiorna solo se il testo è uno dei due default
+                    if (currentText === anamnesiProssimaMale || currentText === anamnesiProssimaFemale) {
+                        anamnesiProssimaTextarea.value = (e.target.value === "male") ? anamnesiProssimaMale : anamnesiProssimaFemale;
+                    }
+                });
+            });
             
             updateSbpFromPao();
             calculateAndDisplayLdl();
