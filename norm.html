@@ -1064,24 +1064,28 @@ Insufficienza tricuspidalica lieve con PAPs nei limiti.`;
         function aggiornaEmatochimici() {
             const ematoNeiLimiti = document.getElementById("emato-nei-limiti").checked;
             const ematoColesterolo = document.getElementById("emato-colesterolo").checked;
+            const ematoDataOdierna = document.getElementById("emato-data-odierna").checked;
             const ematoText = document.getElementById("emato-text");
             if (ematoNeiLimiti) {
                 ematoText.value = "Nei limiti di norma";
                 ematoText.readOnly = true;
+            } else if (ematoDataOdierna) {
+                ematoText.value = "Eseguiti in data odierna.";
+                ematoText.readOnly = true;
             } else if (ematoColesterolo) {
                 ematoText.readOnly = false;
-                if (!ematoText.value || ematoText.value === "Nei limiti di norma") {
-                    ematoText.value = `Col tot: 
-Col HDL: 
-Col LDL: 
+                if (!ematoText.value || ematoText.value === "Nei limiti di norma" || ematoText.value === "Eseguiti in data odierna.") {
+                    ematoText.value = `Col tot:
+Col HDL:
+Col LDL:
 Trigliceridi: `;
                 }
-            } else { 
-                const defaultCholesterolText = `Col tot: 
-Col HDL: 
-Col LDL: 
+            } else {
+                const defaultCholesterolText = `Col tot:
+Col HDL:
+Col LDL:
 Trigliceridi: `;
-                if (ematoText.value.trim() === defaultCholesterolText.trim() || ematoText.value === "Nei limiti di norma") {
+                if (ematoText.value.trim() === defaultCholesterolText.trim() || ematoText.value === "Nei limiti di norma" || ematoText.value === "Eseguiti in data odierna.") {
                     ematoText.value = "";
                 }
                 ematoText.readOnly = false;
@@ -1847,6 +1851,7 @@ Trigliceridi: `;
             <div class="radio-inline-group">
                 <div class="radio-item"><input type="radio" id="emato-nei-limiti" name="emato-tipo"><label for="emato-nei-limiti" class="label-inline">Nei limiti</label></div>
                 <div class="radio-item"><input type="radio" id="emato-colesterolo" name="emato-tipo"><label for="emato-colesterolo" class="label-inline">Lipidi</label></div>
+                <div class="radio-item"><input type="radio" id="emato-data-odierna" name="emato-tipo"><label for="emato-data-odierna" class="label-inline">Data odierna</label></div>
                 <div class="radio-item"><input type="radio" id="emato-non-disponibili" name="emato-tipo" checked=""><label for="emato-non-disponibili" class="label-inline">Manuale</label></div>
             </div>
             <textarea id="emato-text" name="emato-text" rows="2" placeholder="I valori lipidici verranno popolati automaticamente..."></textarea>
