@@ -820,7 +820,8 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             const anamnesiCvRaw = document.getElementById("anamnesi-cv").value;
             const anamnesiCvText = formatText(anamnesiCvRaw || "Non riferisce precedenti eventi cardiovascolari", indent);
             const anamnesiProssimaRaw = document.getElementById("anamnesi-prossima").value.trim();
-            const anamnesiProssimaText = anamnesiProssimaRaw ? formatText(anamnesiProssimaRaw, indent) : "";
+            const anamnesiProssimaDefault = "Paziente giunto alla nostra osservazione per controllo cardiologico di routine. Non riferisce dolore toracico, dispnea, cardiopalmo, lipotimie né sincopi.";
+            const anamnesiProssimaText = formatText(anamnesiProssimaRaw || anamnesiProssimaDefault, indent);
             let terapia = [];
             for (let i = 1; i <= 7; i++) {
                 const farmaco = document.getElementById(`farmaco${i}`).value.trim();
@@ -829,8 +830,6 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             }
             const terapiaRaw = terapia.length > 0 ? terapia.join("; ") : "Nessuna";
             const terapiaText = formatText(terapiaRaw, indent);
-            const sintomatologiaRaw = document.getElementById("sintomatologia").value;
-            const sintomatologiaText = formatText(sintomatologiaRaw || "Non riferite palpitazioni, dolore toracico anginoso, dispnea, sincope.", indent);
             const esamePolmonareRaw = document.getElementById("esame-polmonare").value;
             const esamePolmonareDefault = "Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi";
             const esamePolmonareText = formatText(`TORACE: ${esamePolmonareRaw || esamePolmonareDefault}`, indent);
@@ -914,7 +913,6 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 formatSection("ANAMNESI CARDIOVASCOLARE", anamnesiCvText, indent, sectionSeparator),
                 formatSection("ANAMNESI PATOLOGICA PROSSIMA", anamnesiProssimaText, indent, sectionSeparator),
                 formatSection("TERAPIA IN ATTO", terapiaText, indent, sectionSeparator),
-                formatSection("SINTOMATOLOGIA RIFERITA", sintomatologiaText, indent, sectionSeparator),
                 formatSection("ESAME OBIETTIVO", eoText, indent, sectionSeparator),
                 formatSection("ECG", ecgText, indent, sectionSeparator),
                 ecoSectionOutput,
@@ -1780,7 +1778,7 @@ Trigliceridi: `;
                 </div>
                 <div>
                     <label for="anamnesi-prossima">Patologica Prossima</label>
-                    <textarea id="anamnesi-prossima" name="anamnesi-prossima" rows="1" placeholder="Anamnesi patologica prossima (opzionale)"></textarea>
+                    <textarea id="anamnesi-prossima" name="anamnesi-prossima" rows="2" placeholder="Anamnesi patologica prossima"></textarea>
                 </div>
             </div>
         </div>
@@ -1804,11 +1802,8 @@ Trigliceridi: `;
         </div>
 
         <div class="section">
-            <h2>🩺 Sintomatologia & Esame Obiettivo</h2>
-            <label for="sintomatologia" style="font-size: 0.85em;">Sintomatologia:</label>
-            <textarea id="sintomatologia" name="sintomatologia" rows="1" placeholder="Descrivere la sintomatologia riferita">Non riferite palpitazioni, dolore toracico anginoso, dispnea, sincope.</textarea>
-
-            <div class="esame-obiettivo-grid" style="margin-top: 6px;">
+            <h2>🩺 Esame Obiettivo</h2>
+            <div class="esame-obiettivo-grid">
                 <div>
                     <label for="esame-polmonare">Polmonare</label>
                     <textarea id="esame-polmonare" name="esame-polmonare" rows="1" placeholder="Esame polmonare">Murmure vescicolare normotrasmesso, non rumori patologici aggiunti, non stasi</textarea>
