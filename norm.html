@@ -909,8 +909,7 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 contattiSectionOutput
             ].filter(section => section && section.trim()).join("");
 
-            // Opzioni compatibilità stampa (rimossi controlli compat-ascii e compat-crlf)
-            output = sanitizeForPrint(output, 'latin1');
+            // Output UTF-8 nativo (nessuna sanitizzazione)
             output = normalizeLineEndings(output, false);
 
             const outputTextarea = document.getElementById("output-visita");
