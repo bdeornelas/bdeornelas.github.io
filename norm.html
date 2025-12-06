@@ -783,11 +783,10 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
             else score2ErrorDiv.textContent = "Calcolo SCORE2 non applicabile (età fuori range 40-69 anni).";
             let score2OutputText = "";
             if (score2Result !== null && !isNaN(score2Result)) {
-                const regionTextMap = { 1: "Basso", 2: "Moderato", 3: "Alto", 4: "Molto Alto" };
-                const regionRadio = document.querySelector('input[name="risk_region"]:checked');
-                const regionVal = regionRadio ? regionRadio.value : '2';
-                const regionName = regionTextMap[regionVal] || "Non specificata";
-                score2OutputText = `Rischio CVD a 10 anni (SCORE2 - Regione ${regionName}): ${score2Result}%`;
+                const riskCategory = getRiskCategoryFromScore2(score2Result, ageNum);
+                const categoryDisplayMap = { 'basso': 'Basso', 'moderato': 'Moderato', 'alto': 'Alto', 'molto-alto': 'Molto Alto' };
+                const categoryDisplay = categoryDisplayMap[riskCategory] || 'Non calcolabile';
+                score2OutputText = `Rischio CVD a 10 anni (SCORE2): ${categoryDisplay}`;
             }
             const fattoriRischio = [];
             if (document.getElementById("fumo").checked) fattoriRischio.push("Fumo Attuale");
