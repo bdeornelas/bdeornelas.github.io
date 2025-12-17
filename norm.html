@@ -1256,17 +1256,22 @@ Trigliceridi: `;
             const testo = generateHtTextByScenario(esami, ldl, diabete, rischio);
             htGeneratedText = testo;
 
-            // Build path
-            const esamiLabel = esami === 'disponibili' ? 'Esami disponibili' : (esami === 'da-richiedere' ? 'Esami da richiedere' : 'Esami in attesa di esito');
-            const ldlLabel = ldl ? (ldl === 'normale' ? 'LDL < 116' : ldl === 'elevato' ? 'LDL 116-190' : 'LDL > 190') : '';
-            const diabeteLabel = diabete === 'si' ? 'Diabete' : 'No diabete';
+            // Build path - special case for confirmed hypertension
+            let pathParts;
+            if (esami === 'confermata-hmod') {
+                pathParts = ['Ipertensione confermata (richiesta esami HMOD)'];
+            } else {
+                const esamiLabel = esami === 'disponibili' ? 'Esami disponibili' : (esami === 'da-richiedere' ? 'Esami da richiedere' : 'Esami in attesa di esito');
+                const ldlLabel = ldl ? (ldl === 'normale' ? 'LDL < 116' : ldl === 'elevato' ? 'LDL 116-190' : 'LDL > 190') : '';
+                const diabeteLabel = diabete === 'si' ? 'Diabete' : 'No diabete';
 
-            const pathParts = ['Primo riscontro HT', esamiLabel];
-            if (ldlLabel) pathParts.push(ldlLabel);
-            pathParts.push(diabeteLabel);
-            if (rischio) {
-                const rischioLabel = 'Rischio ' + rischio.charAt(0).toUpperCase() + rischio.slice(1).replace('-', ' ');
-                pathParts.push(rischioLabel);
+                pathParts = ['Primo riscontro HT', esamiLabel];
+                if (ldlLabel) pathParts.push(ldlLabel);
+                pathParts.push(diabeteLabel);
+                if (rischio) {
+                    const rischioLabel = 'Rischio ' + rischio.charAt(0).toUpperCase() + rischio.slice(1).replace('-', ' ');
+                    pathParts.push(rischioLabel);
+                }
             }
 
             // Show badge
@@ -1333,7 +1338,7 @@ Trigliceridi: `;
 
             } else {
                 // LDL 116-190 mg/dL
-                testo = `Primo riscontro di colesterolo LDL (colesterolo "cattivo") elevato.`;
+                testo = `Colesterolo LDL superiore ai valori desiderabili.`;
 
                 if (rischio === 'basso') {
                     testo += `\n\nIn considerazione del basso rischio cardiovascolare, si consiglia l'adozione di modifiche dello stile di vita, con particolare attenzione all'alimentazione. L'obiettivo è raggiungere un valore di LDL inferiore a 116 mg/dL.`;
@@ -1386,7 +1391,7 @@ Trigliceridi: `;
             let ldlLevel;
             if (ldlValue < 116) {
                 // LDL normale - nessuna raccomandazione specifica necessaria
-                ldlGeneratedText = `Il colesterolo LDL (colesterolo "cattivo") risulta nei limiti della norma (${ldlValue.toFixed(0)} mg/dL). Si consiglia di mantenere uno stile di vita sano e controlli periodici del profilo lipidico.`;
+                ldlGeneratedText = `Colesterolo LDL nei limiti della norma (${ldlValue.toFixed(0)} mg/dL). Si raccomanda di adottare una dieta di tipo mediterraneo, ricca in fibre, cereali integrali, frutta, verdura, legumi e frutta secca, limitando il consumo di carne rossa e alimenti processati. Controllo periodico del profilo lipidico.`;
                 selectedScenarioValue = 'ldl-normale';
                 document.getElementById('scenario-select').value = 'ldl-normale';
 
@@ -1466,6 +1471,12 @@ Trigliceridi: `;
             if (esami === 'in-attesa') {
                 testo = baseHt;
                 testo += `\n\nSi resta in attesa dell'esito degli esami ematochimici già eseguiti.`;
+                return testo;
+            }
+
+            // Text for confirmed hypertension - request HMOD assessment
+            if (esami === 'confermata-hmod') {
+                testo = `Diagnosi confermata di ipertensione arteriosa.\n\nSi richiedono i seguenti esami per la valutazione del danno d'organo e del rischio cardiovascolare:\n- Glicemia a digiuno, emoglobina glicata (HbA1c)\n- Profilo lipidico completo (colesterolo totale, HDL, LDL, trigliceridi)\n- Creatinina con calcolo del filtrato glomerulare (eGFR)\n- Sodio, potassio\n- Esame urine con rapporto albumina/creatinina (uACR)\n- ECG 12 derivazioni\n- Ecocardiogramma transtoracico\n\nRivalutazione cardiologica con esito degli accertamenti per stratificazione del rischio cardiovascolare e impostazione terapeutica.`;
                 return testo;
             }
 
@@ -1574,16 +1585,14 @@ Trigliceridi: `;
 
             if (esamiDisponibili === 'holter-eco') {
                 // Both Holter and Echo available
-                testo = `Riscontro di extrasistole ventricolari in assenza di cardiopatia strutturale, a prognosi benigna.`;
-                testo += `\n\nSi consiglia:\n`;
-                testo += `- ECG da sforzo\n`;
-                testo += lifestyleAdvice + `\n`;
-                testo += `- In caso di carico extrasistolico >10%: controllo ecocardiografico a 6-12 mesi\n`;
-                testo += `- In caso di sintomi significativi: rivalutazione cardiologica`;
+                testo = `Riscontro di extrasistolia ventricolare in assenza di cardiopatia strutturale all'ecocardiogramma.`;
+                testo += `\n\nPer completamento diagnostico si consiglia ECG da sforzo.`;
+                testo += `\n\nSi raccomanda di limitare il consumo di caffeina, moderare il consumo di alcol, regolare il ritmo sonno-veglia ed evitare sostanze stimolanti.`;
+                testo += `\n\nRivalutazione cardiologica con esito del test da sforzo. In caso di carico extrasistolico superiore al 10%, indicato follow-up periodico della funzione ventricolare sinistra.`;
 
             } else if (esamiDisponibili === 'solo-holter') {
                 // Only Holter available
-                testo = `Riscontro di extrasistole ventricolari.`;
+                testo = `Riscontro di extrasistolia ventricolare.`;
                 testo += `\n\nSi consiglia:\n`;
                 testo += `- Ecocardiogramma transtoracico\n`;
                 testo += `- ECG da sforzo\n`;
@@ -1592,7 +1601,7 @@ Trigliceridi: `;
 
             } else {
                 // No tests available
-                testo = `Riscontro di extrasistole ventricolari.`;
+                testo = `Riscontro di extrasistolia ventricolare.`;
                 testo += `\n\nSi consiglia:\n`;
                 testo += `- Ecocardiogramma transtoracico\n`;
                 testo += `- ECG-Holter 24 ore\n`;
@@ -1964,6 +1973,7 @@ Trigliceridi: `;
                                     <li><a href="#" onclick="selectHtScenario('in-attesa','','si',''); return false;">Diabete</a></li>
                                 </ul>
                             </li>
+                            <li><a href="#" onclick="selectHtScenario('confermata-hmod','','',''); return false;">Ipertensione confermata (richiesta esami HMOD)</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
