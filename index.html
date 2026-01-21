@@ -1,151 +1,760 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Benjamin De Ornelas | Cardiologo Milano</title>
+  <meta name="description" content="Cardiologo a Milano">
 
-<main>
-      <!-- HERO -->
-      <section id="home" class="text-center py-24 lg:py-40">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-4" data-aos="fade-up">
-          <span class="gradient-text">Salute del Cuore, Cura e Prevenzione.</span>
-        </h1>
-        <p class="max-w-3xl mx-auto text-lg md:text-xl text-slate-300 mb-8" data-aos="fade-up" data-aos-delay="200">
-          Medico Chirurgo Specialista in Malattie dell'Apparato Cardiovascolare. Benvenuti nel mio sito informativo, uno spazio dedicato alla salute del cuore.
-        </p>
-      </section>
+  <!-- Google Fonts: Sora + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-      <!-- ARTICOLI -->
-      <section id="articoli" class="py-20">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-6 tracking-tighter gradient-text" data-aos="fade-up">Articoli e Approfondimenti</h2>
-          <p class="text-lg text-slate-300 mb-8" data-aos="fade-up" data-aos-delay="100">
-            Guide pratiche e contenuti divulgativi sulla prevenzione, diagnosi e cura delle patologie cardiovascolari.
-          </p>
-          <div class="glass-card rounded-xl p-8 mb-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="flex items-center justify-center gap-4 mb-6">
-              <i data-lucide="book-open" class="w-8 h-8 text-sky-400"></i>
-              <i data-lucide="heart-pulse" class="w-8 h-8 text-violet-400"></i>
-              <i data-lucide="stethoscope" class="w-8 h-8 text-pink-400"></i>
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="assets/css/tailwind.min.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    /* ========================================
+       VARIANT 5: MEDITERRANEAN
+       Fresh, marine, relaxing design
+       ======================================== */
+
+    :root {
+      /* Mediterranean Color Palette */
+      --med-cyan: #06b6d4;
+      --med-teal: #14b8a6;
+      --med-blue: #0284c7;
+      --bg-sky: #f0f9ff;
+      --bg-sky-light: #e0f2fe;
+      --text-primary: #0c4a6e;
+      --text-secondary: #075985;
+      --border-teal: rgba(20, 184, 166, 0.3);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: linear-gradient(135deg, var(--bg-sky) 0%, var(--bg-sky-light) 100%);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Premium Typography */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Sora', sans-serif;
+      font-weight: 700;
+    }
+
+    /* Medical ECG Background - More Subtle */
+    .ecg-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.04;
+      pointer-events: none;
+    }
+
+    .ecg-background-svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ECG Animation */
+    @keyframes ecg-flow {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(100%); }
+    }
+
+    @keyframes ecg-flow-seamless {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(0%); }
+    }
+
+    .ecg-primary {
+      animation: ecg-flow 5s linear infinite;
+    }
+
+    .ecg-secondary {
+      animation: ecg-flow-seamless 5s linear infinite;
+    }
+
+    /* Gradient Text - Mediterranean Colors */
+    .gradient-text {
+      background: linear-gradient(120deg, var(--med-cyan), var(--med-teal), var(--med-blue));
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gradient-shift 6s ease infinite;
+    }
+
+    @keyframes gradient-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    /* Glass Card - Enhanced */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid var(--border-teal);
+      border-radius: 20px;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 20px rgba(20, 184, 166, 0.1);
+    }
+
+    .glass-card:hover {
+      border-color: var(--med-teal);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(20, 184, 166, 0.2);
+    }
+
+    /* Premium Card Variants */
+    .card-emerald {
+      border: 2px solid rgba(6, 182, 212, 0.3);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .card-emerald:hover {
+      border-color: var(--med-cyan);
+      box-shadow: 0 10px 40px rgba(6, 182, 212, 0.2);
+    }
+
+    .card-blue {
+      border: 2px solid rgba(20, 184, 166, 0.3);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .card-blue:hover {
+      border-color: var(--med-teal);
+      box-shadow: 0 10px 40px rgba(20, 184, 166, 0.2);
+    }
+
+    /* Hero Glow Effects */
+    .hero-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(90px);
+      opacity: 0.2;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -30px) scale(1.1); }
+      66% { transform: translate(-30px, 30px) scale(0.9); }
+    }
+
+    .glow-emerald {
+      background: radial-gradient(circle, rgba(6, 182, 212, 0.4) 0%, transparent 70%);
+    }
+
+    .glow-blue {
+      background: radial-gradient(circle, rgba(20, 184, 166, 0.4) 0%, transparent 70%);
+    }
+
+    .glow-amber {
+      background: radial-gradient(circle, rgba(2, 132, 199, 0.3) 0%, transparent 70%);
+    }
+
+    /* Button Styles */
+    .btn-primary {
+      background: linear-gradient(135deg, var(--med-teal), #0d9488);
+      color: white;
+      font-weight: 600;
+      padding: 0.875rem 2rem;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(20, 184, 166, 0.4);
+    }
+
+    .btn-secondary {
+      background: linear-gradient(135deg, var(--med-cyan), #0891b2);
+      color: white;
+      font-weight: 600;
+      padding: 0.875rem 2rem;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+    }
+
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(6, 182, 212, 0.4);
+    }
+
+    /* Doctor Photo Frame */
+    .doctor-frame {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .doctor-frame::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      background: linear-gradient(135deg, var(--med-cyan), var(--med-teal), var(--med-blue));
+      border-radius: 24px;
+      z-index: -1;
+      animation: rotate-gradient 4s linear infinite;
+    }
+
+    @keyframes rotate-gradient {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    .doctor-frame img {
+      border-radius: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Icon Badges */
+    .icon-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      background: rgba(20, 184, 166, 0.12);
+      border: 2px solid var(--border-teal);
+      transition: all 0.3s ease;
+    }
+
+    .icon-badge:hover {
+      transform: scale(1.1) rotate(5deg);
+      background: rgba(20, 184, 166, 0.2);
+      border-color: var(--med-teal);
+    }
+
+    .icon-badge-blue {
+      background: rgba(6, 182, 212, 0.12);
+      border-color: rgba(6, 182, 212, 0.3);
+    }
+
+    .icon-badge-blue:hover {
+      background: rgba(6, 182, 212, 0.2);
+      border-color: var(--med-cyan);
+    }
+
+    /* Check Icons */
+    .check-item {
+      display: flex;
+      align-items: start;
+      gap: 0.75rem;
+    }
+
+    .check-icon {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(20, 184, 166, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+
+    /* Smooth Reveal Animation */
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .reveal {
+      animation: reveal 0.8s ease-out forwards;
+    }
+
+    /* Mobile Menu */
+    .mobile-menu-hidden {
+      display: none;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .hero-glow {
+        filter: blur(70px);
+      }
+    }
+  </style>
+</head>
+<body style="color: var(--text-primary);">
+
+  <!-- Medical ECG Background -->
+  <div class="ecg-background" aria-hidden="true">
+    <svg class="ecg-background-svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3" />
+          <stop offset="50%" stop-color="#14b8a6" stop-opacity="1" />
+          <stop offset="100%" stop-color="#0284c7" stop-opacity="0.3" />
+        </linearGradient>
+
+        <pattern id="ecgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+          <rect width="20" height="20" fill="none" stroke="rgba(20, 184, 166, 0.1)" stroke-width="1"/>
+        </pattern>
+
+        <filter id="premiumGlow">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur1"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur2"/>
+          <feMerge>
+            <feMergeNode in="blur2"/>
+            <feMergeNode in="blur1"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+
+      <rect width="100%" height="100%" fill="url(#ecgGrid)"/>
+
+      <g class="ecg-primary">
+        <path d="M 0,50 L 80,50 Q 95,50 100,44 Q 105,44 110,50 L 145,50 L 150,54 L 155,44 L 160,5 L 165,58 L 170,50 L 205,50 Q 220,40 240,37 Q 260,40 275,50 L 800,50"
+              fill="none"
+              stroke="url(#ecgGradient)"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              filter="url(#premiumGlow)"/>
+      </g>
+
+      <g class="ecg-secondary">
+        <path d="M 0,50 L 80,50 Q 95,50 100,44 Q 105,44 110,50 L 145,50 L 150,54 L 155,44 L 160,5 L 165,58 L 170,50 L 205,50 Q 220,40 240,37 Q 260,40 275,50 L 800,50"
+              fill="none"
+              stroke="url(#ecgGradient)"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              filter="url(#premiumGlow)"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Hero Glow Effects -->
+  <div class="hero-glow glow-emerald" style="width: 600px; height: 600px; top: 10%; left: 10%;"></div>
+  <div class="hero-glow glow-blue" style="width: 500px; height: 500px; top: 30%; right: 15%; animation-delay: 2s;"></div>
+  <div class="hero-glow glow-amber" style="width: 400px; height: 400px; bottom: 10%; left: 50%; animation-delay: 4s;"></div>
+
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 py-4 transition-all duration-300">
+      <div class="glass-card px-6 py-3">
+        <nav class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold flex items-center gap-2" style="color: var(--med-teal);">
+            <i data-lucide="heart-pulse" style="color: var(--med-teal); width: 28px; height: 28px;"></i>
+            <span class="gradient-text">Dr. Benjamin De Ornelas</span>
+          </a>
+          <ul class="hidden md:flex items-center space-x-1">
+            <li><a href="#home" class="px-4 py-2 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Home</a></li>
+            <li><a href="/articles/" class="px-4 py-2 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Articoli</a></li>
+            <li><a href="/about/" class="px-4 py-2 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+            <li><a href="/contact/" class="ml-4 btn-primary inline-block">Contatti</a></li>
+          </ul>
+          <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg hover:bg-teal-50 transition">
+            <i data-lucide="menu" class="w-6 h-6" style="color: var(--med-teal);"></i>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu-hidden md:hidden mt-2 glass-card p-4">
+        <ul class="flex flex-col space-y-2">
+          <li><a href="#home" class="block py-3 px-4 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Home</a></li>
+          <li><a href="/articles/" class="block py-3 px-4 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Articoli</a></li>
+          <li><a href="/about/" class="block py-3 px-4 rounded-lg hover:bg-teal-50 transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+          <li><a href="/contact/" class="block py-3 px-4 rounded-lg bg-teal-500/20 hover:bg-teal-500/30 transition" style="color: var(--med-teal);">Contatti</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION - Asymmetric Layout -->
+      <section id="home" class="py-20 lg:py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+          <!-- Left: Text Content -->
+          <div class="text-center lg:text-left" data-aos="fade-right">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border mb-6" style="background: rgba(20, 184, 166, 0.1); border-color: var(--border-teal);">
+              <span class="w-2 h-2 rounded-full animate-pulse" style="background: var(--med-teal);"></span>
+              <span class="text-sm font-medium" style="color: var(--med-teal);">Cardiologo a Milano</span>
             </div>
-            <p class="text-slate-300 mb-6">
-              Dalla prevenzione cardiovascolare alla gestione dell'ipertensione, fino all'importanza degli esami diagnostici: scopra tutti i contenuti dedicati alla salute del cuore.
+
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter mb-6 leading-tight">
+              <span class="gradient-text">Salute del Cuore, Cura e Prevenzione.</span>
+            </h1>
+
+            <p class="text-lg md:text-xl mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0" style="color: var(--text-secondary);">
+              Medico Chirurgo Specialista in Malattie dell'Apparato Cardiovascolare. Benvenuti nel mio sito informativo, uno spazio dedicato alla salute del cuore.
             </p>
-            <a href="/articles/" class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-600 text-white font-medium py-3 px-6 rounded-lg transition">
-              Vai agli articoli
-              <i data-lucide="arrow-right" class="w-4 h-4"></i>
-            </a>
-          </div>
-        </div>
-      </section>
 
-      <!-- CHI SONO -->
-      <section id="chi-sono" class="glass-card rounded-xl my-20 py-16" data-aos="zoom-in">
-        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12 px-8 md:px-16">
-          <div class="relative w-40 h-40 md:w-64 md:h-64 flex-shrink-0">
-            <div class="absolute -inset-3 md:-inset-4 rounded-full bg-gradient-to-tr from-sky-500 to-violet-500 blur-lg opacity-70"></div>
-            <img
-              src="/assets/img/logo-bdo.png?v=2"
-              alt="Dr. Benjamin De Ornelas, cardiologo a Milano"
-              class="relative w-full h-full rounded-full object-cover object-[center_30%] border-4 border-sky-500 shadow-xl"
-            />
-          </div>
-          <div class="text-center md:text-left">
-            <h2 class="text-3xl font-bold mb-2">Dr. Benjamin De Ornelas</h2>
-            <p class="text-slate-300 leading-relaxed mb-4">Medico Chirurgo, specializzato in Malattie dell'Apparato Cardiovascolare. La mia missione è offrire cure personalizzate e prevenzione mirata.</p>
-            <a href="/about/" class="bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Leggi di più</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- I MIEI SERVIZI -->
-      <section id="servizi" class="py-20">
-        <h2 class="text-4xl font-bold text-center mb-4 tracking-tighter" data-aos="fade-up">I Miei Servizi</h2>
-        <p class="max-w-2xl mx-auto text-center text-slate-300 mb-12" data-aos="fade-up" data-aos-delay="100">
-          Scegli la modalità di consulto più adatta alle tue esigenze
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <!-- Card Santagostino -->
-          <div class="glass-card rounded-xl overflow-hidden group transition-all duration-300 hover:border-emerald-400/50 hover:shadow-2xl hover:shadow-emerald-500/10" data-aos="fade-up">
-            <div class="p-8">
-              <div class="flex items-center gap-3 mb-4">
-                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 border border-emerald-400/30">
-                  <i data-lucide="stethoscope" class="w-6 h-6 text-emerald-400"></i>
-                </div>
-                <h3 class="text-2xl font-bold text-white">Visite a Milano</h3>
-              </div>
-
-              <p class="text-slate-300 mb-6 leading-relaxed">
-                Ricevo presso il <strong class="text-white">Centro Medico Santagostino</strong> in 8 sedi a Milano e hinterland.
-              </p>
-
-              <div class="space-y-2 mb-6 text-sm">
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Visite cardiologiche complete</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Ecocardiogramma color Doppler (TTE) ed ecocolor Doppler TSA</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0"></i>
-                  <span>ECG a 12 derivazioni e test ergometrico</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Videoconsulti</span>
-                </div>
-              </div>
-
-              <a href="https://www.santagostino.it/it/prenota" target="_blank" rel="noopener"
-                 class="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-6 rounded-lg transition w-full justify-center group-hover:scale-105 duration-300">
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="#servizi" class="btn-primary inline-flex items-center justify-center gap-2">
                 <i data-lucide="calendar-check" class="w-5 h-5"></i>
                 Prenota Visita
               </a>
+              <a href="#articoli" class="btn-secondary inline-flex items-center justify-center gap-2">
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+                Esplora Articoli
+              </a>
             </div>
           </div>
 
-          <!-- Card CuoreInPace -->
-          <div class="glass-card rounded-xl overflow-hidden group transition-all duration-300 hover:border-violet-400/50 hover:shadow-2xl hover:shadow-violet-500/10" data-aos="fade-up" data-aos-delay="100">
-            <div class="p-8">
-              <div class="flex items-center gap-3 mb-4">
-                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-violet-500/20 border border-violet-400/30">
-                  <i data-lucide="smartphone" class="w-6 h-6 text-violet-400"></i>
-                </div>
-                <h3 class="text-2xl font-bold text-white">Consulti Online</h3>
+          <!-- Right: Doctor Photo -->
+          <div class="flex justify-center lg:justify-end" data-aos="fade-left" data-aos-delay="200">
+            <div class="doctor-frame w-[252px] h-[448px] lg:w-[324px] lg:h-[576px]">
+              <img
+                src="assets/img/benjamin-de-ornelas-portrait.jpg"
+                alt="Dr. Benjamin De Ornelas, cardiologo a Milano"
+                class="w-full h-full object-cover object-top"
+                style="transform: scale(1.3);"
+              />
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ARTICOLI SECTION -->
+      <section id="articoli" class="py-20">
+        <div class="max-w-4xl mx-auto">
+
+          <div class="text-center mb-12" data-aos="fade-up">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tighter gradient-text">
+              Articoli e Approfondimenti
+            </h2>
+            <p class="text-lg max-w-2xl mx-auto" style="color: var(--text-secondary);">
+              Guide pratiche e contenuti divulgativi sulla prevenzione, diagnosi e cura delle patologie cardiovascolari.
+            </p>
+          </div>
+
+          <div class="glass-card p-8 md:p-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="flex items-center justify-center gap-6 mb-8">
+              <div class="icon-badge">
+                <i data-lucide="book-open" class="w-7 h-7" style="color: var(--med-teal);"></i>
               </div>
-
-              <p class="text-slate-300 mb-6 leading-relaxed">
-                <strong class="text-white">CuoreInPace</strong>: servizio di telemedicina per refertazione ECG da smartwatch.
-              </p>
-
-              <div class="space-y-2 mb-6 text-sm">
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-violet-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Analisi ECG da Apple Watch, Samsung Galaxy Watch</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-violet-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Referto ECG in breve tempo</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-violet-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Nessun appuntamento necessario</span>
-                </div>
-                <div class="flex items-start gap-2 text-slate-300">
-                  <i data-lucide="check" class="w-4 h-4 text-violet-400 mt-0.5 flex-shrink-0"></i>
-                  <span>Tariffa fissa €14.90</span>
-                </div>
+              <div class="icon-badge icon-badge-blue">
+                <i data-lucide="heart-pulse" class="w-7 h-7" style="color: var(--med-cyan);"></i>
               </div>
+              <div class="icon-badge">
+                <i data-lucide="stethoscope" class="w-7 h-7" style="color: var(--med-blue);"></i>
+              </div>
+            </div>
 
-              <a href="https://cuoreinpace.it" target="_blank" rel="noopener"
-                 class="inline-flex items-center gap-2 bg-violet-500 hover:bg-violet-600 text-white font-semibold py-3 px-6 rounded-lg transition w-full justify-center group-hover:scale-105 duration-300">
-                <i data-lucide="video" class="w-5 h-5"></i>
-                Scopri il Servizio
+            <p class="text-center mb-8 text-lg leading-relaxed" style="color: var(--text-secondary);">
+              Dalla prevenzione cardiovascolare alla gestione dell'ipertensione, fino all'importanza degli esami diagnostici: scopra tutti i contenuti dedicati alla salute del cuore.
+            </p>
+
+            <div class="text-center">
+              <a href="/articles/" class="btn-primary inline-flex items-center gap-2">
+                Vai agli articoli
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
               </a>
             </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CHI SONO SECTION -->
+      <section id="chi-sono" class="py-20">
+        <div class="glass-card p-8 md:p-12" data-aos="zoom-in">
+          <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+
+            <div class="relative flex-shrink-0">
+              <div class="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 shadow-2xl" style="border-color: var(--border-teal); box-shadow: 0 25px 50px rgba(20, 184, 166, 0.2);">
+                <img
+                  src="assets/img/benjamin-de-ornelas-portrait.jpg"
+                  alt="Dr. Benjamin De Ornelas"
+                  class="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
+
+            <div class="text-center md:text-left flex-1">
+              <h2 class="text-3xl md:text-4xl font-bold mb-3 gradient-text">
+                Dr. Benjamin De Ornelas
+              </h2>
+              <p class="text-lg leading-relaxed mb-6" style="color: var(--text-secondary);">
+                Medico Chirurgo, specializzato in Malattie dell'Apparato Cardiovascolare. La mia missione è offrire cure personalizzate e prevenzione mirata.
+              </p>
+              <a href="/about/" class="btn-secondary inline-flex items-center gap-2">
+                Leggi di più
+                <i data-lucide="user" class="w-5 h-5"></i>
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
 
-</main>
+      <!-- SERVIZI SECTION -->
+      <section id="servizi" class="py-20">
+        <div class="text-center mb-12" data-aos="fade-up">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tighter gradient-text">
+            I Miei Servizi
+          </h2>
+          <p class="text-lg max-w-2xl mx-auto" style="color: var(--text-secondary);">
+            Scegli la modalità di consulto più adatta alle tue esigenze
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+          <!-- Card Santagostino -->
+          <div class="glass-card card-emerald p-8 group" data-aos="fade-up">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="icon-badge">
+                <i data-lucide="stethoscope" class="w-7 h-7" style="color: var(--med-teal);"></i>
+              </div>
+              <h3 class="text-2xl font-bold" style="color: var(--text-primary);">Visite a Milano</h3>
+            </div>
+
+            <p class="mb-6 leading-relaxed" style="color: var(--text-secondary);">
+              Ricevo presso il <strong style="color: var(--text-primary);">Centro Medico Santagostino</strong> in 8 sedi a Milano e hinterland.
+            </p>
+
+            <div class="space-y-3 mb-8">
+              <div class="check-item">
+                <div class="check-icon">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-teal);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Visite cardiologiche complete</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-teal);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Ecocardiogramma color Doppler (TTE) ed ecocolor Doppler TSA</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-teal);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">ECG a 12 derivazioni e test ergometrico</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-teal);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Videoconsulti</span>
+              </div>
+            </div>
+
+            <a href="https://www.santagostino.it/it/prenota" target="_blank" rel="noopener"
+               class="btn-primary w-full inline-flex items-center justify-center gap-2">
+              <i data-lucide="calendar-check" class="w-5 h-5"></i>
+              Prenota Visita
+            </a>
+          </div>
+
+          <!-- Card CuoreInPace -->
+          <div class="glass-card card-blue p-8 group" data-aos="fade-up" data-aos-delay="100">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="icon-badge icon-badge-blue">
+                <i data-lucide="smartphone" class="w-7 h-7" style="color: var(--med-cyan);"></i>
+              </div>
+              <h3 class="text-2xl font-bold" style="color: var(--text-primary);">Consulti Online</h3>
+            </div>
+
+            <p class="mb-6 leading-relaxed" style="color: var(--text-secondary);">
+              <strong style="color: var(--text-primary);">CuoreInPace</strong>: servizio di telemedicina per refertazione ECG da smartwatch.
+            </p>
+
+            <div class="space-y-3 mb-8">
+              <div class="check-item">
+                <div class="check-icon" style="background: rgba(6, 182, 212, 0.2);">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-cyan);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Analisi ECG da Apple Watch, Samsung Galaxy Watch</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon" style="background: rgba(6, 182, 212, 0.2);">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-cyan);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Referto ECG in breve tempo</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon" style="background: rgba(6, 182, 212, 0.2);">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-cyan);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Nessun appuntamento necessario</span>
+              </div>
+              <div class="check-item">
+                <div class="check-icon" style="background: rgba(6, 182, 212, 0.2);">
+                  <i data-lucide="check" class="w-3 h-3" style="color: var(--med-cyan);"></i>
+                </div>
+                <span style="color: var(--text-secondary);">Tariffa fissa €14.90</span>
+              </div>
+            </div>
+
+            <a href="https://cuoreinpace.it" target="_blank" rel="noopener"
+               class="btn-secondary w-full inline-flex items-center justify-center gap-2">
+              <i data-lucide="video" class="w-5 h-5"></i>
+              Scopri il Servizio
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t mt-20" style="border-color: var(--border-teal);">
+      <div class="py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+
+          <!-- Colonna 1: Info -->
+          <div>
+            <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">Dr. Benjamin De Ornelas</h3>
+            <p class="text-sm mb-4" style="color: var(--text-secondary);">
+              Medico-Chirurgo specializzato in Malattie dell'Apparato Cardiovascolare
+            </p>
+            <p class="text-sm" style="color: var(--text-secondary);">
+              <strong>Ordine dei Medici di Palermo</strong><br>
+              n. 16105
+            </p>
+            <p class="text-sm mt-2" style="color: var(--text-secondary);">
+              P.IVA: 06937100821
+            </p>
+          </div>
+
+          <!-- Colonna 2: Link Rapidi -->
+          <div>
+            <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">Link Rapidi</h3>
+            <ul class="space-y-2 text-sm">
+              <li><a href="/" class="hover:text-teal-600 transition" style="color: var(--text-secondary);">Home</a></li>
+              <li><a href="/about/" class="hover:text-teal-600 transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+              <li><a href="/articles/" class="hover:text-teal-600 transition" style="color: var(--text-secondary);">Articoli</a></li>
+              <li><a href="/contact/" class="hover:text-teal-600 transition" style="color: var(--text-secondary);">Contatti</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonna 3: Servizi e Social -->
+          <div>
+            <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">I Miei Servizi</h3>
+            <ul class="space-y-2 text-sm mb-6">
+              <li>
+                <a href="https://www.santagostino.it/it/prenota" target="_blank" rel="noopener"
+                   class="hover:text-teal-600 transition" style="color: var(--text-secondary);">
+                  Visite a Milano (Santagostino)
+                </a>
+              </li>
+              <li>
+                <a href="https://cuoreinpace.it" target="_blank" rel="noopener"
+                   class="hover:text-teal-600 transition" style="color: var(--text-secondary);">
+                  Consulti Online (CuoreInPace)
+                </a>
+              </li>
+            </ul>
+
+            <h3 class="font-bold mb-3 text-lg" style="color: var(--text-primary);">Seguimi</h3>
+            <div class="flex gap-3">
+              <a href="https://it.linkedin.com/in/dr-benjamin-de-ornelas" target="_blank" rel="noopener"
+                 class="hover:text-teal-600 transition" style="color: var(--text-secondary);">
+                <i data-lucide="linkedin" class="w-5 h-5"></i>
+              </a>
+              <a href="https://instagram.com/dr.deornelas_benjamin" target="_blank" rel="noopener"
+                 class="hover:text-pink-500 transition" style="color: var(--text-secondary);">
+                <i data-lucide="instagram" class="w-5 h-5"></i>
+              </a>
+              <a href="https://www.researchgate.net/profile/Benjamin-De-Ornelas" target="_blank" rel="noopener"
+                 class="hover:text-teal-600 transition" style="color: var(--text-secondary);">
+                <i data-lucide="microscope" class="w-5 h-5"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm" style="border-color: var(--border-teal); color: var(--text-secondary);">
+          <p>© 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.</p>
+          <div class="flex gap-6">
+            <a href="/privacy/" class="hover:text-teal-600 transition">Privacy Policy</a>
+            <a href="/cookie-policy/" class="hover:text-teal-600 transition">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out',
+      once: true,
+      offset: 100
+    });
+
+    // Mobile menu toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('mobile-menu-hidden');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+        mobileMenu.classList.add('mobile-menu-hidden');
+      }
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          // Close mobile menu if open
+          mobileMenu.classList.add('mobile-menu-hidden');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
