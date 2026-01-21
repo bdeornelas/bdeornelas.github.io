@@ -1,29 +1,29 @@
 <!-- Site Header -->
 <header class="sticky top-0 z-50 py-4 transition-all duration-300">
-  <div class="glass-card rounded-xl px-4 py-2">
+  <div class="glass-card px-6 py-3">
     <nav class="flex items-center justify-between">
-      <a href="{{ '/' | relative_url }}" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
-        <i data-lucide="heart-pulse" class="text-sky-400" aria-hidden="true"></i>
-        Dr. Benjamin De Ornelas
+      <a href="{{ '/' | relative_url }}" class="text-2xl font-bold flex items-center gap-2" style="color: var(--med-teal);">
+        <i data-lucide="heart-pulse" class="w-7 h-7" style="color: var(--med-teal);" aria-hidden="true"></i>
+        <span class="gradient-text">Dr. Benjamin De Ornelas</span>
       </a>
       <ul class="hidden md:flex items-center space-x-1">
-        <li><a href="{{ '/' | relative_url }}#home" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Home</a></li>
-        <li><a href="{{ '/articles/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Articoli</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" class="px-3 py-2 rounded-md hover:bg-slate-700/50">Chi Sono</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}" class="ml-4 bg-sky-500 hover:bg-sky-600 text-white font-medium py-2 px-4 rounded-lg">Contatti</a></li>
+        <li><a href="{{ '/' | relative_url }}#home" class="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition" style="color: var(--text-secondary);">Home</a></li>
+        <li><a href="{{ '/articles/' | relative_url }}" class="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition" style="color: var(--text-secondary);">Articoli</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" class="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" class="ml-4 btn-primary inline-block">Contatti</a></li>
       </ul>
-      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-slate-800" aria-expanded="false" aria-controls="mobile-menu" aria-label="Apri menu di navigazione">
-        <i data-lucide="menu" class="w-6 h-6" aria-hidden="true"></i>
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-lg hover:bg-slate-800/80 transition" aria-expanded="false" aria-controls="mobile-menu" aria-label="Apri menu di navigazione">
+        <i data-lucide="menu" class="w-6 h-6" style="color: var(--med-teal);" aria-hidden="true"></i>
       </button>
     </nav>
   </div>
   <!-- MENU MOBILE -->
-  <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card rounded-xl p-2">
+  <div id="mobile-menu" class="hidden md:hidden mt-2 glass-card p-4">
     <ul class="flex flex-col space-y-2">
-      <li><a href="{{ '/' | relative_url }}#home" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Home</a></li>
-      <li><a href="{{ '/articles/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Articoli</a></li>
-      <li><a href="{{ '/about/' | relative_url }}" class="block py-2 px-3 rounded-md hover:bg-slate-800/80">Chi Sono</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}" class="block py-2 px-3 rounded-md bg-sky-500/50 hover:bg-sky-500/70">Contatti</a></li>
+      <li><a href="{{ '/' | relative_url }}#home" class="block py-3 px-4 rounded-lg hover:bg-slate-800/80 transition" style="color: var(--text-secondary);">Home</a></li>
+      <li><a href="{{ '/articles/' | relative_url }}" class="block py-3 px-4 rounded-lg hover:bg-slate-800/80 transition" style="color: var(--text-secondary);">Articoli</a></li>
+      <li><a href="{{ '/about/' | relative_url }}" class="block py-3 px-4 rounded-lg hover:bg-slate-800/80 transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="block py-3 px-4 rounded-lg bg-sky-500/20 hover:bg-sky-500/70 transition" style="color: var(--med-teal);">Contatti</a></li>
     </ul>
   </div>
 </header>

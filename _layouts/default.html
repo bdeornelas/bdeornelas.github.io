@@ -167,7 +167,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Lucide Icons -->
   <script defer src="https://unpkg.com/lucide@latest"></script>
@@ -179,49 +179,34 @@
   <!-- CSS personalizzato -->
   <link rel="stylesheet" href="/assets/css/style.min.css?v={{ site.time | date: '%s' }}">
 </head>
-<body class="bg-slate-900 text-gray-200">
+<body class="theme-home">
 
   <!-- Skip to main content link for accessibility -->
   <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-sky-500 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
     Salta al contenuto principale
   </a>
 
-  <!-- ECG ULTRA-REALISTIC BACKGROUND -->
+  <!-- ECG BACKGROUND -->
   <div class="ecg-background" aria-hidden="true">
     <svg class="ecg-background-svg" viewBox="0 0 800 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <defs>
-        <!-- Premium gradient: Sky Blue → Purple -->
+        <!-- Mediterranean gradient -->
         <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
-          <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.8" />
-          <stop offset="45%" stop-color="#38bdf8" stop-opacity="1" />
-          <stop offset="55%" stop-color="#a78bfa" stop-opacity="1" />
-          <stop offset="85%" stop-color="#a78bfa" stop-opacity="0.8" />
-          <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.3" />
+          <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3" />
+          <stop offset="50%" stop-color="#14b8a6" stop-opacity="1" />
+          <stop offset="100%" stop-color="#0284c7" stop-opacity="0.3" />
         </linearGradient>
 
-        <!-- Medical-grade ECG grid (increased 30% opacity) -->
+        <!-- Subtle grid -->
         <pattern id="ecgGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-          <!-- Major grid lines -->
-          <rect width="20" height="20" fill="none" stroke="rgba(56, 189, 248, 0.117)" stroke-width="1"/>
-          <!-- Minor grid lines -->
-          <line x1="4" y1="0" x2="4" y2="20" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="8" y1="0" x2="8" y2="20" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="12" y1="0" x2="12" y2="20" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="16" y1="0" x2="16" y2="20" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="0" y1="4" x2="20" y2="4" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="0" y1="8" x2="20" y2="8" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="0" y1="12" x2="20" y2="12" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
-          <line x1="0" y1="16" x2="20" y2="16" stroke="rgba(56, 189, 248, 0.047)" stroke-width="0.5"/>
+          <rect width="20" height="20" fill="none" stroke="rgba(20, 184, 166, 0.1)" stroke-width="1"/>
         </pattern>
 
-        <!-- Premium glow filter (80% intensity) -->
+        <!-- Soft glow filter -->
         <filter id="premiumGlow">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur1"/>
-          <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="blur2"/>
-          <feGaussianBlur in="SourceGraphic" stdDeviation="4.8" result="blur3"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur1"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur2"/>
           <feMerge>
-            <feMergeNode in="blur3"/>
             <feMergeNode in="blur2"/>
             <feMergeNode in="blur1"/>
             <feMergeNode in="SourceGraphic"/>
@@ -232,7 +217,7 @@
       <!-- Medical grid background -->
       <rect width="100%" height="100%" fill="url(#ecgGrid)"/>
 
-      <!-- Single ultra-realistic ECG trace (amplitude: 70%) -->
+      <!-- ECG trace -->
       <g class="ecg-primary">
         <path d="M 0,50 L 80,50 Q 95,50 100,44.4 Q 105,44.4 110,50 L 145,50 L 150,53.5 L 155,44.4 L 160,4.5 L 165,58.4 L 170,50 L 205,50 Q 220,39.5 240,37.4 Q 260,39.5 275,50 L 800,50"
               fill="none"
@@ -240,8 +225,7 @@
               stroke-width="2.5"
               stroke-linecap="round"
               stroke-linejoin="round"
-              filter="url(#premiumGlow)"
-              class="ecg-glow"/>
+              filter="url(#premiumGlow)"/>
       </g>
 
       <!-- Secondary wave for seamless loop -->
@@ -252,16 +236,15 @@
               stroke-width="2.5"
               stroke-linecap="round"
               stroke-linejoin="round"
-              filter="url(#premiumGlow)"
-              class="ecg-glow"/>
+              filter="url(#premiumGlow)"/>
       </g>
     </svg>
   </div>
 
-  <!-- SUBTLE GLOW OVERLAY -->
-  <div class="absolute top-0 left-0 right-0 -z-10 h-screen w-full" aria-hidden="true">
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 h-96 w-full max-w-4xl rounded-full bg-sky-500/10 blur-3xl pulse-glow-animation"></div>
-  </div>
+  <!-- HERO GLOWS -->
+  <div class="hero-glow glow-emerald" style="width: 600px; height: 600px; top: 10%; left: 10%;" aria-hidden="true"></div>
+  <div class="hero-glow glow-blue" style="width: 500px; height: 500px; top: 30%; right: 15%; animation-delay: 2s;" aria-hidden="true"></div>
+  <div class="hero-glow glow-amber" style="width: 400px; height: 400px; bottom: 10%; left: 50%; animation-delay: 4s;" aria-hidden="true"></div>
 
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 

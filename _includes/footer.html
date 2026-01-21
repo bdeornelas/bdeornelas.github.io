@@ -1,61 +1,63 @@
 <!-- Footer -->
-<footer class="border-t border-slate-700/50 mt-20">
+<footer class="border-t mt-20" style="border-color: var(--border-teal);">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl py-12">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
       <!-- Colonna 1: Info -->
       <div>
-        <h3 class="font-bold text-white mb-4">Dr. Benjamin De Ornelas</h3>
-        <p class="text-slate-300 text-sm mb-4">
+        <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">Dr. Benjamin De Ornelas</h3>
+        <p class="text-sm mb-4" style="color: var(--text-secondary);">
           Medico-Chirurgo specializzato in Malattie dell'Apparato Cardiovascolare
         </p>
-        <p class="text-slate-300 text-sm">
+        <p class="text-sm" style="color: var(--text-secondary);">
           <strong>Ordine dei Medici di Palermo</strong><br>
           n. 16105
         </p>
-        <p class="text-slate-300 text-sm mt-2">
+        <p class="text-sm mt-2" style="color: var(--text-secondary);">
           P.IVA: 06937100821
         </p>
       </div>
 
       <!-- Colonna 2: Link Rapidi -->
       <div>
-        <h3 class="font-bold text-white mb-4">Link Rapidi</h3>
+        <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">Link Rapidi</h3>
         <ul class="space-y-2 text-sm">
-          <li><a href="/" class="text-slate-300 hover:text-sky-400 transition">Home</a></li>
-          <li><a href="/about/" class="text-slate-300 hover:text-sky-400 transition">Chi Sono</a></li>
-          <li><a href="/articles/" class="text-slate-300 hover:text-sky-400 transition">Articoli</a></li>
-          <li><a href="/contact/" class="text-slate-300 hover:text-sky-400 transition">Contatti</a></li>
+          <li><a href="{{ '/' | relative_url }}" class="hover-accent transition" style="color: var(--text-secondary);">Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" class="hover-accent transition" style="color: var(--text-secondary);">Chi Sono</a></li>
+          <li><a href="{{ '/articles/' | relative_url }}" class="hover-accent transition" style="color: var(--text-secondary);">Articoli</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}" class="hover-accent transition" style="color: var(--text-secondary);">Contatti</a></li>
         </ul>
       </div>
 
       <!-- Colonna 3: Servizi e Social -->
       <div>
-        <h3 class="font-bold text-white mb-4">I Miei Servizi</h3>
+        <h3 class="font-bold mb-4 text-lg" style="color: var(--text-primary);">I Miei Servizi</h3>
         <ul class="space-y-2 text-sm mb-6">
           <li>
-            <a href="https://www.santagostino.it/it/prenota" target="_blank" rel="noopener" class="text-slate-300 hover:text-emerald-400 transition">
+            <a href="https://www.santagostino.it/it/prenota" target="_blank" rel="noopener"
+               class="hover-accent transition" style="color: var(--text-secondary);">
               Visite a Milano (Santagostino)
             </a>
           </li>
           <li>
-            <a href="https://cuoreinpace.it" target="_blank" rel="noopener" class="text-slate-300 hover:text-violet-400 transition">
+            <a href="https://cuoreinpace.it" target="_blank" rel="noopener"
+               class="hover-accent transition" style="color: var(--text-secondary);">
               Consulti Online (CuoreInPace)
             </a>
           </li>
         </ul>
 
-        <h3 class="font-bold text-white mb-3">Seguimi</h3>
+        <h3 class="font-bold mb-3 text-lg" style="color: var(--text-primary);">Seguimi</h3>
         <div class="flex gap-3">
           <a href="https://it.linkedin.com/in/dr-benjamin-de-ornelas" target="_blank" rel="noopener"
-             class="text-slate-300 hover:text-blue-400 transition" aria-label="LinkedIn">
+             class="hover-accent transition" style="color: var(--text-secondary);" aria-label="LinkedIn">
             <i data-lucide="linkedin" class="w-5 h-5" aria-hidden="true"></i>
           </a>
           <a href="https://instagram.com/dr.deornelas_benjamin" target="_blank" rel="noopener"
-             class="text-slate-300 hover:text-pink-400 transition" aria-label="Instagram">
+             class="hover:text-pink-400 transition" style="color: var(--text-secondary);" aria-label="Instagram">
             <i data-lucide="instagram" class="w-5 h-5" aria-hidden="true"></i>
           </a>
           <a href="https://www.researchgate.net/profile/Benjamin-De-Ornelas" target="_blank" rel="noopener"
-             class="text-slate-300 hover:text-emerald-400 transition" aria-label="ResearchGate">
+             class="hover-accent transition" style="color: var(--text-secondary);" aria-label="ResearchGate">
             <i data-lucide="microscope" class="w-5 h-5" aria-hidden="true"></i>
           </a>
         </div>
@@ -63,13 +65,13 @@
     </div>
 
     <!-- Bottom bar -->
-    <div class="border-t border-slate-700/50 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-300">
+    <div class="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm" style="border-color: var(--border-teal); color: var(--text-secondary);">
       <p>
         © 2025 Dr. Benjamin De Ornelas. Tutti i diritti riservati.
       </p>
       <div class="flex gap-6">
-        <a href="/privacy/" class="hover:text-sky-400 transition">Privacy Policy</a>
-        <a href="/cookie-policy/" class="hover:text-sky-400 transition">Cookie Policy</a>
+        <a href="{{ '/privacy/' | relative_url }}" class="hover-accent transition">Privacy Policy</a>
+        <a href="{{ '/cookie-policy/' | relative_url }}" class="hover-accent transition">Cookie Policy</a>
       </div>
     </div>
   </div>
