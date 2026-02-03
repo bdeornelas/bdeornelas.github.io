@@ -42,3 +42,16 @@ references/esc-consensus-md/*.pdf
 venv/
 __pycache__/
 *.pyc
+
+# Security: credentials and secrets
+config.json
+credentials.json
+secrets.json
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+**/config/credentials.*
+**/config/secrets.*
