@@ -1,0 +1,1156 @@
+---
+layout: default
+title: "Valutazione Dolore Toracico | Dr. Benjamin De Ornelas"
+description: "Strumento clinico OPQRST per la valutazione strutturata del dolore toracico. Uso riservato a professionisti sanitari."
+og_title: "OPQRST — Valutazione Dolore Toracico | Dr. Benjamin De Ornelas"
+og_description: "Strumento clinico OPQRST per la valutazione strutturata del dolore toracico basato sulle linee guida AHA 2021 ed ESC 2023/2024."
+---
+
+<style>
+  /* ── CP Assessment custom styles ── */
+  .cp-section {
+    margin-bottom: 2rem;
+  }
+  .cp-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-bottom: 0.5rem;
+  }
+  .cp-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #14b8a6, #06b6d4);
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    flex-shrink: 0;
+    box-shadow: 0 0 12px rgba(20,184,166,0.4);
+  }
+  .cp-description {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-bottom: 1.25rem;
+    padding-left: 3rem;
+    font-style: italic;
+  }
+  /* Option chips */
+  .option-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    border-radius: 9999px;
+    border: 1.5px solid rgba(100,116,139,0.4);
+    background: rgba(30,41,59,0.6);
+    color: #94a3b8;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  .option-chip:hover {
+    border-color: rgba(20,184,166,0.5);
+    color: #e2e8f0;
+    background: rgba(20,184,166,0.08);
+  }
+  .option-chip.selected {
+    border-color: #14b8a6;
+    background: rgba(20,184,166,0.18);
+    color: #ccfbf1;
+    box-shadow: 0 0 8px rgba(20,184,166,0.2);
+  }
+  .option-chip.red-flag-option {
+    border-color: rgba(239,68,68,0.4);
+  }
+  .option-chip.red-flag-option:hover {
+    border-color: rgba(239,68,68,0.7);
+  }
+  .option-chip.red-flag-option.selected {
+    border-color: #ef4444;
+    background: rgba(239,68,68,0.15);
+    color: #fecaca;
+    box-shadow: 0 0 8px rgba(239,68,68,0.25);
+  }
+  /* Significance tooltip */
+  .option-wrap {
+    position: relative;
+    display: inline-block;
+  }
+  .sig-label {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15,23,42,0.97);
+    border: 1px solid rgba(20,184,166,0.3);
+    color: #cbd5e1;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    max-width: 280px;
+    white-space: normal;
+    z-index: 50;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .option-wrap:hover .sig-label {
+    opacity: 1;
+  }
+  /* Subsection label */
+  .subsec-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #7dd3fc;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.6rem;
+    margin-top: 1rem;
+  }
+  /* NRS slider */
+  .nrs-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 9999px;
+    background: linear-gradient(to right, #14b8a6 0%, #14b8a6 var(--val,0%), rgba(51,65,85,0.8) var(--val,0%), rgba(51,65,85,0.8) 100%);
+    outline: none;
+    cursor: pointer;
+  }
+  .nrs-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #14b8a6, #06b6d4);
+    box-shadow: 0 0 10px rgba(20,184,166,0.5);
+    cursor: pointer;
+    transition: transform 0.15s;
+  }
+  .nrs-slider::-webkit-slider-thumb:hover { transform: scale(1.15); }
+  .nrs-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    color: #64748b;
+    margin-top: 0.3rem;
+  }
+  /* Body map */
+  .body-region {
+    fill: rgba(30,41,59,0.5);
+    stroke: rgba(100,116,139,0.4);
+    stroke-width: 1.5;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .body-region:hover { fill: rgba(20,184,166,0.25); stroke: #14b8a6; }
+  .body-region.selected { fill: rgba(20,184,166,0.35); stroke: #14b8a6; stroke-width: 2; }
+  .body-region.red-flag-region.selected { fill: rgba(239,68,68,0.3); stroke: #ef4444; }
+  /* Red flags */
+  .alert-emergency {
+    background: rgba(239,68,68,0.12);
+    border: 1.5px solid rgba(239,68,68,0.5);
+    border-radius: 12px;
+    padding: 0.9rem 1.1rem;
+    color: #fca5a5;
+    font-size: 0.82rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+    animation: pulse-alert 2s ease-in-out infinite;
+  }
+  .alert-warning {
+    background: rgba(245,158,11,0.12);
+    border: 1.5px solid rgba(245,158,11,0.4);
+    border-radius: 12px;
+    padding: 0.9rem 1.1rem;
+    color: #fcd34d;
+    font-size: 0.82rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+  }
+  @keyframes pulse-alert {
+    0%,100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
+    50% { box-shadow: 0 0 0 4px rgba(239,68,68,0.15); }
+  }
+  /* Diagnosis bar */
+  .dx-bar-outer {
+    background: rgba(30,41,59,0.6);
+    border-radius: 9999px;
+    height: 6px;
+    flex: 1;
+  }
+  .dx-bar-inner {
+    height: 6px;
+    border-radius: 9999px;
+    background: linear-gradient(to right, #14b8a6, #06b6d4);
+    transition: width 0.4s ease;
+  }
+  .dx-bar-inner.critical { background: linear-gradient(to right, #ef4444, #f97316); }
+  /* Progress dots */
+  .progress-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: rgba(51,65,85,0.8);
+    transition: all 0.2s;
+  }
+  .progress-dot.filled { background: #14b8a6; box-shadow: 0 0 6px rgba(20,184,166,0.5); }
+  /* Responsive chip wrap */
+  .chips-wrap { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  /* Section divider */
+  .sec-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(20,184,166,0.2), transparent);
+    margin: 1.5rem 0;
+  }
+  /* Disclaimer box */
+  .disclaimer-box {
+    background: rgba(245,158,11,0.08);
+    border: 1px solid rgba(245,158,11,0.25);
+    border-radius: 12px;
+    padding: 0.9rem 1.1rem;
+    color: #fcd34d;
+    font-size: 0.75rem;
+    line-height: 1.6;
+  }
+  /* Print styles */
+  @media print {
+    .no-print { display: none !important; }
+    .glass-card { background: white !important; color: black !important; border: 1px solid #ccc !important; }
+    body { background: white; }
+  }
+  /* First episode radio */
+  .radio-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    border-radius: 9999px;
+    border: 1.5px solid rgba(100,116,139,0.4);
+    background: rgba(30,41,59,0.6);
+    color: #94a3b8;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  .radio-pill.selected {
+    border-color: #06b6d4;
+    background: rgba(6,182,212,0.15);
+    color: #a5f3fc;
+  }
+  /* Reset btn */
+  .reset-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 9999px;
+    border: 1.5px solid rgba(239,68,68,0.3);
+    background: transparent;
+    color: #fca5a5;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .reset-btn:hover { background: rgba(239,68,68,0.1); border-color: rgba(239,68,68,0.6); }
+</style>
+
+<!-- Hero -->
+<section class="pt-10 pb-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-xs font-semibold mb-4 no-print">
+      <i data-lucide="stethoscope" class="w-3.5 h-3.5"></i>
+      OPQRST — Strumento di Valutazione Clinica
+    </div>
+    <h1 class="text-3xl md:text-4xl font-extrabold mb-3">
+      Valutazione del <span class="gradient-text">Dolore Toracico</span>
+    </h1>
+    <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto mb-5 leading-relaxed">
+      Valutazione strutturata del dolore toracico secondo il metodo OPQRST.<br>
+      Basato su linee guida <strong class="text-slate-300">AHA 2021</strong>, <strong class="text-slate-300">ESC 2023 ACS</strong> e <strong class="text-slate-300">ESC 2024 CCS</strong>.
+    </p>
+    <div class="disclaimer-box max-w-2xl mx-auto text-left">
+      <div class="flex gap-2 items-start">
+        <i data-lucide="shield-alert" class="w-4 h-4 flex-shrink-0 mt-0.5"></i>
+        <span><strong>Uso riservato a professionisti sanitari.</strong> Questo strumento è a supporto clinico e non sostituisce il giudizio medico. Non adatto per la diagnosi autonoma da parte del paziente. In caso di emergenza, chiamare il <strong>118</strong>.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Progress indicator -->
+<div id="progress-bar" class="no-print sticky top-16 z-30 py-2 max-w-4xl mx-auto">
+  <div class="glass-card rounded-xl px-4 py-2 flex items-center justify-between gap-3">
+    <span class="text-xs text-slate-400 font-medium hidden sm:block">Completamento</span>
+    <div class="flex items-center gap-1.5 flex-1 justify-center sm:justify-start" id="progress-dots">
+      <!-- dots filled by JS -->
+    </div>
+    <div class="flex items-center gap-2 no-print">
+      <button onclick="resetAll()" class="reset-btn">
+        <i data-lucide="rotate-ccw" class="w-3 h-3"></i>
+        Azzera
+      </button>
+      <button onclick="window.print()" class="option-chip" style="border-radius:9999px; font-size:0.72rem;">
+        <i data-lucide="printer" class="w-3 h-3"></i> Stampa
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN FORM -->
+<div class="max-w-4xl mx-auto pb-20">
+
+  <!-- ── O: ONSET ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-onset" data-aos="fade-up">
+    <div class="cp-section-title">
+      <span class="cp-letter">O</span>
+      <span>Esordio</span>
+    </div>
+    <p class="cp-description">Come e quando è iniziato il dolore. Cruciale per distinguere emergenze vascolari da processi infiammatori o cronici.</p>
+
+    <div class="subsec-label">Modalità di insorgenza</div>
+    <div class="chips-wrap" id="chips-onset">
+      <div class="option-wrap">
+        <div class="option-chip red-flag-option" data-group="onset" data-id="onset_sudden" onclick="toggleChip(this)">
+          <i data-lucide="zap" class="w-3 h-3"></i> Improvviso (secondi)
+        </div>
+        <div class="sig-label">🚨 Red flag vascolare: dissezione aortica, pneumotorace, EP, Boerhaave</div>
+      </div>
+      <div class="option-wrap">
+        <div class="option-chip" data-group="onset" data-id="onset_acute" onclick="toggleChip(this)">
+          <i data-lucide="activity" class="w-3 h-3"></i> Acuto (minuti)
+        </div>
+        <div class="sig-label">SCA (STEMI/NSTEMI), crisi ipertensiva, tamponamento cardiaco</div>
+      </div>
+      <div class="option-wrap">
+        <div class="option-chip" data-group="onset" data-id="onset_subacute" onclick="toggleChip(this)">
+          <i data-lucide="clock" class="w-3 h-3"></i> Subacuto (ore)
+        </div>
+        <div class="sig-label">Pericardite, miocardite, pleurite, mediastinite</div>
+      </div>
+      <div class="option-wrap">
+        <div class="option-chip" data-group="onset" data-id="onset_gradual" onclick="toggleChip(this)">
+          <i data-lucide="trending-up" class="w-3 h-3"></i> Graduale (giorni–settimane)
+        </div>
+        <div class="sig-label">Angina stabile cronica, patologia muscoloscheletrica, GERD, neoplasia</div>
+      </div>
+      <div class="option-wrap">
+        <div class="option-chip" data-group="onset" data-id="onset_recurrent" onclick="toggleChip(this)">
+          <i data-lucide="repeat" class="w-3 h-3"></i> Ricorrente / Episodico
+        </div>
+        <div class="sig-label">Angina stabile, vasospasmo (Prinzmetal), GERD ricorrente, disturbo d'ansia</div>
+      </div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <div class="subsec-label">Circostanze all'esordio</div>
+    <div class="chips-wrap" id="chips-context">
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_exertion" onclick="toggleChip(this)"><i data-lucide="dumbbell" class="w-3 h-3"></i> Durante sforzo fisico</div><div class="sig-label">Angina da sforzo, stenosi aortica</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_rest" onclick="toggleChip(this)"><i data-lucide="moon" class="w-3 h-3"></i> A riposo</div><div class="sig-label">Angina instabile, vasospasmo (Prinzmetal), SCA, GERD</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_sleep" onclick="toggleChip(this)"><i data-lucide="bed" class="w-3 h-3"></i> Notturno / Durante sonno</div><div class="sig-label">Vasospasmo coronarico, scompenso cardiaco, GERD (decubito)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_emotional_stress" onclick="toggleChip(this)"><i data-lucide="brain" class="w-3 h-3"></i> Dopo stress emotivo</div><div class="sig-label">Takotsubo, SCA, crisi ipertensiva</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_post_meal" onclick="toggleChip(this)"><i data-lucide="utensils" class="w-3 h-3"></i> Post-prandiale</div><div class="sig-label">GERD, colica biliare, angina post-prandiale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_cold_exposure" onclick="toggleChip(this)"><i data-lucide="snowflake" class="w-3 h-3"></i> Esposizione al freddo</div><div class="sig-label">Vasospasmo coronarico, angina da sforzo in ambiente freddo (ESC 2024)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_trauma" onclick="toggleChip(this)"><i data-lucide="shield-off" class="w-3 h-3"></i> Post-traumatico</div><div class="sig-label">Frattura costale, contusione polmonare, pneumotorace traumatico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_substance_use" onclick="toggleChip(this)"><i data-lucide="pill" class="w-3 h-3"></i> Uso di sostanze (cocaina, anfetamine)</div><div class="sig-label">Vasospasmo indotto, SCA in giovani, pneumomediastino</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_immobilization" onclick="toggleChip(this)"><i data-lucide="plane" class="w-3 h-3"></i> Immobilizzazione / Viaggio lungo</div><div class="sig-label">Embolia polmonare (TVP)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="context" data-id="ctx_procedure" onclick="toggleChip(this)"><i data-lucide="scissors" class="w-3 h-3"></i> Post-procedurale / Post-chirurgico</div><div class="sig-label">EP post-op, pericardite post-pericardiotomica, pneumotorace iatrogeno</div></div>
+    </div>
+  </div>
+
+  <!-- ── P: PROVOCATION / PALLIATION ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-pp" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter">P</span>
+      <span>Provocazione / Attenuazione</span>
+    </div>
+    <p class="cp-description">Fattori che aggravano o alleviano il dolore. Fondamentale per distinguere ischemia, pleurite, patologia muscolo-scheletrica e GI.</p>
+
+    <div class="subsec-label">Fattori aggravanti (il dolore peggiora con…)</div>
+    <div class="chips-wrap" id="chips-prov">
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_exertion" onclick="toggleChip(this)"><i data-lucide="dumbbell" class="w-3 h-3"></i> Sforzo fisico</div><div class="sig-label">Angina da sforzo (CAD ostruttiva), stenosi aortica, cardiomiopatia ipertrofica</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_deep_inspiration" onclick="toggleChip(this)"><i data-lucide="wind" class="w-3 h-3"></i> Inspirazione profonda</div><div class="sig-label">Pleurite, pericardite, EP, pneumotorace, frattura costale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_cough" onclick="toggleChip(this)"><i data-lucide="mic-off" class="w-3 h-3"></i> Tosse</div><div class="sig-label">Pleurite, frattura costale, tracheobronchite, pneumotorace</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_movement" onclick="toggleChip(this)"><i data-lucide="move" class="w-3 h-3"></i> Movimento torace / Torsione tronco</div><div class="sig-label">Costocondrite, stiramento muscolare, frattura costale, patologia vertebrale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_palpation" onclick="toggleChip(this)"><i data-lucide="hand" class="w-3 h-3"></i> Palpazione / Pressione</div><div class="sig-label">Costocondrite (Tietze), stiramento muscolare. ⚠️ NON esclude SCA (fino al 6%)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_supine" onclick="toggleChip(this)"><i data-lucide="bed" class="w-3 h-3"></i> Posizione supina</div><div class="sig-label">Pericardite, GERD, scompenso cardiaco (ortopnea)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_swallowing" onclick="toggleChip(this)"><i data-lucide="droplets" class="w-3 h-3"></i> Deglutizione</div><div class="sig-label">Spasmo esofageo, esofagite, mediastinite, rottura esofagea</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_food" onclick="toggleChip(this)"><i data-lucide="utensils" class="w-3 h-3"></i> Assunzione di cibo</div><div class="sig-label">GERD, colica biliare, ulcera peptica, angina post-prandiale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_emotional_stress" onclick="toggleChip(this)"><i data-lucide="brain" class="w-3 h-3"></i> Stress emotivo</div><div class="sig-label">Angina (ESC 2024), Takotsubo, disturbo d'ansia/panico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_arm_movement" onclick="toggleChip(this)"><i data-lucide="chevrons-up" class="w-3 h-3"></i> Movimento braccio / Abduzione spalla</div><div class="sig-label">Sindrome stretto toracico, cuffia dei rotatori, radicolopatia cervicale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="prov" data-id="prov_nothing" onclick="toggleChip(this)">Nessun fattore aggravante</div><div class="sig-label">Non esclude SCA; comune in STEMI</div></div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <div class="subsec-label">Fattori lenitivi (il dolore migliora con…)</div>
+    <div class="chips-wrap" id="chips-pall">
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_rest" onclick="toggleChip(this)"><i data-lucide="pause" class="w-3 h-3"></i> Riposo</div><div class="sig-label">Angina stabile (risoluzione 1–5 min con riposo)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_nitrates" onclick="toggleChip(this)"><i data-lucide="pill" class="w-3 h-3"></i> Nitroglicerina sublinguale</div><div class="sig-label">Angina ischemica (risposta 1–5 min). ⚠️ Anche spasmo esofageo risponde → non patognomonico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_sitting_forward" onclick="toggleChip(this)"><i data-lucide="arrow-up-from-line" class="w-3 h-3"></i> Seduto / Inclinato in avanti</div><div class="sig-label">Pericardite (segno classico), pancreatite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_antacids" onclick="toggleChip(this)"><i data-lucide="beaker" class="w-3 h-3"></i> Antiacidi / IPP</div><div class="sig-label">GERD, esofagite. ⚠️ Risposta agli antiacidi NON esclude SCA (AHA 2021)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_nsaids" onclick="toggleChip(this)"><i data-lucide="pill" class="w-3 h-3"></i> FANS / Analgesici</div><div class="sig-label">Costocondrite, pericardite, patologia muscoloscheletrica</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_belching" onclick="toggleChip(this)"><i data-lucide="wind" class="w-3 h-3"></i> Eruttazione / Emissione gas</div><div class="sig-label">GERD, distensione gastrica, aerofagia</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_anxiolytics" onclick="toggleChip(this)"><i data-lucide="smile" class="w-3 h-3"></i> Ansiolitici / Rilassamento</div><div class="sig-label">Disturbo di panico, ansia. ⚠️ Non esclude patologia organica</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pall" data-id="pall_nothing" onclick="toggleChip(this)">Nessun fattore lenitivo</div><div class="sig-label">Comune in SCA (STEMI), dissezione aortica</div></div>
+    </div>
+  </div>
+
+  <!-- ── Q: QUALITY ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-quality" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter">Q</span>
+      <span>Carattere del Dolore</span>
+    </div>
+    <p class="cp-description">Tipo soggettivo del dolore. Il paziente può usare più descrittori. Orienta verso specifiche categorie diagnostiche.</p>
+
+    <div class="chips-wrap" id="chips-quality">
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_pressure" onclick="toggleChip(this)">⚖️ Oppressivo / Peso</div><div class="sig-label">Classico ischemia miocardica. "Levine sign" = pugno chiuso sul petto (AHA cardiac)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_tightness" onclick="toggleChip(this)">〰️ Costrittivo / Banda</div><div class="sig-label">Ischemia miocardica, ansia/panico, patologia esofagea</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_burning" onclick="toggleChip(this)">🔥 Urente / Bruciore</div><div class="sig-label">GERD, esofagite, MA ANCHE ischemia miocardica (specie inferiore). NON escludere SCA</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_sharp" onclick="toggleChip(this)">📌 Pungente / Lancinante</div><div class="sig-label">Pleurite, pericardite, pneumotorace, EP, costocondrite, ansia. Meno tipico di ischemia ma NON la esclude</div></div>
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="quality" data-id="qual_tearing" onclick="toggleChip(this)">🗡️ Lacerante / Strappante</div><div class="sig-label">🚨 Dissezione aortica (descrittore classico). Intensità massima all'esordio</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_dull_ache" onclick="toggleChip(this)">〰 Sordo / Mal definito</div><div class="sig-label">Patologia muscoloscheletrica, angina atipica, pericardite subacuta</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_crushing" onclick="toggleChip(this)">🪨 Schiacciante / "Come un macigno"</div><div class="sig-label">Ischemia miocardica severa (STEMI)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_throbbing" onclick="toggleChip(this)">💓 Pulsante</div><div class="sig-label">Aneurisma aortico toracico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_discomfort" onclick="toggleChip(this)">💬 Fastidio / Disagio (non dolore)</div><div class="sig-label">Molti pazienti con SCA negano "dolore" e descrivono "disagio". Il termine chest pain è fuorviante (AHA 2021)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_electric" onclick="toggleChip(this)">⚡ Scossa elettrica / Folgore</div><div class="sig-label">Neuropatia (herpes zoster pre-eruttivo), radicolopatia, nevralgia intercostale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="quality" data-id="qual_cramping" onclick="toggleChip(this)">🔄 Crampiforme / Colico</div><div class="sig-label">Spasmo esofageo, colica biliare (dolore riferito)</div></div>
+    </div>
+  </div>
+
+  <!-- ── R: RADIATION ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-radiation" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter">R</span>
+      <span>Irradiazione</span>
+    </div>
+    <p class="cp-description">Pattern di irradiazione. Riflette la distribuzione dermatomica del dolore riferito viscerale. Seleziona tutte le zone interessate.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+      <!-- Body map SVG -->
+      <div class="flex flex-col items-center gap-2">
+        <p class="text-xs text-slate-500 mb-1">Seleziona le aree sulla mappa corporea</p>
+        <svg viewBox="0 0 200 400" class="w-full max-w-[220px]" id="body-map-rad" style="filter:drop-shadow(0 4px 20px rgba(20,184,166,0.12))">
+          <!-- Head -->
+          <ellipse cx="100" cy="38" rx="22" ry="25" fill="rgba(30,41,59,0.5)" stroke="rgba(100,116,139,0.35)" stroke-width="1.5"/>
+          <!-- Neck -->
+          <rect x="91" y="60" width="18" height="18" rx="4" class="body-region" id="bmap-rad-neck" onclick="toggleBodyRegion(this,'rad_neck')" data-label="Collo"/>
+          <!-- Jaw -->
+          <text x="100" y="37" text-anchor="middle" font-size="7" fill="#64748b" style="pointer-events:none;">Mandibola</text>
+          <rect x="80" y="18" width="40" height="20" rx="6" class="body-region" id="bmap-rad-jaw" onclick="toggleBodyRegion(this,'rad_jaw')" data-label="Mandibola/Denti"/>
+
+          <!-- Chest -->
+          <!-- Left shoulder -->
+          <rect x="40" y="78" width="32" height="28" rx="6" class="body-region" id="bmap-rad-left-shoulder" onclick="toggleBodyRegion(this,'rad_left_shoulder')" data-label="Spalla sin."/>
+          <!-- Right shoulder -->
+          <rect x="128" y="78" width="32" height="28" rx="6" class="body-region" id="bmap-rad-right-shoulder" onclick="toggleBodyRegion(this,'rad_right_shoulder')" data-label="Spalla dx."/>
+          <!-- Trunk retrosternal/chest -->
+          <rect x="72" y="78" width="56" height="80" rx="8" class="body-region" id="bmap-rad-chest" onclick="toggleBodyRegion(this,'rad_interscapular')" data-label="Dorso interscapolare (post.)"/>
+          <!-- Add labels for chest regions -->
+          <text x="100" y="120" text-anchor="middle" font-size="6" fill="#475569" style="pointer-events:none;">Torace</text>
+
+          <!-- Left arm -->
+          <rect x="28" y="108" width="24" height="70" rx="10" class="body-region" id="bmap-rad-left-arm" onclick="toggleBodyRegion(this,'rad_left_arm')" data-label="Braccio sinistro"/>
+          <text x="40" y="148" text-anchor="middle" font-size="5.5" fill="#475569" style="pointer-events:none;">Braccio sin.</text>
+          <!-- Right arm -->
+          <rect x="148" y="108" width="24" height="70" rx="10" class="body-region" id="bmap-rad-right-arm" onclick="toggleBodyRegion(this,'rad_right_arm')" data-label="Braccio destro"/>
+          <text x="160" y="148" text-anchor="middle" font-size="5.5" fill="#475569" style="pointer-events:none;">Braccio dx.</text>
+
+          <!-- Epigastrium -->
+          <rect x="72" y="158" width="56" height="36" rx="6" class="body-region" id="bmap-rad-epigastrium" onclick="toggleBodyRegion(this,'rad_epigastrium')" data-label="Epigastrio"/>
+          <text x="100" y="182" text-anchor="middle" font-size="6" fill="#475569" style="pointer-events:none;">Epigastrio</text>
+
+          <!-- Back / interscapular label note -->
+          <text x="100" y="105" text-anchor="middle" font-size="5.5" fill="#64748b" style="pointer-events:none;">(↑clicca per dorso)</text>
+
+          <!-- Throat -->
+          <rect x="87" y="57" width="26" height="22" rx="4" class="body-region" id="bmap-rad-throat" onclick="toggleBodyRegion(this,'rad_throat')" data-label="Gola/Faringe"/>
+          <text x="100" y="72" text-anchor="middle" font-size="5.5" fill="#475569" style="pointer-events:none;">Gola</text>
+        </svg>
+        <p class="text-xs text-slate-600 text-center">Clicca sulle aree per selezionare</p>
+      </div>
+
+      <!-- Chip list -->
+      <div>
+        <div class="chips-wrap" id="chips-radiation">
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_none" onclick="toggleChip(this)">Nessuna irradiazione (localizzato)</div><div class="sig-label">Costocondrite, herpes zoster, patologia parietale</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_left_arm" onclick="toggleChip(this); syncBodyMap('bmap-rad-left-arm','rad_left_arm')">Braccio sinistro (ulnare)</div><div class="sig-label">Classico ischemia miocardica (LR+ 2.3) — AHA 2021 anginal equivalent</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_right_arm" onclick="toggleChip(this); syncBodyMap('bmap-rad-right-arm','rad_right_arm')">Braccio destro</div><div class="sig-label">Ischemia miocardica (meno classico ma significativo)</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_both_arms" onclick="toggleChip(this)">Entrambe le braccia ⭐</div><div class="sig-label">Alto valore predittivo per SCA (LR+ 7.1 — più forte dei singoli bracci)</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_left_shoulder" onclick="toggleChip(this); syncBodyMap('bmap-rad-left-shoulder','rad_left_shoulder')">Spalla sinistra</div><div class="sig-label">Ischemia miocardica, pericardite, patologia splenica (segno di Kehr)</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_right_shoulder" onclick="toggleChip(this); syncBodyMap('bmap-rad-right-shoulder','rad_right_shoulder')">Spalla destra</div><div class="sig-label">Colecistite (dolore riferito diaframmatico), patologia epatica</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_jaw" onclick="toggleChip(this); syncBodyMap('bmap-rad-jaw','rad_jaw')">Mandibola / Denti</div><div class="sig-label">Ischemia miocardica — AHA 2021 anginal equivalent</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_neck" onclick="toggleChip(this); syncBodyMap('bmap-rad-neck','rad_neck')">Collo / Giugulare</div><div class="sig-label">Ischemia miocardica, dissezione carotidea — AHA 2021 anginal equivalent</div></div>
+          <div class="option-wrap"><div class="option-chip red-flag-option" data-group="radiation" data-id="rad_interscapular" onclick="toggleChip(this); syncBodyMap('bmap-rad-chest','rad_interscapular')">Dorso interscapolare 🚨</div><div class="sig-label">🚨 Dissezione aortica (classico), SCA posteriore, patologia esofagea</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_back_general" onclick="toggleChip(this)">Dorso (generico)</div><div class="sig-label">Dissezione aortica, pancreatite, patologia vertebrale, EP</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_epigastrium" onclick="toggleChip(this); syncBodyMap('bmap-rad-epigastrium','rad_epigastrium')">Epigastrio / Addome sup.</div><div class="sig-label">Ischemia miocardica inferiore, GERD, colecistite, pancreatite — AHA 2021 anginal equivalent</div></div>
+          <div class="option-wrap"><div class="option-chip" data-group="radiation" data-id="rad_throat" onclick="toggleChip(this); syncBodyMap('bmap-rad-throat','rad_throat')">Gola / Faringe</div><div class="sig-label">Ischemia miocardica, spasmo esofageo</div></div>
+          <div class="option-wrap"><div class="option-chip red-flag-option" data-group="radiation" data-id="rad_migratory" onclick="toggleChip(this)">Migrante (si sposta) 🚨</div><div class="sig-label">🚨 Dissezione aortica (il dolore migra seguendo il flap intimale)</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── S: SEVERITY + SITE ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-severity" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter">S</span>
+      <span>Intensità &amp; Sintomi Associati</span>
+    </div>
+    <p class="cp-description">AHA 2021: "Pain, pressure, tightness, or discomfort + shortness of breath + fatigue are anginal equivalents."</p>
+
+    <!-- NRS slider -->
+    <div class="subsec-label">Intensità del dolore — NRS (0–10)</div>
+    <div class="mb-4">
+      <div class="flex items-center gap-4">
+        <input type="range" min="0" max="10" value="0" id="nrs-slider" class="nrs-slider flex-1"
+          oninput="updateNRS(this.value)">
+        <div id="nrs-display" class="text-2xl font-extrabold w-10 text-center" style="color:#14b8a6;">0</div>
+      </div>
+      <div class="nrs-labels">
+        <span>0 Nessun dolore</span><span>1-3 Lieve</span><span>4-6 Moderato</span><span>7-9 Severo</span><span>10 Insopportabile</span>
+      </div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <!-- Associated symptoms -->
+    <div class="subsec-label">Sintomi associati</div>
+
+    <div class="subsec-label" style="color:#a78bfa; font-size:0.72rem; margin-top:0.8rem;">Autonomici</div>
+    <div class="chips-wrap mb-3">
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="sx" data-id="sx_diaphoresis" onclick="toggleChip(this)">💧 Diaforesi (sudorazione fredda)</div><div class="sig-label">🚨 Forte associazione SCA (LR+ 2.0)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_nausea" onclick="toggleChip(this)">🤢 Nausea</div><div class="sig-label">SCA (specie inferiore), EP. Più comune nelle donne con ACS (AHA 2021)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_vomiting" onclick="toggleChip(this)">🤮 Vomito</div><div class="sig-label">SCA inferiore (stimolazione vagale), patologia GI</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_pallor" onclick="toggleChip(this)">⚪ Pallore</div><div class="sig-label">Risposta simpatica, ipoperfusione, anemia acuta</div></div>
+    </div>
+
+    <div class="subsec-label" style="color:#38bdf8; font-size:0.72rem;">Cardiorespiratòri</div>
+    <div class="chips-wrap mb-3">
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_dyspnea" onclick="toggleChip(this)">🫁 Dispnea</div><div class="sig-label">Equivalente anginoso (AHA 2021), scompenso, EP, pneumotorace, ansia</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_orthopnea" onclick="toggleChip(this)">🛏️ Ortopnea</div><div class="sig-label">Scompenso cardiaco acuto, edema polmonare</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_palpitations" onclick="toggleChip(this)">💗 Palpitazioni</div><div class="sig-label">Aritmie, SCA, EP, ansia. Più comuni nelle donne con ACS (AHA 2021)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_cough" onclick="toggleChip(this)">🌬️ Tosse</div><div class="sig-label">EP (secca), scompenso (notturna), pleurite</div></div>
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="sx" data-id="sx_hemoptysis" onclick="toggleChip(this)">🩸 Emottisi 🚨</div><div class="sig-label">🚨 EP, neoplasia polmonare, TBC</div></div>
+    </div>
+
+    <div class="subsec-label" style="color:#f472b6; font-size:0.72rem;">Neurologici</div>
+    <div class="chips-wrap mb-3">
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="sx" data-id="sx_syncope" onclick="toggleChip(this)">😵 Sincope / Pre-sincope 🚨</div><div class="sig-label">🚨 Dissezione aortica, EP massiva, aritmia, stenosi aortica, tamponamento</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_dizziness" onclick="toggleChip(this)">💫 Vertigine / Capogiro</div><div class="sig-label">Ipotensione, aritmia, anemia, ansia</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_confusion" onclick="toggleChip(this)">🌀 Confusione / Delirium</div><div class="sig-label">Ipoperfusione cerebrale, SCA nell'anziano >75 anni (AHA 2021)</div></div>
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="sx" data-id="sx_focal_neuro" onclick="toggleChip(this)">⚠️ Deficit neurologico focale 🚨</div><div class="sig-label">🚨 Dissezione aortica con coinvolgimento delle arterie cerebrali, stroke concomitante</div></div>
+    </div>
+
+    <div class="subsec-label" style="color:#86efac; font-size:0.72rem;">Generali</div>
+    <div class="chips-wrap mb-3">
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_fatigue" onclick="toggleChip(this)">😴 Astenia / Fatica</div><div class="sig-label">Equivalente anginoso (AHA 2021), specie in donne e anziani</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_anxiety" onclick="toggleChip(this)">😰 Ansia / Sensazione morte imminente (angor animi)</div><div class="sig-label">SCA (angor animi), disturbo di panico, EP</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_fever" onclick="toggleChip(this)">🌡️ Febbre</div><div class="sig-label">Pericardite, miocardite, polmonite, mediastinite, endocardite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_weight_loss" onclick="toggleChip(this)">📉 Calo ponderale recente</div><div class="sig-label">Neoplasia (polmonare, mediastinica), TBC, endocardite subacuta</div></div>
+    </div>
+
+    <div class="subsec-label" style="color:#fbbf24; font-size:0.72rem;">Altri</div>
+    <div class="chips-wrap">
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="sx" data-id="sx_leg_swelling" onclick="toggleChip(this)">🦵 Edema / Dolore arto inferiore 🚨</div><div class="sig-label">🚨 TVP → Embolia polmonare</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_rash" onclick="toggleChip(this)">🔴 Eruzione cutanea dermatomica</div><div class="sig-label">Herpes zoster (il dolore precede l'eruzione di 48–72h)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_dysphagia" onclick="toggleChip(this)">🍽️ Disfagia</div><div class="sig-label">Patologia esofagea, compressione mediastinica</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="sx" data-id="sx_hoarseness" onclick="toggleChip(this)">🎙️ Raucedine</div><div class="sig-label">Compressione nervo laringeo ricorrente (aneurisma aortico, massa mediastinica)</div></div>
+    </div>
+  </div>
+
+  <!-- ── SITE ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-site" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);">Si</span>
+      <span>Site — Localizzazione</span>
+    </div>
+    <p class="cp-description">Posizione anatomica del dolore. Usare le chips per selezionare la sede.</p>
+
+    <div class="subsec-label">Tipo di localizzazione</div>
+    <div class="chips-wrap mb-4" id="chips-loctype">
+      <div class="option-wrap"><div class="option-chip" data-group="loctype" data-id="loc_diffuse" onclick="toggleChip(this)">Diffuso / Mano aperta</div><div class="sig-label">Dolore viscerale (ischemia miocardica, patologia esofagea). Palm sign suggerisce origine viscerale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="loctype" data-id="loc_focal" onclick="toggleChip(this)">Focale / Puntiforme (un dito)</div><div class="sig-label">Dolore somatico/parietale (costocondrite, frattura, herpes zoster). Meno tipico di ischemia</div></div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <div class="subsec-label">Regione anatomica</div>
+    <div class="chips-wrap" id="chips-site">
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_retrosternal" onclick="toggleChip(this)">Retrosternale</div><div class="sig-label">Ischemia miocardica, GERD, spasmo esofageo, mediastinite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_precordial" onclick="toggleChip(this)">Precordiale</div><div class="sig-label">Pericardite, ansia, costocondrite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_left_chest" onclick="toggleChip(this)">Emitorace sinistro</div><div class="sig-label">Pleurite, pneumotorace, patologia polmonare sinistra</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_right_chest" onclick="toggleChip(this)">Emitorace destro</div><div class="sig-label">EP, pleurite, patologia epatica/colecisti (riferito)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_bilateral_chest" onclick="toggleChip(this)">Bilaterale / Diffuso al torace</div><div class="sig-label">Pericardite, SCA esteso, EP bilaterale</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_upper_sternal" onclick="toggleChip(this)">Sternale superiore / Manubrio</div><div class="sig-label">Patologia aortica, tiroidite (raro)</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_lower_sternal" onclick="toggleChip(this)">Sternale inferiore / Xifoideo</div><div class="sig-label">GERD, patologia gastrica, ischemia inferiore</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_lateral_chest" onclick="toggleChip(this)">Parete toracica laterale</div><div class="sig-label">Frattura costale, herpes zoster, pleurite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_epigastric" onclick="toggleChip(this)">Epigastrico</div><div class="sig-label">SCA inferiore, GERD, ulcera peptica, pancreatite, colecistite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="site" data-id="site_back" onclick="toggleChip(this)">Dorsale / Posteriore</div><div class="sig-label">Dissezione aortica, patologia vertebrale, ulcera perforata</div></div>
+    </div>
+  </div>
+
+  <!-- ── T: TIMING ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-timing" data-aos="fade-up" data-aos-delay="50">
+    <div class="cp-section-title">
+      <span class="cp-letter" style="background:linear-gradient(135deg,#f59e0b,#f97316);">T</span>
+      <span>Durata e Andamento</span>
+    </div>
+    <p class="cp-description">Durata, andamento temporale del dolore. Cruciale per distinguere angina (2–20 min) da SCA (&gt;20 min) da dolore non cardiaco.</p>
+
+    <div class="subsec-label">Durata dell'episodio</div>
+    <div class="chips-wrap mb-4" id="chips-duration">
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_fleeting" onclick="toggleChip(this)">&lt; 30 secondi (fugace)</div><div class="sig-label">Improbabile ischemia. Muscoloscheletrico, extrasistole, ansia, sindrome di Texidor</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_very_short" onclick="toggleChip(this)">30 sec – 2 min</div><div class="sig-label">Improbabile angina tipica. Possibile vasospasmo fugace, aritmia parossistica, ansia</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_anginal" onclick="toggleChip(this)">2 – 20 minuti ⭐</div><div class="sig-label">Range classico dell'angina da sforzo (risoluzione con riposo o nitrati)</div></div>
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="duration" data-id="dur_prolonged" onclick="toggleChip(this)">&gt; 20 minuti 🚨</div><div class="sig-label">🚨 Fortemente suggestivo di SCA (STEMI/NSTEMI) se ischemico. Anche pericardite, EP, dissezione</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_hours" onclick="toggleChip(this)">Ore</div><div class="sig-label">SCA, pericardite, pleurite, muscoloscheletrico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_days" onclick="toggleChip(this)">Giorni</div><div class="sig-label">Meno probabile ischemia acuta. Pericardite, costocondrite, herpes zoster</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="duration" data-id="dur_weeks" onclick="toggleChip(this)">Settimane – Mesi</div><div class="sig-label">Patologia cronica: angina stabile, GERD, muscoloscheletrico, neoplasia, ansia</div></div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <div class="subsec-label">Andamento temporale</div>
+    <div class="chips-wrap mb-4" id="chips-pattern">
+      <div class="option-wrap"><div class="option-chip" data-group="pattern" data-id="pat_continuous" onclick="toggleChip(this)">Continuo (costante)</div><div class="sig-label">SCA in atto (&gt;20 min), dissezione aortica, pericardite, pleurite</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pattern" data-id="pat_intermittent" onclick="toggleChip(this)">Intermittente (episodico)</div><div class="sig-label">Angina stabile, vasospasmo, GERD, colica biliare, ansia</div></div>
+      <div class="option-wrap"><div class="option-chip red-flag-option" data-group="pattern" data-id="pat_crescendo" onclick="toggleChip(this)">Crescendo (frequenza/intensità in aumento) 🚨</div><div class="sig-label">🚨 Angina instabile (crescendo angina) → alto rischio di SCA</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pattern" data-id="pat_pleuritic" onclick="toggleChip(this)">Legato al ciclo respiratorio</div><div class="sig-label">Pleurite, pericardite, EP, pneumotorace</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pattern" data-id="pat_positional" onclick="toggleChip(this)">Legato alla posizione</div><div class="sig-label">Pericardite, GERD, muscoloscheletrico</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pattern" data-id="pat_decreasing" onclick="toggleChip(this)">In risoluzione / Decrescendo</div><div class="sig-label">Episodio in fase di risoluzione</div></div>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <div class="subsec-label">Primo episodio?</div>
+    <div class="flex flex-wrap gap-2 mt-1" id="radio-first">
+      <div class="radio-pill" data-id="first_yes" onclick="selectRadio(this,'first')">Sì, primo episodio assoluto</div>
+      <div class="radio-pill" data-id="first_no_similar" onclick="selectRadio(this,'first')">No, episodi simili in passato</div>
+      <div class="radio-pill" data-id="first_no_different" onclick="selectRadio(this,'first')">No, ma questo è diverso / peggiore</div>
+    </div>
+    <p class="text-xs text-slate-500 mt-2 pl-1">⚠️ Angina instabile di nuova insorgenza = red flag. Episodio diverso dai precedenti → sospetto SCA.</p>
+
+    <!-- Free text note -->
+    <div class="sec-divider"></div>
+    <div class="subsec-label">Note libere</div>
+    <textarea id="free-text" rows="3"
+      class="w-full rounded-xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 resize-none"
+      style="background:rgba(30,41,59,0.7); border:1.5px solid rgba(100,116,139,0.3); outline:none; transition:border-color 0.2s;"
+      placeholder="Aggiungi note cliniche aggiuntive, contesto anamnestico, farmaci, fattori di rischio…"
+      onfocus="this.style.borderColor='rgba(20,184,166,0.6)'"
+      onblur="this.style.borderColor='rgba(100,116,139,0.3)'"></textarea>
+  </div>
+
+  <!-- ── RESULTS PANEL ── -->
+  <div class="glass-card rounded-2xl p-6 md:p-8 cp-section" id="sec-results" data-aos="fade-up">
+    <div class="cp-section-title mb-4">
+      <i data-lucide="alert-triangle" class="w-6 h-6 text-amber-400"></i>
+      <span>Analisi Clinica</span>
+    </div>
+
+    <!-- Red flags -->
+    <div class="subsec-label mb-2">Segnali d'allarme attivi</div>
+    <div id="red-flags-container" class="space-y-2 mb-6">
+      <p class="text-slate-500 text-sm italic" id="no-flags-msg">Nessun segnale d'allarme rilevato. Compilare la scheda per l'analisi automatica dei red flag.</p>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <!-- Differential diagnosis -->
+    <div class="subsec-label mb-3">Diagnosi differenziali orientative</div>
+    <p class="text-xs text-slate-500 mb-3 italic">Basato sul profilo OPQRST selezionato. Ordinato per corrispondenza. <strong class="text-amber-400">Non sostituisce il giudizio clinico.</strong></p>
+    <div id="dx-container" class="space-y-2.5">
+      <p class="text-slate-500 text-sm italic">Selezionare almeno 3 opzioni per generare i suggerimenti diagnostici.</p>
+    </div>
+
+    <div class="sec-divider"></div>
+
+    <!-- Special populations -->
+    <div class="subsec-label mb-2">Popolazioni speciali — presentazioni atipiche</div>
+    <div class="chips-wrap" id="chips-population">
+      <div class="option-chip" data-group="pop" data-id="pop_women" onclick="toggleChip(this)">👩 Donne</div>
+      <div class="option-chip" data-group="pop" data-id="pop_elderly" onclick="toggleChip(this)">👴 Anziani (&gt;75 anni)</div>
+      <div class="option-chip" data-group="pop" data-id="pop_diabetic" onclick="toggleChip(this)">🩺 Diabetici</div>
+      <div class="option-wrap"><div class="option-chip" data-group="pop" data-id="pop_psychiatric" onclick="toggleChip(this)">🧠 Psichiatrici</div></div>
+      <div class="option-wrap"><div class="option-chip" data-group="pop" data-id="pop_young" onclick="toggleChip(this)">👦 Giovani (&lt;40 anni)</div></div>
+    </div>
+    <div id="pop-notes" class="mt-3 space-y-1.5"></div>
+
+    <div class="sec-divider"></div>
+
+    <!-- References -->
+    <div class="subsec-label">Riferimenti</div>
+    <div class="space-y-1 mt-2">
+      <p class="text-xs text-slate-500">• Gulati M, et al. AHA/ACC 2021 Chest Pain Guideline. <em>Circulation.</em> 2021;144:e368. <a href="https://doi.org/10.1161/CIR.0000000000001029" class="text-teal-400 hover:underline" target="_blank">DOI</a></p>
+      <p class="text-xs text-slate-500">• Vrints C, et al. ESC 2024 CCS Guidelines. <em>Eur Heart J.</em> 2024. <a href="https://doi.org/10.1093/eurheartj/ehae177" class="text-teal-400 hover:underline" target="_blank">DOI</a></p>
+      <p class="text-xs text-slate-500">• Byrne RA, et al. ESC 2023 ACS Guidelines. <em>Eur Heart J.</em> 2023;44:3720. <a href="https://doi.org/10.1093/eurheartj/ehad191" class="text-teal-400 hover:underline" target="_blank">DOI</a></p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ─── State ────────────────────────────────────────────────────────────────
+const state = {
+  onset: new Set(),
+  context: new Set(),
+  prov: new Set(),
+  pall: new Set(),
+  quality: new Set(),
+  radiation: new Set(),
+  sx: new Set(),
+  loctype: new Set(),
+  site: new Set(),
+  duration: new Set(),
+  pattern: new Set(),
+  pop: new Set(),
+  first: null,
+  nrs: 0
+};
+
+const SECTION_GROUPS = ['onset','context','prov','pall','quality','radiation','sx','loctype','site','duration','pattern'];
+
+// ─── Chip toggle ──────────────────────────────────────────────────────────
+function toggleChip(el) {
+  const group = el.dataset.group;
+  const id = el.dataset.id;
+  if (!group || !id) return;
+  if (el.classList.contains('selected')) {
+    el.classList.remove('selected');
+    state[group] && state[group].delete(id);
+  } else {
+    el.classList.add('selected');
+    state[group] && state[group].add(id);
+  }
+  updateAll();
+}
+
+// ─── Radio select ─────────────────────────────────────────────────────────
+function selectRadio(el, group) {
+  document.querySelectorAll(`#radio-${group} .radio-pill`).forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+  state[group] = el.dataset.id;
+  updateAll();
+}
+
+// ─── NRS slider ──────────────────────────────────────────────────────────
+function updateNRS(val) {
+  state.nrs = parseInt(val);
+  const display = document.getElementById('nrs-display');
+  const slider = document.getElementById('nrs-slider');
+  display.textContent = val;
+  // Color: green→yellow→orange→red
+  const colors = ['#14b8a6','#14b8a6','#14b8a6','#22c55e','#eab308','#eab308','#f97316','#ef4444','#ef4444','#dc2626','#b91c1c'];
+  display.style.color = colors[parseInt(val)] || '#14b8a6';
+  slider.style.setProperty('--val', (val/10*100) + '%');
+  updateAll();
+}
+
+// ─── Body map sync ────────────────────────────────────────────────────────
+function toggleBodyRegion(svgEl, chipId) {
+  const chip = document.querySelector(`[data-id="${chipId}"]`);
+  if (!chip) return;
+  toggleChip(chip);
+  if (chip.classList.contains('selected')) {
+    svgEl.classList.add('selected');
+    if (svgEl.classList.contains('red-flag-region')) svgEl.classList.add('red-flag-region');
+  } else {
+    svgEl.classList.remove('selected');
+  }
+}
+
+function syncBodyMap(svgId, chipId) {
+  // called from chip onclick — sync the SVG region
+  const svgEl = document.getElementById(svgId);
+  if (!svgEl) return;
+  const chip = document.querySelector(`[data-id="${chipId}"]`);
+  if (!chip) return;
+  setTimeout(() => {
+    if (chip.classList.contains('selected')) svgEl.classList.add('selected');
+    else svgEl.classList.remove('selected');
+  }, 10);
+}
+
+// ─── Progress dots ────────────────────────────────────────────────────────
+function updateProgress() {
+  const container = document.getElementById('progress-dots');
+  if (!container) return;
+  const sections = ['onset','prov','quality','radiation','sx','site','duration'];
+  const labels = ['O','P','Q','R','S','Si','T'];
+  container.innerHTML = '';
+  sections.forEach((s, i) => {
+    const filled = (state[s] && state[s].size > 0) || (s === 'prov' && state.pall && state.pall.size > 0);
+    const dot = document.createElement('div');
+    dot.style.cssText = `width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;border:1.5px solid;transition:all 0.2s;`;
+    if (filled) {
+      dot.style.background = 'rgba(20,184,166,0.2)';
+      dot.style.borderColor = '#14b8a6';
+      dot.style.color = '#14b8a6';
+    } else {
+      dot.style.background = 'transparent';
+      dot.style.borderColor = 'rgba(100,116,139,0.3)';
+      dot.style.color = '#475569';
+    }
+    dot.textContent = labels[i];
+    container.appendChild(dot);
+  });
+}
+
+// ─── Red flags engine ────────────────────────────────────────────────────
+const RED_FLAG_RULES = [
+  {
+    check: s => s.onset.has('onset_sudden') && s.quality.has('qual_tearing') && (s.radiation.has('rad_interscapular') || s.radiation.has('rad_migratory') || s.radiation.has('rad_back_general')),
+    level: 'emergency',
+    text: 'SOSPETTA DISSEZIONE AORTICA',
+    action: 'TC angio urgente + chirurgia vascolare'
+  },
+  {
+    check: s => (s.quality.has('qual_pressure') || s.quality.has('qual_crushing') || s.quality.has('qual_tightness') || s.quality.has('qual_discomfort')) && (s.radiation.has('rad_left_arm') || s.radiation.has('rad_both_arms') || s.radiation.has('rad_jaw')) && s.sx.has('sx_diaphoresis'),
+    level: 'emergency',
+    text: 'SOSPETTA SCA AD ALTO RISCHIO',
+    action: 'ECG 12 derivazioni entro 10 min + troponina urgente'
+  },
+  {
+    check: s => s.duration.has('dur_prolonged') && (s.quality.has('qual_pressure') || s.quality.has('qual_crushing') || s.quality.has('qual_tightness')),
+    level: 'emergency',
+    text: 'SOSPETTO STEMI/NSTEMI',
+    action: 'ECG + troponina urgenti, considerare attivazione emodinamica'
+  },
+  {
+    check: s => s.pattern.has('pat_crescendo'),
+    level: 'emergency',
+    text: 'ANGINA CRESCENDO (INSTABILE)',
+    action: 'Valutazione urgente per SCA, monitoraggio continuo'
+  },
+  {
+    check: s => s.sx.has('sx_syncope') && (s.onset.has('onset_sudden') || s.quality.has('qual_tearing')),
+    level: 'emergency',
+    text: 'SOSPETTA EP MASSIVA o DISSEZIONE + SINCOPE',
+    action: 'Monitoraggio continuo, ecocardio POCUS urgente'
+  },
+  {
+    check: s => s.sx.has('sx_focal_neuro') && (s.quality.has('qual_tearing') || s.onset.has('onset_sudden')),
+    level: 'emergency',
+    text: 'SOSPETTA DISSEZIONE AORTICA CON MALPERFUSIONE CEREBRALE',
+    action: 'TC angio testa-collo-torace-addome urgente'
+  },
+  {
+    check: s => s.sx.has('sx_hemoptysis') && s.prov.has('prov_deep_inspiration'),
+    level: 'warning',
+    text: 'SOSPETTA EMBOLIA POLMONARE',
+    action: 'Score di Wells/Geneva, D-dimero, TC angio polmonare'
+  },
+  {
+    check: s => s.sx.has('sx_leg_swelling') && s.prov.has('prov_deep_inspiration'),
+    level: 'warning',
+    text: 'SOSPETTA TVP → EMBOLIA POLMONARE',
+    action: 'Score di Wells, eco compressiva arto inferiore, D-dimero'
+  },
+  {
+    check: s => s.onset.has('onset_sudden') && s.sx.has('sx_dyspnea') && !s.quality.has('qual_tearing'),
+    level: 'warning',
+    text: 'SOSPETTO PNEUMOTORACE',
+    action: 'Rx torace urgente o eco point-of-care (POCUS)'
+  },
+  {
+    check: s => s.quality.has('qual_tearing') || s.radiation.has('rad_migratory'),
+    level: 'warning',
+    text: 'CARATTERE LACERANTE o IRRADIAZIONE MIGRANTE',
+    action: 'Escludere dissezione aortica. TC angio se stabilità emodinamica'
+  },
+  {
+    check: s => s.sx.has('sx_syncope'),
+    level: 'warning',
+    text: 'SINCOPE ASSOCIATA A DOLORE TORACICO',
+    action: 'ECG urgente, ecocardio, considerare EP, aritmia maligna, stenosi aortica'
+  },
+  {
+    check: s => (s.first === 'first_no_different'),
+    level: 'warning',
+    text: 'EPISODIO DIVERSO DAI PRECEDENTI',
+    action: 'Alto sospetto per SCA. Escludere progressione di malattia'
+  },
+  {
+    check: s => s.nrs >= 9,
+    level: 'warning',
+    text: 'DOLORE MASSIMALE (NRS ≥ 9)',
+    action: 'Intensità massima all\'esordio: red flag per emergenza vascolare'
+  }
+];
+
+function updateRedFlags() {
+  const container = document.getElementById('red-flags-container');
+  const noMsg = document.getElementById('no-flags-msg');
+  const flags = RED_FLAG_RULES.filter(r => r.check(state));
+
+  if (flags.length === 0) {
+    container.innerHTML = '';
+    container.appendChild(noMsg);
+    noMsg.style.display = '';
+    return;
+  }
+
+  noMsg.style.display = 'none';
+  container.innerHTML = '';
+
+  // Emergency first
+  flags.filter(f => f.level === 'emergency').forEach(f => {
+    const el = document.createElement('div');
+    el.className = 'alert-emergency';
+    el.innerHTML = `<i data-lucide="alert-octagon" style="width:16px;height:16px;flex-shrink:0;margin-top:1px;"></i>
+      <div><strong>${f.text}</strong><br><span style="color:#f1a1a1;font-size:0.75rem;">→ ${f.action}</span></div>`;
+    container.appendChild(el);
+  });
+
+  flags.filter(f => f.level === 'warning').forEach(f => {
+    const el = document.createElement('div');
+    el.className = 'alert-warning';
+    el.innerHTML = `<i data-lucide="alert-triangle" style="width:15px;height:15px;flex-shrink:0;margin-top:1px;"></i>
+      <div><strong>${f.text}</strong><br><span style="color:#fde68a;font-size:0.75rem;">→ ${f.action}</span></div>`;
+    container.appendChild(el);
+  });
+
+  // Re-init lucide icons
+  if (window.lucide) lucide.createIcons();
+}
+
+// ─── Differential diagnosis engine ──────────────────────────────────────
+const DX_DB = [
+  {
+    id:'dx_aortic_dissection', label:'Dissezione Aortica', icd:'I71.0', critical:true,
+    onset:['onset_sudden'], prov:['prov_nothing'], pall:['pall_nothing'],
+    quality:['qual_tearing'], radiation:['rad_interscapular','rad_back_general','rad_migratory'],
+    duration:['dur_prolonged','dur_hours'], sx:['sx_syncope','sx_focal_neuro','sx_diaphoresis']
+  },
+  {
+    id:'dx_acs', label:'Sindrome Coronarica Acuta (SCA)', icd:'I21-I24', critical:true,
+    onset:['onset_acute'], prov:['prov_exertion','prov_emotional_stress'],
+    pall:['pall_rest','pall_nitrates'],
+    quality:['qual_pressure','qual_crushing','qual_tightness','qual_discomfort'],
+    radiation:['rad_left_arm','rad_both_arms','rad_jaw','rad_neck','rad_epigastrium'],
+    duration:['dur_anginal','dur_prolonged'], sx:['sx_diaphoresis','sx_nausea','sx_dyspnea','sx_anxiety']
+  },
+  {
+    id:'dx_pe', label:'Embolia Polmonare (EP)', icd:'I26', critical:true,
+    onset:['onset_sudden','onset_acute'], prov:['prov_deep_inspiration'],
+    quality:['qual_sharp','qual_pressure'],
+    radiation:['rad_none','rad_back_general'],
+    duration:['dur_prolonged','dur_hours'],
+    sx:['sx_dyspnea','sx_syncope','sx_hemoptysis','sx_leg_swelling','sx_palpitations']
+  },
+  {
+    id:'dx_pneumothorax', label:'Pneumotorace', icd:'J93', critical:true,
+    onset:['onset_sudden'], prov:['prov_deep_inspiration'],
+    quality:['qual_sharp'], radiation:['rad_none'],
+    duration:['dur_prolonged'], sx:['sx_dyspnea']
+  },
+  {
+    id:'dx_pericarditis', label:'Pericardite', icd:'I30', critical:false,
+    onset:['onset_subacute'], prov:['prov_deep_inspiration','prov_supine','prov_cough'],
+    pall:['pall_sitting_forward','pall_nsaids'],
+    quality:['qual_sharp'], radiation:['rad_left_shoulder','rad_interscapular'],
+    duration:['dur_hours','dur_days'], sx:['sx_fever','sx_dyspnea']
+  },
+  {
+    id:'dx_myocarditis', label:'Miocardite', icd:'I40', critical:true,
+    onset:['onset_subacute'], prov:['prov_exertion'], pall:['pall_rest'],
+    quality:['qual_pressure','qual_sharp'], radiation:['rad_none','rad_left_arm'],
+    duration:['dur_hours','dur_days'], sx:['sx_fever','sx_dyspnea','sx_fatigue','sx_palpitations']
+  },
+  {
+    id:'dx_takotsubo', label:'Cardiomiopatia di Takotsubo', icd:'I51.81', critical:true,
+    onset:['onset_acute'], prov:['prov_emotional_stress'],
+    quality:['qual_pressure','qual_crushing'], radiation:['rad_left_arm'],
+    duration:['dur_prolonged'], sx:['sx_dyspnea','sx_diaphoresis','sx_syncope']
+  },
+  {
+    id:'dx_gerd', label:'GERD / Reflusso Gastroesofageo', icd:'K21', critical:false,
+    onset:['onset_gradual'], prov:['prov_food','prov_supine'],
+    pall:['pall_antacids','pall_sitting_forward'],
+    quality:['qual_burning'], radiation:['rad_throat','rad_none'],
+    duration:['dur_hours'], sx:['sx_dysphagia']
+  },
+  {
+    id:'dx_esophageal_spasm', label:'Spasmo Esofageo', icd:'K22.4', critical:false,
+    onset:['onset_acute'], prov:['prov_swallowing','prov_food'],
+    pall:['pall_nitrates','pall_antacids'],
+    quality:['qual_crushing','qual_pressure','qual_cramping'],
+    radiation:['rad_interscapular','rad_throat'], duration:['dur_anginal'],
+    sx:['sx_dysphagia']
+  },
+  {
+    id:'dx_costochondritis', label:'Costocondrite / Sindrome di Tietze', icd:'M94.0', critical:false,
+    onset:['onset_gradual','onset_subacute'], prov:['prov_palpation','prov_movement','prov_deep_inspiration'],
+    pall:['pall_nsaids','pall_rest'],
+    quality:['qual_sharp','qual_dull_ache'], radiation:['rad_none'],
+    duration:['dur_days','dur_weeks'], sx:[]
+  },
+  {
+    id:'dx_panic', label:'Disturbo di Panico / Ansia', icd:'F41.0', critical:false,
+    onset:['onset_acute'], prov:['prov_emotional_stress'],
+    pall:['pall_anxiolytics'],
+    quality:['qual_sharp','qual_tightness'], radiation:['rad_none'],
+    duration:['dur_very_short','dur_anginal'],
+    sx:['sx_palpitations','sx_dyspnea','sx_dizziness','sx_anxiety']
+  },
+  {
+    id:'dx_herpes_zoster', label:'Herpes Zoster (pre-eruttivo)', icd:'B02', critical:false,
+    onset:['onset_gradual'], prov:['prov_palpation'], pall:['pall_nsaids'],
+    quality:['qual_burning','qual_electric'], radiation:['rad_none'],
+    duration:['dur_days'], sx:['sx_rash']
+  }
+];
+
+function scoreDx() {
+  const totalSelected = SECTION_GROUPS.reduce((acc, g) => acc + (state[g] ? state[g].size : 0), 0);
+  if (totalSelected < 3) return null;
+
+  return DX_DB.map(dx => {
+    let score = 0, total = 0;
+    const fields = ['onset','prov','pall','quality','radiation','duration','sx'];
+    fields.forEach(f => {
+      if (dx[f] && dx[f].length > 0) {
+        total += dx[f].length;
+        dx[f].forEach(id => {
+          if (state[f] && state[f].has(id)) score++;
+        });
+      }
+    });
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+    return { ...dx, score, total, pct };
+  }).filter(d => d.pct > 0).sort((a, b) => b.pct - a.pct);
+}
+
+function updateDifferentialDiagnosis() {
+  const container = document.getElementById('dx-container');
+  const results = scoreDx();
+
+  if (!results) {
+    container.innerHTML = '<p class="text-slate-500 text-sm italic">Selezionare almeno 3 opzioni per generare i suggerimenti diagnostici.</p>';
+    return;
+  }
+
+  if (results.length === 0) {
+    container.innerHTML = '<p class="text-slate-500 text-sm italic">Nessuna corrispondenza trovata con le selezioni correnti.</p>';
+    return;
+  }
+
+  container.innerHTML = '';
+  results.slice(0, 8).forEach((dx, i) => {
+    const el = document.createElement('div');
+    el.style.cssText = 'display:flex;align-items:center;gap:0.75rem;padding:0.6rem 0;';
+    const rankColor = i === 0 ? '#14b8a6' : i <= 2 ? '#06b6d4' : '#475569';
+    const isCritical = dx.critical;
+    const barClass = isCritical ? 'dx-bar-inner critical' : 'dx-bar-inner';
+    const barColor = isCritical && dx.pct > 40 ? 'background:linear-gradient(to right, #ef4444, #f97316);' : '';
+    el.innerHTML = `
+      <span style="font-size:0.7rem;font-weight:700;color:${rankColor};width:18px;text-align:center;flex-shrink:0;">${i+1}</span>
+      <div style="flex:1;min-width:0;">
+        <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.25rem;">
+          ${isCritical ? '<span style="font-size:0.6rem;background:rgba(239,68,68,0.15);color:#fca5a5;border:1px solid rgba(239,68,68,0.3);border-radius:9999px;padding:1px 6px;">critica</span>' : ''}
+          <span style="font-size:0.82rem;font-weight:600;color:#e2e8f0;">${dx.label}</span>
+          <span style="font-size:0.65rem;color:#475569;">${dx.icd}</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <div class="dx-bar-outer"><div class="${barClass}" style="width:${dx.pct}%;${barColor}"></div></div>
+          <span style="font-size:0.72rem;color:#64748b;width:34px;text-align:right;flex-shrink:0;">${dx.pct}%</span>
+        </div>
+      </div>`;
+    container.appendChild(el);
+  });
+}
+
+// ─── Special populations ─────────────────────────────────────────────────
+const POP_NOTES = {
+  pop_women: [
+    'Più frequentemente: nausea, palpitazioni, dispnea come sintomi principali (AHA 2021)',
+    'Meno frequentemente descrivono dolore toracico "classico"',
+    'Maggiore prevalenza di INOCA/MINOCA e vasospasmo coronarico'
+  ],
+  pop_elderly: [
+    'Presentazione atipica comune: caduta, sincope, delirium, dispnea isolata (AHA 2021)',
+    'Assenza di dolore toracico fino al 40% dei casi di SCA',
+    'Maggiore comorbidità che confonde il quadro clinico'
+  ],
+  pop_diabetic: [
+    'Neuropatia autonomica → possibile ischemia silente senza dolore',
+    'Presentazione frequente: dispnea, astenia, confusione senza dolore toracico',
+    'Associazione nota tra diabete e assenza di chest pain in ACS'
+  ],
+  pop_psychiatric: [
+    '⚠️ Rischio di sotto-diagnosi per bias di attribuzione ("è ansia")',
+    'Pazienti con disturbi psichiatrici hanno rischio CV aumentato',
+    'Non attribuire il dolore toracico a causa psichiatrica prima di esclusione organica'
+  ],
+  pop_young: [
+    'Considerare: miocardite, cocaina/sostanze, anomalie coronariche congenite, SCAD',
+    'SCA è rara ma non impossibile nei giovani',
+    'Sindrome di Marfan → rischio dissezione aortica'
+  ]
+};
+
+function updatePopNotes() {
+  const container = document.getElementById('pop-notes');
+  container.innerHTML = '';
+  state.pop.forEach(id => {
+    if (POP_NOTES[id]) {
+      const el = document.createElement('div');
+      el.style.cssText = 'background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.2);border-radius:10px;padding:0.6rem 0.8rem;margin-bottom:0.5rem;';
+      el.innerHTML = `<ul style="list-style:none;padding:0;margin:0;space-y:0.25rem;">${POP_NOTES[id].map(n => `<li style="font-size:0.75rem;color:#a5b4fc;padding:0.15rem 0;">• ${n}</li>`).join('')}</ul>`;
+      container.appendChild(el);
+    }
+  });
+}
+
+// ─── Update all ───────────────────────────────────────────────────────────
+function updateAll() {
+  updateProgress();
+  updateRedFlags();
+  updateDifferentialDiagnosis();
+  updatePopNotes();
+}
+
+// ─── Reset ────────────────────────────────────────────────────────────────
+function resetAll() {
+  if (!confirm('Azzerare tutti i campi della scheda?')) return;
+  SECTION_GROUPS.forEach(g => state[g] && state[g].clear());
+  state.pop.clear();
+  state.first = null;
+  state.nrs = 0;
+  // Reset UI
+  document.querySelectorAll('.option-chip.selected, .radio-pill.selected').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('.body-region.selected').forEach(el => el.classList.remove('selected'));
+  const slider = document.getElementById('nrs-slider');
+  if (slider) { slider.value = 0; updateNRS(0); }
+  document.getElementById('free-text') && (document.getElementById('free-text').value = '');
+  updateAll();
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  updateProgress();
+  updateRedFlags();
+  // NRS slider gradient init
+  const slider = document.getElementById('nrs-slider');
+  if (slider) slider.style.setProperty('--val', '0%');
+});
+</script>
