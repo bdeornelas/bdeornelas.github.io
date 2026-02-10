@@ -201,7 +201,7 @@ La maggior parte delle persone con un soffio al cuore, che sia innocente o legat
 
 **Stile di Vita Cardioprotettivo:**
 
-• **Alimentazione equilibrata** – **Dieta mediterranea** (alimentazione ricca di frutta, verdura, pesce e cereali integrali) ricca di frutta, verdura, pesce e cereali integrali
+• **Alimentazione equilibrata** – **Dieta mediterranea** (alimentazione ricca di frutta, verdura, pesce e cereali integrali)
 
 • **Attività fisica regolare** – Almeno 150 minuti di esercizio moderato a settimana, adattato alle proprie condizioni
 

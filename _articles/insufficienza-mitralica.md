@@ -49,7 +49,7 @@ L'insufficienza mitralica può svilupparsi per molte ragioni diverse. È importa
 
 Queste forme sono dovute a un problema intrinseco della valvola:
 
-• **Degenerazione mixomatosa**"prolassano". Spesso c'è familiarità. La progressione è lenta, nell'arco di anni o decenni
+• **Degenerazione mixomatosa** – I lembi valvolari "prolassano". Spesso c'è familiarità. La progressione è lenta, nell'arco di anni o decenni
 
 • **Rottura delle corde tendinee** – La rottura improvvisa delle corde che tengono i lembi della valvola causa insufficienza mitralica acuta grave. Le cause includono degenerazione del tessuto (50-60 persone su 100), rottura spontanea senza causa apparente (20-30 persone su 100), **endocardite**, o raramente trauma. I sintomi si sviluppano rapidamente e richiedono valutazione urgente
 
