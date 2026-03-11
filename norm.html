@@ -905,7 +905,8 @@ Stile di Vita Completo: Ricordare che la dieta è più efficace se inserita in u
                 sforzoSectionOutput,
                 formatSection("ESAMI EMATOCHIMICI", ematochimiciText, indent, sectionSeparator),
                 formatSection("CONCLUSIONI E RACCOMANDAZIONI TERAPEUTICHE", conclusioniText, indent, sectionSeparator),
-                contattiSectionOutput
+                contattiSectionOutput,
+                (ematoRadio && ematoRadio.id === "emato-data-odierna") ? formatText("\nI risultati degli esami ematochimici potranno essere inviati all'indirizzo email benjamin.deornelas@santagostino.it per la valutazione.", "") : ""
             ].filter(section => section && section.trim()).join("");
 
             // Output UTF-8 nativo (nessuna sanitizzazione)
